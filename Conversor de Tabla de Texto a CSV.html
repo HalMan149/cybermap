@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Conversor de Tabla de Texto a CSV</title>
+  <style>
+    body { font-family: sans-serif; background: #222; color: #eee; padding: 2em; }
+    textarea, pre { width: 99%; min-height: 160px; font-size: 1em; }
+    button { font-size: 1.1em; margin-top: 1em; }
+    label { font-weight: bold; }
+  </style>
+</head>
+<body>
+  <h2>Conversor de Tabla de Texto a CSV</h2>
+  <label>Pega aquí la tabla copiada de Wikipedia o similar:</label>
+  <textarea id="input" placeholder="Pega aquí la tabla..."></textarea>
+  <br>
+  <button onclick="convertirCSV()">Convertir a CSV</button>
+  <br><br>
+  <label>CSV generado:</label>
+  <pre id="output"></pre>
+  <button onclick="descargarCSV()">Descargar CSV</button>
+  <script>
+    function convertirCSV() {
+      let text = document.getElementById('input').value.trim();
+      let lines = text.split(/\r?\n/).filter(line => line.trim() !== '');
+      // Intento separar columnas por tabulación o por varios espacios seguidos
+      let csv = lines.map(line => {
+        // Si es tabulada
+        if(line.indexOf('\t') >= 0) {
+          return line.split('\t').map(campo=>`"${campo.replace(/"/g,'""')}"`).join(",");
+        } else {
+          // Si es por espacios, separa por 2+ espacios
+          return line.split(/  +/).map(campo=>`"${campo.replace(/"/g,'""')}"`).join(",");
+        }
+      }).join("\n");
+      document.getElementById('output').textContent = csv;
+    }
+    function descargarCSV() {
+      let csv = document.getElementById('output').textContent;
+      let blob = new Blob([csv], {type: 'text/csv'});
+      let url = URL.createObjectURL(blob);
+      let a = document.createElement('a');
+      a.href = url;
+      a.download = 'tabla_convertida.csv';
+      a.click();
+      setTimeout(()=>URL.revokeObjectURL(url), 1200);
+    }
+  </script>
+</body>
+</html>
