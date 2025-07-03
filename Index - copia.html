@@ -88,50 +88,6 @@
       maxZoom: 19, minZoom: 2, opacity: 0.85, noWrap: true
     }).addTo(map);
 
-// === CAPA DE CIBERATAQUES EN VIVO (ransomware.live) ===
-async function cargarCiberAtaques() {
-  const maxAtaques = 50; // puedes subir/bajar el número
-  try {
-    const resp = await fetch('https://api.ransomware.live/v1/attacks');
-    const datos = await resp.json();
-    let count = 0;
-    datos.data.forEach(atk => {
-      if (count >= maxAtaques) return;
-      if (!atk.latitude || !atk.longitude) return;
-      const empresa = atk.victim || 'Desconocido';
-      const grupo = atk.group_name || 'Desconocido';
-      const pais = atk.country || 'Desconocido';
-      const fecha = atk.date ? atk.date.slice(0,10) : '---';
-      const ciudad = atk.city || '';
-      const desc = atk.description || '';
-      L.circleMarker([atk.latitude, atk.longitude], {
-        radius: 9,
-        fillColor: "#32faff",
-        color: "#19a9ff",
-        weight: 2,
-        opacity: 0.85,
-        fillOpacity: 0.45,
-        className: "cyber-marker"
-      })
-      .addTo(map)
-      .bindPopup(
-        `<b>${empresa}</b><br>
-        <b>Grupo:</b> ${grupo}<br>
-        <b>País:</b> ${pais} ${ciudad ? ' ('+ciudad+')' : ''}<br>
-        <b>Fecha:</b> ${fecha}<br>
-        ${desc ? `<b>Info:</b> ${desc}` : ''}`
-      );
-      count++;
-    });
-  } catch (e) {
-    console.error('Error cargando ciberataques:', e);
-  }
-}
-cargarCiberAtaques();
-// Opcional: recarga cada 10 min
-setInterval(cargarCiberAtaques, 10*60*1000);
-
-
     // Zonas horarias y relojes
     const zonaHorariaLines = L.layerGroup();
     const relojMarkers = [];
