@@ -62,6 +62,11 @@
 <body>
   <div id="map"></div>
   <div id="noticias-ticker"><span id="noticias-inner"></span></div>
+<div id="ataques-ransomware" style="position:absolute; top:70px; right:40px; z-index:9999; background:rgba(0,0,0,0.65); color:#2cfdfd; padding:10px; border-radius:12px; min-width:260px; font-size:1em;">
+  <b>Últimos ataques ransomware</b>
+  <ul id="lista-ataques" style="margin: 10px 0 0 0; padding-left: 15px;"></ul>
+</div>
+
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script>
     // Mapa oscuro y capa GPS OSM
@@ -268,14 +273,8 @@
     lanzarTicker();
     setInterval(lanzarTicker, 15 * 60 * 1000);
 
-<!-- Contenedor donde aparecerán los ataques (puedes ubicarlo donde quieras) -->
-<div id="ataques-ransomware" style="position:absolute; top:70px; right:40px; z-index:9999; background:rgba(0,0,0,0.65); color:#2cfdfd; padding:10px; border-radius:12px; min-width:260px; font-size:1em;">
-  <b>Últimos ataques ransomware</b>
-  <ul id="lista-ataques" style="margin: 10px 0 0 0; padding-left: 15px;"></ul>
-</div>
-
+  </script>
 <script>
-// Obtiene datos de tu función Netlify serverless y los muestra en una lista y en el mapa
 fetch("/.netlify/functions/ransomware")
   .then(r => r.json())
   .then(datos => {
@@ -285,12 +284,10 @@ fetch("/.netlify/functions/ransomware")
       lista.innerHTML = '<li>No hay datos recientes</li>';
       return;
     }
-    // Para cada ataque, lo añade a la lista y pone un marcador en el mapa si hay localización
     datos.slice(0, 10).forEach(ataque => {
       const li = document.createElement('li');
       li.innerHTML = `<b>${ataque.title || ataque.victim || "Desconocido"}</b> <span style="opacity:0.7;">(${ataque.date || ""})</span>`;
       lista.appendChild(li);
-      // Si hay mapa y datos de localización
       if (typeof window.map !== "undefined" && ataque.latitude && ataque.longitude) {
         L.circleMarker([ataque.latitude, ataque.longitude], {
           radius: 7,
