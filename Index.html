@@ -88,50 +88,6 @@
       maxZoom: 19, minZoom: 2, opacity: 0.85, noWrap: true
     }).addTo(map);
 
-// === CAPA DE CIBERATAQUES EN VIVO (ransomware.live) ===
-async function cargarCiberAtaques() {
-  const maxAtaques = 50; // puedes subir/bajar el número
-  try {
-    const resp = await fetch('https://api.ransomware.live/v1/attacks');
-    const datos = await resp.json();
-    let count = 0;
-    datos.data.forEach(atk => {
-      if (count >= maxAtaques) return;
-      if (!atk.latitude || !atk.longitude) return;
-      const empresa = atk.victim || 'Desconocido';
-      const grupo = atk.group_name || 'Desconocido';
-      const pais = atk.country || 'Desconocido';
-      const fecha = atk.date ? atk.date.slice(0,10) : '---';
-      const ciudad = atk.city || '';
-      const desc = atk.description || '';
-      L.circleMarker([atk.latitude, atk.longitude], {
-        radius: 9,
-        fillColor: "#32faff",
-        color: "#19a9ff",
-        weight: 2,
-        opacity: 0.85,
-        fillOpacity: 0.45,
-        className: "cyber-marker"
-      })
-      .addTo(map)
-      .bindPopup(
-        `<b>${empresa}</b><br>
-        <b>Grupo:</b> ${grupo}<br>
-        <b>País:</b> ${pais} ${ciudad ? ' ('+ciudad+')' : ''}<br>
-        <b>Fecha:</b> ${fecha}<br>
-        ${desc ? `<b>Info:</b> ${desc}` : ''}`
-      );
-      count++;
-    });
-  } catch (e) {
-    console.error('Error cargando ciberataques:', e);
-  }
-}
-cargarCiberAtaques();
-// Opcional: recarga cada 10 min
-setInterval(cargarCiberAtaques, 10*60*1000);
-
-
     // Zonas horarias y relojes
     const zonaHorariaLines = L.layerGroup();
     const relojMarkers = [];
@@ -312,6 +268,46 @@ setInterval(cargarCiberAtaques, 10*60*1000);
     lanzarTicker();
     setInterval(lanzarTicker, 15 * 60 * 1000);
 
-  </script>
+<!-- Contenedor donde aparecerán los ataques (puedes ubicarlo donde quieras) -->
+<div id="ataques-ransomware" style="position:absolute; top:70px; right:40px; z-index:9999; background:rgba(0,0,0,0.65); color:#2cfdfd; padding:10px; border-radius:12px; min-width:260px; font-size:1em;">
+  <b>Últimos ataques ransomware</b>
+  <ul id="lista-ataques" style="margin: 10px 0 0 0; padding-left: 15px;"></ul>
+</div>
+
+<script>
+// Obtiene datos de tu función Netlify serverless y los muestra en una lista y en el mapa
+fetch("/.netlify/functions/ransomware")
+  .then(r => r.json())
+  .then(datos => {
+    const lista = document.getElementById('lista-ataques');
+    lista.innerHTML = '';
+    if (!Array.isArray(datos) || datos.length === 0) {
+      lista.innerHTML = '<li>No hay datos recientes</li>';
+      return;
+    }
+    // Para cada ataque, lo añade a la lista y pone un marcador en el mapa si hay localización
+    datos.slice(0, 10).forEach(ataque => {
+      const li = document.createElement('li');
+      li.innerHTML = `<b>${ataque.title || ataque.victim || "Desconocido"}</b> <span style="opacity:0.7;">(${ataque.date || ""})</span>`;
+      lista.appendChild(li);
+      // Si hay mapa y datos de localización
+      if (typeof window.map !== "undefined" && ataque.latitude && ataque.longitude) {
+        L.circleMarker([ataque.latitude, ataque.longitude], {
+          radius: 7,
+          color: "#f92672",
+          fillColor: "#f92672",
+          fillOpacity: 0.85,
+        }).addTo(map).bindPopup(
+          `<b>${ataque.title || ataque.victim}</b><br>${ataque.date || ""}<br>${ataque.description || ""}`
+        );
+      }
+    });
+  })
+  .catch(err => {
+    document.getElementById('lista-ataques').innerHTML = '<li>Error al cargar datos</li>';
+    console.error(err);
+  });
+</script>
+
 </body>
 </html>
