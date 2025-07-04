@@ -1,18 +1,22 @@
 const fetch = require('node-fetch');
 
 exports.handler = async function(event, context) {
-  const apiKey = '68a2620c-cf8c-4f0c-b233-838df1ea244e';
-  const url = 'https://www.ransomware.live/api/v1/victims/recent';
+  const API_URL = 'https://www.ransomware.live/api/v1/victims/recent';  // o /api/v2 si lo confirmas
+  const API_KEY = '68a2620c-cf8c-4f0c-b233-838df1ea244e';  // tu token API
 
   try {
-    const response = await fetch(url, {
-      headers: { 'X-API-KEY': apiKey }
+    const response = await fetch(API_URL, {
+      method: 'GET',
+      headers: {
+        'X-API-KEY': API_KEY,
+        'Accept': 'application/json'
+      }
     });
 
     if (!response.ok) {
       return {
         statusCode: response.status,
-        body: JSON.stringify({ error: `Error fetching data: ${response.statusText}` })
+        body: `Error fetching data from API: ${response.statusText}`
       };
     }
 
@@ -26,7 +30,7 @@ exports.handler = async function(event, context) {
   } catch (error) {
     return {
       statusCode: 500,
-      body: JSON.stringify({ error: error.message })
+      body: `Server Error: ${error.message}`
     };
   }
 };
