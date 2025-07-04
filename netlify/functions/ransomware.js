@@ -1,21 +1,18 @@
 const fetch = require('node-fetch');
 
-const API_KEY = '68a2620c-cf8c-4f0c-b233-838df1ea244e'; // Tu API key real
-
 exports.handler = async function(event, context) {
+  const apiKey = '68a2620c-cf8c-4f0c-b233-838df1ea244e';
+  const url = 'https://www.ransomware.live/api/v1/victims/recent';
+
   try {
-    const response = await fetch('https://api-pro.ransomware.live/v1/attacks', {
-      headers: {
-        'Authorization': `Bearer ${API_KEY}`,
-        'Accept': 'application/json'
-      }
+    const response = await fetch(url, {
+      headers: { 'X-API-KEY': apiKey }
     });
 
     if (!response.ok) {
       return {
         statusCode: response.status,
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ error: `API error: ${response.statusText}` })
+        body: JSON.stringify({ error: `Error fetching data: ${response.statusText}` })
       };
     }
 
@@ -23,15 +20,13 @@ exports.handler = async function(event, context) {
 
     return {
       statusCode: 200,
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(data.data || data)
+      body: JSON.stringify(data)
     };
 
   } catch (error) {
     return {
       statusCode: 500,
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ error: error.message || 'Unknown error' })
+      body: JSON.stringify({ error: error.message })
     };
   }
 };
