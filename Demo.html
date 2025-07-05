@@ -2,22 +2,18 @@
 <html lang="es">
 <head>
 <meta charset="utf-8" />
-<title>Mapa Choropleth con Campo ISO Corregido</title>
+<title>Demo Choropleth Ransomware</title>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <style>
   #map { height: 100vh; width: 100vw; }
   .legend {
     position: absolute;
-    bottom: 30px;
-    left: 20px;
-    background: white;
-    padding: 6px 8px;
-    font-size: 14px;
-    color: #555;
+    bottom: 30px; left: 20px;
+    background: white; padding: 6px 8px;
+    font-size: 14px; color: #555;
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
-    border-radius: 5px;
-    line-height: 18px;
+    border-radius: 5px; line-height: 18px;
     z-index: 1000;
   }
   .legend i {
@@ -26,6 +22,7 @@
 </style>
 </head>
 <body>
+
 <div id="map"></div>
 <div class="legend">
   <i style="background: #800026"></i> Muy alto<br>
@@ -33,39 +30,21 @@
   <i style="background: #E31A1C"></i> Medio<br>
   <i style="background: #FC4E2A"></i> Bajo<br>
   <i style="background: #FD8D3C"></i> Muy bajo<br>
- 
+  <i style="background: #FFEDA0"></i> Ninguno<br>
 </div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
 <script>
 const map = L.map('map').setView([20, 0], 2);
-
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   maxZoom: 5,
   attribution: '© OpenStreetMap'
 }).addTo(map);
 
-const ataques = [
-  { country: "US" }, { country: "US" }, { country: "US" },
-  { country: "FR" }, { country: "FR" },
-  { country: "DE" },
-  { country: "GB" },
-  { country: "CN" }, { country: "CN" },
-  { country: "BR" },
-  { country: "JP" },
-  { country: "RU" }
-];
-
-const ataquesPorPais = ataques.reduce((acc, cur) => {
-  const c = (cur.country || '').toUpperCase();
-  if (c) acc[c] = (acc[c] || 0) + 1;
-  return acc;
-}, {});
-const maxAtaques = Math.max(...Object.values(ataquesPorPais));
-
 function getColor(d, max) {
-  const ratio = d / max;
   if (d === 0) return '#FFEDA0';
+  const ratio = d / max;
   if (ratio > 0.8) return '#800026';
   if (ratio > 0.6) return '#BD0026';
   if (ratio > 0.4) return '#E31A1C';
@@ -76,25 +55,38 @@ function getColor(d, max) {
 fetch('countries.geojson')
   .then(res => res.json())
   .then(geojson => {
-    L.geoJSON(geojson, {
-      style: function(feature) {
-        const iso = (feature.properties["ISO3166-1-Alpha-2"] || "").toUpperCase();
-        const ataques = ataquesPorPais[iso] || 0;
-        return {
-          fillColor: getColor(ataques, maxAtaques),
-          weight: 1,
-          color: '#444',
-          fillOpacity: 0.7,
-        };
-      },
-      onEachFeature: function(feature, layer) {
-        const iso = (feature.properties["ISO3166-1-Alpha-2"] || "").toUpperCase();
-        const ataques = ataquesPorPais[iso] || 0;
-        layer.bindTooltip(`${feature.properties.ADMIN}: ${ataques} ataques`);
-      }
-    }).addTo(map);
+    fetch('https://api.ransomware.live/v2/recentcyberattacks')
+      .then(res => res.json())
+      .then(ataques => {
+        const ataquesPorPais = ataques.reduce((acc, cur) => {
+          const c = (cur.country || '').toUpperCase();
+          if (c) acc[c] = (acc[c] || 0) + 1;
+          return acc;
+        }, {});
+        const maxAtaques = Math.max(...Object.values(ataquesPorPais), 1);
+
+        L.geoJSON(geojson, {
+          style: feature => {
+            const iso = (feature.properties["ISO3166-1-Alpha-2"] || "").toUpperCase();
+            const count = ataquesPorPais[iso] || 0;
+            return {
+              fillColor: getColor(count, maxAtaques),
+              weight: 1,
+              color: '#444',
+              fillOpacity: 0.7,
+            };
+          },
+          onEachFeature: (feature, layer) => {
+            const iso = (feature.properties["ISO3166-1-Alpha-2"] || "").toUpperCase();
+            const count = ataquesPorPais[iso] || 0;
+            layer.bindTooltip(`${feature.properties.ADMIN}: ${count} ataques`);
+          }
+        }).addTo(map);
+      })
+      .catch(e => console.error('Error cargando ataques:', e));
   })
   .catch(e => console.error('Error cargando geojson:', e));
 </script>
+
 </body>
 </html>
