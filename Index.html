@@ -275,36 +275,61 @@
 
   </script>
 <script>
-fetch("/.netlify/functions/ransomware")
-  .then(r => r.json())
-  .then(datos => {
-    const lista = document.getElementById('lista-ataques');
-    lista.innerHTML = '';
-    if (!Array.isArray(datos) || datos.length === 0) {
-      lista.innerHTML = '<li>No hay datos recientes</li>';
+// --- Diccionario país->coordenadas ---
+const countryCoords = {
+  "US": [39.8, -98.6], "JP": [36.2, 138.2], "FR": [46.6, 2.6], "GB": [54.8, -4.6], "DE": [51.2, 10.5],
+  "IT": [42.9, 12.7], "IL": [31.4, 34.9], "TH": [15.8, 100.5], "RU": [61.5, 105.3], "ES": [40.4, -3.7],
+  "BR": [-14.2, -51.9], "CN": [35.9, 104.2], "CA": [56.1, -106.3], "AU": [-25.2, 133.8], "MX": [23.6, -102.5],
+  "IN": [21.1, 78.0], "TR": [39.1, 35.1], "KR": [36.5, 127.8], "ZA": [-29.0, 24.7], "AR": [-38.4, -63.6]
+  // Puedes añadir más países según vayan apareciendo en tus datos
+};
+
+async function cargarAtaques() {
+  const lista = document.getElementById('lista-ataques');
+  lista.innerHTML = '<li>Cargando datos...</li>';
+  try {
+    const resp = await fetch('/.netlify/functions/ransomware');
+    const data = await resp.json();
+    if (data && data.error) {
+      lista.innerHTML = `<li class="error-msg">${data.error}</li>`;
       return;
     }
-    datos.slice(0, 10).forEach(ataque => {
+    if (!Array.isArray(data) || data.length === 0) {
+      lista.innerHTML = '<li class="ok-msg">No hay ataques recientes registrados.</li>';
+      return;
+    }
+    lista.innerHTML = "";
+    data.slice(0, 30).forEach(ataque => {
       const li = document.createElement('li');
-      li.innerHTML = `<b>${ataque.title || ataque.victim || "Desconocido"}</b> <span style="opacity:0.7;">(${ataque.date || ""})</span>`;
+      li.innerHTML = `<b>${ataque.victim || "Desconocido"}</b>
+        <span style="opacity:0.7;">(${ataque.date || ""})</span>
+        <span style="color:#6ef;">${ataque.country || ""}</span>
+        <br><small>${ataque.title || ""}</small>`;
       lista.appendChild(li);
-      if (typeof window.map !== "undefined" && ataque.latitude && ataque.longitude) {
-        L.circleMarker([ataque.latitude, ataque.longitude], {
-          radius: 7,
-          color: "#f92672",
-          fillColor: "#f92672",
-          fillOpacity: 0.85,
+
+      // Si hay país conocido, pinta marcador en su centro
+      if (ataque.country && countryCoords[ataque.country]) {
+        L.circleMarker(countryCoords[ataque.country], {
+          radius: 8, color: "#ff317a", fillColor: "#ff317a", fillOpacity: 0.82
         }).addTo(map).bindPopup(
-          `<b>${ataque.title || ataque.victim}</b><br>${ataque.date || ""}<br>${ataque.description || ""}`
+          `<b>${ataque.victim || "Desconocido"}</b><br>
+           <b>Dominio:</b> ${ataque.domain || "-"}<br>
+           <b>Fecha:</b> ${ataque.date || "-"}<br>
+           <b>Titular:</b> ${ataque.title || ""}<br>
+           <b>País:</b> ${ataque.country}<br>
+           <b>Resumen:</b> <span style="font-size:0.95em">${ataque.summary || ""}</span><br>
+           <a href="${ataque.url}" target="_blank" style="color:#37f;">[Fuente]</a> `
         );
       }
     });
-  })
-  .catch(err => {
-    document.getElementById('lista-ataques').innerHTML = '<li>Error al cargar datos</li>';
-    console.error(err);
-  });
+  } catch (e) {
+    lista.innerHTML = `<li class="error-msg">Error de conexión con el servidor.<br><span style="font-size:0.92em;">${e.message || e}</span></li>`;
+  }
+}
+cargarAtaques();
+setInterval(cargarAtaques, 4 * 60 * 1000);
 </script>
+
 
 </body>
 </html>
