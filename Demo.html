@@ -52,14 +52,20 @@ function getColor(d, max) {
   return '#FD8D3C';
 }
 
+// AJUSTE ÚNICO: Cambia aquí a la ruta de tu función Netlify
 const proxyUrl = '/.netlify/functions/ransomware';
+
+// El geojson de países, mantenlo local o en la ruta correcta de tu servidor
+const geoJsonUrl = 'countries.geojson';
 
 Promise.all([
   fetch(proxyUrl).then(res => res.json()),
-  fetch('countries.geojson').then(res => res.json())
+  fetch(geoJsonUrl).then(res => res.json())
 ]).then(([ataques, geojson]) => {
-  const ataquesArray = ataques.data || ataques;
+  // La API devuelve un array plano, NO está anidado bajo .data
+  const ataquesArray = Array.isArray(ataques) ? ataques : (ataques.data || ataques);
 
+  // Cambia solo esto si los campos son distintos en la API real
   const ataquesPorPais = ataquesArray.reduce((acc, cur) => {
     const c = (cur.country || '').toUpperCase();
     if (c) acc[c] = (acc[c] || 0) + 1;
