@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="utf-8" />
-<title>Demo Ransomware con Proxy</title>
+<meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Demo Ransomware con Proxy Netlify</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <style>
   #map { height: 100vh; width: 100vw; }
@@ -30,6 +30,7 @@
   <i style="background: #E31A1C"></i> Medio<br>
   <i style="background: #FC4E2A"></i> Bajo<br>
   <i style="background: #FD8D3C"></i> Muy bajo<br>
+  <i style="background: #FFEDA0"></i> Ninguno<br>
 </div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -52,41 +53,40 @@ function getColor(d, max) {
   return '#FD8D3C';
 }
 
-fetch('https://extraordinary-moxie-91bbbd.netlify.app/functions/ransomware') // Cambia aquí por la URL real de tu proxy
-  .then(res => res.json())
-  .then(ataques => {
-    fetch('countries.geojson')
-      .then(res => res.json())
-      .then(geojson => {
-        const ataquesPorPais = ataques.reduce((acc, cur) => {
-          const c = (cur.country || '').toUpperCase();
-          if (c) acc[c] = (acc[c] || 0) + 1;
-          return acc;
-        }, {});
-        const maxAtaques = Math.max(...Object.values(ataquesPorPais), 1);
+// Aquí la URL de la función serverless que tienes desplegada
+const proxyUrl = '/.netlify/functions/ransomware';
 
-        L.geoJSON(geojson, {
-          style: feature => {
-            const iso = (feature.properties["ISO3166-1-Alpha-2"] || "").toUpperCase();
-            const count = ataquesPorPais[iso] || 0;
-            return {
-              fillColor: getColor(count, maxAtaques),
-              weight: 1,
-              color: '#444',
-              fillOpacity: 0.7,
-            };
-          },
-          onEachFeature: (feature, layer) => {
-            const iso = (feature.properties["ISO3166-1-Alpha-2"] || "").toUpperCase();
-            const count = ataquesPorPais[iso] || 0;
-            layer.bindTooltip(`${feature.properties.ADMIN}: ${count} ataques`);
-          }
-        }).addTo(map);
-      });
-  })
-  .catch(err => {
-    console.error('Error cargando ataques desde proxy:', err);
-  });
+Promise.all([
+  fetch(proxyUrl).then(res => res.json()),
+  fetch('countries.geojson').then(res => res.json())
+]).then(([ataques, geojson]) => {
+  const ataquesPorPais = ataques.reduce((acc, cur) => {
+    const c = (cur.country || '').toUpperCase();
+    if (c) acc[c] = (acc[c] || 0) + 1;
+    return acc;
+  }, {});
+  const maxAtaques = Math.max(...Object.values(ataquesPorPais), 1);
+
+  L.geoJSON(geojson, {
+    style: feature => {
+      const iso = (feature.properties["ISO3166-1-Alpha-2"] || "").toUpperCase();
+      const count = ataquesPorPais[iso] || 0;
+      return {
+        fillColor: getColor(count, maxAtaques),
+        weight: 1,
+        color: '#444',
+        fillOpacity: 0.7,
+      };
+    },
+    onEachFeature: (feature, layer) => {
+      const iso = (feature.properties["ISO3166-1-Alpha-2"] || "").toUpperCase();
+      const count = ataquesPorPais[iso] || 0;
+      layer.bindTooltip(`${feature.properties.ADMIN}: ${count} ataques`);
+    }
+  }).addTo(map);
+}).catch(err => {
+  console.error('Error al cargar datos:', err);
+});
 </script>
 
 </body>
