@@ -1,70 +1,119 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <title>Demo países con ataques en rojo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <style>
-    html, body, #map { width: 100vw; height: 100vh; margin: 0; padding: 0; background: #000; }
-    #map { position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; }
-    .legend-gradient {
-      position: absolute; bottom: 18px; left: 20px; z-index: 98;
-      background: #222c; border-radius: 7px; padding: 8px 18px;
-      color: #fff; font-family: sans-serif; font-size: 1em;
-      display: flex; align-items: center; gap: 15px;
-    }
-    .legend-gradient-bar {
-      width: 80px; height: 14px;
-      background: linear-gradient(90deg, #fff 0%, #e00 100%);
-      border-radius: 7px; border: 1px solid #ffeab5;
-    }
-  </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Demo Mapa Ransomware Real</title>
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+/>
+<style>
+  body, html {
+    margin:0; padding:0; height:100%; width:100%; background:#fff;
+  }
+  #map {
+    height: 100vh;
+    width: 100vw;
+  }
+  .legend {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    background: white;
+    padding: 6px 10px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    border-radius: 4px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.3);
+  }
+  .legend span {
+    display: inline-block;
+    width: 30px;
+    height: 14px;
+  }
+</style>
 </head>
 <body>
-  <div id="map"></div>
-  <div class="legend-gradient">
-    <span>Sin ataques</span>
-    <div class="legend-gradient-bar"></div>
-    <span>Con ataques</span>
-  </div>
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <script>
-    const map = L.map('map', {minZoom: 2, maxZoom: 7}).setView([25, 0], 2);
-    L.tileLayer(
-      'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; OpenStreetMap',
-        noWrap: true,
-        bounds: [[-90,-180],[90,180]],
-      }
-    ).addTo(map);
+<div id="map"></div>
+<div class="legend">
+  <span style="background: #ffffb2"></span> Pocos &nbsp;
+  <span style="background: #fecc5c"></span> Medio &nbsp;
+  <span style="background: #fd8d3c"></span> Alto &nbsp;
+  <span style="background: #f03b20"></span> Muy alto
+</div>
 
-    Promise.all([
-      fetch('countries.geojson').then(r=>r.json()),
-      fetch('datos_ataques.json').then(r=>r.json())
-    ]).then(([geojson, ataques]) => {
-      const ataquesPorPais = {};
-      for (const at of ataques) {
-        const c = (at.country || '').toUpperCase();
-        if (c && c.length === 2) ataquesPorPais[c] = (ataquesPorPais[c]||0)+1;
-      }
-      function getColor(cnt) {
-        if (!cnt) return "#fff";   // Sin ataques = blanco
-        return "#e00";             // Con ataques = rojo fuerte
-      }
-      function style(f) {
-        const iso2 = (f.properties["ISO3166-1-Alpha-2"] || "").toUpperCase();
-        const cnt = ataquesPorPais[iso2]||0;
-        return {
-          fillColor: getColor(cnt),
-          weight: 1,
-          opacity: 0.6,
-          color: '#444',
-          fillOpacity: cnt ? 0.74 : 0.25
-        };
-      }
-      L.geoJson(geojson, { style }).addTo(map);
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+  // Crear mapa
+  const map = L.map("map").setView([20, 0], 2);
+
+  // Añadir mapa base
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 6,
+    attribution: "© OpenStreetMap"
+  }).addTo(map);
+
+  // Cargar geojson de países
+  fetch("countries.geojson")
+    .then(r => r.json())
+    .then(geojson => {
+      console.log("GeoJSON cargado:", geojson);
+
+      // Cargar datos ataques
+      fetch("datos_ataques.json")
+        .then(r => r.json())
+        .then(ataques => {
+          console.log("Ataques cargados:", ataques);
+
+          // Contar ataques por país (ISO2 en mayúsculas)
+          const conteo = {};
+          ataques.forEach(a => {
+            const c = a.country?.toUpperCase();
+            if(c) conteo[c] = (conteo[c]||0) + 1;
+          });
+          console.log("Conteo ataques por país:", conteo);
+
+          // Función para color según cantidad ataques
+          function getColor(d) {
+            return d > 10 ? '#f03b20' :
+                   d > 5  ? '#fd8d3c' :
+                   d > 2  ? '#fecc5c' :
+                            '#ffffb2';
+          }
+
+          // Estilo para cada país
+          function style(feature) {
+            const c = feature.properties.ISO_A2 || feature.properties.ISO3166_1_Alpha_2;
+            const ataques = conteo[c] || 0;
+            return {
+              fillColor: getColor(ataques),
+              weight: 1,
+              opacity: 1,
+              color: 'gray',
+              fillOpacity: 0.8
+            };
+          }
+
+          // Mostrar tooltip con info
+          function onEachFeature(feature, layer) {
+            const c = feature.properties.ISO_A2 || feature.properties.ISO3166_1_Alpha_2;
+            const ataques = conteo[c] || 0;
+            const name = feature.properties.ADMIN || feature.properties.name || "Desconocido";
+            layer.bindTooltip(`${name}: ${ataques} ataques`, {sticky:true});
+          }
+
+          // Añadir capa GeoJSON con estilo y tooltip
+          L.geoJSON(geojson, {
+            style: style,
+            onEachFeature: onEachFeature
+          }).addTo(map);
+        });
+    })
+    .catch(e => {
+      console.error("Error cargando archivos:", e);
+      alert("Error cargando datos o geojson, revisa consola.");
     });
-  </script>
+</script>
 </body>
 </html>
