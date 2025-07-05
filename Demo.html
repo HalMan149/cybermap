@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="utf-8" />
-  <title>Demo Gradiente Países</title>
+  <title>Demo Gradiente Países (Depuración Campo)</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <style>
@@ -44,7 +44,6 @@
       fetch('countries.geojson').then(r=>r.json()),
       fetch('datos_ataques.json').then(r=>r.json())
     ]).then(([geojson, ataques]) => {
-      // --- DEPURACIÓN ---
       console.log('GeoJSON cargado:', geojson);
       console.log('Ataques cargados:', ataques);
 
@@ -56,29 +55,38 @@
       console.log('Conteo ataques por país:', ataquesPorPais);
 
       const maxAtaques = Math.max(...Object.values(ataquesPorPais), 1);
-      function getColor(cnt) {
-        if (!cnt) return "#eee";
-        const p = Math.min(cnt / maxAtaques, 1);
-        if (p === 0) return "#fff";
-        if (p < 0.20) return "#ffe";
-        if (p < 0.4) return "#ffe600";
-        if (p < 0.7) return "#f90";
-        return "#e00";
-      }
+
+      // === INICIO: DEPURACIÓN CAMPO CORRECTO ===
+      let camposContados = {};
       function style(f) {
-        const iso2 = (f.properties.ISO_A2||"").toUpperCase();
+        // Solo mostramos las propiedades de la PRIMERA feature (solo una vez)
+        if (!window._mostrado) {
+          window._mostrado = true;
+          console.log("PROPIEDADES DE LA PRIMERA FEATURE DEL GEOJSON:", f.properties);
+        }
+        // Muestra los valores de todos los campos que tengan 2 letras
+        Object.entries(f.properties).forEach(([k,v])=>{
+          if (typeof v === "string" && v.length === 2) {
+            camposContados[k] = v;
+          }
+        });
+        // -- ESTE es el campo que probablemente necesitas --
+        const iso2 = (f.properties.ISO_A2 || f.properties.CODE || f.properties.COUNTRY || "").toUpperCase();
         const cnt = ataquesPorPais[iso2]||0;
-        // --- DEPURACIÓN ---
-        // Muestra el código del país y cuántos ataques tiene
-        console.log('Pintando país:', iso2, 'ataques:', cnt);
+        console.log('PAIS:', iso2, 'ATAQUES:', cnt);
         return {
-          fillColor: getColor(cnt),
+          fillColor: cnt ? "#e00" : "#ccc",
           weight: 1,
           opacity: 0.6,
           color: '#444',
           fillOpacity: cnt ? 0.74 : 0.25
         };
       }
+      setTimeout(()=>{
+        console.log('Campos posibles que pueden ser ISO2:', camposContados);
+      }, 2000);
+      // === FIN DEPURACIÓN ===
+
       L.geoJson(geojson, { style }).addTo(map);
     });
   </script>
