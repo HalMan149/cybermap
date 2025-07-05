@@ -17,7 +17,9 @@
     z-index: 1000;
   }
   .legend i {
-    width: 24px; height: 18px; float: left; margin-right: 8px; opacity: 0.7;
+    width: 24px; height: 18px; float: left; margin-right: 8px; opacity: 0.85;
+    border-radius: 5px;
+    border: 1px solid #ddd;
   }
 </style>
 </head>
@@ -30,7 +32,6 @@
   <i style="background: #E31A1C"></i> Medio<br>
   <i style="background: #FC4E2A"></i> Bajo<br>
   <i style="background: #FD8D3C"></i> Muy bajo<br>
-  <i style="background: #FFEDA0"></i> Ninguno<br>
 </div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -42,14 +43,15 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '© OpenStreetMap'
 }).addTo(map);
 
+// Paleta más vibrante y visualmente mejor
 function getColor(d, max) {
-  if (d === 0) return '#FFEDA0';
   const ratio = d / max;
-  if (ratio > 0.8) return '#800026';
-  if (ratio > 0.6) return '#BD0026';
-  if (ratio > 0.4) return '#E31A1C';
-  if (ratio > 0.2) return '#FC4E2A';
-  return '#FD8D3C';
+  if (ratio > 0.8) return '#800026';      // Muy alto (rojo fuerte)
+  if (ratio > 0.6) return '#BD0026';      // Alto
+  if (ratio > 0.4) return '#E31A1C';      // Medio
+  if (ratio > 0.2) return '#FC4E2A';      // Bajo
+  if (ratio > 0)   return '#FD8D3C';      // Muy bajo
+  return null;                            // Ninguno: sin color
 }
 
 const proxyUrl = '/.netlify/functions/ransomware';
@@ -59,22 +61,7 @@ Promise.all([
   fetch(proxyUrl).then(res => res.json()),
   fetch(geoJsonUrl).then(res => res.json())
 ]).then(([ataques, geojson]) => {
-  // DEPURACIÓN: muestra la estructura recibida
-  console.log("Respuesta ataques:", ataques);
-
-  let ataquesArray = [];
-  if (Array.isArray(ataques)) {
-    ataquesArray = ataques;
-  } else if (ataques && Array.isArray(ataques.data)) {
-    ataquesArray = ataques.data;
-  } else if (ataques && ataques.raw) {
-    alert("Respuesta RAW de la función backend:\n" + ataques.raw);
-    throw new Error("Respuesta RAW de la función backend");
-  } else {
-    alert("Respuesta inesperada de la API:\n" + JSON.stringify(ataques));
-    throw new Error("Respuesta inesperada de la API");
-  }
-
+  let ataquesArray = Array.isArray(ataques) ? ataques : (ataques.data || []);
   const ataquesPorPais = ataquesArray.reduce((acc, cur) => {
     const c = (cur.country || '').toUpperCase();
     if (c) acc[c] = (acc[c] || 0) + 1;
@@ -86,17 +73,27 @@ Promise.all([
     style: feature => {
       const iso = (feature.properties["ISO3166-1-Alpha-2"] || "").toUpperCase();
       const count = ataquesPorPais[iso] || 0;
+      const fillColor = getColor(count, maxAtaques);
+      // Si no hay ataques, no pintamos nada (país transparente)
+      if (!fillColor) return { fillOpacity: 0, weight: 1, color: '#222' };
       return {
-        fillColor: getColor(count, maxAtaques),
-        weight: 1,
-        color: '#444',
-        fillOpacity: 0.7,
+        fillColor,
+        weight: 1.6,
+        color: '#222',
+        fillOpacity: 0.86,
+        opacity: 0.97,
+        dashArray: '',
+        // Sombra sutil:
+        shadowBlur: 6,
+        shadowColor: '#333'
       };
     },
     onEachFeature: (feature, layer) => {
       const iso = (feature.properties["ISO3166-1-Alpha-2"] || "").toUpperCase();
       const count = ataquesPorPais[iso] || 0;
-      layer.bindTooltip(`${feature.properties.ADMIN}: ${count} ataques`);
+      if (count > 0) {
+        layer.bindTooltip(`${feature.properties.ADMIN}: ${count} ataques`);
+      }
     }
   }).addTo(map);
 }).catch(err => {
