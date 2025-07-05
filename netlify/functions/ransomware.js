@@ -1,38 +1,54 @@
-const fetch = require('node-fetch');
+// netlify/functions/ransomware.js
 
-const API_KEY = '68a2620c-cf8c-4f0c-b233-838df1ea244e';
-const API_URL = 'https://api-pro.ransomware.live/api/v2/victims/recent';
+const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
 
-exports.handler = async function(event, context) {
+// Configura aquí tu API key y endpoint PRO
+const API_KEY = "68a2620c-cf8c-4f0c-b233-838df1ea244e";
+const API_URL = "https://api.ransomware.live/v1/victims/recent"; // Consulta la doc oficial, cambia si corresponde
+
+exports.handler = async (event, context) => {
   try {
-    const response = await fetch(API_URL, {
-      method: 'GET',
+    const resp = await fetch(API_URL, {
+      method: "GET",
       headers: {
-        'Accept': 'application/json',
-        'X-API-KEY': API_KEY
-      }
+        "X-API-KEY": API_KEY,
+        "Accept": "application/json"
+      },
+      timeout: 9000
     });
 
-    if (!response.ok) {
+    // Si la respuesta no es JSON, devuelve error
+    const contentType = resp.headers.get('content-type') || "";
+    if (!contentType.includes("application/json")) {
       return {
-        statusCode: response.status,
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ error: `Error fetching data: ${response.statusText}` })
+        statusCode: 502,
+        body: JSON.stringify({ error: "Respuesta inválida de la API (no es JSON)", contentType })
       };
     }
 
-    const data = await response.json();
+    const data = await resp.json();
 
+    // Si la API da error, propágalo al frontend
+    if (!resp.ok) {
+      return {
+        statusCode: resp.status,
+        body: JSON.stringify({ error: data.error || "Error de la API", status: resp.status })
+      };
+    }
+
+    // Devuelve datos al frontend (máx. 50 por defecto)
     return {
       statusCode: 200,
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(data)
+      headers: {
+        "Access-Control-Allow-Origin": "*",
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(Array.isArray(data) ? data : (data.data || data))
     };
-  } catch (error) {
+  } catch (e) {
     return {
       statusCode: 500,
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ error: error.message || 'Unknown error' })
+      body: JSON.stringify({ error: "Fallo de conexión con la API externa", details: e.message })
     };
   }
 };
