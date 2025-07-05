@@ -2,23 +2,51 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Demo mapa choropleth realista</title>
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+<title>Demo Gradiente Países con Ataques</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <style>
-  #map { width: 100vw; height: 100vh; }
-  .info { padding: 6px 8px; background: black; color: white; font: 14px Arial, sans-serif; }
-  .legend { line-height: 18px; color: #555; background: white; padding: 6px 8px; }
-  .legend i { width: 18px; height: 18px; float: left; margin-right: 8px; opacity: 0.7; }
+  #map { height: 600px; width: 100%; }
+  .legend {
+    background: white;
+    padding: 6px 8px;
+    font-size: 14px;
+    color: #555;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    line-height: 18px;
+  }
+  .legend i {
+    width: 24px; height: 18px; float: left; margin-right: 8px; opacity: 0.7;
+  }
 </style>
 </head>
 <body>
+
 <div id="map"></div>
 
-<script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
-
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
-// Datos reales de ataques simplificados para demo
+// Inicializar mapa centrado
+const map = L.map('map').setView([20, 0], 2);
+
+// Añadir capa base OpenStreetMap claro
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution: '© OpenStreetMap contributors'
+}).addTo(map);
+
+// Función para color según cantidad ataques
+function getColor(count, max) {
+  const ratio = count / max;
+  if (ratio > 0.8) return '#800026';
+  if (ratio > 0.6) return '#BD0026';
+  if (ratio > 0.4) return '#E31A1C';
+  if (ratio > 0.2) return '#FC4E2A';
+  if (ratio > 0) return '#FD8D3C';
+  return '#FFEDA0';
+}
+
+// Datos reales de ataques (ejemplo reducido para demo)
 const ataques = [
   { country: "US" }, { country: "US" }, { country: "US" },
   { country: "FR" }, { country: "FR" },
@@ -31,42 +59,27 @@ const ataques = [
 ];
 
 // Contar ataques por país
-const ataquesPorPais = ataques.reduce((acc, cur) => {
-  acc[cur.country] = (acc[cur.country] || 0) + 1;
+const ataquesPorPais = ataques.reduce((acc, curr) => {
+  acc[curr.country] = (acc[curr.country] || 0) + 1;
   return acc;
 }, {});
 const maxAtaques = Math.max(...Object.values(ataquesPorPais));
 
-console.log('Ataques por país:', ataquesPorPais, 'Máximo ataques:', maxAtaques);
-
-// Función de color dinámica
-function getColor(d, max) {
-  if (d === 0) return '#f0f0f0';
-  const ratio = d / max;
-  if (ratio > 0.75) return '#d73027';
-  if (ratio > 0.5)  return '#fc8d59';
-  if (ratio > 0.25) return '#fee08b';
-  return '#ffffbf';
-}
-
-// Crear mapa Leaflet
-const map = L.map('map').setView([20, 0], 2);
-
-// Capa base
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  maxZoom: 5,
-  attribution: '© OpenStreetMap'
-}).addTo(map);
-
-// Cargar GeoJSON países (usa tu archivo countries.geojson)
-// Para demo, uso fetch desde URL pública de ejemplo
+// Cargar GeoJSON países
 fetch('https://raw.githubusercontent.com/datasets/geo-countries/master/data/countries.geojson')
   .then(res => res.json())
   .then(geojson => {
-    // Añadir capa con estilo dinámico
+    // Detectar campo ISO2 válido
+    const primeraFeature = geojson.features[0];
+    const posiblesCamposISO2 = ['ISO_A2', 'ISO2', 'ISO3166_1_Alpha_2', 'ISO_A2_CODE', 'ISO_2', 'ISO_3166_1_alpha_2'];
+    const campoISO2 = posiblesCamposISO2.find(campo => primeraFeature.properties.hasOwnProperty(campo));
+
+    console.log('Campo ISO2 detectado:', campoISO2);
+
+    // Añadir capa con estilo según ataques
     L.geoJSON(geojson, {
       style: feature => {
-        const iso = feature.properties.ISO_A2 || feature.properties.ISO2 || feature.properties.ISO3166_1_Alpha_2 || '';
+        const iso = feature.properties[campoISO2] || '';
         const ataques = ataquesPorPais[iso] || 0;
         return {
           fillColor: getColor(ataques, maxAtaques),
@@ -76,12 +89,29 @@ fetch('https://raw.githubusercontent.com/datasets/geo-countries/master/data/coun
         };
       },
       onEachFeature: (feature, layer) => {
-        const iso = feature.properties.ISO_A2 || feature.properties.ISO2 || feature.properties.ISO3166_1_Alpha_2 || '';
+        const iso = feature.properties[campoISO2] || '';
         const ataques = ataquesPorPais[iso] || 0;
-        layer.bindTooltip(`${feature.properties.ADMIN}: ${ataques} ataque(s)`);
+        layer.bindTooltip(`${feature.properties.ADMIN || feature.properties.name || 'País'}: ${ataques} ataque(s)`);
       }
     }).addTo(map);
+
+    // Añadir leyenda
+    const legend = L.control({position: 'bottomleft'});
+    legend.onAdd = function () {
+      const div = L.DomUtil.create('div', 'legend');
+      const grades = [0, 1, 2, 4, 6, 8];
+      const labels = [];
+      div.innerHTML = '<b>Ataques por país</b><br>';
+      for (let i = 0; i < grades.length; i++) {
+        div.innerHTML +=
+          '<i style="background:' + getColor(grades[i] + 1, maxAtaques) + '"></i> ' +
+          grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br>' : '+');
+      }
+      return div;
+    };
+    legend.addTo(map);
   });
 </script>
+
 </body>
 </html>
