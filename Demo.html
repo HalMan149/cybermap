@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 <meta charset="utf-8" />
-<title>Demo Choropleth Ransomware</title>
+<title>Demo Ransomware con Proxy</title>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <style>
@@ -30,13 +30,13 @@
   <i style="background: #E31A1C"></i> Medio<br>
   <i style="background: #FC4E2A"></i> Bajo<br>
   <i style="background: #FD8D3C"></i> Muy bajo<br>
-  <i style="background: #FFEDA0"></i> Ninguno<br>
 </div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
 <script>
 const map = L.map('map').setView([20, 0], 2);
+
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   maxZoom: 5,
   attribution: '© OpenStreetMap'
@@ -52,12 +52,12 @@ function getColor(d, max) {
   return '#FD8D3C';
 }
 
-fetch('countries.geojson')
+fetch('https://extraordinary-moxie-91bbbd.netlify.app/functions/ransomware') // Cambia aquí por la URL real de tu proxy
   .then(res => res.json())
-  .then(geojson => {
-    fetch('https://api.ransomware.live/v2/recentcyberattacks')
+  .then(ataques => {
+    fetch('countries.geojson')
       .then(res => res.json())
-      .then(ataques => {
+      .then(geojson => {
         const ataquesPorPais = ataques.reduce((acc, cur) => {
           const c = (cur.country || '').toUpperCase();
           if (c) acc[c] = (acc[c] || 0) + 1;
@@ -82,10 +82,11 @@ fetch('countries.geojson')
             layer.bindTooltip(`${feature.properties.ADMIN}: ${count} ataques`);
           }
         }).addTo(map);
-      })
-      .catch(e => console.error('Error cargando ataques:', e));
+      });
   })
-  .catch(e => console.error('Error cargando geojson:', e));
+  .catch(err => {
+    console.error('Error cargando ataques desde proxy:', err);
+  });
 </script>
 
 </body>
