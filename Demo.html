@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Demo Gradiente Ataques por País</title>
+<title>Demo Ataques Reales Gradiente</title>
 <link
   rel="stylesheet"
   href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
@@ -50,16 +50,13 @@
   crossorigin=""
 ></script>
 <script>
-// Inicialización mapa
 const map = L.map('map').setView([20, 0], 2);
 
-// Capa base OpenStreetMap
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: 'Leaflet | © OpenStreetMap',
   maxZoom: 18,
 }).addTo(map);
 
-// Función para color gradiente según cantidad de ataques
 function getColor(d) {
   return d > 20 ? '#800026' :
          d > 15 ? '#BD0026' :
@@ -69,42 +66,42 @@ function getColor(d) {
                   '#FEB24C';
 }
 
-// Carga y procesamiento datos de ataques reales
-fetch('datos_ataques.json')
-  .then(res => res.json())
-  .then(data => {
-    // Contar ataques por país (ISO2)
-    const ataquesPorPais = {};
-    data.forEach(item => {
-      const iso = item.country.toUpperCase();
+// Carga ataques reales desde la API online y el geojson local
+Promise.all([
+  fetch('https://ransomware.live/api/v1/attacks?limit=1000').then(res => res.json()),
+  fetch('countries.geojson').then(res => res.json())
+]).then(([ataquesData, geojson]) => {
+  // Contar ataques por código país (country ISO2)
+  const ataquesPorPais = {};
+  ataquesData.data.forEach(item => {
+    const iso = item.country?.toUpperCase() || "";
+    if (iso) {
       ataquesPorPais[iso] = (ataquesPorPais[iso] || 0) + 1;
-    });
+    }
+  });
 
-    // Cargar y pintar GeoJSON países con gradiente
-    fetch('countries.geojson')
-      .then(res => res.json())
-      .then(geojson => {
-        L.geoJSON(geojson, {
-          style: feature => {
-            const iso = (feature.properties["ISO3166-1-Alpha-2"] || "").toUpperCase();
-            const ataques = ataquesPorPais[iso] || 0;
-            return {
-              fillColor: getColor(ataques),
-              weight: 1,
-              color: '#444',
-              fillOpacity: 0.7,
-            };
-          },
-          onEachFeature: (feature, layer) => {
-            const iso = (feature.properties["ISO3166-1-Alpha-2"] || "").toUpperCase();
-            const ataques = ataquesPorPais[iso] || 0;
-            layer.bindTooltip(`${feature.properties.ADMIN}: ${ataques} ataques`);
-          }
-        }).addTo(map);
-      })
-      .catch(e => console.error('Error al cargar GeoJSON:', e));
-  })
-  .catch(e => console.error('Error al cargar datos ataques:', e));
+  // Pintar países con gradiente basado en ataques
+  L.geoJSON(geojson, {
+    style: feature => {
+      const iso = (feature.properties["ISO3166-1-Alpha-2"] || "").toUpperCase();
+      const ataques = ataquesPorPais[iso] || 0;
+      return {
+        fillColor: getColor(ataques),
+        weight: 1,
+        color: '#444',
+        fillOpacity: 0.7,
+      };
+    },
+    onEachFeature: (feature, layer) => {
+      const iso = (feature.properties["ISO3166-1-Alpha-2"] || "").toUpperCase();
+      const ataques = ataquesPorPais[iso] || 0;
+      layer.bindTooltip(`${feature.properties.ADMIN}: ${ataques} ataques`);
+    }
+  }).addTo(map);
+
+}).catch(e => {
+  console.error('Error cargando datos:', e);
+});
 </script>
 
 </body>
