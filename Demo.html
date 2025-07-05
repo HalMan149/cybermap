@@ -37,7 +37,6 @@
 <script>
 // Devuelve color en degradado (de amarillo a rojo oscuro) según valor [0-1]
 function lerpColor(a, b, t) {
-  // a y b: colores hex, t: 0-1
   let ah = parseInt(a.replace('#',''),16),
       bh = parseInt(b.replace('#',''),16),
       ar = (ah>>16)&0xff, ag = (ah>>8)&0xff, ab = ah&0xff,
@@ -52,15 +51,18 @@ function lerpColor(a, b, t) {
 function getColorGradient(d, max) {
   if (!d || d === 0) return null;
   const t = Math.min(1, d / max);
-  // Puedes ajustar los colores aquí: de amarillo claro a rojo oscuro
-  // Más suave: ['#FFEDA0', '#FC4E2A', '#800026']
   if (t < 0.5) {
-    // De amarillo a naranja
     return lerpColor('#FFEDA0', '#FC4E2A', t*2);
   } else {
-    // De naranja a rojo fuerte
     return lerpColor('#FC4E2A', '#800026', (t-0.5)*2);
   }
+}
+
+// Calcula opacidad según ratio: mínimo 0.25 (muy bajo) a 0.97 (muy alto)
+function getOpacity(d, max) {
+  if (!d || d === 0) return 0;
+  const t = Math.min(1, d / max);
+  return 0.25 + t * 0.72; // de 0.25 a 0.97
 }
 
 const map = L.map('map').setView([20, 0], 2);
@@ -89,12 +91,13 @@ Promise.all([
       const iso = (feature.properties["ISO3166-1-Alpha-2"] || "").toUpperCase();
       const count = ataquesPorPais[iso] || 0;
       const fillColor = getColorGradient(count, maxAtaques);
+      const fillOpacity = getOpacity(count, maxAtaques);
       if (!fillColor) return { fillOpacity: 0, weight: 1, color: '#222' };
       return {
         fillColor,
         weight: 1.7,
         color: '#333',
-        fillOpacity: 0.93,
+        fillOpacity,
         opacity: 0.97
       };
     },
