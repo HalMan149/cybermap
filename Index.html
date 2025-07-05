@@ -339,23 +339,30 @@ async function cargarAtaques() {
   try {
     const resp = await fetch('/.netlify/functions/ransomware');
     const data = await resp.json();
-// --- Añadir este bloque ---
-const ataquesPorPais = {};
-data.forEach(ataque => {
-  if (ataque.country) {
-    ataquesPorPais[ataque.country] = (ataquesPorPais[ataque.country] || 0) + 1;
-  }
-});
-pintarMapaChoropleth(ataquesPorPais);
-// --- Fin del bloque ---
-    if (data && data.error) {
-      lista.innerHTML = `<li class="error-msg">${data.error}</li>`;
+
+    // === FILTRO CRÍTICO ===
+    if (!Array.isArray(data)) {
+      console.error("Respuesta inesperada de la API:", data);
+      lista.innerHTML = `<li class="error-msg">Error: respuesta inesperada del servidor.</li>`;
       return;
     }
-    if (!Array.isArray(data) || data.length === 0) {
+    if (data.length === 0) {
       lista.innerHTML = '<li class="ok-msg">No hay ataques recientes registrados.</li>';
       return;
     }
+
+    // --- Recuento de ataques por país y gradiente ---
+    const ataquesPorPais = {};
+    data.forEach(ataque => {
+      if (ataque.country) {
+        const code = ataque.country.toUpperCase();
+        ataquesPorPais[code] = (ataquesPorPais[code] || 0) + 1;
+      }
+    });
+    pintarMapaChoropleth(ataquesPorPais);
+
+    lista.innerHTML = "";
+
     lista.innerHTML = "";
     data.slice(0, 25).forEach(ataque => {
       const pais = ataque.country || "-";
