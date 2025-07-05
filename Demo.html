@@ -17,7 +17,7 @@
     z-index: 1000;
   }
   .legend i {
-    width: 24px; height: 18px; float: left; margin-right: 8px; opacity: 0.85;
+    width: 24px; height: 18px; float: left; margin-right: 8px; opacity: 0.9;
     border-radius: 5px;
     border: 1px solid #ddd;
   }
@@ -27,32 +27,47 @@
 
 <div id="map"></div>
 <div class="legend">
+  <i style="background: #FFEDA0"></i> Bajo<br>
+  <i style="background: #FC4E2A"></i> Medio<br>
   <i style="background: #800026"></i> Muy alto<br>
-  <i style="background: #BD0026"></i> Alto<br>
-  <i style="background: #E31A1C"></i> Medio<br>
-  <i style="background: #FC4E2A"></i> Bajo<br>
-  <i style="background: #FD8D3C"></i> Muy bajo<br>
 </div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
 <script>
+// Devuelve color en degradado (de amarillo a rojo oscuro) según valor [0-1]
+function lerpColor(a, b, t) {
+  // a y b: colores hex, t: 0-1
+  let ah = parseInt(a.replace('#',''),16),
+      bh = parseInt(b.replace('#',''),16),
+      ar = (ah>>16)&0xff, ag = (ah>>8)&0xff, ab = ah&0xff,
+      br = (bh>>16)&0xff, bg = (bh>>8)&0xff, bb = bh&0xff,
+      rr = ar + t*(br-ar),
+      rg = ag + t*(bg-ag),
+      rb = ab + t*(bb-ab);
+  return '#' + (((1<<24)+(rr<<16)+(rg<<8)+(rb|0)).toString(16).slice(1,7));
+}
+
+// De amarillo (bajo) a rojo fuerte (muy alto)
+function getColorGradient(d, max) {
+  if (!d || d === 0) return null;
+  const t = Math.min(1, d / max);
+  // Puedes ajustar los colores aquí: de amarillo claro a rojo oscuro
+  // Más suave: ['#FFEDA0', '#FC4E2A', '#800026']
+  if (t < 0.5) {
+    // De amarillo a naranja
+    return lerpColor('#FFEDA0', '#FC4E2A', t*2);
+  } else {
+    // De naranja a rojo fuerte
+    return lerpColor('#FC4E2A', '#800026', (t-0.5)*2);
+  }
+}
+
 const map = L.map('map').setView([20, 0], 2);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   maxZoom: 5,
   attribution: '© OpenStreetMap'
 }).addTo(map);
-
-// Paleta más vibrante y visualmente mejor
-function getColor(d, max) {
-  const ratio = d / max;
-  if (ratio > 0.8) return '#800026';      // Muy alto (rojo fuerte)
-  if (ratio > 0.6) return '#BD0026';      // Alto
-  if (ratio > 0.4) return '#E31A1C';      // Medio
-  if (ratio > 0.2) return '#FC4E2A';      // Bajo
-  if (ratio > 0)   return '#FD8D3C';      // Muy bajo
-  return null;                            // Ninguno: sin color
-}
 
 const proxyUrl = '/.netlify/functions/ransomware';
 const geoJsonUrl = 'countries.geojson';
@@ -73,19 +88,14 @@ Promise.all([
     style: feature => {
       const iso = (feature.properties["ISO3166-1-Alpha-2"] || "").toUpperCase();
       const count = ataquesPorPais[iso] || 0;
-      const fillColor = getColor(count, maxAtaques);
-      // Si no hay ataques, no pintamos nada (país transparente)
+      const fillColor = getColorGradient(count, maxAtaques);
       if (!fillColor) return { fillOpacity: 0, weight: 1, color: '#222' };
       return {
         fillColor,
-        weight: 1.6,
-        color: '#222',
-        fillOpacity: 0.86,
-        opacity: 0.97,
-        dashArray: '',
-        // Sombra sutil:
-        shadowBlur: 6,
-        shadowColor: '#333'
+        weight: 1.7,
+        color: '#333',
+        fillOpacity: 0.93,
+        opacity: 0.97
       };
     },
     onEachFeature: (feature, layer) => {
