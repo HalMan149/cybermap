@@ -53,14 +53,15 @@ function getColor(d, max) {
   return '#FD8D3C';
 }
 
-// Aquí la URL de la función serverless que tienes desplegada
 const proxyUrl = '/.netlify/functions/ransomware';
 
 Promise.all([
   fetch(proxyUrl).then(res => res.json()),
   fetch('countries.geojson').then(res => res.json())
 ]).then(([ataques, geojson]) => {
-  const ataquesPorPais = ataques.reduce((acc, cur) => {
+  const ataquesArray = ataques.data || ataques;
+
+  const ataquesPorPais = ataquesArray.reduce((acc, cur) => {
     const c = (cur.country || '').toUpperCase();
     if (c) acc[c] = (acc[c] || 0) + 1;
     return acc;
