@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="utf-8" />
-  <title>Demo Gradiente Países FINAL</title>
+  <title>Demo países con ataques en rojo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <style>
@@ -15,19 +15,18 @@
       display: flex; align-items: center; gap: 15px;
     }
     .legend-gradient-bar {
-      width: 110px; height: 16px;
-      background: linear-gradient(90deg, #fff 0%, #ffe600 30%, #f90 65%, #e00 100%);
-      border-radius: 7px;
-      border: 1px solid #ffeab5;
+      width: 80px; height: 14px;
+      background: linear-gradient(90deg, #fff 0%, #e00 100%);
+      border-radius: 7px; border: 1px solid #ffeab5;
     }
   </style>
 </head>
 <body>
   <div id="map"></div>
   <div class="legend-gradient">
-    <span>Pocos</span>
+    <span>Sin ataques</span>
     <div class="legend-gradient-bar"></div>
-    <span>Muchos</span>
+    <span>Con ataques</span>
   </div>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script>
@@ -49,19 +48,11 @@
         const c = (at.country || '').toUpperCase();
         if (c && c.length === 2) ataquesPorPais[c] = (ataquesPorPais[c]||0)+1;
       }
-      const maxAtaques = Math.max(...Object.values(ataquesPorPais), 1);
-
       function getColor(cnt) {
-        if (!cnt) return "#eee";
-        const p = Math.min(cnt / maxAtaques, 1);
-        if (p === 0) return "#fff";
-        if (p < 0.20) return "#ffe";
-        if (p < 0.4) return "#ffe600";
-        if (p < 0.7) return "#f90";
-        return "#e00";
+        if (!cnt) return "#fff";   // Sin ataques = blanco
+        return "#e00";             // Con ataques = rojo fuerte
       }
       function style(f) {
-        // CAMPO ADAPTADO A TU GEOJSON:
         const iso2 = (f.properties["ISO3166-1-Alpha-2"] || "").toUpperCase();
         const cnt = ataquesPorPais[iso2]||0;
         return {
