@@ -1,6 +1,6 @@
 const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
 
-const API_URL = "https://api.ransomware.live/v2/recentcyberattacks"; // o el endpoint correcto de ransomware.live
+const API_URL = "https://api.ransomware.live/v2/recentcyberattacks";
 
 exports.handler = async (event, context) => {
   try {
