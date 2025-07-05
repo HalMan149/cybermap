@@ -3,105 +3,106 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Demo Gradiente Países Ataques Ransomware</title>
-
+<title>Demo Gradiente Países Ataques</title>
 <link
   rel="stylesheet"
   href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
   crossorigin=""
 />
 <style>
-  body, html {
-    margin: 0; padding: 0; height: 100%;
-  }
-  #map {
-    width: 100%; height: 100vh;
-  }
+  #map { height: 90vh; width: 100%; }
   .legend {
-    position: absolute;
-    bottom: 10px; left: 10px;
     background: white;
-    padding: 6px 10px;
-    font-size: 14px;
-    border-radius: 4px;
-    line-height: 18px;
-    color: #555;
+    line-height: 1.5em;
+    padding: 6px 8px;
+    font-size: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
   }
-  .legend span {
-    display: inline-block;
-    width: 18px; height: 18px;
-    margin-right: 6px;
-    vertical-align: middle;
+  .legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
   }
 </style>
 </head>
 <body>
 
 <div id="map"></div>
+
 <div class="legend" id="legend">
-  <span style="background:#fff7bc"></span> Pocos<br />
-  <span style="background:#fec44f"></span> Bajo<br />
-  <span style="background:#fe9929"></span> Medio<br />
-  <span style="background:#ec7014"></span> Alto<br />
-  <span style="background:#cc4c02"></span> Muy alto<br />
+  <i style="background:#800026"></i> Muy alto<br />
+  <i style="background:#BD0026"></i> Alto<br />
+  <i style="background:#E31A1C"></i> Medio<br />
+  <i style="background:#FC4E2A"></i> Bajo<br />
+  <i style="background:#FD8D3C"></i> Muy bajo<br />
+  <i style="background:#FEB24C"></i> Ninguno<br />
 </div>
 
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
-
+<script
+  src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+  crossorigin=""
+></script>
 <script>
-  const map = L.map('map').setView([20, 0], 2);
+// Inicializamos el mapa centrado y con zoom
+const map = L.map('map').setView([20, 0], 2);
 
-  // Capa base OpenStreetMap claro
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 8,
-    attribution: '© OpenStreetMap contributors'
-  }).addTo(map);
+// Añadimos la capa base
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution:
+    'Leaflet | © OpenStreetMap',
+  maxZoom: 18,
+}).addTo(map);
 
-  // Función para definir colores según número ataques
-  function getColor(d) {
-    return d > 20 ? '#cc4c02' :
-           d > 10 ? '#ec7014' :
-           d > 5  ? '#fe9929' :
-           d > 2  ? '#fec44f' :
-                    '#fff7bc';
-  }
+// Función para interpolar colores para el gradiente
+function getColor(d) {
+  return d > 20 ? '#800026' :
+         d > 15 ? '#BD0026' :
+         d > 10 ? '#E31A1C' :
+         d > 5  ? '#FC4E2A' :
+         d > 0  ? '#FD8D3C' :
+                  '#FEB24C';
+}
 
-  // Variable para guardar ataques por país
-  let ataquesPorPais = {};
-
-  // Cargar datos ataques
-  fetch('datos_ataques.json')
-    .then(res => res.json())
-    .then(data => {
-      // Contar ataques por país (campo country)
-      data.forEach(a => {
-        const c = a.country;
-        ataquesPorPais[c] = (ataquesPorPais[c] || 0) + 1;
-      });
-
-      // Cargar GeoJSON países y pintar choropleth
-      fetch('countries.geojson')
-        .then(res => res.json())
-        .then(geojson => {
-          L.geoJson(geojson, {
-            style: feature => {
-              const c = feature.properties.ISO_A2;
-              const count = ataquesPorPais[c] || 0;
-              return {
-                fillColor: getColor(count),
-                weight: 1,
-                color: 'gray',
-                fillOpacity: 0.8
-              };
-            },
-            onEachFeature: (feature, layer) => {
-              const c = feature.properties.ISO_A2;
-              const count = ataquesPorPais[c] || 0;
-              layer.bindPopup(`<strong>${feature.properties.name}</strong><br>Ataques: ${count}`);
-            }
-          }).addTo(map);
-        });
+// Cargamos datos ataques de JSON local
+fetch('datos_ataques.json')
+  .then(res => res.json())
+  .then(data => {
+    // Contamos ataques por país (ISO 2)
+    const ataquesPorPais = {};
+    data.forEach(item => {
+      const iso = item.country.toUpperCase();
+      ataquesPorPais[iso] = (ataquesPorPais[iso] || 0) + 1;
     });
+
+    // Cargamos GeoJSON países
+    fetch('countries.geojson')
+      .then(res => res.json())
+      .then(geojson => {
+        // Añadimos GeoJSON al mapa con estilos basados en ataques
+        L.geoJSON(geojson, {
+          style: feature => {
+            const iso = (feature.properties["ISO3166-1-Alpha-2"] || "").toUpperCase();
+            const ataques = ataquesPorPais[iso] || 0;
+            return {
+              fillColor: getColor(ataques),
+              weight: 1,
+              color: '#444',
+              fillOpacity: 0.7,
+            };
+          },
+          onEachFeature: (feature, layer) => {
+            const iso = (feature.properties["ISO3166-1-Alpha-2"] || "").toUpperCase();
+            const ataques = ataquesPorPais[iso] || 0;
+            layer.bindTooltip(`${feature.properties.ADMIN}: ${ataques} ataques`);
+          },
+        }).addTo(map);
+      })
+      .catch(e => console.error('Error al cargar GeoJSON:', e));
+  })
+  .catch(e => console.error('Error al cargar datos ataques:', e));
 </script>
 
 </body>
