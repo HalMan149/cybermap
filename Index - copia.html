@@ -61,6 +61,14 @@
 </head>
 <body>
   <div id="map"></div>
+<button id="btn-toggle-lista" title="Mostrar/Ocultar ataques"
+  style="position: absolute; top: 26px; right: 32px; z-index: 10000; padding: 7px 12px 5px 12px; border-radius: 15px; border: none; background: #202c40e9; color: #31fff5; font-size: 2.0em; font-weight: 700; box-shadow: 0 0 7px #0ef6; cursor: pointer; transition: background .15s;">
+  ☰
+</button>
+<div id="ataques-ransomware" style="position:absolute; top:70px; right:36px; z-index:9999; background:rgba(0,0,0,0.80); color:#46fff2; padding:12px 16px 12px 18px; border-radius:13px; min-width:256px; font-size:1.07em; font-family:sans-serif; max-width:430px; box-shadow: 0 0 18px #09e4; transition:all 0.15s;">
+  <b>Últimos ataques ransomware</b>
+  <ul id="lista-ataques"></ul>
+</div>
   <div id="noticias-ticker"><span id="noticias-inner"></span></div>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script>
@@ -267,7 +275,71 @@
 
     lanzarTicker();
     setInterval(lanzarTicker, 15 * 60 * 1000);
-
   </script>
+<script>
+// --- Coordenadas de países ---
+const countryCoords = {
+  "US": [39.8, -98.6], "JP": [36.2, 138.2], "FR": [46.6, 2.6], "GB": [54.8, -4.6], "DE": [51.2, 10.5],
+  "IT": [42.9, 12.7], "IL": [31.4, 34.9], "TH": [15.8, 100.5], "RU": [61.5, 105.3], "ES": [40.4, -3.7],
+  "BR": [-14.2, -51.9], "CN": [35.9, 104.2], "CA": [56.1, -106.3], "AU": [-25.2, 133.8], "MX": [23.6, -102.5],
+  "IN": [21.1, 78.0], "TR": [39.1, 35.1], "KR": [36.5, 127.8], "ZA": [-29.0, 24.7], "AR": [-38.4, -63.6],
+  "CH": [46.8, 8.2], "PT": [39.4, -8.2], "PL": [52.1, 19.4], "NL": [52.3, 5.3], "BE": [50.5, 4.4]
+};
+
+let attackMarkers = [];
+
+async function cargarAtaques() {
+  attackMarkers.forEach(m => map.removeLayer(m));
+  attackMarkers = [];
+  const lista = document.getElementById('lista-ataques');
+  lista.innerHTML = '<li>Cargando datos...</li>';
+  try {
+    const resp = await fetch('/.netlify/functions/ransomware');
+    const data = await resp.json();
+    if (data && data.error) {
+      lista.innerHTML = `<li class="error-msg">${data.error}</li>`;
+      return;
+    }
+    if (!Array.isArray(data) || data.length === 0) {
+      lista.innerHTML = '<li class="ok-msg">No hay ataques recientes registrados.</li>';
+      return;
+    }
+    lista.innerHTML = "";
+    data.slice(0, 25).forEach(ataque => {
+      const pais = ataque.country || "-";
+      const li = document.createElement('li');
+      li.innerHTML = `<b>${ataque.victim || "Desconocido"}</b>
+        <span style="opacity:0.7;">(${pais})</span>
+        <br><small>${ataque.title || ""}</small>`;
+      lista.appendChild(li);
+
+      if (ataque.country && countryCoords[ataque.country]) {
+        const marker = L.circleMarker(countryCoords[ataque.country], {
+          radius: 8, color: "#ff317a", fillColor: "#ff317a", fillOpacity: 0.82
+        }).addTo(map).bindPopup(
+          `<b>${ataque.victim || "Desconocido"}</b><br>
+           <b>Dominio:</b> ${ataque.domain || "-"}<br>
+           <b>Fecha:</b> ${ataque.date || "-"}<br>
+           <b>Titular:</b> ${ataque.title || ""}<br>
+           <b>País:</b> ${ataque.country}<br>
+           <b>Resumen:</b> <span style="font-size:0.95em">${ataque.summary || ""}</span><br>
+           <a href="${ataque.url}" target="_blank" style="color:#37f;">[Fuente]</a>`
+        );
+        attackMarkers.push(marker);
+      }
+    });
+  } catch (e) {
+    lista.innerHTML = `<li class="error-msg">Error de conexión con el servidor.<br><span style="font-size:0.92em;">${e.message || e}</span></li>`;
+  }
+}
+cargarAtaques();
+setInterval(cargarAtaques, 4 * 60 * 1000);
+
+document.getElementById("btn-toggle-lista").onclick = function() {
+  const panel = document.getElementById("ataques-ransomware");
+  panel.style.display = (panel.style.display === "none" ? "block" : "none");
+};
+</script>
+
 </body>
 </html>

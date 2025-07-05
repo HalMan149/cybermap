@@ -95,6 +95,33 @@
     L.tileLayer('https://gps-{s}.tile.openstreetmap.org/lines/{z}/{x}/{y}.png', {
       maxZoom: 19, minZoom: 2, opacity: 0.85, noWrap: true
     }).addTo(map);
+let geojsonLayer;
+async function pintarMapaChoropleth(ataquesPorPais) {
+  if (geojsonLayer) map.removeLayer(geojsonLayer);
+
+  const resp = await fetch('https://raw.githubusercontent.com/datasets/geo-countries/master/data/countries.geojson');
+  const worldGeo = await resp.json();
+
+  // Obtén el máximo de ataques para escalar colores
+  const maxAtaques = Math.max(...Object.values(ataquesPorPais), 1);
+
+  geojsonLayer = L.geoJSON(worldGeo, {
+    style: feature => {
+      const code = feature.properties.ISO_A2;
+      const n = ataquesPorPais[code] || 0;
+      const color = n === 0
+        ? "#191c24"
+        : `hsl(${Math.max(0, 200 - 100 * n / maxAtaques)}, 95%, 55%)`; // Azul → Rosa según intensidad
+      return {
+        fillColor: color,
+        fillOpacity: n === 0 ? 0.10 : 0.47 + 0.22 * (n/maxAtaques),
+        color: "#0dd4ff",
+        weight: 1.2,
+        opacity: 0.42
+      };
+    }
+  }).addTo(map);
+}
 
     // Zonas horarias y relojes
     const zonaHorariaLines = L.layerGroup();
@@ -296,6 +323,15 @@ async function cargarAtaques() {
   try {
     const resp = await fetch('/.netlify/functions/ransomware');
     const data = await resp.json();
+// --- Añadir este bloque ---
+const ataquesPorPais = {};
+data.forEach(ataque => {
+  if (ataque.country) {
+    ataquesPorPais[ataque.country] = (ataquesPorPais[ataque.country] || 0) + 1;
+  }
+});
+pintarMapaChoropleth(ataquesPorPais);
+// --- Fin del bloque ---
     if (data && data.error) {
       lista.innerHTML = `<li class="error-msg">${data.error}</li>`;
       return;
