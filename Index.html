@@ -60,6 +60,24 @@
   </style>
 </head>
 <body>
+<button id="btn-toggle-lista" style="
+  position: absolute;
+  top: 28px;
+  right: 42px;
+  z-index: 10000;
+  padding: 9px 18px 7px 18px;
+  border-radius: 16px;
+  border: none;
+  background: #161d2eec;
+  color: #3efaff;
+  font-size: 1.12em;
+  font-weight: 600;
+  box-shadow: 0 0 9px #08f6;
+  cursor: pointer;
+  transition: background .15s;
+  ">Mostrar/Ocultar ataques</button>
+  <div id="ataques-ransomware" style="display:none;">
+
   <div id="map"></div>
   <div id="noticias-ticker"><span id="noticias-inner"></span></div>
 <div id="ataques-ransomware" style="position:absolute; top:70px; right:40px; z-index:9999; background:rgba(0,0,0,0.65); color:#2cfdfd; padding:10px; border-radius:12px; min-width:260px; font-size:1em;">
@@ -331,6 +349,16 @@ cargarAtaques();
 setInterval(cargarAtaques, 4 * 60 * 1000);
 </script>
 
+<script>
+document.getElementById("btn-toggle-lista").onclick = function() {
+  const panel = document.getElementById("ataques-ransomware");
+  if (panel.style.display === "none") {
+    panel.style.display = "block";
+  } else {
+    panel.style.display = "none";
+  }
+};
+</script>
 
 </body>
 </html>
