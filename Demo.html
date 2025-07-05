@@ -7,62 +7,35 @@
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <style>
   #map { height: 100vh; width: 100vw; }
-  .legend {
-    position: absolute;
-    bottom: 30px; left: 20px;
-    background: white; padding: 6px 8px;
-    font-size: 14px; color: #555;
-    box-shadow: 0 0 15px rgba(0,0,0,0.2);
-    border-radius: 5px; line-height: 18px;
-    z-index: 1000;
-  }
-  .legend i {
-    width: 24px; height: 18px; float: left; margin-right: 8px; opacity: 0.9;
-    border-radius: 5px;
-    border: 1px solid #ddd;
-  }
 </style>
 </head>
 <body>
 
 <div id="map"></div>
-<div class="legend">
-  <i style="background: #FFEDA0"></i> Bajo<br>
-  <i style="background: #FC4E2A"></i> Medio<br>
-  <i style="background: #800026"></i> Muy alto<br>
-</div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
 <script>
-// Devuelve color en degradado (de amarillo a rojo oscuro) según valor [0-1]
-function lerpColor(a, b, t) {
-  let ah = parseInt(a.replace('#',''),16),
-      bh = parseInt(b.replace('#',''),16),
-      ar = (ah>>16)&0xff, ag = (ah>>8)&0xff, ab = ah&0xff,
-      br = (bh>>16)&0xff, bg = (bh>>8)&0xff, bb = bh&0xff,
-      rr = ar + t*(br-ar),
-      rg = ag + t*(bg-ag),
-      rb = ab + t*(bb-ab);
-  return '#' + (((1<<24)+(rr<<16)+(rg<<8)+(rb|0)).toString(16).slice(1,7));
-}
+// Color base claro y oscuro para el degradado
+const colorClaro = [255, 237, 160];   // Amarillo claro
+const colorOscuro = [128, 0, 38];     // Rojo oscuro
 
-// De amarillo (bajo) a rojo fuerte (muy alto)
-function getColorGradient(d, max) {
-  if (!d || d === 0) return null;
-  const t = Math.min(1, d / max);
-  if (t < 0.5) {
-    return lerpColor('#FFEDA0', '#FC4E2A', t*2);
-  } else {
-    return lerpColor('#FC4E2A', '#800026', (t-0.5)*2);
-  }
-}
+// Calcula color degradado y opacidad en función del número de ataques
+function colorYOpacidad(count, max) {
+  if (!count || count === 0) return { fillOpacity: 0, fillColor: null };
+  // Valor relativo [0-1]
+  const t = Math.min(1, count / max);
 
-// Calcula opacidad según ratio: mínimo 0.25 (muy bajo) a 0.97 (muy alto)
-function getOpacity(d, max) {
-  if (!d || d === 0) return 0;
-  const t = Math.min(1, d / max);
-  return 0.25 + t * 0.72; // de 0.25 a 0.97
+  // Interpolación de color
+  const r = Math.round(colorClaro[0] + (colorOscuro[0] - colorClaro[0]) * t);
+  const g = Math.round(colorClaro[1] + (colorOscuro[1] - colorClaro[1]) * t);
+  const b = Math.round(colorClaro[2] + (colorOscuro[2] - colorClaro[2]) * t);
+  const fillColor = `rgb(${r},${g},${b})`;
+
+  // Opacidad entre 0.22 (muy pocos ataques) y 0.93 (máximo)
+  const fillOpacity = 0.22 + 0.71 * t;
+
+  return { fillColor, fillOpacity };
 }
 
 const map = L.map('map').setView([20, 0], 2);
@@ -90,14 +63,13 @@ Promise.all([
     style: feature => {
       const iso = (feature.properties["ISO3166-1-Alpha-2"] || "").toUpperCase();
       const count = ataquesPorPais[iso] || 0;
-      const fillColor = getColorGradient(count, maxAtaques);
-      const fillOpacity = getOpacity(count, maxAtaques);
-      if (!fillColor) return { fillOpacity: 0, weight: 1, color: '#222' };
+      const { fillColor, fillOpacity } = colorYOpacidad(count, maxAtaques);
+      if (!fillColor) return { fillOpacity: 0, color: '#222', weight: 1 };
       return {
         fillColor,
+        fillOpacity,
         weight: 1.7,
         color: '#333',
-        fillOpacity,
         opacity: 0.97
       };
     },
