@@ -1,33 +1,108 @@
-fetch('countries.geojson')
-  .then(res => res.json())
-  .then(geojson => {
-    const geoFeatures = geojson.features;
-    console.log('Total países en GeoJSON:', geoFeatures.length);
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Demo Gradiente Países Ataques Ransomware</title>
 
-    geoFeatures.forEach(feature => {
-      // Usa el campo correcto ISO3166-1-Alpha-2, asegurando mayúsculas
-      const iso = (feature.properties["ISO3166-1-Alpha-2"] || "").toUpperCase();
-      const ataques = ataquesPorPais[iso] || 0;
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  crossorigin=""
+/>
+<style>
+  body, html {
+    margin: 0; padding: 0; height: 100%;
+  }
+  #map {
+    width: 100%; height: 100vh;
+  }
+  .legend {
+    position: absolute;
+    bottom: 10px; left: 10px;
+    background: white;
+    padding: 6px 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    line-height: 18px;
+    color: #555;
+  }
+  .legend span {
+    display: inline-block;
+    width: 18px; height: 18px;
+    margin-right: 6px;
+    vertical-align: middle;
+  }
+</style>
+</head>
+<body>
 
-      console.log(`País: ${feature.properties.ADMIN}, ISO: ${iso}, Ataques detectados: ${ataques}`);
+<div id="map"></div>
+<div class="legend" id="legend">
+  <span style="background:#fff7bc"></span> Pocos<br />
+  <span style="background:#fec44f"></span> Bajo<br />
+  <span style="background:#fe9929"></span> Medio<br />
+  <span style="background:#ec7014"></span> Alto<br />
+  <span style="background:#cc4c02"></span> Muy alto<br />
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+
+<script>
+  const map = L.map('map').setView([20, 0], 2);
+
+  // Capa base OpenStreetMap claro
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 8,
+    attribution: '© OpenStreetMap contributors'
+  }).addTo(map);
+
+  // Función para definir colores según número ataques
+  function getColor(d) {
+    return d > 20 ? '#cc4c02' :
+           d > 10 ? '#ec7014' :
+           d > 5  ? '#fe9929' :
+           d > 2  ? '#fec44f' :
+                    '#fff7bc';
+  }
+
+  // Variable para guardar ataques por país
+  let ataquesPorPais = {};
+
+  // Cargar datos ataques
+  fetch('datos_ataques.json')
+    .then(res => res.json())
+    .then(data => {
+      // Contar ataques por país (campo country)
+      data.forEach(a => {
+        const c = a.country;
+        ataquesPorPais[c] = (ataquesPorPais[c] || 0) + 1;
+      });
+
+      // Cargar GeoJSON países y pintar choropleth
+      fetch('countries.geojson')
+        .then(res => res.json())
+        .then(geojson => {
+          L.geoJson(geojson, {
+            style: feature => {
+              const c = feature.properties.ISO_A2;
+              const count = ataquesPorPais[c] || 0;
+              return {
+                fillColor: getColor(count),
+                weight: 1,
+                color: 'gray',
+                fillOpacity: 0.8
+              };
+            },
+            onEachFeature: (feature, layer) => {
+              const c = feature.properties.ISO_A2;
+              const count = ataquesPorPais[c] || 0;
+              layer.bindPopup(`<strong>${feature.properties.name}</strong><br>Ataques: ${count}`);
+            }
+          }).addTo(map);
+        });
     });
+</script>
 
-    L.geoJSON(geojson, {
-      style: feature => {
-        const iso = (feature.properties["ISO3166-1-Alpha-2"] || "").toUpperCase();
-        const ataques = ataquesPorPais[iso] || 0;
-        return {
-          fillColor: ataques > 0 ? '#f03b20' : '#f0f0f0',
-          weight: 1,
-          color: '#444',
-          fillOpacity: 0.7,
-        };
-      },
-      onEachFeature: (feature, layer) => {
-        const iso = (feature.properties["ISO3166-1-Alpha-2"] || "").toUpperCase();
-        const ataques = ataquesPorPais[iso] || 0;
-        layer.bindTooltip(`${feature.properties.ADMIN}: ${ataques} ataques`);
-      }
-    }).addTo(map);
-  })
-  .catch(e => console.error('Error al cargar GeoJSON:', e));
+</body>
+</html>
