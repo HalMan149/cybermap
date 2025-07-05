@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Demo Gradiente Países Ataques</title>
+<title>Demo Gradiente Ataques por País</title>
 <link
   rel="stylesheet"
   href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
@@ -18,6 +18,10 @@
     font-size: 12px;
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
     border-radius: 5px;
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+    z-index: 1000;
   }
   .legend i {
     width: 18px;
@@ -46,17 +50,16 @@
   crossorigin=""
 ></script>
 <script>
-// Inicializamos el mapa centrado y con zoom
+// Inicialización mapa
 const map = L.map('map').setView([20, 0], 2);
 
-// Añadimos la capa base
+// Capa base OpenStreetMap
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  attribution:
-    'Leaflet | © OpenStreetMap',
+  attribution: 'Leaflet | © OpenStreetMap',
   maxZoom: 18,
 }).addTo(map);
 
-// Función para interpolar colores para el gradiente
+// Función para color gradiente según cantidad de ataques
 function getColor(d) {
   return d > 20 ? '#800026' :
          d > 15 ? '#BD0026' :
@@ -66,22 +69,21 @@ function getColor(d) {
                   '#FEB24C';
 }
 
-// Cargamos datos ataques de JSON local
+// Carga y procesamiento datos de ataques reales
 fetch('datos_ataques.json')
   .then(res => res.json())
   .then(data => {
-    // Contamos ataques por país (ISO 2)
+    // Contar ataques por país (ISO2)
     const ataquesPorPais = {};
     data.forEach(item => {
       const iso = item.country.toUpperCase();
       ataquesPorPais[iso] = (ataquesPorPais[iso] || 0) + 1;
     });
 
-    // Cargamos GeoJSON países
+    // Cargar y pintar GeoJSON países con gradiente
     fetch('countries.geojson')
       .then(res => res.json())
       .then(geojson => {
-        // Añadimos GeoJSON al mapa con estilos basados en ataques
         L.geoJSON(geojson, {
           style: feature => {
             const iso = (feature.properties["ISO3166-1-Alpha-2"] || "").toUpperCase();
@@ -97,7 +99,7 @@ fetch('datos_ataques.json')
             const iso = (feature.properties["ISO3166-1-Alpha-2"] || "").toUpperCase();
             const ataques = ataquesPorPais[iso] || 0;
             layer.bindTooltip(`${feature.properties.ADMIN}: ${ataques} ataques`);
-          },
+          }
         }).addTo(map);
       })
       .catch(e => console.error('Error al cargar GeoJSON:', e));
