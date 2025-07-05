@@ -1,1 +1,14 @@
-[{"claim_gang":false,"claim_url":false,"country":"US","date":"2022-02-28","domain":"kannapolisnc.gov","has_infostealer_info":false,"link":"https://www.ransomware.live/id/a2FubmFwb2xpc25jLmdvdkAyMDIyLTAyLTI4","summary":"La ville de Kannapolis, en Caroline du Nord, a \u00e9t\u00e9 victime d'une cyberattaque en f\u00e9vrier 2022 qui a perturb\u00e9 son syst\u00e8me de dispatch pour la police et les pompiers, mais n'a pas inform\u00e9 le public de l'incident. Les responsables de la ville ont d\u00e9clar\u00e9 qu'il n'y avait pas eu de violation de donn\u00e9es, ni de demande de ran\u00e7on, et que les services publics n'avaient pas subi de pertes significatives. Cependant, des documents r\u00e9v\u00e9l\u00e9s plus tard ont montr\u00e9 que l'attaque avait compl\u00e8tement d\u00e9truit le r\u00e9seau de la ville. Les r\u00e9sidents ont exprim\u00e9 des opinions divergentes sur la n\u00e9cessit\u00e9 d'\u00eatre inform\u00e9s de l'attaque. La ville a d\u00e9clar\u00e9 que l'assurance avait couvert une","title":"9 Investigates: Kannapolis didn\u2019t alert public when cyberattack knocked out police dispatch - WSOC TV","url":"https://www.wsoctv.com/news/local/9-investigates-kannapolis-didnt-alert-public-when-cyberattack-knocked-out-police-dispatch/UEMD6NRNOJGE3N5UHCRIUBTECE/","victim":"Kannapolis"}]
+[
+  { "country": "US" },
+  { "country": "US" },
+  { "country": "US" },
+  { "country": "FR" },
+  { "country": "FR" },
+  { "country": "DE" },
+  { "country": "GB" },
+  { "country": "CN" },
+  { "country": "CN" },
+  { "country": "BR" },
+  { "country": "JP" },
+  { "country": "RU" }
+]
