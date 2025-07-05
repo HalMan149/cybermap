@@ -20,10 +20,9 @@
 const rojoClaro = [255, 90, 90];   // Rojo claro (RGB)
 const rojoOscuro = [120, 0, 0];    // Rojo oscuro (RGB)
 
-// Calcula color rojo y opacidad según ataques
+// CORREGIDO: Más ataques = MÁS opaco y MÁS oscuro
 function colorYOpacidad(count, max) {
   if (!count || count === 0) return { fillOpacity: 0, fillColor: null };
-  // Más ataques = rojo más oscuro y más transparente
   const t = Math.min(1, count / max);
 
   // Color: de claro (pocos ataques) a oscuro (muchos ataques)
@@ -32,8 +31,8 @@ function colorYOpacidad(count, max) {
   const b = Math.round(rojoClaro[2] + (rojoOscuro[2] - rojoClaro[2]) * t);
   const fillColor = `rgb(${r},${g},${b})`;
 
-  // Opacidad: de 0.84 (pocos) a 0.34 (muchos), nunca totalmente opaco ni transparente
-  const fillOpacity = 0.84 - 0.5 * t;
+  // CORREGIDO: Opacidad va de 0.34 (pocos) a 0.84 (muchos)
+  const fillOpacity = 0.34 + 0.5 * t;
 
   return { fillColor, fillOpacity };
 }
