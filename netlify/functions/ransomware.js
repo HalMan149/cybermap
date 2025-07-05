@@ -1,17 +1,14 @@
 const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
 
-const API_URL = "https://api.ransomware.live/v2/recentcyberattacks";
+const API_URL = "https://api.ransomware.live/v2/recentcyberattacks"; // o el endpoint correcto de ransomware.live
 
 exports.handler = async (event, context) => {
   try {
     const resp = await fetch(API_URL, {
       method: "GET",
-      headers: {
-        "Accept": "application/json"
-      },
+      headers: { "Accept": "application/json" },
       timeout: 9000
     });
-
     const contentType = resp.headers.get('content-type') || "";
     if (!contentType.includes("application/json")) {
       const text = await resp.text();
@@ -20,15 +17,10 @@ exports.handler = async (event, context) => {
         body: JSON.stringify({ error: "Respuesta inválida de la API (no es JSON)", contentType, text })
       };
     }
-
     const data = await resp.json();
-
     return {
       statusCode: 200,
-      headers: {
-        "Access-Control-Allow-Origin": "*",
-        "Content-Type": "application/json"
-      },
+      headers: { "Access-Control-Allow-Origin": "*", "Content-Type": "application/json" },
       body: JSON.stringify(Array.isArray(data) ? data : (data.data || data))
     };
   } catch (e) {
