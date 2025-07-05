@@ -72,9 +72,34 @@
   <div id="noticias-ticker"><span id="noticias-inner"></span></div>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script>
-    // ... tu código original hasta la zona del choropleth
+    // Mapa oscuro y capa GPS OSM
+    const CENTER = [38.3373, -0.5266];
+    const ZOOM = 3;
+    const map = L.map('map', {
+      zoomControl: false,
+      attributionControl: false,
+      minZoom: 2,
+      maxZoom: 17,
+      scrollWheelZoom: false,
+      doubleClickZoom: false,
+      boxZoom: false,
+      dragging: false,
+      touchZoom: false,
+      keyboard: false
+    }).setView(CENTER, ZOOM);
 
-    // ============= CHOROPLETH ROJO progresivo =============
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+      maxZoom: 19, minZoom: 2, noWrap: true
+    }).addTo(map);
+
+    L.tileLayer('https://gps-{s}.tile.openstreetmap.org/lines/{z}/{x}/{y}.png', {
+      maxZoom: 19, minZoom: 2, opacity: 0.85, noWrap: true
+    }).addTo(map);
+
+    // Zonas horarias y relojes...
+    // (todo igual que en tu archivo original)
+
+    // ======= CHOROPLETH ROJO: color y opacidad progresivos según ataques =======
     const rojoClaro = [255, 90, 90];   // Rojo claro (RGB)
     const rojoOscuro = [120, 0, 0];    // Rojo oscuro (RGB)
     function colorYOpacidad(count, max) {
@@ -84,6 +109,7 @@
       const g = Math.round(rojoClaro[1] + (rojoOscuro[1] - rojoClaro[1]) * t);
       const b = Math.round(rojoClaro[2] + (rojoOscuro[2] - rojoClaro[2]) * t);
       const fillColor = `rgb(${r},${g},${b})`;
+      // Opacidad: de 0.34 (pocos) a 0.84 (muchos)
       const fillOpacity = 0.34 + 0.5 * t;
       return { fillColor, fillOpacity };
     }
@@ -115,9 +141,15 @@
       }).addTo(map);
     }
 
-    // ... el resto de tu código original (ataques, marcadores, relojes, ticker, etc.)
+    // ----------- Ataques recientes y marcadores ----------
+    const countryCoords = {
+      "US": [39.8, -98.6], "JP": [36.2, 138.2], "FR": [46.6, 2.6], "GB": [54.8, -4.6], "DE": [51.2, 10.5],
+      "IT": [42.9, 12.7], "IL": [31.4, 34.9], "TH": [15.8, 100.5], "RU": [61.5, 105.3], "ES": [40.4, -3.7],
+      "BR": [-14.2, -51.9], "CN": [35.9, 104.2], "CA": [56.1, -106.3], "AU": [-25.2, 133.8], "MX": [23.6, -102.5],
+      "IN": [21.1, 78.0], "TR": [39.1, 35.1], "KR": [36.5, 127.8], "ZA": [-29.0, 24.7], "AR": [-38.4, -63.6],
+      "CH": [46.8, 8.2], "PT": [39.4, -8.2], "PL": [52.1, 19.4], "NL": [52.3, 5.3], "BE": [50.5, 4.4]
+    };
 
-    // Modifica cargarAtaques para llamar a pintarMapaChoropleth como antes:
     let attackMarkers = [];
     async function cargarAtaques() {
       attackMarkers.forEach(m => map.removeLayer(m));
@@ -175,13 +207,12 @@
     cargarAtaques();
     setInterval(cargarAtaques, 4 * 60 * 1000);
 
-    // =========== Botón menú panel ===========
     document.getElementById("btn-toggle-lista").onclick = function() {
       const panel = document.getElementById("ataques-ransomware");
       panel.style.display = (panel.style.display === "none" ? "block" : "none");
     };
 
-    // ...el resto de tu archivo original igual.
+    // ... El resto de funciones (relojes, ticker, etc.) igual que en tu archivo.
   </script>
 </body>
 </html>
