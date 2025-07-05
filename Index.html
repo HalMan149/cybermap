@@ -115,24 +115,27 @@ async function pintarMapaChoropleth(ataquesPorPais) {
   const maxAtaques = Math.max(...Object.values(ataquesPorPaisNorm), 1);
 
   geojsonLayer = L.geoJSON(worldGeo, {
-    style: feature => {
-      const code = feature.properties.ISO_A2.toUpperCase();
-      const n = ataquesPorPaisNorm[code] || 0;
-      // Color visible: azul pocos, rojo muchos
-      let color;
-      if (n === 0) color = "#22242a";
-      else if (n === maxAtaques) color = "#ff0066";
-      else color = `hsl(${220 - Math.round((n / maxAtaques) * 180)}, 100%, 55%)`;
-      // Debug para ver qué países realmente cambian color
-      if (n > 0) console.log(`Pintando país: ${code} (ataques: ${n}) color: ${color}`);
-      return {
-        fillColor: color,
-        fillOpacity: n === 0 ? 0.18 : 0.78,
-        color: "#25efff",
-        weight: 1.3,
-        opacity: 0.6
-      };
-    }
+style: feature => {
+  const code = feature.properties.ISO_A2 ? feature.properties.ISO_A2.toUpperCase() : null;
+  const n = code ? (ataquesPorPaisNorm[code] || 0) : 0;
+
+  // Solo colorear si code existe
+  let color;
+  if (!code) color = "#26292f";
+  else if (n === 0) color = "#22242a";
+  else if (n === maxAtaques) color = "#ff0066";
+  else color = `hsl(${220 - Math.round((n / maxAtaques) * 180)}, 100%, 55%)`;
+
+  if (n > 0 && code) console.log(`Pintando país: ${code} (ataques: ${n}) color: ${color}`);
+
+  return {
+    fillColor: color,
+    fillOpacity: !code ? 0.09 : (n === 0 ? 0.18 : 0.78),
+    color: "#25efff",
+    weight: 1.3,
+    opacity: 0.6
+  };
+}
   }).addTo(map);
 }
 
