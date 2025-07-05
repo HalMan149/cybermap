@@ -99,7 +99,7 @@ let geojsonLayer;
 async function pintarMapaChoropleth(ataquesPorPais) {
   if (geojsonLayer) map.removeLayer(geojsonLayer);
 
-  const resp = await fetch('https://raw.githubusercontent.com/datasets/geo-countries/master/data/countries.geojson');
+  cconst resp = await fetch('/countries.geojson');
   const worldGeo = await resp.json();
 
   // Normaliza claves a mayúsculas por si acaso
