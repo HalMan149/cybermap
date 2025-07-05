@@ -102,22 +102,25 @@ async function pintarMapaChoropleth(ataquesPorPais) {
   const resp = await fetch('https://raw.githubusercontent.com/datasets/geo-countries/master/data/countries.geojson');
   const worldGeo = await resp.json();
 
-  // Obtén el máximo de ataques para escalar colores
+  // Obtén el máximo de ataques para escalar colores (evita dividir por cero)
   const maxAtaques = Math.max(...Object.values(ataquesPorPais), 1);
 
   geojsonLayer = L.geoJSON(worldGeo, {
     style: feature => {
       const code = feature.properties.ISO_A2;
       const n = ataquesPorPais[code] || 0;
-      const color = n === 0
-        ? "#191c24"
-        : `hsl(${Math.max(0, 200 - 100 * n / maxAtaques)}, 95%, 55%)`; // Azul → Rosa según intensidad
+      // Escala color: más ataques, más rosa. Pocos, azul o gris.
+      let color;
+      if (n === 0) color = "#181b22";
+      else if (n === maxAtaques) color = "#f60060";
+      else color = `hsl(${220 - Math.round((n / maxAtaques) * 180)}, 100%, 51%)`;
+
       return {
         fillColor: color,
-        fillOpacity: n === 0 ? 0.10 : 0.47 + 0.22 * (n/maxAtaques),
-        color: "#0dd4ff",
-        weight: 1.2,
-        opacity: 0.42
+        fillOpacity: n === 0 ? 0.14 : 0.62 + 0.28 * (n / maxAtaques),
+        color: "#30f6ff",
+        weight: 1.4,
+        opacity: 0.55
       };
     }
   }).addTo(map);
