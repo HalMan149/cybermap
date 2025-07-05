@@ -1,5 +1,5 @@
 exports.handler = async function(event, context) {
-  const url = "https://api.ransomware.live/v2/recentcyberattacks";
+  const url = "https://api.ransomware.live/v2/recentvictims";
   try {
     const response = await fetch(url);
     const data = await response.json();
