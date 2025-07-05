@@ -60,31 +60,16 @@
   </style>
 </head>
 <body>
-<button id="btn-toggle-lista" style="
-  position: absolute;
-  top: 28px;
-  right: 42px;
-  z-index: 10000;
-  padding: 9px 18px 7px 18px;
-  border-radius: 16px;
-  border: none;
-  background: #161d2eec;
-  color: #3efaff;
-  font-size: 1.12em;
-  font-weight: 600;
-  box-shadow: 0 0 9px #08f6;
-  cursor: pointer;
-  transition: background .15s;
-  ">Mostrar/Ocultar ataques</button>
-  <div id="ataques-ransomware" style="display:none;">
-
   <div id="map"></div>
-  <div id="noticias-ticker"><span id="noticias-inner"></span></div>
-<div id="ataques-ransomware" style="position:absolute; top:70px; right:40px; z-index:9999; background:rgba(0,0,0,0.65); color:#2cfdfd; padding:10px; border-radius:12px; min-width:260px; font-size:1em;">
+<button id="btn-toggle-lista" title="Mostrar/Ocultar ataques"
+  style="position: absolute; top: 26px; right: 32px; z-index: 10000; padding: 7px 12px 5px 12px; border-radius: 15px; border: none; background: #202c40e9; color: #31fff5; font-size: 2.0em; font-weight: 700; box-shadow: 0 0 7px #0ef6; cursor: pointer; transition: background .15s;">
+  ☰
+</button>
+<div id="ataques-ransomware" style="position:absolute; top:70px; right:36px; z-index:9999; background:rgba(0,0,0,0.80); color:#46fff2; padding:12px 16px 12px 18px; border-radius:13px; min-width:256px; font-size:1.07em; font-family:sans-serif; max-width:430px; box-shadow: 0 0 18px #09e4; transition:all 0.15s;">
   <b>Últimos ataques ransomware</b>
-  <ul id="lista-ataques" style="margin: 10px 0 0 0; padding-left: 15px;"></ul>
+  <ul id="lista-ataques"></ul>
 </div>
-
+  <div id="noticias-ticker"><span id="noticias-inner"></span></div>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script>
     // Mapa oscuro y capa GPS OSM
@@ -290,19 +275,22 @@
 
     lanzarTicker();
     setInterval(lanzarTicker, 15 * 60 * 1000);
-
   </script>
 <script>
-// --- Diccionario país->coordenadas ---
+// --- Coordenadas de países ---
 const countryCoords = {
   "US": [39.8, -98.6], "JP": [36.2, 138.2], "FR": [46.6, 2.6], "GB": [54.8, -4.6], "DE": [51.2, 10.5],
   "IT": [42.9, 12.7], "IL": [31.4, 34.9], "TH": [15.8, 100.5], "RU": [61.5, 105.3], "ES": [40.4, -3.7],
   "BR": [-14.2, -51.9], "CN": [35.9, 104.2], "CA": [56.1, -106.3], "AU": [-25.2, 133.8], "MX": [23.6, -102.5],
-  "IN": [21.1, 78.0], "TR": [39.1, 35.1], "KR": [36.5, 127.8], "ZA": [-29.0, 24.7], "AR": [-38.4, -63.6]
-  // Puedes añadir más países según vayan apareciendo en tus datos
+  "IN": [21.1, 78.0], "TR": [39.1, 35.1], "KR": [36.5, 127.8], "ZA": [-29.0, 24.7], "AR": [-38.4, -63.6],
+  "CH": [46.8, 8.2], "PT": [39.4, -8.2], "PL": [52.1, 19.4], "NL": [52.3, 5.3], "BE": [50.5, 4.4]
 };
 
+let attackMarkers = [];
+
 async function cargarAtaques() {
+  attackMarkers.forEach(m => map.removeLayer(m));
+  attackMarkers = [];
   const lista = document.getElementById('lista-ataques');
   lista.innerHTML = '<li>Cargando datos...</li>';
   try {
@@ -317,18 +305,16 @@ async function cargarAtaques() {
       return;
     }
     lista.innerHTML = "";
-    data.slice(0, 30).forEach(ataque => {
+    data.slice(0, 25).forEach(ataque => {
+      const pais = ataque.country || "-";
       const li = document.createElement('li');
       li.innerHTML = `<b>${ataque.victim || "Desconocido"}</b>
-        <span style="opacity:0.7;">(${ataque.date || ""})</span>
-        <span style="color:#6ef;">${ataque.country || ""}</span>
-        <span style="opacity:0.7;">(${ataque.country || "-"})</span>
+        <span style="opacity:0.7;">(${pais})</span>
         <br><small>${ataque.title || ""}</small>`;
       lista.appendChild(li);
 
-      // Si hay país conocido, pinta marcador en su centro
       if (ataque.country && countryCoords[ataque.country]) {
-        L.circleMarker(countryCoords[ataque.country], {
+        const marker = L.circleMarker(countryCoords[ataque.country], {
           radius: 8, color: "#ff317a", fillColor: "#ff317a", fillOpacity: 0.82
         }).addTo(map).bindPopup(
           `<b>${ataque.victim || "Desconocido"}</b><br>
@@ -337,8 +323,9 @@ async function cargarAtaques() {
            <b>Titular:</b> ${ataque.title || ""}<br>
            <b>País:</b> ${ataque.country}<br>
            <b>Resumen:</b> <span style="font-size:0.95em">${ataque.summary || ""}</span><br>
-           <a href="${ataque.url}" target="_blank" style="color:#37f;">[Fuente]</a> `
+           <a href="${ataque.url}" target="_blank" style="color:#37f;">[Fuente]</a>`
         );
+        attackMarkers.push(marker);
       }
     });
   } catch (e) {
@@ -347,16 +334,10 @@ async function cargarAtaques() {
 }
 cargarAtaques();
 setInterval(cargarAtaques, 4 * 60 * 1000);
-</script>
 
-<script>
 document.getElementById("btn-toggle-lista").onclick = function() {
   const panel = document.getElementById("ataques-ransomware");
-  if (panel.style.display === "none") {
-    panel.style.display = "block";
-  } else {
-    panel.style.display = "none";
-  }
+  panel.style.display = (panel.style.display === "none" ? "block" : "none");
 };
 </script>
 
