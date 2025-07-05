@@ -291,7 +291,8 @@ async function pintarMapaChoropleth(ataquesPorPais) {
   const maxAtaques = Math.max(...Object.values(ataquesPorPaisNorm), 1);
   geojsonLayer = L.geoJSON(worldGeo, {
     style: feature => {
-      const code = feature.properties.ISO_A2 ? feature.properties.ISO_A2.toUpperCase() : null;
+      const code = feature.properties["ISO3166-1-Alpha-2"] ? feature.properties["ISO3166-1-Alpha-2"].toUpperCase() : null;
+
       const n = code ? (ataquesPorPaisNorm[code] || 0) : 0;
       const { fillColor, fillOpacity } = colorYOpacidad(n, maxAtaques);
       if (!fillColor) return { fillOpacity: 0, color: "#22242a", weight: 1.3 };
@@ -304,7 +305,8 @@ async function pintarMapaChoropleth(ataquesPorPais) {
       };
     },
     onEachFeature: (feature, layer) => {
-      const code = feature.properties.ISO_A2 ? feature.properties.ISO_A2.toUpperCase() : null;
+      const code = feature.properties["ISO3166-1-Alpha-2"] ? feature.properties["ISO3166-1-Alpha-2"].toUpperCase() : null;
+
       const count = code ? (ataquesPorPaisNorm[code] || 0) : 0;
       if (count > 0) {
         layer.bindTooltip(`${feature.properties.ADMIN}: ${count} ataques`);
