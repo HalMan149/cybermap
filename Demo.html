@@ -44,11 +44,17 @@
       fetch('countries.geojson').then(r=>r.json()),
       fetch('datos_ataques.json').then(r=>r.json())
     ]).then(([geojson, ataques]) => {
+      // --- DEPURACIÓN ---
+      console.log('GeoJSON cargado:', geojson);
+      console.log('Ataques cargados:', ataques);
+
       const ataquesPorPais = {};
       for (const at of ataques) {
         const c = (at.country || '').toUpperCase();
         if (c && c.length === 2) ataquesPorPais[c] = (ataquesPorPais[c]||0)+1;
       }
+      console.log('Conteo ataques por país:', ataquesPorPais);
+
       const maxAtaques = Math.max(...Object.values(ataquesPorPais), 1);
       function getColor(cnt) {
         if (!cnt) return "#eee";
@@ -62,6 +68,9 @@
       function style(f) {
         const iso2 = (f.properties.ISO_A2||"").toUpperCase();
         const cnt = ataquesPorPais[iso2]||0;
+        // --- DEPURACIÓN ---
+        // Muestra el código del país y cuántos ataques tiene
+        console.log('Pintando país:', iso2, 'ataques:', cnt);
         return {
           fillColor: getColor(cnt),
           weight: 1,
