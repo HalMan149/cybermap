@@ -1,21 +1,13 @@
-// ransomware.js
-// Versión de depuración: devuelve el resultado literal (JSON o texto) para detectar problemas de API/proxy.
-
 exports.handler = async function(event, context) {
   const url = "https://api.ransomware.live/v2/recentcyberattacks";
   try {
     const response = await fetch(url);
-    const text = await response.text();
-    // Intenta parsear como JSON. Si falla, devuelve como texto.
-    let data;
-    try {
-      data = JSON.parse(text);
-    } catch {
-      data = { raw: text };
-    }
+    const data = await response.json();
+    // Solo devuelve los primeros 100 elementos para evitar exceso de memoria
+    let limited = Array.isArray(data) ? data.slice(0, 100) : (Array.isArray(data.data) ? data.data.slice(0, 100) : data);
     return {
       statusCode: 200,
-      body: JSON.stringify(data),
+      body: JSON.stringify(limited),
       headers: {
         "Content-Type": "application/json",
         "Access-Control-Allow-Origin": "*",
