@@ -3,117 +3,85 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Demo Mapa Ransomware Real</title>
-<link
-  rel="stylesheet"
-  href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-/>
+<title>Demo mapa choropleth realista</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
 <style>
-  body, html {
-    margin:0; padding:0; height:100%; width:100%; background:#fff;
-  }
-  #map {
-    height: 100vh;
-    width: 100vw;
-  }
-  .legend {
-    position: absolute;
-    bottom: 30px;
-    left: 20px;
-    background: white;
-    padding: 6px 10px;
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    border-radius: 4px;
-    box-shadow: 0 0 6px rgba(0,0,0,0.3);
-  }
-  .legend span {
-    display: inline-block;
-    width: 30px;
-    height: 14px;
-  }
+  #map { width: 100vw; height: 100vh; }
+  .info { padding: 6px 8px; background: black; color: white; font: 14px Arial, sans-serif; }
+  .legend { line-height: 18px; color: #555; background: white; padding: 6px 8px; }
+  .legend i { width: 18px; height: 18px; float: left; margin-right: 8px; opacity: 0.7; }
 </style>
 </head>
 <body>
 <div id="map"></div>
-<div class="legend">
-  <span style="background: #ffffb2"></span> Pocos &nbsp;
-  <span style="background: #fecc5c"></span> Medio &nbsp;
-  <span style="background: #fd8d3c"></span> Alto &nbsp;
-  <span style="background: #f03b20"></span> Muy alto
-</div>
 
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+
 <script>
-  // Crear mapa
-  const map = L.map("map").setView([20, 0], 2);
+// Datos reales de ataques simplificados para demo
+const ataques = [
+  { country: "US" }, { country: "US" }, { country: "US" },
+  { country: "FR" }, { country: "FR" },
+  { country: "DE" },
+  { country: "GB" },
+  { country: "CN" }, { country: "CN" },
+  { country: "BR" },
+  { country: "JP" },
+  { country: "RU" }
+];
 
-  // Añadir mapa base
-  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-    maxZoom: 6,
-    attribution: "© OpenStreetMap"
-  }).addTo(map);
+// Contar ataques por país
+const ataquesPorPais = ataques.reduce((acc, cur) => {
+  acc[cur.country] = (acc[cur.country] || 0) + 1;
+  return acc;
+}, {});
+const maxAtaques = Math.max(...Object.values(ataquesPorPais));
 
-  // Cargar geojson de países
-  fetch("countries.geojson")
-    .then(r => r.json())
-    .then(geojson => {
-      console.log("GeoJSON cargado:", geojson);
+console.log('Ataques por país:', ataquesPorPais, 'Máximo ataques:', maxAtaques);
 
-      // Cargar datos ataques
-      fetch("datos_ataques.json")
-        .then(r => r.json())
-        .then(ataques => {
-          console.log("Ataques cargados:", ataques);
+// Función de color dinámica
+function getColor(d, max) {
+  if (d === 0) return '#f0f0f0';
+  const ratio = d / max;
+  if (ratio > 0.75) return '#d73027';
+  if (ratio > 0.5)  return '#fc8d59';
+  if (ratio > 0.25) return '#fee08b';
+  return '#ffffbf';
+}
 
-          // Contar ataques por país (ISO2 en mayúsculas)
-          const conteo = {};
-          ataques.forEach(a => {
-            const c = a.country?.toUpperCase();
-            if(c) conteo[c] = (conteo[c]||0) + 1;
-          });
-          console.log("Conteo ataques por país:", conteo);
+// Crear mapa Leaflet
+const map = L.map('map').setView([20, 0], 2);
 
-          // Función para color según cantidad ataques
-          function getColor(d) {
-            return d > 10 ? '#f03b20' :
-                   d > 5  ? '#fd8d3c' :
-                   d > 2  ? '#fecc5c' :
-                            '#ffffb2';
-          }
+// Capa base
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 5,
+  attribution: '© OpenStreetMap'
+}).addTo(map);
 
-          // Estilo para cada país
-          function style(feature) {
-            const c = feature.properties.ISO_A2 || feature.properties.ISO3166_1_Alpha_2;
-            const ataques = conteo[c] || 0;
-            return {
-              fillColor: getColor(ataques),
-              weight: 1,
-              opacity: 1,
-              color: 'gray',
-              fillOpacity: 0.8
-            };
-          }
-
-          // Mostrar tooltip con info
-          function onEachFeature(feature, layer) {
-            const c = feature.properties.ISO_A2 || feature.properties.ISO3166_1_Alpha_2;
-            const ataques = conteo[c] || 0;
-            const name = feature.properties.ADMIN || feature.properties.name || "Desconocido";
-            layer.bindTooltip(`${name}: ${ataques} ataques`, {sticky:true});
-          }
-
-          // Añadir capa GeoJSON con estilo y tooltip
-          L.geoJSON(geojson, {
-            style: style,
-            onEachFeature: onEachFeature
-          }).addTo(map);
-        });
-    })
-    .catch(e => {
-      console.error("Error cargando archivos:", e);
-      alert("Error cargando datos o geojson, revisa consola.");
-    });
+// Cargar GeoJSON países (usa tu archivo countries.geojson)
+// Para demo, uso fetch desde URL pública de ejemplo
+fetch('https://raw.githubusercontent.com/datasets/geo-countries/master/data/countries.geojson')
+  .then(res => res.json())
+  .then(geojson => {
+    // Añadir capa con estilo dinámico
+    L.geoJSON(geojson, {
+      style: feature => {
+        const iso = feature.properties.ISO_A2 || feature.properties.ISO2 || feature.properties.ISO3166_1_Alpha_2 || '';
+        const ataques = ataquesPorPais[iso] || 0;
+        return {
+          fillColor: getColor(ataques, maxAtaques),
+          weight: 1,
+          color: '#444',
+          fillOpacity: 0.7,
+        };
+      },
+      onEachFeature: (feature, layer) => {
+        const iso = feature.properties.ISO_A2 || feature.properties.ISO2 || feature.properties.ISO3166_1_Alpha_2 || '';
+        const ataques = ataquesPorPais[iso] || 0;
+        layer.bindTooltip(`${feature.properties.ADMIN}: ${ataques} ataque(s)`);
+      }
+    }).addTo(map);
+  });
 </script>
 </body>
 </html>
