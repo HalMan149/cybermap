@@ -266,7 +266,6 @@ const countryCoords = {
   "CH": [46.8, 8.2], "PT": [39.4, -8.2], "PL": [52.1, 19.4], "NL": [52.3, 5.3], "BE": [50.5, 4.4]
 };
 
-let geojsonLayer;
 let attackMarkers = [];
 
 function colorYOpacidad(count, max) {
@@ -378,6 +377,7 @@ document.getElementById("btn-toggle-lista").onclick = function() {
 };
 // ----------- BLOQUE EXACTO DEL DEMO PARA ATAQUES Y CHOROPLETH ROJO -----------
 
+let geojsonLayer;
 let attackMarkers = [];
 
 // Función para calcular color y opacidad en rojo progresivo
