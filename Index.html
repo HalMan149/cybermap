@@ -304,6 +304,7 @@ async function cargarAtaques() {
       li.innerHTML = `<b>${ataque.victim || "Desconocido"}</b>
         <span style="opacity:0.7;">(${ataque.date || ""})</span>
         <span style="color:#6ef;">${ataque.country || ""}</span>
+        <span style="opacity:0.7;">(${ataque.country || "-"})</span>
         <br><small>${ataque.title || ""}</small>`;
       lista.appendChild(li);
 
