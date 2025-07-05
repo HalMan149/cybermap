@@ -2,18 +2,12 @@
 <html lang="es">
 <head>
   <meta charset="utf-8" />
-  <title>Demo Gradiente Ataques País</title>
+  <title>Demo Gradiente Países</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <style>
     html, body, #map { width: 100vw; height: 100vh; margin: 0; padding: 0; background: #000; }
     #map { position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; }
-    .info-ataques {
-      position: absolute; top: 8px; left: 10px; z-index: 99;
-      background: #111a; color: #ffeab5; padding: 8px 16px;
-      border-radius: 11px; font-family: sans-serif; font-size: 1.05em;
-      box-shadow: 0 1px 10px #0005;
-    }
     .legend-gradient {
       position: absolute; bottom: 18px; left: 20px; z-index: 98;
       background: #222c; border-radius: 7px; padding: 8px 18px;
@@ -30,7 +24,6 @@
 </head>
 <body>
   <div id="map"></div>
-  <div class="info-ataques" id="info"></div>
   <div class="legend-gradient">
     <span>Pocos</span>
     <div class="legend-gradient-bar"></div>
@@ -38,8 +31,6 @@
   </div>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script>
-    // --- Configuración y datos mínimos ---
-    // 1. Cargar mapa base
     const map = L.map('map', {minZoom: 2, maxZoom: 7}).setView([25, 0], 2);
     L.tileLayer(
       'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -49,26 +40,20 @@
       }
     ).addTo(map);
 
-    // 2. Cargar datos GeoJSON de países y ataques (ambos deben estar en el mismo directorio o referenciar la ruta correcta)
     Promise.all([
-      fetch('countries.geojson.json').then(r=>r.json()),
+      fetch('countries.geojson').then(r=>r.json()),
       fetch('datos_ataques.json').then(r=>r.json())
     ]).then(([geojson, ataques]) => {
-      // 3. Calcular ataques por país (usando country code de dos letras)
       const ataquesPorPais = {};
       for (const at of ataques) {
         const c = (at.country || '').toUpperCase();
         if (c && c.length === 2) ataquesPorPais[c] = (ataquesPorPais[c]||0)+1;
       }
-      // 4. Determinar máximo para normalizar color
       const maxAtaques = Math.max(...Object.values(ataquesPorPais), 1);
-
-      // 5. Colorear países según ataques
       function getColor(cnt) {
         if (!cnt) return "#eee";
         const p = Math.min(cnt / maxAtaques, 1);
         if (p === 0) return "#fff";
-        // Gradiente blanco > amarillo > naranja > rojo
         if (p < 0.20) return "#ffe";
         if (p < 0.4) return "#ffe600";
         if (p < 0.7) return "#f90";
@@ -85,24 +70,7 @@
           fillOpacity: cnt ? 0.74 : 0.25
         };
       }
-      // 6. Crear layer y añadir tooltip al pasar mouse
-      let geoLayer = L.geoJson(geojson, {
-        style,
-        onEachFeature: function(f, layer) {
-          const iso2 = (f.properties.ISO_A2||"").toUpperCase();
-          const nombre = f.properties.ADMIN || iso2;
-          const cnt = ataquesPorPais[iso2]||0;
-          layer.bindTooltip(`${nombre}: <b>${cnt}</b> ataques`,{sticky:true, direction:"center"});
-        }
-      }).addTo(map);
-
-      // 7. Mostrar info resumen
-      let suma = Object.values(ataquesPorPais).reduce((a,b)=>a+b,0);
-      document.getElementById('info').innerHTML = 
-        `<b>Total ataques detectados:</b> ${suma}<br>
-         <b>País con más ataques:</b> ${
-            Object.entries(ataquesPorPais).sort((a,b)=>b[1]-a[1])[0]?.[0]||'-'
-         } (${Math.max(...Object.values(ataquesPorPais),0)})`;
+      L.geoJson(geojson, { style }).addTo(map);
     });
   </script>
 </body>
