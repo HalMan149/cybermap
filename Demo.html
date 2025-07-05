@@ -3,106 +3,100 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Demo Ataques Reales Gradiente</title>
+<title>Demo Gradiente Ataques Países</title>
 <link
   rel="stylesheet"
   href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-  crossorigin=""
 />
 <style>
   #map { height: 90vh; width: 100%; }
   .legend {
     background: white;
-    line-height: 1.5em;
     padding: 6px 8px;
-    font-size: 12px;
+    font: 14px Arial, sans-serif;
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
     border-radius: 5px;
-    position: absolute;
-    bottom: 30px;
-    left: 10px;
-    z-index: 1000;
   }
   .legend i {
-    width: 18px;
-    height: 18px;
-    float: left;
-    margin-right: 8px;
-    opacity: 0.7;
+    width: 18px; height: 18px; float: left; margin-right: 8px; opacity: 0.7;
   }
 </style>
 </head>
 <body>
-
 <div id="map"></div>
-
-<div class="legend" id="legend">
-  <i style="background:#800026"></i> Muy alto<br />
-  <i style="background:#BD0026"></i> Alto<br />
-  <i style="background:#E31A1C"></i> Medio<br />
-  <i style="background:#FC4E2A"></i> Bajo<br />
-  <i style="background:#FD8D3C"></i> Muy bajo<br />
-  <i style="background:#FEB24C"></i> Ninguno<br />
-</div>
-
-<script
-  src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-  crossorigin=""
-></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
+// Mapa base
 const map = L.map('map').setView([20, 0], 2);
 
+// Capa base OpenStreetMap
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  attribution: 'Leaflet | © OpenStreetMap',
-  maxZoom: 18,
+  attribution: '&copy; OpenStreetMap contributors'
 }).addTo(map);
 
-function getColor(d) {
-  return d > 20 ? '#800026' :
-         d > 15 ? '#BD0026' :
-         d > 10 ? '#E31A1C' :
-         d > 5  ? '#FC4E2A' :
-         d > 0  ? '#FD8D3C' :
-                  '#FEB24C';
-}
+// Datos GeoJSON de países (usa tu countries.geojson local o remoto)
+fetch('countries.geojson')
+  .then(res => res.json())
+  .then(geojson => {
+    // Datos ataques ejemplo (usa los datos reales que tienes)
+    const ataquesPorPais = {
+      "US": 3,
+      "FR": 2,
+      "DE": 1,
+      "GB": 1,
+      "CN": 2,
+      "BR": 1,
+      "JP": 1,
+      "RU": 1
+    };
 
-// Carga ataques reales desde la API online y el geojson local
-Promise.all([
-  fetch('https://ransomware.live/api/v1/attacks?limit=1000').then(res => res.json()),
-  fetch('countries.geojson').then(res => res.json())
-]).then(([ataquesData, geojson]) => {
-  // Contar ataques por código país (country ISO2)
-  const ataquesPorPais = {};
-  ataquesData.data.forEach(item => {
-    const iso = item.country?.toUpperCase() || "";
-    if (iso) {
-      ataquesPorPais[iso] = (ataquesPorPais[iso] || 0) + 1;
+    // Función para color según número ataques
+    function getColor(d) {
+      return d > 20 ? '#800026' :
+             d > 10 ? '#BD0026' :
+             d > 5  ? '#E31A1C' :
+             d > 2  ? '#FC4E2A' :
+             d > 0  ? '#FD8D3C' :
+                      '#f0f0f0';
     }
-  });
 
-  // Pintar países con gradiente basado en ataques
-  L.geoJSON(geojson, {
-    style: feature => {
+    // Estilo con color y opacidad según ataques
+    function style(feature) {
       const iso = (feature.properties["ISO3166-1-Alpha-2"] || "").toUpperCase();
       const ataques = ataquesPorPais[iso] || 0;
       return {
         fillColor: getColor(ataques),
         weight: 1,
         color: '#444',
-        fillOpacity: 0.7,
+        fillOpacity: ataques > 0 ? 0.7 : 0.1
       };
-    },
-    onEachFeature: (feature, layer) => {
+    }
+
+    // Mostrar tooltip con nombre y ataques
+    function onEachFeature(feature, layer) {
       const iso = (feature.properties["ISO3166-1-Alpha-2"] || "").toUpperCase();
       const ataques = ataquesPorPais[iso] || 0;
       layer.bindTooltip(`${feature.properties.ADMIN}: ${ataques} ataques`);
     }
-  }).addTo(map);
 
-}).catch(e => {
-  console.error('Error cargando datos:', e);
-});
+    L.geoJSON(geojson, { style, onEachFeature }).addTo(map);
+
+    // Leyenda simple
+    const legend = L.control({position: 'bottomleft'});
+    legend.onAdd = function () {
+      const div = L.DomUtil.create('div', 'legend');
+      const grades = [0, 1, 3, 5, 10, 20];
+      const labels = ['Ninguno', 'Bajo', 'Medio', 'Alto', 'Muy alto', 'Extremo'];
+      div.innerHTML = '<b>Intensidad ataques</b><br>';
+      for (let i = 0; i < grades.length; i++) {
+        div.innerHTML +=
+          `<i style="background:${getColor(grades[i] + 1)}"></i> ${labels[i]}<br>`;
+      }
+      return div;
+    };
+    legend.addTo(map);
+  })
+  .catch(e => console.error('Error cargando GeoJSON:', e));
 </script>
-
 </body>
 </html>
