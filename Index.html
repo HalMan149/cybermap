@@ -133,7 +133,7 @@ async function syncCentralUTC() {
   try {
     const resp = await fetch('/.netlify/functions/reloj?zona=Etc/UTC');
     const data = await resp.json();
-    utcRef = new Date(data.datetime);
+    utcRef = new Date(data.datetime.replace(/\.\d+/, ''));
     utcError = false;
   } catch(e) {
     let now = new Date();
@@ -181,7 +181,7 @@ async function actualizarRelojesCiudades() {
       const resp = await fetch('/.netlify/functions/reloj?zona=' + encodeURIComponent(city.zone));
       const data = await resp.json();
       if (data && data.datetime) {
-        const dt = new Date(data.datetime);
+        const dt = new Date(data.datetime.replace(/\.\d+/, ''));
         const hh = String(dt.getHours()).padStart(2, "0");
         const mm = String(dt.getMinutes()).padStart(2, "0");
         el.textContent = `${hh}:${mm}`;
