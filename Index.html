@@ -107,43 +107,36 @@ for(let i = -12; i <= 14; i++) {
 }
 zonaHorariaLines.addTo(map);
 
-// Relojes de ciudades
-const cityMarkers = [
-  { name: "Los Ángeles", lat:34.05, lon:-118.25, utc_offset: -7, id:"clkla" },
-  { name: "Denver", lat:39.74, lon:-104.99, utc_offset: -6, id:"clkden" },
-  { name: "México", lat:19.43, lon:-99.13, utc_offset: -6, id:"clkcdmx" },
-  { name: "Nueva York", lat:40.71, lon:-74.01, utc_offset: -4, id:"clkny" },
-  { name: "Buenos Aires", lat:-34.61, lon:-58.38, utc_offset: -3, id:"clkbue" },
-  { name: "Sao Paulo", lat:-23.55, lon:-46.63, utc_offset: -3, id:"clksp" },
-  { name: "Londres", lat:51.51, lon:-0.13, utc_offset: 1, id:"clklon" },
-  { name: "Madrid", lat:40.42, lon:-3.70, utc_offset: 2, id:"clkmad" },
-  { name: "El Cairo", lat:30.05, lon:31.25, utc_offset: 2, id:"clkcai" },
-  { name: "Moscú", lat:55.75, lon:37.62, utc_offset: 3, id:"clkmsk" },
-  { name: "Dubái", lat:25.20, lon:55.27, utc_offset: 4, id:"clkdx" },
-  { name: "Nueva Delhi", lat:28.61, lon:77.20, utc_offset: 5.5, id:"clkdel" },
-  { name: "Pekín", lat:39.90, lon:116.40, utc_offset: 8, id:"clkpek" },
-  { name: "Tokio", lat:35.68, lon:139.69, utc_offset: 9, id:"clktok" },
-  { name: "Sídney", lat:-33.87, lon:151.21, utc_offset: 10, id:"clksyd" },
-  { name: "Perth", lat:-31.95, lon:115.86, utc_offset: 8, id:"clkper" }
-];
-cityMarkers.forEach(city => {
-  L.marker([city.lat, city.lon], {
-    icon: L.divIcon({
-      className: "city-clock-label",
-      html: `<span class="hora" id="${city.id}-hora">--:--</span>
-             <span class="city">${city.name}</span>`,
-      iconAnchor: [11, 10]
-    }),
-    interactive: false
-  }).addTo(map);
-});
+// ======= NUEVA SINCRONIZACIÓN CENTRAL Y RELOJES DE CIUDAD =========
 
-// Sincronización y actualización de relojes
-async function syncUTCAtomic() {
+// Lista de zonas horarias exactas por ciudad
+const cityMarkers = [
+  { name: "Los Ángeles", lat:34.05, lon:-118.25, zone: "America/Los_Angeles", id:"clkla" },
+  { name: "Denver", lat:39.74, lon:-104.99, zone: "America/Denver", id:"clkden" },
+  { name: "México", lat:19.43, lon:-99.13, zone: "America/Mexico_City", id:"clkcdmx" },
+  { name: "Nueva York", lat:40.71, lon:-74.01, zone: "America/New_York", id:"clkny" },
+  { name: "Buenos Aires", lat:-34.61, lon:-58.38, zone: "America/Argentina/Buenos_Aires", id:"clkbue" },
+  { name: "Sao Paulo", lat:-23.55, lon:-46.63, zone: "America/Sao_Paulo", id:"clksp" },
+  { name: "Londres", lat:51.51, lon:-0.13, zone: "Europe/London", id:"clklon" },
+  { name: "Madrid", lat:40.42, lon:-3.70, zone: "Europe/Madrid", id:"clkmad" },
+  { name: "El Cairo", lat:30.05, lon:31.25, zone: "Africa/Cairo", id:"clkcai" },
+  { name: "Moscú", lat:55.75, lon:37.62, zone: "Europe/Moscow", id:"clkmsk" },
+  { name: "Dubái", lat:25.20, lon:55.27, zone: "Asia/Dubai", id:"clkdx" },
+  { name: "Nueva Delhi", lat:28.61, lon:77.20, zone: "Asia/Kolkata", id:"clkdel" },
+  { name: "Pekín", lat:39.90, lon:116.40, zone: "Asia/Shanghai", id:"clkpek" },
+  { name: "Tokio", lat:35.68, lon:139.69, zone: "Asia/Tokyo", id:"clktok" },
+  { name: "Sídney", lat:-33.87, lon:151.21, zone: "Australia/Sydney", id:"clksyd" },
+  { name: "Perth", lat:-31.95, lon:115.86, zone: "Australia/Perth", id:"clkper" }
+];
+
+// El reloj central (UTC)
+let utcRef = null, utcError = false;
+
+async function syncCentralUTC() {
   try {
-    const resp = await fetch('https://timeapi.io/api/Time/current/zone?timeZone=UTC');
+    const resp = await fetch('/.netlify/functions/reloj?zona=Etc/UTC');
     const data = await resp.json();
-    utcRef = new Date(data.dateTime);
+    utcRef = new Date(data.datetime);
     utcError = false;
   } catch(e) {
     let now = new Date();
@@ -151,11 +144,13 @@ async function syncUTCAtomic() {
     utcRef = new Date(now.getTime() + localOffsetMinutes * 60000);
     utcError = true;
   }
-  updateCentralUTCAndRelojes();
+  updateClocks();
 }
 
-function updateCentralUTCAndRelojes() {
+// Actualiza el central y los meridianos respecto a UTC
+function updateClocks() {
   if (!utcRef) return;
+  // Central
   let h = String(utcRef.getUTCHours()).padStart(2,"0");
   let m = String(utcRef.getUTCMinutes()).padStart(2,"0");
   const centralClock = document.getElementById('reloj-tz0');
@@ -169,6 +164,7 @@ function updateCentralUTCAndRelojes() {
       centralClock.title = "Hora GMT/UTC atómica sincronizada";
     }
   }
+  // Relojes GMT±N (método clásico)
   relojMarkers.forEach(({id, offset}) => {
     if (id === 'reloj-tz0') return;
     const el = document.getElementById(id);
@@ -178,18 +174,35 @@ function updateCentralUTCAndRelojes() {
     const mm = String(t.getUTCMinutes()).padStart(2, "0");
     el.textContent = `${hh}:${mm}`;
   });
-  cityMarkers.forEach(city => {
-    const el = document.getElementById(city.id + "-hora");
-    if (!el) return;
-    const t = new Date(utcRef.getTime() + city.utc_offset * 60 * 60 * 1000);
-    const hh = String(t.getUTCHours()).padStart(2, "0");
-    const mm = String(t.getUTCMinutes()).padStart(2, "0");
-    el.textContent = `${hh}:${mm}`;
-  });
 }
-syncUTCAtomic();
-setInterval(syncUTCAtomic, 5 * 60 * 1000);
-setInterval(updateCentralUTCAndRelojes, 10000);
+
+async function actualizarRelojesCiudades() {
+  for (const city of cityMarkers) {
+    const el = document.getElementById(city.id + "-hora");
+    if (!el) continue;
+    try {
+      const resp = await fetch('/.netlify/functions/reloj?zona=' + encodeURIComponent(city.zone));
+      const data = await resp.json();
+      if (data && data.datetime) {
+        const dt = new Date(data.datetime);
+        const hh = String(dt.getHours()).padStart(2, "0");
+        const mm = String(dt.getMinutes()).padStart(2, "0");
+        el.textContent = `${hh}:${mm}`;
+      } else {
+        el.textContent = "--:--";
+      }
+    } catch {
+      el.textContent = "--:--";
+    }
+  }
+}
+
+// Inicialización y actualización periódica
+syncCentralUTC();
+setInterval(syncCentralUTC, 5 * 60 * 1000);
+setInterval(updateClocks, 10000);
+actualizarRelojesCiudades();
+setInterval(actualizarRelojesCiudades, 5 * 60 * 1000);
 
 // -------- TICKER DE NOTICIAS --------
 const rssFeeds = [
