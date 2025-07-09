@@ -87,6 +87,7 @@ L.tileLayer('https://gps-{s}.tile.openstreetmap.org/lines/{z}/{x}/{y}.png', {
 const zonaHorariaLines = L.layerGroup();
 const relojMarkers = [];
 let utcRef = null, utcError = false;
+const meridianLines = {}; // Para guardar cada línea por offset
 for(let i = -12; i <= 14; i++) {
   const lon = i * 15;
   if (lon < -180 || lon > 180) continue;
@@ -94,6 +95,7 @@ for(let i = -12; i <= 14; i++) {
   const line = L.polyline([[-59.98, lon], [82.26, lon]],
     { color: "#2cfdff", weight: 2.3, opacity: 0.65, dashArray: "5,14", interactive: false });
   zonaHorariaLines.addLayer(line);
+  meridianLines[i] = line;
   const latLabel = 82.15;
   const relojId = `reloj-tz${i}`;
   const extraClass = isCentral ? " gmt-central" : "";
@@ -112,6 +114,18 @@ for(let i = -12; i <= 14; i++) {
   zonaHorariaLines.addLayer(marker);
 }
 zonaHorariaLines.addTo(map);
+function marcarLineaMeridianoLocal() {
+  const localOffsetH = -new Date().getTimezoneOffset() / 60;
+  const nearest = Math.round(localOffsetH);
+  Object.values(meridianLines).forEach(line => {
+    line.setStyle({ color: "#2cfdff", weight: 2.3, opacity: 0.65 });
+  });
+  if (meridianLines[nearest]) {
+    meridianLines[nearest].setStyle({ color: "#ffea00", weight: 4, opacity: 0.88 });
+  }
+}
+marcarLineaMeridianoLocal();
+setInterval(marcarLineaMeridianoLocal, 60000);
 
 // ======= NUEVA SINCRONIZACIÓN CENTRAL Y RELOJES DE CIUDAD =========
 
