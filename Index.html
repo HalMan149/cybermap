@@ -126,19 +126,11 @@ const cityMarkers = [
   { name: "Sídney", lat:-33.87, lon:151.21, utc_offset: 10, id:"clksyd" },
   { name: "Perth", lat:-31.95, lon:115.86, utc_offset: 8, id:"clkper" }
 ];
-cityMarkers.forEach(city => {
-  L.marker([city.lat, city.lon], {
-    icon: L.divIcon({
-      className: "city-clock-label",
-      html: `<span class="hora" id="${city.id}-hora">--:--</span>
-             <span class="city">${city.name}</span>`,
-      iconAnchor: [11, 10]
-    }),
-    interactive: false
-  }).addTo(map);
-});
+// ==== Sincronización y actualización de relojes ====
 
-// Sincronización y actualización de relojes
+// Central: obtiene la hora UTC/atómica online (solo una petición)
+let utcRef = null, utcError = false;
+
 async function syncUTCAtomic() {
   try {
     const resp = await fetch('https://timeapi.io/api/Time/current/zone?timeZone=UTC');
@@ -154,6 +146,7 @@ async function syncUTCAtomic() {
   updateCentralUTCAndRelojes();
 }
 
+// Actualiza el reloj central (GMT/UTC) y los de meridiano arriba
 function updateCentralUTCAndRelojes() {
   if (!utcRef) return;
   let h = String(utcRef.getUTCHours()).padStart(2,"0");
@@ -178,18 +171,34 @@ function updateCentralUTCAndRelojes() {
     const mm = String(t.getUTCMinutes()).padStart(2, "0");
     el.textContent = `${hh}:${mm}`;
   });
-  cityMarkers.forEach(city => {
-    const el = document.getElementById(city.id + "-hora");
-    if (!el) return;
-    const t = new Date(utcRef.getTime() + city.utc_offset * 60 * 60 * 1000);
-    const hh = String(t.getUTCHours()).padStart(2, "0");
-    const mm = String(t.getUTCMinutes()).padStart(2, "0");
-    el.textContent = `${hh}:${mm}`;
-  });
 }
+
+// ---- ACTUALIZACIÓN ONLINE DE RELOJES DE CIUDAD ----
+// cityMarkers debe tener { name, lat, lon, zona, id }
+async function actualizarRelojesCiudades() {
+  for (const city of cityMarkers) {
+    try {
+      const resp = await fetch(`/.netlify/functions/proxytime?zona=${encodeURIComponent(city.zona)}`);
+      const data = await resp.json();
+      if (data.datetime) {
+        const dt = new Date(data.datetime);
+        const hh = String(dt.getHours()).padStart(2, "0");
+        const mm = String(dt.getMinutes()).padStart(2, "0");
+        const el = document.getElementById(city.id + "-hora");
+        if (el) el.textContent = `${hh}:${mm}`;
+      }
+    } catch(e) { /* ignora errores */ }
+  }
+}
+
+// ---- LLAMADAS DE INICIO Y ACTUALIZACIÓN ----
 syncUTCAtomic();
-setInterval(syncUTCAtomic, 5 * 60 * 1000);
-setInterval(updateCentralUTCAndRelojes, 10000);
+setInterval(syncUTCAtomic, 5 * 60 * 1000); // Sincroniza UTC online cada 5 minutos
+setInterval(updateCentralUTCAndRelojes, 10000); // Actualiza visualmente cada 10 segundos
+
+actualizarRelojesCiudades();
+setInterval(actualizarRelojesCiudades, 60 * 1000); // Relojes ciudad online cada minuto
+
 
 // -------- TICKER DE NOTICIAS --------
 const rssFeeds = [

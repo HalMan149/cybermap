@@ -1,30 +1,31 @@
-exports.handler = async function(event, context) {
+// /.netlify/functions/proxytime.js
+export default async (req, res) => {
   const url = "https://api.ransomware.live/v2/recentvictims";
+  const zona = url.searchParams.get("zona");
+  if (!zona) {
+    res.statusCode = 400;
+    res.end(JSON.stringify({ error: "Falta parámetro 'zona'" }));
+    return;
+  }
+ 
+// /.netlify/functions/proxytime.js
+export default async (req, res) => {
+  const url = new URL(req.url, 'http://localhost');
+  const zona = url.searchParams.get("zona");
+  if (!zona) {
+    res.statusCode = 400;
+    res.end(JSON.stringify({ error: "Falta parámetro 'zona'" }));
+    return;
+  }
+  // Usa worldtimeapi.org (o cambia por otra si prefieres)
+  const apiUrl = `https://worldtimeapi.org/api/timezone/${encodeURIComponent(zona)}`;
   try {
-    const response = await fetch(url);
-    const data = await response.json();
-    // Solo devuelve los primeros 100 elementos para evitar exceso de memoria
-    let limited = Array.isArray(data) ? data.slice(0, 100) : (Array.isArray(data.data) ? data.data.slice(0, 100) : data);
-    return {
-      statusCode: 200,
-      body: JSON.stringify(limited),
-      headers: {
-        "Content-Type": "application/json",
-        "Access-Control-Allow-Origin": "*",
-      }
-    };
+    const apiResp = await fetch(apiUrl);
+    const data = await apiResp.json();
+    res.setHeader("Content-Type", "application/json");
+    res.end(JSON.stringify(data));
   } catch (err) {
-    return {
-      statusCode: 500,
-      body: JSON.stringify({ 
-        error: "Error obteniendo datos", 
-        details: err.message, 
-        stack: err.stack 
-      }),
-      headers: {
-        "Content-Type": "application/json",
-        "Access-Control-Allow-Origin": "*",
-      }
-    };
+    res.statusCode = 500;
+    res.end(JSON.stringify({ error: "Error al obtener la hora", detalle: err.message }));
   }
 };
