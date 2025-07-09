@@ -44,16 +44,6 @@
   pointer-events: auto !important;
   background: none !important;
 }
-.gmt-utc-clock.meridiano-local,
-#reloj-tz0.meridiano-local,
-.zona-horaria-label.meridiano-local,
-#reloj-tz0.meridiano-local {
-  border: 2.5px solid #ffb800 !important;
-  color: #fff9b0 !important;
-  background: #261d08 !important;
-  box-shadow: 0 0 18px #ffd900b8 !important;
-}
-
   </style>
 </head>
 <body>
@@ -122,15 +112,6 @@ for(let i = -12; i <= 14; i++) {
   zonaHorariaLines.addLayer(marker);
 }
 zonaHorariaLines.addTo(map);
-// Calcular el offset local respecto a UTC (en horas)
-const localOffsetH = -new Date().getTimezoneOffset() / 60; // negativo porque JS lo da en minutos Oeste
-
-// Buscar el marker del meridiano correspondiente y resaltarlo
-const relojId = `reloj-tz${localOffsetH}`; // por ejemplo, para España será 'reloj-tz2'
-const meridianoDiv = document.getElementById(relojId);
-if (meridianoDiv) {
-  meridianoDiv.classList.add('meridiano-local');
-}
 
 // ======= NUEVA SINCRONIZACIÓN CENTRAL Y RELOJES DE CIUDAD =========
 
