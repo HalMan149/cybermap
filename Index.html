@@ -134,7 +134,12 @@ const cityMarkers = [
   { name: "Sídney", lat:-33.87, lon:151.21, zone: "Australia/Sydney", id:"clksyd" },
   { name: "Perth", lat:-31.95, lon:115.86, zone: "Australia/Perth", id:"clkper" },
   { name: "Anchorage", lat:61.22, lon:-149.90, zone: "America/Anchorage", id:"clkanc" },
-  { name: "Honolulu", lat:21.31, lon:-157.86, zone: "Pacific/Honolulu", id:"clkhnl" }
+  { name: "Honolulu", lat:21.31, lon:-157.86, zone: "Pacific/Honolulu", id:"clkhnl" },
+  { name: "Yakutsk", lat:62.03, lon:129.73, zone: "Asia/Yakutsk", id:"clkyks" },
+  { name: "Vladivostok", lat:43.12, lon:131.89, zone: "Asia/Vladivostok", id:"clkvvo" },
+  { name: "Khabarovsk", lat:48.48, lon:135.08, zone: "Asia/Vladivostok", id:"clkkhv" },
+  { name: "Magadán", lat:59.56, lon:150.80, zone: "Asia/Magadan", id:"clkmag" },
+  { name: "Petropavlovsk", lat:53.02, lon:158.65, zone: "Asia/Kamchatka", id:"clkpkc" }
 ];
 cityMarkers.forEach(city => {
   L.marker([city.lat, city.lon], {
