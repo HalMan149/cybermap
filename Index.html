@@ -139,7 +139,16 @@ const cityMarkers = [
   { name: "Vladivostok", lat:43.12, lon:131.89, zone: "Asia/Vladivostok", id:"clkvvo" },
   { name: "Khabarovsk", lat:48.48, lon:135.08, zone: "Asia/Vladivostok", id:"clkkhv" },
   { name: "Magadán", lat:59.56, lon:150.80, zone: "Asia/Magadan", id:"clkmag" },
-  { name: "Petropavlovsk", lat:53.02, lon:158.65, zone: "Asia/Kamchatka", id:"clkpkc" }
+  { name: "Petropavlovsk", lat:53.02, lon:158.65, zone: "Asia/Kamchatka", id:"clkpkc" },
+  { name: "Novosibirsk", lat:55.01, lon:82.93, zone: "Asia/Novosibirsk", id:"clknsb" },
+  { name: "Norilsk", lat:69.34, lon:88.22, zone: "Asia/Krasnoyarsk", id:"clknor" },
+  { name: "Krasnoyarsk", lat:56.01, lon:92.87, zone: "Asia/Krasnoyarsk", id:"clkkrk" },
+  { name: "Omsk", lat:54.99, lon:73.37, zone: "Asia/Omsk", id:"clkoms" },
+  { name: "Lagos", lat:6.52, lon:3.37, zone: "Africa/Lagos", id:"clklgs" },
+  { name: "Johannesburgo", lat:-26.20, lon:28.04, zone: "Africa/Johannesburg", id:"clkjnb" },
+  { name: "Nairobi", lat:-1.29, lon:36.82, zone: "Africa/Nairobi", id:"clknbo" },
+  { name: "Casablanca", lat:33.57, lon:-7.59, zone: "Africa/Casablanca", id:"clkcas" },
+  { name: "Kinshasa", lat:-4.32, lon:15.31, zone: "Africa/Kinshasa", id:"clkkin" }
 ];
 cityMarkers.forEach(city => {
   L.marker([city.lat, city.lon], {
