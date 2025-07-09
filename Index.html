@@ -109,23 +109,24 @@ zonaHorariaLines.addTo(map);
 
 // Relojes de ciudades
 const cityMarkers = [
-  { name: "Los Ángeles", lat:34.05, lon:-118.25, utc_offset: -7, id:"clkla" },
-  { name: "Denver", lat:39.74, lon:-104.99, utc_offset: -6, id:"clkden" },
-  { name: "México", lat:19.43, lon:-99.13, utc_offset: -6, id:"clkcdmx" },
-  { name: "Nueva York", lat:40.71, lon:-74.01, utc_offset: -4, id:"clkny" },
-  { name: "Buenos Aires", lat:-34.61, lon:-58.38, utc_offset: -3, id:"clkbue" },
-  { name: "Sao Paulo", lat:-23.55, lon:-46.63, utc_offset: -3, id:"clksp" },
-  { name: "Londres", lat:51.51, lon:-0.13, utc_offset: 1, id:"clklon" },
-  { name: "Madrid", lat:40.42, lon:-3.70, utc_offset: 2, id:"clkmad" },
-  { name: "El Cairo", lat:30.05, lon:31.25, utc_offset: 2, id:"clkcai" },
-  { name: "Moscú", lat:55.75, lon:37.62, utc_offset: 3, id:"clkmsk" },
-  { name: "Dubái", lat:25.20, lon:55.27, utc_offset: 4, id:"clkdx" },
-  { name: "Nueva Delhi", lat:28.61, lon:77.20, utc_offset: 5.5, id:"clkdel" },
-  { name: "Pekín", lat:39.90, lon:116.40, utc_offset: 8, id:"clkpek" },
-  { name: "Tokio", lat:35.68, lon:139.69, utc_offset: 9, id:"clktok" },
-  { name: "Sídney", lat:-33.87, lon:151.21, utc_offset: 10, id:"clksyd" },
-  { name: "Perth", lat:-31.95, lon:115.86, utc_offset: 8, id:"clkper" }
+  { name: "Los Ángeles", lat:34.05, lon:-118.25, zona: "America/Los_Angeles", id:"clkla" },
+  { name: "Denver", lat:39.74, lon:-104.99, zona: "America/Denver", id:"clkden" },
+  { name: "México", lat:19.43, lon:-99.13, zona: "America/Mexico_City", id:"clkcdmx" },
+  { name: "Nueva York", lat:40.71, lon:-74.01, zona: "America/New_York", id:"clkny" },
+  { name: "Buenos Aires", lat:-34.61, lon:-58.38, zona: "America/Argentina/Buenos_Aires", id:"clkbue" },
+  { name: "Sao Paulo", lat:-23.55, lon:-46.63, zona: "America/Sao_Paulo", id:"clksp" },
+  { name: "Londres", lat:51.51, lon:-0.13, zona: "Europe/London", id:"clklon" },
+  { name: "Madrid", lat:40.42, lon:-3.70, zona: "Europe/Madrid", id:"clkmad" },
+  { name: "El Cairo", lat:30.05, lon:31.25, zona: "Africa/Cairo", id:"clkcai" },
+  { name: "Moscú", lat:55.75, lon:37.62, zona: "Europe/Moscow", id:"clkmsk" },
+  { name: "Dubái", lat:25.20, lon:55.27, zona: "Asia/Dubai", id:"clkdx" },
+  { name: "Nueva Delhi", lat:28.61, lon:77.20, zona: "Asia/Kolkata", id:"clkdel" },
+  { name: "Pekín", lat:39.90, lon:116.40, zona: "Asia/Shanghai", id:"clkpek" },
+  { name: "Tokio", lat:35.68, lon:139.69, zona: "Asia/Tokyo", id:"clktok" },
+  { name: "Sídney", lat:-33.87, lon:151.21, zona: "Australia/Sydney", id:"clksyd" },
+  { name: "Perth", lat:-31.95, lon:115.86, zona: "Australia/Perth", id:"clkper" }
 ];
+
 // ==== Sincronización y actualización de relojes ====
 
 // Central: obtiene la hora UTC/atómica online (solo una petición)
@@ -162,15 +163,7 @@ function updateCentralUTCAndRelojes() {
       centralClock.title = "Hora GMT/UTC atómica sincronizada";
     }
   }
-  relojMarkers.forEach(({id, offset}) => {
-    if (id === 'reloj-tz0') return;
-    const el = document.getElementById(id);
-    if (!el) return;
-    const t = new Date(utcRef.getTime() + offset * 60 * 60 * 1000);
-    const hh = String(t.getUTCHours()).padStart(2, "0");
-    const mm = String(t.getUTCMinutes()).padStart(2, "0");
-    el.textContent = `${hh}:${mm}`;
-  });
+
 }
 
 // ---- ACTUALIZACIÓN ONLINE DE RELOJES DE CIUDAD ----
