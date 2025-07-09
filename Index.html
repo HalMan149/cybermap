@@ -184,23 +184,19 @@ async function syncCentralUTC() {
   try {
     const resp = await fetch('/.netlify/functions/reloj?zona=Etc/UTC');
     const data = await resp.json();
-    utcRef = new Date(data.datetime.replace(/\.\d+/, ''));
-    utcError = false;
+    if (data && data.datetime) {
+      utcRef = new Date(data.datetime.replace(/\.\d+/, ''));
+      utcError = false;
+    } else {
+      throw new Error('Sin datetime en respuesta');
+    }
   } catch(e) {
-   // Fallback: hora UTC del sistema local
+    // Fallback: hora UTC del sistema local, siempre válida
     let now = new Date();
     utcRef = new Date(
       now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(),
       now.getUTCHours(), now.getUTCMinutes(), now.getUTCSeconds()
     );
-    utcError = true;
-  }
-  updateClocks();
-  marcarMeridianoLocal && marcarMeridianoLocal();
-}
-    let now = new Date();
-    let localOffsetMinutes = now.getTimezoneOffset();
-    utcRef = new Date(now.getTime() + localOffsetMinutes * 60000);
     utcError = true;
   }
   updateClocks();
