@@ -187,6 +187,17 @@ async function syncCentralUTC() {
     utcRef = new Date(data.datetime.replace(/\.\d+/, ''));
     utcError = false;
   } catch(e) {
+   // Fallback: hora UTC del sistema local
+    let now = new Date();
+    utcRef = new Date(
+      now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(),
+      now.getUTCHours(), now.getUTCMinutes(), now.getUTCSeconds()
+    );
+    utcError = true;
+  }
+  updateClocks();
+  marcarMeridianoLocal && marcarMeridianoLocal();
+}
     let now = new Date();
     let localOffsetMinutes = now.getTimezoneOffset();
     utcRef = new Date(now.getTime() + localOffsetMinutes * 60000);
