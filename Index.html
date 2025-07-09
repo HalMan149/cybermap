@@ -127,11 +127,6 @@ const cityMarkers = [
   { name: "Perth", lat:-31.95, lon:115.86, zona: "Australia/Perth", id:"clkper" }
 ];
 
-// ==== Sincronización y actualización de relojes ====
-
-// Central: obtiene la hora UTC/atómica online (solo una petición)
-let utcRef = null, utcError = false;
-
 async function syncUTCAtomic() {
   try {
     const resp = await fetch('https://timeapi.io/api/Time/current/zone?timeZone=UTC');
