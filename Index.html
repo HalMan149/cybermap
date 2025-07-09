@@ -132,7 +132,9 @@ const cityMarkers = [
   { name: "Pekín", lat:39.90, lon:116.40, zone: "Asia/Shanghai", id:"clkpek" },
   { name: "Tokio", lat:35.68, lon:139.69, zone: "Asia/Tokyo", id:"clktok" },
   { name: "Sídney", lat:-33.87, lon:151.21, zone: "Australia/Sydney", id:"clksyd" },
-  { name: "Perth", lat:-31.95, lon:115.86, zone: "Australia/Perth", id:"clkper" }
+  { name: "Perth", lat:-31.95, lon:115.86, zone: "Australia/Perth", id:"clkper" },
+  { name: "Anchorage", lat:61.22, lon:-149.90, zone: "America/Anchorage", id:"clkanc" },
+  { name: "Honolulu", lat:21.31, lon:-157.86, zone: "Pacific/Honolulu", id:"clkhnl" }
 ];
 cityMarkers.forEach(city => {
   L.marker([city.lat, city.lon], {
