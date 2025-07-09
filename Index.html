@@ -38,6 +38,12 @@
       border-top: 2px solid #13f5ff; box-shadow: 0 1px 7px #00f3; text-shadow: 0 0 8px #27fd;
     }
     #noticias-inner { white-space: nowrap; display: inline-block; will-change: transform; }
+.leaflet-marker-icon.city-clock-label {
+  z-index: 9999 !important;
+  opacity: 1 !important;
+  pointer-events: auto !important;
+  background: none !important;
+}
   </style>
 </head>
 <body>
@@ -111,6 +117,18 @@ zonaHorariaLines.addTo(map);
 
 // Lista de zonas horarias exactas por ciudad
 const cityMarkers = [
+cityMarkers.forEach(city => {
+  L.marker([city.lat, city.lon], {
+    icon: L.divIcon({
+      className: "city-clock-label",
+      html: `<span class="hora" id="${city.id}-hora">--:--</span><span class="city">${city.name}</span>`,
+      iconSize: [112, 38],
+      iconAnchor: [56, 19]
+    }),
+    interactive: false,
+    zIndexOffset: 9999
+  }).addTo(map);
+});
   { name: "Los Ángeles", lat:34.05, lon:-118.25, zone: "America/Los_Angeles", id:"clkla" },
   { name: "Denver", lat:39.74, lon:-104.99, zone: "America/Denver", id:"clkden" },
   { name: "México", lat:19.43, lon:-99.13, zone: "America/Mexico_City", id:"clkcdmx" },
