@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+ <script src="https://cdn.jsdelivr.net/npm/luxon@3/build/global/luxon.min.js"></script>
   <meta charset="utf-8" />
   <title>Mapa Cyberpunk + Noticias Ciberseguridad</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -191,7 +192,6 @@ async function syncCentralUTC() {
       throw new Error('Sin datetime en respuesta');
     }
   } catch(e) {
-    // Fallback: hora UTC del sistema local, siempre válida
     let now = new Date();
     utcRef = new Date(
       now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(),
@@ -200,6 +200,7 @@ async function syncCentralUTC() {
     utcError = true;
   }
   updateClocks();
+  actualizarRelojesCiudadesLuxon();
 }
 
 // Actualiza el central y los meridianos respecto a UTC
@@ -231,24 +232,17 @@ function updateClocks() {
   });
 }
 
-async function actualizarRelojesCiudades() {
+function actualizarRelojesCiudadesLuxon() {
+  if (!utcRef) return;
+  const DateTime = luxon.DateTime;
   for (const city of cityMarkers) {
     const el = document.getElementById(city.id + "-hora");
     if (!el) continue;
-    try {
-      const resp = await fetch('/.netlify/functions/reloj?zona=' + encodeURIComponent(city.zone));
-      const data = await resp.json();
-      if (data && data.datetime) {
-        const dt = new Date(data.datetime.replace(/\.\d+/, ''));
-        const hh = String(dt.getHours()).padStart(2, "0");
-        const mm = String(dt.getMinutes()).padStart(2, "0");
-        el.textContent = `${hh}:${mm}`;
-      } else {
-        el.textContent = "--:--";
-      }
-    } catch {
-      el.textContent = "--:--";
-    }
+    // Convertimos utcRef a hora local de cada ciudad, respetando DST
+    const local = DateTime.fromJSDate(utcRef, { zone: "utc" }).setZone(city.zone);
+    const hh = String(local.hour).padStart(2, "0");
+    const mm = String(local.minute).padStart(2, "0");
+    el.textContent = `${hh}:${mm}`;
   }
 }
 
@@ -256,8 +250,7 @@ async function actualizarRelojesCiudades() {
 syncCentralUTC();
 setInterval(syncCentralUTC, 5 * 60 * 1000);
 setInterval(updateClocks, 10000);
-actualizarRelojesCiudades();
-setInterval(actualizarRelojesCiudades, 5 * 60 * 1000);
+
 
 // -------- TICKER DE NOTICIAS --------
 const rssFeeds = [

@@ -1,24 +1,18 @@
 const fetch = require('node-fetch');
 
 exports.handler = async (event) => {
-  const zona = event.queryStringParameters && event.queryStringParameters.zona;
-  if (!zona) {
-    return {
-      statusCode: 400,
-      body: JSON.stringify({ error: "Falta el parámetro 'zona'" })
-    };
-  }
-
   try {
-    const apiUrl = `https://worldtimeapi.org/api/timezone/${encodeURIComponent(zona)}`;
-    const resp = await fetch(apiUrl);
-    if (!resp.ok) throw new Error(`Error obteniendo la hora (${resp.status})`);
-    const data = await resp.json();
-
+    // Pide la hora atómica al ROA (España)
+    const resp = await fetch('http://www2.roa.es/cgi-bin/horautc');
+    const text = await resp.text();
+    const ts = parseInt(text.trim(), 10);
+    if (isNaN(ts)) throw new Error('Respuesta inválida del ROA');
+    // Convierte a ISO 8601 en UTC (compatible con Luxon)
+    const datetime = new Date(ts).toISOString();
     return {
       statusCode: 200,
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(data)
+      body: JSON.stringify({ datetime })
     };
   } catch (e) {
     return {
