@@ -102,16 +102,18 @@ for(let i = -12; i <= 14; i++) {
   const relojId = `reloj-tz${i}`;
   const extraClass = isCentral ? " gmt-central" : "";
   const ancla = isCentral ? [52, 10] : [31, 10];
-  const marker = L.marker([latLabel, lon], {
-    icon: L.divIcon({
-      className: 'zona-horaria-label' + extraClass,
-      html: isCentral
-        ? `<div class="gmt-utc-clock" id="${relojId}">--:--</div>`
-        : `<div id="${relojId}" style="font-family:monospace;font-size:1.18em;color:#72fdff;background:transparent;padding:0;border:none;min-width:62px;text-align:center;box-shadow:none"></div>`,
-      iconAnchor: ancla
-    }),
-    interactive: false
-  });
+const marker = L.marker([latLabel, lon], {
+  icon: L.divIcon({
+    className: 'zona-horaria-label' + extraClass,
+    html: isCentral
+      ? `<div class="gmt-utc-clock" id="${relojId}">--:--</div>
+         <div class="gmt-utc-clock" id="reloj-utc-seg" style="opacity:0.42; font-size:0.97em; margin:2px 0 0 0; background:transparent; border:none; color:#fafcff; pointer-events:none;"></div>`
+      : `<div id="${relojId}" style="font-family:monospace;font-size:1.18em;color:#72fdff;background:transparent;padding:0;border:none;min-width:62px;text-align:center;box-shadow:none"></div>`,
+    iconAnchor: ancla
+  }),
+  interactive: false
+});
+
   relojMarkers.push({ id: relojId, offset: i });
   zonaHorariaLines.addLayer(marker);
 }
@@ -203,6 +205,7 @@ async function syncCentralUTC() {
   syncTimestamp = Date.now(); // <-- AÑADE ESTA LÍNEA
   updateClocks();
   actualizarRelojesCiudadesLuxon();
+  updateRelojUTCseg();
 }
 
 // Actualiza el central y los meridianos respecto a UTC
@@ -237,6 +240,18 @@ function updateClocks() {
     el.textContent = `${hh}:${mm}`;
   });
 }
+function updateRelojUTCseg() {
+  if (!utcRef || !syncTimestamp) return;
+  let now = Date.now();
+  let delta = now - syncTimestamp;
+  let utcNow = new Date(utcRef.getTime() + delta);
+
+  const el = document.getElementById("reloj-utc-seg");
+  if (!el) return;
+  const s = String(utcNow.getUTCSeconds()).padStart(2,"0");
+  const ms = String(utcNow.getMilliseconds()).padStart(3,"0");
+  el.textContent = `${s}.${ms}`;
+}
 
 function actualizarRelojesCiudadesLuxon() {
   if (!utcRef || !syncTimestamp) return;
@@ -261,6 +276,7 @@ syncCentralUTC();
 setInterval(syncCentralUTC, 5 * 60 * 1000);
 setInterval(updateClocks, 10000);
 setInterval(actualizarRelojesCiudadesLuxon, 10000);
+setInterval(updateRelojUTCseg, 33);
 
 // -------- TICKER DE NOTICIAS --------
 const rssFeeds = [
