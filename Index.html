@@ -88,6 +88,7 @@ L.tileLayer('https://gps-{s}.tile.openstreetmap.org/lines/{z}/{x}/{y}.png', {
 const zonaHorariaLines = L.layerGroup();
 const relojMarkers = [];
 let utcRef = null, utcError = false;
+let syncTimestamp = null;
 const meridianLines = {}; // Para guardar cada línea por offset
 for(let i = -12; i <= 14; i++) {
   const lon = i * 15;
@@ -199,16 +200,21 @@ async function syncCentralUTC() {
     );
     utcError = true;
   }
+  syncTimestamp = Date.now(); // <-- AÑADE ESTA LÍNEA
   updateClocks();
   actualizarRelojesCiudadesLuxon();
 }
 
 // Actualiza el central y los meridianos respecto a UTC
 function updateClocks() {
-  if (!utcRef) return;
+  if (!utcRef || !syncTimestamp) return;
+  let now = Date.now();
+  let delta = now - syncTimestamp;
+  let utcNow = new Date(utcRef.getTime() + delta);
+
   // Central
-  let h = String(utcRef.getUTCHours()).padStart(2,"0");
-  let m = String(utcRef.getUTCMinutes()).padStart(2,"0");
+  let h = String(utcNow.getUTCHours()).padStart(2,"0");
+  let m = String(utcNow.getUTCMinutes()).padStart(2,"0");
   const centralClock = document.getElementById('reloj-tz0');
   if (centralClock) {
     centralClock.textContent = `${h}:${m}`;
@@ -225,7 +231,7 @@ function updateClocks() {
     if (id === 'reloj-tz0') return;
     const el = document.getElementById(id);
     if (!el) return;
-    const t = new Date(utcRef.getTime() + offset * 60 * 60 * 1000);
+    const t = new Date(utcNow.getTime() + offset * 60 * 60 * 1000);
     const hh = String(t.getUTCHours()).padStart(2, "0");
     const mm = String(t.getUTCMinutes()).padStart(2, "0");
     el.textContent = `${hh}:${mm}`;
@@ -233,13 +239,17 @@ function updateClocks() {
 }
 
 function actualizarRelojesCiudadesLuxon() {
-  if (!utcRef) return;
+  if (!utcRef || !syncTimestamp) return;
+  let now = Date.now();
+  let delta = now - syncTimestamp;
+  let utcNow = new Date(utcRef.getTime() + delta);
+
   const DateTime = luxon.DateTime;
   for (const city of cityMarkers) {
     const el = document.getElementById(city.id + "-hora");
     if (!el) continue;
-    // Convertimos utcRef a hora local de cada ciudad, respetando DST
-    const local = DateTime.fromJSDate(utcRef, { zone: "utc" }).setZone(city.zone);
+    // Convertimos utcNow a hora local de cada ciudad, respetando DST
+    const local = DateTime.fromJSDate(utcNow, { zone: "utc" }).setZone(city.zone);
     const hh = String(local.hour).padStart(2, "0");
     const mm = String(local.minute).padStart(2, "0");
     el.textContent = `${hh}:${mm}`;
@@ -250,7 +260,7 @@ function actualizarRelojesCiudadesLuxon() {
 syncCentralUTC();
 setInterval(syncCentralUTC, 5 * 60 * 1000);
 setInterval(updateClocks, 10000);
-
+setInterval(actualizarRelojesCiudadesLuxon, 10000);
 
 // -------- TICKER DE NOTICIAS --------
 const rssFeeds = [
