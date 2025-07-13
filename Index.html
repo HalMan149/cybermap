@@ -102,9 +102,10 @@ for(let i = -12; i <= 14; i++) {
   const marker = L.marker([latLabel, lon], {
     icon: L.divIcon({
       className: 'zona-horaria-label' + extraClass,
-      html: isCentral
-        ? `<div class="gmt-utc-clock" id="${relojId}">--:--</div>`
-        : `<div id="${relojId}" style="font-family:monospace;font-size:1.18em;color:#72fdff;background:transparent;padding:0;border:none;min-width:62px;text-align:center;box-shadow:none"></div>`,
+html: isCentral
+  ? `<div class="gmt-utc-clock" id="${relojId}">--:--</div>
+     <div class="gmt-utc-seg" id="reloj-tz0-seg" style="font-size:0.88em;color:#7ff6f9;line-height:1.17;margin-top:2px;">--.--</div>`
+  : `<div id="${relojId}" style="font-family:monospace;font-size:1.18em;color:#72fdff;background:transparent;padding:0;border:none;min-width:62px;text-align:center;box-shadow:none"></div>`
       iconAnchor: ancla
     }),
     interactive: false
@@ -231,6 +232,18 @@ function actualizarTodosRelojes(forzar = false) {
 setInterval(() => {
   actualizarTodosRelojes();
 }, 1000);
+function actualizarSegundosCentral() {
+  if (!utcRef || !syncTimestamp) return;
+  let now = Date.now();
+  let delta = now - syncTimestamp;
+  let utcNow = new Date(utcRef.getTime() + delta);
+  const el = document.getElementById("reloj-tz0-seg");
+  if (!el) return;
+  const s = String(utcNow.getUTCSeconds()).padStart(2, "0");
+  const ms = String(utcNow.getMilliseconds()).padStart(3, "0").slice(0,2); // centésimas
+  el.textContent = `${s}.${ms}`;
+}
+setInterval(actualizarSegundosCentral, 41);
 // ================== FIN BLOQUE RELOJES ======================
 
 // -------- TICKER DE NOTICIAS --------
