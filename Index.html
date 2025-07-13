@@ -107,7 +107,7 @@ const marker = L.marker([latLabel, lon], {
     className: 'zona-horaria-label' + extraClass,
     html: isCentral
       ? `<div class="gmt-utc-clock" id="${relojId}">--:--</div>
-         <div class="gmt-utc-clock" id="reloj-utc-seg" style="opacity:0.42; font-size:0.97em; margin:2px 0 0 0; background:transparent; border:none; color:#fafcff; pointer-events:none;"></div>`
+         <div class="gmt-utc-clock" id="reloj-utc-seg" style="opacity: 10; font-size:0.97em; margin:2px 0 0 0; background:transparent; border:none; color:#fafcff; pointer-events:none; box-shadow:none"></div>`
       : `<div id="${relojId}" style="font-family:monospace;font-size:1.18em;color:#72fdff;background:transparent;padding:0;border:none;min-width:62px;text-align:center;box-shadow:none"></div>`,
     iconAnchor: ancla
   }),
