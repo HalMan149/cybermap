@@ -60,7 +60,6 @@
   <div id="noticias-ticker"><span id="noticias-inner"></span></div>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script>
-// ========== INICIALIZACIÓN DEL MAPA Y CAPAS ==========
 const CENTER = [38.3373, -0.5266];
 const ZOOM = 3;
 const map = L.map('map', {
@@ -87,9 +86,7 @@ L.tileLayer('https://gps-{s}.tile.openstreetmap.org/lines/{z}/{x}/{y}.png', {
 // =========== RELOJES Y MERIDIANOS ===========
 const zonaHorariaLines = L.layerGroup();
 const relojMarkers = [];
-let utcRef = null, utcError = false;
-let syncTimestamp = null;
-const meridianLines = {}; // Para guardar cada línea por offset
+const meridianLines = {};
 for(let i = -12; i <= 14; i++) {
   const lon = i * 15;
   if (lon < -180 || lon > 180) continue;
@@ -102,18 +99,16 @@ for(let i = -12; i <= 14; i++) {
   const relojId = `reloj-tz${i}`;
   const extraClass = isCentral ? " gmt-central" : "";
   const ancla = isCentral ? [52, 10] : [31, 10];
-const marker = L.marker([latLabel, lon], {
-  icon: L.divIcon({
-    className: 'zona-horaria-label' + extraClass,
-    html: isCentral
-      ? `<div class="gmt-utc-clock" id="${relojId}">--:--</div>
-         <div class="gmt-utc-clock" id="reloj-utc-seg" style="opacity:0,90; font-size:0.97em; margin:2px 0 0 0; background:transparent; border:none; color:#fafcff; pointer-events:none; box-shadow:none"></div>`
-      : `<div id="${relojId}" style="font-family:monospace;font-size:1.18em;color:#72fdff;background:transparent;padding:0;border:none;min-width:62px;text-align:center;box-shadow:none"></div>`,
-    iconAnchor: ancla
-  }),
-  interactive: false
-});
-
+  const marker = L.marker([latLabel, lon], {
+    icon: L.divIcon({
+      className: 'zona-horaria-label' + extraClass,
+      html: isCentral
+        ? `<div class="gmt-utc-clock" id="${relojId}">--:--</div>`
+        : `<div id="${relojId}" style="font-family:monospace;font-size:1.18em;color:#72fdff;background:transparent;padding:0;border:none;min-width:62px;text-align:center;box-shadow:none"></div>`,
+      iconAnchor: ancla
+    }),
+    interactive: false
+  });
   relojMarkers.push({ id: relojId, offset: i });
   zonaHorariaLines.addLayer(marker);
 }
@@ -131,10 +126,7 @@ function marcarLineaMeridianoLocal() {
 marcarLineaMeridianoLocal();
 setInterval(marcarLineaMeridianoLocal, 60000);
 
-// ======= NUEVA SINCRONIZACIÓN CENTRAL Y RELOJES DE CIUDAD =========
-
-// Lista de zonas horarias exactas por ciudad
-const cityMarkers = [
+window.cityMarkers = [
   { name: "Los Ángeles", lat:34.05, lon:-118.25, zone: "America/Los_Angeles", id:"clkla" },
   { name: "Denver", lat:39.74, lon:-104.99, zone: "America/Denver", id:"clkden" },
   { name: "México", lat:19.43, lon:-99.13, zone: "America/Mexico_City", id:"clkcdmx" },
@@ -150,29 +142,9 @@ const cityMarkers = [
   { name: "Pekín", lat:39.90, lon:116.40, zone: "Asia/Shanghai", id:"clkpek" },
   { name: "Tokio", lat:35.68, lon:139.69, zone: "Asia/Tokyo", id:"clktok" },
   { name: "Sídney", lat:-33.87, lon:151.21, zone: "Australia/Sydney", id:"clksyd" },
-  { name: "Perth", lat:-31.95, lon:115.86, zone: "Australia/Perth", id:"clkper" },
-  { name: "Anchorage", lat:61.22, lon:-149.90, zone: "America/Anchorage", id:"clkanc" },
-  { name: "Honolulu", lat:21.31, lon:-157.86, zone: "Pacific/Honolulu", id:"clkhnl" },
-  { name: "Yakutsk", lat:62.03, lon:129.73, zone: "Asia/Yakutsk", id:"clkyks" },
-  { name: "Vladivostok", lat:43.12, lon:131.89, zone: "Asia/Vladivostok", id:"clkvvo" },
-  { name: "Khabarovsk", lat:48.48, lon:135.08, zone: "Asia/Vladivostok", id:"clkkhv" },
-  { name: "Magadán", lat:59.56, lon:150.80, zone: "Asia/Magadan", id:"clkmag" },
-  { name: "Petropavlovsk", lat:53.02, lon:158.65, zone: "Asia/Kamchatka", id:"clkpkc" },
-  { name: "Norilsk", lat:69.34, lon:88.22, zone: "Asia/Krasnoyarsk", id:"clknor" },
-  { name: "Krasnoyarsk", lat:56.01, lon:92.87, zone: "Asia/Krasnoyarsk", id:"clkkrk" },
-  { name: "Omsk", lat:54.99, lon:73.37, zone: "Asia/Omsk", id:"clkoms" },
-  { name: "Lagos", lat:6.52, lon:3.37, zone: "Africa/Lagos", id:"clklgs" },
-  { name: "Johannesburgo", lat:-26.20, lon:28.04, zone: "Africa/Johannesburg", id:"clkjnb" },
-  { name: "Nairobi", lat:-1.29, lon:36.82, zone: "Africa/Nairobi", id:"clknbo" },
-  { name: "Casablanca", lat:33.57, lon:-7.59, zone: "Africa/Casablanca", id:"clkcas" },
-  { name: "Kinshasa", lat:-4.32, lon:15.31, zone: "Africa/Kinshasa", id:"clkkin" },
-  { name: "Nuuk", lat:64.18, lon:-51.72, zone: "America/Godthab", id:"clknuu" },
-  { name: "Ittoqqortoormiit", lat:70.48, lon:-21.97, zone: "America/Scoresbysund", id:"clkitq" },
-  { name: "Qaanaaq", lat:77.47, lon:-69.23, zone: "America/Thule", id:"clkqaa" },
-  { name: "Ottawa", lat:45.42, lon:-75.69, zone: "America/Toronto", id:"clkott" },
-  { name: "Calgary", lat:51.05, lon:-114.07, zone: "America/Edmonton", id:"clkclg" }
+  { name: "Perth", lat:-31.95, lon:115.86, zone: "Australia/Perth", id:"clkper" }
 ];
-cityMarkers.forEach(city => {
+window.cityMarkers.forEach(city => {
   L.marker([city.lat, city.lon], {
     icon: L.divIcon({
       className: "city-clock-label",
@@ -184,6 +156,9 @@ cityMarkers.forEach(city => {
     zIndexOffset: 9999
   }).addTo(map);
 });
+
+// ================== BLOQUE DE RELOJES SINCRONIZADOS ======================
+let utcRef = null, utcError = false, syncTimestamp = null;
 async function syncCentralUTC() {
   try {
     const resp = await fetch('/.netlify/functions/reloj?zona=Etc/UTC');
@@ -202,22 +177,24 @@ async function syncCentralUTC() {
     );
     utcError = true;
   }
-  syncTimestamp = Date.now(); // <-- AÑADE ESTA LÍNEA
-  updateClocks();
-  actualizarRelojesCiudadesLuxon();
-  updateRelojUTCseg();
+  syncTimestamp = Date.now();
+  actualizarTodosRelojes(true); // fuerza actualización al sincronizar
 }
+syncCentralUTC();
+setInterval(syncCentralUTC, 5 * 60 * 1000);
 
-// Actualiza el central y los meridianos respecto a UTC
-function updateClocks() {
+let lastMinute = null;
+function actualizarTodosRelojes(forzar = false) {
   if (!utcRef || !syncTimestamp) return;
   let now = Date.now();
   let delta = now - syncTimestamp;
   let utcNow = new Date(utcRef.getTime() + delta);
-
-  // Central
   let h = String(utcNow.getUTCHours()).padStart(2,"0");
   let m = String(utcNow.getUTCMinutes()).padStart(2,"0");
+
+  if (!forzar && lastMinute === m) return;
+  lastMinute = m;
+
   const centralClock = document.getElementById('reloj-tz0');
   if (centralClock) {
     centralClock.textContent = `${h}:${m}`;
@@ -229,7 +206,6 @@ function updateClocks() {
       centralClock.title = "Hora GMT/UTC atómica sincronizada";
     }
   }
-  // Relojes GMT±N (método clásico)
   relojMarkers.forEach(({id, offset}) => {
     if (id === 'reloj-tz0') return;
     const el = document.getElementById(id);
@@ -239,42 +215,28 @@ function updateClocks() {
     const mm = String(t.getUTCMinutes()).padStart(2, "0");
     el.textContent = `${hh}:${mm}`;
   });
-}
-function updateRelojUTCseg() {
-  if (!utcRef || !syncTimestamp) return;
-  let now = Date.now();
-  let delta = now - syncTimestamp;
-  let utcNow = new Date(utcRef.getTime() + delta);
-
-  const el = document.getElementById("reloj-utc-seg");
-  if (!el) return;
-  const s = String(utcNow.getUTCSeconds()).padStart(2,"0");
-  const ms = String(utcNow.getMilliseconds()).padStart(3,"0");
-  el.textContent = `${s}.${ms}`;
-}
-
-function actualizarRelojesCiudadesLuxon() {
-  if (!utcRef || !syncTimestamp) return;
-  let now = Date.now();
-  let delta = now - syncTimestamp;
-  let utcNow = new Date(utcRef.getTime() + delta);
-
-  const DateTime = luxon.DateTime;
-  for (const city of cityMarkers) {
-    const el = document.getElementById(city.id + "-hora");
-    if (!el) continue;
-    // Convertimos utcNow a hora local de cada ciudad, respetando DST
-    const local = DateTime.fromJSDate(utcNow, { zone: "utc" }).setZone(city.zone);
-    const hh = String(local.hour).padStart(2, "0");
-    const mm = String(local.minute).padStart(2, "0");
-    el.textContent = `${hh}:${mm}`;
+  // Ciudades (Luxon)
+  if (window.luxon && window.cityMarkers) {
+    const DateTime = window.luxon.DateTime;
+    for (const city of window.cityMarkers) {
+      const el = document.getElementById(city.id + "-hora");
+      if (!el) continue;
+      const local = DateTime.fromJSDate(utcNow, { zone: "utc" }).setZone(city.zone);
+      const hh = String(local.hour).padStart(2, "0");
+      const mm = String(local.minute).padStart(2, "0");
+      el.textContent = `${hh}:${mm}`;
+    }
   }
 }
+setInterval(() => {
+  actualizarTodosRelojes();
+}, 1000);
+// ================== FIN BLOQUE RELOJES ======================
 
-// Inicialización y actualización periódica
-syncCentralUTC();
-setInterval(refreshAllClocks, 1000);
-
+// Aquí iría el resto de tu código (noticias, ataques...) igual que antes
+  </script>
+</body>
+</html>
 // -------- TICKER DE NOTICIAS --------
 const rssFeeds = [
   { url: "https://www.securitylab.ru/_Services/Export/XmlExport_RSS.aspx?News", nombre: "SecurityLab.ru" },
@@ -455,12 +417,8 @@ async function cargarAtaques() {
 cargarAtaques();
 setInterval(cargarAtaques, 4 * 60 * 1000);
 
-// Panel lateral cerrado de inicio y botón menú
 document.getElementById("ataques-ransomware").style.display = "none";
 document.getElementById("btn-toggle-lista").onclick = function() {
   const panel = document.getElementById("ataques-ransomware");
   panel.style.display = (panel.style.display === "none" ? "block" : "none");
 };
-</script>
-</body>
-</html>
