@@ -127,7 +127,8 @@ function marcarLineaMeridianoLocal() {
 marcarLineaMeridianoLocal();
 setInterval(marcarLineaMeridianoLocal, 60000);
 
-window.cityMarkers = [
+// Lista de zonas horarias exactas por ciudad
+const cityMarkers = [
   { name: "Los Ángeles", lat:34.05, lon:-118.25, zone: "America/Los_Angeles", id:"clkla" },
   { name: "Denver", lat:39.74, lon:-104.99, zone: "America/Denver", id:"clkden" },
   { name: "México", lat:19.43, lon:-99.13, zone: "America/Mexico_City", id:"clkcdmx" },
@@ -143,7 +144,27 @@ window.cityMarkers = [
   { name: "Pekín", lat:39.90, lon:116.40, zone: "Asia/Shanghai", id:"clkpek" },
   { name: "Tokio", lat:35.68, lon:139.69, zone: "Asia/Tokyo", id:"clktok" },
   { name: "Sídney", lat:-33.87, lon:151.21, zone: "Australia/Sydney", id:"clksyd" },
-  { name: "Perth", lat:-31.95, lon:115.86, zone: "Australia/Perth", id:"clkper" }
+  { name: "Perth", lat:-31.95, lon:115.86, zone: "Australia/Perth", id:"clkper" },
+  { name: "Anchorage", lat:61.22, lon:-149.90, zone: "America/Anchorage", id:"clkanc" },
+  { name: "Honolulu", lat:21.31, lon:-157.86, zone: "Pacific/Honolulu", id:"clkhnl" },
+  { name: "Yakutsk", lat:62.03, lon:129.73, zone: "Asia/Yakutsk", id:"clkyks" },
+  { name: "Vladivostok", lat:43.12, lon:131.89, zone: "Asia/Vladivostok", id:"clkvvo" },
+  { name: "Khabarovsk", lat:48.48, lon:135.08, zone: "Asia/Vladivostok", id:"clkkhv" },
+  { name: "Magadán", lat:59.56, lon:150.80, zone: "Asia/Magadan", id:"clkmag" },
+  { name: "Petropavlovsk", lat:53.02, lon:158.65, zone: "Asia/Kamchatka", id:"clkpkc" },
+  { name: "Norilsk", lat:69.34, lon:88.22, zone: "Asia/Krasnoyarsk", id:"clknor" },
+  { name: "Krasnoyarsk", lat:56.01, lon:92.87, zone: "Asia/Krasnoyarsk", id:"clkkrk" },
+  { name: "Omsk", lat:54.99, lon:73.37, zone: "Asia/Omsk", id:"clkoms" },
+  { name: "Lagos", lat:6.52, lon:3.37, zone: "Africa/Lagos", id:"clklgs" },
+  { name: "Johannesburgo", lat:-26.20, lon:28.04, zone: "Africa/Johannesburg", id:"clkjnb" },
+  { name: "Nairobi", lat:-1.29, lon:36.82, zone: "Africa/Nairobi", id:"clknbo" },
+  { name: "Casablanca", lat:33.57, lon:-7.59, zone: "Africa/Casablanca", id:"clkcas" },
+  { name: "Kinshasa", lat:-4.32, lon:15.31, zone: "Africa/Kinshasa", id:"clkkin" },
+  { name: "Nuuk", lat:64.18, lon:-51.72, zone: "America/Godthab", id:"clknuu" },
+  { name: "Ittoqqortoormiit", lat:70.48, lon:-21.97, zone: "America/Scoresbysund", id:"clkitq" },
+  { name: "Qaanaaq", lat:77.47, lon:-69.23, zone: "America/Thule", id:"clkqaa" },
+  { name: "Ottawa", lat:45.42, lon:-75.69, zone: "America/Toronto", id:"clkott" },
+  { name: "Calgary", lat:51.05, lon:-114.07, zone: "America/Edmonton", id:"clkclg" }
 ];
 window.cityMarkers.forEach(city => {
   L.marker([city.lat, city.lon], {
