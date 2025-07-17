@@ -44,6 +44,11 @@
   opacity: 1 !important;
   pointer-events: auto !important;
   background: none !important;
+.leaflet-marker-icon.city-clock-label {
+  z-index: 100 !important;      /* menos que un popup de Leaflet */
+  opacity: 1 !important;
+  pointer-events: none !important;  /* YA lo tienes, pero repítelo aquí abajo por si acaso */
+  background: none !important;
 }
 .leaflet-popup {
   z-index: 99999 !important;
