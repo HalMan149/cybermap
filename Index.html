@@ -45,7 +45,6 @@
   pointer-events: none !important;  /* YA lo tienes, pero repítelo aquí abajo por si acaso */
   background: none !important;
 }
-}y
 .leaflet-popup,
 .leaflet-popup-content-wrapper,
 .leaflet-popup-tip {
@@ -59,6 +58,11 @@
   margin: 6px auto 4px auto;
   border-radius: 8px;
   box-shadow: 0 0 9px #111a;
+}
+.origen-icon {
+  font-size: 20px;
+  text-shadow: 0 0 4px #000;
+  pointer-events: none;
 }
   </style>
 </head>
@@ -427,47 +431,72 @@ const pirateLockIcon = L.icon({
 });
 // === ASOCIACIÓN DE GRUPOS RANSOMWARE A PAÍSES DE ORIGEN (fuente abierta) ===
 const gruposPaisOrigen = {
-  "Conti": "RU",
-  "REvil": "RU",
-  "LockBit": "RU",
-  "Cl0p": "RU",
-  "BlackCat": "RU",
-  "DarkSide": "RU",
-  "Babuk": "RU",
-  "Hive": "RU",
-  "Avaddon": "RU",
-  "Black Basta": "RU",
-  "Vice Society": "RU",
-  "Royal": "RU",
-  "Ragnar Locker": "RU",
-  "SunCrypt": "RU",
-  "Quantum": "RU",
-  "HelloKitty": "RU",
-  "NetWalker": "RU",
-  "Dharma": "RU",
-  "Cuba": "RU",
-  "Medusa": "RU",
-  "Akira": "RU",
-  "RansomEXX": "RU",
-  "Lorenz": "RU",
-  "RansomHouse": "RU",
+  "0mega": "RU",
   "8Base": "RU",
-  "Snatch": "RU",
-  "RA Group": "RU",
-  "Trigona": "RU",
-  "Everest": "RU",
-  "BlackSuit": "RU",
-  "Play": "RU",
-  "NoEscape": "RU",
+  "Akira": "RU",
+  "Avaddon": "RU",
+  "Babuk": "RU",
   "BianLian": "CN",
-  "MalasLocker": "CN",
+  "Black Basta": "RU",
+  "BlackCat": "RU",
+  "BlackSuit": "RU",
+  "Cl0p": "RU",
+  "Conti": "RU",
+  "Cuba": "RU",
+  "DarkAngels": "RU",
+  "DarkSide": "RU",
+  "Dharma": "RU",
+  "Donex": "RU",
+  "DragonForce": "MY",
+  "Everest": "RU",
+  "HelloKitty": "RU",
   "HelloXD": "CN",
-  "Rook": "CN",
-  "Stormous": "SY",
-  "Ragnarok": "IN",
+  "Hive": "RU",
+  "Hunters": "RU",
+  "KelvinSecurity": "AR",
+  "LockBit": "RU",
+  "Lockbit3": "RU",
+  "Lorenz": "RU",
+  "MalasLocker": "CN",
+  "Medusa": "RU",
   "Midas": "BR",
-  "RansomHub": "RU"
-};
+  "NetWalker": "RU",
+  "NoEscape": "RU",
+  "Play": "RU",
+  "Quantum": "RU",
+  "RA Group": "RU",
+  "REvil": "RU",
+  "Ragnar Locker": "RU",
+  "Ragnarok": "IN",
+  "RansomEXX": "RU",
+  "RansomHouse": "RU",
+  "RansomHub": "RU",
+  "Rook": "CN",
+  "Royal": "RU",
+  "Snatch": "RU",
+  "Stormous": "SY",
+  "SunCrypt": "RU",
+  "Trigona": "RU",
+  "Qilin": "RU",
+  "SafePay": "??",
+  "Ghost": "CN",
+  "DevMan": "??",
+  "Crypto24": "??",
+  "Silent": "??",
+  "Bert": "??",
+  "Gunra": "??",
+  "Warlock": "??",
+  "Teamxxx": "??",
+  "kawa4096": "??",
+  "Lynx": "RU",
+  "Bitter Scorpius": "??",
+  "Bling Libra": "??",
+  "DPRK": "KP",  // Corea del Norte
+  "Fiddling Scorpius": "??",
+  "INC ransomware": "RU",
+  "Jumpy Pisces": "??",
+  "ShinyHunters": "??",
+  "Vice Society": "RU"};
 async function cargarAtaques() {
   attackMarkers.forEach(m => map.removeLayer(m));
   attackMarkers = [];
@@ -514,23 +543,36 @@ async function cargarAtaques() {
     zIndexOffset: 5000
   }).addTo(map).bindPopup(popupHtml);
   attackMarkers.push(marker);
-// --- DIBUJAR FLECHA DESDE PAÍS DE ORIGEN DEL GRUPO ---
-if (ataque.group && gruposPaisOrigen[ataque.group]) {
-  const origenCode = gruposPaisOrigen[ataque.group];
-  const origenCoords = countryCoords[origenCode];
-  const destinoCoords = countryCoords[ataque.country];
-  if (origenCoords && destinoCoords) {
-    const flecha = L.polyline([origenCoords, destinoCoords], {
-      color: "#ffb347", // naranja suave
-      weight: 2.7,
-      opacity: 0.75,
-      dashArray: "5,6",
-      className: "ransom-arrow"
-    }).addTo(map);
-    attackMarkers.push(flecha);
+
+  // --- DIBUJAR FLECHA Y ORIGEN DEL GRUPO ---
+  if (ataque.group && gruposPaisOrigen[ataque.group]) {
+    const origenCode = gruposPaisOrigen[ataque.group];
+    const origenCoords = countryCoords[origenCode];
+    const destinoCoords = countryCoords[ataque.country];
+    if (origenCoords && destinoCoords) {
+      const colorFlecha = origenCode === "??" ? "#aaa" : "#ffb347"; // gris o naranja
+      const flecha = L.polyline([origenCoords, destinoCoords], {
+        color: colorFlecha,
+        weight: 2.7,
+        opacity: 0.75,
+        dashArray: "5,6",
+        className: "ransom-arrow"
+      }).addTo(map);
+      attackMarkers.push(flecha);
+
+      const iconOrigen = L.divIcon({
+        html: "💀",  // Puedes poner "🕵️", "🔺", "👾", etc.
+        className: "origen-icon",
+        iconSize: [24, 24],
+        iconAnchor: [12, 12]
+      });
+      const marcadorOrigen = L.marker(origenCoords, {
+        icon: iconOrigen,
+        interactive: false
+      }).addTo(map);
+      attackMarkers.push(marcadorOrigen);
+    }
   }
-}
-}
     });
   } catch (e) {
     lista.innerHTML = `<li class="error-msg">Error de conexión con el servidor.<br><span style="font-size:0.92em;">${e.message || e}</span></li>`;
