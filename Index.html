@@ -446,7 +446,7 @@ async function cargarAtaques() {
       lista.appendChild(li);
 
       if (ataque.country && countryCoords[ataque.country]) {
-        const marker = L.circleMarker(countryCoords[ataque.country], {
+        const marker = L.marker(countryCoords[ataque.country], {
           icon: pirateLockIcon
         }).addTo(map).bindPopup(
           `<b>${ataque.victim || "Desconocido"}</b><br>
