@@ -408,7 +408,7 @@ async function pintarMapaChoropleth(ataquesPorPais) {
 
       const count = code ? (ataquesPorPaisNorm[code] || 0) : 0;
       if (count > 0) {
-        layer.bindTooltip(`${feature.properties.ADMIN}: ${count} ataques`);
+        layer.bindTooltip(`${feature.properties.name}: ${count} ataques`);
       }
     }
   }).addTo(map);
