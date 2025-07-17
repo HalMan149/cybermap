@@ -460,13 +460,12 @@ async function cargarAtaques() {
           icon: pirateLockIcon,
           zIndexOffset: 5000
         }).addTo(map).bindPopup(
-          `<b>${ataque.victim || "Desconocido"}</b><br>
-           <b>Dominio:</b> ${ataque.domain || "-"}<br>
-           <b>Fecha:</b> ${ataque.date || "-"}<br>
-           <b>Titular:</b> ${ataque.title || ""}<br>
-           <b>País:</b> ${ataque.country}<br>
-           <b>Resumen:</b> <span style="font-size:0.95em">${ataque.summary || ""}</span><br>
-           <a href="${ataque.url}" target="_blank" style="color:#37f;">[Fuente]</a>`
+  <b>Víctima:</b> ${ataque.victim || "-"}
+  <br><b>Hora del ataque:</b> ${ataque.attackdate || "-"}
+  <br><b>Grupo:</b> ${ataque.group || "-"}
+  <br><b>Descripción:</b> <span style="font-size:0.96em">${ataque.description || ""}</span>
+  ${ataque.screenshot ? `<br><img src="${ataque.screenshot}" style="width:120px;max-width:97%;margin:6px 0 4px 0;border-radius:8px;box-shadow:0 0 9px #111a;">` : ''}
+  <br><a href="${ataque.url}" target="_blank" style="display:inline-block;margin-top:8px;font-weight:bold;color:#1479f3;">Ver noticia completa</a>`;
         );
         attackMarkers.push(marker);
       }
