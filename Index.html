@@ -45,6 +45,7 @@
   pointer-events: none !important;  /* YA lo tienes, pero repítelo aquí abajo por si acaso */
   background: none !important;
 }
+}y
 .leaflet-popup,
 .leaflet-popup-content-wrapper,
 .leaflet-popup-tip {
@@ -454,7 +455,6 @@ async function cargarAtaques() {
     <b>Víctima:</b> ${ataque.victim || "-"}
     <br><b>Hora del ataque:</b> ${ataque.attackdate || "-"}
     <br><b>Grupo:</b> ${ataque.group || "-"}
-    <br><b>Descripción:</b> <span style="font-size:0.96em">${ataque.description || ""}</span>
     ${ataque.screenshot ? `<br><img src="${ataque.screenshot}" style="width:120px;max-width:97%;margin:6px 0 4px 0;border-radius:8px;box-shadow:0 0 9px #111a;">` : ''}
     <br><a href="${ataque.url}" target="_blank" style="display:inline-block;margin-top:8px;font-weight:bold;color:#1479f3;">Ver noticia completa</a>
   `;
