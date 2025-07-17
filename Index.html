@@ -450,8 +450,8 @@ async function cargarAtaques() {
 
       if (ataque.country && countryCoords[ataque.country]) {
         const marker = L.marker(countryCoords[ataque.country], {
-          icon: pirateLockIcon
-          zIndexOffset: 5000
+          icon: pirateLockIcon;
+          zIndexOffset: 5000;
         }).addTo(map).bindPopup(
           `<b>${ataque.victim || "Desconocido"}</b><br>
            <b>Dominio:</b> ${ataque.domain || "-"}<br>
