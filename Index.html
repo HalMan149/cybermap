@@ -371,59 +371,11 @@ let geojsonLayer;
 let attackMarkers = [];
 
 const countryCoords = {
-  "US": [39.8, -98.6],
-  "CA": [56.1, -106.3],
-  "MX": [23.6, -102.5],
-  "BR": [-14.2, -51.9],
-  "AR": [-38.4, -63.6],
-  "GB": [55.3, -3.4],
-  "FR": [46.2, 2.2],
-  "DE": [51.2, 10.4],
-  "ES": [40.5, -3.7],
-  "IT": [41.9, 12.5],
-  "NL": [52.1, 5.3],
-  "BE": [50.8, 4.5],
-  "SE": [60.1, 18.6],
-  "NO": [60.5, 8.5],
-  "FI": [64.0, 26.0],
-  "RU": [61.5, 105.3],
-  "UA": [48.4, 31.2],
-  "PL": [52.0, 19.1],
-  "RO": [45.9, 24.9],
-  "IN": [21.1, 78.0],
-  "CN": [35.9, 104.2],
-  "JP": [36.2, 138.2],
-  "KR": [35.9, 127.8],
-  "VN": [14.1, 108.3],
-  "AU": [-25.3, 133.8],
-  "ZA": [-30.6, 22.9],
-  "EG": [26.8, 30.8],
-  "TR": [39.1, 35.1],
-  "IR": [32.0, 53.0],
-  "SY": [35.0, 38.0],
-  "MY": [4.2, 101.9],
-  "SG": [1.3, 103.8],
-  "ID": [-0.8, 113.9],
-  "PH": [13.4, 122.9],
-  "TH": [15.8, 100.9],
-  "PK": [30.4, 69.3],
-  "BD": [23.7, 90.3],
-  "SA": [23.9, 45.1],
-  "IQ": [33.2, 43.7],
-  "IL": [31.0, 34.8],
-  "AE": [23.4, 53.8],
-  "NG": [9.1, 8.7],
-  "KE": [-0.0, 37.9],
-  "DZ": [28.0, 1.6],
-  "MA": [31.7, -7.0],
-  "ET": [9.1, 39.6],
-  "CO": [4.6, -74.1],
-  "CL": [-35.7, -71.5],
-  "PE": [-9.2, -75.0],
-  "VE": [6.4, -66.6],
-  "CU": [21.5, -79.4],
-  "KP": [40.0, 127.0],
-  "KZ": [48.0, 66.9]
+  "US": [39.8, -98.6], "JP": [36.2, 138.2], "FR": [46.6, 2.6], "GB": [54.8, -4.6], "DE": [51.2, 10.5],
+  "IT": [42.9, 12.7], "IL": [31.4, 34.9], "TH": [15.8, 100.5], "RU": [61.5, 105.3], "ES": [40.4, -3.7],
+  "BR": [-14.2, -51.9], "CN": [35.9, 104.2], "CA": [56.1, -106.3], "AU": [-25.2, 133.8], "MX": [23.6, -102.5],
+  "IN": [21.1, 78.0], "TR": [39.1, 35.1], "KR": [36.5, 127.8], "ZA": [-29.0, 24.7], "AR": [-38.4, -63.6],
+  "CH": [46.8, 8.2], "PT": [39.4, -8.2], "PL": [52.1, 19.4], "NL": [52.3, 5.3], "BE": [50.5, 4.4]
 };
 
 function colorYOpacidad(count, max) {
@@ -480,93 +432,71 @@ const pirateLockIcon = L.icon({
 // === ASOCIACIÓN DE GRUPOS RANSOMWARE A PAÍSES DE ORIGEN (fuente abierta) ===
 const gruposPaisOrigen = {
   "0mega": "RU",
-  "8base": "RU",
-  "akira": "RU",
-  "avaddon": "RU",
-  "babuk": "RU",
-  "bianlian": "CN",
-  "black basta": "RU",
-  "blackcat": "RU",
-  "blacksuit": "RU",
-  "cl0p": "RU",
-  "conti": "RU",
-  "cuba": "RU",
-  "darkangels": "RU",
-  "darkside": "RU",
-  "dharma": "RU",
-  "donex": "RU",
-  "dragonforce": "MY",
-  "everest": "RU",
-  "hellokitty": "RU",
-  "helloxd": "CN",
-  "hive": "RU",
-  "hunters": "RU",
-  "kelvinsecurity": "AR",
-  "lockbit": "RU",
-  "lockbit3": "RU",
-  "lorenz": "RU",
-  "malaslocker": "CN",
-  "medusa": "RU",
-  "midas": "BR",
-  "netwalker": "RU",
-  "noescape": "RU",
-  "play": "RU",
-  "quantum": "RU",
-  "ra group": "RU",
-  "revil": "RU",
-  "ragnar locker": "RU",
-  "ragnarok": "IN",
-  "ransomexx": "RU",
-  "ransomhouse": "RU",
-  "ransomhub": "RU",
-  "rook": "CN",
-  "royal": "RU",
-  "snatch": "RU",
-  "stormous": "SY",
-  "suncrypt": "RU",
-  "trigona": "RU",
-  "qilin": "RU",
-  "safepay": "RU",
-  "ghost": "CN",
-  "devman": "RU",
-  "crypto24": "RU",
-  "silent": "RU",
-  "bert": "RU",
-  "gunra": "RU",
-  "warlock": "RU",
-  "teamxxx": "??",
+  "8Base": "RU",
+  "Akira": "RU",
+  "Avaddon": "RU",
+  "Babuk": "RU",
+  "BianLian": "CN",
+  "Black Basta": "RU",
+  "BlackCat": "RU",
+  "BlackSuit": "RU",
+  "Cl0p": "RU",
+  "Conti": "RU",
+  "Cuba": "RU",
+  "DarkAngels": "RU",
+  "DarkSide": "RU",
+  "Dharma": "RU",
+  "Donex": "RU",
+  "DragonForce": "MY",
+  "Everest": "RU",
+  "HelloKitty": "RU",
+  "HelloXD": "CN",
+  "Hive": "RU",
+  "Hunters": "RU",
+  "KelvinSecurity": "AR",
+  "LockBit": "RU",
+  "Lockbit3": "RU",
+  "Lorenz": "RU",
+  "MalasLocker": "CN",
+  "Medusa": "RU",
+  "Midas": "BR",
+  "NetWalker": "RU",
+  "NoEscape": "RU",
+  "Play": "RU",
+  "Quantum": "RU",
+  "RA Group": "RU",
+  "REvil": "RU",
+  "Ragnar Locker": "RU",
+  "Ragnarok": "IN",
+  "RansomEXX": "RU",
+  "RansomHouse": "RU",
+  "RansomHub": "RU",
+  "Rook": "CN",
+  "Royal": "RU",
+  "Snatch": "RU",
+  "Stormous": "SY",
+  "SunCrypt": "RU",
+  "Trigona": "RU",
+  "Qilin": "RU",
+  "SafePay": "??",
+  "Ghost": "CN",
+  "DevMan": "??",
+  "Crypto24": "??",
+  "Silent": "??",
+  "Bert": "??",
+  "Gunra": "??",
+  "Warlock": "??",
+  "Teamxxx": "??",
   "kawa4096": "??",
-  "lynx": "RU",
-  "bitter scorpius": "RU",
-  "bling libra": "FR",
-  "dprk": "KP",
-  "fiddling scorpius": "RU",
-  "inc ransomware": "RU",
-  "jumpy pisces": "KP",
-  "shinyhunters": "FR",
-  "crypto414": "??",
-  "microsan": "??",
-  "inc ransom": "RU",
-  "vice society": "RU",
-  "luna moth": "RU",
-  "unc3753": "RU",
-  "chatty spider": "RU",
-  "water pombero": "RU",
-  "kawalocker": "??",
-  "andariel": "KP",
-  "gold ionic": "RU",
-  "agenda": "RU",
-  "cactus": "RU",
-  "nokoyawa": "RU",
-  "moses staff": "IR",
-  "mallox": "RU",
-  "monti": "RU",
-  "abyss": "RU",
-  "money message": "RU",
-  "redalert": "RU",
-  "project relic": "KP",
-  "rancoz": "RU",
-};
+  "Lynx": "RU",
+  "Bitter Scorpius": "??",
+  "Bling Libra": "??",
+  "DPRK": "KP",  // Corea del Norte
+  "Fiddling Scorpius": "??",
+  "INC ransomware": "RU",
+  "Jumpy Pisces": "??",
+  "ShinyHunters": "??",
+  "Vice Society": "RU"};
 async function cargarAtaques() {
   attackMarkers.forEach(m => map.removeLayer(m));
   attackMarkers = [];
@@ -588,7 +518,6 @@ async function cargarAtaques() {
       if (ataque.country) {
         const code = ataque.country.toUpperCase();
         ataquesPorPais[code] = (ataquesPorPais[code] || 0) + 1;
-console.log("GRUPO ENCONTRADO:", ataque.group);
       }
     });
     pintarMapaChoropleth(ataquesPorPais);
@@ -615,40 +544,12 @@ console.log("GRUPO ENCONTRADO:", ataque.group);
   }).addTo(map).bindPopup(popupHtml);
   attackMarkers.push(marker);
 
-
-const grupo = ataque.group?.toLowerCase();
-if (grupo && gruposPaisOrigen[grupo]) {
-  const origenCode = gruposPaisOrigen[grupo];
-  if (origenCode !== "??") {
-    console.log("GRUPO DETECTADO:", grupo, "→", origenCode);
+  // --- DIBUJAR FLECHA Y ORIGEN DEL GRUPO ---
+  if (ataque.group && gruposPaisOrigen[ataque.group]) {
+    const origenCode = gruposPaisOrigen[ataque.group];
     const origenCoords = countryCoords[origenCode];
     const destinoCoords = countryCoords[ataque.country];
     if (origenCoords && destinoCoords) {
-      const colorFlecha = "#ffb347";
-      const flecha = L.polyline([origenCoords, destinoCoords], {
-        color: colorFlecha,
-        weight: 2.7,
-        opacity: 0.75,
-        dashArray: "5,6",
-        className: "ransom-arrow"
-      }).addTo(map);
-      attackMarkers.push(flecha);
-
-      const iconOrigen = L.divIcon({
-        html: "💀",
-        className: "origen-icon",
-        iconSize: [24, 24],
-        iconAnchor: [12, 12]
-      });
-      const marcadorOrigen = L.marker(origenCoords, {
-        icon: iconOrigen,
-        interactive: false
-      }).addTo(map);
-      attackMarkers.push(marcadorOrigen);
-    }
-  }
-}
-
       const colorFlecha = origenCode === "??" ? "#aaa" : "#ffb347"; // gris o naranja
       const flecha = L.polyline([origenCoords, destinoCoords], {
         color: colorFlecha,
