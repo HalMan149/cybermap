@@ -425,49 +425,7 @@ const pirateLockIcon = L.icon({
   iconAnchor: [16, 32],
   popupAnchor: [0, -28]
 });
-// === ASOCIACIÓN DE GRUPOS RANSOMWARE A PAÍSES DE ORIGEN (fuente abierta) ===
-const gruposPaisOrigen = {
-  "Conti": "RU",
-  "REvil": "RU",
-  "LockBit": "RU",
-  "Cl0p": "RU",
-  "BlackCat": "RU",
-  "DarkSide": "RU",
-  "Babuk": "RU",
-  "Hive": "RU",
-  "Avaddon": "RU",
-  "Black Basta": "RU",
-  "Vice Society": "RU",
-  "Royal": "RU",
-  "Ragnar Locker": "RU",
-  "SunCrypt": "RU",
-  "Quantum": "RU",
-  "HelloKitty": "RU",
-  "NetWalker": "RU",
-  "Dharma": "RU",
-  "Cuba": "RU",
-  "Medusa": "RU",
-  "Akira": "RU",
-  "RansomEXX": "RU",
-  "Lorenz": "RU",
-  "RansomHouse": "RU",
-  "8Base": "RU",
-  "Snatch": "RU",
-  "RA Group": "RU",
-  "Trigona": "RU",
-  "Everest": "RU",
-  "BlackSuit": "RU",
-  "Play": "RU",
-  "NoEscape": "RU",
-  "BianLian": "CN",
-  "MalasLocker": "CN",
-  "HelloXD": "CN",
-  "Rook": "CN",
-  "Stormous": "SY",
-  "Ragnarok": "IN",
-  "Midas": "BR",
-  "RansomHub": "RU"
-};
+
 async function cargarAtaques() {
   attackMarkers.forEach(m => map.removeLayer(m));
   attackMarkers = [];
@@ -514,21 +472,6 @@ async function cargarAtaques() {
     zIndexOffset: 5000
   }).addTo(map).bindPopup(popupHtml);
   attackMarkers.push(marker);
-// --- DIBUJAR FLECHA DESDE PAÍS DE ORIGEN DEL GRUPO ---
-if (ataque.group && gruposPaisOrigen[ataque.group]) {
-  const origenCode = gruposPaisOrigen[ataque.group];
-  const origenCoords = countryCoords[origenCode];
-  const destinoCoords = countryCoords[ataque.country];
-  if (origenCoords && destinoCoords) {
-    const flecha = L.polyline([origenCoords, destinoCoords], {
-      color: "#ffb347", // naranja suave
-      weight: 2.7,
-      opacity: 0.75,
-      dashArray: "5,6",
-      className: "ransom-arrow"
-    }).addTo(map);
-    attackMarkers.push(flecha);
-  }
 }
     });
   } catch (e) {
