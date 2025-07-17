@@ -594,6 +594,7 @@ async function cargarAtaques() {
 
   // --- DIBUJAR FLECHA Y ORIGEN DEL GRUPO ---
   if (ataque.group && gruposPaisOrigen[ataque.group]) {
+console.log("GRUPO DETECTADO:", ataque.group, "→", gruposPaisOrigen[ataque.group]);
     const origenCode = gruposPaisOrigen[ataque.group];
     const origenCoords = countryCoords[origenCode];
     const destinoCoords = countryCoords[ataque.country];
