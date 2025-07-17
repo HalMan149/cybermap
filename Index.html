@@ -479,6 +479,7 @@ const pirateLockIcon = L.icon({
 });
 // === ASOCIACIÓN DE GRUPOS RANSOMWARE A PAÍSES DE ORIGEN (fuente abierta) ===
 const gruposPaisOrigen = {
+const gruposPaisOrigen = {
   "0mega": "RU",
   "8Base": "RU",
   "Akira": "RU",
@@ -526,25 +527,47 @@ const gruposPaisOrigen = {
   "SunCrypt": "RU",
   "Trigona": "RU",
   "Qilin": "RU",
-  "SafePay": "??",
-  "Ghost": "CN",
-  "DevMan": "??",
-  "Crypto24": "??",
-  "Silent": "??",
-  "Bert": "??",
-  "Gunra": "??",
-  "Warlock": "??",
-  "Teamxxx": "??",
-  "kawa4096": "??",
-  "Lynx": "RU",
-  "Bitter Scorpius": "??",
-  "Bling Libra": "??",
-  "DPRK": "KP",  // Corea del Norte
-  "Fiddling Scorpius": "??",
-  "INC ransomware": "RU",
-  "Jumpy Pisces": "??",
-  "ShinyHunters": "??",
-  "Vice Society": "RU"};
+  "SafePay": "RU",                  // Probablemente Europa del Este/Rusia (evita CIS)
+  "Ghost": "CN",                    // Confirmado China (infraestructura)
+  "DevMan": "RU",                   // Asociado a grupos rusos como Qilin
+  "Crypto24": "RU",                 // Foro ruso RAMP, muy probablemente ruso
+  "Silent": "RU",                   // Técnicas compatibles con ciberdelincuencia rusa
+  "Bert": "RU",                     // Técnicas y objetivos compatibles con Rusia
+  "Gunra": "RU",                    // Código basado en Conti (Rusia)
+  "Warlock": "RU",                  // Vínculos con actores rusos confirmados
+  "Teamxxx": "??",                  // Sin datos suficientes
+  "kawa4096": "??",                 // Sin datos suficientes
+  "Lynx": "RU",                     // Confirmado Rusia por infraestructura
+  "Bitter Scorpius": "RU",          // Confirmado por FBI como grupo ruso (BianLian)
+  "Bling Libra": "FR",              // Confirmado Francia (ShinyHunters)
+  "DPRK": "KP",                     // Corea del Norte
+  "Fiddling Scorpius": "RU",        // Probablemente Rusia (grupo Play)
+  "INC ransomware": "RU",           // Confirmado Rusia
+  "Jumpy Pisces": "KP",             // Confirmado Corea del Norte
+  "ShinyHunters": "FR",             // Confirmado Francia
+  "crypto414": "??",                // Sin datos en absoluto
+  "microsan": "??",                 // Sin datos en absoluto
+  "INC Ransom": "RU",               // Confirmado Rusia
+  "Vice Society": "RU"
+  "Luna Moth": "RU",
+  "UNC3753": "RU",
+  "Chatty Spider": "RU",
+  "Water Pombero": "RU",
+  "KaWaLocker": "??",
+  "Andariel": "KP",
+  "Gold Ionic": "RU",
+  "Agenda": "RU",
+  "Cactus": "RU",
+  "Nokoyawa": "RU",
+  "Moses Staff": "IR",
+  "Mallox": "RU",
+  "Monti": "RU",
+  "Abyss": "RU",
+  "Money Message": "RU",
+  "RedAlert": "RU",
+  "Project Relic": "KP",
+  "Rancoz": "RU"
+};
 async function cargarAtaques() {
   attackMarkers.forEach(m => map.removeLayer(m));
   attackMarkers = [];
@@ -566,6 +589,7 @@ async function cargarAtaques() {
       if (ataque.country) {
         const code = ataque.country.toUpperCase();
         ataquesPorPais[code] = (ataquesPorPais[code] || 0) + 1;
+console.log("GRUPO ENCONTRADO:", ataque.group);
       }
     });
     pintarMapaChoropleth(ataquesPorPais);
