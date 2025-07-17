@@ -573,20 +573,3 @@ async function cargarAtaques() {
       attackMarkers.push(marcadorOrigen);
     }
   }
-    });
-  } catch (e) {
-    lista.innerHTML = `<li class="error-msg">Error de conexión con el servidor.<br><span style="font-size:0.92em;">${e.message || e}</span></li>`;
-  }
-}
-cargarAtaques();
-setInterval(cargarAtaques, 4 * 60 * 1000);
-
-// Panel lateral cerrado de inicio y botón menú
-document.getElementById("ataques-ransomware").style.display = "none";
-document.getElementById("btn-toggle-lista").onclick = function() {
-  const panel = document.getElementById("ataques-ransomware");
-  panel.style.display = (panel.style.display === "none" ? "block" : "none");
-};
-</script>
-</body>
-</html>
