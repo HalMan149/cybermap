@@ -615,15 +615,40 @@ console.log("GRUPO ENCONTRADO:", ataque.group);
   }).addTo(map).bindPopup(popupHtml);
   attackMarkers.push(marker);
 
-  // --- DIBUJAR FLECHA Y ORIGEN DEL GRUPO ---
-// --- DIBUJAR FLECHA Y ORIGEN DEL GRUPO ---
+
 const grupo = ataque.group?.toLowerCase();
 if (grupo && gruposPaisOrigen[grupo]) {
-  console.log("GRUPO DETECTADO:", grupo, "→", gruposPaisOrigen[grupo]);
   const origenCode = gruposPaisOrigen[grupo];
+  if (origenCode !== "??") {
+    console.log("GRUPO DETECTADO:", grupo, "→", origenCode);
     const origenCoords = countryCoords[origenCode];
     const destinoCoords = countryCoords[ataque.country];
     if (origenCoords && destinoCoords) {
+      const colorFlecha = "#ffb347";
+      const flecha = L.polyline([origenCoords, destinoCoords], {
+        color: colorFlecha,
+        weight: 2.7,
+        opacity: 0.75,
+        dashArray: "5,6",
+        className: "ransom-arrow"
+      }).addTo(map);
+      attackMarkers.push(flecha);
+
+      const iconOrigen = L.divIcon({
+        html: "💀",
+        className: "origen-icon",
+        iconSize: [24, 24],
+        iconAnchor: [12, 12]
+      });
+      const marcadorOrigen = L.marker(origenCoords, {
+        icon: iconOrigen,
+        interactive: false
+      }).addTo(map);
+      attackMarkers.push(marcadorOrigen);
+    }
+  }
+}
+
       const colorFlecha = origenCode === "??" ? "#aaa" : "#ffb347"; // gris o naranja
       const flecha = L.polyline([origenCoords, destinoCoords], {
         color: colorFlecha,
