@@ -522,7 +522,6 @@ async function cargarAtaques() {
         const code = ataque.country.toUpperCase();
         ataquesPorPais[code] = (ataquesPorPais[code] || 0) + 1;
       }
-    };
     pintarMapaChoropleth(ataquesPorPais);
 
     lista.innerHTML = "";
