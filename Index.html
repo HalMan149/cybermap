@@ -275,7 +275,7 @@ function actualizarSegundosCentral() {
   if (!el) return;
   const s = String(utcNow.getUTCSeconds()).padStart(2, "0");
   const ms = String(utcNow.getMilliseconds()).padStart(3, "0").slice(0,2); // centésimas
-  el.textContent = `${s}.${ms}`;
+//el.textContent = `${s}.${ms}`;
 }
 setInterval(actualizarSegundosCentral, 41);
 
@@ -404,6 +404,13 @@ async function pintarMapaChoropleth(ataquesPorPais) {
   }).addTo(map);
 }
 
+const pirateLockIcon = L.icon({
+  iconUrl: 'ransomware.png',    // Ajusta ruta si el archivo está en otra carpeta
+  iconSize: [32, 32],
+  iconAnchor: [16, 32],
+  popupAnchor: [0, -28]
+});
+
 async function cargarAtaques() {
   attackMarkers.forEach(m => map.removeLayer(m));
   attackMarkers = [];
@@ -440,7 +447,7 @@ async function cargarAtaques() {
 
       if (ataque.country && countryCoords[ataque.country]) {
         const marker = L.circleMarker(countryCoords[ataque.country], {
-          radius: 8, color: "#ff317a", fillColor: "#ff317a", fillOpacity: 0.82
+          icon: pirateLockIcon
         }).addTo(map).bindPopup(
           `<b>${ataque.victim || "Desconocido"}</b><br>
            <b>Dominio:</b> ${ataque.domain || "-"}<br>
