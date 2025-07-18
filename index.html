@@ -382,15 +382,12 @@ const countryCoords = {
 
 function colorYOpacidad(count, max) {
   if (!count || count === 0) return { fillOpacity: 0, fillColor: null };
-  const t = Math.min(1, count / max);
-  // Escala de azul claro a azul oscuro
-  const azulClaro = [80, 160, 255], azulOscuro = [10, 32, 130];
-  const r = Math.round(azulClaro[0] + (azulOscuro[0] - azulClaro[0]) * t);
-  const g = Math.round(azulClaro[1] + (azulOscuro[1] - azulClaro[1]) * t);
-  const b = Math.round(azulClaro[2] + (azulOscuro[2] - azulClaro[2]) * t);
-  const fillColor = `rgb(${r},${g},${b})`;
-  const fillOpacity = 0.34 + 0.5 * t;
-  return { fillColor, fillOpacity };
+  if (count < 2)    return { fillColor: "#bfe7ff", fillOpacity: 0.40 };
+  if (count < 5)    return { fillColor: "#71b6f7", fillOpacity: 0.52 };
+  if (count < 10)   return { fillColor: "#2977db", fillOpacity: 0.64 };
+  if (count < 20)   return { fillColor: "#18429d", fillOpacity: 0.75 };
+  /* >= 20 ataques */
+  return { fillColor: "#071450", fillOpacity: 0.86 };
 }
 
 async function pintarMapaChoropleth(ataquesPorPais) {
@@ -431,6 +428,11 @@ const pirateLockIcon = L.icon({
   iconSize: [32, 32],
   iconAnchor: [16, 32],
   popupAnchor: [0, -28]
+});
+const attackOriginIcon = L.icon({
+  iconUrl: 'atack.png',
+  iconSize: [28, 28],   // ajusta tamaño si lo prefieres
+  iconAnchor: [14, 14]  // el centro del icono
 });
 const gruposPaisOrigen = {
   "0mega": "RU",
@@ -584,17 +586,12 @@ if (ataque.group && gruposPaisOrigen[ataque.group.toLowerCase()]) {
             }).addTo(map);
             attackMarkers.push(flecha);
 
-            const iconOrigen = L.divIcon({
-              html: "💀",
-              className: "origen-icon",
-              iconSize: [24, 24],
-              iconAnchor: [12, 12]
-            });
-            const marcadorOrigen = L.marker(origenCoords, {
-              icon: iconOrigen,
-              interactive: false
-            }).addTo(map);
-            attackMarkers.push(marcadorOrigen);
+const marcadorOrigen = L.marker(origenCoords, {
+  icon: attackOriginIcon,
+  interactive: false
+}).addTo(map);
+attackMarkers.push(marcadorOrigen);
+
           }
         }
       }
