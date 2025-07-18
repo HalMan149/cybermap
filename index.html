@@ -444,6 +444,35 @@ async function cargarAtaques() {
     }
     const ataquesPorPais = {};
     data.forEach(ataque => {
+      if (ataque.group && gruposPaisOrigen[ataque.group]) {
+        const origenCode = gruposPaisOrigen[ataque.group];
+        const origenCoords = countryCoords[origenCode];
+        const destinoCoords = countryCoords[ataque.country];
+        if (origenCoords && destinoCoords) {
+          const colorFlecha = origenCode === "??" ? "#aaa" : "#ffb347"; // Gris o naranja
+          const flecha = L.polyline([origenCoords, destinoCoords], {
+            color: colorFlecha,
+            weight: 2.7,
+            opacity: 0.75,
+            dashArray: "5,6",
+            className: "ransom-arrow"
+          }).addTo(map);
+          attackMarkers.push(flecha);
+
+          const iconOrigen = L.divIcon({
+            html: "💀",  // Icono para representar el origen (puedes cambiar este icono)
+            className: "origen-icon",
+            iconSize: [24, 24],
+            iconAnchor: [12, 12]
+          });
+          const marcadorOrigen = L.marker(origenCoords, {
+            icon: iconOrigen,
+            interactive: false
+          }).addTo(map);
+          attackMarkers.push(marcadorOrigen);
+        }
+      }
+    
       if (ataque.country) {
         const code = ataque.country.toUpperCase();
         ataquesPorPais[code] = (ataquesPorPais[code] || 0) + 1;
