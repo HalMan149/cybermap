@@ -528,6 +528,7 @@ async function cargarAtaques() {
   attackMarkers = [];
   const lista = document.getElementById('lista-ataques');
   lista.innerHTML = '<li>Cargando datos...</li>';
+
   try {
     const resp = await fetch('/.netlify/functions/ransomware');
     const data = await resp.json();
@@ -539,15 +540,31 @@ async function cargarAtaques() {
       lista.innerHTML = '<li class="ok-msg">No hay ataques recientes registrados.</li>';
       return;
     }
-    const ataquesPorPais = {};
+
+    // 1. Agrupa ataques por país de origen
+    const origenStats = {};
     data.forEach(ataque => {
-      if (ataque.country) {
-        const code = ataque.country.toUpperCase();
-        ataquesPorPais[code] = (ataquesPorPais[code] || 0) + 1;
+      if (
+        ataque.group &&
+        gruposPaisOrigen[ataque.group.toLowerCase()] &&
+        countryCoords[gruposPaisOrigen[ataque.group.toLowerCase()]] &&
+        ataque.country
+      ) {
+        const origen = gruposPaisOrigen[ataque.group.toLowerCase()];
+        if (!origenStats[origen]) {
+          origenStats[origen] = {
+            grupos: new Set(),
+            ataques: 0,
+            destinos: new Set()
+          };
+        }
+        origenStats[origen].grupos.add(ataque.group);
+        origenStats[origen].ataques++;
+        origenStats[origen].destinos.add(ataque.country);
       }
     });
-    pintarMapaChoropleth(ataquesPorPais);
 
+    // 2. Panel lateral y markers de víctimas (igual que antes)
     lista.innerHTML = "";
     data.slice(0, 25).forEach(ataque => {
       const pais = ataque.country || "-";
@@ -556,6 +573,7 @@ async function cargarAtaques() {
         <span style="opacity:0.7;">(${pais})</span>
         <br><small>${ataque.title || ""}</small>`;
       lista.appendChild(li);
+
       if (ataque.country && countryCoords[ataque.country]) {
         const popupHtml = `
           <b>Víctima:</b> ${ataque.victim || "-"}
@@ -569,37 +587,47 @@ async function cargarAtaques() {
           zIndexOffset: 5000
         }).addTo(map).bindPopup(popupHtml);
         attackMarkers.push(marker);
-
-        // --- DIBUJAR FLECHA Y ORIGEN DEL GRUPO ---
-if (ataque.group && gruposPaisOrigen[ataque.group.toLowerCase()]) {
-  const origenCode = gruposPaisOrigen[ataque.group.toLowerCase()];
-  const origenCoords = countryCoords[origenCode];
-  const destinoCoords = countryCoords[ataque.country];
-          if (origenCoords && destinoCoords) {
-            const colorFlecha = origenCode === "??" ? "#aaa" : "#ffb347";
-            const flecha = L.polyline([origenCoords, destinoCoords], {
-              color: colorFlecha,
-              weight: 2.7,
-              opacity: 0.75,
-              dashArray: "5,6",
-              className: "ransom-arrow"
-            }).addTo(map);
-            attackMarkers.push(flecha);
-
-const marcadorOrigen = L.marker(origenCoords, {
-  icon: attackOriginIcon,
-  interactive: false
-}).addTo(map);
-attackMarkers.push(marcadorOrigen);
-
-          }
-        }
       }
     });
+
+    // 3. Un solo marker atack.png por país atacante, con info agrupada
+    const attackOriginIcon = L.icon({
+      iconUrl: 'atack.png',
+      iconSize: [28, 28],
+      iconAnchor: [14, 14]
+    });
+    Object.entries(origenStats).forEach(([origen, info]) => {
+      const coords = countryCoords[origen];
+      if (!coords) return;
+      const popupHtml = `
+        <b>País de origen:</b> ${origen}
+        <br><b>Grupos activos:</b> ${Array.from(info.grupos).join(', ')}
+        <br><b>Ataques lanzados:</b> ${info.ataques}
+        <br><b>Destinos atacados:</b> ${Array.from(info.destinos).join(', ')}
+      `;
+      const markerOrigen = L.marker(coords, {
+        icon: attackOriginIcon,
+        interactive: true
+      }).addTo(map)
+        .bindPopup(popupHtml);
+      attackMarkers.push(markerOrigen);
+    });
+
+    // 4. Pintar choropleth (como antes)
+    const ataquesPorPais = {};
+    data.forEach(ataque => {
+      if (ataque.country) {
+        const code = ataque.country.toUpperCase();
+        ataquesPorPais[code] = (ataquesPorPais[code] || 0) + 1;
+      }
+    });
+    pintarMapaChoropleth(ataquesPorPais);
+
   } catch (e) {
     lista.innerHTML = `<li class="error-msg">Error de conexión con el servidor.<br><span style="font-size:0.92em;">${e.message || e}</span></li>`;
   }
 }
+
 
 cargarAtaques();
 setInterval(cargarAtaques, 4 * 60 * 1000);
