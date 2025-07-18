@@ -389,7 +389,15 @@ function colorYOpacidad(count, max) {
   /* >= 20 ataques */
   return { fillColor: "#071450", fillOpacity: 0.76 };
 }
-
+function colorYOpacidadMagenta(count, max) {
+  if (!count || count === 0) return { fillOpacity: 0, fillColor: null };
+  if (count < 2)    return { fillColor: "#ffd6fb", fillOpacity: 0.30 };
+  if (count < 5)    return { fillColor: "#ff95ea", fillOpacity: 0.42 };
+  if (count < 10)   return { fillColor: "#e350c7", fillOpacity: 0.54 };
+  if (count < 20)   return { fillColor: "#b21b99", fillOpacity: 0.65 };
+  /* >= 20 ataques */
+  return { fillColor: "#61004b", fillOpacity: 0.76 };
+}
 async function pintarMapaChoropleth(ataquesPorPais) {
   if (geojsonLayer) map.removeLayer(geojsonLayer);
   const resp = await fetch('/countries.geojson');
@@ -648,6 +656,30 @@ async function cargarAtaques() {
       }
     });
     pintarMapaChoropleth(ataquesPorPais);
+// --- Colorear países de origen (atacantes) en magenta ---
+const paisesOrigen = {};
+Object.entries(origenStats).forEach(([codigoPais, info]) => {
+  paisesOrigen[codigoPais] = info.ataques;
+});
+
+const respMagenta = await fetch('/countries.geojson');
+const worldGeoMagenta = await respMagenta.json();
+const maxAtaquesOrigen = Math.max(...Object.values(paisesOrigen), 1);
+L.geoJSON(worldGeoMagenta, {
+  style: feature => {
+    const code = feature.properties["ISO3166-1-Alpha-2"] ? feature.properties["ISO3166-1-Alpha-2"].toUpperCase() : null;
+    const n = code ? (paisesOrigen[code] || 0) : 0;
+    const { fillColor, fillOpacity } = colorYOpacidadMagenta(n, maxAtaquesOrigen);
+    if (!fillColor) return { fillOpacity: 0, color: "#22242a", weight: 1.3 };
+    return {
+      fillColor: fillColor,
+      fillOpacity: fillOpacity,
+      color: "#f0c", // borde magenta (opcional)
+      weight: 1.7,
+      opacity: 0.7
+    };
+  }
+}).addTo(map);
 
   } catch (e) {
     lista.innerHTML = `<li class="error-msg">Error de conexión con el servidor.<br><span style="font-size:0.92em;">${e.message || e}</span></li>`;
