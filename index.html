@@ -367,7 +367,7 @@ async function lanzarTicker() {
 lanzarTicker();
 setInterval(lanzarTicker, 15 * 60 * 1000);
 
-// =========== ATAQUES RANSOMWARE & CHOROPLETH ROJO ===========
+// =========== ATAQUES RANSOMWARE & CHOROPLETH ===========
 
 let geojsonLayer;
 let attackMarkers = [];
@@ -382,12 +382,12 @@ const countryCoords = {
 
 function colorYOpacidad(count, max) {
   if (!count || count === 0) return { fillOpacity: 0, fillColor: null };
-  if (count < 2)    return { fillColor: "#bfe7ff", fillOpacity: 0.40 };
-  if (count < 5)    return { fillColor: "#71b6f7", fillOpacity: 0.52 };
-  if (count < 10)   return { fillColor: "#2977db", fillOpacity: 0.64 };
-  if (count < 20)   return { fillColor: "#18429d", fillOpacity: 0.75 };
+  if (count < 2)    return { fillColor: "#bfe7ff", fillOpacity: 0.30 };
+  if (count < 5)    return { fillColor: "#71b6f7", fillOpacity: 0.42 };
+  if (count < 10)   return { fillColor: "#2977db", fillOpacity: 0.54 };
+  if (count < 20)   return { fillColor: "#18429d", fillOpacity: 0.65 };
   /* >= 20 ataques */
-  return { fillColor: "#071450", fillOpacity: 0.86 };
+  return { fillColor: "#071450", fillOpacity: 0.76 };
 }
 
 async function pintarMapaChoropleth(ataquesPorPais) {
@@ -603,7 +603,7 @@ async function cargarAtaques() {
         const origenCoords = countryCoords[origen];
         const destinoCoords = countryCoords[ataque.country];
         if (origenCoords && destinoCoords) {
-          const colorFlecha = origen === "??" ? "#aaa" : "#ffb347";
+          const colorFlecha = origen === "??" ? "#aaa" : "#ff00cc";
           const flecha = L.polyline([origenCoords, destinoCoords], {
             color: colorFlecha,
             weight: 2.7,
