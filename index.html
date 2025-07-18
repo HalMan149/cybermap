@@ -564,16 +564,18 @@ async function cargarAtaques() {
       }
     });
 
-    // 2. Panel lateral y markers de víctimas (igual que antes)
+    // 2. Panel lateral, markers de víctima y FLECHAS (por cada ataque)
     lista.innerHTML = "";
     data.slice(0, 25).forEach(ataque => {
       const pais = ataque.country || "-";
+      // Panel lateral
       const li = document.createElement('li');
       li.innerHTML = `<b>${ataque.victim || "Desconocido"}</b>
         <span style="opacity:0.7;">(${pais})</span>
         <br><small>${ataque.title || ""}</small>`;
       lista.appendChild(li);
 
+      // Marker de víctima (candado/ransomware.png)
       if (ataque.country && countryCoords[ataque.country]) {
         const popupHtml = `
           <b>Víctima:</b> ${ataque.victim || "-"}
@@ -587,6 +589,30 @@ async function cargarAtaques() {
           zIndexOffset: 5000
         }).addTo(map).bindPopup(popupHtml);
         attackMarkers.push(marker);
+      }
+
+      // FLECHA origen-destino por cada ataque (como antes)
+      if (
+        ataque.group &&
+        gruposPaisOrigen[ataque.group.toLowerCase()] &&
+        countryCoords[gruposPaisOrigen[ataque.group.toLowerCase()]] &&
+        ataque.country &&
+        countryCoords[ataque.country]
+      ) {
+        const origen = gruposPaisOrigen[ataque.group.toLowerCase()];
+        const origenCoords = countryCoords[origen];
+        const destinoCoords = countryCoords[ataque.country];
+        if (origenCoords && destinoCoords) {
+          const colorFlecha = origen === "??" ? "#aaa" : "#ffb347";
+          const flecha = L.polyline([origenCoords, destinoCoords], {
+            color: colorFlecha,
+            weight: 2.7,
+            opacity: 0.75,
+            dashArray: "5,6",
+            className: "ransom-arrow"
+          }).addTo(map);
+          attackMarkers.push(flecha);
+        }
       }
     });
 
