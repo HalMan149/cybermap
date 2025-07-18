@@ -1,30 +1,28 @@
+const fetch = require("node-fetch");
+
 exports.handler = async function(event, context) {
-  const url = "https://api.ransomware.live/v2/recentvictims";
   try {
+    const url = "https://api.ransomware.live/v2/recentvictims";
     const response = await fetch(url);
+    if (!response.ok) {
+      return {
+        statusCode: response.status,
+        body: JSON.stringify({ error: `Error al obtener datos: ${response.status}` })
+      };
+    }
     const data = await response.json();
-    // Solo devuelve los primeros 100 elementos para evitar exceso de memoria
-    let limited = Array.isArray(data) ? data.slice(0, 100) : (Array.isArray(data.data) ? data.data.slice(0, 100) : data);
     return {
       statusCode: 200,
-      body: JSON.stringify(limited),
       headers: {
-        "Content-Type": "application/json",
-        "Access-Control-Allow-Origin": "*",
-      }
+        "Access-Control-Allow-Origin": "*",    // Opcional: así permites CORS desde cualquier sitio
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(data)
     };
-  } catch (err) {
+  } catch (e) {
     return {
       statusCode: 500,
-      body: JSON.stringify({ 
-        error: "Error obteniendo datos", 
-        details: err.message, 
-        stack: err.stack 
-      }),
-      headers: {
-        "Content-Type": "application/json",
-        "Access-Control-Allow-Origin": "*",
-      }
+      body: JSON.stringify({ error: e.message || e })
     };
   }
 };
