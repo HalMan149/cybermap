@@ -662,7 +662,16 @@ Object.entries(origenStats).forEach(([codigoPais, info]) => {
   paisesOrigen[codigoPais] = info.ataques;
 });
 
+const respMagenta = await fetch('/countries.geojson');
+const worldGeoMagenta = await respMagenta.json();
+const maxAtaquesOrigen = Math.max(...Object.values(paisesOrigen), 1);
+const magentaLayer = L.geoJSON(worldGeoMagenta, {
+  style: feature => {
+    const code = feature.properties["ISO3166-1-Alpha-2"] ? feature.properties["ISO3166-1-Alpha-2"].toUpperCase() : null;
+    const n = code ? (paisesOrigen[code] || 0) : 0;
+    const { fillColor, fillOpacity } = colorYOpacidadMagenta(n, maxAtaquesOrigen);
 
+  }
 }).addTo(map);
 
 // === LÍNEA AÑADIDA para traer la capa azul (tooltips) al frente ===
