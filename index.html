@@ -432,7 +432,7 @@ async function cargarAtaques() {
   const lista = document.getElementById('lista-ataques');
   lista.innerHTML = '<li>Cargando datos...</li>';
   try {
-    const resp = await fetch('https://api.ransomware.live/v2/recentvictims');
+    const resp = await fetch('/.netlify/functions/ransomware');
     const data = await resp.json();
     if (data && data.error) {
       lista.innerHTML = `<li class="error-msg">${data.error}</li>`;
