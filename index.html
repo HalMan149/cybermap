@@ -524,18 +524,19 @@ async function cargarAtaques() {
   attackMarkers.forEach(m => map.removeLayer(m));
   attackMarkers = [];
   const lista = document.getElementById('lista-ataques');
-  lista.innerHTML = '<li>Cargando datos...</li>';
+  lista.innerHTML = '<li>Cargando datos recientes...</li>';
   try {
-    const resp = await fetch('/.netlify/functions/ransomware');
-    const data = await resp.json();
-    if (data && data.error) {
-      lista.innerHTML = `<li class="error-msg">${data.error}</li>`;
-      return;
-    }
+    const resp = await fetch('https://api.ransomware.live/v2/recentvictims');
+    let data = await resp.json();
+
+    // Solo los 50 más recientes
+    data = data.slice(0, 50);
+
     if (!Array.isArray(data) || data.length === 0) {
       lista.innerHTML = '<li class="ok-msg">No hay ataques recientes registrados.</li>';
       return;
     }
+
     const ataquesPorPais = {};
     data.forEach(ataque => {
       if (ataque.country) {
@@ -546,7 +547,7 @@ async function cargarAtaques() {
     pintarMapaChoropleth(ataquesPorPais);
 
     lista.innerHTML = "";
-    data.slice(0, 25).forEach(ataque => {
+    data.forEach(ataque => {
       const pais = ataque.country || "-";
       const li = document.createElement('li');
       li.innerHTML = `<b>${ataque.victim || "Desconocido"}</b>
@@ -556,10 +557,10 @@ async function cargarAtaques() {
       if (ataque.country && countryCoords[ataque.country]) {
         const popupHtml = `
           <b>Víctima:</b> ${ataque.victim || "-"}
-          <br><b>Hora del ataque:</b> ${ataque.attackdate || "-"}
+          <br><b>Fecha:</b> ${ataque.date || ataque.attackdate || "-"}
           <br><b>Grupo:</b> ${ataque.group || "-"}
           ${ataque.screenshot ? `<br><img src="${ataque.screenshot}" style="width:120px;max-width:97%;margin:6px 0 4px 0;border-radius:8px;box-shadow:0 0 9px #111a;">` : ''}
-          <br><a href="${ataque.url}" target="_blank" style="display:inline-block;margin-top:8px;font-weight:bold;color:#1479f3;">Ver noticia completa</a>
+          <br><a href="${ataque.url || ataque.claim_url}" target="_blank" style="display:inline-block;margin-top:8px;font-weight:bold;color:#1479f3;">Ver noticia completa</a>
         `;
         const marker = L.marker(countryCoords[ataque.country], {
           icon: pirateLockIcon,
@@ -568,10 +569,10 @@ async function cargarAtaques() {
         attackMarkers.push(marker);
 
         // --- DIBUJAR FLECHA Y ORIGEN DEL GRUPO ---
-if (ataque.group && gruposPaisOrigen[ataque.group.toLowerCase()]) {
-  const origenCode = gruposPaisOrigen[ataque.group.toLowerCase()];
-  const origenCoords = countryCoords[origenCode];
-  const destinoCoords = countryCoords[ataque.country];
+        if (ataque.group && gruposPaisOrigen[ataque.group.toLowerCase()]) {
+          const origenCode = gruposPaisOrigen[ataque.group.toLowerCase()];
+          const origenCoords = countryCoords[origenCode];
+          const destinoCoords = countryCoords[ataque.country];
           if (origenCoords && destinoCoords) {
             const colorFlecha = origenCode === "??" ? "#aaa" : "#ffb347";
             const flecha = L.polyline([origenCoords, destinoCoords], {
@@ -599,10 +600,9 @@ if (ataque.group && gruposPaisOrigen[ataque.group.toLowerCase()]) {
       }
     });
   } catch (e) {
-    lista.innerHTML = `<li class="error-msg">Error de conexión con el servidor.<br><span style="font-size:0.92em;">${e.message || e}</span></li>`;
+    lista.innerHTML = `<li class="error-msg">Error de conexión con ransomware.live.<br><span style="font-size:0.92em;">${e.message || e}</span></li>`;
   }
 }
-
 cargarAtaques();
 setInterval(cargarAtaques, 4 * 60 * 1000);
 
