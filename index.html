@@ -558,23 +558,23 @@ async function cargarAtaques() {
       }).addTo(map);
       attackMarkers.push(flecha);
 
-      const iconOrigen = L.divIcon({
-        html: "💀",  // Puedes poner "🕵️", "🔺", "👾", etc.
-        className: "origen-icon",
-        iconSize: [24, 24],
-        iconAnchor: [12, 12]
-      });
-      const marcadorOrigen = L.marker(origenCoords, {
-        icon: iconOrigen,
-        interactive: false
-      }).addTo(map);
-      attackMarkers.push(marcadorOrigen);
-    }
-    });
-  } catch (e) {
+const iconOrigen = L.divIcon({
+    html: "💀",  // Puedes poner "🕵️", "🔺", "👾", etc.
+    className: "origen-icon",
+    iconSize: [24, 24],
+    iconAnchor: [12, 12]
+});
+const marcadorOrigen = L.marker(origenCoords, {
+    icon: iconOrigen,
+    interactive: false
+}).addTo(map);
+attackMarkers.push(marcadorOrigen);
+}  // Cierre del 'if' y 'forEach'
+
+} catch (e) {
     lista.innerHTML = `<li class="error-msg">Error de conexión con el servidor.<br><span style="font-size:0.92em;">${e.message || e}</span></li>`;
-  }
 }
+
 cargarAtaques();
 setInterval(cargarAtaques, 4 * 60 * 1000);
 
