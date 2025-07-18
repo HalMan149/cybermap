@@ -1,7 +1,7 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
- <script src="https://cdn.jsdelivr.net/npm/luxon@3/build/global/luxon.min.js">//cdn.jsdelivr.net/npm/luxon@3/build/global/luxon.min.js"></script> <!-- Cierre de script correcto -->
+  <script src="https://cdn.jsdelivr.net/npm/luxon@3/build/global/luxon.min.js"></script>
   <meta charset="utf-8" />
   <title>Mapa Cyberpunk + Noticias Ciberseguridad</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -42,7 +42,7 @@
 .leaflet-marker-icon.city-clock-label {
   z-index: 100 !important;      /* menos que un popup de Leaflet */
   opacity: 1 !important;
-  pointer-events: none !important;  /* YA lo tienes, pero repítelo aquí abajo por si acaso */
+  pointer-events: none !important;
   background: none !important;
 }
 .leaflet-popup,
@@ -77,7 +77,8 @@
     <ul id="lista-ataques"></ul>
   </div>
   <div id="noticias-ticker"><span id="noticias-inner"></span></div>
-  <script src="https://cdn.jsdelivr.net/npm/luxon@3/build/global/luxon.min.js">//unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script> <!-- Cierre de script correcto -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/luxon@3/build/global/luxon.min.js"></script>
   <script>
 // ========== INICIALIZACIÓN DEL MAPA Y CAPAS ==========
 const CENTER = [38.3373, -0.5266];
@@ -425,12 +426,11 @@ async function pintarMapaChoropleth(ataquesPorPais) {
 }
 
 const pirateLockIcon = L.icon({
-  iconUrl: 'ransomware.png',    // Ajusta ruta si el archivo está en otra carpeta
+  iconUrl: 'ransomware.png',
   iconSize: [32, 32],
   iconAnchor: [16, 32],
   popupAnchor: [0, -28]
 });
-// === ASOCIACIÓN DE GRUPOS RANSOMWARE A PAÍSES DE ORIGEN (fuente abierta) ===
 const gruposPaisOrigen = {
   "0mega": "RU",
   "8Base": "RU",
@@ -492,7 +492,7 @@ const gruposPaisOrigen = {
   "Lynx": "RU",
   "Bitter Scorpius": "??",
   "Bling Libra": "??",
-  "DPRK": "KP",  // Corea del Norte
+  "DPRK": "KP",
   "Fiddling Scorpius": "??",
   "INC ransomware": "RU",
   "Jumpy Pisces": "??",
@@ -531,54 +531,56 @@ async function cargarAtaques() {
         <span style="opacity:0.7;">(${pais})</span>
         <br><small>${ataque.title || ""}</small>`;
       lista.appendChild(li);
-     if (ataque.country && countryCoords[ataque.country]) {
-  const popupHtml = `
-    <b>Víctima:</b> ${ataque.victim || "-"}
-    <br><b>Hora del ataque:</b> ${ataque.attackdate || "-"}
-    <br><b>Grupo:</b> ${ataque.group || "-"}
-    ${ataque.screenshot ? `<br><img src="${ataque.screenshot}" style="width:120px;max-width:97%;margin:6px 0 4px 0;border-radius:8px;box-shadow:0 0 9px #111a;">` : ''}
-    <br><a href="${ataque.url}" target="_blank" style="display:inline-block;margin-top:8px;font-weight:bold;color:#1479f3;">Ver noticia completa</a>
-  `;
-  const marker = L.marker(countryCoords[ataque.country], {
-    icon: pirateLockIcon,
-    zIndexOffset: 5000
-  }).addTo(map).bindPopup(popupHtml);
-  attackMarkers.push(marker);
+      if (ataque.country && countryCoords[ataque.country]) {
+        const popupHtml = `
+          <b>Víctima:</b> ${ataque.victim || "-"}
+          <br><b>Hora del ataque:</b> ${ataque.attackdate || "-"}
+          <br><b>Grupo:</b> ${ataque.group || "-"}
+          ${ataque.screenshot ? `<br><img src="${ataque.screenshot}" style="width:120px;max-width:97%;margin:6px 0 4px 0;border-radius:8px;box-shadow:0 0 9px #111a;">` : ''}
+          <br><a href="${ataque.url}" target="_blank" style="display:inline-block;margin-top:8px;font-weight:bold;color:#1479f3;">Ver noticia completa</a>
+        `;
+        const marker = L.marker(countryCoords[ataque.country], {
+          icon: pirateLockIcon,
+          zIndexOffset: 5000
+        }).addTo(map).bindPopup(popupHtml);
+        attackMarkers.push(marker);
 
-  // --- DIBUJAR FLECHA Y ORIGEN DEL GRUPO ---
-  if (ataque.group && gruposPaisOrigen[ataque.group]) {
-    const origenCode = gruposPaisOrigen[ataque.group];
-    const origenCoords = countryCoords[origenCode];
-    const destinoCoords = countryCoords[ataque.country];
-    if (origenCoords && destinoCoords) {
-      const colorFlecha = origenCode === "??" ? "#aaa" : "#ffb347"; // gris o naranja
-      const flecha = L.polyline([origenCoords, destinoCoords], {
-        color: colorFlecha,
-        weight: 2.7,
-        opacity: 0.75,
-        dashArray: "5,6",
-        className: "ransom-arrow"
-      }).addTo(map);
-      attackMarkers.push(flecha);
+        // --- DIBUJAR FLECHA Y ORIGEN DEL GRUPO ---
+        if (ataque.group && gruposPaisOrigen[ataque.group]) {
+          const origenCode = gruposPaisOrigen[ataque.group];
+          const origenCoords = countryCoords[origenCode];
+          const destinoCoords = countryCoords[ataque.country];
+          if (origenCoords && destinoCoords) {
+            const colorFlecha = origenCode === "??" ? "#aaa" : "#ffb347";
+            const flecha = L.polyline([origenCoords, destinoCoords], {
+              color: colorFlecha,
+              weight: 2.7,
+              opacity: 0.75,
+              dashArray: "5,6",
+              className: "ransom-arrow"
+            }).addTo(map);
+            attackMarkers.push(flecha);
 
-      const iconOrigen = L.divIcon({
-        html: "💀",  // Puedes poner "🕵️", "🔺", "👾", etc.
-        className: "origen-icon",
-        iconSize: [24, 24],
-        iconAnchor: [12, 12]
-      });
-      const marcadorOrigen = L.marker(origenCoords, {
-        icon: iconOrigen,
-        interactive: false
-      }).addTo(map);
-      attackMarkers.push(marcadorOrigen);
-    }
-  }
-
+            const iconOrigen = L.divIcon({
+              html: "💀",
+              className: "origen-icon",
+              iconSize: [24, 24],
+              iconAnchor: [12, 12]
+            });
+            const marcadorOrigen = L.marker(origenCoords, {
+              icon: iconOrigen,
+              interactive: false
+            }).addTo(map);
+            attackMarkers.push(marcadorOrigen);
+          }
+        }
+      }
+    });
   } catch (e) {
     lista.innerHTML = `<li class="error-msg">Error de conexión con el servidor.<br><span style="font-size:0.92em;">${e.message || e}</span></li>`;
   }
 }
+
 cargarAtaques();
 setInterval(cargarAtaques, 4 * 60 * 1000);
 
@@ -588,6 +590,6 @@ document.getElementById("btn-toggle-lista").onclick = function() {
   const panel = document.getElementById("ataques-ransomware");
   panel.style.display = (panel.style.display === "none" ? "block" : "none");
 };
-</script> <!-- Cierre de script correcto -->
+</script>
 </body>
 </html>
