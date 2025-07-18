@@ -295,8 +295,8 @@ function actualizarSegundosCentral() {
   const el = document.getElementById("reloj-tz0-seg");
   if (!el) return;
   const s = String(utcNow.getUTCSeconds()).padStart(2, "0");
-  const ms = String(utcNow.getMilliseconds()).padStart(3, "0").slice(0,2); // centésimas
-//el.textContent = `${s}.${ms}`;
+//const ms = String(utcNow.getMilliseconds()).padStart(3, "0").slice(0,2); // centésimas
+//el.textContent = `${s}.${ms}`; // RELOJ de segundos y milisegundos
 }
 setInterval(actualizarSegundosCentral, 41);
 
@@ -391,10 +391,10 @@ function colorYOpacidad(count, max) {
 }
 function colorYOpacidadMagenta(count, max) {
   if (!count || count === 0) return { fillOpacity: 0, fillColor: null };
-  if (count < 2)    return { fillColor: "#ffd6fb", fillOpacity: 0.30 };
-  if (count < 5)    return { fillColor: "#ff95ea", fillOpacity: 0.42 };
-  if (count < 10)   return { fillColor: "#e350c7", fillOpacity: 0.54 };
-  if (count < 20)   return { fillColor: "#b21b99", fillOpacity: 0.65 };
+  if (count < 2)    return { fillColor: "#ffd6fb", fillOpacity: 0.20 };
+  if (count < 5)    return { fillColor: "#ff95ea", fillOpacity: 0.32 };
+  if (count < 10)   return { fillColor: "#e350c7", fillOpacity: 0.44 };
+  if (count < 20)   return { fillColor: "#b21b99", fillOpacity: 0.55 };
   /* >= 20 ataques */
   return { fillColor: "#61004b", fillOpacity: 0.76 };
 }
