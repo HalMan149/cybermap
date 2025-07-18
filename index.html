@@ -665,7 +665,7 @@ Object.entries(origenStats).forEach(([codigoPais, info]) => {
 const respMagenta = await fetch('/countries.geojson');
 const worldGeoMagenta = await respMagenta.json();
 const maxAtaquesOrigen = Math.max(...Object.values(paisesOrigen), 1);
-L.geoJSON(worldGeoMagenta, {
+const magentaLayer = L.geoJSON(worldGeoMagenta, {
   style: feature => {
     const code = feature.properties["ISO3166-1-Alpha-2"] ? feature.properties["ISO3166-1-Alpha-2"].toUpperCase() : null;
     const n = code ? (paisesOrigen[code] || 0) : 0;
@@ -680,6 +680,10 @@ L.geoJSON(worldGeoMagenta, {
     };
   }
 }).addTo(map);
+
+// === LÍNEA AÑADIDA para traer la capa azul (tooltips) al frente ===
+if (geojsonLayer) geojsonLayer.bringToFront();
+
 
   } catch (e) {
     lista.innerHTML = `<li class="error-msg">Error de conexión con el servidor.<br><span style="font-size:0.92em;">${e.message || e}</span></li>`;
