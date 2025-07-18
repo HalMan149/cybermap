@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
- <script src="https://cdn.jsdelivr.net/npm/luxon@3/build/global/luxon.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/luxon@3/build/global/luxon.min.js"></script>
   <meta charset="utf-8" />
   <title>Mapa Cyberpunk + Noticias Ciberseguridad</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -40,10 +40,29 @@
     }
     #noticias-inner { white-space: nowrap; display: inline-block; will-change: transform; }
 .leaflet-marker-icon.city-clock-label {
-  z-index: 9999 !important;
+  z-index: 100 !important;      /* menos que un popup de Leaflet */
   opacity: 1 !important;
-  pointer-events: auto !important;
+  pointer-events: none !important;
   background: none !important;
+}
+.leaflet-popup,
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+  z-index: 99999 !important;
+}
+.leaflet-popup-content img {
+  max-width: 97% !important;
+  max-height: 130px !important;
+  height: auto !important;
+  display: block;
+  margin: 6px auto 4px auto;
+  border-radius: 8px;
+  box-shadow: 0 0 9px #111a;
+}
+.origen-icon {
+  font-size: 20px;
+  text-shadow: 0 0 4px #000;
+  pointer-events: none;
 }
   </style>
 </head>
@@ -59,22 +78,24 @@
   </div>
   <div id="noticias-ticker"><span id="noticias-inner"></span></div>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/luxon@3/build/global/luxon.min.js"></script>
   <script>
 // ========== INICIALIZACIÓN DEL MAPA Y CAPAS ==========
 const CENTER = [38.3373, -0.5266];
 const ZOOM = 3;
-const map = L.map('map', {
-  zoomControl: false,
-  attributionControl: false,
-  minZoom: 2,
-  maxZoom: 17,
-  scrollWheelZoom: false,
-  doubleClickZoom: false,
-  boxZoom: false,
-  dragging: false,
-  touchZoom: false,
-  keyboard: false
-}).setView(CENTER, ZOOM);
+
+  var map = L.map('map', {
+      zoomControl: false,
+      attributionControl: false,
+      minZoom: 2,
+      maxZoom: 17,
+      scrollWheelZoom: false,
+      doubleClickZoom: false,
+      boxZoom: false,
+      dragging: false,
+      touchZoom: false,
+      keyboard: false
+  }).setView(CENTER, ZOOM);
 
 L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
   maxZoom: 19, minZoom: 2, noWrap: true
@@ -275,7 +296,7 @@ function actualizarSegundosCentral() {
   if (!el) return;
   const s = String(utcNow.getUTCSeconds()).padStart(2, "0");
   const ms = String(utcNow.getMilliseconds()).padStart(3, "0").slice(0,2); // centésimas
-  el.textContent = `${s}.${ms}`;
+//el.textContent = `${s}.${ms}`;
 }
 setInterval(actualizarSegundosCentral, 41);
 
@@ -398,12 +419,107 @@ async function pintarMapaChoropleth(ataquesPorPais) {
 
       const count = code ? (ataquesPorPaisNorm[code] || 0) : 0;
       if (count > 0) {
-        layer.bindTooltip(`${feature.properties.ADMIN}: ${count} ataques`);
+        layer.bindTooltip(`${feature.properties.name}: ${count} ataques`);
       }
     }
   }).addTo(map);
 }
 
+const pirateLockIcon = L.icon({
+  iconUrl: 'ransomware.png',
+  iconSize: [32, 32],
+  iconAnchor: [16, 32],
+  popupAnchor: [0, -28]
+});
+const gruposPaisOrigen = {
+  "0mega": "RU",
+  "8base": "RU",
+  "akira": "RU",
+  "avaddon": "RU",
+  "babuk": "RU",
+  "bianlian": "CN",
+  "black basta": "RU",
+  "blackcat": "RU",
+  "blacksuit": "RU",
+  "cl0p": "RU",
+  "conti": "RU",
+  "cuba": "RU",
+  "darkangels": "RU",
+  "darkside": "RU",
+  "dharma": "RU",
+  "donex": "RU",
+  "dragonforce": "MY",
+  "everest": "RU",
+  "hellokitty": "RU",
+  "helloxd": "CN",
+  "hive": "RU",
+  "hunters": "RU",
+  "kelvinsecurity": "AR",
+  "lockbit": "RU",
+  "lockbit3": "RU",
+  "lorenz": "RU",
+  "malaslocker": "CN",
+  "medusa": "RU",
+  "midas": "BR",
+  "netwalker": "RU",
+  "noescape": "RU",
+  "play": "RU",
+  "quantum": "RU",
+  "ra group": "RU",
+  "revil": "RU",
+  "ragnar locker": "RU",
+  "ragnarok": "IN",
+  "ransomexx": "RU",
+  "ransomhouse": "RU",
+  "ransomhub": "RU",
+  "rook": "CN",
+  "royal": "RU",
+  "snatch": "RU",
+  "stormous": "SY",
+  "suncrypt": "RU",
+  "trigona": "RU",
+  "qilin": "RU",
+  "safepay": "RU",
+  "ghost": "CN",
+  "devman": "RU",
+  "crypto24": "RU",
+  "silent": "RU",
+  "bert": "RU",
+  "gunra": "RU",
+  "warlock": "RU",
+  "teamxxx": "??",
+  "kawa4096": "??",
+  "lynx": "RU",
+  "bitter scorpius": "RU",
+  "bling libra": "FR",
+  "dprk": "KP",
+  "fiddling scorpius": "RU",
+  "inc ransomware": "RU",
+  "jumpy pisces": "KP",
+  "shinyhunters": "FR",
+  "crypto414": "??",
+  "microsan": "??",
+  "inc ransom": "RU",
+  "vice society": "RU",
+  "luna moth": "RU",
+  "unc3753": "RU",
+  "chatty spider": "RU",
+  "water pombero": "RU",
+  "kawalocker": "??",
+  "andariel": "KP",
+  "gold ionic": "RU",
+  "agenda": "RU",
+  "cactus": "RU",
+  "nokoyawa": "RU",
+  "moses staff": "IR",
+  "mallox": "RU",
+  "monti": "RU",
+  "abyss": "RU",
+  "money message": "RU",
+  "redalert": "RU",
+  "project relic": "KP",
+  "rancoz": "RU"
+}
 async function cargarAtaques() {
   attackMarkers.forEach(m => map.removeLayer(m));
   attackMarkers = [];
@@ -437,26 +553,56 @@ async function cargarAtaques() {
         <span style="opacity:0.7;">(${pais})</span>
         <br><small>${ataque.title || ""}</small>`;
       lista.appendChild(li);
-
       if (ataque.country && countryCoords[ataque.country]) {
-        const marker = L.circleMarker(countryCoords[ataque.country], {
-          radius: 8, color: "#ff317a", fillColor: "#ff317a", fillOpacity: 0.82
-        }).addTo(map).bindPopup(
-          `<b>${ataque.victim || "Desconocido"}</b><br>
-           <b>Dominio:</b> ${ataque.domain || "-"}<br>
-           <b>Fecha:</b> ${ataque.date || "-"}<br>
-           <b>Titular:</b> ${ataque.title || ""}<br>
-           <b>País:</b> ${ataque.country}<br>
-           <b>Resumen:</b> <span style="font-size:0.95em">${ataque.summary || ""}</span><br>
-           <a href="${ataque.url}" target="_blank" style="color:#37f;">[Fuente]</a>`
-        );
+        const popupHtml = `
+          <b>Víctima:</b> ${ataque.victim || "-"}
+          <br><b>Hora del ataque:</b> ${ataque.attackdate || "-"}
+          <br><b>Grupo:</b> ${ataque.group || "-"}
+          ${ataque.screenshot ? `<br><img src="${ataque.screenshot}" style="width:120px;max-width:97%;margin:6px 0 4px 0;border-radius:8px;box-shadow:0 0 9px #111a;">` : ''}
+          <br><a href="${ataque.url}" target="_blank" style="display:inline-block;margin-top:8px;font-weight:bold;color:#1479f3;">Ver noticia completa</a>
+        `;
+        const marker = L.marker(countryCoords[ataque.country], {
+          icon: pirateLockIcon,
+          zIndexOffset: 5000
+        }).addTo(map).bindPopup(popupHtml);
         attackMarkers.push(marker);
+
+        // --- DIBUJAR FLECHA Y ORIGEN DEL GRUPO ---
+if (ataque.group && gruposPaisOrigen[ataque.group.toLowerCase()]) {
+  const origenCode = gruposPaisOrigen[ataque.group.toLowerCase()];
+  const origenCoords = countryCoords[origenCode];
+  const destinoCoords = countryCoords[ataque.country];
+          if (origenCoords && destinoCoords) {
+            const colorFlecha = origenCode === "??" ? "#aaa" : "#ffb347";
+            const flecha = L.polyline([origenCoords, destinoCoords], {
+              color: colorFlecha,
+              weight: 2.7,
+              opacity: 0.75,
+              dashArray: "5,6",
+              className: "ransom-arrow"
+            }).addTo(map);
+            attackMarkers.push(flecha);
+
+            const iconOrigen = L.divIcon({
+              html: "💀",
+              className: "origen-icon",
+              iconSize: [24, 24],
+              iconAnchor: [12, 12]
+            });
+            const marcadorOrigen = L.marker(origenCoords, {
+              icon: iconOrigen,
+              interactive: false
+            }).addTo(map);
+            attackMarkers.push(marcadorOrigen);
+          }
+        }
       }
     });
   } catch (e) {
     lista.innerHTML = `<li class="error-msg">Error de conexión con el servidor.<br><span style="font-size:0.92em;">${e.message || e}</span></li>`;
   }
 }
+
 cargarAtaques();
 setInterval(cargarAtaques, 4 * 60 * 1000);
 
