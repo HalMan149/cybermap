@@ -383,10 +383,11 @@ const countryCoords = {
 function colorYOpacidad(count, max) {
   if (!count || count === 0) return { fillOpacity: 0, fillColor: null };
   const t = Math.min(1, count / max);
-  const rojoClaro = [255, 90, 90], rojoOscuro = [120, 0, 0];
-  const r = Math.round(rojoClaro[0] + (rojoOscuro[0] - rojoClaro[0]) * t);
-  const g = Math.round(rojoClaro[1] + (rojoOscuro[1] - rojoClaro[1]) * t);
-  const b = Math.round(rojoClaro[2] + (rojoOscuro[2] - rojoClaro[2]) * t);
+  // Escala de azul claro a azul oscuro
+  const azulClaro = [80, 160, 255], azulOscuro = [10, 32, 130];
+  const r = Math.round(azulClaro[0] + (azulOscuro[0] - azulClaro[0]) * t);
+  const g = Math.round(azulClaro[1] + (azulOscuro[1] - azulClaro[1]) * t);
+  const b = Math.round(azulClaro[2] + (azulOscuro[2] - azulClaro[2]) * t);
   const fillColor = `rgb(${r},${g},${b})`;
   const fillOpacity = 0.34 + 0.5 * t;
   return { fillColor, fillOpacity };
