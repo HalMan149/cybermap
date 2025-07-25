@@ -617,7 +617,7 @@ async function cargarAtaques() {
           const flecha = L.polyline([origenCoords, destinoCoords], {
             color: colorFlecha,
             weight: 2.7,
-            opacity: 0.75,
+            opacity: 0.60,
             dashArray: "5,6",
             className: "ransom-arrow"
           }).addTo(map);
@@ -682,9 +682,9 @@ async function cargarAtaques() {
         return {
           fillColor: fillColor,
           fillOpacity: fillOpacity,
-          color: "#f0c",
+          color: "#ffe0fd",
           weight: 1.7,
-          opacity: 0.7
+          opacity: 0.8
         };
       }
     }).addTo(map);
