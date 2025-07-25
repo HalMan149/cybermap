@@ -720,6 +720,9 @@ console.log("DEBUG maxAtaquesOrigen (magenta):", maxAtaquesOrigen);
     if (magentaLayer) {
       map.removeLayer(magentaLayer);
     }
+
+console.log("DEBUG paisesOrigen:", paisesOrigen);
+
     magentaLayer = L.geoJSON(worldGeoMagenta, {
       style: feature => {
         const code = feature.properties["ISO3166-1-Alpha-2"] ? feature.properties["ISO3166-1-Alpha-2"].toUpperCase() : null;
