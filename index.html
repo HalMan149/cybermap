@@ -730,7 +730,9 @@ console.log("DEBUG FLECHA ataque.group:", ataque.group, "ataque.country:", ataqu
 console.log("DEBUG después de agrupar paisesOrigen:", paisesOrigen);
 
     // 6. Pintar choropleth (azul) de países atacados Y pasar paisesOrigen como parámetro
-    pintarMapaChoropleth(ataquesPorPais, paisesOrigen);
+    console.log("LLAMO A pintarMapaChoropleth...");
+await pintarMapaChoropleth(ataquesPorPais, paisesOrigen);
+
 
     // 7. Choropleth magenta
     const respMagenta = await fetch('/countries.geojson');
@@ -774,9 +776,6 @@ console.log("CHOROPLETH MAGENTA code:", code, "n:", n);
     lista.innerHTML = `<li class="error-msg">Error de conexión con el servidor.<br><span style="font-size:0.92em;">${e.message || e}</span></li>`;
   }
 }
-
-console.log("LLAMO A pintarMapaChoropleth...");
-await pintarMapaChoropleth(ataquesPorPais, paisesOrigen);
 
 cargarAtaques();
 setInterval(cargarAtaques, 4 * 60 * 1000);
