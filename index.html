@@ -414,6 +414,7 @@ async function pintarMapaChoropleth(ataquesPorPais, paisesOrigen = {}) {
 
   console.log("DEBUG: ataquesPorPaisNorm:", ataquesPorPaisNorm);
   console.log("DEBUG: maxAtaques:", maxAtaques);
+  console.log("VOY A PINTAR CHOROPLETH AZUL");
 
   geojsonLayer = L.geoJSON(worldGeo, {
     style: feature => {
@@ -731,6 +732,7 @@ console.log("DEBUG maxAtaquesOrigen (magenta):", maxAtaquesOrigen);
     }
 
 console.log("DEBUG paisesOrigen:", paisesOrigen);
+console.log("VOY A PINTAR CHOROPLETH MAGENTA");
 
     magentaLayer = L.geoJSON(worldGeoMagenta, {
       style: feature => {
