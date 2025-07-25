@@ -520,51 +520,6 @@ geojsonLayer = L.geoJSON(worldGeo, {
   }
 }); // CIERRE FINAL DEL BLOQUE, NO TOQUES ESTO
 
-
-onEachFeature: (feature, layer) => {
-  const code = feature.properties["ISO3166-1-Alpha-2"]?.toUpperCase() || "";
-  const nombre = feature.properties.ADMIN || code;
-  const rec = ataquesPorPaisNorm[code] || 0;
-  const lan = (window.origenStats?.[code]?.ataques || 0);
-  const gruposActivos = window.origenStats?.[code]?.grupos || [];
-  const destinos = window.origenStats?.[code]?.destinos || [];
-
-  let popupHtml = `<b>Código de país:</b> ${code}<br><br>`;
-  popupHtml += `<b>ENVIADO:</b><br>`;
-  popupHtml += `<b>Ataques lanzados:</b> ${lan}<br>`;
-  popupHtml += `<b>Grupos activos:</b> ${gruposActivos.length ? Array.from(gruposActivos).join(', ') : '—'}<br>`;
-  popupHtml += `<b>Destinos atacados:</b> ${destinos.length ? Array.from(destinos).join(', ') : '—'}<br><br>`;
-  popupHtml += `<b>RECIBIDO:</b><br>`;
-  popupHtml += `<b>Ataques recibidos:</b> ${rec}<br>`;
-
-  const detalles = window.ataquesPorPaisDetalles?.[code] || [];
-  if (detalles.length > 0) {
-    const ultimo = detalles[0];
-    const gruposAtacantes = Array.from(new Set(detalles.map(d => d.group).filter(Boolean)));
-    popupHtml += `<b>Fecha/Hora del ataque:</b> ${ultimo.attackdate || '—'}<br>`;
-    popupHtml += `<b>Grupos atacantes:</b> ${gruposAtacantes.length ? gruposAtacantes.join(', ') : '—'}<br>`;
-    if (ultimo.screenshot) {
-      popupHtml += `<img src="${ultimo.screenshot}" style="width:120px;max-width:97%;margin:6px 0 4px 0;border-radius:8px;box-shadow:0 0 9px #111a;">`;
-    }
-    if (ultimo.url) {
-      popupHtml += `<br><a href="${ultimo.url}" target="_blank" style="display:inline-block;margin-top:8px;font-weight:bold;color:#1479f3;">Enlace al último ataque conocido</a>`;
-    }
-  } else {
-    popupHtml += `<b>Fecha/Hora del ataque:</b> —<br>`;
-    popupHtml += `<b>Grupos atacantes:</b> —<br>`;
-  }
-
-  if (rec > 0 || lan > 0) {
-    layer.bindTooltip(`<b>${nombre}</b><br>Ataques recibidos: ${rec}<br>Ataques lanzados: ${lan}`, { sticky: true });
-    layer.on('click', function () {
-      layer.bindPopup(popupHtml).openPopup();
-    });
-  }
-}
-
-})
-.addTo(map);
-}
 const gruposPaisOrigen = {
   "0mega": "RU",
   "8base": "RU",
