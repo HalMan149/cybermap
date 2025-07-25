@@ -407,7 +407,7 @@ console.log("ENTRO EN pintarMapaChoropleth");
 
   if (geojsonLayer) map.removeLayer(geojsonLayer);
 console.log("INTENTO FETCH DE COUNTRIES.GEOJSON");
-  const resp = await fetch('/countries.geojson');
+  const resp = await fetch(`${location.origin}/countries.geojson`);
   const worldGeo = await resp.json();
 console.log("FETCH DE GEOJSON OK", worldGeo);
 
