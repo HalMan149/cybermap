@@ -444,41 +444,82 @@ console.log("Claves paisesOrigen:", Object.keys(paisesOrigen));
   console.log("DEBUG: maxAtaques:", maxAtaques);
   console.log("VOY A PINTAR CHOROPLETH AZUL");
 
-  geojsonLayer = L.geoJSON(worldGeo, {
-style: feature => {
-  const code = feature.properties["ISO3166-1-Alpha-2"] ? feature.properties["ISO3166-1-Alpha-2"].toUpperCase() : null;
-  const n = code ? (ataquesPorPaisNorm[code] || 0) : 0;
-  const m = code ? (paisesOrigen[code] || 0) : 0;
-  let fillColor = null, fillOpacity = 0.0;
-  if (n > 0 && m > 0) { fillColor = "#ff66ff"; fillOpacity = 0.8; }
-  else if (m > 0) { fillColor = "#ff3bb8"; fillOpacity = 0.7; }
-  else if (n > 0) { fillColor = "#259aff"; fillOpacity = 0.7; }
-  if (fillColor) console.log("PINTANDO PAÍS", code, "color:", fillColor, "recibidos:", n, "lanzados:", m);
+geojsonLayer = L.geoJSON(worldGeo, {
+  style: feature => {
+    const code = feature.properties["ISO3166-1-Alpha-2"]
+      ? feature.properties["ISO3166-1-Alpha-2"].toUpperCase()
+      : null;
+    const n = code ? (ataquesPorPaisNorm[code] || 0) : 0;
+    const m = code ? (paisesOrigen[code] || 0) : 0;
+    let fillColor = null, fillOpacity = 0.0;
 
-  const code = feature.properties["ISO3166-1-Alpha-2"]
-    ? feature.properties["ISO3166-1-Alpha-2"].toUpperCase()
-    : null;
-  const n = code ? (ataquesPorPaisNorm[code] || 0) : 0;
-  const m = code ? (paisesOrigen[code] || 0) : 0;
-  let fillColor = null, fillOpacity = 0.0;
+    if (n > 0 && m > 0) {
+      fillColor = "#ff66ff"; fillOpacity = 0.8;
+    } else if (m > 0) {
+      fillColor = "#ff3bb8"; fillOpacity = 0.7;
+    } else if (n > 0) {
+      fillColor = "#259aff"; fillOpacity = 0.7;
+    }
+    // Log de depuración
+    if (fillColor) console.log("PINTANDO PAÍS", code, "color:", fillColor, "recibidos:", n, "lanzados:", m);
+    return fillColor ? {
+      fillColor: fillColor,
+      fillOpacity: fillOpacity,
+      color: "#fffc",
+      weight: 2,
+      opacity: 1
+    } : { fillOpacity: 0, color: "#22242a", weight: 1.3 };
+  },
 
-  if (n > 0 && m > 0) {
-    fillColor = "#ff66ff"; fillOpacity = 0.8;
-  } else if (m > 0) {
-    fillColor = "#ff3bb8"; fillOpacity = 0.7;
-  } else if (n > 0) {
-    fillColor = "#259aff"; fillOpacity = 0.7;
+  onEachFeature: (feature, layer) => {
+    const code = feature.properties["ISO3166-1-Alpha-2"]
+      ? feature.properties["ISO3166-1-Alpha-2"].toUpperCase()
+      : null;
+    const nombre = feature.properties.ADMIN || feature.properties.NAME || code;
+    const rec = code ? (ataquesPorPaisNorm[code] || 0) : 0;
+    const lan = code ? (paisesOrigen[code] || 0) : 0;
+
+    let popupHtml = `<b>Código de país:</b> ${code}<br><br>`;
+    popupHtml += `<b>ENVIADO:</b><br>`;
+    popupHtml += `<b>Ataques lanzados:</b> ${lan}<br>`;
+    if (window.origenStats && window.origenStats[code]) {
+      const grupos = window.origenStats[code].grupos || [];
+      const destinos = window.origenStats[code].destinos || [];
+      popupHtml += `<b>Grupos activos:</b> ${grupos.length ? grupos.join(', ') : '—'}<br>`;
+      popupHtml += `<b>Destinos atacados:</b> ${destinos.length ? destinos.join(', ') : '—'}<br>`;
+    } else {
+      popupHtml += `<b>Grupos activos:</b> —<br>`;
+      popupHtml += `<b>Destinos atacados:</b> —<br>`;
+    }
+    popupHtml += `<br><b>RECIBIDO:</b><br>`;
+    popupHtml += `<b>Ataques recibidos:</b> ${rec}<br>`;
+
+    if (window.ataquesPorPaisDetalles && window.ataquesPorPaisDetalles[code] && window.ataquesPorPaisDetalles[code].length > 0) {
+      const detalles = window.ataquesPorPaisDetalles[code];
+      const ultimo = detalles[0];
+      const gruposAtacantes = Array.from(new Set(detalles.map(a => a.group))).filter(Boolean);
+      popupHtml += `<b>Fecha/Hora del ataque:</b> ${ultimo.attackdate || '—'}<br>`;
+      popupHtml += `<b>Grupos atacantes:</b> ${gruposAtacantes.length ? gruposAtacantes.join(', ') : '—'}<br>`;
+      if (ultimo.screenshot) {
+        popupHtml += `<img src="${ultimo.screenshot}" style="width:120px;max-width:97%;margin:6px 0 4px 0;border-radius:8px;box-shadow:0 0 9px #111a;">`;
+      }
+      if (ultimo.url) {
+        popupHtml += `<br><a href="${ultimo.url}" target="_blank" style="display:inline-block;margin-top:8px;font-weight:bold;color:#1479f3;">Enlace al último ataque conocido</a>`;
+      }
+    } else {
+      popupHtml += `<b>Fecha/Hora del ataque:</b> —<br>`;
+      popupHtml += `<b>Grupos atacantes:</b> —<br>`;
+    }
+
+    if (rec > 0 || lan > 0) {
+      layer.bindTooltip(`<b>${nombre}</b><br>Ataques recibidos: ${rec}<br>Ataques lanzados: ${lan}`, { sticky: true });
+      layer.on('click', function () {
+        layer.bindPopup(popupHtml).openPopup();
+      });
+    }
   }
-  // DEPURACIÓN: log por cada país
-  if (fillColor) console.log("PINTANDO PAÍS", code, "color:", fillColor, "recibidos:", n, "lanzados:", m);
-  return fillColor ? {
-    fillColor: fillColor,
-    fillOpacity: fillOpacity,
-    color: "#fffc",
-    weight: 2,
-    opacity: 1
-  } : { fillOpacity: 0, color: "#22242a", weight: 1.3 };
-}, // <--- **Aquí está la coma**
+}); // CIERRE FINAL DEL BLOQUE, NO TOQUES ESTO
+
 
 onEachFeature: (feature, layer) => {
   const code = feature.properties["ISO3166-1-Alpha-2"]?.toUpperCase() || "";
