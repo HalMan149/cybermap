@@ -412,6 +412,9 @@ async function pintarMapaChoropleth(ataquesPorPais, paisesOrigen = {}) {
 
   const maxAtaques = Math.max(...Object.values(ataquesPorPaisNorm), 1);
 
+  console.log("DEBUG: ataquesPorPaisNorm:", ataquesPorPaisNorm);
+  console.log("DEBUG: maxAtaques:", maxAtaques);
+
   geojsonLayer = L.geoJSON(worldGeo, {
     style: feature => {
       const code = feature.properties["ISO3166-1-Alpha-2"] 
@@ -546,10 +549,6 @@ const gruposPaisOrigen = {
   "project relic": "KP",
   "rancoz": "RU"
 }
-
-console.log("DEBUG: paisesOrigen:", paisesOrigen);
-console.log("DEBUG: maxAtaquesOrigen:", maxAtaquesOrigen);
-
 
 async function cargarAtaques() {
   attackMarkers.forEach(m => map.removeLayer(m));
