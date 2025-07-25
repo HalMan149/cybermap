@@ -651,10 +651,6 @@ data.forEach(ataque => {
     origenStats[origen].destinos.add(ataque.country);
   }
 });
-const paisesOrigen = {};
-Object.entries(origenStats).forEach(([codigoPais, info]) => {
-  paisesOrigen[codigoPais] = info.ataques;
-});
 
     // 2. Panel lateral, markers de víctima y flechas
     lista.innerHTML = "";
