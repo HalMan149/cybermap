@@ -416,6 +416,9 @@ console.log("FETCH OK, TENGO worldGeo:", worldGeo);
   const ataquesPorPaisNorm = {};
   for (const k in ataquesPorPais) ataquesPorPaisNorm[k.toUpperCase()] = ataquesPorPais[k];
 
+console.log("Claves ataquesPorPaisNorm:", Object.keys(ataquesPorPaisNorm));
+console.log("Claves paisesOrigen:", Object.keys(paisesOrigen));
+
   const maxAtaques = Math.max(...Object.values(ataquesPorPaisNorm), 1);
 
   console.log("DEBUG: ataquesPorPaisNorm:", ataquesPorPaisNorm);
