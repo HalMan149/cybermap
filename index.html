@@ -424,6 +424,7 @@ async function pintarMapaChoropleth(ataquesPorPais, paisesOrigen = {}) {
       const { fillColor, fillOpacity } = colorYOpacidad(n, maxAtaques);
 
       console.log("AZUL - code:", code, "n:", n, "fillColor:", fillColor, "fillOpacity:", fillOpacity);
+      console.log("CHOROPLETH AZUL code:", code, "n:", n);
 
       if (!fillColor) return { fillOpacity: 0, color: "#22242a", weight: 1.3 };
       return {
@@ -738,6 +739,7 @@ console.log("DEBUG paisesOrigen:", paisesOrigen);
         const { fillColor, fillOpacity } = colorYOpacidadMagenta(n, maxAtaquesOrigen);
 
 console.log("MAGENTA - code:", code, "n:", n, "fillColor:", fillColor, "fillOpacity:", fillOpacity);
+console.log("CHOROPLETH MAGENTA code:", code, "n:", n);
 
         if (!fillColor) return { fillOpacity: 0, color: "#22242a", weight: 1.3 };
         return {
