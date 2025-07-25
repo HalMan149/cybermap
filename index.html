@@ -503,8 +503,9 @@ onEachFeature: (feature, layer) => {
       layer.bindPopup(popupHtml).openPopup();
     });
   }
+ }
 })
-
+.addTo(map);
 const gruposPaisOrigen = {
   "0mega": "RU",
   "8base": "RU",
