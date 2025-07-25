@@ -669,16 +669,25 @@ async function cargarAtaques() {
       attackMarkers.push(markerOrigen);
     });
 
-    // 4. Choropleth magenta (países de origen) SIN acumulación
+    // 4. Agrupar ataques recibidos por país (para capa azul)
+    const ataquesPorPais = {};
+    data.forEach(ataque => {
+      if (ataque.country) {
+        const code = ataque.country.toUpperCase();
+        ataquesPorPais[code] = (ataquesPorPais[code] || 0) + 1;
+      }
+    });
+
+    // 5. Choropleth magenta (países de origen)
     const paisesOrigen = {};
     Object.entries(origenStats).forEach(([codigoPais, info]) => {
       paisesOrigen[codigoPais] = info.ataques;
     });
 
-    // 5. Pintar choropleth (azul) de países atacados Y pasar paisesOrigen como parámetro
+    // 6. Pintar choropleth (azul) de países atacados Y pasar paisesOrigen como parámetro
     pintarMapaChoropleth(ataquesPorPais, paisesOrigen);
 
-    // 6. Choropleth magenta
+    // 7. Choropleth magenta
     const respMagenta = await fetch('/countries.geojson');
     const worldGeoMagenta = await respMagenta.json();
     const maxAtaquesOrigen = Math.max(...Object.values(paisesOrigen), 1);
@@ -691,9 +700,6 @@ async function cargarAtaques() {
         const code = feature.properties["ISO3166-1-Alpha-2"] ? feature.properties["ISO3166-1-Alpha-2"].toUpperCase() : null;
         const n = code ? (paisesOrigen[code] || 0) : 0;
         const { fillColor, fillOpacity } = colorYOpacidadMagenta(n, maxAtaquesOrigen);
-
-  console.log("MAGENTA - code:", code, "n:", n, "fillColor:", fillColor, "fillOpacity:", fillOpacity);
-
         if (!fillColor) return { fillOpacity: 0, color: "#22242a", weight: 1.3 };
         return {
           fillColor: fillColor,
