@@ -434,35 +434,77 @@ async function pintarMapaChoropleth(ataquesPorPais, paisesOrigen = {}) {
         opacity: 0.6
       };
     },
-    onEachFeature: (feature, layer) => {
-      const code = feature.properties["ISO3166-1-Alpha-2"] 
-        ? feature.properties["ISO3166-1-Alpha-2"].toUpperCase() 
-        : null;
-      const recibidos = code ? (ataquesPorPaisNorm[code] || 0) : 0;
-      const lanzados = code ? (paisesOrigen[code] || 0) : 0;
+onEachFeature: (feature, layer) => {
+  const code = feature.properties["ISO3166-1-Alpha-2"]
+    ? feature.properties["ISO3166-1-Alpha-2"].toUpperCase()
+    : null;
 
-      if (recibidos > 0 || lanzados > 0) {
-        const nombre = feature.properties.ADMIN || feature.properties.NAME || feature.properties.name || code;
-        layer.bindTooltip(
-          `<b>${nombre}</b><br>Ataques recibidos: <b>${recibidos}</b><br>Ataques lanzados: <b>${lanzados}</b>`,
-          { sticky: true, direction: "top" }
-        );
-      }
+  // ENVIADO (magenta)
+  let ataquesLanzados = 0;
+  let gruposActivos = [];
+  let destinosAtacados = [];
+  if (window.origenStats && window.origenStats[code]) {
+    ataquesLanzados = window.origenStats[code].ataques || 0;
+    gruposActivos = Array.from(window.origenStats[code].grupos || []);
+    destinosAtacados = Array.from(window.origenStats[code].destinos || []);
+  }
+
+  // RECIBIDO (azul)
+  const recibidos = code ? (ataquesPorPaisNorm[code] || 0) : 0;
+  let gruposAtacantes = [];
+  let fechaUltimoAtaque = "";
+  let urlUltimoAtaque = "";
+  let imagenUltimoAtaque = "";
+  let grupoUltimoAtaque = "";
+  if (window.ataquesPorPaisDetalles && window.ataquesPorPaisDetalles[code]) {
+    const ataquesRecibidos = window.ataquesPorPaisDetalles[code];
+    if (ataquesRecibidos.length > 0) {
+      // Último ataque recibido
+      const ultimo = ataquesRecibidos[0];
+      fechaUltimoAtaque = ultimo.attackdate || "";
+      urlUltimoAtaque = ultimo.url || "";
+      imagenUltimoAtaque = ultimo.screenshot || "";
+      grupoUltimoAtaque = ultimo.group || "";
+      // Todos los grupos atacantes de este país
+      gruposAtacantes = Array.from(new Set(ataquesRecibidos.map(a => a.group))).filter(Boolean);
     }
-  }).addTo(map);
+  }
+
+  // Mostrar sólo si tiene algún dato relevante
+  if (recibidos > 0 || ataquesLanzados > 0) {
+    let popupHtml = `<b>Código de país:</b> ${code}<br><br>`;
+
+    // ENVIADO
+    popupHtml += `<b>ENVIADO:</b><br>`;
+    popupHtml += `<b>Ataques lanzados:</b> ${ataquesLanzados}<br>`;
+    popupHtml += `<b>Grupos activos:</b> ${gruposActivos.length > 0 ? gruposActivos.join(', ') : '—'}<br>`;
+    popupHtml += `<b>Destinos atacados:</b> ${destinosAtacados.length > 0 ? destinosAtacados.join(', ') : '—'}<br><br>`;
+
+    // RECIBIDO
+    popupHtml += `<b>RECIBIDO:</b><br>`;
+    popupHtml += `<b>Ataques recibidos:</b> ${recibidos}<br>`;
+    popupHtml += `<b>Fecha/Hora del último ataque recibido:</b> ${fechaUltimoAtaque || '—'}<br>`;
+    popupHtml += `<b>Grupos atacantes:</b> ${gruposAtacantes.length > 0 ? gruposAtacantes.join(', ') : '—'}<br>`;
+    if (imagenUltimoAtaque) {
+      popupHtml += `<img src="${imagenUltimoAtaque}" style="width:120px;max-width:97%;margin:6px 0 4px 0;border-radius:8px;box-shadow:0 0 9px #111a;">`;
+    }
+    if (urlUltimoAtaque) {
+      popupHtml += `<br><a href="${urlUltimoAtaque}" target="_blank" style="display:inline-block;margin-top:8px;font-weight:bold;color:#1479f3;">Enlace al último ataque conocido</a>`;
+    }
+
+    // Tooltip como antes
+    const nombre = feature.properties.ADMIN || feature.properties.NAME || feature.properties.name || code;
+    layer.bindTooltip(
+      `<b>${nombre}</b><br>Ataques recibidos: <b>${recibidos}</b><br>Ataques lanzados: <b>${ataquesLanzados}</b>`,
+      { sticky: true, direction: "top" }
+    );
+    // Popup al hacer clic
+    layer.on('click', function(e) {
+      layer.bindPopup(popupHtml).openPopup();
+    });
+  }
 }
 
-const pirateLockIcon = L.icon({
-  iconUrl: 'ransomware.png',
-  iconSize: [32, 32],
-  iconAnchor: [16, 32],
-  popupAnchor: [0, -28]
-});
-const attackOriginIcon = L.icon({
-  iconUrl: 'atack.png',
-  iconSize: [28, 28],   // ajusta tamaño si lo prefieres
-  iconAnchor: [14, 14]  // el centro del icono
-});
 const gruposPaisOrigen = {
   "0mega": "RU",
   "8base": "RU",
