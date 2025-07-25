@@ -627,6 +627,9 @@ console.log("DEBUG data recibido:", data);
         countryCoords[gruposPaisOrigen[ataque.group.toLowerCase()]] &&
         ataque.country
       ) {
+
+console.log("DEBUG FLECHA ataque.group:", ataque.group, "ataque.country:", ataque.country);
+
         const origen = gruposPaisOrigen[ataque.group.toLowerCase()];
         if (!origenStats[origen]) {
           origenStats[origen] = {
