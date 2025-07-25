@@ -435,33 +435,40 @@ async function pintarMapaChoropleth(ataquesPorPais, paisesOrigen = {}) {
       };
     },
     onEachFeature: (feature, layer) => {
-      const code = feature.properties["ISO3166-1-Alpha-2"] 
-        ? feature.properties["ISO3166-1-Alpha-2"].toUpperCase() 
-        : null;
-      const recibidos = code ? (ataquesPorPaisNorm[code] || 0) : 0;
-      const lanzados = code ? (paisesOrigen[code] || 0) : 0;
+const code = feature.properties["ISO3166-1-Alpha-2"]?.toUpperCase() || "";
+const nombre = feature.properties.ADMIN || code;
 
-      if (recibidos > 0 || lanzados > 0) {
-        const nombre = feature.properties.ADMIN || feature.properties.NAME || feature.properties.name || code;
-        layer.bindTooltip(
-          `<b>${nombre}</b><br>Ataques recibidos: <b>${recibidos}</b><br>Ataques lanzados: <b>${lanzados}</b>`,
-          { sticky: true, direction: "top" }
-        );
-      }
-    }
-  }).addTo(map);
+// Enviados (país como origen)
+const enviado = origenStats[code] || { ataques: 0, grupos: new Set(), destinos: new Set() };
+
+// Recibidos (país como víctima)
+const recibidos = ataquesPorPais[code] || 0;
+const ataquesDetalles = ataquesPorPaisDetalles[code] || [];
+const ultimo = ataquesDetalles[0] || {};
+const gruposAtacantes = Array.from(new Set(ataquesDetalles.map(a => a.group).filter(Boolean)));
+
+let popupHtml = `<b>Código de país:</b> ${code}<br><br>`;
+
+popupHtml += `<b>ENVIADO:</b><br>`;
+popupHtml += `<b>Ataques lanzados:</b> ${enviado.ataques}<br>`;
+popupHtml += `<b>Grupos activos:</b> ${enviado.grupos.size ? Array.from(enviado.grupos).join(', ') : '—'}<br>`;
+popupHtml += `<b>Destinos atacados:</b> ${enviado.destinos.size ? Array.from(enviado.destinos).join(', ') : '—'}<br>`;
+
+popupHtml += `<br><b>RECIBIDO:</b><br>`;
+popupHtml += `<b>Ataques recibidos:</b> ${recibidos}<br>`;
+popupHtml += `<b>Fecha/Hora del ataque:</b> ${ultimo.attackdate || '—'}<br>`;
+popupHtml += `<b>Grupos atacantes:</b> ${gruposAtacantes.length ? gruposAtacantes.join(', ') : '—'}<br>`;
+if (ultimo.screenshot) {
+  popupHtml += `<img src="${ultimo.screenshot}" style="width:120px;max-width:97%;margin:6px 0 4px 0;border-radius:8px;box-shadow:0 0 9px #111a;">`;
+}
+if (ultimo.url) {
+  popupHtml += `<br><a href="${ultimo.url}" target="_blank" style="display:inline-block;margin-top:8px;font-weight:bold;color:#1479f3;">Enlace al último ataque conocido</a>`;
 }
 
-const pirateLockIcon = L.icon({
-  iconUrl: 'ransomware.png',
-  iconSize: [32, 32],
-  iconAnchor: [16, 32],
-  popupAnchor: [0, -28]
-});
-const attackOriginIcon = L.icon({
-  iconUrl: 'atack.png',
-  iconSize: [28, 28],   // ajusta tamaño si lo prefieres
-  iconAnchor: [14, 14]  // el centro del icono
+// Tooltip y popup
+layer.bindTooltip(`<b>${nombre}</b><br>Ataques recibidos: ${recibidos}<br>Ataques lanzados: ${enviado.ataques}`, { sticky: true });
+layer.on('click', function () {
+  layer.bindPopup(popupHtml).openPopup();
 });
 const gruposPaisOrigen = {
   "0mega": "RU",
