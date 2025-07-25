@@ -775,6 +775,9 @@ console.log("CHOROPLETH MAGENTA code:", code, "n:", n);
   }
 }
 
+console.log("LLAMO A pintarMapaChoropleth...");
+await pintarMapaChoropleth(ataquesPorPais, paisesOrigen);
+
 cargarAtaques();
 setInterval(cargarAtaques, 4 * 60 * 1000);
 
