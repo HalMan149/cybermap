@@ -103,11 +103,7 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
 
 L.tileLayer('https://gps-{s}.tile.openstreetmap.org/lines/{z}/{x}/{y}.png', {
   maxZoom: 19, minZoom: 2, opacity: 0.85, noWrap: true
-}).addTo(map);
-
-let magentaLayer = null;
-
-// =========== RELOJES Y MERIDIANOS ===========
+}).addTo(map);// =========== RELOJES Y MERIDIANOS ===========
 const zonaHorariaLines = L.layerGroup();
 const relojMarkers = [];
 let utcRef = null, utcError = false, syncTimestamp = null;
@@ -737,12 +733,7 @@ console.log("DEBUG maxAtaquesOrigen (magenta):", maxAtaquesOrigen);
     }
 
 console.log("DEBUG paisesOrigen:", paisesOrigen);
-console.log("VOY A PINTAR CHOROPLETH MAGENTA");
-
-    magentaLayer = L.geoJSON(worldGeoMagenta, {
-      style: feature => {
-        const code = feature.properties["ISO3166-1-Alpha-2"] ? feature.properties["ISO3166-1-Alpha-2"].toUpperCase() : null;
-        const n = code ? (paisesOrigen[code] || 0) : 0;
+console.log("VOY A PINTAR CHOROPLETH MAGENTA");const n = code ? (paisesOrigen[code] || 0) : 0;
         const { fillColor, fillOpacity } = colorYOpacidadMagenta(n, maxAtaquesOrigen);
 
 console.log("MAGENTA - code:", code, "n:", n, "fillColor:", fillColor, "fillOpacity:", fillOpacity);
