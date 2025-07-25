@@ -407,9 +407,28 @@ console.log("ENTRO EN pintarMapaChoropleth");
 
   if (geojsonLayer) map.removeLayer(geojsonLayer);
 console.log("INTENTO FETCH DE COUNTRIES.GEOJSON");
-  const resp = await fetch(`${location.origin}/countries.geojson`);
-  const worldGeo = await resp.json();
-console.log("FETCH DE GEOJSON OK", worldGeo);
+  let worldGeo;
+  try {
+    const resp = await fetch(`${location.origin}/countries.geojson`);
+    if (!resp.ok) throw new Error(`HTTP error ${resp.status}`);
+    const contentType = resp.headers.get("content-type") || "";
+    if (!contentType.includes("application/json") && !contentType.includes("geo+json")) {
+      const txt = await resp.text();
+      console.error("⚠️ Contenido recibido NO ES JSON válido:\n", txt.slice(0, 500));
+      throw new Error("Contenido no es GeoJSON válido");
+    }
+
+    worldGeo = await resp.json();
+    if (!worldGeo || !worldGeo.features || !Array.isArray(worldGeo.features)) {
+      throw new Error("GeoJSON inválido o sin features");
+    }
+
+  } catch (err) {
+    console.error("❌ Error cargando countries.geojson:", err);
+    alert("No se pudo cargar el mapa de países. Verifica la ruta y el formato.");
+    return;
+  }
+  console.log("✅ GeoJSON cargado correctamente con", worldGeo.features.length, "países");
 
 const codigosGeojson = worldGeo.features.map(f => f.properties["ISO3166-1-Alpha-2"]);
 console.log("Códigos de país del GeoJSON:", codigosGeojson);
