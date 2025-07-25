@@ -446,15 +446,6 @@ console.log("Claves paisesOrigen:", Object.keys(paisesOrigen));
 
   geojsonLayer = L.geoJSON(worldGeo, {
 style: feature => {
-  const code = feature.properties["ISO3166-1-Alpha-2"] ? feature.properties["ISO3166-1-Alpha-2"].toUpperCase() : null;
-  const n = code ? (ataquesPorPaisNorm[code] || 0) : 0;
-  const m = code ? (paisesOrigen[code] || 0) : 0;
-  let fillColor = null, fillOpacity = 0.0;
-  if (n > 0 && m > 0) { fillColor = "#ff66ff"; fillOpacity = 0.8; }
-  else if (m > 0) { fillColor = "#ff3bb8"; fillOpacity = 0.7; }
-  else if (n > 0) { fillColor = "#259aff"; fillOpacity = 0.7; }
-  if (fillColor) console.log("PINTANDO PAÍS", code, "color:", fillColor, "recibidos:", n, "lanzados:", m);
-
   const code = feature.properties["ISO3166-1-Alpha-2"]
     ? feature.properties["ISO3166-1-Alpha-2"].toUpperCase()
     : null;
@@ -733,7 +724,6 @@ console.log("DEBUG después de agrupar paisesOrigen:", paisesOrigen);
 
     // 6. Pintar choropleth (azul) de países atacados Y pasar paisesOrigen como parámetro
     console.log("LLAMO A pintarMapaChoropleth...");
-console.log("VOY A LLAMAR A pintarMapaChoropleth CON ataquesPorPais:", ataquesPorPais, "paisesOrigen:", paisesOrigen);
 await pintarMapaChoropleth(ataquesPorPais, paisesOrigen);
 
 
