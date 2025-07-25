@@ -445,25 +445,31 @@ console.log("Claves paisesOrigen:", Object.keys(paisesOrigen));
   console.log("VOY A PINTAR CHOROPLETH AZUL");
 
   geojsonLayer = L.geoJSON(worldGeo, {
-    style: feature => {
-      const code = feature.properties["ISO3166-1-Alpha-2"] 
-        ? feature.properties["ISO3166-1-Alpha-2"].toUpperCase() 
-        : null;
-      const n = code ? (ataquesPorPaisNorm[code] || 0) : 0;
-      const { fillColor, fillOpacity } = colorYOpacidad(n, maxAtaques);
+style: feature => {
+  const code = feature.properties["ISO3166-1-Alpha-2"] 
+    ? feature.properties["ISO3166-1-Alpha-2"].toUpperCase() 
+    : null;
+  const n = code ? (ataquesPorPaisNorm[code] || 0) : 0;
+  const m = code ? (paisesOrigen[code] || 0) : 0;
+  let fillColor = null, fillOpacity = 0;
 
-      console.log("AZUL - code:", code, "n:", n, "fillColor:", fillColor, "fillOpacity:", fillOpacity);
-      console.log("CHOROPLETH AZUL code:", code, "n:", n);
-
-      if (!fillColor) return { fillOpacity: 0, color: "#22242a", weight: 1.3 };
-      return {
-        fillColor: fillColor,
-        fillOpacity: fillOpacity,
-        color: "#25efff",
-        weight: 1.3,
-        opacity: 0.6
-      };
-    },
+  if (n > 0 && m > 0) {
+    fillColor = "#ff66ff"; // Fucsia
+    fillOpacity = 0.55;
+  } else if (m > 0) {
+    ({ fillColor, fillOpacity } = colorYOpacidadMagenta(m));
+  } else if (n > 0) {
+    ({ fillColor, fillOpacity } = colorYOpacidad(n));
+  }
+  if (!fillColor) return { fillOpacity: 0, color: "#22242a", weight: 1.3 };
+  return {
+    fillColor,
+    fillOpacity,
+    color: "#ff6fff",
+    weight: 2.1,
+    opacity: 0.8
+  };
+},
 onEachFeature: (feature, layer) => {
   const code = feature.properties["ISO3166-1-Alpha-2"]?.toUpperCase() || "";
   const nombre = feature.properties.ADMIN || code;
