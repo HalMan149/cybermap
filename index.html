@@ -400,6 +400,7 @@ function colorYOpacidadMagenta(count, max) {
   /* >= 20 ataques */
   return { fillColor: "#61004b", fillOpacity: 0.66 };
 }
+
 async function pintarMapaChoropleth(ataquesPorPais, paisesOrigen = {}) {
   if (geojsonLayer) map.removeLayer(geojsonLayer);
   const resp = await fetch('/countries.geojson');
