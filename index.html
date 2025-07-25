@@ -631,31 +631,30 @@ console.log("DEBUG data recibido:", data);
       return;
     }
 
-    // 1. Agrupa ataques por país de origen
-    const origenStats = {};
-    data.forEach(ataque => {
-      if (
-        ataque.group &&
-        gruposPaisOrigen[ataque.group.toLowerCase()] &&
-        countryCoords[gruposPaisOrigen[ataque.group.toLowerCase()]] &&
-        ataque.country
-      ) {
-
-console.log("DEBUG FLECHA ataque.group:", ataque.group, "ataque.country:", ataque.country);
-
-        const origen = gruposPaisOrigen[ataque.group.toLowerCase()];
-        if (!origenStats[origen]) {
-          origenStats[origen] = {
-            grupos: new Set(),
-            ataques: 0,
-            destinos: new Set()
-          };
-        }
-        origenStats[origen].grupos.add(ataque.group);
-        origenStats[origen].ataques++;
-        origenStats[origen].destinos.add(ataque.country);
-      }
-    });
+const origenStats = {};
+data.forEach(ataque => {
+  if (
+    ataque.group &&
+    gruposPaisOrigen[ataque.group.toLowerCase()] &&
+    ataque.country
+  ) {
+    const origen = gruposPaisOrigen[ataque.group.toLowerCase()];
+    if (!origenStats[origen]) {
+      origenStats[origen] = {
+        grupos: new Set(),
+        ataques: 0,
+        destinos: new Set()
+      };
+    }
+    origenStats[origen].grupos.add(ataque.group);
+    origenStats[origen].ataques++;
+    origenStats[origen].destinos.add(ataque.country);
+  }
+});
+const paisesOrigen = {};
+Object.entries(origenStats).forEach(([codigoPais, info]) => {
+  paisesOrigen[codigoPais] = info.ataques;
+});
 
     // 2. Panel lateral, markers de víctima y flechas
     lista.innerHTML = "";
