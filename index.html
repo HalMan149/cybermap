@@ -422,13 +422,19 @@ async function pintarMapaChoropleth(ataquesPorPais) {
         opacity: 0.6
       };
     },
-    onEachFeature: (feature, layer) => {
-      const code = feature.properties["ISO3166-1-Alpha-2"] ? feature.properties["ISO3166-1-Alpha-2"].toUpperCase() : null;
+onEachFeature: (feature, layer) => {
+  const code = feature.properties["ISO3166-1-Alpha-2"] ? feature.properties["ISO3166-1-Alpha-2"].toUpperCase() : null;
+  const recibidos = code ? (ataquesPorPaisNorm[code] || 0) : 0;
+  const lanzados = code ? (paisesOrigen[code] || 0) : 0;
 
-      const count = code ? (ataquesPorPaisNorm[code] || 0) : 0;
-      if (count > 0) {
-        layer.bindTooltip(`${feature.properties.name}: ${count} ataques`);
-      }
+  if (recibidos > 0 || lanzados > 0) {
+    const nombre = feature.properties.ADMIN || feature.properties.NAME || feature.properties.name || code;
+    layer.bindTooltip(
+      `<b>${nombre}</b><br>Ataques recibidos: <b>${recibidos}</b><br>Ataques lanzados: <b>${lanzados}</b>`,
+      { sticky: true, direction: "top" }
+    );
+  }
+}
     }
   }).addTo(map);
 }
