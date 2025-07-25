@@ -706,6 +706,8 @@ async function cargarAtaques() {
       paisesOrigen[codigoPais] = info.ataques;
     });
 
+console.log("DEBUG después de agrupar paisesOrigen:", paisesOrigen);
+
     // 6. Pintar choropleth (azul) de países atacados Y pasar paisesOrigen como parámetro
     pintarMapaChoropleth(ataquesPorPais, paisesOrigen);
 
