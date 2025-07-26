@@ -219,9 +219,7 @@ cityMarkers.forEach(city => {
     }),
     interactive: false,
     zIndexOffset: 9999
-  }).addTo(map);
 });
-  }).addTo(map);
 async function syncCentralUTC() {
 try {
     const resp = await fetch('/.netlify/functions/reloj?zona=Etc/UTC');
@@ -477,7 +475,6 @@ geojsonLayer = L.geoJSON(worldGeo, {
       layer.bindPopup(popupHtml).openPopup();
     });
   }
-}).addTo(map);
 
 
     // 2. Panel lateral, markers de víctima y flechas
@@ -526,7 +523,6 @@ geojsonLayer = L.geoJSON(worldGeo, {
             opacity: 0.75,
             dashArray: "5,6",
             className: "ransom-arrow"
-          }).addTo(map);
           attackMarkers.push(flecha);
         }
       }
@@ -595,7 +591,6 @@ geojsonLayer = L.geoJSON(worldGeo, {
           opacity: 0.8
         };
       }
-    }).addTo(map);
 
     // Trae la capa azul al frente para que funcione el tooltip
   try {
