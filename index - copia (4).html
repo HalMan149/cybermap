@@ -1,16 +1,13 @@
 <!DOCTYPE html>
-
 <html lang="es">
 <head>
-
-<meta charset="utf-8"/>
-<title>
-   Mapa Cyberpunk + Noticias Ciberseguridad
-  </title>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<link href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" rel="stylesheet"/>
-<style>
-   html, body {height: 100vh; width: 100vw; margin: 0; padding: 0; background: #0b1021; box-sizing: border-box;}
+  <script src="https://cdn.jsdelivr.net/npm/luxon@3/build/global/luxon.min.js"></script>
+  <meta charset="utf-8" />
+  <title>Mapa Cyberpunk + Noticias Ciberseguridad</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <style>
+    html, body {height: 100vh; width: 100vw; margin: 0; padding: 0; background: #0b1021; box-sizing: border-box;}
     #map {width: 100vw; height: 100vh; margin: 0; padding: 0; background: #0b1021; box-sizing: border-box;}
     .zona-horaria-label, .city-clock-label { pointer-events: none; user-select: none; }
     .gmt-utc-clock {
@@ -70,33 +67,24 @@
   </style>
 </head>
 <body>
-<div id="map">
-</div>
-<button id="btn-toggle-lista" style="position: absolute; top: 26px; right: 32px; z-index: 10000; padding: 7px 12px 5px 12px; border-radius: 15px; border: none; background: #202c40e9; color: #31fff5; font-size: 2.0em; font-weight: 700; box-shadow: 0 0 7px #0ef6; cursor: pointer; transition: background .15s;" title="Mostrar/Ocultar ataques">
-   ☰
+  <div id="map"></div>
+  <button id="btn-toggle-lista" title="Mostrar/Ocultar ataques"
+    style="position: absolute; top: 26px; right: 32px; z-index: 10000; padding: 7px 12px 5px 12px; border-radius: 15px; border: none; background: #202c40e9; color: #31fff5; font-size: 2.0em; font-weight: 700; box-shadow: 0 0 7px #0ef6; cursor: pointer; transition: background .15s;">
+    ☰
   </button>
-<div id="ataques-ransomware" style="display:none; position:absolute; top:70px; right:36px; z-index:9999; background:rgba(0,0,0,0.80); color:#46fff2; padding:12px 16px 12px 18px; border-radius:13px; min-width:256px; font-size:1.07em; font-family:sans-serif; max-width:430px; box-shadow: 0 0 18px #09e4; transition:all 0.15s;">
-<b>
-    Últimos ataques ransomware
-   </b>
-<ul id="lista-ataques">
-</ul>
-</div>
-<div id="noticias-ticker">
-<span id="noticias-inner">
-</span>
-</div>
-
-
-
-<script>
-
-
-
-
-
-
-   // ========== INICIALIZACIÓN DEL MAPA Y CAPAS ==========
+  <div id="ataques-ransomware" style="display:none; position:absolute; top:70px; right:36px; z-index:9999; background:rgba(0,0,0,0.80); color:#46fff2; padding:12px 16px 12px 18px; border-radius:13px; min-width:256px; font-size:1.07em; font-family:sans-serif; max-width:430px; box-shadow: 0 0 18px #09e4; transition:all 0.15s;">
+    <b>Últimos ataques ransomware</b>
+    <ul id="lista-ataques"></ul>
+  </div>
+  <div id="noticias-ticker"><span id="noticias-inner"></span></div>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/luxon@3/build/global/luxon.min.js"></script>
+  <script>
+// Aseguramos estructuras necesarias para los popups por país
+var origenStats = typeof origenStats !== "undefined" ? origenStats : {};
+var ataquesPorPais = typeof ataquesPorPais !== "undefined" ? ataquesPorPais : {};
+var ultimosAtaquesPorPais = typeof ultimosAtaquesPorPais !== "undefined" ? ultimosAtaquesPorPais : {};
+// ========== INICIALIZACIÓN DEL MAPA Y CAPAS ==========
 const CENTER = [38.3373, -0.5266];
 const ZOOM = 3;
 
@@ -220,6 +208,7 @@ cityMarkers.forEach(city => {
     interactive: false,
     zIndexOffset: 9999
   }).addTo(map);
+});
 async function syncCentralUTC() {
   try {
     const resp = await fetch('/.netlify/functions/reloj?zona=Etc/UTC');
@@ -430,54 +419,208 @@ async function pintarMapaChoropleth(ataquesPorPais, paisesOrigen = {}) {
   console.log("DEBUG: ataquesPorPaisNorm:", ataquesPorPaisNorm);
   console.log("DEBUG: maxAtaques:", maxAtaques);
 
-  
-geojsonLayer = L.geoJSON(worldGeo, {
-  style: feature => {
-    const code = feature.properties["ISO3166-1-Alpha-2"]
-      ? feature.properties["ISO3166-1-Alpha-2"].toUpperCase()
-      : null;
-    const n = code ? (ataquesPorPaisNorm[code] || 0) : 0;
-    const { fillColor, fillOpacity } = colorYOpacidad(n, maxAtaques);
-    if (!fillColor) return { fillOpacity: 0, color: "#22242a", weight: 1.3 };
-    return {
-      fillColor,
-      fillOpacity,
-      color: "#25efff",
-      weight: 1.3,
-      opacity: 0.6
-    };
-  },
-  onEachFeature: (feature, layer) => {
-    const code = feature.properties["ISO3166-1-Alpha-2"]?.toUpperCase() || "";
-    const nombre = feature.properties.ADMIN || code;
-    const enviado = origenStats[code] || { ataques: 0, grupos: new Set(), destinos: new Set() };
-    const recibidos = ataquesPorPais[code] || 0;
-    const ataquesDetalles = ataquesPorPaisDetalles[code] || [];
-    const ultimo = ataquesDetalles[0] || {};
-    const gruposAtacantes = Array.from(new Set(ataquesDetalles.map(a => a.group).filter(Boolean)));
+  geojsonLayer = L.geoJSON(worldGeo, {
+    style: feature => {
+      const code = feature.properties["ISO3166-1-Alpha-2"] 
+        ? feature.properties["ISO3166-1-Alpha-2"].toUpperCase() 
+        : null;
+      const n = code ? (ataquesPorPaisNorm[code] || 0) : 0;
+      const { fillColor, fillOpacity } = colorYOpacidad(n, maxAtaques);
 
-    let popupHtml = `<b>Código de país:</b> ${code}<br><br>`;
+      console.log("AZUL - code:", code, "n:", n, "fillColor:", fillColor, "fillOpacity:", fillOpacity);
 
+      if (!fillColor) return { fillOpacity: 0, color: "#22242a", weight: 1.3 };
+      return {
+        fillColor: fillColor,
+        fillOpacity: fillOpacity,
+        color: "#25efff",
+        weight: 1.3,
+        opacity: 0.6
+      };
+    },
+    
+onEachFeature: (feature, layer) => {
+  const code = feature.properties["ISO3166-1-Alpha-2"]?.toUpperCase() || "";
+  const nombre = feature.properties.ADMIN || code;
+
+  const enviado = origenStats?.[code] || { ataques: 0, grupos: new Set(), destinos: new Set() };
+  const recibido = ataquesPorPais?.[code] || 0;
+
+  const ultimos = ultimosAtaquesPorPais?.[code] || [];
+  const ultimoAtaque = ultimos.length > 0 ? ultimos[ultimos.length - 1] : null;
+
+  if (enviado.ataques === 0 && recibido === 0) return;
+
+  let popupHtml = `<b>Código de país:</b> ${code}<br>`;
+
+  if (enviado.ataques > 0) {
     popupHtml += `<b>ENVIADO:</b><br>`;
-    popupHtml += `<b>Ataques lanzados:</b> ${enviado.ataques}<br>`;
-    popupHtml += `<b>Grupos activos:</b> ${enviado.grupos.size ? Array.from(enviado.grupos).join(', ') : '—'}<br>`;
-    popupHtml += `<b>Destinos atacados:</b> ${enviado.destinos.size ? Array.from(enviado.destinos).join(', ') : '—'}<br>`;
+    popupHtml += `Ataques lanzados: ${enviado.ataques}<br>`;
+    popupHtml += `Grupos activos: ${Array.from(enviado.grupos).join(", ") || "-"}<br>`;
+    popupHtml += `Destinos atacados: ${Array.from(enviado.destinos).join(", ") || "-"}<br><br>`;
+  }
 
-    popupHtml += `<br><b>RECIBIDO:</b><br>`;
-    popupHtml += `<b>Ataques recibidos:</b> ${recibidos}<br>`;
-    popupHtml += `<b>Fecha/Hora del ataque:</b> ${ultimo.attackdate || '—'}<br>`;
-    popupHtml += `<b>Grupos atacantes:</b> ${gruposAtacantes.length ? gruposAtacantes.join(', ') : '—'}<br>`;
-    if (ultimo.screenshot) {
-      popupHtml += `<img src="${ultimo.screenshot}" style="width:120px;max-width:97%;margin:6px 0 4px 0;border-radius:8px;box-shadow:0 0 9px #111a;">`;
+  if (recibido > 0) {
+    popupHtml += `<b>RECIBIDO:</b><br>`;
+    popupHtml += `Ataques recibidos: ${recibido}<br>`;
+    if (ultimoAtaque) {
+      popupHtml += `Fecha/Hora del último ataque recibido: ${ultimoAtaque.attackdate}<br>`;
+      popupHtml += `Grupos atacantes: ${ultimoAtaque.group || "-"}<br>`;
+      if (ultimoAtaque.screenshot)
+        popupHtml += `<img src="${ultimoAtaque.screenshot}" width="200"><br>`;
+      if (ultimoAtaque.url)
+        popupHtml += `<a href="${ultimoAtaque.url}" target="_blank">Ver último ataque</a><br>`;
+    }
+  }
+
+  layer.bindPopup(popupHtml);
+  console.log("Popup activos: " + code);
+}
+
+  }).addTo(map);
+}
+
+const pirateLockIcon = L.icon({
+  iconUrl: 'ransomware.png',
+  iconSize: [32, 32],
+  iconAnchor: [16, 32],
+  popupAnchor: [0, -28]
+});
+const attackOriginIcon = L.icon({
+  iconUrl: 'atack.png',
+  iconSize: [28, 28],   // ajusta tamaño si lo prefieres
+  iconAnchor: [14, 14]  // el centro del icono
+});
+const gruposPaisOrigen = {
+  "0mega": "RU",
+  "8base": "RU",
+  "akira": "RU",
+  "avaddon": "RU",
+  "babuk": "RU",
+  "bianlian": "CN",
+  "black basta": "RU",
+  "blackcat": "RU",
+  "blacksuit": "RU",
+  "cl0p": "RU",
+  "conti": "RU",
+  "cuba": "RU",
+  "darkangels": "RU",
+  "darkside": "RU",
+  "dharma": "RU",
+  "donex": "RU",
+  "dragonforce": "MY",
+  "everest": "RU",
+  "hellokitty": "RU",
+  "helloxd": "CN",
+  "hive": "RU",
+  "hunters": "RU",
+  "kelvinsecurity": "AR",
+  "lockbit": "RU",
+  "lockbit3": "RU",
+  "lorenz": "RU",
+  "malaslocker": "CN",
+  "medusa": "RU",
+  "midas": "BR",
+  "netwalker": "RU",
+  "noescape": "RU",
+  "play": "RU",
+  "quantum": "RU",
+  "ra group": "RU",
+  "revil": "RU",
+  "ragnar locker": "RU",
+  "ragnarok": "IN",
+  "ransomexx": "RU",
+  "ransomhouse": "RU",
+  "ransomhub": "RU",
+  "rook": "CN",
+  "royal": "RU",
+  "snatch": "RU",
+  "stormous": "SY",
+  "suncrypt": "RU",
+  "trigona": "RU",
+  "qilin": "RU",
+  "safepay": "RU",
+  "ghost": "CN",
+  "devman": "RU",
+  "crypto24": "RU",
+  "silent": "RU",
+  "bert": "RU",
+  "gunra": "RU",
+  "warlock": "RU",
+  "teamxxx": "??",
+  "kawa4096": "??",
+  "lynx": "RU",
+  "bitter scorpius": "RU",
+  "bling libra": "FR",
+  "dprk": "KP",
+  "fiddling scorpius": "RU",
+  "inc ransomware": "RU",
+  "jumpy pisces": "KP",
+  "shinyhunters": "FR",
+  "crypto414": "??",
+  "microsan": "??",
+  "inc ransom": "RU",
+  "vice society": "RU",
+  "luna moth": "RU",
+  "unc3753": "RU",
+  "chatty spider": "RU",
+  "water pombero": "RU",
+  "kawalocker": "??",
+  "andariel": "KP",
+  "gold ionic": "RU",
+  "agenda": "RU",
+  "cactus": "RU",
+  "nokoyawa": "RU",
+  "moses staff": "IR",
+  "mallox": "RU",
+  "monti": "RU",
+  "abyss": "RU",
+  "money message": "RU",
+  "redalert": "RU",
+  "project relic": "KP",
+  "rancoz": "RU"
+}
+
+async function cargarAtaques() {
+  attackMarkers.forEach(m => map.removeLayer(m));
+  attackMarkers = [];
+  const lista = document.getElementById('lista-ataques');
+  lista.innerHTML = '<li>Cargando datos...</li>';
+
+  try {
+    const resp = await fetch('/.netlify/functions/ransomware');
+    const data = await resp.json();
+    if (data && data.error) {
+      lista.innerHTML = `<li class="error-msg">${data.error}</li>`;
+      return;
+    }
+    if (!Array.isArray(data) || data.length === 0) {
+      lista.innerHTML = '<li class="ok-msg">No hay ataques recientes registrados.</li>';
+      return;
     }
 
-    layer.bindTooltip(`<b>${nombre}</b><br>Ataques recibidos: ${recibidos}<br>Ataques lanzados: ${enviado.ataques}`, { sticky: true });
-    layer.on('click', function () {
-      layer.bindPopup(popupHtml).openPopup();
+    // 1. Agrupa ataques por país de origen
+    const origenStats = {};
+    data.forEach(ataque => {
+      if (
+        ataque.group &&
+        gruposPaisOrigen[ataque.group.toLowerCase()] &&
+        countryCoords[gruposPaisOrigen[ataque.group.toLowerCase()]] &&
+        ataque.country
+      ) {
+        const origen = gruposPaisOrigen[ataque.group.toLowerCase()];
+        if (!origenStats[origen]) {
+          origenStats[origen] = {
+            grupos: new Set(),
+            ataques: 0,
+            destinos: new Set()
+          };
+        }
+        origenStats[origen].grupos.add(ataque.group);
+        origenStats[origen].ataques++;
+        origenStats[origen].destinos.add(ataque.country);
+      }
     });
-  }
-}).addTo(map);
-
 
     // 2. Panel lateral, markers de víctima y flechas
     lista.innerHTML = "";
@@ -499,7 +642,10 @@ geojsonLayer = L.geoJSON(worldGeo, {
           ${ataque.screenshot ? `<br><img src="${ataque.screenshot}" style="width:120px;max-width:97%;margin:6px 0 4px 0;border-radius:8px;box-shadow:0 0 9px #111a;">` : ''}
           <br><a href="${ataque.url}" target="_blank" style="display:inline-block;margin-top:8px;font-weight:bold;color:#1479f3;">Ver noticia completa</a>
         `;
-        const marker = .bindPopup(popupHtml);
+        const marker = L.marker(countryCoords[ataque.country], {
+          icon: pirateLockIcon,
+          zIndexOffset: 5000
+        }).addTo(map).bindPopup(popupHtml);
         attackMarkers.push(marker);
       }
 
@@ -543,17 +689,20 @@ geojsonLayer = L.geoJSON(worldGeo, {
         <br><b>Ataques lanzados:</b> ${info.ataques}
         <br><b>Destinos atacados:</b> ${Array.from(info.destinos).join(', ')}
       `;
-      const markerOrigen = 
+      const markerOrigen = L.marker(coords, {
+        icon: attackOriginIcon,
+        interactive: true
+      }).addTo(map)
         .bindPopup(popupHtml);
       attackMarkers.push(markerOrigen);
     });
 
     // 4. Agrupar ataques recibidos por país (para capa azul)
-    const ataquesPorPaisLocal = {};
+    const ataquesPorPais = {};
     data.forEach(ataque => {
       if (ataque.country) {
         const code = ataque.country.toUpperCase();
-        ataquesPorPaisLocal[code] = (ataquesPorPaisLocal[code] || 0) + 1;
+        ataquesPorPais[code] = (ataquesPorPais[code] || 0) + 1;
       }
     });
 
@@ -564,7 +713,7 @@ geojsonLayer = L.geoJSON(worldGeo, {
     });
 
     // 6. Pintar choropleth (azul) de países atacados Y pasar paisesOrigen como parámetro
-    pintarMapaChoropleth(ataquesPorPaisLocal, paisesOrigen);
+    pintarMapaChoropleth(ataquesPorPais, paisesOrigen);
 
     // 7. Choropleth magenta
     const respMagenta = await fetch('/countries.geojson');
@@ -607,5 +756,6 @@ document.getElementById("btn-toggle-lista").onclick = function() {
   const panel = document.getElementById("ataques-ransomware");
   panel.style.display = (panel.style.display === "none" ? "block" : "none");
 };
-  </script></body>
+</script>
+</body>
 </html>
