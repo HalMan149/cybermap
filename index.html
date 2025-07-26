@@ -678,7 +678,7 @@ async function cargarAtaques() {
     // Trae la capa azul al frente para que funcione el tooltip
     if (geojsonLayer) geojsonLayer.bringToFront();
 
-  } catch (e) {
+   catch (e) {
     lista.innerHTML = `<li class="error-msg">Error de conexión con el servidor.<br><span style="font-size:0.92em;">${e.message || e}</span></li>`;
   }
 }
