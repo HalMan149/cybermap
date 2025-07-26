@@ -633,22 +633,6 @@ async function cargarAtaques() {
         <br><small>${ataque.title || ""}</small>`;
       lista.appendChild(li);
 
-      // Marker de víctima (candado/ransomware.png)
-      if (ataque.country && countryCoords[ataque.country]) {
-        const popupHtml = `
-          <b>Víctima:</b> ${ataque.victim || "-"}
-          <br><b>Hora del ataque:</b> ${ataque.attackdate || "-"}
-          <br><b>Grupo:</b> ${ataque.group || "-"}
-          ${ataque.screenshot ? `<br><img src="${ataque.screenshot}" style="width:120px;max-width:97%;margin:6px 0 4px 0;border-radius:8px;box-shadow:0 0 9px #111a;">` : ''}
-          <br><a href="${ataque.url}" target="_blank" style="display:inline-block;margin-top:8px;font-weight:bold;color:#1479f3;">Ver noticia completa</a>
-        `;
-        const marker = L.marker(countryCoords[ataque.country], {
-          icon: pirateLockIcon,
-          zIndexOffset: 5000
-        }).addTo(map).bindPopup(popupHtml);
-        attackMarkers.push(marker);
-      }
-
       // Flecha origen-destino por cada ataque
       if (
         ataque.group &&
@@ -674,12 +658,6 @@ async function cargarAtaques() {
       }
     });
 
-    // 3. Un solo marker atack.png por país atacante, con info agrupada
-    const attackOriginIcon = L.icon({
-      iconUrl: 'atack.png',
-      iconSize: [28, 28],
-      iconAnchor: [14, 14]
-    });
     Object.entries(origenStats).forEach(([origen, info]) => {
       const coords = countryCoords[origen];
       if (!coords) return;
