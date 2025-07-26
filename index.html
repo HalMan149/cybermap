@@ -221,7 +221,7 @@ cityMarkers.forEach(city => {
     zIndexOffset: 9999
   }).addTo(map);
 async function syncCentralUTC() {
-  try {
+try {
     const resp = await fetch('/.netlify/functions/reloj?zona=Etc/UTC');
     const data = await resp.json();
     if (data && data.datetime) {
