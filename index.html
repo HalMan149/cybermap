@@ -80,6 +80,10 @@
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/luxon@3/build/global/luxon.min.js"></script>
   <script>
+// Aseguramos estructuras necesarias para los popups por país
+var origenStats = typeof origenStats !== "undefined" ? origenStats : {};
+var ataquesPorPais = typeof ataquesPorPais !== "undefined" ? ataquesPorPais : {};
+var ultimosAtaquesPorPais = typeof ultimosAtaquesPorPais !== "undefined" ? ultimosAtaquesPorPais : {};
 // ========== INICIALIZACIÓN DEL MAPA Y CAPAS ==========
 const CENTER = [38.3373, -0.5266];
 const ZOOM = 3;
@@ -470,6 +474,7 @@ onEachFeature: (feature, layer) => {
   }
 
   layer.bindPopup(popupHtml);
+  console.log("Popup activos: " + code);
 }
 
   }).addTo(map);
