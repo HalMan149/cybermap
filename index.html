@@ -632,7 +632,7 @@ async function cargarAtaques() {
         <span style="opacity:0.7;">(${pais})</span>
         <br><small>${ataque.title || ""}</small>`;
       lista.appendChild(li);
-
+   });
     // 4. Agrupar ataques recibidos por país (para capa azul)
     const ataquesPorPais = {};
     data.forEach(ataque => {
