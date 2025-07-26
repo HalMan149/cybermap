@@ -633,38 +633,6 @@ async function cargarAtaques() {
         <br><small>${ataque.title || ""}</small>`;
       lista.appendChild(li);
 
-      // Flecha origen-destino por cada ataque
-      if (
-        ataque.group &&
-        gruposPaisOrigen[ataque.group.toLowerCase()] &&
-        countryCoords[gruposPaisOrigen[ataque.group.toLowerCase()]] &&
-        ataque.country &&
-        countryCoords[ataque.country]
-      ) {
-        const origen = gruposPaisOrigen[ataque.group.toLowerCase()];
-        const origenCoords = countryCoords[origen];
-        const destinoCoords = countryCoords[ataque.country];
-        if (origenCoords && destinoCoords) {
-          const colorFlecha = "#ff00cc"; // Magenta puro
-          const flecha = L.polyline([origenCoords, destinoCoords], {
-            color: colorFlecha,
-            weight: 2.7,
-            opacity: 0.75,
-            dashArray: "5,6",
-            className: "ransom-arrow"
-          }).addTo(map);
-          attackMarkers.push(flecha);
-        }
-      }
-    });
-
-      const markerOrigen = L.marker(coords, {
-        icon: attackOriginIcon,
-        interactive: true
-      }).addTo(map)
-        .bindPopup(popupHtml);
-      attackMarkers.push(markerOrigen);
-
     // 4. Agrupar ataques recibidos por país (para capa azul)
     const ataquesPorPais = {};
     data.forEach(ataque => {
