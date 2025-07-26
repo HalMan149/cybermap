@@ -564,13 +564,13 @@ geojsonLayer = L.geoJSON(worldGeo, {
     });
 
     // 5. Choropleth magenta (países de origen)
-    const paisesOrigen = {};
+    const paisesOrigenLocal = {};
     Object.entries(origenStats).forEach(([codigoPais, info]) => {
-      paisesOrigen[codigoPais] = info.ataques;
+      paisesOrigenLocal[codigoPais] = info.ataques;
     });
 
     // 6. Pintar choropleth (azul) de países atacados Y pasar paisesOrigen como parámetro
-    pintarMapaChoropleth(ataquesPorPaisLocal, paisesOrigen);
+    pintarMapaChoropleth(ataquesPorPaisLocal, paisesOrigenLocal);
 
     // 7. Choropleth magenta
     const respMagenta = await fetch('/countries.geojson');
