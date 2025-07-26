@@ -220,6 +220,8 @@ cityMarkers.forEach(city => {
     interactive: false,
     zIndexOffset: 9999
   }).addTo(map);
+});
+  }).addTo(map);
 async function syncCentralUTC() {
 try {
     const resp = await fetch('/.netlify/functions/reloj?zona=Etc/UTC');
