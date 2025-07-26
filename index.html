@@ -439,10 +439,10 @@ onEachFeature: (feature, layer) => {
   const code = feature.properties["ISO3166-1-Alpha-2"]?.toUpperCase() || "";
   const nombre = feature.properties.ADMIN || code;
 
-  const enviado = origenStats[code] || { ataques: 0, grupos: new Set(), destinos: new Set() };
-  const recibido = ataquesPorPais[code] || 0;
+  const enviado = origenStats?.[code] || { ataques: 0, grupos: new Set(), destinos: new Set() };
+  const recibido = ataquesPorPais?.[code] || 0;
 
-  const ultimos = ultimosAtaquesPorPais[code] || [];
+  const ultimos = ultimosAtaquesPorPais?.[code] || [];
   const ultimoAtaque = ultimos.length > 0 ? ultimos[ultimos.length - 1] : null;
 
   if (enviado.ataques === 0 && recibido === 0) return;
