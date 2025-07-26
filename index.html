@@ -424,8 +424,6 @@ async function pintarMapaChoropleth(ataquesPorPais, paisesOrigen = {}) {
       const n = code ? (ataquesPorPaisNorm[code] || 0) : 0;
       const { fillColor, fillOpacity } = colorYOpacidad(n, maxAtaques);
 
-fillOpacity);
-
       if (!fillColor) return { fillOpacity: 0, color: "#22242a", weight: 1.3 };
       return {
         fillColor: fillColor,
