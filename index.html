@@ -658,15 +658,6 @@ async function cargarAtaques() {
       }
     });
 
-    Object.entries(origenStats).forEach(([origen, info]) => {
-      const coords = countryCoords[origen];
-      if (!coords) return;
-      const popupHtml = `
-        <b>País de origen:</b> ${origen}
-        <br><b>Grupos activos:</b> ${Array.from(info.grupos).join(', ')}
-        <br><b>Ataques lanzados:</b> ${info.ataques}
-        <br><b>Destinos atacados:</b> ${Array.from(info.destinos).join(', ')}
-      `;
       const markerOrigen = L.marker(coords, {
         icon: attackOriginIcon,
         interactive: true
