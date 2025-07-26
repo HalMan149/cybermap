@@ -439,44 +439,39 @@ async function pintarMapaChoropleth(ataquesPorPais, paisesOrigen = {}) {
       };
     },
     
-
-onEachFeature: function (feature, layer) {
+onEachFeature: (feature, layer) => {
   const code = feature.properties["ISO3166-1-Alpha-2"]?.toUpperCase() || "";
   const nombre = feature.properties.ADMIN || code;
+
   const enviado = origenStats?.[code] || { ataques: 0, grupos: new Set(), destinos: new Set() };
   const recibido = ataquesPorPais?.[code] || 0;
+
   const ultimos = ultimosAtaquesPorPais?.[code] || [];
-  const ultimo = ultimos.length > 0 ? ultimos[ultimos.length - 1] : null;
+  const ultimoAtaque = ultimos.length > 0 ? ultimos[ultimos.length - 1] : null;
 
   if (enviado.ataques === 0 && recibido === 0) return;
 
-  let html = `<b>Código de país:</b> ${code}<br><br>`;
+  let popupHtml = `<b>Código de país:</b> ${code}<br>`;
 
   if (enviado.ataques > 0) {
-    html += `<b>ENVIADO:</b><br>`;
-    html += `Ataques lanzados: ${enviado.ataques}<br>`;
-    html += `Grupos activos: ${[...enviado.grupos].join(", ") || "Ninguno"}<br>`;
-    html += `Destinos atacados: ${[...enviado.destinos].join(", ") || "Ninguno"}<br><br>`;
+    popupHtml += `<b>ENVIADO:</b><br>`;
+    popupHtml += `Ataques lanzados: ${enviado.ataques}<br>`;
+    popupHtml += `Grupos activos: ${Array.from(enviado.grupos).join(", ") || "-"}<br>`;
+    popupHtml += `Destinos atacados: ${Array.from(enviado.destinos).join(", ") || "-"}<br><br>`;
   }
 
   if (recibido > 0) {
-    html += `<b>RECIBIDO:</b><br>`;
-    html += `Ataques recibidos: ${recibido}<br>`;
-    if (ultimo) {
-      html += `Fecha/Hora del último ataque recibido: ${ultimo.attackdate}<br>`;
-      html += `Grupos atacantes: ${ultimo.group || "Desconocido"}<br>`;
-      if (ultimo.screenshot) {
-        html += `<img src="${ultimo.screenshot}" style="max-width:200px;margin-top:5px;" /><br>`;
-      }
-      if (ultimo.url) {
-        html += `<a href="${ultimo.url}" target="_blank">Ver último ataque</a><br>`;
-      }
+    popupHtml += `<b>RECIBIDO:</b><br>`;
+    popupHtml += `Ataques recibidos: ${recibido}<br>`;
+    if (ultimoAtaque) {
+      popupHtml += `Fecha/Hora del último ataque recibido: ${ultimoAtaque.attackdate}<br>`;
+      popupHtml += `Grupos atacantes: ${ultimoAtaque.group || "-"}<br>`;
+      if (ultimoAtaque.screenshot)
+        popupHtml += `<img src="${ultimoAtaque.screenshot}" width="200"><br>`;
+      if (ultimoAtaque.url)
+        popupHtml += `<a href="${ultimoAtaque.url}" target="_blank">Ver último ataque</a><br>`;
     }
   }
-
-  layer.bindPopup(html);
-}
-
 
   layer.bindPopup(popupHtml);
   console.log("Popup activos: " + code);
@@ -647,7 +642,10 @@ async function cargarAtaques() {
           ${ataque.screenshot ? `<br><img src="${ataque.screenshot}" style="width:120px;max-width:97%;margin:6px 0 4px 0;border-radius:8px;box-shadow:0 0 9px #111a;">` : ''}
           <br><a href="${ataque.url}" target="_blank" style="display:inline-block;margin-top:8px;font-weight:bold;color:#1479f3;">Ver noticia completa</a>
         `;
-        const marker = .bindPopup(popupHtml);
+        const marker = L.marker(countryCoords[ataque.country], {
+          icon: pirateLockIcon,
+          zIndexOffset: 5000
+        }).addTo(map).bindPopup(popupHtml);
         attackMarkers.push(marker);
       }
 
@@ -691,7 +689,10 @@ async function cargarAtaques() {
         <br><b>Ataques lanzados:</b> ${info.ataques}
         <br><b>Destinos atacados:</b> ${Array.from(info.destinos).join(', ')}
       `;
-      const markerOrigen = 
+      const markerOrigen = L.marker(coords, {
+        icon: attackOriginIcon,
+        interactive: true
+      }).addTo(map)
         .bindPopup(popupHtml);
       attackMarkers.push(markerOrigen);
     });
