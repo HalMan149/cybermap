@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/luxon@3/build/global/luxon.min.js"></script>
+  <meta charset="utf-8" />
+  <title>Mapa Cyberpunk + Noticias Ciberseguridad</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <style>
+    html, body {height: 100vh; width: 100vw; margin: 0; padding: 0; background: #0b1021; box-sizing: border-box;}
+    #map {width: 100vw; height: 100vh; margin: 0; padding: 0; background: #0b1021; box-sizing: border-box;}
+    .zona-horaria-label, .city-clock-label { pointer-events: none; user-select: none; }
+    .gmt-utc-clock {
+      font-family: 'Consolas', monospace; font-size: 1.25em; padding: 2px 12px; border-radius: 12px; border: 2.2px solid #00ffd9a0;
+      background: #0a233bf2; color: #1fffb7; font-weight: 600; margin-top: 6px; margin-bottom: 0; text-align: center; width: 76px;
+      box-shadow: 0 0 8px #0ff8; letter-spacing: 0.04em; text-shadow: 0 0 5px #0ff7; transition: color 0.2s, border 0.2s, background 0.2s; cursor: pointer;
+    }
+    .gmt-utc-clock.sync-error {color: #ffae47 !important; border-color: #ffc66a !important; background: #2d1c05ea !important; box-shadow: 0 0 18px #ffc66a77 !important;}
+    .zona-horaria-label.gmt-central { font-weight: bold; }
+    .city-clock-label {
+      background: transparent !important; border: none !important; box-shadow: none !important; min-width: 0 !important; padding: 0 !important;
+      font-family: 'Segoe UI', 'Roboto', sans-serif; color: #63faff;
+      text-align: center; text-shadow: 0 0 8px #29eaffb8, 0 0 2px #09e7;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+    }
+    .city-clock-label .hora {
+      font-family: 'Consolas', monospace; font-size: 1.24em; color: #73fdff; font-weight: 800;
+      margin-bottom: 0px; text-shadow: 0 0 13px #5efcff, 0 0 3px #33eaffb8; background: transparent; border: none; letter-spacing: 0.03em; line-height: 1.2;
+    }
+    .city-clock-label .city {
+      font-size: 1em; color: #fff; font-weight: 600; margin-top: 0px; line-height: 1.08; background: transparent; border: none; text-shadow: 0 0 4px #00f8, 0 0 1px #0af9;
+    }
+    .leaflet-overlay-pane svg polyline {stroke: #2cfdff !important; filter: drop-shadow(0 0 6px #12fd) drop-shadow(0 0 2px #00f8); stroke-width: 2.3 !important; stroke-opacity: 0.65 !important;}
+    #noticias-ticker {
+      position: absolute; bottom: 50px; left: 0; width: 100vw;
+      z-index: 3000; background: rgba(8, 26, 31, 0.54); backdrop-filter: blur(2.5px);
+      color: #6bf; font-family: 'Segoe UI', Arial, sans-serif; font-size: 1.13em;
+      height: 33px; display: flex; align-items: center; overflow: hidden;
+      border-top: 2px solid #13f5ff; box-shadow: 0 1px 7px #00f3; text-shadow: 0 0 8px #27fd;
+    }
+    #noticias-inner { white-space: nowrap; display: inline-block; will-change: transform; }
+.leaflet-marker-icon.city-clock-label {
+  z-index: 100 !important;      /* menos que un popup de Leaflet */
+  opacity: 1 !important;
+  pointer-events: none !important;
+  background: none !important;
+}
+.leaflet-popup,
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+  z-index: 99999 !important;
+}
+.leaflet-popup-content img {
+  max-width: 97% !important;
+  max-height: 130px !important;
+  height: auto !important;
+  display: block;
+  margin: 6px auto 4px auto;
+  border-radius: 8px;
+  box-shadow: 0 0 9px #111a;
+}
+.origen-icon {
+  font-size: 20px;
+  text-shadow: 0 0 4px #000;
+  pointer-events: none;
+}
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  <button id="btn-toggle-lista" title="Mostrar/Ocultar ataques"
+    style="position: absolute; top: 26px; right: 32px; z-index: 10000; padding: 7px 12px 5px 12px; border-radius: 15px; border: none; background: #202c40e9; color: #31fff5; font-size: 2.0em; font-weight: 700; box-shadow: 0 0 7px #0ef6; cursor: pointer; transition: background .15s;">
+    ☰
+  </button>
+  <div id="ataques-ransomware" style="display:none; position:absolute; top:70px; right:36px; z-index:9999; background:rgba(0,0,0,0.80); color:#46fff2; padding:12px 16px 12px 18px; border-radius:13px; min-width:256px; font-size:1.07em; font-family:sans-serif; max-width:430px; box-shadow: 0 0 18px #09e4; transition:all 0.15s;">
+    <b>Últimos ataques ransomware</b>
+    <ul id="lista-ataques"></ul>
+  </div>
+  <div id="noticias-ticker"><span id="noticias-inner"></span></div>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/luxon@3/build/global/luxon.min.js"></script>
+  <script>
+// Aseguramos estructuras necesarias para los popups por país
+var origenStats = typeof origenStats !== "undefined" ? origenStats : {};
+var ataquesPorPais = typeof ataquesPorPais !== "undefined" ? ataquesPorPais : {};
+var ultimosAtaquesPorPais = typeof ultimosAtaquesPorPais !== "undefined" ? ultimosAtaquesPorPais : {};
+// ========== INICIALIZACIÓN DEL MAPA Y CAPAS ==========
+const CENTER = [38.3373, -0.5266];
+const ZOOM = 3;
+
+  var map = L.map('map', {
+      zoomControl: false,
+      attributionControl: false,
+      minZoom: 2,
+      maxZoom: 17,
+      scrollWheelZoom: false,
+      doubleClickZoom: false,
+      boxZoom: false,
+      dragging: false,
+      touchZoom: false,
+      keyboard: false
+  }).setView(CENTER, ZOOM);
+
+L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+  maxZoom: 19, minZoom: 2, noWrap: true
+}).addTo(map);
+
+L.tileLayer('https://gps-{s}.tile.openstreetmap.org/lines/{z}/{x}/{y}.png', {
+  maxZoom: 19, minZoom: 2, opacity: 0.85, noWrap: true
+}).addTo(map);
+
+let magentaLayer = null;
+
+// =========== RELOJES Y MERIDIANOS ===========
+const zonaHorariaLines = L.layerGroup();
+const relojMarkers = [];
+let utcRef = null, utcError = false, syncTimestamp = null;
+const meridianLines = {}; // Para guardar cada línea por offset
+for(let i = -12; i <= 14; i++) {
+  const lon = i * 15;
+  if (lon < -180 || lon > 180) continue;
+  const isCentral = (i === 0);
+  const line = L.polyline([[-59.98, lon], [82.26, lon]],
+    { color: "#2cfdff", weight: 2.3, opacity: 0.65, dashArray: "5,14", interactive: false });
+  zonaHorariaLines.addLayer(line);
+  meridianLines[i] = line;
+  const latLabel = 82.15;
+  const relojId = `reloj-tz${i}`;
+  const extraClass = isCentral ? " gmt-central" : "";
+  const ancla = isCentral ? [52, 10] : [31, 10];
+  const marker = L.marker([latLabel, lon], {
+    icon: L.divIcon({
+      className: 'zona-horaria-label' + extraClass,
+html: isCentral
+  ? `<div class="gmt-utc-clock" id="${relojId}">--:--</div>
+     <div class="gmt-utc-seg" id="reloj-tz0-seg" style="font-size:0.88em;color:#7ff6f9;line-height:1.17;margin-top:2px;">--.--</div>`
+  : `<div id="${relojId}" style="font-family:monospace;font-size:1.18em;color:#72fdff;background:transparent;padding:0;border:none;min-width:62px;text-align:center;box-shadow:none"></div>`,
+      iconAnchor: ancla
+    }),
+    interactive: false
+  });
+  relojMarkers.push({ id: relojId, offset: i });
+  zonaHorariaLines.addLayer(marker);
+}
+zonaHorariaLines.addTo(map);
+function marcarLineaMeridianoLocal() {
+  const localOffsetH = -new Date().getTimezoneOffset() / 60;
+  const nearest = Math.round(localOffsetH);
+  Object.values(meridianLines).forEach(line => {
+    line.setStyle({ color: "#2cfdff", weight: 2.3, opacity: 0.65 });
+  });
+if (meridianLines[nearest]) {
+  meridianLines[nearest].setStyle({ color: "#ffea00", weight: 2, opacity: 0.34, dashArray: null });
+ }
+}
+marcarLineaMeridianoLocal();
+setInterval(marcarLineaMeridianoLocal, 60000);
+
+// ======= NUEVA SINCRONIZACIÓN CENTRAL Y RELOJES DE CIUDAD =========
+
+// Lista de zonas horarias exactas por ciudad
+const cityMarkers = [
+  { name: "Los Ángeles", lat:34.05, lon:-118.25, zone: "America/Los_Angeles", id:"clkla" },
+  { name: "Denver", lat:39.74, lon:-104.99, zone: "America/Denver", id:"clkden" },
+  { name: "México", lat:19.43, lon:-99.13, zone: "America/Mexico_City", id:"clkcdmx" },
+  { name: "Nueva York", lat:40.71, lon:-74.01, zone: "America/New_York", id:"clkny" },
+  { name: "Buenos Aires", lat:-34.61, lon:-58.38, zone: "America/Argentina/Buenos_Aires", id:"clkbue" },
+  { name: "Sao Paulo", lat:-23.55, lon:-46.63, zone: "America/Sao_Paulo", id:"clksp" },
+  { name: "Londres", lat:51.51, lon:-0.13, zone: "Europe/London", id:"clklon" },
+  { name: "Madrid", lat:40.42, lon:-3.70, zone: "Europe/Madrid", id:"clkmad" },
+  { name: "El Cairo", lat:30.05, lon:31.25, zone: "Africa/Cairo", id:"clkcai" },
+  { name: "Moscú", lat:55.75, lon:37.62, zone: "Europe/Moscow", id:"clkmsk" },
+  { name: "Dubái", lat:25.20, lon:55.27, zone: "Asia/Dubai", id:"clkdx" },
+  { name: "Nueva Delhi", lat:28.61, lon:77.20, zone: "Asia/Kolkata", id:"clkdel" },
+  { name: "Pekín", lat:39.90, lon:116.40, zone: "Asia/Shanghai", id:"clkpek" },
+  { name: "Tokio", lat:35.68, lon:139.69, zone: "Asia/Tokyo", id:"clktok" },
+  { name: "Sídney", lat:-33.87, lon:151.21, zone: "Australia/Sydney", id:"clksyd" },
+  { name: "Perth", lat:-31.95, lon:115.86, zone: "Australia/Perth", id:"clkper" },
+  { name: "Anchorage", lat:61.22, lon:-149.90, zone: "America/Anchorage", id:"clkanc" },
+  { name: "Honolulu", lat:21.31, lon:-157.86, zone: "Pacific/Honolulu", id:"clkhnl" },
+  { name: "Yakutsk", lat:62.03, lon:129.73, zone: "Asia/Yakutsk", id:"clkyks" },
+  { name: "Vladivostok", lat:43.12, lon:131.89, zone: "Asia/Vladivostok", id:"clkvvo" },
+  { name: "Khabarovsk", lat:48.48, lon:135.08, zone: "Asia/Vladivostok", id:"clkkhv" },
+  { name: "Magadán", lat:59.56, lon:150.80, zone: "Asia/Magadan", id:"clkmag" },
+  { name: "Petropavlovsk", lat:53.02, lon:158.65, zone: "Asia/Kamchatka", id:"clkpkc" },
+  { name: "Norilsk", lat:69.34, lon:88.22, zone: "Asia/Krasnoyarsk", id:"clknor" },
+  { name: "Krasnoyarsk", lat:56.01, lon:92.87, zone: "Asia/Krasnoyarsk", id:"clkkrk" },
+  { name: "Omsk", lat:54.99, lon:73.37, zone: "Asia/Omsk", id:"clkoms" },
+  { name: "Lagos", lat:6.52, lon:3.37, zone: "Africa/Lagos", id:"clklgs" },
+  { name: "Johannesburgo", lat:-26.20, lon:28.04, zone: "Africa/Johannesburg", id:"clkjnb" },
+  { name: "Nairobi", lat:-1.29, lon:36.82, zone: "Africa/Nairobi", id:"clknbo" },
+  { name: "Casablanca", lat:33.57, lon:-7.59, zone: "Africa/Casablanca", id:"clkcas" },
+  { name: "Kinshasa", lat:-4.32, lon:15.31, zone: "Africa/Kinshasa", id:"clkkin" },
+  { name: "Nuuk", lat:64.18, lon:-51.72, zone: "America/Godthab", id:"clknuu" },
+  { name: "Ittoqqortoormiit", lat:70.48, lon:-21.97, zone: "America/Scoresbysund", id:"clkitq" },
+  { name: "Qaanaaq", lat:77.47, lon:-69.23, zone: "America/Thule", id:"clkqaa" },
+  { name: "Ottawa", lat:45.42, lon:-75.69, zone: "America/Toronto", id:"clkott" },
+  { name: "Calgary", lat:51.05, lon:-114.07, zone: "America/Edmonton", id:"clkclg" }
+];
+cityMarkers.forEach(city => {
+  L.marker([city.lat, city.lon], {
+    icon: L.divIcon({
+      className: "city-clock-label",
+      html: `<span class="hora" id="${city.id}-hora">--:--</span><span class="city">${city.name}</span>`,
+      iconSize: [112, 38],
+      iconAnchor: [56, 19]
+    }),
+    interactive: false,
+    zIndexOffset: 9999
+  }).addTo(map);
+});
+async function syncCentralUTC() {
+  try {
+    const resp = await fetch('/.netlify/functions/reloj?zona=Etc/UTC');
+    const data = await resp.json();
+    if (data && data.datetime) {
+      utcRef = new Date(data.datetime.replace(/\.\d+/, ''));
+      utcError = false;
+    } else {
+      throw new Error('Sin datetime en respuesta');
+    }
+  } catch(e) {
+    let now = new Date();
+    utcRef = new Date(
+      now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(),
+      now.getUTCHours(), now.getUTCMinutes(), now.getUTCSeconds()
+    );
+    utcError = true;
+  }
+  syncTimestamp = Date.now();
+  updateClocks();
+  actualizarRelojesCiudadesLuxon();
+}
+
+// Actualiza el central y los meridianos respecto a UTC
+function updateClocks() {
+  if (!utcRef || !syncTimestamp) return;
+  let now = Date.now();
+  let delta = now - syncTimestamp;
+  let utcNow = new Date(utcRef.getTime() + delta);
+
+  // Central
+  let h = String(utcNow.getUTCHours()).padStart(2,"0");
+  let m = String(utcNow.getUTCMinutes()).padStart(2,"0");
+  const centralClock = document.getElementById('reloj-tz0');
+  if (centralClock) {
+    centralClock.textContent = `${h}:${m}`;
+    if (utcError) {
+      centralClock.classList.add('sync-error');
+      centralClock.title = "Error en servidor, hora sincronizada con reloj del sistema";
+    } else {
+      centralClock.classList.remove('sync-error');
+      centralClock.title = "Hora GMT/UTC atómica sincronizada";
+    }
+  }
+  // Relojes GMT±N (método clásico)
+  relojMarkers.forEach(({id, offset}) => {
+    if (id === 'reloj-tz0') return;
+    const el = document.getElementById(id);
+    if (!el) return;
+    const t = new Date(utcNow.getTime() + offset * 60 * 60 * 1000);
+    const hh = String(t.getUTCHours()).padStart(2, "0");
+    const mm = String(t.getUTCMinutes()).padStart(2, "0");
+    el.textContent = `${hh}:${mm}`;
+  });
+}
+
+function actualizarRelojesCiudadesLuxon() {
+  if (!utcRef || !syncTimestamp) return;
+  let now = Date.now();
+  let delta = now - syncTimestamp;
+  let utcNow = new Date(utcRef.getTime() + delta);
+
+  const DateTime = luxon.DateTime;
+  for (const city of cityMarkers) {
+    const el = document.getElementById(city.id + "-hora");
+    if (!el) continue;
+    // Convertimos utcNow a hora local de cada ciudad, respetando DST
+    const local = DateTime.fromJSDate(utcNow, { zone: "utc" }).setZone(city.zone);
+    const hh = String(local.hour).padStart(2, "0");
+    const mm = String(local.minute).padStart(2, "0");
+    el.textContent = `${hh}:${mm}`;
+  }
+}
+
+// Inicialización y actualización periódica
+syncCentralUTC();
+setInterval(syncCentralUTC, 5 * 60 * 1000);
+setInterval(() => {
+  updateClocks();
+  actualizarRelojesCiudadesLuxon();
+}, 1000);
+function actualizarSegundosCentral() {
+  if (!utcRef) return;
+  let now = new Date();
+  let delta = 0;
+  if (syncTimestamp && utcRef) {
+    delta = now.getTime() - syncTimestamp;
+  }
+  let utcNow = new Date(utcRef.getTime() + delta);
+  const el = document.getElementById("reloj-tz0-seg");
+  if (!el) return;
+  const s = String(utcNow.getUTCSeconds()).padStart(2, "0");
+  const ms = String(utcNow.getMilliseconds()).padStart(3, "0").slice(0,2); // centésimas
+//el.textContent = `${s}.${ms}`; // RELOJ de segundos y milisegundos
+}
+setInterval(actualizarSegundosCentral, 41);
+
+
+// -------- TICKER DE NOTICIAS --------
+const rssFeeds = [
+  { url: "https://www.securitylab.ru/_Services/Export/XmlExport_RSS.aspx?News", nombre: "SecurityLab.ru" },
+  { url: "https://www.kaspersky.com/blog/feed/", nombre: "Kaspersky" },
+  { url: "https://www.incibe.es/feed", nombre: "INCIBE" },
+  { url: "https://www.securityweek.com/rss", nombre: "SecurityWeek" },
+  { url: "https://www.darkreading.com/rss.xml", nombre: "Dark Reading" }
+];
+
+async function traducir(texto, idioma = "es") {
+  const url = '/.netlify/functions/traducir?texto=' + encodeURIComponent(texto) + "&to=" + idioma;
+  const resp = await fetch(url);
+  const data = await resp.json();
+  return data.traduccion || texto;
+}
+
+async function lanzarTicker() {
+  const inner = document.getElementById('noticias-inner');
+  let noticias = [];
+
+  for (let feed of rssFeeds) {
+    try {
+      let url = `https://rss2json.com/api.json?rss_url=${encodeURIComponent(feed.url)}`;
+      const resp = await fetch(url);
+      const data = await resp.json();
+      if (data.status === "ok") {
+        for (let item of data.items.slice(0, 2)) {
+          noticias.push({
+            titulo: item.title,
+            enlace: item.link,
+            fuente: feed.nombre
+          });
+        }
+      }
+    } catch {}
+  }
+
+  noticias = noticias.slice(0, 10);
+
+  for (let noticia of noticias) {
+    noticia.titulo = await traducir(noticia.titulo);
+  }
+
+  let sep = `<span style="color:#44c4ff;font-size:1.2em;font-weight:bold;">&nbsp;&nbsp;•&nbsp;&nbsp;</span>`;
+  inner.innerHTML = noticias.map(n =>
+    `<a href="${n.enlace}" target="_blank" style="color:#9ff;text-decoration:none;font-weight:bold;" title="${n.fuente}">${n.titulo}</a>`
+  ).join(sep);
+
+  setTimeout(() => {
+    const ancho = inner.offsetWidth / 2;
+    const dur = Math.max(24, inner.textContent.length / 9);
+    inner.getAnimations().forEach(a => a.cancel());
+    inner.animate([
+      { transform: "translateX(0)" },
+      { transform: `translateX(-${ancho}px)` }
+    ], {
+      duration: dur * 1000,
+      iterations: Infinity,
+      easing: "linear"
+    });
+  }, 100);
+}
+
+lanzarTicker();
+setInterval(lanzarTicker, 15 * 60 * 1000);
+
+// =========== ATAQUES RANSOMWARE & CHOROPLETH ===========
+
+let geojsonLayer;
+let attackMarkers = [];
+
+const countryCoords = {
+  "US": [39.8, -98.6], "JP": [36.2, 138.2], "FR": [46.6, 2.6], "GB": [54.8, -4.6], "DE": [51.2, 10.5],
+  "IT": [42.9, 12.7], "IL": [31.4, 34.9], "TH": [15.8, 100.5], "RU": [61.5, 105.3], "ES": [40.4, -3.7],
+  "BR": [-14.2, -51.9], "CN": [35.9, 104.2], "CA": [56.1, -106.3], "AU": [-25.2, 133.8], "MX": [23.6, -102.5],
+  "IN": [21.1, 78.0], "TR": [39.1, 35.1], "KR": [36.5, 127.8], "ZA": [-29.0, 24.7], "AR": [-38.4, -63.6],
+  "CH": [46.8, 8.2], "PT": [39.4, -8.2], "PL": [52.1, 19.4], "NL": [52.3, 5.3], "BE": [50.5, 4.4]
+};
+
+function colorYOpacidad(count, max) {
+  if (!count || count === 0) return { fillOpacity: 0, fillColor: null };
+  if (count < 2)    return { fillColor: "#bfe7ff", fillOpacity: 0.30 };
+  if (count < 5)    return { fillColor: "#71b6f7", fillOpacity: 0.42 };
+  if (count < 10)   return { fillColor: "#2977db", fillOpacity: 0.54 };
+  if (count < 20)   return { fillColor: "#18429d", fillOpacity: 0.65 };
+  /* >= 20 ataques */
+  return { fillColor: "#071450", fillOpacity: 0.76 };
+}
+function colorYOpacidadMagenta(count, max) {
+  if (!count || count === 0) return { fillOpacity: 0, fillColor: null };
+  if (count < 2)    return { fillColor: "#ffd6fb", fillOpacity: 0.20 };
+  if (count < 5)    return { fillColor: "#ff95ea", fillOpacity: 0.32 };
+  if (count < 10)   return { fillColor: "#e350c7", fillOpacity: 0.44 };
+  if (count < 20)   return { fillColor: "#b21b99", fillOpacity: 0.55 };
+  /* >= 20 ataques */
+  return { fillColor: "#61004b", fillOpacity: 0.66 };
+}
+
+async function pintarMapaChoropleth(ataquesPorPais, paisesOrigen = {}) {
+  if (geojsonLayer) map.removeLayer(geojsonLayer);
+  const resp = await fetch('/countries.geojson');
+  const worldGeo = await resp.json();
+
+  // Normaliza los códigos de país a mayúsculas
+  const ataquesPorPaisNorm = {};
+  for (const k in ataquesPorPais) ataquesPorPaisNorm[k.toUpperCase()] = ataquesPorPais[k];
+
+  const maxAtaques = Math.max(...Object.values(ataquesPorPaisNorm), 1);
+
+  console.log("DEBUG: ataquesPorPaisNorm:", ataquesPorPaisNorm);
+  console.log("DEBUG: maxAtaques:", maxAtaques);
+
+  geojsonLayer = L.geoJSON(worldGeo, {
+    style: feature => {
+      const code = feature.properties["ISO3166-1-Alpha-2"] 
+        ? feature.properties["ISO3166-1-Alpha-2"].toUpperCase() 
+        : null;
+      const n = code ? (ataquesPorPaisNorm[code] || 0) : 0;
+      const { fillColor, fillOpacity } = colorYOpacidad(n, maxAtaques);
+
+      console.log("AZUL - code:", code, "n:", n, "fillColor:", fillColor, "fillOpacity:", fillOpacity);
+
+      if (!fillColor) return { fillOpacity: 0, color: "#22242a", weight: 1.3 };
+      return {
+        fillColor: fillColor,
+        fillOpacity: fillOpacity,
+        color: "#25efff",
+        weight: 1.3,
+        opacity: 0.6
+      };
+    },
+    
+onEachFeature: (feature, layer) => {
+  const code = feature.properties["ISO3166-1-Alpha-2"]?.toUpperCase() || "";
+  const nombre = feature.properties.ADMIN || code;
+
+  const enviado = origenStats?.[code] || { ataques: 0, grupos: new Set(), destinos: new Set() };
+  const recibido = ataquesPorPais?.[code] || 0;
+
+  const ultimos = ultimosAtaquesPorPais?.[code] || [];
+  const ultimoAtaque = ultimos.length > 0 ? ultimos[ultimos.length - 1] : null;
+
+  if (enviado.ataques === 0 && recibido === 0) return;
+
+  let popupHtml = `<b>Código de país:</b> ${code}<br>`;
+
+  if (enviado.ataques > 0) {
+    popupHtml += `<b>ENVIADO:</b><br>`;
+    popupHtml += `Ataques lanzados: ${enviado.ataques}<br>`;
+    popupHtml += `Grupos activos: ${Array.from(enviado.grupos).join(", ") || "-"}<br>`;
+    popupHtml += `Destinos atacados: ${Array.from(enviado.destinos).join(", ") || "-"}<br><br>`;
+  }
+
+  if (recibido > 0) {
+    popupHtml += `<b>RECIBIDO:</b><br>`;
+    popupHtml += `Ataques recibidos: ${recibido}<br>`;
+    if (ultimoAtaque) {
+      popupHtml += `Fecha/Hora del último ataque recibido: ${ultimoAtaque.attackdate}<br>`;
+      popupHtml += `Grupos atacantes: ${ultimoAtaque.group || "-"}<br>`;
+      if (ultimoAtaque.screenshot)
+        popupHtml += `<img src="${ultimoAtaque.screenshot}" width="200"><br>`;
+      if (ultimoAtaque.url)
+        popupHtml += `<a href="${ultimoAtaque.url}" target="_blank">Ver último ataque</a><br>`;
+    }
+  }
+
+  layer.bindPopup(popupHtml);
+  console.log("Popup activos: " + code);
+}
+
+  }).addTo(map);
+}
+
+const pirateLockIcon = L.icon({
+  iconUrl: 'ransomware.png',
+  iconSize: [32, 32],
+  iconAnchor: [16, 32],
+  popupAnchor: [0, -28]
+});
+const attackOriginIcon = L.icon({
+  iconUrl: 'atack.png',
+  iconSize: [28, 28],   // ajusta tamaño si lo prefieres
+  iconAnchor: [14, 14]  // el centro del icono
+});
+const gruposPaisOrigen = {
+  "0mega": "RU",
+  "8base": "RU",
+  "akira": "RU",
+  "avaddon": "RU",
+  "babuk": "RU",
+  "bianlian": "CN",
+  "black basta": "RU",
+  "blackcat": "RU",
+  "blacksuit": "RU",
+  "cl0p": "RU",
+  "conti": "RU",
+  "cuba": "RU",
+  "darkangels": "RU",
+  "darkside": "RU",
+  "dharma": "RU",
+  "donex": "RU",
+  "dragonforce": "MY",
+  "everest": "RU",
+  "hellokitty": "RU",
+  "helloxd": "CN",
+  "hive": "RU",
+  "hunters": "RU",
+  "kelvinsecurity": "AR",
+  "lockbit": "RU",
+  "lockbit3": "RU",
+  "lorenz": "RU",
+  "malaslocker": "CN",
+  "medusa": "RU",
+  "midas": "BR",
+  "netwalker": "RU",
+  "noescape": "RU",
+  "play": "RU",
+  "quantum": "RU",
+  "ra group": "RU",
+  "revil": "RU",
+  "ragnar locker": "RU",
+  "ragnarok": "IN",
+  "ransomexx": "RU",
+  "ransomhouse": "RU",
+  "ransomhub": "RU",
+  "rook": "CN",
+  "royal": "RU",
+  "snatch": "RU",
+  "stormous": "SY",
+  "suncrypt": "RU",
+  "trigona": "RU",
+  "qilin": "RU",
+  "safepay": "RU",
+  "ghost": "CN",
+  "devman": "RU",
+  "crypto24": "RU",
+  "silent": "RU",
+  "bert": "RU",
+  "gunra": "RU",
+  "warlock": "RU",
+  "teamxxx": "??",
+  "kawa4096": "??",
+  "lynx": "RU",
+  "bitter scorpius": "RU",
+  "bling libra": "FR",
+  "dprk": "KP",
+  "fiddling scorpius": "RU",
+  "inc ransomware": "RU",
+  "jumpy pisces": "KP",
+  "shinyhunters": "FR",
+  "crypto414": "??",
+  "microsan": "??",
+  "inc ransom": "RU",
+  "vice society": "RU",
+  "luna moth": "RU",
+  "unc3753": "RU",
+  "chatty spider": "RU",
+  "water pombero": "RU",
+  "kawalocker": "??",
+  "andariel": "KP",
+  "gold ionic": "RU",
+  "agenda": "RU",
+  "cactus": "RU",
+  "nokoyawa": "RU",
+  "moses staff": "IR",
+  "mallox": "RU",
+  "monti": "RU",
+  "abyss": "RU",
+  "money message": "RU",
+  "redalert": "RU",
+  "project relic": "KP",
+  "rancoz": "RU"
+}
+
+async function cargarAtaques() {
+  attackMarkers.forEach(m => map.removeLayer(m));
+  attackMarkers = [];
+  const lista = document.getElementById('lista-ataques');
+  lista.innerHTML = '<li>Cargando datos...</li>';
+
+  try {
+    const resp = await fetch('/.netlify/functions/ransomware');
+    const data = await resp.json();
+    if (data && data.error) {
+      lista.innerHTML = `<li class="error-msg">${data.error}</li>`;
+      return;
+    }
+    if (!Array.isArray(data) || data.length === 0) {
+      lista.innerHTML = '<li class="ok-msg">No hay ataques recientes registrados.</li>';
+      return;
+    }
+
+    // 1. Agrupa ataques por país de origen
+    const origenStats = {};
+    data.forEach(ataque => {
+      if (
+        ataque.group &&
+        gruposPaisOrigen[ataque.group.toLowerCase()] &&
+        countryCoords[gruposPaisOrigen[ataque.group.toLowerCase()]] &&
+        ataque.country
+      ) {
+        const origen = gruposPaisOrigen[ataque.group.toLowerCase()];
+        if (!origenStats[origen]) {
+          origenStats[origen] = {
+            grupos: new Set(),
+            ataques: 0,
+            destinos: new Set()
+          };
+        }
+        origenStats[origen].grupos.add(ataque.group);
+        origenStats[origen].ataques++;
+        origenStats[origen].destinos.add(ataque.country);
+      }
+    });
+
+    // 2. Panel lateral, markers de víctima y flechas
+    lista.innerHTML = "";
+    data.slice(0, 25).forEach(ataque => {
+      const pais = ataque.country || "-";
+      // Panel lateral
+      const li = document.createElement('li');
+      li.innerHTML = `<b>${ataque.victim || "Desconocido"}</b>
+        <span style="opacity:0.7;">(${pais})</span>
+        <br><small>${ataque.title || ""}</small>`;
+      lista.appendChild(li);
+
+    // 4. Agrupar ataques recibidos por país (para capa azul)
+    const ataquesPorPais = {};
+    data.forEach(ataque => {
+      if (ataque.country) {
+        const code = ataque.country.toUpperCase();
+        ataquesPorPais[code] = (ataquesPorPais[code] || 0) + 1;
+      }
+    });
+
+    // 5. Choropleth magenta (países de origen)
+    const paisesOrigen = {};
+    Object.entries(origenStats).forEach(([codigoPais, info]) => {
+      paisesOrigen[codigoPais] = info.ataques;
+    });
+
+    // 6. Pintar choropleth (azul) de países atacados Y pasar paisesOrigen como parámetro
+    pintarMapaChoropleth(ataquesPorPais, paisesOrigen);
+
+    // 7. Choropleth magenta
+    const respMagenta = await fetch('/countries.geojson');
+    const worldGeoMagenta = await respMagenta.json();
+    const maxAtaquesOrigen = Math.max(...Object.values(paisesOrigen), 1);
+
+    if (magentaLayer) {
+      map.removeLayer(magentaLayer);
+    }
+    magentaLayer = L.geoJSON(worldGeoMagenta, {
+      style: feature => {
+        const code = feature.properties["ISO3166-1-Alpha-2"] ? feature.properties["ISO3166-1-Alpha-2"].toUpperCase() : null;
+        const n = code ? (paisesOrigen[code] || 0) : 0;
+        const { fillColor, fillOpacity } = colorYOpacidadMagenta(n, maxAtaquesOrigen);
+        if (!fillColor) return { fillOpacity: 0, color: "#22242a", weight: 1.3 };
+        return {
+          fillColor: fillColor,
+          fillOpacity: fillOpacity,
+          color: "#ff6fff",
+          weight: 2.1,
+          opacity: 0.8
+        };
+      }
+    }).addTo(map);
+
+    // Trae la capa azul al frente para que funcione el tooltip
+    if (geojsonLayer) geojsonLayer.bringToFront();
+
+  } catch (e) {
+    lista.innerHTML = `<li class="error-msg">Error de conexión con el servidor.<br><span style="font-size:0.92em;">${e.message || e}</span></li>`;
+  }
+}
+
+cargarAtaques();
+setInterval(cargarAtaques, 4 * 60 * 1000);
+
+// Panel lateral cerrado de inicio y botón menú
+document.getElementById("ataques-ransomware").style.display = "none";
+document.getElementById("btn-toggle-lista").onclick = function() {
+  const panel = document.getElementById("ataques-ransomware");
+  panel.style.display = (panel.style.display === "none" ? "block" : "none");
+};
+</script>
+</body>
+</html>
