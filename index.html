@@ -416,9 +416,6 @@ async function pintarMapaChoropleth(ataquesPorPais, paisesOrigen = {}) {
 
   const maxAtaques = Math.max(...Object.values(ataquesPorPaisNorm), 1);
 
-  console.log("DEBUG: ataquesPorPaisNorm:", ataquesPorPaisNorm);
-  console.log("DEBUG: maxAtaques:", maxAtaques);
-
   geojsonLayer = L.geoJSON(worldGeo, {
     style: feature => {
       const code = feature.properties["ISO3166-1-Alpha-2"] 
@@ -427,7 +424,7 @@ async function pintarMapaChoropleth(ataquesPorPais, paisesOrigen = {}) {
       const n = code ? (ataquesPorPaisNorm[code] || 0) : 0;
       const { fillColor, fillOpacity } = colorYOpacidad(n, maxAtaques);
 
-      console.log("AZUL - code:", code, "n:", n, "fillColor:", fillColor, "fillOpacity:", fillOpacity);
+fillOpacity);
 
       if (!fillColor) return { fillOpacity: 0, color: "#22242a", weight: 1.3 };
       return {
@@ -474,7 +471,7 @@ onEachFeature: (feature, layer) => {
   }
 
   layer.bindPopup(popupHtml);
-  console.log("Popup activos: " + code);
+
 }
 
   }).addTo(map);
