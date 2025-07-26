@@ -555,11 +555,11 @@ geojsonLayer = L.geoJSON(worldGeo, {
     });
 
     // 4. Agrupar ataques recibidos por país (para capa azul)
-    const ataquesPorPais = {};
+    const ataquesPorPaisLocal = {};
     data.forEach(ataque => {
       if (ataque.country) {
         const code = ataque.country.toUpperCase();
-        ataquesPorPais[code] = (ataquesPorPais[code] || 0) + 1;
+        ataquesPorPaisLocal[code] = (ataquesPorPaisLocal[code] || 0) + 1;
       }
     });
 
@@ -570,7 +570,7 @@ geojsonLayer = L.geoJSON(worldGeo, {
     });
 
     // 6. Pintar choropleth (azul) de países atacados Y pasar paisesOrigen como parámetro
-    pintarMapaChoropleth(ataquesPorPais, paisesOrigen);
+    pintarMapaChoropleth(ataquesPorPaisLocal, paisesOrigen);
 
     // 7. Choropleth magenta
     const respMagenta = await fetch('/countries.geojson');
