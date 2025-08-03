@@ -434,37 +434,8 @@ async function pintarMapaChoropleth(ataquesPorPais, paisesOrigen = {}) {
     },
     
 onEachFeature: (feature, layer) => {
-  const code = feature.properties["ISO3166-1-Alpha-2"]?.toUpperCase() || "";
-  const nombre = feature.properties.ADMIN || "";
-
-  const recibido = ataquesPorPais[code] || 0;
-  const enviado = origenStats?.[code] || { ataques: 0, grupos: new Set(), destinos: new Set() };
-  const ultimos = ultimosAtaquesPorPais?.[code] || [];
-  const ultimoAtaque = ultimos.length ? ultimos[ultimos.length - 1] : null;
-
-  let popupHtml = `<b>Código de país:</b> ${code} (${nombre})<br>`;
-
-  if (enviado.ataques > 0) {
-    popupHtml += `<b>ENVIADO:</b><br>`;
-    popupHtml += `Ataques lanzados: ${enviado.ataques}<br>`;
-    popupHtml += `Grupos activos: ${Array.from(enviado.grupos).join(", ") || "–"}<br>`;
-    popupHtml += `Destinos atacados: ${Array.from(enviado.destinos).join(", ") || "–"}<br><br>`;
-  }
-
-  if (recibido > 0) {
-    popupHtml += `<b>RECIBIDO:</b><br>`;
-    popupHtml += `Ataques recibidos: ${recibido}<br>`;
-    if (ultimoAtaque) {
-      popupHtml += `Fecha del último ataque recibido: ${ultimoAtaque.attackdate || "?"}<br>`;
-      popupHtml += `Grupo responsable: ${ultimoAtaque.group || "?"}<br>`;
-      if (ultimoAtaque.screenshot) {
-        popupHtml += `<img src="${ultimoAtaque.screenshot}" width="200"><br>`;
-      }
-      popupHtml += `<a href="${ultimoAtaque.link}" target="_blank">Ver último ataque</a><br>`;
-    }
-  }
-
-  layer.bindPopup(popupHtml);
+  const popup = generarPopupPorPais(feature);
+  if (popup) layer.bindPopup(popup);
 },
 
   }).addTo(map);
