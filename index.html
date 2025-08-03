@@ -443,7 +443,7 @@ function generarPopupPorPais(feature) {
 }
 
 
-async function pintarMapaChoropleth\(ataquesPorPais, paisesOrigen = {}\) {
+async function pintarMapaChoropleth(ataquesPorPais, paisesOrigen = {}) {
   if (geojsonLayer) map.removeLayer(geojsonLayer);
   const resp = await fetch('/countries.geojson');
   const worldGeo = await resp.json();
