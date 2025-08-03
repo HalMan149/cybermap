@@ -429,8 +429,8 @@ function generarPopupPorPais(feature) {
 
   if (enviado.ataques > 0) {
     popupHtml += `<b>ENVIADO:</b><br>`;
-    popupHtml += `Ataques lanzados: ${enviado.ataques}<br>`;
-    popupHtml += `Grupos activos: ${Array.from(enviado.grupos).join(", ") || "-"}<br>`;
+    popupHtml += `<b>Ataques lanzados:</b> ${enviado.ataques}<br>`;
+    popupHtml += `<b>Grupos activos:</b> ${Array.from(enviado.grupos).join(", ") || "-"}<br>`;
     popupHtml += `Destinos atacados: ${Array.from(enviado.destinos).join(", ") || "-"}<br><br>`;
   }
 
