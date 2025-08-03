@@ -84,6 +84,8 @@
 var origenStats = typeof origenStats !== "undefined" ? origenStats : {};
 var ataquesPorPais = typeof ataquesPorPais !== "undefined" ? ataquesPorPais : {};
 var ultimosAtaquesPorPais = typeof ultimosAtaquesPorPais !== "undefined" ? ultimosAtaquesPorPais : {};
+var gruposAtacantesPorPais = typeof gruposAtacantesPorPais !== "undefined" ? gruposAtacantesPorPais : {};
+
 // ========== INICIALIZACIÓN DEL MAPA Y CAPAS ==========
 const CENTER = [38.3373, -0.5266];
 const ZOOM = 3;
@@ -428,7 +430,8 @@ function generarPopupPorPais(feature) {
 
   if (recibido > 0) {
     popupHtml += `<b>RECIBIDO:</b><br>`;
-    popupHtml += `Ataques recibidos: ${recibido}<br>`;
+    if (gruposAtacantesPorPais[code]) popupHtml += `Grupos atacantes: ${Array.from(gruposAtacantesPorPais[code]).join(\", \")}<br>`;
+  popupHtml += `Ataques recibidos: ${recibido}<br>`;
     if (ultimoAtaque) {
       popupHtml += `Fecha/Hora del último ataque recibido: ${ultimoAtaque.attackdate}<br>`;
       popupHtml += `Grupos atacantes: ${ultimoAtaque.group || "-"}<br>`;
@@ -639,9 +642,15 @@ async function cargarAtaques() {
     Object.keys(ataquesPorPais).forEach(k => delete ataquesPorPais[k]);
     data.forEach(ataque => {
       
-      if (ataque.country) {
+      
+      if (ataque.country && ataque.group) {
         const code = ataque.country.toUpperCase();
-        if (!ultimosAtaquesPorPais[code]) {
+        if (!gruposAtacantesPorPais[code]) gruposAtacantesPorPais[code] = new Set();
+        gruposAtacantesPorPais[code].add(ataque.group);
+      }
+if (ataque.country) {
+        const code = ataque.country.toUpperCase();
+        if (!ultimosAtaquesPorPais[code] {
           ultimosAtaquesPorPais[code] = [];
         }
         ultimosAtaquesPorPais[code].push(ataque);
@@ -685,7 +694,8 @@ function generarPopupPorPais(feature) {
 
   if (recibido > 0) {
     popupHtml += `<b>RECIBIDO:</b><br>`;
-    popupHtml += `Ataques recibidos: ${recibido}<br>`;
+    if (gruposAtacantesPorPais[code]) popupHtml += `Grupos atacantes: ${Array.from(gruposAtacantesPorPais[code]).join(\", \")}<br>`;
+  popupHtml += `Ataques recibidos: ${recibido}<br>`;
     if (ultimoAtaque) {
       popupHtml += `Fecha/Hora del último ataque recibido: ${ultimoAtaque.attackdate}<br>`;
       popupHtml += `Grupos atacantes: ${ultimoAtaque.group || "-"}<br>`;

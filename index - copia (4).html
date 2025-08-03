@@ -404,6 +404,45 @@ function colorYOpacidadMagenta(count, max) {
   return { fillColor: "#61004b", fillOpacity: 0.66 };
 }
 
+
+function generarPopupPorPais(feature) {
+  const code = feature.properties["ISO3166-1-Alpha-2"]?.toUpperCase() || "";
+  const nombre = feature.properties.ADMIN || code;
+
+  const enviado = origenStats?.[code] || { ataques: 0, grupos: new Set(), destinos: new Set() };
+  const recibido = ataquesPorPais?.[code] || 0;
+
+  const ultimos = ultimosAtaquesPorPais?.[code] || [];
+  const ultimoAtaque = ultimos.length > 0 ? ultimos[ultimos.length - 1] : null;
+
+  if (enviado.ataques === 0 && recibido === 0) return null;
+
+  let popupHtml = `<b>Código de país:</b> ${code} (${nombre})<br>`;
+
+  if (enviado.ataques > 0) {
+    popupHtml += `<b>ENVIADO:</b><br>`;
+    popupHtml += `Ataques lanzados: ${enviado.ataques}<br>`;
+    popupHtml += `Grupos activos: ${Array.from(enviado.grupos).join(", ") || "-"}<br>`;
+    popupHtml += `Destinos atacados: ${Array.from(enviado.destinos).join(", ") || "-"}<br><br>`;
+  }
+
+  if (recibido > 0) {
+    popupHtml += `<b>RECIBIDO:</b><br>`;
+    popupHtml += `Ataques recibidos: ${recibido}<br>`;
+    if (ultimoAtaque) {
+      popupHtml += `Fecha/Hora del último ataque recibido: ${ultimoAtaque.attackdate}<br>`;
+      popupHtml += `Grupos atacantes: ${ultimoAtaque.group || "-"}<br>`;
+      if (ultimoAtaque.screenshot)
+        popupHtml += `<img src="${ultimoAtaque.screenshot}" width="200"><br>`;
+      if (ultimoAtaque.url)
+        popupHtml += `<a href="${ultimoAtaque.url}" target="_blank">Ver último ataque</a><br>`;
+    }
+  }
+
+  return popupHtml;
+}
+
+
 async function pintarMapaChoropleth(ataquesPorPais, paisesOrigen = {}) {
   if (geojsonLayer) map.removeLayer(geojsonLayer);
   const resp = await fetch('/countries.geojson');
@@ -434,42 +473,9 @@ async function pintarMapaChoropleth(ataquesPorPais, paisesOrigen = {}) {
     },
     
 onEachFeature: (feature, layer) => {
-  const code = feature.properties["ISO3166-1-Alpha-2"]?.toUpperCase() || "";
-  const nombre = feature.properties.ADMIN || code;
-
-  const enviado = origenStats?.[code] || { ataques: 0, grupos: new Set(), destinos: new Set() };
-  const recibido = ataquesPorPais?.[code] || 0;
-
-  const ultimos = ultimosAtaquesPorPais?.[code] || [];
-  const ultimoAtaque = ultimos.length > 0 ? ultimos[ultimos.length - 1] : null;
-
-  if (enviado.ataques === 0 && recibido === 0) return;
-
-  let popupHtml = `<b>Código de país:</b> ${code}<br>`;
-
-  if (enviado.ataques > 0) {
-    popupHtml += `<b>ENVIADO:</b><br>`;
-    popupHtml += `Ataques lanzados: ${enviado.ataques}<br>`;
-    popupHtml += `Grupos activos: ${Array.from(enviado.grupos).join(", ") || "-"}<br>`;
-    popupHtml += `Destinos atacados: ${Array.from(enviado.destinos).join(", ") || "-"}<br><br>`;
-  }
-
-  if (recibido > 0) {
-    popupHtml += `<b>RECIBIDO:</b><br>`;
-    popupHtml += `Ataques recibidos: ${recibido}<br>`;
-    if (ultimoAtaque) {
-      popupHtml += `Fecha/Hora del último ataque recibido: ${ultimoAtaque.attackdate}<br>`;
-      popupHtml += `Grupos atacantes: ${ultimoAtaque.group || "-"}<br>`;
-      if (ultimoAtaque.screenshot)
-        popupHtml += `<img src="${ultimoAtaque.screenshot}" width="200"><br>`;
-      if (ultimoAtaque.url)
-        popupHtml += `<a href="${ultimoAtaque.url}" target="_blank">Ver último ataque</a><br>`;
-    }
-  }
-
-  layer.bindPopup(popupHtml);
-
-}
+  const popup = generarPopupPorPais(feature);
+  if (popup) layer.bindPopup(popup);
+},
 
   }).addTo(map);
 }
@@ -632,7 +638,15 @@ async function cargarAtaques() {
     // 4. Agrupar ataques recibidos por país (para capa azul)
     Object.keys(ataquesPorPais).forEach(k => delete ataquesPorPais[k]);
     data.forEach(ataque => {
+      
       if (ataque.country) {
+        const code = ataque.country.toUpperCase();
+        if (!ultimosAtaquesPorPais[code]) {
+          ultimosAtaquesPorPais[code] = [];
+        }
+        ultimosAtaquesPorPais[code].push(ataque);
+      }
+if (ataque.country) {
         const code = ataque.country.toUpperCase();
         ataquesPorPais[code] = (ataquesPorPais[code] || 0) + 1;
       }
