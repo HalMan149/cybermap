@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="es">
 <head>
   <script src="https://cdn.jsdelivr.net/npm/luxon@3/build/global/luxon.min.js"></script>
@@ -85,6 +84,8 @@
 var origenStats = typeof origenStats !== "undefined" ? origenStats : {};
 var ataquesPorPais = typeof ataquesPorPais !== "undefined" ? ataquesPorPais : {};
 var ultimosAtaquesPorPais = typeof ultimosAtaquesPorPais !== "undefined" ? ultimosAtaquesPorPais : {};
+var gruposAtacantesPorPais = typeof gruposAtacantesPorPais !== "undefined" ? gruposAtacantesPorPais : {};
+
 var gruposAtacantesPorPais = typeof gruposAtacantesPorPais !== "undefined" ? gruposAtacantesPorPais : {};
 
 // ========== INICIALIZACIÓN DEL MAPA Y CAPAS ==========
@@ -408,6 +409,10 @@ function colorYOpacidadMagenta(count, max) {
 }
 
 
+
+
+
+
 function generarPopupPorPais(feature) {
   const code = feature.properties["ISO3166-1-Alpha-2"]?.toUpperCase() || "";
   const nombre = feature.properties.ADMIN || code;
@@ -431,11 +436,11 @@ function generarPopupPorPais(feature) {
 
   if (recibido > 0) {
     popupHtml += `<b>RECIBIDO:</b><br>`;
-    if (gruposAtacantesPorPais[code]) popupHtml += `Grupos atacantes: ${Array.from(gruposAtacantesPorPais[code]).join(\", \")}<br>`;
-  popupHtml += `Ataques recibidos: ${recibido}<br>`;
+    popupHtml += `Ataques recibidos: ${recibido}<br>`;
+    if (gruposAtacantesPorPais[code])
+      popupHtml += `Grupos atacantes: ${Array.from(gruposAtacantesPorPais[code]).join(", ")}<br>`;
     if (ultimoAtaque) {
       popupHtml += `Fecha/Hora del último ataque recibido: ${ultimoAtaque.attackdate}<br>`;
-      popupHtml += `Grupos atacantes: ${ultimoAtaque.group || "-"}<br>`;
       if (ultimoAtaque.screenshot)
         popupHtml += `<img src="${ultimoAtaque.screenshot}" width="200"><br>`;
       if (ultimoAtaque.url)
@@ -608,7 +613,13 @@ async function cargarAtaques() {
     // 1. Agrupa ataques por país de origen
     Object.keys(origenStats).forEach(k => delete origenStats[k]);
     data.forEach(ataque => {
-      if (
+      
+      if (ataque.country && ataque.group) {
+        const code = ataque.country.toUpperCase();
+        if (!gruposAtacantesPorPais[code]) gruposAtacantesPorPais[code] = new Set();
+        gruposAtacantesPorPais[code].add(ataque.group);
+      }
+if (
         ataque.group &&
         gruposPaisOrigen[ataque.group.toLowerCase()] &&
         countryCoords[gruposPaisOrigen[ataque.group.toLowerCase()]] &&
@@ -644,16 +655,30 @@ async function cargarAtaques() {
     data.forEach(ataque => {
       
       
+      
       if (ataque.country && ataque.group) {
         const code = ataque.country.toUpperCase();
         if (!gruposAtacantesPorPais[code]) gruposAtacantesPorPais[code] = new Set();
         gruposAtacantesPorPais[code].add(ataque.group);
       }
-if (ataque.country) {
+if (ataque.country && ataque.group) {
+        const code = ataque.country.toUpperCase();
+        if (!gruposAtacantesPorPais[code]) gruposAtacantesPorPais[code] = new Set();
+        gruposAtacantesPorPais[code].add(ataque.group);
+      }
+
+      if (ataque.country) {
         const code = ataque.country.toUpperCase();
         if (!ultimosAtaquesPorPais[code] {
           ultimosAtaquesPorPais[code] = [];
         }
+      if (ataque.country) {
+        const code = ataque.country.toUpperCase();
+        if (!ultimosAtaquesPorPais[code]) {
+          ultimosAtaquesPorPais[code] = [];
+        }
+        ultimosAtaquesPorPais[code].push(ataque);
+      }
         ultimosAtaquesPorPais[code].push(ataque);
       }
 if (ataque.country) {
@@ -672,43 +697,7 @@ if (ataque.country) {
     pintarMapaChoropleth(ataquesPorPais, paisesOrigen);
 
     
-function generarPopupPorPais(feature) {
-  const code = feature.properties["ISO3166-1-Alpha-2"]?.toUpperCase() || "";
-  const nombre = feature.properties.ADMIN || code;
 
-  const enviado = origenStats?.[code] || { ataques: 0, grupos: new Set(), destinos: new Set() };
-  const recibido = ataquesPorPais?.[code] || 0;
-
-  const ultimos = ultimosAtaquesPorPais?.[code] || [];
-  const ultimoAtaque = ultimos.length > 0 ? ultimos[ultimos.length - 1] : null;
-
-  if (enviado.ataques === 0 && recibido === 0) return null;
-
-  let popupHtml = `<b>Código de país:</b> ${code} (${nombre})<br>`;
-
-  if (enviado.ataques > 0) {
-    popupHtml += `<b>ENVIADO:</b><br>`;
-    popupHtml += `Ataques lanzados: ${enviado.ataques}<br>`;
-    popupHtml += `Grupos activos: ${Array.from(enviado.grupos).join(", ") || "-"}<br>`;
-    popupHtml += `Destinos atacados: ${Array.from(enviado.destinos).join(", ") || "-"}<br><br>`;
-  }
-
-  if (recibido > 0) {
-    popupHtml += `<b>RECIBIDO:</b><br>`;
-    if (gruposAtacantesPorPais[code]) popupHtml += `Grupos atacantes: ${Array.from(gruposAtacantesPorPais[code]).join(\", \")}<br>`;
-  popupHtml += `Ataques recibidos: ${recibido}<br>`;
-    if (ultimoAtaque) {
-      popupHtml += `Fecha/Hora del último ataque recibido: ${ultimoAtaque.attackdate}<br>`;
-      popupHtml += `Grupos atacantes: ${ultimoAtaque.group || "-"}<br>`;
-      if (ultimoAtaque.screenshot)
-        popupHtml += `<img src="${ultimoAtaque.screenshot}" width="200"><br>`;
-      if (ultimoAtaque.url)
-        popupHtml += `<a href="${ultimoAtaque.url}" target="_blank">Ver último ataque</a><br>`;
-    }
-  }
-
-  return popupHtml;
-}
 
 // 7. Choropleth magenta
     const respMagenta = await fetch('/countries.geojson');
