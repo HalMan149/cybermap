@@ -629,7 +629,7 @@ async function cargarAtaques() {
         <br><small>${ataque.title || ""}</small>`;
       lista.appendChild(li);
    });
-
+    
 // 4. Agrupar ataques recibidos por país (para capa azul)
 Object.keys(ataquesPorPais).forEach(k => delete ataquesPorPais[k]);
 Object.keys(ultimosAtaquesPorPais).forEach(k => delete ultimosAtaquesPorPais[k]);
@@ -662,7 +662,7 @@ data.forEach(ataque => {
   }
 });
 
-    // 5. Choropleth magenta (países de origen)
+// 5. Choropleth magenta (países de origen)
     const paisesOrigen = {};
     Object.entries(origenStats).forEach(([codigoPais, info]) => {
       paisesOrigen[codigoPais] = info.ataques;
