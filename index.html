@@ -377,7 +377,9 @@ setInterval(lanzarTicker, 15 * 60 * 1000);
 
 let geojsonLayer;
 let attackMarkers = [];
-
+const origenStats = {};
+const ataquesPorPais = {};
+const ultimosAtaquesPorPais = {};
 const countryCoords = {
   "US": [39.8, -98.6], "JP": [36.2, 138.2], "FR": [46.6, 2.6], "GB": [54.8, -4.6], "DE": [51.2, 10.5],
   "IT": [42.9, 12.7], "IL": [31.4, 34.9], "TH": [15.8, 100.5], "RU": [61.5, 105.3], "ES": [40.4, -3.7],
@@ -585,6 +587,8 @@ async function cargarAtaques() {
   try {
     const resp = await fetch('/.netlify/functions/ransomware');
     const data = await resp.json();
+    Object.keys(ultimosAtaquesPorPais).forEach(k => delete ultimosAtaquesPorPais[k]);
+
     if (data && data.error) {
       lista.innerHTML = `<li class="error-msg">${data.error}</li>`;
       return;
@@ -595,7 +599,7 @@ async function cargarAtaques() {
     }
 
     // 1. Agrupa ataques por país de origen
-    const origenStats = {};
+    Object.keys(origenStats).forEach(k => delete origenStats[k]);
     data.forEach(ataque => {
       if (
         ataque.group &&
@@ -629,7 +633,7 @@ async function cargarAtaques() {
       lista.appendChild(li);
    });
     // 4. Agrupar ataques recibidos por país (para capa azul)
-    const ataquesPorPais = {};
+    Object.keys(ataquesPorPais).forEach(k => delete ataquesPorPais[k]);
     data.forEach(ataque => {
       if (ataque.country) {
         const code = ataque.country.toUpperCase();
