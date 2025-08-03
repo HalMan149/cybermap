@@ -436,9 +436,9 @@ function generarPopupPorPais(feature) {
 
   if (recibido > 0) {
     popupHtml += `<b>RECIBIDO:</b><br>`;
-    popupHtml += `<b>Ataques recibidos:</b> ${recibido}<br>`;
+    popupHtml += `Ataques recibidos: ${recibido}<br>`;
     if (gruposAtacantesPorPais[code])
-      popupHtml += `<b>Grupos atacantes:</b> ${Array.from(gruposAtacantesPorPais[code]).join(", ")}<br>`;
+      popupHtml += `Grupos atacantes: ${Array.from(gruposAtacantesPorPais[code]).join(", ")}<br>`;
     if (ultimoAtaque) {
       popupHtml += `Fecha/Hora del último ataque recibido: ${ultimoAtaque.attackdate}<br>`;
       if (ultimoAtaque.screenshot)
