@@ -377,6 +377,8 @@ setInterval(lanzarTicker, 15 * 60 * 1000);
 
 let geojsonLayer;
 let attackMarkers = [];
+const ataquesPorPais = {};
+const ultimosAtaquesPorPais = {};
 const countryCoords = {
   "US": [39.8, -98.6], "JP": [36.2, 138.2], "FR": [46.6, 2.6], "GB": [54.8, -4.6], "DE": [51.2, 10.5],
   "IT": [42.9, 12.7], "IL": [31.4, 34.9], "TH": [15.8, 100.5], "RU": [61.5, 105.3], "ES": [40.4, -3.7],
@@ -432,6 +434,34 @@ async function pintarMapaChoropleth(ataquesPorPais, paisesOrigen = {}) {
         opacity: 0.6
       };
     },
+  onEachFeature: (feature, layer) => {
+    const code = feature.properties["ISO3166-1-Alpha-2"]?.toUpperCase();
+    const countryName = feature.properties["NAME"] || "Desconocido";
+    const ataques = ataquesPorPaisNorm[code] || 0;
+    const data = ultimosAtaquesPorPais[code] || [];
+
+    let grupos = new Set();
+    let origenes = new Set();
+    let ultimos = [];
+
+    data.forEach(a => {
+      if (a.group) grupos.add(a.group);
+      if (a.origin) origenes.add(a.origin);
+      ultimos.push(a.victim || a.target || "¿?");
+    });
+
+    let html = `
+      <b>Código de país:</b> ${code} (${countryName})<br>
+      <b>RECIBIDO:</b><br>
+      Ataques recibidos: ${ataques}<br>
+    `;
+
+    if (origenes.size) html += `Países de origen: ${[...origenes].join(", ")}<br>`;
+    if (grupos.size) html += `Grupos atacantes: ${[...grupos].join(", ")}<br>`;
+    if (ultimos.length) html += `Últimos objetivos: ${ultimos.slice(0, 3).join(", ")}<br>`;
+
+    layer.bindPopup(html);
+  },
     
 onEachFeature: (feature, layer) => {
   const code = feature.properties["ISO3166-1-Alpha-2"]?.toUpperCase() || "";
@@ -629,40 +659,16 @@ async function cargarAtaques() {
         <br><small>${ataque.title || ""}</small>`;
       lista.appendChild(li);
    });
-    
-// 4. Agrupar ataques recibidos por país (para capa azul)
-Object.keys(ataquesPorPais).forEach(k => delete ataquesPorPais[k]);
-Object.keys(ultimosAtaquesPorPais).forEach(k => delete ultimosAtaquesPorPais[k]);
+    // 4. Agrupar ataques recibidos por país (para capa azul)
+    Object.keys(ataquesPorPais).forEach(k => delete ataquesPorPais[k]);
+    data.forEach(ataque => {
+      if (ataque.country) {
+        const code = ataque.country.toUpperCase();
+        ataquesPorPais[code] = (ataquesPorPais[code] || 0) + 1;
+      }
+    });
 
-data.forEach(ataque => {
-  if (!ataque.country) return;
-  const code = ataque.country.toUpperCase();
-
-  // Total de ataques recibidos
-  ataquesPorPais[code] = (ataquesPorPais[code] || 0) + 1;
-
-  // Registrar el último ataque y su grupo
-  if (!ultimosAtaquesPorPais[code]) {
-    ultimosAtaquesPorPais[code] = {
-      total: 0,
-      ultimo: ataque,
-      grupos: new Set()
-    };
-  } else {
-    const actual = new Date(ultimosAtaquesPorPais[code].ultimo.attackdate || 0);
-    const nuevo = new Date(ataque.attackdate || 0);
-    if (nuevo > actual) {
-      ultimosAtaquesPorPais[code].ultimo = ataque;
-    }
-  }
-
-  ultimosAtaquesPorPais[code].total++;
-  if (ataque.group) {
-    ultimosAtaquesPorPais[code].grupos.add(ataque.group);
-  }
-});
-
-// 5. Choropleth magenta (países de origen)
+    // 5. Choropleth magenta (países de origen)
     const paisesOrigen = {};
     Object.entries(origenStats).forEach(([codigoPais, info]) => {
       paisesOrigen[codigoPais] = info.ataques;
