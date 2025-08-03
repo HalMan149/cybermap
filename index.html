@@ -638,7 +638,15 @@ async function cargarAtaques() {
     // 4. Agrupar ataques recibidos por país (para capa azul)
     Object.keys(ataquesPorPais).forEach(k => delete ataquesPorPais[k]);
     data.forEach(ataque => {
+      
       if (ataque.country) {
+        const code = ataque.country.toUpperCase();
+        if (!ultimosAtaquesPorPais[code]) {
+          ultimosAtaquesPorPais[code] = [];
+        }
+        ultimosAtaquesPorPais[code].push(ataque);
+      }
+if (ataque.country) {
         const code = ataque.country.toUpperCase();
         ataquesPorPais[code] = (ataquesPorPais[code] || 0) + 1;
       }
