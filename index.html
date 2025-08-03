@@ -692,21 +692,25 @@ function generarPopupPorPais(feature) {
     if (magentaLayer) {
       map.removeLayer(magentaLayer);
     }
-    magentaLayer = L.geoJSON(worldGeoMagenta, {
-      style: feature => {
-        const code = feature.properties["ISO3166-1-Alpha-2"] ? feature.properties["ISO3166-1-Alpha-2"].toUpperCase() : null;
-        const n = code ? (paisesOrigen[code] || 0) : 0;
-        const { fillColor, fillOpacity } = colorYOpacidadMagenta(n, maxAtaquesOrigen);
-        if (!fillColor) return { fillOpacity: 0, color: "#22242a", weight: 1.3 };
-        return {
-          fillColor: fillColor,
-          fillOpacity: fillOpacity,
-          color: "#ff6fff",
-          weight: 2.1,
-          opacity: 0.8
-        };
-      }
-    }).addTo(map);
+magentaLayer = L.geoJSON(worldGeoMagenta, {
+  style: feature => {
+    const code = feature.properties["ISO3166-1-Alpha-2"]?.toUpperCase() || "";
+    const n = code ? (paisesOrigen[code] || 0) : 0;
+    const { fillColor, fillOpacity } = colorYOpacidadMagenta(n, maxAtaquesOrigen);
+    if (!fillColor) return { fillOpacity: 0, color: "#22242a", weight: 1.3 };
+    return {
+      fillColor: fillColor,
+      fillOpacity: fillOpacity,
+      color: "#ff6fff",
+      weight: 2.1,
+      opacity: 0.8
+    };
+  },
+  onEachFeature: (feature, layer) => {
+    const popup = generarPopupPorPais(feature);
+    if (popup) layer.bindPopup(popup);
+  }
+}).addTo(map);
 
     // Trae la capa azul al frente para que funcione el tooltip
 if (geojsonLayer) geojsonLayer.bringToFront();
