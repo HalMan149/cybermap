@@ -629,38 +629,14 @@ async function cargarAtaques() {
         <br><small>${ataque.title || ""}</small>`;
       lista.appendChild(li);
    });
-
-// 4. Agrupar ataques recibidos por país (para capa azul)
-Object.keys(ataquesPorPais).forEach(k => delete ataquesPorPais[k]);
-Object.keys(ultimosAtaquesPorPais).forEach(k => delete ultimosAtaquesPorPais[k]);
-
-data.forEach(ataque => {
-  if (!ataque.country) return;
-  const code = ataque.country.toUpperCase();
-
-  // Total de ataques recibidos
-  ataquesPorPais[code] = (ataquesPorPais[code] || 0) + 1;
-
-  // Registrar el último ataque y su grupo
-  if (!ultimosAtaquesPorPais[code]) {
-    ultimosAtaquesPorPais[code] = {
-      total: 0,
-      ultimo: ataque,
-      grupos: new Set()
-    };
-  } else {
-    const actual = new Date(ultimosAtaquesPorPais[code].ultimo.attackdate || 0);
-    const nuevo = new Date(ataque.attackdate || 0);
-    if (nuevo > actual) {
-      ultimosAtaquesPorPais[code].ultimo = ataque;
-    }
-  }
-
-  ultimosAtaquesPorPais[code].total++;
-  if (ataque.group) {
-    ultimosAtaquesPorPais[code].grupos.add(ataque.group);
-  }
-});
+    // 4. Agrupar ataques recibidos por país (para capa azul)
+    Object.keys(ataquesPorPais).forEach(k => delete ataquesPorPais[k]);
+    data.forEach(ataque => {
+      if (ataque.country) {
+        const code = ataque.country.toUpperCase();
+        ataquesPorPais[code] = (ataquesPorPais[code] || 0) + 1;
+      }
+    });
 
     // 5. Choropleth magenta (países de origen)
     const paisesOrigen = {};
