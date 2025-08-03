@@ -404,7 +404,46 @@ function colorYOpacidadMagenta(count, max) {
   return { fillColor: "#61004b", fillOpacity: 0.66 };
 }
 
-async function pintarMapaChoropleth(ataquesPorPais, paisesOrigen = {}) {
+
+function generarPopupPorPais(feature) {
+  const code = feature.properties["ISO3166-1-Alpha-2"]?.toUpperCase() || "";
+  const nombre = feature.properties.ADMIN || code;
+
+  const enviado = origenStats?.[code] || { ataques: 0, grupos: new Set(), destinos: new Set() };
+  const recibido = ataquesPorPais?.[code] || 0;
+
+  const ultimos = ultimosAtaquesPorPais?.[code] || [];
+  const ultimoAtaque = ultimos.length > 0 ? ultimos[ultimos.length - 1] : null;
+
+  if (enviado.ataques === 0 && recibido === 0) return null;
+
+  let popupHtml = `<b>Código de país:</b> ${code} (${nombre})<br>`;
+
+  if (enviado.ataques > 0) {
+    popupHtml += `<b>ENVIADO:</b><br>`;
+    popupHtml += `Ataques lanzados: ${enviado.ataques}<br>`;
+    popupHtml += `Grupos activos: ${Array.from(enviado.grupos).join(", ") || "-"}<br>`;
+    popupHtml += `Destinos atacados: ${Array.from(enviado.destinos).join(", ") || "-"}<br><br>`;
+  }
+
+  if (recibido > 0) {
+    popupHtml += `<b>RECIBIDO:</b><br>`;
+    popupHtml += `Ataques recibidos: ${recibido}<br>`;
+    if (ultimoAtaque) {
+      popupHtml += `Fecha/Hora del último ataque recibido: ${ultimoAtaque.attackdate}<br>`;
+      popupHtml += `Grupos atacantes: ${ultimoAtaque.group || "-"}<br>`;
+      if (ultimoAtaque.screenshot)
+        popupHtml += `<img src="${ultimoAtaque.screenshot}" width="200"><br>`;
+      if (ultimoAtaque.url)
+        popupHtml += `<a href="${ultimoAtaque.url}" target="_blank">Ver último ataque</a><br>`;
+    }
+  }
+
+  return popupHtml;
+}
+
+
+async function pintarMapaChoropleth\(ataquesPorPais, paisesOrigen = {}\) {
   if (geojsonLayer) map.removeLayer(geojsonLayer);
   const resp = await fetch('/countries.geojson');
   const worldGeo = await resp.json();
