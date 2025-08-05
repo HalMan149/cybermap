@@ -434,19 +434,19 @@ function generarPopupPorPais(feature) {
   let popupHtml = `<b>Código de país:</b> ${code} (${nombre})<br>`;
 
   if (enviado.ataques > 0) {
-    popupHtml += `<b>ENVIADO:</b><br>`;
+    popupHtml += `<b>ATAQUES:</b><br>`;
     popupHtml += `<b>Ataques lanzados:</b> ${enviado.ataques}<br>`;
     popupHtml += `<b>Grupos activos:</b> ${Array.from(enviado.grupos).join(", ") || "-"}<br>`;
     popupHtml += `<b>Destinos atacados:</b> ${Array.from(enviado.destinos).join(", ") || "-"}<br><br>`;
   }
 
   if (recibido > 0) {
-    popupHtml += `<b>RECIBIDO:</b><br>`;
+    popupHtml += `<b>ATACADO:</b><br>`;
     popupHtml += `<b>Ataques recibidos:</b> ${recibido}<br>`;
     if (gruposAtacantesPorPais[code])
       popupHtml += `<b>Grupos atacantes:</b> ${Array.from(gruposAtacantesPorPais[code]).join(", ")}<br>`;
     if (ultimoAtaque) {
-      popupHtml += `Fecha/Hora del último ataque recibido: ${ultimoAtaque.attackdate}<br>`;
+      popupHtml += `<b>Fecha/Hora del último ataque recibido:</b> ${ultimoAtaque.attackdate}<br>`;
       if (ultimoAtaque.screenshot)
         popupHtml += `<img src="${ultimoAtaque.screenshot}" width="200"><br>`;
       if (ultimoAtaque.url)
