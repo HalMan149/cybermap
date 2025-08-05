@@ -435,16 +435,16 @@ function generarPopupPorPais(feature) {
 
   if (enviado.ataques > 0) {
     popupHtml += `<b>ENVIADO:</b><br>`;
-    popupHtml += `Ataques lanzados: ${enviado.ataques}<br>`;
-    popupHtml += `Grupos activos: ${Array.from(enviado.grupos).join(", ") || "-"}<br>`;
-    popupHtml += `Destinos atacados: ${Array.from(enviado.destinos).join(", ") || "-"}<br><br>`;
+    popupHtml += `<b>Ataques lanzados:</b> ${enviado.ataques}<br>`;
+    popupHtml += `<b>Grupos activos:</b> ${Array.from(enviado.grupos).join(", ") || "-"}<br>`;
+    popupHtml += `<b>Destinos atacados:</b> ${Array.from(enviado.destinos).join(", ") || "-"}<br><br>`;
   }
 
   if (recibido > 0) {
     popupHtml += `<b>RECIBIDO:</b><br>`;
-    popupHtml += `Ataques recibidos: ${recibido}<br>`;
+    popupHtml += `<b>Ataques recibidos:</b> ${recibido}<br>`;
     if (gruposAtacantesPorPais[code])
-      popupHtml += `Grupos atacantes: ${Array.from(gruposAtacantesPorPais[code]).join(", ")}<br>`;
+      popupHtml += `<b>Grupos atacantes:</b> ${Array.from(gruposAtacantesPorPais[code]).join(", ")}<br>`;
     if (ultimoAtaque) {
       popupHtml += `Fecha/Hora del último ataque recibido: ${ultimoAtaque.attackdate}<br>`;
       if (ultimoAtaque.screenshot)
