@@ -84,6 +84,10 @@
 var origenStats = typeof origenStats !== "undefined" ? origenStats : {};
 var ataquesPorPais = typeof ataquesPorPais !== "undefined" ? ataquesPorPais : {};
 var ultimosAtaquesPorPais = typeof ultimosAtaquesPorPais !== "undefined" ? ultimosAtaquesPorPais : {};
+var gruposAtacantesPorPais = typeof gruposAtacantesPorPais !== "undefined" ? gruposAtacantesPorPais : {};
+
+var gruposAtacantesPorPais = typeof gruposAtacantesPorPais !== "undefined" ? gruposAtacantesPorPais : {};
+
 // ========== INICIALIZACIÓN DEL MAPA Y CAPAS ==========
 const CENTER = [38.3373, -0.5266];
 const ZOOM = 3;
@@ -318,9 +322,15 @@ const rssFeeds = [
 
 async function traducir(texto, idioma = "es") {
   const url = '/.netlify/functions/traducir?texto=' + encodeURIComponent(texto) + "&to=" + idioma;
-  const resp = await fetch(url);
-  const data = await resp.json();
-  return data.traduccion || texto;
+  try {
+    const resp = await fetch(url);
+    const contentType = resp.headers.get("content-type") || "";
+    if (!contentType.includes("application/json")) return texto;
+    const data = await resp.json();
+    return data.traduccion || texto;
+  } catch {
+    return texto;
+  }
 }
 
 async function lanzarTicker() {
@@ -377,7 +387,6 @@ setInterval(lanzarTicker, 15 * 60 * 1000);
 
 let geojsonLayer;
 let attackMarkers = [];
-
 const countryCoords = {
   "US": [39.8, -98.6], "JP": [36.2, 138.2], "FR": [46.6, 2.6], "GB": [54.8, -4.6], "DE": [51.2, 10.5],
   "IT": [42.9, 12.7], "IL": [31.4, 34.9], "TH": [15.8, 100.5], "RU": [61.5, 105.3], "ES": [40.4, -3.7],
@@ -404,6 +413,50 @@ function colorYOpacidadMagenta(count, max) {
   /* >= 20 ataques */
   return { fillColor: "#61004b", fillOpacity: 0.66 };
 }
+
+
+
+
+
+
+function generarPopupPorPais(feature) {
+  const code = feature.properties["ISO3166-1-Alpha-2"]?.toUpperCase() || "";
+  const nombre = feature.properties.ADMIN || code;
+
+  const enviado = origenStats?.[code] || { ataques: 0, grupos: new Set(), destinos: new Set() };
+  const recibido = ataquesPorPais?.[code] || 0;
+
+  const ultimos = ultimosAtaquesPorPais?.[code] || [];
+  const ultimoAtaque = ultimos.length > 0 ? ultimos[ultimos.length - 1] : null;
+
+  if (enviado.ataques === 0 && recibido === 0) return null;
+
+  let popupHtml = `<b>Código de país:</b> ${code} (${nombre})<br>`;
+
+  if (enviado.ataques > 0) {
+    popupHtml += `<b>ENVIADO:</b><br>`;
+    popupHtml += `Ataques lanzados: ${enviado.ataques}<br>`;
+    popupHtml += `Grupos activos: ${Array.from(enviado.grupos).join(", ") || "-"}<br>`;
+    popupHtml += `Destinos atacados: ${Array.from(enviado.destinos).join(", ") || "-"}<br><br>`;
+  }
+
+  if (recibido > 0) {
+    popupHtml += `<b>RECIBIDO:</b><br>`;
+    popupHtml += `Ataques recibidos: ${recibido}<br>`;
+    if (gruposAtacantesPorPais[code])
+      popupHtml += `Grupos atacantes: ${Array.from(gruposAtacantesPorPais[code]).join(", ")}<br>`;
+    if (ultimoAtaque) {
+      popupHtml += `Fecha/Hora del último ataque recibido: ${ultimoAtaque.attackdate}<br>`;
+      if (ultimoAtaque.screenshot)
+        popupHtml += `<img src="${ultimoAtaque.screenshot}" width="200"><br>`;
+      if (ultimoAtaque.url)
+        popupHtml += `<a href="${ultimoAtaque.url}" target="_blank">Ver último ataque</a><br>`;
+    }
+  }
+
+  return popupHtml;
+}
+
 
 async function pintarMapaChoropleth(ataquesPorPais, paisesOrigen = {}) {
   if (geojsonLayer) map.removeLayer(geojsonLayer);
@@ -435,42 +488,9 @@ async function pintarMapaChoropleth(ataquesPorPais, paisesOrigen = {}) {
     },
     
 onEachFeature: (feature, layer) => {
-  const code = feature.properties["ISO3166-1-Alpha-2"]?.toUpperCase() || "";
-  const nombre = feature.properties.ADMIN || code;
-
-  const enviado = origenStats?.[code] || { ataques: 0, grupos: new Set(), destinos: new Set() };
-  const recibido = ataquesPorPais?.[code] || 0;
-
-  const ultimos = ultimosAtaquesPorPais?.[code] || [];
-  const ultimoAtaque = ultimos.length > 0 ? ultimos[ultimos.length - 1] : null;
-
-  if (enviado.ataques === 0 && recibido === 0) return;
-
-  let popupHtml = `<b>Código de país:</b> ${code}<br>`;
-
-  if (enviado.ataques > 0) {
-    popupHtml += `<b>ENVIADO:</b><br>`;
-    popupHtml += `Ataques lanzados: ${enviado.ataques}<br>`;
-    popupHtml += `Grupos activos: ${Array.from(enviado.grupos).join(", ") || "-"}<br>`;
-    popupHtml += `Destinos atacados: ${Array.from(enviado.destinos).join(", ") || "-"}<br><br>`;
-  }
-
-  if (recibido > 0) {
-    popupHtml += `<b>RECIBIDO:</b><br>`;
-    popupHtml += `Ataques recibidos: ${recibido}<br>`;
-    if (ultimoAtaque) {
-      popupHtml += `Fecha/Hora del último ataque recibido: ${ultimoAtaque.attackdate}<br>`;
-      popupHtml += `Grupos atacantes: ${ultimoAtaque.group || "-"}<br>`;
-      if (ultimoAtaque.screenshot)
-        popupHtml += `<img src="${ultimoAtaque.screenshot}" width="200"><br>`;
-      if (ultimoAtaque.url)
-        popupHtml += `<a href="${ultimoAtaque.url}" target="_blank">Ver último ataque</a><br>`;
-    }
-  }
-
-  layer.bindPopup(popupHtml);
-
-}
+  const popup = generarPopupPorPais(feature);
+  if (popup) layer.bindPopup(popup);
+},
 
   }).addTo(map);
 }
@@ -585,6 +605,8 @@ async function cargarAtaques() {
   try {
     const resp = await fetch('/.netlify/functions/ransomware');
     const data = await resp.json();
+    Object.keys(ultimosAtaquesPorPais).forEach(k => delete ultimosAtaquesPorPais[k]);
+
     if (data && data.error) {
       lista.innerHTML = `<li class="error-msg">${data.error}</li>`;
       return;
@@ -595,9 +617,15 @@ async function cargarAtaques() {
     }
 
     // 1. Agrupa ataques por país de origen
-    const origenStats = {};
+    Object.keys(origenStats).forEach(k => delete origenStats[k]);
     data.forEach(ataque => {
-      if (
+      
+      if (ataque.country && ataque.group) {
+        const code = ataque.country.toUpperCase();
+        if (!gruposAtacantesPorPais[code]) gruposAtacantesPorPais[code] = new Set();
+        gruposAtacantesPorPais[code].add(ataque.group);
+      }
+if (
         ataque.group &&
         gruposPaisOrigen[ataque.group.toLowerCase()] &&
         countryCoords[gruposPaisOrigen[ataque.group.toLowerCase()]] &&
@@ -629,9 +657,37 @@ async function cargarAtaques() {
       lista.appendChild(li);
    });
     // 4. Agrupar ataques recibidos por país (para capa azul)
-    const ataquesPorPais = {};
+    Object.keys(ataquesPorPais).forEach(k => delete ataquesPorPais[k]);
     data.forEach(ataque => {
+      
+      
+      
+      if (ataque.country && ataque.group) {
+        const code = ataque.country.toUpperCase();
+        if (!gruposAtacantesPorPais[code]) gruposAtacantesPorPais[code] = new Set();
+        gruposAtacantesPorPais[code].add(ataque.group);
+      }
+if (ataque.country && ataque.group) {
+        const code = ataque.country.toUpperCase();
+        if (!gruposAtacantesPorPais[code]) gruposAtacantesPorPais[code] = new Set();
+        gruposAtacantesPorPais[code].add(ataque.group);
+      }
+
       if (ataque.country) {
+        const code = ataque.country.toUpperCase();
+        if (!ultimosAtaquesPorPais[code]) {
+          ultimosAtaquesPorPais[code] = [];
+        }
+      if (ataque.country) {
+        const code = ataque.country.toUpperCase();
+        if (!ultimosAtaquesPorPais[code]) {
+          ultimosAtaquesPorPais[code] = [];
+        }
+        ultimosAtaquesPorPais[code].push(ataque);
+      }
+        ultimosAtaquesPorPais[code].push(ataque);
+      }
+if (ataque.country) {
         const code = ataque.country.toUpperCase();
         ataquesPorPais[code] = (ataquesPorPais[code] || 0) + 1;
       }
@@ -646,7 +702,10 @@ async function cargarAtaques() {
     // 6. Pintar choropleth (azul) de países atacados Y pasar paisesOrigen como parámetro
     pintarMapaChoropleth(ataquesPorPais, paisesOrigen);
 
-    // 7. Choropleth magenta
+    
+
+
+// 7. Choropleth magenta
     const respMagenta = await fetch('/countries.geojson');
     const worldGeoMagenta = await respMagenta.json();
     const maxAtaquesOrigen = Math.max(...Object.values(paisesOrigen), 1);
@@ -654,21 +713,25 @@ async function cargarAtaques() {
     if (magentaLayer) {
       map.removeLayer(magentaLayer);
     }
-    magentaLayer = L.geoJSON(worldGeoMagenta, {
-      style: feature => {
-        const code = feature.properties["ISO3166-1-Alpha-2"] ? feature.properties["ISO3166-1-Alpha-2"].toUpperCase() : null;
-        const n = code ? (paisesOrigen[code] || 0) : 0;
-        const { fillColor, fillOpacity } = colorYOpacidadMagenta(n, maxAtaquesOrigen);
-        if (!fillColor) return { fillOpacity: 0, color: "#22242a", weight: 1.3 };
-        return {
-          fillColor: fillColor,
-          fillOpacity: fillOpacity,
-          color: "#ff6fff",
-          weight: 2.1,
-          opacity: 0.8
-        };
-      }
-    }).addTo(map);
+magentaLayer = L.geoJSON(worldGeoMagenta, {
+  style: feature => {
+    const code = feature.properties["ISO3166-1-Alpha-2"]?.toUpperCase() || "";
+    const n = code ? (paisesOrigen[code] || 0) : 0;
+    const { fillColor, fillOpacity } = colorYOpacidadMagenta(n, maxAtaquesOrigen);
+    if (!fillColor) return { fillOpacity: 0, color: "#22242a", weight: 1.3 };
+    return {
+      fillColor: fillColor,
+      fillOpacity: fillOpacity,
+      color: "#ff6fff",
+      weight: 2.1,
+      opacity: 0.8
+    };
+  },
+  onEachFeature: (feature, layer) => {
+    const popup = generarPopupPorPais(feature);
+    if (popup) layer.bindPopup(popup);
+  }
+}).addTo(map);
 
     // Trae la capa azul al frente para que funcione el tooltip
 if (geojsonLayer) geojsonLayer.bringToFront();
