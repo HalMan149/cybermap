@@ -431,7 +431,7 @@ function generarPopupPorPais(feature) {
 
   if (enviado.ataques === 0 && recibido === 0) return null;
 
-  let popupHtml = `<b>Código de país:</b> ${code} (${nombre})<br>`;
+  let popupHtml = `<b>País:</b> ${code} (${nombre})<br>`;
 
   if (enviado.ataques > 0) {
     popupHtml += `<b>ATAQUES:</b><br>`;
