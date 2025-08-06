@@ -422,12 +422,10 @@ function generarPopupPorPais(feature) {
   const ultimos = ultimosAtaquesPorPais?.[code] || [];
   const ultimoAtaque = ultimos.length > 0 ? ultimos[ultimos.length - 1] : null;
   
-const codigo = d.properties.ISO_A2;
-const nombrePais = d.properties.ADMIN || "Desconocido";
-  
+
 
   if (enviado.ataques === 0 && recibido === 0) return null;
-    let popupHtml = `<b>País:</b> ${code} (${nombrePais})<br>`;
+    let popupHtml = `<b>País:</b> ${code} (${nombre})<br>`;
 
   if (enviado.ataques > 0) {
     popupHtml += `<b>ATAQUES:</b><br>`;
