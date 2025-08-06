@@ -86,8 +86,6 @@ var ataquesPorPais = typeof ataquesPorPais !== "undefined" ? ataquesPorPais : {}
 var ultimosAtaquesPorPais = typeof ultimosAtaquesPorPais !== "undefined" ? ultimosAtaquesPorPais : {};
 var gruposAtacantesPorPais = typeof gruposAtacantesPorPais !== "undefined" ? gruposAtacantesPorPais : {};
 
-var gruposAtacantesPorPais = typeof gruposAtacantesPorPais !== "undefined" ? gruposAtacantesPorPais : {};
-
 // ========== INICIALIZACIÓN DEL MAPA Y CAPAS ==========
 const CENTER = [38.3373, -0.5266];
 const ZOOM = 3;
@@ -414,11 +412,6 @@ function colorYOpacidadMagenta(count, max) {
   return { fillColor: "#61004b", fillOpacity: 0.66 };
 }
 
-
-
-
-
-
 function generarPopupPorPais(feature) {
   const code = feature.properties["ISO3166-1-Alpha-2"]?.toUpperCase() || "";
   const nombre = feature.properties.ADMIN || code;
@@ -428,10 +421,10 @@ function generarPopupPorPais(feature) {
 
   const ultimos = ultimosAtaquesPorPais?.[code] || [];
   const ultimoAtaque = ultimos.length > 0 ? ultimos[ultimos.length - 1] : null;
+  const nombrePais = geojson.features.find(f => f.properties.ISO_A2 === codigo)?.properties.ADMIN || "Desconocido";
 
   if (enviado.ataques === 0 && recibido === 0) return null;
-
-  let popupHtml = `<b>País:</b> ${code} (${nombre})<br>`;
+    let popupHtml = `<b>País:</b> ${code} (${nombrePais})<br>`;
 
   if (enviado.ataques > 0) {
     popupHtml += `<b>ATAQUES:</b><br>`;
