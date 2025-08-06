@@ -434,19 +434,19 @@ function generarPopupPorPais(feature) {
   let popupHtml = `<b>Código de país:</b> ${code} (${nombre})<br>`;
 
   if (enviado.ataques > 0) {
-    popupHtml += `<b>ENVIADO:</b><br>`;
-    popupHtml += `Ataques lanzados: ${enviado.ataques}<br>`;
-    popupHtml += `Grupos activos: ${Array.from(enviado.grupos).join(", ") || "-"}<br>`;
-    popupHtml += `Destinos atacados: ${Array.from(enviado.destinos).join(", ") || "-"}<br><br>`;
+    popupHtml += `<b>ATAQUES:</b><br>`;
+    popupHtml += `<b>Ataques lanzados:</b> ${enviado.ataques}<br>`;
+    popupHtml += `<b>Grupos activos:</b> ${Array.from(enviado.grupos).join(", ") || "-"}<br>`;
+    popupHtml += `<b>Destinos atacados:</b> ${Array.from(enviado.destinos).join(", ") || "-"}<br><br>`;
   }
 
   if (recibido > 0) {
-    popupHtml += `<b>RECIBIDO:</b><br>`;
-    popupHtml += `Ataques recibidos: ${recibido}<br>`;
+    popupHtml += `<b>ATACADO:</b><br>`;
+    popupHtml += `<b>Ataques recibidos:</b> ${recibido}<br>`;
     if (gruposAtacantesPorPais[code])
-      popupHtml += `Grupos atacantes: ${Array.from(gruposAtacantesPorPais[code]).join(", ")}<br>`;
+      popupHtml += `<b>Grupos atacantes:</b> ${Array.from(gruposAtacantesPorPais[code]).join(", ")}<br>`;
     if (ultimoAtaque) {
-      popupHtml += `Fecha/Hora del último ataque recibido: ${ultimoAtaque.attackdate}<br>`;
+      popupHtml += `<b>Fecha/Hora del último ataque recibido:</b> ${ultimoAtaque.attackdate}<br>`;
       if (ultimoAtaque.screenshot)
         popupHtml += `<img src="${ultimoAtaque.screenshot}" width="200"><br>`;
       if (ultimoAtaque.url)
@@ -562,8 +562,6 @@ const gruposPaisOrigen = {
   "bert": "RU",
   "gunra": "RU",
   "warlock": "RU",
-  "teamxxx": "??",
-  "kawa4096": "??",
   "lynx": "RU",
   "bitter scorpius": "RU",
   "bling libra": "FR",
@@ -572,8 +570,6 @@ const gruposPaisOrigen = {
   "inc ransomware": "RU",
   "jumpy pisces": "KP",
   "shinyhunters": "FR",
-  "crypto414": "??",
-  "microsan": "??",
   "inc ransom": "RU",
   "vice society": "RU",
   "luna moth": "RU",
@@ -593,7 +589,135 @@ const gruposPaisOrigen = {
   "money message": "RU",
   "redalert": "RU",
   "project relic": "KP",
-  "rancoz": "RU"
+  "rancoz": "RU",
+  "aftermidnight": "US",
+  "airbreak": "CN",
+  "anel": "CN",
+  "assassin": "US",
+  "asyncrat": "CN",
+  "badrabbit": "RU",
+  "blackcoffee": "CN",
+  "blackenergy": "RU",
+  "bmw": "CN",
+  "bs2005": "CN",
+  "carbon-dll": "RU",
+  "chches": "CN",
+  "china chopper": "CN",
+  "clientx": "RU",
+  "cobalt strike": "CN",
+  "comrat": "RU",
+  "cosmicduke": "RU",
+  "cozycar": "RU",
+  "cozyduke": "RU",
+  "dadjoke": "CN",
+  "ddex loader": "RU",
+  "dealerschoice": "RU",
+  "derusbi": "CN",
+  "diefenduke": "RU",
+  "donut": "CN",
+  "doublefantasy": "US",
+  "downdelph": "RU",
+  "drovorub": "RU",
+  "enfal": "CN",
+  "envyscout": "RU",
+  "equationdrug": "US",
+  "equationlaser": "US",
+  "evilginx2": "RU",
+  "eviltoss": "RU",
+  "fanny": "US",
+  "fatduke": "RU",
+  "fusionblaze": "CN",
+  "galileo rcs": "RU",
+  "gcat": "RU",
+  "gh0st rat": "CN",
+  "goldfinder": "RU",
+  "goldmax": "RU",
+  "grayfish": "US",
+  "greencrash": "CN",
+  "greyenergy": "RU",
+  "hammertoss": "RU",
+  "havex": "RU",
+  "headlace": "RU",
+  "hiddenface": "CN",
+  "hidedrv": "RU",
+  "homefry": "CN",
+  "industroyer": "RU",
+  "karagany": "RU",
+  "kazuar": "RU",
+  "killdisk": "RU",
+  "kopiluwak": "RU",
+  "lamehug": "RU",
+  "lightneuron": "RU",
+  "liteduke": "RU",
+  "lodeinfo": "CN",
+  "loek": "RU",
+  "lojack": "RU",
+  "marble framework": "US",
+  "mcmd": "RU",
+  "metasploit": "CN",
+  "meterpreter": "CN",
+  "miniduke": "RU",
+  "mirage": "CN",
+  "mosquito": "RU",
+  "murkytop": "CN",
+  "nanhaishu": "CN",
+  "nativezone": "RU",
+  "nautilus": "RU",
+  "nemim": "KP",
+  "neuron": "RU",
+  "notpetya": "RU",
+  "onionduke": "RU",
+  "orz": "CN",
+  "penquin": "RU",
+  "plugx": "CN",
+  "poisonfrog": "RU",
+  "poisonivy": "CN",
+  "polyglotduke": "RU",
+  "pscrypt": "RU",
+  "pterodo": "RU",
+  "pyflash": "RU",
+  "quasarrat": "CN",
+  "quasarrat loader": "CN",
+  "raindrop": "RU",
+  "redleaves": "CN",
+  "regduke": "RU",
+  "regduke loader": "RU",
+  "regeorg": "RU",
+  "royalcli": "CN",
+  "royaldns": "CN",
+  "scanbox": "CN",
+  "scaramouche": "RU",
+  "sconato": "RU",
+  "seaduke": "RU",
+  "sedkit exploit kit": "RU",
+  "sedll": "CN",
+  "seduploader": "RU",
+  "sharpfront": "RU",
+  "shimrat": "CN",
+  "sibot": "RU",
+  "skipper": "RU",
+  "sliver": "RU",
+  "snake": "RU",
+  "sofacy downloader": "RU",
+  "sunburst": "RU",
+  "superman": "CN",
+  "sysmain": "RU",
+  "tapaoux": "KP",
+  "tavdig": "RU",
+  "teardrop": "RU",
+  "telebot": "RU",
+  "teledoor": "RU",
+  "tinyturla": "RU",
+  "triplefantasy": "US",
+  "tunnus": "RU",
+  "vaporrage": "RU",
+  "wkysol": "CN",
+  "x-agent": "RU",
+  "x-tunnel": "RU",
+  "xdata": "RU",
+  "xfrost": "RU",
+  "zebrocy": "RU",
+  "zxportmap": "CN"
 }
 
 async function cargarAtaques() {
