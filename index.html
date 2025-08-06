@@ -421,7 +421,8 @@ function generarPopupPorPais(feature) {
 
   const ultimos = ultimosAtaquesPorPais?.[code] || [];
   const ultimoAtaque = ultimos.length > 0 ? ultimos[ultimos.length - 1] : null;
-  const nombrePais = geojson.features.find(f => f.properties.ISO_A2 === codigoPais)?.properties.ADMIN || "Desconocido";
+  const Count = await fetch('/countries.geojson');
+  const nombrePais = Count.features.find(f => f.properties.ISO_A2 === codigoPais)?.properties.ADMIN || "Desconocido";
 
   if (enviado.ataques === 0 && recibido === 0) return null;
     let popupHtml = `<b>País:</b> ${code} (${nombrePais})<br>`;
