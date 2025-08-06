@@ -414,7 +414,7 @@ function colorYOpacidadMagenta(count, max) {
 
 function generarPopupPorPais(feature) {
   const code = feature.properties["ISO3166-1-Alpha-2"]?.toUpperCase() || "";
-  const nombre = feature.properties.ADMIN || code;
+  const nombre = feature.properties.name || code;
 
   const enviado = origenStats?.[code] || { ataques: 0, grupos: new Set(), destinos: new Set() };
   const recibido = ataquesPorPais?.[code] || 0;
