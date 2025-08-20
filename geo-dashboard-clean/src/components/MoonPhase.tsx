@@ -1,26 +1,19 @@
 "use client";
 import { useEffect, useMemo, useRef, useState } from "react";
+// @ts-expect-error types may be missing in env
+import SunCalc from 'suncalc';
 
-function getMoonPhase(now: Date): number {
-  const synodic = 29.53058867;
-  const knownNewMoon = new Date(Date.UTC(2000, 0, 6, 18, 14));
-  const days = (now.getTime() - knownNewMoon.getTime()) / 86400000;
-  let phase = days / synodic;
-  phase = phase - Math.floor(phase);
-  return phase; // 0..1
-}
-
-function getMoonDistanceKm(now: Date): number {
-  // Simple elliptical approx around 384400 km
-  const phase = getMoonPhase(now);
-  const mean = 384400;
-  const amp = 26000; // rough amplitude
-  return Math.round(mean + Math.cos(phase * 2 * Math.PI) * amp);
-}
-
-function getIllumination(phase: number): number {
-  // 0=new -> 0%; 0.5=full -> 100%
-  return Math.round((1 - Math.cos(phase * 2 * Math.PI)) * 50);
+function getMoonInfo(now: Date) {
+  const illum = SunCalc.getMoonIllumination(now);
+  const moonPos = SunCalc.getMoonPosition(now, 0, 0);
+  // Illumination fraction 0..1, phase angle fraction 0..1 (0=new, 0.5=full)
+  const phase = illum.phase;
+  const fraction = illum.fraction;
+  // Distance in km (approx) from SunCalc: altitude/azimuth/distance (meters)
+  // Some builds return distance in meters, others in km; normalize to km if too large
+  let distanceKm = moonPos?.distance ?? 384400;
+  if (distanceKm > 1000000) distanceKm = distanceKm / 1000;
+  return { phase, fraction, distanceKm };
 }
 
 export default function MoonPhase() {
@@ -31,9 +24,7 @@ export default function MoonPhase() {
     return () => clearInterval(id);
   }, []);
 
-  const phase = useMemo(() => getMoonPhase(now), [now]);
-  const illum = useMemo(() => getIllumination(phase), [phase]);
-  const dist = useMemo(() => getMoonDistanceKm(now), [now]);
+  const { phase, fraction, distanceKm } = useMemo(() => getMoonInfo(now), [now]);
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -52,22 +43,18 @@ export default function MoonPhase() {
     ctx.fill();
     ctx.save();
     ctx.globalCompositeOperation = 'source-over';
-    // Illuminated portion
-    // Use phase angle to draw limb
-    const angle = phase * 2 * Math.PI;
-    // Compute x offset of terminator
-    const k = Math.cos(angle);
-    const a = r;
-    const b = Math.abs(r * k);
-    // Draw bright ellipse over the disk centered at cx
+    // Illuminated portion using fraction (0..1) and phase (0..1)
+    // Use a parametric approach: draw two half-disks with a Bezier curve approximating the terminator
+    const waxing = phase < 0.5;
+    const k = 2 * fraction - 1; // -1..1
+    const terminatorX = cx + (waxing ? -k : k) * r;
     ctx.save();
     ctx.beginPath();
-    ctx.ellipse(cx + (phase < 0.5 ? -r * (1 - k) : r * (1 - k)), cy, a, b, 0, 0, Math.PI * 2);
+    ctx.arc(cx, cy, r, Math.PI / 2, -Math.PI / 2, true);
+    ctx.bezierCurveTo(terminatorX, cy - r * 0.7, terminatorX, cy + r * 0.7, cx, cy + r);
+    ctx.closePath();
     ctx.clip();
-    ctx.beginPath();
-    ctx.arc(cx, cy, r, 0, Math.PI * 2);
-    ctx.fillStyle = '#ddd';
-    ctx.fill();
+    ctx.beginPath(); ctx.arc(cx, cy, r, 0, Math.PI * 2); ctx.fillStyle = '#ddd'; ctx.fill();
     ctx.restore();
 
     // Shading
@@ -86,8 +73,8 @@ export default function MoonPhase() {
       <div className="flex items-center justify-center"><canvas ref={canvasRef} /></div>
       <div className="mt-3 text-sm text-cyan-100/80 space-y-1">
         <div>Fase: {phase < 0.03 || phase > 0.97 ? 'Luna nueva' : phase < 0.25 ? 'Creciente' : phase < 0.27 ? 'Cuarto creciente' : phase < 0.5 ? 'Gibbosa creciente' : phase < 0.53 ? 'Luna llena' : phase < 0.75 ? 'Gibbosa menguante' : phase < 0.77 ? 'Cuarto menguante' : 'Menguante'}</div>
-        <div>Iluminación: {illum}%</div>
-        <div>Distancia: ~{dist.toLocaleString()} km</div>
+        <div>Iluminación: {Math.round(fraction * 100)}%</div>
+        <div>Distancia: ~{Math.round(distanceKm).toLocaleString()} km</div>
       </div>
     </div>
   );
