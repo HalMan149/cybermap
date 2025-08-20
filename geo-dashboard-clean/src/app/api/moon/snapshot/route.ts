@@ -25,21 +25,19 @@ async function getLatestMoonFrameUrl(): Promise<string | null> {
   }
 }
 
-export async function GET() {
+export async function GET(request: Request) {
   const frameUrl = await getLatestMoonFrameUrl();
-  if (!frameUrl) {
-    return new Response('moon frame not found', { status: 502 });
-  }
 
-  const exePath = await chromium.executablePath();
-  const browser = await puppeteer.launch({
-    args: chromium.args,
-    defaultViewport: { width: 200, height: 200, deviceScaleFactor: 2 },
-    executablePath: exePath,
-    headless: chromium.headless,
-  });
-
+  let browser: import('puppeteer-core').Browser | null = null;
   try {
+    const exePath = await chromium.executablePath();
+    browser = await puppeteer.launch({
+      args: chromium.args,
+      defaultViewport: { width: 200, height: 200, deviceScaleFactor: 2 },
+      executablePath: exePath,
+      headless: chromium.headless,
+    });
+
     const page = await browser.newPage();
     const html = `<!doctype html>
       <html><head><meta charset="utf-8"/><style>
@@ -47,14 +45,24 @@ export async function GET() {
       .wrap{width:200px;height:200px;display:flex;align-items:center;justify-content:center}
       img{width:180px;height:180px;border-radius:50%;object-fit:cover}
       </style></head><body>
-      <div class="wrap"><img src="${frameUrl}" /></div>
+      <div class="wrap"><img src="${frameUrl || ''}" /></div>
       </body></html>`;
     await page.setContent(html, { waitUntil: ['domcontentloaded', 'networkidle0'] });
     const buf = await page.screenshot({ type: 'png' });
     const blob = new Blob([buf], { type: 'image/png' });
     return new Response(blob, { headers: { 'Content-Type': 'image/png', 'Cache-Control': 'public, max-age=21600' } });
+  } catch (err) {
+    // Fallback: si Puppeteer falla en el entorno de Netlify, redirige al JPG diario
+    try {
+      const dailyUrl = new URL('/api/moon/daily', request.url).toString();
+      // Netlify/Next devolverá 302 hacia el último JPG de NASA
+      return Response.redirect(dailyUrl, 302);
+    } catch {
+      if (frameUrl) return Response.redirect(frameUrl, 302);
+      return new Response('Internal Server Error', { status: 500 });
+    }
   } finally {
-    await browser.close();
+    try { if (browser) await browser.close(); } catch {}
   }
 }
 
