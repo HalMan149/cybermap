@@ -29,6 +29,8 @@ export default function SpainMapPage() {
           minZoom={4}
           maxBounds={[[bounds.southWest[0], bounds.southWest[1]], [bounds.northEast[0], bounds.northEast[1]]]}
           maxBoundsViscosity={1.0}
+          fitBoundsOnMount={true}
+          lockMinZoomToFit={true}
         >
         </LeafletMap>
         {/* Pestaña lateral siempre visible para mostrar/ocultar */}

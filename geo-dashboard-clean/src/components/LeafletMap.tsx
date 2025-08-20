@@ -16,10 +16,12 @@ type LeafletMapProps = {
   maxZoom?: number;
   maxBounds?: any; // keep loose typing to avoid TS friction
   maxBoundsViscosity?: number;
+  fitBoundsOnMount?: boolean;
+  lockMinZoomToFit?: boolean; // fija el minZoom al zoom de encaje inicial
   className?: string;
 };
 
-export default function LeafletMap({ children, center = [38.3373, -0.5266], zoom = 3, minZoom = 2, maxZoom = 17, maxBounds, maxBoundsViscosity = 1.0, className }: LeafletMapProps) {
+export default function LeafletMap({ children, center = [38.3373, -0.5266], zoom = 3, minZoom = 2, maxZoom = 17, maxBounds, maxBoundsViscosity = 1.0, fitBoundsOnMount = false, lockMinZoomToFit = false, className }: LeafletMapProps) {
   function BoundsController() {
     const map = useMap();
     useEffect(() => {
@@ -28,6 +30,13 @@ export default function LeafletMap({ children, center = [38.3373, -0.5266], zoom
           map.setMaxBounds(maxBounds);
           // Evita inercia que empuje la vista fuera
           (map as any).options.inertia = false;
+          if (fitBoundsOnMount) {
+            map.fitBounds(maxBounds, { animate: false, padding: [0, 0] as any });
+            if (lockMinZoomToFit) {
+              const z = map.getZoom();
+              map.setMinZoom(z);
+            }
+          }
         }
         map.setMinZoom(minZoom);
         map.setMaxZoom(maxZoom);
@@ -57,7 +66,7 @@ export default function LeafletMap({ children, center = [38.3373, -0.5266], zoom
       attributionControl={false}
       maxBounds={maxBounds}
       maxBoundsViscosity={maxBounds ? maxBoundsViscosity : undefined}
-      style={{ position: 'absolute', inset: 0 }}
+      style={{ position: 'absolute', inset: 0, background: '#000' }}
     >
       {maxBounds ? <BoundsController /> : null}
       <TileLayer

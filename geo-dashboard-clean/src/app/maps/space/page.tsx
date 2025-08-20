@@ -22,6 +22,8 @@ export default function SpaceMapPage() {
           minZoom={2}
           maxBounds={[[-85, -180], [85, 180]]}
           maxBoundsViscosity={1.0}
+          fitBoundsOnMount={true}
+          lockMinZoomToFit={true}
         />
         <button onClick={() => setSidebarOpen(s => !s)} className="fixed right-0 top-1/2 -translate-y-1/2 z-[3000] px-2 py-3 rounded-l bg-cyan-400/20 border border-cyan-400/40 text-cyan-100 hover:text-white">
           {sidebarOpen ? '❮' : '❯'}

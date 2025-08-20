@@ -39,6 +39,8 @@ export default function CyberMapPage() {
           minZoom={2}
           maxBounds={[[-85, -180], [85, 180]]}
           maxBoundsViscosity={1.0}
+          fitBoundsOnMount={true}
+          lockMinZoomToFit={true}
         >
           <CyberOverlays victims={victims} layers={layers} />
         </LeafletMap>
