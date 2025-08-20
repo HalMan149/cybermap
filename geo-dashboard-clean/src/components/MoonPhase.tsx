@@ -29,6 +29,8 @@ export default function MoonPhase() {
   const nasaMoonUrl = getMoonImageUrl();
   const [flipH, setFlipH] = useState(false);
   const [flipV, setFlipV] = useState(false);
+  const [rotationDeg, setRotationDeg] = useState<number>(0);
+  const [autoRotation, setAutoRotation] = useState<boolean>(true);
 
   function inferHemisphereByTimeZone(): 'north' | 'south' {
     try {
@@ -46,12 +48,22 @@ export default function MoonPhase() {
 
   // Detección de hemisferio para decidir flip horizontal por defecto
   useEffect(() => {
+    // restaurar rotación guardada
+    try {
+      const saved = localStorage.getItem('moonRotationDeg');
+      if (saved !== null) {
+        setRotationDeg(parseFloat(saved));
+        setAutoRotation(false);
+      }
+    } catch {}
+
     const fallback = () => {
       const hemi = inferHemisphereByTimeZone();
       // Heurística: en la práctica, para acercarnos a lo que ve el usuario,
       // invertimos horizontal en hemisferio NORTE (lat>=0) y no invertimos en SUR.
       setFlipH(hemi === 'north');
       setFlipV(false);
+      if (autoRotation) setRotationDeg(hemi === 'north' ? 0 : 180);
     };
     if (!navigator?.geolocation) return fallback();
     navigator.geolocation.getCurrentPosition(
@@ -59,11 +71,19 @@ export default function MoonPhase() {
         const lat = pos.coords.latitude;
         setFlipH(lat >= 0);
         setFlipV(false);
+        if (autoRotation) setRotationDeg(lat >= 0 ? 0 : 180);
       },
       () => fallback(),
       { enableHighAccuracy: false, maximumAge: 3600_000, timeout: 3000 }
     );
   }, []);
+
+  // Persistir rotación manual
+  useEffect(() => {
+    if (!autoRotation) {
+      try { localStorage.setItem('moonRotationDeg', String(rotationDeg)); } catch {}
+    }
+  }, [rotationDeg, autoRotation]);
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -111,7 +131,7 @@ export default function MoonPhase() {
       <h3 className="text-cyan-200 font-semibold mb-3">Fase lunar</h3>
       <div className="flex items-center justify-center">
         {(() => {
-          const transform = `${flipH ? ' scaleX(-1)' : ''}${flipV ? ' scaleY(-1)' : ''}`.trim() || 'none';
+          const transform = `${`rotate(${rotationDeg}deg)`}${flipH ? ' scaleX(-1)' : ''}${flipV ? ' scaleY(-1)' : ''}`.trim();
           return nasaMoonUrl ? (
             <img src={nasaMoonUrl} alt="Luna" className="w-[180px] h-[180px] rounded-full object-cover" style={{ transform }} />
           ) : (
@@ -126,6 +146,22 @@ export default function MoonPhase() {
         <div>Iluminación: {Math.round(fraction * 100)}%</div>
         <div>Distancia: ~{Math.round(distanceKm).toLocaleString()} km</div>
         <div className="pt-2 space-y-1">
+          <label className="text-xs flex items-center gap-2">
+            <input type="checkbox" checked={autoRotation} onChange={e => setAutoRotation(e.target.checked)} />
+            Rotación automática por hemisferio (0° norte, 180° sur)
+          </label>
+          <div className="flex items-center gap-2 text-xs">
+            <span>Rotar:</span>
+            <input
+              type="range"
+              min={-180}
+              max={180}
+              step={1}
+              value={rotationDeg}
+              onChange={e => { setRotationDeg(parseInt(e.target.value, 10)); setAutoRotation(false); }}
+            />
+            <span>{rotationDeg}°</span>
+          </div>
           <label className="text-xs flex items-center gap-2">
             <input type="checkbox" checked={flipH} onChange={e => setFlipH(e.target.checked)} />
             Invertir horizontal (lado iluminado)
