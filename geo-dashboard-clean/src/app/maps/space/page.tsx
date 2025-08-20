@@ -16,7 +16,13 @@ export default function SpaceMapPage() {
     <div className="h-screen w-screen" style={{ background: '#0b1021' }}>
       <TopNav />
       <div className="pt-16 h-full w-full relative overflow-hidden">
-        <LeafletMap className="absolute inset-0" zoom={2} minZoom={2}></LeafletMap>
+        <LeafletMap
+          className="absolute inset-0"
+          zoom={2}
+          minZoom={2}
+          maxBounds={[[-85, -180], [85, 180]]}
+          maxBoundsViscosity={1.0}
+        />
         <button onClick={() => setSidebarOpen(s => !s)} className="fixed right-0 top-1/2 -translate-y-1/2 z-[3000] px-2 py-3 rounded-l bg-cyan-400/20 border border-cyan-400/40 text-cyan-100 hover:text-white">
           {sidebarOpen ? '❮' : '❯'}
         </button>
