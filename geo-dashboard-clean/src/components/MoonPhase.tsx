@@ -27,17 +27,38 @@ export default function MoonPhase() {
 
   const { phase, fraction, distanceKm } = useMemo(() => getMoonInfo(now), [now]);
   const nasaMoonUrl = getMoonImageUrl();
-  const [flip, setFlip] = useState<"none" | "vertical">("none");
+  const [flipH, setFlipH] = useState(false);
+  const [flipV, setFlipV] = useState(false);
+
+  function inferSouthernHemisphereByTimeZone(): boolean {
+    try {
+      const tz = Intl.DateTimeFormat().resolvedOptions().timeZone || '';
+      const southernPrefixes = [
+        'Australia/', 'Pacific/Auckland', 'Pacific/Chatham',
+        'America/Argentina', 'America/Santiago', 'America/Montevideo', 'America/Asuncion', 'America/Sao_Paulo', 'America/Lima',
+        'Africa/Johannesburg', 'Africa/Windhoek', 'Indian/Antananarivo', 'Indian/Mauritius'
+      ];
+      return southernPrefixes.some(p => tz.startsWith(p));
+    } catch {
+      return false;
+    }
+  }
 
   // Detect hemisphere to decide vertical flip (southern hemisphere sees inverted phase)
   useEffect(() => {
-    if (!navigator?.geolocation) return;
+    const fallback = () => {
+      const southern = inferSouthernHemisphereByTimeZone();
+      setFlipH(southern); // flip horizontal swaps lado iluminado
+      setFlipV(false);
+    };
+    if (!navigator?.geolocation) return fallback();
     navigator.geolocation.getCurrentPosition(
       (pos) => {
         const lat = pos.coords.latitude;
-        setFlip(lat < 0 ? "vertical" : "none");
+        setFlipH(lat < 0);
+        setFlipV(false);
       },
-      () => { /* ignore */ },
+      () => fallback(),
       { enableHighAccuracy: false, maximumAge: 3600_000, timeout: 3000 }
     );
   }, []);
@@ -87,22 +108,29 @@ export default function MoonPhase() {
     <div className="rounded-xl border border-cyan-400/20 bg-[#0a233b]/70 p-4 shadow-[0_0_12px_rgba(34,211,238,0.45)]">
       <h3 className="text-cyan-200 font-semibold mb-3">Fase lunar</h3>
       <div className="flex items-center justify-center">
-        {nasaMoonUrl ? (
-          <img src={nasaMoonUrl} alt="Luna" className="w-[180px] h-[180px] rounded-full object-cover" style={{ transform: flip === 'vertical' ? 'scaleY(-1)' : 'none' }} />
-        ) : (
-          <div style={{ transform: flip === 'vertical' ? 'scaleY(-1)' : 'none' }}>
-            <canvas ref={canvasRef} />
-          </div>
-        )}
+        {(() => {
+          const transform = `${flipH ? ' scaleX(-1)' : ''}${flipV ? ' scaleY(-1)' : ''}`.trim() || 'none';
+          return nasaMoonUrl ? (
+            <img src={nasaMoonUrl} alt="Luna" className="w-[180px] h-[180px] rounded-full object-cover" style={{ transform }} />
+          ) : (
+            <div style={{ transform }}>
+              <canvas ref={canvasRef} />
+            </div>
+          );
+        })()}
       </div>
       <div className="mt-3 text-sm text-cyan-100/80 space-y-1">
         <div>Fase: {phase < 0.03 || phase > 0.97 ? 'Luna nueva' : phase < 0.25 ? 'Creciente' : phase < 0.27 ? 'Cuarto creciente' : phase < 0.5 ? 'Gibbosa creciente' : phase < 0.53 ? 'Luna llena' : phase < 0.75 ? 'Gibbosa menguante' : phase < 0.77 ? 'Cuarto menguante' : 'Menguante'}</div>
         <div>Iluminación: {Math.round(fraction * 100)}%</div>
         <div>Distancia: ~{Math.round(distanceKm).toLocaleString()} km</div>
-        <div className="pt-2">
+        <div className="pt-2 space-y-1">
           <label className="text-xs flex items-center gap-2">
-            <input type="checkbox" checked={flip === 'vertical'} onChange={e => setFlip(e.target.checked ? 'vertical' : 'none')} />
-            Invertir vertical (hemisferio sur)
+            <input type="checkbox" checked={flipH} onChange={e => setFlipH(e.target.checked)} />
+            Invertir horizontal (lado iluminado)
+          </label>
+          <label className="text-xs flex items-center gap-2">
+            <input type="checkbox" checked={flipV} onChange={e => setFlipV(e.target.checked)} />
+            Invertir vertical (rotación visual)
           </label>
         </div>
       </div>
