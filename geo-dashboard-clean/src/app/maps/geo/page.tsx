@@ -7,6 +7,10 @@ import { motion } from "framer-motion";
 
 export default function GeoMapPage() {
   const [sidebarOpen, setSidebarOpen] = useState(true);
+  useEffect(() => {
+    const id = setTimeout(() => setSidebarOpen(false), 6000);
+    return () => clearTimeout(id);
+  }, []);
   const [layers, setLayers] = useState({ volcanoes: true, earthquakes: true, alerts: false });
   return (
     <div className="h-screen w-screen" style={{ background: '#0b1021' }}>

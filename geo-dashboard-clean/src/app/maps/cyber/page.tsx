@@ -11,6 +11,10 @@ type Victim = { victim: string; country: string; date: string };
 
 export default function CyberMapPage() {
   const [sidebarOpen, setSidebarOpen] = useState(true);
+  useEffect(() => {
+    const id = setTimeout(() => setSidebarOpen(false), 6000);
+    return () => clearTimeout(id);
+  }, []);
   const [layers, setLayers] = useState({ ransomware: true, groups: false, ddos: false });
   const [victims, setVictims] = useState<Victim[]>([]);
 

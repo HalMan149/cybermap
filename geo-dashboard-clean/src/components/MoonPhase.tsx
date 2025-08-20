@@ -27,6 +27,20 @@ export default function MoonPhase() {
 
   const { phase, fraction, distanceKm } = useMemo(() => getMoonInfo(now), [now]);
   const nasaMoonUrl = getMoonImageUrl();
+  const [flip, setFlip] = useState<"none" | "vertical">("none");
+
+  // Detect hemisphere to decide vertical flip (southern hemisphere sees inverted phase)
+  useEffect(() => {
+    if (!navigator?.geolocation) return;
+    navigator.geolocation.getCurrentPosition(
+      (pos) => {
+        const lat = pos.coords.latitude;
+        setFlip(lat < 0 ? "vertical" : "none");
+      },
+      () => { /* ignore */ },
+      { enableHighAccuracy: false, maximumAge: 3600_000, timeout: 3000 }
+    );
+  }, []);
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -74,9 +88,11 @@ export default function MoonPhase() {
       <h3 className="text-cyan-200 font-semibold mb-3">Fase lunar</h3>
       <div className="flex items-center justify-center">
         {nasaMoonUrl ? (
-          <img src={nasaMoonUrl} alt="Luna" className="w-[180px] h-[180px] rounded-full object-cover" />
+          <img src={nasaMoonUrl} alt="Luna" className="w-[180px] h-[180px] rounded-full object-cover" style={{ transform: flip === 'vertical' ? 'scaleY(-1)' : 'none' }} />
         ) : (
-          <canvas ref={canvasRef} />
+          <div style={{ transform: flip === 'vertical' ? 'scaleY(-1)' : 'none' }}>
+            <canvas ref={canvasRef} />
+          </div>
         )}
       </div>
       <div className="mt-3 text-sm text-cyan-100/80 space-y-1">

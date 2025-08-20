@@ -7,6 +7,10 @@ import { motion } from "framer-motion";
 
 export default function SpainMapPage() {
   const [sidebarOpen, setSidebarOpen] = useState(true);
+  useEffect(() => {
+    const id = setTimeout(() => setSidebarOpen(false), 6000);
+    return () => clearTimeout(id);
+  }, []);
   const [activeLayer, setActiveLayer] = useState<string | null>(null);
 
   return (
