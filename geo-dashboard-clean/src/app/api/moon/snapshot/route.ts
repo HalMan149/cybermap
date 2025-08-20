@@ -3,6 +3,7 @@ import puppeteer from 'puppeteer-core';
 
 export const dynamic = 'force-dynamic';
 export const revalidate = 21600;
+export const runtime = 'nodejs';
 
 async function getLatestMoonFrameUrl(): Promise<string | null> {
   try {
@@ -49,8 +50,9 @@ export async function GET() {
       <div class="wrap"><img src="${frameUrl}" /></div>
       </body></html>`;
     await page.setContent(html, { waitUntil: ['domcontentloaded', 'networkidle0'] });
-    const buf = await page.screenshot({ type: 'png' });
-    return new Response(buf, { headers: { 'Content-Type': 'image/png', 'Cache-Control': 'public, max-age=21600' } });
+    const buf = (await page.screenshot({ type: 'png' })) as Buffer;
+    const arrayBuffer = buf.buffer.slice(buf.byteOffset, buf.byteOffset + buf.byteLength);
+    return new Response(arrayBuffer, { headers: { 'Content-Type': 'image/png', 'Cache-Control': 'public, max-age=21600' } });
   } finally {
     await browser.close();
   }
