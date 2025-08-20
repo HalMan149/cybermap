@@ -17,9 +17,9 @@ export default function GeoMapPage() {
       <TopNav />
       <div className="pt-16 h-full w-full relative">
         <LeafletMap className="absolute inset-0" zoom={2}></LeafletMap>
-        {!sidebarOpen && (
-          <motion.button onClick={() => setSidebarOpen(true)} className="absolute top-20 right-4 z-50 px-3 py-2 rounded-lg bg-cyan-400/20 border border-cyan-400/40 text-cyan-200 hover:text-white" whileTap={{ scale: 0.98 }}>Capas</motion.button>
-        )}
+        <motion.button onClick={() => setSidebarOpen(s => !s)} className="absolute top-20 right-4 z-50 px-3 py-2 rounded-lg bg-cyan-400/20 border border-cyan-400/40 text-cyan-200 hover:text-white" whileTap={{ scale: 0.98 }}>
+          {sidebarOpen ? 'Ocultar capas' : 'Mostrar capas'}
+        </motion.button>
         <Sidebar title="Geología – Capas" isOpen={sidebarOpen} onClose={() => setSidebarOpen(false)}>
           {Object.entries({ volcanoes: 'Volcanes', earthquakes: 'Terremotos (USGS)', alerts: 'Alertas sísmicas' }).map(([k, label]) => (
             <label key={k} className="flex items-center gap-2 text-sm"><input type="checkbox" checked={(layers as any)[k]} onChange={e => setLayers(s => ({...s, [k]: e.target.checked}))} />{label}</label>

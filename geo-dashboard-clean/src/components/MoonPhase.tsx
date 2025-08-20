@@ -28,7 +28,9 @@ export default function MoonPhase() {
   const { phase, fraction, distanceKm } = useMemo(() => getMoonInfo(now), [now]);
   const nasaMoonUrl = getMoonImageUrl();
   // Rotación fija para alinear cráteres según tu preferencia
-  const rotationDeg = -25;
+  // y cambiar el lado iluminado sin espejar la imagen (añadimos 180°)
+  const swapSide = true;
+  const rotationDeg = -25 + (swapSide ? 180 : 0);
 
   // Eliminamos detección y controles: sólo rotación fija
 
