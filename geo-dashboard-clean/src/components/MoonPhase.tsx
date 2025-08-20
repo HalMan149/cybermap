@@ -31,6 +31,7 @@ export default function MoonPhase() {
   const [flipV, setFlipV] = useState(false);
   const [rotationDeg, setRotationDeg] = useState<number>(0);
   const [autoRotation, setAutoRotation] = useState<boolean>(true);
+  const [coords, setCoords] = useState<{ lat: number; lon: number } | null>(null);
 
   function inferHemisphereByTimeZone(): 'north' | 'south' {
     try {
@@ -59,9 +60,8 @@ export default function MoonPhase() {
 
     const fallback = () => {
       const hemi = inferHemisphereByTimeZone();
-      // Heurística: en la práctica, para acercarnos a lo que ve el usuario,
-      // invertimos horizontal en hemisferio NORTE (lat>=0) y no invertimos en SUR.
-      setFlipH(hemi === 'north');
+      // No espejar horizontalmente la imagen NASA para preservar cráteres.
+      setFlipH(false);
       setFlipV(false);
       if (autoRotation) setRotationDeg(hemi === 'north' ? 0 : 180);
     };
@@ -69,7 +69,9 @@ export default function MoonPhase() {
     navigator.geolocation.getCurrentPosition(
       (pos) => {
         const lat = pos.coords.latitude;
-        setFlipH(lat >= 0);
+        const lon = pos.coords.longitude;
+        setCoords({ lat, lon });
+        setFlipH(false);
         setFlipV(false);
         if (autoRotation) setRotationDeg(lat >= 0 ? 0 : 180);
       },
@@ -84,6 +86,22 @@ export default function MoonPhase() {
       try { localStorage.setItem('moonRotationDeg', String(rotationDeg)); } catch {}
     }
   }, [rotationDeg, autoRotation]);
+
+  // Rotación automática con ángulo paralláctico para alinear cráteres
+  useEffect(() => {
+    if (!autoRotation) return;
+    if (!coords) return;
+    try {
+      const mp = SunCalc.getMoonPosition(now, coords.lat, coords.lon);
+      const q = (mp?.parallacticAngle ?? 0) as number; // radianes
+      let deg = -(q * 180 / Math.PI);
+      // Compensación básica por hemisferio
+      if (coords.lat < 0) deg += 180;
+      // Normalizar a [-180, 180]
+      deg = ((deg + 180) % 360) - 180;
+      setRotationDeg(deg);
+    } catch {}
+  }, [now, coords, autoRotation]);
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -131,11 +149,14 @@ export default function MoonPhase() {
       <h3 className="text-cyan-200 font-semibold mb-3">Fase lunar</h3>
       <div className="flex items-center justify-center">
         {(() => {
-          const transform = `${`rotate(${rotationDeg}deg)`}${flipH ? ' scaleX(-1)' : ''}${flipV ? ' scaleY(-1)' : ''}`.trim();
+          // Para imagen NASA: sólo rotación para preservar cráteres (no espejos por defecto)
+          const imgTransform = `rotate(${rotationDeg}deg)`;
+          // Para canvas (fallback) permitimos también flips manuales si se desea
+          const canvasTransform = `${`rotate(${rotationDeg}deg)`}${flipH ? ' scaleX(-1)' : ''}${flipV ? ' scaleY(-1)' : ''}`.trim();
           return nasaMoonUrl ? (
-            <img src={nasaMoonUrl} alt="Luna" className="w-[180px] h-[180px] rounded-full object-cover" style={{ transform }} />
+            <img src={nasaMoonUrl} alt="Luna" className="w-[180px] h-[180px] rounded-full object-cover" style={{ transform: imgTransform }} />
           ) : (
-            <div style={{ transform }}>
+            <div style={{ transform: canvasTransform }}>
               <canvas ref={canvasRef} />
             </div>
           );
@@ -162,10 +183,12 @@ export default function MoonPhase() {
             />
             <span>{rotationDeg}°</span>
           </div>
-          <label className="text-xs flex items-center gap-2">
-            <input type="checkbox" checked={flipH} onChange={e => setFlipH(e.target.checked)} />
-            Invertir horizontal (lado iluminado)
-          </label>
+          {!nasaMoonUrl && (
+            <label className="text-xs flex items-center gap-2">
+              <input type="checkbox" checked={flipH} onChange={e => setFlipH(e.target.checked)} />
+              Invertir horizontal (lado iluminado)
+            </label>
+          )}
           <label className="text-xs flex items-center gap-2">
             <input type="checkbox" checked={flipV} onChange={e => setFlipV(e.target.checked)} />
             Invertir vertical (rotación visual)
