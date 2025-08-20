@@ -3,7 +3,7 @@
 import dynamic from 'next/dynamic';
 import 'leaflet/dist/leaflet.css';
 import { ReactNode, useEffect } from 'react';
-import { useMap, useMapEvent } from 'react-leaflet';
+import { useMap } from 'react-leaflet';
 
 const MapContainer = dynamic(async () => (await import('react-leaflet')).MapContainer, { ssr: false });
 const TileLayer = dynamic(async () => (await import('react-leaflet')).TileLayer, { ssr: false });
@@ -28,8 +28,6 @@ export default function LeafletMap({ children, center = [38.3373, -0.5266], zoom
       try {
         if (maxBounds) {
           map.setMaxBounds(maxBounds);
-          // Evita inercia que empuje la vista fuera
-          (map as any).options.inertia = false;
           if (fitBoundsOnMount) {
             map.fitBounds(maxBounds, { animate: false, padding: [0, 0] as any });
             if (lockMinZoomToFit) {
@@ -42,16 +40,6 @@ export default function LeafletMap({ children, center = [38.3373, -0.5266], zoom
         map.setMaxZoom(maxZoom);
       } catch {}
     }, [map]);
-    useMapEvent('drag', () => {
-      if (maxBounds) {
-        map.panInsideBounds(maxBounds, { animate: false });
-      }
-    });
-    useMapEvent('moveend', () => {
-      if (maxBounds) {
-        map.panInsideBounds(maxBounds, { animate: false });
-      }
-    });
     return null;
   }
   return (

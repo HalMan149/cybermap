@@ -20,8 +20,8 @@ export default function SpaceMapPage() {
           className="absolute inset-0"
           zoom={2}
           minZoom={2}
-          maxBounds={[[-85, -180], [85, 180]]}
-          maxBoundsViscosity={1.0}
+          maxBounds={[[-60, -180], [85, 180]]}
+          maxBoundsViscosity={0.2}
           fitBoundsOnMount={true}
           lockMinZoomToFit={true}
         />
