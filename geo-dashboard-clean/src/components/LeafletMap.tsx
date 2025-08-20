@@ -19,7 +19,11 @@ export default function LeafletMap({ children, center = [38.3373, -0.5266], zoom
       attributionControl={false}
       style={{ position: 'absolute', inset: 0 }}
     >
-      <TileLayer url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png" attribution="&copy; OpenStreetMap & Carto" />
+      <TileLayer
+        url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
+        attribution="&copy; OpenStreetMap & Carto"
+        noWrap
+      />
       {children}
     </MapContainer>
   );

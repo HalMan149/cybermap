@@ -2,8 +2,7 @@
 const feeds = [
   { label: 'AIA 304Å', src: 'https://sdo.gsfc.nasa.gov/assets/img/latest/latest_1024_0304.jpg' },
   { label: 'AIA 171Å', src: 'https://sdo.gsfc.nasa.gov/assets/img/latest/latest_1024_0171.jpg' },
-  { label: 'AIA 193Å', src: 'https://sdo.gsfc.nasa.gov/assets/img/latest/latest_1024_0193.jpg' },
-  { label: 'AIA 211Å', src: 'https://sdo.gsfc.nasa.gov/assets/img/latest/latest_1024_0211.jpg' }
+  { label: 'AIA 193Å', src: 'https://sdo.gsfc.nasa.gov/assets/img/latest/latest_1024_0193.jpg' }
 ];
 
 export default function SDOPanel() {
