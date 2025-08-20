@@ -37,9 +37,14 @@ export default function CyberMapPage() {
         <LeafletMap className="absolute inset-0">
           <CyberOverlays victims={victims} layers={layers} />
         </LeafletMap>
-        <motion.button onClick={() => setSidebarOpen(s => !s)} className="absolute top-20 right-4 z-50 px-3 py-2 rounded-lg bg-cyan-400/20 border border-cyan-400/40 text-cyan-200 hover:text-white" whileTap={{ scale: 0.98 }}>
+        <motion.button onClick={() => setSidebarOpen(s => !s)} className="fixed top-20 right-4 z-[3000] px-3 py-2 rounded-lg bg-cyan-400/20 border border-cyan-400/40 text-cyan-200 hover:text-white" whileTap={{ scale: 0.98 }}>
           {sidebarOpen ? 'Ocultar capas' : 'Mostrar capas'}
         </motion.button>
+        {!sidebarOpen && (
+          <button onClick={() => setSidebarOpen(true)} className="fixed right-0 top-1/2 -translate-y-1/2 z-[3000] px-2 py-3 rounded-l bg-cyan-400/30 border border-cyan-400/50 text-cyan-100 hover:text-white">
+            Capas
+          </button>
+        )}
         <Sidebar title="Ciberataques – Capas" isOpen={sidebarOpen} onClose={() => setSidebarOpen(false)}>
           <div className="space-y-3">
             <label className="flex items-center gap-2 text-sm"><input type="checkbox" checked={layers.ransomware} onChange={e => setLayers(s => ({...s, ransomware: e.target.checked}))} />Ataques ransomware</label>

@@ -19,9 +19,15 @@ export default function SpainMapPage() {
       <div className="pt-16 h-full w-full relative overflow-hidden">
         <LeafletMap className="absolute inset-0" center={[40.4168, -3.7038]} zoom={5}>
         </LeafletMap>
-        <motion.button onClick={() => setSidebarOpen(s => !s)} className="absolute top-20 right-4 z-50 px-3 py-2 rounded-lg bg-cyan-400/20 border border-cyan-400/40 text-cyan-200 hover:text-white" whileTap={{ scale: 0.98 }}>
+        <motion.button onClick={() => setSidebarOpen(s => !s)} className="fixed top-20 right-4 z-[3000] px-3 py-2 rounded-lg bg-cyan-400/20 border border-cyan-400/40 text-cyan-200 hover:text-white" whileTap={{ scale: 0.98 }}>
           {sidebarOpen ? 'Ocultar filtros' : 'Mostrar filtros'}
         </motion.button>
+        {/* Pestana flotante siempre visible en el borde derecho */}
+        {!sidebarOpen && (
+          <button onClick={() => setSidebarOpen(true)} className="fixed right-0 top-1/2 -translate-y-1/2 z-[3000] px-2 py-3 rounded-l bg-cyan-400/30 border border-cyan-400/50 text-cyan-100 hover:text-white">
+            Filtros
+          </button>
+        )}
         <Sidebar title="España – Capas" isOpen={sidebarOpen} onClose={() => setSidebarOpen(false)}>
           <div className="space-y-3">
             <label className="flex items-center gap-2 text-sm"><input type="radio" name="layer" onChange={() => setActiveLayer('temp')} checked={activeLayer === 'temp'} />Temperatura</label>
