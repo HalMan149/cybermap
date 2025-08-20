@@ -14,10 +14,7 @@ export default function Sidebar({ title, children, isOpen, onClose }: SidebarPro
     >
       <div className="flex items-center justify-between px-4 py-3 border-b border-cyan-400/20">
         <h2 className="text-lg font-semibold text-cyan-200">{title}</h2>
-        <div className="flex items-center gap-2">
-          <button onClick={onClose} title="Cerrar" className="text-cyan-300 hover:text-white transition-colors">✕</button>
-          <button onClick={onClose} title="Anclar/Mostrar" className="text-cyan-300 hover:text-white transition-colors">▌</button>
-        </div>
+        {/* Sin X; la pestaña lateral ❮/❯ controla mostrar/ocultar */}
       </div>
       <div className="p-4 space-y-4 overflow-y-auto h-[calc(100%-52px)]">{children}</div>
     </motion.aside>

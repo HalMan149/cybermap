@@ -7,6 +7,11 @@ import { motion } from "framer-motion";
 
 export default function SpainMapPage() {
   const [sidebarOpen, setSidebarOpen] = useState(true);
+  // límites aproximados de España incluyendo Canarias
+  const bounds = {
+    southWest: [27.5, -19.0] as [number, number],
+    northEast: [43.9, 4.5] as [number, number],
+  };
   useEffect(() => {
     const id = setTimeout(() => setSidebarOpen(false), 6000);
     return () => clearTimeout(id);
@@ -17,7 +22,14 @@ export default function SpainMapPage() {
     <div className="h-screen w-screen" style={{ background: '#0b1021' }}>
       <TopNav />
       <div className="pt-16 h-full w-full relative overflow-hidden">
-        <LeafletMap className="absolute inset-0" center={[40.4168, -3.7038]} zoom={5}>
+        <LeafletMap
+          className="absolute inset-0"
+          center={[40.4168, -3.7038]}
+          zoom={5}
+          minZoom={4}
+          maxBounds={[[bounds.southWest[0], bounds.southWest[1]], [bounds.northEast[0], bounds.northEast[1]]]}
+          maxBoundsViscosity={1.0}
+        >
         </LeafletMap>
         {/* Pestaña lateral siempre visible para mostrar/ocultar */}
         <button onClick={() => setSidebarOpen(s => !s)} className="fixed right-0 top-1/2 -translate-y-1/2 z-[3000] px-2 py-3 rounded-l bg-cyan-400/20 border border-cyan-400/40 text-cyan-100 hover:text-white">
