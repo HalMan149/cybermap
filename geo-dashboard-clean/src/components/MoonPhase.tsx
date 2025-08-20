@@ -27,10 +27,8 @@ export default function MoonPhase() {
 
   const { phase, fraction, distanceKm } = useMemo(() => getMoonInfo(now), [now]);
   const nasaMoonUrl = getMoonImageUrl();
-  // Rotación fija para alinear cráteres según tu preferencia
-  // y cambiar el lado iluminado sin espejar la imagen (añadimos 180°)
-  const swapSide = true;
-  const rotationDeg = -25 + (swapSide ? 180 : 0);
+  // Rotación 0° y volteo horizontal fijo para que coincida iluminación y cráteres
+  const rotationDeg = 0;
 
   // Eliminamos detección y controles: sólo rotación fija
 
@@ -80,8 +78,8 @@ export default function MoonPhase() {
       <h3 className="text-cyan-200 font-semibold mb-3">Fase lunar</h3>
       <div className="flex items-center justify-center">
         {(() => {
-          const imgTransform = `rotate(${rotationDeg}deg)`;
-          const canvasTransform = `rotate(${rotationDeg}deg)`;
+          const imgTransform = `rotate(${rotationDeg}deg) scaleX(-1)`;
+          const canvasTransform = `rotate(${rotationDeg}deg) scaleX(-1)`;
           return nasaMoonUrl ? (
             <img src={nasaMoonUrl} alt="Luna" className="w-[180px] h-[180px] rounded-full object-cover" style={{ transform: imgTransform }} />
           ) : (
@@ -95,7 +93,7 @@ export default function MoonPhase() {
         <div>Fase: {phase < 0.03 || phase > 0.97 ? 'Luna nueva' : phase < 0.25 ? 'Creciente' : phase < 0.27 ? 'Cuarto creciente' : phase < 0.5 ? 'Gibbosa creciente' : phase < 0.53 ? 'Luna llena' : phase < 0.75 ? 'Gibbosa menguante' : phase < 0.77 ? 'Cuarto menguante' : 'Menguante'}</div>
         <div>Iluminación: {Math.round(fraction * 100)}%</div>
         <div>Distancia: ~{Math.round(distanceKm).toLocaleString()} km</div>
-        <div className="pt-2 text-xs text-cyan-100/70">Orientación fijada a {rotationDeg}°</div>
+        
       </div>
     </div>
   );

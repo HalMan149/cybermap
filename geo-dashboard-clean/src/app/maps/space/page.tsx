@@ -15,7 +15,7 @@ export default function SpaceMapPage() {
   return (
     <div className="h-screen w-screen" style={{ background: '#0b1021' }}>
       <TopNav />
-      <div className="pt-16 h-full w-full relative">
+      <div className="pt-16 h-full w-full relative overflow-hidden">
         <LeafletMap className="absolute inset-0" zoom={2}></LeafletMap>
         <motion.button onClick={() => setSidebarOpen(s => !s)} className="absolute top-20 right-4 z-50 px-3 py-2 rounded-lg bg-cyan-400/20 border border-cyan-400/40 text-cyan-200 hover:text-white" whileTap={{ scale: 0.98 }}>
           {sidebarOpen ? 'Ocultar capas' : 'Mostrar capas'}

@@ -33,7 +33,7 @@ export default function CyberMapPage() {
   return (
     <div className="h-screen w-screen" style={{ background: '#0b1021' }}>
       <TopNav />
-      <div className="pt-16 h-full w-full relative">
+      <div className="pt-16 h-full w-full relative overflow-hidden">
         <LeafletMap className="absolute inset-0">
           <CyberOverlays victims={victims} layers={layers} />
         </LeafletMap>
