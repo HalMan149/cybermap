@@ -30,7 +30,7 @@ export default function MoonPhase() {
   const [flipH, setFlipH] = useState(false);
   const [flipV, setFlipV] = useState(false);
 
-  function inferSouthernHemisphereByTimeZone(): boolean {
+  function inferHemisphereByTimeZone(): 'north' | 'south' {
     try {
       const tz = Intl.DateTimeFormat().resolvedOptions().timeZone || '';
       const southernPrefixes = [
@@ -38,24 +38,26 @@ export default function MoonPhase() {
         'America/Argentina', 'America/Santiago', 'America/Montevideo', 'America/Asuncion', 'America/Sao_Paulo', 'America/Lima',
         'Africa/Johannesburg', 'Africa/Windhoek', 'Indian/Antananarivo', 'Indian/Mauritius'
       ];
-      return southernPrefixes.some(p => tz.startsWith(p));
+      return southernPrefixes.some(p => tz.startsWith(p)) ? 'south' : 'north';
     } catch {
-      return false;
+      return 'north';
     }
   }
 
-  // Detect hemisphere to decide vertical flip (southern hemisphere sees inverted phase)
+  // Detección de hemisferio para decidir flip horizontal por defecto
   useEffect(() => {
     const fallback = () => {
-      const southern = inferSouthernHemisphereByTimeZone();
-      setFlipH(southern); // flip horizontal swaps lado iluminado
+      const hemi = inferHemisphereByTimeZone();
+      // Heurística: en la práctica, para acercarnos a lo que ve el usuario,
+      // invertimos horizontal en hemisferio NORTE (lat>=0) y no invertimos en SUR.
+      setFlipH(hemi === 'north');
       setFlipV(false);
     };
     if (!navigator?.geolocation) return fallback();
     navigator.geolocation.getCurrentPosition(
       (pos) => {
         const lat = pos.coords.latitude;
-        setFlipH(lat < 0);
+        setFlipH(lat >= 0);
         setFlipV(false);
       },
       () => fallback(),
