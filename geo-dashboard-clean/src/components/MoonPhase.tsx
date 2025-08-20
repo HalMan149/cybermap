@@ -99,6 +99,12 @@ export default function MoonPhase() {
         <div>Fase: {phase < 0.03 || phase > 0.97 ? 'Luna nueva' : phase < 0.25 ? 'Creciente' : phase < 0.27 ? 'Cuarto creciente' : phase < 0.5 ? 'Gibbosa creciente' : phase < 0.53 ? 'Luna llena' : phase < 0.75 ? 'Gibbosa menguante' : phase < 0.77 ? 'Cuarto menguante' : 'Menguante'}</div>
         <div>Iluminación: {Math.round(fraction * 100)}%</div>
         <div>Distancia: ~{Math.round(distanceKm).toLocaleString()} km</div>
+        <div className="pt-2">
+          <label className="text-xs flex items-center gap-2">
+            <input type="checkbox" checked={flip === 'vertical'} onChange={e => setFlip(e.target.checked ? 'vertical' : 'none')} />
+            Invertir vertical (hemisferio sur)
+          </label>
+        </div>
       </div>
     </div>
   );

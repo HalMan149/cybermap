@@ -2,7 +2,7 @@
 import TopNav from "@/components/TopNav";
 import Sidebar from "@/components/Sidebar";
 import LeafletMap from "@/components/LeafletMap";
-import { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
 export default function SpaceMapPage() {
