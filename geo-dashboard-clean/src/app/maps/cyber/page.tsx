@@ -1,0 +1,52 @@
+"use client";
+import TopNav from "@/components/TopNav";
+import Sidebar from "@/components/Sidebar";
+import LeafletMap from "@/components/LeafletMap";
+import dynamic from 'next/dynamic';
+import { useEffect, useState } from "react";
+import { motion } from "framer-motion";
+const CyberOverlays = dynamic(() => import('@/components/CyberOverlays'), { ssr: false });
+
+type Victim = { victim: string; country: string; date: string };
+
+export default function CyberMapPage() {
+  const [sidebarOpen, setSidebarOpen] = useState(true);
+  const [layers, setLayers] = useState({ ransomware: true, groups: false, ddos: false });
+  const [victims, setVictims] = useState<Victim[]>([]);
+
+  useEffect(() => {
+    (async () => {
+      try {
+        const res = await fetch('/api/cyber/recent-victims');
+        if (res.ok) {
+          const data = await res.json();
+          setVictims(Array.isArray(data) ? data.slice(0, 200) : []);
+        }
+      } catch {}
+    })();
+  }, []);
+
+  return (
+    <div className="h-screen w-screen" style={{ background: '#0b1021' }}>
+      <TopNav />
+      <div className="pt-16 h-full w-full relative">
+        <LeafletMap className="absolute inset-0">
+          <CyberOverlays victims={victims} layers={layers} />
+        </LeafletMap>
+        <motion.button onClick={() => setSidebarOpen(s => !s)} className="absolute top-20 right-4 z-50 px-3 py-2 rounded-lg bg-cyan-400/20 border border-cyan-400/40 text-cyan-200 hover:text-white" whileTap={{ scale: 0.98 }}>
+          Capas
+        </motion.button>
+        <Sidebar title="Ciberataques – Capas" isOpen={sidebarOpen} onClose={() => setSidebarOpen(false)}>
+          <div className="space-y-3">
+            <label className="flex items-center gap-2 text-sm"><input type="checkbox" checked={layers.ransomware} onChange={e => setLayers(s => ({...s, ransomware: e.target.checked}))} />Ataques ransomware</label>
+            <label className="flex items-center gap-2 text-sm"><input type="checkbox" checked={layers.groups} onChange={e => setLayers(s => ({...s, groups: e.target.checked}))} />Grupos activos</label>
+            <label className="flex items-center gap-2 text-sm"><input type="checkbox" checked={layers.ddos} onChange={e => setLayers(s => ({...s, ddos: e.target.checked}))} />DDoS</label>
+          </div>
+          <div><h4 className="text-cyan-300 font-medium mb-1">Leyenda</h4><ul className="text-xs text-cyan-100/80 space-y-1"><li>Azul: ransomware</li><li>Verde: grupos</li><li>Magenta: DDoS</li></ul></div>
+          <div className="text-xs text-cyan-100/70">Última actualización: —</div>
+        </Sidebar>
+      </div>
+    </div>
+  );
+}
+
