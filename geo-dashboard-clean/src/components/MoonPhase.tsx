@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useMemo, useRef, useState } from "react";
+import { getMoonImageUrl } from "@/config/appConfig";
 // @ts-expect-error types may be missing in env
 import SunCalc from 'suncalc';
 
@@ -25,6 +26,7 @@ export default function MoonPhase() {
   }, []);
 
   const { phase, fraction, distanceKm } = useMemo(() => getMoonInfo(now), [now]);
+  const nasaMoonUrl = getMoonImageUrl();
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -70,7 +72,13 @@ export default function MoonPhase() {
   return (
     <div className="rounded-xl border border-cyan-400/20 bg-[#0a233b]/70 p-4 shadow-[0_0_12px_rgba(34,211,238,0.45)]">
       <h3 className="text-cyan-200 font-semibold mb-3">Fase lunar</h3>
-      <div className="flex items-center justify-center"><canvas ref={canvasRef} /></div>
+      <div className="flex items-center justify-center">
+        {nasaMoonUrl ? (
+          <img src={nasaMoonUrl} alt="Luna" className="w-[180px] h-[180px] rounded-full object-cover" />
+        ) : (
+          <canvas ref={canvasRef} />
+        )}
+      </div>
       <div className="mt-3 text-sm text-cyan-100/80 space-y-1">
         <div>Fase: {phase < 0.03 || phase > 0.97 ? 'Luna nueva' : phase < 0.25 ? 'Creciente' : phase < 0.27 ? 'Cuarto creciente' : phase < 0.5 ? 'Gibbosa creciente' : phase < 0.53 ? 'Luna llena' : phase < 0.75 ? 'Gibbosa menguante' : phase < 0.77 ? 'Cuarto menguante' : 'Menguante'}</div>
         <div>Iluminación: {Math.round(fraction * 100)}%</div>
