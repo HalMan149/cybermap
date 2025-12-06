@@ -254,7 +254,6 @@
     }
 
     async function loadAttacks() {
-      if (isPreview) return;
       try {
         const res = await fetch('/.netlify/functions/ataques', { cache: 'no-store' });
         const data = await res.json();
