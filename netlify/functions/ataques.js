@@ -3,11 +3,12 @@ const fetch = require('node-fetch');
 // URLs de listas públicas de IP maliciosas
 const SOURCES = [
   'https://feodotracker.abuse.ch/downloads/ipblocklist.txt',
-  'https://sslbl.abuse.ch/blacklist/sslipblacklist.txt'
+  'https://sslbl.abuse.ch/blacklist/sslipblacklist.txt',
+  'https://ransomwaretracker.abuse.ch/downloads/RW_IPBL.txt'
 ];
 
 // Límite de IPs a devolver para no saturar el mapa
-const MAX_IPS = 150;
+const MAX_IPS = 500;
 
 function shuffle(arr) {
   for (let i = arr.length - 1; i > 0; i--) {
