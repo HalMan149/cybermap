@@ -234,9 +234,48 @@
     setInterval(updateCentralUTCAndRelojes, 10000); // Refresca relojes cada 10s
     // --- CAPA DE EVENTOS (IP maliciosas desde función serverless)
     const attacksLayer = L.layerGroup().addTo(map);
+    const previousIps = new Set();
+    const pulseRefs = [];
+
+    function createPulse(lat, lon) {
+      const baseRadius = 70000;
+      const circle = L.circle([lat, lon], {
+        radius: baseRadius,
+        color: '#ff6b6b',
+        weight: 2,
+        opacity: 0.8,
+        fillOpacity: 0.15,
+        interactive: false
+      }).addTo(attacksLayer);
+
+      let growing = true;
+      let scale = 1;
+      const maxScale = 3;
+      const minScale = 1;
+      const step = 0.05;
+
+      const interval = setInterval(() => {
+        scale += growing ? step : -step;
+        if (scale >= maxScale) growing = false;
+        if (scale <= minScale) growing = true;
+        circle.setRadius(baseRadius * scale);
+        circle.setStyle({ opacity: 0.8 / scale, fillOpacity: 0.2 / scale });
+      }, 50);
+
+      setTimeout(() => {
+        clearInterval(interval);
+        if (attacksLayer.hasLayer(circle)) attacksLayer.removeLayer(circle);
+      }, 15000); // 15s de pulso
+
+      pulseRefs.push({ circle, interval });
+    }
 
     function renderAttacks(events) {
       attacksLayer.clearLayers();
+      // limpiar pulsos previos
+      pulseRefs.forEach(({ interval }) => clearInterval(interval));
+      pulseRefs.length = 0;
+
       events.forEach(ev => {
         const circle = L.circleMarker([ev.lat, ev.lon], {
           radius: 9,
@@ -250,6 +289,13 @@
           `IP en lista negra: ${ev.ip}<br>` +
           `País: ${ev.country || 'N/D'}`
         );
+
+        const isNew = !previousIps.has(ev.ip);
+        if (isNew) {
+          createPulse(ev.lat, ev.lon);
+        }
+        // marcar como vista
+        previousIps.add(ev.ip);
       });
     }
 
