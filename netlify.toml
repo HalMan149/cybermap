@@ -1,13 +1,9 @@
 [build]
-  base = "geo-dashboard-clean"
-  command = "npm ci && npm run build"
-  publish = ".next"
+  command = ""
+  publish = "."
 
-[build.environment]
-  NODE_VERSION = "20"
-
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
+[functions]
+  directory = "netlify/functions"
 
 
 
