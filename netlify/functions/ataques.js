@@ -9,6 +9,7 @@ const SOURCES = [
 
 // Límite de IPs a devolver para no saturar el mapa
 const MAX_IPS = 500;
+const BATCH_SIZE = 100;
 
 function shuffle(arr) {
   for (let i = arr.length - 1; i > 0; i--) {
@@ -28,16 +29,32 @@ async function fetchList(url) {
     .filter(l => l && !l.startsWith('#') && /^[0-9.]+$/.test(l));
 }
 
-async function geoIP(ip) {
+async function geoBatch(ips) {
   try {
-    const res = await fetch(`https://ipwho.is/${ip}`, { timeout: 8000 });
+    const res = await fetch('http://ip-api.com/batch', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      timeout: 10000,
+      body: JSON.stringify(
+        ips.map(ip => ({
+          query: ip,
+          fields: 'query,lat,lon,country,status'
+        }))
+      )
+    });
     const data = await res.json();
-    if (!data.success) return null;
-    const { latitude, longitude, country } = data;
-    if (typeof latitude !== 'number' || typeof longitude !== 'number') return null;
-    return { lat: latitude, lon: longitude, country: country || 'N/D' };
+    return data
+      .filter(d => d.status === 'success' && typeof d.lat === 'number' && typeof d.lon === 'number')
+      .map(d => ({
+        ip: d.query,
+        lat: d.lat,
+        lon: d.lon,
+        country: d.country || 'N/D',
+        source: 'public-feed',
+        ts: Date.now()
+      }));
   } catch (e) {
-    return null;
+    return [];
   }
 }
 
@@ -53,20 +70,12 @@ exports.handler = async function () {
     }
     const all = shuffle(Array.from(ips)).slice(0, MAX_IPS);
 
-    // Geolocalizar (secuencial sencillo para no abusar)
+    // Geolocalizar en batch para minimizar fallos
     const events = [];
-    for (const ip of all) {
-      const geo = await geoIP(ip);
-      if (geo) {
-        events.push({
-          ip,
-          lat: geo.lat,
-          lon: geo.lon,
-          country: geo.country,
-          source: 'public-feed',
-          ts: Date.now()
-        });
-      }
+    for (let i = 0; i < all.length; i += BATCH_SIZE) {
+      const chunk = all.slice(i, i + BATCH_SIZE);
+      const geos = await geoBatch(chunk);
+      events.push(...geos);
     }
 
     return {
