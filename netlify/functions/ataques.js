@@ -4,12 +4,14 @@ const fetch = require('node-fetch');
 const SOURCES = [
   'https://feodotracker.abuse.ch/downloads/ipblocklist.txt',
   'https://sslbl.abuse.ch/blacklist/sslipblacklist.txt',
-  'https://ransomwaretracker.abuse.ch/downloads/RW_IPBL.txt'
+  'https://ransomwaretracker.abuse.ch/downloads/RW_IPBL.txt',
+  'https://blocklist.greensnow.co/greensnow.txt',
+  'https://lists.blocklist.de/lists/all.txt'
 ];
 
 // Límite de IPs a devolver para no saturar el mapa
-const MAX_IPS = 500;
-const BATCH_SIZE = 100;
+const MAX_IPS = 800;
+const CONCURRENCY = 20;
 
 function shuffle(arr) {
   for (let i = arr.length - 1; i > 0; i--) {
@@ -29,33 +31,41 @@ async function fetchList(url) {
     .filter(l => l && !l.startsWith('#') && /^[0-9.]+$/.test(l));
 }
 
-async function geoBatch(ips) {
+async function geoIP(ip) {
   try {
-    const res = await fetch('http://ip-api.com/batch', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      timeout: 10000,
-      body: JSON.stringify(
-        ips.map(ip => ({
-          query: ip,
-          fields: 'query,lat,lon,country,status'
-        }))
-      )
-    });
+    const res = await fetch(`https://ipwho.is/${ip}`, { timeout: 8000 });
     const data = await res.json();
-    return data
-      .filter(d => d.status === 'success' && typeof d.lat === 'number' && typeof d.lon === 'number')
-      .map(d => ({
-        ip: d.query,
-        lat: d.lat,
-        lon: d.lon,
-        country: d.country || 'N/D',
-        source: 'public-feed',
-        ts: Date.now()
-      }));
+    if (!data.success) return null;
+    const { latitude, longitude, country } = data;
+    if (typeof latitude !== 'number' || typeof longitude !== 'number') return null;
+    return { lat: latitude, lon: longitude, country: country || 'N/D' };
   } catch (e) {
-    return [];
+    return null;
   }
+}
+
+async function geolocateAll(ips) {
+  const events = [];
+  let idx = 0;
+  async function worker() {
+    while (idx < ips.length) {
+      const ip = ips[idx++];
+      const geo = await geoIP(ip);
+      if (geo) {
+        events.push({
+          ip,
+          lat: geo.lat,
+          lon: geo.lon,
+          country: geo.country,
+          source: 'public-feed',
+          ts: Date.now()
+        });
+      }
+    }
+  }
+  const workers = Array(CONCURRENCY).fill(null).map(worker);
+  await Promise.all(workers);
+  return events;
 }
 
 exports.handler = async function () {
@@ -70,13 +80,8 @@ exports.handler = async function () {
     }
     const all = shuffle(Array.from(ips)).slice(0, MAX_IPS);
 
-    // Geolocalizar en batch para minimizar fallos
-    const events = [];
-    for (let i = 0; i < all.length; i += BATCH_SIZE) {
-      const chunk = all.slice(i, i + BATCH_SIZE);
-      const geos = await geoBatch(chunk);
-      events.push(...geos);
-    }
+    // Geolocalizar con concurrencia limitada
+    const events = await geolocateAll(all);
 
     return {
       statusCode: 200,
