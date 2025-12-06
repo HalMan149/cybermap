@@ -239,14 +239,17 @@
       attacksLayer.clearLayers();
       events.forEach(ev => {
         const circle = L.circleMarker([ev.lat, ev.lon], {
-          radius: 6,
+          radius: 9,
           color: '#ff4757',
           fillColor: '#ff6b6b',
-          fillOpacity: 0.55,
-          weight: 2,
+          fillOpacity: 0.6,
+          weight: 2.5,
           opacity: 0.9
         }).addTo(attacksLayer);
-        circle.bindPopup(`IP: ${ev.ip}<br>País: ${ev.country || 'N/D'}`);
+        circle.bindPopup(
+          `IP en lista negra: ${ev.ip}<br>` +
+          `País: ${ev.country || 'N/D'}`
+        );
       });
     }
 
