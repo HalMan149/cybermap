@@ -579,6 +579,9 @@
                   this.src = 'https://services.swpc.noaa.gov/images/swxoverview.png';
                 } else if (s === 1) {
                   this.dataset.step = '2';
+                  this.src = 'https://services.swpc.noaa.gov/images/swx-overview-large.png';
+                } else if (s === 2) {
+                  this.dataset.step = '3';
                   this.src = 'https://services.swpc.noaa.gov/images/space-weather-conditions.png';
                 } else {
                   this.style.display='none';
@@ -590,24 +593,27 @@
         </div>
         <div class="mini-graph">
           <div class="label">Flujo X-ray GOES (0.1-0.8 nm)</div>
-          <a href="https://services.swpc.noaa.gov/images/goes-xrays-6-hour.gif" target="_blank" rel="noopener">
+          <a href="https://services.swpc.noaa.gov/images/3-day-xray-flux.png" target="_blank" rel="noopener">
             <img 
               id="xrayImg"
-              src="https://services.swpc.noaa.gov/images/goes-xrays-6-hour.gif" 
+              src="https://services.swpc.noaa.gov/images/3-day-xray-flux.png" 
               alt="GOES X-ray" 
               onerror="
                 const step = parseInt(this.dataset.step || '0', 10);
                 if (step === 0) {
                   this.dataset.step = '1';
-                  this.src = 'https://services.swpc.noaa.gov/images/goes-xrays.gif';
+                  this.src = 'https://services.swpc.noaa.gov/images/goes-xrays-6-hour.gif';
                 } else if (step === 1) {
                   this.dataset.step = '2';
-                  this.src = 'https://services.swpc.noaa.gov/images/goes-xray-flux.png';
+                  this.src = 'https://services.swpc.noaa.gov/images/goes-xrays.gif';
                 } else if (step === 2) {
                   this.dataset.step = '3';
-                  this.src = 'https://services.swpc.noaa.gov/images/goes-xray-report.png';
+                  this.src = 'https://services.swpc.noaa.gov/images/goes-xray-flux.png';
                 } else if (step === 3) {
                   this.dataset.step = '4';
+                  this.src = 'https://services.swpc.noaa.gov/images/goes-xray-report.png';
+                } else if (step === 4) {
+                  this.dataset.step = '5';
                   this.src = 'https://services.swpc.noaa.gov/images/goes-xray-flux.gif';
                 } else {
                   this.style.display='none';
