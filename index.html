@@ -302,45 +302,44 @@
     
     .sun-graphs {
       width: 100%;
-      display: grid;
-      grid-template-columns: 1fr;
+      display: flex;
+      flex-direction: column;
       gap: 10px;
-      margin-top: 8px;
+      margin-top: 10px;
     }
     
-    .graph-card {
-      background: rgba(26, 29, 46, 0.75);
-      border: 1px solid rgba(109, 213, 237, 0.25);
-      border-radius: 10px;
-      padding: 10px;
-      box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+    .mini-graph {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
     }
     
-    .graph-title {
+    .mini-graph .label {
       font-size: 12px;
-      color: #6dd5ed;
-      margin-bottom: 6px;
+      color: #a0aec0;
       display: flex;
       justify-content: space-between;
       align-items: center;
     }
     
-    .graph-title small {
-      color: #a0aec0;
+    .mini-graph a {
+      display: block;
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid rgba(109, 213, 237, 0.2);
+      background: #0a0e1a;
     }
     
-    .graph-card img {
+    .mini-graph img {
       width: 100%;
-      border-radius: 6px;
-      border: 1px solid rgba(109, 213, 237, 0.15);
-      background: #0a0e1a;
+      display: block;
     }
     
     .graph-fallback {
       font-size: 12px;
       color: #718096;
       text-align: center;
-      padding: 12px;
+      padding: 8px;
       background: #0a0e1a;
       border-radius: 6px;
       border: 1px dashed rgba(109, 213, 237, 0.2);
@@ -553,7 +552,7 @@
     <div class="sun-panel">
       <h3>Estado del Sol</h3>
       <div style="width: 200px; height: 200px; display: flex; align-items: center; justify-content: center; background: #000; border-radius: 50%; box-shadow: 0 4px 20px rgba(255, 179, 71, 0.3);">
-        <img id="sdoImage" src="https://sdo.gsfc.nasa.gov/assets/img/latest/f_HMImag_171_1024.jpg" alt="Sol SDO" 
+        <img id="sdoImage" src="https://services.swpc.noaa.gov/images/animations/suvi/primary/094/latest.png" alt="Sol SDO" 
              onerror="handleSDOError(this)" style="display: block; width: 200px; height: 200px; border-radius: 50%; object-fit: cover;"/>
         <div id="sdoError" class="image-error" style="display: none; width: 200px; height: 200px;">
           FUENTE NO DISPONIBLE<br>
@@ -566,89 +565,84 @@
         Actualización: <span id="sdoTime">Cargando...</span>
       </div>
       <div class="sun-graphs">
-        <div class="graph-card">
-          <div class="graph-title">
-            <span>Flujo X-ray GOES (0.1-0.8 nm)</span>
-            <small>NOAA SWPC</small>
-          </div>
-          <img 
-            id="xrayImg"
-            src="https://services.swpc.noaa.gov/images/goes-xrays-6-hour.gif" 
-            alt="GOES X-ray" 
-            onerror="
-              const step = parseInt(this.dataset.step || '0', 10);
-              if (step === 0) {
-                this.dataset.step = '1';
-                this.src = 'https://services.swpc.noaa.gov/images/goes-xrays.gif';
-              } else if (step === 1) {
-                this.dataset.step = '2';
-                this.src = 'https://services.swpc.noaa.gov/images/goes-xray-flux.png';
-              } else if (step === 2) {
-                this.dataset.step = '3';
-                this.src = 'https://services.swpc.noaa.gov/images/goes-xray-report.png';
-              } else if (step === 3) {
-                this.dataset.step = '4';
-                this.src = 'https://services.swpc.noaa.gov/images/goes-xray-flux.gif';
-              } else {
-                this.style.display='none';
-                this.nextElementSibling.style.display='block';
-              }
-            ">
+        <div class="mini-graph">
+          <div class="label">Escalas R/S/G (24h observadas)</div>
+          <a href="https://www.swpc.noaa.gov/" target="_blank" rel="noopener">
+            <img 
+              id="rsImg"
+              src="https://services.swpc.noaa.gov/images/swx-overview.png"
+              alt="NOAA R S G scales"
+              onerror="
+                const s = parseInt(this.dataset.step || '0', 10);
+                if (s === 0) {
+                  this.dataset.step = '1';
+                  this.src = 'https://services.swpc.noaa.gov/images/swxoverview.png';
+                } else if (s === 1) {
+                  this.dataset.step = '2';
+                  this.src = 'https://services.swpc.noaa.gov/images/space-weather-conditions.png';
+                } else {
+                  this.style.display='none';
+                  this.nextElementSibling.style.display='block';
+                }
+              ">
+          </a>
+          <div class="graph-fallback" style="display:none;">Escalas R/S/G no disponibles ahora mismo.</div>
+        </div>
+        <div class="mini-graph">
+          <div class="label">Flujo X-ray GOES (0.1-0.8 nm)</div>
+          <a href="https://services.swpc.noaa.gov/images/goes-xrays-6-hour.gif" target="_blank" rel="noopener">
+            <img 
+              id="xrayImg"
+              src="https://services.swpc.noaa.gov/images/goes-xrays-6-hour.gif" 
+              alt="GOES X-ray" 
+              onerror="
+                const step = parseInt(this.dataset.step || '0', 10);
+                if (step === 0) {
+                  this.dataset.step = '1';
+                  this.src = 'https://services.swpc.noaa.gov/images/goes-xrays.gif';
+                } else if (step === 1) {
+                  this.dataset.step = '2';
+                  this.src = 'https://services.swpc.noaa.gov/images/goes-xray-flux.png';
+                } else if (step === 2) {
+                  this.dataset.step = '3';
+                  this.src = 'https://services.swpc.noaa.gov/images/goes-xray-report.png';
+                } else if (step === 3) {
+                  this.dataset.step = '4';
+                  this.src = 'https://services.swpc.noaa.gov/images/goes-xray-flux.gif';
+                } else {
+                  this.style.display='none';
+                  this.nextElementSibling.style.display='block';
+                }
+              ">
+          </a>
           <div class="graph-fallback" style="display:none;">Gráfico X-ray no disponible ahora mismo.</div>
         </div>
-        <div class="graph-card">
-          <div class="graph-title">
-            <span>Viento solar (Velocidad / Proton Flux)</span>
-            <small>ACE / DSCOVR</small>
-          </div>
-          <img src="https://services.swpc.noaa.gov/images/ace-swepam-24-hour.gif" alt="Solar wind" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+        <div class="mini-graph">
+          <div class="label">Viento solar (ACE/DSCOVR)</div>
+          <a href="https://services.swpc.noaa.gov/images/ace-swepam-24-hour.gif" target="_blank" rel="noopener">
+            <img src="https://services.swpc.noaa.gov/images/ace-swepam-24-hour.gif" alt="Solar wind" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+          </a>
           <div class="graph-fallback" style="display:none;">Gráfico no disponible ahora mismo.</div>
         </div>
-        <div class="graph-card">
-          <div class="graph-title">
-            <span>Geospace (campo geomagnético)</span>
-            <small>SWPC</small>
-          </div>
-          <img 
-            src="https://services.swpc.noaa.gov/images/geospace/geospace_3_day.png" 
-            alt="Geospace" 
-            onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+        <div class="mini-graph">
+          <div class="label">Geospace (campo geomagnético)</div>
+          <a href="https://services.swpc.noaa.gov/images/geospace/geospace_3_day.png" target="_blank" rel="noopener">
+            <img 
+              src="https://services.swpc.noaa.gov/images/geospace/geospace_3_day.png" 
+              alt="Geospace" 
+              onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+          </a>
           <div class="graph-fallback" style="display:none;">Geospace no disponible ahora mismo.</div>
         </div>
-        <div class="graph-card">
-          <div class="graph-title">
-            <span>Flares SUVI 094Å (último)</span>
-            <small>GOES/SUVI</small>
-          </div>
-          <img 
-            src="https://services.swpc.noaa.gov/images/flares/carrington/primary/094/latest.png" 
-            alt="Flares SUVI 094" 
-            onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+        <div class="mini-graph">
+          <div class="label">Flares SUVI 094Å (último)</div>
+          <a href="https://services.swpc.noaa.gov/images/flares/carrington/primary/094/latest.png" target="_blank" rel="noopener">
+            <img 
+              src="https://services.swpc.noaa.gov/images/flares/carrington/primary/094/latest.png" 
+              alt="Flares SUVI 094" 
+              onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+          </a>
           <div class="graph-fallback" style="display:none;">Imagen SUVI no disponible ahora mismo.</div>
-        </div>
-        <div class="graph-card">
-          <div class="graph-title">
-            <span>Escalas R/S/G (24h observadas)</span>
-            <small>NOAA SWPC</small>
-          </div>
-          <img 
-            id="rsImg"
-            src="https://services.swpc.noaa.gov/images/swx-overview.png"
-            alt="NOAA R S G scales"
-            onerror="
-              const s = parseInt(this.dataset.step || '0', 10);
-              if (s === 0) {
-                this.dataset.step = '1';
-                this.src = 'https://services.swpc.noaa.gov/images/swxoverview.png';
-              } else if (s === 1) {
-                this.dataset.step = '2';
-                this.src = 'https://services.swpc.noaa.gov/images/space-weather-conditions.png';
-              } else {
-                this.style.display='none';
-                this.nextElementSibling.style.display='block';
-              }
-            ">
-          <div class="graph-fallback" style="display:none;">Escalas R/S/G no disponibles ahora mismo.</div>
         </div>
       </div>
     </div>
