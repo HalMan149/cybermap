@@ -638,9 +638,10 @@
       </a>
       <div class="sun-graphs">
         <div class="mini-graph">
-          <canvas id="xrayCanvas" width="480" height="220" style="width:100%;background:#000;border-radius:8px;"></canvas>
+          <a href="https://www.swpc.noaa.gov/products/goes-x-ray-flux" target="_blank" rel="noopener" style="display:block;">
+            <canvas id="xrayCanvas" width="480" height="220" style="width:100%;background:#000;border-radius:8px;display:block;"></canvas>
+          </a>
           <div class="graph-fallback" id="xrayFallback" style="display:none;">Gráfico X-ray no disponible ahora mismo.</div>
-          <div style="font-size:11px;color:#6dd5ed;margin-top:4px;">GOES X-ray (0.1-0.8 nm) · Fuente: NOAA SWPC</div>
         </div>
         <div class="mini-graph">
           <div class="label">Viento solar (ACE/DSCOVR)</div>
@@ -661,13 +662,14 @@
         </div>
         <div class="mini-graph">
           <div class="label">Flares (SUVI 094)</div>
-          <a href="https://www.swpc.noaa.gov/products/suvi" target="_blank" rel="noopener">
+          <a href="https://www.swpc.noaa.gov/products/suvi" target="_blank" rel="noopener" style="display:block;">
             <img 
               src="https://services.swpc.noaa.gov/images/suvi/094/latest.jpg" 
               alt="SUVI 094" 
+              style="display:block; width:100%; max-height:240px; object-fit:contain; background:#000; border-radius:8px;"
               onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
           </a>
-          <div class="graph-fallback" style="display:none;">Imagen SUVI no disponible ahora mismo.</div>
+          <div class="graph-fallback" style="display:none; min-height:80px;">Imagen SUVI no disponible ahora mismo.</div>
         </div>
       </div>
     </div>
