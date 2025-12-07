@@ -670,11 +670,13 @@
         <div class="mini-graph">
           <div class="label">Flares (131 Å)</div>
           <a href="https://services.swpc.noaa.gov/images/flares/pixels/primary/131/latest.png" target="_blank" rel="noopener" style="display:block;">
-            <img 
-              src="https://services.swpc.noaa.gov/images/flares/pixels/primary/131/latest.png" 
-              alt="Flares 131Å" 
-              style="display:block; width:100%; max-height:260px; object-fit:contain; background:#000; border-radius:8px;"
-              onerror="this.style.display='none'; if(this.nextElementSibling){this.nextElementSibling.style.display='block';}">
+            <div class="xray-frame" style="background:#000;border:1px solid #2c2f3a;border-radius:10px;padding:6px; overflow:hidden; height:220px;">
+              <img 
+                src="https://services.swpc.noaa.gov/images/flares/pixels/primary/131/latest.png" 
+                alt="Flares 131Å" 
+                style="display:block; width:100%; height:100%; object-fit: cover; object-position: center;"
+                onerror="this.style.display='none'; if(this.parentElement && this.parentElement.nextElementSibling){this.parentElement.nextElementSibling.style.display='block';}">
+            </div>
           </a>
           <div class="graph-fallback" style="display:none; min-height:80px;">Imagen de flares no disponible ahora mismo.</div>
         </div>
