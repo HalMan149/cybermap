@@ -274,6 +274,61 @@
       text-align: center;
     }
     
+    .noaa-alerts-badge {
+      width: 100%;
+      background: linear-gradient(90deg, #2d3748 0%, #1a202c 100%);
+      border: 1px solid rgba(109, 213, 237, 0.35);
+      border-radius: 10px;
+      padding: 10px 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    
+    .noaa-alerts-badge .label {
+      font-size: 13px;
+      color: #e2e8f0;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    
+    .noaa-alerts-badge .pills {
+      display: flex;
+      gap: 8px;
+    }
+    
+    .noaa-alerts-badge .pill {
+      min-width: 42px;
+      text-align: center;
+      padding: 6px 10px;
+      border-radius: 8px;
+      font-weight: 800;
+      color: #0a0e1a;
+      background: #e2e8f0;
+      border: 1px solid rgba(255,255,255,0.35);
+      box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+      transition: background 0.3s, color 0.3s;
+    }
+    
+    .pill[data-level="0"] { background: #2d3748; color: #e2e8f0; }
+    .pill.r-scale[data-level="1"] { background: #fbd38d; }
+    .pill.r-scale[data-level="2"] { background: #f6ad55; }
+    .pill.r-scale[data-level="3"] { background: #ed8936; }
+    .pill.r-scale[data-level="4"] { background: #dd6b20; }
+    .pill.r-scale[data-level="5"] { background: #c05621; }
+    
+    .pill.s-scale[data-level="1"] { background: #fed7d7; }
+    .pill.s-scale[data-level="2"] { background: #feb2b2; }
+    .pill.s-scale[data-level="3"] { background: #fc8181; }
+    .pill.s-scale[data-level="4"] { background: #f56565; }
+    .pill.s-scale[data-level="5"] { background: #e53e3e; }
+    
+    .pill.g-scale[data-level="1"] { background: #c6f6d5; }
+    .pill.g-scale[data-level="2"] { background: #9ae6b4; }
+    .pill.g-scale[data-level="3"] { background: #68d391; }
+    .pill.g-scale[data-level="4"] { background: #48bb78; }
+    .pill.g-scale[data-level="5"] { background: #38a169; }
     
     .image-error {
       width: 160px;
@@ -344,41 +399,6 @@
       border-radius: 6px;
       border: 1px dashed rgba(109, 213, 237, 0.2);
     }
-    
-    .alert-badge {
-      background: linear-gradient(90deg, #2d3748 0%, #1a202c 100%);
-      border: 1px solid rgba(109, 213, 237, 0.35);
-      border-radius: 10px;
-      padding: 10px 12px;
-      color: #e2e8f0;
-      font-size: 13px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 12px;
-    }
-    
-    .badge-levels {
-      display: flex;
-      gap: 8px;
-      align-items: center;
-    }
-    
-    .level-pill {
-      min-width: 42px;
-      text-align: center;
-      padding: 4px 8px;
-      border-radius: 8px;
-      font-weight: 700;
-      color: #0a0e1a;
-      background: #e2e8f0;
-      border: 1px solid rgba(255,255,255,0.4);
-      box-shadow: 0 2px 6px rgba(0,0,0,0.25);
-    }
-    
-    .pill-r { background: #f6ad55; }
-    .pill-s { background: #fc8181; }
-    .pill-g { background: #68d391; }
     
     /* ========== INFO CONEXIÓN (ABAJO) ========== */
     .connection-bar {
@@ -587,7 +607,7 @@
     <div class="sun-panel">
       <h3>Estado del Sol</h3>
       <div style="width: 200px; height: 200px; display: flex; align-items: center; justify-content: center; background: #000; border-radius: 50%; box-shadow: 0 6px 24px rgba(255, 215, 0, 0.35);">
-        <img id="sdoImage" src="https://sdo.gsfc.nasa.gov/assets/img/latest/latest_1024_0171.jpg" alt="Sol AIA 171" 
+        <img id="sdoImage" src="https://sdo.gsfc.nasa.gov/assets/img/latest/f_AIA_171_1024.jpg" alt="Sol SDO AIA 171" 
              onerror="handleSDOError(this)" style="display: block; width: 200px; height: 200px; border-radius: 50%; object-fit: cover;"/>
         <div id="sdoError" class="image-error" style="display: none; width: 200px; height: 200px;">
           FUENTE NO DISPONIBLE<br>
@@ -595,72 +615,44 @@
         </div>
       </div>
       <div class="sun-info">
-        <strong>AIA 171 (EUV)</strong><br>
+        <strong>AIA 171 (Ultravioleta)</strong><br>
         <small style="color: #48bb78;">SDO/NASA</small><br>
         Actualización: <span id="sdoTime">Cargando...</span>
       </div>
+      <div class="noaa-alerts-badge">
+        <div class="label">Alertas activas</div>
+        <div class="pills" id="noaaAlertPills">
+          <span class="pill r-scale" data-level="0">R0</span>
+          <span class="pill s-scale" data-level="0">S0</span>
+          <span class="pill g-scale" data-level="0">G0</span>
+        </div>
+        <div class="graph-fallback" id="noaaAlertFallback" style="display:none;">Alertas no disponibles.</div>
+      </div>
       <div class="sun-graphs">
-        <div class="mini-graph" id="swpcAlertBlock" style="display:none;">
-          <div class="label">Escala NOAA (últimas 24h)</div>
-          <div class="alert-badge" id="swpcAlertBadge">
-            <span id="swpcAlertText">Cargando alertas...</span>
-            <div class="badge-levels">
-              <span class="level-pill pill-r" id="pillR">R-</span>
-              <span class="level-pill pill-s" id="pillS">S-</span>
-              <span class="level-pill pill-g" id="pillG">G-</span>
-            </div>
-          </div>
-        </div>
         <div class="mini-graph">
-          <div class="label">Escalas R/S/G (24h observadas)</div>
-          <a href="https://www.swpc.noaa.gov/" target="_blank" rel="noopener">
-            <img 
-              id="rsImg"
-              src="https://services.swpc.noaa.gov/images/swx-overview.png"
-              alt="NOAA R S G scales"
-              onerror="
-                const s = parseInt(this.dataset.step || '0', 10);
-                if (s === 0) {
-                  this.dataset.step = '1';
-                  this.src = 'https://services.swpc.noaa.gov/images/swxoverview.png';
-                } else if (s === 1) {
-                  this.dataset.step = '2';
-                  this.src = 'https://services.swpc.noaa.gov/images/swx-overview-large.png';
-                } else if (s === 2) {
-                  this.dataset.step = '3';
-                  this.src = 'https://services.swpc.noaa.gov/images/space-weather-conditions.png';
-                } else {
-                  this.style.display='none';
-                  this.nextElementSibling.style.display='block';
-                }
-              ">
-          </a>
-          <div class="graph-fallback" style="display:none;">Escalas R/S/G no disponibles ahora mismo.</div>
-        </div>
-        <div class="mini-graph">
-          <div class="label">Flujo X-ray GOES (0.1-0.8 nm)</div>
-          <a href="https://services.swpc.noaa.gov/images/3-day-xray-flux.png" target="_blank" rel="noopener">
+          <div class="label">Flujo X-ray GOES</div>
+          <a href="https://www.swpc.noaa.gov/products/goes-x-ray-flux" target="_blank" rel="noopener">
             <img 
               id="xrayImg"
-              src="https://services.swpc.noaa.gov/images/3-day-xray-flux.png" 
+              src="https://services.swpc.noaa.gov/images/goes-xrays-6-hour.gif" 
               alt="GOES X-ray" 
               onerror="
                 const step = parseInt(this.dataset.step || '0', 10);
                 if (step === 0) {
                   this.dataset.step = '1';
-                  this.src = 'https://services.swpc.noaa.gov/images/goes-xrays-6-hour.gif';
+                  this.src = 'https://services.swpc.noaa.gov/images/goes-xrays.gif';
                 } else if (step === 1) {
                   this.dataset.step = '2';
-                  this.src = 'https://services.swpc.noaa.gov/images/goes-xrays.gif';
+                  this.src = 'https://services.swpc.noaa.gov/images/goes-xray-flux.png';
                 } else if (step === 2) {
                   this.dataset.step = '3';
-                  this.src = 'https://services.swpc.noaa.gov/images/goes-xray-flux.png';
+                  this.src = 'https://services.swpc.noaa.gov/images/goes-xray-report.png';
                 } else if (step === 3) {
                   this.dataset.step = '4';
-                  this.src = 'https://services.swpc.noaa.gov/images/goes-xray-report.png';
+                  this.src = 'https://services.swpc.noaa.gov/images/goes-xray-flux.gif';
                 } else if (step === 4) {
                   this.dataset.step = '5';
-                  this.src = 'https://services.swpc.noaa.gov/images/goes-xray-flux.gif';
+                  this.src = window.XRAY_DATA_FALLBACK || '';
                 } else {
                   this.style.display='none';
                   this.nextElementSibling.style.display='block';
@@ -685,6 +677,16 @@
               onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
           </a>
           <div class="graph-fallback" style="display:none;">Geospace no disponible ahora mismo.</div>
+        </div>
+        <div class="mini-graph">
+          <div class="label">Flares (SUVI 094)</div>
+          <a href="https://www.swpc.noaa.gov/products/suvi" target="_blank" rel="noopener">
+            <img 
+              src="https://services.swpc.noaa.gov/images/suvi/094/latest.jpg" 
+              alt="SUVI 094" 
+              onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+          </a>
+          <div class="graph-fallback" style="display:none;">Imagen SUVI no disponible ahora mismo.</div>
         </div>
       </div>
     </div>
@@ -748,6 +750,8 @@
   <script src="https://unpkg.com/suncalc@1.9.0/suncalc.js"></script>
   <script>
     'use strict';
+    const XRAY_DATA_FALLBACK = 'data:image/png;base64,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';
+    window.XRAY_DATA_FALLBACK = XRAY_DATA_FALLBACK;
     
     // ========== NOTICIAS (TICKER CON CACHE) ==========
     const NEWS_CACHE_KEY = 'cached_news';
@@ -1243,64 +1247,63 @@
     }
     
     function updateSDO() {
-      const now = new Date();
-      document.getElementById('sdoTime').textContent = now.toLocaleTimeString('es-ES');
-      
-      // Recargar imagen SDO cada 10 minutos
-      setInterval(() => {
+      const update = () => {
         const img = document.getElementById('sdoImage');
-        img.src = 'https://sdo.gsfc.nasa.gov/assets/img/latest/f_HMImag_171_1024.jpg?' + Date.now();
+        if (img) {
+          img.src = `https://sdo.gsfc.nasa.gov/assets/img/latest/f_AIA_171_1024.jpg?${Date.now()}`;
+        }
         document.getElementById('sdoTime').textContent = new Date().toLocaleTimeString('es-ES');
-      }, 600000);
+      };
+      update();
+      setInterval(update, 600000); // cada 10 minutos
     }
     
-    // ========== ALERTA NOAA R/S/G DESDE alerts.json ==========
-    async function loadSwpcAlertsBadge() {
-      const block = document.getElementById('swpcAlertBlock');
-      const textEl = document.getElementById('swpcAlertText');
-      const pillR = document.getElementById('pillR');
-      const pillS = document.getElementById('pillS');
-      const pillG = document.getElementById('pillG');
-      if (!block || !textEl) return;
-      
+    // ========== ALERTAS NOAA R/S/G (badge compacto) ==========
+    async function fetchNoaaAlerts() {
+      const url = 'https://services.swpc.noaa.gov/products/alerts.json';
+      const pillsContainer = document.getElementById('noaaAlertPills');
+      const fallbackDiv = document.getElementById('noaaAlertFallback');
+      if (!pillsContainer) return;
+
       try {
-        const url = 'https://services.swpc.noaa.gov/products/alerts.json';
-        const res = await fetch(url, { signal: AbortSignal.timeout(8000) });
-        const data = await res.json();
-        if (!Array.isArray(data)) throw new Error('Formato inesperado');
-        
-        const maxLevels = { R: 0, S: 0, G: 0 };
-        let found = false;
-        data.forEach(item => {
-          const msg = (item.message || '').toUpperCase();
-          const match = msg.match(/\b(R|S|G)([0-5])\b/);
-          if (match) {
-            found = true;
-            const letter = match[1];
-            const level = parseInt(match[2], 10);
-            maxLevels[letter] = Math.max(maxLevels[letter], level);
-          }
+        const response = await fetch(`https://corsproxy.io/?${encodeURIComponent(url)}`, { signal: AbortSignal.timeout(8000) });
+        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+        const alerts = await response.json();
+
+        let maxR = 0, maxS = 0, maxG = 0;
+        let activeAlertsFound = false;
+
+        alerts.forEach(alert => {
+          const message = alert.message || '';
+          const rMatch = message.match(/R(\d)/);
+          const sMatch = message.match(/S(\d)/);
+          const gMatch = message.match(/G(\d)/);
+
+          if (rMatch) { maxR = Math.max(maxR, parseInt(rMatch[1], 10)); activeAlertsFound = true; }
+          if (sMatch) { maxS = Math.max(maxS, parseInt(sMatch[1], 10)); activeAlertsFound = true; }
+          if (gMatch) { maxG = Math.max(maxG, parseInt(gMatch[1], 10)); activeAlertsFound = true; }
         });
-        
-        const label = (letter, val) => `${letter}${val > 0 ? val : '-'}`;
-        pillR.textContent = label('R', maxLevels.R);
-        pillS.textContent = label('S', maxLevels.S);
-        pillG.textContent = label('G', maxLevels.G);
-        
-        if (found) {
-          const active = ['R', 'S', 'G'].filter(l => maxLevels[l] > 0).map(l => `${l}${maxLevels[l]}`);
-          textEl.textContent = active.length ? `Alertas activas: ${active.join(' / ')}` : 'Sin alertas activas';
-        } else {
-          textEl.textContent = 'Sin alertas activas';
-        }
-        block.style.display = 'block';
-      } catch (e) {
-        console.warn('SWPC alerts badge error:', e);
-        textEl.textContent = 'Alertas no disponibles';
-        pillR.textContent = 'R-';
-        pillS.textContent = 'S-';
-        pillG.textContent = 'G-';
-        block.style.display = 'block';
+
+        document.querySelector('.noaa-alerts-badge .label').textContent = activeAlertsFound ? 'Alertas activas' : 'Sin alertas activas';
+
+        const rPill = pillsContainer.querySelector('.r-scale');
+        const sPill = pillsContainer.querySelector('.s-scale');
+        const gPill = pillsContainer.querySelector('.g-scale');
+        rPill.textContent = `R${maxR}`;
+        rPill.dataset.level = maxR;
+        sPill.textContent = `S${maxS}`;
+        sPill.dataset.level = maxS;
+        gPill.textContent = `G${maxG}`;
+
+        pillsContainer.style.display = 'flex';
+        fallbackDiv.style.display = 'none';
+
+      } catch (error) {
+        console.error('Error fetching NOAA alerts:', error);
+        const label = document.querySelector('.noaa-alerts-badge .label');
+        if (label) label.textContent = 'Alertas no disponibles';
+        pillsContainer.style.display = 'none';
+        if (fallbackDiv) fallbackDiv.style.display = 'block';
       }
     }
     
@@ -1429,13 +1432,13 @@
       initNews();
       drawMoon();
       updateSDO();
-      loadSwpcAlertsBadge();
+      fetchNoaaAlerts();
       loadConnectionInfo();
       
       // Actualizar luna cada minuto
       setInterval(drawMoon, 60000);
       // Refrescar alertas NOAA cada 10 minutos
-      setInterval(loadSwpcAlertsBadge, 600000);
+      setInterval(fetchNoaaAlerts, 600000);
       
       console.log('✓ Todos los componentes cargados');
     });
