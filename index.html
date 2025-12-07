@@ -153,7 +153,7 @@
       cursor: pointer;
       transition: all 0.3s ease;
       position: relative;
-      min-height: 280px;  /* más altura para acercar la proporción a los paneles laterales */
+      min-height: 320px;  /* más altura para acercar la proporción a los paneles laterales */
       display: flex;
       flex-direction: column;
       border: 1px solid rgba(109, 213, 237, 0.15);
@@ -198,12 +198,12 @@
       position: relative;
       overflow: hidden;
       aspect-ratio: 1 / 1;   /* Proporción cuadrada para mostrar más mapa y menos recorte */
-      min-height: 280px;      /* incremento para equilibrar altura con laterales */
+      min-height: 320px;      /* incremento para equilibrar altura con laterales */
     }
     /* Para la tarjeta cyber: formato 16:9 y altura mayor */
     .cyber-card .map-preview {
       aspect-ratio: 16 / 9;
-      min-height: 420px;
+      min-height: 480px;
       padding: 0;
       position: relative;
       overflow: hidden;
@@ -300,62 +300,50 @@
       color: #a0aec0;
     }
     
-    .space-alerts {
+    .sun-graphs {
       width: 100%;
-      background: rgba(26, 29, 46, 0.7);
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+      margin-top: 8px;
+    }
+    
+    .graph-card {
+      background: rgba(26, 29, 46, 0.75);
       border: 1px solid rgba(109, 213, 237, 0.25);
       border-radius: 10px;
-      padding: 12px;
+      padding: 10px;
       box-shadow: 0 4px 16px rgba(0,0,0,0.25);
     }
     
-    .space-alerts-header {
+    .graph-title {
+      font-size: 12px;
+      color: #6dd5ed;
+      margin-bottom: 6px;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-bottom: 8px;
-      font-size: 13px;
-      color: #e0e6ed;
     }
     
-    .space-alerts-header small {
-      color: #48bb78;
-      font-weight: 600;
-    }
-    
-    .space-alerts-list {
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-      max-height: 200px;
-      overflow-y: auto;
-    }
-    
-    .alert-item {
-      background: rgba(10, 14, 26, 0.7);
-      border: 1px solid rgba(109, 213, 237, 0.2);
-      border-radius: 8px;
-      padding: 8px 10px;
-      font-size: 12px;
-      color: #cbd5e0;
-      line-height: 1.4;
-    }
-    
-    .alert-title {
-      font-weight: 600;
-      color: #6dd5ed;
-      margin-bottom: 2px;
-    }
-    
-    .alert-meta {
-      font-size: 11px;
+    .graph-title small {
       color: #a0aec0;
     }
     
-    .muted {
-      color: #718096;
+    .graph-card img {
+      width: 100%;
+      border-radius: 6px;
+      border: 1px solid rgba(109, 213, 237, 0.15);
+      background: #0a0e1a;
+    }
+    
+    .graph-fallback {
       font-size: 12px;
+      color: #718096;
       text-align: center;
+      padding: 12px;
+      background: #0a0e1a;
+      border-radius: 6px;
+      border: 1px dashed rgba(109, 213, 237, 0.2);
     }
     
     /* ========== INFO CONEXIÓN (ABAJO) ========== */
@@ -515,7 +503,6 @@
       <div class="map-card" onclick="window.open('mapa_tierra_v2.html', '_blank')">
         <div class="map-header">
           <h3>Mapa Terrestre Geológico</h3>
-          <p>Terremotos recientes y volcanes activos en tiempo real</p>
         </div>
         <div class="map-preview">
           <!-- Miniatura interactiva (solo vista previa, sin interacción) -->
@@ -523,7 +510,7 @@
             src="mapa_tierra_v2.html?preview=1" 
             title="Mini mapa terrestre" 
             id="mini-earth"
-            style="width: 115%; height: 115%; border: none; border-radius: 12px; overflow: hidden; pointer-events: none; filter: contrast(1) brightness(1); transform: scale(0.87); transform-origin: center;"
+            style="width: 130%; height: 130%; border: none; border-radius: 12px; overflow: hidden; pointer-events: none; filter: contrast(1) brightness(1); transform: scale(0.95); transform-origin: center;"
             loading="lazy">
           </iframe>
           <div class="map-overlay">Click para abrir →</div>
@@ -534,14 +521,13 @@
       <div class="map-card cyber-card" onclick="window.open('mapa_cyber.html', '_blank')">
         <div class="map-header">
           <h3>Mapa Cybernético</h3>
-          <p>Tráfico malicioso y ataques en tiempo real</p>
         </div>
         <div class="map-preview">
           <iframe 
             id="mini-cyber"
             src="mapa_cyber.html?preview=1" 
             title="Mini mapa cyber" 
-            style="position: absolute; top: 50%; left: 50%; width: 200%; height: 200%; border: none; border-radius: 12px; overflow: hidden; pointer-events: none; filter: contrast(1) brightness(1); transform: translate(-50%, -50%) scale(0.9); transform-origin: center;"
+            style="position: absolute; top: 50%; left: 50%; width: 220%; height: 220%; border: none; border-radius: 12px; overflow: hidden; pointer-events: none; filter: contrast(1) brightness(1); transform: translate(-50%, -50%) scale(1.0); transform-origin: center;"
             loading="lazy">
           </iframe>
           <div class="map-overlay">Click para abrir →</div>
@@ -552,7 +538,6 @@
       <div class="map-card" onclick="alert('Mapa de España - Próximamente')">
         <div class="map-header">
           <h3>Mapa de España</h3>
-          <p>Alertas meteorológicas y clima nacional</p>
         </div>
         <div class="map-preview">
           <div class="map-placeholder">
@@ -580,13 +565,22 @@
         <small style="color: #48bb78;">SDO/NASA</small><br>
         Actualización: <span id="sdoTime">Cargando...</span>
       </div>
-      <div class="space-alerts">
-        <div class="space-alerts-header">
-          <span>Alertas de clima espacial</span>
-          <small>NOAA SWPC</small>
+      <div class="sun-graphs">
+        <div class="graph-card">
+          <div class="graph-title">
+            <span>Flujo X-ray GOES (0.1-0.8 nm)</span>
+            <small>NOAA SWPC</small>
+          </div>
+          <img src="https://services.swpc.noaa.gov/images/goes-xrays.gif" alt="GOES X-ray" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+          <div class="graph-fallback" style="display:none;">Gráfico no disponible ahora mismo.</div>
         </div>
-        <div class="space-alerts-list" id="spaceAlertsList">
-          <div class="loading">Cargando alertas...</div>
+        <div class="graph-card">
+          <div class="graph-title">
+            <span>Viento solar (Velocidad / Proton Flux)</span>
+            <small>ACE / DSCOVR</small>
+          </div>
+          <img src="https://services.swpc.noaa.gov/images/ace-swepam-24-hour.gif" alt="Solar wind" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+          <div class="graph-fallback" style="display:none;">Gráfico no disponible ahora mismo.</div>
         </div>
       </div>
     </div>
@@ -655,10 +649,6 @@
     const NEWS_CACHE_KEY = 'cached_news';
     const NEWS_CACHE_DURATION = 3600000; // 1 hora
     const AEMET_API_KEY = 'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJoYWxtYW4xNDlAaG90bWFpbC5jb20iLCJqdGkiOiI3ZGQ5ZTVmNi1lNDEwLTQzZmMtYjNhOC04MGI3NzM2NmVkYTYiLCJpc3MiOiJBRU1FVCIsImlhdCI6MTc2NDg4MzUyMSwidXNlcklkIjoiN2RkOWU1ZjYtZTQxMC00M2ZjLWIzYTgtODBiNzczNjZlZGE2Iiwicm9sZSI6IiJ9.jGtqvEyxNK9InPB75V4xm8KBQn_r1etLlPO8LUqyuys';
-    const SPACE_ALERTS_FALLBACK = [
-      { title: 'Monitoreo solar activo', meta: 'Fuente: NOAA SWPC' },
-      { title: 'Sin alertas críticas registradas', meta: 'Último chequeo automático' }
-    ];
     
     const FALLBACK_NEWS = [
       { icon: '🌍', text: 'Sistema de monitoreo geofísico activo', url: '#' },
@@ -790,31 +780,7 @@
           console.warn('⚠️ Error ciberseguridad:', e.message);
         }
         
-        // 6. CLIMA ESPAÑA - Info basada en época del año
-        try {
-          const now = new Date();
-          const month = now.getMonth(); // 0-11
-          const day = now.getDate();
-          const hour = now.getHours();
-          
-          // Temperatura estimada realista según mes y hora
-          const tempBase = [8, 10, 13, 15, 19, 24, 28, 28, 24, 18, 12, 9][month];
-          const tempVariation = hour > 14 ? 3 : (hour > 8 ? 5 : -2);
-          const temp = tempBase + tempVariation + Math.floor(Math.random() * 3 - 1);
-          
-          const conditions = month >= 11 || month <= 2 ? 'Nublado' : 
-                           month >= 6 && month <= 8 ? 'Soleado' : 'Parcialmente nublado';
-          
-          allNews.push({
-            icon: '🌡️',
-            text: `Madrid: ~${temp}°C, ${conditions}`,
-            url: 'https://www.aemet.es/'
-          });
-        } catch (e) {
-          console.warn('⚠️ Error clima España:', e.message);
-        }
-        
-        // 7. ASTEROIDES CERCANOS NASA (sin API key - usando datos públicos)
+        // 6. ASTEROIDES CERCANOS NASA (sin API key - usando datos públicos)
         try {
           // NASA tiene un feed público de asteroides cercanos
           const today = new Date();
@@ -1168,59 +1134,6 @@
       }, 600000);
     }
     
-    // ========== ALERTAS DE CLIMA ESPACIAL (PANEL DERECHO) ==========
-    async function loadSpaceAlertsPanel() {
-      const listEl = document.getElementById('spaceAlertsList');
-      if (!listEl) return;
-      listEl.innerHTML = '<div class="loading">Cargando alertas...</div>';
-      
-      try {
-        const url = 'https://services.swpc.noaa.gov/products/alerts.json';
-        const res = await fetch(`https://corsproxy.io/?${encodeURIComponent(url)}`, {
-          signal: AbortSignal.timeout(8000)
-        });
-        const data = await res.json();
-        const alerts = Array.isArray(data) ? data.slice(0, 5) : [];
-        
-        if (!alerts.length) {
-          listEl.innerHTML = '<div class="muted">Sin alertas activas.</div>';
-          return;
-        }
-        
-        listEl.innerHTML = '';
-        alerts.forEach(alert => {
-          const message = alert.message || alert.summary || alert.description || 'Alerta de clima espacial';
-          const metaParts = [];
-          
-          const level = alert.severity || alert.event_type || alert.code;
-          if (level) metaParts.push(level);
-          
-          const start = alert.issue_datetime || alert.startTime || alert.start_time || alert.sent;
-          if (start) metaParts.push(new Date(start).toLocaleString('es-ES'));
-          
-          const item = document.createElement('div');
-          item.className = 'alert-item';
-          item.innerHTML = `
-            <div class="alert-title">${message}</div>
-            <div class="alert-meta">${metaParts.join(' · ') || 'Sin hora disponible'}</div>
-          `;
-          listEl.appendChild(item);
-        });
-      } catch (e) {
-        console.warn('⚠️ Alertas NOAA fallo', e);
-        listEl.innerHTML = '';
-        SPACE_ALERTS_FALLBACK.forEach(alert => {
-          const item = document.createElement('div');
-          item.className = 'alert-item';
-          item.innerHTML = `
-            <div class="alert-title">${alert.title}</div>
-            <div class="alert-meta">${alert.meta}</div>
-          `;
-          listEl.appendChild(item);
-        });
-      }
-    }
-    
     // ========== INFO CONEXIÓN ==========
     async function loadConnectionInfo() {
       try {
@@ -1346,13 +1259,10 @@
       initNews();
       drawMoon();
       updateSDO();
-      loadSpaceAlertsPanel();
       loadConnectionInfo();
       
       // Actualizar luna cada minuto
       setInterval(drawMoon, 60000);
-      // Refrescar alertas solares cada 10 minutos
-      setInterval(loadSpaceAlertsPanel, 600000);
       
       console.log('✓ Todos los componentes cargados');
     });
