@@ -412,6 +412,26 @@
       border-radius: 6px;
       border: 1px dashed rgba(109, 213, 237, 0.2);
     }
+
+    .source-logos {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .source-pill {
+      font-size: 11px;
+      color: #e2e8f0;
+      padding: 5px 10px;
+      border-radius: 6px;
+      border: 1px solid #2c2f3a;
+      background: #0d101a;
+      letter-spacing: 0.4px;
+    }
+
+    .source-pill.sdo { color: #f6e05e; border-color: #72520a; }
+    .source-pill.noaa { color: #90cdf4; border-color: #2b4c7e; }
     
     /* ========== INFO CONEXIÓN (ABAJO) ========== */
     .connection-bar {
@@ -556,6 +576,14 @@
         <div id="moonError" class="image-error" style="display: none;">
           FUENTE NO DISPONIBLE<br>
           <small style="font-size: 11px; margin-top: 8px; display: block;">NASA SVS offline</small>
+        </div>
+        <div class="source-logos">
+          <a href="https://sdo.gsfc.nasa.gov/" target="_blank" rel="noopener" style="text-decoration:none;">
+            <span class="source-pill sdo">SDO</span>
+          </a>
+          <a href="https://www.swpc.noaa.gov/" target="_blank" rel="noopener" style="text-decoration:none;">
+            <span class="source-pill noaa">NOAA / SWPC</span>
+          </a>
         </div>
       </div>
       <div class="moon-info" id="moonInfo">
