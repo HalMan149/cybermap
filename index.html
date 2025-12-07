@@ -1517,24 +1517,42 @@
       'https://services.swpc.noaa.gov/products/solar-wind/solar-wind.json'
     ];
 
+    async function fetchWithProxy(url) {
+      try {
+        const res = await fetch(url, { signal: AbortSignal.timeout(8000) });
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        return await res.json();
+      } catch (e) {
+        console.warn('Directo fallo, pruebo proxy:', url, e.message);
+        try {
+          const proxied = `https://corsproxy.io/?${encodeURIComponent(url)}`;
+          const res2 = await fetch(proxied, { signal: AbortSignal.timeout(8000) });
+          if (!res2.ok) throw new Error(`HTTP ${res2.status}`);
+          return await res2.json();
+        } catch (e2) {
+          console.warn('Proxy fallo:', url, e2.message);
+          return null;
+        }
+      }
+    }
+
     async function loadSolarWindData() {
       for (const url of SW_ENDPOINTS) {
-        try {
-          const res = await fetch(url, { signal: AbortSignal.timeout(8000) });
-          if (!res.ok) throw new Error(`HTTP ${res.status}`);
-          const data = await res.json();
-          if (Array.isArray(data) && data.length > 2) return data;
-        } catch (e) {
-          console.warn('SW endpoint fallo:', url, e.message);
-        }
+        const data = await fetchWithProxy(url);
+        if (Array.isArray(data) && data.length > 2) return data;
       }
       return null;
     }
 
     function parseSolarWind(data) {
       if (!Array.isArray(data) || data.length < 2) return null;
-      const header = data[0];
-      const rows = data.slice(1);
+      let header = data[0];
+      let rows = data.slice(1);
+      // Algunos feeds traen encabezado como string CSV
+      if (typeof header === 'string') {
+        header = header.split(',');
+        rows = rows.map(r => typeof r === 'string' ? r.split(',') : r);
+      }
       const idxTime = header.findIndex(h => /time/i.test(h));
       const idxDensity = header.findIndex(h => /density/i.test(h));
       const idxSpeed = header.findIndex(h => /speed|velocity/i.test(h));
@@ -1542,6 +1560,7 @@
       if (idxTime === -1 || idxDensity === -1 || idxSpeed === -1 || idxTemp === -1) return null;
       const points = rows
         .map(r => {
+          if (!Array.isArray(r)) return null;
           const t = new Date(r[idxTime]);
           const n = parseFloat(r[idxDensity]);
           const v = parseFloat(r[idxSpeed]);
