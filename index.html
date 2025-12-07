@@ -629,8 +629,15 @@
       </div>
       <div class="sun-info">
         <strong>AIA 171 (Ultravioleta)</strong><br>
-        <small style="color: #48bb78;">SDO/NASA</small><br>
         Actualización: <span id="sdoTime">Cargando...</span>
+      </div>
+      <div style="display:flex; gap:8px; justify-content:center; margin-top:4px;">
+        <a href="https://sdo.gsfc.nasa.gov/" target="_blank" rel="noopener" style="text-decoration:none;">
+          <span style="display:inline-flex; align-items:center; gap:6px; padding:4px 8px; border:1px solid #2c2f3a; border-radius:6px; background:#0d101a; color:#e2e8f0; font-size:11px;">SDO</span>
+        </a>
+        <a href="https://www.swpc.noaa.gov/" target="_blank" rel="noopener" style="text-decoration:none;">
+          <span style="display:inline-flex; align-items:center; gap:6px; padding:4px 8px; border:1px solid #2c2f3a; border-radius:6px; background:#0d101a; color:#e2e8f0; font-size:11px;">NOAA/SWPC</span>
+        </a>
       </div>
       <a class="noaa-alerts-link" href="https://www.swpc.noaa.gov/products/alerts-watches-and-warnings" target="_blank" rel="noopener">
         <div class="noaa-alerts-badge">
@@ -655,16 +662,20 @@
         </div>
         <div class="mini-graph">
           <div class="label">Viento solar (N/V/T)</div>
-          <div class="xray-frame" style="background:#0d101a;border:1px solid #2c2f3a;border-radius:10px;padding:8px;">
-            <canvas id="solarWindCanvas" width="560" height="220" style="width:100%;background:#000;border-radius:6px;display:block;"></canvas>
-          </div>
+          <a href="https://www.swpc.noaa.gov/products/real-time-solar-wind" target="_blank" rel="noopener" style="display:block;">
+            <div class="xray-frame" style="background:#0d101a;border:1px solid #2c2f3a;border-radius:10px;padding:8px;">
+              <canvas id="solarWindCanvas" width="560" height="220" style="width:100%;background:#000;border-radius:6px;display:block;"></canvas>
+            </div>
+          </a>
           <div class="graph-fallback" id="solarWindFallback" style="display:none;">Viento solar no disponible ahora mismo.</div>
         </div>
         <div class="mini-graph">
           <div class="label">Campo geomagnético (Kp reciente)</div>
-          <div class="xray-frame" style="background:#0d101a;border:1px solid #2c2f3a;border-radius:10px;padding:8px;">
-            <canvas id="kpCanvas" width="560" height="180" style="width:100%;background:#000;border-radius:6px;display:block;"></canvas>
-          </div>
+          <a href="https://www.swpc.noaa.gov/products/planetary-k-index" target="_blank" rel="noopener" style="display:block;">
+            <div class="xray-frame" style="background:#0d101a;border:1px solid #2c2f3a;border-radius:10px;padding:8px;">
+              <canvas id="kpCanvas" width="560" height="180" style="width:100%;background:#000;border-radius:6px;display:block;"></canvas>
+            </div>
+          </a>
           <div class="graph-fallback" id="kpFallback" style="display:none;">Kp no disponible ahora mismo.</div>
         </div>
         <div class="mini-graph">
