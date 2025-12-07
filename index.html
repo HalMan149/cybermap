@@ -653,21 +653,18 @@
           <div class="graph-fallback" id="xrayFallback" style="display:none;">Gráfico X-ray no disponible ahora mismo.</div>
         </div>
         <div class="mini-graph">
-          <div class="label">Viento solar (ACE/DSCOVR)</div>
-          <a href="https://services.swpc.noaa.gov/images/ace-swepam-24-hour.gif" target="_blank" rel="noopener">
-            <img src="https://services.swpc.noaa.gov/images/ace-swepam-24-hour.gif" alt="Solar wind" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-          </a>
-          <div class="graph-fallback" style="display:none;">Gráfico no disponible ahora mismo.</div>
+          <div class="label">Viento solar (densidad, velocidad, temperatura)</div>
+          <div class="xray-frame" style="background:#0d101a;border:1px solid #2c2f3a;border-radius:10px;padding:8px;">
+            <canvas id="solarWindCanvas" width="560" height="220" style="width:100%;background:#000;border-radius:6px;display:block;"></canvas>
+          </div>
+          <div class="graph-fallback" id="solarWindFallback" style="display:none;">Viento solar no disponible ahora mismo.</div>
         </div>
         <div class="mini-graph">
-          <div class="label">Geospace (campo geomagnético)</div>
-          <a href="https://services.swpc.noaa.gov/images/geospace/geospace_3_day.png" target="_blank" rel="noopener">
-            <img 
-              src="https://services.swpc.noaa.gov/images/geospace/geospace_3_day.png" 
-              alt="Geospace" 
-              onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-          </a>
-          <div class="graph-fallback" style="display:none;">Geospace no disponible ahora mismo.</div>
+          <div class="label">Campo geomagnético (Kp reciente)</div>
+          <div class="xray-frame" style="background:#0d101a;border:1px solid #2c2f3a;border-radius:10px;padding:8px;">
+            <canvas id="kpCanvas" width="560" height="180" style="width:100%;background:#000;border-radius:6px;display:block;"></canvas>
+          </div>
+          <div class="graph-fallback" id="kpFallback" style="display:none;">Kp no disponible ahora mismo.</div>
         </div>
         <div class="mini-graph">
           <div class="label">Flares (SUVI 094)</div>
@@ -1464,7 +1461,7 @@
       ctx.lineWidth = 1.4;
       ctx.strokeRect(padding.left, padding.top, w - padding.left - padding.right, h - padding.top - padding.bottom);
 
-      // Eje X labels (hora) cada ~6h
+      // Eje X labels (hora) cada ~6h (sin líneas internas para limpiar)
       ctx.fillStyle = '#a0aec0';
       const totalHours = (tMax - tMin) / 3600000;
       const stepHours = totalHours > 48 ? 6 : 3;
@@ -1473,11 +1470,6 @@
         const px = xToPx(t);
         const label = new Date(t).toLocaleTimeString('es-ES', { hour: '2-digit', minute: '2-digit' });
         ctx.fillText(label, px - 16, h - padding.bottom + 16);
-        ctx.strokeStyle = 'rgba(109,213,237,0.1)';
-        ctx.beginPath();
-        ctx.moveTo(px, padding.top);
-        ctx.lineTo(px, h - padding.bottom);
-        ctx.stroke();
       }
 
       // Trazar series
@@ -1517,6 +1509,233 @@
         return;
       }
       drawXrayChart(data);
+    }
+
+    // ========== VIENTO SOLAR (ACE/DSCOVR, 1m) ==========
+    const SW_ENDPOINTS = [
+      'https://services.swpc.noaa.gov/products/summary/ace_swepam_1m.json',
+      'https://services.swpc.noaa.gov/products/solar-wind/solar-wind.json'
+    ];
+
+    async function loadSolarWindData() {
+      for (const url of SW_ENDPOINTS) {
+        try {
+          const res = await fetch(url, { signal: AbortSignal.timeout(8000) });
+          if (!res.ok) throw new Error(`HTTP ${res.status}`);
+          const data = await res.json();
+          if (Array.isArray(data) && data.length > 2) return data;
+        } catch (e) {
+          console.warn('SW endpoint fallo:', url, e.message);
+        }
+      }
+      return null;
+    }
+
+    function parseSolarWind(data) {
+      if (!Array.isArray(data) || data.length < 2) return null;
+      const header = data[0];
+      const rows = data.slice(1);
+      const idxTime = header.findIndex(h => /time/i.test(h));
+      const idxDensity = header.findIndex(h => /density/i.test(h));
+      const idxSpeed = header.findIndex(h => /speed|velocity/i.test(h));
+      const idxTemp = header.findIndex(h => /temperature|temp/i.test(h));
+      if (idxTime === -1 || idxDensity === -1 || idxSpeed === -1 || idxTemp === -1) return null;
+      const points = rows
+        .map(r => {
+          const t = new Date(r[idxTime]);
+          const n = parseFloat(r[idxDensity]);
+          const v = parseFloat(r[idxSpeed]);
+          const T = parseFloat(r[idxTemp]);
+          if (!isFinite(n) || !isFinite(v) || !isFinite(T) || isNaN(t.getTime())) return null;
+          return { t, n, v, T };
+        })
+        .filter(Boolean);
+      return points;
+    }
+
+    function drawSolarWind(points) {
+      const canvas = document.getElementById('solarWindCanvas');
+      const fallback = document.getElementById('solarWindFallback');
+      if (!canvas || !points || points.length < 5) {
+        if (fallback) fallback.style.display = 'block';
+        return;
+      }
+      const ctx = canvas.getContext('2d');
+      const w = canvas.width, h = canvas.height;
+      ctx.clearRect(0, 0, w, h);
+
+      // Tomar últimas 8 horas aprox
+      const now = points[points.length-1].t.getTime();
+      const cutoff = now - 8 * 3600000;
+      const recent = points.filter(p => p.t.getTime() >= cutoff);
+      if (recent.length < 5) recent.push(...points.slice(-120)); // fallback últimas ~2h
+
+      const tMin = recent[0].t.getTime();
+      const tMax = recent[recent.length-1].t.getTime();
+
+      const nVals = recent.map(p => p.n);
+      const vVals = recent.map(p => p.v);
+      const tVals = recent.map(p => p.T);
+      const nMin = Math.min(...nVals), nMax = Math.max(...nVals);
+      const vMin = Math.min(...vVals), vMax = Math.max(...vVals);
+      const TMin = Math.min(...tVals), TMax = Math.max(...tVals);
+
+      const padding = { left: 48, right: 16, top: 14, bottom: 28 };
+      ctx.fillStyle = '#000';
+      ctx.fillRect(0,0,w,h);
+      ctx.strokeStyle = '#4a4d57';
+      ctx.lineWidth = 1.4;
+      ctx.strokeRect(padding.left, padding.top, w - padding.left - padding.right, h - padding.top - padding.bottom);
+
+      ctx.font = '11px "Segoe UI", sans-serif';
+      ctx.fillStyle = '#a0aec0';
+
+      const totalHours = (tMax - tMin)/3600000;
+      const stepHours = totalHours > 6 ? 2 : 1;
+      const firstTick = Math.ceil(tMin / (stepHours*3600000)) * (stepHours*3600000);
+      for (let t = firstTick; t <= tMax; t += stepHours*3600000) {
+        const x = padding.left + (t - tMin)/(tMax - tMin) * (w - padding.left - padding.right);
+        const label = new Date(t).toLocaleTimeString('es-ES', { hour: '2-digit', minute: '2-digit' });
+        ctx.fillText(label, x-16, h - padding.bottom + 14);
+      }
+
+      const toX = (t) => padding.left + (t - tMin)/(tMax - tMin) * (w - padding.left - padding.right);
+      const toY = (val, min, max) => padding.top + (max - val)/(max - min || 1) * (h - padding.top - padding.bottom);
+
+      function drawSerie(vals, min, max, color) {
+        ctx.strokeStyle = color;
+        ctx.lineWidth = 2;
+        ctx.beginPath();
+        vals.forEach((p, idx) => {
+          const x = toX(p.t.getTime());
+          const y = toY(p.val, min, max);
+          if (idx === 0) ctx.moveTo(x,y); else ctx.lineTo(x,y);
+        });
+        ctx.stroke();
+      }
+
+      const serieN = recent.map(p => ({t:p.t, val:p.n}));
+      const serieV = recent.map(p => ({t:p.t, val:p.v}));
+      const serieT = recent.map(p => ({t:p.t, val:p.T}));
+
+      drawSerie(serieN, nMin, nMax, '#00e5ff');
+      drawSerie(serieV, vMin, vMax, '#f6ad55');
+      drawSerie(serieT, TMin, TMax, '#9ae6b4');
+
+      ctx.fillStyle = '#e2e8f0';
+      ctx.fillText(`N: ${nVals[nVals.length-1].toFixed(1)} / V: ${vVals[vVals.length-1].toFixed(0)} / T: ${(tVals[tVals.length-1]/1e3).toFixed(0)}K`, padding.left, padding.top - 2);
+      if (fallback) fallback.style.display = 'none';
+    }
+
+    async function renderSolarWind() {
+      const data = await loadSolarWindData();
+      const fallback = document.getElementById('solarWindFallback');
+      if (!data) {
+        if (fallback) fallback.style.display = 'block';
+        return;
+      }
+      const parsed = parseSolarWind(data);
+      if (!parsed) {
+        if (fallback) fallback.style.display = 'block';
+        return;
+      }
+      drawSolarWind(parsed);
+    }
+
+    // ========== Kp reciente ==========
+    const KP_ENDPOINT = 'https://services.swpc.noaa.gov/products/noaa-planetary-k-index.json';
+
+    async function loadKp() {
+      try {
+        const res = await fetch(KP_ENDPOINT, { signal: AbortSignal.timeout(8000) });
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const data = await res.json();
+        if (Array.isArray(data) && data.length > 2) return data;
+      } catch (e) {
+        console.warn('Kp fallo:', e.message);
+      }
+      return null;
+    }
+
+    function drawKp(data) {
+      const canvas = document.getElementById('kpCanvas');
+      const fallback = document.getElementById('kpFallback');
+      if (!canvas || !data || data.length < 3) {
+        if (fallback) fallback.style.display = 'block';
+        return;
+      }
+      const header = data[0];
+      const idxTime = header.findIndex(h => /time/i.test(h));
+      const idxKp = header.findIndex(h => /^Kp$/i.test(h));
+      const points = data.slice(1).map(r => {
+        const t = new Date(r[idxTime]);
+        const k = parseFloat(r[idxKp]);
+        if (!isFinite(k) || isNaN(t.getTime())) return null;
+        return { t, k };
+      }).filter(Boolean);
+      if (points.length < 2) {
+        if (fallback) fallback.style.display = 'block';
+        return;
+      }
+
+      const ctx = canvas.getContext('2d');
+      const w = canvas.width, h = canvas.height;
+      ctx.clearRect(0,0,w,h);
+      const tMin = points[0].t.getTime();
+      const tMax = points[points.length-1].t.getTime();
+      const kMin = 0, kMax = 9;
+      const padding = { left: 42, right: 12, top: 12, bottom: 26 };
+
+      ctx.fillStyle = '#000';
+      ctx.fillRect(0,0,w,h);
+      ctx.strokeStyle = '#4a4d57';
+      ctx.lineWidth = 1.2;
+      ctx.strokeRect(padding.left, padding.top, w - padding.left - padding.right, h - padding.top - padding.bottom);
+
+      ctx.strokeStyle = 'rgba(109,213,237,0.18)';
+      ctx.font = '11px "Segoe UI", sans-serif';
+      ctx.fillStyle = '#6dd5ed';
+      for (let k=1; k<=9; k+=2) {
+        const y = padding.top + (kMax - k)/(kMax - kMin) * (h - padding.top - padding.bottom);
+        ctx.beginPath(); ctx.moveTo(padding.left, y); ctx.lineTo(w - padding.right, y); ctx.stroke();
+        ctx.fillText(String(k), 10, y);
+      }
+
+      ctx.fillStyle = '#a0aec0';
+      const totalHours = (tMax - tMin)/3600000;
+      const stepHours = totalHours > 24 ? 6 : 3;
+      const firstTick = Math.ceil(tMin / (stepHours*3600000)) * (stepHours*3600000);
+      const toX = t => padding.left + (t - tMin)/(tMax - tMin) * (w - padding.left - padding.right);
+      for (let t = firstTick; t <= tMax; t += stepHours*3600000) {
+        const x = toX(t);
+        const label = new Date(t).toLocaleTimeString('es-ES', { hour: '2-digit' });
+        ctx.fillText(label, x-12, h - padding.bottom + 14);
+      }
+
+      ctx.strokeStyle = '#f6ad55';
+      ctx.lineWidth = 2.4;
+      ctx.beginPath();
+      points.forEach((p, idx) => {
+        const x = toX(p.t.getTime());
+        const y = padding.top + (kMax - p.k)/(kMax - kMin) * (h - padding.top - padding.bottom);
+        if (idx === 0) ctx.moveTo(x,y); else ctx.lineTo(x,y);
+      });
+      ctx.stroke();
+
+      ctx.fillStyle = '#e2e8f0';
+      const last = points[points.length-1];
+      ctx.fillText(`Kp: ${last.k.toFixed(1)}`, padding.left, padding.top - 2);
+      if (fallback) fallback.style.display = 'none';
+    }
+
+    async function renderKp() {
+      const data = await loadKp();
+      const fallback = document.getElementById('kpFallback');
+      if (!data) {
+        if (fallback) fallback.style.display = 'block';
+        return;
+      }
+      drawKp(data);
     }
     
     // ========== INFO CONEXIÓN ==========
@@ -1646,6 +1865,8 @@
       updateSDO();
       fetchNoaaAlerts();
       renderXrayChart();
+      renderSolarWind();
+      renderKp();
       loadConnectionInfo();
       
       // Actualizar luna cada minuto
@@ -1654,6 +1875,8 @@
       setInterval(fetchNoaaAlerts, 600000);
       // Actualizar X-ray cada 5 minutos
       setInterval(renderXrayChart, 300000);
+      setInterval(renderSolarWind, 300000);
+      setInterval(renderKp, 600000);
       
       console.log('✓ Todos los componentes cargados');
     });
