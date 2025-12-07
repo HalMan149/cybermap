@@ -1514,28 +1514,28 @@
 
     // ========== VIENTO SOLAR (ACE/DSCOVR, 1m) ==========
     const SW_ENDPOINTS = [
-      'https://services.swpc.noaa.gov/products/summary/ace_swepam_1m.json',
-      'https://services.swpc.noaa.gov/products/solar-wind/solar-wind.json',
-      'https://services.swpc.noaa.gov/products/summary/solar-wind.json'
+      // Plasma 7 días (densidad, velocidad, temperatura)
+      'https://services.swpc.noaa.gov/products/solar-wind/plasma-7-day.json',
+      // Backup ACE SWEpam 1m
+      'https://services.swpc.noaa.gov/products/summary/ace_swepam_1m.json'
     ];
 
     async function fetchWithProxy(url) {
-      try {
-        const res = await fetch(url, { signal: AbortSignal.timeout(8000) });
-        if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        return await res.json();
-      } catch (e) {
-        console.warn('Directo fallo, pruebo proxy:', url, e.message);
+      const attempts = [
+        `https://corsproxy.io/?${encodeURIComponent(url)}`,
+        `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,
+        url
+      ];
+      for (const u of attempts) {
         try {
-          const proxied = `https://corsproxy.io/?${encodeURIComponent(url)}`;
-          const res2 = await fetch(proxied, { signal: AbortSignal.timeout(8000) });
-          if (!res2.ok) throw new Error(`HTTP ${res2.status}`);
-          return await res2.json();
-        } catch (e2) {
-          console.warn('Proxy fallo:', url, e2.message);
-          return null;
+          const res = await fetch(u, { signal: AbortSignal.timeout(8000) });
+          if (!res.ok) throw new Error(`HTTP ${res.status}`);
+          return await res.json();
+        } catch (e) {
+          console.warn('Fetch fallo:', u, e.message);
         }
       }
+      return null;
     }
 
     async function loadSolarWindData() {
@@ -1606,11 +1606,11 @@
       const w = canvas.width, h = canvas.height;
       ctx.clearRect(0, 0, w, h);
 
-      // Tomar últimas 8 horas aprox
+      // Tomar últimas 12 horas aprox
       const now = points[points.length-1].t.getTime();
-      const cutoff = now - 8 * 3600000;
+      const cutoff = now - 12 * 3600000;
       const recent = points.filter(p => p.t.getTime() >= cutoff);
-      if (recent.length < 5) recent.push(...points.slice(-120)); // fallback últimas ~2h
+      if (recent.length < 5) recent.push(...points.slice(-200)); // fallback últimas ~3-4h
 
       const tMin = recent[0].t.getTime();
       const tMax = recent[recent.length-1].t.getTime();
