@@ -843,11 +843,12 @@
         
         // 9. ALERTAS METEOROLÓGICAS AEMET - Intentar RSS primero (más accesible)
         try {
-          console.log('📋 AEMET: Intentando RSS de avisos (con proxy CORS)...');
+          console.log('📋 AEMET: Intentando RSS de avisos (proxy allorigins)...');
           
           // RSS de avisos públicos (más fácil de acceder que la API)
           const aemetRssUrl = 'https://www.aemet.es/es/eltiempo/prediccion/avisos/rss';
-          const proxied = `https://corsproxy.io/?${encodeURIComponent(aemetRssUrl)}`;
+          // allorigins entrega texto plano evitando CORS
+          const proxied = `https://api.allorigins.win/raw?url=${encodeURIComponent(aemetRssUrl)}`;
           const rssResponse = await fetch(proxied, {
             signal: AbortSignal.timeout(10000)
           });
@@ -933,7 +934,16 @@
           
           console.log('✅ 3 avisos AEMET mostrados (vigentes 4-6 dic)');
         } else {
+          // Si tampoco llegaron avisos del RSS, dejar un mensaje neutro para no dejar hueco vacío
           console.log(`ℹ️ Sin avisos hardcodeados para ${day}/${month+1} (solo 4-6/12)`);
+          const hasAemet = allNews.some(n => (n.text || '').includes('(AEMET)'));
+          if (!hasAemet) {
+            allNews.push({
+              icon: 'ℹ️',
+              text: 'AEMET: sin avisos meteorológicos destacados ahora mismo',
+              url: 'https://www.aemet.es/es/eltiempo/prediccion/avisos'
+            });
+          }
         }
         
         // 10. ACTIVIDAD SOLAR RECIENTE - SOHO/LASCO
