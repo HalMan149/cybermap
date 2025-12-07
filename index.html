@@ -551,8 +551,8 @@
     <!-- PANEL SOL (DERECHA) -->
     <div class="sun-panel">
       <h3>Estado del Sol</h3>
-      <div style="width: 200px; height: 200px; display: flex; align-items: center; justify-content: center; background: #000; border-radius: 50%; box-shadow: 0 4px 20px rgba(255, 179, 71, 0.3);">
-        <img id="sdoImage" src="https://services.swpc.noaa.gov/images/animations/suvi/primary/094/latest.png" alt="Sol SDO" 
+      <div style="width: 200px; height: 200px; display: flex; align-items: center; justify-content: center; background: #000; border-radius: 50%; box-shadow: 0 6px 24px rgba(255, 215, 0, 0.35);">
+        <img id="sdoImage" src="https://sdo.gsfc.nasa.gov/assets/img/latest/latest_1024_0171.jpg" alt="Sol AIA 171" 
              onerror="handleSDOError(this)" style="display: block; width: 200px; height: 200px; border-radius: 50%; object-fit: cover;"/>
         <div id="sdoError" class="image-error" style="display: none; width: 200px; height: 200px;">
           FUENTE NO DISPONIBLE<br>
@@ -560,7 +560,7 @@
         </div>
       </div>
       <div class="sun-info">
-        <strong>HMI Magnetogram + AIA 171</strong><br>
+        <strong>AIA 171 (EUV)</strong><br>
         <small style="color: #48bb78;">SDO/NASA</small><br>
         Actualización: <span id="sdoTime">Cargando...</span>
       </div>
@@ -633,16 +633,6 @@
               onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
           </a>
           <div class="graph-fallback" style="display:none;">Geospace no disponible ahora mismo.</div>
-        </div>
-        <div class="mini-graph">
-          <div class="label">Flares SUVI 094Å (último)</div>
-          <a href="https://services.swpc.noaa.gov/images/flares/carrington/primary/094/latest.png" target="_blank" rel="noopener">
-            <img 
-              src="https://services.swpc.noaa.gov/images/flares/carrington/primary/094/latest.png" 
-              alt="Flares SUVI 094" 
-              onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-          </a>
-          <div class="graph-fallback" style="display:none;">Imagen SUVI no disponible ahora mismo.</div>
         </div>
       </div>
     </div>
