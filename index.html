@@ -843,11 +843,12 @@
         
         // 9. ALERTAS METEOROLÓGICAS AEMET - Intentar RSS primero (más accesible)
         try {
-          console.log('📋 AEMET: Intentando RSS de avisos...');
+          console.log('📋 AEMET: Intentando RSS de avisos (con proxy CORS)...');
           
           // RSS de avisos públicos (más fácil de acceder que la API)
           const aemetRssUrl = 'https://www.aemet.es/es/eltiempo/prediccion/avisos/rss';
-          const rssResponse = await fetch(aemetRssUrl, {
+          const proxied = `https://corsproxy.io/?${encodeURIComponent(aemetRssUrl)}`;
+          const rssResponse = await fetch(proxied, {
             signal: AbortSignal.timeout(10000)
           });
           const rssText = await rssResponse.text();
