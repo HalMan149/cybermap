@@ -573,16 +573,22 @@
           </div>
           <img 
             id="xrayImg"
-            src="https://services.swpc.noaa.gov/images/goes-xrays.gif" 
+            src="https://services.swpc.noaa.gov/images/goes-xrays-6-hour.gif" 
             alt="GOES X-ray" 
             onerror="
               const step = parseInt(this.dataset.step || '0', 10);
               if (step === 0) {
                 this.dataset.step = '1';
-                this.src = 'https://services.swpc.noaa.gov/images/goes-xray-flux.png';
+                this.src = 'https://services.swpc.noaa.gov/images/goes-xrays.gif';
               } else if (step === 1) {
                 this.dataset.step = '2';
+                this.src = 'https://services.swpc.noaa.gov/images/goes-xray-flux.png';
+              } else if (step === 2) {
+                this.dataset.step = '3';
                 this.src = 'https://services.swpc.noaa.gov/images/goes-xray-report.png';
+              } else if (step === 3) {
+                this.dataset.step = '4';
+                this.src = 'https://services.swpc.noaa.gov/images/goes-xray-flux.gif';
               } else {
                 this.style.display='none';
                 this.nextElementSibling.style.display='block';
@@ -619,6 +625,30 @@
             alt="Flares SUVI 094" 
             onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
           <div class="graph-fallback" style="display:none;">Imagen SUVI no disponible ahora mismo.</div>
+        </div>
+        <div class="graph-card">
+          <div class="graph-title">
+            <span>Escalas R/S/G (24h observadas)</span>
+            <small>NOAA SWPC</small>
+          </div>
+          <img 
+            id="rsImg"
+            src="https://services.swpc.noaa.gov/images/swx-overview.png"
+            alt="NOAA R S G scales"
+            onerror="
+              const s = parseInt(this.dataset.step || '0', 10);
+              if (s === 0) {
+                this.dataset.step = '1';
+                this.src = 'https://services.swpc.noaa.gov/images/swxoverview.png';
+              } else if (s === 1) {
+                this.dataset.step = '2';
+                this.src = 'https://services.swpc.noaa.gov/images/space-weather-conditions.png';
+              } else {
+                this.style.display='none';
+                this.nextElementSibling.style.display='block';
+              }
+            ">
+          <div class="graph-fallback" style="display:none;">Escalas R/S/G no disponibles ahora mismo.</div>
         </div>
       </div>
     </div>
