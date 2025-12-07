@@ -277,7 +277,7 @@
     .noaa-alerts-link {
       width: 100%;
       text-decoration: none;
-      display: block;
+  display: block;
       outline: none;
     }
     
@@ -286,7 +286,7 @@
       background: transparent;
       border: none;
       box-shadow: none;
-      border-radius: 8px;
+  border-radius: 8px;
       padding: 4px 0 6px 0;
       display: flex;
       flex-direction: column;
@@ -500,7 +500,7 @@
     }
     
     .detail-value {
-      font-size: 14px;
+  font-size: 14px;
       color: #e0e6ed;
       font-weight: 500;
     }
@@ -541,7 +541,7 @@
   <div class="news-ticker">
     <div class="news-ticker-content" id="newsTicker">
       <!-- Se llenará dinámicamente -->
-    </div>
+  </div>
   </div>
   
   <!-- CONTENEDOR PRINCIPAL -->
@@ -647,7 +647,7 @@
         <div class="mini-graph">
           <a href="https://www.swpc.noaa.gov/products/goes-x-ray-flux" target="_blank" rel="noopener" style="display:block;">
             <div class="xray-frame" style="background:#0d101a;border:1px solid #2c2f3a;border-radius:10px;padding:8px;">
-              <canvas id="xrayCanvas" width="520" height="240" style="width:100%;background:#000;border-radius:6px;display:block;"></canvas>
+              <canvas id="xrayCanvas" width="560" height="260" style="width:100%;background:#000;border-radius:6px;display:block;"></canvas>
             </div>
           </a>
           <div class="graph-fallback" id="xrayFallback" style="display:none;">Gráfico X-ray no disponible ahora mismo.</div>
@@ -743,6 +743,8 @@
   <script>
     'use strict';
     const XRAY_ENDPOINTS = [
+      'https://services.swpc.noaa.gov/json/goes/primary/xrays-3-day.json',
+      'https://services.swpc.noaa.gov/json/goes/secondary/xrays-3-day.json',
       'https://services.swpc.noaa.gov/json/goes/primary/xrays-1-day.json',
       'https://services.swpc.noaa.gov/json/goes/secondary/xrays-1-day.json'
     ];
@@ -1337,8 +1339,8 @@
       const fallback = document.getElementById('xrayFallback');
       if (!canvas || !data) {
         if (fallback) fallback.style.display = 'block';
-        return;
-      }
+      return;
+    }
       const ctx = canvas.getContext('2d');
       const w = canvas.width;
       const h = canvas.height;
@@ -1437,7 +1439,7 @@
       ctx.textBaseline = 'middle';
       ctx.fillStyle = '#718096';
 
-      const padding = { left: 50, right: 10, top: 10, bottom: 30 };
+      const padding = { left: 50, right: 14, top: 16, bottom: 36 };
 
       function yToPx(logVal) {
         return padding.top + ( (yMax - logVal) / (yMax - yMin) ) * (h - padding.top - padding.bottom);
@@ -1448,7 +1450,7 @@
 
       levels.forEach(lv => {
         const y = yToPx(lv.value);
-        ctx.strokeStyle = 'rgba(109,213,237,0.15)';
+        ctx.strokeStyle = 'rgba(109,213,237,0.18)';
         ctx.beginPath();
         ctx.moveTo(padding.left, y);
         ctx.lineTo(w - padding.right, y);
@@ -1457,20 +1459,32 @@
         ctx.fillText(lv.label, 12, y);
       });
 
-      // Eje X labels (hora)
+      // Marco exterior estilo NOAA
+      ctx.strokeStyle = '#4a4d57';
+      ctx.lineWidth = 1.4;
+      ctx.strokeRect(padding.left, padding.top, w - padding.left - padding.right, h - padding.top - padding.bottom);
+
+      // Eje X labels (hora) cada ~6h
       ctx.fillStyle = '#a0aec0';
-      const stepX = Math.max(2, Math.floor(logPoints.length / 4));
-      for (let i = 0; i < logPoints.length; i += stepX) {
-        const px = xToPx(logPoints[i].t);
-        const label = new Date(logPoints[i].t).toLocaleTimeString('es-ES', { hour: '2-digit', minute: '2-digit' });
-        ctx.fillText(label, px - 18, h - padding.bottom + 14);
+      const totalHours = (tMax - tMin) / 3600000;
+      const stepHours = totalHours > 48 ? 6 : 3;
+      const firstTick = Math.ceil(tMin / (stepHours * 3600000)) * (stepHours * 3600000);
+      for (let t = firstTick; t <= tMax; t += stepHours * 3600000) {
+        const px = xToPx(t);
+        const label = new Date(t).toLocaleTimeString('es-ES', { hour: '2-digit', minute: '2-digit' });
+        ctx.fillText(label, px - 16, h - padding.bottom + 16);
+        ctx.strokeStyle = 'rgba(109,213,237,0.1)';
+        ctx.beginPath();
+        ctx.moveTo(px, padding.top);
+        ctx.lineTo(px, h - padding.bottom);
+        ctx.stroke();
       }
 
       // Trazar series
       series.forEach(serie => {
         if (!serie.data || serie.data.length < 2) return;
         ctx.strokeStyle = serie.color;
-        ctx.lineWidth = 2;
+        ctx.lineWidth = 2.2;
         ctx.beginPath();
         serie.data.forEach((p, idx) => {
           const x = xToPx(p.t.getTime());
@@ -1485,7 +1499,7 @@
       const lastLong = longBand[longBand.length-1];
       const lastShort = shortBand[shortBand.length-1];
       ctx.fillStyle = '#e2e8f0';
-      const labelY = padding.top + 6;
+      const labelY = padding.top - 2;
       const labelX = padding.left;
       const lastText = [];
       if (lastLong) lastText.push(`L: ${lastLong.f.toExponential(2)} W/m²`);
