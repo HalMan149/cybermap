@@ -571,8 +571,24 @@
             <span>Flujo X-ray GOES (0.1-0.8 nm)</span>
             <small>NOAA SWPC</small>
           </div>
-          <img src="https://services.swpc.noaa.gov/images/goes-xrays-6-hour.gif" alt="GOES X-ray" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-          <div class="graph-fallback" style="display:none;">Gráfico no disponible ahora mismo.</div>
+          <img 
+            id="xrayImg"
+            src="https://services.swpc.noaa.gov/images/goes-xrays.gif" 
+            alt="GOES X-ray" 
+            onerror="
+              const step = parseInt(this.dataset.step || '0', 10);
+              if (step === 0) {
+                this.dataset.step = '1';
+                this.src = 'https://services.swpc.noaa.gov/images/goes-xray-flux.png';
+              } else if (step === 1) {
+                this.dataset.step = '2';
+                this.src = 'https://services.swpc.noaa.gov/images/goes-xray-report.png';
+              } else {
+                this.style.display='none';
+                this.nextElementSibling.style.display='block';
+              }
+            ">
+          <div class="graph-fallback" style="display:none;">Gráfico X-ray no disponible ahora mismo.</div>
         </div>
         <div class="graph-card">
           <div class="graph-title">
@@ -581,6 +597,28 @@
           </div>
           <img src="https://services.swpc.noaa.gov/images/ace-swepam-24-hour.gif" alt="Solar wind" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
           <div class="graph-fallback" style="display:none;">Gráfico no disponible ahora mismo.</div>
+        </div>
+        <div class="graph-card">
+          <div class="graph-title">
+            <span>Geospace (campo geomagnético)</span>
+            <small>SWPC</small>
+          </div>
+          <img 
+            src="https://services.swpc.noaa.gov/images/geospace/geospace_3_day.png" 
+            alt="Geospace" 
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+          <div class="graph-fallback" style="display:none;">Geospace no disponible ahora mismo.</div>
+        </div>
+        <div class="graph-card">
+          <div class="graph-title">
+            <span>Flares SUVI 094Å (último)</span>
+            <small>GOES/SUVI</small>
+          </div>
+          <img 
+            src="https://services.swpc.noaa.gov/images/flares/carrington/primary/094/latest.png" 
+            alt="Flares SUVI 094" 
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+          <div class="graph-fallback" style="display:none;">Imagen SUVI no disponible ahora mismo.</div>
         </div>
       </div>
     </div>
