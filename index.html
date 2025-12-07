@@ -345,6 +345,41 @@
       border: 1px dashed rgba(109, 213, 237, 0.2);
     }
     
+    .alert-badge {
+      background: linear-gradient(90deg, #2d3748 0%, #1a202c 100%);
+      border: 1px solid rgba(109, 213, 237, 0.35);
+      border-radius: 10px;
+      padding: 10px 12px;
+      color: #e2e8f0;
+      font-size: 13px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+    }
+    
+    .badge-levels {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+    }
+    
+    .level-pill {
+      min-width: 42px;
+      text-align: center;
+      padding: 4px 8px;
+      border-radius: 8px;
+      font-weight: 700;
+      color: #0a0e1a;
+      background: #e2e8f0;
+      border: 1px solid rgba(255,255,255,0.4);
+      box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+    }
+    
+    .pill-r { background: #f6ad55; }
+    .pill-s { background: #fc8181; }
+    .pill-g { background: #68d391; }
+    
     /* ========== INFO CONEXIÓN (ABAJO) ========== */
     .connection-bar {
       background: linear-gradient(90deg, #1a1d2e 0%, #2a2d3e 100%);
@@ -565,6 +600,17 @@
         Actualización: <span id="sdoTime">Cargando...</span>
       </div>
       <div class="sun-graphs">
+        <div class="mini-graph" id="swpcAlertBlock" style="display:none;">
+          <div class="label">Escala NOAA (últimas 24h)</div>
+          <div class="alert-badge" id="swpcAlertBadge">
+            <span id="swpcAlertText">Cargando alertas...</span>
+            <div class="badge-levels">
+              <span class="level-pill pill-r" id="pillR">R-</span>
+              <span class="level-pill pill-s" id="pillS">S-</span>
+              <span class="level-pill pill-g" id="pillG">G-</span>
+            </div>
+          </div>
+        </div>
         <div class="mini-graph">
           <div class="label">Escalas R/S/G (24h observadas)</div>
           <a href="https://www.swpc.noaa.gov/" target="_blank" rel="noopener">
@@ -1208,6 +1254,56 @@
       }, 600000);
     }
     
+    // ========== ALERTA NOAA R/S/G DESDE alerts.json ==========
+    async function loadSwpcAlertsBadge() {
+      const block = document.getElementById('swpcAlertBlock');
+      const textEl = document.getElementById('swpcAlertText');
+      const pillR = document.getElementById('pillR');
+      const pillS = document.getElementById('pillS');
+      const pillG = document.getElementById('pillG');
+      if (!block || !textEl) return;
+      
+      try {
+        const url = 'https://services.swpc.noaa.gov/products/alerts.json';
+        const res = await fetch(url, { signal: AbortSignal.timeout(8000) });
+        const data = await res.json();
+        if (!Array.isArray(data)) throw new Error('Formato inesperado');
+        
+        const maxLevels = { R: 0, S: 0, G: 0 };
+        let found = false;
+        data.forEach(item => {
+          const msg = (item.message || '').toUpperCase();
+          const match = msg.match(/\b(R|S|G)([0-5])\b/);
+          if (match) {
+            found = true;
+            const letter = match[1];
+            const level = parseInt(match[2], 10);
+            maxLevels[letter] = Math.max(maxLevels[letter], level);
+          }
+        });
+        
+        const label = (letter, val) => `${letter}${val > 0 ? val : '-'}`;
+        pillR.textContent = label('R', maxLevels.R);
+        pillS.textContent = label('S', maxLevels.S);
+        pillG.textContent = label('G', maxLevels.G);
+        
+        if (found) {
+          const active = ['R', 'S', 'G'].filter(l => maxLevels[l] > 0).map(l => `${l}${maxLevels[l]}`);
+          textEl.textContent = active.length ? `Alertas activas: ${active.join(' / ')}` : 'Sin alertas activas';
+        } else {
+          textEl.textContent = 'Sin alertas activas';
+        }
+        block.style.display = 'block';
+      } catch (e) {
+        console.warn('SWPC alerts badge error:', e);
+        textEl.textContent = 'Alertas no disponibles';
+        pillR.textContent = 'R-';
+        pillS.textContent = 'S-';
+        pillG.textContent = 'G-';
+        block.style.display = 'block';
+      }
+    }
+    
     // ========== INFO CONEXIÓN ==========
     async function loadConnectionInfo() {
       try {
@@ -1333,10 +1429,13 @@
       initNews();
       drawMoon();
       updateSDO();
+      loadSwpcAlertsBadge();
       loadConnectionInfo();
       
       // Actualizar luna cada minuto
       setInterval(drawMoon, 60000);
+      // Refrescar alertas NOAA cada 10 minutos
+      setInterval(loadSwpcAlertsBadge, 600000);
       
       console.log('✓ Todos los componentes cargados');
     });
