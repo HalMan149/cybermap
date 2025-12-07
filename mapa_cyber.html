@@ -270,6 +270,24 @@
       pulseRefs.push({ circle, interval });
     }
 
+    function filterAttacks(events) {
+      const ipSeen = new Set();
+      const cellSeen = new Set(); // celda aproximada para evitar clusters densos
+      const filtered = [];
+      for (const ev of events || []) {
+        if (typeof ev.lat !== 'number' || typeof ev.lon !== 'number') continue;
+        if (!ev.ip) continue;
+        if (ipSeen.has(ev.ip)) continue;
+        ipSeen.add(ev.ip);
+        const cell = `${Math.round(ev.lat * 2) / 2}_${Math.round(ev.lon * 2) / 2}`; // cuadrícula 0.5°
+        if (cellSeen.has(cell)) continue;
+        cellSeen.add(cell);
+        filtered.push(ev);
+        if (filtered.length >= 200) break; // límite duro
+      }
+      return filtered;
+    }
+
     function renderAttacks(events) {
       attacksLayer.clearLayers();
       // limpiar pulsos previos
@@ -304,7 +322,8 @@
         const res = await fetch('/.netlify/functions/ataques', { cache: 'no-store' });
         const data = await res.json();
         if (data && data.events) {
-          renderAttacks(data.events);
+          const filtered = filterAttacks(data.events);
+          renderAttacks(filtered);
         }
       } catch (e) {
         console.warn('No se pudieron cargar eventos de ataques', e);
