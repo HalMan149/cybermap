@@ -645,6 +645,7 @@
       </a>
       <div class="sun-graphs">
         <div class="mini-graph">
+          <div class="label">GOES X-ray (0.1-0.8 nm / 0.05-0.4 nm)</div>
           <a href="https://www.swpc.noaa.gov/products/goes-x-ray-flux" target="_blank" rel="noopener" style="display:block;">
             <div class="xray-frame" style="background:#0d101a;border:1px solid #2c2f3a;border-radius:10px;padding:8px;">
               <canvas id="xrayCanvas" width="560" height="260" style="width:100%;background:#000;border-radius:6px;display:block;"></canvas>
@@ -653,7 +654,7 @@
           <div class="graph-fallback" id="xrayFallback" style="display:none;">Gráfico X-ray no disponible ahora mismo.</div>
         </div>
         <div class="mini-graph">
-          <div class="label">Viento solar (densidad, velocidad, temperatura)</div>
+          <div class="label">Viento solar (N/V/T)</div>
           <div class="xray-frame" style="background:#0d101a;border:1px solid #2c2f3a;border-radius:10px;padding:8px;">
             <canvas id="solarWindCanvas" width="560" height="220" style="width:100%;background:#000;border-radius:6px;display:block;"></canvas>
           </div>
@@ -1514,7 +1515,8 @@
     // ========== VIENTO SOLAR (ACE/DSCOVR, 1m) ==========
     const SW_ENDPOINTS = [
       'https://services.swpc.noaa.gov/products/summary/ace_swepam_1m.json',
-      'https://services.swpc.noaa.gov/products/solar-wind/solar-wind.json'
+      'https://services.swpc.noaa.gov/products/solar-wind/solar-wind.json',
+      'https://services.swpc.noaa.gov/products/summary/solar-wind.json'
     ];
 
     async function fetchWithProxy(url) {
@@ -1548,15 +1550,36 @@
       if (!Array.isArray(data) || data.length < 2) return null;
       let header = data[0];
       let rows = data.slice(1);
-      // Algunos feeds traen encabezado como string CSV
+      // Encabezado CSV y filas CSV
       if (typeof header === 'string') {
         header = header.split(',');
         rows = rows.map(r => typeof r === 'string' ? r.split(',') : r);
       }
+      // Caso objetos en vez de arrays
+      if (!Array.isArray(header) && typeof header === 'object') {
+        // data es lista de objetos
+        const points = data
+          .map(item => {
+            const t = item.time_tag || item.time || item.timestamp || item.date;
+            const n = item.density ?? item.proton_density ?? item.Np ?? item.np;
+            const v = item.speed ?? item.velocity ?? item.bulk_speed ?? item.Vp ?? item.vp;
+            const T = item.temperature ?? item.ion_temperature ?? item.Tp ?? item.tp;
+            const time = new Date(t);
+            const nn = parseFloat(n);
+            const vv = parseFloat(v);
+            const TT = parseFloat(T);
+            if (!isFinite(nn) || !isFinite(vv) || !isFinite(TT) || isNaN(time.getTime())) return null;
+            return { t: time, n: nn, v: vv, T: TT };
+          })
+          .filter(Boolean);
+        return points.length ? points : null;
+      }
+
+      // Arrays
       const idxTime = header.findIndex(h => /time/i.test(h));
-      const idxDensity = header.findIndex(h => /density/i.test(h));
-      const idxSpeed = header.findIndex(h => /speed|velocity/i.test(h));
-      const idxTemp = header.findIndex(h => /temperature|temp/i.test(h));
+      const idxDensity = header.findIndex(h => /density|np|proton/i.test(h));
+      const idxSpeed = header.findIndex(h => /speed|velocity|vp|bulk/i.test(h));
+      const idxTemp = header.findIndex(h => /temperature|temp|tp/i.test(h));
       if (idxTime === -1 || idxDensity === -1 || idxSpeed === -1 || idxTemp === -1) return null;
       const points = rows
         .map(r => {
@@ -1569,7 +1592,7 @@
           return { t, n, v, T };
         })
         .filter(Boolean);
-      return points;
+      return points.length ? points : null;
     }
 
     function drawSolarWind(points) {
