@@ -1339,18 +1339,49 @@
       const h = canvas.height;
       ctx.clearRect(0, 0, w, h);
 
-      // Preparar datos: separar canales largo (0.1-0.8 nm) y corto (0.05-0.4 nm)
-      const parsePoint = (item) => {
-        const energy = (item.energy || item.channel || '').toString();
-        const time = new Date(item.time_tag || item.time || item.timestamp || item.date);
-        const flux = parseFloat(item.observed_flux ?? item.flux ?? item.short_flux ?? item['flux'] ?? item['primary'] ?? item['secondary']);
-        if (!isFinite(flux) || flux <= 0 || isNaN(time.getTime())) return null;
-        return { energy, t: time, f: flux };
+      // Preparar datos: separar largo (0.1-0.8 nm) y corto (0.05-0.4 nm) con heurísticas
+      const longBand = [];
+      const shortBand = [];
+
+      const pushPoint = (t, f, band) => {
+        const time = new Date(t);
+        const flux = parseFloat(f);
+        if (!isFinite(flux) || flux <= 0 || isNaN(time.getTime())) return;
+        if (band === 'long') longBand.push({ t: time, f: flux });
+        if (band === 'short') shortBand.push({ t: time, f: flux });
       };
 
-      const parsed = data.map(parsePoint).filter(Boolean).sort((a,b) => a.t - b.t);
-      const longBand = parsed.filter(p => p.energy.includes('0.1-0.8'));
-      const shortBand = parsed.filter(p => p.energy.includes('0.05-0.4') || p.energy.includes('0.5-4'));
+      data.forEach(item => {
+        // Caso objeto
+        if (item && typeof item === 'object' && !Array.isArray(item)) {
+          const time = item.time_tag || item.time || item.timestamp || item.date;
+          const energy = (item.energy || item.channel || '').toString().toLowerCase();
+          const flux = item.observed_flux ?? item.flux ?? item.short_flux ?? item['flux'] ?? item['primary'] ?? item['secondary'];
+          if (energy.includes('0.1-0.8')) pushPoint(time, flux, 'long');
+          else if (energy.includes('0.05-0.4') || energy.includes('0.5-4')) pushPoint(time, flux, 'short');
+          else if ('long_wavelength' in item && 'short_wavelength' in item) {
+            pushPoint(time, item.long_wavelength, 'long');
+            pushPoint(time, item.short_wavelength, 'short');
+          }
+        }
+        // Caso array: intentar [time, short, long] o [time, long, short]
+        if (Array.isArray(item) && item.length >= 3) {
+          const t = item[0];
+          const a = item[1];
+          const b = item[2];
+          // Heurística: el mayor suele ser long (0.1-0.8)
+          if (parseFloat(a) >= parseFloat(b)) {
+            pushPoint(t, a, 'long');
+            pushPoint(t, b, 'short');
+          } else {
+            pushPoint(t, b, 'long');
+            pushPoint(t, a, 'short');
+          }
+        }
+      });
+
+      longBand.sort((a,b)=>a.t-b.t);
+      shortBand.sort((a,b)=>a.t-b.t);
 
       if (longBand.length < 2 && shortBand.length < 2) {
         fallback.style.display = 'block';

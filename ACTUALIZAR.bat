@@ -28,8 +28,6 @@ git commit -m "%MSG%"
 echo -----------------------------
 echo Subiendo a GitHub...
 git push
-
 :end
 echo -----------------------------
-pause
 endlocal
