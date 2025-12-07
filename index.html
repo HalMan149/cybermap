@@ -282,19 +282,13 @@
     
     .noaa-alerts-badge {
       width: 100%;
-      background: linear-gradient(90deg, #2d3748 0%, #1a202c 100%);
-      border: 1px solid rgba(109, 213, 237, 0.35);
-      border-radius: 10px;
-      padding: 10px 12px;
+      background: #101522;
+      border: none;
+      border-radius: 8px;
+      padding: 8px 10px;
       display: flex;
       flex-direction: column;
-      gap: 8px;
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
-    }
-    
-    .noaa-alerts-badge:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 8px 20px rgba(0,0,0,0.35);
+      gap: 6px;
     }
     
     .noaa-alerts-badge .label {
@@ -319,7 +313,7 @@
       color: #0a0e1a;
       background: #e2e8f0;
       border: 1px solid rgba(255,255,255,0.35);
-      box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+      box-shadow: none;
       transition: background 0.3s, color 0.3s;
     }
     
@@ -644,10 +638,9 @@
       </a>
       <div class="sun-graphs">
         <div class="mini-graph">
-          <div class="label">Flujo X-ray GOES</div>
-          <a href="https://www.swpc.noaa.gov/products/goes-x-ray-flux" target="_blank" rel="noopener" style="color:#6dd5ed;font-size:12px;">Ver detalle en NOAA</a>
-          <canvas id="xrayCanvas" width="480" height="220" style="width:100%;background:#0a0e1a;border:1px solid rgba(109,213,237,0.2);border-radius:8px;"></canvas>
+          <canvas id="xrayCanvas" width="480" height="220" style="width:100%;background:#000;border-radius:8px;"></canvas>
           <div class="graph-fallback" id="xrayFallback" style="display:none;">Gráfico X-ray no disponible ahora mismo.</div>
+          <div style="font-size:11px;color:#6dd5ed;margin-top:4px;">GOES X-ray (0.1-0.8 nm) · Fuente: NOAA SWPC</div>
         </div>
         <div class="mini-graph">
           <div class="label">Viento solar (ACE/DSCOVR)</div>
@@ -1368,9 +1361,9 @@
       const yMax = Math.max(-3, Math.max(...logPoints.map(p => p.l)));
 
       // Ejes y fondo
-      ctx.fillStyle = '#0a0e1a';
+      ctx.fillStyle = '#000';
       ctx.fillRect(0, 0, w, h);
-      ctx.strokeStyle = 'rgba(109,213,237,0.25)';
+      ctx.strokeStyle = 'rgba(109,213,237,0.18)';
       ctx.lineWidth = 1;
 
       // Guías niveles A/B/C/M/X
