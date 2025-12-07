@@ -289,6 +289,8 @@
       display: flex;
       flex-direction: column;
       gap: 6px;
+      align-items: center;
+      text-align: center;
     }
     
     .noaa-alerts-badge .label {
@@ -302,6 +304,8 @@
     .noaa-alerts-badge .pills {
       display: flex;
       gap: 8px;
+      justify-content: center;
+      width: 100%;
     }
     
     .noaa-alerts-badge .pill {
@@ -1335,32 +1339,42 @@
       const h = canvas.height;
       ctx.clearRect(0, 0, w, h);
 
-      // Preparar datos: filtrar canal 0.1-0.8 nm y valores válidos
-      const points = data
-        .map(item => {
-          const energy = (item.energy || item.channel || '').toString();
-          if (!energy.includes('0.1') && !energy.includes('0.05-0.4') && !energy.includes('0.1-0.8')) return null;
-          const time = new Date(item.time_tag || item.time || item.timestamp || item.date);
-          const flux = parseFloat(
-            item.observed_flux ?? item.flux ?? item.short_flux ?? item['flux'] ?? item['primary'] ?? item['secondary']
-          );
-          if (!isFinite(flux) || flux <= 0 || isNaN(time.getTime())) return null;
-          return { t: time, f: flux };
-        })
-        .filter(Boolean)
-        .sort((a,b) => a.t - b.t);
+      // Preparar datos: separar canales largo (0.1-0.8 nm) y corto (0.05-0.4 nm)
+      const parsePoint = (item) => {
+        const energy = (item.energy || item.channel || '').toString();
+        const time = new Date(item.time_tag || item.time || item.timestamp || item.date);
+        const flux = parseFloat(item.observed_flux ?? item.flux ?? item.short_flux ?? item['flux'] ?? item['primary'] ?? item['secondary']);
+        if (!isFinite(flux) || flux <= 0 || isNaN(time.getTime())) return null;
+        return { energy, t: time, f: flux };
+      };
 
-      if (points.length < 2) {
+      const parsed = data.map(parsePoint).filter(Boolean).sort((a,b) => a.t - b.t);
+      const longBand = parsed.filter(p => p.energy.includes('0.1-0.8'));
+      const shortBand = parsed.filter(p => p.energy.includes('0.05-0.4') || p.energy.includes('0.5-4'));
+
+      if (longBand.length < 2 && shortBand.length < 2) {
         fallback.style.display = 'block';
         return;
       }
 
       // Escala log
-      const logPoints = points.map(p => ({ t: p.t.getTime(), l: Math.log10(p.f) }));
-      const tMin = logPoints[0].t;
-      const tMax = logPoints[logPoints.length - 1].t;
-      const yMin = Math.min(-8.5, Math.min(...logPoints.map(p => p.l)));
-      const yMax = Math.max(-3, Math.max(...logPoints.map(p => p.l)));
+      const series = [
+        { name: 'long', data: longBand, color: '#f6ad55' }, // naranja
+        { name: 'short', data: shortBand, color: '#5a38d6' } // púrpura
+      ];
+
+      // Extremos de tiempo según lo disponible
+      const all = [...(longBand||[]), ...(shortBand||[])];
+      const tMin = all[0]?.t.getTime();
+      const tMax = all[all.length-1]?.t.getTime();
+      if (!tMin || !tMax) {
+        fallback.style.display = 'block';
+        return;
+      }
+
+      // Fijar escala NOAA-like (10^-2 a 10^-9)
+      const yMin = -9;
+      const yMax = -2;
 
       // Ejes y fondo
       ctx.fillStyle = '#000';
@@ -1409,22 +1423,31 @@
         ctx.fillText(label, px - 18, h - padding.bottom + 14);
       }
 
-      // Trazar serie
-      ctx.strokeStyle = '#f6ad55';
-      ctx.lineWidth = 2;
-      ctx.beginPath();
-      logPoints.forEach((p, idx) => {
-        const x = xToPx(p.t);
-        const y = yToPx(p.l);
-        if (idx === 0) ctx.moveTo(x, y);
-        else ctx.lineTo(x, y);
+      // Trazar series
+      series.forEach(serie => {
+        if (!serie.data || serie.data.length < 2) return;
+        ctx.strokeStyle = serie.color;
+        ctx.lineWidth = 2;
+        ctx.beginPath();
+        serie.data.forEach((p, idx) => {
+          const x = xToPx(p.t.getTime());
+          const y = yToPx(Math.log10(p.f));
+          if (idx === 0) ctx.moveTo(x, y);
+          else ctx.lineTo(x, y);
+        });
+        ctx.stroke();
       });
-      ctx.stroke();
 
-      // Último valor
-      const last = points[points.length - 1];
+      // Últimos valores
+      const lastLong = longBand[longBand.length-1];
+      const lastShort = shortBand[shortBand.length-1];
       ctx.fillStyle = '#e2e8f0';
-      ctx.fillText(`Último: ${last.f.toExponential(2)} W/m²`, padding.left, padding.top + 6);
+      const labelY = padding.top + 6;
+      const labelX = padding.left;
+      const lastText = [];
+      if (lastLong) lastText.push(`L: ${lastLong.f.toExponential(2)} W/m²`);
+      if (lastShort) lastText.push(`S: ${lastShort.f.toExponential(2)} W/m²`);
+      ctx.fillText(lastText.join('   '), labelX, labelY);
 
       fallback.style.display = 'none';
     }
