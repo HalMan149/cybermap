@@ -283,20 +283,20 @@
     
     .noaa-alerts-badge {
       width: 100%;
-      background: #101522;
+      background: transparent;
       border: none;
       box-shadow: none;
       border-radius: 8px;
-      padding: 8px 10px;
+      padding: 4px 0 6px 0;
       display: flex;
       flex-direction: column;
-      gap: 6px;
+      gap: 4px;
       align-items: center;
       text-align: center;
     }
     
     .noaa-alerts-badge .label {
-      font-size: 13px;
+      font-size: 12px;
       color: #e2e8f0;
       font-weight: 700;
       text-transform: uppercase;
@@ -311,14 +311,15 @@
     }
     
     .noaa-alerts-badge .pill {
-      min-width: 42px;
+      min-width: 38px;
       text-align: center;
-      padding: 6px 10px;
+      padding: 5px 9px;
       border-radius: 8px;
-      font-weight: 800;
+      font-weight: 700;
+      font-size: 12px;
       color: #0a0e1a;
       background: #e2e8f0;
-      border: 1px solid rgba(255,255,255,0.35);
+      border: none;
       box-shadow: none;
       transition: background 0.3s, color 0.3s;
     }
@@ -645,7 +646,9 @@
       <div class="sun-graphs">
         <div class="mini-graph">
           <a href="https://www.swpc.noaa.gov/products/goes-x-ray-flux" target="_blank" rel="noopener" style="display:block;">
-            <canvas id="xrayCanvas" width="480" height="220" style="width:100%;background:#000;border-radius:8px;display:block;"></canvas>
+            <div class="xray-frame" style="background:#0d101a;border:1px solid #2c2f3a;border-radius:10px;padding:8px;">
+              <canvas id="xrayCanvas" width="520" height="240" style="width:100%;background:#000;border-radius:6px;display:block;"></canvas>
+            </div>
           </a>
           <div class="graph-fallback" id="xrayFallback" style="display:none;">Gráfico X-ray no disponible ahora mismo.</div>
         </div>
