@@ -278,12 +278,14 @@
       width: 100%;
       text-decoration: none;
       display: block;
+      outline: none;
     }
     
     .noaa-alerts-badge {
       width: 100%;
       background: #101522;
       border: none;
+      box-shadow: none;
       border-radius: 8px;
       padding: 8px 10px;
       display: flex;
@@ -1403,6 +1405,13 @@
         return;
       }
 
+      const primary = longBand.length >= shortBand.length ? longBand : shortBand;
+      const logPoints = primary.map(p => ({ t: p.t.getTime(), l: Math.log10(p.f) }));
+      if (logPoints.length < 2) {
+        fallback.style.display = 'block';
+        return;
+      }
+
       // Fijar escala NOAA-like (10^-2 a 10^-9)
       const yMin = -9;
       const yMax = -2;
@@ -1447,8 +1456,8 @@
 
       // Eje X labels (hora)
       ctx.fillStyle = '#a0aec0';
-      const stepX = Math.max(2, Math.floor(points.length / 4));
-      for (let i = 0; i < points.length; i += stepX) {
+      const stepX = Math.max(2, Math.floor(logPoints.length / 4));
+      for (let i = 0; i < logPoints.length; i += stepX) {
         const px = xToPx(logPoints[i].t);
         const label = new Date(logPoints[i].t).toLocaleTimeString('es-ES', { hour: '2-digit', minute: '2-digit' });
         ctx.fillText(label, px - 18, h - padding.bottom + 14);
