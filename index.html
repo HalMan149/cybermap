@@ -274,6 +274,12 @@
       text-align: center;
     }
     
+    .noaa-alerts-link {
+      width: 100%;
+      text-decoration: none;
+      display: block;
+    }
+    
     .noaa-alerts-badge {
       width: 100%;
       background: linear-gradient(90deg, #2d3748 0%, #1a202c 100%);
@@ -283,6 +289,12 @@
       display: flex;
       flex-direction: column;
       gap: 8px;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    
+    .noaa-alerts-badge:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.35);
     }
     
     .noaa-alerts-badge .label {
@@ -607,7 +619,7 @@
     <div class="sun-panel">
       <h3>Estado del Sol</h3>
       <div style="width: 200px; height: 200px; display: flex; align-items: center; justify-content: center; background: #000; border-radius: 50%; box-shadow: 0 6px 24px rgba(255, 215, 0, 0.35);">
-        <img id="sdoImage" src="https://sdo.gsfc.nasa.gov/assets/img/latest/f_AIA_171_1024.jpg" alt="Sol SDO AIA 171" 
+        <img id="sdoImage" src="https://sdo.gsfc.nasa.gov/assets/img/latest/latest_1024_0171.jpg" alt="Sol SDO AIA 171" 
              onerror="handleSDOError(this)" style="display: block; width: 200px; height: 200px; border-radius: 50%; object-fit: cover;"/>
         <div id="sdoError" class="image-error" style="display: none; width: 200px; height: 200px;">
           FUENTE NO DISPONIBLE<br>
@@ -619,47 +631,23 @@
         <small style="color: #48bb78;">SDO/NASA</small><br>
         Actualización: <span id="sdoTime">Cargando...</span>
       </div>
-      <div class="noaa-alerts-badge">
-        <div class="label">Alertas activas</div>
-        <div class="pills" id="noaaAlertPills">
-          <span class="pill r-scale" data-level="0">R0</span>
-          <span class="pill s-scale" data-level="0">S0</span>
-          <span class="pill g-scale" data-level="0">G0</span>
+      <a class="noaa-alerts-link" href="https://www.swpc.noaa.gov/products/alerts-watches-and-warnings" target="_blank" rel="noopener">
+        <div class="noaa-alerts-badge">
+          <div class="label">Alertas activas</div>
+          <div class="pills" id="noaaAlertPills">
+            <span class="pill r-scale" data-level="0">R0</span>
+            <span class="pill s-scale" data-level="0">S0</span>
+            <span class="pill g-scale" data-level="0">G0</span>
+          </div>
+          <div class="graph-fallback" id="noaaAlertFallback" style="display:none;">Alertas no disponibles.</div>
         </div>
-        <div class="graph-fallback" id="noaaAlertFallback" style="display:none;">Alertas no disponibles.</div>
-      </div>
+      </a>
       <div class="sun-graphs">
         <div class="mini-graph">
           <div class="label">Flujo X-ray GOES</div>
-          <a href="https://www.swpc.noaa.gov/products/goes-x-ray-flux" target="_blank" rel="noopener">
-            <img 
-              id="xrayImg"
-              src="https://services.swpc.noaa.gov/images/goes-xrays-6-hour.gif" 
-              alt="GOES X-ray" 
-              onerror="
-                const step = parseInt(this.dataset.step || '0', 10);
-                if (step === 0) {
-                  this.dataset.step = '1';
-                  this.src = 'https://services.swpc.noaa.gov/images/goes-xrays.gif';
-                } else if (step === 1) {
-                  this.dataset.step = '2';
-                  this.src = 'https://services.swpc.noaa.gov/images/goes-xray-flux.png';
-                } else if (step === 2) {
-                  this.dataset.step = '3';
-                  this.src = 'https://services.swpc.noaa.gov/images/goes-xray-report.png';
-                } else if (step === 3) {
-                  this.dataset.step = '4';
-                  this.src = 'https://services.swpc.noaa.gov/images/goes-xray-flux.gif';
-                } else if (step === 4) {
-                  this.dataset.step = '5';
-                  this.src = window.XRAY_DATA_FALLBACK || '';
-                } else {
-                  this.style.display='none';
-                  this.nextElementSibling.style.display='block';
-                }
-              ">
-          </a>
-          <div class="graph-fallback" style="display:none;">Gráfico X-ray no disponible ahora mismo.</div>
+          <a href="https://www.swpc.noaa.gov/products/goes-x-ray-flux" target="_blank" rel="noopener" style="color:#6dd5ed;font-size:12px;">Ver detalle en NOAA</a>
+          <canvas id="xrayCanvas" width="480" height="220" style="width:100%;background:#0a0e1a;border:1px solid rgba(109,213,237,0.2);border-radius:8px;"></canvas>
+          <div class="graph-fallback" id="xrayFallback" style="display:none;">Gráfico X-ray no disponible ahora mismo.</div>
         </div>
         <div class="mini-graph">
           <div class="label">Viento solar (ACE/DSCOVR)</div>
@@ -750,8 +738,10 @@
   <script src="https://unpkg.com/suncalc@1.9.0/suncalc.js"></script>
   <script>
     'use strict';
-    const XRAY_DATA_FALLBACK = 'data:image/png;base64,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';
-    window.XRAY_DATA_FALLBACK = XRAY_DATA_FALLBACK;
+    const XRAY_ENDPOINTS = [
+      'https://services.swpc.noaa.gov/json/goes/primary/xrays-1-day.json',
+      'https://services.swpc.noaa.gov/json/goes/secondary/xrays-1-day.json'
+    ];
     
     // ========== NOTICIAS (TICKER CON CACHE) ==========
     const NEWS_CACHE_KEY = 'cached_news';
@@ -1241,16 +1231,30 @@
     // ========== SOL SDO (ACTUALIZACIÓN) ==========
     function handleSDOError(img) {
       console.error('❌ No se pudo cargar imagen SDO');
-      img.style.display = 'none';
-      document.getElementById('sdoError').style.display = 'flex';
-      document.getElementById('sdoTime').textContent = 'No disponible';
+      const fallbacks = [
+        'https://sdo.gsfc.nasa.gov/assets/img/latest/f_AIA_171_1024.jpg',
+        'https://sdo.gsfc.nasa.gov/assets/img/latest/f_171_193_211.jpg',
+        'https://sdo.gsfc.nasa.gov/assets/img/latest/latest_1024_0171.jpg'
+      ];
+      const current = img.dataset.errStep ? parseInt(img.dataset.errStep, 10) : 0;
+      if (current < fallbacks.length) {
+        img.dataset.errStep = current + 1;
+        img.src = `${fallbacks[current]}?${Date.now()}`;
+        img.style.display = 'block';
+        document.getElementById('sdoError').style.display = 'none';
+      } else {
+        img.style.display = 'none';
+        document.getElementById('sdoError').style.display = 'flex';
+        document.getElementById('sdoTime').textContent = 'No disponible';
+      }
     }
     
     function updateSDO() {
       const update = () => {
         const img = document.getElementById('sdoImage');
         if (img) {
-          img.src = `https://sdo.gsfc.nasa.gov/assets/img/latest/f_AIA_171_1024.jpg?${Date.now()}`;
+          img.dataset.errStep = '0';
+          img.src = `https://sdo.gsfc.nasa.gov/assets/img/latest/latest_1024_0171.jpg?${Date.now()}`;
         }
         document.getElementById('sdoTime').textContent = new Date().toLocaleTimeString('es-ES');
       };
@@ -1305,6 +1309,139 @@
         pillsContainer.style.display = 'none';
         if (fallbackDiv) fallbackDiv.style.display = 'block';
       }
+    }
+    
+    // ========== GRÁFICO X-RAY (datos JSON propios) ==========
+    async function loadXrayData() {
+      for (const endpoint of XRAY_ENDPOINTS) {
+        try {
+          const res = await fetch(endpoint, { signal: AbortSignal.timeout(8000) });
+          if (!res.ok) throw new Error(`HTTP ${res.status}`);
+          const data = await res.json();
+          if (Array.isArray(data) && data.length > 0) {
+            return data;
+          }
+        } catch (e) {
+          console.warn('X-ray endpoint fallo:', endpoint, e.message);
+        }
+      }
+      return null;
+    }
+
+    function drawXrayChart(data) {
+      const canvas = document.getElementById('xrayCanvas');
+      const fallback = document.getElementById('xrayFallback');
+      if (!canvas || !data) {
+        if (fallback) fallback.style.display = 'block';
+        return;
+      }
+      const ctx = canvas.getContext('2d');
+      const w = canvas.width;
+      const h = canvas.height;
+      ctx.clearRect(0, 0, w, h);
+
+      // Preparar datos: filtrar canal 0.1-0.8 nm y valores válidos
+      const points = data
+        .map(item => {
+          const energy = (item.energy || item.channel || '').toString();
+          if (!energy.includes('0.1') && !energy.includes('0.05-0.4') && !energy.includes('0.1-0.8')) return null;
+          const time = new Date(item.time_tag || item.time || item.timestamp || item.date);
+          const flux = parseFloat(
+            item.observed_flux ?? item.flux ?? item.short_flux ?? item['flux'] ?? item['primary'] ?? item['secondary']
+          );
+          if (!isFinite(flux) || flux <= 0 || isNaN(time.getTime())) return null;
+          return { t: time, f: flux };
+        })
+        .filter(Boolean)
+        .sort((a,b) => a.t - b.t);
+
+      if (points.length < 2) {
+        fallback.style.display = 'block';
+        return;
+      }
+
+      // Escala log
+      const logPoints = points.map(p => ({ t: p.t.getTime(), l: Math.log10(p.f) }));
+      const tMin = logPoints[0].t;
+      const tMax = logPoints[logPoints.length - 1].t;
+      const yMin = Math.min(-8.5, Math.min(...logPoints.map(p => p.l)));
+      const yMax = Math.max(-3, Math.max(...logPoints.map(p => p.l)));
+
+      // Ejes y fondo
+      ctx.fillStyle = '#0a0e1a';
+      ctx.fillRect(0, 0, w, h);
+      ctx.strokeStyle = 'rgba(109,213,237,0.25)';
+      ctx.lineWidth = 1;
+
+      // Guías niveles A/B/C/M/X
+      const levels = [
+        { label: 'A', value: -8 },
+        { label: 'B', value: -7 },
+        { label: 'C', value: -6 },
+        { label: 'M', value: -5 },
+        { label: 'X', value: -4 },
+      ];
+      ctx.font = '11px "Segoe UI", sans-serif';
+      ctx.textBaseline = 'middle';
+      ctx.fillStyle = '#718096';
+
+      const padding = { left: 50, right: 10, top: 10, bottom: 30 };
+
+      function yToPx(logVal) {
+        return padding.top + ( (yMax - logVal) / (yMax - yMin) ) * (h - padding.top - padding.bottom);
+      }
+      function xToPx(t) {
+        return padding.left + ( (t - tMin) / (tMax - tMin) ) * (w - padding.left - padding.right);
+      }
+
+      levels.forEach(lv => {
+        const y = yToPx(lv.value);
+        ctx.strokeStyle = 'rgba(109,213,237,0.15)';
+        ctx.beginPath();
+        ctx.moveTo(padding.left, y);
+        ctx.lineTo(w - padding.right, y);
+        ctx.stroke();
+        ctx.fillStyle = '#6dd5ed';
+        ctx.fillText(lv.label, 12, y);
+      });
+
+      // Eje X labels (hora)
+      ctx.fillStyle = '#a0aec0';
+      const stepX = Math.max(2, Math.floor(points.length / 4));
+      for (let i = 0; i < points.length; i += stepX) {
+        const px = xToPx(logPoints[i].t);
+        const label = new Date(logPoints[i].t).toLocaleTimeString('es-ES', { hour: '2-digit', minute: '2-digit' });
+        ctx.fillText(label, px - 18, h - padding.bottom + 14);
+      }
+
+      // Trazar serie
+      ctx.strokeStyle = '#f6ad55';
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      logPoints.forEach((p, idx) => {
+        const x = xToPx(p.t);
+        const y = yToPx(p.l);
+        if (idx === 0) ctx.moveTo(x, y);
+        else ctx.lineTo(x, y);
+      });
+      ctx.stroke();
+
+      // Último valor
+      const last = points[points.length - 1];
+      ctx.fillStyle = '#e2e8f0';
+      ctx.fillText(`Último: ${last.f.toExponential(2)} W/m²`, padding.left, padding.top + 6);
+
+      fallback.style.display = 'none';
+    }
+
+    async function renderXrayChart() {
+      const data = await loadXrayData();
+      const fallback = document.getElementById('xrayFallback');
+      if (!data) {
+        if (fallback) fallback.style.display = 'block';
+        return;
+      }
+      drawXrayChart(data);
     }
     
     // ========== INFO CONEXIÓN ==========
@@ -1433,12 +1570,15 @@
       drawMoon();
       updateSDO();
       fetchNoaaAlerts();
+      renderXrayChart();
       loadConnectionInfo();
       
       // Actualizar luna cada minuto
       setInterval(drawMoon, 60000);
       // Refrescar alertas NOAA cada 10 minutos
       setInterval(fetchNoaaAlerts, 600000);
+      // Actualizar X-ray cada 5 minutos
+      setInterval(renderXrayChart, 300000);
       
       console.log('✓ Todos los componentes cargados');
     });
