@@ -31,3 +31,4 @@ git push
 :end
 echo -----------------------------
 endlocal
+Pause
