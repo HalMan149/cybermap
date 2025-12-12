@@ -117,10 +117,9 @@
       maxZoom: 19, minZoom: 1, opacity: 0.85, noWrap: true
     }).addTo(map);
 
-    // --- ZONAS HORARIAS Y RELOJES (ajusta anchors si quieres)
+    // --- ZONAS HORARIAS Y RELOJES ---
     const zonaHorariaLines = L.layerGroup();
     const relojMarkers = [];
-    let utcRef = null, utcError = false;
     for(let i = -12; i <= 14; i++) {
       const lon = i * 15;
       if (lon < -180 || lon > 180) continue;
@@ -147,24 +146,24 @@
     }
     zonaHorariaLines.addTo(map);
 
-    // --- RELOJES DE CIUDADES (usa tus valores probados)
+    // --- RELOJES DE CIUDADES (zona horaria real para DST automático) ---
     const cityMarkers = [
-      { name: "Los Ángeles", lat:34.05, lon:-118.25, utc_offset: -7, id:"clkla" },
-      { name: "Denver", lat:39.74, lon:-104.99, utc_offset: -6, id:"clkden" },
-      { name: "México", lat:19.43, lon:-99.13, utc_offset: -6, id:"clkcdmx" },
-      { name: "Nueva York", lat:40.71, lon:-74.01, utc_offset: -4, id:"clkny" },
-      { name: "Buenos Aires", lat:-34.61, lon:-58.38, utc_offset: -3, id:"clkbue" },
-      { name: "Sao Paulo", lat:-23.55, lon:-46.63, utc_offset: -3, id:"clksp" },
-      { name: "Londres", lat:51.51, lon:-0.13, utc_offset: 1, id:"clklon" },
-      { name: "Madrid", lat:40.42, lon:-3.70, utc_offset: 2, id:"clkmad" },
-      { name: "El Cairo", lat:30.05, lon:31.25, utc_offset: 2, id:"clkcai" },
-      { name: "Moscú", lat:55.75, lon:37.62, utc_offset: 3, id:"clkmsk" },
-      { name: "Dubái", lat:25.20, lon:55.27, utc_offset: 4, id:"clkdx" },
-      { name: "Nueva Delhi", lat:28.61, lon:77.20, utc_offset: 5.5, id:"clkdel" },
-      { name: "Pekín", lat:39.90, lon:116.40, utc_offset: 8, id:"clkpek" },
-      { name: "Tokio", lat:35.68, lon:139.69, utc_offset: 9, id:"clktok" },
-      { name: "Sídney", lat:-33.87, lon:151.21, utc_offset: 10, id:"clksyd" },
-      { name: "Perth", lat:-31.95, lon:115.86, utc_offset: 8, id:"clkper" }
+      { name: "Los Ángeles", lat:34.05, lon:-118.25, tz: "America/Los_Angeles", id:"clkla" },
+      { name: "Denver", lat:39.74, lon:-104.99, tz: "America/Denver", id:"clkden" },
+      { name: "México", lat:19.43, lon:-99.13, tz: "America/Mexico_City", id:"clkcdmx" },
+      { name: "Nueva York", lat:40.71, lon:-74.01, tz: "America/New_York", id:"clkny" },
+      { name: "Buenos Aires", lat:-34.61, lon:-58.38, tz: "America/Argentina/Buenos_Aires", id:"clkbue" },
+      { name: "Sao Paulo", lat:-23.55, lon:-46.63, tz: "America/Sao_Paulo", id:"clksp" },
+      { name: "Londres", lat:51.51, lon:-0.13, tz: "Europe/London", id:"clklon" },
+      { name: "Madrid", lat:40.42, lon:-3.70, tz: "Europe/Madrid", id:"clkmad" },
+      { name: "El Cairo", lat:30.05, lon:31.25, tz: "Africa/Cairo", id:"clkcai" },
+      { name: "Moscú", lat:55.75, lon:37.62, tz: "Europe/Moscow", id:"clkmsk" },
+      { name: "Dubái", lat:25.20, lon:55.27, tz: "Asia/Dubai", id:"clkdx" },
+      { name: "Nueva Delhi", lat:28.61, lon:77.20, tz: "Asia/Kolkata", id:"clkdel" },
+      { name: "Pekín", lat:39.90, lon:116.40, tz: "Asia/Shanghai", id:"clkpek" },
+      { name: "Tokio", lat:35.68, lon:139.69, tz: "Asia/Tokyo", id:"clktok" },
+      { name: "Sídney", lat:-33.87, lon:151.21, tz: "Australia/Sydney", id:"clksyd" },
+      { name: "Perth", lat:-31.95, lon:115.86, tz: "Australia/Perth", id:"clkper" }
     ];
     cityMarkers.forEach(city => {
       L.marker([city.lat, city.lon], {
@@ -178,42 +177,30 @@
       }).addTo(map);
     });
 
-    // --- SINCRONIZACIÓN GMT CENTRAL (timeapi.io SIN CORS) ---
-    async function syncUTCAtomic() {
-      try {
-        const resp = await fetch('https://timeapi.io/api/Time/current/zone?timeZone=UTC');
-        const data = await resp.json();
-        utcRef = new Date(data.dateTime);
-        utcError = false;
-      } catch(e) {
-        let now = new Date();
-        let localOffsetMinutes = now.getTimezoneOffset();
-        utcRef = new Date(now.getTime() + localOffsetMinutes * 60000);
-        utcError = true;
-      }
-      updateCentralUTCAndRelojes();
+    function formatTimeInTZ(tz, ts) {
+      return new Intl.DateTimeFormat('es-ES', {
+        hour: '2-digit',
+        minute: '2-digit',
+        hourCycle: 'h23',
+        timeZone: tz
+      }).format(ts);
     }
 
     function updateCentralUTCAndRelojes() {
-      if (!utcRef) return;
-      let h = String(utcRef.getUTCHours()).padStart(2,"0");
-      let m = String(utcRef.getUTCMinutes()).padStart(2,"0");
+      const nowTs = Date.now();
+      const now = new Date(nowTs);
       const centralClock = document.getElementById('reloj-tz0');
       if (centralClock) {
+        const h = String(now.getUTCHours()).padStart(2,"0");
+        const m = String(now.getUTCMinutes()).padStart(2,"0");
         centralClock.textContent = `${h}:${m}`;
-        if (utcError) {
-          centralClock.classList.add('sync-error');
-          centralClock.title = "Error en servidor, hora sincronizada con reloj del sistema";
-        } else {
-          centralClock.classList.remove('sync-error');
-          centralClock.title = "Hora GMT/UTC atómica sincronizada";
-        }
+        centralClock.title = "Hora GMT/UTC (auto, sin desfase)";
       }
       relojMarkers.forEach(({id, offset}) => {
         if (id === 'reloj-tz0') return;
         const el = document.getElementById(id);
         if (!el) return;
-        const t = new Date(utcRef.getTime() + offset * 60 * 60 * 1000);
+        const t = new Date(nowTs + offset * 60 * 60 * 1000);
         const hh = String(t.getUTCHours()).padStart(2, "0");
         const mm = String(t.getUTCMinutes()).padStart(2, "0");
         el.textContent = `${hh}:${mm}`;
@@ -221,17 +208,13 @@
       cityMarkers.forEach(city => {
         const el = document.getElementById(city.id + "-hora");
         if (!el) return;
-        const t = new Date(utcRef.getTime() + city.utc_offset * 60 * 60 * 1000);
-        const hh = String(t.getUTCHours()).padStart(2, "0");
-        const mm = String(t.getUTCMinutes()).padStart(2, "0");
-        el.textContent = `${hh}:${mm}`;
+        el.textContent = formatTimeInTZ(city.tz, nowTs);
       });
     }
 
-    // Lógica de actualización periódica
-    syncUTCAtomic();
-    setInterval(syncUTCAtomic, 5 * 60 * 1000); // Sincroniza cada 5 min
-    setInterval(updateCentralUTCAndRelojes, 10000); // Refresca relojes cada 10s
+    // Lógica de actualización periódica: sin fetch externo, usa Intl (DST automático)
+    updateCentralUTCAndRelojes();
+    setInterval(updateCentralUTCAndRelojes, 10000); // cada 10s
     // --- CAPA DE EVENTOS (IP maliciosas desde función serverless)
     const attacksLayer = L.layerGroup().addTo(map);
     const previousIps = new Set();
