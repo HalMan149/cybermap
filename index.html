@@ -424,10 +424,10 @@
       height: 40px;
       width: auto;
       filter: drop-shadow(0 2px 6px rgba(0,0,0,0.45));
-      background: rgba(13,16,26,0.85);
-      padding: 6px 10px;
-      border-radius: 10px;
-      border: 1px solid #2c2f3a;
+      background: transparent;
+      padding: 0;
+      border-radius: 0;
+      border: none;
     }
     
     /* ========== INFO CONEXIÓN (ABAJO) ========== */
@@ -650,7 +650,7 @@
       </div>
       <a class="noaa-alerts-link" href="https://www.swpc.noaa.gov/products/alerts-watches-and-warnings" target="_blank" rel="noopener">
         <div class="noaa-alerts-badge">
-          <div class="label">Alertas activas</div>
+          <div class="label">Alertas solares 24h</div>
           <div class="pills" id="noaaAlertPills">
             <span class="pill r-scale" data-level="0">R0</span>
             <span class="pill s-scale" data-level="0">S0</span>
@@ -1324,7 +1324,7 @@
             if (sPill) { sPill.textContent = `S${sVal}`; sPill.dataset.level = sVal; }
             if (gPill) { gPill.textContent = `G${gVal}`; gPill.dataset.level = gVal; }
             const label = document.querySelector('.noaa-alerts-badge .label');
-            if (label) label.textContent = 'Máx 24h NOAA';
+            if (label) label.textContent = 'Alertas solares 24h';
             pillsContainer.style.display = 'flex';
             if (fallbackDiv) fallbackDiv.style.display = 'none';
             return; // éxito con escalas
