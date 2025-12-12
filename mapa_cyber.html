@@ -236,6 +236,12 @@
     const attacksLayer = L.layerGroup().addTo(map);
     const previousIps = new Set();
     const pulseRefs = [];
+    const DEMO_EVENTS = [
+      { ip: 'demo-1', lat: 40.71, lon: -74.01, country: 'US' },
+      { ip: 'demo-2', lat: 51.50, lon: -0.12, country: 'UK' },
+      { ip: 'demo-3', lat: 35.68, lon: 139.69, country: 'JP' },
+      { ip: 'demo-4', lat: 19.43, lon: -99.13, country: 'MX' }
+    ];
     let lastEvents = [];
     // Intentar recuperar cache de sesiones previas
     try {
@@ -302,6 +308,7 @@
 
     function renderAttacks(events) {
       if (!Array.isArray(events) || !events.length) return;
+      console.log(`▶ Pintando ${events.length} eventos cyber`);
       attacksLayer.clearLayers();
       // limpiar pulsos previos
       pulseRefs.forEach(({ interval }) => clearInterval(interval));
@@ -336,31 +343,38 @@
         renderAttacks(lastEvents);
       }
 
+      let fetched = [];
       try {
-        const res = await fetch('/.netlify/functions/ataques', { cache: 'no-store' });
+        const controller = new AbortController();
+        const t = setTimeout(() => controller.abort(), 9000);
+        const res = await fetch('/.netlify/functions/ataques', { cache: 'no-store', signal: controller.signal });
+        clearTimeout(t);
         const data = await res.json();
         if (data && Array.isArray(data.events)) {
-          const filtered = filterAttacks(data.events);
-          if (filtered.length > 0) {
-            lastEvents = filtered;
-            try { localStorage.setItem('cyber_attacks_cache', JSON.stringify(filtered)); } catch(_) {}
-            renderAttacks(filtered);
-            console.log(`✓ Cyber eventos cargados: ${filtered.length}`);
-            return;
-          }
-        }
-        // Si llega vacío, reutilizar el último dataset válido
-        if (lastEvents.length) {
-          console.warn('Eventos vacíos, reutilizando último dataset');
-          renderAttacks(lastEvents);
+          fetched = filterAttacks(data.events);
         }
       } catch (e) {
         console.warn('No se pudieron cargar eventos de ataques', e);
-        // En error, mantener lo último que tengamos
-        if (lastEvents.length) {
-          renderAttacks(lastEvents);
-        }
       }
+
+      if (fetched.length > 0) {
+        lastEvents = fetched;
+        try { localStorage.setItem('cyber_attacks_cache', JSON.stringify(fetched)); } catch(_) {}
+        renderAttacks(fetched);
+        console.log(`✓ Cyber eventos cargados: ${fetched.length}`);
+        return;
+      }
+
+      if (lastEvents.length) {
+        console.warn('Eventos vacíos, reutilizando último dataset en cache');
+        renderAttacks(lastEvents);
+        return;
+      }
+
+      // Seed de respaldo para no dejar vacío en primera carga si todo falla
+      console.warn('Sin datos y sin cache; usando dataset de demo');
+      lastEvents = DEMO_EVENTS;
+      renderAttacks(DEMO_EVENTS);
     }
 
     loadAttacks();
