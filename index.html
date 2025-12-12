@@ -1314,6 +1314,37 @@
     
     // ========== ALERTAS NOAA R/S/G (badge compacto) ==========
     async function fetchNoaaAlerts() {
+      // 1) Intentar escalas NOAA (24h máx) para coincidir con la página oficial
+      try {
+        const scalesRes = await fetch(`https://corsproxy.io/?${encodeURIComponent('https://services.swpc.noaa.gov/products/noaa-scales.json')}`, { signal: AbortSignal.timeout(8000) });
+        if (!scalesRes.ok) throw new Error(`HTTP scales ${scalesRes.status}`);
+        const scales = await scalesRes.json();
+        const dayMinus1 = scales?.["-1"] || scales?.[0];
+        if (dayMinus1 && dayMinus1.R && dayMinus1.S && dayMinus1.G) {
+          const rVal = parseInt(dayMinus1.R.Scale ?? 0, 10) || 0;
+          const sVal = parseInt(dayMinus1.S.Scale ?? 0, 10) || 0;
+          const gVal = parseInt(dayMinus1.G.Scale ?? 0, 10) || 0;
+          const pillsContainer = document.getElementById('noaaAlertPills');
+          const fallbackDiv = document.getElementById('noaaAlertFallback');
+          if (pillsContainer) {
+            const rPill = pillsContainer.querySelector('.r-scale');
+            const sPill = pillsContainer.querySelector('.s-scale');
+            const gPill = pillsContainer.querySelector('.g-scale');
+            if (rPill) { rPill.textContent = `R${rVal}`; rPill.dataset.level = rVal; }
+            if (sPill) { sPill.textContent = `S${sVal}`; sPill.dataset.level = sVal; }
+            if (gPill) { gPill.textContent = `G${gVal}`; gPill.dataset.level = gVal; }
+            const label = document.querySelector('.noaa-alerts-badge .label');
+            if (label) label.textContent = 'Máx 24h NOAA';
+            pillsContainer.style.display = 'flex';
+            if (fallbackDiv) fallbackDiv.style.display = 'none';
+            return; // éxito con escalas
+          }
+        }
+      } catch (e) {
+        console.warn('Escalas NOAA no disponibles, usando alerts.json', e);
+      }
+
+      // 2) Fallback: alerts.json (solo activas, sin caducadas)
       const url = 'https://services.swpc.noaa.gov/products/alerts.json';
       const pillsContainer = document.getElementById('noaaAlertPills');
       const fallbackDiv = document.getElementById('noaaAlertFallback');
