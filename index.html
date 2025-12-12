@@ -75,6 +75,9 @@
       padding: 20px;
       flex: 1;
       overflow: hidden;
+      align-items: stretch;
+      height: calc(100vh - 70px);
+      box-sizing: border-box;
     }
     
     /* ========== PANEL LUNA (IZQUIERDA) ========== */
@@ -140,7 +143,10 @@
       align-items: stretch;
       padding-top: 8px;   /* baja ligeramente los marcos centrales */
       padding-bottom: 8px;
+      max-height: 100%;
+      scrollbar-width: none;
     }
+    .maps-container::-webkit-scrollbar { display: none; }
     
     .map-card {
       background: linear-gradient(135deg, #1a1d2e 0%, #2a2d3e 100%);
@@ -153,7 +159,7 @@
       cursor: pointer;
       transition: all 0.3s ease;
       position: relative;
-      min-height: 320px;  /* más altura para acercar la proporción a los paneles laterales */
+      min-height: 360px;  /* más altura para acercar la proporción a los paneles laterales */
       display: flex;
       flex-direction: column;
       border: 1px solid rgba(109, 213, 237, 0.15);
@@ -198,12 +204,12 @@
       position: relative;
       overflow: hidden;
       aspect-ratio: 1 / 1;   /* Proporción cuadrada para mostrar más mapa y menos recorte */
-      min-height: 320px;      /* incremento para equilibrar altura con laterales */
+      min-height: 360px;      /* incremento para equilibrar altura con laterales */
     }
     /* Para la tarjeta cyber: formato 16:9 y altura mayor */
     .cyber-card .map-preview {
       aspect-ratio: 16 / 9;
-      min-height: 480px;
+      min-height: 560px;
       padding: 0;
       position: relative;
       overflow: hidden;
