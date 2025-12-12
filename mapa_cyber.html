@@ -237,6 +237,16 @@
     const previousIps = new Set();
     const pulseRefs = [];
     let lastEvents = [];
+    // Intentar recuperar cache de sesiones previas
+    try {
+      const stored = localStorage.getItem('cyber_attacks_cache');
+      if (stored) {
+        const parsed = JSON.parse(stored);
+        if (Array.isArray(parsed) && parsed.length) {
+          lastEvents = parsed;
+        }
+      }
+    } catch(_) {}
 
     function createPulse(lat, lon) {
       const baseRadius = 70000;
@@ -326,6 +336,7 @@
           const filtered = filterAttacks(data.events);
           if (filtered.length > 0) {
             lastEvents = filtered;
+            try { localStorage.setItem('cyber_attacks_cache', JSON.stringify(filtered)); } catch(_) {}
             renderAttacks(filtered);
             return;
           }
