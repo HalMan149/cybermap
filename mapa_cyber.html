@@ -233,7 +233,7 @@
     updateCentralUTCAndRelojes();
     syncUTCAtomic();
     setInterval(syncUTCAtomic, 5 * 60 * 1000); // cada 5 min
-    setInterval(updateCentralUTCAndRelojes, 5000); // cada 5s (usa utcRef vigente)
+    setInterval(updateCentralUTCAndRelojes, 60000); // cada 1 min (usa utcRef vigente)
     // --- CAPA DE EVENTOS (IP maliciosas desde función serverless)
     const attacksLayer = L.layerGroup().addTo(map);
     const previousIps = new Set();
