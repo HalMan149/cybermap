@@ -245,7 +245,7 @@
       { ip: 'demo-4', lat: 19.43, lon: -99.13, country: 'MX' }
     ];
     const FIREHOL_URL = 'https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/firehol_level1.netset';
-    const MAX_FIREHOL_IPS = 50;
+    const MAX_FIREHOL_IPS = 120;
     const GEO_ENDPOINT = (ip) => `https://ipwho.is/${ip}`;
     const CACHE_KEY = 'cyber_attacks_cache';
     const CACHE_MS = 6 * 60 * 60 * 1000; // 6h
@@ -368,6 +368,7 @@
         } catch (_) {}
         await delay(180); // throttle para no quemar la API
       }
+      console.log(`Geolocalizadas ${results.length} / ${ips.length} IPs`);
       return results;
     }
 
@@ -389,7 +390,8 @@
       if (fetched.length > 0) {
         lastEvents = fetched;
         try { localStorage.setItem(CACHE_KEY, JSON.stringify({ ts: Date.now(), data: fetched })); } catch(_) {}
-        renderAttacks(fetched, { forcePulse: false });
+        const toRender = fetched.length < 5 ? [...fetched, ...DEMO_EVENTS] : fetched;
+        renderAttacks(toRender, { forcePulse: fetched.length < 5 });
         console.log(`✓ Cyber eventos cargados (FireHOL+geo): ${fetched.length}`);
         return;
       }
