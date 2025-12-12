@@ -244,6 +244,7 @@
         const parsed = JSON.parse(stored);
         if (Array.isArray(parsed) && parsed.length) {
           lastEvents = parsed;
+          console.log(`↺ Cache cyber: ${parsed.length} eventos`);
         }
       }
     } catch(_) {}
@@ -300,6 +301,7 @@
     }
 
     function renderAttacks(events) {
+      if (!Array.isArray(events) || !events.length) return;
       attacksLayer.clearLayers();
       // limpiar pulsos previos
       pulseRefs.forEach(({ interval }) => clearInterval(interval));
@@ -329,6 +331,11 @@
     }
 
     async function loadAttacks() {
+      // Mostrar inmediatamente cache previa si existe
+      if (lastEvents.length) {
+        renderAttacks(lastEvents);
+      }
+
       try {
         const res = await fetch('/.netlify/functions/ataques', { cache: 'no-store' });
         const data = await res.json();
@@ -338,6 +345,7 @@
             lastEvents = filtered;
             try { localStorage.setItem('cyber_attacks_cache', JSON.stringify(filtered)); } catch(_) {}
             renderAttacks(filtered);
+            console.log(`✓ Cyber eventos cargados: ${filtered.length}`);
             return;
           }
         }
