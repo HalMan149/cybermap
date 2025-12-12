@@ -120,6 +120,9 @@
     // --- ZONAS HORARIAS Y RELOJES ---
     const zonaHorariaLines = L.layerGroup();
     const relojMarkers = [];
+    let utcRef = new Date(); // base inicial, se ajusta con reloj atómico
+    let utcError = false;
+
     for(let i = -12; i <= 14; i++) {
       const lon = i * 15;
       if (lon < -180 || lon > 180) continue;
@@ -187,14 +190,14 @@
     }
 
     function updateCentralUTCAndRelojes() {
-      const nowTs = Date.now();
-      const now = new Date(nowTs);
+      const nowBase = utcRef instanceof Date ? utcRef : new Date();
+      const nowTs = nowBase.getTime();
       const centralClock = document.getElementById('reloj-tz0');
       if (centralClock) {
-        const h = String(now.getUTCHours()).padStart(2,"0");
-        const m = String(now.getUTCMinutes()).padStart(2,"0");
+        const h = String(nowBase.getUTCHours()).padStart(2,"0");
+        const m = String(nowBase.getUTCMinutes()).padStart(2,"0");
         centralClock.textContent = `${h}:${m}`;
-        centralClock.title = "Hora GMT/UTC (auto, sin desfase)";
+        centralClock.title = utcError ? "UTC (fallback local)" : "Hora GMT/UTC atómica";
       }
       relojMarkers.forEach(({id, offset}) => {
         if (id === 'reloj-tz0') return;
@@ -212,9 +215,23 @@
       });
     }
 
-    // Lógica de actualización periódica: sin fetch externo, usa Intl (DST automático)
-    updateCentralUTCAndRelojes();
-    setInterval(updateCentralUTCAndRelojes, 10000); // cada 10s
+    // Sincronización UTC atómica + fallback
+    async function syncUTCAtomic() {
+      try {
+        const resp = await fetch('https://timeapi.io/api/Time/current/zone?timeZone=UTC', { cache: 'no-store' });
+        const data = await resp.json();
+        utcRef = new Date(data.dateTime);
+        utcError = false;
+      } catch(e) {
+        utcRef = new Date();
+        utcError = true;
+      }
+      updateCentralUTCAndRelojes();
+    }
+
+    syncUTCAtomic();
+    setInterval(syncUTCAtomic, 5 * 60 * 1000); // cada 5 min
+    setInterval(updateCentralUTCAndRelojes, 10000); // cada 10s (usa utcRef vigente)
     // --- CAPA DE EVENTOS (IP maliciosas desde función serverless)
     const attacksLayer = L.layerGroup().addTo(map);
     const previousIps = new Set();
