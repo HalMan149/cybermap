@@ -236,6 +236,7 @@
     const attacksLayer = L.layerGroup().addTo(map);
     const previousIps = new Set();
     const pulseRefs = [];
+    let lastEvents = [];
 
     function createPulse(lat, lon) {
       const baseRadius = 70000;
@@ -321,12 +322,25 @@
       try {
         const res = await fetch('/.netlify/functions/ataques', { cache: 'no-store' });
         const data = await res.json();
-        if (data && data.events) {
+        if (data && Array.isArray(data.events)) {
           const filtered = filterAttacks(data.events);
-          renderAttacks(filtered);
+          if (filtered.length > 0) {
+            lastEvents = filtered;
+            renderAttacks(filtered);
+            return;
+          }
+        }
+        // Si llega vacío, reutilizar el último dataset válido
+        if (lastEvents.length) {
+          console.warn('Eventos vacíos, reutilizando último dataset');
+          renderAttacks(lastEvents);
         }
       } catch (e) {
         console.warn('No se pudieron cargar eventos de ataques', e);
+        // En error, mantener lo último que tengamos
+        if (lastEvents.length) {
+          renderAttacks(lastEvents);
+        }
       }
     }
 
