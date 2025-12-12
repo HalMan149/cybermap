@@ -244,15 +244,20 @@
       { ip: 'demo-3', lat: 35.68, lon: 139.69, country: 'JP' },
       { ip: 'demo-4', lat: 19.43, lon: -99.13, country: 'MX' }
     ];
+    const FIREHOL_URL = 'https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/firehol_level1.netset';
+    const MAX_FIREHOL_IPS = 50;
+    const GEO_ENDPOINT = (ip) => `https://ipwho.is/${ip}`;
+    const CACHE_KEY = 'cyber_attacks_cache';
+    const CACHE_MS = 6 * 60 * 60 * 1000; // 6h
     let lastEvents = [];
     // Intentar recuperar cache de sesiones previas
     try {
-      const stored = localStorage.getItem('cyber_attacks_cache');
+      const stored = localStorage.getItem(CACHE_KEY);
       if (stored) {
         const parsed = JSON.parse(stored);
-        if (Array.isArray(parsed) && parsed.length) {
-          lastEvents = parsed;
-          console.log(`↺ Cache cyber: ${parsed.length} eventos`);
+        if (parsed && parsed.ts && (Date.now() - parsed.ts) < CACHE_MS && Array.isArray(parsed.data) && parsed.data.length) {
+          lastEvents = parsed.data;
+          console.log(`↺ Cache cyber: ${parsed.data.length} eventos (<=6h)`);
         }
       }
     } catch(_) {}
@@ -339,6 +344,33 @@
       });
     }
 
+    function delay(ms) { return new Promise(res => setTimeout(res, ms)); }
+
+    async function fetchFireholIPs() {
+      const res = await fetch(FIREHOL_URL, { cache: 'no-store' });
+      if (!res.ok) throw new Error(`FireHOL HTTP ${res.status}`);
+      const txt = await res.text();
+      const ips = txt
+        .split('\n')
+        .map(l => l.trim())
+        .filter(l => l && !l.startsWith('#') && /^\d+\.\d+\.\d+\.\d+$/.test(l));
+      return Array.from(new Set(ips)).slice(0, MAX_FIREHOL_IPS);
+    }
+
+    async function geolocateIPs(ips) {
+      const results = [];
+      for (const ip of ips) {
+        try {
+          const geo = await fetch(GEO_ENDPOINT(ip), { cache: 'no-store' }).then(r => r.json());
+          if (geo && geo.success && typeof geo.latitude === 'number' && typeof geo.longitude === 'number') {
+            results.push({ ip, lat: geo.latitude, lon: geo.longitude, country: geo.country });
+          }
+        } catch (_) {}
+        await delay(180); // throttle para no quemar la API
+      }
+      return results;
+    }
+
     async function loadAttacks() {
       // Mostrar inmediatamente cache previa si existe
       if (lastEvents.length) {
@@ -347,23 +379,18 @@
 
       let fetched = [];
       try {
-        const controller = new AbortController();
-        const t = setTimeout(() => controller.abort(), 9000);
-        const res = await fetch('/.netlify/functions/ataques', { cache: 'no-store', signal: controller.signal });
-        clearTimeout(t);
-        const data = await res.json();
-        if (data && Array.isArray(data.events)) {
-          fetched = filterAttacks(data.events);
-        }
+        const ips = await fetchFireholIPs();
+        const geos = await geolocateIPs(ips);
+        fetched = filterAttacks(geos);
       } catch (e) {
-        console.warn('No se pudieron cargar eventos de ataques', e);
+        console.warn('No se pudieron cargar/geolocalizar IPs FireHOL', e);
       }
 
       if (fetched.length > 0) {
         lastEvents = fetched;
-        try { localStorage.setItem('cyber_attacks_cache', JSON.stringify(fetched)); } catch(_) {}
+        try { localStorage.setItem(CACHE_KEY, JSON.stringify({ ts: Date.now(), data: fetched })); } catch(_) {}
         renderAttacks(fetched, { forcePulse: false });
-        console.log(`✓ Cyber eventos cargados: ${fetched.length}`);
+        console.log(`✓ Cyber eventos cargados (FireHOL+geo): ${fetched.length}`);
         return;
       }
 
