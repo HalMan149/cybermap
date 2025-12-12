@@ -306,7 +306,7 @@
       return filtered;
     }
 
-    function renderAttacks(events) {
+    function renderAttacks(events, { forcePulse = false } = {}) {
       if (!Array.isArray(events) || !events.length) return;
       console.log(`▶ Pintando ${events.length} eventos cyber`);
       attacksLayer.clearLayers();
@@ -328,7 +328,7 @@
           `País: ${ev.country || 'N/D'}`
         );
 
-        const isNew = !previousIps.has(ev.ip);
+        const isNew = forcePulse || !previousIps.has(ev.ip);
         if (isNew) {
           createPulse(ev.lat, ev.lon);
         }
@@ -340,7 +340,7 @@
     async function loadAttacks() {
       // Mostrar inmediatamente cache previa si existe
       if (lastEvents.length) {
-        renderAttacks(lastEvents);
+        renderAttacks(lastEvents, { forcePulse: true });
       }
 
       let fetched = [];
@@ -360,21 +360,21 @@
       if (fetched.length > 0) {
         lastEvents = fetched;
         try { localStorage.setItem('cyber_attacks_cache', JSON.stringify(fetched)); } catch(_) {}
-        renderAttacks(fetched);
+        renderAttacks(fetched, { forcePulse: false });
         console.log(`✓ Cyber eventos cargados: ${fetched.length}`);
         return;
       }
 
       if (lastEvents.length) {
         console.warn('Eventos vacíos, reutilizando último dataset en cache');
-        renderAttacks(lastEvents);
+        renderAttacks(lastEvents, { forcePulse: false });
         return;
       }
 
       // Seed de respaldo para no dejar vacío en primera carga si todo falla
       console.warn('Sin datos y sin cache; usando dataset de demo');
       lastEvents = DEMO_EVENTS;
-      renderAttacks(DEMO_EVENTS);
+      renderAttacks(DEMO_EVENTS, { forcePulse: true });
     }
 
     loadAttacks();
