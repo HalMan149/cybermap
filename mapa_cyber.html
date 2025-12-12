@@ -406,8 +406,7 @@
       if (fetched.length > 0) {
         lastEvents = fetched;
         try { localStorage.setItem(CACHE_KEY, JSON.stringify({ ts: Date.now(), data: fetched })); } catch(_) {}
-        const toRender = fetched.length < 5 ? [...fetched, ...DEMO_EVENTS] : fetched;
-        renderAttacks(toRender, { forcePulse: fetched.length < 5 });
+        renderAttacks(fetched, { forcePulse: false });
         console.log(`✓ Cyber eventos cargados (FireHOL+geo): ${fetched.length}`);
         return;
       }
@@ -418,10 +417,7 @@
         return;
       }
 
-      // Seed de respaldo para no dejar vacío en primera carga si todo falla
-      console.warn('Sin datos y sin cache; usando dataset de demo');
-      lastEvents = DEMO_EVENTS;
-      renderAttacks(DEMO_EVENTS, { forcePulse: true });
+      console.warn('Sin datos (FireHOL+cache vacíos). No se muestran eventos.');
     }
 
     loadAttacks();
