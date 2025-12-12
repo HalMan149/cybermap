@@ -110,14 +110,14 @@
     }
     
     .moon-container {
-      width: 240px;
-      height: 240px;
+      width: 210px;
+      height: 210px;
       display: flex;
       align-items: center;
       justify-content: center;
       background: #000;
       border-radius: 50%;
-      box-shadow: 0 4px 20px rgba(109, 213, 237, 0.3);
+      box-shadow: 0 4px 16px rgba(109, 213, 237, 0.25);
     }
     
     .moon-info {
@@ -432,6 +432,15 @@
 
     .source-pill.sdo { color: #f6e05e; border-color: #72520a; }
     .source-pill.noaa { color: #90cdf4; border-color: #2b4c7e; }
+    .source-logo {
+      height: 34px;
+      width: auto;
+      filter: drop-shadow(0 2px 6px rgba(0,0,0,0.45));
+      background: rgba(13,16,26,0.75);
+      padding: 6px 10px;
+      border-radius: 8px;
+      border: 1px solid #2c2f3a;
+    }
     
     /* ========== INFO CONEXIÓN (ABAJO) ========== */
     .connection-bar {
@@ -706,10 +715,10 @@
       </div>
       <div class="source-logos">
         <a href="https://sdo.gsfc.nasa.gov/" target="_blank" rel="noopener" style="text-decoration:none;">
-          <span class="source-pill sdo">SDO</span>
+          <img class="source-logo" src="https://upload.wikimedia.org/wikipedia/commons/e/e5/NASA_logo.svg" alt="SDO/NASA">
         </a>
         <a href="https://www.swpc.noaa.gov/" target="_blank" rel="noopener" style="text-decoration:none;">
-          <span class="source-pill noaa">NOAA / SWPC</span>
+          <img class="source-logo" src="https://upload.wikimedia.org/wikipedia/commons/5/5f/NOAA_logo.svg" alt="NOAA/SWPC">
         </a>
       </div>
     </div>
@@ -1317,9 +1326,14 @@
 
         let maxR = 0, maxS = 0, maxG = 0;
         let activeAlertsFound = false;
+        const now = Date.now();
 
         alerts.forEach(alert => {
           const message = alert.message || '';
+          const expires = alert.expires || alert.endTime || alert.end || alert.expiration_time || null;
+          const isEndedText = /ended|has ended|cancelled|canceled/i.test(message);
+          const isExpired = expires ? (new Date(expires).getTime() < now) : false;
+          if (isEndedText || isExpired) return; // ignorar alertas caducadas o finalizadas
           const rMatch = message.match(/R(\d)/);
           const sMatch = message.match(/S(\d)/);
           const gMatch = message.match(/G(\d)/);
