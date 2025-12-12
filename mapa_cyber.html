@@ -244,7 +244,11 @@
       { ip: 'demo-3', lat: 35.68, lon: 139.69, country: 'JP' },
       { ip: 'demo-4', lat: 19.43, lon: -99.13, country: 'MX' }
     ];
-    const FIREHOL_URL = 'https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/firehol_level1.netset';
+    const FIREHOL_URLS = [
+      'https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/firehol_level1.netset',
+      'https://cdn.jsdelivr.net/gh/firehol/blocklist-ipsets@master/firehol_level1.netset',
+      'https://raw.githack.com/firehol/blocklist-ipsets/master/firehol_level1.netset'
+    ];
     const MAX_FIREHOL_IPS = 120;
     const GEO_ENDPOINT = (ip) => `https://ipwho.is/${ip}`;
     const CACHE_KEY = 'cyber_attacks_cache';
@@ -347,14 +351,26 @@
     function delay(ms) { return new Promise(res => setTimeout(res, ms)); }
 
     async function fetchFireholIPs() {
-      const res = await fetch(FIREHOL_URL, { cache: 'no-store' });
-      if (!res.ok) throw new Error(`FireHOL HTTP ${res.status}`);
-      const txt = await res.text();
-      const ips = txt
-        .split('\n')
-        .map(l => l.trim())
-        .filter(l => l && !l.startsWith('#') && /^\d+\.\d+\.\d+\.\d+$/.test(l));
-      return Array.from(new Set(ips)).slice(0, MAX_FIREHOL_IPS);
+      let lastError = null;
+      for (const url of FIREHOL_URLS) {
+        try {
+          const res = await fetch(url, { cache: 'no-store' });
+          if (!res.ok) throw new Error(`HTTP ${res.status}`);
+          const txt = await res.text();
+          const ips = txt
+            .split('\n')
+            .map(l => l.trim())
+            .filter(l => l && !l.startsWith('#') && /^\d+\.\d+\.\d+\.\d+$/.test(l));
+          const uniq = Array.from(new Set(ips)).slice(0, MAX_FIREHOL_IPS);
+          console.log(`FireHOL desde ${url} -> ${uniq.length} IPs`);
+          if (uniq.length > 0) return uniq;
+        } catch (e) {
+          lastError = e;
+          console.warn(`FireHOL fallo ${url}`, e);
+        }
+      }
+      if (lastError) throw lastError;
+      return [];
     }
 
     async function geolocateIPs(ips) {
