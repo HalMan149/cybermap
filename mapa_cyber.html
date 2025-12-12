@@ -360,7 +360,13 @@
           const ips = txt
             .split('\n')
             .map(l => l.trim())
-            .filter(l => l && !l.startsWith('#') && /^\d+\.\d+\.\d+\.\d+$/.test(l));
+            .filter(l => l && !l.startsWith('#'))
+            .map(l => {
+              const mCidr = l.match(/^(\d+\.\d+\.\d+\.\d+)\/\d+/);
+              const mIp = l.match(/^(\d+\.\d+\.\d+\.\d+)$/);
+              return mCidr ? mCidr[1] : (mIp ? mIp[1] : null);
+            })
+            .filter(Boolean);
           const uniq = Array.from(new Set(ips)).slice(0, MAX_FIREHOL_IPS);
           console.log(`FireHOL desde ${url} -> ${uniq.length} IPs`);
           if (uniq.length > 0) return uniq;
