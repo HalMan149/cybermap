@@ -1964,15 +1964,10 @@
       const miniCyber = document.getElementById('mini-cyber');
       if (!miniCyber) return;
       const baseSrc = 'mapa_cyber.html?preview=1';
-      let resizeTimer = null;
       function reload(reason='') {
         miniCyber.src = `${baseSrc}&t=${Date.now()}`;
         if (reason) console.log(`↻ Mini cyber recargado (${reason})`);
       }
-      window.addEventListener('resize', () => {
-        clearTimeout(resizeTimer);
-        resizeTimer = setTimeout(() => reload('resize'), 300);
-      });
       setInterval(() => reload('interval 5m'), 300000);
     })();
 
