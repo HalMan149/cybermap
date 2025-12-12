@@ -96,22 +96,22 @@
     }
     
     #moonCanvas {
-      width: 160px;
-      height: 160px;
+      width: 200px;
+      height: 200px;
       border-radius: 50%;
       display: none;
     }
     
     #moonImage {
-      width: 160px;
-      height: 160px;
+      width: 200px;
+      height: 200px;
       border-radius: 50%;
       object-fit: cover;
     }
     
     .moon-container {
-      width: 200px;
-      height: 200px;
+      width: 240px;
+      height: 240px;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -577,14 +577,6 @@
           FUENTE NO DISPONIBLE<br>
           <small style="font-size: 11px; margin-top: 8px; display: block;">NASA SVS offline</small>
         </div>
-        <div class="source-logos">
-          <a href="https://sdo.gsfc.nasa.gov/" target="_blank" rel="noopener" style="text-decoration:none;">
-            <span class="source-pill sdo">SDO</span>
-          </a>
-          <a href="https://www.swpc.noaa.gov/" target="_blank" rel="noopener" style="text-decoration:none;">
-            <span class="source-pill noaa">NOAA / SWPC</span>
-          </a>
-        </div>
       </div>
       <div class="moon-info" id="moonInfo">
         <div class="loading">Calculando...</div>
@@ -659,14 +651,6 @@
         <strong>AIA 171 (Ultravioleta)</strong><br>
         Actualización: <span id="sdoTime">Cargando...</span>
       </div>
-      <div style="display:flex; gap:8px; justify-content:center; margin-top:4px;">
-        <a href="https://sdo.gsfc.nasa.gov/" target="_blank" rel="noopener" style="text-decoration:none;">
-          <span style="display:inline-flex; align-items:center; gap:6px; padding:4px 8px; border:1px solid #2c2f3a; border-radius:6px; background:#0d101a; color:#e2e8f0; font-size:11px;">SDO</span>
-        </a>
-        <a href="https://www.swpc.noaa.gov/" target="_blank" rel="noopener" style="text-decoration:none;">
-          <span style="display:inline-flex; align-items:center; gap:6px; padding:4px 8px; border:1px solid #2c2f3a; border-radius:6px; background:#0d101a; color:#e2e8f0; font-size:11px;">NOAA/SWPC</span>
-        </a>
-      </div>
       <a class="noaa-alerts-link" href="https://www.swpc.noaa.gov/products/alerts-watches-and-warnings" target="_blank" rel="noopener">
         <div class="noaa-alerts-badge">
           <div class="label">Alertas activas</div>
@@ -719,6 +703,14 @@
           </a>
           <div class="graph-fallback" style="display:none; min-height:80px;">Imagen de flares no disponible ahora mismo.</div>
         </div>
+      </div>
+      <div class="source-logos">
+        <a href="https://sdo.gsfc.nasa.gov/" target="_blank" rel="noopener" style="text-decoration:none;">
+          <span class="source-pill sdo">SDO</span>
+        </a>
+        <a href="https://www.swpc.noaa.gov/" target="_blank" rel="noopener" style="text-decoration:none;">
+          <span class="source-pill noaa">NOAA / SWPC</span>
+        </a>
       </div>
     </div>
     
