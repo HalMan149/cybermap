@@ -822,6 +822,7 @@
       }
 
       try {
+        console.log('🔒 Intentando cargar Ransomware.live...');
         // Usar proxy CORS para evitar bloqueos desde file://
         const proxies = [
           `https://api.allorigins.win/raw?url=${encodeURIComponent(RANSOMWARE_API)}`,
@@ -834,15 +835,22 @@
         
         for (const proxyUrl of proxies) {
           try {
+            console.log(`  → Probando proxy: ${proxyUrl.substring(0, 40)}...`);
             response = await fetch(proxyUrl, { cache: 'no-store' });
-            if (response.ok) break;
+            if (response.ok) {
+              console.log(`  ✓ Proxy exitoso!`);
+              break;
+            }
           } catch (e) {
             lastError = e;
-            console.warn(`Proxy falló: ${proxyUrl}`);
+            console.warn(`  ✗ Proxy falló`);
           }
         }
         
-        if (!response || !response.ok) throw lastError || new Error('Todos los proxies fallaron');
+        if (!response || !response.ok) {
+          console.error('❌ RANSOMWARE.LIVE BLOQUEADO - Todos los proxies fallaron');
+          throw lastError || new Error('Todos los proxies fallaron');
+        }
         
         const data = await response.json();
         if (!Array.isArray(data) || data.length === 0) {
@@ -879,13 +887,15 @@
             }));
           } catch(_) {}
           renderRansomwareVictims(victims, { forcePulse: false });
-          console.log(`✓ Ransomware víctimas cargadas: ${victims.length}`);
+          console.log(`✅ RANSOMWARE.LIVE: ${victims.length} víctimas cargadas`);
         }
       } catch (e) {
-        console.warn('Error cargando Ransomware.live:', e);
+        console.error('❌ RANSOMWARE.LIVE FALLÓ:', e.message);
         if (lastRansomwareVictims.length) {
-          console.log('Reutilizando cache de ransomware');
+          console.log('  ↺ Usando cache anterior (' + lastRansomwareVictims.length + ' víctimas)');
           renderRansomwareVictims(lastRansomwareVictims, { forcePulse: false });
+        } else {
+          console.warn('  ⚠️ Sin datos de Ransomware disponibles');
         }
       }
     }
@@ -1069,13 +1079,15 @@
             console.log(`ℹ️ Sin botnets nuevos esta vez (todos ya estaban)`);
           }
           
-          console.log(`✓ Total Botnets C&C acumulados: ${lastUrlhausUrls.length}`);
+          console.log(`✅ FEODO TRACKER: Total ${lastUrlhausUrls.length} botnets acumulados`);
         }
       } catch (e) {
-        console.warn('Error cargando Feodo Tracker:', e);
+        console.error('❌ FEODO TRACKER FALLÓ:', e.message);
         if (lastUrlhausUrls.length) {
-          console.log('Reutilizando cache de Feodo');
+          console.log('  ↺ Usando cache anterior (' + lastUrlhausUrls.length + ' botnets)');
           renderUrlhausUrls(lastUrlhausUrls, { forcePulse: false });
+        } else {
+          console.warn('  ⚠️ Sin datos de Feodo disponibles');
         }
       }
     }
@@ -1227,12 +1239,15 @@
             console.log(`🎉 ${newIocs.length} IOCs nuevos agregados!`);
           }
           
-          console.log(`✓ Total ThreatFox IOCs: ${lastThreatfoxIocs.length}`);
+          console.log(`✅ THREATFOX: Total ${lastThreatfoxIocs.length} IOCs`);
         }
       } catch (e) {
-        console.warn('❌ Error ThreatFox:', e.message);
+        console.error('❌ THREATFOX FALLÓ:', e.message);
         if (lastThreatfoxIocs.length) {
+          console.log('  ↺ Usando cache anterior (' + lastThreatfoxIocs.length + ' IOCs)');
           renderThreatfoxIocs(lastThreatfoxIocs, { forcePulse: false });
+        } else {
+          console.warn('  ⚠️ Sin datos de ThreatFox disponibles');
         }
       }
     }
@@ -1349,12 +1364,15 @@
             console.log(`🎉 ${newIps.length} atacantes nuevos!`);
           }
           
-          console.log(`✓ Total Blocklist: ${lastBlocklistIps.length}`);
+          console.log(`✅ BLOCKLIST.DE: Total ${lastBlocklistIps.length} IPs atacantes`);
         }
       } catch (e) {
-        console.warn('❌ Error Blocklist.de:', e.message);
+        console.error('❌ BLOCKLIST.DE FALLÓ:', e.message);
         if (lastBlocklistIps.length) {
+          console.log('  ↺ Usando cache anterior (' + lastBlocklistIps.length + ' IPs)');
           renderBlocklistIps(lastBlocklistIps, { forcePulse: false });
+        } else {
+          console.warn('  ⚠️ Sin datos de Blocklist disponibles');
         }
       }
     }
