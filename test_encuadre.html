@@ -36,10 +36,24 @@
       margin-top: 10px; font-size: 0.9em; color: #13f5ff;
       background: rgba(19, 245, 255, 0.1); padding: 10px; border-radius: 6px;
     }
+
+    /* Ticker de noticias simulado */
+    #noticias-ticker {
+      position: absolute; bottom: 0; left: 0; width: 100vw;
+      z-index: 3000; background: rgba(8, 26, 31, 0.54);
+      color: #6bf; font-family: 'Segoe UI', Arial, sans-serif; font-size: 1.13em;
+      height: 33px; display: flex; align-items: center; overflow: hidden;
+      border-top: 2px solid #13f5ff;
+    }
   </style>
 </head>
 <body>
   <div id="map"></div>
+  
+  <!-- Ticker simulado (como en el mapa principal) -->
+  <div id="noticias-ticker">
+    <span style="padding: 0 20px;">📰 Ticker de noticias (simulado para prueba de viewport)</span>
+  </div>
   
   <!-- Márgenes negros laterales -->
   <div class="map-margin-left"></div>
