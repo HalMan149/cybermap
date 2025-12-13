@@ -164,8 +164,8 @@
       cursor: pointer;
       transition: all 0.3s ease;
       position: relative;
-      min-height: 520px;
-      height: 520px;
+      min-height: 650px;
+      height: 650px;
       display: flex;
       flex-direction: column;
       border: 1px solid rgba(109, 213, 237, 0.15);
@@ -206,20 +206,17 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      padding: 3px;
-      position: relative;
-      overflow: hidden;
-      aspect-ratio: 16 / 10;
-      min-height: 450px;
-    }
-    /* Para la tarjeta cyber: más ancha para ver todo el mundo */
-    .cyber-card .map-preview {
-      aspect-ratio: 16 / 9;
-      min-height: 480px;
-      height: 480px;
       padding: 0;
       position: relative;
       overflow: hidden;
+      min-height: 580px;
+      height: 100%;
+    }
+    /* Para la tarjeta cyber: formato panorámico */
+    .cyber-card .map-preview {
+      min-height: 580px;
+      height: 100%;
+      padding: 0;
     }
     
     .map-preview img {
@@ -612,7 +609,7 @@
             src="mapa_tierra_v2.html?preview=1"
             title="Mini mapa terrestre"
             id="mini-earth"
-            style="position: absolute; top: 50%; left: 50%; width: 100%; height: 180%; border: none; border-radius: 12px; overflow: hidden; pointer-events: none; filter: contrast(1.05) brightness(1); transform: translate(-50%, -50%); transform-origin: center;"
+            style="position: absolute; top: 50%; left: 50%; width: 100%; height: 100%; border: none; overflow: hidden; pointer-events: none; filter: contrast(1.05) brightness(1); transform: translate(-50%, -50%); transform-origin: center;"
             loading="lazy">
           </iframe>
           <div class="map-overlay">Click para abrir →</div>
@@ -629,7 +626,7 @@
             id="mini-cyber"
             src="mapa_cyber.html?preview=1"
             title="Mini mapa cyber"
-            style="position: absolute; top: 50%; left: 50%; width: 100%; height: 180%; border: none; border-radius: 12px; overflow: hidden; pointer-events: none; filter: contrast(1.05) brightness(1); transform: translate(-50%, -50%); transform-origin: center;"
+            style="position: absolute; top: 50%; left: 50%; width: 100%; height: 100%; border: none; overflow: hidden; pointer-events: none; filter: contrast(1.05) brightness(1); transform: translate(-50%, -50%); transform-origin: center;"
             loading="lazy">
           </iframe>
           <div class="map-overlay">Click para abrir →</div>
