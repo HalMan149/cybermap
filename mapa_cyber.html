@@ -67,7 +67,7 @@
       display: none;
     }
 
-    /* Márgenes negros laterales para ocultar repetición del mundo */
+    /* Márgenes negros para ocultar repetición del mundo */
     .map-margin-left, .map-margin-right {
       position: absolute;
       top: 0;
@@ -80,8 +80,24 @@
     }
     .map-margin-left { left: 0; }
     .map-margin-right { right: 0; }
+    
+    .map-margin-top, .map-margin-bottom {
+      position: absolute;
+      left: 0;
+      width: 100vw;
+      height: 80px;
+      background: #0b1021;
+      z-index: 1000;
+      pointer-events: none;
+      box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.8);
+    }
+    .map-margin-top { top: 0; }
+    .map-margin-bottom { bottom: 33px; }
+    
     body.preview .map-margin-left,
-    body.preview .map-margin-right { display: none; }
+    body.preview .map-margin-right,
+    body.preview .map-margin-top,
+    body.preview .map-margin-bottom { display: none; }
 
     /* Animaciones */
     @keyframes pulseGlow {
@@ -281,9 +297,11 @@
 <body class="">
   <div id="map"></div>
   
-  <!-- Márgenes negros laterales -->
+  <!-- Márgenes negros -->
   <div class="map-margin-left"></div>
   <div class="map-margin-right"></div>
+  <div class="map-margin-top"></div>
+  <div class="map-margin-bottom"></div>
   
   <!-- Leyenda -->
   <div id="legend" class="collapsed">
