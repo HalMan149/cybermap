@@ -204,7 +204,7 @@
     </div>
     <div class="legend-item" id="legend-threatfox" data-layer="threatfox">
       <div class="legend-color" style="background: #4caf50;"></div>
-      <span class="legend-label">IOCs Malware</span>
+      <span class="legend-label">IPs Malware (IPsum)</span>
       <span class="legend-count" id="count-threatfox">0</span>
     </div>
     <div class="legend-item" id="legend-blocklist" data-layer="blocklist">
@@ -454,7 +454,7 @@
     const CACHE_MS = 6 * 60 * 60 * 1000; // 6h
     const RANSOMWARE_API = 'https://api.ransomware.live/recentvictims';
     const FEODO_TRACKER_API = 'https://feodotracker.abuse.ch/downloads/ipblocklist.json';
-    const THREATFOX_API = 'https://threatfox-api.abuse.ch/api/v1/';
+    const THREATFOX_API = 'https://raw.githubusercontent.com/stamparm/ipsum/master/ipsum.txt';
     const BLOCKLIST_API = 'https://lists.blocklist.de/lists/all.txt';
     let lastEvents = [];
     let lastRansomwareVictims = [];
@@ -708,10 +708,10 @@
           `;
         } else if (attack.type === 'threatfox') {
           details = `
-            <div class="attack-type">🎯 IOC MALWARE</div>
+            <div class="attack-type">🎯 IP MALWARE</div>
             <div class="attack-details">
               <strong>${attack.data.malware || 'Malware'}</strong><br>
-              IOC: ${attack.data.ioc || 'N/D'}<br>
+              IP: ${attack.data.ioc || 'N/D'}<br>
               País: ${attack.data.country || 'Desconocido'}
             </div>
           `;
@@ -823,36 +823,47 @@
 
       try {
         console.log('🔒 Intentando cargar Ransomware.live...');
-        // Usar proxy CORS para evitar bloqueos desde file://
+        // Múltiples proxies CORS + directo
         const proxies = [
-          `https://api.allorigins.win/raw?url=${encodeURIComponent(RANSOMWARE_API)}`,
+          `https://api.allorigins.win/get?url=${encodeURIComponent(RANSOMWARE_API)}`,
           `https://corsproxy.io/?${encodeURIComponent(RANSOMWARE_API)}`,
+          `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(RANSOMWARE_API)}`,
           RANSOMWARE_API // Intentar directo como último recurso
         ];
         
-        let response = null;
+        let data = null;
         let lastError = null;
         
-        for (const proxyUrl of proxies) {
+        for (let i = 0; i < proxies.length; i++) {
+          const proxyUrl = proxies[i];
           try {
-            console.log(`  → Probando proxy: ${proxyUrl.substring(0, 40)}...`);
-            response = await fetch(proxyUrl, { cache: 'no-store' });
-            if (response.ok) {
-              console.log(`  ✓ Proxy exitoso!`);
+            console.log(`  → Probando proxy ${i+1}/${proxies.length}...`);
+            const response = await fetch(proxyUrl, { cache: 'no-store' });
+            if (!response.ok) throw new Error(`HTTP ${response.status}`);
+            
+            const responseData = await response.json();
+            
+            // allorigins.win devuelve { contents: "..." }
+            if (responseData.contents) {
+              data = JSON.parse(responseData.contents);
+            } else {
+              data = responseData;
+            }
+            
+            if (Array.isArray(data) && data.length > 0) {
+              console.log(`  ✓ Proxy ${i+1} exitoso! (${data.length} víctimas)`);
               break;
             }
           } catch (e) {
             lastError = e;
-            console.warn(`  ✗ Proxy falló`);
+            console.warn(`  ✗ Proxy ${i+1} falló: ${e.message}`);
           }
         }
         
-        if (!response || !response.ok) {
+        if (!data || !Array.isArray(data) || data.length === 0) {
           console.error('❌ RANSOMWARE.LIVE BLOQUEADO - Todos los proxies fallaron');
           throw lastError || new Error('Todos los proxies fallaron');
         }
-        
-        const data = await response.json();
         if (!Array.isArray(data) || data.length === 0) {
           console.warn('Ransomware API: sin datos válidos');
           return;
@@ -1134,81 +1145,67 @@
     loadUrlhausUrls();
     setInterval(loadUrlhausUrls, 15 * 60 * 1000); // cada 15 min
 
-    // --- CAPA DE THREATFOX (IOCs de Malware)
+    // --- CAPA DE IPSUM (IPs Malware agregadas)
     async function loadThreatfoxIocs() {
       if (lastThreatfoxIocs.length) {
         renderThreatfoxIocs(lastThreatfoxIocs, { forcePulse: false, append: false });
-        console.log(`↺ Mostrando ${lastThreatfoxIocs.length} IOCs desde cache`);
+        console.log(`↺ Mostrando ${lastThreatfoxIocs.length} IPs desde cache`);
       }
 
       try {
-        console.log('🎯 Cargando ThreatFox IOCs...');
-        const proxies = [
-          `https://api.allorigins.win/raw?url=${encodeURIComponent(THREATFOX_API)}`,
-          THREATFOX_API
-        ];
+        console.log('🟢 Cargando IPsum (IPs Malware)...');
+        // IPsum es un feed simple de texto, debería funcionar directo
+        const response = await fetch(THREATFOX_API, { cache: 'no-store' });
         
-        let response = null;
-        for (const proxy of proxies) {
-          try {
-            // ThreatFox requiere POST con query
-            response = await fetch(proxy, {
-              method: 'POST',
-              headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify({ query: 'get_iocs', days: 3 }),
-              cache: 'no-store'
-            });
-            if (response.ok) break;
-          } catch (e) {
-            console.warn(`ThreatFox proxy falló: ${proxy.substring(0, 30)}...`);
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        
+        const text = await response.text();
+        
+        // Parsear IPsum: formato "IP\tscore" (tab-separated)
+        const lines = text.split('\n').filter(line => line && !line.startsWith('#'));
+        const ips = [];
+        
+        for (const line of lines) {
+          const parts = line.trim().split(/\s+/);
+          if (parts[0] && /^\d+\.\d+\.\d+\.\d+$/.test(parts[0])) {
+            const score = parseInt(parts[1]) || 1;
+            ips.push({ ip: parts[0], score });
           }
         }
         
-        if (!response || !response.ok) throw new Error('ThreatFox API no disponible');
+        // Ordenar por score (más peligrosas primero)
+        ips.sort((a, b) => b.score - a.score);
+        const topIps = ips.slice(0, 80);
         
-        const data = await response.json();
-        if (!data || !Array.isArray(data.data) || data.data.length === 0) {
-          console.warn('ThreatFox: sin datos válidos');
-          return;
-        }
-
-        console.log(`✓ ThreatFox respondió con ${data.data.length} IOCs`);
+        console.log(`✓ IPsum: ${topIps.length} IPs malware (score alto), geolocalizando...`);
         
         const processedIocs = [];
-        const seenIocs = new Set();
-        
-        // Filtrar solo IPs (no dominios/URLs/hashes)
-        const ipIocs = data.data.filter(ioc => 
-          ioc.ioc_type === 'ip:port' || ioc.ioc_type === 'ip' && ioc.ioc
-        ).slice(0, 80);
-        
-        console.log(`📊 ${ipIocs.length} IOCs tipo IP, geolocalizando...`);
-        
+        const seenIps = new Set();
         let successCount = 0;
         
-        for (const ioc of ipIocs) {
-          const ip = ioc.ioc.split(':')[0]; // Extraer IP del formato ip:port
+        for (const item of topIps) {
+          const ip = item.ip;
           
-          if (seenIocs.has(ip)) continue;
-          seenIocs.add(ip);
+          if (seenIps.has(ip)) continue;
+          seenIps.add(ip);
           
           try {
             const geo = await fetch(GEO_ENDPOINT(ip), { cache: 'no-store' }).then(r => r.json());
             if (geo && geo.success && typeof geo.latitude === 'number' && typeof geo.longitude === 'number') {
               processedIocs.push({
-                id: ioc.id || ip,
-                ioc: ioc.ioc,
+                id: ip,
+                ioc: ip,
                 ip: ip,
-                malware: ioc.malware_printable || ioc.malware || 'Malware',
-                confidence: ioc.confidence_level || 'N/D',
+                malware: `Malware (score: ${item.score})`,
+                confidence: item.score,
                 lat: geo.latitude,
                 lon: geo.longitude,
                 country: geo.country || 'N/D'
               });
               
               successCount++;
-              if (successCount % 5 === 0) {
-                console.log(`  ✓ ${successCount}/${ipIocs.length} IOCs geolocalizados...`);
+              if (successCount % 10 === 0) {
+                console.log(`  ✓ ${successCount}/${topIps.length} IPs geolocalizadas...`);
               }
             }
           } catch (e) {}
@@ -1218,7 +1215,7 @@
           if (processedIocs.length >= 50) break;
         }
         
-        console.log(`✓ ThreatFox: ${successCount} IOCs geolocalizados`);
+        console.log(`✓ IPsum: ${successCount} IPs geolocalizadas`);
 
         if (processedIocs.length > 0) {
           const newIocs = processedIocs.filter(ioc => 
@@ -1236,18 +1233,18 @@
           
           if (newIocs.length > 0) {
             renderThreatfoxIocs(newIocs, { forcePulse: true, append: true });
-            console.log(`🎉 ${newIocs.length} IOCs nuevos agregados!`);
+            console.log(`🎉 ${newIocs.length} IPs malware nuevas!`);
           }
           
-          console.log(`✅ THREATFOX: Total ${lastThreatfoxIocs.length} IOCs`);
+          console.log(`✅ IPSUM: Total ${lastThreatfoxIocs.length} IPs`);
         }
       } catch (e) {
-        console.error('❌ THREATFOX FALLÓ:', e.message);
+        console.error('❌ IPSUM FALLÓ:', e.message);
         if (lastThreatfoxIocs.length) {
-          console.log('  ↺ Usando cache anterior (' + lastThreatfoxIocs.length + ' IOCs)');
+          console.log('  ↺ Usando cache anterior (' + lastThreatfoxIocs.length + ' IPs)');
           renderThreatfoxIocs(lastThreatfoxIocs, { forcePulse: false });
         } else {
-          console.warn('  ⚠️ Sin datos de ThreatFox disponibles');
+          console.warn('  ⚠️ Sin datos de IPsum disponibles');
         }
       }
     }
@@ -1269,10 +1266,10 @@
         }).addTo(threatfoxLayer);
 
         circle.bindPopup(
-          `<strong style="color:#4caf50;">🎯 IOC Malware</strong><br>` +
-          `<strong>Malware:</strong> ${ioc.malware}<br>` +
-          `<strong>IOC:</strong> ${ioc.ioc}<br>` +
-          `<strong>Confianza:</strong> ${ioc.confidence}%<br>` +
+          `<strong style="color:#4caf50;">🎯 IP Malware</strong><br>` +
+          `<strong>Tipo:</strong> ${ioc.malware}<br>` +
+          `<strong>IP:</strong> ${ioc.ioc}<br>` +
+          `<strong>Score:</strong> ${ioc.confidence}<br>` +
           `<strong>País:</strong> ${ioc.country}`
         );
 
@@ -1420,10 +1417,10 @@
       console.log('\n' + '='.repeat(60));
       console.log('📊 ESTADO DE FUENTES DE DATOS DE CIBERSEGURIDAD');
       console.log('='.repeat(60));
-      console.log(`🔴 Firehol (IPs Maliciosas):    ${lastEvents.length} puntos`);
+      console.log(`🔴 Firehol (IPs Maliciosas):    ${lastEvents.length} puntos ${lastEvents.length > 0 ? '✅' : '⏳'}`);
       console.log(`🟠 Ransomware.live:             ${lastRansomwareVictims.length} puntos ${lastRansomwareVictims.length === 0 ? '❌ BLOQUEADO' : '✅'}`);
       console.log(`🟣 Feodo Tracker (Botnets):     ${lastUrlhausUrls.length} puntos ${lastUrlhausUrls.length > 0 ? '✅' : '⏳'}`);
-      console.log(`🟢 ThreatFox (IOCs):            ${lastThreatfoxIocs.length} puntos ${lastThreatfoxIocs.length > 0 ? '✅' : '⏳'}`);
+      console.log(`🟢 IPsum (IPs Malware):         ${lastThreatfoxIocs.length} puntos ${lastThreatfoxIocs.length > 0 ? '✅' : '⏳'}`);
       console.log(`🔵 Blocklist.de (SSH/FTP):      ${lastBlocklistIps.length} puntos ${lastBlocklistIps.length > 0 ? '✅' : '⏳'}`);
       console.log('─'.repeat(60));
       console.log(`📍 TOTAL EN MAPA: ${lastEvents.length + lastRansomwareVictims.length + lastUrlhausUrls.length + lastThreatfoxIocs.length + lastBlocklistIps.length} puntos`);
