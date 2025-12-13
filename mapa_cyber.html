@@ -87,12 +87,12 @@
       background: rgba(11, 16, 33, 0.25); backdrop-filter: blur(16px);
       border: 2px solid #13f5ff; border-radius: 12px; padding: 0;
       font-family: 'Segoe UI', sans-serif; color: #fff;
-      box-shadow: 0 4px 15px rgba(0, 255, 255, 0.3); min-width: 220px;
+      box-shadow: 0 4px 15px rgba(0, 255, 255, 0.3);
       transition: all 0.3s ease;
-    }
-    #legend.collapsed { 
-      min-width: auto;
       width: auto;
+    }
+    #legend:not(.collapsed) {
+      min-width: 220px;
     }
     #legend-header {
       padding: 10px 12px; cursor: pointer;
@@ -168,12 +168,11 @@
       border: 2px solid #ff6b6b; border-radius: 12px; padding: 0;
       font-family: 'Segoe UI', sans-serif; color: #fff;
       box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
-      width: 320px;
       transition: all 0.3s ease;
-    }
-    #recent-attacks.collapsed { 
-      min-width: auto;
       width: auto;
+    }
+    #recent-attacks:not(.collapsed) {
+      width: 320px;
     }
     #attacks-header {
       padding: 10px 12px; cursor: pointer;
@@ -320,12 +319,12 @@
       document.body.classList.add('preview');
     }
 
-    const CENTER = [38.3373, -0.5266];
-    const ZOOM = 3;
+    const CENTER = [30, 15];
+    const ZOOM = 2.8;
     // Para la miniatura: más abierto y centrado en el mundo
     // Preview: usaremos fitBounds para recortar polos en la miniatura
     const baseZoom = ZOOM;
-    const minZoom = isPreview ? 1.0 : ZOOM;
+    const minZoom = isPreview ? 1.0 : 2.8;
 
     const map = L.map('map', {
       zoomControl: true,
