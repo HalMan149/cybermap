@@ -104,227 +104,49 @@
       font-size: 12px;
       opacity: 0.9;
     }
-    /* Animaciones */
-    @keyframes slideIn {
-      from { opacity: 0; transform: translateX(20px); }
-      to { opacity: 1; transform: translateX(0); }
-    }
-
-    /* Leyenda retraíble */
     .legend {
       position: absolute;
       bottom: 30px;
       left: 15px;
-      background: rgba(10, 14, 39, 0.35);
-      backdrop-filter: blur(14px);
+      background: rgba(10, 14, 39, 0.45); /* más transparente */
+      backdrop-filter: blur(10px);
       color: #fff;
-      padding: 0;
-      border-radius: 12px;
+      padding: 12px;
+      border-radius: 8px;
       font-size: 12px;
       z-index: 1000;
-      box-shadow: 0 4px 15px rgba(109, 213, 237, 0.3);
-      border: 2px solid rgba(109, 213, 237, 0.4);
-      transition: all 0.3s ease;
-      min-width: 220px;
-    }
-    .legend.collapsed { min-width: auto; }
-    .legend-header {
-      padding: 10px 12px;
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      border-bottom: 1px solid rgba(109, 213, 237, 0.3);
-      gap: 10px;
-    }
-    .legend.collapsed .legend-header {
-      border-bottom: none;
-      justify-content: center;
-      padding: 8px 10px;
-    }
-    .legend-header:hover { background: rgba(109, 213, 237, 0.1); }
-    .legend h3 {
-      margin: 0;
-      font-size: 0.95em;
-      color: #6dd5ed;
-      font-weight: 500;
-    }
-    .legend.collapsed h3 { font-size: 0.8em; }
-    .legend-toggle {
-      font-size: 1em;
-      color: #6dd5ed;
-      transition: transform 0.3s;
-    }
-    .legend.collapsed .legend-toggle { display: none; }
-    .legend-content {
-      padding: 10px 12px;
-      max-height: 400px;
-      overflow: hidden;
-      transition: max-height 0.3s ease, opacity 0.3s ease, padding 0.3s ease;
-    }
-    .legend.collapsed .legend-content {
-      max-height: 0;
-      opacity: 0;
-      padding: 0;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.5);
     }
     .legend-item {
       margin: 6px 0;
       display: flex;
       align-items: center;
       gap: 8px;
-      cursor: pointer;
-      transition: opacity 0.3s;
     }
-    .legend-item:hover { opacity: 0.8; }
-    .legend-item.disabled { opacity: 0.4; }
     .legend-circle {
-      width: 14px;
-      height: 14px;
+      width: 16px;
+      height: 16px;
       border-radius: 50%;
       border: 2px solid;
-    }
-    .legend-count {
-      font-size: 0.75em;
-      color: #6dd5ed;
-      font-weight: 600;
-      margin-left: auto;
-    }
-
-    /* Timeline de eventos */
-    .events-timeline {
-      position: absolute;
-      top: 15px;
-      right: 15px;
-      background: rgba(10, 14, 39, 0.35);
-      backdrop-filter: blur(14px);
-      color: #fff;
-      padding: 0;
-      border-radius: 12px;
-      font-size: 12px;
-      z-index: 1000;
-      box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);
-      border: 2px solid rgba(255, 215, 0, 0.4);
-      transition: all 0.3s ease;
-      width: 300px;
-    }
-    .events-timeline.collapsed { min-width: auto; width: auto; }
-    .timeline-header {
-      padding: 10px 12px;
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      border-bottom: 1px solid rgba(255, 215, 0, 0.3);
-      gap: 10px;
-    }
-    .events-timeline.collapsed .timeline-header {
-      border-bottom: none;
-      justify-content: center;
-      padding: 8px 10px;
-    }
-    .timeline-header:hover { background: rgba(255, 215, 0, 0.1); }
-    .timeline-header h3 {
-      margin: 0;
-      font-size: 0.95em;
-      color: #ffd700;
-      font-weight: 500;
-    }
-    .events-timeline.collapsed h3 { font-size: 0.8em; }
-    .timeline-toggle {
-      font-size: 1em;
-      color: #ffd700;
-      transition: transform 0.3s;
-    }
-    .events-timeline.collapsed .timeline-toggle { display: none; }
-    .timeline-content {
-      padding: 12px;
-      max-height: 450px;
-      overflow-y: auto;
-      transition: max-height 0.3s ease, opacity 0.3s ease, padding 0.3s ease;
-    }
-    .events-timeline.collapsed .timeline-content {
-      max-height: 0;
-      opacity: 0;
-      padding: 0;
-    }
-    .event-item {
-      background: rgba(255, 215, 0, 0.08);
-      border-left: 3px solid #ffd700;
-      padding: 8px;
-      margin-bottom: 6px;
-      border-radius: 6px;
-      font-size: 0.78em;
-      cursor: pointer;
-      transition: all 0.3s;
-      animation: slideIn 0.4s ease-out;
-    }
-    .event-item:hover {
-      background: rgba(255, 215, 0, 0.15);
-      transform: translateX(-3px);
-    }
-    .event-item.volcano {
-      border-left-color: #ff4444;
-      background: rgba(255, 68, 68, 0.08);
-    }
-    .event-item.volcano:hover {
-      background: rgba(255, 68, 68, 0.15);
-    }
-    .event-type {
-      font-weight: 600;
-      font-size: 0.85em;
-      margin-bottom: 3px;
-    }
-    .event-item .event-type { color: #ffd700; }
-    .event-item.volcano .event-type { color: #ff4444; }
-    .event-details {
-      color: #ccc;
-      line-height: 1.5;
-    }
-    .event-time {
-      font-size: 0.8em;
-      color: #6dd5ed;
-      margin-top: 4px;
-      font-family: 'Consolas', monospace;
-    }
-    .timeline-content::-webkit-scrollbar { width: 6px; }
-    .timeline-content::-webkit-scrollbar-track { background: rgba(0,0,0,0.3); }
-    .timeline-content::-webkit-scrollbar-thumb {
-      background: #ffd700;
-      border-radius: 3px;
     }
   </style>
 </head>
 <body>
   <div id="map"></div>
   
-  <!-- Leyenda retraíble -->
-  <div class="legend collapsed">
-    <div class="legend-header">
-      <h3>🗺️ Capas</h3>
-      <span class="legend-toggle">◀</span>
-    </div>
-    <div class="legend-content">
-      <div class="legend-item" id="toggle-earthquakes" data-layer="earthquakes">
-        <div class="legend-circle" style="background: #ffd700; border-color: #ffa500;"></div>
-        <span style="font-size: 0.82em;">Terremotos</span>
-        <span class="legend-count" id="count-earthquakes">0</span>
-      </div>
-      <div class="legend-item" id="toggle-volcanoes" data-layer="volcanoes">
-        <div class="legend-circle" style="background: #ff4444; border-color: #cc0000;"></div>
-        <span style="font-size: 0.82em;">Volcanes</span>
-        <span class="legend-count" id="count-volcanoes">0</span>
-      </div>
-    </div>
-  </div>
+  <!-- Panel de info removido a petición del usuario -->
 
-  <!-- Timeline de eventos -->
-  <div class="events-timeline collapsed">
-    <div class="timeline-header">
-      <h3>⚡ Eventos Recientes</h3>
-      <span class="timeline-toggle">▶</span>
+  <div class="legend">
+    <div class="legend-item">
+      <div class="legend-circle" style="background: #ffd700; border-color: #ffa500;"></div>
+      <span>Terremotos (tamaño=magnitud)</span>
     </div>
-    <div class="timeline-content">
-      <div id="events-list"></div>
+    <div class="legend-item" style="padding-left: 24px; font-size: 11px; opacity: 0.8;">
+      <span>• Centro oscuro = profundidad</span>
+    </div>
+    <div class="legend-item">
+      <div class="legend-circle" style="background: #ff4444; border-color: #cc0000;"></div>
+      <span>Volcanes (tamaño=actividad)</span>
     </div>
   </div>
 
@@ -669,7 +491,7 @@
       return 'Volcán activo conocido';
     }
 
-    volcanesActivos.forEach((v, idx) => {
+    volcanesActivos.forEach(v => {
       const size = getVolcanoSize(v.lastActivity);
       const status = getActivityStatus(v.lastActivity);
       
@@ -677,22 +499,6 @@
       const [year, month] = v.lastActivity.split('-');
       const monthNames = ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic'];
       const formattedDate = `${monthNames[parseInt(month) - 1]} ${year}`;
-      
-      // Agregar a lista de volcanes
-      if (!allVolcanoes.find(vol => vol.name === v.name)) {
-        allVolcanoes.push({
-          name: v.name,
-          lat: v.lat,
-          lng: v.lng,
-          country: v.country,
-          lastActivity: v.lastActivity
-        });
-      }
-      
-      // Agregar volcanes de 2025 a timeline (solo los más recientes)
-      if (v.lastActivity.startsWith('2025') && idx < 10) {
-        addToRecentEvents('volcano', v);
-      }
       
       const marker = L.circleMarker([v.lat, v.lng], {
         radius: size,
@@ -712,140 +518,16 @@
         </div>
       `);
       
-      volcanosLayer.addLayer(marker);
+      volcanesLayer.addLayer(marker);
     });
-    
-    // Actualizar contadores después de cargar volcanes
-    updateCounters();
-    updateEventsList();
 
     // ============================================
     // TERREMOTOS RECIENTES (USGS)
     // ============================================
     const earthquakesLayer = L.layerGroup().addTo(map);
-    const volcanosLayer = L.layerGroup().addTo(map);
-    let previousEarthquakeIds = new Set();
-    const pulseCircles = [];
-    let cachedEarthquakeData = null;
-    const recentEventsList = [];
-    let layersVisible = { earthquakes: true, volcanoes: true };
-    let allEarthquakes = [];
-    let allVolcanoes = [];
-
-    // --- FUNCIONES DE UI ---
-    function updateCounters() {
-      document.getElementById('count-earthquakes').textContent = allEarthquakes.length;
-      document.getElementById('count-volcanoes').textContent = allVolcanoes.length;
-    }
-
-    function addToRecentEvents(type, data) {
-      const timestamp = new Date();
-      const event = { type, data, timestamp };
-      recentEventsList.unshift(event);
-      if (recentEventsList.length > 50) recentEventsList.pop();
-      updateEventsList();
-    }
-
-    function updateEventsList() {
-      const container = document.getElementById('events-list');
-      if (!container) return;
-      
-      const toShow = recentEventsList.slice(0, 15);
-      
-      if (toShow.length === 0) {
-        container.innerHTML = '<div style="color:#888;font-size:0.9em;text-align:center;padding:20px;">Sin eventos recientes</div>';
-        return;
-      }
-
-      container.innerHTML = toShow.map(event => {
-        const isVolcano = event.type === 'volcano';
-        const className = isVolcano ? 'event-item volcano' : 'event-item';
-        
-        let details = '';
-        if (isVolcano) {
-          details = `
-            <div class="event-type">🌋 VOLCÁN</div>
-            <div class="event-details">
-              <strong>${event.data.name}</strong><br>
-              País: ${event.data.country}<br>
-              Actividad: ${event.data.lastActivity}
-            </div>
-          `;
-        } else {
-          const mag = event.data.mag ? event.data.mag.toFixed(1) : 'N/D';
-          const depth = event.data.depth ? event.data.depth.toFixed(0) : 'N/D';
-          details = `
-            <div class="event-type">🌍 TERREMOTO M${mag}</div>
-            <div class="event-details">
-              ${event.data.place}<br>
-              Profundidad: ${depth} km
-            </div>
-          `;
-        }
-        
-        const timeAgo = getTimeAgo(event.timestamp);
-        return `
-          <div class="${className}" data-lat="${event.data.lat || event.data.latitude}" data-lon="${event.data.lon || event.data.lng || event.data.longitude}">
-            ${details}
-            <div class="event-time">${timeAgo}</div>
-          </div>
-        `;
-      }).join('');
-
-      // Click handlers
-      container.querySelectorAll('.event-item').forEach(item => {
-        item.addEventListener('click', () => {
-          const lat = parseFloat(item.dataset.lat);
-          const lon = parseFloat(item.dataset.lon);
-          map.setView([lat, lon], 6, { animate: true });
-        });
-      });
-    }
-
-    function getTimeAgo(date) {
-      const seconds = Math.floor((new Date() - date) / 1000);
-      if (seconds < 60) return 'Hace unos segundos';
-      if (seconds < 3600) return `Hace ${Math.floor(seconds / 60)} min`;
-      if (seconds < 86400) return `Hace ${Math.floor(seconds / 3600)} h`;
-      return `Hace ${Math.floor(seconds / 86400)} días`;
-    }
-
-    // Toggle leyenda
-    document.querySelector('.legend-header').addEventListener('click', function() {
-      document.querySelector('.legend').classList.toggle('collapsed');
-    });
-
-    // Toggle timeline
-    document.querySelector('.timeline-header').addEventListener('click', function() {
-      document.querySelector('.events-timeline').classList.toggle('collapsed');
-    });
-
-    // Toggle capas
-    document.getElementById('toggle-earthquakes').addEventListener('click', () => {
-      layersVisible.earthquakes = !layersVisible.earthquakes;
-      const element = document.getElementById('toggle-earthquakes');
-      
-      if (layersVisible.earthquakes) {
-        map.addLayer(earthquakesLayer);
-        element.classList.remove('disabled');
-      } else {
-        map.removeLayer(earthquakesLayer);
-        element.classList.add('disabled');
-      }
-    });
-
-    document.getElementById('toggle-volcanoes').addEventListener('click', () => {
-      layersVisible.volcanoes = !layersVisible.volcanoes;
-      const element = document.getElementById('toggle-volcanoes');
-      
-      if (layersVisible.volcanoes) {
-        map.addLayer(volcanosLayer);
-        element.classList.remove('disabled');
-      } else {
-        map.removeLayer(volcanosLayer);
-        element.classList.add('disabled');
-      }
-    });
+    let previousEarthquakeIds = new Set(); // Para detectar terremotos nuevos
+    const pulseCircles = []; // Almacenar círculos pulsantes
+    let cachedEarthquakeData = null; // Cache para evitar perder datos si falla el fetch
 
     async function loadEarthquakes() {
       try {
@@ -884,19 +566,6 @@
           const isNew = previousEarthquakeIds.size > 0 && !previousEarthquakeIds.has(quakeId);
           if (isNew) {
             newEarthquakes.push({ coords, mag, quakeId });
-            // Agregar a timeline
-            addToRecentEvents('earthquake', {
-              lat: coords[1],
-              lon: coords[0],
-              mag: mag,
-              depth: coords[2],
-              place: props.place
-            });
-          }
-          
-          // Guardar para contar
-          if (!allEarthquakes.find(e => e.id === quakeId)) {
-            allEarthquakes.push({ id: quakeId, lat: coords[1], lon: coords[0], mag, place: props.place });
           }
           
           // Radio del círculo exterior según magnitud
@@ -960,8 +629,6 @@
         // Actualizar lista de IDs conocidos y cache
         previousEarthquakeIds = currentEarthquakeIds;
         cachedEarthquakeData = data;
-
-        updateCounters();
         
         if (newEarthquakes.length > 0) {
           console.log(`✓ ${data.features.length} terremotos cargados (${newEarthquakes.length} NUEVOS con animación)`);
@@ -1084,10 +751,6 @@
       loadEarthquakes();
       console.log('✓ Datos en tiempo real cargados');
       console.log('📐 Zoom mínimo dinámico activado - Sin bordes negros');
-      
-      // Inicializar UI
-      updateCounters();
-      updateEventsList();
     });
 
   </script>
