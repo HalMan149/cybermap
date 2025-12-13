@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>Mapa Cyberpunk + GPS público</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <style>
+    html, body {
+      height: 100vh; width: 100vw; margin: 0; padding: 0; background: #0b1021;
+      box-sizing: border-box;
+    }
+    #map {
+      width: 100vw; height: 100vh; margin: 0; padding: 0; background: #0b1021;
+      box-sizing: border-box;
+    }
+    .zona-horaria-label, .city-clock-label { pointer-events: none; user-select: none; }
+    .gmt-utc-clock {
+      font-family: 'Consolas', monospace; font-size: 1.25em;
+      padding: 2px 12px; border-radius: 12px; border: 2.2px solid #00ffd9a0;
+      background: #0a233bf2; color: #1fffb7; font-weight: 600;
+      margin-top: 6px; margin-bottom: 0; text-align: center; width: 76px;
+      box-shadow: 0 0 8px #0ff8; letter-spacing: 0.04em;
+      text-shadow: 0 0 5px #0ff7; transition: color 0.2s, border 0.2s, background 0.2s;
+      cursor: pointer;
+    }
+    .gmt-utc-clock.sync-error {
+      color: #ffae47 !important;
+      border-color: #ffc66a !important;
+      background: #2d1c05ea !important;
+      box-shadow: 0 0 18px #ffc66a77 !important;
+    }
+    .zona-horaria-label.gmt-central { font-weight: bold; }
+    .city-clock-label {
+      background: transparent !important; border: none !important; box-shadow: none !important; min-width: 0 !important; padding: 0 !important;
+      font-family: 'Segoe UI', 'Roboto', sans-serif; color: #63faff;
+      text-align: center;
+      text-shadow: 0 0 8px #29eaffb8, 0 0 2px #09e7;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+    }
+    .city-clock-label .hora {
+      font-family: 'Consolas', monospace; font-size: 1.24em; color: #73fdff; font-weight: 800;
+      margin-bottom: 0px; text-shadow: 0 0 13px #5efcff, 0 0 3px #33eaffb8; background: transparent; border: none; letter-spacing: 0.03em; line-height: 1.2;
+    }
+    .city-clock-label .city {
+      font-size: 1em; color: #fff; font-weight: 600; margin-top: 0px; line-height: 1.08; background: transparent; border: none; text-shadow: 0 0 4px #00f8, 0 0 1px #0af9;
+    }
+    .leaflet-overlay-pane svg polyline {
+      stroke: #2cfdff !important; filter: drop-shadow(0 0 6px #12fd) drop-shadow(0 0 2px #00f8); stroke-width: 2.3 !important; stroke-opacity: 0.65 !important;
+    }
+    #noticias-ticker {
+      position: absolute; bottom: 0; left: 0; width: 100vw;
+      z-index: 3000; background: rgba(8, 26, 31, 0.54); backdrop-filter: blur(2.5px);
+      color: #6bf; font-family: 'Segoe UI', Arial, sans-serif; font-size: 1.13em;
+      height: 33px; display: flex; align-items: center; overflow: hidden;
+      border-top: 2px solid #13f5ff; box-shadow: 0 1px 7px #00f3;
+      text-shadow: 0 0 8px #27fd;
+    }
+    #noticias-inner { white-space: nowrap; display: inline-block; will-change: transform; }
+
+    /* Ocultar ticker en miniatura */
+    body.preview #noticias-ticker { display: none; }
+  </style>
+</head>
+<body class="">
+  <div id="map"></div>
+  <div id="noticias-ticker"><span id="noticias-inner"></span></div>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const isPreview = urlParams.has('preview');
+    if (isPreview) {
+      document.body.classList.add('preview');
+    }
+
+    const CENTER = [38.3373, -0.5266];
+    const ZOOM = 3;
+    // Para la miniatura: más abierto y centrado en el mundo
+    // Preview: usaremos fitBounds para recortar polos en la miniatura
+    const baseZoom = ZOOM;
+    const minZoom = isPreview ? 1.0 : 2;
+
+    const map = L.map('map', {
+      zoomControl: false,
+      attributionControl: false,
+      minZoom,
+      maxZoom: 17,
+      scrollWheelZoom: false,
+      doubleClickZoom: false,
+      boxZoom: false,
+      dragging: false,
+      touchZoom: false,
+      keyboard: false,
+      worldCopyJump: false,
+      noWrap: true,
+      maxBounds: [[-85.05, -180], [85.05, 180]],
+      maxBoundsViscosity: 1.0,
+      preferCanvas: true
+    });
+
+    if (isPreview) {
+      // Recorte: más sur (Sudamérica completa) y un poco menos de norte
+      const previewBounds = [[-65, -180], [68, 180]];
+      map.fitBounds(previewBounds, { animate: false });
+      map.setMaxBounds(previewBounds);
+    } else {
+      map.setView(CENTER, baseZoom);
+    }
+
+    // --- Mapa base oscuro fijo, SIN repetir
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+      maxZoom: 19, minZoom: 1, noWrap: true
+    }).addTo(map);
+
+    // --- Capa de líneas GPS públicas, SIN repetir
+    L.tileLayer('https://gps-{s}.tile.openstreetmap.org/lines/{z}/{x}/{y}.png', {
+      maxZoom: 19, minZoom: 1, opacity: 0.85, noWrap: true
+    }).addTo(map);
+
+    // --- ZONAS HORARIAS Y RELOJES ---
+    const zonaHorariaLines = L.layerGroup();
+    const relojMarkers = [];
+    let utcRef = new Date(); // base inicial, se ajusta con reloj atómico
+    let utcError = false;
+
+    for(let i = -12; i <= 14; i++) {
+      const lon = i * 15;
+      if (lon < -180 || lon > 180) continue;
+      const isCentral = (i === 0);
+      const line = L.polyline([[-59.98, lon], [82.26, lon]],
+        { color: "#2cfdff", weight: 2.3, opacity: 0.65, dashArray: "5,14", interactive: false });
+      zonaHorariaLines.addLayer(line);
+      const latLabel = 82.15;
+      const relojId = `reloj-tz${i}`;
+      const extraClass = isCentral ? " gmt-central" : "";
+      const ancla = isCentral ? [52, 10] : [31, 10];
+      const marker = L.marker([latLabel, lon], {
+        icon: L.divIcon({
+          className: 'zona-horaria-label' + extraClass,
+          html: isCentral
+            ? `<div class="gmt-utc-clock" id="${relojId}">--:--</div>`
+            : `<div id="${relojId}" style="font-family:monospace;font-size:1.18em;color:#72fdff;background:transparent;padding:0;border:none;min-width:62px;text-align:center;box-shadow:none"></div>`,
+          iconAnchor: ancla
+        }),
+        interactive: false
+      });
+      relojMarkers.push({ id: relojId, offset: i });
+      zonaHorariaLines.addLayer(marker);
+    }
+    zonaHorariaLines.addTo(map);
+
+    // --- RELOJES DE CIUDADES (zona horaria real para DST automático) ---
+    const cityMarkers = [
+      { name: "Los Ángeles", lat:34.05, lon:-118.25, tz: "America/Los_Angeles", id:"clkla" },
+      { name: "Denver", lat:39.74, lon:-104.99, tz: "America/Denver", id:"clkden" },
+      { name: "México", lat:19.43, lon:-99.13, tz: "America/Mexico_City", id:"clkcdmx" },
+      { name: "Nueva York", lat:40.71, lon:-74.01, tz: "America/New_York", id:"clkny" },
+      { name: "Buenos Aires", lat:-34.61, lon:-58.38, tz: "America/Argentina/Buenos_Aires", id:"clkbue" },
+      { name: "Sao Paulo", lat:-23.55, lon:-46.63, tz: "America/Sao_Paulo", id:"clksp" },
+      { name: "Londres", lat:51.51, lon:-0.13, tz: "Europe/London", id:"clklon" },
+      { name: "Madrid", lat:40.42, lon:-3.70, tz: "Europe/Madrid", id:"clkmad" },
+      { name: "El Cairo", lat:30.05, lon:31.25, tz: "Africa/Cairo", id:"clkcai" },
+      { name: "Moscú", lat:55.75, lon:37.62, tz: "Europe/Moscow", id:"clkmsk" },
+      { name: "Dubái", lat:25.20, lon:55.27, tz: "Asia/Dubai", id:"clkdx" },
+      { name: "Nueva Delhi", lat:28.61, lon:77.20, tz: "Asia/Kolkata", id:"clkdel" },
+      { name: "Pekín", lat:39.90, lon:116.40, tz: "Asia/Shanghai", id:"clkpek" },
+      { name: "Tokio", lat:35.68, lon:139.69, tz: "Asia/Tokyo", id:"clktok" },
+      { name: "Sídney", lat:-33.87, lon:151.21, tz: "Australia/Sydney", id:"clksyd" },
+      { name: "Perth", lat:-31.95, lon:115.86, tz: "Australia/Perth", id:"clkper" }
+    ];
+    cityMarkers.forEach(city => {
+      L.marker([city.lat, city.lon], {
+        icon: L.divIcon({
+          className: "city-clock-label",
+          html: `<span class="hora" id="${city.id}-hora">--:--</span>
+                 <span class="city">${city.name}</span>`,
+          iconAnchor: [11, 10]
+        }),
+        interactive: false
+      }).addTo(map);
+    });
+
+    function formatTimeInTZ(tz, ts) {
+      return new Intl.DateTimeFormat('es-ES', {
+        hour: '2-digit',
+        minute: '2-digit',
+        hourCycle: 'h23',
+        timeZone: tz
+      }).format(ts);
+    }
+
+    function updateCentralUTCAndRelojes() {
+      const nowBase = utcRef instanceof Date ? utcRef : new Date();
+      const nowTs = nowBase.getTime();
+      const centralClock = document.getElementById('reloj-tz0');
+      if (centralClock) {
+        const h = String(nowBase.getUTCHours()).padStart(2,"0");
+        const m = String(nowBase.getUTCMinutes()).padStart(2,"0");
+        centralClock.textContent = `${h}:${m}`;
+        centralClock.title = utcError ? "UTC (fallback local)" : "Hora GMT/UTC atómica";
+      }
+      relojMarkers.forEach(({id, offset}) => {
+        if (id === 'reloj-tz0') return;
+        const el = document.getElementById(id);
+        if (!el) return;
+        const t = new Date(nowTs + offset * 60 * 60 * 1000);
+        const hh = String(t.getUTCHours()).padStart(2, "0");
+        const mm = String(t.getUTCMinutes()).padStart(2, "0");
+        el.textContent = `${hh}:${mm}`;
+      });
+      cityMarkers.forEach(city => {
+        const el = document.getElementById(city.id + "-hora");
+        if (!el) return;
+        el.textContent = formatTimeInTZ(city.tz, nowTs);
+      });
+    }
+
+    // Sincronización UTC atómica + fallback
+    async function syncUTCAtomic() {
+      try {
+        const resp = await fetch('https://timeapi.io/api/Time/current/zone?timeZone=UTC', { cache: 'no-store' });
+        const data = await resp.json();
+        utcRef = new Date(data.dateTime);
+        utcError = false;
+      } catch(e) {
+        utcRef = new Date();
+        utcError = true;
+      }
+      updateCentralUTCAndRelojes();
+    }
+
+    // Primera actualización inmediata
+    updateCentralUTCAndRelojes();
+    syncUTCAtomic();
+    setInterval(syncUTCAtomic, 5 * 60 * 1000); // cada 5 min
+    setInterval(updateCentralUTCAndRelojes, 60000); // cada 1 min (usa utcRef vigente)
+    // --- CAPA DE EVENTOS (IP maliciosas desde función serverless)
+    const attacksLayer = L.layerGroup().addTo(map);
+    const previousIps = new Set();
+    const pulseRefs = [];
+    const DEMO_EVENTS = [
+      { ip: 'demo-1', lat: 40.71, lon: -74.01, country: 'US' },
+      { ip: 'demo-2', lat: 51.50, lon: -0.12, country: 'UK' },
+      { ip: 'demo-3', lat: 35.68, lon: 139.69, country: 'JP' },
+      { ip: 'demo-4', lat: 19.43, lon: -99.13, country: 'MX' }
+    ];
+    const FIREHOL_URLS = [
+      'https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/firehol_level1.netset',
+      'https://cdn.jsdelivr.net/gh/firehol/blocklist-ipsets@master/firehol_level1.netset',
+      'https://raw.githack.com/firehol/blocklist-ipsets/master/firehol_level1.netset'
+    ];
+    const MAX_FIREHOL_IPS = 120;
+    const GEO_ENDPOINT = (ip) => `https://ipwho.is/${ip}`;
+    const CACHE_KEY = 'cyber_attacks_cache';
+    const CACHE_MS = 6 * 60 * 60 * 1000; // 6h
+    let lastEvents = [];
+    // Intentar recuperar cache de sesiones previas
+    try {
+      const stored = localStorage.getItem(CACHE_KEY);
+      if (stored) {
+        const parsed = JSON.parse(stored);
+        if (parsed && parsed.ts && (Date.now() - parsed.ts) < CACHE_MS && Array.isArray(parsed.data) && parsed.data.length) {
+          lastEvents = parsed.data;
+          console.log(`↺ Cache cyber: ${parsed.data.length} eventos (<=6h)`);
+        }
+      }
+    } catch(_) {}
+
+    function createPulse(lat, lon) {
+      const baseRadius = 70000;
+      const circle = L.circle([lat, lon], {
+        radius: baseRadius,
+        color: '#ff6b6b',
+        weight: 2,
+        opacity: 0.8,
+        fillOpacity: 0.15,
+        interactive: false
+      }).addTo(attacksLayer);
+
+      let growing = true;
+      let scale = 1;
+      const maxScale = 3;
+      const minScale = 1;
+      const step = 0.05;
+
+      const interval = setInterval(() => {
+        scale += growing ? step : -step;
+        if (scale >= maxScale) growing = false;
+        if (scale <= minScale) growing = true;
+        circle.setRadius(baseRadius * scale);
+        circle.setStyle({ opacity: 0.8 / scale, fillOpacity: 0.2 / scale });
+      }, 50);
+
+      setTimeout(() => {
+        clearInterval(interval);
+        if (attacksLayer.hasLayer(circle)) attacksLayer.removeLayer(circle);
+      }, 15000); // 15s de pulso
+
+      pulseRefs.push({ circle, interval });
+    }
+
+    function filterAttacks(events) {
+      const ipSeen = new Set();
+      const cellSeen = new Set(); // celda aproximada para evitar clusters densos
+      const filtered = [];
+      for (const ev of events || []) {
+        if (typeof ev.lat !== 'number' || typeof ev.lon !== 'number') continue;
+        if (!ev.ip) continue;
+        if (ipSeen.has(ev.ip)) continue;
+        ipSeen.add(ev.ip);
+        const cell = `${Math.round(ev.lat * 2) / 2}_${Math.round(ev.lon * 2) / 2}`; // cuadrícula 0.5°
+        if (cellSeen.has(cell)) continue;
+        cellSeen.add(cell);
+        filtered.push(ev);
+        if (filtered.length >= 200) break; // límite duro
+      }
+      return filtered;
+    }
+
+    function renderAttacks(events, { forcePulse = false } = {}) {
+      if (!Array.isArray(events) || !events.length) return;
+      console.log(`▶ Pintando ${events.length} eventos cyber`);
+      attacksLayer.clearLayers();
+      // limpiar pulsos previos
+      pulseRefs.forEach(({ interval }) => clearInterval(interval));
+      pulseRefs.length = 0;
+
+      events.forEach(ev => {
+        const circle = L.circleMarker([ev.lat, ev.lon], {
+          radius: 9,
+          color: '#ff4757',
+          fillColor: '#ff6b6b',
+          fillOpacity: 0.6,
+          weight: 2.5,
+          opacity: 0.9
+        }).addTo(attacksLayer);
+        circle.bindPopup(
+          `IP en lista negra: ${ev.ip}<br>` +
+          `País: ${ev.country || 'N/D'}`
+        );
+
+        const isNew = forcePulse || !previousIps.has(ev.ip);
+        if (isNew) {
+          createPulse(ev.lat, ev.lon);
+        }
+        // marcar como vista
+        previousIps.add(ev.ip);
+      });
+    }
+
+    function delay(ms) { return new Promise(res => setTimeout(res, ms)); }
+
+    async function fetchFireholIPs() {
+      let lastError = null;
+      for (const url of FIREHOL_URLS) {
+        try {
+          const res = await fetch(url, { cache: 'no-store' });
+          if (!res.ok) throw new Error(`HTTP ${res.status}`);
+          const txt = await res.text();
+          const ips = txt
+            .split('\n')
+            .map(l => l.trim())
+            .filter(l => l && !l.startsWith('#'))
+            .map(l => {
+              const mCidr = l.match(/^(\d+\.\d+\.\d+\.\d+)\/\d+/);
+              const mIp = l.match(/^(\d+\.\d+\.\d+\.\d+)$/);
+              return mCidr ? mCidr[1] : (mIp ? mIp[1] : null);
+            })
+            .filter(Boolean);
+          const uniq = Array.from(new Set(ips)).slice(0, MAX_FIREHOL_IPS);
+          console.log(`FireHOL desde ${url} -> ${uniq.length} IPs`);
+          if (uniq.length > 0) return uniq;
+        } catch (e) {
+          lastError = e;
+          console.warn(`FireHOL fallo ${url}`, e);
+        }
+      }
+      if (lastError) throw lastError;
+      return [];
+    }
+
+    async function geolocateIPs(ips) {
+      const results = [];
+      for (const ip of ips) {
+        try {
+          const geo = await fetch(GEO_ENDPOINT(ip), { cache: 'no-store' }).then(r => r.json());
+          if (geo && geo.success && typeof geo.latitude === 'number' && typeof geo.longitude === 'number') {
+            results.push({ ip, lat: geo.latitude, lon: geo.longitude, country: geo.country });
+          }
+        } catch (_) {}
+        await delay(180); // throttle para no quemar la API
+      }
+      console.log(`Geolocalizadas ${results.length} / ${ips.length} IPs`);
+      return results;
+    }
+
+    async function loadAttacks() {
+      // Mostrar inmediatamente cache previa si existe
+      if (lastEvents.length) {
+        renderAttacks(lastEvents, { forcePulse: true });
+      }
+
+      let fetched = [];
+      try {
+        const ips = await fetchFireholIPs();
+        const geos = await geolocateIPs(ips);
+        fetched = filterAttacks(geos);
+      } catch (e) {
+        console.warn('No se pudieron cargar/geolocalizar IPs FireHOL', e);
+      }
+
+      if (fetched.length > 0) {
+        lastEvents = fetched;
+        try { localStorage.setItem(CACHE_KEY, JSON.stringify({ ts: Date.now(), data: fetched })); } catch(_) {}
+        renderAttacks(fetched, { forcePulse: false });
+        console.log(`✓ Cyber eventos cargados (FireHOL+geo): ${fetched.length}`);
+        return;
+      }
+
+      if (lastEvents.length) {
+        console.warn('Eventos vacíos, reutilizando último dataset en cache');
+        renderAttacks(lastEvents, { forcePulse: false });
+        return;
+      }
+
+      console.warn('Sin datos (FireHOL+cache vacíos). No se muestran eventos.');
+    }
+
+    loadAttacks();
+    setInterval(loadAttacks, 5 * 60 * 1000); // cada 5 min
+
+    // --- BARRA DE NOTICIAS (ciberseguridad, RSS)
+    // Fuentes en español
+    const RSS_SOURCES = [
+      'https://www.incibe-cert.es/alerta-temprana/avisos-seguridad/feed', // INCIBE-CERT avisos
+      'https://www.ccn-cert.cni.es/feeds/avisos.xml',                    // CCN-CERT avisos
+      'https://unaaldia.hispasec.com/feed',                             // Hispasec Una al día
+      'https://www.welivesecurity.com/la-es/feed/'                      // ESET en español
+    ];
+
+    const FALLBACK_NEWS = [
+      { title: 'Sin noticias en vivo. Ciberseguridad en modo fallback.', link: '#' },
+      { title: 'Añade más RSS o revisa la conexión para ver alertas en tiempo real.', link: '#' }
+    ];
+
+    function shuffle(arr) {
+      for (let i = arr.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [arr[i], arr[j]] = [arr[j], arr[i]];
+      }
+      return arr;
+    }
+
+    function parseRSS(xmlText) {
+      const parser = new DOMParser();
+      const doc = parser.parseFromString(xmlText, 'text/xml');
+      const items = [...doc.querySelectorAll('item')].map(item => {
+        const title = item.querySelector('title')?.textContent?.trim() || '';
+        const link = item.querySelector('link')?.textContent?.trim() || '#';
+        return title ? { title, link } : null;
+      }).filter(Boolean);
+      return items;
+    }
+
+    async function fetchFeed(url) {
+      const proxied = `https://corsproxy.io/?${encodeURIComponent(url)}`;
+      const res = await fetch(proxied, { cache: 'no-store' });
+      const text = await res.text();
+      return parseRSS(text);
+    }
+
+    async function loadNews() {
+      const results = [];
+      for (const src of RSS_SOURCES) {
+        try {
+          const items = await fetchFeed(src);
+          if (items && items.length) {
+            results.push(...items.slice(0, 8));
+          }
+        } catch (e) {
+          console.warn('RSS fallo', src, e);
+        }
+      }
+      if (!results.length) return FALLBACK_NEWS;
+      return shuffle(results).slice(0, 40);
+    }
+
+    function renderTicker(items) {
+      const inner = document.getElementById('noticias-inner');
+      const sep = `<span style="color:#44c4ff;font-size:1.1em;font-weight:bold;">&nbsp;&nbsp;•&nbsp;&nbsp;</span>`;
+      inner.innerHTML = items.map(n => `<span onclick="window.open('${n.link}', '_blank')" style="cursor:pointer;">${n.title}</span>`).join(sep);
+      setTimeout(() => {
+        const ancho = inner.offsetWidth / 2;
+        const dur = Math.max(24, inner.textContent.length / 10);
+        inner.getAnimations().forEach(a => a.cancel());
+        inner.animate([
+          { transform: "translateX(0)" },
+          { transform: `translateX(-${ancho}px)` }
+        ], {
+          duration: dur * 1000,
+          iterations: Infinity,
+          easing: "linear"
+        });
+      }, 150);
+    }
+
+    async function startTicker() {
+      if (isPreview) return; // no ticker en miniatura
+      const items = await loadNews();
+      renderTicker(items);
+    }
+
+    startTicker();
+    setInterval(startTicker, 15 * 60 * 1000); // refresca cada 15 min
+  </script>
+</body>
+</html>
+
