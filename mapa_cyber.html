@@ -324,17 +324,18 @@
       document.body.classList.add('preview');
     }
 
-    // ACTUALIZADO: 2025-12-13 17:06 - Centro en Europa/África
-    const CENTER = [30, 10];
+    // ACTUALIZADO: 2025-12-13 17:11 - Centro en Atlántico para separar América de Asia
+    const CENTER = [30, -20];
     const ZOOM = 2.5;
     // Para la miniatura: más abierto y centrado en el mundo
     // Preview: usaremos fitBounds para recortar polos en la miniatura
     const baseZoom = ZOOM;
     const minZoom = isPreview ? 1.0 : 2.5;
     
-    console.log('🗺️ CONFIGURACIÓN DEL MAPA:');
-    console.log('  Centro:', CENTER);
+    console.log('🗺️ CONFIGURACIÓN DEL MAPA (v17:11):');
+    console.log('  Centro:', CENTER, '(Atlántico - África Occidental)');
     console.log('  Zoom:', ZOOM);
+    console.log('  América → IZQUIERDA | Europa/África → CENTRO | Asia → DERECHA');
 
     const map = L.map('map', {
       zoomControl: true,
