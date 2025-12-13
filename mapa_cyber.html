@@ -1415,6 +1415,30 @@
     loadBlocklistIps();
     setInterval(loadBlocklistIps, 20 * 60 * 1000); // cada 20 min
 
+    // --- DASHBOARD DE ESTADO DE FUENTES ---
+    function logSourcesStatus() {
+      console.log('\n' + '='.repeat(60));
+      console.log('📊 ESTADO DE FUENTES DE DATOS DE CIBERSEGURIDAD');
+      console.log('='.repeat(60));
+      console.log(`🔴 Firehol (IPs Maliciosas):    ${lastEvents.length} puntos`);
+      console.log(`🟠 Ransomware.live:             ${lastRansomwareVictims.length} puntos ${lastRansomwareVictims.length === 0 ? '❌ BLOQUEADO' : '✅'}`);
+      console.log(`🟣 Feodo Tracker (Botnets):     ${lastUrlhausUrls.length} puntos ${lastUrlhausUrls.length > 0 ? '✅' : '⏳'}`);
+      console.log(`🟢 ThreatFox (IOCs):            ${lastThreatfoxIocs.length} puntos ${lastThreatfoxIocs.length > 0 ? '✅' : '⏳'}`);
+      console.log(`🔵 Blocklist.de (SSH/FTP):      ${lastBlocklistIps.length} puntos ${lastBlocklistIps.length > 0 ? '✅' : '⏳'}`);
+      console.log('─'.repeat(60));
+      console.log(`📍 TOTAL EN MAPA: ${lastEvents.length + lastRansomwareVictims.length + lastUrlhausUrls.length + lastThreatfoxIocs.length + lastBlocklistIps.length} puntos`);
+      console.log('='.repeat(60) + '\n');
+    }
+
+    // Mostrar estado inicial
+    setTimeout(() => logSourcesStatus(), 2000);
+    // Actualizar cada 30 segundos mientras carga datos
+    const statusInterval = setInterval(() => {
+      logSourcesStatus();
+    }, 30000);
+    // Detener después de 5 minutos (ya habrá cargado todo)
+    setTimeout(() => clearInterval(statusInterval), 5 * 60 * 1000);
+
     // Inicializar UI
     updateCounters();
     updateAttacksList();
