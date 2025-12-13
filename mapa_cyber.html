@@ -663,7 +663,14 @@
       });
 
       updateCounters();
-      if (heatmapMode) updateHeatmap();
+      
+      // Si hay datos nuevos (no es cache inicial) y estamos en heatmap, mostrar puntos temporalmente
+      const hasNewData = events.some(ev => !previousIps.has(ev.ip));
+      if (heatmapMode && hasNewData && !forcePulse) {
+        showNewPointsTemporarily(30000);
+      } else if (heatmapMode) {
+        updateHeatmap();
+      }
     }
 
     function delay(ms) { return new Promise(res => setTimeout(res, ms)); }
@@ -1008,8 +1015,9 @@
 
       updateCounters();
       
-      // Si estamos en modo heatmap y hay datos nuevos, mostrar puntos temporalmente
-      if (heatmapMode && victims.length > 0 && !forcePulse) {
+      // Si hay datos nuevos y estamos en heatmap, mostrar puntos temporalmente
+      const hasNewVictims = victims.some(v => !previousRansomware.has(v.id));
+      if (heatmapMode && hasNewVictims && !forcePulse) {
         showNewPointsTemporarily(30000);
       } else if (heatmapMode) {
         updateHeatmap();
