@@ -11,6 +11,20 @@
     }
     #map { width: 100vw; height: 100vh; }
     
+    /* Márgenes negros laterales para ocultar repetición */
+    .map-margin-left, .map-margin-right {
+      position: absolute;
+      top: 0;
+      height: 100vh;
+      width: 12%;
+      background: #0b1021;
+      z-index: 1000;
+      pointer-events: none;
+      box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.8);
+    }
+    .map-margin-left { left: 0; }
+    .map-margin-right { right: 0; }
+    
     #controls {
       position: absolute; top: 20px; left: 50%; transform: translateX(-50%);
       z-index: 2000; background: rgba(11, 16, 33, 0.95);
@@ -27,21 +41,25 @@
 <body>
   <div id="map"></div>
   
+  <!-- Márgenes negros laterales -->
+  <div class="map-margin-left"></div>
+  <div class="map-margin-right"></div>
+  
   <div id="controls">
     <h3 style="margin: 0 0 10px 0; color: #13f5ff;">🧪 TEST - Ajusta el Encuadre Perfecto</h3>
     <div style="background: rgba(76, 175, 80, 0.15); padding: 10px; border-radius: 6px; font-size: 0.85em; line-height: 1.6; border: 1px solid #4caf50;">
       ✨ <strong>MODO LIBRE:</strong><br>
       🔄 Mundo infinito (sin límites laterales)<br>
-      🔍 Zoom ULTRA fino (pasos de 0.01)<br>
+      🔍 Zoom EXTRA SUAVE (pasos de 0.005)<br>
       🎮 <strong>Arrastra y zoom</strong> con precisión<br>
       📸 <strong>Copia coordenadas</strong> cuando esté perfecto
     </div>
     <div style="margin-top: 10px;">
-      <button onclick="toggleNoWrap()" style="padding: 10px; width: 100%; background: #ff6b6b; border: 2px solid #ff6b6b; color: #fff; cursor: pointer; border-radius: 8px; font-weight: bold;">
-        🔄 Cambiar a noWrap: <span id="nowrap-status">true</span>
+      <button onclick="captureConfig()" style="padding: 12px; width: 100%; background: #4caf50; border: 2px solid #4caf50; color: #fff; cursor: pointer; border-radius: 8px; font-weight: bold; font-size: 1em;">
+        ✅ CAPTURAR CONFIGURACIÓN
       </button>
-      <div style="font-size: 0.75em; margin-top: 5px; color: #888;">
-        (Prueba cómo se ve con/sin repetición del mundo)
+      <div style="font-size: 0.75em; margin-top: 5px; color: #4caf50;">
+        Cuando esté perfecto, click aquí para capturar todos los datos
       </div>
     </div>
     <div id="info">
@@ -60,20 +78,21 @@
       maxZoom: 17,
       scrollWheelZoom: true,
       dragging: true,
-      zoomSnap: 0.01,
-      zoomDelta: 0.01,
-      wheelPxPerZoomLevel: 300,
+      zoomSnap: 0.005,
+      zoomDelta: 0.005,
+      wheelPxPerZoomLevel: 600,
       noWrap: false,
       worldCopyJump: true
     });
 
-    map.setView([35, 15], 3);
+    map.setView([28.0148, 13.4017], 2.33);
     
-    console.log('✨ MODO LIBRE TOTAL:');
-    console.log('  noWrap: false (mundo infinito)');
-    console.log('  Sin maxBounds (movimiento lateral libre)');
-    console.log('  Zoom ULTRA fino (pasos de 0.01 - máxima precisión)');
-    console.log('  🎮 Ajusta con precisión y dame las coordenadas perfectas');
+    console.log('🎮 MODO LIBRE TOTAL:');
+    console.log('  Movimiento lateral SIN límites');
+    console.log('  Zoom EXTRA SUAVE (0.005 - cada scroll cambia MUY poco)');
+    console.log('  Márgenes laterales al 12%');
+    console.log('  ');
+    console.log('📸 Cuando esté perfecto, click en "CAPTURAR CONFIGURACIÓN"');
 
     // Mapa base oscuro - CON REPETICIÓN
     L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
@@ -94,36 +113,25 @@
       }).addTo(map);
     }
 
-    let currentNoWrap = false;
-    let baseLayer, gpsLayer;
-
-    // Guardar referencias a las capas
-    map.eachLayer(function(layer) {
-      if (layer._url && layer._url.includes('basemaps')) baseLayer = layer;
-      if (layer._url && layer._url.includes('gps')) gpsLayer = layer;
-    });
-
-    function toggleNoWrap() {
-      currentNoWrap = !currentNoWrap;
+    function captureConfig() {
+      const center = map.getCenter();
+      const zoom = map.getZoom();
+      const bounds = map.getBounds();
       
-      // Actualizar status
-      document.getElementById('nowrap-status').textContent = currentNoWrap ? 'false' : 'true';
-      document.getElementById('current-nowrap').textContent = currentNoWrap;
+      console.log('\n' + '='.repeat(60));
+      console.log('📸 CONFIGURACIÓN CAPTURADA:');
+      console.log('='.repeat(60));
+      console.log(`Centro: [${center.lat.toFixed(4)}, ${center.lng.toFixed(4)}]`);
+      console.log(`Zoom: ${zoom.toFixed(2)}`);
+      console.log(`Bounds visibles:`);
+      console.log(`  Sur-Oeste: [${bounds.getSouthWest().lat.toFixed(2)}, ${bounds.getSouthWest().lng.toFixed(2)}]`);
+      console.log(`  Nor-Este: [${bounds.getNorthEast().lat.toFixed(2)}, ${bounds.getNorthEast().lng.toFixed(2)}]`);
+      console.log(`Ancho margen lateral: 12%`);
+      console.log('='.repeat(60));
+      console.log('✅ Copia estos datos y pégamelos en el chat');
+      console.log('='.repeat(60) + '\n');
       
-      // Recrear capas con nuevo noWrap
-      if (baseLayer) map.removeLayer(baseLayer);
-      if (gpsLayer) map.removeLayer(gpsLayer);
-      
-      baseLayer = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-        maxZoom: 19, minZoom: 1, noWrap: currentNoWrap
-      }).addTo(map);
-      
-      gpsLayer = L.tileLayer('https://gps-{s}.tile.openstreetmap.org/lines/{z}/{x}/{y}.png', {
-        maxZoom: 19, minZoom: 1, opacity: 0.85, noWrap: currentNoWrap
-      }).addTo(map);
-      
-      console.log(`🔄 Cambiado a noWrap: ${currentNoWrap} ${currentNoWrap ? '(sin repetición)' : '(infinito)'}`);
-      updateInfo();
+      alert('✅ Configuración capturada en la consola!\n\nCopia los datos de la consola y pégalos en el chat.');
     }
 
     function updateInfo() {

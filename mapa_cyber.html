@@ -327,18 +327,18 @@
       document.body.classList.add('preview');
     }
 
-    // ACTUALIZADO: 2025-12-13 18:31 - Encuadre perfecto ajustado manualmente
-    const CENTER = [28.0148, 13.4017];
-    const ZOOM = 2.33;
+    // ACTUALIZADO: 2025-12-13 18:50 - Encuadre perfecto ajustado manualmente
+    const CENTER = [35.2007, 11.6006];
+    const ZOOM = 2.92;
     // Para la miniatura: más abierto y centrado en el mundo
     // Preview: usaremos fitBounds para recortar polos en la miniatura
     const baseZoom = ZOOM;
-    const minZoom = isPreview ? 1.0 : 2.33;
+    const minZoom = isPreview ? 1.0 : 2.92;
     
-    console.log('🗺️ CONFIGURACIÓN DEL MAPA (v18:30 - ENCUADRE PERFECTO):');
+    console.log('🗺️ CONFIGURACIÓN DEL MAPA (v18:50 - ENCUADRE PERFECTO):');
     console.log('  Centro:', CENTER, '(Ajustado manualmente)');
     console.log('  Zoom:', ZOOM, '(Sin cortes, vista completa)');
-    console.log('  noWrap: false + maxBounds (mundo continuo sin repetición visible)');
+    console.log('  noWrap: false + Márgenes laterales 12%');
 
     const map = L.map('map', {
       zoomControl: true,
