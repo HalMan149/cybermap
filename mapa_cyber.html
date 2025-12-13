@@ -749,9 +749,26 @@
 
       try {
         // Usar proxy CORS para evitar bloqueos desde file://
-        const proxiedUrl = `https://corsproxy.io/?${encodeURIComponent(RANSOMWARE_API)}`;
-        const response = await fetch(proxiedUrl, { cache: 'no-store' });
-        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const proxies = [
+          `https://api.allorigins.win/raw?url=${encodeURIComponent(RANSOMWARE_API)}`,
+          `https://corsproxy.io/?${encodeURIComponent(RANSOMWARE_API)}`,
+          RANSOMWARE_API // Intentar directo como último recurso
+        ];
+        
+        let response = null;
+        let lastError = null;
+        
+        for (const proxyUrl of proxies) {
+          try {
+            response = await fetch(proxyUrl, { cache: 'no-store' });
+            if (response.ok) break;
+          } catch (e) {
+            lastError = e;
+            console.warn(`Proxy falló: ${proxyUrl}`);
+          }
+        }
+        
+        if (!response || !response.ok) throw lastError || new Error('Todos los proxies fallaron');
         
         const data = await response.json();
         if (!Array.isArray(data) || data.length === 0) {
@@ -852,11 +869,30 @@
 
       try {
         console.log('🤖 Cargando Feodo Tracker (Botnets)...');
-        // Usar proxy CORS
-        const proxiedUrl = `https://api.allorigins.win/raw?url=${encodeURIComponent(FEODO_TRACKER_API)}`;
-        const response = await fetch(proxiedUrl, { cache: 'no-store' });
+        // Intentar con múltiples proxies CORS
+        const proxies = [
+          `https://api.allorigins.win/raw?url=${encodeURIComponent(FEODO_TRACKER_API)}`,
+          `https://corsproxy.io/?${encodeURIComponent(FEODO_TRACKER_API)}`,
+          FEODO_TRACKER_API // Directo como último recurso
+        ];
         
-        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        let response = null;
+        let lastError = null;
+        
+        for (const proxyUrl of proxies) {
+          try {
+            response = await fetch(proxyUrl, { cache: 'no-store' });
+            if (response.ok) {
+              console.log(`✓ Proxy exitoso: ${proxyUrl.substring(0, 30)}...`);
+              break;
+            }
+          } catch (e) {
+            lastError = e;
+            console.warn(`Proxy falló: ${proxyUrl.substring(0, 30)}...`);
+          }
+        }
+        
+        if (!response || !response.ok) throw lastError || new Error('Todos los proxies fallaron');
         
         const data = await response.json();
         console.log(`✓ Feodo Tracker respondió con ${data.length} IPs de botnets`);
