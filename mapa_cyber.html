@@ -98,11 +98,13 @@
       padding: 10px 12px; cursor: pointer;
       display: flex; align-items: center; justify-content: space-between;
       border-bottom: 1px solid rgba(19, 245, 255, 0.3);
+      gap: 10px;
     }
     #legend.collapsed #legend-header { 
       border-bottom: none; 
       justify-content: center;
-      padding: 10px 8px;
+      padding: 8px 10px;
+      gap: 0;
     }
     #legend-header:hover { background: rgba(19, 245, 255, 0.1); }
     #legend h3 {
@@ -121,13 +123,12 @@
       padding: 10px 12px;
       max-height: 600px;
       overflow: hidden;
-      transition: max-height 0.3s ease, opacity 0.3s ease;
+      transition: max-height 0.3s ease, opacity 0.3s ease, padding 0.3s ease;
     }
     #legend.collapsed #legend-content {
       max-height: 0;
       opacity: 0;
-      padding-top: 0;
-      padding-bottom: 0;
+      padding: 0;
     }
     .legend-item {
       display: flex; align-items: center; margin-bottom: 8px;
@@ -178,11 +179,13 @@
       padding: 10px 12px; cursor: pointer;
       display: flex; align-items: center; justify-content: space-between;
       border-bottom: 1px solid rgba(255, 107, 107, 0.3);
+      gap: 10px;
     }
     #recent-attacks.collapsed #attacks-header { 
       border-bottom: none; 
       justify-content: center;
-      padding: 10px 8px;
+      padding: 8px 10px;
+      gap: 0;
     }
     #attacks-header:hover { background: rgba(255, 107, 107, 0.1); }
     #recent-attacks h3 {
@@ -200,11 +203,12 @@
     #attacks-content {
       max-height: 500px;
       overflow-y: auto;
-      transition: max-height 0.3s ease, opacity 0.3s ease;
+      transition: max-height 0.3s ease, opacity 0.3s ease, padding 0.3s ease;
     }
     #recent-attacks.collapsed #attacks-content {
       max-height: 0;
       opacity: 0;
+      padding: 0;
     }
     .attack-item {
       background: rgba(255, 107, 107, 0.08);
@@ -319,12 +323,12 @@
       document.body.classList.add('preview');
     }
 
-    const CENTER = [30, 15];
-    const ZOOM = 2.8;
+    const CENTER = [30, 60];
+    const ZOOM = 2.5;
     // Para la miniatura: más abierto y centrado en el mundo
     // Preview: usaremos fitBounds para recortar polos en la miniatura
     const baseZoom = ZOOM;
-    const minZoom = isPreview ? 1.0 : 2.8;
+    const minZoom = isPreview ? 1.0 : 2.5;
 
     const map = L.map('map', {
       zoomControl: true,
