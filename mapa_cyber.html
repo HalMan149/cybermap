@@ -545,7 +545,7 @@
       'https://cdn.jsdelivr.net/gh/firehol/blocklist-ipsets@master/firehol_level1.netset',
       'https://raw.githack.com/firehol/blocklist-ipsets/master/firehol_level1.netset'
     ];
-    const MAX_FIREHOL_IPS = 120;
+    const MAX_FIREHOL_IPS = 40; // Reducido para menos peticiones
     const GEO_ENDPOINT = (ip) => `https://ipwho.is/${ip}`;
     const CACHE_KEY = 'cyber_attacks_cache';
     const RANSOMWARE_CACHE_KEY = 'ransomware_victims_cache';
@@ -1125,12 +1125,11 @@
             }
             return false;
           })
-          .slice(0, 120); // Aumentado para más IPs
+          .slice(0, 40); // Reducido para menos peticiones
         
         console.log(`📊 ${recentBots.length} botnets encontrados, geolocalizando...`);
         
         let successCount = 0;
-        let failCount = 0;
         
         for (const item of recentBots) {
           const ip = item.ip_address;
@@ -1138,44 +1137,36 @@
           if (seenIps.has(ip)) continue;
           seenIps.add(ip);
           
-          // Intentar geolocalizar con reintentos
-          let geoSuccess = false;
-          for (let attempt = 1; attempt <= 2; attempt++) {
-            try {
-              const geo = await fetch(GEO_ENDPOINT(ip), { cache: 'no-store' }).then(r => r.json());
-              if (geo && geo.success && typeof geo.latitude === 'number' && typeof geo.longitude === 'number') {
-                processedUrls.push({
-                  id: ip,
-                  url: `${ip}:${item.port || 'N/D'}`,
-                  host: ip,
-                  threat: item.malware || 'Botnet C&C',
-                  lat: geo.latitude,
-                  lon: geo.longitude,
-                  country: geo.country || 'N/D'
-                });
-                
-                successCount++;
-                console.log(`  ✓ ${successCount}/${recentBots.length} - ${ip} (${item.malware || 'botnet'}) → ${geo.country}`);
-                geoSuccess = true;
-                break;
+          // Sin reintentos - solo 1 intento por IP
+          try {
+            const geo = await fetch(GEO_ENDPOINT(ip), { cache: 'no-store' }).then(r => r.json());
+            if (geo && geo.success && typeof geo.latitude === 'number' && typeof geo.longitude === 'number') {
+              processedUrls.push({
+                id: ip,
+                url: `${ip}:${item.port || 'N/D'}`,
+                host: ip,
+                threat: item.malware || 'Botnet C&C',
+                lat: geo.latitude,
+                lon: geo.longitude,
+                country: geo.country || 'N/D'
+              });
+              
+              successCount++;
+              // Solo log cada 5 IPs
+              if (successCount % 5 === 0) {
+                console.log(`  ✓ ${successCount} botnets geolocalizados...`);
               }
-            } catch (e) {
-              if (attempt === 2) {
-                failCount++;
-                console.warn(`  ✗ Error geolocalizando ${ip} (2 intentos)`);
-              }
-              await delay(50); // Pausa breve antes de reintentar
             }
+          } catch (e) {
+            // Silenciar errores individuales
           }
           
-          if (!geoSuccess) failCount++;
+          await delay(150); // Delay más largo
           
-          await delay(100); // Throttle optimizado
-          
-          if (processedUrls.length >= 60) break;
+          if (processedUrls.length >= 30) break; // Límite reducido
         }
         
-        console.log(`📈 Estadísticas: ${successCount} éxitos, ${failCount} fallos`);
+        console.log(`✓ ${successCount} botnets geolocalizados exitosamente`);
 
         if (processedUrls.length > 0) {
           // Sistema acumulativo: agregar nuevos sin borrar anteriores
@@ -1295,7 +1286,7 @@
         
         // Ordenar por score (más peligrosas primero)
         ips.sort((a, b) => b.score - a.score);
-        const topIps = ips.slice(0, 80);
+        const topIps = ips.slice(0, 40); // Reducido para menos peticiones
         
         console.log(`✓ IPsum: ${topIps.length} IPs malware (score alto), geolocalizando...`);
         
@@ -1324,15 +1315,16 @@
               });
               
               successCount++;
+              // Solo log cada 10 IPs
               if (successCount % 10 === 0) {
-                console.log(`  ✓ ${successCount}/${topIps.length} IPs geolocalizadas...`);
+                console.log(`  ✓ ${successCount} IPs malware geolocalizadas...`);
               }
             }
           } catch (e) {}
           
-          await delay(100);
+          await delay(120);
           
-          if (processedIocs.length >= 50) break;
+          if (processedIocs.length >= 30) break; // Reducido
         }
         
         console.log(`✓ IPsum: ${successCount} IPs geolocalizadas`);
