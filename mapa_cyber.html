@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <title>Mapa Cyberpunk + GPS público</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <!-- Version: 2025-12-13-17:06 -->
+  <!-- Version: 2025-12-13-18:52-FINAL -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <style>
     html, body {
@@ -338,8 +338,8 @@
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
   <script>
-    // FORZAR RECARGA - Version 18:31
-    const VERSION_MAP = '2025-12-13-18:31:00';
+    // FORZAR RECARGA - Version 18:52 FINAL
+    const VERSION_MAP = '2025-12-13-18:52:00-FINAL';
     
     const urlParams = new URLSearchParams(window.location.search);
     const isPreview = urlParams.has('preview');
@@ -347,15 +347,15 @@
       document.body.classList.add('preview');
     }
 
-    // ACTUALIZADO: 2025-12-13 18:50 - Encuadre perfecto ajustado manualmente
-    const CENTER = [35.2007, 11.6006];
-    const ZOOM = 2.92;
+    // ACTUALIZADO: 2025-12-13 18:52 - Encuadre perfecto FINAL
+    const CENTER = [35.7962, 10.6469];
+    const ZOOM = 2.94;
     // Para la miniatura: más abierto y centrado en el mundo
     // Preview: usaremos fitBounds para recortar polos en la miniatura
     const baseZoom = ZOOM;
-    const minZoom = isPreview ? 1.0 : 2.92;
+    const minZoom = isPreview ? 1.0 : 2.94;
     
-    console.log('🗺️ CONFIGURACIÓN DEL MAPA (v18:50 - ENCUADRE PERFECTO):');
+    console.log('🗺️ CONFIGURACIÓN DEL MAPA (v18:52 - ENCUADRE PERFECTO FINAL):');
     console.log('  Centro:', CENTER, '(Ajustado manualmente)');
     console.log('  Zoom:', ZOOM, '(Sin cortes, vista completa)');
     console.log('  noWrap: false + Márgenes laterales 12%');
