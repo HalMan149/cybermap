@@ -156,6 +156,16 @@
     }
     .attack-item.ransomware .attack-type { color: #ffa500; }
     .attack-item.urlhaus .attack-type { color: #ba68c8; }
+    .attack-item.threatfox {
+      border-left-color: #4caf50; background: rgba(76, 175, 80, 0.08);
+    }
+    .attack-item.threatfox:hover { background: rgba(76, 175, 80, 0.15); }
+    .attack-item.threatfox .attack-type { color: #4caf50; }
+    .attack-item.blocklist {
+      border-left-color: #00bcd4; background: rgba(0, 188, 212, 0.08);
+    }
+    .attack-item.blocklist:hover { background: rgba(0, 188, 212, 0.15); }
+    .attack-item.blocklist .attack-type { color: #00bcd4; }
     .attack-details { color: #ccc; line-height: 1.5; }
     .attack-time {
       font-size: 0.8em; color: #13f5ff; margin-top: 4px;
@@ -191,6 +201,16 @@
       <div class="legend-color" style="background: #ba68c8;"></div>
       <span class="legend-label">Botnets C&C</span>
       <span class="legend-count" id="count-urlhaus">0</span>
+    </div>
+    <div class="legend-item" id="legend-threatfox" data-layer="threatfox">
+      <div class="legend-color" style="background: #4caf50;"></div>
+      <span class="legend-label">IOCs Malware</span>
+      <span class="legend-count" id="count-threatfox">0</span>
+    </div>
+    <div class="legend-item" id="legend-blocklist" data-layer="blocklist">
+      <div class="legend-color" style="background: #00bcd4;"></div>
+      <span class="legend-label">Ataques SSH/FTP</span>
+      <span class="legend-count" id="count-blocklist">0</span>
     </div>
     <button id="heatmap-toggle">🔥 Modo Mapa de Calor</button>
     <button id="reset-view">🎯 Restablecer Vista</button>
@@ -401,13 +421,17 @@
     const attacksLayer = L.layerGroup().addTo(map);
     const ransomwareLayer = L.layerGroup().addTo(map);
     const urlhausLayer = L.layerGroup().addTo(map);
+    const threatfoxLayer = L.layerGroup().addTo(map);
+    const blocklistLayer = L.layerGroup().addTo(map);
     let heatmapLayers = [];
     const previousIps = new Set();
     const previousRansomware = new Set();
     const previousUrlhaus = new Set();
+    const previousThreatfox = new Set();
+    const previousBlocklist = new Set();
     const pulseRefs = [];
     const recentAttacksList = [];
-    let layersVisible = { ips: true, ransomware: true, urlhaus: true };
+    let layersVisible = { ips: true, ransomware: true, urlhaus: true, threatfox: true, blocklist: true };
     let heatmapMode = false;
     const DEMO_EVENTS = [
       { ip: 'demo-1', lat: 40.71, lon: -74.01, country: 'US' },
@@ -425,12 +449,18 @@
     const CACHE_KEY = 'cyber_attacks_cache';
     const RANSOMWARE_CACHE_KEY = 'ransomware_victims_cache';
     const URLHAUS_CACHE_KEY = 'feodo_botnets_cache';
+    const THREATFOX_CACHE_KEY = 'threatfox_iocs_cache';
+    const BLOCKLIST_CACHE_KEY = 'blocklist_attacks_cache';
     const CACHE_MS = 6 * 60 * 60 * 1000; // 6h
     const RANSOMWARE_API = 'https://api.ransomware.live/recentvictims';
     const FEODO_TRACKER_API = 'https://feodotracker.abuse.ch/downloads/ipblocklist.json';
+    const THREATFOX_API = 'https://threatfox-api.abuse.ch/api/v1/';
+    const BLOCKLIST_API = 'https://lists.blocklist.de/lists/all.txt';
     let lastEvents = [];
     let lastRansomwareVictims = [];
     let lastUrlhausUrls = [];
+    let lastThreatfoxIocs = [];
+    let lastBlocklistIps = [];
     
     // Intentar recuperar cache de sesiones previas (IPs maliciosas)
     try {
@@ -464,6 +494,30 @@
         if (parsed && parsed.ts && (Date.now() - parsed.ts) < CACHE_MS && Array.isArray(parsed.data) && parsed.data.length) {
           lastUrlhausUrls = parsed.data;
           console.log(`↺ Cache Feodo: ${parsed.data.length} botnets (<=6h)`);
+        }
+      }
+    } catch(_) {}
+
+    // Cache ThreatFox
+    try {
+      const stored = localStorage.getItem(THREATFOX_CACHE_KEY);
+      if (stored) {
+        const parsed = JSON.parse(stored);
+        if (parsed && parsed.ts && (Date.now() - parsed.ts) < CACHE_MS && Array.isArray(parsed.data) && parsed.data.length) {
+          lastThreatfoxIocs = parsed.data;
+          console.log(`↺ Cache ThreatFox: ${parsed.data.length} IOCs (<=6h)`);
+        }
+      }
+    } catch(_) {}
+
+    // Cache Blocklist.de
+    try {
+      const stored = localStorage.getItem(BLOCKLIST_CACHE_KEY);
+      if (stored) {
+        const parsed = JSON.parse(stored);
+        if (parsed && parsed.ts && (Date.now() - parsed.ts) < CACHE_MS && Array.isArray(parsed.data) && parsed.data.length) {
+          lastBlocklistIps = parsed.data;
+          console.log(`↺ Cache Blocklist: ${parsed.data.length} IPs atacantes (<=6h)`);
         }
       }
     } catch(_) {}
@@ -605,6 +659,8 @@
       document.getElementById('count-ips').textContent = lastEvents.length;
       document.getElementById('count-ransomware').textContent = lastRansomwareVictims.length;
       document.getElementById('count-urlhaus').textContent = lastUrlhausUrls.length;
+      document.getElementById('count-threatfox').textContent = lastThreatfoxIocs.length;
+      document.getElementById('count-blocklist').textContent = lastBlocklistIps.length;
     }
 
     function addToRecentAttacks(type, data) {
@@ -647,6 +703,24 @@
             <div class="attack-details">
               <strong>${attack.data.threat || 'Botnet'}</strong><br>
               IP: ${attack.data.host || 'N/D'}<br>
+              País: ${attack.data.country || 'Desconocido'}
+            </div>
+          `;
+        } else if (attack.type === 'threatfox') {
+          details = `
+            <div class="attack-type">🎯 IOC MALWARE</div>
+            <div class="attack-details">
+              <strong>${attack.data.malware || 'Malware'}</strong><br>
+              IOC: ${attack.data.ioc || 'N/D'}<br>
+              País: ${attack.data.country || 'Desconocido'}
+            </div>
+          `;
+        } else if (attack.type === 'blocklist') {
+          details = `
+            <div class="attack-type">🛡️ ATAQUE SSH/FTP</div>
+            <div class="attack-details">
+              IP: ${attack.data.ip}<br>
+              Servicio: ${attack.data.service || 'N/D'}<br>
               País: ${attack.data.country || 'Desconocido'}
             </div>
           `;
@@ -1048,6 +1122,281 @@
     loadUrlhausUrls();
     setInterval(loadUrlhausUrls, 15 * 60 * 1000); // cada 15 min
 
+    // --- CAPA DE THREATFOX (IOCs de Malware)
+    async function loadThreatfoxIocs() {
+      if (lastThreatfoxIocs.length) {
+        renderThreatfoxIocs(lastThreatfoxIocs, { forcePulse: false, append: false });
+        console.log(`↺ Mostrando ${lastThreatfoxIocs.length} IOCs desde cache`);
+      }
+
+      try {
+        console.log('🎯 Cargando ThreatFox IOCs...');
+        const proxies = [
+          `https://api.allorigins.win/raw?url=${encodeURIComponent(THREATFOX_API)}`,
+          THREATFOX_API
+        ];
+        
+        let response = null;
+        for (const proxy of proxies) {
+          try {
+            // ThreatFox requiere POST con query
+            response = await fetch(proxy, {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ query: 'get_iocs', days: 3 }),
+              cache: 'no-store'
+            });
+            if (response.ok) break;
+          } catch (e) {
+            console.warn(`ThreatFox proxy falló: ${proxy.substring(0, 30)}...`);
+          }
+        }
+        
+        if (!response || !response.ok) throw new Error('ThreatFox API no disponible');
+        
+        const data = await response.json();
+        if (!data || !Array.isArray(data.data) || data.data.length === 0) {
+          console.warn('ThreatFox: sin datos válidos');
+          return;
+        }
+
+        console.log(`✓ ThreatFox respondió con ${data.data.length} IOCs`);
+        
+        const processedIocs = [];
+        const seenIocs = new Set();
+        
+        // Filtrar solo IPs (no dominios/URLs/hashes)
+        const ipIocs = data.data.filter(ioc => 
+          ioc.ioc_type === 'ip:port' || ioc.ioc_type === 'ip' && ioc.ioc
+        ).slice(0, 80);
+        
+        console.log(`📊 ${ipIocs.length} IOCs tipo IP, geolocalizando...`);
+        
+        let successCount = 0;
+        
+        for (const ioc of ipIocs) {
+          const ip = ioc.ioc.split(':')[0]; // Extraer IP del formato ip:port
+          
+          if (seenIocs.has(ip)) continue;
+          seenIocs.add(ip);
+          
+          try {
+            const geo = await fetch(GEO_ENDPOINT(ip), { cache: 'no-store' }).then(r => r.json());
+            if (geo && geo.success && typeof geo.latitude === 'number' && typeof geo.longitude === 'number') {
+              processedIocs.push({
+                id: ioc.id || ip,
+                ioc: ioc.ioc,
+                ip: ip,
+                malware: ioc.malware_printable || ioc.malware || 'Malware',
+                confidence: ioc.confidence_level || 'N/D',
+                lat: geo.latitude,
+                lon: geo.longitude,
+                country: geo.country || 'N/D'
+              });
+              
+              successCount++;
+              if (successCount % 5 === 0) {
+                console.log(`  ✓ ${successCount}/${ipIocs.length} IOCs geolocalizados...`);
+              }
+            }
+          } catch (e) {}
+          
+          await delay(100);
+          
+          if (processedIocs.length >= 50) break;
+        }
+        
+        console.log(`✓ ThreatFox: ${successCount} IOCs geolocalizados`);
+
+        if (processedIocs.length > 0) {
+          const newIocs = processedIocs.filter(ioc => 
+            !lastThreatfoxIocs.some(existing => existing.id === ioc.id)
+          );
+          
+          lastThreatfoxIocs.push(...newIocs);
+          
+          try {
+            localStorage.setItem(THREATFOX_CACHE_KEY, JSON.stringify({ 
+              ts: Date.now(), 
+              data: lastThreatfoxIocs 
+            }));
+          } catch(_) {}
+          
+          if (newIocs.length > 0) {
+            renderThreatfoxIocs(newIocs, { forcePulse: true, append: true });
+            console.log(`🎉 ${newIocs.length} IOCs nuevos agregados!`);
+          }
+          
+          console.log(`✓ Total ThreatFox IOCs: ${lastThreatfoxIocs.length}`);
+        }
+      } catch (e) {
+        console.warn('❌ Error ThreatFox:', e.message);
+        if (lastThreatfoxIocs.length) {
+          renderThreatfoxIocs(lastThreatfoxIocs, { forcePulse: false });
+        }
+      }
+    }
+
+    function renderThreatfoxIocs(iocs, { forcePulse = false, append = false } = {}) {
+      if (!Array.isArray(iocs) || !iocs.length) return;
+      console.log(`▶ Pintando ${iocs.length} IOCs ThreatFox (${append ? 'agregando' : 'reemplazando'})`);
+      
+      if (!append) threatfoxLayer.clearLayers();
+
+      iocs.forEach(ioc => {
+        const circle = L.circleMarker([ioc.lat, ioc.lon], {
+          radius: 9,
+          color: '#2e7d32',
+          fillColor: '#66bb6a',
+          fillOpacity: 0.6,
+          weight: 2.5,
+          opacity: 0.9
+        }).addTo(threatfoxLayer);
+
+        circle.bindPopup(
+          `<strong style="color:#4caf50;">🎯 IOC Malware</strong><br>` +
+          `<strong>Malware:</strong> ${ioc.malware}<br>` +
+          `<strong>IOC:</strong> ${ioc.ioc}<br>` +
+          `<strong>Confianza:</strong> ${ioc.confidence}%<br>` +
+          `<strong>País:</strong> ${ioc.country}`
+        );
+
+        const isNew = forcePulse || !previousThreatfox.has(ioc.id);
+        if (isNew) {
+          createPulse(ioc.lat, ioc.lon, '#2e7d32', threatfoxLayer);
+          addToRecentAttacks('threatfox', ioc);
+        }
+        previousThreatfox.add(ioc.id);
+      });
+
+      updateCounters();
+      if (heatmapMode) updateHeatmap();
+    }
+
+    loadThreatfoxIocs();
+    setInterval(loadThreatfoxIocs, 20 * 60 * 1000); // cada 20 min
+
+    // --- CAPA DE BLOCKLIST.DE (Ataques SSH/FTP/Mail)
+    async function loadBlocklistIps() {
+      if (lastBlocklistIps.length) {
+        renderBlocklistIps(lastBlocklistIps, { forcePulse: false, append: false });
+        console.log(`↺ Mostrando ${lastBlocklistIps.length} IPs atacantes desde cache`);
+      }
+
+      try {
+        console.log('🛡️ Cargando Blocklist.de...');
+        const proxiedUrl = `https://api.allorigins.win/raw?url=${encodeURIComponent(BLOCKLIST_API)}`;
+        const response = await fetch(proxiedUrl, { cache: 'no-store' });
+        
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        
+        const text = await response.text();
+        const ips = text.split('\n')
+          .map(line => line.trim())
+          .filter(line => line && /^\d+\.\d+\.\d+\.\d+$/.test(line))
+          .slice(0, 100);
+        
+        console.log(`✓ Blocklist.de: ${ips.length} IPs, geolocalizando...`);
+        
+        const processedIps = [];
+        const seenIps = new Set();
+        
+        for (const ip of ips) {
+          if (seenIps.has(ip)) continue;
+          seenIps.add(ip);
+          
+          try {
+            const geo = await fetch(GEO_ENDPOINT(ip), { cache: 'no-store' }).then(r => r.json());
+            if (geo && geo.success && typeof geo.latitude === 'number' && typeof geo.longitude === 'number') {
+              processedIps.push({
+                id: ip,
+                ip: ip,
+                service: 'SSH/FTP/Mail',
+                lat: geo.latitude,
+                lon: geo.longitude,
+                country: geo.country || 'N/D'
+              });
+              
+              if (processedIps.length % 10 === 0) {
+                console.log(`  ✓ ${processedIps.length}/${ips.length} atacantes geolocalizados...`);
+              }
+            }
+          } catch (e) {}
+          
+          await delay(120);
+          
+          if (processedIps.length >= 40) break;
+        }
+        
+        console.log(`✓ Blocklist: ${processedIps.length} IPs geolocalizadas`);
+
+        if (processedIps.length > 0) {
+          const newIps = processedIps.filter(ip => 
+            !lastBlocklistIps.some(existing => existing.id === ip.id)
+          );
+          
+          lastBlocklistIps.push(...newIps);
+          
+          try {
+            localStorage.setItem(BLOCKLIST_CACHE_KEY, JSON.stringify({ 
+              ts: Date.now(), 
+              data: lastBlocklistIps 
+            }));
+          } catch(_) {}
+          
+          if (newIps.length > 0) {
+            renderBlocklistIps(newIps, { forcePulse: true, append: true });
+            console.log(`🎉 ${newIps.length} atacantes nuevos!`);
+          }
+          
+          console.log(`✓ Total Blocklist: ${lastBlocklistIps.length}`);
+        }
+      } catch (e) {
+        console.warn('❌ Error Blocklist.de:', e.message);
+        if (lastBlocklistIps.length) {
+          renderBlocklistIps(lastBlocklistIps, { forcePulse: false });
+        }
+      }
+    }
+
+    function renderBlocklistIps(ips, { forcePulse = false, append = false } = {}) {
+      if (!Array.isArray(ips) || !ips.length) return;
+      console.log(`▶ Pintando ${ips.length} IPs atacantes Blocklist (${append ? 'agregando' : 'reemplazando'})`);
+      
+      if (!append) blocklistLayer.clearLayers();
+
+      ips.forEach(ipData => {
+        const circle = L.circleMarker([ipData.lat, ipData.lon], {
+          radius: 9,
+          color: '#0097a7',
+          fillColor: '#4dd0e1',
+          fillOpacity: 0.6,
+          weight: 2.5,
+          opacity: 0.9
+        }).addTo(blocklistLayer);
+
+        circle.bindPopup(
+          `<strong style="color:#00bcd4;">🛡️ Ataque SSH/FTP</strong><br>` +
+          `<strong>IP Atacante:</strong> ${ipData.ip}<br>` +
+          `<strong>Servicio:</strong> ${ipData.service}<br>` +
+          `<strong>País:</strong> ${ipData.country}`
+        );
+
+        const isNew = forcePulse || !previousBlocklist.has(ipData.id);
+        if (isNew) {
+          createPulse(ipData.lat, ipData.lon, '#0097a7', blocklistLayer);
+          addToRecentAttacks('blocklist', ipData);
+        }
+        previousBlocklist.add(ipData.id);
+      });
+
+      updateCounters();
+      if (heatmapMode) updateHeatmap();
+    }
+
+    loadBlocklistIps();
+    setInterval(loadBlocklistIps, 20 * 60 * 1000); // cada 20 min
+
     // Inicializar UI
     updateCounters();
     updateAttacksList();
@@ -1208,6 +1557,48 @@
         }).addTo(map);
         heatmapLayers.push(purpleHeat);
       }
+
+      // Heatmap VERDE para ThreatFox IOCs
+      if (layersVisible.threatfox && lastThreatfoxIocs.length > 0) {
+        const greenData = lastThreatfoxIocs.map(ioc => [ioc.lat, ioc.lon, 0.85]);
+        const greenHeat = L.heatLayer(greenData, {
+          radius: 30,
+          blur: 40,
+          maxZoom: 10,
+          max: 0.6,
+          minOpacity: 0.4,
+          gradient: {
+            0.0: 'rgba(46, 125, 50, 0)',
+            0.2: 'rgba(46, 125, 50, 0.2)',
+            0.4: 'rgba(56, 142, 60, 0.4)',
+            0.6: 'rgba(76, 175, 80, 0.6)',
+            0.8: 'rgba(102, 187, 106, 0.8)',
+            1.0: 'rgba(129, 199, 132, 1.0)'
+          }
+        }).addTo(map);
+        heatmapLayers.push(greenHeat);
+      }
+
+      // Heatmap CIAN para Blocklist
+      if (layersVisible.blocklist && lastBlocklistIps.length > 0) {
+        const cyanData = lastBlocklistIps.map(ip => [ip.lat, ip.lon, 0.75]);
+        const cyanHeat = L.heatLayer(cyanData, {
+          radius: 30,
+          blur: 40,
+          maxZoom: 10,
+          max: 0.6,
+          minOpacity: 0.4,
+          gradient: {
+            0.0: 'rgba(0, 151, 167, 0)',
+            0.2: 'rgba(0, 151, 167, 0.2)',
+            0.4: 'rgba(0, 172, 193, 0.4)',
+            0.6: 'rgba(0, 188, 212, 0.6)',
+            0.8: 'rgba(77, 208, 225, 0.8)',
+            1.0: 'rgba(128, 222, 234, 1.0)'
+          }
+        }).addTo(map);
+        heatmapLayers.push(cyanHeat);
+      }
     }
 
     // --- TOGGLE DE CAPAS Y HEATMAP ---
@@ -1256,6 +1647,36 @@
       if (heatmapMode) updateHeatmap();
     });
 
+    document.getElementById('legend-threatfox').addEventListener('click', () => {
+      layersVisible.threatfox = !layersVisible.threatfox;
+      const element = document.getElementById('legend-threatfox');
+      
+      if (layersVisible.threatfox) {
+        map.addLayer(threatfoxLayer);
+        element.classList.remove('disabled');
+      } else {
+        map.removeLayer(threatfoxLayer);
+        element.classList.add('disabled');
+      }
+      
+      if (heatmapMode) updateHeatmap();
+    });
+
+    document.getElementById('legend-blocklist').addEventListener('click', () => {
+      layersVisible.blocklist = !layersVisible.blocklist;
+      const element = document.getElementById('legend-blocklist');
+      
+      if (layersVisible.blocklist) {
+        map.addLayer(blocklistLayer);
+        element.classList.remove('disabled');
+      } else {
+        map.removeLayer(blocklistLayer);
+        element.classList.add('disabled');
+      }
+      
+      if (heatmapMode) updateHeatmap();
+    });
+
     document.getElementById('heatmap-toggle').addEventListener('click', function() {
       heatmapMode = !heatmapMode;
       
@@ -1266,6 +1687,8 @@
         map.removeLayer(attacksLayer);
         map.removeLayer(ransomwareLayer);
         map.removeLayer(urlhausLayer);
+        map.removeLayer(threatfoxLayer);
+        map.removeLayer(blocklistLayer);
         updateHeatmap();
       } else {
         // Desactivar heatmap: mostrar marcadores
@@ -1274,6 +1697,8 @@
         if (layersVisible.ips) map.addLayer(attacksLayer);
         if (layersVisible.ransomware) map.addLayer(ransomwareLayer);
         if (layersVisible.urlhaus) map.addLayer(urlhausLayer);
+        if (layersVisible.threatfox) map.addLayer(threatfoxLayer);
+        if (layersVisible.blocklist) map.addLayer(blocklistLayer);
         heatmapLayers.forEach(layer => {
           if (map.hasLayer(layer)) map.removeLayer(layer);
         });
