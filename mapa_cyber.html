@@ -1416,17 +1416,18 @@
 
     // --- DASHBOARD DE ESTADO DE FUENTES ---
     function logSourcesStatus() {
-      console.log('\n' + '='.repeat(60));
+      const total = lastEvents.length + lastRansomwareVictims.length + lastUrlhausUrls.length + lastThreatfoxIocs.length + lastBlocklistIps.length;
+      console.log('\n' + '='.repeat(70));
       console.log('📊 ESTADO DE FUENTES DE DATOS DE CIBERSEGURIDAD');
-      console.log('='.repeat(60));
-      console.log(`🔴 Firehol (IPs Maliciosas):    ${lastEvents.length} puntos ${lastEvents.length > 0 ? '✅' : '⏳'}`);
-      console.log(`🟠 Ransomware.live:             ${lastRansomwareVictims.length} puntos ${lastRansomwareVictims.length === 0 ? '❌ BLOQUEADO' : '✅'}`);
-      console.log(`🟣 Feodo Tracker (Botnets):     ${lastUrlhausUrls.length} puntos ${lastUrlhausUrls.length > 0 ? '✅' : '⏳'}`);
-      console.log(`🟢 IPsum (IPs Malware):         ${lastThreatfoxIocs.length} puntos ${lastThreatfoxIocs.length > 0 ? '✅' : '⏳'}`);
-      console.log(`🔵 Blocklist.de (SSH/FTP):      ${lastBlocklistIps.length} puntos ${lastBlocklistIps.length > 0 ? '✅' : '⏳'}`);
-      console.log('─'.repeat(60));
-      console.log(`📍 TOTAL EN MAPA: ${lastEvents.length + lastRansomwareVictims.length + lastUrlhausUrls.length + lastThreatfoxIocs.length + lastBlocklistIps.length} puntos`);
-      console.log('='.repeat(60) + '\n');
+      console.log('='.repeat(70));
+      console.log(`🔴 Firehol (IPs Maliciosas):        ${String(lastEvents.length).padEnd(3)} puntos ${lastEvents.length > 0 ? '✅' : '⏳'}`);
+      console.log(`🟠 IPsum (IPs Malware):             ${String(lastThreatfoxIocs.length).padEnd(3)} puntos ${lastThreatfoxIocs.length > 0 ? '✅' : '⏳'}`);
+      console.log(`🟡 Ransomware.live (Víctimas):      ${String(lastRansomwareVictims.length).padEnd(3)} puntos ${lastRansomwareVictims.length === 0 ? '❌ BLOQUEADO' : '✅'}`);
+      console.log(`🟣 Feodo Tracker (Botnets):         ${String(lastUrlhausUrls.length).padEnd(3)} puntos ${lastUrlhausUrls.length > 0 ? '✅' : '⏳'}`);
+      console.log(`🔵 Blocklist.de (Ataques SSH/FTP):  ${String(lastBlocklistIps.length).padEnd(3)} puntos ${lastBlocklistIps.length > 0 ? '✅' : '⏳ Cargando...'}`);
+      console.log('─'.repeat(70));
+      console.log(`📍 TOTAL EN MAPA: ${total} puntos de amenaza`);
+      console.log('='.repeat(70) + '\n');
     }
 
     // Mostrar estado inicial
