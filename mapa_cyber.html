@@ -79,15 +79,40 @@
     /* Leyenda */
     #legend {
       position: absolute; top: 15px; left: 15px; z-index: 2000;
-      background: rgba(11, 16, 33, 0.45); backdrop-filter: blur(12px);
-      border: 2px solid #13f5ff; border-radius: 12px; padding: 15px 18px;
+      background: rgba(11, 16, 33, 0.35); backdrop-filter: blur(14px);
+      border: 2px solid #13f5ff; border-radius: 12px; padding: 0;
       font-family: 'Segoe UI', sans-serif; color: #fff;
       box-shadow: 0 4px 15px rgba(0, 255, 255, 0.3); min-width: 220px;
+      transition: all 0.3s ease;
     }
+    #legend.collapsed { width: 60px; }
+    #legend-header {
+      padding: 12px 15px; cursor: pointer;
+      display: flex; align-items: center; justify-content: space-between;
+      border-bottom: 1px solid rgba(19, 245, 255, 0.3);
+    }
+    #legend-header:hover { background: rgba(19, 245, 255, 0.1); }
     #legend h3 {
-      margin: 0 0 12px 0; font-size: 1.1em; color: #13f5ff;
+      margin: 0; font-size: 1.1em; color: #13f5ff;
       text-shadow: 0 0 8px #13f5ff; font-weight: 600;
     }
+    #legend-toggle {
+      font-size: 1.2em; color: #13f5ff; transition: transform 0.3s;
+    }
+    #legend.collapsed #legend-toggle { transform: rotate(180deg); }
+    #legend-content {
+      padding: 12px 15px;
+      max-height: 600px;
+      overflow: hidden;
+      transition: max-height 0.3s ease, opacity 0.3s ease;
+    }
+    #legend.collapsed #legend-content {
+      max-height: 0;
+      opacity: 0;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+    #legend.collapsed h3 { display: none; }
     .legend-item {
       display: flex; align-items: center; margin-bottom: 10px;
       cursor: pointer; transition: opacity 0.3s;
@@ -115,24 +140,46 @@
       animation: pulseGlow 1.5s ease-in-out infinite;
     }
     #heatmap-toggle.active {
-      background: linear-gradient(135deg, #ff6b6b, #ee5a52);
-      border-color: #ff6b6b; text-shadow: 0 0 5px #ff6b6b;
+      background: linear-gradient(135deg, #2a6d7e, #1d5868);
+      border-color: #13f5ff; text-shadow: 0 0 5px #13f5ff;
     }
     #reset-view.resetting { animation: resetPulse 1s ease-out; }
 
     /* Lista lateral de ataques */
     #recent-attacks {
       position: absolute; top: 15px; right: 15px; z-index: 2000;
-      background: rgba(11, 16, 33, 0.45); backdrop-filter: blur(12px);
-      border: 2px solid #ff6b6b; border-radius: 12px; padding: 15px;
+      background: rgba(11, 16, 33, 0.35); backdrop-filter: blur(14px);
+      border: 2px solid #ff6b6b; border-radius: 12px; padding: 0;
       font-family: 'Segoe UI', sans-serif; color: #fff;
       box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
-      width: 320px; max-height: 500px; overflow-y: auto;
+      width: 320px;
+      transition: all 0.3s ease;
     }
+    #recent-attacks.collapsed { width: 60px; }
+    #attacks-header {
+      padding: 12px 15px; cursor: pointer;
+      display: flex; align-items: center; justify-content: space-between;
+      border-bottom: 1px solid rgba(255, 107, 107, 0.3);
+    }
+    #attacks-header:hover { background: rgba(255, 107, 107, 0.1); }
     #recent-attacks h3 {
-      margin: 0 0 12px 0; font-size: 1.1em; color: #ff6b6b;
+      margin: 0; font-size: 1.1em; color: #ff6b6b;
       text-shadow: 0 0 8px #ff6b6b; font-weight: 600;
     }
+    #attacks-toggle {
+      font-size: 1.2em; color: #ff6b6b; transition: transform 0.3s;
+    }
+    #recent-attacks.collapsed #attacks-toggle { transform: rotate(180deg); }
+    #attacks-content {
+      max-height: 500px;
+      overflow-y: auto;
+      transition: max-height 0.3s ease, opacity 0.3s ease;
+    }
+    #recent-attacks.collapsed #attacks-content {
+      max-height: 0;
+      opacity: 0;
+    }
+    #recent-attacks.collapsed h3 { display: none; }
     .attack-item {
       background: rgba(255, 107, 107, 0.08);
       border-left: 3px solid #ff6b6b;
@@ -186,7 +233,11 @@
   
   <!-- Leyenda -->
   <div id="legend">
-    <h3>🗺️ Capas del Mapa</h3>
+    <div id="legend-header">
+      <h3>🗺️ Capas del Mapa</h3>
+      <span id="legend-toggle">◀</span>
+    </div>
+    <div id="legend-content">
     <div class="legend-item" id="legend-ips" data-layer="ips">
       <div class="legend-color" style="background: #ff4757;"></div>
       <span class="legend-label">IPs Maliciosas</span>
@@ -212,14 +263,20 @@
       <span class="legend-label">Ataques SSH/FTP</span>
       <span class="legend-count" id="count-blocklist">0</span>
     </div>
-    <button id="heatmap-toggle">🔥 Modo Mapa de Calor</button>
+    <button id="heatmap-toggle">📍 Modo Puntos</button>
     <button id="reset-view">🎯 Restablecer Vista</button>
+    </div>
   </div>
 
   <!-- Lista de ataques recientes -->
   <div id="recent-attacks">
-    <h3>⚡ Ataques Recientes</h3>
-    <div id="attacks-list"></div>
+    <div id="attacks-header">
+      <h3>⚡ Ataques Recientes</h3>
+      <span id="attacks-toggle">▶</span>
+    </div>
+    <div id="attacks-content">
+      <div id="attacks-list"></div>
+    </div>
   </div>
 
   <div id="noticias-ticker"><span id="noticias-inner"></span></div>
@@ -432,7 +489,8 @@
     const pulseRefs = [];
     const recentAttacksList = [];
     let layersVisible = { ips: true, ransomware: true, urlhaus: true, threatfox: true, blocklist: true };
-    let heatmapMode = false;
+    let heatmapMode = true; // Por defecto en modo heatmap
+    let temporaryPointsTimeout = null;
     const DEMO_EVENTS = [
       { ip: 'demo-1', lat: 40.71, lon: -74.01, country: 'US' },
       { ip: 'demo-2', lat: 51.50, lon: -0.12, country: 'UK' },
@@ -673,6 +731,7 @@
 
     function updateAttacksList() {
       const container = document.getElementById('attacks-list');
+      if (!container) return;
       const toShow = recentAttacksList.slice(0, 20);
       
       if (toShow.length === 0) {
@@ -948,7 +1007,13 @@
       });
 
       updateCounters();
-      if (heatmapMode) updateHeatmap();
+      
+      // Si estamos en modo heatmap y hay datos nuevos, mostrar puntos temporalmente
+      if (heatmapMode && victims.length > 0 && !forcePulse) {
+        showNewPointsTemporarily(30000);
+      } else if (heatmapMode) {
+        updateHeatmap();
+      }
     }
 
     loadRansomwareVictims();
@@ -1139,7 +1204,13 @@
       });
 
       updateCounters();
-      if (heatmapMode) updateHeatmap();
+      
+      // Si estamos en modo heatmap y hay datos nuevos, mostrar puntos temporalmente
+      if (heatmapMode && urls.length > 0 && append && forcePulse) {
+        showNewPointsTemporarily(30000);
+      } else if (heatmapMode) {
+        updateHeatmap();
+      }
     }
 
     loadUrlhausUrls();
@@ -1282,7 +1353,13 @@
       });
 
       updateCounters();
-      if (heatmapMode) updateHeatmap();
+      
+      // Si estamos en modo heatmap y hay datos nuevos, mostrar puntos temporalmente
+      if (heatmapMode && iocs.length > 0 && append && forcePulse) {
+        showNewPointsTemporarily(30000);
+      } else if (heatmapMode) {
+        updateHeatmap();
+      }
     }
 
     loadThreatfoxIocs();
@@ -1408,7 +1485,13 @@
       });
 
       updateCounters();
-      if (heatmapMode) updateHeatmap();
+      
+      // Si estamos en modo heatmap y hay datos nuevos, mostrar puntos temporalmente
+      if (heatmapMode && ips.length > 0 && append && forcePulse) {
+        showNewPointsTemporarily(30000);
+      } else if (heatmapMode) {
+        updateHeatmap();
+      }
     }
 
     loadBlocklistIps();
@@ -1438,6 +1521,20 @@
     }, 30000);
     // Detener después de 5 minutos (ya habrá cargado todo)
     setTimeout(() => clearInterval(statusInterval), 5 * 60 * 1000);
+
+    // Inicializar en modo heatmap
+    if (heatmapMode) {
+      const btn = document.getElementById('heatmap-toggle');
+      btn.classList.add('active');
+      btn.textContent = '📍 Modo Puntos';
+      // Ocultar capas de puntos inicialmente
+      map.removeLayer(attacksLayer);
+      map.removeLayer(ransomwareLayer);
+      map.removeLayer(urlhausLayer);
+      map.removeLayer(threatfoxLayer);
+      map.removeLayer(blocklistLayer);
+      // El heatmap se activará cuando haya datos
+    }
 
     // Inicializar UI
     updateCounters();
@@ -1719,13 +1816,52 @@
       if (heatmapMode) updateHeatmap();
     });
 
+    // Función para mostrar puntos temporalmente cuando llegan datos nuevos
+    function showNewPointsTemporarily(duration = 30000) {
+      // Limpiar timeout previo si existe
+      if (temporaryPointsTimeout) {
+        clearTimeout(temporaryPointsTimeout);
+      }
+      
+      // Mostrar puntos
+      if (layersVisible.ips) map.addLayer(attacksLayer);
+      if (layersVisible.ransomware) map.addLayer(ransomwareLayer);
+      if (layersVisible.urlhaus) map.addLayer(urlhausLayer);
+      if (layersVisible.threatfox) map.addLayer(threatfoxLayer);
+      if (layersVisible.blocklist) map.addLayer(blocklistLayer);
+      
+      // Ocultar heatmap temporalmente
+      heatmapLayers.forEach(layer => {
+        if (map.hasLayer(layer)) map.removeLayer(layer);
+      });
+      
+      console.log(`🎬 Mostrando puntos nuevos con animación (${duration/1000}s)...`);
+      
+      // Volver a heatmap después del tiempo especificado
+      temporaryPointsTimeout = setTimeout(() => {
+        console.log('🔥 Volviendo a modo mapa de calor...');
+        map.removeLayer(attacksLayer);
+        map.removeLayer(ransomwareLayer);
+        map.removeLayer(urlhausLayer);
+        map.removeLayer(threatfoxLayer);
+        map.removeLayer(blocklistLayer);
+        updateHeatmap();
+      }, duration);
+    }
+
     document.getElementById('heatmap-toggle').addEventListener('click', function() {
       heatmapMode = !heatmapMode;
+      
+      // Limpiar timeout de puntos temporales
+      if (temporaryPointsTimeout) {
+        clearTimeout(temporaryPointsTimeout);
+        temporaryPointsTimeout = null;
+      }
       
       if (heatmapMode) {
         // Activar heatmap: ocultar marcadores
         this.classList.add('active');
-        this.textContent = '📍 Modo Normal';
+        this.textContent = '📍 Modo Puntos';
         map.removeLayer(attacksLayer);
         map.removeLayer(ransomwareLayer);
         map.removeLayer(urlhausLayer);
@@ -1746,6 +1882,16 @@
         });
         heatmapLayers = [];
       }
+    });
+
+    // Toggle leyenda
+    document.getElementById('legend-header').addEventListener('click', function() {
+      document.getElementById('legend').classList.toggle('collapsed');
+    });
+
+    // Toggle lista de ataques
+    document.getElementById('attacks-header').addEventListener('click', function() {
+      document.getElementById('recent-attacks').classList.toggle('collapsed');
     });
 
     // Botón de reset
