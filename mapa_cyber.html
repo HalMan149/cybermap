@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <title>Mapa Cyberpunk + GPS público</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <!-- Version: 2025-12-13-18:56-FINAL-CON-TICKER -->
+  <!-- Version: 2025-12-13-19:15-RESTAURADO -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <style>
     html, body {
@@ -67,42 +67,6 @@
       display: none;
     }
 
-    /* Márgenes negros para ocultar repetición del mundo */
-    .map-margin-left, .map-margin-right {
-      position: absolute;
-      top: 0;
-      height: 100vh;
-      width: 12%;
-      background: #0b1021;
-      z-index: 1000;
-      pointer-events: none;
-      box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.8);
-    }
-    .map-margin-left { left: 0; }
-    .map-margin-right { right: 0; }
-    
-    .map-margin-top, .map-margin-bottom {
-      position: absolute;
-      left: 0;
-      width: 100vw;
-      background: #0b1021;
-      z-index: 1000;
-      pointer-events: none;
-      box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.8);
-    }
-    .map-margin-top { 
-      top: 0;
-      height: 140px;
-    }
-    .map-margin-bottom { 
-      bottom: 33px;
-      height: 80px;
-    }
-    
-    body.preview .map-margin-left,
-    body.preview .map-margin-right,
-    body.preview .map-margin-top,
-    body.preview .map-margin-bottom { display: none; }
 
     /* Animaciones */
     @keyframes pulseGlow {
@@ -302,12 +266,6 @@
 <body class="">
   <div id="map"></div>
   
-  <!-- Márgenes negros -->
-  <div class="map-margin-left"></div>
-  <div class="map-margin-right"></div>
-  <div class="map-margin-top"></div>
-  <div class="map-margin-bottom"></div>
-  
   <!-- Leyenda -->
   <div id="legend" class="collapsed">
     <div id="legend-header">
@@ -361,8 +319,8 @@
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
   <script>
-    // FORZAR RECARGA - Version 18:56 FINAL CON TICKER
-    const VERSION_MAP = '2025-12-13-18:56:00-FINAL-TICKER';
+    // Version 19:15 - Configuración original restaurada
+    const VERSION_MAP = '2025-12-13-19:15:00-RESTAURADO';
     
     const urlParams = new URLSearchParams(window.location.search);
     const isPreview = urlParams.has('preview');
@@ -370,18 +328,17 @@
       document.body.classList.add('preview');
     }
 
-    // ACTUALIZADO: 2025-12-13 18:56 - Encuadre perfecto FINAL (ajustado con ticker)
-    const CENTER = [37.6439, 11.0792];
-    const ZOOM = 2.95;
+    // Configuración original restaurada
+    const CENTER = [38.3373, -0.5266];
+    const ZOOM = 3;
     // Para la miniatura: más abierto y centrado en el mundo
     // Preview: usaremos fitBounds para recortar polos en la miniatura
     const baseZoom = ZOOM;
-    const minZoom = isPreview ? 1.0 : 2.95;
+    const minZoom = isPreview ? 1.0 : 3;
     
-    console.log('🗺️ CONFIGURACIÓN DEL MAPA (v18:56 - ENCUADRE PERFECTO FINAL):');
-    console.log('  Centro:', CENTER, '(Ajustado manualmente)');
-    console.log('  Zoom:', ZOOM, '(Sin cortes, vista completa)');
-    console.log('  noWrap: false + Márgenes laterales 12%');
+    console.log('🗺️ CONFIGURACIÓN DEL MAPA:');
+    console.log('  Centro:', CENTER, '(España)');
+    console.log('  Zoom:', ZOOM);
 
     const map = L.map('map', {
       zoomControl: true,
@@ -394,9 +351,9 @@
       dragging: true,
       touchZoom: true,
       keyboard: true,
-      worldCopyJump: true,
-      noWrap: false,
-      maxBounds: [[-60, -175], [75, 175]],
+      worldCopyJump: false,
+      noWrap: true,
+      maxBounds: [[-61, -180], [84, 180]],
       maxBoundsViscosity: 1.0,
       preferCanvas: true
     });
@@ -433,14 +390,14 @@
       resetMapView();
     });
 
-    // --- Mapa base oscuro - Mundo continuo (sin cortes)
+    // --- Mapa base oscuro fijo, SIN repetir
     L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-      maxZoom: 19, minZoom: 1, noWrap: false
+      maxZoom: 19, minZoom: 1, noWrap: true
     }).addTo(map);
 
-    // --- Capa de líneas GPS públicas - Mundo continuo
+    // --- Capa de líneas GPS públicas, SIN repetir
     L.tileLayer('https://gps-{s}.tile.openstreetmap.org/lines/{z}/{x}/{y}.png', {
-      maxZoom: 19, minZoom: 1, opacity: 0.85, noWrap: false
+      maxZoom: 19, minZoom: 1, opacity: 0.85, noWrap: true
     }).addTo(map);
 
     // --- ZONAS HORARIAS Y RELOJES ---
@@ -453,10 +410,10 @@
       const lon = i * 15;
       if (lon < -180 || lon > 180) continue;
       const isCentral = (i === 0);
-      const line = L.polyline([[-59.98, lon], [72, lon]],
+      const line = L.polyline([[-59.98, lon], [82.26, lon]],
         { color: "#2cfdff", weight: 2.3, opacity: 0.65, dashArray: "5,14", interactive: false });
       zonaHorariaLines.addLayer(line);
-      const latLabel = 71;
+      const latLabel = 82.15;
       const relojId = `reloj-tz${i}`;
       const extraClass = isCentral ? " gmt-central" : "";
       const ancla = isCentral ? [52, 10] : [31, 10];
