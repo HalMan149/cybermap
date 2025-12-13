@@ -932,14 +932,12 @@
 
       try {
         console.log('🔒 Intentando cargar Ransomware.live...');
-        // Múltiples proxies CORS + directo
+        // Solo 2 proxies (más eficiente)
         const proxies = [
           `https://api.allorigins.win/get?url=${encodeURIComponent(RANSOMWARE_API)}`,
-          `https://corsproxy.io/?${encodeURIComponent(RANSOMWARE_API)}`,
-          `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(RANSOMWARE_API)}`,
-          RANSOMWARE_API // Intentar directo como último recurso
+          `https://corsproxy.io/?${encodeURIComponent(RANSOMWARE_API)}`
         ];
-        
+
         let data = null;
         let lastError = null;
         
@@ -1068,7 +1066,7 @@
     }
 
     loadRansomwareVictims();
-    setInterval(loadRansomwareVictims, 10 * 60 * 1000); // cada 10 min
+    setInterval(loadRansomwareVictims, 20 * 60 * 1000); // cada 20 min (menos agresivo)
 
     // --- CAPA DE FEODO TRACKER (Botnets C&C)
     async function loadUrlhausUrls() {
@@ -1265,7 +1263,7 @@
     }
 
     loadUrlhausUrls();
-    setInterval(loadUrlhausUrls, 15 * 60 * 1000); // cada 15 min
+    setInterval(loadUrlhausUrls, 30 * 60 * 1000); // cada 30 min (menos agresivo)
 
     // --- CAPA DE IPSUM (IPs Malware agregadas)
     async function loadThreatfoxIocs() {
@@ -1414,7 +1412,7 @@
     }
 
     loadThreatfoxIocs();
-    setInterval(loadThreatfoxIocs, 20 * 60 * 1000); // cada 20 min
+    setInterval(loadThreatfoxIocs, 30 * 60 * 1000); // cada 30 min (menos agresivo)
 
     // --- CAPA DE BLOCKLIST.DE (Ataques SSH/FTP/Mail)
     async function loadBlocklistIps() {
@@ -1424,19 +1422,13 @@
       }
 
       try {
-        console.log('🛡️ Cargando Blocklist.de...');
-        // Intentar directamente primero (a veces funciona sin proxy)
-        let response = null;
-        try {
-          response = await fetch(BLOCKLIST_API, { cache: 'no-store', mode: 'cors' });
-          if (response.ok) {
-            console.log('  ✓ Conexión directa exitosa (sin proxy)');
-          }
-        } catch (e) {
-          console.log('  → Directo falló, usando proxy...');
-          const proxiedUrl = `https://api.allorigins.win/raw?url=${encodeURIComponent(BLOCKLIST_API)}`;
-          response = await fetch(proxiedUrl, { cache: 'no-store' });
-        }
+        console.log('🛡️ Cargando Blocklist.de (solo 1 intento)...');
+        // Solo 1 intento con proxy (menos agresivo)
+        const proxiedUrl = `https://api.allorigins.win/raw?url=${encodeURIComponent(BLOCKLIST_API)}`;
+        const response = await fetch(proxiedUrl, { 
+          cache: 'no-store',
+          signal: AbortSignal.timeout(10000) // timeout de 10s
+        });
         
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         
@@ -1555,8 +1547,10 @@
       }
     }
 
+    // Blocklist.de tiene muchos problemas CORS, solo intentamos 1 vez al inicio
+    // y luego cada hora (menos agresivo)
     loadBlocklistIps();
-    setInterval(loadBlocklistIps, 20 * 60 * 1000); // cada 20 min
+    setInterval(loadBlocklistIps, 60 * 60 * 1000); // cada 60 min (1 hora)
 
     // --- DASHBOARD DE ESTADO DE FUENTES ---
     function logSourcesStatus() {
