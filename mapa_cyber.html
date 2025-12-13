@@ -61,6 +61,11 @@
     /* Ocultar ticker en miniatura */
     body.preview #noticias-ticker { display: none; }
 
+    /* Ocultar controles de zoom por defecto */
+    .leaflet-control-zoom {
+      display: none;
+    }
+
     /* Animaciones */
     @keyframes pulseGlow {
       0%, 100% { box-shadow: 0 0 12px rgba(19, 245, 255, 0.4); transform: scale(1); }
@@ -85,13 +90,20 @@
       box-shadow: 0 4px 15px rgba(0, 255, 255, 0.3); min-width: 220px;
       transition: all 0.3s ease;
     }
-    #legend.collapsed { min-width: 50px; }
+    #legend.collapsed { 
+      min-width: auto;
+      width: auto;
+    }
     #legend-header {
       padding: 10px 12px; cursor: pointer;
       display: flex; align-items: center; justify-content: space-between;
       border-bottom: 1px solid rgba(19, 245, 255, 0.3);
     }
-    #legend.collapsed #legend-header { border-bottom: none; justify-content: center; }
+    #legend.collapsed #legend-header { 
+      border-bottom: none; 
+      justify-content: center;
+      padding: 10px 8px;
+    }
     #legend-header:hover { background: rgba(19, 245, 255, 0.1); }
     #legend h3 {
       margin: 0; font-size: 0.95em; color: #13f5ff;
@@ -99,9 +111,7 @@
       white-space: nowrap;
     }
     #legend.collapsed h3 {
-      writing-mode: vertical-rl;
-      text-orientation: mixed;
-      font-size: 0.85em;
+      font-size: 0.8em;
     }
     #legend-toggle {
       font-size: 1em; color: #13f5ff; transition: transform 0.3s;
@@ -161,13 +171,20 @@
       width: 320px;
       transition: all 0.3s ease;
     }
-    #recent-attacks.collapsed { min-width: 50px; width: auto; }
+    #recent-attacks.collapsed { 
+      min-width: auto;
+      width: auto;
+    }
     #attacks-header {
       padding: 10px 12px; cursor: pointer;
       display: flex; align-items: center; justify-content: space-between;
       border-bottom: 1px solid rgba(255, 107, 107, 0.3);
     }
-    #recent-attacks.collapsed #attacks-header { border-bottom: none; justify-content: center; }
+    #recent-attacks.collapsed #attacks-header { 
+      border-bottom: none; 
+      justify-content: center;
+      padding: 10px 8px;
+    }
     #attacks-header:hover { background: rgba(255, 107, 107, 0.1); }
     #recent-attacks h3 {
       margin: 0; font-size: 0.95em; color: #ff6b6b;
@@ -175,9 +192,7 @@
       white-space: nowrap;
     }
     #recent-attacks.collapsed h3 {
-      writing-mode: vertical-rl;
-      text-orientation: mixed;
-      font-size: 0.85em;
+      font-size: 0.8em;
     }
     #attacks-toggle {
       font-size: 1em; color: #ff6b6b; transition: transform 0.3s;
