@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>TEST - Encuadre del Mapa</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <style>
+    html, body {
+      height: 100vh; width: 100vw; margin: 0; padding: 0; background: #0b1021;
+    }
+    #map { width: 100vw; height: 100vh; }
+    
+    #controls {
+      position: absolute; top: 20px; left: 50%; transform: translateX(-50%);
+      z-index: 2000; background: rgba(11, 16, 33, 0.9);
+      border: 2px solid #13f5ff; border-radius: 12px; padding: 15px;
+      color: #fff; font-family: 'Consolas', monospace;
+    }
+    button {
+      margin: 5px; padding: 8px 12px; background: #1a4d5e;
+      border: 1px solid #13f5ff; color: #fff; cursor: pointer;
+      border-radius: 6px; font-size: 0.9em;
+    }
+    button:hover { background: #2a6d7e; }
+    #info {
+      margin-top: 10px; font-size: 0.85em; color: #13f5ff;
+    }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  
+  <div id="controls">
+    <h3 style="margin: 0 0 10px 0; color: #13f5ff;">🧪 TEST - Encuadre del Mapa</h3>
+    <div>
+      <button onclick="testCenter(35, 15, 3)">Opción 1: Europa (35, 15) Z:3</button>
+      <button onclick="testCenter(30, 0, 3)">Opción 2: África Oeste (30, 0) Z:3</button>
+      <button onclick="testCenter(30, -10, 3)">Opción 3: Atlántico (30, -10) Z:3</button>
+    </div>
+    <div>
+      <button onclick="testCenter(35, 15, 3.2)">Opción 4: Europa Z:3.2</button>
+      <button onclick="testCenter(35, 15, 3.5)">Opción 5: Europa Z:3.5</button>
+      <button onclick="testCenter(20, 15, 3)">Opción 6: África Central (20, 15)</button>
+    </div>
+    <div id="info">Centro actual: [35, 15], Zoom: 3</div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    const map = L.map('map', {
+      zoomControl: true,
+      attributionControl: false,
+      minZoom: 2,
+      maxZoom: 17,
+      scrollWheelZoom: true,
+      dragging: true,
+      noWrap: true,
+      maxBounds: [[-61, -180], [84, 180]],
+      maxBoundsViscosity: 1.0
+    });
+
+    map.setView([35, 15], 3);
+
+    // Mapa base oscuro
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+      maxZoom: 19, minZoom: 1, noWrap: true
+    }).addTo(map);
+
+    // Capa GPS
+    L.tileLayer('https://gps-{s}.tile.openstreetmap.org/lines/{z}/{x}/{y}.png', {
+      maxZoom: 19, minZoom: 1, opacity: 0.85, noWrap: true
+    }).addTo(map);
+
+    // Líneas de zonas horarias (para referencia)
+    for(let i = -12; i <= 14; i++) {
+      const lon = i * 15;
+      if (lon < -180 || lon > 180) continue;
+      L.polyline([[-59.98, lon], [82.26, lon]], {
+        color: "#2cfdff", weight: 2, opacity: 0.4, dashArray: "5,14"
+      }).addTo(map);
+    }
+
+    function testCenter(lat, lon, zoom) {
+      map.setView([lat, lon], zoom, { animate: true });
+      document.getElementById('info').textContent = 
+        `Centro actual: [${lat}, ${lon}], Zoom: ${zoom}`;
+      console.log(`📍 Probando: Centro [${lat}, ${lon}], Zoom ${zoom}`);
+    }
+
+    console.log('🧪 TEST DE ENCUADRE');
+    console.log('Prueba diferentes botones para ver qué encuadre queda mejor');
+    console.log('Fíjate si Rusia se duplica en los bordes');
+  </script>
+</body>
+</html>
