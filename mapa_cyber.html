@@ -324,18 +324,18 @@
       document.body.classList.add('preview');
     }
 
-    // ACTUALIZADO: 2025-12-13 17:17 - Centro en Europa con zoom ajustado
-    const CENTER = [35, 15];
-    const ZOOM = 3;
+    // ACTUALIZADO: 2025-12-13 18:30 - Encuadre perfecto ajustado manualmente
+    const CENTER = [28.0148, 13.4017];
+    const ZOOM = 2.33;
     // Para la miniatura: más abierto y centrado en el mundo
     // Preview: usaremos fitBounds para recortar polos en la miniatura
     const baseZoom = ZOOM;
-    const minZoom = isPreview ? 1.0 : 3;
+    const minZoom = isPreview ? 1.0 : 2.33;
     
-    console.log('🗺️ CONFIGURACIÓN DEL MAPA (v17:17):');
-    console.log('  Centro:', CENTER, '(Europa Central)');
-    console.log('  Zoom:', ZOOM, '(ajustado para evitar repetición)');
-    console.log('  América → IZQUIERDA | Europa/África → CENTRO | Asia → DERECHA');
+    console.log('🗺️ CONFIGURACIÓN DEL MAPA (v18:30 - ENCUADRE PERFECTO):');
+    console.log('  Centro:', CENTER, '(Ajustado manualmente)');
+    console.log('  Zoom:', ZOOM, '(Sin cortes, vista completa)');
+    console.log('  noWrap: false + maxBounds (mundo continuo sin repetición visible)');
 
     const map = L.map('map', {
       zoomControl: true,
@@ -348,9 +348,9 @@
       dragging: true,
       touchZoom: true,
       keyboard: true,
-      worldCopyJump: false,
-      noWrap: true,
-      maxBounds: [[-61, -180], [84, 180]],
+      worldCopyJump: true,
+      noWrap: false,
+      maxBounds: [[-60, -175], [75, 175]],
       maxBoundsViscosity: 1.0,
       preferCanvas: true
     });
@@ -387,14 +387,14 @@
       resetMapView();
     });
 
-    // --- Mapa base oscuro fijo, SIN repetir
+    // --- Mapa base oscuro - Mundo continuo (sin cortes)
     L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-      maxZoom: 19, minZoom: 1, noWrap: true
+      maxZoom: 19, minZoom: 1, noWrap: false
     }).addTo(map);
 
-    // --- Capa de líneas GPS públicas, SIN repetir
+    // --- Capa de líneas GPS públicas - Mundo continuo
     L.tileLayer('https://gps-{s}.tile.openstreetmap.org/lines/{z}/{x}/{y}.png', {
-      maxZoom: 19, minZoom: 1, opacity: 0.85, noWrap: true
+      maxZoom: 19, minZoom: 1, opacity: 0.85, noWrap: false
     }).addTo(map);
 
     // --- ZONAS HORARIAS Y RELOJES ---

@@ -13,18 +13,14 @@
     
     #controls {
       position: absolute; top: 20px; left: 50%; transform: translateX(-50%);
-      z-index: 2000; background: rgba(11, 16, 33, 0.9);
+      z-index: 2000; background: rgba(11, 16, 33, 0.95);
       border: 2px solid #13f5ff; border-radius: 12px; padding: 15px;
       color: #fff; font-family: 'Consolas', monospace;
+      max-width: 500px;
     }
-    button {
-      margin: 5px; padding: 8px 12px; background: #1a4d5e;
-      border: 1px solid #13f5ff; color: #fff; cursor: pointer;
-      border-radius: 6px; font-size: 0.9em;
-    }
-    button:hover { background: #2a6d7e; }
     #info {
-      margin-top: 10px; font-size: 0.85em; color: #13f5ff;
+      margin-top: 10px; font-size: 0.9em; color: #13f5ff;
+      background: rgba(19, 245, 255, 0.1); padding: 10px; border-radius: 6px;
     }
   </style>
 </head>
@@ -32,18 +28,27 @@
   <div id="map"></div>
   
   <div id="controls">
-    <h3 style="margin: 0 0 10px 0; color: #13f5ff;">🧪 TEST - Encuadre del Mapa</h3>
-    <div>
-      <button onclick="testCenter(35, 15, 3)">Opción 1: Europa (35, 15) Z:3</button>
-      <button onclick="testCenter(30, 0, 3)">Opción 2: África Oeste (30, 0) Z:3</button>
-      <button onclick="testCenter(30, -10, 3)">Opción 3: Atlántico (30, -10) Z:3</button>
+    <h3 style="margin: 0 0 10px 0; color: #13f5ff;">🧪 TEST - Ajusta el Encuadre Perfecto</h3>
+    <div style="background: rgba(76, 175, 80, 0.15); padding: 10px; border-radius: 6px; font-size: 0.85em; line-height: 1.6; border: 1px solid #4caf50;">
+      ✨ <strong>MODO LIBRE:</strong><br>
+      🔄 Mundo infinito (sin límites laterales)<br>
+      🔍 Zoom ULTRA fino (pasos de 0.01)<br>
+      🎮 <strong>Arrastra y zoom</strong> con precisión<br>
+      📸 <strong>Copia coordenadas</strong> cuando esté perfecto
     </div>
-    <div>
-      <button onclick="testCenter(35, 15, 3.2)">Opción 4: Europa Z:3.2</button>
-      <button onclick="testCenter(35, 15, 3.5)">Opción 5: Europa Z:3.5</button>
-      <button onclick="testCenter(20, 15, 3)">Opción 6: África Central (20, 15)</button>
+    <div style="margin-top: 10px;">
+      <button onclick="toggleNoWrap()" style="padding: 10px; width: 100%; background: #ff6b6b; border: 2px solid #ff6b6b; color: #fff; cursor: pointer; border-radius: 8px; font-weight: bold;">
+        🔄 Cambiar a noWrap: <span id="nowrap-status">true</span>
+      </button>
+      <div style="font-size: 0.75em; margin-top: 5px; color: #888;">
+        (Prueba cómo se ve con/sin repetición del mundo)
+      </div>
     </div>
-    <div id="info">Centro actual: [35, 15], Zoom: 3</div>
+    <div id="info">
+      <strong>Centro:</strong> [35.0000, 15.0000]<br>
+      <strong>Zoom:</strong> 3.00<br>
+      <strong>noWrap:</strong> <span id="current-nowrap">false</span>
+    </div>
   </div>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,25 +56,33 @@
     const map = L.map('map', {
       zoomControl: true,
       attributionControl: false,
-      minZoom: 2,
+      minZoom: 1,
       maxZoom: 17,
       scrollWheelZoom: true,
       dragging: true,
-      noWrap: true,
-      maxBounds: [[-61, -180], [84, 180]],
-      maxBoundsViscosity: 1.0
+      zoomSnap: 0.01,
+      zoomDelta: 0.01,
+      wheelPxPerZoomLevel: 300,
+      noWrap: false,
+      worldCopyJump: true
     });
 
     map.setView([35, 15], 3);
+    
+    console.log('✨ MODO LIBRE TOTAL:');
+    console.log('  noWrap: false (mundo infinito)');
+    console.log('  Sin maxBounds (movimiento lateral libre)');
+    console.log('  Zoom ULTRA fino (pasos de 0.01 - máxima precisión)');
+    console.log('  🎮 Ajusta con precisión y dame las coordenadas perfectas');
 
-    // Mapa base oscuro
+    // Mapa base oscuro - CON REPETICIÓN
     L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-      maxZoom: 19, minZoom: 1, noWrap: true
+      maxZoom: 19, minZoom: 1, noWrap: false
     }).addTo(map);
 
-    // Capa GPS
+    // Capa GPS - CON REPETICIÓN
     L.tileLayer('https://gps-{s}.tile.openstreetmap.org/lines/{z}/{x}/{y}.png', {
-      maxZoom: 19, minZoom: 1, opacity: 0.85, noWrap: true
+      maxZoom: 19, minZoom: 1, opacity: 0.85, noWrap: false
     }).addTo(map);
 
     // Líneas de zonas horarias (para referencia)
@@ -77,20 +90,63 @@
       const lon = i * 15;
       if (lon < -180 || lon > 180) continue;
       L.polyline([[-59.98, lon], [82.26, lon]], {
-        color: "#2cfdff", weight: 2, opacity: 0.4, dashArray: "5,14"
+        color: "#2cfdff", weight: 2, opacity: 0.5, dashArray: "5,14"
       }).addTo(map);
     }
 
-    function testCenter(lat, lon, zoom) {
-      map.setView([lat, lon], zoom, { animate: true });
-      document.getElementById('info').textContent = 
-        `Centro actual: [${lat}, ${lon}], Zoom: ${zoom}`;
-      console.log(`📍 Probando: Centro [${lat}, ${lon}], Zoom ${zoom}`);
+    let currentNoWrap = false;
+    let baseLayer, gpsLayer;
+
+    // Guardar referencias a las capas
+    map.eachLayer(function(layer) {
+      if (layer._url && layer._url.includes('basemaps')) baseLayer = layer;
+      if (layer._url && layer._url.includes('gps')) gpsLayer = layer;
+    });
+
+    function toggleNoWrap() {
+      currentNoWrap = !currentNoWrap;
+      
+      // Actualizar status
+      document.getElementById('nowrap-status').textContent = currentNoWrap ? 'false' : 'true';
+      document.getElementById('current-nowrap').textContent = currentNoWrap;
+      
+      // Recrear capas con nuevo noWrap
+      if (baseLayer) map.removeLayer(baseLayer);
+      if (gpsLayer) map.removeLayer(gpsLayer);
+      
+      baseLayer = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+        maxZoom: 19, minZoom: 1, noWrap: currentNoWrap
+      }).addTo(map);
+      
+      gpsLayer = L.tileLayer('https://gps-{s}.tile.openstreetmap.org/lines/{z}/{x}/{y}.png', {
+        maxZoom: 19, minZoom: 1, opacity: 0.85, noWrap: currentNoWrap
+      }).addTo(map);
+      
+      console.log(`🔄 Cambiado a noWrap: ${currentNoWrap} ${currentNoWrap ? '(sin repetición)' : '(infinito)'}`);
+      updateInfo();
     }
 
-    console.log('🧪 TEST DE ENCUADRE');
-    console.log('Prueba diferentes botones para ver qué encuadre queda mejor');
-    console.log('Fíjate si Rusia se duplica en los bordes');
+    function updateInfo() {
+      const center = map.getCenter();
+      const zoom = map.getZoom();
+      document.getElementById('info').innerHTML = 
+        `<strong>Centro:</strong> [${center.lat.toFixed(4)}, ${center.lng.toFixed(4)}]<br>` +
+        `<strong>Zoom:</strong> ${zoom.toFixed(2)}<br>` +
+        `<strong>noWrap:</strong> <span id="current-nowrap">${currentNoWrap}</span>`;
+      console.log(`📍 Centro: [${center.lat.toFixed(4)}, ${center.lng.toFixed(4)}], Zoom: ${zoom.toFixed(2)}, noWrap: ${currentNoWrap}`);
+    }
+
+    // Actualizar info en tiempo real
+    map.on('moveend zoomend', updateInfo);
+
+    console.log('🧪 TEST DE ENCUADRE - MODO INFINITO');
+    console.log('🎮 Arrastra y haz zoom hasta que se vea perfecto');
+    console.log('🔄 Usa el botón para probar con noWrap true/false');
+    console.log('📍 Las coordenadas se actualizan automáticamente');
+    console.log('📸 Copia las coordenadas cuando esté perfecto');
+    
+    // Trigger inicial
+    updateInfo();
   </script>
 </body>
 </html>
