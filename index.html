@@ -201,16 +201,17 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      padding: 6px;  /* menos marco para mostrar más mapa */
+      padding: 3px;
       position: relative;
       overflow: hidden;
-      aspect-ratio: 1 / 1;   /* Proporción cuadrada para mostrar más mapa y menos recorte */
-      min-height: 360px;      /* incremento para equilibrar altura con laterales */
+      aspect-ratio: 16 / 10;
+      min-height: 450px;
     }
-    /* Para la tarjeta cyber: formato 16:9 y altura mayor */
+    /* Para la tarjeta cyber: más ancha para ver todo el mundo */
     .cyber-card .map-preview {
       aspect-ratio: 16 / 9;
-      min-height: 560px;
+      min-height: 480px;
+      height: 480px;
       padding: 0;
       position: relative;
       overflow: hidden;
