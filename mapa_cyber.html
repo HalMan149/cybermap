@@ -430,10 +430,10 @@
       const lon = i * 15;
       if (lon < -180 || lon > 180) continue;
       const isCentral = (i === 0);
-      const line = L.polyline([[-59.98, lon], [82.26, lon]],
+      const line = L.polyline([[-59.98, lon], [72, lon]],
         { color: "#2cfdff", weight: 2.3, opacity: 0.65, dashArray: "5,14", interactive: false });
       zonaHorariaLines.addLayer(line);
-      const latLabel = 82.15;
+      const latLabel = 71;
       const relojId = `reloj-tz${i}`;
       const extraClass = isCentral ? " gmt-central" : "";
       const ancla = isCentral ? [52, 10] : [31, 10];
