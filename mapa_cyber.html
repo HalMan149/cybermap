@@ -4,6 +4,7 @@
   <meta charset="utf-8" />
   <title>Mapa Cyberpunk + GPS público</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <!-- Version: 2025-12-13-17:06 -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <style>
     html, body {
@@ -323,12 +324,17 @@
       document.body.classList.add('preview');
     }
 
+    // ACTUALIZADO: 2025-12-13 17:06 - Centro en Europa/África
     const CENTER = [30, 10];
     const ZOOM = 2.5;
     // Para la miniatura: más abierto y centrado en el mundo
     // Preview: usaremos fitBounds para recortar polos en la miniatura
     const baseZoom = ZOOM;
     const minZoom = isPreview ? 1.0 : 2.5;
+    
+    console.log('🗺️ CONFIGURACIÓN DEL MAPA:');
+    console.log('  Centro:', CENTER);
+    console.log('  Zoom:', ZOOM);
 
     const map = L.map('map', {
       zoomControl: true,
