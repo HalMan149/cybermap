@@ -157,10 +157,10 @@
     .attack-item.ransomware .attack-type { color: #ffa500; }
     .attack-item.urlhaus .attack-type { color: #ba68c8; }
     .attack-item.threatfox {
-      border-left-color: #4caf50; background: rgba(76, 175, 80, 0.08);
+      border-left-color: #ff6f00; background: rgba(255, 111, 0, 0.08);
     }
-    .attack-item.threatfox:hover { background: rgba(76, 175, 80, 0.15); }
-    .attack-item.threatfox .attack-type { color: #4caf50; }
+    .attack-item.threatfox:hover { background: rgba(255, 111, 0, 0.15); }
+    .attack-item.threatfox .attack-type { color: #ff6f00; }
     .attack-item.blocklist {
       border-left-color: #00bcd4; background: rgba(0, 188, 212, 0.08);
     }
@@ -192,6 +192,11 @@
       <span class="legend-label">IPs Maliciosas</span>
       <span class="legend-count" id="count-ips">0</span>
     </div>
+    <div class="legend-item" id="legend-threatfox" data-layer="threatfox">
+      <div class="legend-color" style="background: #ff6f00;"></div>
+      <span class="legend-label">IPs Malware (IPsum)</span>
+      <span class="legend-count" id="count-threatfox">0</span>
+    </div>
     <div class="legend-item" id="legend-ransomware" data-layer="ransomware">
       <div class="legend-color" style="background: #ffa500;"></div>
       <span class="legend-label">Víctimas Ransomware</span>
@@ -201,11 +206,6 @@
       <div class="legend-color" style="background: #ba68c8;"></div>
       <span class="legend-label">Botnets C&C</span>
       <span class="legend-count" id="count-urlhaus">0</span>
-    </div>
-    <div class="legend-item" id="legend-threatfox" data-layer="threatfox">
-      <div class="legend-color" style="background: #4caf50;"></div>
-      <span class="legend-label">IPs Malware (IPsum)</span>
-      <span class="legend-count" id="count-threatfox">0</span>
     </div>
     <div class="legend-item" id="legend-blocklist" data-layer="blocklist">
       <div class="legend-color" style="background: #00bcd4;"></div>
@@ -1258,15 +1258,15 @@
       iocs.forEach(ioc => {
         const circle = L.circleMarker([ioc.lat, ioc.lon], {
           radius: 9,
-          color: '#2e7d32',
-          fillColor: '#66bb6a',
+          color: '#e65100',
+          fillColor: '#ff8a65',
           fillOpacity: 0.6,
           weight: 2.5,
           opacity: 0.9
         }).addTo(threatfoxLayer);
 
         circle.bindPopup(
-          `<strong style="color:#4caf50;">🎯 IP Malware</strong><br>` +
+          `<strong style="color:#ff6f00;">🎯 IP Malware</strong><br>` +
           `<strong>Tipo:</strong> ${ioc.malware}<br>` +
           `<strong>IP:</strong> ${ioc.ioc}<br>` +
           `<strong>Score:</strong> ${ioc.confidence}<br>` +
@@ -1275,7 +1275,7 @@
 
         const isNew = forcePulse || !previousThreatfox.has(ioc.id);
         if (isNew) {
-          createPulse(ioc.lat, ioc.lon, '#2e7d32', threatfoxLayer);
+          createPulse(ioc.lat, ioc.lon, '#e65100', threatfoxLayer);
           addToRecentAttacks('threatfox', ioc);
         }
         previousThreatfox.add(ioc.id);
@@ -1308,10 +1308,11 @@
           .filter(line => line && /^\d+\.\d+\.\d+\.\d+$/.test(line))
           .slice(0, 100);
         
-        console.log(`✓ Blocklist.de: ${ips.length} IPs, geolocalizando...`);
+        console.log(`✓ Blocklist.de: ${ips.length} IPs, geolocalizando (rápido)...`);
         
         const processedIps = [];
         const seenIps = new Set();
+        let successCount = 0;
         
         for (const ip of ips) {
           if (seenIps.has(ip)) continue;
@@ -1329,18 +1330,19 @@
                 country: geo.country || 'N/D'
               });
               
-              if (processedIps.length % 10 === 0) {
-                console.log(`  ✓ ${processedIps.length}/${ips.length} atacantes geolocalizados...`);
+              successCount++;
+              if (successCount % 10 === 0) {
+                console.log(`  ✓ ${successCount}/${ips.length} atacantes geolocalizados...`);
               }
             }
           } catch (e) {}
           
-          await delay(120);
+          await delay(80);
           
-          if (processedIps.length >= 40) break;
+          if (processedIps.length >= 50) break;
         }
         
-        console.log(`✓ Blocklist: ${processedIps.length} IPs geolocalizadas`);
+        console.log(`✓ Blocklist: ${successCount} IPs geolocalizadas (${ips.length - successCount} fallaron)`);
 
         if (processedIps.length > 0) {
           const newIps = processedIps.filter(ip => 
@@ -1597,25 +1599,25 @@
         heatmapLayers.push(purpleHeat);
       }
 
-      // Heatmap VERDE para ThreatFox IOCs
+      // Heatmap NARANJA OSCURO para IPsum (IPs Malware)
       if (layersVisible.threatfox && lastThreatfoxIocs.length > 0) {
-        const greenData = lastThreatfoxIocs.map(ioc => [ioc.lat, ioc.lon, 0.85]);
-        const greenHeat = L.heatLayer(greenData, {
+        const orangeData = lastThreatfoxIocs.map(ioc => [ioc.lat, ioc.lon, 0.85]);
+        const orangeHeat = L.heatLayer(orangeData, {
           radius: 30,
           blur: 40,
           maxZoom: 10,
           max: 0.6,
           minOpacity: 0.4,
           gradient: {
-            0.0: 'rgba(46, 125, 50, 0)',
-            0.2: 'rgba(46, 125, 50, 0.2)',
-            0.4: 'rgba(56, 142, 60, 0.4)',
-            0.6: 'rgba(76, 175, 80, 0.6)',
-            0.8: 'rgba(102, 187, 106, 0.8)',
-            1.0: 'rgba(129, 199, 132, 1.0)'
+            0.0: 'rgba(230, 81, 0, 0)',
+            0.2: 'rgba(230, 81, 0, 0.2)',
+            0.4: 'rgba(239, 108, 0, 0.4)',
+            0.6: 'rgba(255, 111, 0, 0.6)',
+            0.8: 'rgba(255, 138, 101, 0.8)',
+            1.0: 'rgba(255, 171, 145, 1.0)'
           }
         }).addTo(map);
-        heatmapLayers.push(greenHeat);
+        heatmapLayers.push(orangeHeat);
       }
 
       // Heatmap CIAN para Blocklist
