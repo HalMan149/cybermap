@@ -1547,10 +1547,10 @@
       }
     }
 
-    // Blocklist.de tiene muchos problemas CORS, solo intentamos 1 vez al inicio
-    // y luego cada hora (menos agresivo)
-    loadBlocklistIps();
-    setInterval(loadBlocklistIps, 60 * 60 * 1000); // cada 60 min (1 hora)
+    // Blocklist.de deshabilitado temporalmente - genera demasiados errores CORS
+    // Si en el futuro se desbloquea, se puede reactivar
+    // loadBlocklistIps();
+    // setInterval(loadBlocklistIps, 60 * 60 * 1000);
 
     // --- DASHBOARD DE ESTADO DE FUENTES ---
     function logSourcesStatus() {
@@ -1560,9 +1560,9 @@
       console.log('='.repeat(70));
       console.log(`🔴 Firehol (IPs Maliciosas):        ${String(lastEvents.length).padEnd(3)} puntos ${lastEvents.length > 0 ? '✅' : '⏳'}`);
       console.log(`🟠 IPsum (IPs Malware):             ${String(lastThreatfoxIocs.length).padEnd(3)} puntos ${lastThreatfoxIocs.length > 0 ? '✅' : '⏳'}`);
-      console.log(`🟡 Ransomware.live (Víctimas):      ${String(lastRansomwareVictims.length).padEnd(3)} puntos ${lastRansomwareVictims.length === 0 ? '❌ BLOQUEADO' : '✅'}`);
+      console.log(`🟡 Ransomware.live (Víctimas):      ${String(lastRansomwareVictims.length).padEnd(3)} puntos ${lastRansomwareVictims.length === 0 ? '❌' : '✅'}`);
       console.log(`🟣 Feodo Tracker (Botnets):         ${String(lastUrlhausUrls.length).padEnd(3)} puntos ${lastUrlhausUrls.length > 0 ? '✅' : '⏳'}`);
-      console.log(`🔵 Blocklist.de (Ataques SSH/FTP):  ${String(lastBlocklistIps.length).padEnd(3)} puntos ${lastBlocklistIps.length > 0 ? '✅' : '⏳ Cargando...'}`);
+      console.log(`🔵 Blocklist.de:                    DESHABILITADO (problemas CORS)`);
       console.log('─'.repeat(70));
       console.log(`📍 TOTAL EN MAPA: ${total} puntos de amenaza`);
       console.log('='.repeat(70) + '\n');
