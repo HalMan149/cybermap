@@ -79,29 +79,36 @@
     /* Leyenda */
     #legend {
       position: absolute; top: 15px; left: 15px; z-index: 2000;
-      background: rgba(11, 16, 33, 0.35); backdrop-filter: blur(14px);
+      background: rgba(11, 16, 33, 0.25); backdrop-filter: blur(16px);
       border: 2px solid #13f5ff; border-radius: 12px; padding: 0;
       font-family: 'Segoe UI', sans-serif; color: #fff;
       box-shadow: 0 4px 15px rgba(0, 255, 255, 0.3); min-width: 220px;
       transition: all 0.3s ease;
     }
-    #legend.collapsed { width: 60px; }
+    #legend.collapsed { min-width: 50px; }
     #legend-header {
-      padding: 12px 15px; cursor: pointer;
+      padding: 10px 12px; cursor: pointer;
       display: flex; align-items: center; justify-content: space-between;
       border-bottom: 1px solid rgba(19, 245, 255, 0.3);
     }
+    #legend.collapsed #legend-header { border-bottom: none; justify-content: center; }
     #legend-header:hover { background: rgba(19, 245, 255, 0.1); }
     #legend h3 {
-      margin: 0; font-size: 1.1em; color: #13f5ff;
-      text-shadow: 0 0 8px #13f5ff; font-weight: 600;
+      margin: 0; font-size: 0.95em; color: #13f5ff;
+      text-shadow: 0 0 6px #13f5ff; font-weight: 500;
+      white-space: nowrap;
+    }
+    #legend.collapsed h3 {
+      writing-mode: vertical-rl;
+      text-orientation: mixed;
+      font-size: 0.85em;
     }
     #legend-toggle {
-      font-size: 1.2em; color: #13f5ff; transition: transform 0.3s;
+      font-size: 1em; color: #13f5ff; transition: transform 0.3s;
     }
-    #legend.collapsed #legend-toggle { transform: rotate(180deg); }
+    #legend.collapsed #legend-toggle { transform: rotate(180deg); display: none; }
     #legend-content {
-      padding: 12px 15px;
+      padding: 10px 12px;
       max-height: 600px;
       overflow: hidden;
       transition: max-height 0.3s ease, opacity 0.3s ease;
@@ -112,28 +119,27 @@
       padding-top: 0;
       padding-bottom: 0;
     }
-    #legend.collapsed h3 { display: none; }
     .legend-item {
-      display: flex; align-items: center; margin-bottom: 10px;
+      display: flex; align-items: center; margin-bottom: 8px;
       cursor: pointer; transition: opacity 0.3s;
     }
     .legend-item:hover { opacity: 0.8; }
     .legend-item.disabled { opacity: 0.4; }
     .legend-color {
-      width: 18px; height: 18px; border-radius: 50%;
-      margin-right: 10px; border: 2px solid currentColor;
+      width: 14px; height: 14px; border-radius: 50%;
+      margin-right: 8px; border: 2px solid currentColor;
     }
-    .legend-label { font-size: 0.95em; flex: 1; }
+    .legend-label { font-size: 0.82em; flex: 1; }
     .legend-count {
-      font-size: 0.85em; color: #13f5ff; font-weight: 600; margin-left: 8px;
+      font-size: 0.75em; color: #13f5ff; font-weight: 600; margin-left: 6px;
     }
     #heatmap-toggle, #reset-view {
-      padding: 8px 12px; width: 100%;
+      padding: 7px 10px; width: 100%;
       background: linear-gradient(135deg, #1a4d5e, #0d2838);
       border: 2px solid #13f5ff; border-radius: 8px;
-      color: #fff; font-size: 0.9em; cursor: pointer;
-      transition: all 0.3s; font-weight: 600;
-      text-shadow: 0 0 5px #13f5ff; margin-top: 10px;
+      color: #fff; font-size: 0.8em; cursor: pointer;
+      transition: all 0.3s; font-weight: 500;
+      text-shadow: 0 0 5px #13f5ff; margin-top: 8px;
     }
     #heatmap-toggle:hover, #reset-view:hover {
       background: linear-gradient(135deg, #2a6d7e, #1d4858);
@@ -148,28 +154,35 @@
     /* Lista lateral de ataques */
     #recent-attacks {
       position: absolute; top: 15px; right: 15px; z-index: 2000;
-      background: rgba(11, 16, 33, 0.35); backdrop-filter: blur(14px);
+      background: rgba(11, 16, 33, 0.25); backdrop-filter: blur(16px);
       border: 2px solid #ff6b6b; border-radius: 12px; padding: 0;
       font-family: 'Segoe UI', sans-serif; color: #fff;
       box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
       width: 320px;
       transition: all 0.3s ease;
     }
-    #recent-attacks.collapsed { width: 60px; }
+    #recent-attacks.collapsed { min-width: 50px; width: auto; }
     #attacks-header {
-      padding: 12px 15px; cursor: pointer;
+      padding: 10px 12px; cursor: pointer;
       display: flex; align-items: center; justify-content: space-between;
       border-bottom: 1px solid rgba(255, 107, 107, 0.3);
     }
+    #recent-attacks.collapsed #attacks-header { border-bottom: none; justify-content: center; }
     #attacks-header:hover { background: rgba(255, 107, 107, 0.1); }
     #recent-attacks h3 {
-      margin: 0; font-size: 1.1em; color: #ff6b6b;
-      text-shadow: 0 0 8px #ff6b6b; font-weight: 600;
+      margin: 0; font-size: 0.95em; color: #ff6b6b;
+      text-shadow: 0 0 6px #ff6b6b; font-weight: 500;
+      white-space: nowrap;
+    }
+    #recent-attacks.collapsed h3 {
+      writing-mode: vertical-rl;
+      text-orientation: mixed;
+      font-size: 0.85em;
     }
     #attacks-toggle {
-      font-size: 1.2em; color: #ff6b6b; transition: transform 0.3s;
+      font-size: 1em; color: #ff6b6b; transition: transform 0.3s;
     }
-    #recent-attacks.collapsed #attacks-toggle { transform: rotate(180deg); }
+    #recent-attacks.collapsed #attacks-toggle { transform: rotate(180deg); display: none; }
     #attacks-content {
       max-height: 500px;
       overflow-y: auto;
@@ -179,12 +192,11 @@
       max-height: 0;
       opacity: 0;
     }
-    #recent-attacks.collapsed h3 { display: none; }
     .attack-item {
       background: rgba(255, 107, 107, 0.08);
       border-left: 3px solid #ff6b6b;
-      padding: 10px; margin-bottom: 8px; border-radius: 6px;
-      font-size: 0.85em; cursor: pointer;
+      padding: 8px; margin-bottom: 6px; border-radius: 6px;
+      font-size: 0.78em; cursor: pointer;
       transition: all 0.3s; animation: slideIn 0.4s ease-out;
     }
     .attack-item:hover {
@@ -199,7 +211,7 @@
     }
     .attack-item.urlhaus:hover { background: rgba(186, 104, 200, 0.15); }
     .attack-type {
-      font-weight: 600; color: #ff6b6b; font-size: 0.9em; margin-bottom: 4px;
+      font-weight: 600; color: #ff6b6b; font-size: 0.85em; margin-bottom: 3px;
     }
     .attack-item.ransomware .attack-type { color: #ffa500; }
     .attack-item.urlhaus .attack-type { color: #ba68c8; }
@@ -235,7 +247,7 @@
   <div id="map"></div>
   
   <!-- Leyenda -->
-  <div id="legend">
+  <div id="legend" class="collapsed">
     <div id="legend-header">
       <h3>🗺️ Capas del Mapa</h3>
       <span id="legend-toggle">◀</span>
@@ -272,7 +284,7 @@
   </div>
 
   <!-- Lista de ataques recientes -->
-  <div id="recent-attacks">
+  <div id="recent-attacks" class="collapsed">
     <div id="attacks-header">
       <h3>⚡ Ataques Recientes</h3>
       <span id="attacks-toggle">▶</span>
@@ -1385,8 +1397,18 @@
 
       try {
         console.log('🛡️ Cargando Blocklist.de...');
-        const proxiedUrl = `https://api.allorigins.win/raw?url=${encodeURIComponent(BLOCKLIST_API)}`;
-        const response = await fetch(proxiedUrl, { cache: 'no-store' });
+        // Intentar directamente primero (a veces funciona sin proxy)
+        let response = null;
+        try {
+          response = await fetch(BLOCKLIST_API, { cache: 'no-store', mode: 'cors' });
+          if (response.ok) {
+            console.log('  ✓ Conexión directa exitosa (sin proxy)');
+          }
+        } catch (e) {
+          console.log('  → Directo falló, usando proxy...');
+          const proxiedUrl = `https://api.allorigins.win/raw?url=${encodeURIComponent(BLOCKLIST_API)}`;
+          response = await fetch(proxiedUrl, { cache: 'no-store' });
+        }
         
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         
