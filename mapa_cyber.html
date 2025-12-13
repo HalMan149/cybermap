@@ -318,13 +318,16 @@
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
   <script>
+    // FORZAR RECARGA - Version 18:31
+    const VERSION_MAP = '2025-12-13-18:31:00';
+    
     const urlParams = new URLSearchParams(window.location.search);
     const isPreview = urlParams.has('preview');
     if (isPreview) {
       document.body.classList.add('preview');
     }
 
-    // ACTUALIZADO: 2025-12-13 18:30 - Encuadre perfecto ajustado manualmente
+    // ACTUALIZADO: 2025-12-13 18:31 - Encuadre perfecto ajustado manualmente
     const CENTER = [28.0148, 13.4017];
     const ZOOM = 2.33;
     // Para la miniatura: más abierto y centrado en el mundo
