@@ -2339,14 +2339,15 @@
       }
       
       if (heatmapMode) {
-        // Activar heatmap: ocultar marcadores
+        // Activar heatmap: ocultar TODAS las capas de puntos
         this.classList.add('active');
         this.textContent = '📍 Modo Puntos';
-        map.removeLayer(attacksLayer);
-        map.removeLayer(ransomwareLayer);
-        map.removeLayer(urlhausLayer);
-        map.removeLayer(threatfoxLayer);
-        map.removeLayer(blocklistLayer);
+        if (map.hasLayer(attacksLayer)) map.removeLayer(attacksLayer);
+        if (map.hasLayer(ransomwareLayer)) map.removeLayer(ransomwareLayer);
+        if (map.hasLayer(urlhausLayer)) map.removeLayer(urlhausLayer);
+        if (map.hasLayer(threatfoxLayer)) map.removeLayer(threatfoxLayer);
+        if (map.hasLayer(blocklistLayer)) map.removeLayer(blocklistLayer);
+        if (map.hasLayer(sansLayer)) map.removeLayer(sansLayer);
         updateHeatmap();
       } else {
         // Desactivar heatmap: mostrar marcadores
