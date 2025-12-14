@@ -2317,6 +2317,7 @@
         if (layersVisible.urlhaus) map.addLayer(urlhausLayer);
         if (layersVisible.threatfox) map.addLayer(threatfoxLayer);
         if (layersVisible.blocklist) map.addLayer(blocklistLayer);
+        if (layersVisible.sans) map.addLayer(sansLayer);
         heatmapLayers.forEach(layer => {
           if (map.hasLayer(layer)) map.removeLayer(layer);
         });
