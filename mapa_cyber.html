@@ -1093,8 +1093,78 @@
       }
     }
 
-    loadAttacks();
-    setInterval(loadAttacks, 5 * 60 * 1000); // cada 5 min
+    // Función unificada que carga TODAS las fuentes desde events.json/events.js
+    async function loadAllThreats() {
+      console.log('📡 Cargando TODAS las amenazas desde GitHub Actions...');
+      
+      try {
+        // Intentar events.js primero (local)
+        let data = window.CYBER_EVENTS;
+        
+        // Si no existe, intentar fetch (web)
+        if (!data || !data.events || data.events.length === 0) {
+          const response = await fetch('data/events.json?t=' + Date.now());
+          data = await response.json();
+        }
+        
+        console.log(`✅ Datos cargados: ${data.total_events} eventos`);
+        console.log(`   Generado: ${new Date(data.generated_at).toLocaleString('es-ES')}`);
+        console.log(`   Fuentes: Firehol(${data.sources.firehol}), Ransomware(${data.sources.ransomware}), Feodo(${data.sources.feodo}), IPsum(${data.sources.ipsum})`);
+        
+        // Separar por tipo
+        const firehol = data.events.filter(e => e.feed === 'firehol').map(e => ({
+          ip: e.indicator, lat: e.src_geo.lat, lon: e.src_geo.lon, 
+          country: e.src_geo.cc, asn: e.actor?.name, org: e.actor?.name
+        }));
+        
+        const ransomware = data.events.filter(e => e.feed === 'ransomware.live').map(e => ({
+          id: e.id, name: e.victim?.name || e.indicator, country: e.src_geo.cc,
+          group: e.actor?.name || 'Desconocido', discovered: e.ts,
+          lat: e.src_geo.lat, lon: e.src_geo.lon
+        }));
+        
+        const feodo = data.events.filter(e => e.feed === 'feodo').map(e => ({
+          id: e.id, url: e.indicator, host: e.indicator.split(':')[0],
+          threat: e.actor?.name || 'Botnet', lat: e.src_geo.lat, lon: e.src_geo.lon,
+          country: e.src_geo.cc
+        }));
+        
+        const ipsum = data.events.filter(e => e.feed === 'ipsum').map(e => ({
+          id: e.id, ioc: e.indicator, ip: e.indicator,
+          malware: e.actor?.name || 'Malware', confidence: e.score || 0,
+          lat: e.src_geo.lat, lon: e.src_geo.lon, country: e.src_geo.cc
+        }));
+        
+        // Renderizar cada capa
+        if (firehol.length > 0) {
+          lastEvents = firehol;
+          renderAttacks(firehol, { forcePulse: false });
+        }
+        
+        if (ransomware.length > 0) {
+          lastRansomwareVictims = ransomware;
+          renderRansomwareVictims(ransomware, { forcePulse: false });
+        }
+        
+        if (feodo.length > 0) {
+          lastUrlhausUrls = feodo;
+          renderUrlhausUrls(feodo, { forcePulse: false, append: false });
+        }
+        
+        if (ipsum.length > 0) {
+          lastThreatfoxIocs = ipsum;
+          renderThreatfoxIocs(ipsum, { forcePulse: false, append: false });
+        }
+        
+        updateCounters();
+        
+      } catch (e) {
+        console.error('❌ Error cargando datos:', e.message);
+      }
+    }
+    
+    loadAllThreats();
+    setInterval(loadAllThreats, 10 * 1000); // Actualizar cada 10 segundos (lee el JSON actualizado)
 
     // --- CAPA DE RANSOMWARE (víctimas recientes desde Ransomware.live)
     const COUNTRY_COORDS = {
@@ -1256,8 +1326,8 @@
       }
     }
 
-    loadRansomwareVictims();
-    setInterval(loadRansomwareVictims, 20 * 60 * 1000); // cada 20 min (menos agresivo)
+    // Ransomware ahora se carga desde loadAllThreats()
+    // setInterval ya no es necesario (GitHub Actions actualiza cada 5 min)
 
     // --- CAPA DE FEODO TRACKER (Botnets C&C)
     async function loadUrlhausUrls() {
@@ -1444,8 +1514,7 @@
       }
     }
 
-    loadUrlhausUrls();
-    setInterval(loadUrlhausUrls, 30 * 60 * 1000); // cada 30 min (menos agresivo)
+    // Feodo ahora se carga desde loadAllThreats()
 
     // --- CAPA DE IPSUM (IPs Malware agregadas)
     async function loadThreatfoxIocs() {
@@ -1594,8 +1663,7 @@
       }
     }
 
-    loadThreatfoxIocs();
-    setInterval(loadThreatfoxIocs, 30 * 60 * 1000); // cada 30 min (menos agresivo)
+    // IPsum ahora se carga desde loadAllThreats()
 
     // --- CAPA DE BLOCKLIST.DE (Ataques SSH/FTP/Mail)
     async function loadBlocklistIps() {
