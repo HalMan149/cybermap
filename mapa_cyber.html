@@ -749,29 +749,51 @@
 
     async function geolocateIPs(ips) {
       const results = [];
-      console.log(`🌍 Geolocalizando ${ips.length} IPs (usando proxy CORS)...`);
+      console.log(`🌍 Geolocalizando ${ips.length} IPs...`);
+      
+      let directSuccess = 0;
+      let proxySuccess = 0;
       
       for (const ip of ips) {
+        let geolocated = false;
+        
+        // 1. Intentar DIRECTO primero (a veces funciona)
         try {
-          // Usar proxy CORS para evitar bloqueos
-          const proxiedUrl = `https://api.allorigins.win/raw?url=${encodeURIComponent(GEO_ENDPOINT(ip))}`;
-          const geo = await fetch(proxiedUrl, { cache: 'no-store' }).then(r => r.json());
-          
+          const geo = await fetch(GEO_ENDPOINT(ip), { cache: 'no-store', mode: 'cors' }).then(r => r.json());
           if (geo && geo.success && typeof geo.latitude === 'number' && typeof geo.longitude === 'number') {
             results.push({ ip, lat: geo.latitude, lon: geo.longitude, country: geo.country });
-            
-            // Log cada 10 IPs
-            if (results.length % 10 === 0) {
-              console.log(`  ✓ ${results.length} IPs geolocalizadas...`);
-            }
+            directSuccess++;
+            geolocated = true;
           }
         } catch (e) {
-          // Silenciar errores individuales
+          // Falló directo, intentar con proxy
         }
-        await delay(200); // throttle
+        
+        // 2. Si falló directo, intentar con PROXY
+        if (!geolocated) {
+          try {
+            const proxiedUrl = `https://corsproxy.io/?${encodeURIComponent(GEO_ENDPOINT(ip))}`;
+            const geo = await fetch(proxiedUrl, { cache: 'no-store' }).then(r => r.json());
+            
+            if (geo && geo.success && typeof geo.latitude === 'number' && typeof geo.longitude === 'number') {
+              results.push({ ip, lat: geo.latitude, lon: geo.longitude, country: geo.country });
+              proxySuccess++;
+              geolocated = true;
+            }
+          } catch (e) {
+            // Ambos fallaron, continuar con siguiente IP
+          }
+        }
+        
+        // Log progreso cada 10 IPs
+        if (results.length % 10 === 0 && results.length > 0) {
+          console.log(`  ✓ ${results.length} IPs (${directSuccess} directo, ${proxySuccess} proxy)`);
+        }
+        
+        await delay(250); // throttle más largo para evitar saturar
       }
       
-      console.log(`✅ Firehol: ${results.length} / ${ips.length} IPs geolocalizadas exitosamente`);
+      console.log(`✅ Firehol: ${results.length} IPs (${directSuccess} directo + ${proxySuccess} proxy)`);
       return results;
     }
 
