@@ -121,6 +121,21 @@
       background: #000;
       border-radius: 50%;
       box-shadow: 0 4px 16px rgba(109, 213, 237, 0.25);
+      position: relative;
+    }
+    
+    .moon-container .image-error, .sun-container .image-error {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 180px;
+      text-align: center;
+      z-index: 10;
+      background: rgba(10, 14, 26, 0.95);
+      padding: 15px;
+      border-radius: 50%;
+      border: 2px dashed rgba(109, 213, 237, 0.3);
     }
     
     .moon-info {
@@ -582,7 +597,8 @@
         <canvas id="moonCanvas" width="320" height="320" style="display: none;"></canvas>
         <div id="moonError" class="image-error" style="display: none;">
           FUENTE NO DISPONIBLE<br>
-          <small style="font-size: 11px; margin-top: 8px; display: block;">NASA SVS offline</small>
+          <small>NASA SVS offline</small>
+          <div class="image-timestamp" id="moonTimestamp"></div>
         </div>
       </div>
       <div class="moon-info" id="moonInfo">
@@ -646,12 +662,13 @@
     <!-- PANEL SOL (DERECHA) -->
     <div class="sun-panel">
       <h3>Estado del Sol</h3>
-      <div style="width: 200px; height: 200px; display: flex; align-items: center; justify-content: center; background: #000; border-radius: 50%; box-shadow: 0 6px 24px rgba(255, 215, 0, 0.35);">
-        <img id="sdoImage" src="https://sdo.gsfc.nasa.gov/assets/img/latest/latest_1024_0171.jpg" alt="Sol SDO AIA 171" 
+      <div class="sun-container" style="width: 200px; height: 200px; display: flex; align-items: center; justify-content: center; background: #000; border-radius: 50%; box-shadow: 0 6px 24px rgba(255, 215, 0, 0.35); position: relative;">
+        <img id="sdoImage" src="https://sdo.gsfc.nasa.gov/assets/img/latest/latest_1024_0171.jpg" alt="Sol SDO AIA 171"
              onerror="handleSDOError(this)" style="display: block; width: 200px; height: 200px; border-radius: 50%; object-fit: cover;"/>
-        <div id="sdoError" class="image-error" style="display: none; width: 200px; height: 200px;">
+        <div id="sdoError" class="image-error" style="display: none;">
           FUENTE NO DISPONIBLE<br>
-          <small style="font-size: 11px; margin-top: 8px; display: block;">SDO/NASA offline</small>
+          <small>SDO/NASA offline</small>
+          <div class="image-timestamp" id="sdoTimestamp"></div>
         </div>
       </div>
       <div class="sun-info">
