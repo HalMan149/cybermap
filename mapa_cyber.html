@@ -2200,36 +2200,6 @@
       if (heatmapMode) updateHeatmap();
     });
 
-    document.getElementById('legend-phishstats').addEventListener('click', () => {
-      layersVisible.phishstats = !layersVisible.phishstats;
-      const element = document.getElementById('legend-phishstats');
-      
-      if (layersVisible.phishstats) {
-        map.addLayer(phishstatsLayer);
-        element.classList.remove('disabled');
-      } else {
-        map.removeLayer(phishstatsLayer);
-        element.classList.add('disabled');
-      }
-      
-      if (heatmapMode) updateHeatmap();
-    });
-
-    document.getElementById('legend-sans').addEventListener('click', () => {
-      layersVisible.sans = !layersVisible.sans;
-      const element = document.getElementById('legend-sans');
-      
-      if (layersVisible.sans) {
-        map.addLayer(sansLayer);
-        element.classList.remove('disabled');
-      } else {
-        map.removeLayer(sansLayer);
-        element.classList.add('disabled');
-      }
-      
-      if (heatmapMode) updateHeatmap();
-    });
-
     // Función para mostrar puntos temporalmente cuando llegan datos nuevos
     function showNewPointsTemporarily(duration = 30000) {
       // Limpiar timeout previo si existe
