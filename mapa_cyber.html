@@ -1204,7 +1204,7 @@
         
         console.log(`✅ Datos cargados: ${data.total_events} eventos`);
         console.log(`   Generado: ${new Date(data.generated_at).toLocaleString('es-ES')}`);
-        console.log(`   Fuentes: Firehol(${data.sources.firehol}), Ransomware(${data.sources.ransomware}), Feodo(${data.sources.feodo}), IPsum(${data.sources.ipsum}), Blocklist(${data.sources.blocklist || 0})`);
+        console.log(`   Fuentes: Firehol(${data.sources.firehol}), Ransomware(${data.sources.ransomware}), Feodo(${data.sources.feodo}), IPsum(${data.sources.ipsum}), Blocklist(${data.sources.blocklist || 0}), SANS(${data.sources.sans || 0})`);
         
         // Separar por tipo
         const firehol = data.events.filter(e => e.feed === 'firehol').map(e => ({
@@ -2235,6 +2235,21 @@
         element.classList.remove('disabled');
       } else {
         map.removeLayer(blocklistLayer);
+        element.classList.add('disabled');
+      }
+      
+      if (heatmapMode) updateHeatmap();
+    });
+
+    document.getElementById('legend-sans').addEventListener('click', () => {
+      layersVisible.sans = !layersVisible.sans;
+      const element = document.getElementById('legend-sans');
+      
+      if (layersVisible.sans) {
+        map.addLayer(sansLayer);
+        element.classList.remove('disabled');
+      } else {
+        map.removeLayer(sansLayer);
         element.classList.add('disabled');
       }
       
