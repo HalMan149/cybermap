@@ -1494,9 +1494,9 @@
             }
           } catch (e) {}
           
-          await delay(120);
+          await delay(100);
           
-          if (processedIocs.length >= 30) break; // Reducido
+          if (processedIocs.length >= 20) break; // Optimizado para velocidad
         }
         
         console.log(`✓ IPsum: ${successCount} IPs geolocalizadas`);
