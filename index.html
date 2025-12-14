@@ -1310,9 +1310,14 @@
         img.style.display = 'block';
         document.getElementById('sdoError').style.display = 'none';
       } else {
-        img.style.display = 'none';
-        document.getElementById('sdoError').style.display = 'flex';
-        document.getElementById('sdoTime').textContent = 'No disponible';
+        // No ocultar imagen antigua, solo mostrar overlay
+        const errorEl = document.getElementById('sdoError');
+        const timestampEl = document.getElementById('sdoTimestamp');
+        if (errorEl) errorEl.style.display = 'flex';
+        if (timestampEl && img.dataset.lastSuccess) {
+          timestampEl.textContent = `Última imagen: ${img.dataset.lastSuccess}`;
+        }
+        document.getElementById('sdoTime').textContent = 'Datos antiguos';
       }
     }
     
