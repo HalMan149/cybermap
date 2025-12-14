@@ -1,5 +1,16 @@
 {
+  "name": "cybermap",
+  "version": "2.0.0",
+  "description": "Mapa de ciberseguridad en tiempo real",
+  "private": true,
+  "scripts": {
+    "fetch-threats": "node scripts/fetch-threats.js"
+  },
   "dependencies": {
-    "node-fetch": "^2.6.1"
+    "maxmind": "^4.3.0",
+    "node-fetch": "^2.7.0"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
