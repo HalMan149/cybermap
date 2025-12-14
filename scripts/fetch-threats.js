@@ -7,7 +7,8 @@ const SOURCES = {
   firehol: 'https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/firehol_level1.netset',
   ransomware: 'https://api.ransomware.live/recentvictims',
   feodo: 'https://feodotracker.abuse.ch/downloads/ipblocklist.json',
-  ipsum: 'https://raw.githubusercontent.com/stamparm/ipsum/master/ipsum.txt'
+  ipsum: 'https://raw.githubusercontent.com/stamparm/ipsum/master/ipsum.txt',
+  blocklist: 'https://lists.blocklist.de/lists/all.txt'
 };
 
 // Coordenadas por país (para fallback)
@@ -200,21 +201,57 @@ async function fetchIPsum() {
   }
 }
 
+async function fetchBlocklist() {
+  console.log('🔵 Descargando Blocklist.de...');
+  try {
+    const response = await fetch(SOURCES.blocklist);
+    const text = await response.text();
+    
+    const ips = text.split('\n')
+      .map(line => line.trim())
+      .filter(line => line && /^\d+\.\d+\.\d+\.\d+$/.test(line))
+      .slice(0, 30);
+    
+    const events = [];
+    for (const ip of ips) {
+      const geo = geolocateIP(ip);
+      if (geo) {
+        events.push({
+          id: `blocklist-${ip}`,
+          ts: new Date().toISOString(),
+          feed: 'blocklist.de',
+          type: 'ssh-ftp-attack',
+          indicator: ip,
+          src_geo: { lat: geo.lat, lon: geo.lon, cc: geo.country },
+          actor: { name: geo.org || geo.asn || 'Attacker', confidence: geo.org ? 'medium' : 'low' }
+        });
+      }
+    }
+    
+    console.log(`✅ Blocklist: ${events.length} eventos`);
+    return events;
+  } catch (e) {
+    console.error('❌ Blocklist falló:', e.message);
+    return [];
+  }
+}
+
 async function main() {
   console.log('🚀 Iniciando procesamiento de amenazas...\n');
   
   await initGeoIP();
   
   // Procesar todos los feeds en paralelo
-  const [firehol, ransomware, feodo, ipsum] = await Promise.all([
+  const [firehol, ransomware, feodo, ipsum, blocklist] = await Promise.all([
     fetchFirehol(),
     fetchRansomware(),
     fetchFeodo(),
-    fetchIPsum()
+    fetchIPsum(),
+    fetchBlocklist()
   ]);
   
   // Combinar y deduplicar
-  const allEvents = [...firehol, ...ransomware, ...feodo, ...ipsum];
+  const allEvents = [...firehol, ...ransomware, ...feodo, ...ipsum, ...blocklist];
   
   // Deduplicar por indicador + feed
   const seen = new Set();
@@ -236,7 +273,8 @@ async function main() {
       firehol: firehol.length,
       ransomware: ransomware.length,
       feodo: feodo.length,
-      ipsum: ipsum.length
+      ipsum: ipsum.length,
+      blocklist: blocklist.length
     },
     events: deduplicated
   };
