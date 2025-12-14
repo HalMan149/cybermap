@@ -241,11 +241,16 @@ async function main() {
     events: deduplicated
   };
   
+  // Guardar JSON (para web)
   fs.writeFileSync('data/events.json', JSON.stringify(output, null, 2));
+  
+  // Guardar como JS (para file:// local)
+  const jsContent = `// Auto-generado por GitHub Actions - ${output.generated_at}\nwindow.CYBER_EVENTS = ${JSON.stringify(output, null, 2)};`;
+  fs.writeFileSync('data/events.js', jsContent);
   
   console.log(`\n✅ COMPLETADO:`);
   console.log(`   Total eventos: ${output.total_events}`);
-  console.log(`   Archivo: data/events.json`);
+  console.log(`   Archivos: data/events.json + data/events.js`);
 }
 
 main().catch(console.error);

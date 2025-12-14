@@ -655,7 +655,7 @@
         }
       }
     } catch(_) {}
-    
+
     // Intentar recuperar cache de ransomware
     try {
       const stored = localStorage.getItem(RANSOMWARE_CACHE_KEY);
@@ -1078,7 +1078,7 @@
         console.error('❌ Error cargando events.json:', e.message);
         
         // Fallback: usar cache si existe
-        if (lastEvents.length) {
+      if (lastEvents.length) {
           console.log('↺ Usando cache local');
           renderAttacks(lastEvents, { forcePulse: false });
         }
@@ -1144,7 +1144,7 @@
               console.log(`  ✓ Proxy ${i+1} exitoso! (${data.length} víctimas)`);
               break;
             }
-          } catch (e) {
+      } catch (e) {
             lastError = e;
             console.warn(`  ✗ Proxy ${i+1} falló: ${e.message}`);
           }
@@ -1156,8 +1156,8 @@
         }
         if (!Array.isArray(data) || data.length === 0) {
           console.warn('Ransomware API: sin datos válidos');
-          return;
-        }
+        return;
+      }
 
         // Filtrar y procesar víctimas con coordenadas válidas
         const victims = data

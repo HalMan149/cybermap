@@ -32,13 +32,13 @@ jobs:
       - name: Procesar feeds de amenazas
         run: |
           node scripts/fetch-threats.js
-          echo "✅ Feeds procesados y events.json generado"
+          echo "✅ Feeds procesados y events.json + events.js generados"
       
       - name: Commit y push
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add data/events.json
+          git add data/events.json data/events.js
           git diff --staged --quiet || git commit -m "🤖 Auto: Actualizar amenazas $(date +'%Y-%m-%d %H:%M')"
           git push
         env:
