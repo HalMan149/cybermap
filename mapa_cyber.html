@@ -1054,6 +1054,11 @@
         );
       });
       
+      // Solo agregar al mapa si NO estamos en modo heatmap
+      if (!heatmapMode && layersVisible.sans) {
+        map.addLayer(sansLayer);
+      }
+      
       console.log(`▶ ${items.length} ataques honeypot pintados`);
     }
 
