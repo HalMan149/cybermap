@@ -316,6 +316,9 @@
 
   <div id="noticias-ticker"><span id="noticias-inner"></span></div>
   
+  <!-- Datos de amenazas generados por GitHub Actions -->
+  <script src="data/events.js"></script>
+  
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
   <script>
@@ -1046,10 +1049,15 @@
       console.log('🔴 Cargando datos desde GitHub Actions...');
       
       try {
-        const response = await fetch('data/events.json?t=' + Date.now());
-        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        // Intentar desde events.js (funciona en file://)
+        let data = window.CYBER_EVENTS;
         
-        const data = await response.json();
+        // Si no existe o está vacío, intentar fetch (funciona en web)
+        if (!data || !data.events || data.events.length === 0) {
+          const response = await fetch('data/events.json?t=' + Date.now());
+          if (!response.ok) throw new Error(`HTTP ${response.status}`);
+          data = await response.json();
+        }
         
         if (!data.events || data.events.length === 0) {
           console.warn('⚠️ events.json vacío');
