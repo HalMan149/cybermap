@@ -510,15 +510,18 @@
     }
 
     function updateCentralUTCAndRelojes() {
-      const nowBase = utcRef instanceof Date ? utcRef : new Date();
-      const nowTs = nowBase.getTime();
+      // Usar Date.now() actualizado siempre
+      const nowTs = Date.now();
+      const nowDate = new Date(nowTs);
+      
       const centralClock = document.getElementById('reloj-tz0');
       if (centralClock) {
-        const h = String(nowBase.getUTCHours()).padStart(2,"0");
-        const m = String(nowBase.getUTCMinutes()).padStart(2,"0");
+        const h = String(nowDate.getUTCHours()).padStart(2,"0");
+        const m = String(nowDate.getUTCMinutes()).padStart(2,"0");
         centralClock.textContent = `${h}:${m}`;
-        centralClock.title = utcError ? "UTC (fallback local)" : "Hora GMT/UTC atómica";
+        centralClock.title = utcError ? "UTC (hora local)" : "Hora GMT/UTC sincronizada";
       }
+      
       relojMarkers.forEach(({id, offset}) => {
         if (id === 'reloj-tz0') return;
         const el = document.getElementById(id);
@@ -528,10 +531,23 @@
         const mm = String(t.getUTCMinutes()).padStart(2, "0");
         el.textContent = `${hh}:${mm}`;
       });
+      
+      // Relojes de ciudades con timezone REAL (DST automático)
       cityMarkers.forEach(city => {
         const el = document.getElementById(city.id + "-hora");
         if (!el) return;
-        el.textContent = formatTimeInTZ(city.tz, nowTs);
+        try {
+          const timeStr = new Intl.DateTimeFormat('es-ES', {
+            hour: '2-digit',
+            minute: '2-digit',
+            hour12: false,
+            timeZone: city.tz
+          }).format(nowTs);
+          el.textContent = timeStr;
+        } catch (e) {
+          console.error(`❌ Error timezone ${city.name} (${city.tz})`);
+          el.textContent = '--:--';
+        }
       });
     }
 
