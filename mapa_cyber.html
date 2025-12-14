@@ -606,7 +606,7 @@
     const urlhausLayer = L.layerGroup().addTo(map);
     const threatfoxLayer = L.layerGroup().addTo(map);
     const blocklistLayer = L.layerGroup().addTo(map);
-    const sansLayer = L.layerGroup().addTo(map);
+    const sansLayer = L.layerGroup(); // NO agregar al inicio (modo heatmap por defecto)
     let heatmapLayers = [];
     const previousIps = new Set();
     const previousRansomware = new Set();
@@ -1968,12 +1968,13 @@
       const btn = document.getElementById('heatmap-toggle');
       btn.classList.add('active');
       btn.textContent = '📍 Modo Puntos';
-      // Ocultar capas de puntos inicialmente
+      // Ocultar TODAS las capas de puntos inicialmente
       map.removeLayer(attacksLayer);
       map.removeLayer(ransomwareLayer);
       map.removeLayer(urlhausLayer);
       map.removeLayer(threatfoxLayer);
       map.removeLayer(blocklistLayer);
+      // sansLayer no está agregada, no hay que removerla
       // El heatmap se activará cuando haya datos
     }
 
