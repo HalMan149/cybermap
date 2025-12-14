@@ -1200,11 +1200,6 @@
           lat: e.src_geo.lat, lon: e.src_geo.lon, country: e.src_geo.cc
         }));
         
-        const phishstats = data.events.filter(e => e.feed === 'phishstats').map(e => ({
-          id: e.id, url: e.indicator, ip: e.indicator,
-          lat: e.src_geo.lat, lon: e.src_geo.lon, country: e.src_geo.cc,
-          actor: e.actor?.name
-        }));
         
         const sans = data.events.filter(e => e.feed === 'sans-isc').map(e => ({
           id: e.id, ip: e.indicator,
@@ -1237,16 +1232,6 @@
         if (blocklist.length > 0) {
           lastBlocklistIps = blocklist;
           renderBlocklistIps(blocklist, { forcePulse: false, append: false });
-        }
-        
-        if (phishstats.length > 0) {
-          lastPhishstats = phishstats;
-          renderPhishStats(phishstats);
-        }
-        
-        if (sans.length > 0) {
-          lastSans = sans;
-          renderSANS(sans);
         }
         
         updateCounters();
