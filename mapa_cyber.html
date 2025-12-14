@@ -772,15 +772,25 @@
           weight: 2.5,
           opacity: 0.9
         }).addTo(attacksLayer);
-        const actorInfo = ev.asn ? `<br><strong>ASN:</strong> ${ev.asn}` : '';
-        const orgInfo = ev.org ? `<br><strong>Org:</strong> ${ev.org}` : '';
+        
+        // Info de "actor" (quién está detrás)
+        let actorName = 'Desconocido';
+        let actorConfidence = 'low';
+        
+        if (ev.org) {
+          actorName = ev.org;
+          actorConfidence = 'medium';
+        } else if (ev.asn) {
+          actorName = ev.asn;
+          actorConfidence = 'low';
+        }
         
         circle.bindPopup(
-          `<strong style="color:#ff6b6b;">🚨 IP Maliciosa</strong><br>` +
+          `<strong style="color:#ff6b6b;">🚨 IP Maliciosa (Firehol)</strong><br>` +
           `<strong>IP:</strong> ${ev.ip}<br>` +
-          `<strong>País:</strong> ${ev.country || 'N/D'}` +
-          actorInfo +
-          orgInfo
+          `<strong>País:</strong> ${ev.country || 'N/D'}<br>` +
+          `<strong>Actor probable:</strong> ${actorName}` +
+          (ev.asn ? `<br><small style="opacity:0.7">ASN: ${ev.asn}</small>` : '')
         );
 
         const isNew = forcePulse || !previousIps.has(ev.ip);
