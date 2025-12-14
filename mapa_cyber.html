@@ -2179,6 +2179,27 @@
         }).addTo(map);
         heatmapLayers.push(cyanHeat);
       }
+
+      // Heatmap AMARILLO para SANS ISC
+      if (layersVisible.sans && lastSans.length > 0) {
+        const yellowData = lastSans.map(s => [s.lat, s.lon, 0.7]);
+        const yellowHeat = L.heatLayer(yellowData, {
+          radius: 30,
+          blur: 40,
+          maxZoom: 10,
+          max: 0.6,
+          minOpacity: 0.4,
+          gradient: {
+            0.0: 'rgba(245, 124, 0, 0)',
+            0.2: 'rgba(245, 124, 0, 0.2)',
+            0.4: 'rgba(251, 140, 0, 0.4)',
+            0.6: 'rgba(255, 193, 7, 0.6)',
+            0.8: 'rgba(255, 224, 130, 0.8)',
+            1.0: 'rgba(255, 241, 179, 1.0)'
+          }
+        }).addTo(map);
+        heatmapLayers.push(yellowHeat);
+      }
     }
 
     // --- TOGGLE DE CAPAS Y HEATMAP ---

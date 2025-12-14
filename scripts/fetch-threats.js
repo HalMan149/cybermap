@@ -10,7 +10,7 @@ const SOURCES = {
   ipsum: 'https://raw.githubusercontent.com/stamparm/ipsum/master/ipsum.txt',
   blocklist: 'https://lists.blocklist.de/lists/all.txt',
   // PhishStats deshabilitado - sitio inaccesible
-  sans: 'https://isc.sans.edu/api/sources/attacks/999' // Endpoint correcto (1000 discontinuado)
+  sans: 'https://isc.sans.edu/api/sources/attacks/' // Endpoint sin número (como indicaste)
 };
 
 // Coordenadas por país (para fallback)
