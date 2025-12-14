@@ -10,7 +10,7 @@ const SOURCES = {
   ipsum: 'https://raw.githubusercontent.com/stamparm/ipsum/master/ipsum.txt',
   blocklist: 'https://lists.blocklist.de/lists/all.txt',
   // PhishStats deshabilitado - sitio inaccesible
-  sans: 'https://isc.sans.edu/api/sources/attacks/' // Endpoint sin número (como indicaste)
+  sans: 'https://isc.sans.edu/api/sources/attacks/' // Sin /1000 - endpoint correcto
 };
 
 // Coordenadas por país (para fallback)
@@ -293,41 +293,22 @@ async function fetchSANS() {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     
     const xmlText = await response.text();
-    console.log('   XML descargado, tamaño:', xmlText.length, 'bytes');
-    console.log('   Primeros 200 caracteres:', xmlText.substring(0, 200));
-    
     const events = [];
     
-    // Split por <data> tags
+    // Split por <data> tags y parsear
     const dataTags = xmlText.split('<data>').slice(1, 31);
-    console.log('   Bloques <data> encontrados:', dataTags.length);
-    
-    let processed = 0;
-    let geoSuccess = 0;
     
     for (const dataBlock of dataTags) {
-      processed++;
-      
-      // Extraer IP
       const ipMatch = dataBlock.match(/<ip>([\d.]+)<\/ip>/);
-      if (!ipMatch) {
-        console.log(`   Bloque ${processed}: No se encontró IP`);
-        continue;
-      }
+      if (!ipMatch) continue;
       
       const ip = ipMatch[1];
-      console.log(`   Bloque ${processed}: IP=${ip}`);
-      
-      // Extraer attacks
       const attacksMatch = dataBlock.match(/<attacks>(\d+)<\/attacks>/);
       const attackCount = attacksMatch ? parseInt(attacksMatch[1]) : 0;
       
-      // Geolocalizar
       const geo = geolocateIP(ip);
       
       if (geo) {
-        geoSuccess++;
-        console.log(`   → Geolocalizado: ${ip} → ${geo.country}`);
         events.push({
           id: `sans-${ip}`,
           ts: new Date().toISOString(),
@@ -338,12 +319,8 @@ async function fetchSANS() {
           actor: { name: geo.org || geo.asn || 'Scanner', confidence: geo.org ? 'medium' : 'low' },
           attacks: attackCount
         });
-      } else {
-        console.log(`   → Geolocalización falló para ${ip}`);
       }
     }
-    
-    console.log(`   Procesados: ${processed}, Geolocalizados: ${geoSuccess}`);
     
     console.log(`✅ SANS ISC: ${events.length} eventos (parseado desde XML)`);
     return events;

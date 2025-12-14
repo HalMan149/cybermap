@@ -2300,13 +2300,13 @@
         clearTimeout(temporaryPointsTimeout);
       }
       
-      // Mostrar puntos
+      // Mostrar puntos (sin SANS para evitar duplicación)
       if (layersVisible.ips) map.addLayer(attacksLayer);
       if (layersVisible.ransomware) map.addLayer(ransomwareLayer);
       if (layersVisible.urlhaus) map.addLayer(urlhausLayer);
       if (layersVisible.threatfox) map.addLayer(threatfoxLayer);
       if (layersVisible.blocklist) map.addLayer(blocklistLayer);
-      if (layersVisible.sans) map.addLayer(sansLayer);
+      // Sans se renderiza en loadAllThreats(), no aquí
       
       // Ocultar heatmap temporalmente
       heatmapLayers.forEach(layer => {
