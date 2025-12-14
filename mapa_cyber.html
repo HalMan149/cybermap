@@ -1043,35 +1043,46 @@
     }
 
     async function loadAttacks() {
-      // Mostrar inmediatamente cache previa si existe
-      if (lastEvents.length) {
-        renderAttacks(lastEvents, { forcePulse: true });
-      }
-
-      let fetched = [];
+      console.log('🔴 Cargando datos desde GitHub Actions...');
+      
       try {
-        const ips = await fetchFireholIPs();
-        const geos = await geolocateIPs(ips);
-        fetched = filterAttacks(geos);
+        const response = await fetch('data/events.json?t=' + Date.now());
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        
+        const data = await response.json();
+        
+        if (!data.events || data.events.length === 0) {
+          console.warn('⚠️ events.json vacío');
+          return;
+        }
+        
+        // Filtrar solo eventos de Firehol
+        const firehol = data.events
+          .filter(e => e.feed === 'firehol' || e.type === 'malicious-ip')
+          .map(e => ({
+            ip: e.indicator,
+            lat: e.src_geo.lat,
+            lon: e.src_geo.lon,
+            country: e.src_geo.cc,
+            asn: e.actor?.name || null,
+            org: e.actor?.name || null
+          }));
+        
+        if (firehol.length > 0) {
+          lastEvents = firehol;
+          renderAttacks(firehol, { forcePulse: false });
+          console.log(`✅ Firehol: ${firehol.length} eventos desde GitHub Actions`);
+          console.log(`   Generado: ${new Date(data.generated_at).toLocaleString('es-ES')}`);
+        }
       } catch (e) {
-        console.warn('No se pudieron cargar/geolocalizar IPs FireHOL', e);
+        console.error('❌ Error cargando events.json:', e.message);
+        
+        // Fallback: usar cache si existe
+        if (lastEvents.length) {
+          console.log('↺ Usando cache local');
+          renderAttacks(lastEvents, { forcePulse: false });
+        }
       }
-
-      if (fetched.length > 0) {
-        lastEvents = fetched;
-        try { localStorage.setItem(CACHE_KEY, JSON.stringify({ ts: Date.now(), data: fetched })); } catch(_) {}
-        renderAttacks(fetched, { forcePulse: false });
-        console.log(`✓ Cyber eventos cargados (FireHOL+geo): ${fetched.length}`);
-        return;
-      }
-
-      if (lastEvents.length) {
-        console.warn('Eventos vacíos, reutilizando último dataset en cache');
-        renderAttacks(lastEvents, { forcePulse: false });
-        return;
-      }
-
-      console.warn('Sin datos (FireHOL+cache vacíos). No se muestran eventos.');
     }
 
     loadAttacks();
