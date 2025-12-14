@@ -546,13 +546,7 @@
       'https://raw.githack.com/firehol/blocklist-ipsets/master/firehol_level1.netset'
     ];
     const MAX_FIREHOL_IPS = 40; // Reducido para menos peticiones
-    // Múltiples servicios de geolocalización (fallback)
-    const GEO_SERVICES = [
-      { name: 'ipwho.is', url: (ip) => `https://ipwho.is/${ip}`, parse: (data) => data.success ? data : null },
-      { name: 'ip-api.com', url: (ip) => `http://ip-api.com/json/${ip}`, parse: (data) => data.status === 'success' ? { success: true, latitude: data.lat, longitude: data.lon, country: data.country } : null },
-      { name: 'ipapi.co', url: (ip) => `https://ipapi.co/${ip}/json/`, parse: (data) => data.latitude ? { success: true, latitude: data.latitude, longitude: data.longitude, country: data.country_name } : null }
-    ];
-    let currentGeoServiceIndex = 0;
+    const GEO_ENDPOINT = (ip) => `https://ipwho.is/${ip}`;
     const CACHE_KEY = 'cyber_attacks_cache';
     const RANSOMWARE_CACHE_KEY = 'ransomware_victims_cache';
     const URLHAUS_CACHE_KEY = 'feodo_botnets_cache';
@@ -753,61 +747,18 @@
       return [];
     }
 
-    // Geolocalización inteligente por lotes con fallback
     async function geolocateIPs(ips) {
       const results = [];
-      const BATCH_SIZE = 10;
-      let failedBatches = 0;
-      let waitTime = 1000; // Empieza con 1 segundo
-      
-      for (let i = 0; i < ips.length; i += BATCH_SIZE) {
-        const batch = ips.slice(i, i + BATCH_SIZE);
-        let batchSuccess = 0;
-        
-        for (const ip of batch) {
-          try {
-            const service = GEO_SERVICES[currentGeoServiceIndex];
-            const response = await fetch(service.url(ip), { cache: 'no-store' });
-            const data = await response.json();
-            const geo = service.parse(data);
-            
-            if (geo && typeof geo.latitude === 'number' && typeof geo.longitude === 'number') {
-              results.push({ ip, lat: geo.latitude, lon: geo.longitude, country: geo.country });
-              batchSuccess++;
-            }
-          } catch (_) {}
-          await delay(150);
-        }
-        
-        // Si ninguna del lote funcionó
-        if (batchSuccess === 0) {
-          failedBatches++;
-          console.warn(`⚠️ Lote ${Math.floor(i/BATCH_SIZE) + 1} falló completamente. Esperando ${waitTime/1000}s...`);
-          
-          // Después de 5 lotes fallidos, cambiar de servicio
-          if (failedBatches >= 5) {
-            currentGeoServiceIndex = (currentGeoServiceIndex + 1) % GEO_SERVICES.length;
-            const newService = GEO_SERVICES[currentGeoServiceIndex].name;
-            console.log(`🔄 Cambiando a servicio: ${newService}`);
-            failedBatches = 0;
-            waitTime = 1000; // Reset
-          } else {
-            await delay(waitTime);
-            waitTime = Math.min(waitTime * 1.5, 5000); // Incremento exponencial, máx 5s
+      for (const ip of ips) {
+        try {
+          const geo = await fetch(GEO_ENDPOINT(ip), { cache: 'no-store' }).then(r => r.json());
+          if (geo && geo.success && typeof geo.latitude === 'number' && typeof geo.longitude === 'number') {
+            results.push({ ip, lat: geo.latitude, lon: geo.longitude, country: geo.country });
           }
-        } else {
-          // Reset si el lote tuvo éxito
-          failedBatches = 0;
-          waitTime = 1000;
-          if (results.length % 20 === 0) {
-            console.log(`  ✓ ${results.length} IPs geolocalizadas...`);
-          }
-        }
-        
-        if (results.length >= 40) break; // Límite total
+        } catch (_) {}
+        await delay(180); // throttle para no quemar la API
       }
-      
-      console.log(`✅ Total: ${results.length} / ${ips.length} IPs geolocalizadas`);
+      console.log(`Geolocalizadas ${results.length} / ${ips.length} IPs`);
       return results;
     }
 
