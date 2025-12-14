@@ -158,23 +158,30 @@
       align-items: stretch;
       padding-top: 8px;
       padding-bottom: 8px;
-      padding-right: 8px;
+      padding-right: 4px;
       max-height: 100%;
-      scrollbar-width: thin;
-      scrollbar-color: rgba(109, 213, 237, 0.3) transparent;
     }
+    /* Scrollbar fino y discreto */
     .maps-container::-webkit-scrollbar {
-      width: 6px;
+      width: 4px;
     }
     .maps-container::-webkit-scrollbar-track {
-      background: transparent;
+      background: rgba(0, 0, 0, 0.2);
+      border-radius: 2px;
     }
     .maps-container::-webkit-scrollbar-thumb {
-      background: rgba(109, 213, 237, 0.3);
-      border-radius: 3px;
+      background: rgba(109, 213, 237, 0.25);
+      border-radius: 2px;
     }
     .maps-container::-webkit-scrollbar-thumb:hover {
-      background: rgba(109, 213, 237, 0.5);
+      background: rgba(109, 213, 237, 0.4);
+    }
+    /* Firefox */
+    @supports (scrollbar-width: thin) {
+      .maps-container {
+        scrollbar-width: thin;
+        scrollbar-color: rgba(109, 213, 237, 0.25) rgba(0, 0, 0, 0.2);
+      }
     }
     
     .map-card {
