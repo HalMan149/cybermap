@@ -1,0 +1,45 @@
+name: Actualizar Amenazas Cibernéticas
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'  # Cada 5 minutos
+  workflow_dispatch:  # Permite ejecución manual
+
+jobs:
+  update-threats:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Descargar GeoLite2
+        run: |
+          # Descargar base de datos GeoLite2 (sin necesidad de cuenta)
+          wget -q https://github.com/P3TERX/GeoLite.mmdb/raw/download/GeoLite2-City.mmdb
+          echo "✅ GeoLite2 descargado"
+      
+      - name: Instalar dependencias
+        run: |
+          npm install maxmind node-fetch
+          echo "✅ Dependencias instaladas"
+      
+      - name: Procesar feeds de amenazas
+        run: |
+          node scripts/fetch-threats.js
+          echo "✅ Feeds procesados y events.json generado"
+      
+      - name: Commit y push
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/events.json
+          git diff --staged --quiet || git commit -m "🤖 Auto: Actualizar amenazas $(date +'%Y-%m-%d %H:%M')"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
