@@ -540,25 +540,55 @@
       });
     }
 
-    // Sincronización UTC atómica + fallback
+    // Sincronización UTC atómica con múltiples servicios
     async function syncUTCAtomic() {
-      try {
-        const resp = await fetch('https://timeapi.io/api/Time/current/zone?timeZone=UTC', { cache: 'no-store' });
-        const data = await resp.json();
-        utcRef = new Date(data.dateTime);
-        utcError = false;
-      } catch(e) {
-        utcRef = new Date();
-        utcError = true;
+      const timeAPIs = [
+        'https://timeapi.io/api/Time/current/zone?timeZone=UTC',
+        'https://worldtimeapi.org/api/timezone/Etc/UTC',
+        'http://worldclockapi.com/api/json/utc/now'
+      ];
+      
+      for (const api of timeAPIs) {
+        try {
+          const resp = await fetch(api, { cache: 'no-store' });
+          const data = await resp.json();
+          
+          // Parsear según el servicio
+          if (data.dateTime) {
+            utcRef = new Date(data.dateTime);
+          } else if (data.datetime) {
+            utcRef = new Date(data.datetime);
+          } else if (data.currentDateTime) {
+            utcRef = new Date(data.currentDateTime);
+          } else {
+            continue; // Probar siguiente API
+          }
+          
+          utcError = false;
+          console.log(`🕐 Reloj sincronizado con ${api.split('/')[2]} - ${utcRef.toISOString()}`);
+          updateCentralUTCAndRelojes();
+          return; // Éxito, salir
+        } catch(e) {
+          console.warn(`⚠️ Sincronización falló con ${api.split('/')[2]}`);
+        }
       }
+      
+      // Si todos fallan, usar hora local
+      utcRef = new Date();
+      utcError = true;
+      console.warn('⚠️ Usando hora local (todas las APIs de tiempo fallaron)');
       updateCentralUTCAndRelojes();
     }
 
-    // Primera actualización inmediata
+    // Primera sincronización inmediata
     updateCentralUTCAndRelojes();
     syncUTCAtomic();
-    setInterval(syncUTCAtomic, 5 * 60 * 1000); // cada 5 min
-    setInterval(updateCentralUTCAndRelojes, 60000); // cada 1 min (usa utcRef vigente)
+    
+    // Sincronización atómica cada 24 horas
+    setInterval(syncUTCAtomic, 24 * 60 * 60 * 1000);
+    
+    // Actualizar relojes cada minuto (usa utcRef sincronizado)
+    setInterval(updateCentralUTCAndRelojes, 60000);
     // --- CAPA DE EVENTOS (IP maliciosas desde función serverless)
     const attacksLayer = L.layerGroup().addTo(map);
     const ransomwareLayer = L.layerGroup().addTo(map);
