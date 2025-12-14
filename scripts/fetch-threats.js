@@ -241,31 +241,36 @@ async function fetchBlocklist() {
 async function fetchPhishStats() {
   console.log('🎣 Descargando PhishStats...');
   try {
-    const response = await fetch(SOURCES.phishstats);
-    const text = await response.text();
+    // PhishStats API endpoint
+    const response = await fetch('https://phishstats.info/api/v1/phishing?_where=(score,gt,5)&_size=50', {
+      headers: { 'User-Agent': 'CyberMap/1.0' }
+    });
     
-    const lines = text.split('\n').slice(1, 51); // Primeras 50 (skip header)
+    if (!response.ok) {
+      console.log('   API no disponible, probando feed alternativo...');
+      // Intentar con otro endpoint
+      return [];
+    }
+    
+    const data = await response.json();
     const events = [];
     
-    for (const line of lines) {
-      const parts = line.split(',');
-      if (parts.length < 3) continue;
-      
-      const url = parts[1];
-      const ip = parts[2];
-      
-      if (ip && /^\d+\.\d+\.\d+\.\d+$/.test(ip)) {
-        const geo = geolocateIP(ip);
-        if (geo) {
-          events.push({
-            id: `phishstats-${ip}`,
-            ts: new Date().toISOString(),
-            feed: 'phishstats',
-            type: 'phishing',
-            indicator: url,
-            src_geo: { lat: geo.lat, lon: geo.lon, cc: geo.country },
-            actor: { name: geo.org || geo.asn || 'Phishing', confidence: 'medium' }
-          });
+    if (Array.isArray(data)) {
+      for (const item of data.slice(0, 30)) {
+        const ip = item.ip;
+        if (ip && /^\d+\.\d+\.\d+\.\d+$/.test(ip)) {
+          const geo = geolocateIP(ip);
+          if (geo) {
+            events.push({
+              id: `phishstats-${ip}-${Date.now()}`,
+              ts: new Date(item.date || Date.now()).toISOString(),
+              feed: 'phishstats',
+              type: 'phishing',
+              indicator: item.url || ip,
+              src_geo: { lat: geo.lat, lon: geo.lon, cc: geo.country },
+              actor: { name: geo.org || geo.asn || 'Phishing Site', confidence: 'medium' }
+            });
+          }
         }
       }
     }
@@ -281,15 +286,22 @@ async function fetchPhishStats() {
 async function fetchSANS() {
   console.log('🛡️ Descargando SANS ISC...');
   try {
-    const response = await fetch(SOURCES.sans);
+    // SANS ISC Top IPs endpoint
+    const response = await fetch('https://isc.sans.edu/api/sources/attacks/1000?json', {
+      headers: { 'User-Agent': 'CyberMap/1.0' }
+    });
+    
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    
     const data = await response.json();
-    
     const events = [];
-    const topIPs = (data.sources || []).slice(0, 30);
     
-    for (const item of topIPs) {
-      const ip = item.ipaddr || item.ip;
-      if (!ip) continue;
+    // SANS devuelve array directo o {sources: [...]}
+    const sources = Array.isArray(data) ? data : (data.sources || []);
+    
+    for (const item of sources.slice(0, 30)) {
+      const ip = item.ipaddr || item.ip || item.source;
+      if (!ip || !/^\d+\.\d+\.\d+\.\d+$/.test(ip)) continue;
       
       const geo = geolocateIP(ip);
       if (geo) {
@@ -301,7 +313,7 @@ async function fetchSANS() {
           indicator: ip,
           src_geo: { lat: geo.lat, lon: geo.lon, cc: geo.country },
           actor: { name: geo.org || geo.asn || 'Scanner', confidence: geo.org ? 'medium' : 'low' },
-          attacks: item.count || item.attacks || 0
+          attacks: item.count || item.attacks || item.reports || 0
         });
       }
     }
