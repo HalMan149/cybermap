@@ -1109,7 +1109,7 @@
         
         console.log(`✅ Datos cargados: ${data.total_events} eventos`);
         console.log(`   Generado: ${new Date(data.generated_at).toLocaleString('es-ES')}`);
-        console.log(`   Fuentes: Firehol(${data.sources.firehol}), Ransomware(${data.sources.ransomware}), Feodo(${data.sources.feodo}), IPsum(${data.sources.ipsum})`);
+        console.log(`   Fuentes: Firehol(${data.sources.firehol}), Ransomware(${data.sources.ransomware}), Feodo(${data.sources.feodo}), IPsum(${data.sources.ipsum}), Blocklist(${data.sources.blocklist || 0})`);
         
         // Separar por tipo
         const firehol = data.events.filter(e => e.feed === 'firehol').map(e => ({
@@ -1135,6 +1135,12 @@
           lat: e.src_geo.lat, lon: e.src_geo.lon, country: e.src_geo.cc
         }));
         
+        const blocklist = data.events.filter(e => e.feed === 'blocklist.de').map(e => ({
+          id: e.id, ip: e.indicator,
+          service: 'SSH/FTP/Mail',
+          lat: e.src_geo.lat, lon: e.src_geo.lon, country: e.src_geo.cc
+        }));
+        
         // Renderizar cada capa
         if (firehol.length > 0) {
           lastEvents = firehol;
@@ -1154,6 +1160,11 @@
         if (ipsum.length > 0) {
           lastThreatfoxIocs = ipsum;
           renderThreatfoxIocs(ipsum, { forcePulse: false, append: false });
+        }
+        
+        if (blocklist.length > 0) {
+          lastBlocklistIps = blocklist;
+          renderBlocklistIps(blocklist, { forcePulse: false, append: false });
         }
         
         updateCounters();
