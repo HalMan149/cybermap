@@ -293,38 +293,48 @@ async function fetchSANS() {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     
     const xmlText = await response.text();
+    console.log('   XML descargado, parseando...');
+    
     const events = [];
     
-    // Parsear XML manualmente (simple)
-    const dataMatches = xmlText.matchAll(/<data>.*?<\/data>/gs);
-    let count = 0;
+    // Parsear XML con regex más simple
+    const ipRegex = /<ip>([\d.]+)<\/ip>/g;
+    const attacksRegex = /<attacks>(\d+)<\/attacks>/g;
     
-    for (const match of dataMatches) {
-      if (count >= 30) break; // Límite
+    const ips = [];
+    const attacks = [];
+    
+    let match;
+    while ((match = ipRegex.exec(xmlText)) !== null) {
+      ips.push(match[1]);
+    }
+    
+    while ((match = attacksRegex.exec(xmlText)) !== null) {
+      attacks.push(parseInt(match[1]));
+    }
+    
+    console.log(`   Encontradas ${ips.length} IPs en el XML`);
+    
+    // Combinar IPs con ataques (misma posición en el XML)
+    const limit = Math.min(30, ips.length, attacks.length);
+    
+    for (let i = 0; i < limit; i++) {
+      const ip = ips[i];
+      const attackCount = attacks[i] || 0;
       
-      const dataBlock = match[0];
-      const ipMatch = dataBlock.match(/<ip>([\d.]+)<\/ip>/);
-      const attacksMatch = dataBlock.match(/<attacks>(\d+)<\/attacks>/);
-      const countMatch = dataBlock.match(/<count>(\d+)<\/count>/);
+      const geo = geolocateIP(ip);
       
-      if (ipMatch) {
-        const ip = ipMatch[1];
-        const geo = geolocateIP(ip);
-        
-        if (geo) {
-          events.push({
-            id: `sans-${ip}`,
-            ts: new Date().toISOString(),
-            feed: 'sans-isc',
-            type: 'honeypot-attack',
-            indicator: ip,
-            src_geo: { lat: geo.lat, lon: geo.lon, cc: geo.country },
-            actor: { name: geo.org || geo.asn || 'Scanner', confidence: geo.org ? 'medium' : 'low' },
-            attacks: parseInt(attacksMatch ? attacksMatch[1] : 0),
-            count: parseInt(countMatch ? countMatch[1] : 0)
-          });
-          count++;
-        }
+      if (geo) {
+        events.push({
+          id: `sans-${ip}`,
+          ts: new Date().toISOString(),
+          feed: 'sans-isc',
+          type: 'honeypot-attack',
+          indicator: ip,
+          src_geo: { lat: geo.lat, lon: geo.lon, cc: geo.country },
+          actor: { name: geo.org || geo.asn || 'Scanner', confidence: geo.org ? 'medium' : 'low' },
+          attacks: attackCount
+        });
       }
     }
     
