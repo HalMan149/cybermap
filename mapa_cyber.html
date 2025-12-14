@@ -546,7 +546,34 @@
       'https://raw.githack.com/firehol/blocklist-ipsets/master/firehol_level1.netset'
     ];
     const MAX_FIREHOL_IPS = 40; // Reducido para menos peticiones
-    const GEO_ENDPOINT = (ip) => `https://ipwho.is/${ip}`;
+    // Pool de servicios de geolocalización con rotación automática
+    const GEO_SERVICES = [
+      {
+        name: 'ipwho.is',
+        url: (ip) => `https://ipwho.is/${ip}`,
+        parse: (data) => data.success ? { lat: data.latitude, lon: data.longitude, country: data.country } : null,
+        rateLimit: 120, // req/min
+        blocked: false
+      },
+      {
+        name: 'geoplugin',
+        url: (ip) => `http://www.geoplugin.net/json.gp?ip=${ip}`,
+        parse: (data) => (data.geoplugin_latitude && data.geoplugin_longitude) ? 
+          { lat: parseFloat(data.geoplugin_latitude), lon: parseFloat(data.geoplugin_longitude), country: data.geoplugin_countryName } : null,
+        rateLimit: 120,
+        blocked: false
+      },
+      {
+        name: 'ip-api.com',
+        url: (ip) => `http://ip-api.com/json/${ip}?fields=status,country,lat,lon`,
+        parse: (data) => data.status === 'success' ? { lat: data.lat, lon: data.lon, country: data.country } : null,
+        rateLimit: 45,
+        blocked: false
+      }
+    ];
+    
+    let currentServiceIndex = 0;
+    let serviceErrors = [0, 0, 0]; // Contador de errores por servicio
     const CACHE_KEY = 'cyber_attacks_cache';
     const RANSOMWARE_CACHE_KEY = 'ransomware_victims_cache';
     const URLHAUS_CACHE_KEY = 'feodo_botnets_cache';
