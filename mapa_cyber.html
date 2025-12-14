@@ -807,53 +807,68 @@
       return [];
     }
 
+    // Geolocalización con cache y multi-servicio
     async function geolocateIPs(ips) {
       const results = [];
-      console.log(`🌍 Geolocalizando ${ips.length} IPs...`);
-      
-      let directSuccess = 0;
-      let proxySuccess = 0;
+      let cacheHits = 0;
+      console.log(`🌍 Geolocalizando ${ips.length} IPs (cache: ${Object.keys(geoCache).length})...`);
       
       for (const ip of ips) {
-        let geolocated = false;
-        
-        // 1. Intentar DIRECTO primero (a veces funciona)
-        try {
-          const geo = await fetch(GEO_ENDPOINT(ip), { cache: 'no-store', mode: 'cors' }).then(r => r.json());
-          if (geo && geo.success && typeof geo.latitude === 'number' && typeof geo.longitude === 'number') {
-            results.push({ ip, lat: geo.latitude, lon: geo.longitude, country: geo.country });
-            directSuccess++;
-            geolocated = true;
-          }
-        } catch (e) {
-          // Falló directo, intentar con proxy
+        // 1. Cache primero
+        if (geoCache[ip]) {
+          results.push({ ip, lat: geoCache[ip].lat, lon: geoCache[ip].lon, country: geoCache[ip].country });
+          cacheHits++;
+          continue;
         }
         
-        // 2. Si falló directo, intentar con PROXY
-        if (!geolocated) {
+        let success = false;
+        
+        // 2. Intentar con servicio actual
+        const service = GEO_SERVICES[currentServiceIndex];
+        if (!service.blocked) {
+          // 2a. Directo
           try {
-            const proxiedUrl = `https://corsproxy.io/?${encodeURIComponent(GEO_ENDPOINT(ip))}`;
-            const geo = await fetch(proxiedUrl, { cache: 'no-store' }).then(r => r.json());
-            
-            if (geo && geo.success && typeof geo.latitude === 'number' && typeof geo.longitude === 'number') {
-              results.push({ ip, lat: geo.latitude, lon: geo.longitude, country: geo.country });
-              proxySuccess++;
-              geolocated = true;
+            const response = await fetch(service.url(ip), { cache: 'no-store', mode: 'cors' });
+            if (response.ok) {
+              const data = await response.json();
+              const geo = service.parse(data);
+              if (geo && typeof geo.lat === 'number' && typeof geo.lon === 'number') {
+                results.push({ ip, lat: geo.lat, lon: geo.lon, country: geo.country });
+                geoCache[ip] = { lat: geo.lat, lon: geo.lon, country: geo.country };
+                success = true;
+              }
             }
-          } catch (e) {
-            // Ambos fallaron, continuar con siguiente IP
+          } catch (e) {}
+          
+          // 2b. Con proxy si falló directo
+          if (!success) {
+            try {
+              const proxiedUrl = CORS_PROXIES[currentProxyIndex](service.url(ip));
+              const response = await fetch(proxiedUrl, { cache: 'no-store' });
+              if (response.ok) {
+                const data = await response.json();
+                const geo = service.parse(data);
+                if (geo && typeof geo.lat === 'number' && typeof geo.lon === 'number') {
+                  results.push({ ip, lat: geo.lat, lon: geo.lon, country: geo.country });
+                  geoCache[ip] = { lat: geo.lat, lon: geo.lon, country: geo.country };
+                  success = true;
+                }
+              }
+            } catch (e) {}
           }
         }
         
-        // Log progreso cada 10 IPs
+        // Log progreso
         if (results.length % 10 === 0 && results.length > 0) {
-          console.log(`  ✓ ${results.length} IPs (${directSuccess} directo, ${proxySuccess} proxy)`);
+          console.log(`  ✓ ${results.length} IPs (${cacheHits} cache, ${results.length - cacheHits} nuevas)`);
         }
         
-        await delay(250); // throttle más largo para evitar saturar
+        await delay(200);
+        if (results.length >= 40) break;
       }
       
-      console.log(`✅ Firehol: ${results.length} IPs (${directSuccess} directo + ${proxySuccess} proxy)`);
+      saveGeoCache();
+      console.log(`✅ Firehol: ${results.length} IPs (${cacheHits} cache + ${results.length - cacheHits} nuevas)`);
       return results;
     }
 
