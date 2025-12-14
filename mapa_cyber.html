@@ -575,7 +575,39 @@
     let currentServiceIndex = 0;
     let serviceErrors = [0, 0, 0]; // Contador de errores por servicio
     const GEO_ENDPOINT = (ip) => `https://ipwho.is/${ip}`; // Compatibilidad
+    
+    // Pool de proxies CORS para rotación
+    const CORS_PROXIES = [
+      (url) => `https://corsproxy.io/?${encodeURIComponent(url)}`,
+      (url) => `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,
+      (url) => `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(url)}`
+    ];
+    let currentProxyIndex = 0;
+    
     const CACHE_KEY = 'cyber_attacks_cache';
+    const GEO_CACHE_KEY = 'geo_ip_cache'; // Cache de IPs geolocalizadas
+    
+    // Cargar cache de geolocalización
+    let geoCache = {};
+    try {
+      const stored = localStorage.getItem(GEO_CACHE_KEY);
+      if (stored) {
+        const parsed = JSON.parse(stored);
+        if (parsed && (Date.now() - parsed.ts) < 30 * 24 * 60 * 60 * 1000) { // 30 días
+          geoCache = parsed.data || {};
+          console.log(`💾 Cache de geolocalización: ${Object.keys(geoCache).length} IPs`);
+        }
+      }
+    } catch(_) {}
+    
+    function saveGeoCache() {
+      try {
+        localStorage.setItem(GEO_CACHE_KEY, JSON.stringify({
+          ts: Date.now(),
+          data: geoCache
+        }));
+      } catch(_) {}
+    }
     const RANSOMWARE_CACHE_KEY = 'ransomware_victims_cache';
     const URLHAUS_CACHE_KEY = 'feodo_botnets_cache';
     const THREATFOX_CACHE_KEY = 'threatfox_iocs_cache';
