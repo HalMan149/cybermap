@@ -1602,10 +1602,9 @@
       }
     }
 
-    // Blocklist.de deshabilitado temporalmente - genera demasiados errores CORS
-    // Si en el futuro se desbloquea, se puede reactivar
-    // loadBlocklistIps();
-    // setInterval(loadBlocklistIps, 60 * 60 * 1000);
+    // Blocklist.de reactivado con sistema multi-servicio mejorado
+    loadBlocklistIps();
+    setInterval(loadBlocklistIps, 60 * 60 * 1000); // cada 60 min
 
     // --- DASHBOARD DE ESTADO DE FUENTES ---
     function logSourcesStatus() {
