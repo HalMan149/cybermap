@@ -297,31 +297,21 @@ async function fetchSANS() {
     
     const events = [];
     
-    // Parsear XML con regex más simple
-    const ipRegex = /<ip>([\d.]+)<\/ip>/g;
-    const attacksRegex = /<attacks>(\d+)<\/attacks>/g;
+    // Split por <data> tags
+    const dataTags = xmlText.split('<data>').slice(1, 31); // Primeros 30
     
-    const ips = [];
-    const attacks = [];
-    
-    let match;
-    while ((match = ipRegex.exec(xmlText)) !== null) {
-      ips.push(match[1]);
-    }
-    
-    while ((match = attacksRegex.exec(xmlText)) !== null) {
-      attacks.push(parseInt(match[1]));
-    }
-    
-    console.log(`   Encontradas ${ips.length} IPs en el XML`);
-    
-    // Combinar IPs con ataques (misma posición en el XML)
-    const limit = Math.min(30, ips.length, attacks.length);
-    
-    for (let i = 0; i < limit; i++) {
-      const ip = ips[i];
-      const attackCount = attacks[i] || 0;
+    for (const dataBlock of dataTags) {
+      // Extraer IP
+      const ipMatch = dataBlock.match(/<ip>([\d.]+)<\/ip>/);
+      if (!ipMatch) continue;
       
+      const ip = ipMatch[1];
+      
+      // Extraer attacks
+      const attacksMatch = dataBlock.match(/<attacks>(\d+)<\/attacks>/);
+      const attackCount = attacksMatch ? parseInt(attacksMatch[1]) : 0;
+      
+      // Geolocalizar
       const geo = geolocateIP(ip);
       
       if (geo) {
