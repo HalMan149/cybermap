@@ -447,22 +447,51 @@
 
     // --- RELOJES DE CIUDADES (zona horaria real para DST automático) ---
     const cityMarkers = [
+      // América del Norte
+      { name: "Anchorage", lat:61.22, lon:-149.90, tz: "America/Anchorage", id:"clkanc" }, // Norte
+      { name: "Seattle", lat:47.61, lon:-122.33, tz: "America/Los_Angeles", id:"clksea" }, // Oeste
       { name: "Los Ángeles", lat:34.05, lon:-118.25, tz: "America/Los_Angeles", id:"clkla" },
       { name: "Denver", lat:39.74, lon:-104.99, tz: "America/Denver", id:"clkden" },
-      { name: "México", lat:19.43, lon:-99.13, tz: "America/Mexico_City", id:"clkcdmx" },
+      { name: "Chicago", lat:41.88, lon:-87.63, tz: "America/Chicago", id:"clkchi" },
       { name: "Nueva York", lat:40.71, lon:-74.01, tz: "America/New_York", id:"clkny" },
-      { name: "Buenos Aires", lat:-34.61, lon:-58.38, tz: "America/Argentina/Buenos_Aires", id:"clkbue" },
+      { name: "México", lat:19.43, lon:-99.13, tz: "America/Mexico_City", id:"clkcdmx" },
+      
+      // América del Sur
+      { name: "Bogotá", lat:4.71, lon:-74.07, tz: "America/Bogota", id:"clkbog" },
+      { name: "Lima", lat:-12.05, lon:-77.04, tz: "America/Lima", id:"clklim" },
       { name: "Sao Paulo", lat:-23.55, lon:-46.63, tz: "America/Sao_Paulo", id:"clksp" },
+      { name: "Buenos Aires", lat:-34.61, lon:-58.38, tz: "America/Argentina/Buenos_Aires", id:"clkbue" },
+      
+      // Europa
+      { name: "Reikiavik", lat:64.13, lon:-21.82, tz: "Atlantic/Reykjavik", id:"clkreyk" }, // Norte
+      { name: "Oslo", lat:59.91, lon:10.75, tz: "Europe/Oslo", id:"clkosl" }, // Norte
       { name: "Londres", lat:51.51, lon:-0.13, tz: "Europe/London", id:"clklon" },
+      { name: "París", lat:48.86, lon:2.35, tz: "Europe/Paris", id:"clkpar" },
       { name: "Madrid", lat:40.42, lon:-3.70, tz: "Europe/Madrid", id:"clkmad" },
-      { name: "El Cairo", lat:30.05, lon:31.25, tz: "Africa/Cairo", id:"clkcai" },
+      { name: "Roma", lat:41.90, lon:12.50, tz: "Europe/Rome", id:"clkrom" },
       { name: "Moscú", lat:55.75, lon:37.62, tz: "Europe/Moscow", id:"clkmsk" },
+      
+      // África
+      { name: "Casablanca", lat:33.57, lon:-7.59, tz: "Africa/Casablanca", id:"clkcas" },
+      { name: "Lagos", lat:6.45, lon:3.39, tz: "Africa/Lagos", id:"clklag" },
+      { name: "El Cairo", lat:30.05, lon:31.25, tz: "Africa/Cairo", id:"clkcai" },
+      { name: "Johannesburgo", lat:-26.20, lon:28.05, tz: "Africa/Johannesburg", id:"clkjnb" },
+      
+      // Asia
+      { name: "Yakutsk", lat:62.03, lon:129.73, tz: "Asia/Yakutsk", id:"clkyak" }, // Rusia norte
+      { name: "Novosibirsk", lat:55.03, lon:82.92, tz: "Asia/Novosibirsk", id:"clknov" }, // Rusia
       { name: "Dubái", lat:25.20, lon:55.27, tz: "Asia/Dubai", id:"clkdx" },
       { name: "Nueva Delhi", lat:28.61, lon:77.20, tz: "Asia/Kolkata", id:"clkdel" },
+      { name: "Bangkok", lat:13.76, lon:100.50, tz: "Asia/Bangkok", id:"clkbkk" },
+      { name: "Singapur", lat:1.29, lon:103.85, tz: "Asia/Singapore", id:"clksin" },
+      { name: "Hong Kong", lat:22.32, lon:114.17, tz: "Asia/Hong_Kong", id:"clkhk" },
       { name: "Pekín", lat:39.90, lon:116.40, tz: "Asia/Shanghai", id:"clkpek" },
       { name: "Tokio", lat:35.68, lon:139.69, tz: "Asia/Tokyo", id:"clktok" },
+      
+      // Oceanía
       { name: "Sídney", lat:-33.87, lon:151.21, tz: "Australia/Sydney", id:"clksyd" },
-      { name: "Perth", lat:-31.95, lon:115.86, tz: "Australia/Perth", id:"clkper" }
+      { name: "Perth", lat:-31.95, lon:115.86, tz: "Australia/Perth", id:"clkper" },
+      { name: "Auckland", lat:-36.85, lon:174.76, tz: "Pacific/Auckland", id:"clkakl" }
     ];
     cityMarkers.forEach(city => {
       L.marker([city.lat, city.lon], {
