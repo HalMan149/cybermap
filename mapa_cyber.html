@@ -546,13 +546,12 @@
       'https://raw.githack.com/firehol/blocklist-ipsets/master/firehol_level1.netset'
     ];
     const MAX_FIREHOL_IPS = 40; // Reducido para menos peticiones
-    // Pool de servicios de geolocalización con rotación automática
+    // Pool optimizado de 7 servicios de geolocalización
     const GEO_SERVICES = [
       {
         name: 'ipwho.is',
         url: (ip) => `https://ipwho.is/${ip}`,
-        parse: (data) => data.success ? { lat: data.latitude, lon: data.longitude, country: data.country } : null,
-        rateLimit: 120, // req/min
+        parse: (data) => data.success ? { lat: data.latitude, lon: data.longitude, country: data.country, asn: data.connection?.asn } : null,
         blocked: false
       },
       {
@@ -560,20 +559,42 @@
         url: (ip) => `http://www.geoplugin.net/json.gp?ip=${ip}`,
         parse: (data) => (data.geoplugin_latitude && data.geoplugin_longitude) ? 
           { lat: parseFloat(data.geoplugin_latitude), lon: parseFloat(data.geoplugin_longitude), country: data.geoplugin_countryName } : null,
-        rateLimit: 120,
         blocked: false
       },
       {
         name: 'ip-api.com',
-        url: (ip) => `http://ip-api.com/json/${ip}?fields=status,country,lat,lon`,
-        parse: (data) => data.status === 'success' ? { lat: data.lat, lon: data.lon, country: data.country } : null,
-        rateLimit: 45,
+        url: (ip) => `http://ip-api.com/json/${ip}?fields=status,country,lat,lon,as,org`,
+        parse: (data) => data.status === 'success' ? { lat: data.lat, lon: data.lon, country: data.country, asn: data.as, org: data.org } : null,
+        blocked: false
+      },
+      {
+        name: 'ipapi.co',
+        url: (ip) => `https://ipapi.co/${ip}/json/`,
+        parse: (data) => data.latitude ? { lat: data.latitude, lon: data.longitude, country: data.country_name, asn: data.asn, org: data.org } : null,
+        blocked: false
+      },
+      {
+        name: 'ipdata.co',
+        url: (ip) => `https://api.ipdata.co/${ip}?api-key=test`,
+        parse: (data) => data.latitude ? { lat: data.latitude, lon: data.longitude, country: data.country_name, asn: data.asn?.asn } : null,
+        blocked: false
+      },
+      {
+        name: 'ipgeolocation.io',
+        url: (ip) => `https://api.ipgeolocation.io/ipgeo?apiKey=&ip=${ip}`,
+        parse: (data) => data.latitude ? { lat: parseFloat(data.latitude), lon: parseFloat(data.longitude), country: data.country_name } : null,
+        blocked: false
+      },
+      {
+        name: 'ip2location.io',
+        url: (ip) => `https://api.ip2location.io/?ip=${ip}`,
+        parse: (data) => (data.latitude && data.longitude) ? { lat: data.latitude, lon: data.longitude, country: data.country_name, asn: data.as } : null,
         blocked: false
       }
     ];
     
     let currentServiceIndex = 0;
-    let serviceErrors = [0, 0, 0]; // Contador de errores por servicio
+    let serviceErrors = [0, 0, 0, 0, 0, 0, 0]; // 7 servicios
     const GEO_ENDPOINT = (ip) => `https://ipwho.is/${ip}`; // Compatibilidad
     
     // Pool de proxies CORS para rotación
