@@ -828,68 +828,93 @@
       return [];
     }
 
-    // Geolocalización con cache y multi-servicio
+    // Geolocalización optimizada con 7 servicios y cache inteligente
     async function geolocateIPs(ips) {
       const results = [];
       let cacheHits = 0;
-      console.log(`🌍 Geolocalizando ${ips.length} IPs (cache: ${Object.keys(geoCache).length})...`);
+      let servicesUsed = {};
+      
+      console.log(`🌍 Geolocalizando ${ips.length} IPs con ${GEO_SERVICES.length} servicios (cache: ${Object.keys(geoCache).length})...`);
       
       for (const ip of ips) {
-        // 1. Cache primero
+        // 1. Cache primero - INSTANTÁNEO
         if (geoCache[ip]) {
-          results.push({ ip, lat: geoCache[ip].lat, lon: geoCache[ip].lon, country: geoCache[ip].country });
+          results.push({ ip, ...geoCache[ip] });
           cacheHits++;
           continue;
         }
         
         let success = false;
+        let attempts = 0;
         
-        // 2. Intentar con servicio actual
-        const service = GEO_SERVICES[currentServiceIndex];
-        if (!service.blocked) {
-          // 2a. Directo
-          try {
-            const response = await fetch(service.url(ip), { cache: 'no-store', mode: 'cors' });
-            if (response.ok) {
-              const data = await response.json();
-              const geo = service.parse(data);
-              if (geo && typeof geo.lat === 'number' && typeof geo.lon === 'number') {
-                results.push({ ip, lat: geo.lat, lon: geo.lon, country: geo.country });
-                geoCache[ip] = { lat: geo.lat, lon: geo.lon, country: geo.country };
-                success = true;
-              }
-            }
-          } catch (e) {}
+        // 2. Intentar con hasta 3 servicios diferentes
+        while (!success && attempts < 3) {
+          const service = GEO_SERVICES[currentServiceIndex];
           
-          // 2b. Con proxy si falló directo
-          if (!success) {
+          if (!service.blocked) {
             try {
-              const proxiedUrl = CORS_PROXIES[currentProxyIndex](service.url(ip));
-              const response = await fetch(proxiedUrl, { cache: 'no-store' });
+              const response = await fetch(service.url(ip), { cache: 'no-store', mode: 'cors' });
+              
               if (response.ok) {
                 const data = await response.json();
                 const geo = service.parse(data);
+                
                 if (geo && typeof geo.lat === 'number' && typeof geo.lon === 'number') {
-                  results.push({ ip, lat: geo.lat, lon: geo.lon, country: geo.country });
-                  geoCache[ip] = { lat: geo.lat, lon: geo.lon, country: geo.country };
+                  const result = {
+                    lat: geo.lat,
+                    lon: geo.lon,
+                    country: geo.country || 'N/D',
+                    asn: geo.asn || null,
+                    org: geo.org || null
+                  };
+                  
+                  results.push({ ip, ...result });
+                  geoCache[ip] = result; // Guardar en cache
                   success = true;
+                  serviceErrors[currentServiceIndex] = 0; // Reset errores
+                  
+                  // Contador de uso por servicio
+                  servicesUsed[service.name] = (servicesUsed[service.name] || 0) + 1;
+                }
+              } else {
+                // Error HTTP - marcar y cambiar
+                serviceErrors[currentServiceIndex]++;
+                
+                if (serviceErrors[currentServiceIndex] >= 5) {
+                  service.blocked = true;
+                  console.warn(`⚠️ ${service.name} bloqueado (5 errores)`);
+                  setTimeout(() => {
+                    service.blocked = false;
+                    serviceErrors[currentServiceIndex] = 0;
+                    console.log(`✅ ${service.name} desbloqueado`);
+                  }, 90000); // 1.5 minutos
                 }
               }
-            } catch (e) {}
+            } catch (e) {
+              serviceErrors[currentServiceIndex]++;
+            }
           }
+          
+          currentServiceIndex = (currentServiceIndex + 1) % GEO_SERVICES.length;
+          attempts++;
         }
         
-        // Log progreso
+        // Log solo cada 10 IPs
         if (results.length % 10 === 0 && results.length > 0) {
-          console.log(`  ✓ ${results.length} IPs (${cacheHits} cache, ${results.length - cacheHits} nuevas)`);
+          console.log(`  ✓ ${results.length}/${ips.length} IPs`);
         }
         
-        await delay(200);
-        if (results.length >= 40) break;
+        await delay(180); // Delay reducido (más rápido)
+        if (results.length >= 30) break; // Límite reducido para ser más rápido
       }
       
       saveGeoCache();
-      console.log(`✅ Firehol: ${results.length} IPs (${cacheHits} cache + ${results.length - cacheHits} nuevas)`);
+      
+      console.log(`✅ ${results.length} IPs (${cacheHits} cache + ${results.length - cacheHits} nuevas)`);
+      if (Object.keys(servicesUsed).length > 0) {
+        console.log(`   Servicios: ${Object.entries(servicesUsed).map(([k,v]) => `${k}(${v})`).join(', ')}`);
+      }
+      
       return results;
     }
 
