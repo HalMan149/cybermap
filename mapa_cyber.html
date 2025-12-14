@@ -545,7 +545,7 @@
       'https://cdn.jsdelivr.net/gh/firehol/blocklist-ipsets@master/firehol_level1.netset',
       'https://raw.githack.com/firehol/blocklist-ipsets/master/firehol_level1.netset'
     ];
-    const MAX_FIREHOL_IPS = 40; // Reducido para menos peticiones
+    const MAX_FIREHOL_IPS = 30; // Optimizado para velocidad
     // Pool optimizado de 7 servicios de geolocalización
     const GEO_SERVICES = [
       {
@@ -772,9 +772,15 @@
           weight: 2.5,
           opacity: 0.9
         }).addTo(attacksLayer);
+        const actorInfo = ev.asn ? `<br><strong>ASN:</strong> ${ev.asn}` : '';
+        const orgInfo = ev.org ? `<br><strong>Org:</strong> ${ev.org}` : '';
+        
         circle.bindPopup(
-          `IP en lista negra: ${ev.ip}<br>` +
-          `País: ${ev.country || 'N/D'}`
+          `<strong style="color:#ff6b6b;">🚨 IP Maliciosa</strong><br>` +
+          `<strong>IP:</strong> ${ev.ip}<br>` +
+          `<strong>País:</strong> ${ev.country || 'N/D'}` +
+          actorInfo +
+          orgInfo
         );
 
         const isNew = forcePulse || !previousIps.has(ev.ip);
@@ -904,8 +910,8 @@
           console.log(`  ✓ ${results.length}/${ips.length} IPs`);
         }
         
-        await delay(180); // Delay reducido (más rápido)
-        if (results.length >= 30) break; // Límite reducido para ser más rápido
+        await delay(150); // Delay optimizado
+        if (results.length >= 25) break; // Límite para velocidad
       }
       
       saveGeoCache();
