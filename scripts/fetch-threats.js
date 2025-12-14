@@ -9,9 +9,8 @@ const SOURCES = {
   feodo: 'https://feodotracker.abuse.ch/downloads/ipblocklist.json',
   ipsum: 'https://raw.githubusercontent.com/stamparm/ipsum/master/ipsum.txt',
   blocklist: 'https://lists.blocklist.de/lists/all.txt',
-  // PhishStats y SANS deshabilitados - APIs no responden correctamente
-  // phishstats: 'https://phishstats.info/phish_score.csv',
-  // sans: 'https://isc.sans.edu/api/sources/attacks/1000?json'
+  // PhishStats deshabilitado - sitio inaccesible
+  sans: 'https://isc.sans.edu/api/sources/attacks/1000' // XML endpoint (funciona)
 };
 
 // Coordenadas por país (para fallback)
@@ -285,41 +284,51 @@ async function fetchPhishStats() {
 }
 
 async function fetchSANS() {
-  console.log('🛡️ Descargando SANS ISC...');
+  console.log('🛡️ Descargando SANS ISC (XML)...');
   try {
-    // SANS ISC Top IPs endpoint
-    const response = await fetch('https://isc.sans.edu/api/sources/attacks/1000?json', {
+    const response = await fetch(SOURCES.sans, {
       headers: { 'User-Agent': 'CyberMap/1.0' }
     });
     
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     
-    const data = await response.json();
+    const xmlText = await response.text();
     const events = [];
     
-    // SANS devuelve array directo o {sources: [...]}
-    const sources = Array.isArray(data) ? data : (data.sources || []);
+    // Parsear XML manualmente (simple)
+    const dataMatches = xmlText.matchAll(/<data>.*?<\/data>/gs);
+    let count = 0;
     
-    for (const item of sources.slice(0, 30)) {
-      const ip = item.ipaddr || item.ip || item.source;
-      if (!ip || !/^\d+\.\d+\.\d+\.\d+$/.test(ip)) continue;
+    for (const match of dataMatches) {
+      if (count >= 30) break; // Límite
       
-      const geo = geolocateIP(ip);
-      if (geo) {
-        events.push({
-          id: `sans-${ip}`,
-          ts: new Date().toISOString(),
-          feed: 'sans-isc',
-          type: 'honeypot-attack',
-          indicator: ip,
-          src_geo: { lat: geo.lat, lon: geo.lon, cc: geo.country },
-          actor: { name: geo.org || geo.asn || 'Scanner', confidence: geo.org ? 'medium' : 'low' },
-          attacks: item.count || item.attacks || item.reports || 0
-        });
+      const dataBlock = match[0];
+      const ipMatch = dataBlock.match(/<ip>([\d.]+)<\/ip>/);
+      const attacksMatch = dataBlock.match(/<attacks>(\d+)<\/attacks>/);
+      const countMatch = dataBlock.match(/<count>(\d+)<\/count>/);
+      
+      if (ipMatch) {
+        const ip = ipMatch[1];
+        const geo = geolocateIP(ip);
+        
+        if (geo) {
+          events.push({
+            id: `sans-${ip}`,
+            ts: new Date().toISOString(),
+            feed: 'sans-isc',
+            type: 'honeypot-attack',
+            indicator: ip,
+            src_geo: { lat: geo.lat, lon: geo.lon, cc: geo.country },
+            actor: { name: geo.org || geo.asn || 'Scanner', confidence: geo.org ? 'medium' : 'low' },
+            attacks: parseInt(attacksMatch ? attacksMatch[1] : 0),
+            count: parseInt(countMatch ? countMatch[1] : 0)
+          });
+          count++;
+        }
       }
     }
     
-    console.log(`✅ SANS ISC: ${events.length} eventos`);
+    console.log(`✅ SANS ISC: ${events.length} eventos (parseado desde XML)`);
     return events;
   } catch (e) {
     console.error('❌ SANS ISC falló:', e.message);
@@ -333,16 +342,17 @@ async function main() {
   await initGeoIP();
   
   // Procesar feeds funcionales en paralelo
-  const [firehol, ransomware, feodo, ipsum, blocklist] = await Promise.all([
+  const [firehol, ransomware, feodo, ipsum, blocklist, sans] = await Promise.all([
     fetchFirehol(),
     fetchRansomware(),
     fetchFeodo(),
     fetchIPsum(),
-    fetchBlocklist()
+    fetchBlocklist(),
+    fetchSANS()
   ]);
   
   // Combinar y deduplicar
-  const allEvents = [...firehol, ...ransomware, ...feodo, ...ipsum, ...blocklist];
+  const allEvents = [...firehol, ...ransomware, ...feodo, ...ipsum, ...blocklist, ...sans];
   
   // Deduplicar por indicador + feed
   const seen = new Set();
@@ -365,7 +375,8 @@ async function main() {
       ransomware: ransomware.length,
       feodo: feodo.length,
       ipsum: ipsum.length,
-      blocklist: blocklist.length
+      blocklist: blocklist.length,
+      sans: sans.length
     },
     events: deduplicated
   };
