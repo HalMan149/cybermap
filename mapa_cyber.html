@@ -298,6 +298,11 @@
       <span class="legend-label">Ataques SSH/FTP</span>
       <span class="legend-count" id="count-blocklist">0</span>
     </div>
+    <div class="legend-item" id="legend-sans" data-layer="sans">
+      <div class="legend-color" style="background: #ffc107;"></div>
+      <span class="legend-label">Honeypot (SANS)</span>
+      <span class="legend-count" id="count-sans">0</span>
+    </div>
     <button id="heatmap-toggle">📍 Modo Puntos</button>
     <button id="reset-view">🎯 Restablecer Vista</button>
     </div>
@@ -585,17 +590,21 @@
     const urlhausLayer = L.layerGroup().addTo(map);
     const threatfoxLayer = L.layerGroup().addTo(map);
     const blocklistLayer = L.layerGroup().addTo(map);
+    const sansLayer = L.layerGroup().addTo(map);
     let heatmapLayers = [];
     const previousIps = new Set();
     const previousRansomware = new Set();
     const previousUrlhaus = new Set();
     const previousThreatfox = new Set();
     const previousBlocklist = new Set();
+    const previousSans = new Set();
     const pulseRefs = [];
     const recentAttacksList = [];
-    let layersVisible = { ips: true, ransomware: true, urlhaus: true, threatfox: true, blocklist: true };
+    let layersVisible = { ips: true, ransomware: true, urlhaus: true, threatfox: true, blocklist: true, sans: true };
     let heatmapMode = true;
     let temporaryPointsTimeout = null;
+    
+    let lastSans = [];
     const DEMO_EVENTS = [
       { ip: 'demo-1', lat: 40.71, lon: -74.01, country: 'US' },
       { ip: 'demo-2', lat: 51.50, lon: -0.12, country: 'UK' },
@@ -1003,6 +1012,33 @@
       document.getElementById('count-urlhaus').textContent = lastUrlhausUrls.length;
       document.getElementById('count-threatfox').textContent = lastThreatfoxIocs.length;
       document.getElementById('count-blocklist').textContent = lastBlocklistIps.length;
+      document.getElementById('count-sans').textContent = lastSans.length;
+    }
+    
+    function renderSANS(items) {
+      if (!items || items.length === 0) return;
+      sansLayer.clearLayers();
+      
+      items.forEach(item => {
+        const circle = L.circleMarker([item.lat, item.lon], {
+          radius: 7,
+          color: '#f57c00',
+          fillColor: '#ffb74d',
+          fillOpacity: 0.6,
+          weight: 2.5,
+          opacity: 0.9
+        }).addTo(sansLayer);
+        
+        circle.bindPopup(
+          `<strong style="color:#ffc107;">🛡️ Honeypot Attack (SANS)</strong><br>` +
+          `<strong>IP:</strong> ${item.ip}<br>` +
+          `<strong>País:</strong> ${item.country}<br>` +
+          `<strong>Ataques:</strong> ${item.attacks}<br>` +
+          `<strong>Actor:</strong> ${item.actor || 'Scanner'}`
+        );
+      });
+      
+      console.log(`▶ ${items.length} ataques honeypot pintados`);
     }
 
     function addToRecentAttacks(type, data) {
@@ -1232,6 +1268,11 @@
         if (blocklist.length > 0) {
           lastBlocklistIps = blocklist;
           renderBlocklistIps(blocklist, { forcePulse: false, append: false });
+        }
+        
+        if (sans.length > 0) {
+          lastSans = sans;
+          renderSANS(sans);
         }
         
         updateCounters();
