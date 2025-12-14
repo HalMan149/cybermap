@@ -330,24 +330,28 @@
       transition: background 0.3s, color 0.3s;
     }
     
-    .pill[data-level="0"] { background: #2d3748; color: #e2e8f0; }
-    .pill.r-scale[data-level="1"] { background: #fbd38d; }
-    .pill.r-scale[data-level="2"] { background: #f6ad55; }
-    .pill.r-scale[data-level="3"] { background: #ed8936; }
-    .pill.r-scale[data-level="4"] { background: #dd6b20; }
-    .pill.r-scale[data-level="5"] { background: #c05621; }
+    /* Escala NOAA correcta: 0=Verde, 1=Amarillo, 2=Naranja, 3=Rojo, 4-5=Rojo oscuro */
+    .pill[data-level="0"] { background: #4caf50; color: #fff; }
+    .pill.r-scale[data-level="0"] { background: #4caf50; color: #fff; }
+    .pill.r-scale[data-level="1"] { background: #ffeb3b; color: #000; }
+    .pill.r-scale[data-level="2"] { background: #ff9800; color: #fff; }
+    .pill.r-scale[data-level="3"] { background: #f44336; color: #fff; }
+    .pill.r-scale[data-level="4"] { background: #c62828; color: #fff; }
+    .pill.r-scale[data-level="5"] { background: #8b0000; color: #fff; }
     
-    .pill.s-scale[data-level="1"] { background: #fed7d7; }
-    .pill.s-scale[data-level="2"] { background: #feb2b2; }
-    .pill.s-scale[data-level="3"] { background: #fc8181; }
-    .pill.s-scale[data-level="4"] { background: #f56565; }
-    .pill.s-scale[data-level="5"] { background: #e53e3e; }
+    .pill.s-scale[data-level="0"] { background: #4caf50; color: #fff; }
+    .pill.s-scale[data-level="1"] { background: #ffeb3b; color: #000; }
+    .pill.s-scale[data-level="2"] { background: #ff9800; color: #fff; }
+    .pill.s-scale[data-level="3"] { background: #f44336; color: #fff; }
+    .pill.s-scale[data-level="4"] { background: #c62828; color: #fff; }
+    .pill.s-scale[data-level="5"] { background: #8b0000; color: #fff; }
     
-    .pill.g-scale[data-level="1"] { background: #c6f6d5; }
-    .pill.g-scale[data-level="2"] { background: #9ae6b4; }
-    .pill.g-scale[data-level="3"] { background: #68d391; }
-    .pill.g-scale[data-level="4"] { background: #48bb78; }
-    .pill.g-scale[data-level="5"] { background: #38a169; }
+    .pill.g-scale[data-level="0"] { background: #4caf50; color: #fff; }
+    .pill.g-scale[data-level="1"] { background: #ffeb3b; color: #000; }
+    .pill.g-scale[data-level="2"] { background: #ff9800; color: #fff; }
+    .pill.g-scale[data-level="3"] { background: #f44336; color: #fff; }
+    .pill.g-scale[data-level="4"] { background: #c62828; color: #fff; }
+    .pill.g-scale[data-level="5"] { background: #8b0000; color: #fff; }
     
     .image-error {
       width: 160px;
