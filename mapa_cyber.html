@@ -1297,7 +1297,7 @@
             }
             return false;
           })
-          .slice(0, 40); // Reducido para menos peticiones
+          .slice(0, 25); // Optimizado para velocidad
         
         console.log(`📊 ${recentBots.length} botnets encontrados, geolocalizando...`);
         
@@ -1458,7 +1458,7 @@
         
         // Ordenar por score (más peligrosas primero)
         ips.sort((a, b) => b.score - a.score);
-        const topIps = ips.slice(0, 40); // Reducido para menos peticiones
+        const topIps = ips.slice(0, 25); // Optimizado para velocidad
         
         console.log(`✓ IPsum: ${topIps.length} IPs malware (score alto), geolocalizando...`);
         
