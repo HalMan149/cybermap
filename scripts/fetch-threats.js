@@ -9,8 +9,9 @@ const SOURCES = {
   feodo: 'https://feodotracker.abuse.ch/downloads/ipblocklist.json',
   ipsum: 'https://raw.githubusercontent.com/stamparm/ipsum/master/ipsum.txt',
   blocklist: 'https://lists.blocklist.de/lists/all.txt',
-  phishstats: 'https://phishstats.info/phish_score.csv',
-  sans: 'https://isc.sans.edu/api/sources/attacks/1000?json'
+  // PhishStats y SANS deshabilitados - APIs no responden correctamente
+  // phishstats: 'https://phishstats.info/phish_score.csv',
+  // sans: 'https://isc.sans.edu/api/sources/attacks/1000?json'
 };
 
 // Coordenadas por país (para fallback)
@@ -331,19 +332,17 @@ async function main() {
   
   await initGeoIP();
   
-  // Procesar todos los feeds en paralelo
-  const [firehol, ransomware, feodo, ipsum, blocklist, phishstats, sans] = await Promise.all([
+  // Procesar feeds funcionales en paralelo
+  const [firehol, ransomware, feodo, ipsum, blocklist] = await Promise.all([
     fetchFirehol(),
     fetchRansomware(),
     fetchFeodo(),
     fetchIPsum(),
-    fetchBlocklist(),
-    fetchPhishStats(),
-    fetchSANS()
+    fetchBlocklist()
   ]);
   
   // Combinar y deduplicar
-  const allEvents = [...firehol, ...ransomware, ...feodo, ...ipsum, ...blocklist, ...phishstats, ...sans];
+  const allEvents = [...firehol, ...ransomware, ...feodo, ...ipsum, ...blocklist];
   
   // Deduplicar por indicador + feed
   const seen = new Set();
@@ -366,9 +365,7 @@ async function main() {
       ransomware: ransomware.length,
       feodo: feodo.length,
       ipsum: ipsum.length,
-      blocklist: blocklist.length,
-      phishstats: phishstats.length,
-      sans: sans.length
+      blocklist: blocklist.length
     },
     events: deduplicated
   };
