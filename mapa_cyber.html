@@ -298,16 +298,6 @@
       <span class="legend-label">Ataques SSH/FTP</span>
       <span class="legend-count" id="count-blocklist">0</span>
     </div>
-    <div class="legend-item" id="legend-phishstats" data-layer="phishstats">
-      <div class="legend-color" style="background: #ff1744;"></div>
-      <span class="legend-label">Phishing</span>
-      <span class="legend-count" id="count-phishstats">0</span>
-    </div>
-    <div class="legend-item" id="legend-sans" data-layer="sans">
-      <div class="legend-color" style="background: #ffc107;"></div>
-      <span class="legend-label">Honeypot (SANS)</span>
-      <span class="legend-count" id="count-sans">0</span>
-    </div>
     <button id="heatmap-toggle">📍 Modo Puntos</button>
     <button id="reset-view">🎯 Restablecer Vista</button>
     </div>
@@ -595,24 +585,17 @@
     const urlhausLayer = L.layerGroup().addTo(map);
     const threatfoxLayer = L.layerGroup().addTo(map);
     const blocklistLayer = L.layerGroup().addTo(map);
-    const phishstatsLayer = L.layerGroup().addTo(map);
-    const sansLayer = L.layerGroup().addTo(map);
     let heatmapLayers = [];
     const previousIps = new Set();
     const previousRansomware = new Set();
     const previousUrlhaus = new Set();
     const previousThreatfox = new Set();
     const previousBlocklist = new Set();
-    const previousPhishstats = new Set();
-    const previousSans = new Set();
     const pulseRefs = [];
     const recentAttacksList = [];
-    let layersVisible = { ips: true, ransomware: true, urlhaus: true, threatfox: true, blocklist: true, phishstats: true, sans: true };
+    let layersVisible = { ips: true, ransomware: true, urlhaus: true, threatfox: true, blocklist: true };
     let heatmapMode = true;
     let temporaryPointsTimeout = null;
-    
-    let lastPhishstats = [];
-    let lastSans = [];
     const DEMO_EVENTS = [
       { ip: 'demo-1', lat: 40.71, lon: -74.01, country: 'US' },
       { ip: 'demo-2', lat: 51.50, lon: -0.12, country: 'UK' },
@@ -1020,59 +1003,6 @@
       document.getElementById('count-urlhaus').textContent = lastUrlhausUrls.length;
       document.getElementById('count-threatfox').textContent = lastThreatfoxIocs.length;
       document.getElementById('count-blocklist').textContent = lastBlocklistIps.length;
-      document.getElementById('count-phishstats').textContent = lastPhishstats.length;
-      document.getElementById('count-sans').textContent = lastSans.length;
-    }
-    
-    function renderPhishStats(items) {
-      if (!items || items.length === 0) return;
-      phishstatsLayer.clearLayers();
-      
-      items.forEach(item => {
-        const circle = L.circleMarker([item.lat, item.lon], {
-          radius: 8,
-          color: '#c62828',
-          fillColor: '#ff5252',
-          fillOpacity: 0.7,
-          weight: 2.5,
-          opacity: 0.9
-        }).addTo(phishstatsLayer);
-        
-        circle.bindPopup(
-          `<strong style="color:#ff1744;">🎣 Phishing</strong><br>` +
-          `<strong>URL:</strong> ${item.url}<br>` +
-          `<strong>País:</strong> ${item.country}<br>` +
-          `<strong>Infraestructura:</strong> ${item.actor || 'Desconocida'}`
-        );
-      });
-      
-      console.log(`▶ ${items.length} sitios de phishing pintados`);
-    }
-    
-    function renderSANS(items) {
-      if (!items || items.length === 0) return;
-      sansLayer.clearLayers();
-      
-      items.forEach(item => {
-        const circle = L.circleMarker([item.lat, item.lon], {
-          radius: 7,
-          color: '#f57c00',
-          fillColor: '#ffb74d',
-          fillOpacity: 0.6,
-          weight: 2.5,
-          opacity: 0.9
-        }).addTo(sansLayer);
-        
-        circle.bindPopup(
-          `<strong style="color:#ffc107;">🛡️ Honeypot Attack</strong><br>` +
-          `<strong>IP:</strong> ${item.ip}<br>` +
-          `<strong>País:</strong> ${item.country}<br>` +
-          `<strong>Ataques:</strong> ${item.attacks}<br>` +
-          `<strong>Actor:</strong> ${item.actor || 'Desconocido'}`
-        );
-      });
-      
-      console.log(`▶ ${items.length} ataques honeypot pintados`);
     }
 
     function addToRecentAttacks(type, data) {
