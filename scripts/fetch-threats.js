@@ -8,7 +8,9 @@ const SOURCES = {
   ransomware: 'https://api.ransomware.live/recentvictims',
   feodo: 'https://feodotracker.abuse.ch/downloads/ipblocklist.json',
   ipsum: 'https://raw.githubusercontent.com/stamparm/ipsum/master/ipsum.txt',
-  blocklist: 'https://lists.blocklist.de/lists/all.txt'
+  blocklist: 'https://lists.blocklist.de/lists/all.txt',
+  phishstats: 'https://phishstats.info/phish_score.csv',
+  sans: 'https://isc.sans.edu/api/sources/attacks/1000?json'
 };
 
 // Coordenadas por país (para fallback)
@@ -236,22 +238,100 @@ async function fetchBlocklist() {
   }
 }
 
+async function fetchPhishStats() {
+  console.log('🎣 Descargando PhishStats...');
+  try {
+    const response = await fetch(SOURCES.phishstats);
+    const text = await response.text();
+    
+    const lines = text.split('\n').slice(1, 51); // Primeras 50 (skip header)
+    const events = [];
+    
+    for (const line of lines) {
+      const parts = line.split(',');
+      if (parts.length < 3) continue;
+      
+      const url = parts[1];
+      const ip = parts[2];
+      
+      if (ip && /^\d+\.\d+\.\d+\.\d+$/.test(ip)) {
+        const geo = geolocateIP(ip);
+        if (geo) {
+          events.push({
+            id: `phishstats-${ip}`,
+            ts: new Date().toISOString(),
+            feed: 'phishstats',
+            type: 'phishing',
+            indicator: url,
+            src_geo: { lat: geo.lat, lon: geo.lon, cc: geo.country },
+            actor: { name: geo.org || geo.asn || 'Phishing', confidence: 'medium' }
+          });
+        }
+      }
+    }
+    
+    console.log(`✅ PhishStats: ${events.length} eventos`);
+    return events;
+  } catch (e) {
+    console.error('❌ PhishStats falló:', e.message);
+    return [];
+  }
+}
+
+async function fetchSANS() {
+  console.log('🛡️ Descargando SANS ISC...');
+  try {
+    const response = await fetch(SOURCES.sans);
+    const data = await response.json();
+    
+    const events = [];
+    const topIPs = (data.sources || []).slice(0, 30);
+    
+    for (const item of topIPs) {
+      const ip = item.ipaddr || item.ip;
+      if (!ip) continue;
+      
+      const geo = geolocateIP(ip);
+      if (geo) {
+        events.push({
+          id: `sans-${ip}`,
+          ts: new Date().toISOString(),
+          feed: 'sans-isc',
+          type: 'honeypot-attack',
+          indicator: ip,
+          src_geo: { lat: geo.lat, lon: geo.lon, cc: geo.country },
+          actor: { name: geo.org || geo.asn || 'Scanner', confidence: geo.org ? 'medium' : 'low' },
+          attacks: item.count || item.attacks || 0
+        });
+      }
+    }
+    
+    console.log(`✅ SANS ISC: ${events.length} eventos`);
+    return events;
+  } catch (e) {
+    console.error('❌ SANS ISC falló:', e.message);
+    return [];
+  }
+}
+
 async function main() {
   console.log('🚀 Iniciando procesamiento de amenazas...\n');
   
   await initGeoIP();
   
   // Procesar todos los feeds en paralelo
-  const [firehol, ransomware, feodo, ipsum, blocklist] = await Promise.all([
+  const [firehol, ransomware, feodo, ipsum, blocklist, phishstats, sans] = await Promise.all([
     fetchFirehol(),
     fetchRansomware(),
     fetchFeodo(),
     fetchIPsum(),
-    fetchBlocklist()
+    fetchBlocklist(),
+    fetchPhishStats(),
+    fetchSANS()
   ]);
   
   // Combinar y deduplicar
-  const allEvents = [...firehol, ...ransomware, ...feodo, ...ipsum, ...blocklist];
+  const allEvents = [...firehol, ...ransomware, ...feodo, ...ipsum, ...blocklist, ...phishstats, ...sans];
   
   // Deduplicar por indicador + feed
   const seen = new Set();
@@ -274,7 +354,9 @@ async function main() {
       ransomware: ransomware.length,
       feodo: feodo.length,
       ipsum: ipsum.length,
-      blocklist: blocklist.length
+      blocklist: blocklist.length,
+      phishstats: phishstats.length,
+      sans: sans.length
     },
     events: deduplicated
   };

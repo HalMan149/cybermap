@@ -1175,7 +1175,7 @@
     }
     
     loadAllThreats();
-    setInterval(loadAllThreats, 10 * 1000); // Actualizar cada 10 segundos (lee el JSON actualizado)
+    setInterval(loadAllThreats, 60 * 1000); // Actualizar cada 60 segundos (menos intrusivo)
 
     // --- CAPA DE RANSOMWARE (víctimas recientes desde Ransomware.live)
     const COUNTRY_COORDS = {
