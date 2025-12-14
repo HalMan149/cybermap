@@ -2269,6 +2269,7 @@
       if (layersVisible.urlhaus) map.addLayer(urlhausLayer);
       if (layersVisible.threatfox) map.addLayer(threatfoxLayer);
       if (layersVisible.blocklist) map.addLayer(blocklistLayer);
+      if (layersVisible.sans) map.addLayer(sansLayer);
       
       // Ocultar heatmap temporalmente
       heatmapLayers.forEach(layer => {
@@ -2285,6 +2286,7 @@
         map.removeLayer(urlhausLayer);
         map.removeLayer(threatfoxLayer);
         map.removeLayer(blocklistLayer);
+        map.removeLayer(sansLayer);
         updateHeatmap();
       }, duration);
     }
