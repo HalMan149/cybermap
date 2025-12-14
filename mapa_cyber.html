@@ -1616,7 +1616,8 @@
       console.log(`🟠 IPsum (IPs Malware):             ${String(lastThreatfoxIocs.length).padEnd(3)} puntos ${lastThreatfoxIocs.length > 0 ? '✅' : '⏳'}`);
       console.log(`🟡 Ransomware.live (Víctimas):      ${String(lastRansomwareVictims.length).padEnd(3)} puntos ${lastRansomwareVictims.length === 0 ? '❌' : '✅'}`);
       console.log(`🟣 Feodo Tracker (Botnets):         ${String(lastUrlhausUrls.length).padEnd(3)} puntos ${lastUrlhausUrls.length > 0 ? '✅' : '⏳'}`);
-      console.log(`🔵 Blocklist.de:                    DESHABILITADO (problemas CORS)`);
+      console.log(`🔵 Blocklist.de (SSH/FTP):          ${String(lastBlocklistIps.length).padEnd(3)} puntos ${lastBlocklistIps.length > 0 ? '✅' : '⏳ Intentando...'}`);
+
       console.log('─'.repeat(70));
       console.log(`📍 TOTAL EN MAPA: ${total} puntos de amenaza`);
       console.log('='.repeat(70) + '\n');
