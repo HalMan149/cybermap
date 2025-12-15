@@ -193,6 +193,59 @@ Opacidad reducida (0.5)
 
 ---
 
+---
+
+### 6. 📱 **Panel Lateral de Terremotos Recientes** (estilo cyber)
+
+**Nuevo panel lateral derecho colapsable:**
+
+```
+┌─────────────────────────────────────┐
+│ 🌍 Terremotos Recientes        ◀   │
+├─────────────────────────────────────┤
+│ 📊 Estadísticas                     │
+│   Total: 1530                       │
+│   Últimas 24h: 89                   │
+│   Últimas 6h: 12                    │
+├─────────────────────────────────────┤
+│ 🔴 M7.2                             │
+│ Costa de Chile                      │
+│ hace 15 min                         │
+│ Profundidad: 25 km                  │
+├─────────────────────────────────────┤
+│ 🟠 M5.8                             │
+│ Japón                               │
+│ hace 3h                             │
+│ Profundidad: 45 km                  │
+├─────────────────────────────────────┤
+│ ... (30 terremotos más recientes)  │
+└─────────────────────────────────────┘
+```
+
+**Características:**
+- ✅ Muestra los 30 terremotos más recientes
+- ✅ Ordenados por tiempo (más reciente primero)
+- ✅ **Click en un terremoto → mapa se centra en él**
+- ✅ Animación de highlight al hacer click
+- ✅ Colapsable (click en header)
+- ✅ Scroll interno (lista larga)
+- ✅ Estadísticas en tiempo real
+
+**Colores visuales:**
+- 🔴 < 1 hora (rojo intenso)
+- 🟠 < 6 horas (naranja)
+- 🟡 < 24 horas (amarillo)
+- Borde más grueso si M≥6.0
+
+**Interactividad:**
+```javascript
+onclick="map.setView([lat, lon], 8, {animate: true})"
+// Click → Zoom animado al terremoto
+// Highlight temporal del item
+```
+
+---
+
 ## 🎉 RESULTADO FINAL
 
 El mapa geológico ahora:
@@ -201,5 +254,9 @@ El mapa geológico ahora:
 - 🎯 **Más visual** (pulsos según magnitud)
 - ⏰ **Más actual** (incluye última hora)
 - 📈 **Más completo** (contador de recientes)
+- 📱 **Más interactivo** (panel lateral con navegación)
+- 🎨 **Estilo consistente** (similar al mapa cyber)
 
 **Terremotos < 24h se destacan visualmente con animaciones intensas** 🌍✨
+
+**Click en la lista → Navega directamente al terremoto** 🎯
