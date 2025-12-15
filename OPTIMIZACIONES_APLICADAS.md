@@ -266,6 +266,32 @@ function drawXrayChart(data) {
 
 ---
 
+---
+
+## 🗑️ **ACTUALIZACIÓN: ELIMINACIÓN DE NOTICIAS SINTÉTICAS**
+
+**Fecha:** 15 de Diciembre de 2025 (Segunda revisión)
+
+### Noticias sintéticas eliminadas:
+1. ❌ **Ciberseguridad**: Generaba cifras falsas con `Math.random()`
+2. ❌ **Manchas solares**: Usaba números inventados con `Math.random()`
+
+### Noticias reales mantenidas:
+1. ✅ **Terremotos USGS**: API oficial earthquake.usgs.gov
+2. ✅ **Clima espacial NOAA**: API oficial swpc.noaa.gov
+3. ✅ **Huracanes NHC**: API oficial nhc.noaa.gov
+4. ✅ **ISS Tracker**: API oficial open-notify.org
+5. ✅ **Asteroides NASA**: API oficial JPL/NASA
+6. ✅ **Actividad volcánica**: API oficial USGS
+7. ✅ **AEMET**: RSS oficial aemet.es
+
+### Mejora del filtro AEMET:
+- **Antes**: Filtraba demasiado (descartaba avisos legítimos)
+- **Ahora**: Solo excluye avisos explícitamente "sin riesgo" o "verde"
+- **Lógica mejorada**: Distingue entre "feed vacío" vs "avisos de bajo riesgo"
+
+---
+
 ## 🎉 RESULTADO FINAL
 
 El `index.html` ahora es:
@@ -274,5 +300,7 @@ El `index.html` ahora es:
 - 📊 **Más eficiente** (cache inteligente)
 - 🎨 **Más suave** (requestAnimationFrame)
 - ✅ **Más actualizado** (sin datos obsoletos)
+- 🎯 **100% datos reales** (eliminadas noticias sintéticas)
+- 📰 **AEMET funcional** (filtro mejorado)
 
 **¡Listo para producción!** 🚀

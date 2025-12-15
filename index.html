@@ -942,22 +942,7 @@
           }
         })());
         
-        tasks.push((async () => {
-          try {
-            const hourOfDay = new Date().getHours();
-            const baseAttacks = 150000 + (hourOfDay * 5000);
-            const randomVariation = Math.floor(Math.random() * 20000);
-            const totalAttacks = baseAttacks + randomVariation;
-            return [{
-              icon: '🔒',
-              text: `~${(totalAttacks / 1000).toFixed(0)}k intentos de intrusión detectados en las últimas 24h`,
-              url: 'https://threatmap.checkpoint.com/'
-            }];
-          } catch (e) {
-            console.warn('⚠️ Error ciberseguridad:', e.message);
-            return [];
-          }
-        })());
+        // ELIMINADO: Ciberseguridad sintética (usaba Math.random)
         
         tasks.push((async () => {
           try {
@@ -1063,32 +1048,46 @@
               if (title && title.length > 5 && !title.includes('xmlns')) {
                 let icon = '⚠️';
                 const text = (title + ' ' + desc).toLowerCase();
+                
+                // Asignar icono según el tipo de aviso
                 if (text.includes('nieve') || text.includes('nevada')) icon = '❄️';
                 if (text.includes('viento')) icon = '💨';
                 if (text.includes('lluvia')) icon = '🌧️';
                 if (text.includes('tormenta')) icon = '⛈️';
                 if (text.includes('costa') || text.includes('mar') || text.includes('oleaje')) icon = '🌊';
-                if (text.includes('calor') || text.includes('temperatura')) icon = '🌡️';
+                if (text.includes('calor') || text.includes('temperatura') || text.includes('máximas')) icon = '🌡️';
                 if (text.includes('niebla')) icon = '🌫️';
+                if (text.includes('hielo') || text.includes('helada')) icon = '🧊';
                 
-                const isLow = text.includes('verde') || text.includes('sin aviso') || text.includes('bajo');
-                const isRelevant = text.includes('amarillo') || text.includes('naranja') || text.includes('rojo') || text.includes('importante') || text.includes('peligro') || text.includes('alerta');
-                if (isLow && !isRelevant) continue;
+                // Filtro mejorado: solo excluir avisos explícitamente "sin riesgo" o "verde"
+                const isNoRisk = text.includes('sin riesgo') || text.includes('riesgo mínimo') || 
+                                 (text.includes('verde') && !text.includes('amarillo') && !text.includes('naranja') && !text.includes('rojo'));
                 
-                results.push({
-                  icon,
-                  text: `${title} (AEMET)`,
-                  url: link
-                });
+                // Incluir cualquier aviso que no sea explícitamente "sin riesgo"
+                if (!isNoRisk) {
+                  results.push({
+                    icon,
+                    text: `${title} (AEMET)`,
+                    url: link
+                  });
+                }
               }
             }
             
             if (results.length) {
               console.log(`✅ ${results.length} avisos AEMET cargados desde RSS`);
+              return results;
             } else {
-              console.log('ℹ️ AEMET RSS: Sin avisos en el feed');
+              // Si el feed tiene items pero todos fueron filtrados, no devolver nada
+              // Si el feed está vacío, devolver indicador especial
+              if (items.length === 0) {
+                console.log('ℹ️ AEMET RSS: Feed vacío (sin avisos publicados)');
+                return [{ icon: 'ℹ️', text: 'AEMET: sin avisos meteorológicos destacados', url: 'https://www.aemet.es/es/eltiempo/prediccion/avisos', _isAemetPlaceholder: true }];
+              } else {
+                console.log(`ℹ️ AEMET RSS: ${items.length} avisos encontrados pero filtrados (riesgo bajo)`);
+                return []; // No mostrar nada si solo hay avisos de riesgo bajo
+              }
             }
-            return results;
           } catch (e) {
             console.warn('⚠️ AEMET API no disponible:', e.message);
             return [];
@@ -1103,27 +1102,8 @@
           }
         });
         
-        // Fallback si no hay avisos AEMET
-        const hasAemet = allNews.some(n => (n.text || '').includes('(AEMET)'));
-        if (!hasAemet) {
-          allNews.push({
-            icon: 'ℹ️',
-            text: 'AEMET: sin avisos meteorológicos destacados ahora mismo',
-            url: 'https://www.aemet.es/es/eltiempo/prediccion/avisos'
-          });
-        }
-        
-        // 10. ACTIVIDAD SOLAR RECIENTE - SOHO/LASCO (simulada)
-        try {
-          const sunspot = Math.floor(Math.random() * 50) + 120;
-          allNews.push({
-            icon: '🌞',
-            text: `Número de manchas solares estimado: ~${sunspot}`,
-            url: 'https://www.spaceweather.com/'
-          });
-        } catch (e) {
-          console.warn('⚠️ Error manchas solares:', e.message);
-        }
+        // No añadir fallback aquí - AEMET ya maneja su propio fallback si el feed está vacío
+        // ELIMINADO: Manchas solares sintéticas (usaban Math.random)
         
         if (allNews.length > 0) {
           localStorage.setItem(NEWS_CACHE_KEY, JSON.stringify({ news: allNews, timestamp: Date.now() }));
