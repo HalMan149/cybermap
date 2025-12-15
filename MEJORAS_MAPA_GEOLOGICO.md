@@ -246,6 +246,55 @@ onclick="map.setView([lat, lon], 8, {animate: true})"
 
 ---
 
+---
+
+### 7. 🌋 **Volcanes Activos en Tiempo Real**
+
+**Antes:**
+- Volcanes hardcodeados con fechas antiguas (algunos de 2010)
+- No se actualizaban automáticamente
+
+**Ahora:**
+- ✅ Detección automática de actividad volcánica desde USGS
+- ✅ Filtra eventos sísmicos volcánicos (profundidad < 10km + keywords)
+- ✅ Agrupa múltiples eventos por volcán
+- ✅ Combina volcanes activos + volcanes conocidos
+
+**Sistema de colores y tamaños:**
+
+**🔴 Muy activo (< 24h):**
+- Radio: 12 + magnitud × 2
+- Color: Rojo brillante (#ff0000)
+- Opacidad: 0.9
+- **Animación pulsante fuerte**
+
+**🟠 Activo (< 7 días):**
+- Radio: 10 + magnitud
+- Color: Rojo medio (#ff4444)
+- Opacidad: 0.75
+- Sin animación
+
+**🟡 Monitoreado (< 30 días):**
+- Radio: 8
+- Color: Rojo (#ff4444)
+- Opacidad: 0.4
+- Sin animación
+
+**En popup muestra:**
+```
+🌋 Nombre del volcán
+País/Ubicación
+🔴 ACTIVIDAD RECIENTE
+hace 5 horas
+Eventos sísmicos: 12
+```
+
+**Actualización:**
+- Cada 10 minutos automáticamente
+- Fallback a volcanes conocidos si API falla
+
+---
+
 ## 🎉 RESULTADO FINAL
 
 El mapa geológico ahora:
@@ -256,7 +305,12 @@ El mapa geológico ahora:
 - 📈 **Más completo** (contador de recientes)
 - 📱 **Más interactivo** (panel lateral con navegación)
 - 🎨 **Estilo consistente** (similar al mapa cyber)
+- 🌋 **Volcanes en tiempo real** (detección automática)
 
-**Terremotos < 24h se destacan visualmente con animaciones intensas** 🌍✨
+**Características destacadas:**
+- **Terremotos < 24h** → Pulsan visualmente según magnitud 🌍
+- **Volcanes activos** → Pulsan si hubo actividad < 24h 🌋
+- **Click en lista** → Navegación directa al punto 🎯
+- **Todo actualizado automáticamente** → Sin intervención manual ⚡
 
-**Click en la lista → Navega directamente al terremoto** 🎯
+**¡Sistema geofísico completo y actualizado en tiempo real!** 🚀✨
