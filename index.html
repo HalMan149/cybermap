@@ -1437,13 +1437,31 @@
       ).join('');
     }
     
-    // Actualizar noticias cada 15 minutos
+    // Actualizar noticias cada 5 minutos (recarga datos de AEMET de GitHub Actions)
     setInterval(async () => {
+      console.log('🔄 Actualizando noticias...');
+      
+      // Recargar datos de AEMET desde el servidor (bypass cache)
+      try {
+        const script = document.createElement('script');
+        script.src = `data/aemet.js?t=${Date.now()}`;
+        await new Promise((resolve, reject) => {
+          script.onload = resolve;
+          script.onerror = reject;
+          document.head.appendChild(script);
+        });
+        console.log('  ✓ Datos AEMET recargados');
+      } catch (e) {
+        console.warn('  ⚠️ Error recargando AEMET:', e.message);
+      }
+      
+      // Recargar todas las noticias
       const realNews = await fetchRealNews();
       if (realNews && realNews.length > 0) {
         displayNews(realNews);
+        console.log('  ✓ Noticias actualizadas');
       }
-    }, 900000); // 15 minutos
+    }, 300000); // 5 minutos (GitHub Actions actualiza cada 15, nosotros revisamos cada 5)
     
     // ========== LUNA (IMÁGENES REALES NASA) ==========
     function drawMoon() {
