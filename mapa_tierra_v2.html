@@ -856,6 +856,11 @@
     // ACTUALIZACIÓN AUTOMÁTICA
     // ============================================
     
+    // Inicializar contador de volcanes (no implementado aún)
+    if (document.getElementById('volcanoCount')) {
+      document.getElementById('volcanoCount').textContent = 'Volcanes: En desarrollo';
+    }
+    
     // Actualizar sombra nocturna cada minuto
     setInterval(calculateNightShadow, 60000);
     
