@@ -1,0 +1,41 @@
+name: Actualizar Avisos AEMET
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'  # Cada 15 minutos
+  workflow_dispatch:  # Permite ejecución manual
+
+jobs:
+  update-aemet:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Instalar dependencias
+        run: |
+          npm install node-fetch
+          echo "✅ Dependencias instaladas"
+      
+      - name: Obtener avisos AEMET
+        run: |
+          node scripts/fetch-aemet.js
+          echo "✅ Avisos AEMET procesados y guardados"
+        env:
+          AEMET_API_KEY: ${{ secrets.AEMET_API_KEY }}
+      
+      - name: Commit y push
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/aemet.json data/aemet.js
+          git diff --staged --quiet || git commit -m "🌦️ Auto: Actualizar avisos AEMET $(date +'%Y-%m-%d %H:%M')"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

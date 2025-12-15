@@ -827,6 +827,9 @@
     </div>
   </div>
   
+  <!-- Datos de avisos AEMET generados por GitHub Actions -->
+  <script src="data/aemet.js"></script>
+  
   <script src="https://unpkg.com/suncalc@1.9.0/suncalc.js"></script>
   <script>
     'use strict';
@@ -1168,20 +1171,37 @@
         
         tasks.push((async () => {
           try {
-            console.log('📋 AEMET: Intentando API oficial con API key...');
+            console.log('📋 AEMET: Cargando desde GitHub Actions...');
             
-            // MÉTODO 1: API Oficial de AEMET (con proxy CORS)
-            let apiResults = null;
-            try {
-              const apiUrl = 'https://opendata.aemet.es/opendata/api/avisos/ultimoElaborado';
+            // Leer datos generados por GitHub Actions (sin problemas CORS)
+            if (typeof window.AEMET_AVISOS !== 'undefined' && window.AEMET_AVISOS.avisos) {
+              const data = window.AEMET_AVISOS;
+              console.log(`  ✓ Datos cargados: ${data.total_avisos} avisos`);
+              console.log(`  📅 Generado: ${data.generated_at}`);
               
-              // La API de AEMET tiene CORS bloqueado, necesitamos proxy
-              // Pero los proxies no pasan headers personalizados, así que añadimos la key a la URL
-              const apiUrlWithKey = `${apiUrl}?api_key=${AEMET_API_KEY}`;
-              
-              let metadata = null;
-              // Intentar con TODOS los proxies (el RSS no funciona, la API es nuestra única opción)
-              for (let i = 0; i < PROXIES.length && !metadata; i++) {
+              if (data.avisos.length > 0) {
+                console.log(`✅ ${data.avisos.length} avisos AEMET desde GitHub Actions`);
+                return data.avisos;
+              } else {
+                console.log('ℹ️ AEMET: Sin avisos activos en este momento');
+                return [{
+                  icon: 'ℹ️',
+                  text: 'AEMET: sin avisos meteorológicos destacados',
+                  url: 'https://www.aemet.es/es/eltiempo/prediccion/avisos'
+                }];
+              }
+            } else {
+              console.warn('⚠️ window.AEMET_AVISOS no disponible');
+              return [{
+                icon: 'ℹ️',
+                text: 'AEMET: datos en actualización...',
+                url: 'https://www.aemet.es/es/eltiempo/prediccion/avisos'
+              }];
+            }
+            
+            /* CÓDIGO ANTIGUO CON API DIRECTA - DESHABILITADO
+            let metadata = null;
+            for (let i = 0; i < PROXIES.length && !metadata; i++) {
                 try {
                   const proxyUrl = PROXIES[i](apiUrlWithKey);
                   console.log(`  → Intentando API oficial con proxy ${i+1}/${PROXIES.length}...`);
@@ -1284,16 +1304,7 @@
               return apiResults;
             }
             
-            // MÉTODO 2: RSS de AEMET (DESHABILITADO - devuelve HTML en lugar de RSS)
-            console.warn('📋 AEMET: API oficial falló. RSS no disponible (devuelve HTML).');
-            console.log('ℹ️ AEMET: Mostrando placeholder hasta que API funcione...');
-            return [{ 
-              icon: 'ℹ️', 
-              text: 'AEMET: servicio temporalmente no disponible', 
-              url: 'https://www.aemet.es/es/eltiempo/prediccion/avisos' 
-            }];
-            
-            /* RSS DESHABILITADO - devuelve HTML
+            // Fin de código antiguo con API - continuación del comentario multilinea
             console.log('📋 AEMET: Intentando RSS de avisos (fallback)...');
             const aemetRssUrl = 'https://www.aemet.es/es/eltiempo/prediccion/avisos/rss';
             
@@ -1352,13 +1363,13 @@
               console.log('🔄 Intentando extracción alternativa con regex...');
               return extractAemetWithRegex(rssText);
             }
-            */ // Fin del bloque RSS deshabilitado
+            */ // Fin del código antiguo con API/RSS
           } catch (e) {
-            console.error('❌ AEMET: Error crítico en task:', e.message);
-            return [{ 
-              icon: 'ℹ️', 
-              text: 'AEMET: servicio temporalmente no disponible', 
-              url: 'https://www.aemet.es/es/eltiempo/prediccion/avisos' 
+            console.error('❌ AEMET: Error cargando datos:', e.message);
+            return [{
+              icon: 'ℹ️',
+              text: 'AEMET: servicio temporalmente no disponible',
+              url: 'https://www.aemet.es/es/eltiempo/prediccion/avisos'
             }];
           }
         })());
