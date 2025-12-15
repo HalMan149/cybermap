@@ -656,9 +656,11 @@
         // Limpiar capa de volcanes
         volcanesLayer.clearLayers();
         
+        // Definir now antes del bucle para usarlo después
+        const now = Date.now();
+        
         // Renderizar volcanes
         combinedVolcanoes.forEach(v => {
-          const now = Date.now();
           const hoursAgo = (now - v.lastActivity) / (1000 * 60 * 60);
           const daysAgo = hoursAgo / 24;
           
