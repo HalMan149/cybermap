@@ -1075,23 +1075,53 @@
           try {
             console.log('📋 AEMET: Intentando API oficial con API key...');
             
-            // MÉTODO 1: API Oficial de AEMET (más confiable)
+            // MÉTODO 1: API Oficial de AEMET (con proxy CORS)
             try {
               const apiUrl = 'https://opendata.aemet.es/opendata/api/avisos/ultimoElaborado';
-              const apiResponse = await fetch(apiUrl, {
-                headers: { 'api_key': AEMET_API_KEY },
-                signal: AbortSignal.timeout(10000)
-              });
               
-              if (apiResponse.ok) {
-                const metadata = await apiResponse.json();
-                console.log('  ✓ Metadata obtenida:', metadata.estado, metadata.descripcion);
-                
-                if (metadata.estado === 200 && metadata.datos) {
-                  // Obtener datos reales desde URL temporal
-                  const datosResponse = await fetch(metadata.datos, { signal: AbortSignal.timeout(10000) });
-                  const avisos = await datosResponse.json();
+              // La API de AEMET tiene CORS bloqueado, necesitamos proxy
+              // Pero los proxies no pasan headers personalizados, así que añadimos la key a la URL
+              const apiUrlWithKey = `${apiUrl}?api_key=${AEMET_API_KEY}`;
+              
+              let metadata = null;
+              // Intentar con proxies (solo los 2 primeros, los más rápidos)
+              for (let i = 0; i < 2 && !metadata; i++) {
+                try {
+                  const proxyUrl = PROXIES[i](apiUrlWithKey);
+                  console.log(`  → Intentando API con proxy ${i+1}...`);
+                  const apiResponse = await fetch(proxyUrl, { signal: AbortSignal.timeout(10000) });
                   
+                  if (apiResponse.ok) {
+                    metadata = await apiResponse.json();
+                    console.log(`  ✓ Metadata obtenida con proxy ${i+1}:`, metadata.estado, metadata.descripcion);
+                    break;
+                  }
+                } catch (e) {
+                  console.warn(`  ✗ Proxy ${i+1} falló para API:`, e.message);
+                }
+              }
+              
+              if (metadata && metadata.estado === 200 && metadata.datos) {
+                // Obtener datos reales desde URL temporal (también con proxy por si acaso)
+                let avisos = null;
+                for (let i = 0; i < 2 && !avisos; i++) {
+                  try {
+                    const datosProxyUrl = PROXIES[i](metadata.datos);
+                    const datosResponse = await fetch(datosProxyUrl, { signal: AbortSignal.timeout(10000) });
+                    if (datosResponse.ok) {
+                      avisos = await datosResponse.json();
+                      break;
+                    }
+                  } catch (e) {
+                    // Intentar sin proxy como fallback
+                    if (i === 1) {
+                      const datosResponse = await fetch(metadata.datos, { signal: AbortSignal.timeout(10000) });
+                      avisos = await datosResponse.json();
+                    }
+                  }
+                }
+                
+                if (avisos) {
                   console.log(`  ✓ Datos cargados: ${Array.isArray(avisos) ? avisos.length : 'N/A'} avisos`);
                   
                   // Procesar avisos JSON
@@ -1130,6 +1160,8 @@
                     return results;
                   }
                 }
+              } else {
+                console.warn('⚠️ No se pudieron obtener datos desde URL temporal');
               }
             } catch (apiError) {
               console.warn('⚠️ API oficial AEMET falló:', apiError.message);

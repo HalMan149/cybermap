@@ -328,13 +328,20 @@ function drawXrayChart(data) {
 **Solución ultra-robusta con 3 capas:**
 
 #### **CAPA 1: API Oficial de AEMET** ⭐ (método principal)
-```javascript
-// 1. Obtener metadata con API key
-GET https://opendata.aemet.es/opendata/api/avisos/ultimoElaborado
-Headers: { 'api_key': AEMET_API_KEY }
 
-// 2. Obtener datos desde URL temporal (válida ~1h)
-GET https://opendata.aemet.es/opendata/sh/[HASH_TEMPORAL]
+**Problema CORS resuelto:**
+La API de AEMET bloquea requests directos desde el navegador (falta header CORS).
+
+**Solución:** Usar proxies CORS también para la API oficial
+```javascript
+// 1. Obtener metadata con API key (a través de proxy)
+const apiUrlWithKey = `${apiUrl}?api_key=${AEMET_API_KEY}`;
+const proxyUrl = PROXIES[i](apiUrlWithKey);
+GET proxyUrl
+
+// 2. Obtener datos desde URL temporal (también con proxy)
+const datosProxyUrl = PROXIES[i](metadata.datos);
+GET datosProxyUrl
 ```
 
 **Ventajas:**
@@ -342,6 +349,7 @@ GET https://opendata.aemet.es/opendata/sh/[HASH_TEMPORAL]
 - ✅ Información detallada (provincia, fenómeno, nivel)
 - ✅ Más confiable que RSS
 - ✅ Formato: "Provincia: Fenómeno (nivel)"
+- ✅ **CORS resuelto** con proxy
 
 #### **CAPA 2: RSS con limpieza agresiva** (fallback si API falla)
 - Elimina `<source>` problemáticas
