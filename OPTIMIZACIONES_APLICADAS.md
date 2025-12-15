@@ -321,29 +321,42 @@ function drawXrayChart(data) {
     ✓ Incluido: "Aviso amarillo por viento..."
   ```
 
-### 3. Sistema robusto de parseo AEMET (doble fallback):
-**Problema:** RSS de AEMET tiene errores XML ("mal formado")
+### 3. Sistema AEMET triple capa (API oficial + RSS + regex):
 
-**Solución multi-capa:**
+**Problema:** RSS de AEMET tiene errores XML + URLs temporales de API
 
-**Capa 1: Limpieza agresiva del XML**
+**Solución ultra-robusta con 3 capas:**
+
+#### **CAPA 1: API Oficial de AEMET** ⭐ (método principal)
+```javascript
+// 1. Obtener metadata con API key
+GET https://opendata.aemet.es/opendata/api/avisos/ultimoElaborado
+Headers: { 'api_key': AEMET_API_KEY }
+
+// 2. Obtener datos desde URL temporal (válida ~1h)
+GET https://opendata.aemet.es/opendata/sh/[HASH_TEMPORAL]
+```
+
+**Ventajas:**
+- ✅ Datos estructurados en JSON (sin problemas XML)
+- ✅ Información detallada (provincia, fenómeno, nivel)
+- ✅ Más confiable que RSS
+- ✅ Formato: "Provincia: Fenómeno (nivel)"
+
+#### **CAPA 2: RSS con limpieza agresiva** (fallback si API falla)
 - Elimina `<source>` problemáticas
 - Elimina comentarios XML
-- Elimina declaraciones duplicadas
 - Arregla entidades HTML mal formadas (`&` → `&amp;`)
-- Elimina caracteres de control (0x00-0x1F)
 - Arregla tags sin cerrar (`<br>` → `<br/>`)
-- Limpia espacios excesivos
 
-**Capa 2: Extracción con regex (fallback)**
-Si el XML sigue fallando después de limpiarlo:
+#### **CAPA 3: Extracción con regex** (último recurso)
+Si el XML del RSS falla:
 ```javascript
-// Extrae directamente con regex
 /<item>([\s\S]*?)<\/item>/gi
 /<title>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?<\/title>/i
 ```
 
-**Resultado:** Sistema 100% robusto que funciona incluso con RSS malformado
+**Resultado:** Sistema prácticamente infalible con 3 métodos independientes
 
 ### Mejoras adicionales:
 - Procesa hasta 10 items del RSS (antes solo 5)

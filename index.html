@@ -1073,7 +1073,70 @@
         
         tasks.push((async () => {
           try {
-            console.log('📋 AEMET: Intentando RSS de avisos (multi-proxy)...');
+            console.log('📋 AEMET: Intentando API oficial con API key...');
+            
+            // MÉTODO 1: API Oficial de AEMET (más confiable)
+            try {
+              const apiUrl = 'https://opendata.aemet.es/opendata/api/avisos/ultimoElaborado';
+              const apiResponse = await fetch(apiUrl, {
+                headers: { 'api_key': AEMET_API_KEY },
+                signal: AbortSignal.timeout(10000)
+              });
+              
+              if (apiResponse.ok) {
+                const metadata = await apiResponse.json();
+                console.log('  ✓ Metadata obtenida:', metadata.estado, metadata.descripcion);
+                
+                if (metadata.estado === 200 && metadata.datos) {
+                  // Obtener datos reales desde URL temporal
+                  const datosResponse = await fetch(metadata.datos, { signal: AbortSignal.timeout(10000) });
+                  const avisos = await datosResponse.json();
+                  
+                  console.log(`  ✓ Datos cargados: ${Array.isArray(avisos) ? avisos.length : 'N/A'} avisos`);
+                  
+                  // Procesar avisos JSON
+                  const results = [];
+                  if (Array.isArray(avisos)) {
+                    for (const aviso of avisos.slice(0, 10)) {
+                      // Extraer información del aviso
+                      const provincia = aviso.area?.areaDesc || aviso.provinciaDesc || 'España';
+                      const fenomeno = aviso.fenomeno || aviso.evento || '';
+                      const nivel = aviso.nivel || aviso.nivel_max || '';
+                      
+                      if (fenomeno && provincia) {
+                        let icon = '⚠️';
+                        const text = (fenomeno + ' ' + provincia).toLowerCase();
+                        
+                        if (text.includes('nieve') || text.includes('nevada')) icon = '❄️';
+                        else if (text.includes('viento')) icon = '💨';
+                        else if (text.includes('lluvia')) icon = '🌧️';
+                        else if (text.includes('tormenta')) icon = '⛈️';
+                        else if (text.includes('costa') || text.includes('mar') || text.includes('oleaje')) icon = '🌊';
+                        else if (text.includes('calor') || text.includes('temperatura')) icon = '🌡️';
+                        else if (text.includes('niebla')) icon = '🌫️';
+                        
+                        const nivelText = nivel ? ` (${nivel})` : '';
+                        results.push({
+                          icon,
+                          text: `${provincia}: ${fenomeno}${nivelText} (AEMET)`,
+                          url: 'https://www.aemet.es/es/eltiempo/prediccion/avisos'
+                        });
+                      }
+                    }
+                  }
+                  
+                  if (results.length) {
+                    console.log(`✅ ${results.length} avisos AEMET cargados desde API oficial`);
+                    return results;
+                  }
+                }
+              }
+            } catch (apiError) {
+              console.warn('⚠️ API oficial AEMET falló:', apiError.message);
+            }
+            
+            // MÉTODO 2: RSS de AEMET (fallback)
+            console.log('📋 AEMET: Intentando RSS de avisos (fallback)...');
             const aemetRssUrl = 'https://www.aemet.es/es/eltiempo/prediccion/avisos/rss';
             
             let rssText = null;
