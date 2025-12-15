@@ -1213,19 +1213,10 @@
               return [];
             }
             
-            // Limpieza AGRESIVA del RSS de AEMET (tiene muchos problemas de formato)
+            // Limpieza básica del RSS de AEMET
             let cleanedRss = rssText
-              // Eliminar etiquetas <source> problemáticas
               .replace(/<source[^>]*>/gi, '')
               .replace(/<\/source>/gi, '')
-              // Eliminar comentarios XML
-              .replace(/<!--[\s\S]*?-->/g, '')
-              // Arreglar tags sin cerrar comunes en AEMET
-              .replace(/<br>/gi, '<br/>')
-              .replace(/<hr>/gi, '<hr/>')
-              .replace(/<img([^>]*)>/gi, '<img$1/>')
-              // Eliminar espacios/saltos de línea excesivos
-              .replace(/\s{2,}/g, ' ')
               .trim();
             
             // Re-añadir declaración XML limpia al inicio
