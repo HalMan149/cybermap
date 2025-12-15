@@ -668,7 +668,7 @@
             id="mini-cyber"
             src="mapa_cyber.html?preview=1" 
             title="Mini mapa cyber" 
-            style="position: absolute; top: 50%; left: 50%; width: 220%; height: 220%; border: none; border-radius: 12px; overflow: hidden; pointer-events: none; filter: contrast(1) brightness(1); transform: translate(-50%, -50%) scale(1.0); transform-origin: center;"
+            style="position: absolute; top: 50%; left: 50%; width: 180%; height: 180%; border: none; border-radius: 12px; overflow: hidden; pointer-events: none; filter: contrast(1) brightness(1); transform: translate(-50%, -50%) scale(0.95); transform-origin: center;"
             loading="lazy">
           </iframe>
           <div class="map-overlay">Click para abrir →</div>
@@ -840,7 +840,16 @@
     // ========== NOTICIAS (TICKER CON CACHE) ==========
     const NEWS_CACHE_KEY = 'cached_news';
     const NEWS_CACHE_DURATION = 3600000; // 1 hora
+    const GRAPHS_CACHE_DURATION = 300000; // 5 minutos para gráficas
     const AEMET_API_KEY = 'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJoYWxtYW4xNDlAaG90bWFpbC5jb20iLCJqdGkiOiI3ZGQ5ZTVmNi1lNDEwLTQzZmMtYjNhOC04MGI3NzM2NmVkYTYiLCJpc3MiOiJBRU1FVCIsImlhdCI6MTc2NDg4MzUyMSwidXNlcklkIjoiN2RkOWU1ZjYtZTQxMC00M2ZjLWIzYTgtODBiNzczNjZlZGE2Iiwicm9sZSI6IiJ9.jGtqvEyxNK9InPB75V4xm8KBQn_r1etLlPO8LUqyuys';
+    
+    // Sistema de proxies múltiples (fallback) como en mapa_cyber
+    const PROXIES = [
+      (url) => `https://corsproxy.io/?${encodeURIComponent(url)}`,
+      (url) => `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,
+      (url) => `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(url)}`,
+      (url) => url // intento directo sin proxy
+    ];
     
     const FALLBACK_NEWS = [
       { icon: '🌍', text: 'Sistema de monitoreo geofísico activo', url: '#' },
@@ -1000,11 +1009,30 @@
         
         tasks.push((async () => {
           try {
-            console.log('📋 AEMET: Intentando RSS de avisos (proxy allorigins)...');
+            console.log('📋 AEMET: Intentando RSS de avisos (multi-proxy)...');
             const aemetRssUrl = 'https://www.aemet.es/es/eltiempo/prediccion/avisos/rss';
-            const proxied = `https://api.allorigins.win/raw?url=${encodeURIComponent(aemetRssUrl)}`;
-            const rssResponse = await fetch(proxied, { signal: AbortSignal.timeout(10000) });
-            const rssText = await rssResponse.text();
+            
+            let rssText = null;
+            // Intentar cada proxy en secuencia
+            for (let i = 0; i < PROXIES.length; i++) {
+              try {
+                const proxyUrl = PROXIES[i](aemetRssUrl);
+                console.log(`  → Proxy ${i+1}/${PROXIES.length}...`);
+                const rssResponse = await fetch(proxyUrl, { signal: AbortSignal.timeout(10000) });
+                if (rssResponse.ok) {
+                  rssText = await rssResponse.text();
+                  console.log(`  ✓ Proxy ${i+1} exitoso!`);
+                  break;
+                }
+              } catch (e) {
+                console.warn(`  ✗ Proxy ${i+1} falló: ${e.message}`);
+              }
+            }
+            
+            if (!rssText) {
+              console.warn('AEMET RSS: Todos los proxies fallaron');
+              return [];
+            }
             
             const cleanedRss = rssText
               .replace(/<source[^>]*>/gi, '')
@@ -1075,34 +1103,14 @@
           }
         });
         
-        // AVISOS AEMET hardcodeados mínimos
-        const now = new Date();
-        const day = now.getDate();
-        const month = now.getMonth();
-        if (month === 11 && day >= 4 && day <= 6) {
+        // Fallback si no hay avisos AEMET
+        const hasAemet = allNews.some(n => (n.text || '').includes('(AEMET)'));
+        if (!hasAemet) {
           allNews.push({
-            icon: '🌊',
-            text: 'Asturias/Cantabria/Galicia: Mar combinada 5-6m - Peligro importante (AEMET)',
-            url: 'https://www.aemet.es/es/eltiempo/prediccion/avisos'
-          },{
-            icon: '❄️',
-            text: 'Pirineos/Cordillera Cantábrica: Nieve 5-15cm en cotas altas (AEMET)',
-            url: 'https://www.aemet.es/es/eltiempo/prediccion/avisos'
-          },{
-            icon: '💨',
-            text: 'Almería: Rachas de viento hasta 70km/h (AEMET)',
+            icon: 'ℹ️',
+            text: 'AEMET: sin avisos meteorológicos destacados ahora mismo',
             url: 'https://www.aemet.es/es/eltiempo/prediccion/avisos'
           });
-          console.log('✅ 3 avisos AEMET mostrados (vigentes 4-6 dic)');
-        } else {
-          const hasAemet = allNews.some(n => (n.text || '').includes('(AEMET)'));
-          if (!hasAemet) {
-            allNews.push({
-              icon: 'ℹ️',
-              text: 'AEMET: sin avisos meteorológicos destacados ahora mismo',
-              url: 'https://www.aemet.es/es/eltiempo/prediccion/avisos'
-            });
-          }
         }
         
         // 10. ACTIVIDAD SOLAR RECIENTE - SOHO/LASCO (simulada)
@@ -1402,14 +1410,38 @@
       }
     }
     
-    // ========== GRÁFICO X-RAY (datos JSON propios) ==========
+    // ========== GRÁFICO X-RAY (datos JSON propios con cache) ==========
     async function loadXrayData() {
+      // Intentar cache primero
+      try {
+        const cached = localStorage.getItem('xray_cache');
+        if (cached) {
+          const { data, timestamp } = JSON.parse(cached);
+          if (Date.now() - timestamp < GRAPHS_CACHE_DURATION) {
+            console.log('✓ X-ray desde cache');
+            return data;
+          }
+        }
+      } catch (e) {
+        console.warn('Error leyendo cache X-ray');
+      }
+      
+      // Cargar desde API
       for (const endpoint of XRAY_ENDPOINTS) {
         try {
           const res = await fetch(endpoint, { signal: AbortSignal.timeout(8000) });
           if (!res.ok) throw new Error(`HTTP ${res.status}`);
           const data = await res.json();
           if (Array.isArray(data) && data.length > 0) {
+            // Guardar en cache
+            try {
+              localStorage.setItem('xray_cache', JSON.stringify({
+                data,
+                timestamp: Date.now()
+              }));
+            } catch (e) {
+              console.warn('Error guardando cache X-ray');
+            }
             return data;
           }
         } catch (e) {
@@ -1426,6 +1458,9 @@
         if (fallback) fallback.style.display = 'block';
       return;
     }
+      
+      // Usar requestAnimationFrame para mejor performance
+      requestAnimationFrame(() => {
       const ctx = canvas.getContext('2d');
       const w = canvas.width;
       const h = canvas.height;
@@ -1587,6 +1622,7 @@
       ctx.fillText(lastText.join('   '), labelX, labelY);
 
       fallback.style.display = 'none';
+      }); // Fin del requestAnimationFrame
     }
 
     async function renderXrayChart() {
@@ -1626,9 +1662,35 @@
     }
 
     async function loadSolarWindData() {
+      // Intentar cache primero
+      try {
+        const cached = localStorage.getItem('solarwind_cache');
+        if (cached) {
+          const { data, timestamp } = JSON.parse(cached);
+          if (Date.now() - timestamp < GRAPHS_CACHE_DURATION) {
+            console.log('✓ Solar Wind desde cache');
+            return data;
+          }
+        }
+      } catch (e) {
+        console.warn('Error leyendo cache Solar Wind');
+      }
+      
+      // Cargar desde API
       for (const url of SW_ENDPOINTS) {
         const data = await fetchWithProxy(url);
-        if (Array.isArray(data) && data.length > 2) return data;
+        if (Array.isArray(data) && data.length > 2) {
+          // Guardar en cache
+          try {
+            localStorage.setItem('solarwind_cache', JSON.stringify({
+              data,
+              timestamp: Date.now()
+            }));
+          } catch (e) {
+            console.warn('Error guardando cache Solar Wind');
+          }
+          return data;
+        }
       }
       return null;
     }
@@ -1689,6 +1751,9 @@
         if (fallback) fallback.style.display = 'block';
         return;
       }
+      
+      // Usar requestAnimationFrame para mejor performance
+      requestAnimationFrame(() => {
       const ctx = canvas.getContext('2d');
       const w = canvas.width, h = canvas.height;
       ctx.clearRect(0, 0, w, h);
@@ -1754,6 +1819,7 @@
       ctx.fillStyle = '#e2e8f0';
       ctx.fillText(`N: ${nVals[nVals.length-1].toFixed(1)} / V: ${vVals[vVals.length-1].toFixed(0)} / T: ${(tVals[tVals.length-1]/1e3).toFixed(0)}K`, padding.left, padding.top - 2);
       if (fallback) fallback.style.display = 'none';
+      }); // Fin del requestAnimationFrame
     }
 
     async function renderSolarWind() {
@@ -1775,11 +1841,37 @@
     const KP_ENDPOINT = 'https://services.swpc.noaa.gov/products/noaa-planetary-k-index.json';
 
     async function loadKp() {
+      // Intentar cache primero
+      try {
+        const cached = localStorage.getItem('kp_cache');
+        if (cached) {
+          const { data, timestamp } = JSON.parse(cached);
+          if (Date.now() - timestamp < GRAPHS_CACHE_DURATION) {
+            console.log('✓ Kp desde cache');
+            return data;
+          }
+        }
+      } catch (e) {
+        console.warn('Error leyendo cache Kp');
+      }
+      
+      // Cargar desde API
       try {
         const res = await fetch(KP_ENDPOINT, { signal: AbortSignal.timeout(8000) });
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         const data = await res.json();
-        if (Array.isArray(data) && data.length > 2) return data;
+        if (Array.isArray(data) && data.length > 2) {
+          // Guardar en cache
+          try {
+            localStorage.setItem('kp_cache', JSON.stringify({
+              data,
+              timestamp: Date.now()
+            }));
+          } catch (e) {
+            console.warn('Error guardando cache Kp');
+          }
+          return data;
+        }
       } catch (e) {
         console.warn('Kp fallo:', e.message);
       }
@@ -1793,6 +1885,9 @@
         if (fallback) fallback.style.display = 'block';
         return;
       }
+      
+      // Usar requestAnimationFrame para mejor performance
+      requestAnimationFrame(() => {
       const header = data[0];
       const idxTime = header.findIndex(h => /time/i.test(h));
       const idxKp = header.findIndex(h => /^Kp$/i.test(h));
@@ -1855,6 +1950,7 @@
       const last = points[points.length-1];
       ctx.fillText(`Kp: ${last.k.toFixed(1)}`, padding.left, padding.top - 2);
       if (fallback) fallback.style.display = 'none';
+      }); // Fin del requestAnimationFrame
     }
 
     async function renderKp() {
@@ -1942,23 +2038,28 @@
       btn.classList.toggle('expanded');
     }
     
-    // ========== MINI MAPA (RECARGA EN RESIZE Y CADA 5 MIN) ==========
+    // ========== MINI MAPA (RECARGA OPTIMIZADA CON THROTTLE) ==========
     (function setupMiniMapRefresh() {
       const miniEarth = document.getElementById('mini-earth');
       if (!miniEarth) return;
 
       const baseSrc = 'mapa_tierra_v2.html?preview=1';
       let resizeTimer = null;
+      let lastReload = 0;
+      const RELOAD_THROTTLE = 30000; // Mínimo 30 seg entre recargas
 
       function reloadMiniEarth(reason = '') {
-        const ts = Date.now();
-        miniEarth.src = `${baseSrc}&t=${ts}`;
-        if (reason) {
-          console.log(`↻ Mini mapa recargado (${reason})`);
+        const now = Date.now();
+        if (now - lastReload < RELOAD_THROTTLE) {
+          console.log(`↻ Recarga ${reason} ignorada (throttle activo)`);
+          return;
         }
+        lastReload = now;
+        miniEarth.src = `${baseSrc}&t=${now}`;
+        console.log(`↻ Mini mapa Tierra recargado (${reason})`);
       }
 
-      // Recarga al cambiar el tamaño de la ventana (debounced)
+      // Recarga al cambiar el tamaño de la ventana (debounced + throttled)
       window.addEventListener('resize', () => {
         clearTimeout(resizeTimer);
         resizeTimer = setTimeout(() => reloadMiniEarth('resize'), 300);
@@ -1968,30 +2069,53 @@
       setInterval(() => reloadMiniEarth('interval 5m'), 300000);
 })();
 
-    // Refresco mini-cyber (por ahora solo recarga on-demand si añadimos un id)
+    // Refresco mini-cyber optimizado
     (function setupMiniCyberRefresh() {
       const miniCyber = document.getElementById('mini-cyber');
       if (!miniCyber) return;
+      
       const baseSrc = 'mapa_cyber.html?preview=1';
+      let lastReload = 0;
+      const RELOAD_THROTTLE = 30000; // Mínimo 30 seg entre recargas
+      
       function reload(reason='') {
-        miniCyber.src = `${baseSrc}&t=${Date.now()}`;
-        if (reason) console.log(`↻ Mini cyber recargado (${reason})`);
+        const now = Date.now();
+        if (now - lastReload < RELOAD_THROTTLE) {
+          console.log(`↻ Recarga cyber ${reason} ignorada (throttle activo)`);
+          return;
+        }
+        lastReload = now;
+        miniCyber.src = `${baseSrc}&t=${now}`;
+        console.log(`↻ Mini cyber recargado (${reason})`);
       }
+      
       setInterval(() => reload('interval 5m'), 300000);
     })();
 
-    // ========== INICIALIZACIÓN ==========
+    // ========== INICIALIZACIÓN OPTIMIZADA (carga escalonada) ==========
     window.addEventListener('DOMContentLoaded', () => {
       console.log('🌍 Portal Geofísico inicializado');
       
+      // FASE 1: Crítico inmediato (0ms) - UI básica
       initNews();
       drawMoon();
-      updateSDO();
-      fetchNoaaAlerts();
-      renderXrayChart();
-      renderSolarWind();
-      renderKp();
       loadConnectionInfo();
+      console.log('✓ Fase 1: UI básica cargada');
+      
+      // FASE 2: Visual importante (1 segundo después) - Imágenes
+      setTimeout(() => {
+        updateSDO();
+        fetchNoaaAlerts();
+        console.log('✓ Fase 2: Imágenes solares cargadas');
+      }, 1000);
+      
+      // FASE 3: Gráficas pesadas (3 segundos después) - Canvas
+      setTimeout(() => {
+        renderXrayChart();
+        renderSolarWind();
+        renderKp();
+        console.log('✓ Fase 3: Gráficas cargadas');
+      }, 3000);
       
       // Actualizar luna cada minuto
       setInterval(drawMoon, 60000);
@@ -2002,7 +2126,7 @@
       setInterval(renderSolarWind, 300000);
       setInterval(renderKp, 600000);
       
-      console.log('✓ Todos los componentes cargados');
+      console.log('✓ Todos los componentes inicializados');
     });
 </script>
 </body>
