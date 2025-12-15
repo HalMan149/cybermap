@@ -1420,9 +1420,14 @@
                 return []; // No mostrar nada si solo hay avisos de riesgo bajo
               }
             }
+            */ // Fin del bloque RSS deshabilitado
           } catch (e) {
-            console.warn('⚠️ AEMET API no disponible:', e.message);
-            return [];
+            console.error('❌ AEMET: Error crítico en task:', e.message);
+            return [{ 
+              icon: 'ℹ️', 
+              text: 'AEMET: servicio temporalmente no disponible', 
+              url: 'https://www.aemet.es/es/eltiempo/prediccion/avisos' 
+            }];
           }
         })());
         
