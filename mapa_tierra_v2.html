@@ -221,6 +221,93 @@
     
     /* Ocultar panel en preview */
     body.preview #recent-quakes { display: none; }
+    
+    /* Panel lateral de volcanes activos (estilo cyber rojo/naranja) */
+    #recent-volcanoes {
+      position: absolute; top: 15px; left: 15px; z-index: 2000;
+      background: rgba(33, 11, 11, 0.25); backdrop-filter: blur(16px);
+      border: 2px solid #ff4444; border-radius: 12px; padding: 0;
+      font-family: 'Segoe UI', sans-serif; color: #fff;
+      box-shadow: 0 4px 15px rgba(255, 68, 68, 0.3);
+      transition: all 0.3s ease;
+      width: auto;
+    }
+    #recent-volcanoes:not(.collapsed) {
+      width: 340px;
+      max-height: calc(100vh - 30px);
+    }
+    #volcanoes-header {
+      padding: 10px 12px; cursor: pointer;
+      display: flex; align-items: center; justify-content: space-between;
+      border-bottom: 1px solid rgba(255, 68, 68, 0.3);
+      gap: 10px;
+    }
+    #recent-volcanoes.collapsed #volcanoes-header { 
+      border-bottom: none; 
+      justify-content: center;
+      padding: 8px 10px;
+      gap: 0;
+    }
+    #volcanoes-header:hover { background: rgba(255, 68, 68, 0.1); }
+    #recent-volcanoes h3 {
+      margin: 0; font-size: 0.95em; color: #ff6644;
+      text-shadow: 0 0 6px #ff4444; font-weight: 500;
+      white-space: nowrap;
+    }
+    #recent-volcanoes.collapsed h3 {
+      font-size: 0.8em;
+    }
+    #volcanoes-toggle {
+      font-size: 1em; color: #ff6644; transition: transform 0.3s;
+    }
+    #recent-volcanoes.collapsed #volcanoes-toggle { transform: rotate(180deg); display: none; }
+    #volcanoes-content {
+      max-height: calc(100vh - 90px);
+      overflow-y: auto;
+      transition: max-height 0.3s ease, opacity 0.3s ease, padding 0.3s ease;
+      padding: 12px 15px;
+    }
+    #recent-volcanoes.collapsed #volcanoes-content {
+      max-height: 0;
+      opacity: 0;
+      padding: 0;
+    }
+    .volcano-item {
+      background: rgba(255, 100, 68, 0.08);
+      border-left: 3px solid #ff4444;
+      padding: 10px; margin-bottom: 8px; border-radius: 6px;
+      font-size: 0.82em; cursor: pointer;
+      transition: all 0.3s; animation: slideIn 0.4s ease-out;
+    }
+    .volcano-item:hover {
+      background: rgba(255, 100, 68, 0.18); transform: translateX(3px);
+      box-shadow: 0 2px 8px rgba(255, 68, 68, 0.3);
+    }
+    .volcano-item.very-active {
+      border-left-color: #ff0000; background: rgba(255, 0, 0, 0.1);
+      border-left-width: 4px;
+    }
+    .volcano-item.very-active:hover { background: rgba(255, 0, 0, 0.2); }
+    .volcano-item.highly-active {
+      border-left-width: 5px;
+      box-shadow: 0 0 10px rgba(255, 68, 68, 0.4);
+    }
+    .volcano-name {
+      font-weight: 700; color: #ff6644; font-size: 1.1em; margin-bottom: 4px;
+    }
+    .volcano-item.very-active .volcano-name { color: #ff0000; }
+    .volcano-item.highly-active .volcano-name { font-size: 1.3em; }
+    .volcano-location {
+      color: #ccc; font-size: 0.95em; margin-bottom: 3px;
+    }
+    .volcano-time {
+      color: #ff8844; font-size: 0.9em;
+    }
+    .volcano-events {
+      color: #aaa; font-size: 0.85em; margin-top: 2px;
+    }
+    body.preview #recent-volcanoes { display: none; }
+    
     .legend {
       position: absolute;
       bottom: 30px;
@@ -265,6 +352,22 @@
         <div id="last6h" style="color: #ff6666;">Últimas 6h: --</div>
       </div>
       <div id="quakes-list"></div>
+    </div>
+  </div>
+
+  <div id="recent-volcanoes" class="collapsed">
+    <div id="volcanoes-header">
+      <h3>🌋 Volcanes Activos</h3>
+      <span id="volcanoes-toggle">▶</span>
+    </div>
+    <div id="volcanoes-content">
+      <div id="volcanoes-stats" style="margin-bottom: 12px; padding: 8px; background: rgba(255, 68, 68, 0.1); border-radius: 6px; font-size: 0.85em;">
+        <div style="color: #ff6644; font-weight: 600;">📊 Estadísticas</div>
+        <div id="totalVolcanoes" style="margin-top: 4px;">Total: --</div>
+        <div id="last24hVolc" style="color: #ff6644;">Últimas 24h: --</div>
+        <div id="last7dVolc" style="color: #ff8844;">Última semana: --</div>
+      </div>
+      <div id="volcanoes-list"></div>
     </div>
   </div>
 
@@ -768,6 +871,9 @@
         
         cachedVolcanoData = combinedVolcanoes;
         
+        // Actualizar panel lateral de volcanes
+        updateVolcanosList(combinedVolcanoes);
+        
       } catch (error) {
         console.error('Error cargando volcanes:', error);
         // Usar volcanes hardcodeados como fallback
@@ -842,6 +948,23 @@
     });
     
     console.log(`✅ ${volcanesActivos.length} volcanes conocidos renderizados (fallback)`);
+    
+    // Convertir volcanes al formato del panel y actualizar
+    const volcanosForPanel = volcanesActivos.map(v => {
+      const [year, month] = v.lastActivity.split('-');
+      const activityDate = new Date(parseInt(year), parseInt(month) - 1, 15); // Día 15 del mes
+      return {
+        name: v.name,
+        lat: v.lat,
+        lng: v.lng,
+        country: v.country,
+        lastActivity: activityDate.getTime(),
+        events: [],
+        maxMag: 0
+      };
+    });
+    
+    updateVolcanosList(volcanosForPanel);
   } // Fin de renderFallbackVolcanoes
 
     // ============================================
@@ -1182,10 +1305,18 @@
     // PANEL LATERAL DE TERREMOTOS RECIENTES
     // ============================================
     
-    // Toggle del panel
+    // Toggle del panel de terremotos
     document.getElementById('quakes-header')?.addEventListener('click', function() {
       const panel = document.getElementById('recent-quakes');
       const toggle = document.getElementById('quakes-toggle');
+      panel.classList.toggle('collapsed');
+      toggle.textContent = panel.classList.contains('collapsed') ? '▶' : '◀';
+    });
+    
+    // Toggle del panel de volcanes
+    document.getElementById('volcanoes-header')?.addEventListener('click', function() {
+      const panel = document.getElementById('recent-volcanoes');
+      const toggle = document.getElementById('volcanoes-toggle');
       panel.classList.toggle('collapsed');
       toggle.textContent = panel.classList.contains('collapsed') ? '▶' : '◀';
     });
@@ -1256,6 +1387,85 @@
       }).join('');
       
       console.log(`✓ Lista de terremotos actualizada: ${recent.length} mostrados`);
+    }
+    
+    // Función para actualizar la lista de volcanes
+    function updateVolcanosList(volcanoes) {
+      const volcanosList = document.getElementById('volcanoes-list');
+      if (!volcanosList) return;
+      
+      // Ordenar por actividad más reciente
+      const sorted = [...volcanoes].sort((a, b) => b.lastActivity - a.lastActivity);
+      
+      // Tomar solo los 25 más recientes
+      const recent = sorted.slice(0, 25);
+      
+      // Actualizar estadísticas
+      const now = Date.now();
+      const last24h = volcanoes.filter(v => (now - v.lastActivity) < 24 * 60 * 60 * 1000).length;
+      const last7d = volcanoes.filter(v => (now - v.lastActivity) < 7 * 24 * 60 * 60 * 1000).length;
+      
+      if (document.getElementById('totalVolcanoes')) {
+        document.getElementById('totalVolcanoes').textContent = `Total: ${volcanoes.length}`;
+      }
+      if (document.getElementById('last24hVolc')) {
+        document.getElementById('last24hVolc').textContent = `Últimas 24h: ${last24h}`;
+      }
+      if (document.getElementById('last7dVolc')) {
+        document.getElementById('last7dVolc').textContent = `Última semana: ${last7d}`;
+      }
+      
+      // Generar HTML de la lista
+      volcanosList.innerHTML = recent.map(volcano => {
+        const hoursAgo = (now - volcano.lastActivity) / (1000 * 60 * 60);
+        const daysAgo = hoursAgo / 24;
+        
+        // Determinar clases según actividad
+        let classes = ['volcano-item'];
+        if (daysAgo < 1) classes.push('very-active');
+        if (daysAgo < 1 && volcano.maxMag >= 4.0) classes.push('highly-active');
+        
+        // Formato de tiempo
+        let timeText;
+        if (hoursAgo < 1) {
+          timeText = `hace ${Math.floor(hoursAgo * 60)} min`;
+        } else if (daysAgo < 1) {
+          timeText = `hace ${Math.floor(hoursAgo)}h`;
+        } else if (daysAgo < 7) {
+          timeText = `hace ${Math.floor(daysAgo)} días`;
+        } else {
+          timeText = `hace ${Math.floor(daysAgo / 7)} semanas`;
+        }
+        
+        // Indicador visual según actividad
+        let indicator = '';
+        if (hoursAgo < 6) indicator = '🔴';
+        else if (daysAgo < 1) indicator = '🟠';
+        else if (daysAgo < 7) indicator = '🟡';
+        else indicator = '⚪';
+        
+        // Texto de estado
+        let statusText = '';
+        if (hoursAgo < 6) statusText = '<div style="color: #ff0000; font-weight: 600; font-size: 0.9em;">⚠️ MUY ACTIVO</div>';
+        else if (daysAgo < 1) statusText = '<div style="color: #ff6644; font-weight: 600; font-size: 0.9em;">ACTIVO HOY</div>';
+        
+        return `
+          <div class="${classes.join(' ')}" 
+               onclick="map.setView([${volcano.lat}, ${volcano.lng}], 8, {animate: true, duration: 1}); 
+                        this.style.background='rgba(255,100,68,0.3)'; 
+                        setTimeout(() => this.style.background='', 500);">
+            <div class="volcano-name">${indicator} ${volcano.name}</div>
+            ${volcano.country ? `<div class="volcano-location">${volcano.country}</div>` : ''}
+            ${statusText}
+            <div class="volcano-time">${timeText}</div>
+            ${volcano.events && volcano.events.length > 0 ? 
+              `<div class="volcano-events">📊 ${volcano.events.length} eventos sísmicos${volcano.maxMag ? ` (máx M${volcano.maxMag.toFixed(1)})` : ''}</div>` : 
+              ''}
+          </div>
+        `;
+      }).join('');
+      
+      console.log(`✓ Lista de volcanes actualizada: ${recent.length} mostrados`);
     }
     
     // Actualizar sombra nocturna cada minuto
