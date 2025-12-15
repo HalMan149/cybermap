@@ -7,13 +7,16 @@ async function fetchAemetAvisos() {
   console.log('🌦️ Obteniendo avisos de AEMET...');
   
   try {
-    // Paso 1: Obtener metadata desde API oficial (con header api_key)
-    const apiUrl = 'https://opendata.aemet.es/opendata/api/avisos/ultimoElaborado';
-    console.log('📋 Solicitando metadata...');
+    // Paso 1: Obtener metadata desde API oficial
+    // Según documentación AEMET: https://opendata.aemet.es/dist/index.html
+    const apiUrl = 'https://opendata.aemet.es/opendata/api/avisos_cap/ultimoelaborado/area/esp';
+    console.log('📋 Solicitando metadata desde:', apiUrl);
     
     const metadataResponse = await fetch(apiUrl, {
+      method: 'GET',
       headers: {
-        'api_key': AEMET_API_KEY
+        'api_key': AEMET_API_KEY,
+        'Accept': 'application/json'
       }
     });
     
