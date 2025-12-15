@@ -1008,6 +1008,69 @@
           }
         })());
         
+        // Función auxiliar para extraer avisos AEMET con regex (fallback si XML falla)
+        function extractAemetWithRegex(rssText) {
+          try {
+            const results = [];
+            // Extraer items con regex
+            const itemRegex = /<item>([\s\S]*?)<\/item>/gi;
+            let match;
+            let count = 0;
+            
+            while ((match = itemRegex.exec(rssText)) !== null && count < 10) {
+              const itemContent = match[1];
+              
+              // Extraer título
+              const titleMatch = itemContent.match(/<title>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?<\/title>/i);
+              const title = titleMatch ? titleMatch[1].replace(/<!\[CDATA\[|\]\]>/g, '').trim() : '';
+              
+              // Extraer link
+              const linkMatch = itemContent.match(/<link>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?<\/link>/i);
+              const link = linkMatch ? linkMatch[1].trim() : 'https://www.aemet.es/es/eltiempo/prediccion/avisos';
+              
+              if (title && title.length > 5 && !title.includes('xmlns')) {
+                const text = title.toLowerCase();
+                
+                // Filtrar metadata
+                const isMetadata = text.includes('actualización') && 
+                                  text.includes('mapa') && 
+                                  text.includes('avisos');
+                
+                if (!isMetadata) {
+                  let icon = '⚠️';
+                  if (text.includes('nieve') || text.includes('nevada')) icon = '❄️';
+                  else if (text.includes('viento')) icon = '💨';
+                  else if (text.includes('lluvia')) icon = '🌧️';
+                  else if (text.includes('tormenta')) icon = '⛈️';
+                  else if (text.includes('costa') || text.includes('mar') || text.includes('oleaje')) icon = '🌊';
+                  else if (text.includes('calor') || text.includes('temperatura')) icon = '🌡️';
+                  else if (text.includes('niebla')) icon = '🌫️';
+                  else if (text.includes('hielo') || text.includes('helada')) icon = '🧊';
+                  
+                  console.log(`    ✓ Extraído (regex): "${title}"`);
+                  results.push({
+                    icon,
+                    text: `${title} (AEMET)`,
+                    url: link
+                  });
+                  count++;
+                }
+              }
+            }
+            
+            if (results.length) {
+              console.log(`✅ ${results.length} avisos AEMET extraídos con regex`);
+              return results;
+            } else {
+              console.log('ℹ️ AEMET: No se encontraron avisos (regex)');
+              return [{ icon: 'ℹ️', text: 'AEMET: sin avisos meteorológicos destacados', url: 'https://www.aemet.es/es/eltiempo/prediccion/avisos', _isAemetPlaceholder: true }];
+            }
+          } catch (e) {
+            console.error('❌ Error en extracción regex AEMET:', e.message);
+            return [];
+          }
+        }
+        
         tasks.push((async () => {
           try {
             console.log('📋 AEMET: Intentando RSS de avisos (multi-proxy)...');
@@ -1035,15 +1098,43 @@
               return [];
             }
             
-            const cleanedRss = rssText
+            // Limpieza AGRESIVA del RSS de AEMET (tiene muchos problemas de formato)
+            let cleanedRss = rssText
+              // Eliminar etiquetas <source> problemáticas
               .replace(/<source[^>]*>/gi, '')
-              .replace(/<\/source>/gi, '');
+              .replace(/<\/source>/gi, '')
+              // Eliminar comentarios XML
+              .replace(/<!--[\s\S]*?-->/g, '')
+              // Eliminar declaraciones XML duplicadas
+              .replace(/<\?xml[^>]*\?>/gi, '')
+              // Limpiar entidades HTML mal formadas
+              .replace(/&(?!amp;|lt;|gt;|quot;|apos;|#\d+;|#x[0-9a-fA-F]+;)/g, '&amp;')
+              // Eliminar caracteres de control problemáticos
+              .replace(/[\x00-\x08\x0B\x0C\x0E-\x1F]/g, '')
+              // Arreglar tags sin cerrar comunes en AEMET
+              .replace(/<br>/gi, '<br/>')
+              .replace(/<hr>/gi, '<hr/>')
+              .replace(/<img([^>]*)>/gi, '<img$1/>')
+              // Eliminar espacios/saltos de línea excesivos
+              .replace(/\s{2,}/g, ' ')
+              .trim();
             
+            // Re-añadir declaración XML limpia al inicio
+            if (!cleanedRss.startsWith('<?xml')) {
+              cleanedRss = '<?xml version="1.0" encoding="UTF-8"?>\n' + cleanedRss;
+            }
+            
+            console.log('📋 AEMET: RSS limpiado, intentando parsear...');
             const parser = new DOMParser();
             const xmlDoc = parser.parseFromString(cleanedRss, 'text/xml');
-            if (xmlDoc.querySelector('parsererror')) {
-              console.warn('AEMET RSS con parsererror tras limpieza, saltando feed');
-              return [];
+            
+            const parseError = xmlDoc.querySelector('parsererror');
+            if (parseError) {
+              console.error('❌ AEMET RSS con parsererror tras limpieza:');
+              console.error(parseError.textContent);
+              // Intentar extraer datos con regex como fallback
+              console.log('🔄 Intentando extracción alternativa con regex...');
+              return extractAemetWithRegex(rssText);
             }
             const items = xmlDoc.getElementsByTagName('item');
             if (!items.length) return [];

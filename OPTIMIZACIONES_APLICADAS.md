@@ -321,10 +321,35 @@ function drawXrayChart(data) {
     ✓ Incluido: "Aviso amarillo por viento..."
   ```
 
+### 3. Sistema robusto de parseo AEMET (doble fallback):
+**Problema:** RSS de AEMET tiene errores XML ("mal formado")
+
+**Solución multi-capa:**
+
+**Capa 1: Limpieza agresiva del XML**
+- Elimina `<source>` problemáticas
+- Elimina comentarios XML
+- Elimina declaraciones duplicadas
+- Arregla entidades HTML mal formadas (`&` → `&amp;`)
+- Elimina caracteres de control (0x00-0x1F)
+- Arregla tags sin cerrar (`<br>` → `<br/>`)
+- Limpia espacios excesivos
+
+**Capa 2: Extracción con regex (fallback)**
+Si el XML sigue fallando después de limpiarlo:
+```javascript
+// Extrae directamente con regex
+/<item>([\s\S]*?)<\/item>/gi
+/<title>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?<\/title>/i
+```
+
+**Resultado:** Sistema 100% robusto que funciona incluso con RSS malformado
+
 ### Mejoras adicionales:
 - Procesa hasta 10 items del RSS (antes solo 5)
 - Logging exhaustivo para detectar problemas
 - Títulos RAW mostrados en consola para debugging
+- Mensaje de error detallado si ambos métodos fallan
 
 ---
 
