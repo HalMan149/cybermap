@@ -1008,13 +1008,85 @@
           }
         })());
         
+        // Extracción directa de títulos (último recurso)
+        function extractAemetTitlesDirect(rssText) {
+          console.log('🔍 Extracción directa de títulos (sin <item>)...');
+          const results = [];
+          
+          // Buscar CUALQUIER <title> que parezca un aviso
+          const titleRegex = /<title[^>]*>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?<\/title>/gi;
+          let match;
+          let count = 0;
+          
+          while ((match = titleRegex.exec(rssText)) !== null && count < 20) {
+            let title = match[1].replace(/<[^>]+>/g, '').trim();
+            
+            if (title && title.length > 15) {
+              const text = title.toLowerCase();
+              
+              // Filtrar títulos del canal/feed
+              const isChannelTitle = text.includes('aemet') && 
+                                    (text.includes('avisos') || text.includes('meteorología')) &&
+                                    text.length < 100;
+              const isMetadata = text.includes('actualización del mapa');
+              
+              if (!isChannelTitle && !isMetadata) {
+                let icon = '⚠️';
+                if (text.includes('nieve') || text.includes('nevada')) icon = '❄️';
+                else if (text.includes('viento')) icon = '💨';
+                else if (text.includes('lluvia') || text.includes('precipitación')) icon = '🌧️';
+                else if (text.includes('tormenta')) icon = '⛈️';
+                else if (text.includes('costa') || text.includes('mar') || text.includes('oleaje')) icon = '🌊';
+                else if (text.includes('calor') || text.includes('temperatura')) icon = '🌡️';
+                else if (text.includes('niebla')) icon = '🌫️';
+                
+                console.log(`  [${count+1}] ✅ "${title}"`);
+                results.push({
+                  icon,
+                  text: `${title} (AEMET)`,
+                  url: 'https://www.aemet.es/es/eltiempo/prediccion/avisos'
+                });
+                count++;
+              }
+            }
+          }
+          
+          console.log(`📊 Extracción directa: ${count} avisos encontrados`);
+          return results.length > 0 ? results : [{ 
+            icon: 'ℹ️', 
+            text: 'AEMET: sin avisos meteorológicos destacados', 
+            url: 'https://www.aemet.es/es/eltiempo/prediccion/avisos' 
+          }];
+        }
+        
         // Función auxiliar para extraer avisos AEMET con regex (fallback si XML falla)
         function extractAemetWithRegex(rssText) {
           try {
             console.log('🔍 Extrayendo con regex, RSS length:', rssText.length);
+            
+            // DEBUG: Buscar qué estructura tiene realmente
+            const hasItem = rssText.includes('<item');
+            const hasEntry = rssText.includes('<entry');
+            const hasChannel = rssText.includes('<channel');
+            console.log(`📋 Estructura RSS: <item>=${hasItem}, <entry>=${hasEntry}, <channel>=${hasChannel}`);
+            
+            // Extraer un sample para ver qué tiene
+            const sample = rssText.substring(0, 2000);
+            console.log('📄 Sample RSS (primeros 2000 chars):', sample);
+            
             const results = [];
-            // Extraer items con regex (muy permisivo, captura TODO entre <item> y </item>)
-            const itemRegex = /<item[^>]*>([\s\S]*?)<\/item>/gi;
+            // Intentar múltiples estructuras
+            let itemRegex = /<item[^>]*>([\s\S]*?)<\/item>/gi;
+            if (!hasItem && hasEntry) {
+              // Es un feed Atom
+              itemRegex = /<entry[^>]*>([\s\S]*?)<\/entry>/gi;
+              console.log('  → Usando estructura <entry> (Atom)');
+            } else if (!hasItem && !hasEntry) {
+              console.warn('  ⚠️ No se encontró <item> ni <entry>, RSS inusual');
+              // Último recurso: buscar títulos directamente
+              return extractAemetTitlesDirect(rssText);
+            }
+            
             let match;
             let count = 0;
             let itemsFound = 0;
