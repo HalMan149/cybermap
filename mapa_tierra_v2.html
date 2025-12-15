@@ -180,11 +180,15 @@
 
   <div class="legend">
     <div class="legend-item">
-      <div class="legend-circle" style="background: #ffd700; border-color: #ffa500;"></div>
-      <span>Terremotos (tamaño=magnitud)</span>
+      <div class="legend-circle" style="background: #ffd700; border-color: #ffa500; animation: earthquake-pulse-strong 1.5s ease-in-out infinite;"></div>
+      <span>Terremotos < 24h (pulsantes)</span>
+    </div>
+    <div class="legend-item">
+      <div class="legend-circle" style="background: #ffd700; border-color: #ffa500; opacity: 0.5;"></div>
+      <span>Terremotos > 24h (estáticos)</span>
     </div>
     <div class="legend-item" style="padding-left: 24px; font-size: 11px; opacity: 0.8;">
-      <span>• Centro oscuro = profundidad</span>
+      <span>• Tamaño = magnitud • Centro oscuro = profundidad</span>
     </div>
     <div class="legend-item">
       <div class="legend-circle" style="background: #ff4444; border-color: #cc0000;"></div>
@@ -735,10 +739,22 @@
         previousEarthquakeIds = currentEarthquakeIds;
         cachedEarthquakeData = data;
         
+        // Contar terremotos recientes (últimas 24h)
+        const now = Date.now();
+        const oneDayAgo = now - (24 * 60 * 60 * 1000);
+        const recentCount = data.features.filter(q => q.properties.time >= oneDayAgo).length;
+        
+        // Actualizar contadores
+        document.getElementById('earthquakeCount').textContent = `Terremotos: ${data.features.length}`;
+        if (document.getElementById('recentQuakes')) {
+          document.getElementById('recentQuakes').textContent = `Últimas 24h: ${recentCount} (pulsantes)`;
+        }
+        document.getElementById('updateTime').textContent = `Última actualización: ${new Date().toLocaleTimeString('es-ES')}`;
+        
         if (newEarthquakes.length > 0) {
-          console.log(`✓ ${data.features.length} terremotos cargados (${newEarthquakes.length} NUEVOS con animación)`);
+          console.log(`✓ ${data.features.length} terremotos cargados (${recentCount} recientes, ${newEarthquakes.length} NUEVOS)`);
         } else {
-          console.log(`✓ ${data.features.length} terremotos cargados`);
+          console.log(`✓ ${data.features.length} terremotos cargados (${recentCount} en últimas 24h)`);
         }
         
       } catch (error) {
