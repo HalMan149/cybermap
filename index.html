@@ -1180,12 +1180,12 @@
               const apiUrlWithKey = `${apiUrl}?api_key=${AEMET_API_KEY}`;
               
               let metadata = null;
-              // Intentar con proxies (solo los 2 primeros, los más rápidos)
-              for (let i = 0; i < 2 && !metadata; i++) {
+              // Intentar con TODOS los proxies (el RSS no funciona, la API es nuestra única opción)
+              for (let i = 0; i < PROXIES.length && !metadata; i++) {
                 try {
                   const proxyUrl = PROXIES[i](apiUrlWithKey);
-                  console.log(`  → Intentando API oficial con proxy ${i+1}...`);
-                  const apiResponse = await fetch(proxyUrl, { signal: AbortSignal.timeout(12000) });
+                  console.log(`  → Intentando API oficial con proxy ${i+1}/${PROXIES.length}...`);
+                  const apiResponse = await fetch(proxyUrl, { signal: AbortSignal.timeout(15000) });
                   
                   if (apiResponse.ok) {
                     const text = await apiResponse.text();
@@ -1202,21 +1202,31 @@
               }
               
               if (metadata && metadata.estado === 200 && metadata.datos) {
-                // Obtener datos reales desde URL temporal (también con proxy por si acaso)
+                // Obtener datos reales desde URL temporal
                 let avisos = null;
-                for (let i = 0; i < 2 && !avisos; i++) {
-                  try {
-                    const datosProxyUrl = PROXIES[i](metadata.datos);
-                    const datosResponse = await fetch(datosProxyUrl, { signal: AbortSignal.timeout(10000) });
-                    if (datosResponse.ok) {
-                      avisos = await datosResponse.json();
-                      break;
-                    }
-                  } catch (e) {
-                    // Intentar sin proxy como fallback
-                    if (i === 1) {
-                      const datosResponse = await fetch(metadata.datos, { signal: AbortSignal.timeout(10000) });
-                      avisos = await datosResponse.json();
+                
+                // Primero intentar DIRECTO (las URLs temporales de AEMET suelen no tener CORS)
+                try {
+                  console.log('  → Obteniendo datos desde URL temporal (directo)...');
+                  const datosResponse = await fetch(metadata.datos, { signal: AbortSignal.timeout(15000) });
+                  if (datosResponse.ok) {
+                    avisos = await datosResponse.json();
+                    console.log('  ✓ Datos obtenidos directamente');
+                  }
+                } catch (e) {
+                  console.warn('  ✗ Directo falló, probando con proxies...');
+                  // Fallback: Intentar con proxies
+                  for (let i = 0; i < PROXIES.length && !avisos; i++) {
+                    try {
+                      const datosProxyUrl = PROXIES[i](metadata.datos);
+                      const datosResponse = await fetch(datosProxyUrl, { signal: AbortSignal.timeout(15000) });
+                      if (datosResponse.ok) {
+                        avisos = await datosResponse.json();
+                        console.log(`  ✓ Datos obtenidos con proxy ${i+1}`);
+                        break;
+                      }
+                    } catch (err) {
+                      console.warn(`  ✗ Proxy ${i+1} falló para datos`);
                     }
                   }
                 }
@@ -1274,7 +1284,16 @@
               return apiResults;
             }
             
-            // MÉTODO 2: RSS de AEMET (fallback)
+            // MÉTODO 2: RSS de AEMET (DESHABILITADO - devuelve HTML en lugar de RSS)
+            console.warn('📋 AEMET: API oficial falló. RSS no disponible (devuelve HTML).');
+            console.log('ℹ️ AEMET: Mostrando placeholder hasta que API funcione...');
+            return [{ 
+              icon: 'ℹ️', 
+              text: 'AEMET: servicio temporalmente no disponible', 
+              url: 'https://www.aemet.es/es/eltiempo/prediccion/avisos' 
+            }];
+            
+            /* RSS DESHABILITADO - devuelve HTML
             console.log('📋 AEMET: Intentando RSS de avisos (fallback)...');
             const aemetRssUrl = 'https://www.aemet.es/es/eltiempo/prediccion/avisos/rss';
             
@@ -1334,6 +1353,7 @@
               return extractAemetWithRegex(rssText);
             }
             const items = xmlDoc.getElementsByTagName('item');
+            */ // Fin RSS deshabilitado
             if (!items.length) return [];
             
             const results = [];
