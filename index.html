@@ -1220,8 +1220,6 @@
               .replace(/<\/source>/gi, '')
               // Eliminar comentarios XML
               .replace(/<!--[\s\S]*?-->/g, '')
-              // Eliminar caracteres de control problemáticos
-              .replace(/[\x00-\x08\x0B\x0C\x0E-\x1F]/g, '')
               // Arreglar tags sin cerrar comunes en AEMET
               .replace(/<br>/gi, '<br/>')
               .replace(/<hr>/gi, '<hr/>')
