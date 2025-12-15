@@ -1013,64 +1013,79 @@
           try {
             console.log('🔍 Extrayendo con regex, RSS length:', rssText.length);
             const results = [];
-            // Extraer items con regex (más permisivo)
+            // Extraer items con regex (muy permisivo, captura TODO entre <item> y </item>)
             const itemRegex = /<item[^>]*>([\s\S]*?)<\/item>/gi;
             let match;
             let count = 0;
             let itemsFound = 0;
             
-            while ((match = itemRegex.exec(rssText)) !== null && count < 10) {
+            while ((match = itemRegex.exec(rssText)) !== null && count < 15) {
               itemsFound++;
               const itemContent = match[1];
               
-              // Extraer título (muy permisivo)
-              const titleMatch = itemContent.match(/<title[^>]*>(?:<!\[CDATA\[)?([\s\S]*?)(?:\]\]>)?<\/title>/i);
-              let title = titleMatch ? titleMatch[1] : '';
-              title = title.replace(/<!\[CDATA\[|\]\]>/g, '').replace(/<[^>]+>/g, '').trim();
+              // Extraer título con múltiples intentos
+              let title = '';
+              
+              // Intento 1: Con CDATA
+              let titleMatch = itemContent.match(/<title[^>]*><!\[CDATA\[(.*?)\]\]><\/title>/i);
+              if (titleMatch) {
+                title = titleMatch[1];
+              } else {
+                // Intento 2: Sin CDATA
+                titleMatch = itemContent.match(/<title[^>]*>(.*?)<\/title>/i);
+                if (titleMatch) {
+                  title = titleMatch[1];
+                }
+              }
+              
+              // Limpiar el título de cualquier tag HTML
+              title = title.replace(/<[^>]+>/g, '').trim();
               
               // Extraer link
-              const linkMatch = itemContent.match(/<link[^>]*>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?<\/link>/i);
-              const link = linkMatch ? linkMatch[1].trim() : 'https://www.aemet.es/es/eltiempo/prediccion/avisos';
+              const linkMatch = itemContent.match(/<link[^>]*>(.*?)<\/link>/i);
+              const link = linkMatch ? linkMatch[1].replace(/<!\[CDATA\[|\]\]>/g, '').trim() : 'https://www.aemet.es/es/eltiempo/prediccion/avisos';
               
-              console.log(`  [${itemsFound}] Título extraído: "${title.substring(0, 80)}..."`);
+              console.log(`  [${itemsFound}] Título: "${title.substring(0, 100)}"`);
               
-              if (title && title.length > 5 && !title.includes('xmlns') && !title.includes('<?xml')) {
+              if (title && title.length > 8) {
                 const text = title.toLowerCase();
                 
-                // Filtrar solo metadata obvia (ser muy permisivo)
-                const isObviousMetadata = (text.includes('actualización') && text.includes('mapa')) ||
-                                         text.includes('<?xml') ||
-                                         text.length < 10;
+                // Filtrar SOLO metadata muy obvia
+                const isMetadata = text.includes('actualización del mapa de avisos');
                 
-                if (!isObviousMetadata) {
+                if (!isMetadata) {
                   let icon = '⚠️';
                   if (text.includes('nieve') || text.includes('nevada')) icon = '❄️';
                   else if (text.includes('viento')) icon = '💨';
-                  else if (text.includes('lluvia')) icon = '🌧️';
+                  else if (text.includes('lluvia') || text.includes('precipitación')) icon = '🌧️';
                   else if (text.includes('tormenta')) icon = '⛈️';
-                  else if (text.includes('costa') || text.includes('mar') || text.includes('oleaje')) icon = '🌊';
-                  else if (text.includes('calor') || text.includes('temperatura')) icon = '🌡️';
+                  else if (text.includes('costa') || text.includes('mar') || text.includes('oleaje') || text.includes('fenómenos costeros')) icon = '🌊';
+                  else if (text.includes('calor') || text.includes('temperatura') || text.includes('máximas')) icon = '🌡️';
                   else if (text.includes('niebla')) icon = '🌫️';
                   else if (text.includes('hielo') || text.includes('helada')) icon = '🧊';
                   
-                  console.log(`    ✓ Extraído (regex): "${title}"`);
+                  console.log(`    ✅ INCLUIDO: "${title}"`);
                   results.push({
                     icon,
                     text: `${title} (AEMET)`,
                     url: link
                   });
                   count++;
+                } else {
+                  console.log(`    ❌ FILTRADO (metadata): "${title}"`);
                 }
+              } else {
+                console.log(`    ❌ DESCARTADO (muy corto): "${title}"`);
               }
             }
             
-            console.log(`📊 Regex: ${itemsFound} items encontrados, ${results.length} avisos válidos`);
+            console.log(`📊 Regex: ${itemsFound} items procesados, ${results.length} avisos extraídos`);
             
-            if (results.length) {
+            if (results.length > 0) {
               console.log(`✅ ${results.length} avisos AEMET extraídos con regex`);
               return results;
             } else {
-              console.log(`ℹ️ AEMET: No se encontraron avisos válidos (${itemsFound} items procesados)`);
+              console.log(`ℹ️ AEMET: No se encontraron avisos válidos de ${itemsFound} items`);
               return [{ icon: 'ℹ️', text: 'AEMET: sin avisos meteorológicos destacados', url: 'https://www.aemet.es/es/eltiempo/prediccion/avisos', _isAemetPlaceholder: true }];
             }
           } catch (e) {
@@ -1213,11 +1228,21 @@
               return [];
             }
             
-            // Limpieza básica del RSS de AEMET
-            let cleanedRss = rssText
-              .replace(/<source[^>]*>/gi, '')
-              .replace(/<\/source>/gi, '')
-              .trim();
+            // Limpieza robusta del RSS de AEMET (sin regex complejos)
+            let cleanedRss = rssText;
+            
+            // Eliminar tags <source> problemáticas
+            cleanedRss = cleanedRss.replace(/<source[^>]*>/gi, '');
+            cleanedRss = cleanedRss.replace(/<\/source>/gi, '');
+            
+            // Arreglar tags <img> sin cerrar (causa del error línea 578)
+            cleanedRss = cleanedRss.replace(/<img\s+([^>]*)>/gi, '<img $1 />');
+            
+            // Arreglar otras tags sin cerrar comunes
+            cleanedRss = cleanedRss.replace(/<br>/gi, '<br/>');
+            cleanedRss = cleanedRss.replace(/<hr>/gi, '<hr/>');
+            
+            cleanedRss = cleanedRss.trim();
             
             // Re-añadir declaración XML limpia al inicio
             if (!cleanedRss.startsWith('<?xml')) {
