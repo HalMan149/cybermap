@@ -122,30 +122,105 @@
       animation: earthquake-pulse-weak 4s ease-in-out infinite;
       opacity: 0.6;
     }
-    .info-panel {
-      position: absolute;
-      top: 15px;
-      right: 15px;
-      background: rgba(10, 14, 39, 0.9);
-      backdrop-filter: blur(10px);
-      color: #fff;
-      padding: 12px 16px;
-      border-radius: 8px;
-      font-size: 13px;
-      z-index: 1000;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.5);
-      max-width: 250px;
+    /* Panel lateral de terremotos recientes (estilo cyber) */
+    #recent-quakes {
+      position: absolute; top: 15px; right: 15px; z-index: 2000;
+      background: rgba(11, 16, 33, 0.25); backdrop-filter: blur(16px);
+      border: 2px solid #ffa500; border-radius: 12px; padding: 0;
+      font-family: 'Segoe UI', sans-serif; color: #fff;
+      box-shadow: 0 4px 15px rgba(255, 165, 0, 0.3);
+      transition: all 0.3s ease;
+      width: auto;
     }
-    .info-panel h3 {
-      font-size: 14px;
-      margin-bottom: 8px;
-      color: #6dd5ed;
+    #recent-quakes:not(.collapsed) {
+      width: 340px;
+      max-height: calc(100vh - 30px);
     }
-    .info-item {
-      margin: 4px 0;
-      font-size: 12px;
-      opacity: 0.9;
+    #quakes-header {
+      padding: 10px 12px; cursor: pointer;
+      display: flex; align-items: center; justify-content: space-between;
+      border-bottom: 1px solid rgba(255, 165, 0, 0.3);
+      gap: 10px;
     }
+    #recent-quakes.collapsed #quakes-header { 
+      border-bottom: none; 
+      justify-content: center;
+      padding: 8px 10px;
+      gap: 0;
+    }
+    #quakes-header:hover { background: rgba(255, 165, 0, 0.1); }
+    #recent-quakes h3 {
+      margin: 0; font-size: 0.95em; color: #ffa500;
+      text-shadow: 0 0 6px #ffa500; font-weight: 500;
+      white-space: nowrap;
+    }
+    #recent-quakes.collapsed h3 {
+      font-size: 0.8em;
+    }
+    #quakes-toggle {
+      font-size: 1em; color: #ffa500; transition: transform 0.3s;
+    }
+    #recent-quakes.collapsed #quakes-toggle { transform: rotate(180deg); display: none; }
+    #quakes-content {
+      max-height: calc(100vh - 90px);
+      overflow-y: auto;
+      transition: max-height 0.3s ease, opacity 0.3s ease, padding 0.3s ease;
+      padding: 12px 15px;
+    }
+    #recent-quakes.collapsed #quakes-content {
+      max-height: 0;
+      opacity: 0;
+      padding: 0;
+    }
+    .quake-item {
+      background: rgba(255, 200, 0, 0.08);
+      border-left: 3px solid #ffa500;
+      padding: 10px; margin-bottom: 8px; border-radius: 6px;
+      font-size: 0.82em; cursor: pointer;
+      transition: all 0.3s; animation: slideIn 0.4s ease-out;
+    }
+    .quake-item:hover {
+      background: rgba(255, 200, 0, 0.18); transform: translateX(-3px);
+      box-shadow: 0 2px 8px rgba(255, 165, 0, 0.3);
+    }
+    .quake-item.very-recent {
+      border-left-color: #ff4444; background: rgba(255, 68, 68, 0.1);
+      border-left-width: 4px;
+    }
+    .quake-item.very-recent:hover { background: rgba(255, 68, 68, 0.2); }
+    .quake-item.strong {
+      border-left-width: 5px;
+      box-shadow: 0 0 10px rgba(255, 165, 0, 0.4);
+    }
+    .quake-magnitude {
+      font-weight: 700; color: #ffa500; font-size: 1.1em; margin-bottom: 4px;
+    }
+    .quake-item.very-recent .quake-magnitude { color: #ff4444; }
+    .quake-item.strong .quake-magnitude { font-size: 1.3em; }
+    .quake-location {
+      color: #e0e6ed; line-height: 1.5; margin-bottom: 4px;
+    }
+    .quake-time {
+      font-size: 0.85em; color: #ffd700; margin-top: 4px;
+      font-family: 'Consolas', monospace;
+    }
+    .quake-depth {
+      font-size: 0.8em; color: #a0aec0; margin-top: 2px;
+    }
+    #quakes-content::-webkit-scrollbar { width: 6px; }
+    #quakes-content::-webkit-scrollbar-track { background: rgba(0,0,0,0.3); }
+    #quakes-content::-webkit-scrollbar-thumb {
+      background: #ffa500; border-radius: 3px;
+    }
+    
+    /* Animación slideIn */
+    @keyframes slideIn {
+      from { opacity: 0; transform: translateX(20px); }
+      to { opacity: 1; transform: translateX(0); }
+    }
+    
+    /* Ocultar panel en preview */
+    body.preview #recent-quakes { display: none; }
     .legend {
       position: absolute;
       bottom: 30px;
@@ -176,13 +251,21 @@
 <body>
   <div id="map"></div>
   
-  <!-- Panel de información -->
-  <div class="info-panel">
-    <h3>Datos en Tiempo Real</h3>
-    <div class="info-item" id="earthquakeCount">Terremotos: Cargando...</div>
-    <div class="info-item" id="recentQuakes" style="color: #ffaa00; font-weight: 600;">Últimas 24h: --</div>
-    <div class="info-item" id="volcanoCount">Volcanes activos: Cargando...</div>
-    <div class="info-item" id="updateTime">Última actualización: --</div>
+  <!-- Lista lateral de terremotos recientes -->
+  <div id="recent-quakes" class="collapsed">
+    <div id="quakes-header">
+      <h3>🌍 Terremotos Recientes</h3>
+      <span id="quakes-toggle">▶</span>
+    </div>
+    <div id="quakes-content">
+      <div id="quakes-stats" style="margin-bottom: 12px; padding: 8px; background: rgba(255, 165, 0, 0.1); border-radius: 6px; font-size: 0.85em;">
+        <div style="color: #ffd700; font-weight: 600;">📊 Estadísticas</div>
+        <div id="totalQuakes" style="margin-top: 4px;">Total: --</div>
+        <div id="last24h" style="color: #ffaa00;">Últimas 24h: --</div>
+        <div id="last6h" style="color: #ff6666;">Últimas 6h: --</div>
+      </div>
+      <div id="quakes-list"></div>
+    </div>
   </div>
 
   <div class="legend">
@@ -751,12 +834,8 @@
         const oneDayAgo = now - (24 * 60 * 60 * 1000);
         const recentCount = data.features.filter(q => q.properties.time >= oneDayAgo).length;
         
-        // Actualizar contadores
-        document.getElementById('earthquakeCount').textContent = `Terremotos: ${data.features.length}`;
-        if (document.getElementById('recentQuakes')) {
-          document.getElementById('recentQuakes').textContent = `Últimas 24h: ${recentCount} (pulsantes)`;
-        }
-        document.getElementById('updateTime').textContent = `Última actualización: ${new Date().toLocaleTimeString('es-ES')}`;
+        // Actualizar panel lateral de terremotos recientes
+        updateQuakesList(data.features);
         
         if (newEarthquakes.length > 0) {
           console.log(`✓ ${data.features.length} terremotos cargados (${recentCount} recientes, ${newEarthquakes.length} NUEVOS)`);
@@ -855,6 +934,86 @@
     // ============================================
     // ACTUALIZACIÓN AUTOMÁTICA
     // ============================================
+    
+    // ============================================
+    // PANEL LATERAL DE TERREMOTOS RECIENTES
+    // ============================================
+    
+    // Toggle del panel
+    document.getElementById('quakes-header')?.addEventListener('click', function() {
+      const panel = document.getElementById('recent-quakes');
+      const toggle = document.getElementById('quakes-toggle');
+      panel.classList.toggle('collapsed');
+      toggle.textContent = panel.classList.contains('collapsed') ? '▶' : '◀';
+    });
+    
+    // Función para actualizar la lista de terremotos
+    function updateQuakesList(features) {
+      const quakesList = document.getElementById('quakes-list');
+      if (!quakesList) return;
+      
+      // Ordenar por tiempo (más reciente primero)
+      const sorted = [...features]
+        .filter(q => q.properties.mag >= 2.5)
+        .sort((a, b) => b.properties.time - a.properties.time);
+      
+      // Tomar solo los 30 más recientes
+      const recent = sorted.slice(0, 30);
+      
+      // Actualizar estadísticas
+      const now = Date.now();
+      const last24h = features.filter(q => (now - q.properties.time) < 24 * 60 * 60 * 1000).length;
+      const last6h = features.filter(q => (now - q.properties.time) < 6 * 60 * 60 * 1000).length;
+      
+      if (document.getElementById('totalQuakes')) {
+        document.getElementById('totalQuakes').textContent = `Total: ${features.length}`;
+      }
+      if (document.getElementById('last24h')) {
+        document.getElementById('last24h').textContent = `Últimas 24h: ${last24h}`;
+      }
+      if (document.getElementById('last6h')) {
+        document.getElementById('last6h').textContent = `Últimas 6h: ${last6h}`;
+      }
+      
+      // Generar HTML de la lista
+      quakesList.innerHTML = recent.map(quake => {
+        const props = quake.properties;
+        const coords = quake.geometry.coordinates;
+        const mag = props.mag.toFixed(1);
+        const depth = coords[2].toFixed(0);
+        const hoursAgo = (now - props.time) / (1000 * 60 * 60);
+        
+        // Determinar clases según antigüedad y magnitud
+        let classes = ['quake-item'];
+        if (hoursAgo < 6) classes.push('very-recent');
+        if (mag >= 6.0) classes.push('strong');
+        
+        // Formato de tiempo
+        const timeText = hoursAgo < 1 ? 
+          `hace ${Math.floor(hoursAgo * 60)} min` : 
+          `hace ${Math.floor(hoursAgo)}h`;
+        
+        // Indicador visual
+        let indicator = '';
+        if (hoursAgo < 1) indicator = '🔴';
+        else if (hoursAgo < 6) indicator = '🟠';
+        else if (hoursAgo < 24) indicator = '🟡';
+        
+        return `
+          <div class="${classes.join(' ')}" 
+               onclick="map.setView([${coords[1]}, ${coords[0]}], 8, {animate: true, duration: 1}); 
+                        this.style.background='rgba(255,200,0,0.3)'; 
+                        setTimeout(() => this.style.background='', 500);">
+            <div class="quake-magnitude">${indicator} M${mag}</div>
+            <div class="quake-location">${props.place || 'Ubicación desconocida'}</div>
+            <div class="quake-time">${timeText}</div>
+            <div class="quake-depth">Profundidad: ${depth} km</div>
+          </div>
+        `;
+      }).join('');
+      
+      console.log(`✓ Lista de terremotos actualizada: ${recent.length} mostrados`);
+    }
     
     // Inicializar contador de volcanes (no implementado aún)
     if (document.getElementById('volcanoCount')) {
