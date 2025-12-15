@@ -292,6 +292,42 @@ function drawXrayChart(data) {
 
 ---
 
+## 📰 **ACTUALIZACIÓN: NOTICIAS MÁS ACTUALES**
+
+**Fecha:** 15 de Diciembre de 2025 (Tercera revisión)
+
+### 1. Terremotos más recientes:
+**Antes:**
+- Usaba `significant_week.geojson` (terremotos significativos de hasta 1 semana)
+- Mostraba terremotos viejos si no había recientes significativos
+
+**Ahora:**
+- Usa `4.5_day.geojson` (terremotos M4.5+ del último día)
+- Filtra solo terremotos de las últimas 24 horas
+- Ordena por tiempo (más reciente primero)
+- Muestra tiempo transcurrido: "hace 3h", "hace menos de 1h"
+
+### 2. Filtro AEMET ultra-permisivo:
+**Problema reportado:** Avisos activos no aparecían
+
+**Solución:**
+- Filtro casi completamente eliminado
+- Solo excluye metadata explícita ("Actualización mapa avisos")
+- Acepta TODOS los avisos reales (amarillo, naranja, rojo, etc.)
+- Logs detallados en consola para debugging:
+  ```
+  📋 AEMET: Procesando 8 items del RSS...
+    [1] Título RAW: "Aviso amarillo por viento..."
+    ✓ Incluido: "Aviso amarillo por viento..."
+  ```
+
+### Mejoras adicionales:
+- Procesa hasta 10 items del RSS (antes solo 5)
+- Logging exhaustivo para detectar problemas
+- Títulos RAW mostrados en consola para debugging
+
+---
+
 ## 🎉 RESULTADO FINAL
 
 El `index.html` ahora es:

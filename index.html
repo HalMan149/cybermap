@@ -868,14 +868,30 @@
         
         tasks.push((async () => {
           try {
-            const quakeResponse = await fetch('https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_week.geojson', { signal: AbortSignal.timeout(8000) });
+            // Cambio a terremotos M4.5+ del último día (más actuales)
+            const quakeResponse = await fetch('https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson', { signal: AbortSignal.timeout(8000) });
             const quakeData = await quakeResponse.json();
             if (!quakeData.features?.length) return [];
-            return quakeData.features.slice(0, 3).map(quake => ({
-              icon: '🌍',
-              text: `Terremoto M${quake.properties.mag.toFixed(1)} en ${quake.properties.place}`,
-              url: quake.properties.url || '#'
-            }));
+            
+            // Filtrar solo los últimos 24h y ordenar por tiempo (más reciente primero)
+            const now = Date.now();
+            const oneDayAgo = now - (24 * 60 * 60 * 1000);
+            const recentQuakes = quakeData.features
+              .filter(quake => quake.properties.time >= oneDayAgo)
+              .sort((a, b) => b.properties.time - a.properties.time)
+              .slice(0, 3);
+            
+            if (!recentQuakes.length) return [];
+            
+            return recentQuakes.map(quake => {
+              const timeAgo = Math.floor((now - quake.properties.time) / (1000 * 60 * 60));
+              const timeStr = timeAgo === 0 ? 'hace menos de 1h' : `hace ${timeAgo}h`;
+              return {
+                icon: '🌍',
+                text: `Terremoto M${quake.properties.mag.toFixed(1)} en ${quake.properties.place} (${timeStr})`,
+                url: quake.properties.url || '#'
+              };
+            });
           } catch (e) {
             console.warn('⚠️ Error terremotos USGS:', e.message);
             return [];
@@ -1033,7 +1049,9 @@
             if (!items.length) return [];
             
             const results = [];
-            for (let i = 0; i < Math.min(5, items.length); i++) {
+            console.log(`📋 AEMET: Procesando ${items.length} items del RSS...`);
+            
+            for (let i = 0; i < Math.min(10, items.length); i++) {
               const titleElem = items[i].getElementsByTagName('title')[0];
               const linkElem = items[i].getElementsByTagName('link')[0];
               const descElem = items[i].getElementsByTagName('description')[0];
@@ -1044,6 +1062,8 @@
               
               title = title.replace(/<!\[CDATA\[|\]\]>/g, '').trim();
               desc = desc.replace(/<!\[CDATA\[|\]\]>/g, '').trim();
+              
+              console.log(`  [${i+1}] Título RAW: "${title}"`);
               
               if (title && title.length > 5 && !title.includes('xmlns')) {
                 let icon = '⚠️';
@@ -1059,17 +1079,21 @@
                 if (text.includes('niebla')) icon = '🌫️';
                 if (text.includes('hielo') || text.includes('helada')) icon = '🧊';
                 
-                // Filtro mejorado: solo excluir avisos explícitamente "sin riesgo" o "verde"
-                const isNoRisk = text.includes('sin riesgo') || text.includes('riesgo mínimo') || 
-                                 (text.includes('verde') && !text.includes('amarillo') && !text.includes('naranja') && !text.includes('rojo'));
+                // FILTRO MUY PERMISIVO: Solo excluir si NO es un aviso real
+                // Excluir solo títulos que son claramente metadata o no-avisos
+                const isMetadata = title.toLowerCase().includes('actualización') && 
+                                  title.toLowerCase().includes('mapa') && 
+                                  title.toLowerCase().includes('avisos');
                 
-                // Incluir cualquier aviso que no sea explícitamente "sin riesgo"
-                if (!isNoRisk) {
+                if (!isMetadata) {
+                  console.log(`    ✓ Incluido: "${title}"`);
                   results.push({
                     icon,
                     text: `${title} (AEMET)`,
                     url: link
                   });
+                } else {
+                  console.log(`    ✗ Filtrado (metadata): "${title}"`);
                 }
               }
             }
