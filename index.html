@@ -1220,8 +1220,6 @@
               .replace(/<\/source>/gi, '')
               // Eliminar comentarios XML
               .replace(/<!--[\s\S]*?-->/g, '')
-              // Eliminar declaraciones XML duplicadas
-              .replace(/<\?xml[^>]*\?>/gi, '')
               // Limpiar entidades HTML mal formadas
               .replace(/&(?!amp;|lt;|gt;|quot;|apos;|#\d+;|#x[0-9a-fA-F]+;)/g, '&amp;')
               // Eliminar caracteres de control problemáticos
