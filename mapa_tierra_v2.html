@@ -124,7 +124,7 @@
     }
     /* Panel lateral de terremotos recientes (estilo cyber) */
     #recent-quakes {
-      position: absolute; top: 15px; right: 15px; z-index: 2000;
+      position: absolute; top: 15px; right: 365px; z-index: 2000;
       background: rgba(11, 16, 33, 0.25); backdrop-filter: blur(16px);
       border: 2px solid #ffa500; border-radius: 12px; padding: 0;
       font-family: 'Segoe UI', sans-serif; color: #fff;
@@ -135,6 +135,9 @@
     #recent-quakes:not(.collapsed) {
       width: 340px;
       max-height: calc(100vh - 30px);
+    }
+    #recent-quakes.collapsed {
+      right: 365px;
     }
     #quakes-header {
       padding: 10px 12px; cursor: pointer;
@@ -222,9 +225,9 @@
     /* Ocultar panel en preview */
     body.preview #recent-quakes { display: none; }
     
-    /* Panel lateral de volcanes activos (estilo cyber rojo/naranja) - MOVIDO A LA DERECHA */
+    /* Panel lateral de volcanes activos (estilo cyber rojo/naranja) - AL LADO DE TERREMOTOS */
     #recent-volcanoes {
-      position: absolute; top: 400px; right: 15px; z-index: 2000;
+      position: absolute; top: 15px; right: 15px; z-index: 2000;
       background: rgba(33, 11, 11, 0.25); backdrop-filter: blur(16px);
       border: 2px solid #ff4444; border-radius: 12px; padding: 0;
       font-family: 'Segoe UI', sans-serif; color: #fff;
@@ -235,6 +238,9 @@
     #recent-volcanoes:not(.collapsed) {
       width: 340px;
       max-height: calc(100vh - 30px);
+    }
+    #recent-volcanoes.collapsed {
+      right: 15px;
     }
     #volcanoes-header {
       padding: 10px 12px; cursor: pointer;
@@ -415,16 +421,21 @@
   
   <!-- Lista lateral de terremotos recientes -->
   <!-- Panel de Control de Capas (Izquierda) -->
-  <div id="layers-control" class="">
+  <div id="layers-control" class="collapsed">
     <div id="layers-header">
       <h3>⚙️ Control de Capas</h3>
-      <span id="layers-toggle">◀</span>
+      <span id="layers-toggle">▶</span>
     </div>
     <div id="layers-content">
       <div class="layer-item" id="layer-earthquakes" data-layer="earthquakes">
         <div class="layer-color" style="background: #ffd700; border-color: #ffa500;"></div>
-        <span class="layer-label">Terremotos</span>
+        <span class="layer-label">Terremotos < 24h</span>
         <span class="layer-count" id="count-earthquakes">0</span>
+      </div>
+      <div class="layer-item" id="layer-earthquakes-old" data-layer="earthquakes-old">
+        <div class="layer-color" style="background: #ffaa00; border-color: #ff8800; opacity: 0.6;"></div>
+        <span class="layer-label">Terremotos > 24h</span>
+        <span class="layer-count" id="count-earthquakes-old">0</span>
       </div>
       <div class="layer-item" id="layer-volcanoes-active" data-layer="volcanoes-active">
         <div class="layer-color" style="background: #ff4444; border-color: #cc0000;"></div>
@@ -1198,7 +1209,8 @@
     // ============================================
     // TERREMOTOS RECIENTES (USGS)
     // ============================================
-    const earthquakesLayer = L.layerGroup().addTo(map);
+    const earthquakesLayer = L.layerGroup().addTo(map); // Terremotos <24h
+    const earthquakesOldLayer = L.layerGroup().addTo(map); // Terremotos >24h
     let previousEarthquakeIds = new Set(); // Para detectar terremotos nuevos
     const pulseCircles = []; // Almacenar círculos pulsantes
     let cachedEarthquakeData = null; // Cache para evitar perder datos si falla el fetch
@@ -1254,6 +1266,11 @@
         pulseCircles.length = 0;
 
         earthquakesLayer.clearLayers();
+        earthquakesOldLayer.clearLayers();
+        
+        // Contadores para capas
+        let recentQuakesCount = 0;
+        let oldQuakesCount = 0;
 
         data.features.forEach(quake => {
           const coords = quake.geometry.coordinates;
@@ -1410,8 +1427,16 @@
           outerCircle.bindPopup(popup);
           innerCircle.bindPopup(popup);
           
-          earthquakesLayer.addLayer(outerCircle);
-          earthquakesLayer.addLayer(innerCircle);
+          // Agregar a la capa correspondiente según antigüedad
+          if (isVeryRecent) {
+            earthquakesLayer.addLayer(outerCircle);
+            earthquakesLayer.addLayer(innerCircle);
+            recentQuakesCount++;
+          } else {
+            earthquakesOldLayer.addLayer(outerCircle);
+            earthquakesOldLayer.addLayer(innerCircle);
+            oldQuakesCount++;
+          }
           
           // Si es un terremoto NUEVO, añadir círculo pulsante
           if (isNew) {
@@ -1431,10 +1456,14 @@
         // Actualizar panel lateral de terremotos recientes
         updateQuakesList(data.features);
         
-        // Actualizar contador en control de capas
-        const countElement = document.getElementById('count-earthquakes');
-        if (countElement) {
-          countElement.textContent = data.features.length;
+        // Actualizar contadores en control de capas
+        const countElementRecent = document.getElementById('count-earthquakes');
+        const countElementOld = document.getElementById('count-earthquakes-old');
+        if (countElementRecent) {
+          countElementRecent.textContent = recentQuakesCount;
+        }
+        if (countElementOld) {
+          countElementOld.textContent = oldQuakesCount;
         }
 
         if (newEarthquakes.length > 0) {
@@ -1555,7 +1584,7 @@
       toggle.textContent = panel.classList.contains('collapsed') ? '▶' : '◀';
     });
     
-    // Toggle del panel de control de capas
+    // Toggle del panel de control de capas (click en header)
     document.getElementById('layers-header')?.addEventListener('click', function() {
       const panel = document.getElementById('layers-control');
       const toggle = document.getElementById('layers-toggle');
@@ -1563,14 +1592,41 @@
       toggle.textContent = panel.classList.contains('collapsed') ? '▶' : '◀';
     });
     
+    // Autocolapsar el panel de control de capas cuando el mouse sale
+    let layersCollapseTimeout;
+    const layersPanel = document.getElementById('layers-control');
+    
+    if (layersPanel) {
+      // Expandir cuando el mouse entra
+      layersPanel.addEventListener('mouseenter', function() {
+        clearTimeout(layersCollapseTimeout);
+        if (this.classList.contains('collapsed')) {
+          this.classList.remove('collapsed');
+          document.getElementById('layers-toggle').textContent = '◀';
+        }
+      });
+      
+      // Colapsar cuando el mouse sale (con pequeño delay)
+      layersPanel.addEventListener('mouseleave', function() {
+        clearTimeout(layersCollapseTimeout);
+        layersCollapseTimeout = setTimeout(() => {
+          if (!this.classList.contains('collapsed')) {
+            this.classList.add('collapsed');
+            document.getElementById('layers-toggle').textContent = '▶';
+          }
+        }, 1000); // 1 segundo de delay
+      });
+    }
+    
     // Estado de visibilidad de capas
     const layersVisible = {
       earthquakes: true,
+      earthquakesOld: true,
       volcanoes: true,
       volcanoesHistorical: true
     };
     
-    // Control de capa de terremotos
+    // Control de capa de terremotos recientes (<24h)
     document.getElementById('layer-earthquakes')?.addEventListener('click', function() {
       layersVisible.earthquakes = !layersVisible.earthquakes;
       const element = this;
@@ -1580,6 +1636,20 @@
         element.classList.remove('disabled');
       } else {
         map.removeLayer(earthquakesLayer);
+        element.classList.add('disabled');
+      }
+    });
+    
+    // Control de capa de terremotos antiguos (>24h)
+    document.getElementById('layer-earthquakes-old')?.addEventListener('click', function() {
+      layersVisible.earthquakesOld = !layersVisible.earthquakesOld;
+      const element = this;
+      
+      if (layersVisible.earthquakesOld) {
+        map.addLayer(earthquakesOldLayer);
+        element.classList.remove('disabled');
+      } else {
+        map.removeLayer(earthquakesOldLayer);
         element.classList.add('disabled');
       }
     });
