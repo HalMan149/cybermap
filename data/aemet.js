@@ -1,9 +1,41 @@
-// Auto-generado por GitHub Actions - 2025-12-15T15:18:25.141Z
+// Auto-generado por GitHub Actions - 2025-12-15T15:46:18.341Z
 window.AEMET_AVISOS = {
-  "generated_at": "2025-12-15T15:18:25.141Z",
+  "generated_at": "2025-12-15T15:46:18.341Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Depresión central de Lleida",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Depresión central de Lleida",
+      "nivel": "Naranja",
+      "text": "Depresión central de Lleida: Aviso de lluvias de nivel amarillo. Depresión central de Lleida (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Depresión central de Lleida",
+      "fenomeno": "Moderate rain warning. Depresión central de Lleida",
+      "nivel": "Naranja",
+      "text": "Depresión central de Lleida: Moderate rain warning. Depresión central de Lleida (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Depresión central de Lleida",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Depresión central de Lleida",
+      "nivel": "Naranja",
+      "text": "Depresión central de Lleida: Aviso de lluvias de nivel amarillo. Depresión central de Lleida (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Depresión central de Lleida",
+      "fenomeno": "Moderate rain warning. Depresión central de Lleida",
+      "nivel": "Naranja",
+      "text": "Depresión central de Lleida: Moderate rain warning. Depresión central de Lleida (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Pirineo de Girona",
@@ -18,22 +50,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Severe rain warning. Pirineo de Girona",
       "nivel": "Rojo",
       "text": "Pirineo de Girona: Severe rain warning. Pirineo de Girona (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Prelitoral sur de Tarragona",
-      "fenomeno": "Aviso de lluvias de nivel rojo. Prelitoral sur de Tarragona",
-      "nivel": "Rojo",
-      "text": "Prelitoral sur de Tarragona: Aviso de lluvias de nivel rojo. Prelitoral sur de Tarragona (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Prelitoral sur de Tarragona",
-      "fenomeno": "Extreme rain warning. Prelitoral sur de Tarragona",
-      "nivel": "Rojo",
-      "text": "Prelitoral sur de Tarragona: Extreme rain warning. Prelitoral sur de Tarragona (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate rain warning. Prelitoral sur de Tarragona",
       "nivel": "Naranja",
       "text": "Prelitoral sur de Tarragona: Moderate rain warning. Prelitoral sur de Tarragona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Litoral norte de Alicante",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral norte de Alicante",
-      "nivel": "Naranja",
-      "text": "Litoral norte de Alicante: Aviso de lluvias de nivel amarillo. Litoral norte de Alicante (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral norte de Alicante",
-      "fenomeno": "Moderate rain warning. Litoral norte de Alicante",
-      "nivel": "Naranja",
-      "text": "Litoral norte de Alicante: Moderate rain warning. Litoral norte de Alicante (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
