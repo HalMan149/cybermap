@@ -768,16 +768,72 @@
           }
           // > 24h - sin animación (estático)
           
-          // Círculo exterior (magnitud)
+          // Círculo exterior (magnitud) - sin className para animación manual
           const outerCircle = L.circleMarker([coords[1], coords[0]], {
             radius: outerRadius,
             fillColor: CONFIG.colors.earthquake,
             color: isVeryRecent ? '#ffaa00' : '#ff8800',
             weight: isVeryRecent ? 2.5 : 2,
             opacity: isVeryRecent ? 1 : 0.7,
-            fillOpacity: isVeryRecent ? 0.7 : 0.5,
-            className: animationClass
+            fillOpacity: isVeryRecent ? 0.7 : 0.5
           });
+          
+          // Aplicar animación manual con setInterval si es reciente
+          if (isVeryRecent) {
+            let growing = true;
+            let currentOpacity = isVeryRecent ? 0.7 : 0.5;
+            let currentRadius = outerRadius;
+            const baseRadius = outerRadius;
+            
+            // Determinar parámetros de animación según antigüedad y magnitud
+            let maxRadius, speed, opacityMin;
+            if (isUltraRecent && mag >= 6.0) {
+              // Muy reciente y fuerte
+              maxRadius = baseRadius * 2.5;
+              speed = 0.08;
+              opacityMin = 0.3;
+            } else if (isUltraRecent && mag >= 4.5) {
+              // Muy reciente medio
+              maxRadius = baseRadius * 2.0;
+              speed = 0.06;
+              opacityMin = 0.35;
+            } else if (isUltraRecent) {
+              // Muy reciente débil
+              maxRadius = baseRadius * 1.5;
+              speed = 0.05;
+              opacityMin = 0.4;
+            } else {
+              // Reciente (6-24h)
+              maxRadius = baseRadius * 1.3;
+              speed = 0.03;
+              opacityMin = 0.45;
+            }
+            
+            const pulseInterval = setInterval(() => {
+              if (growing) {
+                currentRadius += speed * baseRadius;
+                currentOpacity -= speed / 2;
+                if (currentRadius >= maxRadius) {
+                  growing = false;
+                }
+              } else {
+                currentRadius -= speed * baseRadius;
+                currentOpacity += speed / 2;
+                if (currentRadius <= baseRadius) {
+                  growing = true;
+                }
+              }
+              
+              outerCircle.setRadius(currentRadius);
+              outerCircle.setStyle({
+                fillOpacity: Math.max(opacityMin, Math.min(0.7, currentOpacity)),
+                opacity: Math.max(opacityMin + 0.2, Math.min(1, currentOpacity + 0.3))
+              });
+            }, 50);
+            
+            // Guardar intervalo para limpiar después
+            pulseCircles.push({ circle: outerCircle, interval: pulseInterval });
+          }
           
           // Círculo interior (profundidad)
           const innerCircle = L.circleMarker([coords[1], coords[0]], {
