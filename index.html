@@ -1011,32 +1011,38 @@
         // Función auxiliar para extraer avisos AEMET con regex (fallback si XML falla)
         function extractAemetWithRegex(rssText) {
           try {
+            console.log('🔍 Extrayendo con regex, RSS length:', rssText.length);
             const results = [];
-            // Extraer items con regex
-            const itemRegex = /<item>([\s\S]*?)<\/item>/gi;
+            // Extraer items con regex (más permisivo)
+            const itemRegex = /<item[^>]*>([\s\S]*?)<\/item>/gi;
             let match;
             let count = 0;
+            let itemsFound = 0;
             
             while ((match = itemRegex.exec(rssText)) !== null && count < 10) {
+              itemsFound++;
               const itemContent = match[1];
               
-              // Extraer título
-              const titleMatch = itemContent.match(/<title>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?<\/title>/i);
-              const title = titleMatch ? titleMatch[1].replace(/<!\[CDATA\[|\]\]>/g, '').trim() : '';
+              // Extraer título (muy permisivo)
+              const titleMatch = itemContent.match(/<title[^>]*>(?:<!\[CDATA\[)?([\s\S]*?)(?:\]\]>)?<\/title>/i);
+              let title = titleMatch ? titleMatch[1] : '';
+              title = title.replace(/<!\[CDATA\[|\]\]>/g, '').replace(/<[^>]+>/g, '').trim();
               
               // Extraer link
-              const linkMatch = itemContent.match(/<link>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?<\/link>/i);
+              const linkMatch = itemContent.match(/<link[^>]*>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?<\/link>/i);
               const link = linkMatch ? linkMatch[1].trim() : 'https://www.aemet.es/es/eltiempo/prediccion/avisos';
               
-              if (title && title.length > 5 && !title.includes('xmlns')) {
+              console.log(`  [${itemsFound}] Título extraído: "${title.substring(0, 80)}..."`);
+              
+              if (title && title.length > 5 && !title.includes('xmlns') && !title.includes('<?xml')) {
                 const text = title.toLowerCase();
                 
-                // Filtrar metadata
-                const isMetadata = text.includes('actualización') && 
-                                  text.includes('mapa') && 
-                                  text.includes('avisos');
+                // Filtrar solo metadata obvia (ser muy permisivo)
+                const isObviousMetadata = (text.includes('actualización') && text.includes('mapa')) ||
+                                         text.includes('<?xml') ||
+                                         text.length < 10;
                 
-                if (!isMetadata) {
+                if (!isObviousMetadata) {
                   let icon = '⚠️';
                   if (text.includes('nieve') || text.includes('nevada')) icon = '❄️';
                   else if (text.includes('viento')) icon = '💨';
@@ -1058,11 +1064,13 @@
               }
             }
             
+            console.log(`📊 Regex: ${itemsFound} items encontrados, ${results.length} avisos válidos`);
+            
             if (results.length) {
               console.log(`✅ ${results.length} avisos AEMET extraídos con regex`);
               return results;
             } else {
-              console.log('ℹ️ AEMET: No se encontraron avisos (regex)');
+              console.log(`ℹ️ AEMET: No se encontraron avisos válidos (${itemsFound} items procesados)`);
               return [{ icon: 'ℹ️', text: 'AEMET: sin avisos meteorológicos destacados', url: 'https://www.aemet.es/es/eltiempo/prediccion/avisos', _isAemetPlaceholder: true }];
             }
           } catch (e) {
@@ -1076,6 +1084,7 @@
             console.log('📋 AEMET: Intentando API oficial con API key...');
             
             // MÉTODO 1: API Oficial de AEMET (con proxy CORS)
+            let apiResults = null;
             try {
               const apiUrl = 'https://opendata.aemet.es/opendata/api/avisos/ultimoElaborado';
               
@@ -1088,13 +1097,17 @@
               for (let i = 0; i < 2 && !metadata; i++) {
                 try {
                   const proxyUrl = PROXIES[i](apiUrlWithKey);
-                  console.log(`  → Intentando API con proxy ${i+1}...`);
-                  const apiResponse = await fetch(proxyUrl, { signal: AbortSignal.timeout(10000) });
+                  console.log(`  → Intentando API oficial con proxy ${i+1}...`);
+                  const apiResponse = await fetch(proxyUrl, { signal: AbortSignal.timeout(12000) });
                   
                   if (apiResponse.ok) {
-                    metadata = await apiResponse.json();
+                    const text = await apiResponse.text();
+                    console.log(`  📄 Respuesta API (primeros 200 chars):`, text.substring(0, 200));
+                    metadata = JSON.parse(text);
                     console.log(`  ✓ Metadata obtenida con proxy ${i+1}:`, metadata.estado, metadata.descripcion);
                     break;
+                  } else {
+                    console.warn(`  ✗ Proxy ${i+1} respuesta no OK:`, apiResponse.status);
                   }
                 } catch (e) {
                   console.warn(`  ✗ Proxy ${i+1} falló para API:`, e.message);
@@ -1157,14 +1170,21 @@
                   
                   if (results.length) {
                     console.log(`✅ ${results.length} avisos AEMET cargados desde API oficial`);
-                    return results;
+                    apiResults = results;
+                  } else {
+                    console.log('ℹ️ API oficial sin avisos activos');
                   }
                 }
               } else {
                 console.warn('⚠️ No se pudieron obtener datos desde URL temporal');
               }
             } catch (apiError) {
-              console.warn('⚠️ API oficial AEMET falló:', apiError.message);
+              console.error('❌ API oficial AEMET error crítico:', apiError.message, apiError.stack);
+            }
+            
+            // Si la API funcionó, devolver sus resultados
+            if (apiResults && apiResults.length > 0) {
+              return apiResults;
             }
             
             // MÉTODO 2: RSS de AEMET (fallback)
