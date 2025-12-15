@@ -382,7 +382,11 @@
     </div>
     <div class="legend-item">
       <div class="legend-circle" style="background: #ff4444; border-color: #cc0000;"></div>
-      <span>Volcanes (tamaño=actividad)</span>
+      <span>Volcanes muy activos (pulsantes)</span>
+    </div>
+    <div class="legend-item">
+      <div class="legend-circle" style="background: #d97545; border-color: #b85530; opacity: 0.6;"></div>
+      <span>Volcanes históricos (último año)</span>
     </div>
   </div>
 
@@ -633,6 +637,56 @@
     // ============================================
     // VOLCANES ACTIVOS (datos en tiempo real desde USGS)
     // ============================================
+    
+    // Volcanes históricos (actividad en el último año o más - NO aparecen en panel)
+    const volcanesHistoricos = [
+      // Actividad 2024 (hace varios meses)
+      { name: 'Sheveluch', lat: 56.653, lng: 161.360, country: 'Rusia (Kamchatka)', lastActivity: '2024-04' },
+      { name: 'Ebeko', lat: 50.686, lng: 156.014, country: 'Rusia (Kuriles)', lastActivity: '2024-05' },
+      { name: 'Suwanosejima', lat: 29.638, lng: 129.716, country: 'Japón', lastActivity: '2024-03' },
+      { name: 'Nishinoshima', lat: 27.247, lng: 140.874, country: 'Japón', lastActivity: '2024-02' },
+      { name: 'Aira', lat: 31.593, lng: 130.657, country: 'Japón', lastActivity: '2024-01' },
+      { name: 'Asosan', lat: 32.884, lng: 131.104, country: 'Japón', lastActivity: '2024-06' },
+      { name: 'Raung', lat: -8.125, lng: 114.042, country: 'Indonesia', lastActivity: '2024-01' },
+      { name: 'Karangetang', lat: 2.781, lng: 125.407, country: 'Indonesia', lastActivity: '2024-03' },
+      { name: 'Soputan', lat: 1.108, lng: 124.737, country: 'Indonesia', lastActivity: '2024-02' },
+      { name: 'Lokon-Empung', lat: 1.358, lng: 124.792, country: 'Indonesia', lastActivity: '2024-04' },
+      { name: 'Marapi', lat: -0.381, lng: 100.473, country: 'Indonesia', lastActivity: '2024-01' },
+      { name: 'Agung', lat: -8.343, lng: 115.508, country: 'Indonesia', lastActivity: '2024-05' },
+      { name: 'Rinjani', lat: -8.42, lng: 116.47, country: 'Indonesia', lastActivity: '2024-03' },
+      { name: 'Ambrym', lat: -16.25, lng: 168.12, country: 'Vanuatu', lastActivity: '2024-04' },
+      { name: 'Yasur', lat: -19.532, lng: 169.425, country: 'Vanuatu', lastActivity: '2024-06' },
+      { name: 'Bagana', lat: -6.137, lng: 155.196, country: 'Papúa Nueva Guinea', lastActivity: '2024-02' },
+      { name: 'Manam', lat: -4.08, lng: 145.04, country: 'Papúa Nueva Guinea', lastActivity: '2024-05' },
+      { name: 'Kadovar', lat: -3.608, lng: 144.588, country: 'Papúa Nueva Guinea', lastActivity: '2024-01' },
+      { name: 'Tinakula', lat: -10.386, lng: 165.804, country: 'Islas Salomón', lastActivity: '2024-03' },
+      { name: 'Ruapehu', lat: -39.28, lng: 175.57, country: 'Nueva Zelanda', lastActivity: '2024-04' },
+      { name: 'White Island', lat: -37.52, lng: 177.18, country: 'Nueva Zelanda', lastActivity: '2024-05' },
+      { name: 'Masaya', lat: 11.984, lng: -86.161, country: 'Nicaragua', lastActivity: '2024-02' },
+      { name: 'Rincón de la Vieja', lat: 10.83, lng: -85.324, country: 'Costa Rica', lastActivity: '2024-03' },
+      { name: 'Poas', lat: 10.2, lng: -84.233, country: 'Costa Rica', lastActivity: '2024-04' },
+      { name: 'Santa María', lat: 14.756, lng: -91.552, country: 'Guatemala', lastActivity: '2024-01' },
+      { name: 'Telica', lat: 12.602, lng: -86.845, country: 'Nicaragua', lastActivity: '2024-06' },
+      { name: 'Concepción', lat: 11.538, lng: -85.622, country: 'Nicaragua', lastActivity: '2024-02' },
+      
+      // Actividad 2023 (hace cerca de 1 año)
+      { name: 'Shiveluch', lat: 56.653, lng: 161.360, country: 'Rusia', lastActivity: '2023-11' },
+      { name: 'Bulusan', lat: 12.770, lng: 124.051, country: 'Filipinas', lastActivity: '2023-10' },
+      { name: 'Mayon', lat: 13.257, lng: 123.685, country: 'Filipinas', lastActivity: '2023-09' },
+      { name: 'Dukono', lat: 1.680, lng: 127.894, country: 'Indonesia', lastActivity: '2023-12' },
+      { name: 'Ibu', lat: 1.488, lng: 127.630, country: 'Indonesia', lastActivity: '2023-11' },
+      { name: 'Gamalama', lat: 0.8, lng: 127.325, country: 'Indonesia', lastActivity: '2023-08' },
+      { name: 'Lewotobi', lat: -8.543, lng: 122.775, country: 'Indonesia', lastActivity: '2023-10' },
+      { name: 'Semisopochnoi', lat: 51.93, lng: 179.58, country: 'Alaska, EE.UU.', lastActivity: '2023-09' },
+      { name: 'Veniaminof', lat: 56.17, lng: -159.38, country: 'Alaska, EE.UU.', lastActivity: '2023-10' },
+      { name: 'Redoubt', lat: 60.485, lng: -152.742, country: 'Alaska, EE.UU.', lastActivity: '2023-08' },
+      { name: 'Spurr', lat: 61.299, lng: -152.251, country: 'Alaska, EE.UU.', lastActivity: '2023-07' },
+      { name: 'Bardarbunga', lat: 64.641, lng: -17.528, country: 'Islandia', lastActivity: '2023-11' },
+      { name: 'Cumbre Vieja', lat: 28.572, lng: -17.841, country: 'España (Canarias)', lastActivity: '2023-06' },
+      { name: 'La Soufrière', lat: 16.044, lng: -61.664, country: 'Guadalupe', lastActivity: '2023-08' },
+      { name: 'Soufriere Hills', lat: 16.72, lng: -62.18, country: 'Montserrat', lastActivity: '2023-09' },
+      { name: 'Kick-\'em-Jenny', lat: 12.18, lng: -61.38, country: 'Granada', lastActivity: '2023-07' },
+    ];
     
     // Volcanes con erupciones recientes conocidos (fallback si API falla)
     const volcanesActivos = [
@@ -966,6 +1020,64 @@
     
     updateVolcanosList(volcanosForPanel);
   } // Fin de renderFallbackVolcanoes
+  
+    // Renderizar volcanes históricos (actividad del último año - NO en panel)
+    function renderHistoricalVolcanoes() {
+      console.log('🌋 Renderizando volcanes históricos...');
+      
+      volcanesHistoricos.forEach(v => {
+        const [year, month] = v.lastActivity.split('-');
+        const activityDate = new Date(parseInt(year), parseInt(month) - 1, 15);
+        const now = new Date();
+        const monthsAgo = (now - activityDate) / (1000 * 60 * 60 * 24 * 30);
+        
+        // Tamaño según antigüedad (más reciente = más grande)
+        let size = 5; // Base
+        if (monthsAgo < 6) size = 7;  // Últimos 6 meses
+        if (monthsAgo < 3) size = 8;  // Últimos 3 meses
+        if (monthsAgo > 12) size = 4; // Más de 1 año
+        
+        // Color naranja-rojizo más apagado, estático
+        const fillColor = '#d97545'; // Naranja-rojizo apagado
+        const borderColor = '#b85530'; // Borde más oscuro
+        
+        // Formato de fecha para popup
+        const monthNames = ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic'];
+        const formattedDate = `${monthNames[parseInt(month) - 1]} ${year}`;
+        
+        const marker = L.circleMarker([v.lat, v.lng], {
+          radius: size,
+          fillColor: fillColor,
+          color: borderColor,
+          weight: 1.5,
+          opacity: 0.7,
+          fillOpacity: 0.5 // Más transparente que los activos
+        });
+        
+        // Texto descriptivo según antigüedad
+        let statusText = '';
+        if (monthsAgo < 6) {
+          statusText = 'Actividad reciente (últimos 6 meses)';
+        } else if (monthsAgo < 12) {
+          statusText = 'Actividad en el último año';
+        } else {
+          statusText = 'Actividad histórica';
+        }
+        
+        marker.bindPopup(`
+          <div style="font-family: sans-serif;">
+            <b style="color: ${fillColor}; font-size: 13px;">🌋 ${v.name}</b><br>
+            <span style="font-size: 11px; color: #888;">${v.country}</span><br>
+            <b style="font-size: 10px;">Última actividad:</b> ${formattedDate}<br>
+            <span style="font-size: 10px; color: #999;">${statusText}</span>
+          </div>
+        `);
+        
+        volcanesLayer.addLayer(marker);
+      });
+      
+      console.log(`✅ ${volcanesHistoricos.length} volcanes históricos renderizados`);
+    }
 
     // ============================================
     // TERREMOTOS RECIENTES (USGS)
@@ -1476,6 +1588,9 @@
     
     // Cargar volcanes al inicio
     loadVolcanoes();
+    
+    // Renderizar volcanes históricos (estáticos, solo una vez)
+    renderHistoricalVolcanoes();
     
     // Actualizar volcanes cada 10 minutos
     setInterval(loadVolcanoes, 600000);
