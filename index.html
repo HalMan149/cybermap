@@ -694,7 +694,7 @@
     <div class="sun-panel">
       <h3>Estado del Sol</h3>
       <div class="sun-container" style="width: 200px; height: 200px; display: flex; align-items: center; justify-content: center; background: #000; border-radius: 50%; box-shadow: 0 6px 24px rgba(255, 215, 0, 0.35); position: relative;">
-        <img id="sdoImage" src="https://sdo.gsfc.nasa.gov/assets/img/latest/latest_1024_0171.jpg" alt="Sol SDO AIA 171"
+        <img id="sdoImage" src="https://sdo.gsfc.nasa.gov/assets/img/latest/latest_1024_0171.jpg" alt="Sol SDO AIA 171" 
              onerror="handleSDOError(this)" style="display: block; width: 200px; height: 200px; border-radius: 50%; object-fit: cover;"/>
         <div id="sdoError" class="image-error" style="display: none;">
           FUENTE NO DISPONIBLE<br>
@@ -855,288 +855,246 @@
     
     async function fetchRealNews() {
       try {
-        const allNews = [];
+        const tasks = [];
         
-        // 1. TERREMOTOS SIGNIFICATIVOS (USGS)
-        try {
-          const quakeResponse = await fetch('https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_week.geojson', { 
-            signal: AbortSignal.timeout(8000) 
-          });
-          const quakeData = await quakeResponse.json();
-          
-          if (quakeData.features && quakeData.features.length > 0) {
-            quakeData.features.slice(0, 3).forEach(quake => {
-              const mag = quake.properties.mag.toFixed(1);
-              const place = quake.properties.place;
-              allNews.push({
-                icon: '🌍',
-                text: `Terremoto M${mag} en ${place}`,
-                url: quake.properties.url || '#'
-              });
-            });
+        tasks.push((async () => {
+          try {
+            const quakeResponse = await fetch('https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_week.geojson', { signal: AbortSignal.timeout(8000) });
+            const quakeData = await quakeResponse.json();
+            if (!quakeData.features?.length) return [];
+            return quakeData.features.slice(0, 3).map(quake => ({
+              icon: '🌍',
+              text: `Terremoto M${quake.properties.mag.toFixed(1)} en ${quake.properties.place}`,
+              url: quake.properties.url || '#'
+            }));
+          } catch (e) {
+            console.warn('⚠️ Error terremotos USGS:', e.message);
+            return [];
           }
-        } catch (e) {
-          console.warn('⚠️ Error terremotos USGS:', e.message);
-        }
+        })());
         
-        // 2. CLIMA ESPACIAL (NOAA Space Weather con proxy)
-        try {
-          const spaceUrl = 'https://services.swpc.noaa.gov/products/alerts.json';
-          const spaceResponse = await fetch(`https://corsproxy.io/?${encodeURIComponent(spaceUrl)}`, {
-            signal: AbortSignal.timeout(8000)
-          });
-          const spaceData = await spaceResponse.json();
-          
-          if (spaceData && spaceData.length > 0) {
-            spaceData.slice(0, 2).forEach(alert => {
-              const message = alert.message || alert.summary || '';
-              if (message.length > 10 && message.length < 100) {
-                allNews.push({
-                  icon: '☀️',
-                  text: message.substring(0, 80),
-                  url: 'https://www.swpc.noaa.gov/'
-                });
-              }
-            });
+        tasks.push((async () => {
+          try {
+            const spaceUrl = 'https://services.swpc.noaa.gov/products/alerts.json';
+            const spaceResponse = await fetch(`https://corsproxy.io/?${encodeURIComponent(spaceUrl)}`, { signal: AbortSignal.timeout(8000) });
+            const spaceData = await spaceResponse.json();
+            if (!spaceData?.length) return [];
+            return spaceData.slice(0, 2).map(alert => ({
+              icon: '☀️',
+              text: (alert.message || alert.summary || '').substring(0, 80),
+              url: 'https://www.swpc.noaa.gov/'
+            })).filter(n => n.text.length > 10 && n.text.length < 100);
+          } catch (e) {
+            console.warn('⚠️ Error clima espacial NOAA:', e.message);
+            return [];
           }
-        } catch (e) {
-          console.warn('⚠️ Error clima espacial NOAA:', e.message);
-        }
+        })());
         
-        // 3. HURACANES/CICLONES ACTIVOS (NOAA con proxy)
-        try {
-          const hurricaneUrl = 'https://www.nhc.noaa.gov/CurrentStorms.json';
-          const hurricaneResponse = await fetch(`https://corsproxy.io/?${encodeURIComponent(hurricaneUrl)}`, {
-            signal: AbortSignal.timeout(8000)
-          });
-          const hurricaneData = await hurricaneResponse.json();
-          
-          if (hurricaneData.activeStorms && hurricaneData.activeStorms.length > 0) {
-            hurricaneData.activeStorms.slice(0, 2).forEach(storm => {
-              const name = storm.name || storm.stormName || 'Sin nombre';
-              const type = storm.stormType || 'Tormenta';
-              allNews.push({
-                icon: '🌀',
-                text: `${type} ${name} activo`,
-                url: 'https://www.nhc.noaa.gov/'
-              });
-            });
+        tasks.push((async () => {
+          try {
+            const hurricaneUrl = 'https://www.nhc.noaa.gov/CurrentStorms.json';
+            const hurricaneResponse = await fetch(`https://corsproxy.io/?${encodeURIComponent(hurricaneUrl)}`, { signal: AbortSignal.timeout(8000) });
+            const hurricaneData = await hurricaneResponse.json();
+            if (!hurricaneData.activeStorms?.length) return [];
+            return hurricaneData.activeStorms.slice(0, 2).map(storm => ({
+              icon: '🌀',
+              text: `${storm.stormType || 'Tormenta'} ${storm.name || storm.stormName || 'Sin nombre'} activo`,
+              url: 'https://www.nhc.noaa.gov/'
+            }));
+          } catch (e) {
+            console.warn('⚠️ Error huracanes NOAA:', e.message);
+            return [];
           }
-        } catch (e) {
-          console.warn('⚠️ Error huracanes NOAA:', e.message);
-        }
+        })());
         
-        // 4. ESTACIÓN ESPACIAL INTERNACIONAL (ISS con proxy)
-        try {
-          const issUrl = 'http://api.open-notify.org/iss-now.json';
-          const issResponse = await fetch(`https://corsproxy.io/?${encodeURIComponent(issUrl)}`, {
-            signal: AbortSignal.timeout(8000)
-          });
-          const issData = await issResponse.json();
-          
-          if (issData.iss_position) {
+        tasks.push((async () => {
+          try {
+            const issUrl = 'http://api.open-notify.org/iss-now.json';
+            const issResponse = await fetch(`https://corsproxy.io/?${encodeURIComponent(issUrl)}`, { signal: AbortSignal.timeout(8000) });
+            const issData = await issResponse.json();
+            if (!issData.iss_position) return [];
+            
             const lat = parseFloat(issData.iss_position.latitude).toFixed(1);
             const lon = parseFloat(issData.iss_position.longitude).toFixed(1);
-            
-            // Determinar región aproximada
             let region = 'Océano';
             if (lat > 35 && lat < 45 && lon > -10 && lon < 5) region = 'Europa';
             else if (lat > 25 && lat < 50 && lon > -130 && lon < -60) region = 'América del Norte';
             else if (lat > -60 && lat < 15 && lon > -85 && lon < -30) region = 'América del Sur';
             else if (lat > -40 && lat < 40 && lon > 95 && lon < 150) region = 'Asia-Pacífico';
             
-            allNews.push({
+            return [{
               icon: '🛰️',
               text: `ISS sobrevolando ${region} (${lat}°, ${lon}°)`,
               url: 'https://spotthestation.nasa.gov/'
-            });
+            }];
+          } catch (e) {
+            console.warn('⚠️ Error ISS tracker:', e.message);
+            return [];
           }
-        } catch (e) {
-          console.warn('⚠️ Error ISS tracker:', e.message);
-        }
+        })());
         
-        // 5. CIBERSEGURIDAD - Stats globales simuladas basadas en proyectos conocidos
-        try {
-          // Generar estadística basada en datos reales estimados
-          const hourOfDay = new Date().getHours();
-          const baseAttacks = 150000 + (hourOfDay * 5000); // Más ataques en horas punta
-          const randomVariation = Math.floor(Math.random() * 20000);
-          const totalAttacks = baseAttacks + randomVariation;
-          
-          allNews.push({
-            icon: '🔒',
-            text: `~${(totalAttacks / 1000).toFixed(0)}k intentos de intrusión detectados en las últimas 24h`,
-            url: 'https://threatmap.checkpoint.com/'
-          });
-        } catch (e) {
-          console.warn('⚠️ Error ciberseguridad:', e.message);
-        }
+        tasks.push((async () => {
+          try {
+            const hourOfDay = new Date().getHours();
+            const baseAttacks = 150000 + (hourOfDay * 5000);
+            const randomVariation = Math.floor(Math.random() * 20000);
+            const totalAttacks = baseAttacks + randomVariation;
+            return [{
+              icon: '🔒',
+              text: `~${(totalAttacks / 1000).toFixed(0)}k intentos de intrusión detectados en las últimas 24h`,
+              url: 'https://threatmap.checkpoint.com/'
+            }];
+          } catch (e) {
+            console.warn('⚠️ Error ciberseguridad:', e.message);
+            return [];
+          }
+        })());
         
-        // 6. ASTEROIDES CERCANOS NASA (sin API key - usando datos públicos)
-        try {
-          // NASA tiene un feed público de asteroides cercanos
-          const today = new Date();
-          const dateStr = today.toISOString().split('T')[0];
-          const asteroidUrl = `https://ssd-api.jpl.nasa.gov/cad.api?date-min=${dateStr}&dist-max=0.05`;
-          
-          const asteroidResponse = await fetch(`https://corsproxy.io/?${encodeURIComponent(asteroidUrl)}`, {
-            signal: AbortSignal.timeout(8000)
-          });
-          const asteroidData = await asteroidResponse.json();
-          
-          if (asteroidData && asteroidData.data && asteroidData.data.length > 0) {
+        tasks.push((async () => {
+          try {
+            const today = new Date();
+            const dateStr = today.toISOString().split('T')[0];
+            const asteroidUrl = `https://ssd-api.jpl.nasa.gov/cad.api?date-min=${dateStr}&dist-max=0.05`;
+            const asteroidResponse = await fetch(`https://corsproxy.io/?${encodeURIComponent(asteroidUrl)}`, { signal: AbortSignal.timeout(8000) });
+            const asteroidData = await asteroidResponse.json();
+            if (!asteroidData?.data?.length) return [];
             const closest = asteroidData.data[0];
             const name = closest[0] || 'Desconocido';
-            const distLD = parseFloat(closest[4]).toFixed(2); // Distancia en LD (Lunar Distance)
-            
-            allNews.push({
+            const distLD = parseFloat(closest[4]).toFixed(2);
+            return [{
               icon: '☄️',
               text: `Asteroide ${name} pasará a ${distLD} distancias lunares de la Tierra`,
               url: 'https://cneos.jpl.nasa.gov/ca/'
-            });
+            }];
+          } catch (e) {
+            console.warn('⚠️ Error asteroides NASA:', e.message);
+            return [];
           }
-        } catch (e) {
-          console.warn('⚠️ Error asteroides NASA:', e.message);
-        }
+        })());
         
-        // 8. ERUPCIONES VOLCÁNICAS - Usando datos del Smithsonian (público)
-        try {
-          // Volcanism.si.edu tiene datos pero sin API fácil
-          // Usamos una aproximación: si hay terremotos volcánicos recientes
-          const volcanicUrl = 'https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson';
-          const volcanicResponse = await fetch(volcanicUrl, {
-            signal: AbortSignal.timeout(8000)
-          });
-          const volcanicData = await volcanicResponse.json();
-          
-          // Buscar terremotos cerca de volcanes conocidos
-          let volcanicActivity = 0;
-          if (volcanicData.features) {
+        tasks.push((async () => {
+          try {
+            const volcanicUrl = 'https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson';
+            const volcanicResponse = await fetch(volcanicUrl, { signal: AbortSignal.timeout(8000) });
+            const volcanicData = await volcanicResponse.json();
+            if (!volcanicData.features) return [];
+            let volcanicActivity = 0;
             volcanicData.features.forEach(quake => {
               const depth = quake.geometry.coordinates[2];
               const place = quake.properties.place?.toLowerCase() || '';
-              // Terremotos superficiales cerca de volcanes
               if (depth < 10 && (place.includes('volcano') || place.includes('volcanic'))) {
                 volcanicActivity++;
               }
             });
-          }
-          
-          if (volcanicActivity > 0) {
-            allNews.push({
+            if (!volcanicActivity) return [];
+            return [{
               icon: '🌋',
               text: `${volcanicActivity} eventos sísmicos volcánicos detectados hoy`,
               url: 'https://volcano.si.edu/'
-            });
+            }];
+          } catch (e) {
+            console.warn('⚠️ Error actividad volcánica:', e.message);
+            return [];
           }
-        } catch (e) {
-          console.warn('⚠️ Error actividad volcánica:', e.message);
-        }
+        })());
         
-        // 9. ALERTAS METEOROLÓGICAS AEMET - Intentar RSS primero (más accesible)
-        try {
-          console.log('📋 AEMET: Intentando RSS de avisos (proxy allorigins)...');
-          
-          // RSS de avisos públicos (más fácil de acceder que la API)
-          const aemetRssUrl = 'https://www.aemet.es/es/eltiempo/prediccion/avisos/rss';
-          // allorigins entrega texto plano evitando CORS
-          const proxied = `https://api.allorigins.win/raw?url=${encodeURIComponent(aemetRssUrl)}`;
-          const rssResponse = await fetch(proxied, {
-            signal: AbortSignal.timeout(10000)
-          });
-          const rssText = await rssResponse.text();
-          
-        // Parsear RSS con manejo de errores
-        const parser = new DOMParser();
-        const xmlDoc = parser.parseFromString(rssText, 'text/xml');
-        if (xmlDoc.querySelector('parsererror')) {
-          console.warn('AEMET RSS con parsererror, saltando feed');
-          return;
-        }
-        const items = xmlDoc.getElementsByTagName('item');
-          
-          let aemetCount = 0;
-          
-          for (let i = 0; i < Math.min(5, items.length); i++) {
-            const titleElem = items[i].getElementsByTagName('title')[0];
-            const linkElem = items[i].getElementsByTagName('link')[0];
-            const descElem = items[i].getElementsByTagName('description')[0];
+        tasks.push((async () => {
+          try {
+            console.log('📋 AEMET: Intentando RSS de avisos (proxy allorigins)...');
+            const aemetRssUrl = 'https://www.aemet.es/es/eltiempo/prediccion/avisos/rss';
+            const proxied = `https://api.allorigins.win/raw?url=${encodeURIComponent(aemetRssUrl)}`;
+            const rssResponse = await fetch(proxied, { signal: AbortSignal.timeout(10000) });
+            const rssText = await rssResponse.text();
             
-            let title = titleElem?.textContent || titleElem?.text || '';
-            const link = linkElem?.textContent || 'https://www.aemet.es/es/eltiempo/prediccion/avisos';
-            let desc = descElem?.textContent || descElem?.text || '';
+            const cleanedRss = rssText
+              .replace(/<source[^>]*>/gi, '')
+              .replace(/<\/source>/gi, '');
             
-            // Limpiar CDATA si existe
-            title = title.replace(/<!\[CDATA\[|\]\]>/g, '').trim();
-            desc = desc.replace(/<!\[CDATA\[|\]\]>/g, '').trim();
-            
-            if (title && title.length > 5 && !title.includes('xmlns')) {
-              // Determinar icono según contenido
-              let icon = '⚠️';
-              const text = (title + ' ' + desc).toLowerCase();
-              if (text.includes('nieve') || text.includes('nevada')) icon = '❄️';
-              if (text.includes('viento')) icon = '💨';
-              if (text.includes('lluvia')) icon = '🌧️';
-              if (text.includes('tormenta')) icon = '⛈️';
-              if (text.includes('costa') || text.includes('mar') || text.includes('oleaje')) icon = '🌊';
-              if (text.includes('calor') || text.includes('temperatura')) icon = '🌡️';
-              if (text.includes('niebla')) icon = '🌫️';
-              
-              // Filtrar avisos: solo ≥ “peligro moderado” (ej. amarillo/naranja/rojo). Saltar “verde/bajo”.
-              const isLow = text.includes('verde') || text.includes('sin aviso') || text.includes('bajo');
-              const isRelevant = text.includes('amarillo') || text.includes('naranja') || text.includes('rojo') || text.includes('importante') || text.includes('peligro') || text.includes('alerta');
-              if (isLow && !isRelevant) continue;
-              
-              allNews.push({
-                icon: icon,
-                text: `${title} (AEMET)`,
-                url: link
-              });
-              aemetCount++;
+            const parser = new DOMParser();
+            const xmlDoc = parser.parseFromString(cleanedRss, 'text/xml');
+            if (xmlDoc.querySelector('parsererror')) {
+              console.warn('AEMET RSS con parsererror tras limpieza, saltando feed');
+              return [];
             }
+            const items = xmlDoc.getElementsByTagName('item');
+            if (!items.length) return [];
+            
+            const results = [];
+            for (let i = 0; i < Math.min(5, items.length); i++) {
+              const titleElem = items[i].getElementsByTagName('title')[0];
+              const linkElem = items[i].getElementsByTagName('link')[0];
+              const descElem = items[i].getElementsByTagName('description')[0];
+              
+              let title = titleElem?.textContent || titleElem?.text || '';
+              const link = linkElem?.textContent || 'https://www.aemet.es/es/eltiempo/prediccion/avisos';
+              let desc = descElem?.textContent || descElem?.text || '';
+              
+              title = title.replace(/<!\[CDATA\[|\]\]>/g, '').trim();
+              desc = desc.replace(/<!\[CDATA\[|\]\]>/g, '').trim();
+              
+              if (title && title.length > 5 && !title.includes('xmlns')) {
+                let icon = '⚠️';
+                const text = (title + ' ' + desc).toLowerCase();
+                if (text.includes('nieve') || text.includes('nevada')) icon = '❄️';
+                if (text.includes('viento')) icon = '💨';
+                if (text.includes('lluvia')) icon = '🌧️';
+                if (text.includes('tormenta')) icon = '⛈️';
+                if (text.includes('costa') || text.includes('mar') || text.includes('oleaje')) icon = '🌊';
+                if (text.includes('calor') || text.includes('temperatura')) icon = '🌡️';
+                if (text.includes('niebla')) icon = '🌫️';
+                
+                const isLow = text.includes('verde') || text.includes('sin aviso') || text.includes('bajo');
+                const isRelevant = text.includes('amarillo') || text.includes('naranja') || text.includes('rojo') || text.includes('importante') || text.includes('peligro') || text.includes('alerta');
+                if (isLow && !isRelevant) continue;
+                
+                results.push({
+                  icon,
+                  text: `${title} (AEMET)`,
+                  url: link
+                });
+              }
+            }
+            
+            if (results.length) {
+              console.log(`✅ ${results.length} avisos AEMET cargados desde RSS`);
+            } else {
+              console.log('ℹ️ AEMET RSS: Sin avisos en el feed');
+            }
+            return results;
+          } catch (e) {
+            console.warn('⚠️ AEMET API no disponible:', e.message);
+            return [];
           }
-          
-          if (aemetCount > 0) {
-            console.log(`✅ ${aemetCount} avisos AEMET cargados desde RSS`);
-          } else {
-            console.log('ℹ️ AEMET RSS: Sin avisos en el feed');
-          }
-        } catch (e) {
-          console.warn('⚠️ AEMET API no disponible:', e.message);
-        }
+        })());
         
-        // AVISOS AEMET - Siempre mostrar los actuales
-        // Extraídos de https://www.aemet.es/es/eltiempo/prediccion/avisos
+        const settled = await Promise.allSettled(tasks);
+        const allNews = [];
+        settled.forEach(r => {
+          if (r.status === 'fulfilled' && Array.isArray(r.value)) {
+            allNews.push(...r.value);
+          }
+        });
+        
+        // AVISOS AEMET hardcodeados mínimos
         const now = new Date();
         const day = now.getDate();
         const month = now.getMonth();
-        
-        console.log(`📅 Fecha actual: ${day} de ${month === 11 ? 'diciembre' : 'mes ' + (month+1)}`);
-        
-        // Avisos vigentes 4-6 diciembre 2025
         if (month === 11 && day >= 4 && day <= 6) {
           allNews.push({
             icon: '🌊',
             text: 'Asturias/Cantabria/Galicia: Mar combinada 5-6m - Peligro importante (AEMET)',
             url: 'https://www.aemet.es/es/eltiempo/prediccion/avisos'
-          });
-          
-          allNews.push({
+          },{
             icon: '❄️',
             text: 'Pirineos/Cordillera Cantábrica: Nieve 5-15cm en cotas altas (AEMET)',
             url: 'https://www.aemet.es/es/eltiempo/prediccion/avisos'
-          });
-          
-          allNews.push({
+          },{
             icon: '💨',
             text: 'Almería: Rachas de viento hasta 70km/h (AEMET)',
             url: 'https://www.aemet.es/es/eltiempo/prediccion/avisos'
           });
-          
           console.log('✅ 3 avisos AEMET mostrados (vigentes 4-6 dic)');
         } else {
-          // Si tampoco llegaron avisos del RSS, dejar un mensaje neutro para no dejar hueco vacío
-          console.log(`ℹ️ Sin avisos hardcodeados para ${day}/${month+1} (solo 4-6/12)`);
           const hasAemet = allNews.some(n => (n.text || '').includes('(AEMET)'));
           if (!hasAemet) {
             allNews.push({
@@ -1147,10 +1105,9 @@
           }
         }
         
-        // 10. ACTIVIDAD SOLAR RECIENTE - SOHO/LASCO
+        // 10. ACTIVIDAD SOLAR RECIENTE - SOHO/LASCO (simulada)
         try {
-          // Información sobre el sol complementaria
-          const sunspot = Math.floor(Math.random() * 50) + 120; // Número típico de manchas
+          const sunspot = Math.floor(Math.random() * 50) + 120;
           allNews.push({
             icon: '🌞',
             text: `Número de manchas solares estimado: ~${sunspot}`,
@@ -1161,15 +1118,10 @@
         }
         
         if (allNews.length > 0) {
-          // Guardar en cache
-          localStorage.setItem(NEWS_CACHE_KEY, JSON.stringify({
-            news: allNews,
-            timestamp: Date.now()
-          }));
+          localStorage.setItem(NEWS_CACHE_KEY, JSON.stringify({ news: allNews, timestamp: Date.now() }));
           console.log(`✓ ${allNews.length} noticias reales cargadas`);
           return allNews;
         }
-        
         return null;
       } catch (error) {
         console.warn('⚠️ Error general cargando noticias:', error);

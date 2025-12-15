@@ -562,11 +562,11 @@
       for (const api of timeAPIs) {
         try {
           const resp = await fetch(api, { cache: 'no-store' });
-          const data = await resp.json();
+        const data = await resp.json();
           
           // Parsear según el servicio
           if (data.dateTime) {
-            utcRef = new Date(data.dateTime);
+        utcRef = new Date(data.dateTime);
           } else if (data.datetime) {
             utcRef = new Date(data.datetime);
           } else if (data.currentDateTime) {
@@ -575,18 +575,18 @@
             continue; // Probar siguiente API
           }
           
-          utcError = false;
+        utcError = false;
           console.log(`🕐 Reloj sincronizado con ${api.split('/')[2]} - ${utcRef.toISOString()}`);
           updateCentralUTCAndRelojes();
           return; // Éxito, salir
-        } catch(e) {
+      } catch(e) {
           console.warn(`⚠️ Sincronización falló con ${api.split('/')[2]}`);
         }
       }
       
       // Si todos fallan, usar hora local
-      utcRef = new Date();
-      utcError = true;
+        utcRef = new Date();
+        utcError = true;
       console.warn('⚠️ Usando hora local (todas las APIs de tiempo fallaron)');
       updateCentralUTCAndRelojes();
     }
@@ -992,7 +992,7 @@
                     console.log(`✅ ${service.name} desbloqueado`);
                   }, 90000); // 1.5 minutos
                 }
-              }
+          }
             } catch (e) {
               serviceErrors[currentServiceIndex]++;
             }
@@ -1177,9 +1177,9 @@
         
         if (!data.events || data.events.length === 0) {
           console.warn('⚠️ events.json vacío');
-          return;
-        }
-        
+        return;
+      }
+
         // Filtrar solo eventos de Firehol
         const firehol = data.events
           .filter(e => e.feed === 'firehol' || e.type === 'malicious-ip')
@@ -1204,7 +1204,7 @@
         // Fallback: usar cache si existe
       if (lastEvents.length) {
           console.log('↺ Usando cache local');
-          renderAttacks(lastEvents, { forcePulse: false });
+        renderAttacks(lastEvents, { forcePulse: false });
         }
       }
     }
