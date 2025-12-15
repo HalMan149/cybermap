@@ -277,9 +277,6 @@
       <div class="legend-circle" style="background: #ffd700; border-color: #ffa500; opacity: 0.5;"></div>
       <span>Terremotos > 24h (estáticos)</span>
     </div>
-    <div class="legend-item" style="padding-left: 24px; font-size: 11px; opacity: 0.8;">
-      <span>• Tamaño = magnitud • Centro oscuro = profundidad</span>
-    </div>
     <div class="legend-item">
       <div class="legend-circle" style="background: #ff4444; border-color: #cc0000;"></div>
       <span>Volcanes (tamaño=actividad)</span>
@@ -651,29 +648,10 @@
         const activeVolcanoes = Object.values(volcanoGroups);
         console.log(`  ✓ ${activeVolcanoes.length} volcanes activos agrupados`);
         
-        // Combinar con volcanes conocidos (que no tienen actividad sísmica reciente)
+        // Solo volcanes con actividad real (sin datos hardcodeados antiguos)
         const combinedVolcanoes = [...activeVolcanoes];
         
-        // Añadir volcanes conocidos que no están en eventos recientes
-        volcanesActivos.forEach(v => {
-          const exists = activeVolcanoes.some(av => 
-            Math.abs(av.lat - v.lat) < 0.5 && Math.abs(av.lng - v.lng) < 0.5
-          );
-          if (!exists) {
-            combinedVolcanoes.push({
-              lat: v.lat,
-              lng: v.lng,
-              name: v.name,
-              country: v.country,
-              events: [],
-              lastActivity: new Date(v.lastActivity + '-01').getTime(),
-              maxMag: 0,
-              isKnown: true
-            });
-          }
-        });
-        
-        console.log(`  ✓ Total volcanes (activos + conocidos): ${combinedVolcanoes.length}`);
+        console.log(`  ✓ Total volcanes con actividad real: ${combinedVolcanoes.length}`);
         
         // Limpiar capa de volcanes
         volcanesLayer.clearLayers();
