@@ -65,20 +65,62 @@
       color: rgba(255, 255, 255, 0.7) !important;
     }
     
-    /* Animación para terremotos nuevos */
-    @keyframes earthquake-pulse {
-      0% {
-        r: attr(data-base-radius);
-        opacity: 0.8;
+    /* Animaciones para terremotos según antigüedad y magnitud */
+    @keyframes earthquake-pulse-strong {
+      0%, 100% {
+        transform: scale(1);
+        opacity: 0.9;
+        filter: drop-shadow(0 0 8px rgba(255, 136, 0, 0.8));
       }
       50% {
-        r: calc(attr(data-base-radius) * 2.5);
-        opacity: 0.2;
+        transform: scale(2.5);
+        opacity: 0.3;
+        filter: drop-shadow(0 0 20px rgba(255, 136, 0, 1));
       }
-      100% {
-        r: attr(data-base-radius);
+    }
+    
+    @keyframes earthquake-pulse-medium {
+      0%, 100% {
+        transform: scale(1);
         opacity: 0.8;
+        filter: drop-shadow(0 0 5px rgba(255, 200, 0, 0.6));
       }
+      50% {
+        transform: scale(2);
+        opacity: 0.3;
+        filter: drop-shadow(0 0 12px rgba(255, 200, 0, 0.8));
+      }
+    }
+    
+    @keyframes earthquake-pulse-weak {
+      0%, 100% {
+        transform: scale(1);
+        opacity: 0.7;
+        filter: drop-shadow(0 0 3px rgba(255, 230, 0, 0.4));
+      }
+      50% {
+        transform: scale(1.5);
+        opacity: 0.4;
+        filter: drop-shadow(0 0 8px rgba(255, 230, 0, 0.6));
+      }
+    }
+    
+    /* Clases para aplicar animaciones */
+    .quake-very-recent-strong {
+      animation: earthquake-pulse-strong 1.5s ease-in-out infinite;
+    }
+    
+    .quake-very-recent-medium {
+      animation: earthquake-pulse-medium 2s ease-in-out infinite;
+    }
+    
+    .quake-very-recent-weak {
+      animation: earthquake-pulse-weak 2.5s ease-in-out infinite;
+    }
+    
+    .quake-recent {
+      animation: earthquake-pulse-weak 4s ease-in-out infinite;
+      opacity: 0.6;
     }
     .info-panel {
       position: absolute;
@@ -531,9 +573,39 @@
 
     async function loadEarthquakes() {
       try {
-        const response = await fetch('https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson');
-        const data = await response.json();
-
+        // Cargar múltiples feeds para tener datos más completos y actuales
+        const feeds = [
+          'https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson',   // Última hora
+          'https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson',    // Últimas 24h
+          'https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_week.geojson'    // Semana (M2.5+)
+        ];
+        
+        // Cargar feeds en paralelo
+        const responses = await Promise.allSettled(
+          feeds.map(url => fetch(url).then(r => r.json()))
+        );
+        
+        // Combinar todos los terremotos
+        let allFeatures = [];
+        responses.forEach((result, idx) => {
+          if (result.status === 'fulfilled' && result.value?.features) {
+            console.log(`✓ Feed ${idx + 1}: ${result.value.features.length} terremotos`);
+            allFeatures.push(...result.value.features);
+          }
+        });
+        
+        // Deduplicar por ID
+        const seen = new Set();
+        const uniqueFeatures = allFeatures.filter(quake => {
+          const id = quake.properties.id || quake.properties.code;
+          if (seen.has(id)) return false;
+          seen.add(id);
+          return true;
+        });
+        
+        console.log(`📊 Total terremotos únicos: ${uniqueFeatures.length}`);
+        
+        const data = { features: uniqueFeatures };
         if (!data || !data.features) throw new Error('Datos de terremotos inválidos');
 
         // Detectar terremotos nuevos
@@ -568,6 +640,13 @@
             newEarthquakes.push({ coords, mag, quakeId });
           }
           
+          // Calcular antigüedad del terremoto
+          const now = Date.now();
+          const quakeTime = props.time;
+          const hoursAgo = (now - quakeTime) / (1000 * 60 * 60);
+          const isVeryRecent = hoursAgo <= 24; // Últimas 24 horas
+          const isUltraRecent = hoursAgo <= 6; // Últimas 6 horas
+          
           // Radio del círculo exterior según magnitud
           const outerRadius = 4 + mag * 1.5;
           
@@ -582,14 +661,28 @@
                             depth < 150 ? '#996600' : 
                             '#663300';
           
+          // Determinar clase de animación según antigüedad y magnitud
+          let animationClass = '';
+          if (isUltraRecent) {
+            // Últimas 6 horas - animación según magnitud
+            if (mag >= 6.0) animationClass = 'quake-very-recent-strong';
+            else if (mag >= 4.5) animationClass = 'quake-very-recent-medium';
+            else animationClass = 'quake-very-recent-weak';
+          } else if (isVeryRecent) {
+            // 6-24 horas - animación suave
+            animationClass = 'quake-recent';
+          }
+          // > 24h - sin animación (estático)
+          
           // Círculo exterior (magnitud)
           const outerCircle = L.circleMarker([coords[1], coords[0]], {
             radius: outerRadius,
             fillColor: CONFIG.colors.earthquake,
-            color: '#ff8800',
-            weight: 2,
-            opacity: 1,
-            fillOpacity: 0.6
+            color: isVeryRecent ? '#ffaa00' : '#ff8800',
+            weight: isVeryRecent ? 2.5 : 2,
+            opacity: isVeryRecent ? 1 : 0.7,
+            fillOpacity: isVeryRecent ? 0.7 : 0.5,
+            className: animationClass
           });
           
           // Círculo interior (profundidad)
@@ -603,10 +696,22 @@
           });
           
           const fecha = new Date(props.time).toLocaleString('es-ES');
+          const hoursAgoText = hoursAgo < 1 ? 
+            `hace ${Math.floor(hoursAgo * 60)} minutos` : 
+            `hace ${Math.floor(hoursAgo)} horas`;
+          
+          // Indicador visual de antigüedad
+          let timeIndicator = '';
+          if (isUltraRecent) {
+            timeIndicator = '🔴 <b style="color: #ff4444;">MUY RECIENTE</b> ';
+          } else if (isVeryRecent) {
+            timeIndicator = '🟡 <b style="color: #ffaa00;">RECIENTE</b> ';
+          }
           
           const popup = `
             <div style="font-family: sans-serif;">
               <b style="color: ${CONFIG.colors.earthquake}; font-size: 14px;">🌍 Terremoto</b><br>
+              ${timeIndicator}${hoursAgoText}<br>
               <b>Magnitud:</b> ${mag.toFixed(1)}<br>
               <b>Profundidad:</b> ${depth.toFixed(1)} km ${depth < 70 ? '(superficial)' : depth < 300 ? '(intermedio)' : '(profundo)'}<br>
               <b>Fecha:</b> ${fecha}<br>
