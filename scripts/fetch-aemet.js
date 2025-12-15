@@ -31,69 +31,76 @@ async function fetchAemetAvisos() {
       return null;
     }
     
-    // Paso 2: Obtener datos desde URL temporal
-    console.log('📥 Descargando datos desde URL temporal...');
+    // Paso 2: Obtener datos XML desde URL temporal
+    console.log('📥 Descargando datos XML desde URL temporal...');
     const datosResponse = await fetch(metadata.datos);
-    const avisos = await datosResponse.json();
+    const xmlText = await datosResponse.text();
     
-    console.log(`   Avisos recibidos: ${Array.isArray(avisos) ? avisos.length : 'N/A'}`);
+    console.log(`   XML recibido, length: ${xmlText.length}`);
     
-    if (!Array.isArray(avisos) || avisos.length === 0) {
-      console.log('ℹ️ Sin avisos activos');
-      return [];
-    }
-    
-    // Paso 3: Procesar y formatear avisos
+    // Paso 3: Parsear XML y extraer avisos con regex (simple y efectivo)
     const processed = [];
     
-    for (const aviso of avisos) {
-      // Extraer información del aviso (estructura puede variar)
-      const provincia = aviso.area?.areaDesc || 
-                       aviso.provinciaDesc || 
-                       aviso.provincia || 
-                       aviso.nombre || 
-                       'España';
+    // Buscar todos los <info> que contienen los avisos
+    const infoRegex = /<info[^>]*>([\s\S]*?)<\/info>/gi;
+    let match;
+    let count = 0;
+    
+    while ((match = infoRegex.exec(xmlText)) !== null && count < 20) {
+      const infoContent = match[1];
       
-      const fenomeno = aviso.fenomeno || 
-                      aviso.evento || 
-                      aviso.type || 
-                      aviso.parametro || 
-                      'Aviso meteorológico';
+      // Extraer campos clave
+      const eventMatch = infoContent.match(/<event[^>]*>([^<]+)<\/event>/i);
+      const headlineMatch = infoContent.match(/<headline[^>]*>([^<]+)<\/headline>/i);
+      const areaMatch = infoContent.match(/<areaDesc[^>]*>([^<]+)<\/areaDesc>/i);
+      const severityMatch = infoContent.match(/<severity[^>]*>([^<]+)<\/severity>/i);
       
-      const nivel = aviso.nivel || 
-                   aviso.nivel_max || 
-                   aviso.severidad || 
-                   aviso.severity || 
-                   '';
+      const evento = eventMatch ? eventMatch[1].trim() : '';
+      const headline = headlineMatch ? headlineMatch[1].trim() : '';
+      const area = areaMatch ? areaMatch[1].trim() : '';
+      const severity = severityMatch ? severityMatch[1].trim() : '';
       
-      if (fenomeno && provincia) {
+      // Usar headline si existe, sino evento
+      let fenomeno = headline || evento || 'Aviso';
+      const provincia = area || 'España';
+      
+      if (fenomeno && provincia && fenomeno.length > 3) {
         // Determinar icono
         let icon = '⚠️';
         const text = (fenomeno + ' ' + provincia).toLowerCase();
         
         if (text.includes('nieve') || text.includes('nevada')) icon = '❄️';
         else if (text.includes('viento')) icon = '💨';
-        else if (text.includes('lluvia') || text.includes('precipitación')) icon = '🌧️';
+        else if (text.includes('lluvia') || text.includes('precipitación') || text.includes('precipitaciones')) icon = '🌧️';
         else if (text.includes('tormenta')) icon = '⛈️';
         else if (text.includes('costa') || text.includes('mar') || text.includes('oleaje') || text.includes('fenómenos costeros')) icon = '🌊';
-        else if (text.includes('calor') || text.includes('temperatura') || text.includes('máximas')) icon = '🌡️';
+        else if (text.includes('calor') || text.includes('temperatura') || text.includes('máximas') || text.includes('altas temperaturas')) icon = '🌡️';
         else if (text.includes('niebla')) icon = '🌫️';
         else if (text.includes('hielo') || text.includes('helada')) icon = '🧊';
         
-        const nivelText = nivel ? ` (${nivel})` : '';
+        // Traducir severity a español
+        let nivelES = severity;
+        if (severity === 'Minor') nivelES = 'Amarillo';
+        else if (severity === 'Moderate') nivelES = 'Naranja';
+        else if (severity === 'Severe' || severity === 'Extreme') nivelES = 'Rojo';
+        
+        const nivelText = nivelES && nivelES !== severity ? ` (${nivelES})` : '';
         
         processed.push({
           icon,
           provincia,
           fenomeno,
-          nivel,
+          nivel: nivelES,
           text: `${provincia}: ${fenomeno}${nivelText} (AEMET)`,
           url: 'https://www.aemet.es/es/eltiempo/prediccion/avisos'
         });
+        
+        count++;
+        console.log(`   [${count}] ${provincia}: ${fenomeno} (${nivelES || 'N/A'})`);
       }
     }
     
-    console.log(`✅ ${processed.length} avisos procesados`);
+    console.log(`✅ ${processed.length} avisos procesados desde XML`);
     return processed;
     
   } catch (error) {
