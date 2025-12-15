@@ -531,10 +531,12 @@
     }
 
     // ============================================
-    // VOLCANES ACTIVOS (con fecha de última actividad)
+    // VOLCANES ACTIVOS (datos en tiempo real desde USGS)
     // ============================================
+    
+    // Volcanes con erupciones recientes conocidos (fallback si API falla)
     const volcanesActivos = [
-      // === ACTIVIDAD 2025 (MUY GRANDES) ===
+      // Más activos en 2025
       { name: 'Etna', lat: 37.734, lng: 14.999, country: 'Italia', lastActivity: '2025-06' },
       { name: 'Kilauea', lat: 19.421, lng: -155.287, country: 'Hawái, EE.UU.', lastActivity: '2025-05' },
       { name: 'Kanlaon', lat: 10.412, lng: 123.132, country: 'Filipinas', lastActivity: '2025-04' },
@@ -597,6 +599,208 @@
     ];
 
     const volcanesLayer = L.layerGroup().addTo(map);
+    let cachedVolcanoData = null;
+
+    // Función para cargar volcanes desde API de USGS (eventos volcánicos)
+    async function loadVolcanoes() {
+      try {
+        console.log('🌋 Cargando volcanes activos...');
+        
+        // Método 1: Buscar eventos sísmicos volcánicos (última semana)
+        const response = await fetch('https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson');
+        const data = await response.json();
+        
+        // Filtrar eventos que son volcánicos (profundidad < 10km y en zona volcánica)
+        const volcanicEvents = data.features.filter(quake => {
+          const depth = quake.geometry.coordinates[2];
+          const place = quake.properties.place?.toLowerCase() || '';
+          return depth < 10 && (
+            place.includes('volcano') || 
+            place.includes('volcanic') ||
+            place.includes('crater') ||
+            place.includes('eruption')
+          );
+        });
+        
+        console.log(`  ✓ ${volcanicEvents.length} eventos volcánicos encontrados`);
+        
+        // Agrupar por ubicación (volcanes con múltiples eventos)
+        const volcanoGroups = {};
+        
+        volcanicEvents.forEach(event => {
+          const coords = event.geometry.coordinates;
+          const place = event.properties.place;
+          const key = `${coords[1].toFixed(2)},${coords[0].toFixed(2)}`;
+          
+          if (!volcanoGroups[key]) {
+            volcanoGroups[key] = {
+              lat: coords[1],
+              lng: coords[0],
+              name: place,
+              events: [],
+              lastActivity: event.properties.time,
+              maxMag: event.properties.mag || 0
+            };
+          }
+          
+          volcanoGroups[key].events.push(event);
+          volcanoGroups[key].lastActivity = Math.max(volcanoGroups[key].lastActivity, event.properties.time);
+          volcanoGroups[key].maxMag = Math.max(volcanoGroups[key].maxMag, event.properties.mag || 0);
+        });
+        
+        const activeVolcanoes = Object.values(volcanoGroups);
+        console.log(`  ✓ ${activeVolcanoes.length} volcanes activos agrupados`);
+        
+        // Combinar con volcanes conocidos (que no tienen actividad sísmica reciente)
+        const combinedVolcanoes = [...activeVolcanoes];
+        
+        // Añadir volcanes conocidos que no están en eventos recientes
+        volcanesActivos.forEach(v => {
+          const exists = activeVolcanoes.some(av => 
+            Math.abs(av.lat - v.lat) < 0.5 && Math.abs(av.lng - v.lng) < 0.5
+          );
+          if (!exists) {
+            combinedVolcanoes.push({
+              lat: v.lat,
+              lng: v.lng,
+              name: v.name,
+              country: v.country,
+              events: [],
+              lastActivity: new Date(v.lastActivity + '-01').getTime(),
+              maxMag: 0,
+              isKnown: true
+            });
+          }
+        });
+        
+        console.log(`  ✓ Total volcanes (activos + conocidos): ${combinedVolcanoes.length}`);
+        
+        // Limpiar capa de volcanes
+        volcanesLayer.clearLayers();
+        
+        // Renderizar volcanes
+        combinedVolcanoes.forEach(v => {
+          const now = Date.now();
+          const hoursAgo = (now - v.lastActivity) / (1000 * 60 * 60);
+          const daysAgo = hoursAgo / 24;
+          
+          // Determinar tamaño según actividad reciente
+          let size = 6;
+          let isVeryActive = false;
+          let isActive = false;
+          
+          if (daysAgo < 1) {
+            size = 12 + v.maxMag * 2;
+            isVeryActive = true;
+          } else if (daysAgo < 7) {
+            size = 10 + v.maxMag;
+            isActive = true;
+          } else if (daysAgo < 30) {
+            size = 8;
+          }
+          
+          // Color según actividad
+          let fillColor = '#ff4444';
+          let borderColor = '#cc0000';
+          let fillOpacity = 0.6;
+          
+          if (isVeryActive) {
+            fillColor = '#ff0000';
+            borderColor = '#ff0000';
+            fillOpacity = 0.9;
+          } else if (isActive) {
+            fillColor = '#ff4444';
+            borderColor = '#ff0000';
+            fillOpacity = 0.75;
+          } else {
+            fillOpacity = 0.4;
+          }
+          
+          const marker = L.circleMarker([v.lat, v.lng], {
+            radius: size,
+            fillColor: fillColor,
+            color: borderColor,
+            weight: isVeryActive ? 3 : 2,
+            opacity: isVeryActive ? 1 : 0.8,
+            fillOpacity: fillOpacity
+          });
+          
+          // Formatear tiempo
+          const timeText = daysAgo < 1 ? 
+            `hace ${Math.floor(hoursAgo)} horas` : 
+            `hace ${Math.floor(daysAgo)} días`;
+          
+          let statusEmoji = '';
+          let statusText = '';
+          if (isVeryActive) {
+            statusEmoji = '🔴';
+            statusText = 'ACTIVIDAD RECIENTE';
+          } else if (isActive) {
+            statusEmoji = '🟠';
+            statusText = 'ACTIVIDAD ESTA SEMANA';
+          } else {
+            statusEmoji = '🟡';
+            statusText = 'Monitoreado';
+          }
+          
+          marker.bindPopup(`
+            <div style="font-family: sans-serif;">
+              <b style="color: #ff4444; font-size: 14px;">🌋 ${v.name}</b><br>
+              <span style="font-size: 12px;">${v.country || 'Ubicación'}</span><br>
+              ${statusEmoji} <b style="font-size: 11px;">${statusText}</b><br>
+              <span style="font-size: 11px; color: #888;">${timeText}</span><br>
+              ${v.events.length > 0 ? `<span style="font-size: 10px;">Eventos sísmicos: ${v.events.length}</span>` : ''}
+            </div>
+          `);
+          
+          // Animación para volcanes muy activos
+          if (isVeryActive) {
+            let growing = true;
+            let currentRadius = size;
+            const baseRadius = size;
+            const maxRadius = size * 1.8;
+            
+            const pulseInterval = setInterval(() => {
+              if (growing) {
+                currentRadius += 0.15;
+                if (currentRadius >= maxRadius) growing = false;
+              } else {
+                currentRadius -= 0.15;
+                if (currentRadius <= baseRadius) growing = true;
+              }
+              
+              marker.setRadius(currentRadius);
+              marker.setStyle({
+                fillOpacity: 0.9 - ((currentRadius - baseRadius) / (maxRadius - baseRadius)) * 0.3
+              });
+            }, 80);
+            
+            // Guardar para limpiar
+            pulseCircles.push({ circle: marker, interval: pulseInterval });
+          }
+          
+          volcanesLayer.addLayer(marker);
+        });
+        
+        // Actualizar contador
+        const volcanoCount = combinedVolcanoes.filter(v => (now - v.lastActivity) / (1000 * 60 * 60 * 24) < 30).length;
+        console.log(`✅ ${combinedVolcanoes.length} volcanes cargados (${volcanoCount} activos últimos 30 días)`);
+        
+        cachedVolcanoData = combinedVolcanoes;
+        
+      } catch (error) {
+        console.error('Error cargando volcanes:', error);
+        // Usar volcanes hardcodeados como fallback
+        if (!cachedVolcanoData) {
+          console.log('ℹ️ Usando volcanes conocidos (fallback)');
+          renderFallbackVolcanoes();
+        }
+      }
+    }
+    
+    // Renderizar volcanes hardcodeados (fallback)
+    function renderFallbackVolcanoes() {
+      volcanesLayer.clearLayers();
 
     // Calcular tamaño según antigüedad de la actividad
     function getVolcanoSize(lastActivity) {
@@ -656,6 +860,9 @@
       
       volcanesLayer.addLayer(marker);
     });
+    
+    console.log(`✅ ${volcanesActivos.length} volcanes conocidos renderizados (fallback)`);
+  } // Fin de renderFallbackVolcanoes
 
     // ============================================
     // TERREMOTOS RECIENTES (USGS)
@@ -1071,16 +1278,17 @@
       console.log(`✓ Lista de terremotos actualizada: ${recent.length} mostrados`);
     }
     
-    // Inicializar contador de volcanes (no implementado aún)
-    if (document.getElementById('volcanoCount')) {
-      document.getElementById('volcanoCount').textContent = 'Volcanes: En desarrollo';
-    }
-    
     // Actualizar sombra nocturna cada minuto
     setInterval(calculateNightShadow, 60000);
     
     // Actualizar terremotos cada 5 minutos
     setInterval(loadEarthquakes, 300000);
+    
+    // Cargar volcanes al inicio
+    loadVolcanoes();
+    
+    // Actualizar volcanes cada 10 minutos
+    setInterval(loadVolcanoes, 600000);
     
     // Actualizar reloj cada segundo
     setInterval(() => updateInfoPanel(new Date()), 1000);
