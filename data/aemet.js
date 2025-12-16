@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2025-12-16T07:51:22.557Z
+// Auto-generado por GitHub Actions - 2025-12-16T08:21:06.944Z
 window.AEMET_AVISOS = {
-  "generated_at": "2025-12-16T07:51:22.557Z",
+  "generated_at": "2025-12-16T08:21:06.944Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Litoral cántabro",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral cántabro",
+      "nivel": "Naranja",
+      "text": "Litoral cántabro: Aviso de lluvias de nivel amarillo. Litoral cántabro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral cántabro",
+      "fenomeno": "Moderate rain warning. Litoral cántabro",
+      "nivel": "Naranja",
+      "text": "Litoral cántabro: Moderate rain warning. Litoral cántabro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Litoral norte de Alicante",
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate coastalevent warning. Costa - Noroeste de A Coruña",
       "nivel": "Naranja",
       "text": "Costa - Noroeste de A Coruña: Moderate coastalevent warning. Costa - Noroeste de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Oeste de A Coruña",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Oeste de A Coruña",
-      "nivel": "Naranja",
-      "text": "Costa - Oeste de A Coruña: Aviso de costeros de nivel amarillo. Costa - Oeste de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Oeste de A Coruña",
-      "fenomeno": "Moderate coastalevent warning. Costa - Oeste de A Coruña",
-      "nivel": "Naranja",
-      "text": "Costa - Oeste de A Coruña: Moderate coastalevent warning. Costa - Oeste de A Coruña (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
