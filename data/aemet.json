@@ -1,8 +1,56 @@
 {
-  "generated_at": "2025-12-16T17:18:36.374Z",
+  "generated_at": "2025-12-16T17:45:25.645Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Litoral de Barcelona",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Litoral de Barcelona",
+      "nivel": "Rojo",
+      "text": "Litoral de Barcelona: Aviso de lluvias de nivel naranja. Litoral de Barcelona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral de Barcelona",
+      "fenomeno": "Severe rain warning. Litoral de Barcelona",
+      "nivel": "Rojo",
+      "text": "Litoral de Barcelona: Severe rain warning. Litoral de Barcelona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Prelitoral de Barcelona",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Prelitoral de Barcelona",
+      "nivel": "Naranja",
+      "text": "Prelitoral de Barcelona: Aviso de lluvias de nivel amarillo. Prelitoral de Barcelona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Prelitoral de Barcelona",
+      "fenomeno": "Moderate rain warning. Prelitoral de Barcelona",
+      "nivel": "Naranja",
+      "text": "Prelitoral de Barcelona: Moderate rain warning. Prelitoral de Barcelona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Litoral de Barcelona",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral de Barcelona",
+      "nivel": "Naranja",
+      "text": "Litoral de Barcelona: Aviso de lluvias de nivel amarillo. Litoral de Barcelona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral de Barcelona",
+      "fenomeno": "Moderate rain warning. Litoral de Barcelona",
+      "nivel": "Naranja",
+      "text": "Litoral de Barcelona: Moderate rain warning. Litoral de Barcelona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌊",
       "provincia": "Costa - Noroeste de A Coruña",
@@ -113,54 +161,6 @@
       "fenomeno": "Moderate coastalevent warning. Costa - Oeste de A Coruña",
       "nivel": "Naranja",
       "text": "Costa - Oeste de A Coruña: Moderate coastalevent warning. Costa - Oeste de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Noroeste de A Coruña",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Noroeste de A Coruña",
-      "nivel": "Naranja",
-      "text": "Costa - Noroeste de A Coruña: Aviso de costeros de nivel amarillo. Costa - Noroeste de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Noroeste de A Coruña",
-      "fenomeno": "Moderate coastalevent warning. Costa - Noroeste de A Coruña",
-      "nivel": "Naranja",
-      "text": "Costa - Noroeste de A Coruña: Moderate coastalevent warning. Costa - Noroeste de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Suroeste de A Coruña",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Suroeste de A Coruña",
-      "nivel": "Naranja",
-      "text": "Costa - Suroeste de A Coruña: Aviso de costeros de nivel amarillo. Costa - Suroeste de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Suroeste de A Coruña",
-      "fenomeno": "Moderate coastalevent warning. Costa - Suroeste de A Coruña",
-      "nivel": "Naranja",
-      "text": "Costa - Suroeste de A Coruña: Moderate coastalevent warning. Costa - Suroeste de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - A Mariña",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - A Mariña",
-      "nivel": "Naranja",
-      "text": "Costa - A Mariña: Aviso de costeros de nivel amarillo. Costa - A Mariña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - A Mariña",
-      "fenomeno": "Moderate coastalevent warning. Costa - A Mariña",
-      "nivel": "Naranja",
-      "text": "Costa - A Mariña: Moderate coastalevent warning. Costa - A Mariña (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
