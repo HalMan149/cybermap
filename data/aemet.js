@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2025-12-17T17:44:28.685Z
+// Auto-generado por GitHub Actions - 2025-12-17T18:22:02.896Z
 window.AEMET_AVISOS = {
-  "generated_at": "2025-12-17T17:44:28.685Z",
+  "generated_at": "2025-12-17T18:22:02.896Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌊",
+      "provincia": "Vegas del Guadiana",
+      "fenomeno": "Aviso de nieblas de nivel amarillo. Vegas del Guadiana",
+      "nivel": "Naranja",
+      "text": "Vegas del Guadiana: Aviso de nieblas de nivel amarillo. Vegas del Guadiana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Vegas del Guadiana",
+      "fenomeno": "Moderate fog warning. Vegas del Guadiana",
+      "nivel": "Naranja",
+      "text": "Vegas del Guadiana: Moderate fog warning. Vegas del Guadiana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Litoral norte de Castellón",
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Severe coastalevent warning. Costa - Oeste de A Coruña",
       "nivel": "Rojo",
       "text": "Costa - Oeste de A Coruña: Severe coastalevent warning. Costa - Oeste de A Coruña (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Suroeste de A Coruña",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Suroeste de A Coruña",
-      "nivel": "Rojo",
-      "text": "Costa - Suroeste de A Coruña: Aviso de costeros de nivel naranja. Costa - Suroeste de A Coruña (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Suroeste de A Coruña",
-      "fenomeno": "Severe coastalevent warning. Costa - Suroeste de A Coruña",
-      "nivel": "Rojo",
-      "text": "Costa - Suroeste de A Coruña: Severe coastalevent warning. Costa - Suroeste de A Coruña (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
