@@ -1,8 +1,72 @@
 {
-  "generated_at": "2025-12-20T08:55:46.664Z",
+  "generated_at": "2025-12-20T09:14:52.983Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Sierra Tramontana",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Sierra Tramontana",
+      "nivel": "Naranja",
+      "text": "Sierra Tramontana: Aviso de lluvias de nivel amarillo. Sierra Tramontana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sierra Tramontana",
+      "fenomeno": "Moderate rain warning. Sierra Tramontana",
+      "nivel": "Naranja",
+      "text": "Sierra Tramontana: Moderate rain warning. Sierra Tramontana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Norte y nordeste de Mallorca",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Norte y nordeste de Mallorca",
+      "nivel": "Naranja",
+      "text": "Norte y nordeste de Mallorca: Aviso de lluvias de nivel amarillo. Norte y nordeste de Mallorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Norte y nordeste de Mallorca",
+      "fenomeno": "Moderate rain warning. Norte y nordeste de Mallorca",
+      "nivel": "Naranja",
+      "text": "Norte y nordeste de Mallorca: Moderate rain warning. Norte y nordeste de Mallorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Levante mallorquín",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Levante mallorquín",
+      "nivel": "Naranja",
+      "text": "Levante mallorquín: Aviso de lluvias de nivel amarillo. Levante mallorquín (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Levante mallorquín",
+      "fenomeno": "Moderate rain warning. Levante mallorquín",
+      "nivel": "Naranja",
+      "text": "Levante mallorquín: Moderate rain warning. Levante mallorquín (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Menorca",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Menorca",
+      "nivel": "Naranja",
+      "text": "Menorca: Aviso de lluvias de nivel amarillo. Menorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Menorca",
+      "fenomeno": "Moderate rain warning. Menorca",
+      "nivel": "Naranja",
+      "text": "Menorca: Moderate rain warning. Menorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "❄️",
       "provincia": "Cordillera Cantábrica de León",
@@ -97,70 +161,6 @@
       "fenomeno": "Moderate snow warning. Cordillera Cantábrica de Palencia",
       "nivel": "Naranja",
       "text": "Cordillera Cantábrica de Palencia: Moderate snow warning. Cordillera Cantábrica de Palencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Sistema Central de Salamanca",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Sistema Central de Salamanca",
-      "nivel": "Naranja",
-      "text": "Sistema Central de Salamanca: Aviso de nevadas de nivel amarillo. Sistema Central de Salamanca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sistema Central de Salamanca",
-      "fenomeno": "Moderate snow warning. Sistema Central de Salamanca",
-      "nivel": "Naranja",
-      "text": "Sistema Central de Salamanca: Moderate snow warning. Sistema Central de Salamanca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Sistema Central de Segovia",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Sistema Central de Segovia",
-      "nivel": "Naranja",
-      "text": "Sistema Central de Segovia: Aviso de nevadas de nivel amarillo. Sistema Central de Segovia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sistema Central de Segovia",
-      "fenomeno": "Moderate snow warning. Sistema Central de Segovia",
-      "nivel": "Naranja",
-      "text": "Sistema Central de Segovia: Moderate snow warning. Sistema Central de Segovia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Ibérica de Soria",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Ibérica de Soria",
-      "nivel": "Naranja",
-      "text": "Ibérica de Soria: Aviso de nevadas de nivel amarillo. Ibérica de Soria (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ibérica de Soria",
-      "fenomeno": "Moderate snow warning. Ibérica de Soria",
-      "nivel": "Naranja",
-      "text": "Ibérica de Soria: Moderate snow warning. Ibérica de Soria (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Sistema Central de Soria",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Sistema Central de Soria",
-      "nivel": "Naranja",
-      "text": "Sistema Central de Soria: Aviso de nevadas de nivel amarillo. Sistema Central de Soria (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sistema Central de Soria",
-      "fenomeno": "Moderate snow warning. Sistema Central de Soria",
-      "nivel": "Naranja",
-      "text": "Sistema Central de Soria: Moderate snow warning. Sistema Central de Soria (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
