@@ -1,8 +1,24 @@
 {
-  "generated_at": "2025-12-21T22:49:41.973Z",
+  "generated_at": "2025-12-21T23:12:44.697Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Sur de Mallorca",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Sur de Mallorca",
+      "nivel": "Naranja",
+      "text": "Sur de Mallorca: Aviso de lluvias de nivel amarillo. Sur de Mallorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sur de Mallorca",
+      "fenomeno": "Moderate rain warning. Sur de Mallorca",
+      "nivel": "Naranja",
+      "text": "Sur de Mallorca: Moderate rain warning. Sur de Mallorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Litoral de Barcelona",
@@ -145,22 +161,6 @@
       "fenomeno": "Moderate rain warning. Ampurdán",
       "nivel": "Naranja",
       "text": "Ampurdán: Moderate rain warning. Ampurdán (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Litoral sur de Girona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral sur de Girona",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Girona: Aviso de lluvias de nivel amarillo. Litoral sur de Girona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral sur de Girona",
-      "fenomeno": "Moderate rain warning. Litoral sur de Girona",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Girona: Moderate rain warning. Litoral sur de Girona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
