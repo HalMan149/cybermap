@@ -1,71 +1,23 @@
-// Auto-generado por GitHub Actions - 2025-12-21T09:48:25.495Z
+// Auto-generado por GitHub Actions - 2025-12-21T10:13:48.471Z
 window.AEMET_AVISOS = {
-  "generated_at": "2025-12-21T09:48:25.495Z",
+  "generated_at": "2025-12-21T10:13:48.471Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "❄️",
-      "provincia": "Cantabria del Ebro",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Cantabria del Ebro",
+      "provincia": "Cordillera Cantábrica de León",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Cordillera Cantábrica de León",
       "nivel": "Naranja",
-      "text": "Cantabria del Ebro: Aviso de nevadas de nivel amarillo. Cantabria del Ebro (Naranja) (AEMET)",
+      "text": "Cordillera Cantábrica de León: Aviso de nevadas de nivel amarillo. Cordillera Cantábrica de León (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Cantabria del Ebro",
-      "fenomeno": "Moderate snow warning. Cantabria del Ebro",
+      "provincia": "Cordillera Cantábrica de León",
+      "fenomeno": "Moderate snow warning. Cordillera Cantábrica de León",
       "nivel": "Naranja",
-      "text": "Cantabria del Ebro: Moderate snow warning. Cantabria del Ebro (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Menorca",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Menorca",
-      "nivel": "Naranja",
-      "text": "Menorca: Aviso de lluvias de nivel amarillo. Menorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Menorca",
-      "fenomeno": "Moderate rain warning. Menorca",
-      "nivel": "Naranja",
-      "text": "Menorca: Moderate rain warning. Menorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Menorca",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Menorca",
-      "nivel": "Naranja",
-      "text": "Menorca: Aviso de lluvias de nivel amarillo. Menorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Menorca",
-      "fenomeno": "Moderate rain warning. Menorca",
-      "nivel": "Naranja",
-      "text": "Menorca: Moderate rain warning. Menorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Melilla",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Melilla",
-      "nivel": "Naranja",
-      "text": "Costa - Melilla: Aviso de costeros de nivel amarillo. Costa - Melilla (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Melilla",
-      "fenomeno": "Moderate coastalevent warning. Costa - Melilla",
-      "nivel": "Naranja",
-      "text": "Costa - Melilla: Moderate coastalevent warning. Costa - Melilla (Naranja) (AEMET)",
+      "text": "Cordillera Cantábrica de León: Moderate snow warning. Cordillera Cantábrica de León (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -134,34 +86,82 @@ window.AEMET_AVISOS = {
     },
     {
       "icon": "❄️",
-      "provincia": "Cordillera y Picos de Europa",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Cordillera y Picos de Europa",
+      "provincia": "Pirineo oscense",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Pirineo oscense",
       "nivel": "Naranja",
-      "text": "Cordillera y Picos de Europa: Aviso de nevadas de nivel amarillo. Cordillera y Picos de Europa (Naranja) (AEMET)",
+      "text": "Pirineo oscense: Aviso de nevadas de nivel amarillo. Pirineo oscense (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Cordillera y Picos de Europa",
-      "fenomeno": "Moderate snow warning. Cordillera y Picos de Europa",
+      "provincia": "Pirineo oscense",
+      "fenomeno": "Moderate snow warning. Pirineo oscense",
       "nivel": "Naranja",
-      "text": "Cordillera y Picos de Europa: Moderate snow warning. Cordillera y Picos de Europa (Naranja) (AEMET)",
+      "text": "Pirineo oscense: Moderate snow warning. Pirineo oscense (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "❄️",
-      "provincia": "Liébana",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Liébana",
+      "provincia": "Cinco Villas de Zaragoza",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Cinco Villas de Zaragoza",
       "nivel": "Naranja",
-      "text": "Liébana: Aviso de nevadas de nivel amarillo. Liébana (Naranja) (AEMET)",
+      "text": "Cinco Villas de Zaragoza: Aviso de nevadas de nivel amarillo. Cinco Villas de Zaragoza (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Liébana",
-      "fenomeno": "Moderate snow warning. Liébana",
+      "provincia": "Cinco Villas de Zaragoza",
+      "fenomeno": "Moderate snow warning. Cinco Villas de Zaragoza",
       "nivel": "Naranja",
-      "text": "Liébana: Moderate snow warning. Liébana (Naranja) (AEMET)",
+      "text": "Cinco Villas de Zaragoza: Moderate snow warning. Cinco Villas de Zaragoza (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Cantabria del Ebro",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Cantabria del Ebro",
+      "nivel": "Naranja",
+      "text": "Cantabria del Ebro: Aviso de nevadas de nivel amarillo. Cantabria del Ebro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cantabria del Ebro",
+      "fenomeno": "Moderate snow warning. Cantabria del Ebro",
+      "nivel": "Naranja",
+      "text": "Cantabria del Ebro: Moderate snow warning. Cantabria del Ebro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Menorca",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Menorca",
+      "nivel": "Naranja",
+      "text": "Menorca: Aviso de lluvias de nivel amarillo. Menorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Menorca",
+      "fenomeno": "Moderate rain warning. Menorca",
+      "nivel": "Naranja",
+      "text": "Menorca: Moderate rain warning. Menorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Menorca",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Menorca",
+      "nivel": "Naranja",
+      "text": "Menorca: Aviso de lluvias de nivel amarillo. Menorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Menorca",
+      "fenomeno": "Moderate rain warning. Menorca",
+      "nivel": "Naranja",
+      "text": "Menorca: Moderate rain warning. Menorca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
