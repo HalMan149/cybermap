@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-22T07:42:06.703Z",
+  "generated_at": "2025-12-22T07:51:20.512Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
@@ -17,22 +17,6 @@
       "fenomeno": "Moderate rain warning. Sur de Mallorca",
       "nivel": "Naranja",
       "text": "Sur de Mallorca: Moderate rain warning. Sur de Mallorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Litoral de Barcelona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral de Barcelona",
-      "nivel": "Naranja",
-      "text": "Litoral de Barcelona: Aviso de lluvias de nivel amarillo. Litoral de Barcelona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral de Barcelona",
-      "fenomeno": "Moderate rain warning. Litoral de Barcelona",
-      "nivel": "Naranja",
-      "text": "Litoral de Barcelona: Moderate rain warning. Litoral de Barcelona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -161,6 +145,22 @@
       "fenomeno": "Moderate rain warning. Ampurdán",
       "nivel": "Naranja",
       "text": "Ampurdán: Moderate rain warning. Ampurdán (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Litoral sur de Girona",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral sur de Girona",
+      "nivel": "Naranja",
+      "text": "Litoral sur de Girona: Aviso de lluvias de nivel amarillo. Litoral sur de Girona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral sur de Girona",
+      "fenomeno": "Moderate rain warning. Litoral sur de Girona",
+      "nivel": "Naranja",
+      "text": "Litoral sur de Girona: Moderate rain warning. Litoral sur de Girona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
