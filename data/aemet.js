@@ -1,9 +1,57 @@
-// Auto-generado por GitHub Actions - 2025-12-24T17:48:12.078Z
+// Auto-generado por GitHub Actions - 2025-12-24T18:20:27.821Z
 window.AEMET_AVISOS = {
-  "generated_at": "2025-12-24T17:48:12.078Z",
+  "generated_at": "2025-12-24T18:20:27.821Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Ibiza y Formentera",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Ibiza y Formentera",
+      "nivel": "Naranja",
+      "text": "Ibiza y Formentera: Aviso de lluvias de nivel amarillo. Ibiza y Formentera (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ibiza y Formentera",
+      "fenomeno": "Moderate rain warning. Ibiza y Formentera",
+      "nivel": "Naranja",
+      "text": "Ibiza y Formentera: Moderate rain warning. Ibiza y Formentera (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Ibiza y Formentera",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Ibiza y Formentera",
+      "nivel": "Naranja",
+      "text": "Ibiza y Formentera: Aviso de lluvias de nivel amarillo. Ibiza y Formentera (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ibiza y Formentera",
+      "fenomeno": "Moderate rain warning. Ibiza y Formentera",
+      "nivel": "Naranja",
+      "text": "Ibiza y Formentera: Moderate rain warning. Ibiza y Formentera (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Litoral norte de Alicante",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral norte de Alicante",
+      "nivel": "Naranja",
+      "text": "Litoral norte de Alicante: Aviso de lluvias de nivel amarillo. Litoral norte de Alicante (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral norte de Alicante",
+      "fenomeno": "Moderate rain warning. Litoral norte de Alicante",
+      "nivel": "Naranja",
+      "text": "Litoral norte de Alicante: Moderate rain warning. Litoral norte de Alicante (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "❄️",
       "provincia": "Pirineo de Girona",
@@ -114,54 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate rain warning. Ampurdán",
       "nivel": "Naranja",
       "text": "Ampurdán: Moderate rain warning. Ampurdán (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Costa granadina",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Costa granadina",
-      "nivel": "Naranja",
-      "text": "Costa granadina: Aviso de lluvias de nivel amarillo. Costa granadina (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa granadina",
-      "fenomeno": "Moderate rain warning. Costa granadina",
-      "nivel": "Naranja",
-      "text": "Costa granadina: Moderate rain warning. Costa granadina (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Levante almeriense",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Levante almeriense",
-      "nivel": "Naranja",
-      "text": "Levante almeriense: Aviso de lluvias de nivel amarillo. Levante almeriense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Levante almeriense",
-      "fenomeno": "Moderate rain warning. Levante almeriense",
-      "nivel": "Naranja",
-      "text": "Levante almeriense: Moderate rain warning. Levante almeriense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Ampurdán",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Ampurdán",
-      "nivel": "Rojo",
-      "text": "Costa - Ampurdán: Aviso de costeros de nivel naranja. Costa - Ampurdán (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Ampurdán",
-      "fenomeno": "Severe coastalevent warning. Costa - Ampurdán",
-      "nivel": "Rojo",
-      "text": "Costa - Ampurdán: Severe coastalevent warning. Costa - Ampurdán (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
