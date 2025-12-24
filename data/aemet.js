@@ -1,9 +1,41 @@
-// Auto-generado por GitHub Actions - 2025-12-24T14:51:55.902Z
+// Auto-generado por GitHub Actions - 2025-12-24T15:14:36.691Z
 window.AEMET_AVISOS = {
-  "generated_at": "2025-12-24T14:51:55.902Z",
+  "generated_at": "2025-12-24T15:14:36.691Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Costa granadina",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Costa granadina",
+      "nivel": "Naranja",
+      "text": "Costa granadina: Aviso de lluvias de nivel amarillo. Costa granadina (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa granadina",
+      "fenomeno": "Moderate rain warning. Costa granadina",
+      "nivel": "Naranja",
+      "text": "Costa granadina: Moderate rain warning. Costa granadina (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Levante almeriense",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Levante almeriense",
+      "nivel": "Naranja",
+      "text": "Levante almeriense: Aviso de lluvias de nivel amarillo. Levante almeriense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Levante almeriense",
+      "fenomeno": "Moderate rain warning. Levante almeriense",
+      "nivel": "Naranja",
+      "text": "Levante almeriense: Moderate rain warning. Levante almeriense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌊",
       "provincia": "Costa - Ampurdán",
@@ -130,38 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate low-temperature warning. Cordillera Cantábrica de Palencia",
       "nivel": "Naranja",
       "text": "Cordillera Cantábrica de Palencia: Moderate low-temperature warning. Cordillera Cantábrica de Palencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Sanabria",
-      "fenomeno": "Aviso de temperaturas mínimas de nivel amarillo. Sanabria",
-      "nivel": "Naranja",
-      "text": "Sanabria: Aviso de temperaturas mínimas de nivel amarillo. Sanabria (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sanabria",
-      "fenomeno": "Moderate low-temperature warning. Sanabria",
-      "nivel": "Naranja",
-      "text": "Sanabria: Moderate low-temperature warning. Sanabria (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Serranía de Guadalajara",
-      "fenomeno": "Aviso de temperaturas mínimas de nivel amarillo. Serranía de Guadalajara",
-      "nivel": "Naranja",
-      "text": "Serranía de Guadalajara: Aviso de temperaturas mínimas de nivel amarillo. Serranía de Guadalajara (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Serranía de Guadalajara",
-      "fenomeno": "Moderate low-temperature warning. Serranía de Guadalajara",
-      "nivel": "Naranja",
-      "text": "Serranía de Guadalajara: Moderate low-temperature warning. Serranía de Guadalajara (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
