@@ -1,9 +1,89 @@
-// Auto-generado por GitHub Actions - 2025-12-25T07:48:48.727Z
+// Auto-generado por GitHub Actions - 2025-12-25T08:19:38.099Z
 window.AEMET_AVISOS = {
-  "generated_at": "2025-12-25T07:48:48.727Z",
+  "generated_at": "2025-12-25T08:19:38.099Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Litoral norte de Alicante",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral norte de Alicante",
+      "nivel": "Naranja",
+      "text": "Litoral norte de Alicante: Aviso de lluvias de nivel amarillo. Litoral norte de Alicante (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral norte de Alicante",
+      "fenomeno": "Moderate rain warning. Litoral norte de Alicante",
+      "nivel": "Naranja",
+      "text": "Litoral norte de Alicante: Moderate rain warning. Litoral norte de Alicante (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Litoral sur de Valencia",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral sur de Valencia",
+      "nivel": "Naranja",
+      "text": "Litoral sur de Valencia: Aviso de lluvias de nivel amarillo. Litoral sur de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral sur de Valencia",
+      "fenomeno": "Moderate rain warning. Litoral sur de Valencia",
+      "nivel": "Naranja",
+      "text": "Litoral sur de Valencia: Moderate rain warning. Litoral sur de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Litoral norte de Alicante",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral norte de Alicante",
+      "nivel": "Naranja",
+      "text": "Litoral norte de Alicante: Aviso de lluvias de nivel amarillo. Litoral norte de Alicante (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral norte de Alicante",
+      "fenomeno": "Moderate rain warning. Litoral norte de Alicante",
+      "nivel": "Naranja",
+      "text": "Litoral norte de Alicante: Moderate rain warning. Litoral norte de Alicante (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Litoral sur de Valencia",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral sur de Valencia",
+      "nivel": "Naranja",
+      "text": "Litoral sur de Valencia: Aviso de lluvias de nivel amarillo. Litoral sur de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral sur de Valencia",
+      "fenomeno": "Moderate rain warning. Litoral sur de Valencia",
+      "nivel": "Naranja",
+      "text": "Litoral sur de Valencia: Moderate rain warning. Litoral sur de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Interior norte de Castellón",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Interior norte de Castellón",
+      "nivel": "Naranja",
+      "text": "Interior norte de Castellón: Aviso de nevadas de nivel amarillo. Interior norte de Castellón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior norte de Castellón",
+      "fenomeno": "Moderate snow warning. Interior norte de Castellón",
+      "nivel": "Naranja",
+      "text": "Interior norte de Castellón: Moderate snow warning. Interior norte de Castellón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "❄️",
       "provincia": "Prepirineo de Barcelona",
@@ -82,86 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate snow warning. Bajo Aragón de Teruel",
       "nivel": "Naranja",
       "text": "Bajo Aragón de Teruel: Moderate snow warning. Bajo Aragón de Teruel (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Litoral sur de Girona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral sur de Girona",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Girona: Aviso de lluvias de nivel amarillo. Litoral sur de Girona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral sur de Girona",
-      "fenomeno": "Moderate rain warning. Litoral sur de Girona",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Girona: Moderate rain warning. Litoral sur de Girona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Litoral sur de Girona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral sur de Girona",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Girona: Aviso de lluvias de nivel amarillo. Litoral sur de Girona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral sur de Girona",
-      "fenomeno": "Moderate rain warning. Litoral sur de Girona",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Girona: Moderate rain warning. Litoral sur de Girona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Ampurdán",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Ampurdán",
-      "nivel": "Naranja",
-      "text": "Costa - Ampurdán: Aviso de costeros de nivel amarillo. Costa - Ampurdán (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Ampurdán",
-      "fenomeno": "Moderate coastalevent warning. Costa - Ampurdán",
-      "nivel": "Naranja",
-      "text": "Costa - Ampurdán: Moderate coastalevent warning. Costa - Ampurdán (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral sur de Girona",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral sur de Girona",
-      "nivel": "Naranja",
-      "text": "Costa - Litoral sur de Girona: Aviso de costeros de nivel amarillo. Costa - Litoral sur de Girona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral sur de Girona",
-      "fenomeno": "Moderate coastalevent warning. Costa - Litoral sur de Girona",
-      "nivel": "Naranja",
-      "text": "Costa - Litoral sur de Girona: Moderate coastalevent warning. Costa - Litoral sur de Girona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Poniente y Almería Capital",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Poniente y Almería Capital",
-      "nivel": "Naranja",
-      "text": "Costa - Poniente y Almería Capital: Aviso de costeros de nivel amarillo. Costa - Poniente y Almería Capital (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Poniente y Almería Capital",
-      "fenomeno": "Moderate coastalevent warning. Costa - Poniente y Almería Capital",
-      "nivel": "Naranja",
-      "text": "Costa - Poniente y Almería Capital: Moderate coastalevent warning. Costa - Poniente y Almería Capital (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
