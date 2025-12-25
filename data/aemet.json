@@ -1,8 +1,40 @@
 {
-  "generated_at": "2025-12-25T22:50:33.759Z",
+  "generated_at": "2025-12-25T23:13:19.845Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Sol y Guadalhorce",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Sol y Guadalhorce",
+      "nivel": "Naranja",
+      "text": "Sol y Guadalhorce: Aviso de lluvias de nivel amarillo. Sol y Guadalhorce (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sol y Guadalhorce",
+      "fenomeno": "Moderate rain warning. Sol y Guadalhorce",
+      "nivel": "Naranja",
+      "text": "Sol y Guadalhorce: Moderate rain warning. Sol y Guadalhorce (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Sol y Guadalhorce",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Sol y Guadalhorce",
+      "nivel": "Naranja",
+      "text": "Sol y Guadalhorce: Aviso de lluvias de nivel amarillo. Sol y Guadalhorce (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sol y Guadalhorce",
+      "fenomeno": "Moderate rain warning. Sol y Guadalhorce",
+      "nivel": "Naranja",
+      "text": "Sol y Guadalhorce: Moderate rain warning. Sol y Guadalhorce (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌊",
       "provincia": "Sur de Ourense",
@@ -129,38 +161,6 @@
       "fenomeno": "Moderate low-temperature warning. Sanabria",
       "nivel": "Naranja",
       "text": "Sanabria: Moderate low-temperature warning. Sanabria (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Cordillera Cantábrica de León",
-      "fenomeno": "Aviso de temperaturas mínimas de nivel amarillo. Cordillera Cantábrica de León",
-      "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de León: Aviso de temperaturas mínimas de nivel amarillo. Cordillera Cantábrica de León (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cordillera Cantábrica de León",
-      "fenomeno": "Moderate low-temperature warning. Cordillera Cantábrica de León",
-      "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de León: Moderate low-temperature warning. Cordillera Cantábrica de León (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Pirineo de Girona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Pirineo de Girona",
-      "nivel": "Naranja",
-      "text": "Pirineo de Girona: Aviso de lluvias de nivel amarillo. Pirineo de Girona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Pirineo de Girona",
-      "fenomeno": "Moderate rain warning. Pirineo de Girona",
-      "nivel": "Naranja",
-      "text": "Pirineo de Girona: Moderate rain warning. Pirineo de Girona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
