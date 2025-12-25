@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2025-12-25T16:17:11.403Z
+// Auto-generado por GitHub Actions - 2025-12-25T16:46:54.427Z
 window.AEMET_AVISOS = {
-  "generated_at": "2025-12-25T16:17:11.403Z",
+  "generated_at": "2025-12-25T16:46:54.427Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌊",
+      "provincia": "Pirineo de Girona",
+      "fenomeno": "Aviso de aludes de nivel amarillo. Pirineo de Girona",
+      "nivel": "Naranja",
+      "text": "Pirineo de Girona: Aviso de aludes de nivel amarillo. Pirineo de Girona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Pirineo de Girona",
+      "fenomeno": "Moderate avalanches warning. Pirineo de Girona",
+      "nivel": "Naranja",
+      "text": "Pirineo de Girona: Moderate avalanches warning. Pirineo de Girona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌊",
       "provincia": "Serranía de Guadalajara",
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate rain warning. Litoral sur de Girona",
       "nivel": "Naranja",
       "text": "Litoral sur de Girona: Moderate rain warning. Litoral sur de Girona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Prelitoral de Barcelona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Prelitoral de Barcelona",
-      "nivel": "Naranja",
-      "text": "Prelitoral de Barcelona: Aviso de lluvias de nivel amarillo. Prelitoral de Barcelona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Prelitoral de Barcelona",
-      "fenomeno": "Moderate rain warning. Prelitoral de Barcelona",
-      "nivel": "Naranja",
-      "text": "Prelitoral de Barcelona: Moderate rain warning. Prelitoral de Barcelona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
