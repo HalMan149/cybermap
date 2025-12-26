@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2025-12-26T17:13:03.524Z
+// Auto-generado por GitHub Actions - 2025-12-26T17:31:40.089Z
 window.AEMET_AVISOS = {
-  "generated_at": "2025-12-26T17:13:03.524Z",
+  "generated_at": "2025-12-26T17:31:40.089Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌊",
+      "provincia": "Pirineo de Girona",
+      "fenomeno": "Aviso de aludes de nivel amarillo. Pirineo de Girona",
+      "nivel": "Naranja",
+      "text": "Pirineo de Girona: Aviso de aludes de nivel amarillo. Pirineo de Girona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Pirineo de Girona",
+      "fenomeno": "Moderate avalanches warning. Pirineo de Girona",
+      "nivel": "Naranja",
+      "text": "Pirineo de Girona: Moderate avalanches warning. Pirineo de Girona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Poniente y Almería Capital",
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate coastalevent warning. Costa - Litoral sur de Tarragona",
       "nivel": "Naranja",
       "text": "Costa - Litoral sur de Tarragona: Moderate coastalevent warning. Costa - Litoral sur de Tarragona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Grazalema",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Grazalema",
-      "nivel": "Naranja",
-      "text": "Grazalema: Aviso de lluvias de nivel amarillo. Grazalema (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Grazalema",
-      "fenomeno": "Moderate rain warning. Grazalema",
-      "nivel": "Naranja",
-      "text": "Grazalema: Moderate rain warning. Grazalema (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
