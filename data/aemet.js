@@ -1,9 +1,105 @@
-// Auto-generado por GitHub Actions - 2025-12-26T14:52:03.953Z
+// Auto-generado por GitHub Actions - 2025-12-26T15:14:19.986Z
 window.AEMET_AVISOS = {
-  "generated_at": "2025-12-26T14:52:03.953Z",
+  "generated_at": "2025-12-26T15:14:19.986Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Poniente y Almería Capital",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Poniente y Almería Capital",
+      "nivel": "Naranja",
+      "text": "Poniente y Almería Capital: Aviso de lluvias de nivel amarillo. Poniente y Almería Capital (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Poniente y Almería Capital",
+      "fenomeno": "Moderate rain warning. Poniente y Almería Capital",
+      "nivel": "Naranja",
+      "text": "Poniente y Almería Capital: Moderate rain warning. Poniente y Almería Capital (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Nevada y Alpujarras",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Nevada y Alpujarras",
+      "nivel": "Naranja",
+      "text": "Nevada y Alpujarras: Aviso de lluvias de nivel amarillo. Nevada y Alpujarras (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Nevada y Alpujarras",
+      "fenomeno": "Moderate rain warning. Nevada y Alpujarras",
+      "nivel": "Naranja",
+      "text": "Nevada y Alpujarras: Moderate rain warning. Nevada y Alpujarras (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Costa granadina",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Costa granadina",
+      "nivel": "Naranja",
+      "text": "Costa granadina: Aviso de lluvias de nivel amarillo. Costa granadina (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa granadina",
+      "fenomeno": "Moderate rain warning. Costa granadina",
+      "nivel": "Naranja",
+      "text": "Costa granadina: Moderate rain warning. Costa granadina (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Sol y Guadalhorce",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Sol y Guadalhorce",
+      "nivel": "Naranja",
+      "text": "Sol y Guadalhorce: Aviso de lluvias de nivel amarillo. Sol y Guadalhorce (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sol y Guadalhorce",
+      "fenomeno": "Moderate rain warning. Sol y Guadalhorce",
+      "nivel": "Naranja",
+      "text": "Sol y Guadalhorce: Moderate rain warning. Sol y Guadalhorce (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Axarquía",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Axarquía",
+      "nivel": "Naranja",
+      "text": "Axarquía: Aviso de lluvias de nivel amarillo. Axarquía (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Axarquía",
+      "fenomeno": "Moderate rain warning. Axarquía",
+      "nivel": "Naranja",
+      "text": "Axarquía: Moderate rain warning. Axarquía (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Sol y Guadalhorce",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Sol y Guadalhorce",
+      "nivel": "Naranja",
+      "text": "Sol y Guadalhorce: Aviso de lluvias de nivel amarillo. Sol y Guadalhorce (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sol y Guadalhorce",
+      "fenomeno": "Moderate rain warning. Sol y Guadalhorce",
+      "nivel": "Naranja",
+      "text": "Sol y Guadalhorce: Moderate rain warning. Sol y Guadalhorce (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌊",
       "provincia": "Costa - Litoral sur de Girona",
@@ -66,102 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate rain warning. Grazalema",
       "nivel": "Naranja",
       "text": "Grazalema: Moderate rain warning. Grazalema (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Grazalema",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Grazalema",
-      "nivel": "Naranja",
-      "text": "Grazalema: Aviso de lluvias de nivel amarillo. Grazalema (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Grazalema",
-      "fenomeno": "Moderate rain warning. Grazalema",
-      "nivel": "Naranja",
-      "text": "Grazalema: Moderate rain warning. Grazalema (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Costa granadina",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Costa granadina",
-      "nivel": "Naranja",
-      "text": "Costa - Costa granadina: Aviso de costeros de nivel amarillo. Costa - Costa granadina (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Costa granadina",
-      "fenomeno": "Moderate coastalevent warning. Costa - Costa granadina",
-      "nivel": "Naranja",
-      "text": "Costa - Costa granadina: Moderate coastalevent warning. Costa - Costa granadina (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Sol y Guadalhorce",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Sol y Guadalhorce",
-      "nivel": "Naranja",
-      "text": "Costa - Sol y Guadalhorce: Aviso de costeros de nivel amarillo. Costa - Sol y Guadalhorce (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Sol y Guadalhorce",
-      "fenomeno": "Moderate coastalevent warning. Costa - Sol y Guadalhorce",
-      "nivel": "Naranja",
-      "text": "Costa - Sol y Guadalhorce: Moderate coastalevent warning. Costa - Sol y Guadalhorce (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Axarquía",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Axarquía",
-      "nivel": "Naranja",
-      "text": "Costa - Axarquía: Aviso de costeros de nivel amarillo. Costa - Axarquía (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Axarquía",
-      "fenomeno": "Moderate coastalevent warning. Costa - Axarquía",
-      "nivel": "Naranja",
-      "text": "Costa - Axarquía: Moderate coastalevent warning. Costa - Axarquía (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Ronda",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Ronda",
-      "nivel": "Naranja",
-      "text": "Ronda: Aviso de lluvias de nivel amarillo. Ronda (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ronda",
-      "fenomeno": "Moderate rain warning. Ronda",
-      "nivel": "Naranja",
-      "text": "Ronda: Moderate rain warning. Ronda (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Sol y Guadalhorce",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Sol y Guadalhorce",
-      "nivel": "Naranja",
-      "text": "Sol y Guadalhorce: Aviso de lluvias de nivel amarillo. Sol y Guadalhorce (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sol y Guadalhorce",
-      "fenomeno": "Moderate rain warning. Sol y Guadalhorce",
-      "nivel": "Naranja",
-      "text": "Sol y Guadalhorce: Moderate rain warning. Sol y Guadalhorce (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
