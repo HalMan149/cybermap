@@ -1,9 +1,57 @@
-// Auto-generado por GitHub Actions - 2025-12-27T17:12:41.487Z
+// Auto-generado por GitHub Actions - 2025-12-27T17:48:06.935Z
 window.AEMET_AVISOS = {
-  "generated_at": "2025-12-27T17:12:41.487Z",
+  "generated_at": "2025-12-27T17:48:06.935Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌊",
+      "provincia": "Pirineo de Girona",
+      "fenomeno": "Aviso de aludes de nivel amarillo. Pirineo de Girona",
+      "nivel": "Naranja",
+      "text": "Pirineo de Girona: Aviso de aludes de nivel amarillo. Pirineo de Girona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Pirineo de Girona",
+      "fenomeno": "Moderate avalanches warning. Pirineo de Girona",
+      "nivel": "Naranja",
+      "text": "Pirineo de Girona: Moderate avalanches warning. Pirineo de Girona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Litoral norte de Castellón",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral norte de Castellón",
+      "nivel": "Naranja",
+      "text": "Litoral norte de Castellón: Aviso de lluvias de nivel amarillo. Litoral norte de Castellón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral norte de Castellón",
+      "fenomeno": "Moderate rain warning. Litoral norte de Castellón",
+      "nivel": "Naranja",
+      "text": "Litoral norte de Castellón: Moderate rain warning. Litoral norte de Castellón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Litoral norte de Castellón",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral norte de Castellón",
+      "nivel": "Naranja",
+      "text": "Litoral norte de Castellón: Aviso de lluvias de nivel amarillo. Litoral norte de Castellón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral norte de Castellón",
+      "fenomeno": "Moderate rain warning. Litoral norte de Castellón",
+      "nivel": "Naranja",
+      "text": "Litoral norte de Castellón: Moderate rain warning. Litoral norte de Castellón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Prepirineo de Barcelona",
@@ -114,54 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate rain warning. Litoral sur de Girona",
       "nivel": "Naranja",
       "text": "Litoral sur de Girona: Moderate rain warning. Litoral sur de Girona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Prelitoral norte de Tarragona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Prelitoral norte de Tarragona",
-      "nivel": "Naranja",
-      "text": "Prelitoral norte de Tarragona: Aviso de lluvias de nivel amarillo. Prelitoral norte de Tarragona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Prelitoral norte de Tarragona",
-      "fenomeno": "Moderate rain warning. Prelitoral norte de Tarragona",
-      "nivel": "Naranja",
-      "text": "Prelitoral norte de Tarragona: Moderate rain warning. Prelitoral norte de Tarragona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Litoral norte de Tarragona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral norte de Tarragona",
-      "nivel": "Naranja",
-      "text": "Litoral norte de Tarragona: Aviso de lluvias de nivel amarillo. Litoral norte de Tarragona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral norte de Tarragona",
-      "fenomeno": "Moderate rain warning. Litoral norte de Tarragona",
-      "nivel": "Naranja",
-      "text": "Litoral norte de Tarragona: Moderate rain warning. Litoral norte de Tarragona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Litoral sur de Tarragona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral sur de Tarragona",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Tarragona: Aviso de lluvias de nivel amarillo. Litoral sur de Tarragona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral sur de Tarragona",
-      "fenomeno": "Moderate rain warning. Litoral sur de Tarragona",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Tarragona: Moderate rain warning. Litoral sur de Tarragona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
