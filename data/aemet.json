@@ -1,8 +1,88 @@
 {
-  "generated_at": "2025-12-27T11:26:59.323Z",
+  "generated_at": "2025-12-27T11:37:18.642Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral de Barcelona",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral de Barcelona",
+      "nivel": "Naranja",
+      "text": "Costa - Litoral de Barcelona: Aviso de costeros de nivel amarillo. Costa - Litoral de Barcelona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral de Barcelona",
+      "fenomeno": "Moderate coastalevent warning. Costa - Litoral de Barcelona",
+      "nivel": "Naranja",
+      "text": "Costa - Litoral de Barcelona: Moderate coastalevent warning. Costa - Litoral de Barcelona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Ampurdán",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Ampurdán",
+      "nivel": "Naranja",
+      "text": "Costa - Ampurdán: Aviso de costeros de nivel amarillo. Costa - Ampurdán (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Ampurdán",
+      "fenomeno": "Moderate coastalevent warning. Costa - Ampurdán",
+      "nivel": "Naranja",
+      "text": "Costa - Ampurdán: Moderate coastalevent warning. Costa - Ampurdán (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral sur de Girona",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral sur de Girona",
+      "nivel": "Naranja",
+      "text": "Costa - Litoral sur de Girona: Aviso de costeros de nivel amarillo. Costa - Litoral sur de Girona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral sur de Girona",
+      "fenomeno": "Moderate coastalevent warning. Costa - Litoral sur de Girona",
+      "nivel": "Naranja",
+      "text": "Costa - Litoral sur de Girona: Moderate coastalevent warning. Costa - Litoral sur de Girona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral norte de Tarragona",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral norte de Tarragona",
+      "nivel": "Naranja",
+      "text": "Costa - Litoral norte de Tarragona: Aviso de costeros de nivel amarillo. Costa - Litoral norte de Tarragona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral norte de Tarragona",
+      "fenomeno": "Moderate coastalevent warning. Costa - Litoral norte de Tarragona",
+      "nivel": "Naranja",
+      "text": "Costa - Litoral norte de Tarragona: Moderate coastalevent warning. Costa - Litoral norte de Tarragona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral sur de Tarragona",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral sur de Tarragona",
+      "nivel": "Naranja",
+      "text": "Costa - Litoral sur de Tarragona: Aviso de costeros de nivel amarillo. Costa - Litoral sur de Tarragona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral sur de Tarragona",
+      "fenomeno": "Moderate coastalevent warning. Costa - Litoral sur de Tarragona",
+      "nivel": "Naranja",
+      "text": "Costa - Litoral sur de Tarragona: Moderate coastalevent warning. Costa - Litoral sur de Tarragona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Estrecho",
@@ -81,86 +161,6 @@
       "fenomeno": "Moderate thunderstorm warning. Litoral norte de Valencia",
       "nivel": "Naranja",
       "text": "Litoral norte de Valencia: Moderate thunderstorm warning. Litoral norte de Valencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Meseta de Valladolid",
-      "fenomeno": "Aviso de nieblas de nivel amarillo. Meseta de Valladolid",
-      "nivel": "Naranja",
-      "text": "Meseta de Valladolid: Aviso de nieblas de nivel amarillo. Meseta de Valladolid (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Meseta de Valladolid",
-      "fenomeno": "Moderate fog warning. Meseta de Valladolid",
-      "nivel": "Naranja",
-      "text": "Meseta de Valladolid: Moderate fog warning. Meseta de Valladolid (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Meseta de Zamora",
-      "fenomeno": "Aviso de nieblas de nivel amarillo. Meseta de Zamora",
-      "nivel": "Naranja",
-      "text": "Meseta de Zamora: Aviso de nieblas de nivel amarillo. Meseta de Zamora (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Meseta de Zamora",
-      "fenomeno": "Moderate fog warning. Meseta de Zamora",
-      "nivel": "Naranja",
-      "text": "Meseta de Zamora: Moderate fog warning. Meseta de Zamora (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Meseta de Valladolid",
-      "fenomeno": "Aviso de nieblas de nivel amarillo. Meseta de Valladolid",
-      "nivel": "Naranja",
-      "text": "Meseta de Valladolid: Aviso de nieblas de nivel amarillo. Meseta de Valladolid (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Meseta de Valladolid",
-      "fenomeno": "Moderate fog warning. Meseta de Valladolid",
-      "nivel": "Naranja",
-      "text": "Meseta de Valladolid: Moderate fog warning. Meseta de Valladolid (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Meseta de Zamora",
-      "fenomeno": "Aviso de nieblas de nivel amarillo. Meseta de Zamora",
-      "nivel": "Naranja",
-      "text": "Meseta de Zamora: Aviso de nieblas de nivel amarillo. Meseta de Zamora (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Meseta de Zamora",
-      "fenomeno": "Moderate fog warning. Meseta de Zamora",
-      "nivel": "Naranja",
-      "text": "Meseta de Zamora: Moderate fog warning. Meseta de Zamora (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Interior norte de Valencia",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Interior norte de Valencia",
-      "nivel": "Rojo",
-      "text": "Interior norte de Valencia: Aviso de lluvias de nivel naranja. Interior norte de Valencia (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior norte de Valencia",
-      "fenomeno": "Severe rain warning. Interior norte de Valencia",
-      "nivel": "Rojo",
-      "text": "Interior norte de Valencia: Severe rain warning. Interior norte de Valencia (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
