@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2025-12-27T17:48:06.935Z
+// Auto-generado por GitHub Actions - 2025-12-27T18:19:06.735Z
 window.AEMET_AVISOS = {
-  "generated_at": "2025-12-27T17:48:06.935Z",
+  "generated_at": "2025-12-27T18:19:06.735Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "🌊",
-      "provincia": "Pirineo de Girona",
-      "fenomeno": "Aviso de aludes de nivel amarillo. Pirineo de Girona",
-      "nivel": "Naranja",
-      "text": "Pirineo de Girona: Aviso de aludes de nivel amarillo. Pirineo de Girona (Naranja) (AEMET)",
+      "icon": "🌧️",
+      "provincia": "Sol y Guadalhorce",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Sol y Guadalhorce",
+      "nivel": "Rojo",
+      "text": "Sol y Guadalhorce: Aviso de lluvias de nivel naranja. Sol y Guadalhorce (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Pirineo de Girona",
-      "fenomeno": "Moderate avalanches warning. Pirineo de Girona",
-      "nivel": "Naranja",
-      "text": "Pirineo de Girona: Moderate avalanches warning. Pirineo de Girona (Naranja) (AEMET)",
+      "provincia": "Sol y Guadalhorce",
+      "fenomeno": "Severe rain warning. Sol y Guadalhorce",
+      "nivel": "Rojo",
+      "text": "Sol y Guadalhorce: Severe rain warning. Sol y Guadalhorce (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Litoral norte de Castellón",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral norte de Castellón",
+      "provincia": "Sol y Guadalhorce",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Sol y Guadalhorce",
       "nivel": "Naranja",
-      "text": "Litoral norte de Castellón: Aviso de lluvias de nivel amarillo. Litoral norte de Castellón (Naranja) (AEMET)",
+      "text": "Sol y Guadalhorce: Aviso de lluvias de nivel amarillo. Sol y Guadalhorce (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Litoral norte de Castellón",
-      "fenomeno": "Moderate rain warning. Litoral norte de Castellón",
+      "provincia": "Sol y Guadalhorce",
+      "fenomeno": "Moderate rain warning. Sol y Guadalhorce",
       "nivel": "Naranja",
-      "text": "Litoral norte de Castellón: Moderate rain warning. Litoral norte de Castellón (Naranja) (AEMET)",
+      "text": "Sol y Guadalhorce: Moderate rain warning. Sol y Guadalhorce (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Litoral norte de Castellón",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral norte de Castellón",
+      "provincia": "Sol y Guadalhorce",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Sol y Guadalhorce",
       "nivel": "Naranja",
-      "text": "Litoral norte de Castellón: Aviso de lluvias de nivel amarillo. Litoral norte de Castellón (Naranja) (AEMET)",
+      "text": "Sol y Guadalhorce: Aviso de lluvias de nivel amarillo. Sol y Guadalhorce (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Litoral norte de Castellón",
-      "fenomeno": "Moderate rain warning. Litoral norte de Castellón",
+      "provincia": "Sol y Guadalhorce",
+      "fenomeno": "Moderate rain warning. Sol y Guadalhorce",
       "nivel": "Naranja",
-      "text": "Litoral norte de Castellón: Moderate rain warning. Litoral norte de Castellón (Naranja) (AEMET)",
+      "text": "Sol y Guadalhorce: Moderate rain warning. Sol y Guadalhorce (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Prepirineo de Barcelona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Prepirineo de Barcelona",
+      "provincia": "Litoral sur de Tarragona",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral sur de Tarragona",
       "nivel": "Naranja",
-      "text": "Prepirineo de Barcelona: Aviso de lluvias de nivel amarillo. Prepirineo de Barcelona (Naranja) (AEMET)",
+      "text": "Litoral sur de Tarragona: Aviso de lluvias de nivel amarillo. Litoral sur de Tarragona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Prepirineo de Barcelona",
-      "fenomeno": "Moderate rain warning. Prepirineo de Barcelona",
+      "provincia": "Litoral sur de Tarragona",
+      "fenomeno": "Moderate rain warning. Litoral sur de Tarragona",
       "nivel": "Naranja",
-      "text": "Prepirineo de Barcelona: Moderate rain warning. Prepirineo de Barcelona (Naranja) (AEMET)",
+      "text": "Litoral sur de Tarragona: Moderate rain warning. Litoral sur de Tarragona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Prelitoral de Barcelona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Prelitoral de Barcelona",
+      "provincia": "Prelitoral sur de Tarragona",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Prelitoral sur de Tarragona",
       "nivel": "Naranja",
-      "text": "Prelitoral de Barcelona: Aviso de lluvias de nivel amarillo. Prelitoral de Barcelona (Naranja) (AEMET)",
+      "text": "Prelitoral sur de Tarragona: Aviso de lluvias de nivel amarillo. Prelitoral sur de Tarragona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Prelitoral de Barcelona",
-      "fenomeno": "Moderate rain warning. Prelitoral de Barcelona",
+      "provincia": "Prelitoral sur de Tarragona",
+      "fenomeno": "Moderate rain warning. Prelitoral sur de Tarragona",
       "nivel": "Naranja",
-      "text": "Prelitoral de Barcelona: Moderate rain warning. Prelitoral de Barcelona (Naranja) (AEMET)",
+      "text": "Prelitoral sur de Tarragona: Moderate rain warning. Prelitoral sur de Tarragona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Litoral de Barcelona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral de Barcelona",
+      "provincia": "Litoral sur de Tarragona",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral sur de Tarragona",
       "nivel": "Naranja",
-      "text": "Litoral de Barcelona: Aviso de lluvias de nivel amarillo. Litoral de Barcelona (Naranja) (AEMET)",
+      "text": "Litoral sur de Tarragona: Aviso de lluvias de nivel amarillo. Litoral sur de Tarragona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Litoral de Barcelona",
-      "fenomeno": "Moderate rain warning. Litoral de Barcelona",
+      "provincia": "Litoral sur de Tarragona",
+      "fenomeno": "Moderate rain warning. Litoral sur de Tarragona",
       "nivel": "Naranja",
-      "text": "Litoral de Barcelona: Moderate rain warning. Litoral de Barcelona (Naranja) (AEMET)",
+      "text": "Litoral sur de Tarragona: Moderate rain warning. Litoral sur de Tarragona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Pirineo de Girona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Pirineo de Girona",
+      "provincia": "Prelitoral sur de Tarragona",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Prelitoral sur de Tarragona",
       "nivel": "Naranja",
-      "text": "Pirineo de Girona: Aviso de lluvias de nivel amarillo. Pirineo de Girona (Naranja) (AEMET)",
+      "text": "Prelitoral sur de Tarragona: Aviso de lluvias de nivel amarillo. Prelitoral sur de Tarragona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Pirineo de Girona",
-      "fenomeno": "Moderate rain warning. Pirineo de Girona",
+      "provincia": "Prelitoral sur de Tarragona",
+      "fenomeno": "Moderate rain warning. Prelitoral sur de Tarragona",
       "nivel": "Naranja",
-      "text": "Pirineo de Girona: Moderate rain warning. Pirineo de Girona (Naranja) (AEMET)",
+      "text": "Prelitoral sur de Tarragona: Moderate rain warning. Prelitoral sur de Tarragona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Prelitoral de Girona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Prelitoral de Girona",
+      "provincia": "Gúdar y Maestrazgo",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Gúdar y Maestrazgo",
       "nivel": "Naranja",
-      "text": "Prelitoral de Girona: Aviso de lluvias de nivel amarillo. Prelitoral de Girona (Naranja) (AEMET)",
+      "text": "Gúdar y Maestrazgo: Aviso de lluvias de nivel amarillo. Gúdar y Maestrazgo (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Prelitoral de Girona",
-      "fenomeno": "Moderate rain warning. Prelitoral de Girona",
+      "provincia": "Gúdar y Maestrazgo",
+      "fenomeno": "Moderate rain warning. Gúdar y Maestrazgo",
       "nivel": "Naranja",
-      "text": "Prelitoral de Girona: Moderate rain warning. Prelitoral de Girona (Naranja) (AEMET)",
+      "text": "Gúdar y Maestrazgo: Moderate rain warning. Gúdar y Maestrazgo (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Ampurdán",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Ampurdán",
+      "provincia": "Gúdar y Maestrazgo",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Gúdar y Maestrazgo",
       "nivel": "Naranja",
-      "text": "Ampurdán: Aviso de lluvias de nivel amarillo. Ampurdán (Naranja) (AEMET)",
+      "text": "Gúdar y Maestrazgo: Aviso de lluvias de nivel amarillo. Gúdar y Maestrazgo (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Ampurdán",
-      "fenomeno": "Moderate rain warning. Ampurdán",
+      "provincia": "Gúdar y Maestrazgo",
+      "fenomeno": "Moderate rain warning. Gúdar y Maestrazgo",
       "nivel": "Naranja",
-      "text": "Ampurdán: Moderate rain warning. Ampurdán (Naranja) (AEMET)",
+      "text": "Gúdar y Maestrazgo: Moderate rain warning. Gúdar y Maestrazgo (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Litoral sur de Girona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral sur de Girona",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Girona: Aviso de lluvias de nivel amarillo. Litoral sur de Girona (Naranja) (AEMET)",
+      "provincia": "Interior norte de Valencia",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Interior norte de Valencia",
+      "nivel": "Rojo",
+      "text": "Interior norte de Valencia: Aviso de lluvias de nivel naranja. Interior norte de Valencia (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Litoral sur de Girona",
-      "fenomeno": "Moderate rain warning. Litoral sur de Girona",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Girona: Moderate rain warning. Litoral sur de Girona (Naranja) (AEMET)",
+      "provincia": "Interior norte de Valencia",
+      "fenomeno": "Severe rain warning. Interior norte de Valencia",
+      "nivel": "Rojo",
+      "text": "Interior norte de Valencia: Severe rain warning. Interior norte de Valencia (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
