@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2025-12-27T09:49:07.845Z
+// Auto-generado por GitHub Actions - 2025-12-27T10:13:52.490Z
 window.AEMET_AVISOS = {
-  "generated_at": "2025-12-27T09:49:07.845Z",
+  "generated_at": "2025-12-27T10:13:52.490Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "🌧️",
-      "provincia": "Campiña gaditana",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Campiña gaditana",
-      "nivel": "Naranja",
-      "text": "Campiña gaditana: Aviso de lluvias de nivel amarillo. Campiña gaditana (Naranja) (AEMET)",
+      "provincia": "Ronda",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Ronda",
+      "nivel": "Rojo",
+      "text": "Ronda: Aviso de lluvias de nivel naranja. Ronda (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Campiña gaditana",
-      "fenomeno": "Moderate rain warning. Campiña gaditana",
-      "nivel": "Naranja",
-      "text": "Campiña gaditana: Moderate rain warning. Campiña gaditana (Naranja) (AEMET)",
+      "provincia": "Ronda",
+      "fenomeno": "Severe rain warning. Ronda",
+      "nivel": "Rojo",
+      "text": "Ronda: Severe rain warning. Ronda (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Campiña gaditana",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Campiña gaditana",
-      "nivel": "Naranja",
-      "text": "Campiña gaditana: Aviso de lluvias de nivel amarillo. Campiña gaditana (Naranja) (AEMET)",
+      "provincia": "Sol y Guadalhorce",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Sol y Guadalhorce",
+      "nivel": "Rojo",
+      "text": "Sol y Guadalhorce: Aviso de lluvias de nivel naranja. Sol y Guadalhorce (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Campiña gaditana",
-      "fenomeno": "Moderate rain warning. Campiña gaditana",
-      "nivel": "Naranja",
-      "text": "Campiña gaditana: Moderate rain warning. Campiña gaditana (Naranja) (AEMET)",
+      "provincia": "Sol y Guadalhorce",
+      "fenomeno": "Severe rain warning. Sol y Guadalhorce",
+      "nivel": "Rojo",
+      "text": "Sol y Guadalhorce: Severe rain warning. Sol y Guadalhorce (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Litoral gaditano",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral gaditano",
+      "provincia": "Antequera",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Antequera",
       "nivel": "Naranja",
-      "text": "Litoral gaditano: Aviso de lluvias de nivel amarillo. Litoral gaditano (Naranja) (AEMET)",
+      "text": "Antequera: Aviso de lluvias de nivel amarillo. Antequera (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Litoral gaditano",
-      "fenomeno": "Moderate rain warning. Litoral gaditano",
+      "provincia": "Antequera",
+      "fenomeno": "Moderate rain warning. Antequera",
       "nivel": "Naranja",
-      "text": "Litoral gaditano: Moderate rain warning. Litoral gaditano (Naranja) (AEMET)",
+      "text": "Antequera: Moderate rain warning. Antequera (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Estrecho",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Estrecho",
+      "provincia": "Sol y Guadalhorce",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Sol y Guadalhorce",
       "nivel": "Naranja",
-      "text": "Estrecho: Aviso de lluvias de nivel amarillo. Estrecho (Naranja) (AEMET)",
+      "text": "Sol y Guadalhorce: Aviso de lluvias de nivel amarillo. Sol y Guadalhorce (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Estrecho",
-      "fenomeno": "Moderate rain warning. Estrecho",
+      "provincia": "Sol y Guadalhorce",
+      "fenomeno": "Moderate rain warning. Sol y Guadalhorce",
       "nivel": "Naranja",
-      "text": "Estrecho: Moderate rain warning. Estrecho (Naranja) (AEMET)",
+      "text": "Sol y Guadalhorce: Moderate rain warning. Sol y Guadalhorce (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Litoral norte de Valencia",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral norte de Valencia",
+      "provincia": "Antequera",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Antequera",
       "nivel": "Naranja",
-      "text": "Litoral norte de Valencia: Aviso de lluvias de nivel amarillo. Litoral norte de Valencia (Naranja) (AEMET)",
+      "text": "Antequera: Aviso de lluvias de nivel amarillo. Antequera (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Litoral norte de Valencia",
-      "fenomeno": "Moderate rain warning. Litoral norte de Valencia",
+      "provincia": "Antequera",
+      "fenomeno": "Moderate rain warning. Antequera",
       "nivel": "Naranja",
-      "text": "Litoral norte de Valencia: Moderate rain warning. Litoral norte de Valencia (Naranja) (AEMET)",
+      "text": "Antequera: Moderate rain warning. Antequera (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Sol y Guadalhorce",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Sol y Guadalhorce",
+      "nivel": "Naranja",
+      "text": "Sol y Guadalhorce: Aviso de tormentas de nivel amarillo. Sol y Guadalhorce (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sol y Guadalhorce",
+      "fenomeno": "Moderate thunderstorm warning. Sol y Guadalhorce",
+      "nivel": "Naranja",
+      "text": "Sol y Guadalhorce: Moderate thunderstorm warning. Sol y Guadalhorce (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Axarquía",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Axarquía",
+      "nivel": "Naranja",
+      "text": "Axarquía: Aviso de tormentas de nivel amarillo. Axarquía (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Axarquía",
+      "fenomeno": "Moderate thunderstorm warning. Axarquía",
+      "nivel": "Naranja",
+      "text": "Axarquía: Moderate thunderstorm warning. Axarquía (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Noroeste de Murcia",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Noroeste de Murcia",
+      "provincia": "Axarquía",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Axarquía",
       "nivel": "Naranja",
-      "text": "Noroeste de Murcia: Aviso de lluvias de nivel amarillo. Noroeste de Murcia (Naranja) (AEMET)",
+      "text": "Axarquía: Aviso de lluvias de nivel amarillo. Axarquía (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Noroeste de Murcia",
-      "fenomeno": "Moderate rain warning. Noroeste de Murcia",
+      "provincia": "Axarquía",
+      "fenomeno": "Moderate rain warning. Axarquía",
       "nivel": "Naranja",
-      "text": "Noroeste de Murcia: Moderate rain warning. Noroeste de Murcia (Naranja) (AEMET)",
+      "text": "Axarquía: Moderate rain warning. Axarquía (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Vega del Segura",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Vega del Segura",
+      "provincia": "Axarquía",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Axarquía",
       "nivel": "Naranja",
-      "text": "Vega del Segura: Aviso de lluvias de nivel amarillo. Vega del Segura (Naranja) (AEMET)",
+      "text": "Axarquía: Aviso de lluvias de nivel amarillo. Axarquía (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Vega del Segura",
-      "fenomeno": "Moderate rain warning. Vega del Segura",
+      "provincia": "Axarquía",
+      "fenomeno": "Moderate rain warning. Axarquía",
       "nivel": "Naranja",
-      "text": "Vega del Segura: Moderate rain warning. Vega del Segura (Naranja) (AEMET)",
+      "text": "Axarquía: Moderate rain warning. Axarquía (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Valle del Guadalentín, Lorca y Águilas",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Valle del Guadalentín, Lorca y Águilas",
+      "provincia": "Valle del Almanzora y Los Vélez",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Valle del Almanzora y Los Vélez",
       "nivel": "Naranja",
-      "text": "Valle del Guadalentín, Lorca y Águilas: Aviso de lluvias de nivel amarillo. Valle del Guadalentín, Lorca y Águilas (Naranja) (AEMET)",
+      "text": "Valle del Almanzora y Los Vélez: Aviso de lluvias de nivel amarillo. Valle del Almanzora y Los Vélez (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Valle del Guadalentín, Lorca y Águilas",
-      "fenomeno": "Moderate rain warning. Valle del Guadalentín, Lorca y Águilas",
+      "provincia": "Valle del Almanzora y Los Vélez",
+      "fenomeno": "Moderate rain warning. Valle del Almanzora y Los Vélez",
       "nivel": "Naranja",
-      "text": "Valle del Guadalentín, Lorca y Águilas: Moderate rain warning. Valle del Guadalentín, Lorca y Águilas (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Campo de Cartagena y Mazarrón",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Campo de Cartagena y Mazarrón",
-      "nivel": "Naranja",
-      "text": "Campo de Cartagena y Mazarrón: Aviso de lluvias de nivel amarillo. Campo de Cartagena y Mazarrón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Campo de Cartagena y Mazarrón",
-      "fenomeno": "Moderate rain warning. Campo de Cartagena y Mazarrón",
-      "nivel": "Naranja",
-      "text": "Campo de Cartagena y Mazarrón: Moderate rain warning. Campo de Cartagena y Mazarrón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Interior norte de Valencia",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Interior norte de Valencia",
-      "nivel": "Naranja",
-      "text": "Interior norte de Valencia: Aviso de lluvias de nivel amarillo. Interior norte de Valencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior norte de Valencia",
-      "fenomeno": "Moderate rain warning. Interior norte de Valencia",
-      "nivel": "Naranja",
-      "text": "Interior norte de Valencia: Moderate rain warning. Interior norte de Valencia (Naranja) (AEMET)",
+      "text": "Valle del Almanzora y Los Vélez: Moderate rain warning. Valle del Almanzora y Los Vélez (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
