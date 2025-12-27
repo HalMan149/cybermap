@@ -1,91 +1,11 @@
-// Auto-generado por GitHub Actions - 2025-12-27T10:50:48.621Z
+// Auto-generado por GitHub Actions - 2025-12-27T11:11:11.946Z
 window.AEMET_AVISOS = {
-  "generated_at": "2025-12-27T10:50:48.621Z",
+  "generated_at": "2025-12-27T11:11:11.946Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "🌧️",
-      "provincia": "Estrecho",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Estrecho",
-      "nivel": "Naranja",
-      "text": "Estrecho: Aviso de lluvias de nivel amarillo. Estrecho (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Estrecho",
-      "fenomeno": "Moderate rain warning. Estrecho",
-      "nivel": "Naranja",
-      "text": "Estrecho: Moderate rain warning. Estrecho (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Interior norte de Valencia",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Interior norte de Valencia",
-      "nivel": "Rojo",
-      "text": "Interior norte de Valencia: Aviso de lluvias de nivel naranja. Interior norte de Valencia (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior norte de Valencia",
-      "fenomeno": "Severe rain warning. Interior norte de Valencia",
-      "nivel": "Rojo",
-      "text": "Interior norte de Valencia: Severe rain warning. Interior norte de Valencia (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Interior sur de Valencia",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Interior sur de Valencia",
-      "nivel": "Rojo",
-      "text": "Interior sur de Valencia: Aviso de lluvias de nivel naranja. Interior sur de Valencia (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior sur de Valencia",
-      "fenomeno": "Severe rain warning. Interior sur de Valencia",
-      "nivel": "Rojo",
-      "text": "Interior sur de Valencia: Severe rain warning. Interior sur de Valencia (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Interior norte de Valencia",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Interior norte de Valencia",
-      "nivel": "Rojo",
-      "text": "Interior norte de Valencia: Aviso de lluvias de nivel naranja. Interior norte de Valencia (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior norte de Valencia",
-      "fenomeno": "Severe rain warning. Interior norte de Valencia",
-      "nivel": "Rojo",
-      "text": "Interior norte de Valencia: Severe rain warning. Interior norte de Valencia (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Interior sur de Valencia",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Interior sur de Valencia",
-      "nivel": "Rojo",
-      "text": "Interior sur de Valencia: Aviso de lluvias de nivel naranja. Interior sur de Valencia (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior sur de Valencia",
-      "fenomeno": "Severe rain warning. Interior sur de Valencia",
-      "nivel": "Rojo",
-      "text": "Interior sur de Valencia: Severe rain warning. Interior sur de Valencia (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
       "provincia": "Litoral norte de Valencia",
       "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral norte de Valencia",
       "nivel": "Naranja",
@@ -102,22 +22,6 @@ window.AEMET_AVISOS = {
     },
     {
       "icon": "🌧️",
-      "provincia": "Litoral sur de Valencia",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral sur de Valencia",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Valencia: Aviso de lluvias de nivel amarillo. Litoral sur de Valencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral sur de Valencia",
-      "fenomeno": "Moderate rain warning. Litoral sur de Valencia",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Valencia: Moderate rain warning. Litoral sur de Valencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
       "provincia": "Litoral norte de Valencia",
       "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral norte de Valencia",
       "nivel": "Naranja",
@@ -130,38 +34,134 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate rain warning. Litoral norte de Valencia",
       "nivel": "Naranja",
       "text": "Litoral norte de Valencia: Moderate rain warning. Litoral norte de Valencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Litoral sur de Valencia",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral sur de Valencia",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Valencia: Aviso de lluvias de nivel amarillo. Litoral sur de Valencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral sur de Valencia",
-      "fenomeno": "Moderate rain warning. Litoral sur de Valencia",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Valencia: Moderate rain warning. Litoral sur de Valencia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Interior norte de Valencia",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Interior norte de Valencia",
+      "provincia": "Litoral norte de Valencia",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Litoral norte de Valencia",
       "nivel": "Naranja",
-      "text": "Interior norte de Valencia: Aviso de tormentas de nivel amarillo. Interior norte de Valencia (Naranja) (AEMET)",
+      "text": "Litoral norte de Valencia: Aviso de tormentas de nivel amarillo. Litoral norte de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral norte de Valencia",
+      "fenomeno": "Moderate thunderstorm warning. Litoral norte de Valencia",
+      "nivel": "Naranja",
+      "text": "Litoral norte de Valencia: Moderate thunderstorm warning. Litoral norte de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Meseta de Valladolid",
+      "fenomeno": "Aviso de nieblas de nivel amarillo. Meseta de Valladolid",
+      "nivel": "Naranja",
+      "text": "Meseta de Valladolid: Aviso de nieblas de nivel amarillo. Meseta de Valladolid (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Meseta de Valladolid",
+      "fenomeno": "Moderate fog warning. Meseta de Valladolid",
+      "nivel": "Naranja",
+      "text": "Meseta de Valladolid: Moderate fog warning. Meseta de Valladolid (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Meseta de Zamora",
+      "fenomeno": "Aviso de nieblas de nivel amarillo. Meseta de Zamora",
+      "nivel": "Naranja",
+      "text": "Meseta de Zamora: Aviso de nieblas de nivel amarillo. Meseta de Zamora (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Meseta de Zamora",
+      "fenomeno": "Moderate fog warning. Meseta de Zamora",
+      "nivel": "Naranja",
+      "text": "Meseta de Zamora: Moderate fog warning. Meseta de Zamora (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Meseta de Valladolid",
+      "fenomeno": "Aviso de nieblas de nivel amarillo. Meseta de Valladolid",
+      "nivel": "Naranja",
+      "text": "Meseta de Valladolid: Aviso de nieblas de nivel amarillo. Meseta de Valladolid (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Meseta de Valladolid",
+      "fenomeno": "Moderate fog warning. Meseta de Valladolid",
+      "nivel": "Naranja",
+      "text": "Meseta de Valladolid: Moderate fog warning. Meseta de Valladolid (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Meseta de Zamora",
+      "fenomeno": "Aviso de nieblas de nivel amarillo. Meseta de Zamora",
+      "nivel": "Naranja",
+      "text": "Meseta de Zamora: Aviso de nieblas de nivel amarillo. Meseta de Zamora (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Meseta de Zamora",
+      "fenomeno": "Moderate fog warning. Meseta de Zamora",
+      "nivel": "Naranja",
+      "text": "Meseta de Zamora: Moderate fog warning. Meseta de Zamora (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Interior norte de Valencia",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Interior norte de Valencia",
+      "nivel": "Rojo",
+      "text": "Interior norte de Valencia: Aviso de lluvias de nivel naranja. Interior norte de Valencia (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
       "provincia": "Interior norte de Valencia",
-      "fenomeno": "Moderate thunderstorm warning. Interior norte de Valencia",
-      "nivel": "Naranja",
-      "text": "Interior norte de Valencia: Moderate thunderstorm warning. Interior norte de Valencia (Naranja) (AEMET)",
+      "fenomeno": "Severe rain warning. Interior norte de Valencia",
+      "nivel": "Rojo",
+      "text": "Interior norte de Valencia: Severe rain warning. Interior norte de Valencia (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Interior sur de Valencia",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Interior sur de Valencia",
+      "nivel": "Rojo",
+      "text": "Interior sur de Valencia: Aviso de lluvias de nivel naranja. Interior sur de Valencia (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior sur de Valencia",
+      "fenomeno": "Severe rain warning. Interior sur de Valencia",
+      "nivel": "Rojo",
+      "text": "Interior sur de Valencia: Severe rain warning. Interior sur de Valencia (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Interior norte de Valencia",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Interior norte de Valencia",
+      "nivel": "Rojo",
+      "text": "Interior norte de Valencia: Aviso de lluvias de nivel naranja. Interior norte de Valencia (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior norte de Valencia",
+      "fenomeno": "Severe rain warning. Interior norte de Valencia",
+      "nivel": "Rojo",
+      "text": "Interior norte de Valencia: Severe rain warning. Interior norte de Valencia (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
