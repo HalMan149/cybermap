@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2025-12-27T22:49:58.097Z
+// Auto-generado por GitHub Actions - 2025-12-27T23:13:07.151Z
 window.AEMET_AVISOS = {
-  "generated_at": "2025-12-27T22:49:58.097Z",
+  "generated_at": "2025-12-27T23:13:07.151Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Sol y Guadalhorce",
+      "fenomeno": "Aviso de lluvias de nivel rojo. Sol y Guadalhorce",
+      "nivel": "Rojo",
+      "text": "Sol y Guadalhorce: Aviso de lluvias de nivel rojo. Sol y Guadalhorce (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sol y Guadalhorce",
+      "fenomeno": "Extreme rain warning. Sol y Guadalhorce",
+      "nivel": "Rojo",
+      "text": "Sol y Guadalhorce: Extreme rain warning. Sol y Guadalhorce (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Antequera",
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate thunderstorm warning. Litoral sur de Valencia",
       "nivel": "Naranja",
       "text": "Litoral sur de Valencia: Moderate thunderstorm warning. Litoral sur de Valencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Sol y Guadalhorce",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Sol y Guadalhorce",
-      "nivel": "Rojo",
-      "text": "Sol y Guadalhorce: Aviso de lluvias de nivel naranja. Sol y Guadalhorce (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sol y Guadalhorce",
-      "fenomeno": "Severe rain warning. Sol y Guadalhorce",
-      "nivel": "Rojo",
-      "text": "Sol y Guadalhorce: Severe rain warning. Sol y Guadalhorce (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
