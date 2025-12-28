@@ -1,7 +1,168 @@
-// Auto-generado por GitHub Actions - 2025-12-28T06:51:40.621Z
+// Auto-generado por GitHub Actions - 2025-12-28T07:14:45.079Z
 window.AEMET_AVISOS = {
-  "generated_at": "2025-12-28T06:51:40.621Z",
+  "generated_at": "2025-12-28T07:14:45.079Z",
   "source": "AEMET OpenData API",
-  "total_avisos": 0,
-  "avisos": []
+  "total_avisos": 20,
+  "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Litoral sur de Alicante",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral sur de Alicante",
+      "nivel": "Naranja",
+      "text": "Litoral sur de Alicante: Aviso de lluvias de nivel amarillo. Litoral sur de Alicante (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral sur de Alicante",
+      "fenomeno": "Moderate rain warning. Litoral sur de Alicante",
+      "nivel": "Naranja",
+      "text": "Litoral sur de Alicante: Moderate rain warning. Litoral sur de Alicante (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Costa granadina",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Costa granadina",
+      "nivel": "Rojo",
+      "text": "Costa granadina: Aviso de lluvias de nivel naranja. Costa granadina (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa granadina",
+      "fenomeno": "Severe rain warning. Costa granadina",
+      "nivel": "Rojo",
+      "text": "Costa granadina: Severe rain warning. Costa granadina (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Levante almeriense",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Levante almeriense",
+      "nivel": "Rojo",
+      "text": "Levante almeriense: Aviso de lluvias de nivel naranja. Levante almeriense (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Levante almeriense",
+      "fenomeno": "Severe rain warning. Levante almeriense",
+      "nivel": "Rojo",
+      "text": "Levante almeriense: Severe rain warning. Levante almeriense (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Levante almeriense",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Levante almeriense",
+      "nivel": "Rojo",
+      "text": "Levante almeriense: Aviso de lluvias de nivel naranja. Levante almeriense (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Levante almeriense",
+      "fenomeno": "Severe rain warning. Levante almeriense",
+      "nivel": "Rojo",
+      "text": "Levante almeriense: Severe rain warning. Levante almeriense (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Axarquía",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Axarquía",
+      "nivel": "Rojo",
+      "text": "Axarquía: Aviso de lluvias de nivel naranja. Axarquía (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Axarquía",
+      "fenomeno": "Severe rain warning. Axarquía",
+      "nivel": "Rojo",
+      "text": "Axarquía: Severe rain warning. Axarquía (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Meseta de Valladolid",
+      "fenomeno": "Aviso de nieblas de nivel amarillo. Meseta de Valladolid",
+      "nivel": "Naranja",
+      "text": "Meseta de Valladolid: Aviso de nieblas de nivel amarillo. Meseta de Valladolid (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Meseta de Valladolid",
+      "fenomeno": "Moderate fog warning. Meseta de Valladolid",
+      "nivel": "Naranja",
+      "text": "Meseta de Valladolid: Moderate fog warning. Meseta de Valladolid (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Meseta de Zamora",
+      "fenomeno": "Aviso de nieblas de nivel amarillo. Meseta de Zamora",
+      "nivel": "Naranja",
+      "text": "Meseta de Zamora: Aviso de nieblas de nivel amarillo. Meseta de Zamora (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Meseta de Zamora",
+      "fenomeno": "Moderate fog warning. Meseta de Zamora",
+      "nivel": "Naranja",
+      "text": "Meseta de Zamora: Moderate fog warning. Meseta de Zamora (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Antequera",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Antequera",
+      "nivel": "Naranja",
+      "text": "Antequera: Aviso de lluvias de nivel amarillo. Antequera (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Antequera",
+      "fenomeno": "Moderate rain warning. Antequera",
+      "nivel": "Naranja",
+      "text": "Antequera: Moderate rain warning. Antequera (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Litoral norte de Valencia",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral norte de Valencia",
+      "nivel": "Naranja",
+      "text": "Litoral norte de Valencia: Aviso de lluvias de nivel amarillo. Litoral norte de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral norte de Valencia",
+      "fenomeno": "Moderate rain warning. Litoral norte de Valencia",
+      "nivel": "Naranja",
+      "text": "Litoral norte de Valencia: Moderate rain warning. Litoral norte de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Litoral sur de Valencia",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral sur de Valencia",
+      "nivel": "Naranja",
+      "text": "Litoral sur de Valencia: Aviso de lluvias de nivel amarillo. Litoral sur de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral sur de Valencia",
+      "fenomeno": "Moderate rain warning. Litoral sur de Valencia",
+      "nivel": "Naranja",
+      "text": "Litoral sur de Valencia: Moderate rain warning. Litoral sur de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    }
+  ]
 };
