@@ -1,9 +1,41 @@
-// Auto-generado por GitHub Actions - 2025-12-28T09:33:44.650Z
+// Auto-generado por GitHub Actions - 2025-12-28T09:49:27.325Z
 window.AEMET_AVISOS = {
-  "generated_at": "2025-12-28T09:33:44.650Z",
+  "generated_at": "2025-12-28T09:49:27.325Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Vega del Segura",
+      "fenomeno": "Aviso de lluvias de nivel rojo. Vega del Segura",
+      "nivel": "Rojo",
+      "text": "Vega del Segura: Aviso de lluvias de nivel rojo. Vega del Segura (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Vega del Segura",
+      "fenomeno": "Extreme rain warning. Vega del Segura",
+      "nivel": "Rojo",
+      "text": "Vega del Segura: Extreme rain warning. Vega del Segura (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Campo de Cartagena y Mazarrón",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Campo de Cartagena y Mazarrón",
+      "nivel": "Naranja",
+      "text": "Campo de Cartagena y Mazarrón: Aviso de lluvias de nivel amarillo. Campo de Cartagena y Mazarrón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Campo de Cartagena y Mazarrón",
+      "fenomeno": "Moderate rain warning. Campo de Cartagena y Mazarrón",
+      "nivel": "Naranja",
+      "text": "Campo de Cartagena y Mazarrón: Moderate rain warning. Campo de Cartagena y Mazarrón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Ibiza y Formentera",
@@ -130,38 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate rain warning. Sur de Mallorca",
       "nivel": "Naranja",
       "text": "Sur de Mallorca: Moderate rain warning. Sur de Mallorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Levante mallorquín",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Levante mallorquín",
-      "nivel": "Naranja",
-      "text": "Levante mallorquín: Aviso de lluvias de nivel amarillo. Levante mallorquín (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Levante mallorquín",
-      "fenomeno": "Moderate rain warning. Levante mallorquín",
-      "nivel": "Naranja",
-      "text": "Levante mallorquín: Moderate rain warning. Levante mallorquín (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Sierra Tramontana",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Sierra Tramontana",
-      "nivel": "Naranja",
-      "text": "Sierra Tramontana: Aviso de tormentas de nivel amarillo. Sierra Tramontana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sierra Tramontana",
-      "fenomeno": "Moderate thunderstorm warning. Sierra Tramontana",
-      "nivel": "Naranja",
-      "text": "Sierra Tramontana: Moderate thunderstorm warning. Sierra Tramontana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
