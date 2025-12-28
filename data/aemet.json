@@ -1,8 +1,56 @@
 {
-  "generated_at": "2025-12-28T12:26:10.648Z",
+  "generated_at": "2025-12-28T13:06:09.134Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Costa granadina",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Costa granadina",
+      "nivel": "Rojo",
+      "text": "Costa granadina: Aviso de lluvias de nivel naranja. Costa granadina (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa granadina",
+      "fenomeno": "Severe rain warning. Costa granadina",
+      "nivel": "Rojo",
+      "text": "Costa granadina: Severe rain warning. Costa granadina (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Costa granadina",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Costa granadina",
+      "nivel": "Naranja",
+      "text": "Costa granadina: Aviso de lluvias de nivel amarillo. Costa granadina (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa granadina",
+      "fenomeno": "Moderate rain warning. Costa granadina",
+      "nivel": "Naranja",
+      "text": "Costa granadina: Moderate rain warning. Costa granadina (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Costa granadina",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Costa granadina",
+      "nivel": "Naranja",
+      "text": "Costa granadina: Aviso de tormentas de nivel amarillo. Costa granadina (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa granadina",
+      "fenomeno": "Moderate thunderstorm warning. Costa granadina",
+      "nivel": "Naranja",
+      "text": "Costa granadina: Moderate thunderstorm warning. Costa granadina (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Litoral norte de Alicante",
@@ -113,54 +161,6 @@
       "fenomeno": "Moderate fog warning. Vegas del Guadiana",
       "nivel": "Naranja",
       "text": "Vegas del Guadiana: Moderate fog warning. Vegas del Guadiana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Barros y Serena",
-      "fenomeno": "Aviso de nieblas de nivel amarillo. Barros y Serena",
-      "nivel": "Naranja",
-      "text": "Barros y Serena: Aviso de nieblas de nivel amarillo. Barros y Serena (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Barros y Serena",
-      "fenomeno": "Moderate fog warning. Barros y Serena",
-      "nivel": "Naranja",
-      "text": "Barros y Serena: Moderate fog warning. Barros y Serena (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Tajo y Alagón",
-      "fenomeno": "Aviso de nieblas de nivel amarillo. Tajo y Alagón",
-      "nivel": "Naranja",
-      "text": "Tajo y Alagón: Aviso de nieblas de nivel amarillo. Tajo y Alagón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Tajo y Alagón",
-      "fenomeno": "Moderate fog warning. Tajo y Alagón",
-      "nivel": "Naranja",
-      "text": "Tajo y Alagón: Moderate fog warning. Tajo y Alagón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Meseta cacereña",
-      "fenomeno": "Aviso de nieblas de nivel amarillo. Meseta cacereña",
-      "nivel": "Naranja",
-      "text": "Meseta cacereña: Aviso de nieblas de nivel amarillo. Meseta cacereña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Meseta cacereña",
-      "fenomeno": "Moderate fog warning. Meseta cacereña",
-      "nivel": "Naranja",
-      "text": "Meseta cacereña: Moderate fog warning. Meseta cacereña (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
