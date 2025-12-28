@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2025-12-28T20:51:50.946Z
+// Auto-generado por GitHub Actions - 2025-12-28T21:12:35.423Z
 window.AEMET_AVISOS = {
-  "generated_at": "2025-12-28T20:51:50.946Z",
+  "generated_at": "2025-12-28T21:12:35.423Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Vega del Segura",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Vega del Segura",
+      "nivel": "Naranja",
+      "text": "Vega del Segura: Aviso de lluvias de nivel amarillo. Vega del Segura (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Vega del Segura",
+      "fenomeno": "Moderate rain warning. Vega del Segura",
+      "nivel": "Naranja",
+      "text": "Vega del Segura: Moderate rain warning. Vega del Segura (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌊",
       "provincia": "Centro de Lugo",
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Extreme rain warning. Litoral sur de Valencia",
       "nivel": "Rojo",
       "text": "Litoral sur de Valencia: Extreme rain warning. Litoral sur de Valencia (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Interior de Alicante",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Interior de Alicante",
-      "nivel": "Naranja",
-      "text": "Interior de Alicante: Aviso de tormentas de nivel amarillo. Interior de Alicante (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior de Alicante",
-      "fenomeno": "Moderate thunderstorm warning. Interior de Alicante",
-      "nivel": "Naranja",
-      "text": "Interior de Alicante: Moderate thunderstorm warning. Interior de Alicante (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
