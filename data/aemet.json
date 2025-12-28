@@ -1,8 +1,24 @@
 {
-  "generated_at": "2025-12-28T18:19:37.421Z",
+  "generated_at": "2025-12-28T18:48:49.007Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌊",
+      "provincia": "Centro de Lugo",
+      "fenomeno": "Aviso de nieblas de nivel amarillo. Centro de Lugo",
+      "nivel": "Naranja",
+      "text": "Centro de Lugo: Aviso de nieblas de nivel amarillo. Centro de Lugo (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Centro de Lugo",
+      "fenomeno": "Moderate fog warning. Centro de Lugo",
+      "nivel": "Naranja",
+      "text": "Centro de Lugo: Moderate fog warning. Centro de Lugo (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Litoral sur de Valencia",
@@ -97,22 +113,6 @@
       "fenomeno": "Moderate thunderstorm warning. Campo de Cartagena y Mazarrón",
       "nivel": "Naranja",
       "text": "Campo de Cartagena y Mazarrón: Moderate thunderstorm warning. Campo de Cartagena y Mazarrón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Levante almeriense",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Levante almeriense",
-      "nivel": "Naranja",
-      "text": "Levante almeriense: Aviso de tormentas de nivel amarillo. Levante almeriense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Levante almeriense",
-      "fenomeno": "Moderate thunderstorm warning. Levante almeriense",
-      "nivel": "Naranja",
-      "text": "Levante almeriense: Moderate thunderstorm warning. Levante almeriense (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
