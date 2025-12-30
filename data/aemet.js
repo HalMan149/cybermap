@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2025-12-30T09:44:51.738Z
+// Auto-generado por GitHub Actions - 2025-12-30T09:55:48.625Z
 window.AEMET_AVISOS = {
-  "generated_at": "2025-12-30T09:44:51.738Z",
+  "generated_at": "2025-12-30T09:55:48.625Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌊",
+      "provincia": "Vegas del Guadiana",
+      "fenomeno": "Aviso de nieblas de nivel amarillo. Vegas del Guadiana",
+      "nivel": "Naranja",
+      "text": "Vegas del Guadiana: Aviso de nieblas de nivel amarillo. Vegas del Guadiana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Vegas del Guadiana",
+      "fenomeno": "Moderate fog warning. Vegas del Guadiana",
+      "nivel": "Naranja",
+      "text": "Vegas del Guadiana: Moderate fog warning. Vegas del Guadiana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌊",
       "provincia": "Centro de Lugo",
@@ -50,22 +66,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate fog warning. Meseta de Palencia",
       "nivel": "Naranja",
       "text": "Meseta de Palencia: Moderate fog warning. Meseta de Palencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Meseta de Salamanca",
-      "fenomeno": "Aviso de nieblas de nivel amarillo. Meseta de Salamanca",
-      "nivel": "Naranja",
-      "text": "Meseta de Salamanca: Aviso de nieblas de nivel amarillo. Meseta de Salamanca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Meseta de Salamanca",
-      "fenomeno": "Moderate fog warning. Meseta de Salamanca",
-      "nivel": "Naranja",
-      "text": "Meseta de Salamanca: Moderate fog warning. Meseta de Salamanca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -134,34 +134,34 @@ window.AEMET_AVISOS = {
     },
     {
       "icon": "🌊",
-      "provincia": "Meseta de Salamanca",
-      "fenomeno": "Aviso de nieblas de nivel amarillo. Meseta de Salamanca",
+      "provincia": "Vegas del Guadiana",
+      "fenomeno": "Aviso de nieblas de nivel amarillo. Vegas del Guadiana",
       "nivel": "Naranja",
-      "text": "Meseta de Salamanca: Aviso de nieblas de nivel amarillo. Meseta de Salamanca (Naranja) (AEMET)",
+      "text": "Vegas del Guadiana: Aviso de nieblas de nivel amarillo. Vegas del Guadiana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Meseta de Salamanca",
-      "fenomeno": "Moderate fog warning. Meseta de Salamanca",
+      "provincia": "Vegas del Guadiana",
+      "fenomeno": "Moderate fog warning. Vegas del Guadiana",
       "nivel": "Naranja",
-      "text": "Meseta de Salamanca: Moderate fog warning. Meseta de Salamanca (Naranja) (AEMET)",
+      "text": "Vegas del Guadiana: Moderate fog warning. Vegas del Guadiana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Meseta de Valladolid",
-      "fenomeno": "Aviso de nieblas de nivel amarillo. Meseta de Valladolid",
+      "provincia": "Costa - Ampurdán",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Ampurdán",
       "nivel": "Naranja",
-      "text": "Meseta de Valladolid: Aviso de nieblas de nivel amarillo. Meseta de Valladolid (Naranja) (AEMET)",
+      "text": "Costa - Ampurdán: Aviso de costeros de nivel amarillo. Costa - Ampurdán (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⚠️",
-      "provincia": "Meseta de Valladolid",
-      "fenomeno": "Moderate fog warning. Meseta de Valladolid",
+      "icon": "🌊",
+      "provincia": "Costa - Ampurdán",
+      "fenomeno": "Moderate coastalevent warning. Costa - Ampurdán",
       "nivel": "Naranja",
-      "text": "Meseta de Valladolid: Moderate fog warning. Meseta de Valladolid (Naranja) (AEMET)",
+      "text": "Costa - Ampurdán: Moderate coastalevent warning. Costa - Ampurdán (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
