@@ -1,6 +1,167 @@
 {
-  "generated_at": "2025-12-30T16:49:59.133Z",
+  "generated_at": "2025-12-30T17:15:22.329Z",
   "source": "AEMET OpenData API",
-  "total_avisos": 0,
-  "avisos": []
+  "total_avisos": 20,
+  "avisos": [
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Norte de Gran Canaria",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Norte de Gran Canaria",
+      "nivel": "Naranja",
+      "text": "Costa - Norte de Gran Canaria: Aviso de costeros de nivel amarillo. Costa - Norte de Gran Canaria (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Norte de Gran Canaria",
+      "fenomeno": "Moderate coastalevent warning. Costa - Norte de Gran Canaria",
+      "nivel": "Naranja",
+      "text": "Costa - Norte de Gran Canaria: Moderate coastalevent warning. Costa - Norte de Gran Canaria (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Oeste de La Palma",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Oeste de La Palma",
+      "nivel": "Naranja",
+      "text": "Costa - Oeste de La Palma: Aviso de costeros de nivel amarillo. Costa - Oeste de La Palma (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Oeste de La Palma",
+      "fenomeno": "Moderate coastalevent warning. Costa - Oeste de La Palma",
+      "nivel": "Naranja",
+      "text": "Costa - Oeste de La Palma: Moderate coastalevent warning. Costa - Oeste de La Palma (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Área metropolitana de Tenerife",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Área metropolitana de Tenerife",
+      "nivel": "Naranja",
+      "text": "Costa - Área metropolitana de Tenerife: Aviso de costeros de nivel amarillo. Costa - Área metropolitana de Tenerife (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Área metropolitana de Tenerife",
+      "fenomeno": "Moderate coastalevent warning. Costa - Área metropolitana de Tenerife",
+      "nivel": "Naranja",
+      "text": "Costa - Área metropolitana de Tenerife: Moderate coastalevent warning. Costa - Área metropolitana de Tenerife (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Cumbres de La Palma",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Cumbres de La Palma",
+      "nivel": "Naranja",
+      "text": "Cumbres de La Palma: Aviso de vientos de nivel amarillo. Cumbres de La Palma (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cumbres de La Palma",
+      "fenomeno": "Moderate wind warning. Cumbres de La Palma",
+      "nivel": "Naranja",
+      "text": "Cumbres de La Palma: Moderate wind warning. Cumbres de La Palma (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Este de La Palma",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Este de La Palma",
+      "nivel": "Naranja",
+      "text": "Este de La Palma: Aviso de vientos de nivel amarillo. Este de La Palma (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Este de La Palma",
+      "fenomeno": "Moderate wind warning. Este de La Palma",
+      "nivel": "Naranja",
+      "text": "Este de La Palma: Moderate wind warning. Este de La Palma (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Oeste de La Palma",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Oeste de La Palma",
+      "nivel": "Naranja",
+      "text": "Oeste de La Palma: Aviso de vientos de nivel amarillo. Oeste de La Palma (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Oeste de La Palma",
+      "fenomeno": "Moderate wind warning. Oeste de La Palma",
+      "nivel": "Naranja",
+      "text": "Oeste de La Palma: Moderate wind warning. Oeste de La Palma (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Norte de Tenerife",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Norte de Tenerife",
+      "nivel": "Naranja",
+      "text": "Norte de Tenerife: Aviso de vientos de nivel amarillo. Norte de Tenerife (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Norte de Tenerife",
+      "fenomeno": "Moderate wind warning. Norte de Tenerife",
+      "nivel": "Naranja",
+      "text": "Norte de Tenerife: Moderate wind warning. Norte de Tenerife (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Cumbres de La Palma",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Cumbres de La Palma",
+      "nivel": "Naranja",
+      "text": "Cumbres de La Palma: Aviso de lluvias de nivel amarillo. Cumbres de La Palma (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cumbres de La Palma",
+      "fenomeno": "Moderate rain warning. Cumbres de La Palma",
+      "nivel": "Naranja",
+      "text": "Cumbres de La Palma: Moderate rain warning. Cumbres de La Palma (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Este de La Palma",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Este de La Palma",
+      "nivel": "Naranja",
+      "text": "Este de La Palma: Aviso de lluvias de nivel amarillo. Este de La Palma (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Este de La Palma",
+      "fenomeno": "Moderate rain warning. Este de La Palma",
+      "nivel": "Naranja",
+      "text": "Este de La Palma: Moderate rain warning. Este de La Palma (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Oeste de La Palma",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Oeste de La Palma",
+      "nivel": "Naranja",
+      "text": "Oeste de La Palma: Aviso de lluvias de nivel amarillo. Oeste de La Palma (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Oeste de La Palma",
+      "fenomeno": "Moderate rain warning. Oeste de La Palma",
+      "nivel": "Naranja",
+      "text": "Oeste de La Palma: Moderate rain warning. Oeste de La Palma (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    }
+  ]
 }
