@@ -1,8 +1,88 @@
 {
-  "generated_at": "2025-12-31T09:43:55.062Z",
+  "generated_at": "2025-12-31T10:15:09.618Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌊",
+      "provincia": "Tajo y Alagón",
+      "fenomeno": "Aviso de nieblas de nivel amarillo. Tajo y Alagón",
+      "nivel": "Naranja",
+      "text": "Tajo y Alagón: Aviso de nieblas de nivel amarillo. Tajo y Alagón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Tajo y Alagón",
+      "fenomeno": "Moderate fog warning. Tajo y Alagón",
+      "nivel": "Naranja",
+      "text": "Tajo y Alagón: Moderate fog warning. Tajo y Alagón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Pirineo oscense",
+      "fenomeno": "Aviso de temperaturas mínimas de nivel amarillo. Pirineo oscense",
+      "nivel": "Naranja",
+      "text": "Pirineo oscense: Aviso de temperaturas mínimas de nivel amarillo. Pirineo oscense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Pirineo oscense",
+      "fenomeno": "Moderate low-temperature warning. Pirineo oscense",
+      "nivel": "Naranja",
+      "text": "Pirineo oscense: Moderate low-temperature warning. Pirineo oscense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Pirineo de Girona",
+      "fenomeno": "Aviso de temperaturas mínimas de nivel amarillo. Pirineo de Girona",
+      "nivel": "Naranja",
+      "text": "Pirineo de Girona: Aviso de temperaturas mínimas de nivel amarillo. Pirineo de Girona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Pirineo de Girona",
+      "fenomeno": "Moderate low-temperature warning. Pirineo de Girona",
+      "nivel": "Naranja",
+      "text": "Pirineo de Girona: Moderate low-temperature warning. Pirineo de Girona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Valle de Arán",
+      "fenomeno": "Aviso de temperaturas mínimas de nivel amarillo. Valle de Arán",
+      "nivel": "Naranja",
+      "text": "Valle de Arán: Aviso de temperaturas mínimas de nivel amarillo. Valle de Arán (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Valle de Arán",
+      "fenomeno": "Moderate low-temperature warning. Valle de Arán",
+      "nivel": "Naranja",
+      "text": "Valle de Arán: Moderate low-temperature warning. Valle de Arán (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Pirineo de Lleida",
+      "fenomeno": "Aviso de temperaturas mínimas de nivel amarillo. Pirineo de Lleida",
+      "nivel": "Naranja",
+      "text": "Pirineo de Lleida: Aviso de temperaturas mínimas de nivel amarillo. Pirineo de Lleida (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Pirineo de Lleida",
+      "fenomeno": "Moderate low-temperature warning. Pirineo de Lleida",
+      "nivel": "Naranja",
+      "text": "Pirineo de Lleida: Moderate low-temperature warning. Pirineo de Lleida (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌊",
       "provincia": "Vegas del Guadiana",
@@ -33,70 +113,6 @@
       "fenomeno": "Moderate fog warning. Tajo y Alagón",
       "nivel": "Naranja",
       "text": "Tajo y Alagón: Moderate fog warning. Tajo y Alagón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Bierzo de León",
-      "fenomeno": "Aviso de nieblas de nivel amarillo. Bierzo de León",
-      "nivel": "Naranja",
-      "text": "Bierzo de León: Aviso de nieblas de nivel amarillo. Bierzo de León (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Bierzo de León",
-      "fenomeno": "Moderate fog warning. Bierzo de León",
-      "nivel": "Naranja",
-      "text": "Bierzo de León: Moderate fog warning. Bierzo de León (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Bierzo de León",
-      "fenomeno": "Aviso de nieblas de nivel amarillo. Bierzo de León",
-      "nivel": "Naranja",
-      "text": "Bierzo de León: Aviso de nieblas de nivel amarillo. Bierzo de León (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Bierzo de León",
-      "fenomeno": "Moderate fog warning. Bierzo de León",
-      "nivel": "Naranja",
-      "text": "Bierzo de León: Moderate fog warning. Bierzo de León (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Meseta de Valladolid",
-      "fenomeno": "Aviso de nieblas de nivel amarillo. Meseta de Valladolid",
-      "nivel": "Naranja",
-      "text": "Meseta de Valladolid: Aviso de nieblas de nivel amarillo. Meseta de Valladolid (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Meseta de Valladolid",
-      "fenomeno": "Moderate fog warning. Meseta de Valladolid",
-      "nivel": "Naranja",
-      "text": "Meseta de Valladolid: Moderate fog warning. Meseta de Valladolid (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Meseta de Zamora",
-      "fenomeno": "Aviso de nieblas de nivel amarillo. Meseta de Zamora",
-      "nivel": "Naranja",
-      "text": "Meseta de Zamora: Aviso de nieblas de nivel amarillo. Meseta de Zamora (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Meseta de Zamora",
-      "fenomeno": "Moderate fog warning. Meseta de Zamora",
-      "nivel": "Naranja",
-      "text": "Meseta de Zamora: Moderate fog warning. Meseta de Zamora (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -145,22 +161,6 @@
       "fenomeno": "Moderate coastalevent warning. Costa - Oeste de La Palma",
       "nivel": "Naranja",
       "text": "Costa - Oeste de La Palma: Moderate coastalevent warning. Costa - Oeste de La Palma (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Área metropolitana de Tenerife",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Área metropolitana de Tenerife",
-      "nivel": "Naranja",
-      "text": "Costa - Área metropolitana de Tenerife: Aviso de costeros de nivel amarillo. Costa - Área metropolitana de Tenerife (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Área metropolitana de Tenerife",
-      "fenomeno": "Moderate coastalevent warning. Costa - Área metropolitana de Tenerife",
-      "nivel": "Naranja",
-      "text": "Costa - Área metropolitana de Tenerife: Moderate coastalevent warning. Costa - Área metropolitana de Tenerife (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
