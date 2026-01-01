@@ -1,8 +1,24 @@
 {
-  "generated_at": "2026-01-01T09:54:06.688Z",
+  "generated_at": "2026-01-01T10:15:39.182Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Estrecho",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Estrecho",
+      "nivel": "Naranja",
+      "text": "Costa - Estrecho: Aviso de costeros de nivel amarillo. Costa - Estrecho (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Estrecho",
+      "fenomeno": "Moderate coastalevent warning. Costa - Estrecho",
+      "nivel": "Naranja",
+      "text": "Costa - Estrecho: Moderate coastalevent warning. Costa - Estrecho (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Cumbres de La Palma",
@@ -145,22 +161,6 @@
       "fenomeno": "Moderate coastalevent warning. Costa - Norte de Tenerife",
       "nivel": "Naranja",
       "text": "Costa - Norte de Tenerife: Moderate coastalevent warning. Costa - Norte de Tenerife (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Área metropolitana de Tenerife",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Área metropolitana de Tenerife",
-      "nivel": "Naranja",
-      "text": "Costa - Área metropolitana de Tenerife: Aviso de costeros de nivel amarillo. Costa - Área metropolitana de Tenerife (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Área metropolitana de Tenerife",
-      "fenomeno": "Moderate coastalevent warning. Costa - Área metropolitana de Tenerife",
-      "nivel": "Naranja",
-      "text": "Costa - Área metropolitana de Tenerife: Moderate coastalevent warning. Costa - Área metropolitana de Tenerife (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
