@@ -1,7 +1,168 @@
-// Auto-generado por GitHub Actions - 2026-01-03T18:18:57.124Z
+// Auto-generado por GitHub Actions - 2026-01-03T18:48:33.980Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-01-03T18:18:57.124Z",
+  "generated_at": "2026-01-03T18:48:33.980Z",
   "source": "AEMET OpenData API",
-  "total_avisos": 0,
-  "avisos": []
+  "total_avisos": 20,
+  "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Sol y Guadalhorce",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Sol y Guadalhorce",
+      "nivel": "Rojo",
+      "text": "Sol y Guadalhorce: Aviso de lluvias de nivel naranja. Sol y Guadalhorce (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sol y Guadalhorce",
+      "fenomeno": "Severe rain warning. Sol y Guadalhorce",
+      "nivel": "Rojo",
+      "text": "Sol y Guadalhorce: Severe rain warning. Sol y Guadalhorce (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Levante almeriense",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Levante almeriense",
+      "nivel": "Naranja",
+      "text": "Levante almeriense: Aviso de lluvias de nivel amarillo. Levante almeriense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Levante almeriense",
+      "fenomeno": "Moderate rain warning. Levante almeriense",
+      "nivel": "Naranja",
+      "text": "Levante almeriense: Moderate rain warning. Levante almeriense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Estrecho",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Estrecho",
+      "nivel": "Rojo",
+      "text": "Estrecho: Aviso de lluvias de nivel naranja. Estrecho (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Estrecho",
+      "fenomeno": "Severe rain warning. Estrecho",
+      "nivel": "Rojo",
+      "text": "Estrecho: Severe rain warning. Estrecho (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Litoral gaditano",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral gaditano",
+      "nivel": "Naranja",
+      "text": "Litoral gaditano: Aviso de lluvias de nivel amarillo. Litoral gaditano (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral gaditano",
+      "fenomeno": "Moderate rain warning. Litoral gaditano",
+      "nivel": "Naranja",
+      "text": "Litoral gaditano: Moderate rain warning. Litoral gaditano (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Litoral gaditano",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Litoral gaditano",
+      "nivel": "Naranja",
+      "text": "Litoral gaditano: Aviso de tormentas de nivel amarillo. Litoral gaditano (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral gaditano",
+      "fenomeno": "Moderate thunderstorm warning. Litoral gaditano",
+      "nivel": "Naranja",
+      "text": "Litoral gaditano: Moderate thunderstorm warning. Litoral gaditano (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Estrecho",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Estrecho",
+      "nivel": "Naranja",
+      "text": "Estrecho: Aviso de tormentas de nivel amarillo. Estrecho (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Estrecho",
+      "fenomeno": "Moderate thunderstorm warning. Estrecho",
+      "nivel": "Naranja",
+      "text": "Estrecho: Moderate thunderstorm warning. Estrecho (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Grazalema",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Grazalema",
+      "nivel": "Naranja",
+      "text": "Grazalema: Aviso de lluvias de nivel amarillo. Grazalema (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Grazalema",
+      "fenomeno": "Moderate rain warning. Grazalema",
+      "nivel": "Naranja",
+      "text": "Grazalema: Moderate rain warning. Grazalema (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Campiña gaditana",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Campiña gaditana",
+      "nivel": "Naranja",
+      "text": "Campiña gaditana: Aviso de lluvias de nivel amarillo. Campiña gaditana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Campiña gaditana",
+      "fenomeno": "Moderate rain warning. Campiña gaditana",
+      "nivel": "Naranja",
+      "text": "Campiña gaditana: Moderate rain warning. Campiña gaditana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Estrecho",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Estrecho",
+      "nivel": "Naranja",
+      "text": "Estrecho: Aviso de lluvias de nivel amarillo. Estrecho (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Estrecho",
+      "fenomeno": "Moderate rain warning. Estrecho",
+      "nivel": "Naranja",
+      "text": "Estrecho: Moderate rain warning. Estrecho (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Grazalema",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Grazalema",
+      "nivel": "Naranja",
+      "text": "Grazalema: Aviso de lluvias de nivel amarillo. Grazalema (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Grazalema",
+      "fenomeno": "Moderate rain warning. Grazalema",
+      "nivel": "Naranja",
+      "text": "Grazalema: Moderate rain warning. Grazalema (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    }
+  ]
 };
