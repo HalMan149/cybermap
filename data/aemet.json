@@ -1,166 +1,166 @@
 {
-  "generated_at": "2026-01-04T09:32:15.284Z",
+  "generated_at": "2026-01-04T09:48:45.531Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "🌧️",
-      "provincia": "Sol y Guadalhorce",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Sol y Guadalhorce",
-      "nivel": "Rojo",
-      "text": "Sol y Guadalhorce: Aviso de lluvias de nivel naranja. Sol y Guadalhorce (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sol y Guadalhorce",
-      "fenomeno": "Severe rain warning. Sol y Guadalhorce",
-      "nivel": "Rojo",
-      "text": "Sol y Guadalhorce: Severe rain warning. Sol y Guadalhorce (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Sol y Guadalhorce",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Sol y Guadalhorce",
-      "nivel": "Rojo",
-      "text": "Sol y Guadalhorce: Aviso de lluvias de nivel naranja. Sol y Guadalhorce (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sol y Guadalhorce",
-      "fenomeno": "Severe rain warning. Sol y Guadalhorce",
-      "nivel": "Rojo",
-      "text": "Sol y Guadalhorce: Severe rain warning. Sol y Guadalhorce (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Ronda",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Ronda",
+      "icon": "🌊",
+      "provincia": "Costa - Litoral norte de Alicante",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral norte de Alicante",
       "nivel": "Naranja",
-      "text": "Ronda: Aviso de lluvias de nivel amarillo. Ronda (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ronda",
-      "fenomeno": "Moderate rain warning. Ronda",
-      "nivel": "Naranja",
-      "text": "Ronda: Moderate rain warning. Ronda (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Ronda",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Ronda",
-      "nivel": "Naranja",
-      "text": "Ronda: Aviso de lluvias de nivel amarillo. Ronda (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ronda",
-      "fenomeno": "Moderate rain warning. Ronda",
-      "nivel": "Naranja",
-      "text": "Ronda: Moderate rain warning. Ronda (Naranja) (AEMET)",
+      "text": "Costa - Litoral norte de Alicante: Aviso de costeros de nivel amarillo. Costa - Litoral norte de Alicante (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Costa - Levante almeriense",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Levante almeriense",
+      "provincia": "Costa - Litoral norte de Alicante",
+      "fenomeno": "Moderate coastalevent warning. Costa - Litoral norte de Alicante",
       "nivel": "Naranja",
-      "text": "Costa - Levante almeriense: Aviso de costeros de nivel amarillo. Costa - Levante almeriense (Naranja) (AEMET)",
+      "text": "Costa - Litoral norte de Alicante: Moderate coastalevent warning. Costa - Litoral norte de Alicante (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Costa - Levante almeriense",
-      "fenomeno": "Moderate coastalevent warning. Costa - Levante almeriense",
+      "provincia": "Costa - Litoral sur de Alicante",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral sur de Alicante",
       "nivel": "Naranja",
-      "text": "Costa - Levante almeriense: Moderate coastalevent warning. Costa - Levante almeriense (Naranja) (AEMET)",
+      "text": "Costa - Litoral sur de Alicante: Aviso de costeros de nivel amarillo. Costa - Litoral sur de Alicante (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral sur de Alicante",
+      "fenomeno": "Moderate coastalevent warning. Costa - Litoral sur de Alicante",
+      "nivel": "Naranja",
+      "text": "Costa - Litoral sur de Alicante: Moderate coastalevent warning. Costa - Litoral sur de Alicante (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "❄️",
-      "provincia": "Guadix y Baza",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Guadix y Baza",
+      "provincia": "Interior de Alicante",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Interior de Alicante",
       "nivel": "Naranja",
-      "text": "Guadix y Baza: Aviso de nevadas de nivel amarillo. Guadix y Baza (Naranja) (AEMET)",
+      "text": "Interior de Alicante: Aviso de nevadas de nivel amarillo. Interior de Alicante (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Guadix y Baza",
-      "fenomeno": "Moderate snow warning. Guadix y Baza",
+      "provincia": "Interior de Alicante",
+      "fenomeno": "Moderate snow warning. Interior de Alicante",
       "nivel": "Naranja",
-      "text": "Guadix y Baza: Moderate snow warning. Guadix y Baza (Naranja) (AEMET)",
+      "text": "Interior de Alicante: Moderate snow warning. Interior de Alicante (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌡️",
-      "provincia": "Pirineo oscense",
-      "fenomeno": "Aviso de temperaturas mínimas de nivel naranja. Pirineo oscense",
-      "nivel": "Rojo",
-      "text": "Pirineo oscense: Aviso de temperaturas mínimas de nivel naranja. Pirineo oscense (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Pirineo oscense",
-      "fenomeno": "Severe low-temperature warning. Pirineo oscense",
-      "nivel": "Rojo",
-      "text": "Pirineo oscense: Severe low-temperature warning. Pirineo oscense (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Pirineo de Girona",
-      "fenomeno": "Aviso de temperaturas mínimas de nivel naranja. Pirineo de Girona",
-      "nivel": "Rojo",
-      "text": "Pirineo de Girona: Aviso de temperaturas mínimas de nivel naranja. Pirineo de Girona (Rojo) (AEMET)",
+      "icon": "❄️",
+      "provincia": "Interior sur de Castellón",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Interior sur de Castellón",
+      "nivel": "Naranja",
+      "text": "Interior sur de Castellón: Aviso de nevadas de nivel amarillo. Interior sur de Castellón (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Pirineo de Girona",
-      "fenomeno": "Severe low-temperature warning. Pirineo de Girona",
-      "nivel": "Rojo",
-      "text": "Pirineo de Girona: Severe low-temperature warning. Pirineo de Girona (Rojo) (AEMET)",
+      "provincia": "Interior sur de Castellón",
+      "fenomeno": "Moderate snow warning. Interior sur de Castellón",
+      "nivel": "Naranja",
+      "text": "Interior sur de Castellón: Moderate snow warning. Interior sur de Castellón (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌡️",
-      "provincia": "Valle de Arán",
-      "fenomeno": "Aviso de temperaturas mínimas de nivel naranja. Valle de Arán",
-      "nivel": "Rojo",
-      "text": "Valle de Arán: Aviso de temperaturas mínimas de nivel naranja. Valle de Arán (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Valle de Arán",
-      "fenomeno": "Severe low-temperature warning. Valle de Arán",
-      "nivel": "Rojo",
-      "text": "Valle de Arán: Severe low-temperature warning. Valle de Arán (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Pirineo de Lleida",
-      "fenomeno": "Aviso de temperaturas mínimas de nivel naranja. Pirineo de Lleida",
-      "nivel": "Rojo",
-      "text": "Pirineo de Lleida: Aviso de temperaturas mínimas de nivel naranja. Pirineo de Lleida (Rojo) (AEMET)",
+      "icon": "❄️",
+      "provincia": "Interior norte de Valencia",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Interior norte de Valencia",
+      "nivel": "Naranja",
+      "text": "Interior norte de Valencia: Aviso de nevadas de nivel amarillo. Interior norte de Valencia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Pirineo de Lleida",
-      "fenomeno": "Severe low-temperature warning. Pirineo de Lleida",
+      "provincia": "Interior norte de Valencia",
+      "fenomeno": "Moderate snow warning. Interior norte de Valencia",
+      "nivel": "Naranja",
+      "text": "Interior norte de Valencia: Moderate snow warning. Interior norte de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Interior sur de Valencia",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Interior sur de Valencia",
+      "nivel": "Naranja",
+      "text": "Interior sur de Valencia: Aviso de nevadas de nivel amarillo. Interior sur de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior sur de Valencia",
+      "fenomeno": "Moderate snow warning. Interior sur de Valencia",
+      "nivel": "Naranja",
+      "text": "Interior sur de Valencia: Moderate snow warning. Interior sur de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Sol y Guadalhorce",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Sol y Guadalhorce",
       "nivel": "Rojo",
-      "text": "Pirineo de Lleida: Severe low-temperature warning. Pirineo de Lleida (Rojo) (AEMET)",
+      "text": "Sol y Guadalhorce: Aviso de lluvias de nivel naranja. Sol y Guadalhorce (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sol y Guadalhorce",
+      "fenomeno": "Severe rain warning. Sol y Guadalhorce",
+      "nivel": "Rojo",
+      "text": "Sol y Guadalhorce: Severe rain warning. Sol y Guadalhorce (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Sol y Guadalhorce",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Sol y Guadalhorce",
+      "nivel": "Rojo",
+      "text": "Sol y Guadalhorce: Aviso de lluvias de nivel naranja. Sol y Guadalhorce (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sol y Guadalhorce",
+      "fenomeno": "Severe rain warning. Sol y Guadalhorce",
+      "nivel": "Rojo",
+      "text": "Sol y Guadalhorce: Severe rain warning. Sol y Guadalhorce (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Ronda",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Ronda",
+      "nivel": "Naranja",
+      "text": "Ronda: Aviso de lluvias de nivel amarillo. Ronda (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ronda",
+      "fenomeno": "Moderate rain warning. Ronda",
+      "nivel": "Naranja",
+      "text": "Ronda: Moderate rain warning. Ronda (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Ronda",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Ronda",
+      "nivel": "Naranja",
+      "text": "Ronda: Aviso de lluvias de nivel amarillo. Ronda (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ronda",
+      "fenomeno": "Moderate rain warning. Ronda",
+      "nivel": "Naranja",
+      "text": "Ronda: Moderate rain warning. Ronda (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
