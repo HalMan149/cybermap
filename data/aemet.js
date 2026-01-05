@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-01-05T17:55:29.408Z
+// Auto-generado por GitHub Actions - 2026-01-05T18:23:26.372Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-01-05T17:55:29.408Z",
+  "generated_at": "2026-01-05T18:23:26.372Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "❄️",
-      "provincia": "Ibérica riojana",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Ibérica riojana",
-      "nivel": "Naranja",
-      "text": "Ibérica riojana: Aviso de nevadas de nivel amarillo. Ibérica riojana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ibérica riojana",
-      "fenomeno": "Moderate snow warning. Ibérica riojana",
-      "nivel": "Naranja",
-      "text": "Ibérica riojana: Moderate snow warning. Ibérica riojana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Sol y Guadalhorce",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Sol y Guadalhorce",
-      "nivel": "Naranja",
-      "text": "Sol y Guadalhorce: Aviso de vientos de nivel amarillo. Sol y Guadalhorce (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sol y Guadalhorce",
-      "fenomeno": "Moderate wind warning. Sol y Guadalhorce",
-      "nivel": "Naranja",
-      "text": "Sol y Guadalhorce: Moderate wind warning. Sol y Guadalhorce (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Axarquía",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Axarquía",
-      "nivel": "Naranja",
-      "text": "Axarquía: Aviso de vientos de nivel amarillo. Axarquía (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Axarquía",
-      "fenomeno": "Moderate wind warning. Axarquía",
-      "nivel": "Naranja",
-      "text": "Axarquía: Moderate wind warning. Axarquía (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Melilla",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Melilla",
-      "nivel": "Naranja",
-      "text": "Melilla: Aviso de vientos de nivel amarillo. Melilla (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Melilla",
-      "fenomeno": "Moderate wind warning. Melilla",
-      "nivel": "Naranja",
-      "text": "Melilla: Moderate wind warning. Melilla (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Norte de Burgos",
-      "fenomeno": "Aviso de nevadas de nivel naranja. Norte de Burgos",
+      "provincia": "Centro y valle de Villaverde",
+      "fenomeno": "Aviso de nevadas de nivel naranja. Centro y valle de Villaverde",
       "nivel": "Rojo",
-      "text": "Norte de Burgos: Aviso de nevadas de nivel naranja. Norte de Burgos (Rojo) (AEMET)",
+      "text": "Centro y valle de Villaverde: Aviso de nevadas de nivel naranja. Centro y valle de Villaverde (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Norte de Burgos",
-      "fenomeno": "Severe snow warning. Norte de Burgos",
+      "provincia": "Centro y valle de Villaverde",
+      "fenomeno": "Severe snow warning. Centro y valle de Villaverde",
       "nivel": "Rojo",
-      "text": "Norte de Burgos: Severe snow warning. Norte de Burgos (Rojo) (AEMET)",
+      "text": "Centro y valle de Villaverde: Severe snow warning. Centro y valle de Villaverde (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "❄️",
-      "provincia": "Condado de Treviño",
-      "fenomeno": "Aviso de nevadas de nivel naranja. Condado de Treviño",
+      "provincia": "Cuenca del Nervión",
+      "fenomeno": "Aviso de nevadas de nivel naranja. Cuenca del Nervión",
       "nivel": "Rojo",
-      "text": "Condado de Treviño: Aviso de nevadas de nivel naranja. Condado de Treviño (Rojo) (AEMET)",
+      "text": "Cuenca del Nervión: Aviso de nevadas de nivel naranja. Cuenca del Nervión (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Condado de Treviño",
-      "fenomeno": "Severe snow warning. Condado de Treviño",
+      "provincia": "Cuenca del Nervión",
+      "fenomeno": "Severe snow warning. Cuenca del Nervión",
       "nivel": "Rojo",
-      "text": "Condado de Treviño: Severe snow warning. Condado de Treviño (Rojo) (AEMET)",
+      "text": "Cuenca del Nervión: Severe snow warning. Cuenca del Nervión (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "❄️",
-      "provincia": "Cordillera Cantábrica de León",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Cordillera Cantábrica de León",
-      "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de León: Aviso de nevadas de nivel amarillo. Cordillera Cantábrica de León (Naranja) (AEMET)",
+      "provincia": "Llanada alavesa",
+      "fenomeno": "Aviso de nevadas de nivel naranja. Llanada alavesa",
+      "nivel": "Rojo",
+      "text": "Llanada alavesa: Aviso de nevadas de nivel naranja. Llanada alavesa (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Cordillera Cantábrica de León",
-      "fenomeno": "Moderate snow warning. Cordillera Cantábrica de León",
-      "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de León: Moderate snow warning. Cordillera Cantábrica de León (Naranja) (AEMET)",
+      "provincia": "Llanada alavesa",
+      "fenomeno": "Severe snow warning. Llanada alavesa",
+      "nivel": "Rojo",
+      "text": "Llanada alavesa: Severe snow warning. Llanada alavesa (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "❄️",
-      "provincia": "Cordillera Cantábrica de Burgos",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Cordillera Cantábrica de Burgos",
+      "provincia": "Liébana",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Liébana",
       "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de Burgos: Aviso de nevadas de nivel amarillo. Cordillera Cantábrica de Burgos (Naranja) (AEMET)",
+      "text": "Liébana: Aviso de nevadas de nivel amarillo. Liébana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Cordillera Cantábrica de Burgos",
-      "fenomeno": "Moderate snow warning. Cordillera Cantábrica de Burgos",
+      "provincia": "Liébana",
+      "fenomeno": "Moderate snow warning. Liébana",
       "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de Burgos: Moderate snow warning. Cordillera Cantábrica de Burgos (Naranja) (AEMET)",
+      "text": "Liébana: Moderate snow warning. Liébana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "❄️",
-      "provincia": "Cordillera Cantábrica de Palencia",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Cordillera Cantábrica de Palencia",
+      "provincia": "Cantabria del Ebro",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Cantabria del Ebro",
       "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de Palencia: Aviso de nevadas de nivel amarillo. Cordillera Cantábrica de Palencia (Naranja) (AEMET)",
+      "text": "Cantabria del Ebro: Aviso de nevadas de nivel amarillo. Cantabria del Ebro (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Cordillera Cantábrica de Palencia",
-      "fenomeno": "Moderate snow warning. Cordillera Cantábrica de Palencia",
+      "provincia": "Cantabria del Ebro",
+      "fenomeno": "Moderate snow warning. Cantabria del Ebro",
       "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de Palencia: Moderate snow warning. Cordillera Cantábrica de Palencia (Naranja) (AEMET)",
+      "text": "Cantabria del Ebro: Moderate snow warning. Cantabria del Ebro (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "❄️",
-      "provincia": "Meseta de Burgos",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Meseta de Burgos",
+      "provincia": "Vertiente cantábrica de Navarra",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Vertiente cantábrica de Navarra",
       "nivel": "Naranja",
-      "text": "Meseta de Burgos: Aviso de nevadas de nivel amarillo. Meseta de Burgos (Naranja) (AEMET)",
+      "text": "Vertiente cantábrica de Navarra: Aviso de nevadas de nivel amarillo. Vertiente cantábrica de Navarra (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Meseta de Burgos",
-      "fenomeno": "Moderate snow warning. Meseta de Burgos",
+      "provincia": "Vertiente cantábrica de Navarra",
+      "fenomeno": "Moderate snow warning. Vertiente cantábrica de Navarra",
       "nivel": "Naranja",
-      "text": "Meseta de Burgos: Moderate snow warning. Meseta de Burgos (Naranja) (AEMET)",
+      "text": "Vertiente cantábrica de Navarra: Moderate snow warning. Vertiente cantábrica de Navarra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Centro de Navarra",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Centro de Navarra",
+      "nivel": "Naranja",
+      "text": "Centro de Navarra: Aviso de nevadas de nivel amarillo. Centro de Navarra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Centro de Navarra",
+      "fenomeno": "Moderate snow warning. Centro de Navarra",
+      "nivel": "Naranja",
+      "text": "Centro de Navarra: Moderate snow warning. Centro de Navarra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Rioja alavesa",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Rioja alavesa",
+      "nivel": "Naranja",
+      "text": "Rioja alavesa: Aviso de nevadas de nivel amarillo. Rioja alavesa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Rioja alavesa",
+      "fenomeno": "Moderate snow warning. Rioja alavesa",
+      "nivel": "Naranja",
+      "text": "Rioja alavesa: Moderate snow warning. Rioja alavesa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Gipuzkoa interior",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Gipuzkoa interior",
+      "nivel": "Naranja",
+      "text": "Gipuzkoa interior: Aviso de nevadas de nivel amarillo. Gipuzkoa interior (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Gipuzkoa interior",
+      "fenomeno": "Moderate snow warning. Gipuzkoa interior",
+      "nivel": "Naranja",
+      "text": "Gipuzkoa interior: Moderate snow warning. Gipuzkoa interior (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Bizkaia interior",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Bizkaia interior",
+      "nivel": "Naranja",
+      "text": "Bizkaia interior: Aviso de nevadas de nivel amarillo. Bizkaia interior (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Bizkaia interior",
+      "fenomeno": "Moderate snow warning. Bizkaia interior",
+      "nivel": "Naranja",
+      "text": "Bizkaia interior: Moderate snow warning. Bizkaia interior (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
