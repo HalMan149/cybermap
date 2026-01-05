@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2026-01-05T07:41:42.391Z
+// Auto-generado por GitHub Actions - 2026-01-05T07:54:32.587Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-01-05T07:41:42.391Z",
+  "generated_at": "2026-01-05T07:54:32.587Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral sur de Alicante",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral sur de Alicante",
+      "nivel": "Naranja",
+      "text": "Costa - Litoral sur de Alicante: Aviso de costeros de nivel amarillo. Costa - Litoral sur de Alicante (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral sur de Alicante",
+      "fenomeno": "Moderate coastalevent warning. Costa - Litoral sur de Alicante",
+      "nivel": "Naranja",
+      "text": "Costa - Litoral sur de Alicante: Moderate coastalevent warning. Costa - Litoral sur de Alicante (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "❄️",
       "provincia": "Interior sur de Castellón",
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate snow warning. Sur de Huesca",
       "nivel": "Naranja",
       "text": "Sur de Huesca: Moderate snow warning. Sur de Huesca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Ribera del Ebro de Zaragoza",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Ribera del Ebro de Zaragoza",
-      "nivel": "Naranja",
-      "text": "Ribera del Ebro de Zaragoza: Aviso de nevadas de nivel amarillo. Ribera del Ebro de Zaragoza (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ribera del Ebro de Zaragoza",
-      "fenomeno": "Moderate snow warning. Ribera del Ebro de Zaragoza",
-      "nivel": "Naranja",
-      "text": "Ribera del Ebro de Zaragoza: Moderate snow warning. Ribera del Ebro de Zaragoza (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
