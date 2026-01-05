@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-01-05T08:22:44.986Z
+// Auto-generado por GitHub Actions - 2026-01-05T08:54:53.196Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-01-05T08:22:44.986Z",
+  "generated_at": "2026-01-05T08:54:53.196Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral sur de Alicante",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral sur de Alicante",
-      "nivel": "Naranja",
-      "text": "Costa - Litoral sur de Alicante: Aviso de costeros de nivel amarillo. Costa - Litoral sur de Alicante (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral sur de Alicante",
-      "fenomeno": "Moderate coastalevent warning. Costa - Litoral sur de Alicante",
-      "nivel": "Naranja",
-      "text": "Costa - Litoral sur de Alicante: Moderate coastalevent warning. Costa - Litoral sur de Alicante (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
       "icon": "❄️",
-      "provincia": "Interior sur de Castellón",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Interior sur de Castellón",
-      "nivel": "Naranja",
-      "text": "Interior sur de Castellón: Aviso de nevadas de nivel amarillo. Interior sur de Castellón (Naranja) (AEMET)",
+      "provincia": "Centro y valle de Villaverde",
+      "fenomeno": "Aviso de nevadas de nivel naranja. Centro y valle de Villaverde",
+      "nivel": "Rojo",
+      "text": "Centro y valle de Villaverde: Aviso de nevadas de nivel naranja. Centro y valle de Villaverde (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Interior sur de Castellón",
-      "fenomeno": "Moderate snow warning. Interior sur de Castellón",
-      "nivel": "Naranja",
-      "text": "Interior sur de Castellón: Moderate snow warning. Interior sur de Castellón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Campo de Cartagena y Mazarrón",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Campo de Cartagena y Mazarrón",
-      "nivel": "Naranja",
-      "text": "Costa - Campo de Cartagena y Mazarrón: Aviso de costeros de nivel amarillo. Costa - Campo de Cartagena y Mazarrón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Campo de Cartagena y Mazarrón",
-      "fenomeno": "Moderate coastalevent warning. Costa - Campo de Cartagena y Mazarrón",
-      "nivel": "Naranja",
-      "text": "Costa - Campo de Cartagena y Mazarrón: Moderate coastalevent warning. Costa - Campo de Cartagena y Mazarrón (Naranja) (AEMET)",
+      "provincia": "Centro y valle de Villaverde",
+      "fenomeno": "Severe snow warning. Centro y valle de Villaverde",
+      "nivel": "Rojo",
+      "text": "Centro y valle de Villaverde: Severe snow warning. Centro y valle de Villaverde (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "❄️",
-      "provincia": "Depresión central de Barcelona",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Depresión central de Barcelona",
-      "nivel": "Naranja",
-      "text": "Depresión central de Barcelona: Aviso de nevadas de nivel amarillo. Depresión central de Barcelona (Naranja) (AEMET)",
+      "provincia": "Centro y valle de Villaverde",
+      "fenomeno": "Aviso de nevadas de nivel naranja. Centro y valle de Villaverde",
+      "nivel": "Rojo",
+      "text": "Centro y valle de Villaverde: Aviso de nevadas de nivel naranja. Centro y valle de Villaverde (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Depresión central de Barcelona",
-      "fenomeno": "Moderate snow warning. Depresión central de Barcelona",
-      "nivel": "Naranja",
-      "text": "Depresión central de Barcelona: Moderate snow warning. Depresión central de Barcelona (Naranja) (AEMET)",
+      "provincia": "Centro y valle de Villaverde",
+      "fenomeno": "Severe snow warning. Centro y valle de Villaverde",
+      "nivel": "Rojo",
+      "text": "Centro y valle de Villaverde: Severe snow warning. Centro y valle de Villaverde (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "❄️",
-      "provincia": "Prelitoral de Barcelona",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Prelitoral de Barcelona",
+      "provincia": "Liébana",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Liébana",
       "nivel": "Naranja",
-      "text": "Prelitoral de Barcelona: Aviso de nevadas de nivel amarillo. Prelitoral de Barcelona (Naranja) (AEMET)",
+      "text": "Liébana: Aviso de nevadas de nivel amarillo. Liébana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Prelitoral de Barcelona",
-      "fenomeno": "Moderate snow warning. Prelitoral de Barcelona",
+      "provincia": "Liébana",
+      "fenomeno": "Moderate snow warning. Liébana",
       "nivel": "Naranja",
-      "text": "Prelitoral de Barcelona: Moderate snow warning. Prelitoral de Barcelona (Naranja) (AEMET)",
+      "text": "Liébana: Moderate snow warning. Liébana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "❄️",
-      "provincia": "Depresión central de Lleida",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Depresión central de Lleida",
+      "provincia": "Cantabria del Ebro",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Cantabria del Ebro",
       "nivel": "Naranja",
-      "text": "Depresión central de Lleida: Aviso de nevadas de nivel amarillo. Depresión central de Lleida (Naranja) (AEMET)",
+      "text": "Cantabria del Ebro: Aviso de nevadas de nivel amarillo. Cantabria del Ebro (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Depresión central de Lleida",
-      "fenomeno": "Moderate snow warning. Depresión central de Lleida",
+      "provincia": "Cantabria del Ebro",
+      "fenomeno": "Moderate snow warning. Cantabria del Ebro",
       "nivel": "Naranja",
-      "text": "Depresión central de Lleida: Moderate snow warning. Depresión central de Lleida (Naranja) (AEMET)",
+      "text": "Cantabria del Ebro: Moderate snow warning. Cantabria del Ebro (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "❄️",
-      "provincia": "Depresión central de Tarragona",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Depresión central de Tarragona",
+      "provincia": "Liébana",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Liébana",
       "nivel": "Naranja",
-      "text": "Depresión central de Tarragona: Aviso de nevadas de nivel amarillo. Depresión central de Tarragona (Naranja) (AEMET)",
+      "text": "Liébana: Aviso de nevadas de nivel amarillo. Liébana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Depresión central de Tarragona",
-      "fenomeno": "Moderate snow warning. Depresión central de Tarragona",
+      "provincia": "Liébana",
+      "fenomeno": "Moderate snow warning. Liébana",
       "nivel": "Naranja",
-      "text": "Depresión central de Tarragona: Moderate snow warning. Depresión central de Tarragona (Naranja) (AEMET)",
+      "text": "Liébana: Moderate snow warning. Liébana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "❄️",
-      "provincia": "Prelitoral norte de Tarragona",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Prelitoral norte de Tarragona",
+      "provincia": "Cantabria del Ebro",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Cantabria del Ebro",
       "nivel": "Naranja",
-      "text": "Prelitoral norte de Tarragona: Aviso de nevadas de nivel amarillo. Prelitoral norte de Tarragona (Naranja) (AEMET)",
+      "text": "Cantabria del Ebro: Aviso de nevadas de nivel amarillo. Cantabria del Ebro (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Prelitoral norte de Tarragona",
-      "fenomeno": "Moderate snow warning. Prelitoral norte de Tarragona",
+      "provincia": "Cantabria del Ebro",
+      "fenomeno": "Moderate snow warning. Cantabria del Ebro",
       "nivel": "Naranja",
-      "text": "Prelitoral norte de Tarragona: Moderate snow warning. Prelitoral norte de Tarragona (Naranja) (AEMET)",
+      "text": "Cantabria del Ebro: Moderate snow warning. Cantabria del Ebro (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "❄️",
-      "provincia": "Prelitoral sur de Tarragona",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Prelitoral sur de Tarragona",
+      "provincia": "Vertiente cantábrica de Navarra",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Vertiente cantábrica de Navarra",
       "nivel": "Naranja",
-      "text": "Prelitoral sur de Tarragona: Aviso de nevadas de nivel amarillo. Prelitoral sur de Tarragona (Naranja) (AEMET)",
+      "text": "Vertiente cantábrica de Navarra: Aviso de nevadas de nivel amarillo. Vertiente cantábrica de Navarra (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Prelitoral sur de Tarragona",
-      "fenomeno": "Moderate snow warning. Prelitoral sur de Tarragona",
+      "provincia": "Vertiente cantábrica de Navarra",
+      "fenomeno": "Moderate snow warning. Vertiente cantábrica de Navarra",
       "nivel": "Naranja",
-      "text": "Prelitoral sur de Tarragona: Moderate snow warning. Prelitoral sur de Tarragona (Naranja) (AEMET)",
+      "text": "Vertiente cantábrica de Navarra: Moderate snow warning. Vertiente cantábrica de Navarra (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "❄️",
-      "provincia": "Sur de Huesca",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Sur de Huesca",
+      "provincia": "Cuenca del Nervión",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Cuenca del Nervión",
       "nivel": "Naranja",
-      "text": "Sur de Huesca: Aviso de nevadas de nivel amarillo. Sur de Huesca (Naranja) (AEMET)",
+      "text": "Cuenca del Nervión: Aviso de nevadas de nivel amarillo. Cuenca del Nervión (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sur de Huesca",
-      "fenomeno": "Moderate snow warning. Sur de Huesca",
+      "provincia": "Cuenca del Nervión",
+      "fenomeno": "Moderate snow warning. Cuenca del Nervión",
       "nivel": "Naranja",
-      "text": "Sur de Huesca: Moderate snow warning. Sur de Huesca (Naranja) (AEMET)",
+      "text": "Cuenca del Nervión: Moderate snow warning. Cuenca del Nervión (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Llanada alavesa",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Llanada alavesa",
+      "nivel": "Naranja",
+      "text": "Llanada alavesa: Aviso de nevadas de nivel amarillo. Llanada alavesa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Llanada alavesa",
+      "fenomeno": "Moderate snow warning. Llanada alavesa",
+      "nivel": "Naranja",
+      "text": "Llanada alavesa: Moderate snow warning. Llanada alavesa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Gipuzkoa interior",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Gipuzkoa interior",
+      "nivel": "Naranja",
+      "text": "Gipuzkoa interior: Aviso de nevadas de nivel amarillo. Gipuzkoa interior (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Gipuzkoa interior",
+      "fenomeno": "Moderate snow warning. Gipuzkoa interior",
+      "nivel": "Naranja",
+      "text": "Gipuzkoa interior: Moderate snow warning. Gipuzkoa interior (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
