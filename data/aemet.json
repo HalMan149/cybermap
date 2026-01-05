@@ -1,166 +1,166 @@
 {
-  "generated_at": "2026-01-05T18:53:40.730Z",
+  "generated_at": "2026-01-05T19:15:34.898Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "❄️",
-      "provincia": "Centro y valle de Villaverde",
-      "fenomeno": "Aviso de nevadas de nivel naranja. Centro y valle de Villaverde",
+      "icon": "🌊",
+      "provincia": "Costa - Ampurdán",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Ampurdán",
       "nivel": "Rojo",
-      "text": "Centro y valle de Villaverde: Aviso de nevadas de nivel naranja. Centro y valle de Villaverde (Rojo) (AEMET)",
+      "text": "Costa - Ampurdán: Aviso de costeros de nivel naranja. Costa - Ampurdán (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⚠️",
-      "provincia": "Centro y valle de Villaverde",
-      "fenomeno": "Severe snow warning. Centro y valle de Villaverde",
+      "icon": "🌊",
+      "provincia": "Costa - Ampurdán",
+      "fenomeno": "Severe coastalevent warning. Costa - Ampurdán",
       "nivel": "Rojo",
-      "text": "Centro y valle de Villaverde: Severe snow warning. Centro y valle de Villaverde (Rojo) (AEMET)",
+      "text": "Costa - Ampurdán: Severe coastalevent warning. Costa - Ampurdán (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "❄️",
-      "provincia": "Cuenca del Nervión",
-      "fenomeno": "Aviso de nevadas de nivel naranja. Cuenca del Nervión",
-      "nivel": "Rojo",
-      "text": "Cuenca del Nervión: Aviso de nevadas de nivel naranja. Cuenca del Nervión (Rojo) (AEMET)",
+      "icon": "🌊",
+      "provincia": "Ibérica zaragozana",
+      "fenomeno": "Aviso de temperaturas mínimas de nivel amarillo. Ibérica zaragozana",
+      "nivel": "Naranja",
+      "text": "Ibérica zaragozana: Aviso de temperaturas mínimas de nivel amarillo. Ibérica zaragozana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Cuenca del Nervión",
-      "fenomeno": "Severe snow warning. Cuenca del Nervión",
-      "nivel": "Rojo",
-      "text": "Cuenca del Nervión: Severe snow warning. Cuenca del Nervión (Rojo) (AEMET)",
+      "provincia": "Ibérica zaragozana",
+      "fenomeno": "Moderate low-temperature warning. Ibérica zaragozana",
+      "nivel": "Naranja",
+      "text": "Ibérica zaragozana: Moderate low-temperature warning. Ibérica zaragozana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "❄️",
-      "provincia": "Llanada alavesa",
-      "fenomeno": "Aviso de nevadas de nivel naranja. Llanada alavesa",
-      "nivel": "Rojo",
-      "text": "Llanada alavesa: Aviso de nevadas de nivel naranja. Llanada alavesa (Rojo) (AEMET)",
+      "icon": "💨",
+      "provincia": "Cumbres de Gran Canaria",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Cumbres de Gran Canaria",
+      "nivel": "Naranja",
+      "text": "Cumbres de Gran Canaria: Aviso de vientos de nivel amarillo. Cumbres de Gran Canaria (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Llanada alavesa",
-      "fenomeno": "Severe snow warning. Llanada alavesa",
-      "nivel": "Rojo",
-      "text": "Llanada alavesa: Severe snow warning. Llanada alavesa (Rojo) (AEMET)",
+      "provincia": "Cumbres de Gran Canaria",
+      "fenomeno": "Moderate wind warning. Cumbres de Gran Canaria",
+      "nivel": "Naranja",
+      "text": "Cumbres de Gran Canaria: Moderate wind warning. Cumbres de Gran Canaria (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "❄️",
-      "provincia": "Liébana",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Liébana",
+      "icon": "💨",
+      "provincia": "Este, sur y oeste de Gran Canaria",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Este, sur y oeste de Gran Canaria",
       "nivel": "Naranja",
-      "text": "Liébana: Aviso de nevadas de nivel amarillo. Liébana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Liébana",
-      "fenomeno": "Moderate snow warning. Liébana",
-      "nivel": "Naranja",
-      "text": "Liébana: Moderate snow warning. Liébana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Cantabria del Ebro",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Cantabria del Ebro",
-      "nivel": "Naranja",
-      "text": "Cantabria del Ebro: Aviso de nevadas de nivel amarillo. Cantabria del Ebro (Naranja) (AEMET)",
+      "text": "Este, sur y oeste de Gran Canaria: Aviso de vientos de nivel amarillo. Este, sur y oeste de Gran Canaria (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Cantabria del Ebro",
-      "fenomeno": "Moderate snow warning. Cantabria del Ebro",
+      "provincia": "Este, sur y oeste de Gran Canaria",
+      "fenomeno": "Moderate wind warning. Este, sur y oeste de Gran Canaria",
       "nivel": "Naranja",
-      "text": "Cantabria del Ebro: Moderate snow warning. Cantabria del Ebro (Naranja) (AEMET)",
+      "text": "Este, sur y oeste de Gran Canaria: Moderate wind warning. Este, sur y oeste de Gran Canaria (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "❄️",
-      "provincia": "Vertiente cantábrica de Navarra",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Vertiente cantábrica de Navarra",
+      "icon": "💨",
+      "provincia": "Cumbres de La Palma",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Cumbres de La Palma",
       "nivel": "Naranja",
-      "text": "Vertiente cantábrica de Navarra: Aviso de nevadas de nivel amarillo. Vertiente cantábrica de Navarra (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Vertiente cantábrica de Navarra",
-      "fenomeno": "Moderate snow warning. Vertiente cantábrica de Navarra",
-      "nivel": "Naranja",
-      "text": "Vertiente cantábrica de Navarra: Moderate snow warning. Vertiente cantábrica de Navarra (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Centro de Navarra",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Centro de Navarra",
-      "nivel": "Naranja",
-      "text": "Centro de Navarra: Aviso de nevadas de nivel amarillo. Centro de Navarra (Naranja) (AEMET)",
+      "text": "Cumbres de La Palma: Aviso de vientos de nivel amarillo. Cumbres de La Palma (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Centro de Navarra",
-      "fenomeno": "Moderate snow warning. Centro de Navarra",
+      "provincia": "Cumbres de La Palma",
+      "fenomeno": "Moderate wind warning. Cumbres de La Palma",
       "nivel": "Naranja",
-      "text": "Centro de Navarra: Moderate snow warning. Centro de Navarra (Naranja) (AEMET)",
+      "text": "Cumbres de La Palma: Moderate wind warning. Cumbres de La Palma (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "❄️",
-      "provincia": "Rioja alavesa",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Rioja alavesa",
+      "icon": "💨",
+      "provincia": "Oeste de La Palma",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Oeste de La Palma",
       "nivel": "Naranja",
-      "text": "Rioja alavesa: Aviso de nevadas de nivel amarillo. Rioja alavesa (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Rioja alavesa",
-      "fenomeno": "Moderate snow warning. Rioja alavesa",
-      "nivel": "Naranja",
-      "text": "Rioja alavesa: Moderate snow warning. Rioja alavesa (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Gipuzkoa interior",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Gipuzkoa interior",
-      "nivel": "Naranja",
-      "text": "Gipuzkoa interior: Aviso de nevadas de nivel amarillo. Gipuzkoa interior (Naranja) (AEMET)",
+      "text": "Oeste de La Palma: Aviso de vientos de nivel amarillo. Oeste de La Palma (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Gipuzkoa interior",
-      "fenomeno": "Moderate snow warning. Gipuzkoa interior",
+      "provincia": "Oeste de La Palma",
+      "fenomeno": "Moderate wind warning. Oeste de La Palma",
       "nivel": "Naranja",
-      "text": "Gipuzkoa interior: Moderate snow warning. Gipuzkoa interior (Naranja) (AEMET)",
+      "text": "Oeste de La Palma: Moderate wind warning. Oeste de La Palma (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "❄️",
-      "provincia": "Bizkaia interior",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Bizkaia interior",
+      "icon": "💨",
+      "provincia": "La Gomera",
+      "fenomeno": "Aviso de vientos de nivel amarillo. La Gomera",
       "nivel": "Naranja",
-      "text": "Bizkaia interior: Aviso de nevadas de nivel amarillo. Bizkaia interior (Naranja) (AEMET)",
+      "text": "La Gomera: Aviso de vientos de nivel amarillo. La Gomera (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Bizkaia interior",
-      "fenomeno": "Moderate snow warning. Bizkaia interior",
+      "provincia": "La Gomera",
+      "fenomeno": "Moderate wind warning. La Gomera",
       "nivel": "Naranja",
-      "text": "Bizkaia interior: Moderate snow warning. Bizkaia interior (Naranja) (AEMET)",
+      "text": "La Gomera: Moderate wind warning. La Gomera (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "El Hierro",
+      "fenomeno": "Aviso de vientos de nivel amarillo. El Hierro",
+      "nivel": "Naranja",
+      "text": "El Hierro: Aviso de vientos de nivel amarillo. El Hierro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "El Hierro",
+      "fenomeno": "Moderate wind warning. El Hierro",
+      "nivel": "Naranja",
+      "text": "El Hierro: Moderate wind warning. El Hierro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Este, sur y oeste de Tenerife",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Este, sur y oeste de Tenerife",
+      "nivel": "Naranja",
+      "text": "Este, sur y oeste de Tenerife: Aviso de vientos de nivel amarillo. Este, sur y oeste de Tenerife (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Este, sur y oeste de Tenerife",
+      "fenomeno": "Moderate wind warning. Este, sur y oeste de Tenerife",
+      "nivel": "Naranja",
+      "text": "Este, sur y oeste de Tenerife: Moderate wind warning. Este, sur y oeste de Tenerife (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Ampurdán",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Ampurdán",
+      "nivel": "Naranja",
+      "text": "Costa - Ampurdán: Aviso de costeros de nivel amarillo. Costa - Ampurdán (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Ampurdán",
+      "fenomeno": "Moderate coastalevent warning. Costa - Ampurdán",
+      "nivel": "Naranja",
+      "text": "Costa - Ampurdán: Moderate coastalevent warning. Costa - Ampurdán (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
