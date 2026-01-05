@@ -1,166 +1,166 @@
 {
-  "generated_at": "2026-01-05T09:24:40.570Z",
+  "generated_at": "2026-01-05T09:52:45.865Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "❄️",
-      "provincia": "Centro y valle de Villaverde",
-      "fenomeno": "Aviso de nevadas de nivel naranja. Centro y valle de Villaverde",
-      "nivel": "Rojo",
-      "text": "Centro y valle de Villaverde: Aviso de nevadas de nivel naranja. Centro y valle de Villaverde (Rojo) (AEMET)",
+      "provincia": "Hellín y Almansa",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Hellín y Almansa",
+      "nivel": "Naranja",
+      "text": "Hellín y Almansa: Aviso de nevadas de nivel amarillo. Hellín y Almansa (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Centro y valle de Villaverde",
-      "fenomeno": "Severe snow warning. Centro y valle de Villaverde",
-      "nivel": "Rojo",
-      "text": "Centro y valle de Villaverde: Severe snow warning. Centro y valle de Villaverde (Rojo) (AEMET)",
+      "provincia": "Hellín y Almansa",
+      "fenomeno": "Moderate snow warning. Hellín y Almansa",
+      "nivel": "Naranja",
+      "text": "Hellín y Almansa: Moderate snow warning. Hellín y Almansa (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "❄️",
-      "provincia": "Centro y valle de Villaverde",
-      "fenomeno": "Aviso de nevadas de nivel naranja. Centro y valle de Villaverde",
-      "nivel": "Rojo",
-      "text": "Centro y valle de Villaverde: Aviso de nevadas de nivel naranja. Centro y valle de Villaverde (Rojo) (AEMET)",
+      "icon": "🌊",
+      "provincia": "La Mancha albaceteña",
+      "fenomeno": "Aviso de temperaturas mínimas de nivel amarillo. La Mancha albaceteña",
+      "nivel": "Naranja",
+      "text": "La Mancha albaceteña: Aviso de temperaturas mínimas de nivel amarillo. La Mancha albaceteña (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Centro y valle de Villaverde",
-      "fenomeno": "Severe snow warning. Centro y valle de Villaverde",
-      "nivel": "Rojo",
-      "text": "Centro y valle de Villaverde: Severe snow warning. Centro y valle de Villaverde (Rojo) (AEMET)",
+      "provincia": "La Mancha albaceteña",
+      "fenomeno": "Moderate low-temperature warning. La Mancha albaceteña",
+      "nivel": "Naranja",
+      "text": "La Mancha albaceteña: Moderate low-temperature warning. La Mancha albaceteña (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "❄️",
-      "provincia": "Liébana",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Liébana",
+      "icon": "🌊",
+      "provincia": "Alcaraz y Segura",
+      "fenomeno": "Aviso de temperaturas mínimas de nivel amarillo. Alcaraz y Segura",
       "nivel": "Naranja",
-      "text": "Liébana: Aviso de nevadas de nivel amarillo. Liébana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Liébana",
-      "fenomeno": "Moderate snow warning. Liébana",
-      "nivel": "Naranja",
-      "text": "Liébana: Moderate snow warning. Liébana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Cantabria del Ebro",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Cantabria del Ebro",
-      "nivel": "Naranja",
-      "text": "Cantabria del Ebro: Aviso de nevadas de nivel amarillo. Cantabria del Ebro (Naranja) (AEMET)",
+      "text": "Alcaraz y Segura: Aviso de temperaturas mínimas de nivel amarillo. Alcaraz y Segura (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Cantabria del Ebro",
-      "fenomeno": "Moderate snow warning. Cantabria del Ebro",
+      "provincia": "Alcaraz y Segura",
+      "fenomeno": "Moderate low-temperature warning. Alcaraz y Segura",
       "nivel": "Naranja",
-      "text": "Cantabria del Ebro: Moderate snow warning. Cantabria del Ebro (Naranja) (AEMET)",
+      "text": "Alcaraz y Segura: Moderate low-temperature warning. Alcaraz y Segura (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "❄️",
-      "provincia": "Liébana",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Liébana",
+      "icon": "🌊",
+      "provincia": "Hellín y Almansa",
+      "fenomeno": "Aviso de temperaturas mínimas de nivel amarillo. Hellín y Almansa",
       "nivel": "Naranja",
-      "text": "Liébana: Aviso de nevadas de nivel amarillo. Liébana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Liébana",
-      "fenomeno": "Moderate snow warning. Liébana",
-      "nivel": "Naranja",
-      "text": "Liébana: Moderate snow warning. Liébana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Cantabria del Ebro",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Cantabria del Ebro",
-      "nivel": "Naranja",
-      "text": "Cantabria del Ebro: Aviso de nevadas de nivel amarillo. Cantabria del Ebro (Naranja) (AEMET)",
+      "text": "Hellín y Almansa: Aviso de temperaturas mínimas de nivel amarillo. Hellín y Almansa (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Cantabria del Ebro",
-      "fenomeno": "Moderate snow warning. Cantabria del Ebro",
+      "provincia": "Hellín y Almansa",
+      "fenomeno": "Moderate low-temperature warning. Hellín y Almansa",
       "nivel": "Naranja",
-      "text": "Cantabria del Ebro: Moderate snow warning. Cantabria del Ebro (Naranja) (AEMET)",
+      "text": "Hellín y Almansa: Moderate low-temperature warning. Hellín y Almansa (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "❄️",
-      "provincia": "Vertiente cantábrica de Navarra",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Vertiente cantábrica de Navarra",
+      "icon": "🌊",
+      "provincia": "La Mancha de Ciudad Real",
+      "fenomeno": "Aviso de temperaturas mínimas de nivel amarillo. La Mancha de Ciudad Real",
       "nivel": "Naranja",
-      "text": "Vertiente cantábrica de Navarra: Aviso de nevadas de nivel amarillo. Vertiente cantábrica de Navarra (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Vertiente cantábrica de Navarra",
-      "fenomeno": "Moderate snow warning. Vertiente cantábrica de Navarra",
-      "nivel": "Naranja",
-      "text": "Vertiente cantábrica de Navarra: Moderate snow warning. Vertiente cantábrica de Navarra (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Cuenca del Nervión",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Cuenca del Nervión",
-      "nivel": "Naranja",
-      "text": "Cuenca del Nervión: Aviso de nevadas de nivel amarillo. Cuenca del Nervión (Naranja) (AEMET)",
+      "text": "La Mancha de Ciudad Real: Aviso de temperaturas mínimas de nivel amarillo. La Mancha de Ciudad Real (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Cuenca del Nervión",
-      "fenomeno": "Moderate snow warning. Cuenca del Nervión",
+      "provincia": "La Mancha de Ciudad Real",
+      "fenomeno": "Moderate low-temperature warning. La Mancha de Ciudad Real",
       "nivel": "Naranja",
-      "text": "Cuenca del Nervión: Moderate snow warning. Cuenca del Nervión (Naranja) (AEMET)",
+      "text": "La Mancha de Ciudad Real: Moderate low-temperature warning. La Mancha de Ciudad Real (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "❄️",
-      "provincia": "Llanada alavesa",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Llanada alavesa",
+      "icon": "🌊",
+      "provincia": "Serranía de Cuenca",
+      "fenomeno": "Aviso de temperaturas mínimas de nivel amarillo. Serranía de Cuenca",
       "nivel": "Naranja",
-      "text": "Llanada alavesa: Aviso de nevadas de nivel amarillo. Llanada alavesa (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Llanada alavesa",
-      "fenomeno": "Moderate snow warning. Llanada alavesa",
-      "nivel": "Naranja",
-      "text": "Llanada alavesa: Moderate snow warning. Llanada alavesa (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Gipuzkoa interior",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Gipuzkoa interior",
-      "nivel": "Naranja",
-      "text": "Gipuzkoa interior: Aviso de nevadas de nivel amarillo. Gipuzkoa interior (Naranja) (AEMET)",
+      "text": "Serranía de Cuenca: Aviso de temperaturas mínimas de nivel amarillo. Serranía de Cuenca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Gipuzkoa interior",
-      "fenomeno": "Moderate snow warning. Gipuzkoa interior",
+      "provincia": "Serranía de Cuenca",
+      "fenomeno": "Moderate low-temperature warning. Serranía de Cuenca",
       "nivel": "Naranja",
-      "text": "Gipuzkoa interior: Moderate snow warning. Gipuzkoa interior (Naranja) (AEMET)",
+      "text": "Serranía de Cuenca: Moderate low-temperature warning. Serranía de Cuenca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Serranía de Guadalajara",
+      "fenomeno": "Aviso de temperaturas mínimas de nivel amarillo. Serranía de Guadalajara",
+      "nivel": "Naranja",
+      "text": "Serranía de Guadalajara: Aviso de temperaturas mínimas de nivel amarillo. Serranía de Guadalajara (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Serranía de Guadalajara",
+      "fenomeno": "Moderate low-temperature warning. Serranía de Guadalajara",
+      "nivel": "Naranja",
+      "text": "Serranía de Guadalajara: Moderate low-temperature warning. Serranía de Guadalajara (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Parameras de Molina",
+      "fenomeno": "Aviso de temperaturas mínimas de nivel amarillo. Parameras de Molina",
+      "nivel": "Naranja",
+      "text": "Parameras de Molina: Aviso de temperaturas mínimas de nivel amarillo. Parameras de Molina (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Parameras de Molina",
+      "fenomeno": "Moderate low-temperature warning. Parameras de Molina",
+      "nivel": "Naranja",
+      "text": "Parameras de Molina: Moderate low-temperature warning. Parameras de Molina (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Sierra de Madrid",
+      "fenomeno": "Aviso de temperaturas mínimas de nivel amarillo. Sierra de Madrid",
+      "nivel": "Naranja",
+      "text": "Sierra de Madrid: Aviso de temperaturas mínimas de nivel amarillo. Sierra de Madrid (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sierra de Madrid",
+      "fenomeno": "Moderate low-temperature warning. Sierra de Madrid",
+      "nivel": "Naranja",
+      "text": "Sierra de Madrid: Moderate low-temperature warning. Sierra de Madrid (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Oeste de A Coruña",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Oeste de A Coruña",
+      "nivel": "Naranja",
+      "text": "Costa - Oeste de A Coruña: Aviso de costeros de nivel amarillo. Costa - Oeste de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Oeste de A Coruña",
+      "fenomeno": "Moderate coastalevent warning. Costa - Oeste de A Coruña",
+      "nivel": "Naranja",
+      "text": "Costa - Oeste de A Coruña: Moderate coastalevent warning. Costa - Oeste de A Coruña (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
