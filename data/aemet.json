@@ -1,8 +1,88 @@
 {
-  "generated_at": "2026-01-06T22:39:06.518Z",
+  "generated_at": "2026-01-06T22:53:27.456Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "💨",
+      "provincia": "Suroccidental asturiana",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Suroccidental asturiana",
+      "nivel": "Naranja",
+      "text": "Suroccidental asturiana: Aviso de vientos de nivel amarillo. Suroccidental asturiana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Suroccidental asturiana",
+      "fenomeno": "Moderate wind warning. Suroccidental asturiana",
+      "nivel": "Naranja",
+      "text": "Suroccidental asturiana: Moderate wind warning. Suroccidental asturiana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "A Mariña",
+      "fenomeno": "Aviso de vientos de nivel amarillo. A Mariña",
+      "nivel": "Naranja",
+      "text": "A Mariña: Aviso de vientos de nivel amarillo. A Mariña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "A Mariña",
+      "fenomeno": "Moderate wind warning. A Mariña",
+      "nivel": "Naranja",
+      "text": "A Mariña: Moderate wind warning. A Mariña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Norte de Burgos",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Norte de Burgos",
+      "nivel": "Naranja",
+      "text": "Norte de Burgos: Aviso de vientos de nivel amarillo. Norte de Burgos (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Norte de Burgos",
+      "fenomeno": "Moderate wind warning. Norte de Burgos",
+      "nivel": "Naranja",
+      "text": "Norte de Burgos: Moderate wind warning. Norte de Burgos (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Interior norte de Valencia",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Interior norte de Valencia",
+      "nivel": "Naranja",
+      "text": "Interior norte de Valencia: Aviso de vientos de nivel amarillo. Interior norte de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior norte de Valencia",
+      "fenomeno": "Moderate wind warning. Interior norte de Valencia",
+      "nivel": "Naranja",
+      "text": "Interior norte de Valencia: Moderate wind warning. Interior norte de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Interior sur de Valencia",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Interior sur de Valencia",
+      "nivel": "Naranja",
+      "text": "Interior sur de Valencia: Aviso de vientos de nivel amarillo. Interior sur de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior sur de Valencia",
+      "fenomeno": "Moderate wind warning. Interior sur de Valencia",
+      "nivel": "Naranja",
+      "text": "Interior sur de Valencia: Moderate wind warning. Interior sur de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌡️",
       "provincia": "Parameras de Molina",
@@ -81,86 +161,6 @@
       "fenomeno": "Moderate low-temperature warning. La Mancha conquense",
       "nivel": "Naranja",
       "text": "La Mancha conquense: Moderate low-temperature warning. La Mancha conquense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Alcarria de Guadalajara",
-      "fenomeno": "Aviso de temperaturas mínimas de nivel amarillo. Alcarria de Guadalajara",
-      "nivel": "Naranja",
-      "text": "Alcarria de Guadalajara: Aviso de temperaturas mínimas de nivel amarillo. Alcarria de Guadalajara (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Alcarria de Guadalajara",
-      "fenomeno": "Moderate low-temperature warning. Alcarria de Guadalajara",
-      "nivel": "Naranja",
-      "text": "Alcarria de Guadalajara: Moderate low-temperature warning. Alcarria de Guadalajara (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Metropolitana y Henares",
-      "fenomeno": "Aviso de temperaturas mínimas de nivel amarillo. Metropolitana y Henares",
-      "nivel": "Naranja",
-      "text": "Metropolitana y Henares: Aviso de temperaturas mínimas de nivel amarillo. Metropolitana y Henares (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Metropolitana y Henares",
-      "fenomeno": "Moderate low-temperature warning. Metropolitana y Henares",
-      "nivel": "Naranja",
-      "text": "Metropolitana y Henares: Moderate low-temperature warning. Metropolitana y Henares (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Sur, Vegas y Oeste",
-      "fenomeno": "Aviso de temperaturas mínimas de nivel amarillo. Sur, Vegas y Oeste",
-      "nivel": "Naranja",
-      "text": "Sur, Vegas y Oeste: Aviso de temperaturas mínimas de nivel amarillo. Sur, Vegas y Oeste (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sur, Vegas y Oeste",
-      "fenomeno": "Moderate low-temperature warning. Sur, Vegas y Oeste",
-      "nivel": "Naranja",
-      "text": "Sur, Vegas y Oeste: Moderate low-temperature warning. Sur, Vegas y Oeste (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Cantabria del Ebro",
-      "fenomeno": "Aviso de temperaturas mínimas de nivel amarillo. Cantabria del Ebro",
-      "nivel": "Naranja",
-      "text": "Cantabria del Ebro: Aviso de temperaturas mínimas de nivel amarillo. Cantabria del Ebro (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cantabria del Ebro",
-      "fenomeno": "Moderate low-temperature warning. Cantabria del Ebro",
-      "nivel": "Naranja",
-      "text": "Cantabria del Ebro: Moderate low-temperature warning. Cantabria del Ebro (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Vertiente cantábrica de Navarra",
-      "fenomeno": "Aviso de temperaturas mínimas de nivel amarillo. Vertiente cantábrica de Navarra",
-      "nivel": "Naranja",
-      "text": "Vertiente cantábrica de Navarra: Aviso de temperaturas mínimas de nivel amarillo. Vertiente cantábrica de Navarra (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Vertiente cantábrica de Navarra",
-      "fenomeno": "Moderate low-temperature warning. Vertiente cantábrica de Navarra",
-      "nivel": "Naranja",
-      "text": "Vertiente cantábrica de Navarra: Moderate low-temperature warning. Vertiente cantábrica de Navarra (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
