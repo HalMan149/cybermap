@@ -1,7 +1,168 @@
-// Auto-generado por GitHub Actions - 2026-01-08T19:48:58.193Z
+// Auto-generado por GitHub Actions - 2026-01-08T20:16:31.707Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-01-08T19:48:58.193Z",
+  "generated_at": "2026-01-08T20:16:31.707Z",
   "source": "AEMET OpenData API",
-  "total_avisos": 0,
-  "avisos": []
+  "total_avisos": 20,
+  "avisos": [
+    {
+      "icon": "❄️",
+      "provincia": "Pirineo navarro",
+      "fenomeno": "Aviso de nevadas de nivel naranja. Pirineo navarro",
+      "nivel": "Rojo",
+      "text": "Pirineo navarro: Aviso de nevadas de nivel naranja. Pirineo navarro (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Pirineo navarro",
+      "fenomeno": "Severe snow warning. Pirineo navarro",
+      "nivel": "Rojo",
+      "text": "Pirineo navarro: Severe snow warning. Pirineo navarro (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Vertiente cantábrica de Navarra",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Vertiente cantábrica de Navarra",
+      "nivel": "Naranja",
+      "text": "Vertiente cantábrica de Navarra: Aviso de vientos de nivel amarillo. Vertiente cantábrica de Navarra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Vertiente cantábrica de Navarra",
+      "fenomeno": "Moderate wind warning. Vertiente cantábrica de Navarra",
+      "nivel": "Naranja",
+      "text": "Vertiente cantábrica de Navarra: Moderate wind warning. Vertiente cantábrica de Navarra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Vertiente cantábrica de Navarra",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Vertiente cantábrica de Navarra",
+      "nivel": "Naranja",
+      "text": "Vertiente cantábrica de Navarra: Aviso de lluvias de nivel amarillo. Vertiente cantábrica de Navarra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Vertiente cantábrica de Navarra",
+      "fenomeno": "Moderate rain warning. Vertiente cantábrica de Navarra",
+      "nivel": "Naranja",
+      "text": "Vertiente cantábrica de Navarra: Moderate rain warning. Vertiente cantábrica de Navarra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Gipuzkoa litoral",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Gipuzkoa litoral",
+      "nivel": "Naranja",
+      "text": "Gipuzkoa litoral: Aviso de lluvias de nivel amarillo. Gipuzkoa litoral (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Gipuzkoa litoral",
+      "fenomeno": "Moderate rain warning. Gipuzkoa litoral",
+      "nivel": "Naranja",
+      "text": "Gipuzkoa litoral: Moderate rain warning. Gipuzkoa litoral (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Valle del Almanzora y Los Vélez",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Valle del Almanzora y Los Vélez",
+      "nivel": "Naranja",
+      "text": "Valle del Almanzora y Los Vélez: Aviso de vientos de nivel amarillo. Valle del Almanzora y Los Vélez (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Valle del Almanzora y Los Vélez",
+      "fenomeno": "Moderate wind warning. Valle del Almanzora y Los Vélez",
+      "nivel": "Naranja",
+      "text": "Valle del Almanzora y Los Vélez: Moderate wind warning. Valle del Almanzora y Los Vélez (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Nacimiento y Campo de Tabernas",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Nacimiento y Campo de Tabernas",
+      "nivel": "Naranja",
+      "text": "Nacimiento y Campo de Tabernas: Aviso de vientos de nivel amarillo. Nacimiento y Campo de Tabernas (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Nacimiento y Campo de Tabernas",
+      "fenomeno": "Moderate wind warning. Nacimiento y Campo de Tabernas",
+      "nivel": "Naranja",
+      "text": "Nacimiento y Campo de Tabernas: Moderate wind warning. Nacimiento y Campo de Tabernas (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Altiplano de Murcia",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Altiplano de Murcia",
+      "nivel": "Naranja",
+      "text": "Altiplano de Murcia: Aviso de vientos de nivel amarillo. Altiplano de Murcia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Altiplano de Murcia",
+      "fenomeno": "Moderate wind warning. Altiplano de Murcia",
+      "nivel": "Naranja",
+      "text": "Altiplano de Murcia: Moderate wind warning. Altiplano de Murcia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Noroeste de Murcia",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Noroeste de Murcia",
+      "nivel": "Naranja",
+      "text": "Noroeste de Murcia: Aviso de vientos de nivel amarillo. Noroeste de Murcia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Noroeste de Murcia",
+      "fenomeno": "Moderate wind warning. Noroeste de Murcia",
+      "nivel": "Naranja",
+      "text": "Noroeste de Murcia: Moderate wind warning. Noroeste de Murcia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Centro de Huesca",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Centro de Huesca",
+      "nivel": "Naranja",
+      "text": "Centro de Huesca: Aviso de vientos de nivel amarillo. Centro de Huesca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Centro de Huesca",
+      "fenomeno": "Moderate wind warning. Centro de Huesca",
+      "nivel": "Naranja",
+      "text": "Centro de Huesca: Moderate wind warning. Centro de Huesca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Sur de Huesca",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Sur de Huesca",
+      "nivel": "Naranja",
+      "text": "Sur de Huesca: Aviso de vientos de nivel amarillo. Sur de Huesca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sur de Huesca",
+      "fenomeno": "Moderate wind warning. Sur de Huesca",
+      "nivel": "Naranja",
+      "text": "Sur de Huesca: Moderate wind warning. Sur de Huesca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    }
+  ]
 };
