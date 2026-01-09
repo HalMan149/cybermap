@@ -1,8 +1,104 @@
 {
-  "generated_at": "2026-01-09T17:55:25.371Z",
+  "generated_at": "2026-01-09T18:22:05.940Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "❄️",
+      "provincia": "Valle de Arán",
+      "fenomeno": "Aviso de nevadas de nivel naranja. Valle de Arán",
+      "nivel": "Rojo",
+      "text": "Valle de Arán: Aviso de nevadas de nivel naranja. Valle de Arán (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Valle de Arán",
+      "fenomeno": "Severe snow warning. Valle de Arán",
+      "nivel": "Rojo",
+      "text": "Valle de Arán: Severe snow warning. Valle de Arán (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Gúdar y Maestrazgo",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Gúdar y Maestrazgo",
+      "nivel": "Naranja",
+      "text": "Gúdar y Maestrazgo: Aviso de vientos de nivel amarillo. Gúdar y Maestrazgo (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Gúdar y Maestrazgo",
+      "fenomeno": "Moderate wind warning. Gúdar y Maestrazgo",
+      "nivel": "Naranja",
+      "text": "Gúdar y Maestrazgo: Moderate wind warning. Gúdar y Maestrazgo (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Sur de Huesca",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Sur de Huesca",
+      "nivel": "Naranja",
+      "text": "Sur de Huesca: Aviso de vientos de nivel amarillo. Sur de Huesca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sur de Huesca",
+      "fenomeno": "Moderate wind warning. Sur de Huesca",
+      "nivel": "Naranja",
+      "text": "Sur de Huesca: Moderate wind warning. Sur de Huesca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Bajo Aragón de Teruel",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Bajo Aragón de Teruel",
+      "nivel": "Naranja",
+      "text": "Bajo Aragón de Teruel: Aviso de vientos de nivel amarillo. Bajo Aragón de Teruel (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Bajo Aragón de Teruel",
+      "fenomeno": "Moderate wind warning. Bajo Aragón de Teruel",
+      "nivel": "Naranja",
+      "text": "Bajo Aragón de Teruel: Moderate wind warning. Bajo Aragón de Teruel (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Ribera del Ebro de Zaragoza",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Ribera del Ebro de Zaragoza",
+      "nivel": "Naranja",
+      "text": "Ribera del Ebro de Zaragoza: Aviso de vientos de nivel amarillo. Ribera del Ebro de Zaragoza (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ribera del Ebro de Zaragoza",
+      "fenomeno": "Moderate wind warning. Ribera del Ebro de Zaragoza",
+      "nivel": "Naranja",
+      "text": "Ribera del Ebro de Zaragoza: Moderate wind warning. Ribera del Ebro de Zaragoza (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Depresión central de Lleida",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Depresión central de Lleida",
+      "nivel": "Naranja",
+      "text": "Depresión central de Lleida: Aviso de vientos de nivel amarillo. Depresión central de Lleida (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Depresión central de Lleida",
+      "fenomeno": "Moderate wind warning. Depresión central de Lleida",
+      "nivel": "Naranja",
+      "text": "Depresión central de Lleida: Moderate wind warning. Depresión central de Lleida (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌊",
       "provincia": "Costa - Ampurdán",
@@ -65,102 +161,6 @@
       "fenomeno": "Moderate avalanches warning. Pirineo de Lleida",
       "nivel": "Naranja",
       "text": "Pirineo de Lleida: Moderate avalanches warning. Pirineo de Lleida (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Pirineo navarro",
-      "fenomeno": "Aviso de aludes de nivel amarillo. Pirineo navarro",
-      "nivel": "Naranja",
-      "text": "Pirineo navarro: Aviso de aludes de nivel amarillo. Pirineo navarro (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Pirineo navarro",
-      "fenomeno": "Moderate avalanches warning. Pirineo navarro",
-      "nivel": "Naranja",
-      "text": "Pirineo navarro: Moderate avalanches warning. Pirineo navarro (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Vertiente cantábrica de Navarra",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Vertiente cantábrica de Navarra",
-      "nivel": "Naranja",
-      "text": "Vertiente cantábrica de Navarra: Aviso de vientos de nivel amarillo. Vertiente cantábrica de Navarra (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Vertiente cantábrica de Navarra",
-      "fenomeno": "Moderate wind warning. Vertiente cantábrica de Navarra",
-      "nivel": "Naranja",
-      "text": "Vertiente cantábrica de Navarra: Moderate wind warning. Vertiente cantábrica de Navarra (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Prelitoral sur de Tarragona",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Prelitoral sur de Tarragona",
-      "nivel": "Naranja",
-      "text": "Prelitoral sur de Tarragona: Aviso de vientos de nivel amarillo. Prelitoral sur de Tarragona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Prelitoral sur de Tarragona",
-      "fenomeno": "Moderate wind warning. Prelitoral sur de Tarragona",
-      "nivel": "Naranja",
-      "text": "Prelitoral sur de Tarragona: Moderate wind warning. Prelitoral sur de Tarragona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Interior norte de Castellón",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Interior norte de Castellón",
-      "nivel": "Naranja",
-      "text": "Interior norte de Castellón: Aviso de vientos de nivel amarillo. Interior norte de Castellón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior norte de Castellón",
-      "fenomeno": "Moderate wind warning. Interior norte de Castellón",
-      "nivel": "Naranja",
-      "text": "Interior norte de Castellón: Moderate wind warning. Interior norte de Castellón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Menorca",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Menorca",
-      "nivel": "Naranja",
-      "text": "Costa - Menorca: Aviso de costeros de nivel amarillo. Costa - Menorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Menorca",
-      "fenomeno": "Moderate coastalevent warning. Costa - Menorca",
-      "nivel": "Naranja",
-      "text": "Costa - Menorca: Moderate coastalevent warning. Costa - Menorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Ampurdán",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Ampurdán",
-      "nivel": "Naranja",
-      "text": "Costa - Ampurdán: Aviso de costeros de nivel amarillo. Costa - Ampurdán (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Ampurdán",
-      "fenomeno": "Moderate coastalevent warning. Costa - Ampurdán",
-      "nivel": "Naranja",
-      "text": "Costa - Ampurdán: Moderate coastalevent warning. Costa - Ampurdán (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
