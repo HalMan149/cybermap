@@ -1,25 +1,9 @@
-// Auto-generado por GitHub Actions - 2026-01-10T15:49:20.100Z
+// Auto-generado por GitHub Actions - 2026-01-10T16:15:40.341Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-01-10T15:49:20.100Z",
+  "generated_at": "2026-01-10T16:15:40.341Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
-    {
-      "icon": "❄️",
-      "provincia": "Pirineo de Lleida",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Pirineo de Lleida",
-      "nivel": "Naranja",
-      "text": "Pirineo de Lleida: Aviso de nevadas de nivel amarillo. Pirineo de Lleida (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Pirineo de Lleida",
-      "fenomeno": "Moderate snow warning. Pirineo de Lleida",
-      "nivel": "Naranja",
-      "text": "Pirineo de Lleida: Moderate snow warning. Pirineo de Lleida (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
     {
       "icon": "🌧️",
       "provincia": "Oeste de A Coruña",
@@ -162,6 +146,22 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate coastalevent warning. Costa - Suroeste de A Coruña",
       "nivel": "Naranja",
       "text": "Costa - Suroeste de A Coruña: Moderate coastalevent warning. Costa - Suroeste de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Rias Baixas",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Rias Baixas",
+      "nivel": "Naranja",
+      "text": "Costa - Rias Baixas: Aviso de costeros de nivel amarillo. Costa - Rias Baixas (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Rias Baixas",
+      "fenomeno": "Moderate coastalevent warning. Costa - Rias Baixas",
+      "nivel": "Naranja",
+      "text": "Costa - Rias Baixas: Moderate coastalevent warning. Costa - Rias Baixas (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
