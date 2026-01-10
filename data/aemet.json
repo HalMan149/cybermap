@@ -1,6 +1,167 @@
 {
-  "generated_at": "2026-01-10T09:13:52.412Z",
+  "generated_at": "2026-01-10T09:33:09.623Z",
   "source": "AEMET OpenData API",
-  "total_avisos": 0,
-  "avisos": []
+  "total_avisos": 20,
+  "avisos": [
+    {
+      "icon": "❄️",
+      "provincia": "Pirineo oscense",
+      "fenomeno": "Aviso de nevadas de nivel naranja. Pirineo oscense",
+      "nivel": "Rojo",
+      "text": "Pirineo oscense: Aviso de nevadas de nivel naranja. Pirineo oscense (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Pirineo oscense",
+      "fenomeno": "Severe snow warning. Pirineo oscense",
+      "nivel": "Rojo",
+      "text": "Pirineo oscense: Severe snow warning. Pirineo oscense (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Sierra Tramontana",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Sierra Tramontana",
+      "nivel": "Naranja",
+      "text": "Sierra Tramontana: Aviso de vientos de nivel amarillo. Sierra Tramontana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sierra Tramontana",
+      "fenomeno": "Moderate wind warning. Sierra Tramontana",
+      "nivel": "Naranja",
+      "text": "Sierra Tramontana: Moderate wind warning. Sierra Tramontana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Sierra Tramontana",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Sierra Tramontana",
+      "nivel": "Naranja",
+      "text": "Costa - Sierra Tramontana: Aviso de costeros de nivel amarillo. Costa - Sierra Tramontana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Sierra Tramontana",
+      "fenomeno": "Moderate coastalevent warning. Costa - Sierra Tramontana",
+      "nivel": "Naranja",
+      "text": "Costa - Sierra Tramontana: Moderate coastalevent warning. Costa - Sierra Tramontana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Norte y nordeste de Mallorca",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Norte y nordeste de Mallorca",
+      "nivel": "Naranja",
+      "text": "Costa - Norte y nordeste de Mallorca: Aviso de costeros de nivel amarillo. Costa - Norte y nordeste de Mallorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Norte y nordeste de Mallorca",
+      "fenomeno": "Moderate coastalevent warning. Costa - Norte y nordeste de Mallorca",
+      "nivel": "Naranja",
+      "text": "Costa - Norte y nordeste de Mallorca: Moderate coastalevent warning. Costa - Norte y nordeste de Mallorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Menorca",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Menorca",
+      "nivel": "Naranja",
+      "text": "Costa - Menorca: Aviso de costeros de nivel amarillo. Costa - Menorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Menorca",
+      "fenomeno": "Moderate coastalevent warning. Costa - Menorca",
+      "nivel": "Naranja",
+      "text": "Costa - Menorca: Moderate coastalevent warning. Costa - Menorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Oeste de A Coruña",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Oeste de A Coruña",
+      "nivel": "Naranja",
+      "text": "Oeste de A Coruña: Aviso de lluvias de nivel amarillo. Oeste de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Oeste de A Coruña",
+      "fenomeno": "Moderate rain warning. Oeste de A Coruña",
+      "nivel": "Naranja",
+      "text": "Oeste de A Coruña: Moderate rain warning. Oeste de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Suroeste de A Coruña",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Suroeste de A Coruña",
+      "nivel": "Naranja",
+      "text": "Suroeste de A Coruña: Aviso de lluvias de nivel amarillo. Suroeste de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Suroeste de A Coruña",
+      "fenomeno": "Moderate rain warning. Suroeste de A Coruña",
+      "nivel": "Naranja",
+      "text": "Suroeste de A Coruña: Moderate rain warning. Suroeste de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Noroeste de A Coruña",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Noroeste de A Coruña",
+      "nivel": "Naranja",
+      "text": "Noroeste de A Coruña: Aviso de vientos de nivel amarillo. Noroeste de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Noroeste de A Coruña",
+      "fenomeno": "Moderate wind warning. Noroeste de A Coruña",
+      "nivel": "Naranja",
+      "text": "Noroeste de A Coruña: Moderate wind warning. Noroeste de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Oeste de A Coruña",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Oeste de A Coruña",
+      "nivel": "Naranja",
+      "text": "Oeste de A Coruña: Aviso de vientos de nivel amarillo. Oeste de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Oeste de A Coruña",
+      "fenomeno": "Moderate wind warning. Oeste de A Coruña",
+      "nivel": "Naranja",
+      "text": "Oeste de A Coruña: Moderate wind warning. Oeste de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Suroeste de A Coruña",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Suroeste de A Coruña",
+      "nivel": "Naranja",
+      "text": "Suroeste de A Coruña: Aviso de vientos de nivel amarillo. Suroeste de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Suroeste de A Coruña",
+      "fenomeno": "Moderate wind warning. Suroeste de A Coruña",
+      "nivel": "Naranja",
+      "text": "Suroeste de A Coruña: Moderate wind warning. Suroeste de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    }
+  ]
 }
