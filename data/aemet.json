@@ -1,6 +1,167 @@
 {
-  "generated_at": "2026-01-13T05:46:39.255Z",
+  "generated_at": "2026-01-13T06:23:14.832Z",
   "source": "AEMET OpenData API",
-  "total_avisos": 0,
-  "avisos": []
+  "total_avisos": 20,
+  "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Interior de A Coruña",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Interior de A Coruña",
+      "nivel": "Naranja",
+      "text": "Interior de A Coruña: Aviso de lluvias de nivel amarillo. Interior de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior de A Coruña",
+      "fenomeno": "Moderate rain warning. Interior de A Coruña",
+      "nivel": "Naranja",
+      "text": "Interior de A Coruña: Moderate rain warning. Interior de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Litoral cántabro",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Litoral cántabro",
+      "nivel": "Naranja",
+      "text": "Litoral cántabro: Aviso de vientos de nivel amarillo. Litoral cántabro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral cántabro",
+      "fenomeno": "Moderate wind warning. Litoral cántabro",
+      "nivel": "Naranja",
+      "text": "Litoral cántabro: Moderate wind warning. Litoral cántabro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Liébana",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Liébana",
+      "nivel": "Naranja",
+      "text": "Liébana: Aviso de vientos de nivel amarillo. Liébana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Liébana",
+      "fenomeno": "Moderate wind warning. Liébana",
+      "nivel": "Naranja",
+      "text": "Liébana: Moderate wind warning. Liébana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Centro y valle de Villaverde",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Centro y valle de Villaverde",
+      "nivel": "Naranja",
+      "text": "Centro y valle de Villaverde: Aviso de vientos de nivel amarillo. Centro y valle de Villaverde (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Centro y valle de Villaverde",
+      "fenomeno": "Moderate wind warning. Centro y valle de Villaverde",
+      "nivel": "Naranja",
+      "text": "Centro y valle de Villaverde: Moderate wind warning. Centro y valle de Villaverde (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Cantabria del Ebro",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Cantabria del Ebro",
+      "nivel": "Naranja",
+      "text": "Cantabria del Ebro: Aviso de vientos de nivel amarillo. Cantabria del Ebro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cantabria del Ebro",
+      "fenomeno": "Moderate wind warning. Cantabria del Ebro",
+      "nivel": "Naranja",
+      "text": "Cantabria del Ebro: Moderate wind warning. Cantabria del Ebro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Vertiente cantábrica de Navarra",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Vertiente cantábrica de Navarra",
+      "nivel": "Naranja",
+      "text": "Vertiente cantábrica de Navarra: Aviso de vientos de nivel amarillo. Vertiente cantábrica de Navarra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Vertiente cantábrica de Navarra",
+      "fenomeno": "Moderate wind warning. Vertiente cantábrica de Navarra",
+      "nivel": "Naranja",
+      "text": "Vertiente cantábrica de Navarra: Moderate wind warning. Vertiente cantábrica de Navarra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Aracena",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Aracena",
+      "nivel": "Naranja",
+      "text": "Aracena: Aviso de lluvias de nivel amarillo. Aracena (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Aracena",
+      "fenomeno": "Moderate rain warning. Aracena",
+      "nivel": "Naranja",
+      "text": "Aracena: Moderate rain warning. Aracena (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Andévalo y Condado",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Andévalo y Condado",
+      "nivel": "Naranja",
+      "text": "Andévalo y Condado: Aviso de lluvias de nivel amarillo. Andévalo y Condado (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Andévalo y Condado",
+      "fenomeno": "Moderate rain warning. Andévalo y Condado",
+      "nivel": "Naranja",
+      "text": "Andévalo y Condado: Moderate rain warning. Andévalo y Condado (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Litoral de Huelva",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral de Huelva",
+      "nivel": "Naranja",
+      "text": "Litoral de Huelva: Aviso de lluvias de nivel amarillo. Litoral de Huelva (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral de Huelva",
+      "fenomeno": "Moderate rain warning. Litoral de Huelva",
+      "nivel": "Naranja",
+      "text": "Litoral de Huelva: Moderate rain warning. Litoral de Huelva (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Campiña gaditana",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Campiña gaditana",
+      "nivel": "Naranja",
+      "text": "Campiña gaditana: Aviso de lluvias de nivel amarillo. Campiña gaditana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Campiña gaditana",
+      "fenomeno": "Moderate rain warning. Campiña gaditana",
+      "nivel": "Naranja",
+      "text": "Campiña gaditana: Moderate rain warning. Campiña gaditana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    }
+  ]
 }
