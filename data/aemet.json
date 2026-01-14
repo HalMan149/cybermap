@@ -1,88 +1,8 @@
 {
-  "generated_at": "2026-01-14T17:49:49.237Z",
+  "generated_at": "2026-01-14T18:23:14.096Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Noroeste de A Coruña",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Noroeste de A Coruña",
-      "nivel": "Naranja",
-      "text": "Costa - Noroeste de A Coruña: Aviso de costeros de nivel amarillo. Costa - Noroeste de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Noroeste de A Coruña",
-      "fenomeno": "Moderate coastalevent warning. Costa - Noroeste de A Coruña",
-      "nivel": "Naranja",
-      "text": "Costa - Noroeste de A Coruña: Moderate coastalevent warning. Costa - Noroeste de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Oeste de A Coruña",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Oeste de A Coruña",
-      "nivel": "Naranja",
-      "text": "Costa - Oeste de A Coruña: Aviso de costeros de nivel amarillo. Costa - Oeste de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Oeste de A Coruña",
-      "fenomeno": "Moderate coastalevent warning. Costa - Oeste de A Coruña",
-      "nivel": "Naranja",
-      "text": "Costa - Oeste de A Coruña: Moderate coastalevent warning. Costa - Oeste de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Sierra de Madrid",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Sierra de Madrid",
-      "nivel": "Naranja",
-      "text": "Sierra de Madrid: Aviso de nevadas de nivel amarillo. Sierra de Madrid (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sierra de Madrid",
-      "fenomeno": "Moderate snow warning. Sierra de Madrid",
-      "nivel": "Naranja",
-      "text": "Sierra de Madrid: Moderate snow warning. Sierra de Madrid (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Interior de Mallorca",
-      "fenomeno": "Aviso de nieblas de nivel amarillo. Interior de Mallorca",
-      "nivel": "Naranja",
-      "text": "Interior de Mallorca: Aviso de nieblas de nivel amarillo. Interior de Mallorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior de Mallorca",
-      "fenomeno": "Moderate fog warning. Interior de Mallorca",
-      "nivel": "Naranja",
-      "text": "Interior de Mallorca: Moderate fog warning. Interior de Mallorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Levante mallorquín",
-      "fenomeno": "Aviso de nieblas de nivel amarillo. Levante mallorquín",
-      "nivel": "Naranja",
-      "text": "Levante mallorquín: Aviso de nieblas de nivel amarillo. Levante mallorquín (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Levante mallorquín",
-      "fenomeno": "Moderate fog warning. Levante mallorquín",
-      "nivel": "Naranja",
-      "text": "Levante mallorquín: Moderate fog warning. Levante mallorquín (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
     {
       "icon": "🌊",
       "provincia": "Costa - Noroeste de A Coruña",
@@ -133,34 +53,114 @@
     },
     {
       "icon": "🌊",
-      "provincia": "Costa - Rias Baixas",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Rias Baixas",
-      "nivel": "Rojo",
-      "text": "Costa - Rias Baixas: Aviso de costeros de nivel naranja. Costa - Rias Baixas (Rojo) (AEMET)",
+      "provincia": "Costa - Litoral occidental asturiano",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral occidental asturiano",
+      "nivel": "Naranja",
+      "text": "Costa - Litoral occidental asturiano: Aviso de costeros de nivel amarillo. Costa - Litoral occidental asturiano (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral occidental asturiano",
+      "fenomeno": "Moderate coastalevent warning. Costa - Litoral occidental asturiano",
+      "nivel": "Naranja",
+      "text": "Costa - Litoral occidental asturiano: Moderate coastalevent warning. Costa - Litoral occidental asturiano (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral oriental asturiano",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral oriental asturiano",
+      "nivel": "Naranja",
+      "text": "Costa - Litoral oriental asturiano: Aviso de costeros de nivel amarillo. Costa - Litoral oriental asturiano (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral oriental asturiano",
+      "fenomeno": "Moderate coastalevent warning. Costa - Litoral oriental asturiano",
+      "nivel": "Naranja",
+      "text": "Costa - Litoral oriental asturiano: Moderate coastalevent warning. Costa - Litoral oriental asturiano (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral cántabro",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral cántabro",
+      "nivel": "Naranja",
+      "text": "Costa - Litoral cántabro: Aviso de costeros de nivel amarillo. Costa - Litoral cántabro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral cántabro",
+      "fenomeno": "Moderate coastalevent warning. Costa - Litoral cántabro",
+      "nivel": "Naranja",
+      "text": "Costa - Litoral cántabro: Moderate coastalevent warning. Costa - Litoral cántabro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - A Mariña",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - A Mariña",
+      "nivel": "Naranja",
+      "text": "Costa - A Mariña: Aviso de costeros de nivel amarillo. Costa - A Mariña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - A Mariña",
+      "fenomeno": "Moderate coastalevent warning. Costa - A Mariña",
+      "nivel": "Naranja",
+      "text": "Costa - A Mariña: Moderate coastalevent warning. Costa - A Mariña (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
       "provincia": "Costa - Rias Baixas",
-      "fenomeno": "Severe coastalevent warning. Costa - Rias Baixas",
-      "nivel": "Rojo",
-      "text": "Costa - Rias Baixas: Severe coastalevent warning. Costa - Rias Baixas (Rojo) (AEMET)",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Rias Baixas",
+      "nivel": "Naranja",
+      "text": "Costa - Rias Baixas: Aviso de costeros de nivel amarillo. Costa - Rias Baixas (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Oeste de A Coruña",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Oeste de A Coruña",
+      "icon": "🌊",
+      "provincia": "Costa - Rias Baixas",
+      "fenomeno": "Moderate coastalevent warning. Costa - Rias Baixas",
       "nivel": "Naranja",
-      "text": "Oeste de A Coruña: Aviso de lluvias de nivel amarillo. Oeste de A Coruña (Naranja) (AEMET)",
+      "text": "Costa - Rias Baixas: Moderate coastalevent warning. Costa - Rias Baixas (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⚠️",
-      "provincia": "Oeste de A Coruña",
-      "fenomeno": "Moderate rain warning. Oeste de A Coruña",
+      "icon": "🌊",
+      "provincia": "Costa - Miño de Pontevedra",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Miño de Pontevedra",
       "nivel": "Naranja",
-      "text": "Oeste de A Coruña: Moderate rain warning. Oeste de A Coruña (Naranja) (AEMET)",
+      "text": "Costa - Miño de Pontevedra: Aviso de costeros de nivel amarillo. Costa - Miño de Pontevedra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Miño de Pontevedra",
+      "fenomeno": "Moderate coastalevent warning. Costa - Miño de Pontevedra",
+      "nivel": "Naranja",
+      "text": "Costa - Miño de Pontevedra: Moderate coastalevent warning. Costa - Miño de Pontevedra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Bizkaia litoral",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Bizkaia litoral",
+      "nivel": "Naranja",
+      "text": "Costa - Bizkaia litoral: Aviso de costeros de nivel amarillo. Costa - Bizkaia litoral (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Bizkaia litoral",
+      "fenomeno": "Moderate coastalevent warning. Costa - Bizkaia litoral",
+      "nivel": "Naranja",
+      "text": "Costa - Bizkaia litoral: Moderate coastalevent warning. Costa - Bizkaia litoral (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
