@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2026-01-16T17:18:41.489Z
+// Auto-generado por GitHub Actions - 2026-01-16T17:45:44.949Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-01-16T17:18:41.489Z",
+  "generated_at": "2026-01-16T17:45:44.949Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Lanzarote",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Lanzarote",
+      "nivel": "Naranja",
+      "text": "Costa - Lanzarote: Aviso de costeros de nivel amarillo. Costa - Lanzarote (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Lanzarote",
+      "fenomeno": "Moderate coastalevent warning. Costa - Lanzarote",
+      "nivel": "Naranja",
+      "text": "Costa - Lanzarote: Moderate coastalevent warning. Costa - Lanzarote (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Menorca",
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate wind warning. Cumbres de La Palma",
       "nivel": "Naranja",
       "text": "Cumbres de La Palma: Moderate wind warning. Cumbres de La Palma (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Este de La Palma",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Este de La Palma",
-      "nivel": "Naranja",
-      "text": "Este de La Palma: Aviso de vientos de nivel amarillo. Este de La Palma (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Este de La Palma",
-      "fenomeno": "Moderate wind warning. Este de La Palma",
-      "nivel": "Naranja",
-      "text": "Este de La Palma: Moderate wind warning. Este de La Palma (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
