@@ -1,8 +1,40 @@
 {
-  "generated_at": "2026-01-16T22:52:14.187Z",
+  "generated_at": "2026-01-16T23:13:59.286Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "❄️",
+      "provincia": "Sistema Central de Segovia",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Sistema Central de Segovia",
+      "nivel": "Naranja",
+      "text": "Sistema Central de Segovia: Aviso de nevadas de nivel amarillo. Sistema Central de Segovia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sistema Central de Segovia",
+      "fenomeno": "Moderate snow warning. Sistema Central de Segovia",
+      "nivel": "Naranja",
+      "text": "Sistema Central de Segovia: Moderate snow warning. Sistema Central de Segovia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Meseta de Segovia",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Meseta de Segovia",
+      "nivel": "Naranja",
+      "text": "Meseta de Segovia: Aviso de nevadas de nivel amarillo. Meseta de Segovia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Meseta de Segovia",
+      "fenomeno": "Moderate snow warning. Meseta de Segovia",
+      "nivel": "Naranja",
+      "text": "Meseta de Segovia: Moderate snow warning. Meseta de Segovia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Prepirineo de Barcelona",
@@ -129,38 +161,6 @@
       "fenomeno": "Moderate rain warning. Prepirineo de Barcelona",
       "nivel": "Naranja",
       "text": "Prepirineo de Barcelona: Moderate rain warning. Prepirineo de Barcelona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Depresión central de Barcelona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Depresión central de Barcelona",
-      "nivel": "Naranja",
-      "text": "Depresión central de Barcelona: Aviso de lluvias de nivel amarillo. Depresión central de Barcelona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Depresión central de Barcelona",
-      "fenomeno": "Moderate rain warning. Depresión central de Barcelona",
-      "nivel": "Naranja",
-      "text": "Depresión central de Barcelona: Moderate rain warning. Depresión central de Barcelona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Prelitoral de Barcelona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Prelitoral de Barcelona",
-      "nivel": "Naranja",
-      "text": "Prelitoral de Barcelona: Aviso de lluvias de nivel amarillo. Prelitoral de Barcelona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Prelitoral de Barcelona",
-      "fenomeno": "Moderate rain warning. Prelitoral de Barcelona",
-      "nivel": "Naranja",
-      "text": "Prelitoral de Barcelona: Moderate rain warning. Prelitoral de Barcelona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
