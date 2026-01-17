@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-01-17T13:05:02.381Z
+// Auto-generado por GitHub Actions - 2026-01-17T13:38:39.467Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-01-17T13:05:02.381Z",
+  "generated_at": "2026-01-17T13:38:39.467Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "❄️",
-      "provincia": "Pirineo navarro",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Pirineo navarro",
-      "nivel": "Naranja",
-      "text": "Pirineo navarro: Aviso de nevadas de nivel amarillo. Pirineo navarro (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Pirineo navarro",
-      "fenomeno": "Moderate snow warning. Pirineo navarro",
-      "nivel": "Naranja",
-      "text": "Pirineo navarro: Moderate snow warning. Pirineo navarro (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
       "icon": "🌧️",
-      "provincia": "Menorca",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Menorca",
-      "nivel": "Naranja",
-      "text": "Menorca: Aviso de lluvias de nivel amarillo. Menorca (Naranja) (AEMET)",
+      "provincia": "Prelitoral de Girona",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Prelitoral de Girona",
+      "nivel": "Rojo",
+      "text": "Prelitoral de Girona: Aviso de lluvias de nivel naranja. Prelitoral de Girona (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Menorca",
-      "fenomeno": "Moderate rain warning. Menorca",
-      "nivel": "Naranja",
-      "text": "Menorca: Moderate rain warning. Menorca (Naranja) (AEMET)",
+      "provincia": "Prelitoral de Girona",
+      "fenomeno": "Severe rain warning. Prelitoral de Girona",
+      "nivel": "Rojo",
+      "text": "Prelitoral de Girona: Severe rain warning. Prelitoral de Girona (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Costa - Lanzarote",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Lanzarote",
-      "nivel": "Naranja",
-      "text": "Costa - Lanzarote: Aviso de costeros de nivel amarillo. Costa - Lanzarote (Naranja) (AEMET)",
+      "provincia": "Costa - Ampurdán",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Ampurdán",
+      "nivel": "Rojo",
+      "text": "Costa - Ampurdán: Aviso de costeros de nivel naranja. Costa - Ampurdán (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Costa - Lanzarote",
-      "fenomeno": "Moderate coastalevent warning. Costa - Lanzarote",
-      "nivel": "Naranja",
-      "text": "Costa - Lanzarote: Moderate coastalevent warning. Costa - Lanzarote (Naranja) (AEMET)",
+      "provincia": "Costa - Ampurdán",
+      "fenomeno": "Severe coastalevent warning. Costa - Ampurdán",
+      "nivel": "Rojo",
+      "text": "Costa - Ampurdán: Severe coastalevent warning. Costa - Ampurdán (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "💨",
-      "provincia": "Cumbres de La Palma",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Cumbres de La Palma",
-      "nivel": "Naranja",
-      "text": "Cumbres de La Palma: Aviso de vientos de nivel amarillo. Cumbres de La Palma (Naranja) (AEMET)",
+      "icon": "🌊",
+      "provincia": "Costa - Litoral sur de Girona",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Litoral sur de Girona",
+      "nivel": "Rojo",
+      "text": "Costa - Litoral sur de Girona: Aviso de costeros de nivel naranja. Costa - Litoral sur de Girona (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⚠️",
-      "provincia": "Cumbres de La Palma",
-      "fenomeno": "Moderate wind warning. Cumbres de La Palma",
-      "nivel": "Naranja",
-      "text": "Cumbres de La Palma: Moderate wind warning. Cumbres de La Palma (Naranja) (AEMET)",
+      "icon": "🌊",
+      "provincia": "Costa - Litoral sur de Girona",
+      "fenomeno": "Severe coastalevent warning. Costa - Litoral sur de Girona",
+      "nivel": "Rojo",
+      "text": "Costa - Litoral sur de Girona: Severe coastalevent warning. Costa - Litoral sur de Girona (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "💨",
-      "provincia": "Este de La Palma",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Este de La Palma",
-      "nivel": "Naranja",
-      "text": "Este de La Palma: Aviso de vientos de nivel amarillo. Este de La Palma (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Este de La Palma",
-      "fenomeno": "Moderate wind warning. Este de La Palma",
-      "nivel": "Naranja",
-      "text": "Este de La Palma: Moderate wind warning. Este de La Palma (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Oeste de La Palma",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Oeste de La Palma",
-      "nivel": "Naranja",
-      "text": "Oeste de La Palma: Aviso de vientos de nivel amarillo. Oeste de La Palma (Naranja) (AEMET)",
+      "icon": "❄️",
+      "provincia": "Gúdar y Maestrazgo",
+      "fenomeno": "Aviso de nevadas de nivel naranja. Gúdar y Maestrazgo",
+      "nivel": "Rojo",
+      "text": "Gúdar y Maestrazgo: Aviso de nevadas de nivel naranja. Gúdar y Maestrazgo (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Oeste de La Palma",
-      "fenomeno": "Moderate wind warning. Oeste de La Palma",
-      "nivel": "Naranja",
-      "text": "Oeste de La Palma: Moderate wind warning. Oeste de La Palma (Naranja) (AEMET)",
+      "provincia": "Gúdar y Maestrazgo",
+      "fenomeno": "Severe snow warning. Gúdar y Maestrazgo",
+      "nivel": "Rojo",
+      "text": "Gúdar y Maestrazgo: Severe snow warning. Gúdar y Maestrazgo (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "💨",
-      "provincia": "El Hierro",
-      "fenomeno": "Aviso de vientos de nivel amarillo. El Hierro",
-      "nivel": "Naranja",
-      "text": "El Hierro: Aviso de vientos de nivel amarillo. El Hierro (Naranja) (AEMET)",
+      "icon": "🌊",
+      "provincia": "Costa - Litoral de Barcelona",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Litoral de Barcelona",
+      "nivel": "Rojo",
+      "text": "Costa - Litoral de Barcelona: Aviso de costeros de nivel naranja. Costa - Litoral de Barcelona (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⚠️",
-      "provincia": "El Hierro",
-      "fenomeno": "Moderate wind warning. El Hierro",
-      "nivel": "Naranja",
-      "text": "El Hierro: Moderate wind warning. El Hierro (Naranja) (AEMET)",
+      "icon": "🌊",
+      "provincia": "Costa - Litoral de Barcelona",
+      "fenomeno": "Severe coastalevent warning. Costa - Litoral de Barcelona",
+      "nivel": "Rojo",
+      "text": "Costa - Litoral de Barcelona: Severe coastalevent warning. Costa - Litoral de Barcelona (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "💨",
-      "provincia": "Norte de Tenerife",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Norte de Tenerife",
+      "icon": "❄️",
+      "provincia": "Ibérica de Burgos",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Ibérica de Burgos",
       "nivel": "Naranja",
-      "text": "Norte de Tenerife: Aviso de vientos de nivel amarillo. Norte de Tenerife (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Norte de Tenerife",
-      "fenomeno": "Moderate wind warning. Norte de Tenerife",
-      "nivel": "Naranja",
-      "text": "Norte de Tenerife: Moderate wind warning. Norte de Tenerife (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Área metropolitana de Tenerife",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Área metropolitana de Tenerife",
-      "nivel": "Naranja",
-      "text": "Área metropolitana de Tenerife: Aviso de vientos de nivel amarillo. Área metropolitana de Tenerife (Naranja) (AEMET)",
+      "text": "Ibérica de Burgos: Aviso de nevadas de nivel amarillo. Ibérica de Burgos (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Área metropolitana de Tenerife",
-      "fenomeno": "Moderate wind warning. Área metropolitana de Tenerife",
+      "provincia": "Ibérica de Burgos",
+      "fenomeno": "Moderate snow warning. Ibérica de Burgos",
       "nivel": "Naranja",
-      "text": "Área metropolitana de Tenerife: Moderate wind warning. Área metropolitana de Tenerife (Naranja) (AEMET)",
+      "text": "Ibérica de Burgos: Moderate snow warning. Ibérica de Burgos (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "💨",
-      "provincia": "Este, sur y oeste de Tenerife",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Este, sur y oeste de Tenerife",
+      "icon": "❄️",
+      "provincia": "Sistema Central de Segovia",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Sistema Central de Segovia",
       "nivel": "Naranja",
-      "text": "Este, sur y oeste de Tenerife: Aviso de vientos de nivel amarillo. Este, sur y oeste de Tenerife (Naranja) (AEMET)",
+      "text": "Sistema Central de Segovia: Aviso de nevadas de nivel amarillo. Sistema Central de Segovia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Este, sur y oeste de Tenerife",
-      "fenomeno": "Moderate wind warning. Este, sur y oeste de Tenerife",
+      "provincia": "Sistema Central de Segovia",
+      "fenomeno": "Moderate snow warning. Sistema Central de Segovia",
       "nivel": "Naranja",
-      "text": "Este, sur y oeste de Tenerife: Moderate wind warning. Este, sur y oeste de Tenerife (Naranja) (AEMET)",
+      "text": "Sistema Central de Segovia: Moderate snow warning. Sistema Central de Segovia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Ibérica de Soria",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Ibérica de Soria",
+      "nivel": "Naranja",
+      "text": "Ibérica de Soria: Aviso de nevadas de nivel amarillo. Ibérica de Soria (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ibérica de Soria",
+      "fenomeno": "Moderate snow warning. Ibérica de Soria",
+      "nivel": "Naranja",
+      "text": "Ibérica de Soria: Moderate snow warning. Ibérica de Soria (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Sistema Central de Soria",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Sistema Central de Soria",
+      "nivel": "Naranja",
+      "text": "Sistema Central de Soria: Aviso de nevadas de nivel amarillo. Sistema Central de Soria (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sistema Central de Soria",
+      "fenomeno": "Moderate snow warning. Sistema Central de Soria",
+      "nivel": "Naranja",
+      "text": "Sistema Central de Soria: Moderate snow warning. Sistema Central de Soria (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Sierra de Madrid",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Sierra de Madrid",
+      "nivel": "Naranja",
+      "text": "Sierra de Madrid: Aviso de nevadas de nivel amarillo. Sierra de Madrid (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sierra de Madrid",
+      "fenomeno": "Moderate snow warning. Sierra de Madrid",
+      "nivel": "Naranja",
+      "text": "Sierra de Madrid: Moderate snow warning. Sierra de Madrid (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
