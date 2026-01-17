@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2026-01-17T14:33:21.535Z
+// Auto-generado por GitHub Actions - 2026-01-17T14:50:03.342Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-01-17T14:33:21.535Z",
+  "generated_at": "2026-01-17T14:50:03.342Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "❄️",
+      "provincia": "Sierra de Madrid",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Sierra de Madrid",
+      "nivel": "Naranja",
+      "text": "Sierra de Madrid: Aviso de nevadas de nivel amarillo. Sierra de Madrid (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sierra de Madrid",
+      "fenomeno": "Moderate snow warning. Sierra de Madrid",
+      "nivel": "Naranja",
+      "text": "Sierra de Madrid: Moderate snow warning. Sierra de Madrid (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Prelitoral de Girona",
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate snow warning. Sistema Central de Soria",
       "nivel": "Naranja",
       "text": "Sistema Central de Soria: Moderate snow warning. Sistema Central de Soria (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Sierra de Madrid",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Sierra de Madrid",
-      "nivel": "Naranja",
-      "text": "Sierra de Madrid: Aviso de nevadas de nivel amarillo. Sierra de Madrid (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sierra de Madrid",
-      "fenomeno": "Moderate snow warning. Sierra de Madrid",
-      "nivel": "Naranja",
-      "text": "Sierra de Madrid: Moderate snow warning. Sierra de Madrid (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
