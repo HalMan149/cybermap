@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2026-01-17T09:48:47.846Z
+// Auto-generado por GitHub Actions - 2026-01-17T10:13:49.206Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-01-17T09:48:47.846Z",
+  "generated_at": "2026-01-17T10:13:49.206Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "❄️",
+      "provincia": "Sierra de Madrid",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Sierra de Madrid",
+      "nivel": "Naranja",
+      "text": "Sierra de Madrid: Aviso de nevadas de nivel amarillo. Sierra de Madrid (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sierra de Madrid",
+      "fenomeno": "Moderate snow warning. Sierra de Madrid",
+      "nivel": "Naranja",
+      "text": "Sierra de Madrid: Moderate snow warning. Sierra de Madrid (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "❄️",
       "provincia": "Sierra de Madrid",
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate snow warning. Meseta de Burgos",
       "nivel": "Naranja",
       "text": "Meseta de Burgos: Moderate snow warning. Meseta de Burgos (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Meseta de Palencia",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Meseta de Palencia",
-      "nivel": "Naranja",
-      "text": "Meseta de Palencia: Aviso de nevadas de nivel amarillo. Meseta de Palencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Meseta de Palencia",
-      "fenomeno": "Moderate snow warning. Meseta de Palencia",
-      "nivel": "Naranja",
-      "text": "Meseta de Palencia: Moderate snow warning. Meseta de Palencia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
