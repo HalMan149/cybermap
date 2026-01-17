@@ -1,8 +1,24 @@
 {
-  "generated_at": "2026-01-17T08:17:39.470Z",
+  "generated_at": "2026-01-17T08:45:48.661Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "❄️",
+      "provincia": "Sierra de Madrid",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Sierra de Madrid",
+      "nivel": "Naranja",
+      "text": "Sierra de Madrid: Aviso de nevadas de nivel amarillo. Sierra de Madrid (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sierra de Madrid",
+      "fenomeno": "Moderate snow warning. Sierra de Madrid",
+      "nivel": "Naranja",
+      "text": "Sierra de Madrid: Moderate snow warning. Sierra de Madrid (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "❄️",
       "provincia": "Cordillera y Picos de Europa",
@@ -145,22 +161,6 @@
       "fenomeno": "Moderate snow warning. Meseta de Palencia",
       "nivel": "Naranja",
       "text": "Meseta de Palencia: Moderate snow warning. Meseta de Palencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Meseta de Valladolid",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Meseta de Valladolid",
-      "nivel": "Naranja",
-      "text": "Meseta de Valladolid: Aviso de nevadas de nivel amarillo. Meseta de Valladolid (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Meseta de Valladolid",
-      "fenomeno": "Moderate snow warning. Meseta de Valladolid",
-      "nivel": "Naranja",
-      "text": "Meseta de Valladolid: Moderate snow warning. Meseta de Valladolid (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
