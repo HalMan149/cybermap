@@ -1,9 +1,137 @@
-// Auto-generado por GitHub Actions - 2026-01-20T17:30:32.180Z
+// Auto-generado por GitHub Actions - 2026-01-20T17:58:28.779Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-01-20T17:30:32.180Z",
+  "generated_at": "2026-01-20T17:58:28.779Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Rias Baixas",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Rias Baixas",
+      "nivel": "Naranja",
+      "text": "Rias Baixas: Aviso de lluvias de nivel amarillo. Rias Baixas (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Rias Baixas",
+      "fenomeno": "Moderate rain warning. Rias Baixas",
+      "nivel": "Naranja",
+      "text": "Rias Baixas: Moderate rain warning. Rias Baixas (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Miño de Pontevedra",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Miño de Pontevedra",
+      "nivel": "Naranja",
+      "text": "Miño de Pontevedra: Aviso de lluvias de nivel amarillo. Miño de Pontevedra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Miño de Pontevedra",
+      "fenomeno": "Moderate rain warning. Miño de Pontevedra",
+      "nivel": "Naranja",
+      "text": "Miño de Pontevedra: Moderate rain warning. Miño de Pontevedra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Norte de Burgos",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Norte de Burgos",
+      "nivel": "Naranja",
+      "text": "Norte de Burgos: Aviso de vientos de nivel amarillo. Norte de Burgos (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Norte de Burgos",
+      "fenomeno": "Moderate wind warning. Norte de Burgos",
+      "nivel": "Naranja",
+      "text": "Norte de Burgos: Moderate wind warning. Norte de Burgos (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Meseta de Ávila",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Meseta de Ávila",
+      "nivel": "Naranja",
+      "text": "Meseta de Ávila: Aviso de vientos de nivel amarillo. Meseta de Ávila (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Meseta de Ávila",
+      "fenomeno": "Moderate wind warning. Meseta de Ávila",
+      "nivel": "Naranja",
+      "text": "Meseta de Ávila: Moderate wind warning. Meseta de Ávila (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Meseta de León",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Meseta de León",
+      "nivel": "Naranja",
+      "text": "Meseta de León: Aviso de vientos de nivel amarillo. Meseta de León (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Meseta de León",
+      "fenomeno": "Moderate wind warning. Meseta de León",
+      "nivel": "Naranja",
+      "text": "Meseta de León: Moderate wind warning. Meseta de León (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Meseta de Valladolid",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Meseta de Valladolid",
+      "nivel": "Naranja",
+      "text": "Meseta de Valladolid: Aviso de vientos de nivel amarillo. Meseta de Valladolid (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Meseta de Valladolid",
+      "fenomeno": "Moderate wind warning. Meseta de Valladolid",
+      "nivel": "Naranja",
+      "text": "Meseta de Valladolid: Moderate wind warning. Meseta de Valladolid (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Meseta de Burgos",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Meseta de Burgos",
+      "nivel": "Naranja",
+      "text": "Meseta de Burgos: Aviso de vientos de nivel amarillo. Meseta de Burgos (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Meseta de Burgos",
+      "fenomeno": "Moderate wind warning. Meseta de Burgos",
+      "nivel": "Naranja",
+      "text": "Meseta de Burgos: Moderate wind warning. Meseta de Burgos (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Meseta de Palencia",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Meseta de Palencia",
+      "nivel": "Naranja",
+      "text": "Meseta de Palencia: Aviso de vientos de nivel amarillo. Meseta de Palencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Meseta de Palencia",
+      "fenomeno": "Moderate wind warning. Meseta de Palencia",
+      "nivel": "Naranja",
+      "text": "Meseta de Palencia: Moderate wind warning. Meseta de Palencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "❄️",
       "provincia": "Gúdar y Maestrazgo",
@@ -34,134 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate snow warning. Interior norte de Castellón",
       "nivel": "Naranja",
       "text": "Interior norte de Castellón: Moderate snow warning. Interior norte de Castellón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Pirineo oscense",
-      "fenomeno": "Aviso de aludes de nivel amarillo. Pirineo oscense",
-      "nivel": "Naranja",
-      "text": "Pirineo oscense: Aviso de aludes de nivel amarillo. Pirineo oscense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Pirineo oscense",
-      "fenomeno": "Moderate avalanches warning. Pirineo oscense",
-      "nivel": "Naranja",
-      "text": "Pirineo oscense: Moderate avalanches warning. Pirineo oscense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Prepirineo de Barcelona",
-      "fenomeno": "Aviso de aludes de nivel amarillo. Prepirineo de Barcelona",
-      "nivel": "Naranja",
-      "text": "Prepirineo de Barcelona: Aviso de aludes de nivel amarillo. Prepirineo de Barcelona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Prepirineo de Barcelona",
-      "fenomeno": "Moderate avalanches warning. Prepirineo de Barcelona",
-      "nivel": "Naranja",
-      "text": "Prepirineo de Barcelona: Moderate avalanches warning. Prepirineo de Barcelona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Pirineo de Girona",
-      "fenomeno": "Aviso de aludes de nivel amarillo. Pirineo de Girona",
-      "nivel": "Naranja",
-      "text": "Pirineo de Girona: Aviso de aludes de nivel amarillo. Pirineo de Girona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Pirineo de Girona",
-      "fenomeno": "Moderate avalanches warning. Pirineo de Girona",
-      "nivel": "Naranja",
-      "text": "Pirineo de Girona: Moderate avalanches warning. Pirineo de Girona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Pirineo de Lleida",
-      "fenomeno": "Aviso de aludes de nivel amarillo. Pirineo de Lleida",
-      "nivel": "Naranja",
-      "text": "Pirineo de Lleida: Aviso de aludes de nivel amarillo. Pirineo de Lleida (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Pirineo de Lleida",
-      "fenomeno": "Moderate avalanches warning. Pirineo de Lleida",
-      "nivel": "Naranja",
-      "text": "Pirineo de Lleida: Moderate avalanches warning. Pirineo de Lleida (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Valle de Arán",
-      "fenomeno": "Aviso de aludes de nivel amarillo. Valle de Arán",
-      "nivel": "Naranja",
-      "text": "Valle de Arán: Aviso de aludes de nivel amarillo. Valle de Arán (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Valle de Arán",
-      "fenomeno": "Moderate avalanches warning. Valle de Arán",
-      "nivel": "Naranja",
-      "text": "Valle de Arán: Moderate avalanches warning. Valle de Arán (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Prelitoral de Girona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Prelitoral de Girona",
-      "nivel": "Naranja",
-      "text": "Prelitoral de Girona: Aviso de lluvias de nivel amarillo. Prelitoral de Girona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Prelitoral de Girona",
-      "fenomeno": "Moderate rain warning. Prelitoral de Girona",
-      "nivel": "Naranja",
-      "text": "Prelitoral de Girona: Moderate rain warning. Prelitoral de Girona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Ampurdán",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Ampurdán",
-      "nivel": "Naranja",
-      "text": "Ampurdán: Aviso de lluvias de nivel amarillo. Ampurdán (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ampurdán",
-      "fenomeno": "Moderate rain warning. Ampurdán",
-      "nivel": "Naranja",
-      "text": "Ampurdán: Moderate rain warning. Ampurdán (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Litoral sur de Girona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral sur de Girona",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Girona: Aviso de lluvias de nivel amarillo. Litoral sur de Girona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral sur de Girona",
-      "fenomeno": "Moderate rain warning. Litoral sur de Girona",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Girona: Moderate rain warning. Litoral sur de Girona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
