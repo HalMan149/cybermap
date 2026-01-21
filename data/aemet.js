@@ -1,9 +1,89 @@
-// Auto-generado por GitHub Actions - 2026-01-21T09:25:35.105Z
+// Auto-generado por GitHub Actions - 2026-01-21T09:52:53.821Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-01-21T09:25:35.105Z",
+  "generated_at": "2026-01-21T09:52:53.821Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "💨",
+      "provincia": "Alcaraz y Segura",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Alcaraz y Segura",
+      "nivel": "Naranja",
+      "text": "Alcaraz y Segura: Aviso de vientos de nivel amarillo. Alcaraz y Segura (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Alcaraz y Segura",
+      "fenomeno": "Moderate wind warning. Alcaraz y Segura",
+      "nivel": "Naranja",
+      "text": "Alcaraz y Segura: Moderate wind warning. Alcaraz y Segura (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Hellín y Almansa",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Hellín y Almansa",
+      "nivel": "Naranja",
+      "text": "Hellín y Almansa: Aviso de vientos de nivel amarillo. Hellín y Almansa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Hellín y Almansa",
+      "fenomeno": "Moderate wind warning. Hellín y Almansa",
+      "nivel": "Naranja",
+      "text": "Hellín y Almansa: Moderate wind warning. Hellín y Almansa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Serranía de Cuenca",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Serranía de Cuenca",
+      "nivel": "Naranja",
+      "text": "Serranía de Cuenca: Aviso de nevadas de nivel amarillo. Serranía de Cuenca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Serranía de Cuenca",
+      "fenomeno": "Moderate snow warning. Serranía de Cuenca",
+      "nivel": "Naranja",
+      "text": "Serranía de Cuenca: Moderate snow warning. Serranía de Cuenca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Sierra de Madrid",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Sierra de Madrid",
+      "nivel": "Naranja",
+      "text": "Sierra de Madrid: Aviso de nevadas de nivel amarillo. Sierra de Madrid (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sierra de Madrid",
+      "fenomeno": "Moderate snow warning. Sierra de Madrid",
+      "nivel": "Naranja",
+      "text": "Sierra de Madrid: Moderate snow warning. Sierra de Madrid (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Campo de Cartagena y Mazarrón",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Campo de Cartagena y Mazarrón",
+      "nivel": "Naranja",
+      "text": "Campo de Cartagena y Mazarrón: Aviso de vientos de nivel amarillo. Campo de Cartagena y Mazarrón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Campo de Cartagena y Mazarrón",
+      "fenomeno": "Moderate wind warning. Campo de Cartagena y Mazarrón",
+      "nivel": "Naranja",
+      "text": "Campo de Cartagena y Mazarrón: Moderate wind warning. Campo de Cartagena y Mazarrón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌊",
       "provincia": "Costa - Oeste de A Coruña",
@@ -70,22 +150,6 @@ window.AEMET_AVISOS = {
     },
     {
       "icon": "💨",
-      "provincia": "Alcaraz y Segura",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Alcaraz y Segura",
-      "nivel": "Naranja",
-      "text": "Alcaraz y Segura: Aviso de vientos de nivel amarillo. Alcaraz y Segura (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Alcaraz y Segura",
-      "fenomeno": "Moderate wind warning. Alcaraz y Segura",
-      "nivel": "Naranja",
-      "text": "Alcaraz y Segura: Moderate wind warning. Alcaraz y Segura (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
       "provincia": "Sistema Central de Salamanca",
       "fenomeno": "Aviso de vientos de nivel amarillo. Sistema Central de Salamanca",
       "nivel": "Naranja",
@@ -98,70 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate wind warning. Sistema Central de Salamanca",
       "nivel": "Naranja",
       "text": "Sistema Central de Salamanca: Moderate wind warning. Sistema Central de Salamanca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral occidental asturiano",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Litoral occidental asturiano",
-      "nivel": "Rojo",
-      "text": "Costa - Litoral occidental asturiano: Aviso de costeros de nivel naranja. Costa - Litoral occidental asturiano (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral occidental asturiano",
-      "fenomeno": "Severe coastalevent warning. Costa - Litoral occidental asturiano",
-      "nivel": "Rojo",
-      "text": "Costa - Litoral occidental asturiano: Severe coastalevent warning. Costa - Litoral occidental asturiano (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral oriental asturiano",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Litoral oriental asturiano",
-      "nivel": "Rojo",
-      "text": "Costa - Litoral oriental asturiano: Aviso de costeros de nivel naranja. Costa - Litoral oriental asturiano (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral oriental asturiano",
-      "fenomeno": "Severe coastalevent warning. Costa - Litoral oriental asturiano",
-      "nivel": "Rojo",
-      "text": "Costa - Litoral oriental asturiano: Severe coastalevent warning. Costa - Litoral oriental asturiano (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Noroeste de A Coruña",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Noroeste de A Coruña",
-      "nivel": "Rojo",
-      "text": "Costa - Noroeste de A Coruña: Aviso de costeros de nivel naranja. Costa - Noroeste de A Coruña (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Noroeste de A Coruña",
-      "fenomeno": "Severe coastalevent warning. Costa - Noroeste de A Coruña",
-      "nivel": "Rojo",
-      "text": "Costa - Noroeste de A Coruña: Severe coastalevent warning. Costa - Noroeste de A Coruña (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Oeste de A Coruña",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Oeste de A Coruña",
-      "nivel": "Rojo",
-      "text": "Costa - Oeste de A Coruña: Aviso de costeros de nivel naranja. Costa - Oeste de A Coruña (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Oeste de A Coruña",
-      "fenomeno": "Severe coastalevent warning. Costa - Oeste de A Coruña",
-      "nivel": "Rojo",
-      "text": "Costa - Oeste de A Coruña: Severe coastalevent warning. Costa - Oeste de A Coruña (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
