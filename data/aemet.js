@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2026-01-21T22:50:15.680Z
+// Auto-generado por GitHub Actions - 2026-01-21T23:18:15.725Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-01-21T22:50:15.680Z",
+  "generated_at": "2026-01-21T23:18:15.725Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "❄️",
+      "provincia": "Serranía de Guadalajara",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Serranía de Guadalajara",
+      "nivel": "Naranja",
+      "text": "Serranía de Guadalajara: Aviso de nevadas de nivel amarillo. Serranía de Guadalajara (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Serranía de Guadalajara",
+      "fenomeno": "Moderate snow warning. Serranía de Guadalajara",
+      "nivel": "Naranja",
+      "text": "Serranía de Guadalajara: Moderate snow warning. Serranía de Guadalajara (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "❄️",
       "provincia": "Cordillera Cantábrica de León",
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate snow warning. Sistema Central de Salamanca",
       "nivel": "Naranja",
       "text": "Sistema Central de Salamanca: Moderate snow warning. Sistema Central de Salamanca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Sistema Central de Segovia",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Sistema Central de Segovia",
-      "nivel": "Naranja",
-      "text": "Sistema Central de Segovia: Aviso de nevadas de nivel amarillo. Sistema Central de Segovia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sistema Central de Segovia",
-      "fenomeno": "Moderate snow warning. Sistema Central de Segovia",
-      "nivel": "Naranja",
-      "text": "Sistema Central de Segovia: Moderate snow warning. Sistema Central de Segovia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
