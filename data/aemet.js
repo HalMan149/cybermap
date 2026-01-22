@@ -1,9 +1,137 @@
-// Auto-generado por GitHub Actions - 2026-01-22T22:46:07.558Z
+// Auto-generado por GitHub Actions - 2026-01-22T23:14:46.822Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-01-22T22:46:07.558Z",
+  "generated_at": "2026-01-22T23:14:46.822Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "❄️",
+      "provincia": "Montaña de Lugo",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Montaña de Lugo",
+      "nivel": "Naranja",
+      "text": "Montaña de Lugo: Aviso de nevadas de nivel amarillo. Montaña de Lugo (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Montaña de Lugo",
+      "fenomeno": "Moderate snow warning. Montaña de Lugo",
+      "nivel": "Naranja",
+      "text": "Montaña de Lugo: Moderate snow warning. Montaña de Lugo (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Montaña de Ourense",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Montaña de Ourense",
+      "nivel": "Naranja",
+      "text": "Montaña de Ourense: Aviso de nevadas de nivel amarillo. Montaña de Ourense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Montaña de Ourense",
+      "fenomeno": "Moderate snow warning. Montaña de Ourense",
+      "nivel": "Naranja",
+      "text": "Montaña de Ourense: Moderate snow warning. Montaña de Ourense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Suroccidental asturiana",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Suroccidental asturiana",
+      "nivel": "Naranja",
+      "text": "Suroccidental asturiana: Aviso de nevadas de nivel amarillo. Suroccidental asturiana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Suroccidental asturiana",
+      "fenomeno": "Moderate snow warning. Suroccidental asturiana",
+      "nivel": "Naranja",
+      "text": "Suroccidental asturiana: Moderate snow warning. Suroccidental asturiana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Cordillera y Picos de Europa",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Cordillera y Picos de Europa",
+      "nivel": "Naranja",
+      "text": "Cordillera y Picos de Europa: Aviso de nevadas de nivel amarillo. Cordillera y Picos de Europa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cordillera y Picos de Europa",
+      "fenomeno": "Moderate snow warning. Cordillera y Picos de Europa",
+      "nivel": "Naranja",
+      "text": "Cordillera y Picos de Europa: Moderate snow warning. Cordillera y Picos de Europa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Interior de A Coruña",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Interior de A Coruña",
+      "nivel": "Naranja",
+      "text": "Interior de A Coruña: Aviso de nevadas de nivel amarillo. Interior de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior de A Coruña",
+      "fenomeno": "Moderate snow warning. Interior de A Coruña",
+      "nivel": "Naranja",
+      "text": "Interior de A Coruña: Moderate snow warning. Interior de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Centro de Lugo",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Centro de Lugo",
+      "nivel": "Naranja",
+      "text": "Centro de Lugo: Aviso de nevadas de nivel amarillo. Centro de Lugo (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Centro de Lugo",
+      "fenomeno": "Moderate snow warning. Centro de Lugo",
+      "nivel": "Naranja",
+      "text": "Centro de Lugo: Moderate snow warning. Centro de Lugo (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Miño de Ourense",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Miño de Ourense",
+      "nivel": "Naranja",
+      "text": "Miño de Ourense: Aviso de nevadas de nivel amarillo. Miño de Ourense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Miño de Ourense",
+      "fenomeno": "Moderate snow warning. Miño de Ourense",
+      "nivel": "Naranja",
+      "text": "Miño de Ourense: Moderate snow warning. Miño de Ourense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Valdeorras",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Valdeorras",
+      "nivel": "Naranja",
+      "text": "Valdeorras: Aviso de nevadas de nivel amarillo. Valdeorras (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Valdeorras",
+      "fenomeno": "Moderate snow warning. Valdeorras",
+      "nivel": "Naranja",
+      "text": "Valdeorras: Moderate snow warning. Valdeorras (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "❄️",
       "provincia": "Meseta de Ávila",
@@ -34,134 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate snow warning. Meseta de Burgos",
       "nivel": "Naranja",
       "text": "Meseta de Burgos: Moderate snow warning. Meseta de Burgos (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Bierzo de León",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Bierzo de León",
-      "nivel": "Naranja",
-      "text": "Bierzo de León: Aviso de nevadas de nivel amarillo. Bierzo de León (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Bierzo de León",
-      "fenomeno": "Moderate snow warning. Bierzo de León",
-      "nivel": "Naranja",
-      "text": "Bierzo de León: Moderate snow warning. Bierzo de León (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Meseta de León",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Meseta de León",
-      "nivel": "Naranja",
-      "text": "Meseta de León: Aviso de nevadas de nivel amarillo. Meseta de León (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Meseta de León",
-      "fenomeno": "Moderate snow warning. Meseta de León",
-      "nivel": "Naranja",
-      "text": "Meseta de León: Moderate snow warning. Meseta de León (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Meseta de Palencia",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Meseta de Palencia",
-      "nivel": "Naranja",
-      "text": "Meseta de Palencia: Aviso de nevadas de nivel amarillo. Meseta de Palencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Meseta de Palencia",
-      "fenomeno": "Moderate snow warning. Meseta de Palencia",
-      "nivel": "Naranja",
-      "text": "Meseta de Palencia: Moderate snow warning. Meseta de Palencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Meseta de Salamanca",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Meseta de Salamanca",
-      "nivel": "Naranja",
-      "text": "Meseta de Salamanca: Aviso de nevadas de nivel amarillo. Meseta de Salamanca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Meseta de Salamanca",
-      "fenomeno": "Moderate snow warning. Meseta de Salamanca",
-      "nivel": "Naranja",
-      "text": "Meseta de Salamanca: Moderate snow warning. Meseta de Salamanca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Sur de Salamanca",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Sur de Salamanca",
-      "nivel": "Naranja",
-      "text": "Sur de Salamanca: Aviso de nevadas de nivel amarillo. Sur de Salamanca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sur de Salamanca",
-      "fenomeno": "Moderate snow warning. Sur de Salamanca",
-      "nivel": "Naranja",
-      "text": "Sur de Salamanca: Moderate snow warning. Sur de Salamanca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Meseta de Segovia",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Meseta de Segovia",
-      "nivel": "Naranja",
-      "text": "Meseta de Segovia: Aviso de nevadas de nivel amarillo. Meseta de Segovia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Meseta de Segovia",
-      "fenomeno": "Moderate snow warning. Meseta de Segovia",
-      "nivel": "Naranja",
-      "text": "Meseta de Segovia: Moderate snow warning. Meseta de Segovia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Meseta de Soria",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Meseta de Soria",
-      "nivel": "Naranja",
-      "text": "Meseta de Soria: Aviso de nevadas de nivel amarillo. Meseta de Soria (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Meseta de Soria",
-      "fenomeno": "Moderate snow warning. Meseta de Soria",
-      "nivel": "Naranja",
-      "text": "Meseta de Soria: Moderate snow warning. Meseta de Soria (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Meseta de Valladolid",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Meseta de Valladolid",
-      "nivel": "Naranja",
-      "text": "Meseta de Valladolid: Aviso de nevadas de nivel amarillo. Meseta de Valladolid (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Meseta de Valladolid",
-      "fenomeno": "Moderate snow warning. Meseta de Valladolid",
-      "nivel": "Naranja",
-      "text": "Meseta de Valladolid: Moderate snow warning. Meseta de Valladolid (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
