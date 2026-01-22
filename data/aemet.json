@@ -1,8 +1,24 @@
 {
-  "generated_at": "2026-01-22T16:24:51.492Z",
+  "generated_at": "2026-01-22T16:58:32.825Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "💨",
+      "provincia": "Suroeste de A Coruña",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Suroeste de A Coruña",
+      "nivel": "Naranja",
+      "text": "Suroeste de A Coruña: Aviso de vientos de nivel amarillo. Suroeste de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Suroeste de A Coruña",
+      "fenomeno": "Moderate wind warning. Suroeste de A Coruña",
+      "nivel": "Naranja",
+      "text": "Suroeste de A Coruña: Moderate wind warning. Suroeste de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌊",
       "provincia": "Norte de Cáceres",
@@ -145,22 +161,6 @@
       "fenomeno": "Moderate snow warning. Sistema Central de Ávila",
       "nivel": "Naranja",
       "text": "Sistema Central de Ávila: Moderate snow warning. Sistema Central de Ávila (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Ibérica de Burgos",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Ibérica de Burgos",
-      "nivel": "Naranja",
-      "text": "Ibérica de Burgos: Aviso de nevadas de nivel amarillo. Ibérica de Burgos (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ibérica de Burgos",
-      "fenomeno": "Moderate snow warning. Ibérica de Burgos",
-      "nivel": "Naranja",
-      "text": "Ibérica de Burgos: Moderate snow warning. Ibérica de Burgos (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
