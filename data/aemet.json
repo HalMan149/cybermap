@@ -1,8 +1,24 @@
 {
-  "generated_at": "2026-01-22T17:54:36.476Z",
+  "generated_at": "2026-01-22T18:20:51.957Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "❄️",
+      "provincia": "Meseta de Salamanca",
+      "fenomeno": "Aviso de nevadas de nivel naranja. Meseta de Salamanca",
+      "nivel": "Rojo",
+      "text": "Meseta de Salamanca: Aviso de nevadas de nivel naranja. Meseta de Salamanca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Meseta de Salamanca",
+      "fenomeno": "Severe snow warning. Meseta de Salamanca",
+      "nivel": "Rojo",
+      "text": "Meseta de Salamanca: Severe snow warning. Meseta de Salamanca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "❄️",
       "provincia": "Alcarria conquense",
@@ -145,22 +161,6 @@
       "fenomeno": "Moderate wind warning. Suroeste de A Coruña",
       "nivel": "Naranja",
       "text": "Suroeste de A Coruña: Moderate wind warning. Suroeste de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Norte de Cáceres",
-      "fenomeno": "Aviso de temperaturas mínimas de nivel amarillo. Norte de Cáceres",
-      "nivel": "Naranja",
-      "text": "Norte de Cáceres: Aviso de temperaturas mínimas de nivel amarillo. Norte de Cáceres (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Norte de Cáceres",
-      "fenomeno": "Moderate low-temperature warning. Norte de Cáceres",
-      "nivel": "Naranja",
-      "text": "Norte de Cáceres: Moderate low-temperature warning. Norte de Cáceres (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
