@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-01-23T22:51:47.890Z
+// Auto-generado por GitHub Actions - 2026-01-23T23:14:33.260Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-01-23T22:51:47.890Z",
+  "generated_at": "2026-01-23T23:14:33.260Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "❄️",
-      "provincia": "Meseta de Ávila",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Meseta de Ávila",
+      "provincia": "Pirineo oscense",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Pirineo oscense",
       "nivel": "Naranja",
-      "text": "Meseta de Ávila: Aviso de nevadas de nivel amarillo. Meseta de Ávila (Naranja) (AEMET)",
+      "text": "Pirineo oscense: Aviso de nevadas de nivel amarillo. Pirineo oscense (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Meseta de Ávila",
-      "fenomeno": "Moderate snow warning. Meseta de Ávila",
+      "provincia": "Pirineo oscense",
+      "fenomeno": "Moderate snow warning. Pirineo oscense",
       "nivel": "Naranja",
-      "text": "Meseta de Ávila: Moderate snow warning. Meseta de Ávila (Naranja) (AEMET)",
+      "text": "Pirineo oscense: Moderate snow warning. Pirineo oscense (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "❄️",
-      "provincia": "Meseta de Burgos",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Meseta de Burgos",
+      "provincia": "Sistema Central de Ávila",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Sistema Central de Ávila",
       "nivel": "Naranja",
-      "text": "Meseta de Burgos: Aviso de nevadas de nivel amarillo. Meseta de Burgos (Naranja) (AEMET)",
+      "text": "Sistema Central de Ávila: Aviso de nevadas de nivel amarillo. Sistema Central de Ávila (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Meseta de Burgos",
-      "fenomeno": "Moderate snow warning. Meseta de Burgos",
+      "provincia": "Sistema Central de Ávila",
+      "fenomeno": "Moderate snow warning. Sistema Central de Ávila",
       "nivel": "Naranja",
-      "text": "Meseta de Burgos: Moderate snow warning. Meseta de Burgos (Naranja) (AEMET)",
+      "text": "Sistema Central de Ávila: Moderate snow warning. Sistema Central de Ávila (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "❄️",
-      "provincia": "Meseta de León",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Meseta de León",
+      "provincia": "Ibérica de Burgos",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Ibérica de Burgos",
       "nivel": "Naranja",
-      "text": "Meseta de León: Aviso de nevadas de nivel amarillo. Meseta de León (Naranja) (AEMET)",
+      "text": "Ibérica de Burgos: Aviso de nevadas de nivel amarillo. Ibérica de Burgos (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Meseta de León",
-      "fenomeno": "Moderate snow warning. Meseta de León",
+      "provincia": "Ibérica de Burgos",
+      "fenomeno": "Moderate snow warning. Ibérica de Burgos",
       "nivel": "Naranja",
-      "text": "Meseta de León: Moderate snow warning. Meseta de León (Naranja) (AEMET)",
+      "text": "Ibérica de Burgos: Moderate snow warning. Ibérica de Burgos (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "❄️",
-      "provincia": "Meseta de Palencia",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Meseta de Palencia",
+      "provincia": "Cordillera Cantábrica de León",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Cordillera Cantábrica de León",
       "nivel": "Naranja",
-      "text": "Meseta de Palencia: Aviso de nevadas de nivel amarillo. Meseta de Palencia (Naranja) (AEMET)",
+      "text": "Cordillera Cantábrica de León: Aviso de nevadas de nivel amarillo. Cordillera Cantábrica de León (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Meseta de Palencia",
-      "fenomeno": "Moderate snow warning. Meseta de Palencia",
+      "provincia": "Cordillera Cantábrica de León",
+      "fenomeno": "Moderate snow warning. Cordillera Cantábrica de León",
       "nivel": "Naranja",
-      "text": "Meseta de Palencia: Moderate snow warning. Meseta de Palencia (Naranja) (AEMET)",
+      "text": "Cordillera Cantábrica de León: Moderate snow warning. Cordillera Cantábrica de León (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "❄️",
-      "provincia": "Sur de Salamanca",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Sur de Salamanca",
+      "provincia": "Cordillera Cantábrica de Palencia",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Cordillera Cantábrica de Palencia",
       "nivel": "Naranja",
-      "text": "Sur de Salamanca: Aviso de nevadas de nivel amarillo. Sur de Salamanca (Naranja) (AEMET)",
+      "text": "Cordillera Cantábrica de Palencia: Aviso de nevadas de nivel amarillo. Cordillera Cantábrica de Palencia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sur de Salamanca",
-      "fenomeno": "Moderate snow warning. Sur de Salamanca",
+      "provincia": "Cordillera Cantábrica de Palencia",
+      "fenomeno": "Moderate snow warning. Cordillera Cantábrica de Palencia",
       "nivel": "Naranja",
-      "text": "Sur de Salamanca: Moderate snow warning. Sur de Salamanca (Naranja) (AEMET)",
+      "text": "Cordillera Cantábrica de Palencia: Moderate snow warning. Cordillera Cantábrica de Palencia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "❄️",
-      "provincia": "Meseta de Valladolid",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Meseta de Valladolid",
+      "provincia": "Sistema Central de Segovia",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Sistema Central de Segovia",
       "nivel": "Naranja",
-      "text": "Meseta de Valladolid: Aviso de nevadas de nivel amarillo. Meseta de Valladolid (Naranja) (AEMET)",
+      "text": "Sistema Central de Segovia: Aviso de nevadas de nivel amarillo. Sistema Central de Segovia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Meseta de Valladolid",
-      "fenomeno": "Moderate snow warning. Meseta de Valladolid",
+      "provincia": "Sistema Central de Segovia",
+      "fenomeno": "Moderate snow warning. Sistema Central de Segovia",
       "nivel": "Naranja",
-      "text": "Meseta de Valladolid: Moderate snow warning. Meseta de Valladolid (Naranja) (AEMET)",
+      "text": "Sistema Central de Segovia: Moderate snow warning. Sistema Central de Segovia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "❄️",
-      "provincia": "Meseta de Zamora",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Meseta de Zamora",
+      "provincia": "Ibérica de Soria",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Ibérica de Soria",
       "nivel": "Naranja",
-      "text": "Meseta de Zamora: Aviso de nevadas de nivel amarillo. Meseta de Zamora (Naranja) (AEMET)",
+      "text": "Ibérica de Soria: Aviso de nevadas de nivel amarillo. Ibérica de Soria (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Meseta de Zamora",
-      "fenomeno": "Moderate snow warning. Meseta de Zamora",
+      "provincia": "Ibérica de Soria",
+      "fenomeno": "Moderate snow warning. Ibérica de Soria",
       "nivel": "Naranja",
-      "text": "Meseta de Zamora: Moderate snow warning. Meseta de Zamora (Naranja) (AEMET)",
+      "text": "Ibérica de Soria: Moderate snow warning. Ibérica de Soria (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "❄️",
-      "provincia": "Meseta de Salamanca",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Meseta de Salamanca",
+      "provincia": "Valle de Arán",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Valle de Arán",
       "nivel": "Naranja",
-      "text": "Meseta de Salamanca: Aviso de nevadas de nivel amarillo. Meseta de Salamanca (Naranja) (AEMET)",
+      "text": "Valle de Arán: Aviso de nevadas de nivel amarillo. Valle de Arán (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Meseta de Salamanca",
-      "fenomeno": "Moderate snow warning. Meseta de Salamanca",
+      "provincia": "Valle de Arán",
+      "fenomeno": "Moderate snow warning. Valle de Arán",
       "nivel": "Naranja",
-      "text": "Meseta de Salamanca: Moderate snow warning. Meseta de Salamanca (Naranja) (AEMET)",
+      "text": "Valle de Arán: Moderate snow warning. Valle de Arán (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "❄️",
-      "provincia": "Meseta de Valladolid",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Meseta de Valladolid",
+      "provincia": "Pirineo navarro",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Pirineo navarro",
       "nivel": "Naranja",
-      "text": "Meseta de Valladolid: Aviso de nevadas de nivel amarillo. Meseta de Valladolid (Naranja) (AEMET)",
+      "text": "Pirineo navarro: Aviso de nevadas de nivel amarillo. Pirineo navarro (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Meseta de Valladolid",
-      "fenomeno": "Moderate snow warning. Meseta de Valladolid",
+      "provincia": "Pirineo navarro",
+      "fenomeno": "Moderate snow warning. Pirineo navarro",
       "nivel": "Naranja",
-      "text": "Meseta de Valladolid: Moderate snow warning. Meseta de Valladolid (Naranja) (AEMET)",
+      "text": "Pirineo navarro: Moderate snow warning. Pirineo navarro (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "❄️",
-      "provincia": "Meseta de Zamora",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Meseta de Zamora",
+      "provincia": "Ibérica riojana",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Ibérica riojana",
       "nivel": "Naranja",
-      "text": "Meseta de Zamora: Aviso de nevadas de nivel amarillo. Meseta de Zamora (Naranja) (AEMET)",
+      "text": "Ibérica riojana: Aviso de nevadas de nivel amarillo. Ibérica riojana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Meseta de Zamora",
-      "fenomeno": "Moderate snow warning. Meseta de Zamora",
+      "provincia": "Ibérica riojana",
+      "fenomeno": "Moderate snow warning. Ibérica riojana",
       "nivel": "Naranja",
-      "text": "Meseta de Zamora: Moderate snow warning. Meseta de Zamora (Naranja) (AEMET)",
+      "text": "Ibérica riojana: Moderate snow warning. Ibérica riojana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
