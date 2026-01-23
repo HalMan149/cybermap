@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-01-23T07:54:19.892Z
+// Auto-generado por GitHub Actions - 2026-01-23T08:20:40.532Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-01-23T07:54:19.892Z",
+  "generated_at": "2026-01-23T08:20:40.532Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
+      "icon": "❄️",
+      "provincia": "Alcarria conquense",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Alcarria conquense",
+      "nivel": "Naranja",
+      "text": "Alcarria conquense: Aviso de nevadas de nivel amarillo. Alcarria conquense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Alcarria conquense",
+      "fenomeno": "Moderate snow warning. Alcarria conquense",
+      "nivel": "Naranja",
+      "text": "Alcarria conquense: Moderate snow warning. Alcarria conquense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Serranía de Cuenca",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Serranía de Cuenca",
+      "nivel": "Naranja",
+      "text": "Serranía de Cuenca: Aviso de nevadas de nivel amarillo. Serranía de Cuenca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Serranía de Cuenca",
+      "fenomeno": "Moderate snow warning. Serranía de Cuenca",
+      "nivel": "Naranja",
+      "text": "Serranía de Cuenca: Moderate snow warning. Serranía de Cuenca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Serranía de Guadalajara",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Serranía de Guadalajara",
+      "nivel": "Naranja",
+      "text": "Serranía de Guadalajara: Aviso de nevadas de nivel amarillo. Serranía de Guadalajara (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Serranía de Guadalajara",
+      "fenomeno": "Moderate snow warning. Serranía de Guadalajara",
+      "nivel": "Naranja",
+      "text": "Serranía de Guadalajara: Moderate snow warning. Serranía de Guadalajara (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Parameras de Molina",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Parameras de Molina",
+      "nivel": "Naranja",
+      "text": "Parameras de Molina: Aviso de nevadas de nivel amarillo. Parameras de Molina (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Parameras de Molina",
+      "fenomeno": "Moderate snow warning. Parameras de Molina",
+      "nivel": "Naranja",
+      "text": "Parameras de Molina: Moderate snow warning. Parameras de Molina (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Alcarria de Guadalajara",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Alcarria de Guadalajara",
+      "nivel": "Naranja",
+      "text": "Alcarria de Guadalajara: Aviso de nevadas de nivel amarillo. Alcarria de Guadalajara (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Alcarria de Guadalajara",
+      "fenomeno": "Moderate snow warning. Alcarria de Guadalajara",
+      "nivel": "Naranja",
+      "text": "Alcarria de Guadalajara: Moderate snow warning. Alcarria de Guadalajara (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "La Mancha conquense",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. La Mancha conquense",
+      "nivel": "Naranja",
+      "text": "La Mancha conquense: Aviso de nevadas de nivel amarillo. La Mancha conquense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "La Mancha conquense",
+      "fenomeno": "Moderate snow warning. La Mancha conquense",
+      "nivel": "Naranja",
+      "text": "La Mancha conquense: Moderate snow warning. La Mancha conquense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
       "icon": "🌊",
-      "provincia": "Costa - Poniente y Almería Capital",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Poniente y Almería Capital",
+      "provincia": "Sierra de Madrid",
+      "fenomeno": "Aviso de temperaturas mínimas de nivel amarillo. Sierra de Madrid",
+      "nivel": "Naranja",
+      "text": "Sierra de Madrid: Aviso de temperaturas mínimas de nivel amarillo. Sierra de Madrid (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sierra de Madrid",
+      "fenomeno": "Moderate low-temperature warning. Sierra de Madrid",
+      "nivel": "Naranja",
+      "text": "Sierra de Madrid: Moderate low-temperature warning. Sierra de Madrid (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Bierzo de León",
+      "fenomeno": "Aviso de nevadas de nivel naranja. Bierzo de León",
       "nivel": "Rojo",
-      "text": "Costa - Poniente y Almería Capital: Aviso de costeros de nivel naranja. Costa - Poniente y Almería Capital (Rojo) (AEMET)",
+      "text": "Bierzo de León: Aviso de nevadas de nivel naranja. Bierzo de León (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Costa - Poniente y Almería Capital",
-      "fenomeno": "Severe coastalevent warning. Costa - Poniente y Almería Capital",
+      "icon": "⚠️",
+      "provincia": "Bierzo de León",
+      "fenomeno": "Severe snow warning. Bierzo de León",
       "nivel": "Rojo",
-      "text": "Costa - Poniente y Almería Capital: Severe coastalevent warning. Costa - Poniente y Almería Capital (Rojo) (AEMET)",
+      "text": "Bierzo de León: Severe snow warning. Bierzo de León (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Costa - Levante almeriense",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Levante almeriense",
-      "nivel": "Rojo",
-      "text": "Costa - Levante almeriense: Aviso de costeros de nivel naranja. Costa - Levante almeriense (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Levante almeriense",
-      "fenomeno": "Severe coastalevent warning. Costa - Levante almeriense",
-      "nivel": "Rojo",
-      "text": "Costa - Levante almeriense: Severe coastalevent warning. Costa - Levante almeriense (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Melilla",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Melilla",
-      "nivel": "Rojo",
-      "text": "Costa - Melilla: Aviso de costeros de nivel naranja. Costa - Melilla (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Melilla",
-      "fenomeno": "Severe coastalevent warning. Costa - Melilla",
-      "nivel": "Rojo",
-      "text": "Costa - Melilla: Severe coastalevent warning. Costa - Melilla (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral occidental asturiano",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral occidental asturiano",
+      "icon": "❄️",
+      "provincia": "Meseta de León",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Meseta de León",
       "nivel": "Naranja",
-      "text": "Costa - Litoral occidental asturiano: Aviso de costeros de nivel amarillo. Costa - Litoral occidental asturiano (Naranja) (AEMET)",
+      "text": "Meseta de León: Aviso de nevadas de nivel amarillo. Meseta de León (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral occidental asturiano",
-      "fenomeno": "Moderate coastalevent warning. Costa - Litoral occidental asturiano",
+      "icon": "⚠️",
+      "provincia": "Meseta de León",
+      "fenomeno": "Moderate snow warning. Meseta de León",
       "nivel": "Naranja",
-      "text": "Costa - Litoral occidental asturiano: Moderate coastalevent warning. Costa - Litoral occidental asturiano (Naranja) (AEMET)",
+      "text": "Meseta de León: Moderate snow warning. Meseta de León (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral oriental asturiano",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral oriental asturiano",
+      "icon": "❄️",
+      "provincia": "Meseta de Zamora",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Meseta de Zamora",
       "nivel": "Naranja",
-      "text": "Costa - Litoral oriental asturiano: Aviso de costeros de nivel amarillo. Costa - Litoral oriental asturiano (Naranja) (AEMET)",
+      "text": "Meseta de Zamora: Aviso de nevadas de nivel amarillo. Meseta de Zamora (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral oriental asturiano",
-      "fenomeno": "Moderate coastalevent warning. Costa - Litoral oriental asturiano",
+      "icon": "⚠️",
+      "provincia": "Meseta de Zamora",
+      "fenomeno": "Moderate snow warning. Meseta de Zamora",
       "nivel": "Naranja",
-      "text": "Costa - Litoral oriental asturiano: Moderate coastalevent warning. Costa - Litoral oriental asturiano (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral cántabro",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral cántabro",
-      "nivel": "Naranja",
-      "text": "Costa - Litoral cántabro: Aviso de costeros de nivel amarillo. Costa - Litoral cántabro (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral cántabro",
-      "fenomeno": "Moderate coastalevent warning. Costa - Litoral cántabro",
-      "nivel": "Naranja",
-      "text": "Costa - Litoral cántabro: Moderate coastalevent warning. Costa - Litoral cántabro (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Noroeste de A Coruña",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Noroeste de A Coruña",
-      "nivel": "Naranja",
-      "text": "Costa - Noroeste de A Coruña: Aviso de costeros de nivel amarillo. Costa - Noroeste de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Noroeste de A Coruña",
-      "fenomeno": "Moderate coastalevent warning. Costa - Noroeste de A Coruña",
-      "nivel": "Naranja",
-      "text": "Costa - Noroeste de A Coruña: Moderate coastalevent warning. Costa - Noroeste de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - A Mariña",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - A Mariña",
-      "nivel": "Naranja",
-      "text": "Costa - A Mariña: Aviso de costeros de nivel amarillo. Costa - A Mariña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - A Mariña",
-      "fenomeno": "Moderate coastalevent warning. Costa - A Mariña",
-      "nivel": "Naranja",
-      "text": "Costa - A Mariña: Moderate coastalevent warning. Costa - A Mariña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Gipuzkoa litoral",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Gipuzkoa litoral",
-      "nivel": "Naranja",
-      "text": "Costa - Gipuzkoa litoral: Aviso de costeros de nivel amarillo. Costa - Gipuzkoa litoral (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Gipuzkoa litoral",
-      "fenomeno": "Moderate coastalevent warning. Costa - Gipuzkoa litoral",
-      "nivel": "Naranja",
-      "text": "Costa - Gipuzkoa litoral: Moderate coastalevent warning. Costa - Gipuzkoa litoral (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Bizkaia litoral",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Bizkaia litoral",
-      "nivel": "Naranja",
-      "text": "Costa - Bizkaia litoral: Aviso de costeros de nivel amarillo. Costa - Bizkaia litoral (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Bizkaia litoral",
-      "fenomeno": "Moderate coastalevent warning. Costa - Bizkaia litoral",
-      "nivel": "Naranja",
-      "text": "Costa - Bizkaia litoral: Moderate coastalevent warning. Costa - Bizkaia litoral (Naranja) (AEMET)",
+      "text": "Meseta de Zamora: Moderate snow warning. Meseta de Zamora (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
