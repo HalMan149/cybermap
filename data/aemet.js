@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2026-01-24T17:32:03.488Z
+// Auto-generado por GitHub Actions - 2026-01-24T17:48:57.088Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-01-24T17:32:03.488Z",
+  "generated_at": "2026-01-24T17:48:57.088Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "❄️",
+      "provincia": "Depresión central de Barcelona",
+      "fenomeno": "Aviso de nevadas de nivel naranja. Depresión central de Barcelona",
+      "nivel": "Rojo",
+      "text": "Depresión central de Barcelona: Aviso de nevadas de nivel naranja. Depresión central de Barcelona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Depresión central de Barcelona",
+      "fenomeno": "Severe snow warning. Depresión central de Barcelona",
+      "nivel": "Rojo",
+      "text": "Depresión central de Barcelona: Severe snow warning. Depresión central de Barcelona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "❄️",
       "provincia": "Prelitoral de Barcelona",
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Severe coastalevent warning. Costa - Litoral oriental asturiano",
       "nivel": "Rojo",
       "text": "Costa - Litoral oriental asturiano: Severe coastalevent warning. Costa - Litoral oriental asturiano (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral cántabro",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Litoral cántabro",
-      "nivel": "Rojo",
-      "text": "Costa - Litoral cántabro: Aviso de costeros de nivel naranja. Costa - Litoral cántabro (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral cántabro",
-      "fenomeno": "Severe coastalevent warning. Costa - Litoral cántabro",
-      "nivel": "Rojo",
-      "text": "Costa - Litoral cántabro: Severe coastalevent warning. Costa - Litoral cántabro (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
