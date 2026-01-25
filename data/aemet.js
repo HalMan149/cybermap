@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-01-25T07:16:12.767Z
+// Auto-generado por GitHub Actions - 2026-01-25T07:39:50.437Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-01-25T07:16:12.767Z",
+  "generated_at": "2026-01-25T07:39:50.437Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "💨",
-      "provincia": "Interior norte de Castellón",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Interior norte de Castellón",
+      "icon": "🌧️",
+      "provincia": "Sistema Central de Ávila",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Sistema Central de Ávila",
       "nivel": "Naranja",
-      "text": "Interior norte de Castellón: Aviso de vientos de nivel amarillo. Interior norte de Castellón (Naranja) (AEMET)",
+      "text": "Sistema Central de Ávila: Aviso de lluvias de nivel amarillo. Sistema Central de Ávila (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Interior norte de Castellón",
-      "fenomeno": "Moderate wind warning. Interior norte de Castellón",
+      "provincia": "Sistema Central de Ávila",
+      "fenomeno": "Moderate rain warning. Sistema Central de Ávila",
       "nivel": "Naranja",
-      "text": "Interior norte de Castellón: Moderate wind warning. Interior norte de Castellón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Interior sur de Castellón",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Interior sur de Castellón",
-      "nivel": "Naranja",
-      "text": "Interior sur de Castellón: Aviso de vientos de nivel amarillo. Interior sur de Castellón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior sur de Castellón",
-      "fenomeno": "Moderate wind warning. Interior sur de Castellón",
-      "nivel": "Naranja",
-      "text": "Interior sur de Castellón: Moderate wind warning. Interior sur de Castellón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Interior norte de Valencia",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Interior norte de Valencia",
-      "nivel": "Naranja",
-      "text": "Interior norte de Valencia: Aviso de vientos de nivel amarillo. Interior norte de Valencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior norte de Valencia",
-      "fenomeno": "Moderate wind warning. Interior norte de Valencia",
-      "nivel": "Naranja",
-      "text": "Interior norte de Valencia: Moderate wind warning. Interior norte de Valencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Litoral norte de Valencia",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Litoral norte de Valencia",
-      "nivel": "Naranja",
-      "text": "Litoral norte de Valencia: Aviso de vientos de nivel amarillo. Litoral norte de Valencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral norte de Valencia",
-      "fenomeno": "Moderate wind warning. Litoral norte de Valencia",
-      "nivel": "Naranja",
-      "text": "Litoral norte de Valencia: Moderate wind warning. Litoral norte de Valencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Interior sur de Valencia",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Interior sur de Valencia",
-      "nivel": "Naranja",
-      "text": "Interior sur de Valencia: Aviso de vientos de nivel amarillo. Interior sur de Valencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior sur de Valencia",
-      "fenomeno": "Moderate wind warning. Interior sur de Valencia",
-      "nivel": "Naranja",
-      "text": "Interior sur de Valencia: Moderate wind warning. Interior sur de Valencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Litoral sur de Valencia",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Litoral sur de Valencia",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Valencia: Aviso de vientos de nivel amarillo. Litoral sur de Valencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral sur de Valencia",
-      "fenomeno": "Moderate wind warning. Litoral sur de Valencia",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Valencia: Moderate wind warning. Litoral sur de Valencia (Naranja) (AEMET)",
+      "text": "Sistema Central de Ávila: Moderate rain warning. Sistema Central de Ávila (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Sur de Ourense",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Sur de Ourense",
-      "nivel": "Rojo",
-      "text": "Sur de Ourense: Aviso de lluvias de nivel naranja. Sur de Ourense (Rojo) (AEMET)",
+      "provincia": "Sur de Ávila",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Sur de Ávila",
+      "nivel": "Naranja",
+      "text": "Sur de Ávila: Aviso de lluvias de nivel amarillo. Sur de Ávila (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sur de Ourense",
-      "fenomeno": "Severe rain warning. Sur de Ourense",
-      "nivel": "Rojo",
-      "text": "Sur de Ourense: Severe rain warning. Sur de Ourense (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Alcaraz y Segura",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Alcaraz y Segura",
+      "provincia": "Sur de Ávila",
+      "fenomeno": "Moderate rain warning. Sur de Ávila",
       "nivel": "Naranja",
-      "text": "Alcaraz y Segura: Aviso de vientos de nivel amarillo. Alcaraz y Segura (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Alcaraz y Segura",
-      "fenomeno": "Moderate wind warning. Alcaraz y Segura",
-      "nivel": "Naranja",
-      "text": "Alcaraz y Segura: Moderate wind warning. Alcaraz y Segura (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Hellín y Almansa",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Hellín y Almansa",
-      "nivel": "Naranja",
-      "text": "Hellín y Almansa: Aviso de vientos de nivel amarillo. Hellín y Almansa (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Hellín y Almansa",
-      "fenomeno": "Moderate wind warning. Hellín y Almansa",
-      "nivel": "Naranja",
-      "text": "Hellín y Almansa: Moderate wind warning. Hellín y Almansa (Naranja) (AEMET)",
+      "text": "Sur de Ávila: Moderate rain warning. Sur de Ávila (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Noroeste de A Coruña",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Noroeste de A Coruña",
+      "provincia": "Sistema Central de Salamanca",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Sistema Central de Salamanca",
       "nivel": "Naranja",
-      "text": "Noroeste de A Coruña: Aviso de lluvias de nivel amarillo. Noroeste de A Coruña (Naranja) (AEMET)",
+      "text": "Sistema Central de Salamanca: Aviso de lluvias de nivel amarillo. Sistema Central de Salamanca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Noroeste de A Coruña",
-      "fenomeno": "Moderate rain warning. Noroeste de A Coruña",
+      "provincia": "Sistema Central de Salamanca",
+      "fenomeno": "Moderate rain warning. Sistema Central de Salamanca",
       "nivel": "Naranja",
-      "text": "Noroeste de A Coruña: Moderate rain warning. Noroeste de A Coruña (Naranja) (AEMET)",
+      "text": "Sistema Central de Salamanca: Moderate rain warning. Sistema Central de Salamanca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Sur de Salamanca",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Sur de Salamanca",
+      "nivel": "Naranja",
+      "text": "Sur de Salamanca: Aviso de lluvias de nivel amarillo. Sur de Salamanca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sur de Salamanca",
+      "fenomeno": "Moderate rain warning. Sur de Salamanca",
+      "nivel": "Naranja",
+      "text": "Sur de Salamanca: Moderate rain warning. Sur de Salamanca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Sierra de San Vicente",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Sierra de San Vicente",
+      "nivel": "Naranja",
+      "text": "Sierra de San Vicente: Aviso de lluvias de nivel amarillo. Sierra de San Vicente (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sierra de San Vicente",
+      "fenomeno": "Moderate rain warning. Sierra de San Vicente",
+      "nivel": "Naranja",
+      "text": "Sierra de San Vicente: Moderate rain warning. Sierra de San Vicente (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Norte de Cáceres",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Norte de Cáceres",
+      "nivel": "Naranja",
+      "text": "Norte de Cáceres: Aviso de lluvias de nivel amarillo. Norte de Cáceres (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Norte de Cáceres",
+      "fenomeno": "Moderate rain warning. Norte de Cáceres",
+      "nivel": "Naranja",
+      "text": "Norte de Cáceres: Moderate rain warning. Norte de Cáceres (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Liébana",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Liébana",
+      "nivel": "Naranja",
+      "text": "Liébana: Aviso de vientos de nivel amarillo. Liébana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Liébana",
+      "fenomeno": "Moderate wind warning. Liébana",
+      "nivel": "Naranja",
+      "text": "Liébana: Moderate wind warning. Liébana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Cantabria del Ebro",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Cantabria del Ebro",
+      "nivel": "Naranja",
+      "text": "Cantabria del Ebro: Aviso de vientos de nivel amarillo. Cantabria del Ebro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cantabria del Ebro",
+      "fenomeno": "Moderate wind warning. Cantabria del Ebro",
+      "nivel": "Naranja",
+      "text": "Cantabria del Ebro: Moderate wind warning. Cantabria del Ebro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Cordillera Cantábrica de Burgos",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Cordillera Cantábrica de Burgos",
+      "nivel": "Naranja",
+      "text": "Cordillera Cantábrica de Burgos: Aviso de vientos de nivel amarillo. Cordillera Cantábrica de Burgos (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cordillera Cantábrica de Burgos",
+      "fenomeno": "Moderate wind warning. Cordillera Cantábrica de Burgos",
+      "nivel": "Naranja",
+      "text": "Cordillera Cantábrica de Burgos: Moderate wind warning. Cordillera Cantábrica de Burgos (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Norte de Burgos",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Norte de Burgos",
+      "nivel": "Naranja",
+      "text": "Norte de Burgos: Aviso de vientos de nivel amarillo. Norte de Burgos (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Norte de Burgos",
+      "fenomeno": "Moderate wind warning. Norte de Burgos",
+      "nivel": "Naranja",
+      "text": "Norte de Burgos: Moderate wind warning. Norte de Burgos (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
