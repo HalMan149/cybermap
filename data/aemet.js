@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2026-01-25T22:13:51.758Z
+// Auto-generado por GitHub Actions - 2026-01-25T22:36:17.473Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-01-25T22:13:51.758Z",
+  "generated_at": "2026-01-25T22:36:17.473Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "⛈️",
+      "provincia": "Ibiza y Formentera",
+      "fenomeno": "Aviso de tormentas de nivel naranja. Ibiza y Formentera",
+      "nivel": "Rojo",
+      "text": "Ibiza y Formentera: Aviso de tormentas de nivel naranja. Ibiza y Formentera (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ibiza y Formentera",
+      "fenomeno": "Severe thunderstorm warning. Ibiza y Formentera",
+      "nivel": "Rojo",
+      "text": "Ibiza y Formentera: Severe thunderstorm warning. Ibiza y Formentera (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "💨",
       "provincia": "Depresión central de Tarragona",
@@ -18,22 +34,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate wind warning. Depresión central de Tarragona",
       "nivel": "Naranja",
       "text": "Depresión central de Tarragona: Moderate wind warning. Depresión central de Tarragona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Litoral sur de Tarragona",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Litoral sur de Tarragona",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Tarragona: Aviso de vientos de nivel amarillo. Litoral sur de Tarragona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral sur de Tarragona",
-      "fenomeno": "Moderate wind warning. Litoral sur de Tarragona",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Tarragona: Moderate wind warning. Litoral sur de Tarragona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
