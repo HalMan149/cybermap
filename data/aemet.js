@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-01-25T17:50:13.339Z
+// Auto-generado por GitHub Actions - 2026-01-25T18:20:00.413Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-01-25T17:50:13.339Z",
+  "generated_at": "2026-01-25T18:20:00.413Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "🌧️",
-      "provincia": "Oeste de A Coruña",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Oeste de A Coruña",
-      "nivel": "Naranja",
-      "text": "Oeste de A Coruña: Aviso de lluvias de nivel amarillo. Oeste de A Coruña (Naranja) (AEMET)",
+      "provincia": "Norte de Cáceres",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Norte de Cáceres",
+      "nivel": "Rojo",
+      "text": "Norte de Cáceres: Aviso de lluvias de nivel naranja. Norte de Cáceres (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Oeste de A Coruña",
-      "fenomeno": "Moderate rain warning. Oeste de A Coruña",
-      "nivel": "Naranja",
-      "text": "Oeste de A Coruña: Moderate rain warning. Oeste de A Coruña (Naranja) (AEMET)",
+      "provincia": "Norte de Cáceres",
+      "fenomeno": "Severe rain warning. Norte de Cáceres",
+      "nivel": "Rojo",
+      "text": "Norte de Cáceres: Severe rain warning. Norte de Cáceres (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Suroeste de A Coruña",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Suroeste de A Coruña",
-      "nivel": "Naranja",
-      "text": "Suroeste de A Coruña: Aviso de lluvias de nivel amarillo. Suroeste de A Coruña (Naranja) (AEMET)",
+      "provincia": "Sanabria",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Sanabria",
+      "nivel": "Rojo",
+      "text": "Sanabria: Aviso de lluvias de nivel naranja. Sanabria (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Suroeste de A Coruña",
-      "fenomeno": "Moderate rain warning. Suroeste de A Coruña",
-      "nivel": "Naranja",
-      "text": "Suroeste de A Coruña: Moderate rain warning. Suroeste de A Coruña (Naranja) (AEMET)",
+      "provincia": "Sanabria",
+      "fenomeno": "Severe rain warning. Sanabria",
+      "nivel": "Rojo",
+      "text": "Sanabria: Severe rain warning. Sanabria (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Oeste de A Coruña",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Oeste de A Coruña",
-      "nivel": "Naranja",
-      "text": "Oeste de A Coruña: Aviso de lluvias de nivel amarillo. Oeste de A Coruña (Naranja) (AEMET)",
+      "provincia": "Sur de Ávila",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Sur de Ávila",
+      "nivel": "Rojo",
+      "text": "Sur de Ávila: Aviso de lluvias de nivel naranja. Sur de Ávila (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Oeste de A Coruña",
-      "fenomeno": "Moderate rain warning. Oeste de A Coruña",
+      "provincia": "Sur de Ávila",
+      "fenomeno": "Severe rain warning. Sur de Ávila",
+      "nivel": "Rojo",
+      "text": "Sur de Ávila: Severe rain warning. Sur de Ávila (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Cordillera Cantábrica de León",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Cordillera Cantábrica de León",
       "nivel": "Naranja",
-      "text": "Oeste de A Coruña: Moderate rain warning. Oeste de A Coruña (Naranja) (AEMET)",
+      "text": "Cordillera Cantábrica de León: Aviso de vientos de nivel amarillo. Cordillera Cantábrica de León (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cordillera Cantábrica de León",
+      "fenomeno": "Moderate wind warning. Cordillera Cantábrica de León",
+      "nivel": "Naranja",
+      "text": "Cordillera Cantábrica de León: Moderate wind warning. Cordillera Cantábrica de León (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Suroeste de A Coruña",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Suroeste de A Coruña",
+      "provincia": "Sistema Central de Ávila",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Sistema Central de Ávila",
       "nivel": "Naranja",
-      "text": "Suroeste de A Coruña: Aviso de lluvias de nivel amarillo. Suroeste de A Coruña (Naranja) (AEMET)",
+      "text": "Sistema Central de Ávila: Aviso de lluvias de nivel amarillo. Sistema Central de Ávila (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Suroeste de A Coruña",
-      "fenomeno": "Moderate rain warning. Suroeste de A Coruña",
+      "provincia": "Sistema Central de Ávila",
+      "fenomeno": "Moderate rain warning. Sistema Central de Ávila",
       "nivel": "Naranja",
-      "text": "Suroeste de A Coruña: Moderate rain warning. Suroeste de A Coruña (Naranja) (AEMET)",
+      "text": "Sistema Central de Ávila: Moderate rain warning. Sistema Central de Ávila (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Rias Baixas",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Rias Baixas",
+      "provincia": "Sistema Central de Salamanca",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Sistema Central de Salamanca",
       "nivel": "Naranja",
-      "text": "Rias Baixas: Aviso de lluvias de nivel amarillo. Rias Baixas (Naranja) (AEMET)",
+      "text": "Sistema Central de Salamanca: Aviso de lluvias de nivel amarillo. Sistema Central de Salamanca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Rias Baixas",
-      "fenomeno": "Moderate rain warning. Rias Baixas",
+      "provincia": "Sistema Central de Salamanca",
+      "fenomeno": "Moderate rain warning. Sistema Central de Salamanca",
       "nivel": "Naranja",
-      "text": "Rias Baixas: Moderate rain warning. Rias Baixas (Naranja) (AEMET)",
+      "text": "Sistema Central de Salamanca: Moderate rain warning. Sistema Central de Salamanca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Miño de Pontevedra",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Miño de Pontevedra",
+      "provincia": "Sur de Salamanca",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Sur de Salamanca",
       "nivel": "Naranja",
-      "text": "Miño de Pontevedra: Aviso de lluvias de nivel amarillo. Miño de Pontevedra (Naranja) (AEMET)",
+      "text": "Sur de Salamanca: Aviso de lluvias de nivel amarillo. Sur de Salamanca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Miño de Pontevedra",
-      "fenomeno": "Moderate rain warning. Miño de Pontevedra",
+      "provincia": "Sur de Salamanca",
+      "fenomeno": "Moderate rain warning. Sur de Salamanca",
       "nivel": "Naranja",
-      "text": "Miño de Pontevedra: Moderate rain warning. Miño de Pontevedra (Naranja) (AEMET)",
+      "text": "Sur de Salamanca: Moderate rain warning. Sur de Salamanca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⛈️",
-      "provincia": "Sierra Tramontana",
-      "fenomeno": "Aviso de tormentas de nivel naranja. Sierra Tramontana",
-      "nivel": "Rojo",
-      "text": "Sierra Tramontana: Aviso de tormentas de nivel naranja. Sierra Tramontana (Rojo) (AEMET)",
+      "icon": "💨",
+      "provincia": "Cordillera Cantábrica de León",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Cordillera Cantábrica de León",
+      "nivel": "Naranja",
+      "text": "Cordillera Cantábrica de León: Aviso de vientos de nivel amarillo. Cordillera Cantábrica de León (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sierra Tramontana",
-      "fenomeno": "Severe thunderstorm warning. Sierra Tramontana",
-      "nivel": "Rojo",
-      "text": "Sierra Tramontana: Severe thunderstorm warning. Sierra Tramontana (Rojo) (AEMET)",
+      "provincia": "Cordillera Cantábrica de León",
+      "fenomeno": "Moderate wind warning. Cordillera Cantábrica de León",
+      "nivel": "Naranja",
+      "text": "Cordillera Cantábrica de León: Moderate wind warning. Cordillera Cantábrica de León (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⛈️",
-      "provincia": "Norte y nordeste de Mallorca",
-      "fenomeno": "Aviso de tormentas de nivel naranja. Norte y nordeste de Mallorca",
-      "nivel": "Rojo",
-      "text": "Norte y nordeste de Mallorca: Aviso de tormentas de nivel naranja. Norte y nordeste de Mallorca (Rojo) (AEMET)",
+      "icon": "💨",
+      "provincia": "Sanabria",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Sanabria",
+      "nivel": "Naranja",
+      "text": "Sanabria: Aviso de vientos de nivel amarillo. Sanabria (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Norte y nordeste de Mallorca",
-      "fenomeno": "Severe thunderstorm warning. Norte y nordeste de Mallorca",
-      "nivel": "Rojo",
-      "text": "Norte y nordeste de Mallorca: Severe thunderstorm warning. Norte y nordeste de Mallorca (Rojo) (AEMET)",
+      "provincia": "Sanabria",
+      "fenomeno": "Moderate wind warning. Sanabria",
+      "nivel": "Naranja",
+      "text": "Sanabria: Moderate wind warning. Sanabria (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⛈️",
-      "provincia": "Menorca",
-      "fenomeno": "Aviso de tormentas de nivel naranja. Menorca",
-      "nivel": "Rojo",
-      "text": "Menorca: Aviso de tormentas de nivel naranja. Menorca (Rojo) (AEMET)",
+      "icon": "💨",
+      "provincia": "Meseta de Zamora",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Meseta de Zamora",
+      "nivel": "Naranja",
+      "text": "Meseta de Zamora: Aviso de vientos de nivel amarillo. Meseta de Zamora (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Menorca",
-      "fenomeno": "Severe thunderstorm warning. Menorca",
-      "nivel": "Rojo",
-      "text": "Menorca: Severe thunderstorm warning. Menorca (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Sierra Tramontana",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Sierra Tramontana",
+      "provincia": "Meseta de Zamora",
+      "fenomeno": "Moderate wind warning. Meseta de Zamora",
       "nivel": "Naranja",
-      "text": "Costa - Sierra Tramontana: Aviso de costeros de nivel amarillo. Costa - Sierra Tramontana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Sierra Tramontana",
-      "fenomeno": "Moderate coastalevent warning. Costa - Sierra Tramontana",
-      "nivel": "Naranja",
-      "text": "Costa - Sierra Tramontana: Moderate coastalevent warning. Costa - Sierra Tramontana (Naranja) (AEMET)",
+      "text": "Meseta de Zamora: Moderate wind warning. Meseta de Zamora (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
