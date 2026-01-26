@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-01-26T19:03:31.976Z
+// Auto-generado por GitHub Actions - 2026-01-26T19:33:59.082Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-01-26T19:03:31.976Z",
+  "generated_at": "2026-01-26T19:33:59.082Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "🌧️",
-      "provincia": "Interior de A Coruña",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Interior de A Coruña",
+      "icon": "💨",
+      "provincia": "Costa granadina",
+      "fenomeno": "Aviso de vientos de nivel naranja. Costa granadina",
       "nivel": "Rojo",
-      "text": "Interior de A Coruña: Aviso de lluvias de nivel naranja. Interior de A Coruña (Rojo) (AEMET)",
+      "text": "Costa granadina: Aviso de vientos de nivel naranja. Costa granadina (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⚠️",
-      "provincia": "Interior de A Coruña",
-      "fenomeno": "Severe rain warning. Interior de A Coruña",
+      "icon": "🌊",
+      "provincia": "Costa granadina",
+      "fenomeno": "Severe wind warning. Costa granadina",
       "nivel": "Rojo",
-      "text": "Interior de A Coruña: Severe rain warning. Interior de A Coruña (Rojo) (AEMET)",
+      "text": "Costa granadina: Severe wind warning. Costa granadina (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Rias Baixas",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Rias Baixas",
+      "icon": "💨",
+      "provincia": "Cazorla y Segura",
+      "fenomeno": "Aviso de vientos de nivel naranja. Cazorla y Segura",
       "nivel": "Rojo",
-      "text": "Rias Baixas: Aviso de lluvias de nivel naranja. Rias Baixas (Rojo) (AEMET)",
+      "text": "Cazorla y Segura: Aviso de vientos de nivel naranja. Cazorla y Segura (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Rias Baixas",
-      "fenomeno": "Severe rain warning. Rias Baixas",
+      "provincia": "Cazorla y Segura",
+      "fenomeno": "Severe wind warning. Cazorla y Segura",
       "nivel": "Rojo",
-      "text": "Rias Baixas: Severe rain warning. Rias Baixas (Rojo) (AEMET)",
+      "text": "Cazorla y Segura: Severe wind warning. Cazorla y Segura (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Interior de A Coruña",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Interior de A Coruña",
-      "nivel": "Naranja",
-      "text": "Interior de A Coruña: Aviso de lluvias de nivel amarillo. Interior de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior de A Coruña",
-      "fenomeno": "Moderate rain warning. Interior de A Coruña",
-      "nivel": "Naranja",
-      "text": "Interior de A Coruña: Moderate rain warning. Interior de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Rias Baixas",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Rias Baixas",
-      "nivel": "Naranja",
-      "text": "Rias Baixas: Aviso de lluvias de nivel amarillo. Rias Baixas (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Rias Baixas",
-      "fenomeno": "Moderate rain warning. Rias Baixas",
-      "nivel": "Naranja",
-      "text": "Rias Baixas: Moderate rain warning. Rias Baixas (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Suroeste de A Coruña",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Suroeste de A Coruña",
-      "nivel": "Naranja",
-      "text": "Suroeste de A Coruña: Aviso de lluvias de nivel amarillo. Suroeste de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Suroeste de A Coruña",
-      "fenomeno": "Moderate rain warning. Suroeste de A Coruña",
-      "nivel": "Naranja",
-      "text": "Suroeste de A Coruña: Moderate rain warning. Suroeste de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Miño de Ourense",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Miño de Ourense",
+      "icon": "💨",
+      "provincia": "Capital y Montes de Jaén",
+      "fenomeno": "Aviso de vientos de nivel naranja. Capital y Montes de Jaén",
       "nivel": "Rojo",
-      "text": "Miño de Ourense: Aviso de lluvias de nivel naranja. Miño de Ourense (Rojo) (AEMET)",
+      "text": "Capital y Montes de Jaén: Aviso de vientos de nivel naranja. Capital y Montes de Jaén (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Miño de Ourense",
-      "fenomeno": "Severe rain warning. Miño de Ourense",
+      "provincia": "Capital y Montes de Jaén",
+      "fenomeno": "Severe wind warning. Capital y Montes de Jaén",
       "nivel": "Rojo",
-      "text": "Miño de Ourense: Severe rain warning. Miño de Ourense (Rojo) (AEMET)",
+      "text": "Capital y Montes de Jaén: Severe wind warning. Capital y Montes de Jaén (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Interior de Pontevedra",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Interior de Pontevedra",
+      "icon": "💨",
+      "provincia": "Grazalema",
+      "fenomeno": "Aviso de vientos de nivel naranja. Grazalema",
       "nivel": "Rojo",
-      "text": "Interior de Pontevedra: Aviso de lluvias de nivel naranja. Interior de Pontevedra (Rojo) (AEMET)",
+      "text": "Grazalema: Aviso de vientos de nivel naranja. Grazalema (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Interior de Pontevedra",
-      "fenomeno": "Severe rain warning. Interior de Pontevedra",
+      "provincia": "Grazalema",
+      "fenomeno": "Severe wind warning. Grazalema",
       "nivel": "Rojo",
-      "text": "Interior de Pontevedra: Severe rain warning. Interior de Pontevedra (Rojo) (AEMET)",
+      "text": "Grazalema: Severe wind warning. Grazalema (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Noroeste de A Coruña",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Noroeste de A Coruña",
-      "nivel": "Naranja",
-      "text": "Noroeste de A Coruña: Aviso de lluvias de nivel amarillo. Noroeste de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Noroeste de A Coruña",
-      "fenomeno": "Moderate rain warning. Noroeste de A Coruña",
-      "nivel": "Naranja",
-      "text": "Noroeste de A Coruña: Moderate rain warning. Noroeste de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Oeste de A Coruña",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Oeste de A Coruña",
-      "nivel": "Naranja",
-      "text": "Oeste de A Coruña: Aviso de lluvias de nivel amarillo. Oeste de A Coruña (Naranja) (AEMET)",
+      "icon": "💨",
+      "provincia": "Ronda",
+      "fenomeno": "Aviso de vientos de nivel naranja. Ronda",
+      "nivel": "Rojo",
+      "text": "Ronda: Aviso de vientos de nivel naranja. Ronda (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Oeste de A Coruña",
-      "fenomeno": "Moderate rain warning. Oeste de A Coruña",
-      "nivel": "Naranja",
-      "text": "Oeste de A Coruña: Moderate rain warning. Oeste de A Coruña (Naranja) (AEMET)",
+      "provincia": "Ronda",
+      "fenomeno": "Severe wind warning. Ronda",
+      "nivel": "Rojo",
+      "text": "Ronda: Severe wind warning. Ronda (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Centro de Lugo",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Centro de Lugo",
-      "nivel": "Naranja",
-      "text": "Centro de Lugo: Aviso de lluvias de nivel amarillo. Centro de Lugo (Naranja) (AEMET)",
+      "icon": "💨",
+      "provincia": "Alcaraz y Segura",
+      "fenomeno": "Aviso de vientos de nivel naranja. Alcaraz y Segura",
+      "nivel": "Rojo",
+      "text": "Alcaraz y Segura: Aviso de vientos de nivel naranja. Alcaraz y Segura (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Centro de Lugo",
-      "fenomeno": "Moderate rain warning. Centro de Lugo",
-      "nivel": "Naranja",
-      "text": "Centro de Lugo: Moderate rain warning. Centro de Lugo (Naranja) (AEMET)",
+      "provincia": "Alcaraz y Segura",
+      "fenomeno": "Severe wind warning. Alcaraz y Segura",
+      "nivel": "Rojo",
+      "text": "Alcaraz y Segura: Severe wind warning. Alcaraz y Segura (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Ibiza y Formentera",
+      "fenomeno": "Aviso de vientos de nivel naranja. Ibiza y Formentera",
+      "nivel": "Rojo",
+      "text": "Ibiza y Formentera: Aviso de vientos de nivel naranja. Ibiza y Formentera (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ibiza y Formentera",
+      "fenomeno": "Severe wind warning. Ibiza y Formentera",
+      "nivel": "Rojo",
+      "text": "Ibiza y Formentera: Severe wind warning. Ibiza y Formentera (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Ibiza y Formentera",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Ibiza y Formentera",
+      "nivel": "Rojo",
+      "text": "Costa - Ibiza y Formentera: Aviso de costeros de nivel naranja. Costa - Ibiza y Formentera (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Ibiza y Formentera",
+      "fenomeno": "Severe coastalevent warning. Costa - Ibiza y Formentera",
+      "nivel": "Rojo",
+      "text": "Costa - Ibiza y Formentera: Severe coastalevent warning. Costa - Ibiza y Formentera (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Valle del Almanzora y Los Vélez",
+      "fenomeno": "Aviso de vientos de nivel naranja. Valle del Almanzora y Los Vélez",
+      "nivel": "Rojo",
+      "text": "Valle del Almanzora y Los Vélez: Aviso de vientos de nivel naranja. Valle del Almanzora y Los Vélez (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Valle del Almanzora y Los Vélez",
+      "fenomeno": "Severe wind warning. Valle del Almanzora y Los Vélez",
+      "nivel": "Rojo",
+      "text": "Valle del Almanzora y Los Vélez: Severe wind warning. Valle del Almanzora y Los Vélez (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Nacimiento y Campo de Tabernas",
+      "fenomeno": "Aviso de vientos de nivel naranja. Nacimiento y Campo de Tabernas",
+      "nivel": "Rojo",
+      "text": "Nacimiento y Campo de Tabernas: Aviso de vientos de nivel naranja. Nacimiento y Campo de Tabernas (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Nacimiento y Campo de Tabernas",
+      "fenomeno": "Severe wind warning. Nacimiento y Campo de Tabernas",
+      "nivel": "Rojo",
+      "text": "Nacimiento y Campo de Tabernas: Severe wind warning. Nacimiento y Campo de Tabernas (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
