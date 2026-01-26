@@ -1,8 +1,56 @@
 {
-  "generated_at": "2026-01-26T07:40:10.160Z",
+  "generated_at": "2026-01-26T07:53:23.506Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "💨",
+      "provincia": "Interior de Mallorca",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Interior de Mallorca",
+      "nivel": "Naranja",
+      "text": "Interior de Mallorca: Aviso de vientos de nivel amarillo. Interior de Mallorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior de Mallorca",
+      "fenomeno": "Moderate wind warning. Interior de Mallorca",
+      "nivel": "Naranja",
+      "text": "Interior de Mallorca: Moderate wind warning. Interior de Mallorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Ibiza y Formentera",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Ibiza y Formentera",
+      "nivel": "Naranja",
+      "text": "Costa - Ibiza y Formentera: Aviso de costeros de nivel amarillo. Costa - Ibiza y Formentera (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Ibiza y Formentera",
+      "fenomeno": "Moderate coastalevent warning. Costa - Ibiza y Formentera",
+      "nivel": "Naranja",
+      "text": "Costa - Ibiza y Formentera: Moderate coastalevent warning. Costa - Ibiza y Formentera (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Menorca",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Menorca",
+      "nivel": "Naranja",
+      "text": "Costa - Menorca: Aviso de costeros de nivel amarillo. Costa - Menorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Menorca",
+      "fenomeno": "Moderate coastalevent warning. Costa - Menorca",
+      "nivel": "Naranja",
+      "text": "Costa - Menorca: Moderate coastalevent warning. Costa - Menorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Grazalema",
@@ -113,54 +161,6 @@
       "fenomeno": "Severe coastalevent warning. Costa - Poniente y Almería Capital",
       "nivel": "Rojo",
       "text": "Costa - Poniente y Almería Capital: Severe coastalevent warning. Costa - Poniente y Almería Capital (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Levante almeriense",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Levante almeriense",
-      "nivel": "Rojo",
-      "text": "Costa - Levante almeriense: Aviso de costeros de nivel naranja. Costa - Levante almeriense (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Levante almeriense",
-      "fenomeno": "Severe coastalevent warning. Costa - Levante almeriense",
-      "nivel": "Rojo",
-      "text": "Costa - Levante almeriense: Severe coastalevent warning. Costa - Levante almeriense (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Costa granadina",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Costa granadina",
-      "nivel": "Rojo",
-      "text": "Costa - Costa granadina: Aviso de costeros de nivel naranja. Costa - Costa granadina (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Costa granadina",
-      "fenomeno": "Severe coastalevent warning. Costa - Costa granadina",
-      "nivel": "Rojo",
-      "text": "Costa - Costa granadina: Severe coastalevent warning. Costa - Costa granadina (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Campo de Cartagena y Mazarrón",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Campo de Cartagena y Mazarrón",
-      "nivel": "Rojo",
-      "text": "Costa - Campo de Cartagena y Mazarrón: Aviso de costeros de nivel naranja. Costa - Campo de Cartagena y Mazarrón (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Campo de Cartagena y Mazarrón",
-      "fenomeno": "Severe coastalevent warning. Costa - Campo de Cartagena y Mazarrón",
-      "nivel": "Rojo",
-      "text": "Costa - Campo de Cartagena y Mazarrón: Severe coastalevent warning. Costa - Campo de Cartagena y Mazarrón (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
