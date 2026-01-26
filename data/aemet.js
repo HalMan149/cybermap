@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2026-01-26T11:15:48.643Z
+// Auto-generado por GitHub Actions - 2026-01-26T11:40:24.642Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-01-26T11:15:48.643Z",
+  "generated_at": "2026-01-26T11:40:24.642Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "💨",
+      "provincia": "Ibérica riojana",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Ibérica riojana",
+      "nivel": "Naranja",
+      "text": "Ibérica riojana: Aviso de vientos de nivel amarillo. Ibérica riojana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ibérica riojana",
+      "fenomeno": "Moderate wind warning. Ibérica riojana",
+      "nivel": "Naranja",
+      "text": "Ibérica riojana: Moderate wind warning. Ibérica riojana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌊",
       "provincia": "Costa - Levante almeriense",
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate rain warning. Nevada y Alpujarras",
       "nivel": "Naranja",
       "text": "Nevada y Alpujarras: Moderate rain warning. Nevada y Alpujarras (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Costa granadina",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Costa granadina",
-      "nivel": "Naranja",
-      "text": "Costa granadina: Aviso de lluvias de nivel amarillo. Costa granadina (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa granadina",
-      "fenomeno": "Moderate rain warning. Costa granadina",
-      "nivel": "Naranja",
-      "text": "Costa granadina: Moderate rain warning. Costa granadina (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
