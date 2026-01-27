@@ -1,71 +1,39 @@
-// Auto-generado por GitHub Actions - 2026-01-27T17:51:39.140Z
+// Auto-generado por GitHub Actions - 2026-01-27T18:28:23.495Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-01-27T17:51:39.140Z",
+  "generated_at": "2026-01-27T18:28:23.495Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "💨",
-      "provincia": "Valle del Almanzora y Los Vélez",
-      "fenomeno": "Aviso de vientos de nivel naranja. Valle del Almanzora y Los Vélez",
+      "provincia": "Altiplano de Murcia",
+      "fenomeno": "Aviso de vientos de nivel naranja. Altiplano de Murcia",
       "nivel": "Rojo",
-      "text": "Valle del Almanzora y Los Vélez: Aviso de vientos de nivel naranja. Valle del Almanzora y Los Vélez (Rojo) (AEMET)",
+      "text": "Altiplano de Murcia: Aviso de vientos de nivel naranja. Altiplano de Murcia (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Valle del Almanzora y Los Vélez",
-      "fenomeno": "Severe wind warning. Valle del Almanzora y Los Vélez",
+      "provincia": "Altiplano de Murcia",
+      "fenomeno": "Severe wind warning. Altiplano de Murcia",
       "nivel": "Rojo",
-      "text": "Valle del Almanzora y Los Vélez: Severe wind warning. Valle del Almanzora y Los Vélez (Rojo) (AEMET)",
+      "text": "Altiplano de Murcia: Severe wind warning. Altiplano de Murcia (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "💨",
-      "provincia": "Levante almeriense",
-      "fenomeno": "Aviso de vientos de nivel naranja. Levante almeriense",
-      "nivel": "Rojo",
-      "text": "Levante almeriense: Aviso de vientos de nivel naranja. Levante almeriense (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Levante almeriense",
-      "fenomeno": "Severe wind warning. Levante almeriense",
-      "nivel": "Rojo",
-      "text": "Levante almeriense: Severe wind warning. Levante almeriense (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Valle del Almanzora y Los Vélez",
-      "fenomeno": "Aviso de vientos de nivel naranja. Valle del Almanzora y Los Vélez",
-      "nivel": "Rojo",
-      "text": "Valle del Almanzora y Los Vélez: Aviso de vientos de nivel naranja. Valle del Almanzora y Los Vélez (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Valle del Almanzora y Los Vélez",
-      "fenomeno": "Severe wind warning. Valle del Almanzora y Los Vélez",
-      "nivel": "Rojo",
-      "text": "Valle del Almanzora y Los Vélez: Severe wind warning. Valle del Almanzora y Los Vélez (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Valle del Almanzora y Los Vélez",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Valle del Almanzora y Los Vélez",
+      "provincia": "Altiplano de Murcia",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Altiplano de Murcia",
       "nivel": "Naranja",
-      "text": "Valle del Almanzora y Los Vélez: Aviso de vientos de nivel amarillo. Valle del Almanzora y Los Vélez (Naranja) (AEMET)",
+      "text": "Altiplano de Murcia: Aviso de vientos de nivel amarillo. Altiplano de Murcia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Valle del Almanzora y Los Vélez",
-      "fenomeno": "Moderate wind warning. Valle del Almanzora y Los Vélez",
+      "provincia": "Altiplano de Murcia",
+      "fenomeno": "Moderate wind warning. Altiplano de Murcia",
       "nivel": "Naranja",
-      "text": "Valle del Almanzora y Los Vélez: Moderate wind warning. Valle del Almanzora y Los Vélez (Naranja) (AEMET)",
+      "text": "Altiplano de Murcia: Moderate wind warning. Altiplano de Murcia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -86,82 +54,114 @@ window.AEMET_AVISOS = {
     },
     {
       "icon": "💨",
-      "provincia": "Levante almeriense",
-      "fenomeno": "Aviso de vientos de nivel naranja. Levante almeriense",
-      "nivel": "Rojo",
-      "text": "Levante almeriense: Aviso de vientos de nivel naranja. Levante almeriense (Rojo) (AEMET)",
+      "provincia": "Campo de Cartagena y Mazarrón",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Campo de Cartagena y Mazarrón",
+      "nivel": "Naranja",
+      "text": "Campo de Cartagena y Mazarrón: Aviso de vientos de nivel amarillo. Campo de Cartagena y Mazarrón (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Levante almeriense",
-      "fenomeno": "Severe wind warning. Levante almeriense",
-      "nivel": "Rojo",
-      "text": "Levante almeriense: Severe wind warning. Levante almeriense (Rojo) (AEMET)",
+      "provincia": "Campo de Cartagena y Mazarrón",
+      "fenomeno": "Moderate wind warning. Campo de Cartagena y Mazarrón",
+      "nivel": "Naranja",
+      "text": "Campo de Cartagena y Mazarrón: Moderate wind warning. Campo de Cartagena y Mazarrón (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "💨",
-      "provincia": "Guadix y Baza",
-      "fenomeno": "Aviso de vientos de nivel naranja. Guadix y Baza",
+      "provincia": "Campiña gaditana",
+      "fenomeno": "Aviso de vientos de nivel naranja. Campiña gaditana",
       "nivel": "Rojo",
-      "text": "Guadix y Baza: Aviso de vientos de nivel naranja. Guadix y Baza (Rojo) (AEMET)",
+      "text": "Campiña gaditana: Aviso de vientos de nivel naranja. Campiña gaditana (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Guadix y Baza",
-      "fenomeno": "Severe wind warning. Guadix y Baza",
+      "provincia": "Campiña gaditana",
+      "fenomeno": "Severe wind warning. Campiña gaditana",
       "nivel": "Rojo",
-      "text": "Guadix y Baza: Severe wind warning. Guadix y Baza (Rojo) (AEMET)",
+      "text": "Campiña gaditana: Severe wind warning. Campiña gaditana (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Litoral gaditano",
+      "fenomeno": "Aviso de vientos de nivel naranja. Litoral gaditano",
+      "nivel": "Rojo",
+      "text": "Litoral gaditano: Aviso de vientos de nivel naranja. Litoral gaditano (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral gaditano",
+      "fenomeno": "Severe wind warning. Litoral gaditano",
+      "nivel": "Rojo",
+      "text": "Litoral gaditano: Severe wind warning. Litoral gaditano (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "❄️",
-      "provincia": "Nevada y Alpujarras",
-      "fenomeno": "Aviso de vientos de nivel naranja. Nevada y Alpujarras",
+      "provincia": "Meseta de León",
+      "fenomeno": "Aviso de nevadas de nivel naranja. Meseta de León",
       "nivel": "Rojo",
-      "text": "Nevada y Alpujarras: Aviso de vientos de nivel naranja. Nevada y Alpujarras (Rojo) (AEMET)",
+      "text": "Meseta de León: Aviso de nevadas de nivel naranja. Meseta de León (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Meseta de León",
+      "fenomeno": "Severe snow warning. Meseta de León",
+      "nivel": "Rojo",
+      "text": "Meseta de León: Severe snow warning. Meseta de León (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "❄️",
-      "provincia": "Nevada y Alpujarras",
-      "fenomeno": "Severe wind warning. Nevada y Alpujarras",
+      "provincia": "Meseta de Palencia",
+      "fenomeno": "Aviso de nevadas de nivel naranja. Meseta de Palencia",
       "nivel": "Rojo",
-      "text": "Nevada y Alpujarras: Severe wind warning. Nevada y Alpujarras (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Valle del Guadalquivir de Jaén",
-      "fenomeno": "Aviso de vientos de nivel naranja. Valle del Guadalquivir de Jaén",
-      "nivel": "Rojo",
-      "text": "Valle del Guadalquivir de Jaén: Aviso de vientos de nivel naranja. Valle del Guadalquivir de Jaén (Rojo) (AEMET)",
+      "text": "Meseta de Palencia: Aviso de nevadas de nivel naranja. Meseta de Palencia (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Valle del Guadalquivir de Jaén",
-      "fenomeno": "Severe wind warning. Valle del Guadalquivir de Jaén",
+      "provincia": "Meseta de Palencia",
+      "fenomeno": "Severe snow warning. Meseta de Palencia",
       "nivel": "Rojo",
-      "text": "Valle del Guadalquivir de Jaén: Severe wind warning. Valle del Guadalquivir de Jaén (Rojo) (AEMET)",
+      "text": "Meseta de Palencia: Severe snow warning. Meseta de Palencia (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "💨",
-      "provincia": "Noroeste de Murcia",
-      "fenomeno": "Aviso de vientos de nivel naranja. Noroeste de Murcia",
+      "icon": "❄️",
+      "provincia": "Meseta de Zamora",
+      "fenomeno": "Aviso de nevadas de nivel naranja. Meseta de Zamora",
       "nivel": "Rojo",
-      "text": "Noroeste de Murcia: Aviso de vientos de nivel naranja. Noroeste de Murcia (Rojo) (AEMET)",
+      "text": "Meseta de Zamora: Aviso de nevadas de nivel naranja. Meseta de Zamora (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Noroeste de Murcia",
-      "fenomeno": "Severe wind warning. Noroeste de Murcia",
+      "provincia": "Meseta de Zamora",
+      "fenomeno": "Severe snow warning. Meseta de Zamora",
       "nivel": "Rojo",
-      "text": "Noroeste de Murcia: Severe wind warning. Noroeste de Murcia (Rojo) (AEMET)",
+      "text": "Meseta de Zamora: Severe snow warning. Meseta de Zamora (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Meseta de Zamora",
+      "fenomeno": "Aviso de vientos de nivel naranja. Meseta de Zamora",
+      "nivel": "Rojo",
+      "text": "Meseta de Zamora: Aviso de vientos de nivel naranja. Meseta de Zamora (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Meseta de Zamora",
+      "fenomeno": "Severe wind warning. Meseta de Zamora",
+      "nivel": "Rojo",
+      "text": "Meseta de Zamora: Severe wind warning. Meseta de Zamora (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
