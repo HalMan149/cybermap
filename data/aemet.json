@@ -1,8 +1,24 @@
 {
-  "generated_at": "2026-01-27T14:05:37.438Z",
+  "generated_at": "2026-01-27T14:50:05.338Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "💨",
+      "provincia": "Vega del Segura",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Vega del Segura",
+      "nivel": "Naranja",
+      "text": "Vega del Segura: Aviso de vientos de nivel amarillo. Vega del Segura (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Vega del Segura",
+      "fenomeno": "Moderate wind warning. Vega del Segura",
+      "nivel": "Naranja",
+      "text": "Vega del Segura: Moderate wind warning. Vega del Segura (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "💨",
       "provincia": "Levante almeriense",
@@ -133,34 +149,18 @@
     },
     {
       "icon": "💨",
-      "provincia": "Valle del Almanzora y Los Vélez",
-      "fenomeno": "Aviso de vientos de nivel naranja. Valle del Almanzora y Los Vélez",
+      "provincia": "Nacimiento y Campo de Tabernas",
+      "fenomeno": "Aviso de vientos de nivel naranja. Nacimiento y Campo de Tabernas",
       "nivel": "Rojo",
-      "text": "Valle del Almanzora y Los Vélez: Aviso de vientos de nivel naranja. Valle del Almanzora y Los Vélez (Rojo) (AEMET)",
+      "text": "Nacimiento y Campo de Tabernas: Aviso de vientos de nivel naranja. Nacimiento y Campo de Tabernas (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Valle del Almanzora y Los Vélez",
-      "fenomeno": "Severe wind warning. Valle del Almanzora y Los Vélez",
+      "provincia": "Nacimiento y Campo de Tabernas",
+      "fenomeno": "Severe wind warning. Nacimiento y Campo de Tabernas",
       "nivel": "Rojo",
-      "text": "Valle del Almanzora y Los Vélez: Severe wind warning. Valle del Almanzora y Los Vélez (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Poniente y Almería Capital",
-      "fenomeno": "Aviso de vientos de nivel naranja. Poniente y Almería Capital",
-      "nivel": "Rojo",
-      "text": "Poniente y Almería Capital: Aviso de vientos de nivel naranja. Poniente y Almería Capital (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Poniente y Almería Capital",
-      "fenomeno": "Severe wind warning. Poniente y Almería Capital",
-      "nivel": "Rojo",
-      "text": "Poniente y Almería Capital: Severe wind warning. Poniente y Almería Capital (Rojo) (AEMET)",
+      "text": "Nacimiento y Campo de Tabernas: Severe wind warning. Nacimiento y Campo de Tabernas (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
