@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2026-01-27T18:28:23.495Z
+// Auto-generado por GitHub Actions - 2026-01-27T19:03:03.324Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-01-27T18:28:23.495Z",
+  "generated_at": "2026-01-27T19:03:03.324Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "💨",
+      "provincia": "Sierras de Alcudia y Madrona",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Sierras de Alcudia y Madrona",
+      "nivel": "Naranja",
+      "text": "Sierras de Alcudia y Madrona: Aviso de vientos de nivel amarillo. Sierras de Alcudia y Madrona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sierras de Alcudia y Madrona",
+      "fenomeno": "Moderate wind warning. Sierras de Alcudia y Madrona",
+      "nivel": "Naranja",
+      "text": "Sierras de Alcudia y Madrona: Moderate wind warning. Sierras de Alcudia y Madrona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "💨",
       "provincia": "Altiplano de Murcia",
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Severe snow warning. Meseta de Zamora",
       "nivel": "Rojo",
       "text": "Meseta de Zamora: Severe snow warning. Meseta de Zamora (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Meseta de Zamora",
-      "fenomeno": "Aviso de vientos de nivel naranja. Meseta de Zamora",
-      "nivel": "Rojo",
-      "text": "Meseta de Zamora: Aviso de vientos de nivel naranja. Meseta de Zamora (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Meseta de Zamora",
-      "fenomeno": "Severe wind warning. Meseta de Zamora",
-      "nivel": "Rojo",
-      "text": "Meseta de Zamora: Severe wind warning. Meseta de Zamora (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
