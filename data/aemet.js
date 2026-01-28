@@ -1,9 +1,41 @@
-// Auto-generado por GitHub Actions - 2026-01-28T17:18:35.256Z
+// Auto-generado por GitHub Actions - 2026-01-28T17:54:24.356Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-01-28T17:18:35.256Z",
+  "generated_at": "2026-01-28T17:54:24.356Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "❄️",
+      "provincia": "Nevada y Alpujarras",
+      "fenomeno": "Aviso de vientos de nivel naranja. Nevada y Alpujarras",
+      "nivel": "Rojo",
+      "text": "Nevada y Alpujarras: Aviso de vientos de nivel naranja. Nevada y Alpujarras (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Nevada y Alpujarras",
+      "fenomeno": "Severe wind warning. Nevada y Alpujarras",
+      "nivel": "Rojo",
+      "text": "Nevada y Alpujarras: Severe wind warning. Nevada y Alpujarras (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Ronda",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Ronda",
+      "nivel": "Naranja",
+      "text": "Ronda: Aviso de lluvias de nivel amarillo. Ronda (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ronda",
+      "fenomeno": "Moderate rain warning. Ronda",
+      "nivel": "Naranja",
+      "text": "Ronda: Moderate rain warning. Ronda (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Sur de Mallorca",
@@ -54,114 +86,82 @@ window.AEMET_AVISOS = {
     },
     {
       "icon": "❄️",
-      "provincia": "Meseta de Ávila",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Meseta de Ávila",
+      "provincia": "Norte de Cáceres",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Norte de Cáceres",
       "nivel": "Naranja",
-      "text": "Meseta de Ávila: Aviso de nevadas de nivel amarillo. Meseta de Ávila (Naranja) (AEMET)",
+      "text": "Norte de Cáceres: Aviso de nevadas de nivel amarillo. Norte de Cáceres (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Meseta de Ávila",
-      "fenomeno": "Moderate snow warning. Meseta de Ávila",
+      "provincia": "Norte de Cáceres",
+      "fenomeno": "Moderate snow warning. Norte de Cáceres",
       "nivel": "Naranja",
-      "text": "Meseta de Ávila: Moderate snow warning. Meseta de Ávila (Naranja) (AEMET)",
+      "text": "Norte de Cáceres: Moderate snow warning. Norte de Cáceres (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "❄️",
-      "provincia": "Sur de Ávila",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Sur de Ávila",
+      "icon": "💨",
+      "provincia": "Vegas del Guadiana",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Vegas del Guadiana",
       "nivel": "Naranja",
-      "text": "Sur de Ávila: Aviso de nevadas de nivel amarillo. Sur de Ávila (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sur de Ávila",
-      "fenomeno": "Moderate snow warning. Sur de Ávila",
-      "nivel": "Naranja",
-      "text": "Sur de Ávila: Moderate snow warning. Sur de Ávila (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Norte de Burgos",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Norte de Burgos",
-      "nivel": "Naranja",
-      "text": "Norte de Burgos: Aviso de nevadas de nivel amarillo. Norte de Burgos (Naranja) (AEMET)",
+      "text": "Vegas del Guadiana: Aviso de vientos de nivel amarillo. Vegas del Guadiana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Norte de Burgos",
-      "fenomeno": "Moderate snow warning. Norte de Burgos",
+      "provincia": "Vegas del Guadiana",
+      "fenomeno": "Moderate wind warning. Vegas del Guadiana",
       "nivel": "Naranja",
-      "text": "Norte de Burgos: Moderate snow warning. Norte de Burgos (Naranja) (AEMET)",
+      "text": "Vegas del Guadiana: Moderate wind warning. Vegas del Guadiana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "❄️",
-      "provincia": "Meseta de Burgos",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Meseta de Burgos",
+      "icon": "💨",
+      "provincia": "La Siberia extremeña",
+      "fenomeno": "Aviso de vientos de nivel amarillo. La Siberia extremeña",
       "nivel": "Naranja",
-      "text": "Meseta de Burgos: Aviso de nevadas de nivel amarillo. Meseta de Burgos (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Meseta de Burgos",
-      "fenomeno": "Moderate snow warning. Meseta de Burgos",
-      "nivel": "Naranja",
-      "text": "Meseta de Burgos: Moderate snow warning. Meseta de Burgos (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Bierzo de León",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Bierzo de León",
-      "nivel": "Naranja",
-      "text": "Bierzo de León: Aviso de nevadas de nivel amarillo. Bierzo de León (Naranja) (AEMET)",
+      "text": "La Siberia extremeña: Aviso de vientos de nivel amarillo. La Siberia extremeña (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Bierzo de León",
-      "fenomeno": "Moderate snow warning. Bierzo de León",
+      "provincia": "La Siberia extremeña",
+      "fenomeno": "Moderate wind warning. La Siberia extremeña",
       "nivel": "Naranja",
-      "text": "Bierzo de León: Moderate snow warning. Bierzo de León (Naranja) (AEMET)",
+      "text": "La Siberia extremeña: Moderate wind warning. La Siberia extremeña (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "❄️",
-      "provincia": "Meseta de León",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Meseta de León",
+      "icon": "💨",
+      "provincia": "Barros y Serena",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Barros y Serena",
       "nivel": "Naranja",
-      "text": "Meseta de León: Aviso de nevadas de nivel amarillo. Meseta de León (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Meseta de León",
-      "fenomeno": "Moderate snow warning. Meseta de León",
-      "nivel": "Naranja",
-      "text": "Meseta de León: Moderate snow warning. Meseta de León (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Meseta de Palencia",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Meseta de Palencia",
-      "nivel": "Naranja",
-      "text": "Meseta de Palencia: Aviso de nevadas de nivel amarillo. Meseta de Palencia (Naranja) (AEMET)",
+      "text": "Barros y Serena: Aviso de vientos de nivel amarillo. Barros y Serena (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Meseta de Palencia",
-      "fenomeno": "Moderate snow warning. Meseta de Palencia",
+      "provincia": "Barros y Serena",
+      "fenomeno": "Moderate wind warning. Barros y Serena",
       "nivel": "Naranja",
-      "text": "Meseta de Palencia: Moderate snow warning. Meseta de Palencia (Naranja) (AEMET)",
+      "text": "Barros y Serena: Moderate wind warning. Barros y Serena (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Sur de Badajoz",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Sur de Badajoz",
+      "nivel": "Naranja",
+      "text": "Sur de Badajoz: Aviso de vientos de nivel amarillo. Sur de Badajoz (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sur de Badajoz",
+      "fenomeno": "Moderate wind warning. Sur de Badajoz",
+      "nivel": "Naranja",
+      "text": "Sur de Badajoz: Moderate wind warning. Sur de Badajoz (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
