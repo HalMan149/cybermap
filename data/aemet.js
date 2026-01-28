@@ -1,119 +1,87 @@
-// Auto-generado por GitHub Actions - 2026-01-28T10:23:54.352Z
+// Auto-generado por GitHub Actions - 2026-01-28T10:53:11.737Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-01-28T10:23:54.352Z",
+  "generated_at": "2026-01-28T10:53:11.737Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "❄️",
-      "provincia": "Pirineo oscense",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Pirineo oscense",
-      "nivel": "Naranja",
-      "text": "Pirineo oscense: Aviso de nevadas de nivel amarillo. Pirineo oscense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Pirineo oscense",
-      "fenomeno": "Moderate snow warning. Pirineo oscense",
-      "nivel": "Naranja",
-      "text": "Pirineo oscense: Moderate snow warning. Pirineo oscense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Albarracín y Jiloca",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Albarracín y Jiloca",
-      "nivel": "Naranja",
-      "text": "Albarracín y Jiloca: Aviso de nevadas de nivel amarillo. Albarracín y Jiloca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Albarracín y Jiloca",
-      "fenomeno": "Moderate snow warning. Albarracín y Jiloca",
-      "nivel": "Naranja",
-      "text": "Albarracín y Jiloca: Moderate snow warning. Albarracín y Jiloca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
+      "icon": "💨",
       "provincia": "Gúdar y Maestrazgo",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Gúdar y Maestrazgo",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Gúdar y Maestrazgo",
       "nivel": "Naranja",
-      "text": "Gúdar y Maestrazgo: Aviso de nevadas de nivel amarillo. Gúdar y Maestrazgo (Naranja) (AEMET)",
+      "text": "Gúdar y Maestrazgo: Aviso de vientos de nivel amarillo. Gúdar y Maestrazgo (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
       "provincia": "Gúdar y Maestrazgo",
-      "fenomeno": "Moderate snow warning. Gúdar y Maestrazgo",
+      "fenomeno": "Moderate wind warning. Gúdar y Maestrazgo",
       "nivel": "Naranja",
-      "text": "Gúdar y Maestrazgo: Moderate snow warning. Gúdar y Maestrazgo (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Interior norte de Valencia",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Interior norte de Valencia",
-      "nivel": "Naranja",
-      "text": "Interior norte de Valencia: Aviso de nevadas de nivel amarillo. Interior norte de Valencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior norte de Valencia",
-      "fenomeno": "Moderate snow warning. Interior norte de Valencia",
-      "nivel": "Naranja",
-      "text": "Interior norte de Valencia: Moderate snow warning. Interior norte de Valencia (Naranja) (AEMET)",
+      "text": "Gúdar y Maestrazgo: Moderate wind warning. Gúdar y Maestrazgo (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "💨",
-      "provincia": "Interior de Alicante",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Interior de Alicante",
+      "provincia": "Prelitoral norte de Tarragona",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Prelitoral norte de Tarragona",
       "nivel": "Naranja",
-      "text": "Interior de Alicante: Aviso de vientos de nivel amarillo. Interior de Alicante (Naranja) (AEMET)",
+      "text": "Prelitoral norte de Tarragona: Aviso de vientos de nivel amarillo. Prelitoral norte de Tarragona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Interior de Alicante",
-      "fenomeno": "Moderate wind warning. Interior de Alicante",
+      "provincia": "Prelitoral norte de Tarragona",
+      "fenomeno": "Moderate wind warning. Prelitoral norte de Tarragona",
       "nivel": "Naranja",
-      "text": "Interior de Alicante: Moderate wind warning. Interior de Alicante (Naranja) (AEMET)",
+      "text": "Prelitoral norte de Tarragona: Moderate wind warning. Prelitoral norte de Tarragona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "💨",
-      "provincia": "Interior norte de Valencia",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Interior norte de Valencia",
+      "provincia": "Litoral norte de Tarragona",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Litoral norte de Tarragona",
       "nivel": "Naranja",
-      "text": "Interior norte de Valencia: Aviso de vientos de nivel amarillo. Interior norte de Valencia (Naranja) (AEMET)",
+      "text": "Litoral norte de Tarragona: Aviso de vientos de nivel amarillo. Litoral norte de Tarragona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Interior norte de Valencia",
-      "fenomeno": "Moderate wind warning. Interior norte de Valencia",
+      "provincia": "Litoral norte de Tarragona",
+      "fenomeno": "Moderate wind warning. Litoral norte de Tarragona",
       "nivel": "Naranja",
-      "text": "Interior norte de Valencia: Moderate wind warning. Interior norte de Valencia (Naranja) (AEMET)",
+      "text": "Litoral norte de Tarragona: Moderate wind warning. Litoral norte de Tarragona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "💨",
-      "provincia": "Interior sur de Valencia",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Interior sur de Valencia",
+      "provincia": "Prelitoral sur de Tarragona",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Prelitoral sur de Tarragona",
       "nivel": "Naranja",
-      "text": "Interior sur de Valencia: Aviso de vientos de nivel amarillo. Interior sur de Valencia (Naranja) (AEMET)",
+      "text": "Prelitoral sur de Tarragona: Aviso de vientos de nivel amarillo. Prelitoral sur de Tarragona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Interior sur de Valencia",
-      "fenomeno": "Moderate wind warning. Interior sur de Valencia",
+      "provincia": "Prelitoral sur de Tarragona",
+      "fenomeno": "Moderate wind warning. Prelitoral sur de Tarragona",
       "nivel": "Naranja",
-      "text": "Interior sur de Valencia: Moderate wind warning. Interior sur de Valencia (Naranja) (AEMET)",
+      "text": "Prelitoral sur de Tarragona: Moderate wind warning. Prelitoral sur de Tarragona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Litoral sur de Valencia",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Litoral sur de Valencia",
+      "nivel": "Naranja",
+      "text": "Litoral sur de Valencia: Aviso de vientos de nivel amarillo. Litoral sur de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral sur de Valencia",
+      "fenomeno": "Moderate wind warning. Litoral sur de Valencia",
+      "nivel": "Naranja",
+      "text": "Litoral sur de Valencia: Moderate wind warning. Litoral sur de Valencia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -133,35 +101,67 @@ window.AEMET_AVISOS = {
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral norte de Alicante",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral norte de Alicante",
+      "icon": "💨",
+      "provincia": "Interior norte de Castellón",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Interior norte de Castellón",
       "nivel": "Naranja",
-      "text": "Costa - Litoral norte de Alicante: Aviso de costeros de nivel amarillo. Costa - Litoral norte de Alicante (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral norte de Alicante",
-      "fenomeno": "Moderate coastalevent warning. Costa - Litoral norte de Alicante",
-      "nivel": "Naranja",
-      "text": "Costa - Litoral norte de Alicante: Moderate coastalevent warning. Costa - Litoral norte de Alicante (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Alcarria de Guadalajara",
-      "fenomeno": "Aviso de nevadas de nivel naranja. Alcarria de Guadalajara",
-      "nivel": "Rojo",
-      "text": "Alcarria de Guadalajara: Aviso de nevadas de nivel naranja. Alcarria de Guadalajara (Rojo) (AEMET)",
+      "text": "Interior norte de Castellón: Aviso de vientos de nivel amarillo. Interior norte de Castellón (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Alcarria de Guadalajara",
-      "fenomeno": "Severe snow warning. Alcarria de Guadalajara",
+      "provincia": "Interior norte de Castellón",
+      "fenomeno": "Moderate wind warning. Interior norte de Castellón",
+      "nivel": "Naranja",
+      "text": "Interior norte de Castellón: Moderate wind warning. Interior norte de Castellón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Interior sur de Castellón",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Interior sur de Castellón",
+      "nivel": "Naranja",
+      "text": "Interior sur de Castellón: Aviso de vientos de nivel amarillo. Interior sur de Castellón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior sur de Castellón",
+      "fenomeno": "Moderate wind warning. Interior sur de Castellón",
+      "nivel": "Naranja",
+      "text": "Interior sur de Castellón: Moderate wind warning. Interior sur de Castellón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Guadix y Baza",
+      "fenomeno": "Aviso de vientos de nivel naranja. Guadix y Baza",
       "nivel": "Rojo",
-      "text": "Alcarria de Guadalajara: Severe snow warning. Alcarria de Guadalajara (Rojo) (AEMET)",
+      "text": "Guadix y Baza: Aviso de vientos de nivel naranja. Guadix y Baza (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Guadix y Baza",
+      "fenomeno": "Severe wind warning. Guadix y Baza",
+      "nivel": "Rojo",
+      "text": "Guadix y Baza: Severe wind warning. Guadix y Baza (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Valle del Almanzora y Los Vélez",
+      "fenomeno": "Aviso de vientos de nivel naranja. Valle del Almanzora y Los Vélez",
+      "nivel": "Rojo",
+      "text": "Valle del Almanzora y Los Vélez: Aviso de vientos de nivel naranja. Valle del Almanzora y Los Vélez (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Valle del Almanzora y Los Vélez",
+      "fenomeno": "Severe wind warning. Valle del Almanzora y Los Vélez",
+      "nivel": "Rojo",
+      "text": "Valle del Almanzora y Los Vélez: Severe wind warning. Valle del Almanzora y Los Vélez (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
