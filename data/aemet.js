@@ -1,9 +1,73 @@
-// Auto-generado por GitHub Actions - 2026-01-28T07:29:40.201Z
+// Auto-generado por GitHub Actions - 2026-01-28T07:48:40.050Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-01-28T07:29:40.201Z",
+  "generated_at": "2026-01-28T07:48:40.050Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "💨",
+      "provincia": "Meseta cacereña",
+      "fenomeno": "Aviso de vientos de nivel rojo. Meseta cacereña",
+      "nivel": "Rojo",
+      "text": "Meseta cacereña: Aviso de vientos de nivel rojo. Meseta cacereña (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Meseta cacereña",
+      "fenomeno": "Extreme wind warning. Meseta cacereña",
+      "nivel": "Rojo",
+      "text": "Meseta cacereña: Extreme wind warning. Meseta cacereña (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Villuercas y Montánchez",
+      "fenomeno": "Aviso de vientos de nivel rojo. Villuercas y Montánchez",
+      "nivel": "Rojo",
+      "text": "Villuercas y Montánchez: Aviso de vientos de nivel rojo. Villuercas y Montánchez (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Villuercas y Montánchez",
+      "fenomeno": "Extreme wind warning. Villuercas y Montánchez",
+      "nivel": "Rojo",
+      "text": "Villuercas y Montánchez: Extreme wind warning. Villuercas y Montánchez (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Meseta cacereña",
+      "fenomeno": "Aviso de vientos de nivel naranja. Meseta cacereña",
+      "nivel": "Rojo",
+      "text": "Meseta cacereña: Aviso de vientos de nivel naranja. Meseta cacereña (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Meseta cacereña",
+      "fenomeno": "Severe wind warning. Meseta cacereña",
+      "nivel": "Rojo",
+      "text": "Meseta cacereña: Severe wind warning. Meseta cacereña (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Villuercas y Montánchez",
+      "fenomeno": "Aviso de vientos de nivel naranja. Villuercas y Montánchez",
+      "nivel": "Rojo",
+      "text": "Villuercas y Montánchez: Aviso de vientos de nivel naranja. Villuercas y Montánchez (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Villuercas y Montánchez",
+      "fenomeno": "Severe wind warning. Villuercas y Montánchez",
+      "nivel": "Rojo",
+      "text": "Villuercas y Montánchez: Severe wind warning. Villuercas y Montánchez (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "💨",
       "provincia": "Sur de Badajoz",
@@ -54,22 +118,6 @@ window.AEMET_AVISOS = {
     },
     {
       "icon": "❄️",
-      "provincia": "Meseta de Burgos",
-      "fenomeno": "Aviso de nevadas de nivel naranja. Meseta de Burgos",
-      "nivel": "Rojo",
-      "text": "Meseta de Burgos: Aviso de nevadas de nivel naranja. Meseta de Burgos (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Meseta de Burgos",
-      "fenomeno": "Severe snow warning. Meseta de Burgos",
-      "nivel": "Rojo",
-      "text": "Meseta de Burgos: Severe snow warning. Meseta de Burgos (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
       "provincia": "Meseta de Palencia",
       "fenomeno": "Aviso de nevadas de nivel naranja. Meseta de Palencia",
       "nivel": "Rojo",
@@ -82,38 +130,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Severe snow warning. Meseta de Palencia",
       "nivel": "Rojo",
       "text": "Meseta de Palencia: Severe snow warning. Meseta de Palencia (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Meseta de Salamanca",
-      "fenomeno": "Aviso de vientos de nivel naranja. Meseta de Salamanca",
-      "nivel": "Rojo",
-      "text": "Meseta de Salamanca: Aviso de vientos de nivel naranja. Meseta de Salamanca (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Meseta de Salamanca",
-      "fenomeno": "Severe wind warning. Meseta de Salamanca",
-      "nivel": "Rojo",
-      "text": "Meseta de Salamanca: Severe wind warning. Meseta de Salamanca (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Sur de Salamanca",
-      "fenomeno": "Aviso de vientos de nivel naranja. Sur de Salamanca",
-      "nivel": "Rojo",
-      "text": "Sur de Salamanca: Aviso de vientos de nivel naranja. Sur de Salamanca (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sur de Salamanca",
-      "fenomeno": "Severe wind warning. Sur de Salamanca",
-      "nivel": "Rojo",
-      "text": "Sur de Salamanca: Severe wind warning. Sur de Salamanca (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate snow warning. Sistema Central de Soria",
       "nivel": "Naranja",
       "text": "Sistema Central de Soria: Moderate snow warning. Sistema Central de Soria (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Meseta de Soria",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Meseta de Soria",
-      "nivel": "Naranja",
-      "text": "Meseta de Soria: Aviso de vientos de nivel amarillo. Meseta de Soria (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Meseta de Soria",
-      "fenomeno": "Moderate wind warning. Meseta de Soria",
-      "nivel": "Naranja",
-      "text": "Meseta de Soria: Moderate wind warning. Meseta de Soria (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
