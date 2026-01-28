@@ -1,9 +1,57 @@
-// Auto-generado por GitHub Actions - 2026-01-28T09:56:21.934Z
+// Auto-generado por GitHub Actions - 2026-01-28T10:23:54.352Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-01-28T09:56:21.934Z",
+  "generated_at": "2026-01-28T10:23:54.352Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "❄️",
+      "provincia": "Pirineo oscense",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Pirineo oscense",
+      "nivel": "Naranja",
+      "text": "Pirineo oscense: Aviso de nevadas de nivel amarillo. Pirineo oscense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Pirineo oscense",
+      "fenomeno": "Moderate snow warning. Pirineo oscense",
+      "nivel": "Naranja",
+      "text": "Pirineo oscense: Moderate snow warning. Pirineo oscense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Albarracín y Jiloca",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Albarracín y Jiloca",
+      "nivel": "Naranja",
+      "text": "Albarracín y Jiloca: Aviso de nevadas de nivel amarillo. Albarracín y Jiloca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Albarracín y Jiloca",
+      "fenomeno": "Moderate snow warning. Albarracín y Jiloca",
+      "nivel": "Naranja",
+      "text": "Albarracín y Jiloca: Moderate snow warning. Albarracín y Jiloca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Gúdar y Maestrazgo",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Gúdar y Maestrazgo",
+      "nivel": "Naranja",
+      "text": "Gúdar y Maestrazgo: Aviso de nevadas de nivel amarillo. Gúdar y Maestrazgo (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Gúdar y Maestrazgo",
+      "fenomeno": "Moderate snow warning. Gúdar y Maestrazgo",
+      "nivel": "Naranja",
+      "text": "Gúdar y Maestrazgo: Moderate snow warning. Gúdar y Maestrazgo (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "❄️",
       "provincia": "Interior norte de Valencia",
@@ -114,54 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Severe snow warning. Alcarria de Guadalajara",
       "nivel": "Rojo",
       "text": "Alcarria de Guadalajara: Severe snow warning. Alcarria de Guadalajara (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Alcarria conquense",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Alcarria conquense",
-      "nivel": "Naranja",
-      "text": "Alcarria conquense: Aviso de nevadas de nivel amarillo. Alcarria conquense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Alcarria conquense",
-      "fenomeno": "Moderate snow warning. Alcarria conquense",
-      "nivel": "Naranja",
-      "text": "Alcarria conquense: Moderate snow warning. Alcarria conquense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Sierra de Madrid",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Sierra de Madrid",
-      "nivel": "Naranja",
-      "text": "Sierra de Madrid: Aviso de lluvias de nivel amarillo. Sierra de Madrid (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sierra de Madrid",
-      "fenomeno": "Moderate rain warning. Sierra de Madrid",
-      "nivel": "Naranja",
-      "text": "Sierra de Madrid: Moderate rain warning. Sierra de Madrid (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Meseta de León",
-      "fenomeno": "Aviso de nevadas de nivel naranja. Meseta de León",
-      "nivel": "Rojo",
-      "text": "Meseta de León: Aviso de nevadas de nivel naranja. Meseta de León (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Meseta de León",
-      "fenomeno": "Severe snow warning. Meseta de León",
-      "nivel": "Rojo",
-      "text": "Meseta de León: Severe snow warning. Meseta de León (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
