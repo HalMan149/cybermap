@@ -1,8 +1,40 @@
 {
-  "generated_at": "2026-01-28T06:26:16.758Z",
+  "generated_at": "2026-01-28T06:59:07.519Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "💨",
+      "provincia": "Norte de Cáceres",
+      "fenomeno": "Aviso de vientos de nivel naranja. Norte de Cáceres",
+      "nivel": "Rojo",
+      "text": "Norte de Cáceres: Aviso de vientos de nivel naranja. Norte de Cáceres (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Norte de Cáceres",
+      "fenomeno": "Severe wind warning. Norte de Cáceres",
+      "nivel": "Rojo",
+      "text": "Norte de Cáceres: Severe wind warning. Norte de Cáceres (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Tajo y Alagón",
+      "fenomeno": "Aviso de vientos de nivel naranja. Tajo y Alagón",
+      "nivel": "Rojo",
+      "text": "Tajo y Alagón: Aviso de vientos de nivel naranja. Tajo y Alagón (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Tajo y Alagón",
+      "fenomeno": "Severe wind warning. Tajo y Alagón",
+      "nivel": "Rojo",
+      "text": "Tajo y Alagón: Severe wind warning. Tajo y Alagón (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "❄️",
       "provincia": "Meseta de Burgos",
@@ -129,38 +161,6 @@
       "fenomeno": "Severe snow warning. Bierzo de León",
       "nivel": "Rojo",
       "text": "Bierzo de León: Severe snow warning. Bierzo de León (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Meseta de León",
-      "fenomeno": "Aviso de nevadas de nivel naranja. Meseta de León",
-      "nivel": "Rojo",
-      "text": "Meseta de León: Aviso de nevadas de nivel naranja. Meseta de León (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Meseta de León",
-      "fenomeno": "Severe snow warning. Meseta de León",
-      "nivel": "Rojo",
-      "text": "Meseta de León: Severe snow warning. Meseta de León (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Meseta de Zamora",
-      "fenomeno": "Aviso de nevadas de nivel naranja. Meseta de Zamora",
-      "nivel": "Rojo",
-      "text": "Meseta de Zamora: Aviso de nevadas de nivel naranja. Meseta de Zamora (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Meseta de Zamora",
-      "fenomeno": "Severe snow warning. Meseta de Zamora",
-      "nivel": "Rojo",
-      "text": "Meseta de Zamora: Severe snow warning. Meseta de Zamora (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
