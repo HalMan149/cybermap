@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2026-01-28T06:59:07.519Z
+// Auto-generado por GitHub Actions - 2026-01-28T07:29:40.201Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-01-28T06:59:07.519Z",
+  "generated_at": "2026-01-28T07:29:40.201Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "💨",
+      "provincia": "Sur de Badajoz",
+      "fenomeno": "Aviso de vientos de nivel naranja. Sur de Badajoz",
+      "nivel": "Rojo",
+      "text": "Sur de Badajoz: Aviso de vientos de nivel naranja. Sur de Badajoz (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sur de Badajoz",
+      "fenomeno": "Severe wind warning. Sur de Badajoz",
+      "nivel": "Rojo",
+      "text": "Sur de Badajoz: Severe wind warning. Sur de Badajoz (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "💨",
       "provincia": "Norte de Cáceres",
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate wind warning. Meseta de Soria",
       "nivel": "Naranja",
       "text": "Meseta de Soria: Moderate wind warning. Meseta de Soria (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Bierzo de León",
-      "fenomeno": "Aviso de nevadas de nivel naranja. Bierzo de León",
-      "nivel": "Rojo",
-      "text": "Bierzo de León: Aviso de nevadas de nivel naranja. Bierzo de León (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Bierzo de León",
-      "fenomeno": "Severe snow warning. Bierzo de León",
-      "nivel": "Rojo",
-      "text": "Bierzo de León: Severe snow warning. Bierzo de León (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
