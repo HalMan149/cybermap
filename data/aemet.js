@@ -1,9 +1,41 @@
-// Auto-generado por GitHub Actions - 2026-01-29T21:48:45.687Z
+// Auto-generado por GitHub Actions - 2026-01-29T22:20:13.169Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-01-29T21:48:45.687Z",
+  "generated_at": "2026-01-29T22:20:13.169Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "💨",
+      "provincia": "Litoral cántabro",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Litoral cántabro",
+      "nivel": "Naranja",
+      "text": "Litoral cántabro: Aviso de vientos de nivel amarillo. Litoral cántabro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral cántabro",
+      "fenomeno": "Moderate wind warning. Litoral cántabro",
+      "nivel": "Naranja",
+      "text": "Litoral cántabro: Moderate wind warning. Litoral cántabro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Bizkaia litoral",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Bizkaia litoral",
+      "nivel": "Naranja",
+      "text": "Bizkaia litoral: Aviso de vientos de nivel amarillo. Bizkaia litoral (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Bizkaia litoral",
+      "fenomeno": "Moderate wind warning. Bizkaia litoral",
+      "nivel": "Naranja",
+      "text": "Bizkaia litoral: Moderate wind warning. Bizkaia litoral (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "💨",
       "provincia": "Interior de Alicante",
@@ -130,38 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate wind warning. Litoral sur de Alicante",
       "nivel": "Naranja",
       "text": "Litoral sur de Alicante: Moderate wind warning. Litoral sur de Alicante (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Litoral sur de Valencia",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Litoral sur de Valencia",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Valencia: Aviso de vientos de nivel amarillo. Litoral sur de Valencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral sur de Valencia",
-      "fenomeno": "Moderate wind warning. Litoral sur de Valencia",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Valencia: Moderate wind warning. Litoral sur de Valencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Alcaraz y Segura",
-      "fenomeno": "Aviso de vientos de nivel naranja. Alcaraz y Segura",
-      "nivel": "Rojo",
-      "text": "Alcaraz y Segura: Aviso de vientos de nivel naranja. Alcaraz y Segura (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Alcaraz y Segura",
-      "fenomeno": "Severe wind warning. Alcaraz y Segura",
-      "nivel": "Rojo",
-      "text": "Alcaraz y Segura: Severe wind warning. Alcaraz y Segura (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
