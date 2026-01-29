@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2026-01-29T13:44:15.474Z
+// Auto-generado por GitHub Actions - 2026-01-29T14:26:35.276Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-01-29T13:44:15.474Z",
+  "generated_at": "2026-01-29T14:26:35.276Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Villuercas y Montánchez",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Villuercas y Montánchez",
+      "nivel": "Naranja",
+      "text": "Villuercas y Montánchez: Aviso de lluvias de nivel amarillo. Villuercas y Montánchez (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Villuercas y Montánchez",
+      "fenomeno": "Moderate rain warning. Villuercas y Montánchez",
+      "nivel": "Naranja",
+      "text": "Villuercas y Montánchez: Moderate rain warning. Villuercas y Montánchez (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌊",
       "provincia": "Costa - Noroeste de A Coruña",
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Severe wind warning. Cazorla y Segura",
       "nivel": "Rojo",
       "text": "Cazorla y Segura: Severe wind warning. Cazorla y Segura (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Alcaraz y Segura",
-      "fenomeno": "Aviso de vientos de nivel naranja. Alcaraz y Segura",
-      "nivel": "Rojo",
-      "text": "Alcaraz y Segura: Aviso de vientos de nivel naranja. Alcaraz y Segura (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Alcaraz y Segura",
-      "fenomeno": "Severe wind warning. Alcaraz y Segura",
-      "nivel": "Rojo",
-      "text": "Alcaraz y Segura: Severe wind warning. Alcaraz y Segura (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
