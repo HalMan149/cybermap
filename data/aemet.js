@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-01-30T17:51:20.181Z
+// Auto-generado por GitHub Actions - 2026-01-30T18:31:29.193Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-01-30T17:51:20.181Z",
+  "generated_at": "2026-01-30T18:31:29.193Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "❄️",
-      "provincia": "Valle de Arán",
-      "fenomeno": "Aviso de nevadas de nivel naranja. Valle de Arán",
-      "nivel": "Rojo",
-      "text": "Valle de Arán: Aviso de nevadas de nivel naranja. Valle de Arán (Rojo) (AEMET)",
+      "icon": "🌧️",
+      "provincia": "Oeste de A Coruña",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Oeste de A Coruña",
+      "nivel": "Naranja",
+      "text": "Oeste de A Coruña: Aviso de lluvias de nivel amarillo. Oeste de A Coruña (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Valle de Arán",
-      "fenomeno": "Severe snow warning. Valle de Arán",
-      "nivel": "Rojo",
-      "text": "Valle de Arán: Severe snow warning. Valle de Arán (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Litoral sur de Castellón",
-      "fenomeno": "Aviso de vientos de nivel naranja. Litoral sur de Castellón",
-      "nivel": "Rojo",
-      "text": "Litoral sur de Castellón: Aviso de vientos de nivel naranja. Litoral sur de Castellón (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral sur de Castellón",
-      "fenomeno": "Severe wind warning. Litoral sur de Castellón",
-      "nivel": "Rojo",
-      "text": "Litoral sur de Castellón: Severe wind warning. Litoral sur de Castellón (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Interior sur de Valencia",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Interior sur de Valencia",
+      "provincia": "Oeste de A Coruña",
+      "fenomeno": "Moderate rain warning. Oeste de A Coruña",
       "nivel": "Naranja",
-      "text": "Interior sur de Valencia: Aviso de vientos de nivel amarillo. Interior sur de Valencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior sur de Valencia",
-      "fenomeno": "Moderate wind warning. Interior sur de Valencia",
-      "nivel": "Naranja",
-      "text": "Interior sur de Valencia: Moderate wind warning. Interior sur de Valencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Litoral sur de Valencia",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Litoral sur de Valencia",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Valencia: Aviso de vientos de nivel amarillo. Litoral sur de Valencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral sur de Valencia",
-      "fenomeno": "Moderate wind warning. Litoral sur de Valencia",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Valencia: Moderate wind warning. Litoral sur de Valencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Litoral sur de Castellón",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Litoral sur de Castellón",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Castellón: Aviso de vientos de nivel amarillo. Litoral sur de Castellón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral sur de Castellón",
-      "fenomeno": "Moderate wind warning. Litoral sur de Castellón",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Castellón: Moderate wind warning. Litoral sur de Castellón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Cazorla y Segura",
-      "fenomeno": "Aviso de vientos de nivel naranja. Cazorla y Segura",
-      "nivel": "Rojo",
-      "text": "Cazorla y Segura: Aviso de vientos de nivel naranja. Cazorla y Segura (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cazorla y Segura",
-      "fenomeno": "Severe wind warning. Cazorla y Segura",
-      "nivel": "Rojo",
-      "text": "Cazorla y Segura: Severe wind warning. Cazorla y Segura (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Cazorla y Segura",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Cazorla y Segura",
-      "nivel": "Naranja",
-      "text": "Cazorla y Segura: Aviso de vientos de nivel amarillo. Cazorla y Segura (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cazorla y Segura",
-      "fenomeno": "Moderate wind warning. Cazorla y Segura",
-      "nivel": "Naranja",
-      "text": "Cazorla y Segura: Moderate wind warning. Cazorla y Segura (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Sierra de Madrid",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Sierra de Madrid",
-      "nivel": "Naranja",
-      "text": "Sierra de Madrid: Aviso de nevadas de nivel amarillo. Sierra de Madrid (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sierra de Madrid",
-      "fenomeno": "Moderate snow warning. Sierra de Madrid",
-      "nivel": "Naranja",
-      "text": "Sierra de Madrid: Moderate snow warning. Sierra de Madrid (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Parameras de Molina",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Parameras de Molina",
-      "nivel": "Naranja",
-      "text": "Parameras de Molina: Aviso de vientos de nivel amarillo. Parameras de Molina (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Parameras de Molina",
-      "fenomeno": "Moderate wind warning. Parameras de Molina",
-      "nivel": "Naranja",
-      "text": "Parameras de Molina: Moderate wind warning. Parameras de Molina (Naranja) (AEMET)",
+      "text": "Oeste de A Coruña: Moderate rain warning. Oeste de A Coruña (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Alcarria conquense",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Alcarria conquense",
+      "provincia": "Suroeste de A Coruña",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Suroeste de A Coruña",
       "nivel": "Naranja",
-      "text": "Alcarria conquense: Aviso de lluvias de nivel amarillo. Alcarria conquense (Naranja) (AEMET)",
+      "text": "Suroeste de A Coruña: Aviso de lluvias de nivel amarillo. Suroeste de A Coruña (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Alcarria conquense",
-      "fenomeno": "Moderate rain warning. Alcarria conquense",
+      "provincia": "Suroeste de A Coruña",
+      "fenomeno": "Moderate rain warning. Suroeste de A Coruña",
       "nivel": "Naranja",
-      "text": "Alcarria conquense: Moderate rain warning. Alcarria conquense (Naranja) (AEMET)",
+      "text": "Suroeste de A Coruña: Moderate rain warning. Suroeste de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Rias Baixas",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Rias Baixas",
+      "nivel": "Naranja",
+      "text": "Rias Baixas: Aviso de lluvias de nivel amarillo. Rias Baixas (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Rias Baixas",
+      "fenomeno": "Moderate rain warning. Rias Baixas",
+      "nivel": "Naranja",
+      "text": "Rias Baixas: Moderate rain warning. Rias Baixas (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Interior de Pontevedra",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Interior de Pontevedra",
+      "nivel": "Naranja",
+      "text": "Interior de Pontevedra: Aviso de lluvias de nivel amarillo. Interior de Pontevedra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior de Pontevedra",
+      "fenomeno": "Moderate rain warning. Interior de Pontevedra",
+      "nivel": "Naranja",
+      "text": "Interior de Pontevedra: Moderate rain warning. Interior de Pontevedra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Miño de Pontevedra",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Miño de Pontevedra",
+      "nivel": "Naranja",
+      "text": "Miño de Pontevedra: Aviso de lluvias de nivel amarillo. Miño de Pontevedra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Miño de Pontevedra",
+      "fenomeno": "Moderate rain warning. Miño de Pontevedra",
+      "nivel": "Naranja",
+      "text": "Miño de Pontevedra: Moderate rain warning. Miño de Pontevedra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Sur de Ávila",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Sur de Ávila",
+      "nivel": "Naranja",
+      "text": "Sur de Ávila: Aviso de lluvias de nivel amarillo. Sur de Ávila (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sur de Ávila",
+      "fenomeno": "Moderate rain warning. Sur de Ávila",
+      "nivel": "Naranja",
+      "text": "Sur de Ávila: Moderate rain warning. Sur de Ávila (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Norte de Cáceres",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Norte de Cáceres",
+      "nivel": "Naranja",
+      "text": "Norte de Cáceres: Aviso de lluvias de nivel amarillo. Norte de Cáceres (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Norte de Cáceres",
+      "fenomeno": "Moderate rain warning. Norte de Cáceres",
+      "nivel": "Naranja",
+      "text": "Norte de Cáceres: Moderate rain warning. Norte de Cáceres (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Alcaraz y Segura",
+      "fenomeno": "Aviso de vientos de nivel naranja. Alcaraz y Segura",
+      "nivel": "Rojo",
+      "text": "Alcaraz y Segura: Aviso de vientos de nivel naranja. Alcaraz y Segura (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Alcaraz y Segura",
+      "fenomeno": "Severe wind warning. Alcaraz y Segura",
+      "nivel": "Rojo",
+      "text": "Alcaraz y Segura: Severe wind warning. Alcaraz y Segura (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Alcaraz y Segura",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Alcaraz y Segura",
+      "nivel": "Naranja",
+      "text": "Alcaraz y Segura: Aviso de vientos de nivel amarillo. Alcaraz y Segura (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Alcaraz y Segura",
+      "fenomeno": "Moderate wind warning. Alcaraz y Segura",
+      "nivel": "Naranja",
+      "text": "Alcaraz y Segura: Moderate wind warning. Alcaraz y Segura (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Ibiza y Formentera",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Ibiza y Formentera",
+      "nivel": "Naranja",
+      "text": "Ibiza y Formentera: Aviso de tormentas de nivel amarillo. Ibiza y Formentera (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ibiza y Formentera",
+      "fenomeno": "Moderate thunderstorm warning. Ibiza y Formentera",
+      "nivel": "Naranja",
+      "text": "Ibiza y Formentera: Moderate thunderstorm warning. Ibiza y Formentera (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
