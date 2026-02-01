@@ -1,8 +1,40 @@
 {
-  "generated_at": "2026-02-01T22:48:50.677Z",
+  "generated_at": "2026-02-01T23:17:32.824Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "❄️",
+      "provincia": "Sanabria",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Sanabria",
+      "nivel": "Naranja",
+      "text": "Sanabria: Aviso de nevadas de nivel amarillo. Sanabria (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sanabria",
+      "fenomeno": "Moderate snow warning. Sanabria",
+      "nivel": "Naranja",
+      "text": "Sanabria: Moderate snow warning. Sanabria (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Montaña de Ourense",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Montaña de Ourense",
+      "nivel": "Naranja",
+      "text": "Montaña de Ourense: Aviso de nevadas de nivel amarillo. Montaña de Ourense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Montaña de Ourense",
+      "fenomeno": "Moderate snow warning. Montaña de Ourense",
+      "nivel": "Naranja",
+      "text": "Montaña de Ourense: Moderate snow warning. Montaña de Ourense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "💨",
       "provincia": "Valle del Almanzora y Los Vélez",
@@ -129,38 +161,6 @@
       "fenomeno": "Moderate wind warning. Cantabria del Ebro",
       "nivel": "Naranja",
       "text": "Cantabria del Ebro: Moderate wind warning. Cantabria del Ebro (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Oeste de A Coruña",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Oeste de A Coruña",
-      "nivel": "Naranja",
-      "text": "Oeste de A Coruña: Aviso de lluvias de nivel amarillo. Oeste de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Oeste de A Coruña",
-      "fenomeno": "Moderate rain warning. Oeste de A Coruña",
-      "nivel": "Naranja",
-      "text": "Oeste de A Coruña: Moderate rain warning. Oeste de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Suroeste de A Coruña",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Suroeste de A Coruña",
-      "nivel": "Naranja",
-      "text": "Suroeste de A Coruña: Aviso de lluvias de nivel amarillo. Suroeste de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Suroeste de A Coruña",
-      "fenomeno": "Moderate rain warning. Suroeste de A Coruña",
-      "nivel": "Naranja",
-      "text": "Suroeste de A Coruña: Moderate rain warning. Suroeste de A Coruña (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
