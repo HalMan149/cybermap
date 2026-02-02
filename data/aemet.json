@@ -1,8 +1,40 @@
 {
-  "generated_at": "2026-02-02T07:37:24.377Z",
+  "generated_at": "2026-02-02T08:06:04.502Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "💨",
+      "provincia": "A Mariña",
+      "fenomeno": "Aviso de vientos de nivel amarillo. A Mariña",
+      "nivel": "Naranja",
+      "text": "A Mariña: Aviso de vientos de nivel amarillo. A Mariña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "A Mariña",
+      "fenomeno": "Moderate wind warning. A Mariña",
+      "nivel": "Naranja",
+      "text": "A Mariña: Moderate wind warning. A Mariña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Valle del Guadalentín, Lorca y Águilas",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Valle del Guadalentín, Lorca y Águilas",
+      "nivel": "Naranja",
+      "text": "Valle del Guadalentín, Lorca y Águilas: Aviso de vientos de nivel amarillo. Valle del Guadalentín, Lorca y Águilas (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Valle del Guadalentín, Lorca y Águilas",
+      "fenomeno": "Moderate wind warning. Valle del Guadalentín, Lorca y Águilas",
+      "nivel": "Naranja",
+      "text": "Valle del Guadalentín, Lorca y Águilas: Moderate wind warning. Valle del Guadalentín, Lorca y Águilas (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "💨",
       "provincia": "Cuenca del Genil",
@@ -129,38 +161,6 @@
       "fenomeno": "Moderate wind warning. Aracena",
       "nivel": "Naranja",
       "text": "Aracena: Moderate wind warning. Aracena (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Andévalo y Condado",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Andévalo y Condado",
-      "nivel": "Naranja",
-      "text": "Andévalo y Condado: Aviso de vientos de nivel amarillo. Andévalo y Condado (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Andévalo y Condado",
-      "fenomeno": "Moderate wind warning. Andévalo y Condado",
-      "nivel": "Naranja",
-      "text": "Andévalo y Condado: Moderate wind warning. Andévalo y Condado (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Litoral de Huelva",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Litoral de Huelva",
-      "nivel": "Naranja",
-      "text": "Litoral de Huelva: Aviso de vientos de nivel amarillo. Litoral de Huelva (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral de Huelva",
-      "fenomeno": "Moderate wind warning. Litoral de Huelva",
-      "nivel": "Naranja",
-      "text": "Litoral de Huelva: Moderate wind warning. Litoral de Huelva (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
