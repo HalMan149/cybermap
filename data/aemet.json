@@ -1,8 +1,72 @@
 {
-  "generated_at": "2026-02-02T05:40:24.301Z",
+  "generated_at": "2026-02-02T06:42:41.120Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "💨",
+      "provincia": "Aracena",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Aracena",
+      "nivel": "Naranja",
+      "text": "Aracena: Aviso de vientos de nivel amarillo. Aracena (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Aracena",
+      "fenomeno": "Moderate wind warning. Aracena",
+      "nivel": "Naranja",
+      "text": "Aracena: Moderate wind warning. Aracena (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Andévalo y Condado",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Andévalo y Condado",
+      "nivel": "Naranja",
+      "text": "Andévalo y Condado: Aviso de vientos de nivel amarillo. Andévalo y Condado (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Andévalo y Condado",
+      "fenomeno": "Moderate wind warning. Andévalo y Condado",
+      "nivel": "Naranja",
+      "text": "Andévalo y Condado: Moderate wind warning. Andévalo y Condado (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Litoral de Huelva",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Litoral de Huelva",
+      "nivel": "Naranja",
+      "text": "Litoral de Huelva: Aviso de vientos de nivel amarillo. Litoral de Huelva (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral de Huelva",
+      "fenomeno": "Moderate wind warning. Litoral de Huelva",
+      "nivel": "Naranja",
+      "text": "Litoral de Huelva: Moderate wind warning. Litoral de Huelva (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Sierra norte de Sevilla",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Sierra norte de Sevilla",
+      "nivel": "Naranja",
+      "text": "Sierra norte de Sevilla: Aviso de vientos de nivel amarillo. Sierra norte de Sevilla (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sierra norte de Sevilla",
+      "fenomeno": "Moderate wind warning. Sierra norte de Sevilla",
+      "nivel": "Naranja",
+      "text": "Sierra norte de Sevilla: Moderate wind warning. Sierra norte de Sevilla (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "💨",
       "provincia": "Vegas del Guadiana",
@@ -53,6 +117,38 @@
     },
     {
       "icon": "💨",
+      "provincia": "Norte de Cáceres",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Norte de Cáceres",
+      "nivel": "Naranja",
+      "text": "Norte de Cáceres: Aviso de vientos de nivel amarillo. Norte de Cáceres (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Norte de Cáceres",
+      "fenomeno": "Moderate wind warning. Norte de Cáceres",
+      "nivel": "Naranja",
+      "text": "Norte de Cáceres: Moderate wind warning. Norte de Cáceres (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Tajo y Alagón",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Tajo y Alagón",
+      "nivel": "Naranja",
+      "text": "Tajo y Alagón: Aviso de vientos de nivel amarillo. Tajo y Alagón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Tajo y Alagón",
+      "fenomeno": "Moderate wind warning. Tajo y Alagón",
+      "nivel": "Naranja",
+      "text": "Tajo y Alagón: Moderate wind warning. Tajo y Alagón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
       "provincia": "Meseta cacereña",
       "fenomeno": "Aviso de vientos de nivel amarillo. Meseta cacereña",
       "nivel": "Naranja",
@@ -65,102 +161,6 @@
       "fenomeno": "Moderate wind warning. Meseta cacereña",
       "nivel": "Naranja",
       "text": "Meseta cacereña: Moderate wind warning. Meseta cacereña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Grazalema",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Grazalema",
-      "nivel": "Rojo",
-      "text": "Grazalema: Aviso de lluvias de nivel naranja. Grazalema (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Grazalema",
-      "fenomeno": "Severe rain warning. Grazalema",
-      "nivel": "Rojo",
-      "text": "Grazalema: Severe rain warning. Grazalema (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Estrecho",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Estrecho",
-      "nivel": "Rojo",
-      "text": "Estrecho: Aviso de lluvias de nivel naranja. Estrecho (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Estrecho",
-      "fenomeno": "Severe rain warning. Estrecho",
-      "nivel": "Rojo",
-      "text": "Estrecho: Severe rain warning. Estrecho (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Ronda",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Ronda",
-      "nivel": "Rojo",
-      "text": "Ronda: Aviso de lluvias de nivel naranja. Ronda (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ronda",
-      "fenomeno": "Severe rain warning. Ronda",
-      "nivel": "Rojo",
-      "text": "Ronda: Severe rain warning. Ronda (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Poniente y Almería Capital",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Poniente y Almería Capital",
-      "nivel": "Rojo",
-      "text": "Costa - Poniente y Almería Capital: Aviso de costeros de nivel naranja. Costa - Poniente y Almería Capital (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Poniente y Almería Capital",
-      "fenomeno": "Severe coastalevent warning. Costa - Poniente y Almería Capital",
-      "nivel": "Rojo",
-      "text": "Costa - Poniente y Almería Capital: Severe coastalevent warning. Costa - Poniente y Almería Capital (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Levante almeriense",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Levante almeriense",
-      "nivel": "Rojo",
-      "text": "Costa - Levante almeriense: Aviso de costeros de nivel naranja. Costa - Levante almeriense (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Levante almeriense",
-      "fenomeno": "Severe coastalevent warning. Costa - Levante almeriense",
-      "nivel": "Rojo",
-      "text": "Costa - Levante almeriense: Severe coastalevent warning. Costa - Levante almeriense (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Costa granadina",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Costa granadina",
-      "nivel": "Rojo",
-      "text": "Costa - Costa granadina: Aviso de costeros de nivel naranja. Costa - Costa granadina (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Costa granadina",
-      "fenomeno": "Severe coastalevent warning. Costa - Costa granadina",
-      "nivel": "Rojo",
-      "text": "Costa - Costa granadina: Severe coastalevent warning. Costa - Costa granadina (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
