@@ -1,105 +1,9 @@
-// Auto-generado por GitHub Actions - 2026-02-03T01:22:34.192Z
+// Auto-generado por GitHub Actions - 2026-02-03T03:53:22.124Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-02-03T01:22:34.192Z",
+  "generated_at": "2026-02-03T03:53:22.124Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
-    {
-      "icon": "⛈️",
-      "provincia": "Litoral gaditano",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Litoral gaditano",
-      "nivel": "Naranja",
-      "text": "Litoral gaditano: Aviso de tormentas de nivel amarillo. Litoral gaditano (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral gaditano",
-      "fenomeno": "Moderate thunderstorm warning. Litoral gaditano",
-      "nivel": "Naranja",
-      "text": "Litoral gaditano: Moderate thunderstorm warning. Litoral gaditano (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Campiña gaditana",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Campiña gaditana",
-      "nivel": "Rojo",
-      "text": "Campiña gaditana: Aviso de lluvias de nivel naranja. Campiña gaditana (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Campiña gaditana",
-      "fenomeno": "Severe rain warning. Campiña gaditana",
-      "nivel": "Rojo",
-      "text": "Campiña gaditana: Severe rain warning. Campiña gaditana (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Estrecho",
-      "fenomeno": "Aviso de vientos de nivel naranja. Estrecho",
-      "nivel": "Rojo",
-      "text": "Estrecho: Aviso de vientos de nivel naranja. Estrecho (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Estrecho",
-      "fenomeno": "Severe wind warning. Estrecho",
-      "nivel": "Rojo",
-      "text": "Estrecho: Severe wind warning. Estrecho (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Ceuta",
-      "fenomeno": "Aviso de vientos de nivel naranja. Ceuta",
-      "nivel": "Rojo",
-      "text": "Ceuta: Aviso de vientos de nivel naranja. Ceuta (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ceuta",
-      "fenomeno": "Severe wind warning. Ceuta",
-      "nivel": "Rojo",
-      "text": "Ceuta: Severe wind warning. Ceuta (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Sol y Guadalhorce",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Sol y Guadalhorce",
-      "nivel": "Rojo",
-      "text": "Costa - Sol y Guadalhorce: Aviso de costeros de nivel naranja. Costa - Sol y Guadalhorce (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Sol y Guadalhorce",
-      "fenomeno": "Severe coastalevent warning. Costa - Sol y Guadalhorce",
-      "nivel": "Rojo",
-      "text": "Costa - Sol y Guadalhorce: Severe coastalevent warning. Costa - Sol y Guadalhorce (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Axarquía",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Axarquía",
-      "nivel": "Rojo",
-      "text": "Costa - Axarquía: Aviso de costeros de nivel naranja. Costa - Axarquía (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Axarquía",
-      "fenomeno": "Severe coastalevent warning. Costa - Axarquía",
-      "nivel": "Rojo",
-      "text": "Costa - Axarquía: Severe coastalevent warning. Costa - Axarquía (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
     {
       "icon": "🌊",
       "provincia": "Costa - Poniente y Almería Capital",
@@ -149,19 +53,115 @@ window.AEMET_AVISOS = {
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
+      "icon": "🌊",
+      "provincia": "Costa - Axarquía",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Axarquía",
+      "nivel": "Rojo",
+      "text": "Costa - Axarquía: Aviso de costeros de nivel naranja. Costa - Axarquía (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Axarquía",
+      "fenomeno": "Severe coastalevent warning. Costa - Axarquía",
+      "nivel": "Rojo",
+      "text": "Costa - Axarquía: Severe coastalevent warning. Costa - Axarquía (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Campo de Cartagena y Mazarrón",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Campo de Cartagena y Mazarrón",
+      "nivel": "Rojo",
+      "text": "Costa - Campo de Cartagena y Mazarrón: Aviso de costeros de nivel naranja. Costa - Campo de Cartagena y Mazarrón (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Campo de Cartagena y Mazarrón",
+      "fenomeno": "Severe coastalevent warning. Costa - Campo de Cartagena y Mazarrón",
+      "nivel": "Rojo",
+      "text": "Costa - Campo de Cartagena y Mazarrón: Severe coastalevent warning. Costa - Campo de Cartagena y Mazarrón (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Ibiza y Formentera",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Ibiza y Formentera",
+      "nivel": "Rojo",
+      "text": "Costa - Ibiza y Formentera: Aviso de costeros de nivel naranja. Costa - Ibiza y Formentera (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Ibiza y Formentera",
+      "fenomeno": "Severe coastalevent warning. Costa - Ibiza y Formentera",
+      "nivel": "Rojo",
+      "text": "Costa - Ibiza y Formentera: Severe coastalevent warning. Costa - Ibiza y Formentera (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Valle del Guadalentín, Lorca y Águilas",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Valle del Guadalentín, Lorca y Águilas",
+      "nivel": "Rojo",
+      "text": "Costa - Valle del Guadalentín, Lorca y Águilas: Aviso de costeros de nivel naranja. Costa - Valle del Guadalentín, Lorca y Águilas (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Valle del Guadalentín, Lorca y Águilas",
+      "fenomeno": "Severe coastalevent warning. Costa - Valle del Guadalentín, Lorca y Águilas",
+      "nivel": "Rojo",
+      "text": "Costa - Valle del Guadalentín, Lorca y Águilas: Severe coastalevent warning. Costa - Valle del Guadalentín, Lorca y Águilas (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Sur de Mallorca",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Sur de Mallorca",
+      "nivel": "Rojo",
+      "text": "Costa - Sur de Mallorca: Aviso de costeros de nivel naranja. Costa - Sur de Mallorca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Sur de Mallorca",
+      "fenomeno": "Severe coastalevent warning. Costa - Sur de Mallorca",
+      "nivel": "Rojo",
+      "text": "Costa - Sur de Mallorca: Severe coastalevent warning. Costa - Sur de Mallorca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Levante mallorquín",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Levante mallorquín",
+      "nivel": "Rojo",
+      "text": "Costa - Levante mallorquín: Aviso de costeros de nivel naranja. Costa - Levante mallorquín (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Levante mallorquín",
+      "fenomeno": "Severe coastalevent warning. Costa - Levante mallorquín",
+      "nivel": "Rojo",
+      "text": "Costa - Levante mallorquín: Severe coastalevent warning. Costa - Levante mallorquín (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
       "provincia": "Poniente y Almería Capital",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Poniente y Almería Capital",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Poniente y Almería Capital",
       "nivel": "Naranja",
-      "text": "Poniente y Almería Capital: Aviso de lluvias de nivel amarillo. Poniente y Almería Capital (Naranja) (AEMET)",
+      "text": "Poniente y Almería Capital: Aviso de vientos de nivel amarillo. Poniente y Almería Capital (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
       "provincia": "Poniente y Almería Capital",
-      "fenomeno": "Moderate rain warning. Poniente y Almería Capital",
+      "fenomeno": "Moderate wind warning. Poniente y Almería Capital",
       "nivel": "Naranja",
-      "text": "Poniente y Almería Capital: Moderate rain warning. Poniente y Almería Capital (Naranja) (AEMET)",
+      "text": "Poniente y Almería Capital: Moderate wind warning. Poniente y Almería Capital (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
