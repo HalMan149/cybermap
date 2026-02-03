@@ -1,9 +1,105 @@
-// Auto-generado por GitHub Actions - 2026-02-03T17:36:44.904Z
+// Auto-generado por GitHub Actions - 2026-02-03T18:34:22.787Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-02-03T17:36:44.904Z",
+  "generated_at": "2026-02-03T18:34:22.787Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Sur de Ourense",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Sur de Ourense",
+      "nivel": "Naranja",
+      "text": "Sur de Ourense: Aviso de lluvias de nivel amarillo. Sur de Ourense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sur de Ourense",
+      "fenomeno": "Moderate rain warning. Sur de Ourense",
+      "nivel": "Naranja",
+      "text": "Sur de Ourense: Moderate rain warning. Sur de Ourense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Noroeste de A Coruña",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Noroeste de A Coruña",
+      "nivel": "Naranja",
+      "text": "Noroeste de A Coruña: Aviso de vientos de nivel amarillo. Noroeste de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Noroeste de A Coruña",
+      "fenomeno": "Moderate wind warning. Noroeste de A Coruña",
+      "nivel": "Naranja",
+      "text": "Noroeste de A Coruña: Moderate wind warning. Noroeste de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Oeste de A Coruña",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Oeste de A Coruña",
+      "nivel": "Naranja",
+      "text": "Oeste de A Coruña: Aviso de vientos de nivel amarillo. Oeste de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Oeste de A Coruña",
+      "fenomeno": "Moderate wind warning. Oeste de A Coruña",
+      "nivel": "Naranja",
+      "text": "Oeste de A Coruña: Moderate wind warning. Oeste de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Suroeste de A Coruña",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Suroeste de A Coruña",
+      "nivel": "Naranja",
+      "text": "Suroeste de A Coruña: Aviso de vientos de nivel amarillo. Suroeste de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Suroeste de A Coruña",
+      "fenomeno": "Moderate wind warning. Suroeste de A Coruña",
+      "nivel": "Naranja",
+      "text": "Suroeste de A Coruña: Moderate wind warning. Suroeste de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Barros y Serena",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Barros y Serena",
+      "nivel": "Naranja",
+      "text": "Barros y Serena: Aviso de vientos de nivel amarillo. Barros y Serena (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Barros y Serena",
+      "fenomeno": "Moderate wind warning. Barros y Serena",
+      "nivel": "Naranja",
+      "text": "Barros y Serena: Moderate wind warning. Barros y Serena (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Sur de Badajoz",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Sur de Badajoz",
+      "nivel": "Naranja",
+      "text": "Sur de Badajoz: Aviso de vientos de nivel amarillo. Sur de Badajoz (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sur de Badajoz",
+      "fenomeno": "Moderate wind warning. Sur de Badajoz",
+      "nivel": "Naranja",
+      "text": "Sur de Badajoz: Moderate wind warning. Sur de Badajoz (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Barros y Serena",
@@ -66,102 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate wind warning. Nacimiento y Campo de Tabernas",
       "nivel": "Naranja",
       "text": "Nacimiento y Campo de Tabernas: Moderate wind warning. Nacimiento y Campo de Tabernas (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Cuenca del Genil",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Cuenca del Genil",
-      "nivel": "Naranja",
-      "text": "Cuenca del Genil: Aviso de vientos de nivel amarillo. Cuenca del Genil (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cuenca del Genil",
-      "fenomeno": "Moderate wind warning. Cuenca del Genil",
-      "nivel": "Naranja",
-      "text": "Cuenca del Genil: Moderate wind warning. Cuenca del Genil (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Guadix y Baza",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Guadix y Baza",
-      "nivel": "Naranja",
-      "text": "Guadix y Baza: Aviso de vientos de nivel amarillo. Guadix y Baza (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Guadix y Baza",
-      "fenomeno": "Moderate wind warning. Guadix y Baza",
-      "nivel": "Naranja",
-      "text": "Guadix y Baza: Moderate wind warning. Guadix y Baza (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Nevada y Alpujarras",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Nevada y Alpujarras",
-      "nivel": "Naranja",
-      "text": "Nevada y Alpujarras: Aviso de vientos de nivel amarillo. Nevada y Alpujarras (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Nevada y Alpujarras",
-      "fenomeno": "Moderate wind warning. Nevada y Alpujarras",
-      "nivel": "Naranja",
-      "text": "Nevada y Alpujarras: Moderate wind warning. Nevada y Alpujarras (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Valle del Guadalquivir de Jaén",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Valle del Guadalquivir de Jaén",
-      "nivel": "Naranja",
-      "text": "Valle del Guadalquivir de Jaén: Aviso de vientos de nivel amarillo. Valle del Guadalquivir de Jaén (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Valle del Guadalquivir de Jaén",
-      "fenomeno": "Moderate wind warning. Valle del Guadalquivir de Jaén",
-      "nivel": "Naranja",
-      "text": "Valle del Guadalquivir de Jaén: Moderate wind warning. Valle del Guadalquivir de Jaén (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Antequera",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Antequera",
-      "nivel": "Naranja",
-      "text": "Antequera: Aviso de vientos de nivel amarillo. Antequera (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Antequera",
-      "fenomeno": "Moderate wind warning. Antequera",
-      "nivel": "Naranja",
-      "text": "Antequera: Moderate wind warning. Antequera (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Sol y Guadalhorce",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Sol y Guadalhorce",
-      "nivel": "Naranja",
-      "text": "Sol y Guadalhorce: Aviso de vientos de nivel amarillo. Sol y Guadalhorce (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sol y Guadalhorce",
-      "fenomeno": "Moderate wind warning. Sol y Guadalhorce",
-      "nivel": "Naranja",
-      "text": "Sol y Guadalhorce: Moderate wind warning. Sol y Guadalhorce (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
