@@ -1,166 +1,166 @@
 {
-  "generated_at": "2026-02-03T09:58:42.412Z",
+  "generated_at": "2026-02-03T10:42:02.094Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "❄️",
-      "provincia": "Guadix y Baza",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Guadix y Baza",
+      "icon": "🌊",
+      "provincia": "Costa - Campo de Cartagena y Mazarrón",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Campo de Cartagena y Mazarrón",
       "nivel": "Naranja",
-      "text": "Guadix y Baza: Aviso de nevadas de nivel amarillo. Guadix y Baza (Naranja) (AEMET)",
+      "text": "Costa - Campo de Cartagena y Mazarrón: Aviso de costeros de nivel amarillo. Costa - Campo de Cartagena y Mazarrón (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⚠️",
-      "provincia": "Guadix y Baza",
-      "fenomeno": "Moderate snow warning. Guadix y Baza",
+      "icon": "🌊",
+      "provincia": "Costa - Campo de Cartagena y Mazarrón",
+      "fenomeno": "Moderate coastalevent warning. Costa - Campo de Cartagena y Mazarrón",
       "nivel": "Naranja",
-      "text": "Guadix y Baza: Moderate snow warning. Guadix y Baza (Naranja) (AEMET)",
+      "text": "Costa - Campo de Cartagena y Mazarrón: Moderate coastalevent warning. Costa - Campo de Cartagena y Mazarrón (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Grazalema",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Grazalema",
+      "provincia": "Ronda",
+      "fenomeno": "Aviso de lluvias de nivel rojo. Ronda",
       "nivel": "Rojo",
-      "text": "Grazalema: Aviso de lluvias de nivel naranja. Grazalema (Rojo) (AEMET)",
+      "text": "Ronda: Aviso de lluvias de nivel rojo. Ronda (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Grazalema",
-      "fenomeno": "Severe rain warning. Grazalema",
+      "provincia": "Ronda",
+      "fenomeno": "Extreme rain warning. Ronda",
       "nivel": "Rojo",
-      "text": "Grazalema: Severe rain warning. Grazalema (Rojo) (AEMET)",
+      "text": "Ronda: Extreme rain warning. Ronda (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Campiña gaditana",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Campiña gaditana",
-      "nivel": "Naranja",
-      "text": "Campiña gaditana: Aviso de lluvias de nivel amarillo. Campiña gaditana (Naranja) (AEMET)",
+      "provincia": "Ronda",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Ronda",
+      "nivel": "Rojo",
+      "text": "Ronda: Aviso de lluvias de nivel naranja. Ronda (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Campiña gaditana",
-      "fenomeno": "Moderate rain warning. Campiña gaditana",
-      "nivel": "Naranja",
-      "text": "Campiña gaditana: Moderate rain warning. Campiña gaditana (Naranja) (AEMET)",
+      "provincia": "Ronda",
+      "fenomeno": "Severe rain warning. Ronda",
+      "nivel": "Rojo",
+      "text": "Ronda: Severe rain warning. Ronda (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Litoral gaditano",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral gaditano",
-      "nivel": "Naranja",
-      "text": "Litoral gaditano: Aviso de lluvias de nivel amarillo. Litoral gaditano (Naranja) (AEMET)",
+      "provincia": "Cuenca del Genil",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Cuenca del Genil",
+      "nivel": "Rojo",
+      "text": "Cuenca del Genil: Aviso de lluvias de nivel naranja. Cuenca del Genil (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Litoral gaditano",
-      "fenomeno": "Moderate rain warning. Litoral gaditano",
-      "nivel": "Naranja",
-      "text": "Litoral gaditano: Moderate rain warning. Litoral gaditano (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Estrecho",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Estrecho",
-      "nivel": "Naranja",
-      "text": "Estrecho: Aviso de lluvias de nivel amarillo. Estrecho (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Estrecho",
-      "fenomeno": "Moderate rain warning. Estrecho",
-      "nivel": "Naranja",
-      "text": "Estrecho: Moderate rain warning. Estrecho (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Aracena",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Aracena",
-      "nivel": "Naranja",
-      "text": "Aracena: Aviso de lluvias de nivel amarillo. Aracena (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Aracena",
-      "fenomeno": "Moderate rain warning. Aracena",
-      "nivel": "Naranja",
-      "text": "Aracena: Moderate rain warning. Aracena (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Andévalo y Condado",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Andévalo y Condado",
-      "nivel": "Naranja",
-      "text": "Andévalo y Condado: Aviso de lluvias de nivel amarillo. Andévalo y Condado (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Andévalo y Condado",
-      "fenomeno": "Moderate rain warning. Andévalo y Condado",
-      "nivel": "Naranja",
-      "text": "Andévalo y Condado: Moderate rain warning. Andévalo y Condado (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Litoral de Huelva",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral de Huelva",
-      "nivel": "Naranja",
-      "text": "Litoral de Huelva: Aviso de lluvias de nivel amarillo. Litoral de Huelva (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral de Huelva",
-      "fenomeno": "Moderate rain warning. Litoral de Huelva",
-      "nivel": "Naranja",
-      "text": "Litoral de Huelva: Moderate rain warning. Litoral de Huelva (Naranja) (AEMET)",
+      "provincia": "Cuenca del Genil",
+      "fenomeno": "Severe rain warning. Cuenca del Genil",
+      "nivel": "Rojo",
+      "text": "Cuenca del Genil: Severe rain warning. Cuenca del Genil (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "❄️",
-      "provincia": "Montaña de Lugo",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Montaña de Lugo",
-      "nivel": "Naranja",
-      "text": "Montaña de Lugo: Aviso de nevadas de nivel amarillo. Montaña de Lugo (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Montaña de Lugo",
-      "fenomeno": "Moderate snow warning. Montaña de Lugo",
-      "nivel": "Naranja",
-      "text": "Montaña de Lugo: Moderate snow warning. Montaña de Lugo (Naranja) (AEMET)",
+      "provincia": "Nevada y Alpujarras",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Nevada y Alpujarras",
+      "nivel": "Rojo",
+      "text": "Nevada y Alpujarras: Aviso de lluvias de nivel naranja. Nevada y Alpujarras (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "❄️",
-      "provincia": "Montaña de Ourense",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Montaña de Ourense",
-      "nivel": "Naranja",
-      "text": "Montaña de Ourense: Aviso de nevadas de nivel amarillo. Montaña de Ourense (Naranja) (AEMET)",
+      "provincia": "Nevada y Alpujarras",
+      "fenomeno": "Severe rain warning. Nevada y Alpujarras",
+      "nivel": "Rojo",
+      "text": "Nevada y Alpujarras: Severe rain warning. Nevada y Alpujarras (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Costa granadina",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Costa granadina",
+      "nivel": "Rojo",
+      "text": "Costa granadina: Aviso de lluvias de nivel naranja. Costa granadina (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa granadina",
+      "fenomeno": "Severe rain warning. Costa granadina",
+      "nivel": "Rojo",
+      "text": "Costa granadina: Severe rain warning. Costa granadina (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Cazorla y Segura",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Cazorla y Segura",
+      "nivel": "Rojo",
+      "text": "Cazorla y Segura: Aviso de lluvias de nivel naranja. Cazorla y Segura (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Montaña de Ourense",
-      "fenomeno": "Moderate snow warning. Montaña de Ourense",
-      "nivel": "Naranja",
-      "text": "Montaña de Ourense: Moderate snow warning. Montaña de Ourense (Naranja) (AEMET)",
+      "provincia": "Cazorla y Segura",
+      "fenomeno": "Severe rain warning. Cazorla y Segura",
+      "nivel": "Rojo",
+      "text": "Cazorla y Segura: Severe rain warning. Cazorla y Segura (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Sol y Guadalhorce",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Sol y Guadalhorce",
+      "nivel": "Rojo",
+      "text": "Sol y Guadalhorce: Aviso de lluvias de nivel naranja. Sol y Guadalhorce (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sol y Guadalhorce",
+      "fenomeno": "Severe rain warning. Sol y Guadalhorce",
+      "nivel": "Rojo",
+      "text": "Sol y Guadalhorce: Severe rain warning. Sol y Guadalhorce (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Axarquía",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Axarquía",
+      "nivel": "Rojo",
+      "text": "Axarquía: Aviso de lluvias de nivel naranja. Axarquía (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Axarquía",
+      "fenomeno": "Severe rain warning. Axarquía",
+      "nivel": "Rojo",
+      "text": "Axarquía: Severe rain warning. Axarquía (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Sol y Guadalhorce",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Sol y Guadalhorce",
+      "nivel": "Rojo",
+      "text": "Costa - Sol y Guadalhorce: Aviso de costeros de nivel naranja. Costa - Sol y Guadalhorce (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Sol y Guadalhorce",
+      "fenomeno": "Severe coastalevent warning. Costa - Sol y Guadalhorce",
+      "nivel": "Rojo",
+      "text": "Costa - Sol y Guadalhorce: Severe coastalevent warning. Costa - Sol y Guadalhorce (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
