@@ -1,166 +1,166 @@
 {
-  "generated_at": "2026-02-04T09:26:06.484Z",
+  "generated_at": "2026-02-04T10:06:54.182Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "🌊",
-      "provincia": "Sistema Central de Ávila",
-      "fenomeno": "Aviso de deshielos de nivel amarillo. Sistema Central de Ávila",
+      "icon": "💨",
+      "provincia": "Albarracín y Jiloca",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Albarracín y Jiloca",
       "nivel": "Naranja",
-      "text": "Sistema Central de Ávila: Aviso de deshielos de nivel amarillo. Sistema Central de Ávila (Naranja) (AEMET)",
+      "text": "Albarracín y Jiloca: Aviso de vientos de nivel amarillo. Albarracín y Jiloca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sistema Central de Ávila",
-      "fenomeno": "Moderate thaw warning. Sistema Central de Ávila",
+      "provincia": "Albarracín y Jiloca",
+      "fenomeno": "Moderate wind warning. Albarracín y Jiloca",
       "nivel": "Naranja",
-      "text": "Sistema Central de Ávila: Moderate thaw warning. Sistema Central de Ávila (Naranja) (AEMET)",
+      "text": "Albarracín y Jiloca: Moderate wind warning. Albarracín y Jiloca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Ibérica de Burgos",
-      "fenomeno": "Aviso de deshielos de nivel amarillo. Ibérica de Burgos",
+      "icon": "💨",
+      "provincia": "Gúdar y Maestrazgo",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Gúdar y Maestrazgo",
       "nivel": "Naranja",
-      "text": "Ibérica de Burgos: Aviso de deshielos de nivel amarillo. Ibérica de Burgos (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ibérica de Burgos",
-      "fenomeno": "Moderate thaw warning. Ibérica de Burgos",
-      "nivel": "Naranja",
-      "text": "Ibérica de Burgos: Moderate thaw warning. Ibérica de Burgos (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Cordillera Cantábrica de León",
-      "fenomeno": "Aviso de deshielos de nivel amarillo. Cordillera Cantábrica de León",
-      "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de León: Aviso de deshielos de nivel amarillo. Cordillera Cantábrica de León (Naranja) (AEMET)",
+      "text": "Gúdar y Maestrazgo: Aviso de vientos de nivel amarillo. Gúdar y Maestrazgo (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Cordillera Cantábrica de León",
-      "fenomeno": "Moderate thaw warning. Cordillera Cantábrica de León",
+      "provincia": "Gúdar y Maestrazgo",
+      "fenomeno": "Moderate wind warning. Gúdar y Maestrazgo",
       "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de León: Moderate thaw warning. Cordillera Cantábrica de León (Naranja) (AEMET)",
+      "text": "Gúdar y Maestrazgo: Moderate wind warning. Gúdar y Maestrazgo (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Cordillera Cantábrica de Palencia",
-      "fenomeno": "Aviso de deshielos de nivel amarillo. Cordillera Cantábrica de Palencia",
+      "icon": "💨",
+      "provincia": "Barros y Serena",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Barros y Serena",
       "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de Palencia: Aviso de deshielos de nivel amarillo. Cordillera Cantábrica de Palencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cordillera Cantábrica de Palencia",
-      "fenomeno": "Moderate thaw warning. Cordillera Cantábrica de Palencia",
-      "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de Palencia: Moderate thaw warning. Cordillera Cantábrica de Palencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Sistema Central de Salamanca",
-      "fenomeno": "Aviso de deshielos de nivel amarillo. Sistema Central de Salamanca",
-      "nivel": "Naranja",
-      "text": "Sistema Central de Salamanca: Aviso de deshielos de nivel amarillo. Sistema Central de Salamanca (Naranja) (AEMET)",
+      "text": "Barros y Serena: Aviso de vientos de nivel amarillo. Barros y Serena (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sistema Central de Salamanca",
-      "fenomeno": "Moderate thaw warning. Sistema Central de Salamanca",
+      "provincia": "Barros y Serena",
+      "fenomeno": "Moderate wind warning. Barros y Serena",
       "nivel": "Naranja",
-      "text": "Sistema Central de Salamanca: Moderate thaw warning. Sistema Central de Salamanca (Naranja) (AEMET)",
+      "text": "Barros y Serena: Moderate wind warning. Barros y Serena (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Sistema Central de Segovia",
-      "fenomeno": "Aviso de deshielos de nivel amarillo. Sistema Central de Segovia",
+      "icon": "💨",
+      "provincia": "Sur de Badajoz",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Sur de Badajoz",
       "nivel": "Naranja",
-      "text": "Sistema Central de Segovia: Aviso de deshielos de nivel amarillo. Sistema Central de Segovia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sistema Central de Segovia",
-      "fenomeno": "Moderate thaw warning. Sistema Central de Segovia",
-      "nivel": "Naranja",
-      "text": "Sistema Central de Segovia: Moderate thaw warning. Sistema Central de Segovia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Ibérica de Soria",
-      "fenomeno": "Aviso de deshielos de nivel amarillo. Ibérica de Soria",
-      "nivel": "Naranja",
-      "text": "Ibérica de Soria: Aviso de deshielos de nivel amarillo. Ibérica de Soria (Naranja) (AEMET)",
+      "text": "Sur de Badajoz: Aviso de vientos de nivel amarillo. Sur de Badajoz (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Ibérica de Soria",
-      "fenomeno": "Moderate thaw warning. Ibérica de Soria",
+      "provincia": "Sur de Badajoz",
+      "fenomeno": "Moderate wind warning. Sur de Badajoz",
       "nivel": "Naranja",
-      "text": "Ibérica de Soria: Moderate thaw warning. Ibérica de Soria (Naranja) (AEMET)",
+      "text": "Sur de Badajoz: Moderate wind warning. Sur de Badajoz (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Sistema Central de Soria",
-      "fenomeno": "Aviso de deshielos de nivel amarillo. Sistema Central de Soria",
+      "icon": "💨",
+      "provincia": "Vegas del Guadiana",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Vegas del Guadiana",
       "nivel": "Naranja",
-      "text": "Sistema Central de Soria: Aviso de deshielos de nivel amarillo. Sistema Central de Soria (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sistema Central de Soria",
-      "fenomeno": "Moderate thaw warning. Sistema Central de Soria",
-      "nivel": "Naranja",
-      "text": "Sistema Central de Soria: Moderate thaw warning. Sistema Central de Soria (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Sanabria",
-      "fenomeno": "Aviso de deshielos de nivel amarillo. Sanabria",
-      "nivel": "Naranja",
-      "text": "Sanabria: Aviso de deshielos de nivel amarillo. Sanabria (Naranja) (AEMET)",
+      "text": "Vegas del Guadiana: Aviso de vientos de nivel amarillo. Vegas del Guadiana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sanabria",
-      "fenomeno": "Moderate thaw warning. Sanabria",
+      "provincia": "Vegas del Guadiana",
+      "fenomeno": "Moderate wind warning. Vegas del Guadiana",
       "nivel": "Naranja",
-      "text": "Sanabria: Moderate thaw warning. Sanabria (Naranja) (AEMET)",
+      "text": "Vegas del Guadiana: Moderate wind warning. Vegas del Guadiana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Sistema Central de Ávila",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Sistema Central de Ávila",
+      "icon": "💨",
+      "provincia": "La Siberia extremeña",
+      "fenomeno": "Aviso de vientos de nivel amarillo. La Siberia extremeña",
       "nivel": "Naranja",
-      "text": "Sistema Central de Ávila: Aviso de lluvias de nivel amarillo. Sistema Central de Ávila (Naranja) (AEMET)",
+      "text": "La Siberia extremeña: Aviso de vientos de nivel amarillo. La Siberia extremeña (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sistema Central de Ávila",
-      "fenomeno": "Moderate rain warning. Sistema Central de Ávila",
+      "provincia": "La Siberia extremeña",
+      "fenomeno": "Moderate wind warning. La Siberia extremeña",
       "nivel": "Naranja",
-      "text": "Sistema Central de Ávila: Moderate rain warning. Sistema Central de Ávila (Naranja) (AEMET)",
+      "text": "La Siberia extremeña: Moderate wind warning. La Siberia extremeña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Barros y Serena",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Barros y Serena",
+      "nivel": "Naranja",
+      "text": "Barros y Serena: Aviso de vientos de nivel amarillo. Barros y Serena (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Barros y Serena",
+      "fenomeno": "Moderate wind warning. Barros y Serena",
+      "nivel": "Naranja",
+      "text": "Barros y Serena: Moderate wind warning. Barros y Serena (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Sur de Badajoz",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Sur de Badajoz",
+      "nivel": "Naranja",
+      "text": "Sur de Badajoz: Aviso de vientos de nivel amarillo. Sur de Badajoz (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sur de Badajoz",
+      "fenomeno": "Moderate wind warning. Sur de Badajoz",
+      "nivel": "Naranja",
+      "text": "Sur de Badajoz: Moderate wind warning. Sur de Badajoz (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Norte de Cáceres",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Norte de Cáceres",
+      "nivel": "Naranja",
+      "text": "Norte de Cáceres: Aviso de vientos de nivel amarillo. Norte de Cáceres (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Norte de Cáceres",
+      "fenomeno": "Moderate wind warning. Norte de Cáceres",
+      "nivel": "Naranja",
+      "text": "Norte de Cáceres: Moderate wind warning. Norte de Cáceres (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Tajo y Alagón",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Tajo y Alagón",
+      "nivel": "Naranja",
+      "text": "Tajo y Alagón: Aviso de vientos de nivel amarillo. Tajo y Alagón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Tajo y Alagón",
+      "fenomeno": "Moderate wind warning. Tajo y Alagón",
+      "nivel": "Naranja",
+      "text": "Tajo y Alagón: Moderate wind warning. Tajo y Alagón (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
