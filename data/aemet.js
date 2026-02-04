@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2026-02-04T23:19:40.252Z
+// Auto-generado por GitHub Actions - 2026-02-04T23:48:31.267Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-02-04T23:19:40.252Z",
+  "generated_at": "2026-02-04T23:48:31.267Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Ronda",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Ronda",
+      "nivel": "Naranja",
+      "text": "Ronda: Aviso de lluvias de nivel amarillo. Ronda (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ronda",
+      "fenomeno": "Moderate rain warning. Ronda",
+      "nivel": "Naranja",
+      "text": "Ronda: Moderate rain warning. Ronda (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Grazalema",
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Severe coastalevent warning. Costa - Estrecho",
       "nivel": "Rojo",
       "text": "Costa - Estrecho: Severe coastalevent warning. Costa - Estrecho (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Nevada y Alpujarras",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Nevada y Alpujarras",
-      "nivel": "Naranja",
-      "text": "Nevada y Alpujarras: Aviso de lluvias de nivel amarillo. Nevada y Alpujarras (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Nevada y Alpujarras",
-      "fenomeno": "Moderate rain warning. Nevada y Alpujarras",
-      "nivel": "Naranja",
-      "text": "Nevada y Alpujarras: Moderate rain warning. Nevada y Alpujarras (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
