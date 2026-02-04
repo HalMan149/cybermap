@@ -1,8 +1,88 @@
 {
-  "generated_at": "2026-02-04T07:54:16.027Z",
+  "generated_at": "2026-02-04T08:31:38.329Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "⛈️",
+      "provincia": "Noroeste de A Coruña",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Noroeste de A Coruña",
+      "nivel": "Naranja",
+      "text": "Noroeste de A Coruña: Aviso de tormentas de nivel amarillo. Noroeste de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Noroeste de A Coruña",
+      "fenomeno": "Moderate thunderstorm warning. Noroeste de A Coruña",
+      "nivel": "Naranja",
+      "text": "Noroeste de A Coruña: Moderate thunderstorm warning. Noroeste de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "A Mariña",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. A Mariña",
+      "nivel": "Naranja",
+      "text": "A Mariña: Aviso de tormentas de nivel amarillo. A Mariña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "A Mariña",
+      "fenomeno": "Moderate thunderstorm warning. A Mariña",
+      "nivel": "Naranja",
+      "text": "A Mariña: Moderate thunderstorm warning. A Mariña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Grazalema",
+      "fenomeno": "Aviso de lluvias de nivel rojo. Grazalema",
+      "nivel": "Rojo",
+      "text": "Grazalema: Aviso de lluvias de nivel rojo. Grazalema (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Grazalema",
+      "fenomeno": "Extreme rain warning. Grazalema",
+      "nivel": "Rojo",
+      "text": "Grazalema: Extreme rain warning. Grazalema (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Grazalema",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Grazalema",
+      "nivel": "Rojo",
+      "text": "Grazalema: Aviso de lluvias de nivel naranja. Grazalema (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Grazalema",
+      "fenomeno": "Severe rain warning. Grazalema",
+      "nivel": "Rojo",
+      "text": "Grazalema: Severe rain warning. Grazalema (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Subbética cordobesa",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Subbética cordobesa",
+      "nivel": "Naranja",
+      "text": "Subbética cordobesa: Aviso de vientos de nivel amarillo. Subbética cordobesa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Subbética cordobesa",
+      "fenomeno": "Moderate wind warning. Subbética cordobesa",
+      "nivel": "Naranja",
+      "text": "Subbética cordobesa: Moderate wind warning. Subbética cordobesa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Poniente y Almería Capital",
@@ -81,86 +161,6 @@
       "fenomeno": "Extreme rain warning. Estrecho",
       "nivel": "Rojo",
       "text": "Estrecho: Extreme rain warning. Estrecho (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Estrecho",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Estrecho",
-      "nivel": "Rojo",
-      "text": "Estrecho: Aviso de lluvias de nivel naranja. Estrecho (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Estrecho",
-      "fenomeno": "Severe rain warning. Estrecho",
-      "nivel": "Rojo",
-      "text": "Estrecho: Severe rain warning. Estrecho (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Sur de Mallorca",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Sur de Mallorca",
-      "nivel": "Rojo",
-      "text": "Costa - Sur de Mallorca: Aviso de costeros de nivel naranja. Costa - Sur de Mallorca (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Sur de Mallorca",
-      "fenomeno": "Severe coastalevent warning. Costa - Sur de Mallorca",
-      "nivel": "Rojo",
-      "text": "Costa - Sur de Mallorca: Severe coastalevent warning. Costa - Sur de Mallorca (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Levante mallorquín",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Levante mallorquín",
-      "nivel": "Rojo",
-      "text": "Costa - Levante mallorquín: Aviso de costeros de nivel naranja. Costa - Levante mallorquín (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Levante mallorquín",
-      "fenomeno": "Severe coastalevent warning. Costa - Levante mallorquín",
-      "nivel": "Rojo",
-      "text": "Costa - Levante mallorquín: Severe coastalevent warning. Costa - Levante mallorquín (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Menorca",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Menorca",
-      "nivel": "Rojo",
-      "text": "Costa - Menorca: Aviso de costeros de nivel naranja. Costa - Menorca (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Menorca",
-      "fenomeno": "Severe coastalevent warning. Costa - Menorca",
-      "nivel": "Rojo",
-      "text": "Costa - Menorca: Severe coastalevent warning. Costa - Menorca (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Noroeste de A Coruña",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Noroeste de A Coruña",
-      "nivel": "Rojo",
-      "text": "Costa - Noroeste de A Coruña: Aviso de costeros de nivel naranja. Costa - Noroeste de A Coruña (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Noroeste de A Coruña",
-      "fenomeno": "Severe coastalevent warning. Costa - Noroeste de A Coruña",
-      "nivel": "Rojo",
-      "text": "Costa - Noroeste de A Coruña: Severe coastalevent warning. Costa - Noroeste de A Coruña (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
