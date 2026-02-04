@@ -1,166 +1,166 @@
 {
-  "generated_at": "2026-02-04T01:18:05.208Z",
+  "generated_at": "2026-02-04T03:42:52.505Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "💨",
-      "provincia": "Noroeste de A Coruña",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Noroeste de A Coruña",
-      "nivel": "Naranja",
-      "text": "Noroeste de A Coruña: Aviso de vientos de nivel amarillo. Noroeste de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Noroeste de A Coruña",
-      "fenomeno": "Moderate wind warning. Noroeste de A Coruña",
-      "nivel": "Naranja",
-      "text": "Noroeste de A Coruña: Moderate wind warning. Noroeste de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Oeste de A Coruña",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Oeste de A Coruña",
-      "nivel": "Naranja",
-      "text": "Oeste de A Coruña: Aviso de vientos de nivel amarillo. Oeste de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Oeste de A Coruña",
-      "fenomeno": "Moderate wind warning. Oeste de A Coruña",
-      "nivel": "Naranja",
-      "text": "Oeste de A Coruña: Moderate wind warning. Oeste de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Suroeste de A Coruña",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Suroeste de A Coruña",
-      "nivel": "Naranja",
-      "text": "Suroeste de A Coruña: Aviso de vientos de nivel amarillo. Suroeste de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Suroeste de A Coruña",
-      "fenomeno": "Moderate wind warning. Suroeste de A Coruña",
-      "nivel": "Naranja",
-      "text": "Suroeste de A Coruña: Moderate wind warning. Suroeste de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Alcaraz y Segura",
-      "fenomeno": "Aviso de vientos de nivel naranja. Alcaraz y Segura",
+      "provincia": "Valle del Guadalquivir de Jaén",
+      "fenomeno": "Aviso de vientos de nivel naranja. Valle del Guadalquivir de Jaén",
       "nivel": "Rojo",
-      "text": "Alcaraz y Segura: Aviso de vientos de nivel naranja. Alcaraz y Segura (Rojo) (AEMET)",
+      "text": "Valle del Guadalquivir de Jaén: Aviso de vientos de nivel naranja. Valle del Guadalquivir de Jaén (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Alcaraz y Segura",
-      "fenomeno": "Severe wind warning. Alcaraz y Segura",
+      "provincia": "Valle del Guadalquivir de Jaén",
+      "fenomeno": "Severe wind warning. Valle del Guadalquivir de Jaén",
       "nivel": "Rojo",
-      "text": "Alcaraz y Segura: Severe wind warning. Alcaraz y Segura (Rojo) (AEMET)",
+      "text": "Valle del Guadalquivir de Jaén: Severe wind warning. Valle del Guadalquivir de Jaén (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Norte de Cáceres",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Norte de Cáceres",
-      "nivel": "Naranja",
-      "text": "Norte de Cáceres: Aviso de lluvias de nivel amarillo. Norte de Cáceres (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Norte de Cáceres",
-      "fenomeno": "Moderate rain warning. Norte de Cáceres",
-      "nivel": "Naranja",
-      "text": "Norte de Cáceres: Moderate rain warning. Norte de Cáceres (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Villuercas y Montánchez",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Villuercas y Montánchez",
-      "nivel": "Naranja",
-      "text": "Villuercas y Montánchez: Aviso de lluvias de nivel amarillo. Villuercas y Montánchez (Naranja) (AEMET)",
+      "icon": "💨",
+      "provincia": "Capital y Montes de Jaén",
+      "fenomeno": "Aviso de vientos de nivel naranja. Capital y Montes de Jaén",
+      "nivel": "Rojo",
+      "text": "Capital y Montes de Jaén: Aviso de vientos de nivel naranja. Capital y Montes de Jaén (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Villuercas y Montánchez",
-      "fenomeno": "Moderate rain warning. Villuercas y Montánchez",
-      "nivel": "Naranja",
-      "text": "Villuercas y Montánchez: Moderate rain warning. Villuercas y Montánchez (Naranja) (AEMET)",
+      "provincia": "Capital y Montes de Jaén",
+      "fenomeno": "Severe wind warning. Capital y Montes de Jaén",
+      "nivel": "Rojo",
+      "text": "Capital y Montes de Jaén: Severe wind warning. Capital y Montes de Jaén (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Sistema Central de Ávila",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Sistema Central de Ávila",
+      "icon": "💨",
+      "provincia": "Valle del Guadalquivir de Jaén",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Valle del Guadalquivir de Jaén",
       "nivel": "Naranja",
-      "text": "Sistema Central de Ávila: Aviso de lluvias de nivel amarillo. Sistema Central de Ávila (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sistema Central de Ávila",
-      "fenomeno": "Moderate rain warning. Sistema Central de Ávila",
-      "nivel": "Naranja",
-      "text": "Sistema Central de Ávila: Moderate rain warning. Sistema Central de Ávila (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Sur de Ávila",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Sur de Ávila",
-      "nivel": "Naranja",
-      "text": "Sur de Ávila: Aviso de lluvias de nivel amarillo. Sur de Ávila (Naranja) (AEMET)",
+      "text": "Valle del Guadalquivir de Jaén: Aviso de vientos de nivel amarillo. Valle del Guadalquivir de Jaén (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sur de Ávila",
-      "fenomeno": "Moderate rain warning. Sur de Ávila",
+      "provincia": "Valle del Guadalquivir de Jaén",
+      "fenomeno": "Moderate wind warning. Valle del Guadalquivir de Jaén",
       "nivel": "Naranja",
-      "text": "Sur de Ávila: Moderate rain warning. Sur de Ávila (Naranja) (AEMET)",
+      "text": "Valle del Guadalquivir de Jaén: Moderate wind warning. Valle del Guadalquivir de Jaén (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Sistema Central de Salamanca",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Sistema Central de Salamanca",
+      "icon": "💨",
+      "provincia": "Capital y Montes de Jaén",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Capital y Montes de Jaén",
       "nivel": "Naranja",
-      "text": "Sistema Central de Salamanca: Aviso de lluvias de nivel amarillo. Sistema Central de Salamanca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sistema Central de Salamanca",
-      "fenomeno": "Moderate rain warning. Sistema Central de Salamanca",
-      "nivel": "Naranja",
-      "text": "Sistema Central de Salamanca: Moderate rain warning. Sistema Central de Salamanca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Sur de Salamanca",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Sur de Salamanca",
-      "nivel": "Naranja",
-      "text": "Sur de Salamanca: Aviso de lluvias de nivel amarillo. Sur de Salamanca (Naranja) (AEMET)",
+      "text": "Capital y Montes de Jaén: Aviso de vientos de nivel amarillo. Capital y Montes de Jaén (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sur de Salamanca",
-      "fenomeno": "Moderate rain warning. Sur de Salamanca",
+      "provincia": "Capital y Montes de Jaén",
+      "fenomeno": "Moderate wind warning. Capital y Montes de Jaén",
       "nivel": "Naranja",
-      "text": "Sur de Salamanca: Moderate rain warning. Sur de Salamanca (Naranja) (AEMET)",
+      "text": "Capital y Montes de Jaén: Moderate wind warning. Capital y Montes de Jaén (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Sur de Mallorca",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Sur de Mallorca",
+      "nivel": "Rojo",
+      "text": "Costa - Sur de Mallorca: Aviso de costeros de nivel naranja. Costa - Sur de Mallorca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Sur de Mallorca",
+      "fenomeno": "Severe coastalevent warning. Costa - Sur de Mallorca",
+      "nivel": "Rojo",
+      "text": "Costa - Sur de Mallorca: Severe coastalevent warning. Costa - Sur de Mallorca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Levante mallorquín",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Levante mallorquín",
+      "nivel": "Rojo",
+      "text": "Costa - Levante mallorquín: Aviso de costeros de nivel naranja. Costa - Levante mallorquín (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Levante mallorquín",
+      "fenomeno": "Severe coastalevent warning. Costa - Levante mallorquín",
+      "nivel": "Rojo",
+      "text": "Costa - Levante mallorquín: Severe coastalevent warning. Costa - Levante mallorquín (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Menorca",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Menorca",
+      "nivel": "Rojo",
+      "text": "Costa - Menorca: Aviso de costeros de nivel naranja. Costa - Menorca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Menorca",
+      "fenomeno": "Severe coastalevent warning. Costa - Menorca",
+      "nivel": "Rojo",
+      "text": "Costa - Menorca: Severe coastalevent warning. Costa - Menorca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Noroeste de A Coruña",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Noroeste de A Coruña",
+      "nivel": "Rojo",
+      "text": "Costa - Noroeste de A Coruña: Aviso de costeros de nivel naranja. Costa - Noroeste de A Coruña (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Noroeste de A Coruña",
+      "fenomeno": "Severe coastalevent warning. Costa - Noroeste de A Coruña",
+      "nivel": "Rojo",
+      "text": "Costa - Noroeste de A Coruña: Severe coastalevent warning. Costa - Noroeste de A Coruña (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Oeste de A Coruña",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Oeste de A Coruña",
+      "nivel": "Rojo",
+      "text": "Costa - Oeste de A Coruña: Aviso de costeros de nivel naranja. Costa - Oeste de A Coruña (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Oeste de A Coruña",
+      "fenomeno": "Severe coastalevent warning. Costa - Oeste de A Coruña",
+      "nivel": "Rojo",
+      "text": "Costa - Oeste de A Coruña: Severe coastalevent warning. Costa - Oeste de A Coruña (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Suroeste de A Coruña",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Suroeste de A Coruña",
+      "nivel": "Rojo",
+      "text": "Costa - Suroeste de A Coruña: Aviso de costeros de nivel naranja. Costa - Suroeste de A Coruña (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Suroeste de A Coruña",
+      "fenomeno": "Severe coastalevent warning. Costa - Suroeste de A Coruña",
+      "nivel": "Rojo",
+      "text": "Costa - Suroeste de A Coruña: Severe coastalevent warning. Costa - Suroeste de A Coruña (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
