@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-02-04T10:06:54.182Z
+// Auto-generado por GitHub Actions - 2026-02-04T10:59:22.181Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-02-04T10:06:54.182Z",
+  "generated_at": "2026-02-04T10:59:22.181Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "💨",
-      "provincia": "Albarracín y Jiloca",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Albarracín y Jiloca",
-      "nivel": "Naranja",
-      "text": "Albarracín y Jiloca: Aviso de vientos de nivel amarillo. Albarracín y Jiloca (Naranja) (AEMET)",
+      "icon": "🌊",
+      "provincia": "Costa - Campo de Cartagena y Mazarrón",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Campo de Cartagena y Mazarrón",
+      "nivel": "Rojo",
+      "text": "Costa - Campo de Cartagena y Mazarrón: Aviso de costeros de nivel naranja. Costa - Campo de Cartagena y Mazarrón (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⚠️",
-      "provincia": "Albarracín y Jiloca",
-      "fenomeno": "Moderate wind warning. Albarracín y Jiloca",
-      "nivel": "Naranja",
-      "text": "Albarracín y Jiloca: Moderate wind warning. Albarracín y Jiloca (Naranja) (AEMET)",
+      "icon": "🌊",
+      "provincia": "Costa - Campo de Cartagena y Mazarrón",
+      "fenomeno": "Severe coastalevent warning. Costa - Campo de Cartagena y Mazarrón",
+      "nivel": "Rojo",
+      "text": "Costa - Campo de Cartagena y Mazarrón: Severe coastalevent warning. Costa - Campo de Cartagena y Mazarrón (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "💨",
-      "provincia": "Gúdar y Maestrazgo",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Gúdar y Maestrazgo",
-      "nivel": "Naranja",
-      "text": "Gúdar y Maestrazgo: Aviso de vientos de nivel amarillo. Gúdar y Maestrazgo (Naranja) (AEMET)",
+      "icon": "🌊",
+      "provincia": "Costa - Valle del Guadalentín, Lorca y Águilas",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Valle del Guadalentín, Lorca y Águilas",
+      "nivel": "Rojo",
+      "text": "Costa - Valle del Guadalentín, Lorca y Águilas: Aviso de costeros de nivel naranja. Costa - Valle del Guadalentín, Lorca y Águilas (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⚠️",
-      "provincia": "Gúdar y Maestrazgo",
-      "fenomeno": "Moderate wind warning. Gúdar y Maestrazgo",
-      "nivel": "Naranja",
-      "text": "Gúdar y Maestrazgo: Moderate wind warning. Gúdar y Maestrazgo (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Barros y Serena",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Barros y Serena",
-      "nivel": "Naranja",
-      "text": "Barros y Serena: Aviso de vientos de nivel amarillo. Barros y Serena (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Barros y Serena",
-      "fenomeno": "Moderate wind warning. Barros y Serena",
-      "nivel": "Naranja",
-      "text": "Barros y Serena: Moderate wind warning. Barros y Serena (Naranja) (AEMET)",
+      "icon": "🌊",
+      "provincia": "Costa - Valle del Guadalentín, Lorca y Águilas",
+      "fenomeno": "Severe coastalevent warning. Costa - Valle del Guadalentín, Lorca y Águilas",
+      "nivel": "Rojo",
+      "text": "Costa - Valle del Guadalentín, Lorca y Águilas: Severe coastalevent warning. Costa - Valle del Guadalentín, Lorca y Águilas (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "💨",
-      "provincia": "Sur de Badajoz",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Sur de Badajoz",
+      "provincia": "Altiplano de Murcia",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Altiplano de Murcia",
       "nivel": "Naranja",
-      "text": "Sur de Badajoz: Aviso de vientos de nivel amarillo. Sur de Badajoz (Naranja) (AEMET)",
+      "text": "Altiplano de Murcia: Aviso de vientos de nivel amarillo. Altiplano de Murcia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sur de Badajoz",
-      "fenomeno": "Moderate wind warning. Sur de Badajoz",
+      "provincia": "Altiplano de Murcia",
+      "fenomeno": "Moderate wind warning. Altiplano de Murcia",
       "nivel": "Naranja",
-      "text": "Sur de Badajoz: Moderate wind warning. Sur de Badajoz (Naranja) (AEMET)",
+      "text": "Altiplano de Murcia: Moderate wind warning. Altiplano de Murcia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "💨",
-      "provincia": "Vegas del Guadiana",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Vegas del Guadiana",
+      "provincia": "Noroeste de Murcia",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Noroeste de Murcia",
       "nivel": "Naranja",
-      "text": "Vegas del Guadiana: Aviso de vientos de nivel amarillo. Vegas del Guadiana (Naranja) (AEMET)",
+      "text": "Noroeste de Murcia: Aviso de vientos de nivel amarillo. Noroeste de Murcia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Vegas del Guadiana",
-      "fenomeno": "Moderate wind warning. Vegas del Guadiana",
+      "provincia": "Noroeste de Murcia",
+      "fenomeno": "Moderate wind warning. Noroeste de Murcia",
       "nivel": "Naranja",
-      "text": "Vegas del Guadiana: Moderate wind warning. Vegas del Guadiana (Naranja) (AEMET)",
+      "text": "Noroeste de Murcia: Moderate wind warning. Noroeste de Murcia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "💨",
-      "provincia": "La Siberia extremeña",
-      "fenomeno": "Aviso de vientos de nivel amarillo. La Siberia extremeña",
+      "provincia": "Valle del Guadalentín, Lorca y Águilas",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Valle del Guadalentín, Lorca y Águilas",
       "nivel": "Naranja",
-      "text": "La Siberia extremeña: Aviso de vientos de nivel amarillo. La Siberia extremeña (Naranja) (AEMET)",
+      "text": "Valle del Guadalentín, Lorca y Águilas: Aviso de vientos de nivel amarillo. Valle del Guadalentín, Lorca y Águilas (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "La Siberia extremeña",
-      "fenomeno": "Moderate wind warning. La Siberia extremeña",
+      "provincia": "Valle del Guadalentín, Lorca y Águilas",
+      "fenomeno": "Moderate wind warning. Valle del Guadalentín, Lorca y Águilas",
       "nivel": "Naranja",
-      "text": "La Siberia extremeña: Moderate wind warning. La Siberia extremeña (Naranja) (AEMET)",
+      "text": "Valle del Guadalentín, Lorca y Águilas: Moderate wind warning. Valle del Guadalentín, Lorca y Águilas (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "💨",
-      "provincia": "Barros y Serena",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Barros y Serena",
+      "provincia": "Campo de Cartagena y Mazarrón",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Campo de Cartagena y Mazarrón",
       "nivel": "Naranja",
-      "text": "Barros y Serena: Aviso de vientos de nivel amarillo. Barros y Serena (Naranja) (AEMET)",
+      "text": "Campo de Cartagena y Mazarrón: Aviso de vientos de nivel amarillo. Campo de Cartagena y Mazarrón (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Barros y Serena",
-      "fenomeno": "Moderate wind warning. Barros y Serena",
+      "provincia": "Campo de Cartagena y Mazarrón",
+      "fenomeno": "Moderate wind warning. Campo de Cartagena y Mazarrón",
       "nivel": "Naranja",
-      "text": "Barros y Serena: Moderate wind warning. Barros y Serena (Naranja) (AEMET)",
+      "text": "Campo de Cartagena y Mazarrón: Moderate wind warning. Campo de Cartagena y Mazarrón (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "💨",
-      "provincia": "Sur de Badajoz",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Sur de Badajoz",
+      "icon": "🌊",
+      "provincia": "Costa - Valle del Guadalentín, Lorca y Águilas",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Valle del Guadalentín, Lorca y Águilas",
       "nivel": "Naranja",
-      "text": "Sur de Badajoz: Aviso de vientos de nivel amarillo. Sur de Badajoz (Naranja) (AEMET)",
+      "text": "Costa - Valle del Guadalentín, Lorca y Águilas: Aviso de costeros de nivel amarillo. Costa - Valle del Guadalentín, Lorca y Águilas (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Valle del Guadalentín, Lorca y Águilas",
+      "fenomeno": "Moderate coastalevent warning. Costa - Valle del Guadalentín, Lorca y Águilas",
+      "nivel": "Naranja",
+      "text": "Costa - Valle del Guadalentín, Lorca y Águilas: Moderate coastalevent warning. Costa - Valle del Guadalentín, Lorca y Águilas (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Valle del Guadalentín, Lorca y Águilas",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Valle del Guadalentín, Lorca y Águilas",
+      "nivel": "Naranja",
+      "text": "Costa - Valle del Guadalentín, Lorca y Águilas: Aviso de costeros de nivel amarillo. Costa - Valle del Guadalentín, Lorca y Águilas (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Valle del Guadalentín, Lorca y Águilas",
+      "fenomeno": "Moderate coastalevent warning. Costa - Valle del Guadalentín, Lorca y Águilas",
+      "nivel": "Naranja",
+      "text": "Costa - Valle del Guadalentín, Lorca y Águilas: Moderate coastalevent warning. Costa - Valle del Guadalentín, Lorca y Águilas (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Grazalema",
+      "fenomeno": "Aviso de lluvias de nivel rojo. Grazalema",
+      "nivel": "Rojo",
+      "text": "Grazalema: Aviso de lluvias de nivel rojo. Grazalema (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sur de Badajoz",
-      "fenomeno": "Moderate wind warning. Sur de Badajoz",
-      "nivel": "Naranja",
-      "text": "Sur de Badajoz: Moderate wind warning. Sur de Badajoz (Naranja) (AEMET)",
+      "provincia": "Grazalema",
+      "fenomeno": "Extreme rain warning. Grazalema",
+      "nivel": "Rojo",
+      "text": "Grazalema: Extreme rain warning. Grazalema (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "💨",
-      "provincia": "Norte de Cáceres",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Norte de Cáceres",
-      "nivel": "Naranja",
-      "text": "Norte de Cáceres: Aviso de vientos de nivel amarillo. Norte de Cáceres (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Norte de Cáceres",
-      "fenomeno": "Moderate wind warning. Norte de Cáceres",
-      "nivel": "Naranja",
-      "text": "Norte de Cáceres: Moderate wind warning. Norte de Cáceres (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Tajo y Alagón",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Tajo y Alagón",
-      "nivel": "Naranja",
-      "text": "Tajo y Alagón: Aviso de vientos de nivel amarillo. Tajo y Alagón (Naranja) (AEMET)",
+      "icon": "🌧️",
+      "provincia": "Grazalema",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Grazalema",
+      "nivel": "Rojo",
+      "text": "Grazalema: Aviso de lluvias de nivel naranja. Grazalema (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Tajo y Alagón",
-      "fenomeno": "Moderate wind warning. Tajo y Alagón",
-      "nivel": "Naranja",
-      "text": "Tajo y Alagón: Moderate wind warning. Tajo y Alagón (Naranja) (AEMET)",
+      "provincia": "Grazalema",
+      "fenomeno": "Severe rain warning. Grazalema",
+      "nivel": "Rojo",
+      "text": "Grazalema: Severe rain warning. Grazalema (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
