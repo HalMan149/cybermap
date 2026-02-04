@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2026-02-04T16:53:47.781Z
+// Auto-generado por GitHub Actions - 2026-02-04T17:39:28.942Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-02-04T16:53:47.781Z",
+  "generated_at": "2026-02-04T17:39:28.942Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "💨",
+      "provincia": "Poniente y Almería Capital",
+      "fenomeno": "Aviso de vientos de nivel naranja. Poniente y Almería Capital",
+      "nivel": "Rojo",
+      "text": "Poniente y Almería Capital: Aviso de vientos de nivel naranja. Poniente y Almería Capital (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Poniente y Almería Capital",
+      "fenomeno": "Severe wind warning. Poniente y Almería Capital",
+      "nivel": "Rojo",
+      "text": "Poniente y Almería Capital: Severe wind warning. Poniente y Almería Capital (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Sierras de Alcudia y Madrona",
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Severe coastalevent warning. Costa - Levante mallorquín",
       "nivel": "Rojo",
       "text": "Costa - Levante mallorquín: Severe coastalevent warning. Costa - Levante mallorquín (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Menorca",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Menorca",
-      "nivel": "Rojo",
-      "text": "Costa - Menorca: Aviso de costeros de nivel naranja. Costa - Menorca (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Menorca",
-      "fenomeno": "Severe coastalevent warning. Costa - Menorca",
-      "nivel": "Rojo",
-      "text": "Costa - Menorca: Severe coastalevent warning. Costa - Menorca (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
