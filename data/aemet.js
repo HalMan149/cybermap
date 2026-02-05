@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2026-02-05T01:18:23.682Z
+// Auto-generado por GitHub Actions - 2026-02-05T03:44:29.897Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-02-05T01:18:23.682Z",
+  "generated_at": "2026-02-05T03:44:29.897Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Cuenca del Genil",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Cuenca del Genil",
+      "nivel": "Naranja",
+      "text": "Cuenca del Genil: Aviso de lluvias de nivel amarillo. Cuenca del Genil (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cuenca del Genil",
+      "fenomeno": "Moderate rain warning. Cuenca del Genil",
+      "nivel": "Naranja",
+      "text": "Cuenca del Genil: Moderate rain warning. Cuenca del Genil (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Ronda",
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Severe coastalevent warning. Costa - Litoral gaditano",
       "nivel": "Rojo",
       "text": "Costa - Litoral gaditano: Severe coastalevent warning. Costa - Litoral gaditano (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Estrecho",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Estrecho",
-      "nivel": "Rojo",
-      "text": "Costa - Estrecho: Aviso de costeros de nivel naranja. Costa - Estrecho (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Estrecho",
-      "fenomeno": "Severe coastalevent warning. Costa - Estrecho",
-      "nivel": "Rojo",
-      "text": "Costa - Estrecho: Severe coastalevent warning. Costa - Estrecho (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
