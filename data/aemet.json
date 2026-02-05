@@ -1,166 +1,166 @@
 {
-  "generated_at": "2026-02-05T06:09:29.307Z",
+  "generated_at": "2026-02-05T07:58:28.697Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "🌧️",
-      "provincia": "Cuenca del Genil",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Cuenca del Genil",
+      "provincia": "Morena y Condado",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Morena y Condado",
       "nivel": "Naranja",
-      "text": "Cuenca del Genil: Aviso de lluvias de nivel amarillo. Cuenca del Genil (Naranja) (AEMET)",
+      "text": "Morena y Condado: Aviso de lluvias de nivel amarillo. Morena y Condado (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Cuenca del Genil",
-      "fenomeno": "Moderate rain warning. Cuenca del Genil",
+      "provincia": "Morena y Condado",
+      "fenomeno": "Moderate rain warning. Morena y Condado",
       "nivel": "Naranja",
-      "text": "Cuenca del Genil: Moderate rain warning. Cuenca del Genil (Naranja) (AEMET)",
+      "text": "Morena y Condado: Moderate rain warning. Morena y Condado (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Campo de Cartagena y Mazarrón",
+      "fenomeno": "Aviso de vientos de nivel naranja. Campo de Cartagena y Mazarrón",
+      "nivel": "Rojo",
+      "text": "Campo de Cartagena y Mazarrón: Aviso de vientos de nivel naranja. Campo de Cartagena y Mazarrón (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Campo de Cartagena y Mazarrón",
+      "fenomeno": "Severe wind warning. Campo de Cartagena y Mazarrón",
+      "nivel": "Rojo",
+      "text": "Campo de Cartagena y Mazarrón: Severe wind warning. Campo de Cartagena y Mazarrón (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Vega del Segura",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Vega del Segura",
+      "nivel": "Naranja",
+      "text": "Vega del Segura: Aviso de vientos de nivel amarillo. Vega del Segura (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Vega del Segura",
+      "fenomeno": "Moderate wind warning. Vega del Segura",
+      "nivel": "Naranja",
+      "text": "Vega del Segura: Moderate wind warning. Vega del Segura (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "La Mancha conquense",
+      "fenomeno": "Aviso de vientos de nivel naranja. La Mancha conquense",
+      "nivel": "Rojo",
+      "text": "La Mancha conquense: Aviso de vientos de nivel naranja. La Mancha conquense (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "La Mancha conquense",
+      "fenomeno": "Severe wind warning. La Mancha conquense",
+      "nivel": "Rojo",
+      "text": "La Mancha conquense: Severe wind warning. La Mancha conquense (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Ronda",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Ronda",
+      "provincia": "Sierra de San Vicente",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Sierra de San Vicente",
       "nivel": "Naranja",
-      "text": "Ronda: Aviso de lluvias de nivel amarillo. Ronda (Naranja) (AEMET)",
+      "text": "Sierra de San Vicente: Aviso de lluvias de nivel amarillo. Sierra de San Vicente (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Ronda",
-      "fenomeno": "Moderate rain warning. Ronda",
+      "provincia": "Sierra de San Vicente",
+      "fenomeno": "Moderate rain warning. Sierra de San Vicente",
       "nivel": "Naranja",
-      "text": "Ronda: Moderate rain warning. Ronda (Naranja) (AEMET)",
+      "text": "Sierra de San Vicente: Moderate rain warning. Sierra de San Vicente (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Grazalema",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Grazalema",
-      "nivel": "Rojo",
-      "text": "Grazalema: Aviso de lluvias de nivel naranja. Grazalema (Rojo) (AEMET)",
+      "provincia": "Valle del Tajo",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Valle del Tajo",
+      "nivel": "Naranja",
+      "text": "Valle del Tajo: Aviso de lluvias de nivel amarillo. Valle del Tajo (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Grazalema",
-      "fenomeno": "Severe rain warning. Grazalema",
-      "nivel": "Rojo",
-      "text": "Grazalema: Severe rain warning. Grazalema (Rojo) (AEMET)",
+      "provincia": "Valle del Tajo",
+      "fenomeno": "Moderate rain warning. Valle del Tajo",
+      "nivel": "Naranja",
+      "text": "Valle del Tajo: Moderate rain warning. Valle del Tajo (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Costa - Noroeste de A Coruña",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Noroeste de A Coruña",
-      "nivel": "Rojo",
-      "text": "Costa - Noroeste de A Coruña: Aviso de costeros de nivel naranja. Costa - Noroeste de A Coruña (Rojo) (AEMET)",
+      "icon": "💨",
+      "provincia": "Serranía de Cuenca",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Serranía de Cuenca",
+      "nivel": "Naranja",
+      "text": "Serranía de Cuenca: Aviso de vientos de nivel amarillo. Serranía de Cuenca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Costa - Noroeste de A Coruña",
-      "fenomeno": "Severe coastalevent warning. Costa - Noroeste de A Coruña",
-      "nivel": "Rojo",
-      "text": "Costa - Noroeste de A Coruña: Severe coastalevent warning. Costa - Noroeste de A Coruña (Rojo) (AEMET)",
+      "icon": "⚠️",
+      "provincia": "Serranía de Cuenca",
+      "fenomeno": "Moderate wind warning. Serranía de Cuenca",
+      "nivel": "Naranja",
+      "text": "Serranía de Cuenca: Moderate wind warning. Serranía de Cuenca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Costa - Oeste de A Coruña",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Oeste de A Coruña",
-      "nivel": "Rojo",
-      "text": "Costa - Oeste de A Coruña: Aviso de costeros de nivel naranja. Costa - Oeste de A Coruña (Rojo) (AEMET)",
+      "icon": "💨",
+      "provincia": "La Mancha conquense",
+      "fenomeno": "Aviso de vientos de nivel amarillo. La Mancha conquense",
+      "nivel": "Naranja",
+      "text": "La Mancha conquense: Aviso de vientos de nivel amarillo. La Mancha conquense (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Costa - Oeste de A Coruña",
-      "fenomeno": "Severe coastalevent warning. Costa - Oeste de A Coruña",
-      "nivel": "Rojo",
-      "text": "Costa - Oeste de A Coruña: Severe coastalevent warning. Costa - Oeste de A Coruña (Rojo) (AEMET)",
+      "icon": "⚠️",
+      "provincia": "La Mancha conquense",
+      "fenomeno": "Moderate wind warning. La Mancha conquense",
+      "nivel": "Naranja",
+      "text": "La Mancha conquense: Moderate wind warning. La Mancha conquense (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Costa - Suroeste de A Coruña",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Suroeste de A Coruña",
-      "nivel": "Rojo",
-      "text": "Costa - Suroeste de A Coruña: Aviso de costeros de nivel naranja. Costa - Suroeste de A Coruña (Rojo) (AEMET)",
+      "icon": "💨",
+      "provincia": "La Mancha conquense",
+      "fenomeno": "Aviso de vientos de nivel amarillo. La Mancha conquense",
+      "nivel": "Naranja",
+      "text": "La Mancha conquense: Aviso de vientos de nivel amarillo. La Mancha conquense (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Costa - Suroeste de A Coruña",
-      "fenomeno": "Severe coastalevent warning. Costa - Suroeste de A Coruña",
-      "nivel": "Rojo",
-      "text": "Costa - Suroeste de A Coruña: Severe coastalevent warning. Costa - Suroeste de A Coruña (Rojo) (AEMET)",
+      "icon": "⚠️",
+      "provincia": "La Mancha conquense",
+      "fenomeno": "Moderate wind warning. La Mancha conquense",
+      "nivel": "Naranja",
+      "text": "La Mancha conquense: Moderate wind warning. La Mancha conquense (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Costa - A Mariña",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - A Mariña",
-      "nivel": "Rojo",
-      "text": "Costa - A Mariña: Aviso de costeros de nivel naranja. Costa - A Mariña (Rojo) (AEMET)",
+      "icon": "⛈️",
+      "provincia": "Oeste de A Coruña",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Oeste de A Coruña",
+      "nivel": "Naranja",
+      "text": "Oeste de A Coruña: Aviso de tormentas de nivel amarillo. Oeste de A Coruña (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Costa - A Mariña",
-      "fenomeno": "Severe coastalevent warning. Costa - A Mariña",
-      "nivel": "Rojo",
-      "text": "Costa - A Mariña: Severe coastalevent warning. Costa - A Mariña (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Rias Baixas",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Rias Baixas",
-      "nivel": "Rojo",
-      "text": "Costa - Rias Baixas: Aviso de costeros de nivel naranja. Costa - Rias Baixas (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Rias Baixas",
-      "fenomeno": "Severe coastalevent warning. Costa - Rias Baixas",
-      "nivel": "Rojo",
-      "text": "Costa - Rias Baixas: Severe coastalevent warning. Costa - Rias Baixas (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Miño de Pontevedra",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Miño de Pontevedra",
-      "nivel": "Rojo",
-      "text": "Costa - Miño de Pontevedra: Aviso de costeros de nivel naranja. Costa - Miño de Pontevedra (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Miño de Pontevedra",
-      "fenomeno": "Severe coastalevent warning. Costa - Miño de Pontevedra",
-      "nivel": "Rojo",
-      "text": "Costa - Miño de Pontevedra: Severe coastalevent warning. Costa - Miño de Pontevedra (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral gaditano",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Litoral gaditano",
-      "nivel": "Rojo",
-      "text": "Costa - Litoral gaditano: Aviso de costeros de nivel naranja. Costa - Litoral gaditano (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral gaditano",
-      "fenomeno": "Severe coastalevent warning. Costa - Litoral gaditano",
-      "nivel": "Rojo",
-      "text": "Costa - Litoral gaditano: Severe coastalevent warning. Costa - Litoral gaditano (Rojo) (AEMET)",
+      "icon": "⚠️",
+      "provincia": "Oeste de A Coruña",
+      "fenomeno": "Moderate thunderstorm warning. Oeste de A Coruña",
+      "nivel": "Naranja",
+      "text": "Oeste de A Coruña: Moderate thunderstorm warning. Oeste de A Coruña (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
