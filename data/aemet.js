@@ -1,7 +1,168 @@
-// Auto-generado por GitHub Actions - 2026-02-06T20:00:55.197Z
+// Auto-generado por GitHub Actions - 2026-02-06T20:49:30.039Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-02-06T20:00:55.197Z",
+  "generated_at": "2026-02-06T20:49:30.039Z",
   "source": "AEMET OpenData API",
-  "total_avisos": 0,
-  "avisos": []
+  "total_avisos": 20,
+  "avisos": [
+    {
+      "icon": "❄️",
+      "provincia": "Sanabria",
+      "fenomeno": "Aviso de nevadas de nivel naranja. Sanabria",
+      "nivel": "Rojo",
+      "text": "Sanabria: Aviso de nevadas de nivel naranja. Sanabria (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sanabria",
+      "fenomeno": "Severe snow warning. Sanabria",
+      "nivel": "Rojo",
+      "text": "Sanabria: Severe snow warning. Sanabria (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Valle del Almanzora y Los Vélez",
+      "fenomeno": "Aviso de vientos de nivel naranja. Valle del Almanzora y Los Vélez",
+      "nivel": "Rojo",
+      "text": "Valle del Almanzora y Los Vélez: Aviso de vientos de nivel naranja. Valle del Almanzora y Los Vélez (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Valle del Almanzora y Los Vélez",
+      "fenomeno": "Severe wind warning. Valle del Almanzora y Los Vélez",
+      "nivel": "Rojo",
+      "text": "Valle del Almanzora y Los Vélez: Severe wind warning. Valle del Almanzora y Los Vélez (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Nacimiento y Campo de Tabernas",
+      "fenomeno": "Aviso de vientos de nivel naranja. Nacimiento y Campo de Tabernas",
+      "nivel": "Rojo",
+      "text": "Nacimiento y Campo de Tabernas: Aviso de vientos de nivel naranja. Nacimiento y Campo de Tabernas (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Nacimiento y Campo de Tabernas",
+      "fenomeno": "Severe wind warning. Nacimiento y Campo de Tabernas",
+      "nivel": "Rojo",
+      "text": "Nacimiento y Campo de Tabernas: Severe wind warning. Nacimiento y Campo de Tabernas (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Subbética cordobesa",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Subbética cordobesa",
+      "nivel": "Naranja",
+      "text": "Subbética cordobesa: Aviso de lluvias de nivel amarillo. Subbética cordobesa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Subbética cordobesa",
+      "fenomeno": "Moderate rain warning. Subbética cordobesa",
+      "nivel": "Naranja",
+      "text": "Subbética cordobesa: Moderate rain warning. Subbética cordobesa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Capital y Montes de Jaén",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Capital y Montes de Jaén",
+      "nivel": "Naranja",
+      "text": "Capital y Montes de Jaén: Aviso de lluvias de nivel amarillo. Capital y Montes de Jaén (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Capital y Montes de Jaén",
+      "fenomeno": "Moderate rain warning. Capital y Montes de Jaén",
+      "nivel": "Naranja",
+      "text": "Capital y Montes de Jaén: Moderate rain warning. Capital y Montes de Jaén (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Suroccidental asturiana",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Suroccidental asturiana",
+      "nivel": "Naranja",
+      "text": "Suroccidental asturiana: Aviso de nevadas de nivel amarillo. Suroccidental asturiana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Suroccidental asturiana",
+      "fenomeno": "Moderate snow warning. Suroccidental asturiana",
+      "nivel": "Naranja",
+      "text": "Suroccidental asturiana: Moderate snow warning. Suroccidental asturiana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Cordillera y Picos de Europa",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Cordillera y Picos de Europa",
+      "nivel": "Naranja",
+      "text": "Cordillera y Picos de Europa: Aviso de nevadas de nivel amarillo. Cordillera y Picos de Europa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cordillera y Picos de Europa",
+      "fenomeno": "Moderate snow warning. Cordillera y Picos de Europa",
+      "nivel": "Naranja",
+      "text": "Cordillera y Picos de Europa: Moderate snow warning. Cordillera y Picos de Europa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Ibérica de Burgos",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Ibérica de Burgos",
+      "nivel": "Naranja",
+      "text": "Ibérica de Burgos: Aviso de nevadas de nivel amarillo. Ibérica de Burgos (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ibérica de Burgos",
+      "fenomeno": "Moderate snow warning. Ibérica de Burgos",
+      "nivel": "Naranja",
+      "text": "Ibérica de Burgos: Moderate snow warning. Ibérica de Burgos (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Bierzo de León",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Bierzo de León",
+      "nivel": "Naranja",
+      "text": "Bierzo de León: Aviso de nevadas de nivel amarillo. Bierzo de León (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Bierzo de León",
+      "fenomeno": "Moderate snow warning. Bierzo de León",
+      "nivel": "Naranja",
+      "text": "Bierzo de León: Moderate snow warning. Bierzo de León (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Meseta de Segovia",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Meseta de Segovia",
+      "nivel": "Naranja",
+      "text": "Meseta de Segovia: Aviso de nevadas de nivel amarillo. Meseta de Segovia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Meseta de Segovia",
+      "fenomeno": "Moderate snow warning. Meseta de Segovia",
+      "nivel": "Naranja",
+      "text": "Meseta de Segovia: Moderate snow warning. Meseta de Segovia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    }
+  ]
 };
