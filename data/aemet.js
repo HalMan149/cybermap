@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-02-06T17:58:14.638Z
+// Auto-generado por GitHub Actions - 2026-02-06T18:52:37.485Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-02-06T17:58:14.638Z",
+  "generated_at": "2026-02-06T18:52:37.485Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "🌧️",
-      "provincia": "Norte de Cáceres",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Norte de Cáceres",
+      "icon": "❄️",
+      "provincia": "Sanabria",
+      "fenomeno": "Aviso de nevadas de nivel naranja. Sanabria",
       "nivel": "Rojo",
-      "text": "Norte de Cáceres: Aviso de lluvias de nivel naranja. Norte de Cáceres (Rojo) (AEMET)",
+      "text": "Sanabria: Aviso de nevadas de nivel naranja. Sanabria (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Norte de Cáceres",
-      "fenomeno": "Severe rain warning. Norte de Cáceres",
+      "provincia": "Sanabria",
+      "fenomeno": "Severe snow warning. Sanabria",
       "nivel": "Rojo",
-      "text": "Norte de Cáceres: Severe rain warning. Norte de Cáceres (Rojo) (AEMET)",
+      "text": "Sanabria: Severe snow warning. Sanabria (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "💨",
-      "provincia": "Vegas del Guadiana",
-      "fenomeno": "Aviso de vientos de nivel naranja. Vegas del Guadiana",
+      "provincia": "Valle del Almanzora y Los Vélez",
+      "fenomeno": "Aviso de vientos de nivel naranja. Valle del Almanzora y Los Vélez",
       "nivel": "Rojo",
-      "text": "Vegas del Guadiana: Aviso de vientos de nivel naranja. Vegas del Guadiana (Rojo) (AEMET)",
+      "text": "Valle del Almanzora y Los Vélez: Aviso de vientos de nivel naranja. Valle del Almanzora y Los Vélez (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Vegas del Guadiana",
-      "fenomeno": "Severe wind warning. Vegas del Guadiana",
+      "provincia": "Valle del Almanzora y Los Vélez",
+      "fenomeno": "Severe wind warning. Valle del Almanzora y Los Vélez",
       "nivel": "Rojo",
-      "text": "Vegas del Guadiana: Severe wind warning. Vegas del Guadiana (Rojo) (AEMET)",
+      "text": "Valle del Almanzora y Los Vélez: Severe wind warning. Valle del Almanzora y Los Vélez (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "💨",
-      "provincia": "Barros y Serena",
-      "fenomeno": "Aviso de vientos de nivel naranja. Barros y Serena",
+      "provincia": "Nacimiento y Campo de Tabernas",
+      "fenomeno": "Aviso de vientos de nivel naranja. Nacimiento y Campo de Tabernas",
       "nivel": "Rojo",
-      "text": "Barros y Serena: Aviso de vientos de nivel naranja. Barros y Serena (Rojo) (AEMET)",
+      "text": "Nacimiento y Campo de Tabernas: Aviso de vientos de nivel naranja. Nacimiento y Campo de Tabernas (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Barros y Serena",
-      "fenomeno": "Severe wind warning. Barros y Serena",
+      "provincia": "Nacimiento y Campo de Tabernas",
+      "fenomeno": "Severe wind warning. Nacimiento y Campo de Tabernas",
       "nivel": "Rojo",
-      "text": "Barros y Serena: Severe wind warning. Barros y Serena (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Sur de Badajoz",
-      "fenomeno": "Aviso de vientos de nivel naranja. Sur de Badajoz",
-      "nivel": "Rojo",
-      "text": "Sur de Badajoz: Aviso de vientos de nivel naranja. Sur de Badajoz (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sur de Badajoz",
-      "fenomeno": "Severe wind warning. Sur de Badajoz",
-      "nivel": "Rojo",
-      "text": "Sur de Badajoz: Severe wind warning. Sur de Badajoz (Rojo) (AEMET)",
+      "text": "Nacimiento y Campo de Tabernas: Severe wind warning. Nacimiento y Campo de Tabernas (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Sur de Ávila",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Sur de Ávila",
-      "nivel": "Rojo",
-      "text": "Sur de Ávila: Aviso de lluvias de nivel naranja. Sur de Ávila (Rojo) (AEMET)",
+      "provincia": "Subbética cordobesa",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Subbética cordobesa",
+      "nivel": "Naranja",
+      "text": "Subbética cordobesa: Aviso de lluvias de nivel amarillo. Subbética cordobesa (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sur de Ávila",
-      "fenomeno": "Severe rain warning. Sur de Ávila",
-      "nivel": "Rojo",
-      "text": "Sur de Ávila: Severe rain warning. Sur de Ávila (Rojo) (AEMET)",
+      "provincia": "Subbética cordobesa",
+      "fenomeno": "Moderate rain warning. Subbética cordobesa",
+      "nivel": "Naranja",
+      "text": "Subbética cordobesa: Moderate rain warning. Subbética cordobesa (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⛈️",
-      "provincia": "Andévalo y Condado",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Andévalo y Condado",
+      "icon": "🌧️",
+      "provincia": "Capital y Montes de Jaén",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Capital y Montes de Jaén",
       "nivel": "Naranja",
-      "text": "Andévalo y Condado: Aviso de tormentas de nivel amarillo. Andévalo y Condado (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Andévalo y Condado",
-      "fenomeno": "Moderate thunderstorm warning. Andévalo y Condado",
-      "nivel": "Naranja",
-      "text": "Andévalo y Condado: Moderate thunderstorm warning. Andévalo y Condado (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Litoral de Huelva",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Litoral de Huelva",
-      "nivel": "Naranja",
-      "text": "Litoral de Huelva: Aviso de tormentas de nivel amarillo. Litoral de Huelva (Naranja) (AEMET)",
+      "text": "Capital y Montes de Jaén: Aviso de lluvias de nivel amarillo. Capital y Montes de Jaén (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Litoral de Huelva",
-      "fenomeno": "Moderate thunderstorm warning. Litoral de Huelva",
+      "provincia": "Capital y Montes de Jaén",
+      "fenomeno": "Moderate rain warning. Capital y Montes de Jaén",
       "nivel": "Naranja",
-      "text": "Litoral de Huelva: Moderate thunderstorm warning. Litoral de Huelva (Naranja) (AEMET)",
+      "text": "Capital y Montes de Jaén: Moderate rain warning. Capital y Montes de Jaén (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⛈️",
-      "provincia": "Campiña gaditana",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Campiña gaditana",
+      "icon": "❄️",
+      "provincia": "Suroccidental asturiana",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Suroccidental asturiana",
       "nivel": "Naranja",
-      "text": "Campiña gaditana: Aviso de tormentas de nivel amarillo. Campiña gaditana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Campiña gaditana",
-      "fenomeno": "Moderate thunderstorm warning. Campiña gaditana",
-      "nivel": "Naranja",
-      "text": "Campiña gaditana: Moderate thunderstorm warning. Campiña gaditana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Litoral gaditano",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Litoral gaditano",
-      "nivel": "Naranja",
-      "text": "Litoral gaditano: Aviso de tormentas de nivel amarillo. Litoral gaditano (Naranja) (AEMET)",
+      "text": "Suroccidental asturiana: Aviso de nevadas de nivel amarillo. Suroccidental asturiana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Litoral gaditano",
-      "fenomeno": "Moderate thunderstorm warning. Litoral gaditano",
+      "provincia": "Suroccidental asturiana",
+      "fenomeno": "Moderate snow warning. Suroccidental asturiana",
       "nivel": "Naranja",
-      "text": "Litoral gaditano: Moderate thunderstorm warning. Litoral gaditano (Naranja) (AEMET)",
+      "text": "Suroccidental asturiana: Moderate snow warning. Suroccidental asturiana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⛈️",
-      "provincia": "Campiña cordobesa",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Campiña cordobesa",
+      "icon": "❄️",
+      "provincia": "Cordillera y Picos de Europa",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Cordillera y Picos de Europa",
       "nivel": "Naranja",
-      "text": "Campiña cordobesa: Aviso de tormentas de nivel amarillo. Campiña cordobesa (Naranja) (AEMET)",
+      "text": "Cordillera y Picos de Europa: Aviso de nevadas de nivel amarillo. Cordillera y Picos de Europa (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Campiña cordobesa",
-      "fenomeno": "Moderate thunderstorm warning. Campiña cordobesa",
+      "provincia": "Cordillera y Picos de Europa",
+      "fenomeno": "Moderate snow warning. Cordillera y Picos de Europa",
       "nivel": "Naranja",
-      "text": "Campiña cordobesa: Moderate thunderstorm warning. Campiña cordobesa (Naranja) (AEMET)",
+      "text": "Cordillera y Picos de Europa: Moderate snow warning. Cordillera y Picos de Europa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Ibérica de Burgos",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Ibérica de Burgos",
+      "nivel": "Naranja",
+      "text": "Ibérica de Burgos: Aviso de nevadas de nivel amarillo. Ibérica de Burgos (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ibérica de Burgos",
+      "fenomeno": "Moderate snow warning. Ibérica de Burgos",
+      "nivel": "Naranja",
+      "text": "Ibérica de Burgos: Moderate snow warning. Ibérica de Burgos (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Bierzo de León",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Bierzo de León",
+      "nivel": "Naranja",
+      "text": "Bierzo de León: Aviso de nevadas de nivel amarillo. Bierzo de León (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Bierzo de León",
+      "fenomeno": "Moderate snow warning. Bierzo de León",
+      "nivel": "Naranja",
+      "text": "Bierzo de León: Moderate snow warning. Bierzo de León (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Meseta de Segovia",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Meseta de Segovia",
+      "nivel": "Naranja",
+      "text": "Meseta de Segovia: Aviso de nevadas de nivel amarillo. Meseta de Segovia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Meseta de Segovia",
+      "fenomeno": "Moderate snow warning. Meseta de Segovia",
+      "nivel": "Naranja",
+      "text": "Meseta de Segovia: Moderate snow warning. Meseta de Segovia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
