@@ -1,55 +1,87 @@
-// Auto-generado por GitHub Actions - 2026-02-06T11:36:58.662Z
+// Auto-generado por GitHub Actions - 2026-02-06T11:59:49.201Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-02-06T11:36:58.662Z",
+  "generated_at": "2026-02-06T11:59:49.201Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "💨",
-      "provincia": "Valle del Almanzora y Los Vélez",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Valle del Almanzora y Los Vélez",
-      "nivel": "Naranja",
-      "text": "Valle del Almanzora y Los Vélez: Aviso de vientos de nivel amarillo. Valle del Almanzora y Los Vélez (Naranja) (AEMET)",
+      "icon": "❄️",
+      "provincia": "Sistema Central de Ávila",
+      "fenomeno": "Aviso de nevadas de nivel naranja. Sistema Central de Ávila",
+      "nivel": "Rojo",
+      "text": "Sistema Central de Ávila: Aviso de nevadas de nivel naranja. Sistema Central de Ávila (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Valle del Almanzora y Los Vélez",
-      "fenomeno": "Moderate wind warning. Valle del Almanzora y Los Vélez",
-      "nivel": "Naranja",
-      "text": "Valle del Almanzora y Los Vélez: Moderate wind warning. Valle del Almanzora y Los Vélez (Naranja) (AEMET)",
+      "provincia": "Sistema Central de Ávila",
+      "fenomeno": "Severe snow warning. Sistema Central de Ávila",
+      "nivel": "Rojo",
+      "text": "Sistema Central de Ávila: Severe snow warning. Sistema Central de Ávila (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "💨",
-      "provincia": "Nacimiento y Campo de Tabernas",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Nacimiento y Campo de Tabernas",
-      "nivel": "Naranja",
-      "text": "Nacimiento y Campo de Tabernas: Aviso de vientos de nivel amarillo. Nacimiento y Campo de Tabernas (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Nacimiento y Campo de Tabernas",
-      "fenomeno": "Moderate wind warning. Nacimiento y Campo de Tabernas",
-      "nivel": "Naranja",
-      "text": "Nacimiento y Campo de Tabernas: Moderate wind warning. Nacimiento y Campo de Tabernas (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Poniente y Almería Capital",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Poniente y Almería Capital",
-      "nivel": "Naranja",
-      "text": "Poniente y Almería Capital: Aviso de vientos de nivel amarillo. Poniente y Almería Capital (Naranja) (AEMET)",
+      "icon": "❄️",
+      "provincia": "Cordillera Cantábrica de León",
+      "fenomeno": "Aviso de nevadas de nivel naranja. Cordillera Cantábrica de León",
+      "nivel": "Rojo",
+      "text": "Cordillera Cantábrica de León: Aviso de nevadas de nivel naranja. Cordillera Cantábrica de León (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Poniente y Almería Capital",
-      "fenomeno": "Moderate wind warning. Poniente y Almería Capital",
-      "nivel": "Naranja",
-      "text": "Poniente y Almería Capital: Moderate wind warning. Poniente y Almería Capital (Naranja) (AEMET)",
+      "provincia": "Cordillera Cantábrica de León",
+      "fenomeno": "Severe snow warning. Cordillera Cantábrica de León",
+      "nivel": "Rojo",
+      "text": "Cordillera Cantábrica de León: Severe snow warning. Cordillera Cantábrica de León (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Sanabria",
+      "fenomeno": "Aviso de nevadas de nivel naranja. Sanabria",
+      "nivel": "Rojo",
+      "text": "Sanabria: Aviso de nevadas de nivel naranja. Sanabria (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sanabria",
+      "fenomeno": "Severe snow warning. Sanabria",
+      "nivel": "Rojo",
+      "text": "Sanabria: Severe snow warning. Sanabria (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Estrecho",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Estrecho",
+      "nivel": "Rojo",
+      "text": "Costa - Estrecho: Aviso de costeros de nivel naranja. Costa - Estrecho (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Estrecho",
+      "fenomeno": "Severe coastalevent warning. Costa - Estrecho",
+      "nivel": "Rojo",
+      "text": "Costa - Estrecho: Severe coastalevent warning. Costa - Estrecho (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Melilla",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Melilla",
+      "nivel": "Rojo",
+      "text": "Costa - Melilla: Aviso de costeros de nivel naranja. Costa - Melilla (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Melilla",
+      "fenomeno": "Severe coastalevent warning. Costa - Melilla",
+      "nivel": "Rojo",
+      "text": "Costa - Melilla: Severe coastalevent warning. Costa - Melilla (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -85,83 +117,51 @@ window.AEMET_AVISOS = {
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "💨",
-      "provincia": "Costa granadina",
-      "fenomeno": "Aviso de vientos de nivel naranja. Costa granadina",
+      "icon": "🌊",
+      "provincia": "Costa - Costa granadina",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Costa granadina",
       "nivel": "Rojo",
-      "text": "Costa granadina: Aviso de vientos de nivel naranja. Costa granadina (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa granadina",
-      "fenomeno": "Severe wind warning. Costa granadina",
-      "nivel": "Rojo",
-      "text": "Costa granadina: Severe wind warning. Costa granadina (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Levante almeriense",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Levante almeriense",
-      "nivel": "Rojo",
-      "text": "Costa - Levante almeriense: Aviso de costeros de nivel naranja. Costa - Levante almeriense (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Levante almeriense",
-      "fenomeno": "Severe coastalevent warning. Costa - Levante almeriense",
-      "nivel": "Rojo",
-      "text": "Costa - Levante almeriense: Severe coastalevent warning. Costa - Levante almeriense (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Poniente y Almería Capital",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Poniente y Almería Capital",
-      "nivel": "Naranja",
-      "text": "Costa - Poniente y Almería Capital: Aviso de costeros de nivel amarillo. Costa - Poniente y Almería Capital (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Poniente y Almería Capital",
-      "fenomeno": "Moderate coastalevent warning. Costa - Poniente y Almería Capital",
-      "nivel": "Naranja",
-      "text": "Costa - Poniente y Almería Capital: Moderate coastalevent warning. Costa - Poniente y Almería Capital (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Levante almeriense",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Levante almeriense",
-      "nivel": "Naranja",
-      "text": "Costa - Levante almeriense: Aviso de costeros de nivel amarillo. Costa - Levante almeriense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Levante almeriense",
-      "fenomeno": "Moderate coastalevent warning. Costa - Levante almeriense",
-      "nivel": "Naranja",
-      "text": "Costa - Levante almeriense: Moderate coastalevent warning. Costa - Levante almeriense (Naranja) (AEMET)",
+      "text": "Costa - Costa granadina: Aviso de costeros de nivel naranja. Costa - Costa granadina (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
       "provincia": "Costa - Costa granadina",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Costa granadina",
-      "nivel": "Naranja",
-      "text": "Costa - Costa granadina: Aviso de costeros de nivel amarillo. Costa - Costa granadina (Naranja) (AEMET)",
+      "fenomeno": "Severe coastalevent warning. Costa - Costa granadina",
+      "nivel": "Rojo",
+      "text": "Costa - Costa granadina: Severe coastalevent warning. Costa - Costa granadina (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Costa - Costa granadina",
-      "fenomeno": "Moderate coastalevent warning. Costa - Costa granadina",
+      "icon": "🌧️",
+      "provincia": "Grazalema",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Grazalema",
       "nivel": "Naranja",
-      "text": "Costa - Costa granadina: Moderate coastalevent warning. Costa - Costa granadina (Naranja) (AEMET)",
+      "text": "Grazalema: Aviso de lluvias de nivel amarillo. Grazalema (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Grazalema",
+      "fenomeno": "Moderate rain warning. Grazalema",
+      "nivel": "Naranja",
+      "text": "Grazalema: Moderate rain warning. Grazalema (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Estrecho",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Estrecho",
+      "nivel": "Naranja",
+      "text": "Estrecho: Aviso de lluvias de nivel amarillo. Estrecho (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Estrecho",
+      "fenomeno": "Moderate rain warning. Estrecho",
+      "nivel": "Naranja",
+      "text": "Estrecho: Moderate rain warning. Estrecho (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
