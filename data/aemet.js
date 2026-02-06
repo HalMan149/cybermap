@@ -1,9 +1,41 @@
-// Auto-generado por GitHub Actions - 2026-02-06T22:47:51.907Z
+// Auto-generado por GitHub Actions - 2026-02-06T23:18:27.959Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-02-06T22:47:51.907Z",
+  "generated_at": "2026-02-06T23:18:27.959Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "❄️",
+      "provincia": "Suroccidental asturiana",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Suroccidental asturiana",
+      "nivel": "Naranja",
+      "text": "Suroccidental asturiana: Aviso de nevadas de nivel amarillo. Suroccidental asturiana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Suroccidental asturiana",
+      "fenomeno": "Moderate snow warning. Suroccidental asturiana",
+      "nivel": "Naranja",
+      "text": "Suroccidental asturiana: Moderate snow warning. Suroccidental asturiana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Cordillera y Picos de Europa",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Cordillera y Picos de Europa",
+      "nivel": "Naranja",
+      "text": "Cordillera y Picos de Europa: Aviso de nevadas de nivel amarillo. Cordillera y Picos de Europa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cordillera y Picos de Europa",
+      "fenomeno": "Moderate snow warning. Cordillera y Picos de Europa",
+      "nivel": "Naranja",
+      "text": "Cordillera y Picos de Europa: Moderate snow warning. Cordillera y Picos de Europa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "💨",
       "provincia": "Vegas del Guadiana",
@@ -130,38 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Severe wind warning. Valle del Almanzora y Los Vélez",
       "nivel": "Rojo",
       "text": "Valle del Almanzora y Los Vélez: Severe wind warning. Valle del Almanzora y Los Vélez (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Nacimiento y Campo de Tabernas",
-      "fenomeno": "Aviso de vientos de nivel naranja. Nacimiento y Campo de Tabernas",
-      "nivel": "Rojo",
-      "text": "Nacimiento y Campo de Tabernas: Aviso de vientos de nivel naranja. Nacimiento y Campo de Tabernas (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Nacimiento y Campo de Tabernas",
-      "fenomeno": "Severe wind warning. Nacimiento y Campo de Tabernas",
-      "nivel": "Rojo",
-      "text": "Nacimiento y Campo de Tabernas: Severe wind warning. Nacimiento y Campo de Tabernas (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Subbética cordobesa",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Subbética cordobesa",
-      "nivel": "Naranja",
-      "text": "Subbética cordobesa: Aviso de lluvias de nivel amarillo. Subbética cordobesa (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Subbética cordobesa",
-      "fenomeno": "Moderate rain warning. Subbética cordobesa",
-      "nivel": "Naranja",
-      "text": "Subbética cordobesa: Moderate rain warning. Subbética cordobesa (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
