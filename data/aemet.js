@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-02-07T17:49:11.758Z
+// Auto-generado por GitHub Actions - 2026-02-07T18:24:05.892Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-02-07T17:49:11.758Z",
+  "generated_at": "2026-02-07T18:24:05.892Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "❄️",
-      "provincia": "Meseta de León",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Meseta de León",
-      "nivel": "Naranja",
-      "text": "Meseta de León: Aviso de nevadas de nivel amarillo. Meseta de León (Naranja) (AEMET)",
+      "icon": "💨",
+      "provincia": "Noroeste de Murcia",
+      "fenomeno": "Aviso de vientos de nivel naranja. Noroeste de Murcia",
+      "nivel": "Rojo",
+      "text": "Noroeste de Murcia: Aviso de vientos de nivel naranja. Noroeste de Murcia (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Meseta de León",
-      "fenomeno": "Moderate snow warning. Meseta de León",
-      "nivel": "Naranja",
-      "text": "Meseta de León: Moderate snow warning. Meseta de León (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Sur de Ávila",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Sur de Ávila",
-      "nivel": "Naranja",
-      "text": "Sur de Ávila: Aviso de nevadas de nivel amarillo. Sur de Ávila (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sur de Ávila",
-      "fenomeno": "Moderate snow warning. Sur de Ávila",
-      "nivel": "Naranja",
-      "text": "Sur de Ávila: Moderate snow warning. Sur de Ávila (Naranja) (AEMET)",
+      "provincia": "Noroeste de Murcia",
+      "fenomeno": "Severe wind warning. Noroeste de Murcia",
+      "nivel": "Rojo",
+      "text": "Noroeste de Murcia: Severe wind warning. Noroeste de Murcia (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "💨",
-      "provincia": "Campiña gaditana",
-      "fenomeno": "Aviso de vientos de nivel naranja. Campiña gaditana",
-      "nivel": "Rojo",
-      "text": "Campiña gaditana: Aviso de vientos de nivel naranja. Campiña gaditana (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Campiña gaditana",
-      "fenomeno": "Severe wind warning. Campiña gaditana",
-      "nivel": "Rojo",
-      "text": "Campiña gaditana: Severe wind warning. Campiña gaditana (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Aracena",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Aracena",
-      "nivel": "Rojo",
-      "text": "Aracena: Aviso de lluvias de nivel naranja. Aracena (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Aracena",
-      "fenomeno": "Severe rain warning. Aracena",
-      "nivel": "Rojo",
-      "text": "Aracena: Severe rain warning. Aracena (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Sierra norte de Sevilla",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Sierra norte de Sevilla",
-      "nivel": "Rojo",
-      "text": "Sierra norte de Sevilla: Aviso de lluvias de nivel naranja. Sierra norte de Sevilla (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sierra norte de Sevilla",
-      "fenomeno": "Severe rain warning. Sierra norte de Sevilla",
-      "nivel": "Rojo",
-      "text": "Sierra norte de Sevilla: Severe rain warning. Sierra norte de Sevilla (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral gaditano",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Litoral gaditano",
-      "nivel": "Rojo",
-      "text": "Costa - Litoral gaditano: Aviso de costeros de nivel naranja. Costa - Litoral gaditano (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral gaditano",
-      "fenomeno": "Severe coastalevent warning. Costa - Litoral gaditano",
-      "nivel": "Rojo",
-      "text": "Costa - Litoral gaditano: Severe coastalevent warning. Costa - Litoral gaditano (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Estrecho",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Estrecho",
-      "nivel": "Rojo",
-      "text": "Costa - Estrecho: Aviso de costeros de nivel naranja. Costa - Estrecho (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Estrecho",
-      "fenomeno": "Severe coastalevent warning. Costa - Estrecho",
-      "nivel": "Rojo",
-      "text": "Costa - Estrecho: Severe coastalevent warning. Costa - Estrecho (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral de Huelva",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Litoral de Huelva",
-      "nivel": "Rojo",
-      "text": "Costa - Litoral de Huelva: Aviso de costeros de nivel naranja. Costa - Litoral de Huelva (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral de Huelva",
-      "fenomeno": "Severe coastalevent warning. Costa - Litoral de Huelva",
-      "nivel": "Rojo",
-      "text": "Costa - Litoral de Huelva: Severe coastalevent warning. Costa - Litoral de Huelva (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Subbética cordobesa",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Subbética cordobesa",
+      "provincia": "Altiplano de Murcia",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Altiplano de Murcia",
       "nivel": "Naranja",
-      "text": "Subbética cordobesa: Aviso de lluvias de nivel amarillo. Subbética cordobesa (Naranja) (AEMET)",
+      "text": "Altiplano de Murcia: Aviso de vientos de nivel amarillo. Altiplano de Murcia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Subbética cordobesa",
-      "fenomeno": "Moderate rain warning. Subbética cordobesa",
+      "provincia": "Altiplano de Murcia",
+      "fenomeno": "Moderate wind warning. Altiplano de Murcia",
       "nivel": "Naranja",
-      "text": "Subbética cordobesa: Moderate rain warning. Subbética cordobesa (Naranja) (AEMET)",
+      "text": "Altiplano de Murcia: Moderate wind warning. Altiplano de Murcia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "💨",
-      "provincia": "Ceuta",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Ceuta",
+      "provincia": "Vega del Segura",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Vega del Segura",
       "nivel": "Naranja",
-      "text": "Ceuta: Aviso de vientos de nivel amarillo. Ceuta (Naranja) (AEMET)",
+      "text": "Vega del Segura: Aviso de vientos de nivel amarillo. Vega del Segura (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Ceuta",
-      "fenomeno": "Moderate wind warning. Ceuta",
+      "provincia": "Vega del Segura",
+      "fenomeno": "Moderate wind warning. Vega del Segura",
       "nivel": "Naranja",
-      "text": "Ceuta: Moderate wind warning. Ceuta (Naranja) (AEMET)",
+      "text": "Vega del Segura: Moderate wind warning. Vega del Segura (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Valle del Guadalentín, Lorca y Águilas",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Valle del Guadalentín, Lorca y Águilas",
+      "nivel": "Naranja",
+      "text": "Valle del Guadalentín, Lorca y Águilas: Aviso de vientos de nivel amarillo. Valle del Guadalentín, Lorca y Águilas (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Valle del Guadalentín, Lorca y Águilas",
+      "fenomeno": "Moderate wind warning. Valle del Guadalentín, Lorca y Águilas",
+      "nivel": "Naranja",
+      "text": "Valle del Guadalentín, Lorca y Águilas: Moderate wind warning. Valle del Guadalentín, Lorca y Águilas (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Noroeste de Murcia",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Noroeste de Murcia",
+      "nivel": "Naranja",
+      "text": "Noroeste de Murcia: Aviso de vientos de nivel amarillo. Noroeste de Murcia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Noroeste de Murcia",
+      "fenomeno": "Moderate wind warning. Noroeste de Murcia",
+      "nivel": "Naranja",
+      "text": "Noroeste de Murcia: Moderate wind warning. Noroeste de Murcia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Meseta de Salamanca",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Meseta de Salamanca",
+      "nivel": "Naranja",
+      "text": "Meseta de Salamanca: Aviso de vientos de nivel amarillo. Meseta de Salamanca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Meseta de Salamanca",
+      "fenomeno": "Moderate wind warning. Meseta de Salamanca",
+      "nivel": "Naranja",
+      "text": "Meseta de Salamanca: Moderate wind warning. Meseta de Salamanca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Valle del Almanzora y Los Vélez",
+      "fenomeno": "Aviso de vientos de nivel naranja. Valle del Almanzora y Los Vélez",
+      "nivel": "Rojo",
+      "text": "Valle del Almanzora y Los Vélez: Aviso de vientos de nivel naranja. Valle del Almanzora y Los Vélez (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Valle del Almanzora y Los Vélez",
+      "fenomeno": "Severe wind warning. Valle del Almanzora y Los Vélez",
+      "nivel": "Rojo",
+      "text": "Valle del Almanzora y Los Vélez: Severe wind warning. Valle del Almanzora y Los Vélez (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Nacimiento y Campo de Tabernas",
+      "fenomeno": "Aviso de vientos de nivel naranja. Nacimiento y Campo de Tabernas",
+      "nivel": "Rojo",
+      "text": "Nacimiento y Campo de Tabernas: Aviso de vientos de nivel naranja. Nacimiento y Campo de Tabernas (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Nacimiento y Campo de Tabernas",
+      "fenomeno": "Severe wind warning. Nacimiento y Campo de Tabernas",
+      "nivel": "Rojo",
+      "text": "Nacimiento y Campo de Tabernas: Severe wind warning. Nacimiento y Campo de Tabernas (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Guadix y Baza",
+      "fenomeno": "Aviso de vientos de nivel naranja. Guadix y Baza",
+      "nivel": "Rojo",
+      "text": "Guadix y Baza: Aviso de vientos de nivel naranja. Guadix y Baza (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Guadix y Baza",
+      "fenomeno": "Severe wind warning. Guadix y Baza",
+      "nivel": "Rojo",
+      "text": "Guadix y Baza: Severe wind warning. Guadix y Baza (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Cuenca del Genil",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Cuenca del Genil",
+      "nivel": "Naranja",
+      "text": "Cuenca del Genil: Aviso de lluvias de nivel amarillo. Cuenca del Genil (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cuenca del Genil",
+      "fenomeno": "Moderate rain warning. Cuenca del Genil",
+      "nivel": "Naranja",
+      "text": "Cuenca del Genil: Moderate rain warning. Cuenca del Genil (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
