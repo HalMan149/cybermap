@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2026-02-07T13:30:30.481Z
+// Auto-generado por GitHub Actions - 2026-02-07T14:03:02.396Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-02-07T13:30:30.481Z",
+  "generated_at": "2026-02-07T14:03:02.396Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "💨",
+      "provincia": "Campiña gaditana",
+      "fenomeno": "Aviso de vientos de nivel naranja. Campiña gaditana",
+      "nivel": "Rojo",
+      "text": "Campiña gaditana: Aviso de vientos de nivel naranja. Campiña gaditana (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Campiña gaditana",
+      "fenomeno": "Severe wind warning. Campiña gaditana",
+      "nivel": "Rojo",
+      "text": "Campiña gaditana: Severe wind warning. Campiña gaditana (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Aracena",
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate thunderstorm warning. Litoral de Huelva",
       "nivel": "Naranja",
       "text": "Litoral de Huelva: Moderate thunderstorm warning. Litoral de Huelva (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Ceuta",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Ceuta",
-      "nivel": "Naranja",
-      "text": "Costa - Ceuta: Aviso de costeros de nivel amarillo. Costa - Ceuta (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Ceuta",
-      "fenomeno": "Moderate coastalevent warning. Costa - Ceuta",
-      "nivel": "Naranja",
-      "text": "Costa - Ceuta: Moderate coastalevent warning. Costa - Ceuta (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
