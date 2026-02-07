@@ -1,166 +1,166 @@
 {
-  "generated_at": "2026-02-07T11:15:46.225Z",
+  "generated_at": "2026-02-07T11:42:33.846Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "🌊",
-      "provincia": "Costa - Levante almeriense",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Levante almeriense",
+      "icon": "🌧️",
+      "provincia": "Aracena",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Aracena",
       "nivel": "Rojo",
-      "text": "Costa - Levante almeriense: Aviso de costeros de nivel naranja. Costa - Levante almeriense (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Levante almeriense",
-      "fenomeno": "Severe coastalevent warning. Costa - Levante almeriense",
-      "nivel": "Rojo",
-      "text": "Costa - Levante almeriense: Severe coastalevent warning. Costa - Levante almeriense (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Melilla",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Melilla",
-      "nivel": "Rojo",
-      "text": "Costa - Melilla: Aviso de costeros de nivel naranja. Costa - Melilla (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Melilla",
-      "fenomeno": "Severe coastalevent warning. Costa - Melilla",
-      "nivel": "Rojo",
-      "text": "Costa - Melilla: Severe coastalevent warning. Costa - Melilla (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Poniente y Almería Capital",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Poniente y Almería Capital",
-      "nivel": "Rojo",
-      "text": "Costa - Poniente y Almería Capital: Aviso de costeros de nivel naranja. Costa - Poniente y Almería Capital (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Poniente y Almería Capital",
-      "fenomeno": "Severe coastalevent warning. Costa - Poniente y Almería Capital",
-      "nivel": "Rojo",
-      "text": "Costa - Poniente y Almería Capital: Severe coastalevent warning. Costa - Poniente y Almería Capital (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Levante almeriense",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Levante almeriense",
-      "nivel": "Rojo",
-      "text": "Costa - Levante almeriense: Aviso de costeros de nivel naranja. Costa - Levante almeriense (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Levante almeriense",
-      "fenomeno": "Severe coastalevent warning. Costa - Levante almeriense",
-      "nivel": "Rojo",
-      "text": "Costa - Levante almeriense: Severe coastalevent warning. Costa - Levante almeriense (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Costa granadina",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Costa granadina",
-      "nivel": "Rojo",
-      "text": "Costa - Costa granadina: Aviso de costeros de nivel naranja. Costa - Costa granadina (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Costa granadina",
-      "fenomeno": "Severe coastalevent warning. Costa - Costa granadina",
-      "nivel": "Rojo",
-      "text": "Costa - Costa granadina: Severe coastalevent warning. Costa - Costa granadina (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Valle del Almanzora y Los Vélez",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Valle del Almanzora y Los Vélez",
-      "nivel": "Naranja",
-      "text": "Valle del Almanzora y Los Vélez: Aviso de vientos de nivel amarillo. Valle del Almanzora y Los Vélez (Naranja) (AEMET)",
+      "text": "Aracena: Aviso de lluvias de nivel naranja. Aracena (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Valle del Almanzora y Los Vélez",
-      "fenomeno": "Moderate wind warning. Valle del Almanzora y Los Vélez",
-      "nivel": "Naranja",
-      "text": "Valle del Almanzora y Los Vélez: Moderate wind warning. Valle del Almanzora y Los Vélez (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Nacimiento y Campo de Tabernas",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Nacimiento y Campo de Tabernas",
-      "nivel": "Naranja",
-      "text": "Nacimiento y Campo de Tabernas: Aviso de vientos de nivel amarillo. Nacimiento y Campo de Tabernas (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Nacimiento y Campo de Tabernas",
-      "fenomeno": "Moderate wind warning. Nacimiento y Campo de Tabernas",
-      "nivel": "Naranja",
-      "text": "Nacimiento y Campo de Tabernas: Moderate wind warning. Nacimiento y Campo de Tabernas (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Levante almeriense",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Levante almeriense",
-      "nivel": "Naranja",
-      "text": "Costa - Levante almeriense: Aviso de costeros de nivel amarillo. Costa - Levante almeriense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Levante almeriense",
-      "fenomeno": "Moderate coastalevent warning. Costa - Levante almeriense",
-      "nivel": "Naranja",
-      "text": "Costa - Levante almeriense: Moderate coastalevent warning. Costa - Levante almeriense (Naranja) (AEMET)",
+      "provincia": "Aracena",
+      "fenomeno": "Severe rain warning. Aracena",
+      "nivel": "Rojo",
+      "text": "Aracena: Severe rain warning. Aracena (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Sol y Guadalhorce",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Sol y Guadalhorce",
-      "nivel": "Naranja",
-      "text": "Sol y Guadalhorce: Aviso de lluvias de nivel amarillo. Sol y Guadalhorce (Naranja) (AEMET)",
+      "provincia": "Sierra norte de Sevilla",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Sierra norte de Sevilla",
+      "nivel": "Rojo",
+      "text": "Sierra norte de Sevilla: Aviso de lluvias de nivel naranja. Sierra norte de Sevilla (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sol y Guadalhorce",
-      "fenomeno": "Moderate rain warning. Sol y Guadalhorce",
-      "nivel": "Naranja",
-      "text": "Sol y Guadalhorce: Moderate rain warning. Sol y Guadalhorce (Naranja) (AEMET)",
+      "provincia": "Sierra norte de Sevilla",
+      "fenomeno": "Severe rain warning. Sierra norte de Sevilla",
+      "nivel": "Rojo",
+      "text": "Sierra norte de Sevilla: Severe rain warning. Sierra norte de Sevilla (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral gaditano",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Litoral gaditano",
+      "nivel": "Rojo",
+      "text": "Costa - Litoral gaditano: Aviso de costeros de nivel naranja. Costa - Litoral gaditano (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral gaditano",
+      "fenomeno": "Severe coastalevent warning. Costa - Litoral gaditano",
+      "nivel": "Rojo",
+      "text": "Costa - Litoral gaditano: Severe coastalevent warning. Costa - Litoral gaditano (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Estrecho",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Estrecho",
+      "nivel": "Rojo",
+      "text": "Costa - Estrecho: Aviso de costeros de nivel naranja. Costa - Estrecho (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Estrecho",
+      "fenomeno": "Severe coastalevent warning. Costa - Estrecho",
+      "nivel": "Rojo",
+      "text": "Costa - Estrecho: Severe coastalevent warning. Costa - Estrecho (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral de Huelva",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Litoral de Huelva",
+      "nivel": "Rojo",
+      "text": "Costa - Litoral de Huelva: Aviso de costeros de nivel naranja. Costa - Litoral de Huelva (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral de Huelva",
+      "fenomeno": "Severe coastalevent warning. Costa - Litoral de Huelva",
+      "nivel": "Rojo",
+      "text": "Costa - Litoral de Huelva: Severe coastalevent warning. Costa - Litoral de Huelva (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Capital y Montes de Jaén",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Capital y Montes de Jaén",
+      "provincia": "Subbética cordobesa",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Subbética cordobesa",
       "nivel": "Naranja",
-      "text": "Capital y Montes de Jaén: Aviso de lluvias de nivel amarillo. Capital y Montes de Jaén (Naranja) (AEMET)",
+      "text": "Subbética cordobesa: Aviso de lluvias de nivel amarillo. Subbética cordobesa (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Capital y Montes de Jaén",
-      "fenomeno": "Moderate rain warning. Capital y Montes de Jaén",
+      "provincia": "Subbética cordobesa",
+      "fenomeno": "Moderate rain warning. Subbética cordobesa",
       "nivel": "Naranja",
-      "text": "Capital y Montes de Jaén: Moderate rain warning. Capital y Montes de Jaén (Naranja) (AEMET)",
+      "text": "Subbética cordobesa: Moderate rain warning. Subbética cordobesa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Ceuta",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Ceuta",
+      "nivel": "Naranja",
+      "text": "Ceuta: Aviso de vientos de nivel amarillo. Ceuta (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ceuta",
+      "fenomeno": "Moderate wind warning. Ceuta",
+      "nivel": "Naranja",
+      "text": "Ceuta: Moderate wind warning. Ceuta (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Andévalo y Condado",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Andévalo y Condado",
+      "nivel": "Naranja",
+      "text": "Andévalo y Condado: Aviso de tormentas de nivel amarillo. Andévalo y Condado (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Andévalo y Condado",
+      "fenomeno": "Moderate thunderstorm warning. Andévalo y Condado",
+      "nivel": "Naranja",
+      "text": "Andévalo y Condado: Moderate thunderstorm warning. Andévalo y Condado (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Litoral de Huelva",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Litoral de Huelva",
+      "nivel": "Naranja",
+      "text": "Litoral de Huelva: Aviso de tormentas de nivel amarillo. Litoral de Huelva (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral de Huelva",
+      "fenomeno": "Moderate thunderstorm warning. Litoral de Huelva",
+      "nivel": "Naranja",
+      "text": "Litoral de Huelva: Moderate thunderstorm warning. Litoral de Huelva (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Ceuta",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Ceuta",
+      "nivel": "Naranja",
+      "text": "Costa - Ceuta: Aviso de costeros de nivel amarillo. Costa - Ceuta (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Ceuta",
+      "fenomeno": "Moderate coastalevent warning. Costa - Ceuta",
+      "nivel": "Naranja",
+      "text": "Costa - Ceuta: Moderate coastalevent warning. Costa - Ceuta (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
