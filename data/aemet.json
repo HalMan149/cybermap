@@ -1,8 +1,24 @@
 {
-  "generated_at": "2026-02-07T16:20:31.359Z",
+  "generated_at": "2026-02-07T16:54:19.399Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "❄️",
+      "provincia": "Meseta de León",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Meseta de León",
+      "nivel": "Naranja",
+      "text": "Meseta de León: Aviso de nevadas de nivel amarillo. Meseta de León (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Meseta de León",
+      "fenomeno": "Moderate snow warning. Meseta de León",
+      "nivel": "Naranja",
+      "text": "Meseta de León: Moderate snow warning. Meseta de León (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "❄️",
       "provincia": "Sur de Ávila",
@@ -17,22 +33,6 @@
       "fenomeno": "Moderate snow warning. Sur de Ávila",
       "nivel": "Naranja",
       "text": "Sur de Ávila: Moderate snow warning. Sur de Ávila (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Meseta de Zamora",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Meseta de Zamora",
-      "nivel": "Naranja",
-      "text": "Meseta de Zamora: Aviso de nevadas de nivel amarillo. Meseta de Zamora (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Meseta de Zamora",
-      "fenomeno": "Moderate snow warning. Meseta de Zamora",
-      "nivel": "Naranja",
-      "text": "Meseta de Zamora: Moderate snow warning. Meseta de Zamora (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
