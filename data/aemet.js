@@ -1,9 +1,41 @@
-// Auto-generado por GitHub Actions - 2026-02-07T14:03:02.396Z
+// Auto-generado por GitHub Actions - 2026-02-07T14:43:24.009Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-02-07T14:03:02.396Z",
+  "generated_at": "2026-02-07T14:43:24.009Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "❄️",
+      "provincia": "Sur de Ávila",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Sur de Ávila",
+      "nivel": "Naranja",
+      "text": "Sur de Ávila: Aviso de nevadas de nivel amarillo. Sur de Ávila (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sur de Ávila",
+      "fenomeno": "Moderate snow warning. Sur de Ávila",
+      "nivel": "Naranja",
+      "text": "Sur de Ávila: Moderate snow warning. Sur de Ávila (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Meseta de Zamora",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Meseta de Zamora",
+      "nivel": "Naranja",
+      "text": "Meseta de Zamora: Aviso de nevadas de nivel amarillo. Meseta de Zamora (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Meseta de Zamora",
+      "fenomeno": "Moderate snow warning. Meseta de Zamora",
+      "nivel": "Naranja",
+      "text": "Meseta de Zamora: Moderate snow warning. Meseta de Zamora (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "💨",
       "provincia": "Campiña gaditana",
@@ -130,38 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate wind warning. Ceuta",
       "nivel": "Naranja",
       "text": "Ceuta: Moderate wind warning. Ceuta (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Andévalo y Condado",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Andévalo y Condado",
-      "nivel": "Naranja",
-      "text": "Andévalo y Condado: Aviso de tormentas de nivel amarillo. Andévalo y Condado (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Andévalo y Condado",
-      "fenomeno": "Moderate thunderstorm warning. Andévalo y Condado",
-      "nivel": "Naranja",
-      "text": "Andévalo y Condado: Moderate thunderstorm warning. Andévalo y Condado (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Litoral de Huelva",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Litoral de Huelva",
-      "nivel": "Naranja",
-      "text": "Litoral de Huelva: Aviso de tormentas de nivel amarillo. Litoral de Huelva (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral de Huelva",
-      "fenomeno": "Moderate thunderstorm warning. Litoral de Huelva",
-      "nivel": "Naranja",
-      "text": "Litoral de Huelva: Moderate thunderstorm warning. Litoral de Huelva (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
