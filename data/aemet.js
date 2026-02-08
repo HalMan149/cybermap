@@ -1,87 +1,87 @@
-// Auto-generado por GitHub Actions - 2026-02-08T09:51:42.126Z
+// Auto-generado por GitHub Actions - 2026-02-08T10:18:30.671Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-02-08T09:51:42.126Z",
+  "generated_at": "2026-02-08T10:18:30.671Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "❄️",
-      "provincia": "Nevada y Alpujarras",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Nevada y Alpujarras",
+      "icon": "🌊",
+      "provincia": "Costa - Valle del Guadalentín, Lorca y Águilas",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Valle del Guadalentín, Lorca y Águilas",
       "nivel": "Naranja",
-      "text": "Nevada y Alpujarras: Aviso de vientos de nivel amarillo. Nevada y Alpujarras (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Nevada y Alpujarras",
-      "fenomeno": "Moderate wind warning. Nevada y Alpujarras",
-      "nivel": "Naranja",
-      "text": "Nevada y Alpujarras: Moderate wind warning. Nevada y Alpujarras (Naranja) (AEMET)",
+      "text": "Costa - Valle del Guadalentín, Lorca y Águilas: Aviso de costeros de nivel amarillo. Costa - Valle del Guadalentín, Lorca y Águilas (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Costa - Poniente y Almería Capital",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Poniente y Almería Capital",
+      "provincia": "Costa - Valle del Guadalentín, Lorca y Águilas",
+      "fenomeno": "Moderate coastalevent warning. Costa - Valle del Guadalentín, Lorca y Águilas",
       "nivel": "Naranja",
-      "text": "Costa - Poniente y Almería Capital: Aviso de costeros de nivel amarillo. Costa - Poniente y Almería Capital (Naranja) (AEMET)",
+      "text": "Costa - Valle del Guadalentín, Lorca y Águilas: Moderate coastalevent warning. Costa - Valle del Guadalentín, Lorca y Águilas (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Noroeste de Murcia",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Noroeste de Murcia",
+      "nivel": "Naranja",
+      "text": "Noroeste de Murcia: Aviso de vientos de nivel amarillo. Noroeste de Murcia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Noroeste de Murcia",
+      "fenomeno": "Moderate wind warning. Noroeste de Murcia",
+      "nivel": "Naranja",
+      "text": "Noroeste de Murcia: Moderate wind warning. Noroeste de Murcia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Costa granadina",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Costa granadina",
+      "nivel": "Naranja",
+      "text": "Costa granadina: Aviso de vientos de nivel amarillo. Costa granadina (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Costa - Poniente y Almería Capital",
-      "fenomeno": "Moderate coastalevent warning. Costa - Poniente y Almería Capital",
+      "provincia": "Costa granadina",
+      "fenomeno": "Moderate wind warning. Costa granadina",
       "nivel": "Naranja",
-      "text": "Costa - Poniente y Almería Capital: Moderate coastalevent warning. Costa - Poniente y Almería Capital (Naranja) (AEMET)",
+      "text": "Costa granadina: Moderate wind warning. Costa granadina (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Costa - Levante almeriense",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Levante almeriense",
+      "icon": "💨",
+      "provincia": "Melilla",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Melilla",
       "nivel": "Naranja",
-      "text": "Costa - Levante almeriense: Aviso de costeros de nivel amarillo. Costa - Levante almeriense (Naranja) (AEMET)",
+      "text": "Melilla: Aviso de vientos de nivel amarillo. Melilla (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Costa - Levante almeriense",
-      "fenomeno": "Moderate coastalevent warning. Costa - Levante almeriense",
+      "icon": "⚠️",
+      "provincia": "Melilla",
+      "fenomeno": "Moderate wind warning. Melilla",
       "nivel": "Naranja",
-      "text": "Costa - Levante almeriense: Moderate coastalevent warning. Costa - Levante almeriense (Naranja) (AEMET)",
+      "text": "Melilla: Moderate wind warning. Melilla (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Costa - Costa granadina",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Costa granadina",
+      "icon": "🌧️",
+      "provincia": "Ronda",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Ronda",
       "nivel": "Naranja",
-      "text": "Costa - Costa granadina: Aviso de costeros de nivel amarillo. Costa - Costa granadina (Naranja) (AEMET)",
+      "text": "Ronda: Aviso de lluvias de nivel amarillo. Ronda (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Costa - Costa granadina",
-      "fenomeno": "Moderate coastalevent warning. Costa - Costa granadina",
+      "icon": "⚠️",
+      "provincia": "Ronda",
+      "fenomeno": "Moderate rain warning. Ronda",
       "nivel": "Naranja",
-      "text": "Costa - Costa granadina: Moderate coastalevent warning. Costa - Costa granadina (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Melilla",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Melilla",
-      "nivel": "Naranja",
-      "text": "Costa - Melilla: Aviso de costeros de nivel amarillo. Costa - Melilla (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Melilla",
-      "fenomeno": "Moderate coastalevent warning. Costa - Melilla",
-      "nivel": "Naranja",
-      "text": "Costa - Melilla: Moderate coastalevent warning. Costa - Melilla (Naranja) (AEMET)",
+      "text": "Ronda: Moderate rain warning. Ronda (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -98,6 +98,22 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate wind warning. Valle del Almanzora y Los Vélez",
       "nivel": "Naranja",
       "text": "Valle del Almanzora y Los Vélez: Moderate wind warning. Valle del Almanzora y Los Vélez (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Nacimiento y Campo de Tabernas",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Nacimiento y Campo de Tabernas",
+      "nivel": "Naranja",
+      "text": "Nacimiento y Campo de Tabernas: Aviso de vientos de nivel amarillo. Nacimiento y Campo de Tabernas (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Nacimiento y Campo de Tabernas",
+      "fenomeno": "Moderate wind warning. Nacimiento y Campo de Tabernas",
+      "nivel": "Naranja",
+      "text": "Nacimiento y Campo de Tabernas: Moderate wind warning. Nacimiento y Campo de Tabernas (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -133,35 +149,19 @@ window.AEMET_AVISOS = {
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "💨",
-      "provincia": "Gúdar y Maestrazgo",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Gúdar y Maestrazgo",
+      "icon": "🌊",
+      "provincia": "Costa - Poniente y Almería Capital",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Poniente y Almería Capital",
       "nivel": "Naranja",
-      "text": "Gúdar y Maestrazgo: Aviso de vientos de nivel amarillo. Gúdar y Maestrazgo (Naranja) (AEMET)",
+      "text": "Costa - Poniente y Almería Capital: Aviso de costeros de nivel amarillo. Costa - Poniente y Almería Capital (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⚠️",
-      "provincia": "Gúdar y Maestrazgo",
-      "fenomeno": "Moderate wind warning. Gúdar y Maestrazgo",
+      "icon": "🌊",
+      "provincia": "Costa - Poniente y Almería Capital",
+      "fenomeno": "Moderate coastalevent warning. Costa - Poniente y Almería Capital",
       "nivel": "Naranja",
-      "text": "Gúdar y Maestrazgo: Moderate wind warning. Gúdar y Maestrazgo (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Litoral norte de Alicante",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Litoral norte de Alicante",
-      "nivel": "Naranja",
-      "text": "Litoral norte de Alicante: Aviso de vientos de nivel amarillo. Litoral norte de Alicante (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral norte de Alicante",
-      "fenomeno": "Moderate wind warning. Litoral norte de Alicante",
-      "nivel": "Naranja",
-      "text": "Litoral norte de Alicante: Moderate wind warning. Litoral norte de Alicante (Naranja) (AEMET)",
+      "text": "Costa - Poniente y Almería Capital: Moderate coastalevent warning. Costa - Poniente y Almería Capital (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
