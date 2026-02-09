@@ -1,9 +1,41 @@
-// Auto-generado por GitHub Actions - 2026-02-09T22:01:47.539Z
+// Auto-generado por GitHub Actions - 2026-02-09T22:56:58.449Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-02-09T22:01:47.539Z",
+  "generated_at": "2026-02-09T22:56:58.449Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌊",
+      "provincia": "Ibérica de Burgos",
+      "fenomeno": "Aviso de deshielos de nivel amarillo. Ibérica de Burgos",
+      "nivel": "Naranja",
+      "text": "Ibérica de Burgos: Aviso de deshielos de nivel amarillo. Ibérica de Burgos (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ibérica de Burgos",
+      "fenomeno": "Moderate thaw warning. Ibérica de Burgos",
+      "nivel": "Naranja",
+      "text": "Ibérica de Burgos: Moderate thaw warning. Ibérica de Burgos (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Ibérica de Soria",
+      "fenomeno": "Aviso de deshielos de nivel amarillo. Ibérica de Soria",
+      "nivel": "Naranja",
+      "text": "Ibérica de Soria: Aviso de deshielos de nivel amarillo. Ibérica de Soria (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ibérica de Soria",
+      "fenomeno": "Moderate thaw warning. Ibérica de Soria",
+      "nivel": "Naranja",
+      "text": "Ibérica de Soria: Moderate thaw warning. Ibérica de Soria (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "💨",
       "provincia": "Albarracín y Jiloca",
@@ -130,38 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Severe wind warning. A Mariña",
       "nivel": "Rojo",
       "text": "A Mariña: Severe wind warning. A Mariña (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Depresión central de Barcelona",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Depresión central de Barcelona",
-      "nivel": "Naranja",
-      "text": "Depresión central de Barcelona: Aviso de vientos de nivel amarillo. Depresión central de Barcelona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Depresión central de Barcelona",
-      "fenomeno": "Moderate wind warning. Depresión central de Barcelona",
-      "nivel": "Naranja",
-      "text": "Depresión central de Barcelona: Moderate wind warning. Depresión central de Barcelona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Prelitoral de Barcelona",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Prelitoral de Barcelona",
-      "nivel": "Naranja",
-      "text": "Prelitoral de Barcelona: Aviso de vientos de nivel amarillo. Prelitoral de Barcelona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Prelitoral de Barcelona",
-      "fenomeno": "Moderate wind warning. Prelitoral de Barcelona",
-      "nivel": "Naranja",
-      "text": "Prelitoral de Barcelona: Moderate wind warning. Prelitoral de Barcelona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
