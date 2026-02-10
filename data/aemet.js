@@ -1,9 +1,57 @@
-// Auto-generado por GitHub Actions - 2026-02-10T03:27:28.159Z
+// Auto-generado por GitHub Actions - 2026-02-10T05:16:29.794Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-02-10T03:27:28.159Z",
+  "generated_at": "2026-02-10T05:16:29.794Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Vertiente cantábrica de Navarra",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Vertiente cantábrica de Navarra",
+      "nivel": "Naranja",
+      "text": "Vertiente cantábrica de Navarra: Aviso de lluvias de nivel amarillo. Vertiente cantábrica de Navarra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Vertiente cantábrica de Navarra",
+      "fenomeno": "Moderate rain warning. Vertiente cantábrica de Navarra",
+      "nivel": "Naranja",
+      "text": "Vertiente cantábrica de Navarra: Moderate rain warning. Vertiente cantábrica de Navarra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Pirineo navarro",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Pirineo navarro",
+      "nivel": "Naranja",
+      "text": "Pirineo navarro: Aviso de lluvias de nivel amarillo. Pirineo navarro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Pirineo navarro",
+      "fenomeno": "Moderate rain warning. Pirineo navarro",
+      "nivel": "Naranja",
+      "text": "Pirineo navarro: Moderate rain warning. Pirineo navarro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Gipuzkoa litoral",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Gipuzkoa litoral",
+      "nivel": "Naranja",
+      "text": "Gipuzkoa litoral: Aviso de lluvias de nivel amarillo. Gipuzkoa litoral (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Gipuzkoa litoral",
+      "fenomeno": "Moderate rain warning. Gipuzkoa litoral",
+      "nivel": "Naranja",
+      "text": "Gipuzkoa litoral: Moderate rain warning. Gipuzkoa litoral (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌊",
       "provincia": "Costa - Litoral occidental asturiano",
@@ -114,54 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Severe coastalevent warning. Costa - A Mariña",
       "nivel": "Rojo",
       "text": "Costa - A Mariña: Severe coastalevent warning. Costa - A Mariña (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Rias Baixas",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Rias Baixas",
-      "nivel": "Rojo",
-      "text": "Costa - Rias Baixas: Aviso de costeros de nivel naranja. Costa - Rias Baixas (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Rias Baixas",
-      "fenomeno": "Severe coastalevent warning. Costa - Rias Baixas",
-      "nivel": "Rojo",
-      "text": "Costa - Rias Baixas: Severe coastalevent warning. Costa - Rias Baixas (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Miño de Pontevedra",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Miño de Pontevedra",
-      "nivel": "Rojo",
-      "text": "Costa - Miño de Pontevedra: Aviso de costeros de nivel naranja. Costa - Miño de Pontevedra (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Miño de Pontevedra",
-      "fenomeno": "Severe coastalevent warning. Costa - Miño de Pontevedra",
-      "nivel": "Rojo",
-      "text": "Costa - Miño de Pontevedra: Severe coastalevent warning. Costa - Miño de Pontevedra (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Gipuzkoa litoral",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Gipuzkoa litoral",
-      "nivel": "Rojo",
-      "text": "Costa - Gipuzkoa litoral: Aviso de costeros de nivel naranja. Costa - Gipuzkoa litoral (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Gipuzkoa litoral",
-      "fenomeno": "Severe coastalevent warning. Costa - Gipuzkoa litoral",
-      "nivel": "Rojo",
-      "text": "Costa - Gipuzkoa litoral: Severe coastalevent warning. Costa - Gipuzkoa litoral (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
