@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-02-11T15:30:42.560Z
+// Auto-generado por GitHub Actions - 2026-02-11T17:39:04.845Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-02-11T15:30:42.560Z",
+  "generated_at": "2026-02-11T17:39:04.845Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "💨",
-      "provincia": "Ibérica riojana",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Ibérica riojana",
+      "icon": "🌧️",
+      "provincia": "Grazalema",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Grazalema",
       "nivel": "Naranja",
-      "text": "Ibérica riojana: Aviso de vientos de nivel amarillo. Ibérica riojana (Naranja) (AEMET)",
+      "text": "Grazalema: Aviso de lluvias de nivel amarillo. Grazalema (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Ibérica riojana",
-      "fenomeno": "Moderate wind warning. Ibérica riojana",
+      "provincia": "Grazalema",
+      "fenomeno": "Moderate rain warning. Grazalema",
       "nivel": "Naranja",
-      "text": "Ibérica riojana: Moderate wind warning. Ibérica riojana (Naranja) (AEMET)",
+      "text": "Grazalema: Moderate rain warning. Grazalema (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Poniente y Almería Capital",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Poniente y Almería Capital",
+      "nivel": "Rojo",
+      "text": "Costa - Poniente y Almería Capital: Aviso de costeros de nivel naranja. Costa - Poniente y Almería Capital (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Poniente y Almería Capital",
+      "fenomeno": "Severe coastalevent warning. Costa - Poniente y Almería Capital",
+      "nivel": "Rojo",
+      "text": "Costa - Poniente y Almería Capital: Severe coastalevent warning. Costa - Poniente y Almería Capital (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Levante almeriense",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Levante almeriense",
+      "nivel": "Rojo",
+      "text": "Costa - Levante almeriense: Aviso de costeros de nivel naranja. Costa - Levante almeriense (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Levante almeriense",
+      "fenomeno": "Severe coastalevent warning. Costa - Levante almeriense",
+      "nivel": "Rojo",
+      "text": "Costa - Levante almeriense: Severe coastalevent warning. Costa - Levante almeriense (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Costa granadina",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Costa granadina",
+      "nivel": "Rojo",
+      "text": "Costa - Costa granadina: Aviso de costeros de nivel naranja. Costa - Costa granadina (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Costa granadina",
+      "fenomeno": "Severe coastalevent warning. Costa - Costa granadina",
+      "nivel": "Rojo",
+      "text": "Costa - Costa granadina: Severe coastalevent warning. Costa - Costa granadina (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Valle del Guadalentín, Lorca y Águilas",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Valle del Guadalentín, Lorca y Águilas",
+      "nivel": "Rojo",
+      "text": "Costa - Valle del Guadalentín, Lorca y Águilas: Aviso de costeros de nivel naranja. Costa - Valle del Guadalentín, Lorca y Águilas (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Valle del Guadalentín, Lorca y Águilas",
+      "fenomeno": "Severe coastalevent warning. Costa - Valle del Guadalentín, Lorca y Águilas",
+      "nivel": "Rojo",
+      "text": "Costa - Valle del Guadalentín, Lorca y Águilas: Severe coastalevent warning. Costa - Valle del Guadalentín, Lorca y Águilas (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Campo de Cartagena y Mazarrón",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Campo de Cartagena y Mazarrón",
+      "nivel": "Rojo",
+      "text": "Costa - Campo de Cartagena y Mazarrón: Aviso de costeros de nivel naranja. Costa - Campo de Cartagena y Mazarrón (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Campo de Cartagena y Mazarrón",
+      "fenomeno": "Severe coastalevent warning. Costa - Campo de Cartagena y Mazarrón",
+      "nivel": "Rojo",
+      "text": "Costa - Campo de Cartagena y Mazarrón: Severe coastalevent warning. Costa - Campo de Cartagena y Mazarrón (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "💨",
-      "provincia": "Ribera del Ebro de La Rioja",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Ribera del Ebro de La Rioja",
-      "nivel": "Naranja",
-      "text": "Ribera del Ebro de La Rioja: Aviso de vientos de nivel amarillo. Ribera del Ebro de La Rioja (Naranja) (AEMET)",
+      "provincia": "Valle del Almanzora y Los Vélez",
+      "fenomeno": "Aviso de vientos de nivel naranja. Valle del Almanzora y Los Vélez",
+      "nivel": "Rojo",
+      "text": "Valle del Almanzora y Los Vélez: Aviso de vientos de nivel naranja. Valle del Almanzora y Los Vélez (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Ribera del Ebro de La Rioja",
-      "fenomeno": "Moderate wind warning. Ribera del Ebro de La Rioja",
-      "nivel": "Naranja",
-      "text": "Ribera del Ebro de La Rioja: Moderate wind warning. Ribera del Ebro de La Rioja (Naranja) (AEMET)",
+      "provincia": "Valle del Almanzora y Los Vélez",
+      "fenomeno": "Severe wind warning. Valle del Almanzora y Los Vélez",
+      "nivel": "Rojo",
+      "text": "Valle del Almanzora y Los Vélez: Severe wind warning. Valle del Almanzora y Los Vélez (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "💨",
-      "provincia": "Meseta de Ávila",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Meseta de Ávila",
-      "nivel": "Naranja",
-      "text": "Meseta de Ávila: Aviso de vientos de nivel amarillo. Meseta de Ávila (Naranja) (AEMET)",
+      "provincia": "Nacimiento y Campo de Tabernas",
+      "fenomeno": "Aviso de vientos de nivel naranja. Nacimiento y Campo de Tabernas",
+      "nivel": "Rojo",
+      "text": "Nacimiento y Campo de Tabernas: Aviso de vientos de nivel naranja. Nacimiento y Campo de Tabernas (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Meseta de Ávila",
-      "fenomeno": "Moderate wind warning. Meseta de Ávila",
-      "nivel": "Naranja",
-      "text": "Meseta de Ávila: Moderate wind warning. Meseta de Ávila (Naranja) (AEMET)",
+      "provincia": "Nacimiento y Campo de Tabernas",
+      "fenomeno": "Severe wind warning. Nacimiento y Campo de Tabernas",
+      "nivel": "Rojo",
+      "text": "Nacimiento y Campo de Tabernas: Severe wind warning. Nacimiento y Campo de Tabernas (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Melilla",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Melilla",
+      "nivel": "Rojo",
+      "text": "Costa - Melilla: Aviso de costeros de nivel naranja. Costa - Melilla (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Melilla",
+      "fenomeno": "Severe coastalevent warning. Costa - Melilla",
+      "nivel": "Rojo",
+      "text": "Costa - Melilla: Severe coastalevent warning. Costa - Melilla (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "💨",
-      "provincia": "Sistema Central de Ávila",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Sistema Central de Ávila",
-      "nivel": "Naranja",
-      "text": "Sistema Central de Ávila: Aviso de vientos de nivel amarillo. Sistema Central de Ávila (Naranja) (AEMET)",
+      "provincia": "Litoral sur de Tarragona",
+      "fenomeno": "Aviso de vientos de nivel naranja. Litoral sur de Tarragona",
+      "nivel": "Rojo",
+      "text": "Litoral sur de Tarragona: Aviso de vientos de nivel naranja. Litoral sur de Tarragona (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sistema Central de Ávila",
-      "fenomeno": "Moderate wind warning. Sistema Central de Ávila",
-      "nivel": "Naranja",
-      "text": "Sistema Central de Ávila: Moderate wind warning. Sistema Central de Ávila (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Cordillera Cantábrica de Burgos",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Cordillera Cantábrica de Burgos",
-      "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de Burgos: Aviso de vientos de nivel amarillo. Cordillera Cantábrica de Burgos (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cordillera Cantábrica de Burgos",
-      "fenomeno": "Moderate wind warning. Cordillera Cantábrica de Burgos",
-      "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de Burgos: Moderate wind warning. Cordillera Cantábrica de Burgos (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Norte de Burgos",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Norte de Burgos",
-      "nivel": "Naranja",
-      "text": "Norte de Burgos: Aviso de vientos de nivel amarillo. Norte de Burgos (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Norte de Burgos",
-      "fenomeno": "Moderate wind warning. Norte de Burgos",
-      "nivel": "Naranja",
-      "text": "Norte de Burgos: Moderate wind warning. Norte de Burgos (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Meseta de Burgos",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Meseta de Burgos",
-      "nivel": "Naranja",
-      "text": "Meseta de Burgos: Aviso de vientos de nivel amarillo. Meseta de Burgos (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Meseta de Burgos",
-      "fenomeno": "Moderate wind warning. Meseta de Burgos",
-      "nivel": "Naranja",
-      "text": "Meseta de Burgos: Moderate wind warning. Meseta de Burgos (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Ibérica de Burgos",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Ibérica de Burgos",
-      "nivel": "Naranja",
-      "text": "Ibérica de Burgos: Aviso de vientos de nivel amarillo. Ibérica de Burgos (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ibérica de Burgos",
-      "fenomeno": "Moderate wind warning. Ibérica de Burgos",
-      "nivel": "Naranja",
-      "text": "Ibérica de Burgos: Moderate wind warning. Ibérica de Burgos (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Bierzo de León",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Bierzo de León",
-      "nivel": "Naranja",
-      "text": "Bierzo de León: Aviso de vientos de nivel amarillo. Bierzo de León (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Bierzo de León",
-      "fenomeno": "Moderate wind warning. Bierzo de León",
-      "nivel": "Naranja",
-      "text": "Bierzo de León: Moderate wind warning. Bierzo de León (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Meseta de León",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Meseta de León",
-      "nivel": "Naranja",
-      "text": "Meseta de León: Aviso de vientos de nivel amarillo. Meseta de León (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Meseta de León",
-      "fenomeno": "Moderate wind warning. Meseta de León",
-      "nivel": "Naranja",
-      "text": "Meseta de León: Moderate wind warning. Meseta de León (Naranja) (AEMET)",
+      "provincia": "Litoral sur de Tarragona",
+      "fenomeno": "Severe wind warning. Litoral sur de Tarragona",
+      "nivel": "Rojo",
+      "text": "Litoral sur de Tarragona: Severe wind warning. Litoral sur de Tarragona (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
