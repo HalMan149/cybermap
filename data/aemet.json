@@ -1,166 +1,166 @@
 {
-  "generated_at": "2026-02-11T17:39:04.845Z",
+  "generated_at": "2026-02-11T18:37:51.881Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "🌧️",
-      "provincia": "Grazalema",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Grazalema",
+      "provincia": "Alcaraz y Segura",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Alcaraz y Segura",
       "nivel": "Naranja",
-      "text": "Grazalema: Aviso de lluvias de nivel amarillo. Grazalema (Naranja) (AEMET)",
+      "text": "Alcaraz y Segura: Aviso de lluvias de nivel amarillo. Alcaraz y Segura (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Grazalema",
-      "fenomeno": "Moderate rain warning. Grazalema",
+      "provincia": "Alcaraz y Segura",
+      "fenomeno": "Moderate rain warning. Alcaraz y Segura",
       "nivel": "Naranja",
-      "text": "Grazalema: Moderate rain warning. Grazalema (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Poniente y Almería Capital",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Poniente y Almería Capital",
-      "nivel": "Rojo",
-      "text": "Costa - Poniente y Almería Capital: Aviso de costeros de nivel naranja. Costa - Poniente y Almería Capital (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Poniente y Almería Capital",
-      "fenomeno": "Severe coastalevent warning. Costa - Poniente y Almería Capital",
-      "nivel": "Rojo",
-      "text": "Costa - Poniente y Almería Capital: Severe coastalevent warning. Costa - Poniente y Almería Capital (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Levante almeriense",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Levante almeriense",
-      "nivel": "Rojo",
-      "text": "Costa - Levante almeriense: Aviso de costeros de nivel naranja. Costa - Levante almeriense (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Levante almeriense",
-      "fenomeno": "Severe coastalevent warning. Costa - Levante almeriense",
-      "nivel": "Rojo",
-      "text": "Costa - Levante almeriense: Severe coastalevent warning. Costa - Levante almeriense (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Costa granadina",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Costa granadina",
-      "nivel": "Rojo",
-      "text": "Costa - Costa granadina: Aviso de costeros de nivel naranja. Costa - Costa granadina (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Costa granadina",
-      "fenomeno": "Severe coastalevent warning. Costa - Costa granadina",
-      "nivel": "Rojo",
-      "text": "Costa - Costa granadina: Severe coastalevent warning. Costa - Costa granadina (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Valle del Guadalentín, Lorca y Águilas",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Valle del Guadalentín, Lorca y Águilas",
-      "nivel": "Rojo",
-      "text": "Costa - Valle del Guadalentín, Lorca y Águilas: Aviso de costeros de nivel naranja. Costa - Valle del Guadalentín, Lorca y Águilas (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Valle del Guadalentín, Lorca y Águilas",
-      "fenomeno": "Severe coastalevent warning. Costa - Valle del Guadalentín, Lorca y Águilas",
-      "nivel": "Rojo",
-      "text": "Costa - Valle del Guadalentín, Lorca y Águilas: Severe coastalevent warning. Costa - Valle del Guadalentín, Lorca y Águilas (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Campo de Cartagena y Mazarrón",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Campo de Cartagena y Mazarrón",
-      "nivel": "Rojo",
-      "text": "Costa - Campo de Cartagena y Mazarrón: Aviso de costeros de nivel naranja. Costa - Campo de Cartagena y Mazarrón (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Campo de Cartagena y Mazarrón",
-      "fenomeno": "Severe coastalevent warning. Costa - Campo de Cartagena y Mazarrón",
-      "nivel": "Rojo",
-      "text": "Costa - Campo de Cartagena y Mazarrón: Severe coastalevent warning. Costa - Campo de Cartagena y Mazarrón (Rojo) (AEMET)",
+      "text": "Alcaraz y Segura: Moderate rain warning. Alcaraz y Segura (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "💨",
-      "provincia": "Valle del Almanzora y Los Vélez",
-      "fenomeno": "Aviso de vientos de nivel naranja. Valle del Almanzora y Los Vélez",
-      "nivel": "Rojo",
-      "text": "Valle del Almanzora y Los Vélez: Aviso de vientos de nivel naranja. Valle del Almanzora y Los Vélez (Rojo) (AEMET)",
+      "provincia": "Montes del norte y Anchuras",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Montes del norte y Anchuras",
+      "nivel": "Naranja",
+      "text": "Montes del norte y Anchuras: Aviso de vientos de nivel amarillo. Montes del norte y Anchuras (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Valle del Almanzora y Los Vélez",
-      "fenomeno": "Severe wind warning. Valle del Almanzora y Los Vélez",
-      "nivel": "Rojo",
-      "text": "Valle del Almanzora y Los Vélez: Severe wind warning. Valle del Almanzora y Los Vélez (Rojo) (AEMET)",
+      "provincia": "Montes del norte y Anchuras",
+      "fenomeno": "Moderate wind warning. Montes del norte y Anchuras",
+      "nivel": "Naranja",
+      "text": "Montes del norte y Anchuras: Moderate wind warning. Montes del norte y Anchuras (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "💨",
-      "provincia": "Nacimiento y Campo de Tabernas",
-      "fenomeno": "Aviso de vientos de nivel naranja. Nacimiento y Campo de Tabernas",
-      "nivel": "Rojo",
-      "text": "Nacimiento y Campo de Tabernas: Aviso de vientos de nivel naranja. Nacimiento y Campo de Tabernas (Rojo) (AEMET)",
+      "provincia": "Valle del Guadiana",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Valle del Guadiana",
+      "nivel": "Naranja",
+      "text": "Valle del Guadiana: Aviso de vientos de nivel amarillo. Valle del Guadiana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Nacimiento y Campo de Tabernas",
-      "fenomeno": "Severe wind warning. Nacimiento y Campo de Tabernas",
-      "nivel": "Rojo",
-      "text": "Nacimiento y Campo de Tabernas: Severe wind warning. Nacimiento y Campo de Tabernas (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Melilla",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Melilla",
-      "nivel": "Rojo",
-      "text": "Costa - Melilla: Aviso de costeros de nivel naranja. Costa - Melilla (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Melilla",
-      "fenomeno": "Severe coastalevent warning. Costa - Melilla",
-      "nivel": "Rojo",
-      "text": "Costa - Melilla: Severe coastalevent warning. Costa - Melilla (Rojo) (AEMET)",
+      "provincia": "Valle del Guadiana",
+      "fenomeno": "Moderate wind warning. Valle del Guadiana",
+      "nivel": "Naranja",
+      "text": "Valle del Guadiana: Moderate wind warning. Valle del Guadiana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "💨",
-      "provincia": "Litoral sur de Tarragona",
-      "fenomeno": "Aviso de vientos de nivel naranja. Litoral sur de Tarragona",
-      "nivel": "Rojo",
-      "text": "Litoral sur de Tarragona: Aviso de vientos de nivel naranja. Litoral sur de Tarragona (Rojo) (AEMET)",
+      "provincia": "Sierras de Alcudia y Madrona",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Sierras de Alcudia y Madrona",
+      "nivel": "Naranja",
+      "text": "Sierras de Alcudia y Madrona: Aviso de vientos de nivel amarillo. Sierras de Alcudia y Madrona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Litoral sur de Tarragona",
-      "fenomeno": "Severe wind warning. Litoral sur de Tarragona",
+      "provincia": "Sierras de Alcudia y Madrona",
+      "fenomeno": "Moderate wind warning. Sierras de Alcudia y Madrona",
+      "nivel": "Naranja",
+      "text": "Sierras de Alcudia y Madrona: Moderate wind warning. Sierras de Alcudia y Madrona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Montes de Toledo",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Montes de Toledo",
+      "nivel": "Naranja",
+      "text": "Montes de Toledo: Aviso de vientos de nivel amarillo. Montes de Toledo (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Montes de Toledo",
+      "fenomeno": "Moderate wind warning. Montes de Toledo",
+      "nivel": "Naranja",
+      "text": "Montes de Toledo: Moderate wind warning. Montes de Toledo (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Interior de Alicante",
+      "fenomeno": "Aviso de vientos de nivel naranja. Interior de Alicante",
       "nivel": "Rojo",
-      "text": "Litoral sur de Tarragona: Severe wind warning. Litoral sur de Tarragona (Rojo) (AEMET)",
+      "text": "Interior de Alicante: Aviso de vientos de nivel naranja. Interior de Alicante (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior de Alicante",
+      "fenomeno": "Severe wind warning. Interior de Alicante",
+      "nivel": "Rojo",
+      "text": "Interior de Alicante: Severe wind warning. Interior de Alicante (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Vegas del Guadiana",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Vegas del Guadiana",
+      "nivel": "Naranja",
+      "text": "Vegas del Guadiana: Aviso de vientos de nivel amarillo. Vegas del Guadiana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Vegas del Guadiana",
+      "fenomeno": "Moderate wind warning. Vegas del Guadiana",
+      "nivel": "Naranja",
+      "text": "Vegas del Guadiana: Moderate wind warning. Vegas del Guadiana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Meseta cacereña",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Meseta cacereña",
+      "nivel": "Naranja",
+      "text": "Meseta cacereña: Aviso de vientos de nivel amarillo. Meseta cacereña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Meseta cacereña",
+      "fenomeno": "Moderate wind warning. Meseta cacereña",
+      "nivel": "Naranja",
+      "text": "Meseta cacereña: Moderate wind warning. Meseta cacereña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Villuercas y Montánchez",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Villuercas y Montánchez",
+      "nivel": "Naranja",
+      "text": "Villuercas y Montánchez: Aviso de vientos de nivel amarillo. Villuercas y Montánchez (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Villuercas y Montánchez",
+      "fenomeno": "Moderate wind warning. Villuercas y Montánchez",
+      "nivel": "Naranja",
+      "text": "Villuercas y Montánchez: Moderate wind warning. Villuercas y Montánchez (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Nevada y Alpujarras",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Nevada y Alpujarras",
+      "nivel": "Naranja",
+      "text": "Nevada y Alpujarras: Aviso de lluvias de nivel amarillo. Nevada y Alpujarras (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Nevada y Alpujarras",
+      "fenomeno": "Moderate rain warning. Nevada y Alpujarras",
+      "nivel": "Naranja",
+      "text": "Nevada y Alpujarras: Moderate rain warning. Nevada y Alpujarras (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
