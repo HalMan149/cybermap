@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-02-12T02:10:10.222Z
+// Auto-generado por GitHub Actions - 2026-02-12T04:31:35.509Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-02-12T02:10:10.222Z",
+  "generated_at": "2026-02-12T04:31:35.509Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "💨",
-      "provincia": "Norte de Burgos",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Norte de Burgos",
-      "nivel": "Naranja",
-      "text": "Norte de Burgos: Aviso de vientos de nivel amarillo. Norte de Burgos (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Norte de Burgos",
-      "fenomeno": "Moderate wind warning. Norte de Burgos",
-      "nivel": "Naranja",
-      "text": "Norte de Burgos: Moderate wind warning. Norte de Burgos (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Alcaraz y Segura",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Alcaraz y Segura",
-      "nivel": "Naranja",
-      "text": "Alcaraz y Segura: Aviso de lluvias de nivel amarillo. Alcaraz y Segura (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Alcaraz y Segura",
-      "fenomeno": "Moderate rain warning. Alcaraz y Segura",
-      "nivel": "Naranja",
-      "text": "Alcaraz y Segura: Moderate rain warning. Alcaraz y Segura (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Montes del norte y Anchuras",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Montes del norte y Anchuras",
-      "nivel": "Naranja",
-      "text": "Montes del norte y Anchuras: Aviso de vientos de nivel amarillo. Montes del norte y Anchuras (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Montes del norte y Anchuras",
-      "fenomeno": "Moderate wind warning. Montes del norte y Anchuras",
-      "nivel": "Naranja",
-      "text": "Montes del norte y Anchuras: Moderate wind warning. Montes del norte y Anchuras (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Valle del Guadiana",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Valle del Guadiana",
-      "nivel": "Naranja",
-      "text": "Valle del Guadiana: Aviso de vientos de nivel amarillo. Valle del Guadiana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Valle del Guadiana",
-      "fenomeno": "Moderate wind warning. Valle del Guadiana",
-      "nivel": "Naranja",
-      "text": "Valle del Guadiana: Moderate wind warning. Valle del Guadiana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Sierras de Alcudia y Madrona",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Sierras de Alcudia y Madrona",
-      "nivel": "Naranja",
-      "text": "Sierras de Alcudia y Madrona: Aviso de vientos de nivel amarillo. Sierras de Alcudia y Madrona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sierras de Alcudia y Madrona",
-      "fenomeno": "Moderate wind warning. Sierras de Alcudia y Madrona",
-      "nivel": "Naranja",
-      "text": "Sierras de Alcudia y Madrona: Moderate wind warning. Sierras de Alcudia y Madrona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Montes de Toledo",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Montes de Toledo",
-      "nivel": "Naranja",
-      "text": "Montes de Toledo: Aviso de vientos de nivel amarillo. Montes de Toledo (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Montes de Toledo",
-      "fenomeno": "Moderate wind warning. Montes de Toledo",
-      "nivel": "Naranja",
-      "text": "Montes de Toledo: Moderate wind warning. Montes de Toledo (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Interior de Alicante",
-      "fenomeno": "Aviso de vientos de nivel naranja. Interior de Alicante",
+      "provincia": "Pirineo oscense",
+      "fenomeno": "Aviso de vientos de nivel naranja. Pirineo oscense",
       "nivel": "Rojo",
-      "text": "Interior de Alicante: Aviso de vientos de nivel naranja. Interior de Alicante (Rojo) (AEMET)",
+      "text": "Pirineo oscense: Aviso de vientos de nivel naranja. Pirineo oscense (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Interior de Alicante",
-      "fenomeno": "Severe wind warning. Interior de Alicante",
+      "provincia": "Pirineo oscense",
+      "fenomeno": "Severe wind warning. Pirineo oscense",
       "nivel": "Rojo",
-      "text": "Interior de Alicante: Severe wind warning. Interior de Alicante (Rojo) (AEMET)",
+      "text": "Pirineo oscense: Severe wind warning. Pirineo oscense (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "💨",
-      "provincia": "Vegas del Guadiana",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Vegas del Guadiana",
-      "nivel": "Naranja",
-      "text": "Vegas del Guadiana: Aviso de vientos de nivel amarillo. Vegas del Guadiana (Naranja) (AEMET)",
+      "provincia": "Gúdar y Maestrazgo",
+      "fenomeno": "Aviso de vientos de nivel naranja. Gúdar y Maestrazgo",
+      "nivel": "Rojo",
+      "text": "Gúdar y Maestrazgo: Aviso de vientos de nivel naranja. Gúdar y Maestrazgo (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Vegas del Guadiana",
-      "fenomeno": "Moderate wind warning. Vegas del Guadiana",
-      "nivel": "Naranja",
-      "text": "Vegas del Guadiana: Moderate wind warning. Vegas del Guadiana (Naranja) (AEMET)",
+      "provincia": "Gúdar y Maestrazgo",
+      "fenomeno": "Severe wind warning. Gúdar y Maestrazgo",
+      "nivel": "Rojo",
+      "text": "Gúdar y Maestrazgo: Severe wind warning. Gúdar y Maestrazgo (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "💨",
-      "provincia": "Meseta cacereña",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Meseta cacereña",
-      "nivel": "Naranja",
-      "text": "Meseta cacereña: Aviso de vientos de nivel amarillo. Meseta cacereña (Naranja) (AEMET)",
+      "provincia": "Bajo Aragón de Teruel",
+      "fenomeno": "Aviso de vientos de nivel naranja. Bajo Aragón de Teruel",
+      "nivel": "Rojo",
+      "text": "Bajo Aragón de Teruel: Aviso de vientos de nivel naranja. Bajo Aragón de Teruel (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Meseta cacereña",
-      "fenomeno": "Moderate wind warning. Meseta cacereña",
-      "nivel": "Naranja",
-      "text": "Meseta cacereña: Moderate wind warning. Meseta cacereña (Naranja) (AEMET)",
+      "provincia": "Bajo Aragón de Teruel",
+      "fenomeno": "Severe wind warning. Bajo Aragón de Teruel",
+      "nivel": "Rojo",
+      "text": "Bajo Aragón de Teruel: Severe wind warning. Bajo Aragón de Teruel (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "💨",
-      "provincia": "Villuercas y Montánchez",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Villuercas y Montánchez",
-      "nivel": "Naranja",
-      "text": "Villuercas y Montánchez: Aviso de vientos de nivel amarillo. Villuercas y Montánchez (Naranja) (AEMET)",
+      "provincia": "Pirineo de Girona",
+      "fenomeno": "Aviso de vientos de nivel naranja. Pirineo de Girona",
+      "nivel": "Rojo",
+      "text": "Pirineo de Girona: Aviso de vientos de nivel naranja. Pirineo de Girona (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Villuercas y Montánchez",
-      "fenomeno": "Moderate wind warning. Villuercas y Montánchez",
-      "nivel": "Naranja",
-      "text": "Villuercas y Montánchez: Moderate wind warning. Villuercas y Montánchez (Naranja) (AEMET)",
+      "provincia": "Pirineo de Girona",
+      "fenomeno": "Severe wind warning. Pirineo de Girona",
+      "nivel": "Rojo",
+      "text": "Pirineo de Girona: Severe wind warning. Pirineo de Girona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Ampurdán",
+      "fenomeno": "Aviso de vientos de nivel naranja. Ampurdán",
+      "nivel": "Rojo",
+      "text": "Ampurdán: Aviso de vientos de nivel naranja. Ampurdán (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ampurdán",
+      "fenomeno": "Severe wind warning. Ampurdán",
+      "nivel": "Rojo",
+      "text": "Ampurdán: Severe wind warning. Ampurdán (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Pirineo de Lleida",
+      "fenomeno": "Aviso de vientos de nivel naranja. Pirineo de Lleida",
+      "nivel": "Rojo",
+      "text": "Pirineo de Lleida: Aviso de vientos de nivel naranja. Pirineo de Lleida (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Pirineo de Lleida",
+      "fenomeno": "Severe wind warning. Pirineo de Lleida",
+      "nivel": "Rojo",
+      "text": "Pirineo de Lleida: Severe wind warning. Pirineo de Lleida (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Litoral sur de Tarragona",
+      "fenomeno": "Aviso de vientos de nivel naranja. Litoral sur de Tarragona",
+      "nivel": "Rojo",
+      "text": "Litoral sur de Tarragona: Aviso de vientos de nivel naranja. Litoral sur de Tarragona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral sur de Tarragona",
+      "fenomeno": "Severe wind warning. Litoral sur de Tarragona",
+      "nivel": "Rojo",
+      "text": "Litoral sur de Tarragona: Severe wind warning. Litoral sur de Tarragona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Prelitoral sur de Tarragona",
+      "fenomeno": "Aviso de vientos de nivel naranja. Prelitoral sur de Tarragona",
+      "nivel": "Rojo",
+      "text": "Prelitoral sur de Tarragona: Aviso de vientos de nivel naranja. Prelitoral sur de Tarragona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Prelitoral sur de Tarragona",
+      "fenomeno": "Severe wind warning. Prelitoral sur de Tarragona",
+      "nivel": "Rojo",
+      "text": "Prelitoral sur de Tarragona: Severe wind warning. Prelitoral sur de Tarragona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Interior norte de Castellón",
+      "fenomeno": "Aviso de vientos de nivel naranja. Interior norte de Castellón",
+      "nivel": "Rojo",
+      "text": "Interior norte de Castellón: Aviso de vientos de nivel naranja. Interior norte de Castellón (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior norte de Castellón",
+      "fenomeno": "Severe wind warning. Interior norte de Castellón",
+      "nivel": "Rojo",
+      "text": "Interior norte de Castellón: Severe wind warning. Interior norte de Castellón (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Litoral norte de Castellón",
+      "fenomeno": "Aviso de vientos de nivel naranja. Litoral norte de Castellón",
+      "nivel": "Rojo",
+      "text": "Litoral norte de Castellón: Aviso de vientos de nivel naranja. Litoral norte de Castellón (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral norte de Castellón",
+      "fenomeno": "Severe wind warning. Litoral norte de Castellón",
+      "nivel": "Rojo",
+      "text": "Litoral norte de Castellón: Severe wind warning. Litoral norte de Castellón (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
