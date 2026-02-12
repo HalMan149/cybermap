@@ -1,38 +1,54 @@
 {
-  "generated_at": "2026-02-12T22:27:44.608Z",
+  "generated_at": "2026-02-12T22:57:12.955Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "💨",
-      "provincia": "La Mancha albaceteña",
-      "fenomeno": "Aviso de vientos de nivel naranja. La Mancha albaceteña",
+      "icon": "❄️",
+      "provincia": "Cordillera Cantábrica de León",
+      "fenomeno": "Aviso de nevadas de nivel naranja. Cordillera Cantábrica de León",
       "nivel": "Rojo",
-      "text": "La Mancha albaceteña: Aviso de vientos de nivel naranja. La Mancha albaceteña (Rojo) (AEMET)",
+      "text": "Cordillera Cantábrica de León: Aviso de nevadas de nivel naranja. Cordillera Cantábrica de León (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "La Mancha albaceteña",
-      "fenomeno": "Severe wind warning. La Mancha albaceteña",
+      "provincia": "Cordillera Cantábrica de León",
+      "fenomeno": "Severe snow warning. Cordillera Cantábrica de León",
       "nivel": "Rojo",
-      "text": "La Mancha albaceteña: Severe wind warning. La Mancha albaceteña (Rojo) (AEMET)",
+      "text": "Cordillera Cantábrica de León: Severe snow warning. Cordillera Cantábrica de León (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "💨",
-      "provincia": "Alcaraz y Segura",
-      "fenomeno": "Aviso de vientos de nivel naranja. Alcaraz y Segura",
+      "icon": "❄️",
+      "provincia": "Cordillera Cantábrica de Palencia",
+      "fenomeno": "Aviso de nevadas de nivel naranja. Cordillera Cantábrica de Palencia",
       "nivel": "Rojo",
-      "text": "Alcaraz y Segura: Aviso de vientos de nivel naranja. Alcaraz y Segura (Rojo) (AEMET)",
+      "text": "Cordillera Cantábrica de Palencia: Aviso de nevadas de nivel naranja. Cordillera Cantábrica de Palencia (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Alcaraz y Segura",
-      "fenomeno": "Severe wind warning. Alcaraz y Segura",
+      "provincia": "Cordillera Cantábrica de Palencia",
+      "fenomeno": "Severe snow warning. Cordillera Cantábrica de Palencia",
       "nivel": "Rojo",
-      "text": "Alcaraz y Segura: Severe wind warning. Alcaraz y Segura (Rojo) (AEMET)",
+      "text": "Cordillera Cantábrica de Palencia: Severe snow warning. Cordillera Cantábrica de Palencia (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Valle del Almanzora y Los Vélez",
+      "fenomeno": "Aviso de vientos de nivel naranja. Valle del Almanzora y Los Vélez",
+      "nivel": "Rojo",
+      "text": "Valle del Almanzora y Los Vélez: Aviso de vientos de nivel naranja. Valle del Almanzora y Los Vélez (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Valle del Almanzora y Los Vélez",
+      "fenomeno": "Severe wind warning. Valle del Almanzora y Los Vélez",
+      "nivel": "Rojo",
+      "text": "Valle del Almanzora y Los Vélez: Severe wind warning. Valle del Almanzora y Los Vélez (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -52,115 +68,99 @@
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Sierra de San Vicente",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Sierra de San Vicente",
-      "nivel": "Naranja",
-      "text": "Sierra de San Vicente: Aviso de lluvias de nivel amarillo. Sierra de San Vicente (Naranja) (AEMET)",
+      "icon": "💨",
+      "provincia": "Melilla",
+      "fenomeno": "Aviso de vientos de nivel naranja. Melilla",
+      "nivel": "Rojo",
+      "text": "Melilla: Aviso de vientos de nivel naranja. Melilla (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sierra de San Vicente",
-      "fenomeno": "Moderate rain warning. Sierra de San Vicente",
-      "nivel": "Naranja",
-      "text": "Sierra de San Vicente: Moderate rain warning. Sierra de San Vicente (Naranja) (AEMET)",
+      "provincia": "Melilla",
+      "fenomeno": "Severe wind warning. Melilla",
+      "nivel": "Rojo",
+      "text": "Melilla: Severe wind warning. Melilla (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Montes de Toledo",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Montes de Toledo",
-      "nivel": "Naranja",
-      "text": "Montes de Toledo: Aviso de lluvias de nivel amarillo. Montes de Toledo (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Montes de Toledo",
-      "fenomeno": "Moderate rain warning. Montes de Toledo",
-      "nivel": "Naranja",
-      "text": "Montes de Toledo: Moderate rain warning. Montes de Toledo (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Serranía de Cuenca",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Serranía de Cuenca",
-      "nivel": "Naranja",
-      "text": "Serranía de Cuenca: Aviso de lluvias de nivel amarillo. Serranía de Cuenca (Naranja) (AEMET)",
+      "icon": "💨",
+      "provincia": "Altiplano de Murcia",
+      "fenomeno": "Aviso de vientos de nivel naranja. Altiplano de Murcia",
+      "nivel": "Rojo",
+      "text": "Altiplano de Murcia: Aviso de vientos de nivel naranja. Altiplano de Murcia (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Serranía de Cuenca",
-      "fenomeno": "Moderate rain warning. Serranía de Cuenca",
-      "nivel": "Naranja",
-      "text": "Serranía de Cuenca: Moderate rain warning. Serranía de Cuenca (Naranja) (AEMET)",
+      "provincia": "Altiplano de Murcia",
+      "fenomeno": "Severe wind warning. Altiplano de Murcia",
+      "nivel": "Rojo",
+      "text": "Altiplano de Murcia: Severe wind warning. Altiplano de Murcia (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Oeste de A Coruña",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Oeste de A Coruña",
-      "nivel": "Naranja",
-      "text": "Oeste de A Coruña: Aviso de lluvias de nivel amarillo. Oeste de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Oeste de A Coruña",
-      "fenomeno": "Moderate rain warning. Oeste de A Coruña",
-      "nivel": "Naranja",
-      "text": "Oeste de A Coruña: Moderate rain warning. Oeste de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Centro y valle de Villaverde",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Centro y valle de Villaverde",
-      "nivel": "Naranja",
-      "text": "Centro y valle de Villaverde: Aviso de lluvias de nivel amarillo. Centro y valle de Villaverde (Naranja) (AEMET)",
+      "icon": "💨",
+      "provincia": "Noroeste de Murcia",
+      "fenomeno": "Aviso de vientos de nivel naranja. Noroeste de Murcia",
+      "nivel": "Rojo",
+      "text": "Noroeste de Murcia: Aviso de vientos de nivel naranja. Noroeste de Murcia (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Centro y valle de Villaverde",
-      "fenomeno": "Moderate rain warning. Centro y valle de Villaverde",
-      "nivel": "Naranja",
-      "text": "Centro y valle de Villaverde: Moderate rain warning. Centro y valle de Villaverde (Naranja) (AEMET)",
+      "provincia": "Noroeste de Murcia",
+      "fenomeno": "Severe wind warning. Noroeste de Murcia",
+      "nivel": "Rojo",
+      "text": "Noroeste de Murcia: Severe wind warning. Noroeste de Murcia (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "❄️",
-      "provincia": "Centro y valle de Villaverde",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Centro y valle de Villaverde",
+      "provincia": "Guadix y Baza",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Guadix y Baza",
       "nivel": "Naranja",
-      "text": "Centro y valle de Villaverde: Aviso de nevadas de nivel amarillo. Centro y valle de Villaverde (Naranja) (AEMET)",
+      "text": "Guadix y Baza: Aviso de nevadas de nivel amarillo. Guadix y Baza (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Centro y valle de Villaverde",
-      "fenomeno": "Moderate snow warning. Centro y valle de Villaverde",
+      "provincia": "Guadix y Baza",
+      "fenomeno": "Moderate snow warning. Guadix y Baza",
       "nivel": "Naranja",
-      "text": "Centro y valle de Villaverde: Moderate snow warning. Centro y valle de Villaverde (Naranja) (AEMET)",
+      "text": "Guadix y Baza: Moderate snow warning. Guadix y Baza (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "❄️",
-      "provincia": "Cantabria del Ebro",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Cantabria del Ebro",
+      "provincia": "Sistema Central de Ávila",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Sistema Central de Ávila",
       "nivel": "Naranja",
-      "text": "Cantabria del Ebro: Aviso de nevadas de nivel amarillo. Cantabria del Ebro (Naranja) (AEMET)",
+      "text": "Sistema Central de Ávila: Aviso de nevadas de nivel amarillo. Sistema Central de Ávila (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Cantabria del Ebro",
-      "fenomeno": "Moderate snow warning. Cantabria del Ebro",
+      "provincia": "Sistema Central de Ávila",
+      "fenomeno": "Moderate snow warning. Sistema Central de Ávila",
       "nivel": "Naranja",
-      "text": "Cantabria del Ebro: Moderate snow warning. Cantabria del Ebro (Naranja) (AEMET)",
+      "text": "Sistema Central de Ávila: Moderate snow warning. Sistema Central de Ávila (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Cordillera Cantábrica de Burgos",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Cordillera Cantábrica de Burgos",
+      "nivel": "Naranja",
+      "text": "Cordillera Cantábrica de Burgos: Aviso de nevadas de nivel amarillo. Cordillera Cantábrica de Burgos (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cordillera Cantábrica de Burgos",
+      "fenomeno": "Moderate snow warning. Cordillera Cantábrica de Burgos",
+      "nivel": "Naranja",
+      "text": "Cordillera Cantábrica de Burgos: Moderate snow warning. Cordillera Cantábrica de Burgos (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
