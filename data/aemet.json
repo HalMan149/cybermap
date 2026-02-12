@@ -1,8 +1,104 @@
 {
-  "generated_at": "2026-02-12T16:40:16.791Z",
+  "generated_at": "2026-02-12T17:42:04.473Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Oeste de A Coruña",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Oeste de A Coruña",
+      "nivel": "Naranja",
+      "text": "Oeste de A Coruña: Aviso de lluvias de nivel amarillo. Oeste de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Oeste de A Coruña",
+      "fenomeno": "Moderate rain warning. Oeste de A Coruña",
+      "nivel": "Naranja",
+      "text": "Oeste de A Coruña: Moderate rain warning. Oeste de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Centro y valle de Villaverde",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Centro y valle de Villaverde",
+      "nivel": "Naranja",
+      "text": "Centro y valle de Villaverde: Aviso de lluvias de nivel amarillo. Centro y valle de Villaverde (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Centro y valle de Villaverde",
+      "fenomeno": "Moderate rain warning. Centro y valle de Villaverde",
+      "nivel": "Naranja",
+      "text": "Centro y valle de Villaverde: Moderate rain warning. Centro y valle de Villaverde (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Centro y valle de Villaverde",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Centro y valle de Villaverde",
+      "nivel": "Naranja",
+      "text": "Centro y valle de Villaverde: Aviso de nevadas de nivel amarillo. Centro y valle de Villaverde (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Centro y valle de Villaverde",
+      "fenomeno": "Moderate snow warning. Centro y valle de Villaverde",
+      "nivel": "Naranja",
+      "text": "Centro y valle de Villaverde: Moderate snow warning. Centro y valle de Villaverde (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Cantabria del Ebro",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Cantabria del Ebro",
+      "nivel": "Naranja",
+      "text": "Cantabria del Ebro: Aviso de nevadas de nivel amarillo. Cantabria del Ebro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cantabria del Ebro",
+      "fenomeno": "Moderate snow warning. Cantabria del Ebro",
+      "nivel": "Naranja",
+      "text": "Cantabria del Ebro: Moderate snow warning. Cantabria del Ebro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Litoral norte de Castellón",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Litoral norte de Castellón",
+      "nivel": "Naranja",
+      "text": "Litoral norte de Castellón: Aviso de vientos de nivel amarillo. Litoral norte de Castellón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral norte de Castellón",
+      "fenomeno": "Moderate wind warning. Litoral norte de Castellón",
+      "nivel": "Naranja",
+      "text": "Litoral norte de Castellón: Moderate wind warning. Litoral norte de Castellón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Litoral sur de Castellón",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Litoral sur de Castellón",
+      "nivel": "Naranja",
+      "text": "Litoral sur de Castellón: Aviso de vientos de nivel amarillo. Litoral sur de Castellón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral sur de Castellón",
+      "fenomeno": "Moderate wind warning. Litoral sur de Castellón",
+      "nivel": "Naranja",
+      "text": "Litoral sur de Castellón: Moderate wind warning. Litoral sur de Castellón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "❄️",
       "provincia": "Cordillera Cantábrica de León",
@@ -65,102 +161,6 @@
       "fenomeno": "Moderate snow warning. Sistema Central de Ávila",
       "nivel": "Naranja",
       "text": "Sistema Central de Ávila: Moderate snow warning. Sistema Central de Ávila (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Noroeste de Murcia",
-      "fenomeno": "Aviso de vientos de nivel naranja. Noroeste de Murcia",
-      "nivel": "Rojo",
-      "text": "Noroeste de Murcia: Aviso de vientos de nivel naranja. Noroeste de Murcia (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Noroeste de Murcia",
-      "fenomeno": "Severe wind warning. Noroeste de Murcia",
-      "nivel": "Rojo",
-      "text": "Noroeste de Murcia: Severe wind warning. Noroeste de Murcia (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Valle del Guadalentín, Lorca y Águilas",
-      "fenomeno": "Aviso de vientos de nivel naranja. Valle del Guadalentín, Lorca y Águilas",
-      "nivel": "Rojo",
-      "text": "Valle del Guadalentín, Lorca y Águilas: Aviso de vientos de nivel naranja. Valle del Guadalentín, Lorca y Águilas (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Valle del Guadalentín, Lorca y Águilas",
-      "fenomeno": "Severe wind warning. Valle del Guadalentín, Lorca y Águilas",
-      "nivel": "Rojo",
-      "text": "Valle del Guadalentín, Lorca y Águilas: Severe wind warning. Valle del Guadalentín, Lorca y Águilas (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Campo de Cartagena y Mazarrón",
-      "fenomeno": "Aviso de vientos de nivel naranja. Campo de Cartagena y Mazarrón",
-      "nivel": "Rojo",
-      "text": "Campo de Cartagena y Mazarrón: Aviso de vientos de nivel naranja. Campo de Cartagena y Mazarrón (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Campo de Cartagena y Mazarrón",
-      "fenomeno": "Severe wind warning. Campo de Cartagena y Mazarrón",
-      "nivel": "Rojo",
-      "text": "Campo de Cartagena y Mazarrón: Severe wind warning. Campo de Cartagena y Mazarrón (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Altiplano de Murcia",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Altiplano de Murcia",
-      "nivel": "Naranja",
-      "text": "Altiplano de Murcia: Aviso de vientos de nivel amarillo. Altiplano de Murcia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Altiplano de Murcia",
-      "fenomeno": "Moderate wind warning. Altiplano de Murcia",
-      "nivel": "Naranja",
-      "text": "Altiplano de Murcia: Moderate wind warning. Altiplano de Murcia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Noroeste de Murcia",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Noroeste de Murcia",
-      "nivel": "Naranja",
-      "text": "Noroeste de Murcia: Aviso de vientos de nivel amarillo. Noroeste de Murcia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Noroeste de Murcia",
-      "fenomeno": "Moderate wind warning. Noroeste de Murcia",
-      "nivel": "Naranja",
-      "text": "Noroeste de Murcia: Moderate wind warning. Noroeste de Murcia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Vega del Segura",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Vega del Segura",
-      "nivel": "Naranja",
-      "text": "Vega del Segura: Aviso de vientos de nivel amarillo. Vega del Segura (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Vega del Segura",
-      "fenomeno": "Moderate wind warning. Vega del Segura",
-      "nivel": "Naranja",
-      "text": "Vega del Segura: Moderate wind warning. Vega del Segura (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
