@@ -1,8 +1,104 @@
 {
-  "generated_at": "2026-02-13T16:05:37.937Z",
+  "generated_at": "2026-02-13T17:05:15.286Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌊",
+      "provincia": "Pirineo oscense",
+      "fenomeno": "Aviso de aludes de nivel amarillo. Pirineo oscense",
+      "nivel": "Naranja",
+      "text": "Pirineo oscense: Aviso de aludes de nivel amarillo. Pirineo oscense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Pirineo oscense",
+      "fenomeno": "Moderate avalanches warning. Pirineo oscense",
+      "nivel": "Naranja",
+      "text": "Pirineo oscense: Moderate avalanches warning. Pirineo oscense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Valle de Arán",
+      "fenomeno": "Aviso de aludes de nivel amarillo. Valle de Arán",
+      "nivel": "Naranja",
+      "text": "Valle de Arán: Aviso de aludes de nivel amarillo. Valle de Arán (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Valle de Arán",
+      "fenomeno": "Moderate avalanches warning. Valle de Arán",
+      "nivel": "Naranja",
+      "text": "Valle de Arán: Moderate avalanches warning. Valle de Arán (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Pirineo de Lleida",
+      "fenomeno": "Aviso de aludes de nivel amarillo. Pirineo de Lleida",
+      "nivel": "Naranja",
+      "text": "Pirineo de Lleida: Aviso de aludes de nivel amarillo. Pirineo de Lleida (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Pirineo de Lleida",
+      "fenomeno": "Moderate avalanches warning. Pirineo de Lleida",
+      "nivel": "Naranja",
+      "text": "Pirineo de Lleida: Moderate avalanches warning. Pirineo de Lleida (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Campiña sevillana",
+      "fenomeno": "Aviso de vientos de nivel naranja. Campiña sevillana",
+      "nivel": "Rojo",
+      "text": "Campiña sevillana: Aviso de vientos de nivel naranja. Campiña sevillana (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Campiña sevillana",
+      "fenomeno": "Severe wind warning. Campiña sevillana",
+      "nivel": "Rojo",
+      "text": "Campiña sevillana: Severe wind warning. Campiña sevillana (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Grazalema",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Grazalema",
+      "nivel": "Naranja",
+      "text": "Grazalema: Aviso de lluvias de nivel amarillo. Grazalema (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Grazalema",
+      "fenomeno": "Moderate rain warning. Grazalema",
+      "nivel": "Naranja",
+      "text": "Grazalema: Moderate rain warning. Grazalema (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Campiña sevillana",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Campiña sevillana",
+      "nivel": "Naranja",
+      "text": "Campiña sevillana: Aviso de vientos de nivel amarillo. Campiña sevillana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Campiña sevillana",
+      "fenomeno": "Moderate wind warning. Campiña sevillana",
+      "nivel": "Naranja",
+      "text": "Campiña sevillana: Moderate wind warning. Campiña sevillana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "💨",
       "provincia": "Menorca",
@@ -65,102 +161,6 @@
       "fenomeno": "Severe wind warning. Prelitoral sur de Tarragona",
       "nivel": "Rojo",
       "text": "Prelitoral sur de Tarragona: Severe wind warning. Prelitoral sur de Tarragona (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Interior norte de Castellón",
-      "fenomeno": "Aviso de vientos de nivel naranja. Interior norte de Castellón",
-      "nivel": "Rojo",
-      "text": "Interior norte de Castellón: Aviso de vientos de nivel naranja. Interior norte de Castellón (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior norte de Castellón",
-      "fenomeno": "Severe wind warning. Interior norte de Castellón",
-      "nivel": "Rojo",
-      "text": "Interior norte de Castellón: Severe wind warning. Interior norte de Castellón (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Litoral norte de Castellón",
-      "fenomeno": "Aviso de vientos de nivel naranja. Litoral norte de Castellón",
-      "nivel": "Rojo",
-      "text": "Litoral norte de Castellón: Aviso de vientos de nivel naranja. Litoral norte de Castellón (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral norte de Castellón",
-      "fenomeno": "Severe wind warning. Litoral norte de Castellón",
-      "nivel": "Rojo",
-      "text": "Litoral norte de Castellón: Severe wind warning. Litoral norte de Castellón (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Interior sur de Castellón",
-      "fenomeno": "Aviso de vientos de nivel naranja. Interior sur de Castellón",
-      "nivel": "Rojo",
-      "text": "Interior sur de Castellón: Aviso de vientos de nivel naranja. Interior sur de Castellón (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior sur de Castellón",
-      "fenomeno": "Severe wind warning. Interior sur de Castellón",
-      "nivel": "Rojo",
-      "text": "Interior sur de Castellón: Severe wind warning. Interior sur de Castellón (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Litoral sur de Castellón",
-      "fenomeno": "Aviso de vientos de nivel naranja. Litoral sur de Castellón",
-      "nivel": "Rojo",
-      "text": "Litoral sur de Castellón: Aviso de vientos de nivel naranja. Litoral sur de Castellón (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral sur de Castellón",
-      "fenomeno": "Severe wind warning. Litoral sur de Castellón",
-      "nivel": "Rojo",
-      "text": "Litoral sur de Castellón: Severe wind warning. Litoral sur de Castellón (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Ibiza y Formentera",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Ibiza y Formentera",
-      "nivel": "Rojo",
-      "text": "Costa - Ibiza y Formentera: Aviso de costeros de nivel naranja. Costa - Ibiza y Formentera (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Ibiza y Formentera",
-      "fenomeno": "Severe coastalevent warning. Costa - Ibiza y Formentera",
-      "nivel": "Rojo",
-      "text": "Costa - Ibiza y Formentera: Severe coastalevent warning. Costa - Ibiza y Formentera (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Sierra Tramontana",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Sierra Tramontana",
-      "nivel": "Rojo",
-      "text": "Costa - Sierra Tramontana: Aviso de costeros de nivel naranja. Costa - Sierra Tramontana (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Sierra Tramontana",
-      "fenomeno": "Severe coastalevent warning. Costa - Sierra Tramontana",
-      "nivel": "Rojo",
-      "text": "Costa - Sierra Tramontana: Severe coastalevent warning. Costa - Sierra Tramontana (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
