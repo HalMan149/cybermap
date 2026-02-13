@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-02-13T09:07:03.980Z
+// Auto-generado por GitHub Actions - 2026-02-13T10:00:09.694Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-02-13T09:07:03.980Z",
+  "generated_at": "2026-02-13T10:00:09.694Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "💨",
-      "provincia": "Litoral sur de Tarragona",
-      "fenomeno": "Aviso de vientos de nivel naranja. Litoral sur de Tarragona",
+      "icon": "❄️",
+      "provincia": "Liébana",
+      "fenomeno": "Aviso de nevadas de nivel naranja. Liébana",
       "nivel": "Rojo",
-      "text": "Litoral sur de Tarragona: Aviso de vientos de nivel naranja. Litoral sur de Tarragona (Rojo) (AEMET)",
+      "text": "Liébana: Aviso de nevadas de nivel naranja. Liébana (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Litoral sur de Tarragona",
-      "fenomeno": "Severe wind warning. Litoral sur de Tarragona",
+      "provincia": "Liébana",
+      "fenomeno": "Severe snow warning. Liébana",
       "nivel": "Rojo",
-      "text": "Litoral sur de Tarragona: Severe wind warning. Litoral sur de Tarragona (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Prelitoral sur de Tarragona",
-      "fenomeno": "Aviso de vientos de nivel naranja. Prelitoral sur de Tarragona",
-      "nivel": "Rojo",
-      "text": "Prelitoral sur de Tarragona: Aviso de vientos de nivel naranja. Prelitoral sur de Tarragona (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Prelitoral sur de Tarragona",
-      "fenomeno": "Severe wind warning. Prelitoral sur de Tarragona",
-      "nivel": "Rojo",
-      "text": "Prelitoral sur de Tarragona: Severe wind warning. Prelitoral sur de Tarragona (Rojo) (AEMET)",
+      "text": "Liébana: Severe snow warning. Liébana (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Costa - Ampurdán",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Ampurdán",
+      "provincia": "Costa - Litoral cántabro",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Litoral cántabro",
       "nivel": "Rojo",
-      "text": "Costa - Ampurdán: Aviso de costeros de nivel naranja. Costa - Ampurdán (Rojo) (AEMET)",
+      "text": "Costa - Litoral cántabro: Aviso de costeros de nivel naranja. Costa - Litoral cántabro (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Costa - Ampurdán",
-      "fenomeno": "Severe coastalevent warning. Costa - Ampurdán",
+      "provincia": "Costa - Litoral cántabro",
+      "fenomeno": "Severe coastalevent warning. Costa - Litoral cántabro",
       "nivel": "Rojo",
-      "text": "Costa - Ampurdán: Severe coastalevent warning. Costa - Ampurdán (Rojo) (AEMET)",
+      "text": "Costa - Litoral cántabro: Severe coastalevent warning. Costa - Litoral cántabro (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Costa - Litoral sur de Tarragona",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Litoral sur de Tarragona",
+      "provincia": "Costa - Bizkaia litoral",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Bizkaia litoral",
       "nivel": "Rojo",
-      "text": "Costa - Litoral sur de Tarragona: Aviso de costeros de nivel naranja. Costa - Litoral sur de Tarragona (Rojo) (AEMET)",
+      "text": "Costa - Bizkaia litoral: Aviso de costeros de nivel naranja. Costa - Bizkaia litoral (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Costa - Litoral sur de Tarragona",
-      "fenomeno": "Severe coastalevent warning. Costa - Litoral sur de Tarragona",
+      "provincia": "Costa - Bizkaia litoral",
+      "fenomeno": "Severe coastalevent warning. Costa - Bizkaia litoral",
       "nivel": "Rojo",
-      "text": "Costa - Litoral sur de Tarragona: Severe coastalevent warning. Costa - Litoral sur de Tarragona (Rojo) (AEMET)",
+      "text": "Costa - Bizkaia litoral: Severe coastalevent warning. Costa - Bizkaia litoral (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "💨",
-      "provincia": "Pirineo oscense",
-      "fenomeno": "Aviso de vientos de nivel naranja. Pirineo oscense",
+      "icon": "🌊",
+      "provincia": "Costa - Gipuzkoa litoral",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Gipuzkoa litoral",
       "nivel": "Rojo",
-      "text": "Pirineo oscense: Aviso de vientos de nivel naranja. Pirineo oscense (Rojo) (AEMET)",
+      "text": "Costa - Gipuzkoa litoral: Aviso de costeros de nivel naranja. Costa - Gipuzkoa litoral (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⚠️",
-      "provincia": "Pirineo oscense",
-      "fenomeno": "Severe wind warning. Pirineo oscense",
+      "icon": "🌊",
+      "provincia": "Costa - Gipuzkoa litoral",
+      "fenomeno": "Severe coastalevent warning. Costa - Gipuzkoa litoral",
       "nivel": "Rojo",
-      "text": "Pirineo oscense: Severe wind warning. Pirineo oscense (Rojo) (AEMET)",
+      "text": "Costa - Gipuzkoa litoral: Severe coastalevent warning. Costa - Gipuzkoa litoral (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "💨",
-      "provincia": "Gúdar y Maestrazgo",
-      "fenomeno": "Aviso de vientos de nivel naranja. Gúdar y Maestrazgo",
-      "nivel": "Rojo",
-      "text": "Gúdar y Maestrazgo: Aviso de vientos de nivel naranja. Gúdar y Maestrazgo (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Gúdar y Maestrazgo",
-      "fenomeno": "Severe wind warning. Gúdar y Maestrazgo",
-      "nivel": "Rojo",
-      "text": "Gúdar y Maestrazgo: Severe wind warning. Gúdar y Maestrazgo (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Bajo Aragón de Teruel",
-      "fenomeno": "Aviso de vientos de nivel naranja. Bajo Aragón de Teruel",
-      "nivel": "Rojo",
-      "text": "Bajo Aragón de Teruel: Aviso de vientos de nivel naranja. Bajo Aragón de Teruel (Rojo) (AEMET)",
+      "icon": "🌧️",
+      "provincia": "Centro y valle de Villaverde",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Centro y valle de Villaverde",
+      "nivel": "Naranja",
+      "text": "Centro y valle de Villaverde: Aviso de lluvias de nivel amarillo. Centro y valle de Villaverde (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Bajo Aragón de Teruel",
-      "fenomeno": "Severe wind warning. Bajo Aragón de Teruel",
-      "nivel": "Rojo",
-      "text": "Bajo Aragón de Teruel: Severe wind warning. Bajo Aragón de Teruel (Rojo) (AEMET)",
+      "provincia": "Centro y valle de Villaverde",
+      "fenomeno": "Moderate rain warning. Centro y valle de Villaverde",
+      "nivel": "Naranja",
+      "text": "Centro y valle de Villaverde: Moderate rain warning. Centro y valle de Villaverde (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "💨",
-      "provincia": "Pirineo de Girona",
-      "fenomeno": "Aviso de vientos de nivel naranja. Pirineo de Girona",
-      "nivel": "Rojo",
-      "text": "Pirineo de Girona: Aviso de vientos de nivel naranja. Pirineo de Girona (Rojo) (AEMET)",
+      "provincia": "Litoral cántabro",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Litoral cántabro",
+      "nivel": "Naranja",
+      "text": "Litoral cántabro: Aviso de vientos de nivel amarillo. Litoral cántabro (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Pirineo de Girona",
-      "fenomeno": "Severe wind warning. Pirineo de Girona",
-      "nivel": "Rojo",
-      "text": "Pirineo de Girona: Severe wind warning. Pirineo de Girona (Rojo) (AEMET)",
+      "provincia": "Litoral cántabro",
+      "fenomeno": "Moderate wind warning. Litoral cántabro",
+      "nivel": "Naranja",
+      "text": "Litoral cántabro: Moderate wind warning. Litoral cántabro (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "💨",
-      "provincia": "Ampurdán",
-      "fenomeno": "Aviso de vientos de nivel naranja. Ampurdán",
-      "nivel": "Rojo",
-      "text": "Ampurdán: Aviso de vientos de nivel naranja. Ampurdán (Rojo) (AEMET)",
+      "provincia": "Liébana",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Liébana",
+      "nivel": "Naranja",
+      "text": "Liébana: Aviso de vientos de nivel amarillo. Liébana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Ampurdán",
-      "fenomeno": "Severe wind warning. Ampurdán",
-      "nivel": "Rojo",
-      "text": "Ampurdán: Severe wind warning. Ampurdán (Rojo) (AEMET)",
+      "provincia": "Liébana",
+      "fenomeno": "Moderate wind warning. Liébana",
+      "nivel": "Naranja",
+      "text": "Liébana: Moderate wind warning. Liébana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "💨",
-      "provincia": "Pirineo de Lleida",
-      "fenomeno": "Aviso de vientos de nivel naranja. Pirineo de Lleida",
-      "nivel": "Rojo",
-      "text": "Pirineo de Lleida: Aviso de vientos de nivel naranja. Pirineo de Lleida (Rojo) (AEMET)",
+      "provincia": "Centro y valle de Villaverde",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Centro y valle de Villaverde",
+      "nivel": "Naranja",
+      "text": "Centro y valle de Villaverde: Aviso de vientos de nivel amarillo. Centro y valle de Villaverde (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Pirineo de Lleida",
-      "fenomeno": "Severe wind warning. Pirineo de Lleida",
-      "nivel": "Rojo",
-      "text": "Pirineo de Lleida: Severe wind warning. Pirineo de Lleida (Rojo) (AEMET)",
+      "provincia": "Centro y valle de Villaverde",
+      "fenomeno": "Moderate wind warning. Centro y valle de Villaverde",
+      "nivel": "Naranja",
+      "text": "Centro y valle de Villaverde: Moderate wind warning. Centro y valle de Villaverde (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Cantabria del Ebro",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Cantabria del Ebro",
+      "nivel": "Naranja",
+      "text": "Cantabria del Ebro: Aviso de vientos de nivel amarillo. Cantabria del Ebro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cantabria del Ebro",
+      "fenomeno": "Moderate wind warning. Cantabria del Ebro",
+      "nivel": "Naranja",
+      "text": "Cantabria del Ebro: Moderate wind warning. Cantabria del Ebro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Gipuzkoa litoral",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Gipuzkoa litoral",
+      "nivel": "Naranja",
+      "text": "Gipuzkoa litoral: Aviso de vientos de nivel amarillo. Gipuzkoa litoral (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Gipuzkoa litoral",
+      "fenomeno": "Moderate wind warning. Gipuzkoa litoral",
+      "nivel": "Naranja",
+      "text": "Gipuzkoa litoral: Moderate wind warning. Gipuzkoa litoral (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
