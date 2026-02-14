@@ -1,166 +1,166 @@
 {
-  "generated_at": "2026-02-14T10:18:45.744Z",
+  "generated_at": "2026-02-14T10:51:16.629Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "💨",
-      "provincia": "Pirineo oscense",
-      "fenomeno": "Aviso de vientos de nivel naranja. Pirineo oscense",
+      "icon": "🌊",
+      "provincia": "Costa - Litoral cántabro",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Litoral cántabro",
       "nivel": "Rojo",
-      "text": "Pirineo oscense: Aviso de vientos de nivel naranja. Pirineo oscense (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Pirineo oscense",
-      "fenomeno": "Severe wind warning. Pirineo oscense",
-      "nivel": "Rojo",
-      "text": "Pirineo oscense: Severe wind warning. Pirineo oscense (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Prepirineo de Barcelona",
-      "fenomeno": "Aviso de vientos de nivel naranja. Prepirineo de Barcelona",
-      "nivel": "Rojo",
-      "text": "Prepirineo de Barcelona: Aviso de vientos de nivel naranja. Prepirineo de Barcelona (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Prepirineo de Barcelona",
-      "fenomeno": "Severe wind warning. Prepirineo de Barcelona",
-      "nivel": "Rojo",
-      "text": "Prepirineo de Barcelona: Severe wind warning. Prepirineo de Barcelona (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Pirineo de Girona",
-      "fenomeno": "Aviso de vientos de nivel naranja. Pirineo de Girona",
-      "nivel": "Rojo",
-      "text": "Pirineo de Girona: Aviso de vientos de nivel naranja. Pirineo de Girona (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Pirineo de Girona",
-      "fenomeno": "Severe wind warning. Pirineo de Girona",
-      "nivel": "Rojo",
-      "text": "Pirineo de Girona: Severe wind warning. Pirineo de Girona (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Ampurdán",
-      "fenomeno": "Aviso de vientos de nivel naranja. Ampurdán",
-      "nivel": "Rojo",
-      "text": "Ampurdán: Aviso de vientos de nivel naranja. Ampurdán (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ampurdán",
-      "fenomeno": "Severe wind warning. Ampurdán",
-      "nivel": "Rojo",
-      "text": "Ampurdán: Severe wind warning. Ampurdán (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Pirineo de Lleida",
-      "fenomeno": "Aviso de vientos de nivel naranja. Pirineo de Lleida",
-      "nivel": "Rojo",
-      "text": "Pirineo de Lleida: Aviso de vientos de nivel naranja. Pirineo de Lleida (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Pirineo de Lleida",
-      "fenomeno": "Severe wind warning. Pirineo de Lleida",
-      "nivel": "Rojo",
-      "text": "Pirineo de Lleida: Severe wind warning. Pirineo de Lleida (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Litoral sur de Tarragona",
-      "fenomeno": "Aviso de vientos de nivel naranja. Litoral sur de Tarragona",
-      "nivel": "Rojo",
-      "text": "Litoral sur de Tarragona: Aviso de vientos de nivel naranja. Litoral sur de Tarragona (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral sur de Tarragona",
-      "fenomeno": "Severe wind warning. Litoral sur de Tarragona",
-      "nivel": "Rojo",
-      "text": "Litoral sur de Tarragona: Severe wind warning. Litoral sur de Tarragona (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Prelitoral sur de Tarragona",
-      "fenomeno": "Aviso de vientos de nivel naranja. Prelitoral sur de Tarragona",
-      "nivel": "Rojo",
-      "text": "Prelitoral sur de Tarragona: Aviso de vientos de nivel naranja. Prelitoral sur de Tarragona (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Prelitoral sur de Tarragona",
-      "fenomeno": "Severe wind warning. Prelitoral sur de Tarragona",
-      "nivel": "Rojo",
-      "text": "Prelitoral sur de Tarragona: Severe wind warning. Prelitoral sur de Tarragona (Rojo) (AEMET)",
+      "text": "Costa - Litoral cántabro: Aviso de costeros de nivel naranja. Costa - Litoral cántabro (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Costa - Ampurdán",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Ampurdán",
+      "provincia": "Costa - Litoral cántabro",
+      "fenomeno": "Severe coastalevent warning. Costa - Litoral cántabro",
       "nivel": "Rojo",
-      "text": "Costa - Ampurdán: Aviso de costeros de nivel naranja. Costa - Ampurdán (Rojo) (AEMET)",
+      "text": "Costa - Litoral cántabro: Severe coastalevent warning. Costa - Litoral cántabro (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Costa - Ampurdán",
-      "fenomeno": "Severe coastalevent warning. Costa - Ampurdán",
+      "provincia": "Costa - Gipuzkoa litoral",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Gipuzkoa litoral",
       "nivel": "Rojo",
-      "text": "Costa - Ampurdán: Severe coastalevent warning. Costa - Ampurdán (Rojo) (AEMET)",
+      "text": "Costa - Gipuzkoa litoral: Aviso de costeros de nivel naranja. Costa - Gipuzkoa litoral (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Costa - Litoral sur de Tarragona",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Litoral sur de Tarragona",
+      "provincia": "Costa - Gipuzkoa litoral",
+      "fenomeno": "Severe coastalevent warning. Costa - Gipuzkoa litoral",
       "nivel": "Rojo",
-      "text": "Costa - Litoral sur de Tarragona: Aviso de costeros de nivel naranja. Costa - Litoral sur de Tarragona (Rojo) (AEMET)",
+      "text": "Costa - Gipuzkoa litoral: Severe coastalevent warning. Costa - Gipuzkoa litoral (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Costa - Litoral sur de Tarragona",
-      "fenomeno": "Severe coastalevent warning. Costa - Litoral sur de Tarragona",
+      "provincia": "Costa - Bizkaia litoral",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Bizkaia litoral",
       "nivel": "Rojo",
-      "text": "Costa - Litoral sur de Tarragona: Severe coastalevent warning. Costa - Litoral sur de Tarragona (Rojo) (AEMET)",
+      "text": "Costa - Bizkaia litoral: Aviso de costeros de nivel naranja. Costa - Bizkaia litoral (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Costa - Litoral norte de Tarragona",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral norte de Tarragona",
+      "provincia": "Costa - Bizkaia litoral",
+      "fenomeno": "Severe coastalevent warning. Costa - Bizkaia litoral",
+      "nivel": "Rojo",
+      "text": "Costa - Bizkaia litoral: Severe coastalevent warning. Costa - Bizkaia litoral (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Gipuzkoa litoral",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Gipuzkoa litoral",
       "nivel": "Naranja",
-      "text": "Costa - Litoral norte de Tarragona: Aviso de costeros de nivel amarillo. Costa - Litoral norte de Tarragona (Naranja) (AEMET)",
+      "text": "Gipuzkoa litoral: Aviso de lluvias de nivel amarillo. Gipuzkoa litoral (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Gipuzkoa litoral",
+      "fenomeno": "Moderate rain warning. Gipuzkoa litoral",
+      "nivel": "Naranja",
+      "text": "Gipuzkoa litoral: Moderate rain warning. Gipuzkoa litoral (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Costa - Litoral norte de Tarragona",
-      "fenomeno": "Moderate coastalevent warning. Costa - Litoral norte de Tarragona",
+      "provincia": "Costa - Litoral cántabro",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral cántabro",
       "nivel": "Naranja",
-      "text": "Costa - Litoral norte de Tarragona: Moderate coastalevent warning. Costa - Litoral norte de Tarragona (Naranja) (AEMET)",
+      "text": "Costa - Litoral cántabro: Aviso de costeros de nivel amarillo. Costa - Litoral cántabro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral cántabro",
+      "fenomeno": "Moderate coastalevent warning. Costa - Litoral cántabro",
+      "nivel": "Naranja",
+      "text": "Costa - Litoral cántabro: Moderate coastalevent warning. Costa - Litoral cántabro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Gipuzkoa litoral",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Gipuzkoa litoral",
+      "nivel": "Naranja",
+      "text": "Costa - Gipuzkoa litoral: Aviso de costeros de nivel amarillo. Costa - Gipuzkoa litoral (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Gipuzkoa litoral",
+      "fenomeno": "Moderate coastalevent warning. Costa - Gipuzkoa litoral",
+      "nivel": "Naranja",
+      "text": "Costa - Gipuzkoa litoral: Moderate coastalevent warning. Costa - Gipuzkoa litoral (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Bizkaia litoral",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Bizkaia litoral",
+      "nivel": "Naranja",
+      "text": "Costa - Bizkaia litoral: Aviso de costeros de nivel amarillo. Costa - Bizkaia litoral (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Bizkaia litoral",
+      "fenomeno": "Moderate coastalevent warning. Costa - Bizkaia litoral",
+      "nivel": "Naranja",
+      "text": "Costa - Bizkaia litoral: Moderate coastalevent warning. Costa - Bizkaia litoral (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral occidental asturiano",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Litoral occidental asturiano",
+      "nivel": "Rojo",
+      "text": "Costa - Litoral occidental asturiano: Aviso de costeros de nivel naranja. Costa - Litoral occidental asturiano (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral occidental asturiano",
+      "fenomeno": "Severe coastalevent warning. Costa - Litoral occidental asturiano",
+      "nivel": "Rojo",
+      "text": "Costa - Litoral occidental asturiano: Severe coastalevent warning. Costa - Litoral occidental asturiano (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Noroeste de A Coruña",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Noroeste de A Coruña",
+      "nivel": "Rojo",
+      "text": "Costa - Noroeste de A Coruña: Aviso de costeros de nivel naranja. Costa - Noroeste de A Coruña (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Noroeste de A Coruña",
+      "fenomeno": "Severe coastalevent warning. Costa - Noroeste de A Coruña",
+      "nivel": "Rojo",
+      "text": "Costa - Noroeste de A Coruña: Severe coastalevent warning. Costa - Noroeste de A Coruña (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Oeste de A Coruña",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Oeste de A Coruña",
+      "nivel": "Rojo",
+      "text": "Costa - Oeste de A Coruña: Aviso de costeros de nivel naranja. Costa - Oeste de A Coruña (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Oeste de A Coruña",
+      "fenomeno": "Severe coastalevent warning. Costa - Oeste de A Coruña",
+      "nivel": "Rojo",
+      "text": "Costa - Oeste de A Coruña: Severe coastalevent warning. Costa - Oeste de A Coruña (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
