@@ -1,8 +1,40 @@
 {
-  "generated_at": "2026-02-14T09:23:10.730Z",
+  "generated_at": "2026-02-14T09:52:21.204Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "💨",
+      "provincia": "Norte de Cáceres",
+      "fenomeno": "Aviso de vientos de nivel naranja. Norte de Cáceres",
+      "nivel": "Rojo",
+      "text": "Norte de Cáceres: Aviso de vientos de nivel naranja. Norte de Cáceres (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Norte de Cáceres",
+      "fenomeno": "Severe wind warning. Norte de Cáceres",
+      "nivel": "Rojo",
+      "text": "Norte de Cáceres: Severe wind warning. Norte de Cáceres (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Villuercas y Montánchez",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Villuercas y Montánchez",
+      "nivel": "Naranja",
+      "text": "Villuercas y Montánchez: Aviso de vientos de nivel amarillo. Villuercas y Montánchez (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Villuercas y Montánchez",
+      "fenomeno": "Moderate wind warning. Villuercas y Montánchez",
+      "nivel": "Naranja",
+      "text": "Villuercas y Montánchez: Moderate wind warning. Villuercas y Montánchez (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "💨",
       "provincia": "Gúdar y Maestrazgo",
@@ -129,38 +161,6 @@
       "fenomeno": "Moderate wind warning. Prelitoral de Barcelona",
       "nivel": "Naranja",
       "text": "Prelitoral de Barcelona: Moderate wind warning. Prelitoral de Barcelona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Litoral de Barcelona",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Litoral de Barcelona",
-      "nivel": "Naranja",
-      "text": "Litoral de Barcelona: Aviso de vientos de nivel amarillo. Litoral de Barcelona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral de Barcelona",
-      "fenomeno": "Moderate wind warning. Litoral de Barcelona",
-      "nivel": "Naranja",
-      "text": "Litoral de Barcelona: Moderate wind warning. Litoral de Barcelona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Depresión central de Tarragona",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Depresión central de Tarragona",
-      "nivel": "Naranja",
-      "text": "Depresión central de Tarragona: Aviso de vientos de nivel amarillo. Depresión central de Tarragona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Depresión central de Tarragona",
-      "fenomeno": "Moderate wind warning. Depresión central de Tarragona",
-      "nivel": "Naranja",
-      "text": "Depresión central de Tarragona: Moderate wind warning. Depresión central de Tarragona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
