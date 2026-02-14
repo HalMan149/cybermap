@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2026-02-14T17:48:32.214Z
+// Auto-generado por GitHub Actions - 2026-02-14T18:23:26.943Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-02-14T17:48:32.214Z",
+  "generated_at": "2026-02-14T18:23:26.943Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Interior de A Coruña",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Interior de A Coruña",
+      "nivel": "Naranja",
+      "text": "Interior de A Coruña: Aviso de lluvias de nivel amarillo. Interior de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior de A Coruña",
+      "fenomeno": "Moderate rain warning. Interior de A Coruña",
+      "nivel": "Naranja",
+      "text": "Interior de A Coruña: Moderate rain warning. Interior de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "💨",
       "provincia": "Hellín y Almansa",
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate avalanches warning. Pirineo oscense",
       "nivel": "Naranja",
       "text": "Pirineo oscense: Moderate avalanches warning. Pirineo oscense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Valle de Arán",
-      "fenomeno": "Aviso de aludes de nivel amarillo. Valle de Arán",
-      "nivel": "Naranja",
-      "text": "Valle de Arán: Aviso de aludes de nivel amarillo. Valle de Arán (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Valle de Arán",
-      "fenomeno": "Moderate avalanches warning. Valle de Arán",
-      "nivel": "Naranja",
-      "text": "Valle de Arán: Moderate avalanches warning. Valle de Arán (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
