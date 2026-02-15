@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2026-02-15T17:19:54.150Z
+// Auto-generado por GitHub Actions - 2026-02-15T17:49:32.156Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-02-15T17:19:54.150Z",
+  "generated_at": "2026-02-15T17:49:32.156Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌊",
+      "provincia": "Valle de Arán",
+      "fenomeno": "Aviso de aludes de nivel amarillo. Valle de Arán",
+      "nivel": "Naranja",
+      "text": "Valle de Arán: Aviso de aludes de nivel amarillo. Valle de Arán (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Valle de Arán",
+      "fenomeno": "Moderate avalanches warning. Valle de Arán",
+      "nivel": "Naranja",
+      "text": "Valle de Arán: Moderate avalanches warning. Valle de Arán (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌊",
       "provincia": "Pirineo oscense",
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate rain warning. Gipuzkoa interior",
       "nivel": "Naranja",
       "text": "Gipuzkoa interior: Moderate rain warning. Gipuzkoa interior (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Bizkaia interior",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Bizkaia interior",
-      "nivel": "Naranja",
-      "text": "Bizkaia interior: Aviso de lluvias de nivel amarillo. Bizkaia interior (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Bizkaia interior",
-      "fenomeno": "Moderate rain warning. Bizkaia interior",
-      "nivel": "Naranja",
-      "text": "Bizkaia interior: Moderate rain warning. Bizkaia interior (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
