@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-02-16T16:02:15.018Z
+// Auto-generado por GitHub Actions - 2026-02-16T17:01:01.894Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-02-16T16:02:15.018Z",
+  "generated_at": "2026-02-16T17:01:01.894Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "🌊",
-      "provincia": "Costa - Melilla",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Melilla",
+      "provincia": "Pirineo oscense",
+      "fenomeno": "Aviso de aludes de nivel amarillo. Pirineo oscense",
       "nivel": "Naranja",
-      "text": "Costa - Melilla: Aviso de costeros de nivel amarillo. Costa - Melilla (Naranja) (AEMET)",
+      "text": "Pirineo oscense: Aviso de aludes de nivel amarillo. Pirineo oscense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Pirineo oscense",
+      "fenomeno": "Moderate avalanches warning. Pirineo oscense",
+      "nivel": "Naranja",
+      "text": "Pirineo oscense: Moderate avalanches warning. Pirineo oscense (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Costa - Melilla",
-      "fenomeno": "Moderate coastalevent warning. Costa - Melilla",
+      "provincia": "Pirineo oscense",
+      "fenomeno": "Aviso de deshielos de nivel amarillo. Pirineo oscense",
       "nivel": "Naranja",
-      "text": "Costa - Melilla: Moderate coastalevent warning. Costa - Melilla (Naranja) (AEMET)",
+      "text": "Pirineo oscense: Aviso de deshielos de nivel amarillo. Pirineo oscense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Pirineo oscense",
+      "fenomeno": "Moderate thaw warning. Pirineo oscense",
+      "nivel": "Naranja",
+      "text": "Pirineo oscense: Moderate thaw warning. Pirineo oscense (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Este, sur y oeste de Gran Canaria",
-      "fenomeno": "Aviso de polvo en suspensión de nivel amarillo. Este, sur y oeste de Gran Canaria",
+      "provincia": "Cordillera Cantábrica de Burgos",
+      "fenomeno": "Aviso de deshielos de nivel amarillo. Cordillera Cantábrica de Burgos",
       "nivel": "Naranja",
-      "text": "Este, sur y oeste de Gran Canaria: Aviso de polvo en suspensión de nivel amarillo. Este, sur y oeste de Gran Canaria (Naranja) (AEMET)",
+      "text": "Cordillera Cantábrica de Burgos: Aviso de deshielos de nivel amarillo. Cordillera Cantábrica de Burgos (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Este, sur y oeste de Gran Canaria",
-      "fenomeno": "Moderate dust warning. Este, sur y oeste de Gran Canaria",
+      "provincia": "Cordillera Cantábrica de Burgos",
+      "fenomeno": "Moderate thaw warning. Cordillera Cantábrica de Burgos",
       "nivel": "Naranja",
-      "text": "Este, sur y oeste de Gran Canaria: Moderate dust warning. Este, sur y oeste de Gran Canaria (Naranja) (AEMET)",
+      "text": "Cordillera Cantábrica de Burgos: Moderate thaw warning. Cordillera Cantábrica de Burgos (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Lanzarote",
-      "fenomeno": "Aviso de polvo en suspensión de nivel amarillo. Lanzarote",
-      "nivel": "Naranja",
-      "text": "Lanzarote: Aviso de polvo en suspensión de nivel amarillo. Lanzarote (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Lanzarote",
-      "fenomeno": "Moderate dust warning. Lanzarote",
-      "nivel": "Naranja",
-      "text": "Lanzarote: Moderate dust warning. Lanzarote (Naranja) (AEMET)",
+      "provincia": "Costa - Noroeste de A Coruña",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Noroeste de A Coruña",
+      "nivel": "Rojo",
+      "text": "Costa - Noroeste de A Coruña: Aviso de costeros de nivel naranja. Costa - Noroeste de A Coruña (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Fuerteventura",
-      "fenomeno": "Aviso de polvo en suspensión de nivel amarillo. Fuerteventura",
-      "nivel": "Naranja",
-      "text": "Fuerteventura: Aviso de polvo en suspensión de nivel amarillo. Fuerteventura (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Fuerteventura",
-      "fenomeno": "Moderate dust warning. Fuerteventura",
-      "nivel": "Naranja",
-      "text": "Fuerteventura: Moderate dust warning. Fuerteventura (Naranja) (AEMET)",
+      "provincia": "Costa - Noroeste de A Coruña",
+      "fenomeno": "Severe coastalevent warning. Costa - Noroeste de A Coruña",
+      "nivel": "Rojo",
+      "text": "Costa - Noroeste de A Coruña: Severe coastalevent warning. Costa - Noroeste de A Coruña (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Este de La Palma",
-      "fenomeno": "Aviso de polvo en suspensión de nivel amarillo. Este de La Palma",
-      "nivel": "Naranja",
-      "text": "Este de La Palma: Aviso de polvo en suspensión de nivel amarillo. Este de La Palma (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Este de La Palma",
-      "fenomeno": "Moderate dust warning. Este de La Palma",
-      "nivel": "Naranja",
-      "text": "Este de La Palma: Moderate dust warning. Este de La Palma (Naranja) (AEMET)",
+      "provincia": "Costa - Oeste de A Coruña",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Oeste de A Coruña",
+      "nivel": "Rojo",
+      "text": "Costa - Oeste de A Coruña: Aviso de costeros de nivel naranja. Costa - Oeste de A Coruña (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "La Gomera",
-      "fenomeno": "Aviso de polvo en suspensión de nivel amarillo. La Gomera",
-      "nivel": "Naranja",
-      "text": "La Gomera: Aviso de polvo en suspensión de nivel amarillo. La Gomera (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "La Gomera",
-      "fenomeno": "Moderate dust warning. La Gomera",
-      "nivel": "Naranja",
-      "text": "La Gomera: Moderate dust warning. La Gomera (Naranja) (AEMET)",
+      "provincia": "Costa - Oeste de A Coruña",
+      "fenomeno": "Severe coastalevent warning. Costa - Oeste de A Coruña",
+      "nivel": "Rojo",
+      "text": "Costa - Oeste de A Coruña: Severe coastalevent warning. Costa - Oeste de A Coruña (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "El Hierro",
-      "fenomeno": "Aviso de polvo en suspensión de nivel amarillo. El Hierro",
-      "nivel": "Naranja",
-      "text": "El Hierro: Aviso de polvo en suspensión de nivel amarillo. El Hierro (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "El Hierro",
-      "fenomeno": "Moderate dust warning. El Hierro",
-      "nivel": "Naranja",
-      "text": "El Hierro: Moderate dust warning. El Hierro (Naranja) (AEMET)",
+      "provincia": "Costa - A Mariña",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - A Mariña",
+      "nivel": "Rojo",
+      "text": "Costa - A Mariña: Aviso de costeros de nivel naranja. Costa - A Mariña (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Este, sur y oeste de Tenerife",
-      "fenomeno": "Aviso de polvo en suspensión de nivel amarillo. Este, sur y oeste de Tenerife",
-      "nivel": "Naranja",
-      "text": "Este, sur y oeste de Tenerife: Aviso de polvo en suspensión de nivel amarillo. Este, sur y oeste de Tenerife (Naranja) (AEMET)",
+      "provincia": "Costa - A Mariña",
+      "fenomeno": "Severe coastalevent warning. Costa - A Mariña",
+      "nivel": "Rojo",
+      "text": "Costa - A Mariña: Severe coastalevent warning. Costa - A Mariña (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⚠️",
-      "provincia": "Este, sur y oeste de Tenerife",
-      "fenomeno": "Moderate dust warning. Este, sur y oeste de Tenerife",
-      "nivel": "Naranja",
-      "text": "Este, sur y oeste de Tenerife: Moderate dust warning. Este, sur y oeste de Tenerife (Naranja) (AEMET)",
+      "icon": "🌊",
+      "provincia": "Costa - Litoral occidental asturiano",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Litoral occidental asturiano",
+      "nivel": "Rojo",
+      "text": "Costa - Litoral occidental asturiano: Aviso de costeros de nivel naranja. Costa - Litoral occidental asturiano (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "💨",
-      "provincia": "Valle del Guadalentín, Lorca y Águilas",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Valle del Guadalentín, Lorca y Águilas",
-      "nivel": "Naranja",
-      "text": "Valle del Guadalentín, Lorca y Águilas: Aviso de vientos de nivel amarillo. Valle del Guadalentín, Lorca y Águilas (Naranja) (AEMET)",
+      "icon": "🌊",
+      "provincia": "Costa - Litoral occidental asturiano",
+      "fenomeno": "Severe coastalevent warning. Costa - Litoral occidental asturiano",
+      "nivel": "Rojo",
+      "text": "Costa - Litoral occidental asturiano: Severe coastalevent warning. Costa - Litoral occidental asturiano (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⚠️",
-      "provincia": "Valle del Guadalentín, Lorca y Águilas",
-      "fenomeno": "Moderate wind warning. Valle del Guadalentín, Lorca y Águilas",
-      "nivel": "Naranja",
-      "text": "Valle del Guadalentín, Lorca y Águilas: Moderate wind warning. Valle del Guadalentín, Lorca y Águilas (Naranja) (AEMET)",
+      "icon": "🌊",
+      "provincia": "Costa - Litoral oriental asturiano",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Litoral oriental asturiano",
+      "nivel": "Rojo",
+      "text": "Costa - Litoral oriental asturiano: Aviso de costeros de nivel naranja. Costa - Litoral oriental asturiano (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "💨",
-      "provincia": "Melilla",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Melilla",
-      "nivel": "Naranja",
-      "text": "Melilla: Aviso de vientos de nivel amarillo. Melilla (Naranja) (AEMET)",
+      "icon": "🌊",
+      "provincia": "Costa - Litoral oriental asturiano",
+      "fenomeno": "Severe coastalevent warning. Costa - Litoral oriental asturiano",
+      "nivel": "Rojo",
+      "text": "Costa - Litoral oriental asturiano: Severe coastalevent warning. Costa - Litoral oriental asturiano (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⚠️",
-      "provincia": "Melilla",
-      "fenomeno": "Moderate wind warning. Melilla",
-      "nivel": "Naranja",
-      "text": "Melilla: Moderate wind warning. Melilla (Naranja) (AEMET)",
+      "icon": "🌊",
+      "provincia": "Costa - Suroeste de A Coruña",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Suroeste de A Coruña",
+      "nivel": "Rojo",
+      "text": "Costa - Suroeste de A Coruña: Aviso de costeros de nivel naranja. Costa - Suroeste de A Coruña (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Suroeste de A Coruña",
+      "fenomeno": "Severe coastalevent warning. Costa - Suroeste de A Coruña",
+      "nivel": "Rojo",
+      "text": "Costa - Suroeste de A Coruña: Severe coastalevent warning. Costa - Suroeste de A Coruña (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral cántabro",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Litoral cántabro",
+      "nivel": "Rojo",
+      "text": "Costa - Litoral cántabro: Aviso de costeros de nivel naranja. Costa - Litoral cántabro (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral cántabro",
+      "fenomeno": "Severe coastalevent warning. Costa - Litoral cántabro",
+      "nivel": "Rojo",
+      "text": "Costa - Litoral cántabro: Severe coastalevent warning. Costa - Litoral cántabro (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
