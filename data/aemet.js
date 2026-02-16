@@ -1,23 +1,135 @@
-// Auto-generado por GitHub Actions - 2026-02-16T09:12:02.395Z
+// Auto-generado por GitHub Actions - 2026-02-16T10:10:29.227Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-02-16T09:12:02.395Z",
+  "generated_at": "2026-02-16T10:10:29.227Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "🌧️",
-      "provincia": "Rias Baixas",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Rias Baixas",
+      "provincia": "Centro y valle de Villaverde",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Centro y valle de Villaverde",
       "nivel": "Naranja",
-      "text": "Rias Baixas: Aviso de lluvias de nivel amarillo. Rias Baixas (Naranja) (AEMET)",
+      "text": "Centro y valle de Villaverde: Aviso de lluvias de nivel amarillo. Centro y valle de Villaverde (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Rias Baixas",
-      "fenomeno": "Moderate rain warning. Rias Baixas",
+      "provincia": "Centro y valle de Villaverde",
+      "fenomeno": "Moderate rain warning. Centro y valle de Villaverde",
       "nivel": "Naranja",
-      "text": "Rias Baixas: Moderate rain warning. Rias Baixas (Naranja) (AEMET)",
+      "text": "Centro y valle de Villaverde: Moderate rain warning. Centro y valle de Villaverde (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Gipuzkoa interior",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Gipuzkoa interior",
+      "nivel": "Naranja",
+      "text": "Gipuzkoa interior: Aviso de lluvias de nivel amarillo. Gipuzkoa interior (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Gipuzkoa interior",
+      "fenomeno": "Moderate rain warning. Gipuzkoa interior",
+      "nivel": "Naranja",
+      "text": "Gipuzkoa interior: Moderate rain warning. Gipuzkoa interior (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Bizkaia interior",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Bizkaia interior",
+      "nivel": "Naranja",
+      "text": "Bizkaia interior: Aviso de lluvias de nivel amarillo. Bizkaia interior (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Bizkaia interior",
+      "fenomeno": "Moderate rain warning. Bizkaia interior",
+      "nivel": "Naranja",
+      "text": "Bizkaia interior: Moderate rain warning. Bizkaia interior (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Pirineo navarro",
+      "fenomeno": "Aviso de deshielos de nivel amarillo. Pirineo navarro",
+      "nivel": "Naranja",
+      "text": "Pirineo navarro: Aviso de deshielos de nivel amarillo. Pirineo navarro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Pirineo navarro",
+      "fenomeno": "Moderate thaw warning. Pirineo navarro",
+      "nivel": "Naranja",
+      "text": "Pirineo navarro: Moderate thaw warning. Pirineo navarro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral cántabro",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral cántabro",
+      "nivel": "Naranja",
+      "text": "Costa - Litoral cántabro: Aviso de costeros de nivel amarillo. Costa - Litoral cántabro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral cántabro",
+      "fenomeno": "Moderate coastalevent warning. Costa - Litoral cántabro",
+      "nivel": "Naranja",
+      "text": "Costa - Litoral cántabro: Moderate coastalevent warning. Costa - Litoral cántabro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Gipuzkoa litoral",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Gipuzkoa litoral",
+      "nivel": "Naranja",
+      "text": "Costa - Gipuzkoa litoral: Aviso de costeros de nivel amarillo. Costa - Gipuzkoa litoral (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Gipuzkoa litoral",
+      "fenomeno": "Moderate coastalevent warning. Costa - Gipuzkoa litoral",
+      "nivel": "Naranja",
+      "text": "Costa - Gipuzkoa litoral: Moderate coastalevent warning. Costa - Gipuzkoa litoral (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Bizkaia litoral",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Bizkaia litoral",
+      "nivel": "Naranja",
+      "text": "Costa - Bizkaia litoral: Aviso de costeros de nivel amarillo. Costa - Bizkaia litoral (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Bizkaia litoral",
+      "fenomeno": "Moderate coastalevent warning. Costa - Bizkaia litoral",
+      "nivel": "Naranja",
+      "text": "Costa - Bizkaia litoral: Moderate coastalevent warning. Costa - Bizkaia litoral (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Noroeste de A Coruña",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Noroeste de A Coruña",
+      "nivel": "Naranja",
+      "text": "Costa - Noroeste de A Coruña: Aviso de costeros de nivel amarillo. Costa - Noroeste de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Noroeste de A Coruña",
+      "fenomeno": "Moderate coastalevent warning. Costa - Noroeste de A Coruña",
+      "nivel": "Naranja",
+      "text": "Costa - Noroeste de A Coruña: Moderate coastalevent warning. Costa - Noroeste de A Coruña (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -38,130 +150,18 @@ window.AEMET_AVISOS = {
     },
     {
       "icon": "🌊",
-      "provincia": "Costa - Suroeste de A Coruña",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Suroeste de A Coruña",
+      "provincia": "Costa - A Mariña",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - A Mariña",
       "nivel": "Naranja",
-      "text": "Costa - Suroeste de A Coruña: Aviso de costeros de nivel amarillo. Costa - Suroeste de A Coruña (Naranja) (AEMET)",
+      "text": "Costa - A Mariña: Aviso de costeros de nivel amarillo. Costa - A Mariña (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Costa - Suroeste de A Coruña",
-      "fenomeno": "Moderate coastalevent warning. Costa - Suroeste de A Coruña",
+      "provincia": "Costa - A Mariña",
+      "fenomeno": "Moderate coastalevent warning. Costa - A Mariña",
       "nivel": "Naranja",
-      "text": "Costa - Suroeste de A Coruña: Moderate coastalevent warning. Costa - Suroeste de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "A Mariña",
-      "fenomeno": "Aviso de vientos de nivel amarillo. A Mariña",
-      "nivel": "Naranja",
-      "text": "A Mariña: Aviso de vientos de nivel amarillo. A Mariña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "A Mariña",
-      "fenomeno": "Moderate wind warning. A Mariña",
-      "nivel": "Naranja",
-      "text": "A Mariña: Moderate wind warning. A Mariña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Noroeste de A Coruña",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Noroeste de A Coruña",
-      "nivel": "Naranja",
-      "text": "Costa - Noroeste de A Coruña: Aviso de costeros de nivel amarillo. Costa - Noroeste de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Noroeste de A Coruña",
-      "fenomeno": "Moderate coastalevent warning. Costa - Noroeste de A Coruña",
-      "nivel": "Naranja",
-      "text": "Costa - Noroeste de A Coruña: Moderate coastalevent warning. Costa - Noroeste de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Norte de Burgos",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Norte de Burgos",
-      "nivel": "Naranja",
-      "text": "Norte de Burgos: Aviso de vientos de nivel amarillo. Norte de Burgos (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Norte de Burgos",
-      "fenomeno": "Moderate wind warning. Norte de Burgos",
-      "nivel": "Naranja",
-      "text": "Norte de Burgos: Moderate wind warning. Norte de Burgos (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Condado de Treviño",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Condado de Treviño",
-      "nivel": "Naranja",
-      "text": "Condado de Treviño: Aviso de vientos de nivel amarillo. Condado de Treviño (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Condado de Treviño",
-      "fenomeno": "Moderate wind warning. Condado de Treviño",
-      "nivel": "Naranja",
-      "text": "Condado de Treviño: Moderate wind warning. Condado de Treviño (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Cuenca del Nervión",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Cuenca del Nervión",
-      "nivel": "Naranja",
-      "text": "Cuenca del Nervión: Aviso de vientos de nivel amarillo. Cuenca del Nervión (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cuenca del Nervión",
-      "fenomeno": "Moderate wind warning. Cuenca del Nervión",
-      "nivel": "Naranja",
-      "text": "Cuenca del Nervión: Moderate wind warning. Cuenca del Nervión (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Llanada alavesa",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Llanada alavesa",
-      "nivel": "Naranja",
-      "text": "Llanada alavesa: Aviso de vientos de nivel amarillo. Llanada alavesa (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Llanada alavesa",
-      "fenomeno": "Moderate wind warning. Llanada alavesa",
-      "nivel": "Naranja",
-      "text": "Llanada alavesa: Moderate wind warning. Llanada alavesa (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Interior norte de Castellón",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Interior norte de Castellón",
-      "nivel": "Naranja",
-      "text": "Interior norte de Castellón: Aviso de vientos de nivel amarillo. Interior norte de Castellón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior norte de Castellón",
-      "fenomeno": "Moderate wind warning. Interior norte de Castellón",
-      "nivel": "Naranja",
-      "text": "Interior norte de Castellón: Moderate wind warning. Interior norte de Castellón (Naranja) (AEMET)",
+      "text": "Costa - A Mariña: Moderate coastalevent warning. Costa - A Mariña (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
