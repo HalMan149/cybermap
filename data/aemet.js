@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-02-18T10:04:19.189Z
+// Auto-generado por GitHub Actions - 2026-02-18T11:05:11.060Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-02-18T10:04:19.189Z",
+  "generated_at": "2026-02-18T11:05:11.060Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral cántabro",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Litoral cántabro",
-      "nivel": "Rojo",
-      "text": "Costa - Litoral cántabro: Aviso de costeros de nivel naranja. Costa - Litoral cántabro (Rojo) (AEMET)",
+      "icon": "💨",
+      "provincia": "Noroeste de Murcia",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Noroeste de Murcia",
+      "nivel": "Naranja",
+      "text": "Noroeste de Murcia: Aviso de vientos de nivel amarillo. Noroeste de Murcia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral cántabro",
-      "fenomeno": "Severe coastalevent warning. Costa - Litoral cántabro",
-      "nivel": "Rojo",
-      "text": "Costa - Litoral cántabro: Severe coastalevent warning. Costa - Litoral cántabro (Rojo) (AEMET)",
+      "icon": "⚠️",
+      "provincia": "Noroeste de Murcia",
+      "fenomeno": "Moderate wind warning. Noroeste de Murcia",
+      "nivel": "Naranja",
+      "text": "Noroeste de Murcia: Moderate wind warning. Noroeste de Murcia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Costa - Bizkaia litoral",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Bizkaia litoral",
+      "icon": "💨",
+      "provincia": "Valle del Almanzora y Los Vélez",
+      "fenomeno": "Aviso de vientos de nivel naranja. Valle del Almanzora y Los Vélez",
       "nivel": "Rojo",
-      "text": "Costa - Bizkaia litoral: Aviso de costeros de nivel naranja. Costa - Bizkaia litoral (Rojo) (AEMET)",
+      "text": "Valle del Almanzora y Los Vélez: Aviso de vientos de nivel naranja. Valle del Almanzora y Los Vélez (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Costa - Bizkaia litoral",
-      "fenomeno": "Severe coastalevent warning. Costa - Bizkaia litoral",
+      "icon": "⚠️",
+      "provincia": "Valle del Almanzora y Los Vélez",
+      "fenomeno": "Severe wind warning. Valle del Almanzora y Los Vélez",
       "nivel": "Rojo",
-      "text": "Costa - Bizkaia litoral: Severe coastalevent warning. Costa - Bizkaia litoral (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Gipuzkoa litoral",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Gipuzkoa litoral",
-      "nivel": "Rojo",
-      "text": "Costa - Gipuzkoa litoral: Aviso de costeros de nivel naranja. Costa - Gipuzkoa litoral (Rojo) (AEMET)",
+      "text": "Valle del Almanzora y Los Vélez: Severe wind warning. Valle del Almanzora y Los Vélez (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Costa - Gipuzkoa litoral",
-      "fenomeno": "Severe coastalevent warning. Costa - Gipuzkoa litoral",
+      "provincia": "Costa - Poniente y Almería Capital",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Poniente y Almería Capital",
       "nivel": "Rojo",
-      "text": "Costa - Gipuzkoa litoral: Severe coastalevent warning. Costa - Gipuzkoa litoral (Rojo) (AEMET)",
+      "text": "Costa - Poniente y Almería Capital: Aviso de costeros de nivel naranja. Costa - Poniente y Almería Capital (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Poniente y Almería Capital",
+      "fenomeno": "Severe coastalevent warning. Costa - Poniente y Almería Capital",
+      "nivel": "Rojo",
+      "text": "Costa - Poniente y Almería Capital: Severe coastalevent warning. Costa - Poniente y Almería Capital (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Costa granadina",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Costa granadina",
+      "nivel": "Rojo",
+      "text": "Costa - Costa granadina: Aviso de costeros de nivel naranja. Costa - Costa granadina (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Costa granadina",
+      "fenomeno": "Severe coastalevent warning. Costa - Costa granadina",
+      "nivel": "Rojo",
+      "text": "Costa - Costa granadina: Severe coastalevent warning. Costa - Costa granadina (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Melilla",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Melilla",
+      "nivel": "Naranja",
+      "text": "Costa - Melilla: Aviso de costeros de nivel amarillo. Costa - Melilla (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Melilla",
+      "fenomeno": "Moderate coastalevent warning. Costa - Melilla",
+      "nivel": "Naranja",
+      "text": "Costa - Melilla: Moderate coastalevent warning. Costa - Melilla (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "💨",
-      "provincia": "Liébana",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Liébana",
+      "provincia": "Nacimiento y Campo de Tabernas",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Nacimiento y Campo de Tabernas",
       "nivel": "Naranja",
-      "text": "Liébana: Aviso de vientos de nivel amarillo. Liébana (Naranja) (AEMET)",
+      "text": "Nacimiento y Campo de Tabernas: Aviso de vientos de nivel amarillo. Nacimiento y Campo de Tabernas (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Liébana",
-      "fenomeno": "Moderate wind warning. Liébana",
+      "provincia": "Nacimiento y Campo de Tabernas",
+      "fenomeno": "Moderate wind warning. Nacimiento y Campo de Tabernas",
       "nivel": "Naranja",
-      "text": "Liébana: Moderate wind warning. Liébana (Naranja) (AEMET)",
+      "text": "Nacimiento y Campo de Tabernas: Moderate wind warning. Nacimiento y Campo de Tabernas (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "💨",
-      "provincia": "Centro y valle de Villaverde",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Centro y valle de Villaverde",
+      "provincia": "Guadix y Baza",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Guadix y Baza",
       "nivel": "Naranja",
-      "text": "Centro y valle de Villaverde: Aviso de vientos de nivel amarillo. Centro y valle de Villaverde (Naranja) (AEMET)",
+      "text": "Guadix y Baza: Aviso de vientos de nivel amarillo. Guadix y Baza (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Centro y valle de Villaverde",
-      "fenomeno": "Moderate wind warning. Centro y valle de Villaverde",
+      "provincia": "Guadix y Baza",
+      "fenomeno": "Moderate wind warning. Guadix y Baza",
       "nivel": "Naranja",
-      "text": "Centro y valle de Villaverde: Moderate wind warning. Centro y valle de Villaverde (Naranja) (AEMET)",
+      "text": "Guadix y Baza: Moderate wind warning. Guadix y Baza (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "💨",
-      "provincia": "Cantabria del Ebro",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Cantabria del Ebro",
+      "provincia": "Costa granadina",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Costa granadina",
       "nivel": "Naranja",
-      "text": "Cantabria del Ebro: Aviso de vientos de nivel amarillo. Cantabria del Ebro (Naranja) (AEMET)",
+      "text": "Costa granadina: Aviso de vientos de nivel amarillo. Costa granadina (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⚠️",
-      "provincia": "Cantabria del Ebro",
-      "fenomeno": "Moderate wind warning. Cantabria del Ebro",
+      "icon": "🌊",
+      "provincia": "Costa granadina",
+      "fenomeno": "Moderate wind warning. Costa granadina",
       "nivel": "Naranja",
-      "text": "Cantabria del Ebro: Moderate wind warning. Cantabria del Ebro (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Vertiente cantábrica de Navarra",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Vertiente cantábrica de Navarra",
-      "nivel": "Naranja",
-      "text": "Vertiente cantábrica de Navarra: Aviso de vientos de nivel amarillo. Vertiente cantábrica de Navarra (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Vertiente cantábrica de Navarra",
-      "fenomeno": "Moderate wind warning. Vertiente cantábrica de Navarra",
-      "nivel": "Naranja",
-      "text": "Vertiente cantábrica de Navarra: Moderate wind warning. Vertiente cantábrica de Navarra (Naranja) (AEMET)",
+      "text": "Costa granadina: Moderate wind warning. Costa granadina (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "💨",
-      "provincia": "Cuenca del Nervión",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Cuenca del Nervión",
+      "provincia": "Cazorla y Segura",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Cazorla y Segura",
       "nivel": "Naranja",
-      "text": "Cuenca del Nervión: Aviso de vientos de nivel amarillo. Cuenca del Nervión (Naranja) (AEMET)",
+      "text": "Cazorla y Segura: Aviso de vientos de nivel amarillo. Cazorla y Segura (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Cuenca del Nervión",
-      "fenomeno": "Moderate wind warning. Cuenca del Nervión",
+      "provincia": "Cazorla y Segura",
+      "fenomeno": "Moderate wind warning. Cazorla y Segura",
       "nivel": "Naranja",
-      "text": "Cuenca del Nervión: Moderate wind warning. Cuenca del Nervión (Naranja) (AEMET)",
+      "text": "Cazorla y Segura: Moderate wind warning. Cazorla y Segura (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "💨",
-      "provincia": "Llanada alavesa",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Llanada alavesa",
+      "provincia": "Valle del Almanzora y Los Vélez",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Valle del Almanzora y Los Vélez",
       "nivel": "Naranja",
-      "text": "Llanada alavesa: Aviso de vientos de nivel amarillo. Llanada alavesa (Naranja) (AEMET)",
+      "text": "Valle del Almanzora y Los Vélez: Aviso de vientos de nivel amarillo. Valle del Almanzora y Los Vélez (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Llanada alavesa",
-      "fenomeno": "Moderate wind warning. Llanada alavesa",
+      "provincia": "Valle del Almanzora y Los Vélez",
+      "fenomeno": "Moderate wind warning. Valle del Almanzora y Los Vélez",
       "nivel": "Naranja",
-      "text": "Llanada alavesa: Moderate wind warning. Llanada alavesa (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Gipuzkoa interior",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Gipuzkoa interior",
-      "nivel": "Naranja",
-      "text": "Gipuzkoa interior: Aviso de vientos de nivel amarillo. Gipuzkoa interior (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Gipuzkoa interior",
-      "fenomeno": "Moderate wind warning. Gipuzkoa interior",
-      "nivel": "Naranja",
-      "text": "Gipuzkoa interior: Moderate wind warning. Gipuzkoa interior (Naranja) (AEMET)",
+      "text": "Valle del Almanzora y Los Vélez: Moderate wind warning. Valle del Almanzora y Los Vélez (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
