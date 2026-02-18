@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-02-18T16:42:33.459Z
+// Auto-generado por GitHub Actions - 2026-02-18T17:40:11.887Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-02-18T16:42:33.459Z",
+  "generated_at": "2026-02-18T17:40:11.887Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "💨",
-      "provincia": "Noroeste de Murcia",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Noroeste de Murcia",
-      "nivel": "Naranja",
-      "text": "Noroeste de Murcia: Aviso de vientos de nivel amarillo. Noroeste de Murcia (Naranja) (AEMET)",
+      "provincia": "Litoral sur de Tarragona",
+      "fenomeno": "Aviso de vientos de nivel naranja. Litoral sur de Tarragona",
+      "nivel": "Rojo",
+      "text": "Litoral sur de Tarragona: Aviso de vientos de nivel naranja. Litoral sur de Tarragona (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Noroeste de Murcia",
-      "fenomeno": "Moderate wind warning. Noroeste de Murcia",
-      "nivel": "Naranja",
-      "text": "Noroeste de Murcia: Moderate wind warning. Noroeste de Murcia (Naranja) (AEMET)",
+      "provincia": "Litoral sur de Tarragona",
+      "fenomeno": "Severe wind warning. Litoral sur de Tarragona",
+      "nivel": "Rojo",
+      "text": "Litoral sur de Tarragona: Severe wind warning. Litoral sur de Tarragona (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "💨",
-      "provincia": "Valle del Almanzora y Los Vélez",
-      "fenomeno": "Aviso de vientos de nivel naranja. Valle del Almanzora y Los Vélez",
+      "provincia": "Prelitoral sur de Tarragona",
+      "fenomeno": "Aviso de vientos de nivel naranja. Prelitoral sur de Tarragona",
       "nivel": "Rojo",
-      "text": "Valle del Almanzora y Los Vélez: Aviso de vientos de nivel naranja. Valle del Almanzora y Los Vélez (Rojo) (AEMET)",
+      "text": "Prelitoral sur de Tarragona: Aviso de vientos de nivel naranja. Prelitoral sur de Tarragona (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Valle del Almanzora y Los Vélez",
-      "fenomeno": "Severe wind warning. Valle del Almanzora y Los Vélez",
+      "provincia": "Prelitoral sur de Tarragona",
+      "fenomeno": "Severe wind warning. Prelitoral sur de Tarragona",
       "nivel": "Rojo",
-      "text": "Valle del Almanzora y Los Vélez: Severe wind warning. Valle del Almanzora y Los Vélez (Rojo) (AEMET)",
+      "text": "Prelitoral sur de Tarragona: Severe wind warning. Prelitoral sur de Tarragona (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Costa - Poniente y Almería Capital",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Poniente y Almería Capital",
+      "provincia": "Costa - Litoral cántabro",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Litoral cántabro",
       "nivel": "Rojo",
-      "text": "Costa - Poniente y Almería Capital: Aviso de costeros de nivel naranja. Costa - Poniente y Almería Capital (Rojo) (AEMET)",
+      "text": "Costa - Litoral cántabro: Aviso de costeros de nivel naranja. Costa - Litoral cántabro (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Costa - Poniente y Almería Capital",
-      "fenomeno": "Severe coastalevent warning. Costa - Poniente y Almería Capital",
+      "provincia": "Costa - Litoral cántabro",
+      "fenomeno": "Severe coastalevent warning. Costa - Litoral cántabro",
       "nivel": "Rojo",
-      "text": "Costa - Poniente y Almería Capital: Severe coastalevent warning. Costa - Poniente y Almería Capital (Rojo) (AEMET)",
+      "text": "Costa - Litoral cántabro: Severe coastalevent warning. Costa - Litoral cántabro (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Costa - Costa granadina",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Costa granadina",
+      "provincia": "Costa - Gipuzkoa litoral",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Gipuzkoa litoral",
       "nivel": "Rojo",
-      "text": "Costa - Costa granadina: Aviso de costeros de nivel naranja. Costa - Costa granadina (Rojo) (AEMET)",
+      "text": "Costa - Gipuzkoa litoral: Aviso de costeros de nivel naranja. Costa - Gipuzkoa litoral (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Costa - Costa granadina",
-      "fenomeno": "Severe coastalevent warning. Costa - Costa granadina",
+      "provincia": "Costa - Gipuzkoa litoral",
+      "fenomeno": "Severe coastalevent warning. Costa - Gipuzkoa litoral",
       "nivel": "Rojo",
-      "text": "Costa - Costa granadina: Severe coastalevent warning. Costa - Costa granadina (Rojo) (AEMET)",
+      "text": "Costa - Gipuzkoa litoral: Severe coastalevent warning. Costa - Gipuzkoa litoral (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Costa - Melilla",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Melilla",
-      "nivel": "Naranja",
-      "text": "Costa - Melilla: Aviso de costeros de nivel amarillo. Costa - Melilla (Naranja) (AEMET)",
+      "provincia": "Costa - Bizkaia litoral",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Bizkaia litoral",
+      "nivel": "Rojo",
+      "text": "Costa - Bizkaia litoral: Aviso de costeros de nivel naranja. Costa - Bizkaia litoral (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Costa - Melilla",
-      "fenomeno": "Moderate coastalevent warning. Costa - Melilla",
-      "nivel": "Naranja",
-      "text": "Costa - Melilla: Moderate coastalevent warning. Costa - Melilla (Naranja) (AEMET)",
+      "provincia": "Costa - Bizkaia litoral",
+      "fenomeno": "Severe coastalevent warning. Costa - Bizkaia litoral",
+      "nivel": "Rojo",
+      "text": "Costa - Bizkaia litoral: Severe coastalevent warning. Costa - Bizkaia litoral (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "💨",
-      "provincia": "Nacimiento y Campo de Tabernas",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Nacimiento y Campo de Tabernas",
+      "provincia": "Pirineo oscense",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Pirineo oscense",
       "nivel": "Naranja",
-      "text": "Nacimiento y Campo de Tabernas: Aviso de vientos de nivel amarillo. Nacimiento y Campo de Tabernas (Naranja) (AEMET)",
+      "text": "Pirineo oscense: Aviso de vientos de nivel amarillo. Pirineo oscense (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Nacimiento y Campo de Tabernas",
-      "fenomeno": "Moderate wind warning. Nacimiento y Campo de Tabernas",
+      "provincia": "Pirineo oscense",
+      "fenomeno": "Moderate wind warning. Pirineo oscense",
       "nivel": "Naranja",
-      "text": "Nacimiento y Campo de Tabernas: Moderate wind warning. Nacimiento y Campo de Tabernas (Naranja) (AEMET)",
+      "text": "Pirineo oscense: Moderate wind warning. Pirineo oscense (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "💨",
-      "provincia": "Guadix y Baza",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Guadix y Baza",
+      "provincia": "Sierra Tramontana",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Sierra Tramontana",
       "nivel": "Naranja",
-      "text": "Guadix y Baza: Aviso de vientos de nivel amarillo. Guadix y Baza (Naranja) (AEMET)",
+      "text": "Sierra Tramontana: Aviso de vientos de nivel amarillo. Sierra Tramontana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Guadix y Baza",
-      "fenomeno": "Moderate wind warning. Guadix y Baza",
+      "provincia": "Sierra Tramontana",
+      "fenomeno": "Moderate wind warning. Sierra Tramontana",
       "nivel": "Naranja",
-      "text": "Guadix y Baza: Moderate wind warning. Guadix y Baza (Naranja) (AEMET)",
+      "text": "Sierra Tramontana: Moderate wind warning. Sierra Tramontana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "💨",
-      "provincia": "Costa granadina",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Costa granadina",
+      "provincia": "Norte y nordeste de Mallorca",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Norte y nordeste de Mallorca",
       "nivel": "Naranja",
-      "text": "Costa granadina: Aviso de vientos de nivel amarillo. Costa granadina (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa granadina",
-      "fenomeno": "Moderate wind warning. Costa granadina",
-      "nivel": "Naranja",
-      "text": "Costa granadina: Moderate wind warning. Costa granadina (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Cazorla y Segura",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Cazorla y Segura",
-      "nivel": "Naranja",
-      "text": "Cazorla y Segura: Aviso de vientos de nivel amarillo. Cazorla y Segura (Naranja) (AEMET)",
+      "text": "Norte y nordeste de Mallorca: Aviso de vientos de nivel amarillo. Norte y nordeste de Mallorca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Cazorla y Segura",
-      "fenomeno": "Moderate wind warning. Cazorla y Segura",
+      "provincia": "Norte y nordeste de Mallorca",
+      "fenomeno": "Moderate wind warning. Norte y nordeste de Mallorca",
       "nivel": "Naranja",
-      "text": "Cazorla y Segura: Moderate wind warning. Cazorla y Segura (Naranja) (AEMET)",
+      "text": "Norte y nordeste de Mallorca: Moderate wind warning. Norte y nordeste de Mallorca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "💨",
-      "provincia": "Valle del Almanzora y Los Vélez",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Valle del Almanzora y Los Vélez",
+      "provincia": "Interior de Mallorca",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Interior de Mallorca",
       "nivel": "Naranja",
-      "text": "Valle del Almanzora y Los Vélez: Aviso de vientos de nivel amarillo. Valle del Almanzora y Los Vélez (Naranja) (AEMET)",
+      "text": "Interior de Mallorca: Aviso de vientos de nivel amarillo. Interior de Mallorca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Valle del Almanzora y Los Vélez",
-      "fenomeno": "Moderate wind warning. Valle del Almanzora y Los Vélez",
+      "provincia": "Interior de Mallorca",
+      "fenomeno": "Moderate wind warning. Interior de Mallorca",
       "nivel": "Naranja",
-      "text": "Valle del Almanzora y Los Vélez: Moderate wind warning. Valle del Almanzora y Los Vélez (Naranja) (AEMET)",
+      "text": "Interior de Mallorca: Moderate wind warning. Interior de Mallorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Sur de Mallorca",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Sur de Mallorca",
+      "nivel": "Naranja",
+      "text": "Sur de Mallorca: Aviso de vientos de nivel amarillo. Sur de Mallorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sur de Mallorca",
+      "fenomeno": "Moderate wind warning. Sur de Mallorca",
+      "nivel": "Naranja",
+      "text": "Sur de Mallorca: Moderate wind warning. Sur de Mallorca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
