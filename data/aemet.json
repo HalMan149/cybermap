@@ -1,8 +1,56 @@
 {
-  "generated_at": "2026-02-18T17:40:11.887Z",
+  "generated_at": "2026-02-18T18:29:07.238Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "💨",
+      "provincia": "Ribera del Ebro de La Rioja",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Ribera del Ebro de La Rioja",
+      "nivel": "Naranja",
+      "text": "Ribera del Ebro de La Rioja: Aviso de vientos de nivel amarillo. Ribera del Ebro de La Rioja (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ribera del Ebro de La Rioja",
+      "fenomeno": "Moderate wind warning. Ribera del Ebro de La Rioja",
+      "nivel": "Naranja",
+      "text": "Ribera del Ebro de La Rioja: Moderate wind warning. Ribera del Ebro de La Rioja (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Interior norte de Castellón",
+      "fenomeno": "Aviso de vientos de nivel naranja. Interior norte de Castellón",
+      "nivel": "Rojo",
+      "text": "Interior norte de Castellón: Aviso de vientos de nivel naranja. Interior norte de Castellón (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior norte de Castellón",
+      "fenomeno": "Severe wind warning. Interior norte de Castellón",
+      "nivel": "Rojo",
+      "text": "Interior norte de Castellón: Severe wind warning. Interior norte de Castellón (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Litoral norte de Castellón",
+      "fenomeno": "Aviso de vientos de nivel naranja. Litoral norte de Castellón",
+      "nivel": "Rojo",
+      "text": "Litoral norte de Castellón: Aviso de vientos de nivel naranja. Litoral norte de Castellón (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral norte de Castellón",
+      "fenomeno": "Severe wind warning. Litoral norte de Castellón",
+      "nivel": "Rojo",
+      "text": "Litoral norte de Castellón: Severe wind warning. Litoral norte de Castellón (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "💨",
       "provincia": "Litoral sur de Tarragona",
@@ -85,22 +133,6 @@
     },
     {
       "icon": "💨",
-      "provincia": "Pirineo oscense",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Pirineo oscense",
-      "nivel": "Naranja",
-      "text": "Pirineo oscense: Aviso de vientos de nivel amarillo. Pirineo oscense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Pirineo oscense",
-      "fenomeno": "Moderate wind warning. Pirineo oscense",
-      "nivel": "Naranja",
-      "text": "Pirineo oscense: Moderate wind warning. Pirineo oscense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
       "provincia": "Sierra Tramontana",
       "fenomeno": "Aviso de vientos de nivel amarillo. Sierra Tramontana",
       "nivel": "Naranja",
@@ -129,38 +161,6 @@
       "fenomeno": "Moderate wind warning. Norte y nordeste de Mallorca",
       "nivel": "Naranja",
       "text": "Norte y nordeste de Mallorca: Moderate wind warning. Norte y nordeste de Mallorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Interior de Mallorca",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Interior de Mallorca",
-      "nivel": "Naranja",
-      "text": "Interior de Mallorca: Aviso de vientos de nivel amarillo. Interior de Mallorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior de Mallorca",
-      "fenomeno": "Moderate wind warning. Interior de Mallorca",
-      "nivel": "Naranja",
-      "text": "Interior de Mallorca: Moderate wind warning. Interior de Mallorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Sur de Mallorca",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Sur de Mallorca",
-      "nivel": "Naranja",
-      "text": "Sur de Mallorca: Aviso de vientos de nivel amarillo. Sur de Mallorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sur de Mallorca",
-      "fenomeno": "Moderate wind warning. Sur de Mallorca",
-      "nivel": "Naranja",
-      "text": "Sur de Mallorca: Moderate wind warning. Sur de Mallorca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
