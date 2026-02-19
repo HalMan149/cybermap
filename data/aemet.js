@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2026-02-19T09:08:16.367Z
+// Auto-generado por GitHub Actions - 2026-02-19T10:03:52.348Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-02-19T09:08:16.367Z",
+  "generated_at": "2026-02-19T10:03:52.348Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral sur de Tarragona",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Litoral sur de Tarragona",
+      "nivel": "Rojo",
+      "text": "Costa - Litoral sur de Tarragona: Aviso de costeros de nivel naranja. Costa - Litoral sur de Tarragona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral sur de Tarragona",
+      "fenomeno": "Severe coastalevent warning. Costa - Litoral sur de Tarragona",
+      "nivel": "Rojo",
+      "text": "Costa - Litoral sur de Tarragona: Severe coastalevent warning. Costa - Litoral sur de Tarragona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "💨",
       "provincia": "Litoral sur de Tarragona",
@@ -37,51 +53,51 @@ window.AEMET_AVISOS = {
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "💨",
-      "provincia": "Interior norte de Castellón",
-      "fenomeno": "Aviso de vientos de nivel naranja. Interior norte de Castellón",
+      "icon": "🌊",
+      "provincia": "Costa - Ampurdán",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Ampurdán",
       "nivel": "Rojo",
-      "text": "Interior norte de Castellón: Aviso de vientos de nivel naranja. Interior norte de Castellón (Rojo) (AEMET)",
+      "text": "Costa - Ampurdán: Aviso de costeros de nivel naranja. Costa - Ampurdán (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⚠️",
-      "provincia": "Interior norte de Castellón",
-      "fenomeno": "Severe wind warning. Interior norte de Castellón",
+      "icon": "🌊",
+      "provincia": "Costa - Ampurdán",
+      "fenomeno": "Severe coastalevent warning. Costa - Ampurdán",
       "nivel": "Rojo",
-      "text": "Interior norte de Castellón: Severe wind warning. Interior norte de Castellón (Rojo) (AEMET)",
+      "text": "Costa - Ampurdán: Severe coastalevent warning. Costa - Ampurdán (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "💨",
-      "provincia": "Litoral norte de Castellón",
-      "fenomeno": "Aviso de vientos de nivel naranja. Litoral norte de Castellón",
-      "nivel": "Rojo",
-      "text": "Litoral norte de Castellón: Aviso de vientos de nivel naranja. Litoral norte de Castellón (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral norte de Castellón",
-      "fenomeno": "Severe wind warning. Litoral norte de Castellón",
-      "nivel": "Rojo",
-      "text": "Litoral norte de Castellón: Severe wind warning. Litoral norte de Castellón (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
+      "icon": "❄️",
       "provincia": "Pirineo oscense",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Pirineo oscense",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Pirineo oscense",
       "nivel": "Naranja",
-      "text": "Pirineo oscense: Aviso de vientos de nivel amarillo. Pirineo oscense (Naranja) (AEMET)",
+      "text": "Pirineo oscense: Aviso de nevadas de nivel amarillo. Pirineo oscense (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
       "provincia": "Pirineo oscense",
-      "fenomeno": "Moderate wind warning. Pirineo oscense",
+      "fenomeno": "Moderate snow warning. Pirineo oscense",
       "nivel": "Naranja",
-      "text": "Pirineo oscense: Moderate wind warning. Pirineo oscense (Naranja) (AEMET)",
+      "text": "Pirineo oscense: Moderate snow warning. Pirineo oscense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Valle de Arán",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Valle de Arán",
+      "nivel": "Naranja",
+      "text": "Valle de Arán: Aviso de nevadas de nivel amarillo. Valle de Arán (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Valle de Arán",
+      "fenomeno": "Moderate snow warning. Valle de Arán",
+      "nivel": "Naranja",
+      "text": "Valle de Arán: Moderate snow warning. Valle de Arán (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -101,67 +117,51 @@ window.AEMET_AVISOS = {
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "💨",
-      "provincia": "Pirineo de Girona",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Pirineo de Girona",
+      "icon": "🌊",
+      "provincia": "Costa - Litoral de Barcelona",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral de Barcelona",
       "nivel": "Naranja",
-      "text": "Pirineo de Girona: Aviso de vientos de nivel amarillo. Pirineo de Girona (Naranja) (AEMET)",
+      "text": "Costa - Litoral de Barcelona: Aviso de costeros de nivel amarillo. Costa - Litoral de Barcelona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⚠️",
-      "provincia": "Pirineo de Girona",
-      "fenomeno": "Moderate wind warning. Pirineo de Girona",
+      "icon": "🌊",
+      "provincia": "Costa - Litoral de Barcelona",
+      "fenomeno": "Moderate coastalevent warning. Costa - Litoral de Barcelona",
       "nivel": "Naranja",
-      "text": "Pirineo de Girona: Moderate wind warning. Pirineo de Girona (Naranja) (AEMET)",
+      "text": "Costa - Litoral de Barcelona: Moderate coastalevent warning. Costa - Litoral de Barcelona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "💨",
-      "provincia": "Pirineo de Lleida",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Pirineo de Lleida",
+      "icon": "🌊",
+      "provincia": "Costa - Ampurdán",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Ampurdán",
       "nivel": "Naranja",
-      "text": "Pirineo de Lleida: Aviso de vientos de nivel amarillo. Pirineo de Lleida (Naranja) (AEMET)",
+      "text": "Costa - Ampurdán: Aviso de costeros de nivel amarillo. Costa - Ampurdán (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⚠️",
-      "provincia": "Pirineo de Lleida",
-      "fenomeno": "Moderate wind warning. Pirineo de Lleida",
+      "icon": "🌊",
+      "provincia": "Costa - Ampurdán",
+      "fenomeno": "Moderate coastalevent warning. Costa - Ampurdán",
       "nivel": "Naranja",
-      "text": "Pirineo de Lleida: Moderate wind warning. Pirineo de Lleida (Naranja) (AEMET)",
+      "text": "Costa - Ampurdán: Moderate coastalevent warning. Costa - Ampurdán (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "💨",
-      "provincia": "Litoral sur de Tarragona",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Litoral sur de Tarragona",
+      "icon": "🌊",
+      "provincia": "Costa - Litoral norte de Tarragona",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral norte de Tarragona",
       "nivel": "Naranja",
-      "text": "Litoral sur de Tarragona: Aviso de vientos de nivel amarillo. Litoral sur de Tarragona (Naranja) (AEMET)",
+      "text": "Costa - Litoral norte de Tarragona: Aviso de costeros de nivel amarillo. Costa - Litoral norte de Tarragona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⚠️",
-      "provincia": "Litoral sur de Tarragona",
-      "fenomeno": "Moderate wind warning. Litoral sur de Tarragona",
+      "icon": "🌊",
+      "provincia": "Costa - Litoral norte de Tarragona",
+      "fenomeno": "Moderate coastalevent warning. Costa - Litoral norte de Tarragona",
       "nivel": "Naranja",
-      "text": "Litoral sur de Tarragona: Moderate wind warning. Litoral sur de Tarragona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Prelitoral sur de Tarragona",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Prelitoral sur de Tarragona",
-      "nivel": "Naranja",
-      "text": "Prelitoral sur de Tarragona: Aviso de vientos de nivel amarillo. Prelitoral sur de Tarragona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Prelitoral sur de Tarragona",
-      "fenomeno": "Moderate wind warning. Prelitoral sur de Tarragona",
-      "nivel": "Naranja",
-      "text": "Prelitoral sur de Tarragona: Moderate wind warning. Prelitoral sur de Tarragona (Naranja) (AEMET)",
+      "text": "Costa - Litoral norte de Tarragona: Moderate coastalevent warning. Costa - Litoral norte de Tarragona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
