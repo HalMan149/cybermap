@@ -1,9 +1,121 @@
-// Auto-generado por GitHub Actions - 2026-02-23T17:44:56.884Z
+// Auto-generado por GitHub Actions - 2026-02-23T18:40:48.348Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-02-23T17:44:56.884Z",
+  "generated_at": "2026-02-23T18:40:48.348Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌊",
+      "provincia": "Cumbres de Gran Canaria",
+      "fenomeno": "Aviso de polvo en suspensión de nivel amarillo. Cumbres de Gran Canaria",
+      "nivel": "Naranja",
+      "text": "Cumbres de Gran Canaria: Aviso de polvo en suspensión de nivel amarillo. Cumbres de Gran Canaria (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cumbres de Gran Canaria",
+      "fenomeno": "Moderate dust warning. Cumbres de Gran Canaria",
+      "nivel": "Naranja",
+      "text": "Cumbres de Gran Canaria: Moderate dust warning. Cumbres de Gran Canaria (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Este, sur y oeste de Gran Canaria",
+      "fenomeno": "Aviso de polvo en suspensión de nivel amarillo. Este, sur y oeste de Gran Canaria",
+      "nivel": "Naranja",
+      "text": "Este, sur y oeste de Gran Canaria: Aviso de polvo en suspensión de nivel amarillo. Este, sur y oeste de Gran Canaria (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Este, sur y oeste de Gran Canaria",
+      "fenomeno": "Moderate dust warning. Este, sur y oeste de Gran Canaria",
+      "nivel": "Naranja",
+      "text": "Este, sur y oeste de Gran Canaria: Moderate dust warning. Este, sur y oeste de Gran Canaria (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Lanzarote",
+      "fenomeno": "Aviso de polvo en suspensión de nivel amarillo. Lanzarote",
+      "nivel": "Naranja",
+      "text": "Lanzarote: Aviso de polvo en suspensión de nivel amarillo. Lanzarote (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Lanzarote",
+      "fenomeno": "Moderate dust warning. Lanzarote",
+      "nivel": "Naranja",
+      "text": "Lanzarote: Moderate dust warning. Lanzarote (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Fuerteventura",
+      "fenomeno": "Aviso de polvo en suspensión de nivel amarillo. Fuerteventura",
+      "nivel": "Naranja",
+      "text": "Fuerteventura: Aviso de polvo en suspensión de nivel amarillo. Fuerteventura (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Fuerteventura",
+      "fenomeno": "Moderate dust warning. Fuerteventura",
+      "nivel": "Naranja",
+      "text": "Fuerteventura: Moderate dust warning. Fuerteventura (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "La Gomera",
+      "fenomeno": "Aviso de polvo en suspensión de nivel amarillo. La Gomera",
+      "nivel": "Naranja",
+      "text": "La Gomera: Aviso de polvo en suspensión de nivel amarillo. La Gomera (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "La Gomera",
+      "fenomeno": "Moderate dust warning. La Gomera",
+      "nivel": "Naranja",
+      "text": "La Gomera: Moderate dust warning. La Gomera (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Área metropolitana de Tenerife",
+      "fenomeno": "Aviso de polvo en suspensión de nivel amarillo. Área metropolitana de Tenerife",
+      "nivel": "Naranja",
+      "text": "Área metropolitana de Tenerife: Aviso de polvo en suspensión de nivel amarillo. Área metropolitana de Tenerife (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Área metropolitana de Tenerife",
+      "fenomeno": "Moderate dust warning. Área metropolitana de Tenerife",
+      "nivel": "Naranja",
+      "text": "Área metropolitana de Tenerife: Moderate dust warning. Área metropolitana de Tenerife (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Este, sur y oeste de Tenerife",
+      "fenomeno": "Aviso de polvo en suspensión de nivel amarillo. Este, sur y oeste de Tenerife",
+      "nivel": "Naranja",
+      "text": "Este, sur y oeste de Tenerife: Aviso de polvo en suspensión de nivel amarillo. Este, sur y oeste de Tenerife (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Este, sur y oeste de Tenerife",
+      "fenomeno": "Moderate dust warning. Este, sur y oeste de Tenerife",
+      "nivel": "Naranja",
+      "text": "Este, sur y oeste de Tenerife: Moderate dust warning. Este, sur y oeste de Tenerife (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌊",
       "provincia": "Sur de Mallorca",
@@ -50,118 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate coastalevent warning. Costa - Oeste de A Coruña",
       "nivel": "Naranja",
       "text": "Costa - Oeste de A Coruña: Moderate coastalevent warning. Costa - Oeste de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Suroeste de A Coruña",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Suroeste de A Coruña",
-      "nivel": "Naranja",
-      "text": "Costa - Suroeste de A Coruña: Aviso de costeros de nivel amarillo. Costa - Suroeste de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Suroeste de A Coruña",
-      "fenomeno": "Moderate coastalevent warning. Costa - Suroeste de A Coruña",
-      "nivel": "Naranja",
-      "text": "Costa - Suroeste de A Coruña: Moderate coastalevent warning. Costa - Suroeste de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Rias Baixas",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Rias Baixas",
-      "nivel": "Naranja",
-      "text": "Costa - Rias Baixas: Aviso de costeros de nivel amarillo. Costa - Rias Baixas (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Rias Baixas",
-      "fenomeno": "Moderate coastalevent warning. Costa - Rias Baixas",
-      "nivel": "Naranja",
-      "text": "Costa - Rias Baixas: Moderate coastalevent warning. Costa - Rias Baixas (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Miño de Pontevedra",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Miño de Pontevedra",
-      "nivel": "Naranja",
-      "text": "Costa - Miño de Pontevedra: Aviso de costeros de nivel amarillo. Costa - Miño de Pontevedra (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Miño de Pontevedra",
-      "fenomeno": "Moderate coastalevent warning. Costa - Miño de Pontevedra",
-      "nivel": "Naranja",
-      "text": "Costa - Miño de Pontevedra: Moderate coastalevent warning. Costa - Miño de Pontevedra (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Oeste de La Palma",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Oeste de La Palma",
-      "nivel": "Naranja",
-      "text": "Costa - Oeste de La Palma: Aviso de costeros de nivel amarillo. Costa - Oeste de La Palma (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Oeste de La Palma",
-      "fenomeno": "Moderate coastalevent warning. Costa - Oeste de La Palma",
-      "nivel": "Naranja",
-      "text": "Costa - Oeste de La Palma: Moderate coastalevent warning. Costa - Oeste de La Palma (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - El Hierro",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - El Hierro",
-      "nivel": "Naranja",
-      "text": "Costa - El Hierro: Aviso de costeros de nivel amarillo. Costa - El Hierro (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - El Hierro",
-      "fenomeno": "Moderate coastalevent warning. Costa - El Hierro",
-      "nivel": "Naranja",
-      "text": "Costa - El Hierro: Moderate coastalevent warning. Costa - El Hierro (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - La Gomera",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - La Gomera",
-      "nivel": "Naranja",
-      "text": "Costa - La Gomera: Aviso de costeros de nivel amarillo. Costa - La Gomera (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - La Gomera",
-      "fenomeno": "Moderate coastalevent warning. Costa - La Gomera",
-      "nivel": "Naranja",
-      "text": "Costa - La Gomera: Moderate coastalevent warning. Costa - La Gomera (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Este, sur y oeste de Tenerife",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Este, sur y oeste de Tenerife",
-      "nivel": "Naranja",
-      "text": "Costa - Este, sur y oeste de Tenerife: Aviso de costeros de nivel amarillo. Costa - Este, sur y oeste de Tenerife (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Este, sur y oeste de Tenerife",
-      "fenomeno": "Moderate coastalevent warning. Costa - Este, sur y oeste de Tenerife",
-      "nivel": "Naranja",
-      "text": "Costa - Este, sur y oeste de Tenerife: Moderate coastalevent warning. Costa - Este, sur y oeste de Tenerife (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
