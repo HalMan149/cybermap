@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2026-02-24T22:25:27.725Z
+// Auto-generado por GitHub Actions - 2026-02-24T22:58:34.594Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-02-24T22:25:27.725Z",
+  "generated_at": "2026-02-24T22:58:34.594Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "💨",
+      "provincia": "Este, sur y oeste de Tenerife",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Este, sur y oeste de Tenerife",
+      "nivel": "Naranja",
+      "text": "Este, sur y oeste de Tenerife: Aviso de vientos de nivel amarillo. Este, sur y oeste de Tenerife (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Este, sur y oeste de Tenerife",
+      "fenomeno": "Moderate wind warning. Este, sur y oeste de Tenerife",
+      "nivel": "Naranja",
+      "text": "Este, sur y oeste de Tenerife: Moderate wind warning. Este, sur y oeste de Tenerife (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌊",
       "provincia": "Interior de Mallorca",
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate wind warning. Este, sur y oeste de Gran Canaria",
       "nivel": "Naranja",
       "text": "Este, sur y oeste de Gran Canaria: Moderate wind warning. Este, sur y oeste de Gran Canaria (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Lanzarote",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Lanzarote",
-      "nivel": "Naranja",
-      "text": "Lanzarote: Aviso de vientos de nivel amarillo. Lanzarote (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Lanzarote",
-      "fenomeno": "Moderate wind warning. Lanzarote",
-      "nivel": "Naranja",
-      "text": "Lanzarote: Moderate wind warning. Lanzarote (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
