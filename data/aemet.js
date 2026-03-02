@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2026-03-02T17:28:23.724Z
+// Auto-generado por GitHub Actions - 2026-03-02T18:04:07.152Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-03-02T17:28:23.724Z",
+  "generated_at": "2026-03-02T18:04:07.152Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "💨",
+      "provincia": "Este, sur y oeste de Tenerife",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Este, sur y oeste de Tenerife",
+      "nivel": "Naranja",
+      "text": "Este, sur y oeste de Tenerife: Aviso de vientos de nivel amarillo. Este, sur y oeste de Tenerife (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Este, sur y oeste de Tenerife",
+      "fenomeno": "Moderate wind warning. Este, sur y oeste de Tenerife",
+      "nivel": "Naranja",
+      "text": "Este, sur y oeste de Tenerife: Moderate wind warning. Este, sur y oeste de Tenerife (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "💨",
       "provincia": "Lanzarote",
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate wind warning. Área metropolitana de Tenerife",
       "nivel": "Naranja",
       "text": "Área metropolitana de Tenerife: Moderate wind warning. Área metropolitana de Tenerife (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Este de La Palma",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Este de La Palma",
-      "nivel": "Naranja",
-      "text": "Costa - Este de La Palma: Aviso de costeros de nivel amarillo. Costa - Este de La Palma (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Este de La Palma",
-      "fenomeno": "Moderate coastalevent warning. Costa - Este de La Palma",
-      "nivel": "Naranja",
-      "text": "Costa - Este de La Palma: Moderate coastalevent warning. Costa - Este de La Palma (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
