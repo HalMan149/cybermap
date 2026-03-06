@@ -1,9 +1,89 @@
-// Auto-generado por GitHub Actions - 2026-03-06T18:03:36.555Z
+// Auto-generado por GitHub Actions - 2026-03-06T19:02:02.463Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-03-06T18:03:36.555Z",
+  "generated_at": "2026-03-06T19:02:02.463Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Litoral norte de Tarragona",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral norte de Tarragona",
+      "nivel": "Naranja",
+      "text": "Litoral norte de Tarragona: Aviso de lluvias de nivel amarillo. Litoral norte de Tarragona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral norte de Tarragona",
+      "fenomeno": "Moderate rain warning. Litoral norte de Tarragona",
+      "nivel": "Naranja",
+      "text": "Litoral norte de Tarragona: Moderate rain warning. Litoral norte de Tarragona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Litoral sur de Tarragona",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral sur de Tarragona",
+      "nivel": "Naranja",
+      "text": "Litoral sur de Tarragona: Aviso de lluvias de nivel amarillo. Litoral sur de Tarragona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral sur de Tarragona",
+      "fenomeno": "Moderate rain warning. Litoral sur de Tarragona",
+      "nivel": "Naranja",
+      "text": "Litoral sur de Tarragona: Moderate rain warning. Litoral sur de Tarragona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Litoral norte de Castellón",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral norte de Castellón",
+      "nivel": "Naranja",
+      "text": "Litoral norte de Castellón: Aviso de lluvias de nivel amarillo. Litoral norte de Castellón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral norte de Castellón",
+      "fenomeno": "Moderate rain warning. Litoral norte de Castellón",
+      "nivel": "Naranja",
+      "text": "Litoral norte de Castellón: Moderate rain warning. Litoral norte de Castellón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Litoral sur de Castellón",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral sur de Castellón",
+      "nivel": "Naranja",
+      "text": "Litoral sur de Castellón: Aviso de lluvias de nivel amarillo. Litoral sur de Castellón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral sur de Castellón",
+      "fenomeno": "Moderate rain warning. Litoral sur de Castellón",
+      "nivel": "Naranja",
+      "text": "Litoral sur de Castellón: Moderate rain warning. Litoral sur de Castellón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Vega del Segura",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Vega del Segura",
+      "nivel": "Naranja",
+      "text": "Vega del Segura: Aviso de lluvias de nivel amarillo. Vega del Segura (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Vega del Segura",
+      "fenomeno": "Moderate rain warning. Vega del Segura",
+      "nivel": "Naranja",
+      "text": "Vega del Segura: Moderate rain warning. Vega del Segura (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "❄️",
       "provincia": "Cordillera y Picos de Europa",
@@ -54,22 +134,6 @@ window.AEMET_AVISOS = {
     },
     {
       "icon": "❄️",
-      "provincia": "Grazalema",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Grazalema",
-      "nivel": "Naranja",
-      "text": "Grazalema: Aviso de nevadas de nivel amarillo. Grazalema (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Grazalema",
-      "fenomeno": "Moderate snow warning. Grazalema",
-      "nivel": "Naranja",
-      "text": "Grazalema: Moderate snow warning. Grazalema (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
       "provincia": "Noroeste de Murcia",
       "fenomeno": "Aviso de nevadas de nivel amarillo. Noroeste de Murcia",
       "nivel": "Naranja",
@@ -98,70 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Severe snow warning. Guadix y Baza",
       "nivel": "Rojo",
       "text": "Guadix y Baza: Severe snow warning. Guadix y Baza (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Cuenca del Genil",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Cuenca del Genil",
-      "nivel": "Naranja",
-      "text": "Cuenca del Genil: Aviso de nevadas de nivel amarillo. Cuenca del Genil (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cuenca del Genil",
-      "fenomeno": "Moderate snow warning. Cuenca del Genil",
-      "nivel": "Naranja",
-      "text": "Cuenca del Genil: Moderate snow warning. Cuenca del Genil (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Cazorla y Segura",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Cazorla y Segura",
-      "nivel": "Naranja",
-      "text": "Cazorla y Segura: Aviso de nevadas de nivel amarillo. Cazorla y Segura (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cazorla y Segura",
-      "fenomeno": "Moderate snow warning. Cazorla y Segura",
-      "nivel": "Naranja",
-      "text": "Cazorla y Segura: Moderate snow warning. Cazorla y Segura (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Valle del Almanzora y Los Vélez",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Valle del Almanzora y Los Vélez",
-      "nivel": "Naranja",
-      "text": "Valle del Almanzora y Los Vélez: Aviso de nevadas de nivel amarillo. Valle del Almanzora y Los Vélez (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Valle del Almanzora y Los Vélez",
-      "fenomeno": "Moderate snow warning. Valle del Almanzora y Los Vélez",
-      "nivel": "Naranja",
-      "text": "Valle del Almanzora y Los Vélez: Moderate snow warning. Valle del Almanzora y Los Vélez (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Guadix y Baza",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Guadix y Baza",
-      "nivel": "Naranja",
-      "text": "Guadix y Baza: Aviso de nevadas de nivel amarillo. Guadix y Baza (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Guadix y Baza",
-      "fenomeno": "Moderate snow warning. Guadix y Baza",
-      "nivel": "Naranja",
-      "text": "Guadix y Baza: Moderate snow warning. Guadix y Baza (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
