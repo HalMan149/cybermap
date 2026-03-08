@@ -1,9 +1,41 @@
-// Auto-generado por GitHub Actions - 2026-03-08T09:21:43.810Z
+// Auto-generado por GitHub Actions - 2026-03-08T09:50:24.090Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-03-08T09:21:43.810Z",
+  "generated_at": "2026-03-08T09:50:24.090Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Noroeste de Murcia",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Noroeste de Murcia",
+      "nivel": "Naranja",
+      "text": "Noroeste de Murcia: Aviso de lluvias de nivel amarillo. Noroeste de Murcia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Noroeste de Murcia",
+      "fenomeno": "Moderate rain warning. Noroeste de Murcia",
+      "nivel": "Naranja",
+      "text": "Noroeste de Murcia: Moderate rain warning. Noroeste de Murcia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Vega del Segura",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Vega del Segura",
+      "nivel": "Naranja",
+      "text": "Vega del Segura: Aviso de lluvias de nivel amarillo. Vega del Segura (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Vega del Segura",
+      "fenomeno": "Moderate rain warning. Vega del Segura",
+      "nivel": "Naranja",
+      "text": "Vega del Segura: Moderate rain warning. Vega del Segura (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Ampurdán",
@@ -118,22 +150,6 @@ window.AEMET_AVISOS = {
     },
     {
       "icon": "❄️",
-      "provincia": "Cordillera y Picos de Europa",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Cordillera y Picos de Europa",
-      "nivel": "Naranja",
-      "text": "Cordillera y Picos de Europa: Aviso de nevadas de nivel amarillo. Cordillera y Picos de Europa (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cordillera y Picos de Europa",
-      "fenomeno": "Moderate snow warning. Cordillera y Picos de Europa",
-      "nivel": "Naranja",
-      "text": "Cordillera y Picos de Europa: Moderate snow warning. Cordillera y Picos de Europa (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
       "provincia": "Cordillera Cantábrica de León",
       "fenomeno": "Aviso de nevadas de nivel amarillo. Cordillera Cantábrica de León",
       "nivel": "Naranja",
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate snow warning. Cordillera Cantábrica de León",
       "nivel": "Naranja",
       "text": "Cordillera Cantábrica de León: Moderate snow warning. Cordillera Cantábrica de León (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Este, sur y oeste de Gran Canaria",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Este, sur y oeste de Gran Canaria",
-      "nivel": "Naranja",
-      "text": "Costa - Este, sur y oeste de Gran Canaria: Aviso de costeros de nivel amarillo. Costa - Este, sur y oeste de Gran Canaria (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Este, sur y oeste de Gran Canaria",
-      "fenomeno": "Moderate coastalevent warning. Costa - Este, sur y oeste de Gran Canaria",
-      "nivel": "Naranja",
-      "text": "Costa - Este, sur y oeste de Gran Canaria: Moderate coastalevent warning. Costa - Este, sur y oeste de Gran Canaria (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
