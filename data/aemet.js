@@ -1,151 +1,23 @@
-// Auto-generado por GitHub Actions - 2026-03-08T09:50:24.090Z
+// Auto-generado por GitHub Actions - 2026-03-08T10:17:46.863Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-03-08T09:50:24.090Z",
+  "generated_at": "2026-03-08T10:17:46.863Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "🌧️",
-      "provincia": "Noroeste de Murcia",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Noroeste de Murcia",
+      "icon": "❄️",
+      "provincia": "Sierra de Madrid",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Sierra de Madrid",
       "nivel": "Naranja",
-      "text": "Noroeste de Murcia: Aviso de lluvias de nivel amarillo. Noroeste de Murcia (Naranja) (AEMET)",
+      "text": "Sierra de Madrid: Aviso de nevadas de nivel amarillo. Sierra de Madrid (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Noroeste de Murcia",
-      "fenomeno": "Moderate rain warning. Noroeste de Murcia",
+      "provincia": "Sierra de Madrid",
+      "fenomeno": "Moderate snow warning. Sierra de Madrid",
       "nivel": "Naranja",
-      "text": "Noroeste de Murcia: Moderate rain warning. Noroeste de Murcia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Vega del Segura",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Vega del Segura",
-      "nivel": "Naranja",
-      "text": "Vega del Segura: Aviso de lluvias de nivel amarillo. Vega del Segura (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Vega del Segura",
-      "fenomeno": "Moderate rain warning. Vega del Segura",
-      "nivel": "Naranja",
-      "text": "Vega del Segura: Moderate rain warning. Vega del Segura (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Ampurdán",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Ampurdán",
-      "nivel": "Naranja",
-      "text": "Ampurdán: Aviso de lluvias de nivel amarillo. Ampurdán (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ampurdán",
-      "fenomeno": "Moderate rain warning. Ampurdán",
-      "nivel": "Naranja",
-      "text": "Ampurdán: Moderate rain warning. Ampurdán (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Litoral sur de Girona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral sur de Girona",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Girona: Aviso de lluvias de nivel amarillo. Litoral sur de Girona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral sur de Girona",
-      "fenomeno": "Moderate rain warning. Litoral sur de Girona",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Girona: Moderate rain warning. Litoral sur de Girona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Ampurdán",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Ampurdán",
-      "nivel": "Naranja",
-      "text": "Ampurdán: Aviso de lluvias de nivel amarillo. Ampurdán (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ampurdán",
-      "fenomeno": "Moderate rain warning. Ampurdán",
-      "nivel": "Naranja",
-      "text": "Ampurdán: Moderate rain warning. Ampurdán (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Litoral sur de Girona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral sur de Girona",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Girona: Aviso de lluvias de nivel amarillo. Litoral sur de Girona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral sur de Girona",
-      "fenomeno": "Moderate rain warning. Litoral sur de Girona",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Girona: Moderate rain warning. Litoral sur de Girona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Litoral norte de Tarragona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral norte de Tarragona",
-      "nivel": "Naranja",
-      "text": "Litoral norte de Tarragona: Aviso de lluvias de nivel amarillo. Litoral norte de Tarragona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral norte de Tarragona",
-      "fenomeno": "Moderate rain warning. Litoral norte de Tarragona",
-      "nivel": "Naranja",
-      "text": "Litoral norte de Tarragona: Moderate rain warning. Litoral norte de Tarragona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Ampurdán",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Ampurdán",
-      "nivel": "Naranja",
-      "text": "Ampurdán: Aviso de lluvias de nivel amarillo. Ampurdán (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ampurdán",
-      "fenomeno": "Moderate rain warning. Ampurdán",
-      "nivel": "Naranja",
-      "text": "Ampurdán: Moderate rain warning. Ampurdán (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Litoral sur de Girona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral sur de Girona",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Girona: Aviso de lluvias de nivel amarillo. Litoral sur de Girona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral sur de Girona",
-      "fenomeno": "Moderate rain warning. Litoral sur de Girona",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Girona: Moderate rain warning. Litoral sur de Girona (Naranja) (AEMET)",
+      "text": "Sierra de Madrid: Moderate snow warning. Sierra de Madrid (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -162,6 +34,134 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate snow warning. Cordillera Cantábrica de León",
       "nivel": "Naranja",
       "text": "Cordillera Cantábrica de León: Moderate snow warning. Cordillera Cantábrica de León (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Sanabria",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Sanabria",
+      "nivel": "Naranja",
+      "text": "Sanabria: Aviso de nevadas de nivel amarillo. Sanabria (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sanabria",
+      "fenomeno": "Moderate snow warning. Sanabria",
+      "nivel": "Naranja",
+      "text": "Sanabria: Moderate snow warning. Sanabria (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Sistema Central de Ávila",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Sistema Central de Ávila",
+      "nivel": "Naranja",
+      "text": "Sistema Central de Ávila: Aviso de nevadas de nivel amarillo. Sistema Central de Ávila (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sistema Central de Ávila",
+      "fenomeno": "Moderate snow warning. Sistema Central de Ávila",
+      "nivel": "Naranja",
+      "text": "Sistema Central de Ávila: Moderate snow warning. Sistema Central de Ávila (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Cordillera Cantábrica de Palencia",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Cordillera Cantábrica de Palencia",
+      "nivel": "Naranja",
+      "text": "Cordillera Cantábrica de Palencia: Aviso de nevadas de nivel amarillo. Cordillera Cantábrica de Palencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cordillera Cantábrica de Palencia",
+      "fenomeno": "Moderate snow warning. Cordillera Cantábrica de Palencia",
+      "nivel": "Naranja",
+      "text": "Cordillera Cantábrica de Palencia: Moderate snow warning. Cordillera Cantábrica de Palencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Sistema Central de Salamanca",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Sistema Central de Salamanca",
+      "nivel": "Naranja",
+      "text": "Sistema Central de Salamanca: Aviso de nevadas de nivel amarillo. Sistema Central de Salamanca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sistema Central de Salamanca",
+      "fenomeno": "Moderate snow warning. Sistema Central de Salamanca",
+      "nivel": "Naranja",
+      "text": "Sistema Central de Salamanca: Moderate snow warning. Sistema Central de Salamanca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Sistema Central de Segovia",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Sistema Central de Segovia",
+      "nivel": "Naranja",
+      "text": "Sistema Central de Segovia: Aviso de nevadas de nivel amarillo. Sistema Central de Segovia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sistema Central de Segovia",
+      "fenomeno": "Moderate snow warning. Sistema Central de Segovia",
+      "nivel": "Naranja",
+      "text": "Sistema Central de Segovia: Moderate snow warning. Sistema Central de Segovia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Cordillera y Picos de Europa",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Cordillera y Picos de Europa",
+      "nivel": "Naranja",
+      "text": "Cordillera y Picos de Europa: Aviso de nevadas de nivel amarillo. Cordillera y Picos de Europa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cordillera y Picos de Europa",
+      "fenomeno": "Moderate snow warning. Cordillera y Picos de Europa",
+      "nivel": "Naranja",
+      "text": "Cordillera y Picos de Europa: Moderate snow warning. Cordillera y Picos de Europa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Oeste de A Coruña",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Oeste de A Coruña",
+      "nivel": "Naranja",
+      "text": "Costa - Oeste de A Coruña: Aviso de costeros de nivel amarillo. Costa - Oeste de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Oeste de A Coruña",
+      "fenomeno": "Moderate coastalevent warning. Costa - Oeste de A Coruña",
+      "nivel": "Naranja",
+      "text": "Costa - Oeste de A Coruña: Moderate coastalevent warning. Costa - Oeste de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Suroeste de A Coruña",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Suroeste de A Coruña",
+      "nivel": "Naranja",
+      "text": "Costa - Suroeste de A Coruña: Aviso de costeros de nivel amarillo. Costa - Suroeste de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Suroeste de A Coruña",
+      "fenomeno": "Moderate coastalevent warning. Costa - Suroeste de A Coruña",
+      "nivel": "Naranja",
+      "text": "Costa - Suroeste de A Coruña: Moderate coastalevent warning. Costa - Suroeste de A Coruña (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
