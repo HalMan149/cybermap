@@ -1,8 +1,40 @@
 {
-  "generated_at": "2026-03-14T22:49:54.304Z",
+  "generated_at": "2026-03-14T23:48:20.500Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "💨",
+      "provincia": "Litoral norte de Alicante",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Litoral norte de Alicante",
+      "nivel": "Naranja",
+      "text": "Litoral norte de Alicante: Aviso de vientos de nivel amarillo. Litoral norte de Alicante (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral norte de Alicante",
+      "fenomeno": "Moderate wind warning. Litoral norte de Alicante",
+      "nivel": "Naranja",
+      "text": "Litoral norte de Alicante: Moderate wind warning. Litoral norte de Alicante (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Interior de Alicante",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Interior de Alicante",
+      "nivel": "Naranja",
+      "text": "Interior de Alicante: Aviso de vientos de nivel amarillo. Interior de Alicante (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior de Alicante",
+      "fenomeno": "Moderate wind warning. Interior de Alicante",
+      "nivel": "Naranja",
+      "text": "Interior de Alicante: Moderate wind warning. Interior de Alicante (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "💨",
       "provincia": "Prepirineo de Barcelona",
@@ -129,38 +161,6 @@
       "fenomeno": "Moderate snow warning. Ibérica riojana",
       "nivel": "Naranja",
       "text": "Ibérica riojana: Moderate snow warning. Ibérica riojana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Cordillera Cantábrica de León",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Cordillera Cantábrica de León",
-      "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de León: Aviso de nevadas de nivel amarillo. Cordillera Cantábrica de León (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cordillera Cantábrica de León",
-      "fenomeno": "Moderate snow warning. Cordillera Cantábrica de León",
-      "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de León: Moderate snow warning. Cordillera Cantábrica de León (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Ibérica de Soria",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Ibérica de Soria",
-      "nivel": "Naranja",
-      "text": "Ibérica de Soria: Aviso de nevadas de nivel amarillo. Ibérica de Soria (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ibérica de Soria",
-      "fenomeno": "Moderate snow warning. Ibérica de Soria",
-      "nivel": "Naranja",
-      "text": "Ibérica de Soria: Moderate snow warning. Ibérica de Soria (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
