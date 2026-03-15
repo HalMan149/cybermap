@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2026-03-15T08:03:25.885Z
+// Auto-generado por GitHub Actions - 2026-03-15T08:53:48.499Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-03-15T08:03:25.885Z",
+  "generated_at": "2026-03-15T08:53:48.499Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral norte de Castellón",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral norte de Castellón",
+      "nivel": "Naranja",
+      "text": "Costa - Litoral norte de Castellón: Aviso de costeros de nivel amarillo. Costa - Litoral norte de Castellón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral norte de Castellón",
+      "fenomeno": "Moderate coastalevent warning. Costa - Litoral norte de Castellón",
+      "nivel": "Naranja",
+      "text": "Costa - Litoral norte de Castellón: Moderate coastalevent warning. Costa - Litoral norte de Castellón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌊",
       "provincia": "Costa - Menorca",
@@ -18,38 +34,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Extreme coastalevent warning. Costa - Menorca",
       "nivel": "Rojo",
       "text": "Costa - Menorca: Extreme coastalevent warning. Costa - Menorca (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Sierra Tramontana",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Sierra Tramontana",
-      "nivel": "Rojo",
-      "text": "Costa - Sierra Tramontana: Aviso de costeros de nivel naranja. Costa - Sierra Tramontana (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Sierra Tramontana",
-      "fenomeno": "Severe coastalevent warning. Costa - Sierra Tramontana",
-      "nivel": "Rojo",
-      "text": "Costa - Sierra Tramontana: Severe coastalevent warning. Costa - Sierra Tramontana (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Norte y nordeste de Mallorca",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Norte y nordeste de Mallorca",
-      "nivel": "Rojo",
-      "text": "Costa - Norte y nordeste de Mallorca: Aviso de costeros de nivel naranja. Costa - Norte y nordeste de Mallorca (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Norte y nordeste de Mallorca",
-      "fenomeno": "Severe coastalevent warning. Costa - Norte y nordeste de Mallorca",
-      "nivel": "Rojo",
-      "text": "Costa - Norte y nordeste de Mallorca: Severe coastalevent warning. Costa - Norte y nordeste de Mallorca (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -101,22 +85,6 @@ window.AEMET_AVISOS = {
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Costa - Menorca",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Menorca",
-      "nivel": "Rojo",
-      "text": "Costa - Menorca: Aviso de costeros de nivel naranja. Costa - Menorca (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Menorca",
-      "fenomeno": "Severe coastalevent warning. Costa - Menorca",
-      "nivel": "Rojo",
-      "text": "Costa - Menorca: Severe coastalevent warning. Costa - Menorca (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
       "icon": "💨",
       "provincia": "Interior de Mallorca",
       "fenomeno": "Aviso de vientos de nivel amarillo. Interior de Mallorca",
@@ -162,6 +130,38 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate wind warning. Sur de Huesca",
       "nivel": "Naranja",
       "text": "Sur de Huesca: Moderate wind warning. Sur de Huesca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Depresión central de Tarragona",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Depresión central de Tarragona",
+      "nivel": "Naranja",
+      "text": "Depresión central de Tarragona: Aviso de vientos de nivel amarillo. Depresión central de Tarragona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Depresión central de Tarragona",
+      "fenomeno": "Moderate wind warning. Depresión central de Tarragona",
+      "nivel": "Naranja",
+      "text": "Depresión central de Tarragona: Moderate wind warning. Depresión central de Tarragona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral occidental asturiano",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral occidental asturiano",
+      "nivel": "Naranja",
+      "text": "Costa - Litoral occidental asturiano: Aviso de costeros de nivel amarillo. Costa - Litoral occidental asturiano (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral occidental asturiano",
+      "fenomeno": "Moderate coastalevent warning. Costa - Litoral occidental asturiano",
+      "nivel": "Naranja",
+      "text": "Costa - Litoral occidental asturiano: Moderate coastalevent warning. Costa - Litoral occidental asturiano (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
