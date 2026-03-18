@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2026-03-18T09:13:21.223Z
+// Auto-generado por GitHub Actions - 2026-03-18T10:12:12.610Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-03-18T09:13:21.223Z",
+  "generated_at": "2026-03-18T10:12:12.610Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "💨",
+      "provincia": "Cumbres de Gran Canaria",
+      "fenomeno": "Aviso de vientos de nivel naranja. Cumbres de Gran Canaria",
+      "nivel": "Rojo",
+      "text": "Cumbres de Gran Canaria: Aviso de vientos de nivel naranja. Cumbres de Gran Canaria (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cumbres de Gran Canaria",
+      "fenomeno": "Severe wind warning. Cumbres de Gran Canaria",
+      "nivel": "Rojo",
+      "text": "Cumbres de Gran Canaria: Severe wind warning. Cumbres de Gran Canaria (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "💨",
       "provincia": "Cumbres de La Palma",
@@ -38,22 +54,6 @@ window.AEMET_AVISOS = {
     },
     {
       "icon": "💨",
-      "provincia": "Oeste de La Palma",
-      "fenomeno": "Aviso de vientos de nivel naranja. Oeste de La Palma",
-      "nivel": "Rojo",
-      "text": "Oeste de La Palma: Aviso de vientos de nivel naranja. Oeste de La Palma (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Oeste de La Palma",
-      "fenomeno": "Severe wind warning. Oeste de La Palma",
-      "nivel": "Rojo",
-      "text": "Oeste de La Palma: Severe wind warning. Oeste de La Palma (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
       "provincia": "Norte de Tenerife",
       "fenomeno": "Aviso de vientos de nivel naranja. Norte de Tenerife",
       "nivel": "Rojo",
@@ -70,98 +70,98 @@ window.AEMET_AVISOS = {
     },
     {
       "icon": "💨",
-      "provincia": "Cumbres de Gran Canaria",
-      "fenomeno": "Aviso de vientos de nivel naranja. Cumbres de Gran Canaria",
-      "nivel": "Rojo",
-      "text": "Cumbres de Gran Canaria: Aviso de vientos de nivel naranja. Cumbres de Gran Canaria (Rojo) (AEMET)",
+      "provincia": "Poniente y Almería Capital",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Poniente y Almería Capital",
+      "nivel": "Naranja",
+      "text": "Poniente y Almería Capital: Aviso de vientos de nivel amarillo. Poniente y Almería Capital (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Cumbres de Gran Canaria",
-      "fenomeno": "Severe wind warning. Cumbres de Gran Canaria",
-      "nivel": "Rojo",
-      "text": "Cumbres de Gran Canaria: Severe wind warning. Cumbres de Gran Canaria (Rojo) (AEMET)",
+      "provincia": "Poniente y Almería Capital",
+      "fenomeno": "Moderate wind warning. Poniente y Almería Capital",
+      "nivel": "Naranja",
+      "text": "Poniente y Almería Capital: Moderate wind warning. Poniente y Almería Capital (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "💨",
-      "provincia": "La Gomera",
-      "fenomeno": "Aviso de vientos de nivel amarillo. La Gomera",
+      "icon": "🌊",
+      "provincia": "Costa - Poniente y Almería Capital",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Poniente y Almería Capital",
       "nivel": "Naranja",
-      "text": "La Gomera: Aviso de vientos de nivel amarillo. La Gomera (Naranja) (AEMET)",
+      "text": "Costa - Poniente y Almería Capital: Aviso de costeros de nivel amarillo. Costa - Poniente y Almería Capital (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⚠️",
-      "provincia": "La Gomera",
-      "fenomeno": "Moderate wind warning. La Gomera",
+      "icon": "🌊",
+      "provincia": "Costa - Poniente y Almería Capital",
+      "fenomeno": "Moderate coastalevent warning. Costa - Poniente y Almería Capital",
       "nivel": "Naranja",
-      "text": "La Gomera: Moderate wind warning. La Gomera (Naranja) (AEMET)",
+      "text": "Costa - Poniente y Almería Capital: Moderate coastalevent warning. Costa - Poniente y Almería Capital (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "💨",
-      "provincia": "El Hierro",
-      "fenomeno": "Aviso de vientos de nivel amarillo. El Hierro",
+      "icon": "🌊",
+      "provincia": "Costa - Levante almeriense",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Levante almeriense",
       "nivel": "Naranja",
-      "text": "El Hierro: Aviso de vientos de nivel amarillo. El Hierro (Naranja) (AEMET)",
+      "text": "Costa - Levante almeriense: Aviso de costeros de nivel amarillo. Costa - Levante almeriense (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⚠️",
-      "provincia": "El Hierro",
-      "fenomeno": "Moderate wind warning. El Hierro",
+      "icon": "🌊",
+      "provincia": "Costa - Levante almeriense",
+      "fenomeno": "Moderate coastalevent warning. Costa - Levante almeriense",
       "nivel": "Naranja",
-      "text": "El Hierro: Moderate wind warning. El Hierro (Naranja) (AEMET)",
+      "text": "Costa - Levante almeriense: Moderate coastalevent warning. Costa - Levante almeriense (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "💨",
-      "provincia": "Área metropolitana de Tenerife",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Área metropolitana de Tenerife",
+      "icon": "🌊",
+      "provincia": "Costa - Costa granadina",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Costa granadina",
       "nivel": "Naranja",
-      "text": "Área metropolitana de Tenerife: Aviso de vientos de nivel amarillo. Área metropolitana de Tenerife (Naranja) (AEMET)",
+      "text": "Costa - Costa granadina: Aviso de costeros de nivel amarillo. Costa - Costa granadina (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⚠️",
-      "provincia": "Área metropolitana de Tenerife",
-      "fenomeno": "Moderate wind warning. Área metropolitana de Tenerife",
+      "icon": "🌊",
+      "provincia": "Costa - Costa granadina",
+      "fenomeno": "Moderate coastalevent warning. Costa - Costa granadina",
       "nivel": "Naranja",
-      "text": "Área metropolitana de Tenerife: Moderate wind warning. Área metropolitana de Tenerife (Naranja) (AEMET)",
+      "text": "Costa - Costa granadina: Moderate coastalevent warning. Costa - Costa granadina (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "💨",
-      "provincia": "Este, sur y oeste de Tenerife",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Este, sur y oeste de Tenerife",
+      "icon": "🌊",
+      "provincia": "Costa - Sol y Guadalhorce",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Sol y Guadalhorce",
       "nivel": "Naranja",
-      "text": "Este, sur y oeste de Tenerife: Aviso de vientos de nivel amarillo. Este, sur y oeste de Tenerife (Naranja) (AEMET)",
+      "text": "Costa - Sol y Guadalhorce: Aviso de costeros de nivel amarillo. Costa - Sol y Guadalhorce (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⚠️",
-      "provincia": "Este, sur y oeste de Tenerife",
-      "fenomeno": "Moderate wind warning. Este, sur y oeste de Tenerife",
+      "icon": "🌊",
+      "provincia": "Costa - Sol y Guadalhorce",
+      "fenomeno": "Moderate coastalevent warning. Costa - Sol y Guadalhorce",
       "nivel": "Naranja",
-      "text": "Este, sur y oeste de Tenerife: Moderate wind warning. Este, sur y oeste de Tenerife (Naranja) (AEMET)",
+      "text": "Costa - Sol y Guadalhorce: Moderate coastalevent warning. Costa - Sol y Guadalhorce (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Cumbres de Gran Canaria",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Cumbres de Gran Canaria",
+      "icon": "🌊",
+      "provincia": "Costa - Axarquía",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Axarquía",
       "nivel": "Naranja",
-      "text": "Cumbres de Gran Canaria: Aviso de lluvias de nivel amarillo. Cumbres de Gran Canaria (Naranja) (AEMET)",
+      "text": "Costa - Axarquía: Aviso de costeros de nivel amarillo. Costa - Axarquía (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⚠️",
-      "provincia": "Cumbres de Gran Canaria",
-      "fenomeno": "Moderate rain warning. Cumbres de Gran Canaria",
+      "icon": "🌊",
+      "provincia": "Costa - Axarquía",
+      "fenomeno": "Moderate coastalevent warning. Costa - Axarquía",
       "nivel": "Naranja",
-      "text": "Cumbres de Gran Canaria: Moderate rain warning. Cumbres de Gran Canaria (Naranja) (AEMET)",
+      "text": "Costa - Axarquía: Moderate coastalevent warning. Costa - Axarquía (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
