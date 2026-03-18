@@ -1,39 +1,71 @@
-// Auto-generado por GitHub Actions - 2026-03-18T16:52:19.495Z
+// Auto-generado por GitHub Actions - 2026-03-18T17:54:25.854Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-03-18T16:52:19.495Z",
+  "generated_at": "2026-03-18T17:54:25.854Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "💨",
-      "provincia": "Vertiente cantábrica de Navarra",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Vertiente cantábrica de Navarra",
+      "provincia": "Llanada alavesa",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Llanada alavesa",
       "nivel": "Naranja",
-      "text": "Vertiente cantábrica de Navarra: Aviso de vientos de nivel amarillo. Vertiente cantábrica de Navarra (Naranja) (AEMET)",
+      "text": "Llanada alavesa: Aviso de vientos de nivel amarillo. Llanada alavesa (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Vertiente cantábrica de Navarra",
-      "fenomeno": "Moderate wind warning. Vertiente cantábrica de Navarra",
+      "provincia": "Llanada alavesa",
+      "fenomeno": "Moderate wind warning. Llanada alavesa",
       "nivel": "Naranja",
-      "text": "Vertiente cantábrica de Navarra: Moderate wind warning. Vertiente cantábrica de Navarra (Naranja) (AEMET)",
+      "text": "Llanada alavesa: Moderate wind warning. Llanada alavesa (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Costa - Oeste de La Palma",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Oeste de La Palma",
+      "provincia": "Costa - Poniente y Almería Capital",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Poniente y Almería Capital",
       "nivel": "Rojo",
-      "text": "Costa - Oeste de La Palma: Aviso de costeros de nivel naranja. Costa - Oeste de La Palma (Rojo) (AEMET)",
+      "text": "Costa - Poniente y Almería Capital: Aviso de costeros de nivel naranja. Costa - Poniente y Almería Capital (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Costa - Oeste de La Palma",
-      "fenomeno": "Severe coastalevent warning. Costa - Oeste de La Palma",
+      "provincia": "Costa - Poniente y Almería Capital",
+      "fenomeno": "Severe coastalevent warning. Costa - Poniente y Almería Capital",
       "nivel": "Rojo",
-      "text": "Costa - Oeste de La Palma: Severe coastalevent warning. Costa - Oeste de La Palma (Rojo) (AEMET)",
+      "text": "Costa - Poniente y Almería Capital: Severe coastalevent warning. Costa - Poniente y Almería Capital (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Costa granadina",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Costa granadina",
+      "nivel": "Rojo",
+      "text": "Costa - Costa granadina: Aviso de costeros de nivel naranja. Costa - Costa granadina (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Costa granadina",
+      "fenomeno": "Severe coastalevent warning. Costa - Costa granadina",
+      "nivel": "Rojo",
+      "text": "Costa - Costa granadina: Severe coastalevent warning. Costa - Costa granadina (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Cumbres de Gran Canaria",
+      "fenomeno": "Aviso de vientos de nivel naranja. Cumbres de Gran Canaria",
+      "nivel": "Rojo",
+      "text": "Cumbres de Gran Canaria: Aviso de vientos de nivel naranja. Cumbres de Gran Canaria (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cumbres de Gran Canaria",
+      "fenomeno": "Severe wind warning. Cumbres de Gran Canaria",
+      "nivel": "Rojo",
+      "text": "Cumbres de Gran Canaria: Severe wind warning. Cumbres de Gran Canaria (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -70,22 +102,6 @@ window.AEMET_AVISOS = {
     },
     {
       "icon": "💨",
-      "provincia": "Oeste de La Palma",
-      "fenomeno": "Aviso de vientos de nivel naranja. Oeste de La Palma",
-      "nivel": "Rojo",
-      "text": "Oeste de La Palma: Aviso de vientos de nivel naranja. Oeste de La Palma (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Oeste de La Palma",
-      "fenomeno": "Severe wind warning. Oeste de La Palma",
-      "nivel": "Rojo",
-      "text": "Oeste de La Palma: Severe wind warning. Oeste de La Palma (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
       "provincia": "Norte de Tenerife",
       "fenomeno": "Aviso de vientos de nivel naranja. Norte de Tenerife",
       "nivel": "Rojo",
@@ -101,19 +117,19 @@ window.AEMET_AVISOS = {
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "💨",
-      "provincia": "Cumbres de Gran Canaria",
-      "fenomeno": "Aviso de vientos de nivel naranja. Cumbres de Gran Canaria",
+      "icon": "🌊",
+      "provincia": "Costa - Oeste de La Palma",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Oeste de La Palma",
       "nivel": "Rojo",
-      "text": "Cumbres de Gran Canaria: Aviso de vientos de nivel naranja. Cumbres de Gran Canaria (Rojo) (AEMET)",
+      "text": "Costa - Oeste de La Palma: Aviso de costeros de nivel naranja. Costa - Oeste de La Palma (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⚠️",
-      "provincia": "Cumbres de Gran Canaria",
-      "fenomeno": "Severe wind warning. Cumbres de Gran Canaria",
+      "icon": "🌊",
+      "provincia": "Costa - Oeste de La Palma",
+      "fenomeno": "Severe coastalevent warning. Costa - Oeste de La Palma",
       "nivel": "Rojo",
-      "text": "Cumbres de Gran Canaria: Severe wind warning. Cumbres de Gran Canaria (Rojo) (AEMET)",
+      "text": "Costa - Oeste de La Palma: Severe coastalevent warning. Costa - Oeste de La Palma (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -133,35 +149,19 @@ window.AEMET_AVISOS = {
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "💨",
-      "provincia": "La Gomera",
-      "fenomeno": "Aviso de vientos de nivel amarillo. La Gomera",
-      "nivel": "Naranja",
-      "text": "La Gomera: Aviso de vientos de nivel amarillo. La Gomera (Naranja) (AEMET)",
+      "icon": "🌧️",
+      "provincia": "Cumbres de La Palma",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Cumbres de La Palma",
+      "nivel": "Rojo",
+      "text": "Cumbres de La Palma: Aviso de lluvias de nivel naranja. Cumbres de La Palma (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "La Gomera",
-      "fenomeno": "Moderate wind warning. La Gomera",
-      "nivel": "Naranja",
-      "text": "La Gomera: Moderate wind warning. La Gomera (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Área metropolitana de Tenerife",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Área metropolitana de Tenerife",
-      "nivel": "Naranja",
-      "text": "Área metropolitana de Tenerife: Aviso de vientos de nivel amarillo. Área metropolitana de Tenerife (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Área metropolitana de Tenerife",
-      "fenomeno": "Moderate wind warning. Área metropolitana de Tenerife",
-      "nivel": "Naranja",
-      "text": "Área metropolitana de Tenerife: Moderate wind warning. Área metropolitana de Tenerife (Naranja) (AEMET)",
+      "provincia": "Cumbres de La Palma",
+      "fenomeno": "Severe rain warning. Cumbres de La Palma",
+      "nivel": "Rojo",
+      "text": "Cumbres de La Palma: Severe rain warning. Cumbres de La Palma (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
