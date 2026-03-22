@@ -1,6 +1,6 @@
-// Auto-generado por GitHub Actions - 2026-03-22T07:07:17.598Z
+// Auto-generado por GitHub Actions - 2026-03-22T07:48:45.370Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-03-22T07:07:17.598Z",
+  "generated_at": "2026-03-22T07:48:45.370Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
@@ -134,22 +134,6 @@ window.AEMET_AVISOS = {
     },
     {
       "icon": "⛈️",
-      "provincia": "Norte de Tenerife",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Norte de Tenerife",
-      "nivel": "Naranja",
-      "text": "Norte de Tenerife: Aviso de tormentas de nivel amarillo. Norte de Tenerife (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Norte de Tenerife",
-      "fenomeno": "Moderate thunderstorm warning. Norte de Tenerife",
-      "nivel": "Naranja",
-      "text": "Norte de Tenerife: Moderate thunderstorm warning. Norte de Tenerife (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
       "provincia": "Área metropolitana de Tenerife",
       "fenomeno": "Aviso de tormentas de nivel amarillo. Área metropolitana de Tenerife",
       "nivel": "Naranja",
@@ -162,6 +146,22 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate thunderstorm warning. Área metropolitana de Tenerife",
       "nivel": "Naranja",
       "text": "Área metropolitana de Tenerife: Moderate thunderstorm warning. Área metropolitana de Tenerife (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Este, sur y oeste de Tenerife",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Este, sur y oeste de Tenerife",
+      "nivel": "Naranja",
+      "text": "Este, sur y oeste de Tenerife: Aviso de tormentas de nivel amarillo. Este, sur y oeste de Tenerife (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Este, sur y oeste de Tenerife",
+      "fenomeno": "Moderate thunderstorm warning. Este, sur y oeste de Tenerife",
+      "nivel": "Naranja",
+      "text": "Este, sur y oeste de Tenerife: Moderate thunderstorm warning. Este, sur y oeste de Tenerife (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
