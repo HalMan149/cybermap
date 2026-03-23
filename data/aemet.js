@@ -1,6 +1,6 @@
-// Auto-generado por GitHub Actions - 2026-03-23T01:25:35.348Z
+// Auto-generado por GitHub Actions - 2026-03-23T04:04:26.896Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-03-23T01:25:35.348Z",
+  "generated_at": "2026-03-23T04:04:26.896Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
@@ -22,34 +22,18 @@ window.AEMET_AVISOS = {
     },
     {
       "icon": "🌧️",
-      "provincia": "El Hierro",
-      "fenomeno": "Aviso de lluvias de nivel naranja. El Hierro",
-      "nivel": "Rojo",
-      "text": "El Hierro: Aviso de lluvias de nivel naranja. El Hierro (Rojo) (AEMET)",
+      "provincia": "Norte de Gran Canaria",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Norte de Gran Canaria",
+      "nivel": "Naranja",
+      "text": "Norte de Gran Canaria: Aviso de lluvias de nivel amarillo. Norte de Gran Canaria (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "El Hierro",
-      "fenomeno": "Severe rain warning. El Hierro",
-      "nivel": "Rojo",
-      "text": "El Hierro: Severe rain warning. El Hierro (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Este, sur y oeste de Tenerife",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Este, sur y oeste de Tenerife",
-      "nivel": "Rojo",
-      "text": "Este, sur y oeste de Tenerife: Aviso de lluvias de nivel naranja. Este, sur y oeste de Tenerife (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Este, sur y oeste de Tenerife",
-      "fenomeno": "Severe rain warning. Este, sur y oeste de Tenerife",
-      "nivel": "Rojo",
-      "text": "Este, sur y oeste de Tenerife: Severe rain warning. Este, sur y oeste de Tenerife (Rojo) (AEMET)",
+      "provincia": "Norte de Gran Canaria",
+      "fenomeno": "Moderate rain warning. Norte de Gran Canaria",
+      "nivel": "Naranja",
+      "text": "Norte de Gran Canaria: Moderate rain warning. Norte de Gran Canaria (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -102,6 +86,22 @@ window.AEMET_AVISOS = {
     },
     {
       "icon": "🌧️",
+      "provincia": "Fuerteventura",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Fuerteventura",
+      "nivel": "Naranja",
+      "text": "Fuerteventura: Aviso de lluvias de nivel amarillo. Fuerteventura (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Fuerteventura",
+      "fenomeno": "Moderate rain warning. Fuerteventura",
+      "nivel": "Naranja",
+      "text": "Fuerteventura: Moderate rain warning. Fuerteventura (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
       "provincia": "Cumbres de La Palma",
       "fenomeno": "Aviso de lluvias de nivel amarillo. Cumbres de La Palma",
       "nivel": "Naranja",
@@ -150,18 +150,18 @@ window.AEMET_AVISOS = {
     },
     {
       "icon": "🌧️",
-      "provincia": "La Gomera",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. La Gomera",
+      "provincia": "El Hierro",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. El Hierro",
       "nivel": "Naranja",
-      "text": "La Gomera: Aviso de lluvias de nivel amarillo. La Gomera (Naranja) (AEMET)",
+      "text": "El Hierro: Aviso de lluvias de nivel amarillo. El Hierro (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "La Gomera",
-      "fenomeno": "Moderate rain warning. La Gomera",
+      "provincia": "El Hierro",
+      "fenomeno": "Moderate rain warning. El Hierro",
       "nivel": "Naranja",
-      "text": "La Gomera: Moderate rain warning. La Gomera (Naranja) (AEMET)",
+      "text": "El Hierro: Moderate rain warning. El Hierro (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
