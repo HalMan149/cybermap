@@ -1,86 +1,102 @@
 {
-  "generated_at": "2026-03-24T20:01:01.536Z",
+  "generated_at": "2026-03-24T20:56:41.521Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "💨",
-      "provincia": "Litoral sur de Tarragona",
-      "fenomeno": "Aviso de vientos de nivel naranja. Litoral sur de Tarragona",
-      "nivel": "Rojo",
-      "text": "Litoral sur de Tarragona: Aviso de vientos de nivel naranja. Litoral sur de Tarragona (Rojo) (AEMET)",
+      "icon": "🌧️",
+      "provincia": "Norte de Gran Canaria",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Norte de Gran Canaria",
+      "nivel": "Naranja",
+      "text": "Norte de Gran Canaria: Aviso de lluvias de nivel amarillo. Norte de Gran Canaria (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Litoral sur de Tarragona",
-      "fenomeno": "Severe wind warning. Litoral sur de Tarragona",
-      "nivel": "Rojo",
-      "text": "Litoral sur de Tarragona: Severe wind warning. Litoral sur de Tarragona (Rojo) (AEMET)",
+      "provincia": "Norte de Gran Canaria",
+      "fenomeno": "Moderate rain warning. Norte de Gran Canaria",
+      "nivel": "Naranja",
+      "text": "Norte de Gran Canaria: Moderate rain warning. Norte de Gran Canaria (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "💨",
-      "provincia": "Prelitoral sur de Tarragona",
-      "fenomeno": "Aviso de vientos de nivel naranja. Prelitoral sur de Tarragona",
-      "nivel": "Rojo",
-      "text": "Prelitoral sur de Tarragona: Aviso de vientos de nivel naranja. Prelitoral sur de Tarragona (Rojo) (AEMET)",
+      "icon": "🌧️",
+      "provincia": "Cumbres de Gran Canaria",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Cumbres de Gran Canaria",
+      "nivel": "Naranja",
+      "text": "Cumbres de Gran Canaria: Aviso de lluvias de nivel amarillo. Cumbres de Gran Canaria (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Prelitoral sur de Tarragona",
-      "fenomeno": "Severe wind warning. Prelitoral sur de Tarragona",
-      "nivel": "Rojo",
-      "text": "Prelitoral sur de Tarragona: Severe wind warning. Prelitoral sur de Tarragona (Rojo) (AEMET)",
+      "provincia": "Cumbres de Gran Canaria",
+      "fenomeno": "Moderate rain warning. Cumbres de Gran Canaria",
+      "nivel": "Naranja",
+      "text": "Cumbres de Gran Canaria: Moderate rain warning. Cumbres de Gran Canaria (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "💨",
-      "provincia": "Sur de Huesca",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Sur de Huesca",
+      "icon": "🌧️",
+      "provincia": "Este, sur y oeste de Gran Canaria",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Este, sur y oeste de Gran Canaria",
       "nivel": "Naranja",
-      "text": "Sur de Huesca: Aviso de vientos de nivel amarillo. Sur de Huesca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sur de Huesca",
-      "fenomeno": "Moderate wind warning. Sur de Huesca",
-      "nivel": "Naranja",
-      "text": "Sur de Huesca: Moderate wind warning. Sur de Huesca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Cinco Villas de Zaragoza",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Cinco Villas de Zaragoza",
-      "nivel": "Naranja",
-      "text": "Cinco Villas de Zaragoza: Aviso de vientos de nivel amarillo. Cinco Villas de Zaragoza (Naranja) (AEMET)",
+      "text": "Este, sur y oeste de Gran Canaria: Aviso de lluvias de nivel amarillo. Este, sur y oeste de Gran Canaria (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Cinco Villas de Zaragoza",
-      "fenomeno": "Moderate wind warning. Cinco Villas de Zaragoza",
+      "provincia": "Este, sur y oeste de Gran Canaria",
+      "fenomeno": "Moderate rain warning. Este, sur y oeste de Gran Canaria",
       "nivel": "Naranja",
-      "text": "Cinco Villas de Zaragoza: Moderate wind warning. Cinco Villas de Zaragoza (Naranja) (AEMET)",
+      "text": "Este, sur y oeste de Gran Canaria: Moderate rain warning. Este, sur y oeste de Gran Canaria (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "💨",
-      "provincia": "Ribera del Ebro de Zaragoza",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Ribera del Ebro de Zaragoza",
+      "icon": "🌧️",
+      "provincia": "La Gomera",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. La Gomera",
       "nivel": "Naranja",
-      "text": "Ribera del Ebro de Zaragoza: Aviso de vientos de nivel amarillo. Ribera del Ebro de Zaragoza (Naranja) (AEMET)",
+      "text": "La Gomera: Aviso de lluvias de nivel amarillo. La Gomera (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Ribera del Ebro de Zaragoza",
-      "fenomeno": "Moderate wind warning. Ribera del Ebro de Zaragoza",
+      "provincia": "La Gomera",
+      "fenomeno": "Moderate rain warning. La Gomera",
       "nivel": "Naranja",
-      "text": "Ribera del Ebro de Zaragoza: Moderate wind warning. Ribera del Ebro de Zaragoza (Naranja) (AEMET)",
+      "text": "La Gomera: Moderate rain warning. La Gomera (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "El Hierro",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. El Hierro",
+      "nivel": "Naranja",
+      "text": "El Hierro: Aviso de lluvias de nivel amarillo. El Hierro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "El Hierro",
+      "fenomeno": "Moderate rain warning. El Hierro",
+      "nivel": "Naranja",
+      "text": "El Hierro: Moderate rain warning. El Hierro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Área metropolitana de Tenerife",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Área metropolitana de Tenerife",
+      "nivel": "Naranja",
+      "text": "Área metropolitana de Tenerife: Aviso de lluvias de nivel amarillo. Área metropolitana de Tenerife (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Área metropolitana de Tenerife",
+      "fenomeno": "Moderate rain warning. Área metropolitana de Tenerife",
+      "nivel": "Naranja",
+      "text": "Área metropolitana de Tenerife: Moderate rain warning. Área metropolitana de Tenerife (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -116,51 +132,35 @@
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Cumbres de La Palma",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Cumbres de La Palma",
+      "icon": "💨",
+      "provincia": "Litoral sur de Tarragona",
+      "fenomeno": "Aviso de vientos de nivel naranja. Litoral sur de Tarragona",
       "nivel": "Rojo",
-      "text": "Cumbres de La Palma: Aviso de lluvias de nivel naranja. Cumbres de La Palma (Rojo) (AEMET)",
+      "text": "Litoral sur de Tarragona: Aviso de vientos de nivel naranja. Litoral sur de Tarragona (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Cumbres de La Palma",
-      "fenomeno": "Severe rain warning. Cumbres de La Palma",
+      "provincia": "Litoral sur de Tarragona",
+      "fenomeno": "Severe wind warning. Litoral sur de Tarragona",
       "nivel": "Rojo",
-      "text": "Cumbres de La Palma: Severe rain warning. Cumbres de La Palma (Rojo) (AEMET)",
+      "text": "Litoral sur de Tarragona: Severe wind warning. Litoral sur de Tarragona (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Este de La Palma",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Este de La Palma",
+      "icon": "💨",
+      "provincia": "Prelitoral sur de Tarragona",
+      "fenomeno": "Aviso de vientos de nivel naranja. Prelitoral sur de Tarragona",
       "nivel": "Rojo",
-      "text": "Este de La Palma: Aviso de lluvias de nivel naranja. Este de La Palma (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Este de La Palma",
-      "fenomeno": "Severe rain warning. Este de La Palma",
-      "nivel": "Rojo",
-      "text": "Este de La Palma: Severe rain warning. Este de La Palma (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Oeste de La Palma",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Oeste de La Palma",
-      "nivel": "Rojo",
-      "text": "Oeste de La Palma: Aviso de lluvias de nivel naranja. Oeste de La Palma (Rojo) (AEMET)",
+      "text": "Prelitoral sur de Tarragona: Aviso de vientos de nivel naranja. Prelitoral sur de Tarragona (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Oeste de La Palma",
-      "fenomeno": "Severe rain warning. Oeste de La Palma",
+      "provincia": "Prelitoral sur de Tarragona",
+      "fenomeno": "Severe wind warning. Prelitoral sur de Tarragona",
       "nivel": "Rojo",
-      "text": "Oeste de La Palma: Severe rain warning. Oeste de La Palma (Rojo) (AEMET)",
+      "text": "Prelitoral sur de Tarragona: Severe wind warning. Prelitoral sur de Tarragona (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
