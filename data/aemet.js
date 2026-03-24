@@ -1,55 +1,39 @@
-// Auto-generado por GitHub Actions - 2026-03-24T11:29:27.271Z
+// Auto-generado por GitHub Actions - 2026-03-24T12:04:06.145Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-03-24T11:29:27.271Z",
+  "generated_at": "2026-03-24T12:04:06.145Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "🌊",
-      "provincia": "Costa - Ampurdán",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Ampurdán",
+      "icon": "💨",
+      "provincia": "Litoral sur de Tarragona",
+      "fenomeno": "Aviso de vientos de nivel naranja. Litoral sur de Tarragona",
       "nivel": "Rojo",
-      "text": "Costa - Ampurdán: Aviso de costeros de nivel naranja. Costa - Ampurdán (Rojo) (AEMET)",
+      "text": "Litoral sur de Tarragona: Aviso de vientos de nivel naranja. Litoral sur de Tarragona (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Costa - Ampurdán",
-      "fenomeno": "Severe coastalevent warning. Costa - Ampurdán",
+      "icon": "⚠️",
+      "provincia": "Litoral sur de Tarragona",
+      "fenomeno": "Severe wind warning. Litoral sur de Tarragona",
       "nivel": "Rojo",
-      "text": "Costa - Ampurdán: Severe coastalevent warning. Costa - Ampurdán (Rojo) (AEMET)",
+      "text": "Litoral sur de Tarragona: Severe wind warning. Litoral sur de Tarragona (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral sur de Tarragona",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Litoral sur de Tarragona",
+      "icon": "💨",
+      "provincia": "Prelitoral sur de Tarragona",
+      "fenomeno": "Aviso de vientos de nivel naranja. Prelitoral sur de Tarragona",
       "nivel": "Rojo",
-      "text": "Costa - Litoral sur de Tarragona: Aviso de costeros de nivel naranja. Costa - Litoral sur de Tarragona (Rojo) (AEMET)",
+      "text": "Prelitoral sur de Tarragona: Aviso de vientos de nivel naranja. Prelitoral sur de Tarragona (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral sur de Tarragona",
-      "fenomeno": "Severe coastalevent warning. Costa - Litoral sur de Tarragona",
+      "icon": "⚠️",
+      "provincia": "Prelitoral sur de Tarragona",
+      "fenomeno": "Severe wind warning. Prelitoral sur de Tarragona",
       "nivel": "Rojo",
-      "text": "Costa - Litoral sur de Tarragona: Severe coastalevent warning. Costa - Litoral sur de Tarragona (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral sur de Girona",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral sur de Girona",
-      "nivel": "Naranja",
-      "text": "Costa - Litoral sur de Girona: Aviso de costeros de nivel amarillo. Costa - Litoral sur de Girona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral sur de Girona",
-      "fenomeno": "Moderate coastalevent warning. Costa - Litoral sur de Girona",
-      "nivel": "Naranja",
-      "text": "Costa - Litoral sur de Girona: Moderate coastalevent warning. Costa - Litoral sur de Girona (Naranja) (AEMET)",
+      "text": "Prelitoral sur de Tarragona: Severe wind warning. Prelitoral sur de Tarragona (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -85,83 +69,99 @@ window.AEMET_AVISOS = {
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Norte de Gran Canaria",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Norte de Gran Canaria",
+      "icon": "🌊",
+      "provincia": "Costa - Ampurdán",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Ampurdán",
       "nivel": "Rojo",
-      "text": "Norte de Gran Canaria: Aviso de lluvias de nivel naranja. Norte de Gran Canaria (Rojo) (AEMET)",
+      "text": "Costa - Ampurdán: Aviso de costeros de nivel naranja. Costa - Ampurdán (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Ampurdán",
+      "fenomeno": "Severe coastalevent warning. Costa - Ampurdán",
+      "nivel": "Rojo",
+      "text": "Costa - Ampurdán: Severe coastalevent warning. Costa - Ampurdán (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral sur de Tarragona",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Litoral sur de Tarragona",
+      "nivel": "Rojo",
+      "text": "Costa - Litoral sur de Tarragona: Aviso de costeros de nivel naranja. Costa - Litoral sur de Tarragona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral sur de Tarragona",
+      "fenomeno": "Severe coastalevent warning. Costa - Litoral sur de Tarragona",
+      "nivel": "Rojo",
+      "text": "Costa - Litoral sur de Tarragona: Severe coastalevent warning. Costa - Litoral sur de Tarragona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Menorca",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Menorca",
+      "nivel": "Rojo",
+      "text": "Costa - Menorca: Aviso de costeros de nivel naranja. Costa - Menorca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Menorca",
+      "fenomeno": "Severe coastalevent warning. Costa - Menorca",
+      "nivel": "Rojo",
+      "text": "Costa - Menorca: Severe coastalevent warning. Costa - Menorca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Norte y nordeste de Mallorca",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Norte y nordeste de Mallorca",
+      "nivel": "Rojo",
+      "text": "Costa - Norte y nordeste de Mallorca: Aviso de costeros de nivel naranja. Costa - Norte y nordeste de Mallorca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Norte y nordeste de Mallorca",
+      "fenomeno": "Severe coastalevent warning. Costa - Norte y nordeste de Mallorca",
+      "nivel": "Rojo",
+      "text": "Costa - Norte y nordeste de Mallorca: Severe coastalevent warning. Costa - Norte y nordeste de Mallorca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Pirineo navarro",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Pirineo navarro",
+      "nivel": "Naranja",
+      "text": "Pirineo navarro: Aviso de nevadas de nivel amarillo. Pirineo navarro (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Norte de Gran Canaria",
-      "fenomeno": "Severe rain warning. Norte de Gran Canaria",
-      "nivel": "Rojo",
-      "text": "Norte de Gran Canaria: Severe rain warning. Norte de Gran Canaria (Rojo) (AEMET)",
+      "provincia": "Pirineo navarro",
+      "fenomeno": "Moderate snow warning. Pirineo navarro",
+      "nivel": "Naranja",
+      "text": "Pirineo navarro: Moderate snow warning. Pirineo navarro (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Cumbres de Gran Canaria",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Cumbres de Gran Canaria",
-      "nivel": "Rojo",
-      "text": "Cumbres de Gran Canaria: Aviso de lluvias de nivel naranja. Cumbres de Gran Canaria (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cumbres de Gran Canaria",
-      "fenomeno": "Severe rain warning. Cumbres de Gran Canaria",
-      "nivel": "Rojo",
-      "text": "Cumbres de Gran Canaria: Severe rain warning. Cumbres de Gran Canaria (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Este, sur y oeste de Gran Canaria",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Este, sur y oeste de Gran Canaria",
-      "nivel": "Rojo",
-      "text": "Este, sur y oeste de Gran Canaria: Aviso de lluvias de nivel naranja. Este, sur y oeste de Gran Canaria (Rojo) (AEMET)",
+      "icon": "💨",
+      "provincia": "Pirineo oscense",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Pirineo oscense",
+      "nivel": "Naranja",
+      "text": "Pirineo oscense: Aviso de vientos de nivel amarillo. Pirineo oscense (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Este, sur y oeste de Gran Canaria",
-      "fenomeno": "Severe rain warning. Este, sur y oeste de Gran Canaria",
-      "nivel": "Rojo",
-      "text": "Este, sur y oeste de Gran Canaria: Severe rain warning. Este, sur y oeste de Gran Canaria (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Este, sur y oeste de Tenerife",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Este, sur y oeste de Tenerife",
-      "nivel": "Rojo",
-      "text": "Este, sur y oeste de Tenerife: Aviso de lluvias de nivel naranja. Este, sur y oeste de Tenerife (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Este, sur y oeste de Tenerife",
-      "fenomeno": "Severe rain warning. Este, sur y oeste de Tenerife",
-      "nivel": "Rojo",
-      "text": "Este, sur y oeste de Tenerife: Severe rain warning. Este, sur y oeste de Tenerife (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Norte de Gran Canaria",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Norte de Gran Canaria",
-      "nivel": "Rojo",
-      "text": "Norte de Gran Canaria: Aviso de lluvias de nivel naranja. Norte de Gran Canaria (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Norte de Gran Canaria",
-      "fenomeno": "Severe rain warning. Norte de Gran Canaria",
-      "nivel": "Rojo",
-      "text": "Norte de Gran Canaria: Severe rain warning. Norte de Gran Canaria (Rojo) (AEMET)",
+      "provincia": "Pirineo oscense",
+      "fenomeno": "Moderate wind warning. Pirineo oscense",
+      "nivel": "Naranja",
+      "text": "Pirineo oscense: Moderate wind warning. Pirineo oscense (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
