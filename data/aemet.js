@@ -1,9 +1,41 @@
-// Auto-generado por GitHub Actions - 2026-03-24T22:49:13.986Z
+// Auto-generado por GitHub Actions - 2026-03-24T23:24:06.466Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-03-24T22:49:13.986Z",
+  "generated_at": "2026-03-24T23:24:06.466Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Norte de Tenerife",
+      "fenomeno": "Aviso de lluvias de nivel rojo. Norte de Tenerife",
+      "nivel": "Rojo",
+      "text": "Norte de Tenerife: Aviso de lluvias de nivel rojo. Norte de Tenerife (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Norte de Tenerife",
+      "fenomeno": "Extreme rain warning. Norte de Tenerife",
+      "nivel": "Rojo",
+      "text": "Norte de Tenerife: Extreme rain warning. Norte de Tenerife (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Norte de Tenerife",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Norte de Tenerife",
+      "nivel": "Rojo",
+      "text": "Norte de Tenerife: Aviso de lluvias de nivel naranja. Norte de Tenerife (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Norte de Tenerife",
+      "fenomeno": "Severe rain warning. Norte de Tenerife",
+      "nivel": "Rojo",
+      "text": "Norte de Tenerife: Severe rain warning. Norte de Tenerife (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "La Gomera",
@@ -130,38 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate rain warning. La Gomera",
       "nivel": "Naranja",
       "text": "La Gomera: Moderate rain warning. La Gomera (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "El Hierro",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. El Hierro",
-      "nivel": "Naranja",
-      "text": "El Hierro: Aviso de lluvias de nivel amarillo. El Hierro (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "El Hierro",
-      "fenomeno": "Moderate rain warning. El Hierro",
-      "nivel": "Naranja",
-      "text": "El Hierro: Moderate rain warning. El Hierro (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Área metropolitana de Tenerife",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Área metropolitana de Tenerife",
-      "nivel": "Naranja",
-      "text": "Área metropolitana de Tenerife: Aviso de lluvias de nivel amarillo. Área metropolitana de Tenerife (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Área metropolitana de Tenerife",
-      "fenomeno": "Moderate rain warning. Área metropolitana de Tenerife",
-      "nivel": "Naranja",
-      "text": "Área metropolitana de Tenerife: Moderate rain warning. Área metropolitana de Tenerife (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
