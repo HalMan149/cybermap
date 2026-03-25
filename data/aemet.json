@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-25T06:37:11.691Z",
+  "generated_at": "2026-03-25T07:38:46.827Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
@@ -117,38 +117,6 @@
     },
     {
       "icon": "🌧️",
-      "provincia": "Norte de Tenerife",
-      "fenomeno": "Aviso de lluvias de nivel rojo. Norte de Tenerife",
-      "nivel": "Rojo",
-      "text": "Norte de Tenerife: Aviso de lluvias de nivel rojo. Norte de Tenerife (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Norte de Tenerife",
-      "fenomeno": "Extreme rain warning. Norte de Tenerife",
-      "nivel": "Rojo",
-      "text": "Norte de Tenerife: Extreme rain warning. Norte de Tenerife (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Norte de Tenerife",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Norte de Tenerife",
-      "nivel": "Rojo",
-      "text": "Norte de Tenerife: Aviso de lluvias de nivel naranja. Norte de Tenerife (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Norte de Tenerife",
-      "fenomeno": "Severe rain warning. Norte de Tenerife",
-      "nivel": "Rojo",
-      "text": "Norte de Tenerife: Severe rain warning. Norte de Tenerife (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
       "provincia": "La Gomera",
       "fenomeno": "Aviso de lluvias de nivel amarillo. La Gomera",
       "nivel": "Naranja",
@@ -161,6 +129,38 @@
       "fenomeno": "Moderate rain warning. La Gomera",
       "nivel": "Naranja",
       "text": "La Gomera: Moderate rain warning. La Gomera (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "El Hierro",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. El Hierro",
+      "nivel": "Naranja",
+      "text": "El Hierro: Aviso de lluvias de nivel amarillo. El Hierro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "El Hierro",
+      "fenomeno": "Moderate rain warning. El Hierro",
+      "nivel": "Naranja",
+      "text": "El Hierro: Moderate rain warning. El Hierro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Pirineo oscense",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Pirineo oscense",
+      "nivel": "Naranja",
+      "text": "Pirineo oscense: Aviso de vientos de nivel amarillo. Pirineo oscense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Pirineo oscense",
+      "fenomeno": "Moderate wind warning. Pirineo oscense",
+      "nivel": "Naranja",
+      "text": "Pirineo oscense: Moderate wind warning. Pirineo oscense (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
