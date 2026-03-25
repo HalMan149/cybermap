@@ -1484,23 +1484,49 @@
       loadNASAMoonImage(now, phaseName, illumination);
     }
     
+    const NASA_MOON_DATASETS = [
+      {
+        year: 2025,
+        baseUrl: 'https://svs.gsfc.nasa.gov/vis/a000000/a005400/a005415/frames/730x730_1x1_30p',
+        totalFrames: 8760
+      }
+      // Cuando NASA publique más años, añade aquí nuevas entradas { year, baseUrl, totalFrames }.
+    ];
+
+    function getBestMoonDataset(targetYear) {
+      const exact = NASA_MOON_DATASETS.find((d) => d.year === targetYear);
+      if (exact) return exact;
+
+      // Si no hay año exacto, usamos el dataset más cercano para mantener compatibilidad futura.
+      return NASA_MOON_DATASETS.reduce((best, current) => {
+        if (!best) return current;
+        return Math.abs(current.year - targetYear) < Math.abs(best.year - targetYear) ? current : best;
+      }, null);
+    }
+
     function loadNASAMoonImage(date, phaseName, illumination) {
-      const year = date.getUTCFullYear();
-      
-      // Solo funciona para 2025 (el dataset de NASA SVS que tenemos)
-      if (year !== 2025) {
+      const targetYear = date.getUTCFullYear();
+      const dataset = getBestMoonDataset(targetYear);
+
+      if (!dataset) {
         useFallbackMoon(phaseName, illumination, date);
         return;
       }
-      
-      // Calcular frame number (hora desde inicio del año)
-      const startOfYear = new Date(Date.UTC(2025, 0, 1, 0, 0, 0));
-      const hoursSinceStart = Math.floor((date - startOfYear) / (1000 * 60 * 60));
-      const frameNumber = String(hoursSinceStart + 1).padStart(4, '0');
-      
-      // URL de la imagen NASA SVS con proxy CORS
-      const nasaDirectUrl = `https://svs.gsfc.nasa.gov/vis/a000000/a005400/a005415/frames/730x730_1x1_30p/moon.${frameNumber}.jpg`;
-      const nasaUrl = `https://corsproxy.io/?${encodeURIComponent(nasaDirectUrl)}`;
+
+      // Calculamos frame por hora respecto al año de referencia del dataset.
+      // Para años sin dataset exacto, se reutiliza el patrón del año más cercano.
+      const startOfTargetYear = Date.UTC(targetYear, 0, 1, 0, 0, 0);
+      const startOfDatasetYear = Date.UTC(dataset.year, 0, 1, 0, 0, 0);
+      const hoursSinceTargetYearStart = Math.floor((date.getTime() - startOfTargetYear) / (1000 * 60 * 60));
+      const datasetDateMs = startOfDatasetYear + (hoursSinceTargetYearStart * 60 * 60 * 1000);
+      const startOfDatasetYearDate = new Date(Date.UTC(dataset.year, 0, 1, 0, 0, 0));
+      const datasetDate = new Date(datasetDateMs);
+      let frame = Math.floor((datasetDate - startOfDatasetYearDate) / (1000 * 60 * 60)) + 1;
+      frame = Math.max(1, Math.min(dataset.totalFrames, frame));
+      const frameNumber = String(frame).padStart(4, '0');
+
+      // URL directa: en <img> no hace falta CORS para visualizarla
+      const nasaDirectUrl = `${dataset.baseUrl}/moon.${frameNumber}.jpg`;
       
       const moonImg = document.getElementById('moonImage');
       const canvas = document.getElementById('moonCanvas');
@@ -1510,47 +1536,112 @@
       
       testImg.onload = function() {
         // Éxito - mostrar imagen real
-        moonImg.src = nasaUrl;
+        moonImg.src = nasaDirectUrl;
         moonImg.style.display = 'block';
         canvas.style.display = 'none';
         
         updateMoonInfo(phaseName, illumination, date, true);
         console.log('✓ Luna NASA cargada (frame:', frameNumber, ')');
+        console.log('   Dataset año base:', dataset.year, '| Año objetivo:', targetYear);
         console.log('   URL:', nasaDirectUrl);
       };
       
-      testImg.onerror = function(e) {
-        // Falló - mostrar mensaje de error profesional
+      testImg.onerror = function() {
+        // Falló NASA: degradar de forma elegante a simulación sin bloquear panel.
         console.error('❌ No se pudo cargar imagen NASA');
         console.error('   Frame:', frameNumber);
+        console.error('   Dataset año base:', dataset.year, '| Año objetivo:', targetYear);
         console.error('   URL:', nasaDirectUrl);
-        
-        const moonImg = document.getElementById('moonImage');
-        const moonError = document.getElementById('moonError');
-        const canvas = document.getElementById('moonCanvas');
-        
-        moonImg.style.display = 'none';
-        canvas.style.display = 'none';
-        moonError.style.display = 'flex';
-        
-        updateMoonInfo(phaseName, illumination, date, false);
+        useFallbackMoon(phaseName, illumination, date);
       };
       
       console.log('🌙 Intentando cargar luna NASA (frame:', frameNumber, ')...');
-      testImg.src = nasaUrl;
+      testImg.src = nasaDirectUrl;
     }
     
     function useFallbackMoon(phaseName, illumination, date) {
-      // Mostrar mensaje de error profesional
       const moonImg = document.getElementById('moonImage');
       const canvas = document.getElementById('moonCanvas');
       const moonError = document.getElementById('moonError');
       
       moonImg.style.display = 'none';
-      canvas.style.display = 'none';
-      moonError.style.display = 'flex';
+      moonError.style.display = 'none';
+      canvas.style.display = 'block';
+      drawSimulatedMoon(canvas, date);
       
       updateMoonInfo(phaseName, illumination, date, false);
+    }
+
+    function drawSimulatedMoon(canvas, date) {
+      const ctx = canvas.getContext('2d');
+      if (!ctx) return;
+
+      const size = canvas.width;
+      const center = size / 2;
+      const radius = Math.floor(size * 0.45);
+
+      const moonIllum = SunCalc.getMoonIllumination(date);
+      const phase = moonIllum.phase; // 0 = nueva, 0.5 = llena
+      const waxing = phase <= 0.5;
+      const term = Math.abs(1 - 4 * Math.abs(phase - 0.5)); // 0..1, controla el terminador
+
+      ctx.clearRect(0, 0, size, size);
+
+      // Disco base oscuro
+      ctx.beginPath();
+      ctx.arc(center, center, radius, 0, Math.PI * 2);
+      ctx.fillStyle = '#10131f';
+      ctx.fill();
+
+      ctx.save();
+      ctx.beginPath();
+      ctx.arc(center, center, radius, 0, Math.PI * 2);
+      ctx.clip();
+
+      // Zona iluminada aproximando el terminador por elipse
+      ctx.beginPath();
+      ctx.ellipse(
+        waxing ? center + (radius * (1 - term)) : center - (radius * (1 - term)),
+        center,
+        Math.max(2, radius * term),
+        radius,
+        0,
+        0,
+        Math.PI * 2
+      );
+      ctx.fillStyle = '#d7dde8';
+      ctx.fill();
+
+      // Si está en menguante, invertimos lado iluminado para mantener coherencia visual
+      if (!waxing) {
+        ctx.globalCompositeOperation = 'destination-over';
+        ctx.beginPath();
+        ctx.arc(center, center, radius, 0, Math.PI * 2);
+        ctx.fillStyle = '#d7dde8';
+        ctx.fill();
+
+        ctx.globalCompositeOperation = 'destination-out';
+        ctx.beginPath();
+        ctx.ellipse(
+          center + (radius * (1 - term)),
+          center,
+          Math.max(2, radius * term),
+          radius,
+          0,
+          0,
+          Math.PI * 2
+        );
+        ctx.fill();
+      }
+
+      ctx.restore();
+
+      // Halo y borde
+      ctx.beginPath();
+      ctx.arc(center, center, radius, 0, Math.PI * 2);
+      ctx.strokeStyle = 'rgba(230, 238, 255, 0.35)';
+      ctx.lineWidth = 2;
+      ctx.stroke();
     }
     
     function updateMoonInfo(phaseName, illumination, date, isNASA) {

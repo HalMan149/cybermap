@@ -1,143 +1,106 @@
 @echo off
-chcp 65001 >nul
-setlocal enabledelayedexpansion
+setlocal EnableExtensions EnableDelayedExpansion
 cd /d "%~dp0"
 
-:: Colores y formato
-set "LINE==============================================="
-set "ARROW=→"
+set "LINE================================================"
+set "BRANCH="
+set "MSG="
+set "NEED_PUSH=0"
+set "LOG_FILE=%TEMP%\cybermap-actualizar.log"
+
+echo ------------------------------------------------ > "%LOG_FILE%"
+echo Inicio: %date% %time% >> "%LOG_FILE%"
 
 echo.
 echo %LINE%
-echo   🚀 ACTUALIZAR WEB - CYBERMAP
+echo   ACTUALIZAR WEB - CYBERMAP
 echo %LINE%
-echo.
+echo [INFO] Log: %LOG_FILE%
 
-:: Verificar si estamos en un repositorio git
 if not exist ".git" (
-    echo ❌ ERROR: No se encuentra repositorio Git
-    echo    Asegúrate de estar en la carpeta correcta
-    pause
-    exit /b 1
+  echo [ERROR] No se encuentra repositorio Git.
+  goto :fail
 )
 
-:: Verificar conexión a internet
-echo %ARROW% Verificando conexión...
+for /f %%b in ('git rev-parse --abbrev-ref HEAD 2^>nul') do set "BRANCH=%%b"
+if not defined BRANCH (
+  echo [ERROR] No se pudo detectar la rama actual.
+  goto :fail
+)
+echo [INFO] Rama: %BRANCH%
+
+echo [INFO] Verificando conexion...
 ping -n 1 github.com >nul 2>&1
-if %errorlevel% neq 0 (
-    echo ❌ Sin conexión a internet o GitHub no accesible
-    pause
-    exit /b 1
+if errorlevel 1 (
+  echo [ERROR] Sin conexion a internet o GitHub no accesible.
+  goto :fail
 )
-echo ✓ Conexión OK
+echo [OK] Conexion.
 
-:: Sincronizar con remoto primero
-echo.
-echo %ARROW% Sincronizando con GitHub...
-git fetch origin >nul 2>&1
-
-:: Verificar si hay cambios remotos
-git diff origin/main main --quiet >nul 2>&1
-if %errorlevel% neq 0 (
-    echo ⚠️  Hay cambios en GitHub que no tienes localmente
-    echo    Descargando cambios primero...
-    git pull --rebase
-    if %errorlevel% neq 0 (
-        echo ❌ Error al sincronizar. Resuelve conflictos manualmente
-        pause
-        exit /b 1
-    )
-    echo ✓ Sincronizado
+echo [INFO] Preparando cambios locales...
+git add . >> "%LOG_FILE%" 2>&1
+if errorlevel 1 (
+  echo [ERROR] Fallo en git add.
+  goto :fail
 )
 
-:: Verificar si hay cambios locales
-echo.
-echo %ARROW% Revisando cambios locales...
-git diff --quiet
-set "hasUnstaged=%errorlevel%"
 git diff --cached --quiet
-set "hasStaged=%errorlevel%"
-
-if %hasUnstaged%==0 if %hasStaged%==0 (
-    echo ✓ No hay cambios para subir
-    echo.
-    echo %LINE%
-    pause
-    exit /b 0
+if errorlevel 1 (
+  set "NEED_PUSH=1"
+  set "MSG=auto-%RANDOM%-%RANDOM%"
+  echo [INFO] Creando commit: !MSG!
+  git commit -m "!MSG!" >> "%LOG_FILE%" 2>&1
+  if errorlevel 1 (
+    echo [ERROR] Fallo al crear commit.
+    goto :fail
+  )
+) else (
+  echo [INFO] No hay cambios locales para commit.
 )
 
-:: Mostrar resumen de cambios
-echo.
-echo 📝 Archivos modificados:
-echo.
+echo [INFO] Sincronizando con GitHub...
+git fetch origin >> "%LOG_FILE%" 2>&1
+if errorlevel 1 (
+  echo [ERROR] Fallo en git fetch.
+  goto :fail
+)
+
+git pull --rebase origin %BRANCH% >> "%LOG_FILE%" 2>&1
+if errorlevel 1 (
+  echo [ERROR] Fallo en git pull --rebase.
+  goto :fail
+)
+echo [OK] Sincronizacion completada.
+
+echo [INFO] Estado final:
 git status --short
-echo.
 
-:: Agregar todos los cambios
-echo %ARROW% Agregando cambios al staging...
-git add .
-echo ✓ Archivos agregados
-
-:: Generar mensaje de commit automático
-set "DATESTR=%date:~-4%%date:~3,2%%date:~0,2%"
-set "TIMESTR=%time:~0,2%%time:~3,2%%time:~6,2%"
-set "TIMESTR=%TIMESTR: =0%"
-set "RAND=%RANDOM%"
-set "MSG=auto-%DATESTR%-%TIMESTR%-%RAND%"
-
-:: Crear commit
-echo.
-echo %ARROW% Creando commit...
-echo    Mensaje: %MSG%
-git commit -m "%MSG%"
-if %errorlevel% neq 0 (
-    echo ❌ Error al crear commit
-    pause
-    exit /b 1
-)
-echo ✓ Commit creado
-
-:: Subir a GitHub
-echo.
-echo %ARROW% Subiendo cambios a GitHub...
-echo    Por favor espera...
-git push origin main
-if %errorlevel% neq 0 (
-    echo ❌ Error al subir cambios
-    echo    Revisa tu conexión y permisos
-    pause
-    exit /b 1
+for /f %%a in ('git rev-list --left-right --count HEAD...origin/%BRANCH% 2^>nul') do set "AHEAD_BEHIND=%%a"
+for /f "tokens=1,2" %%x in ("%AHEAD_BEHIND%") do (
+  if not "%%x"=="0" set "NEED_PUSH=1"
 )
 
-:: Éxito
+if "%NEED_PUSH%"=="1" (
+  echo [INFO] Subiendo cambios...
+  git push origin %BRANCH% >> "%LOG_FILE%" 2>&1
+  if errorlevel 1 (
+    echo [ERROR] Fallo en git push.
+    goto :fail
+  )
+)
+
+:ok
 echo.
 echo %LINE%
-echo   ✅ WEB ACTUALIZADA CORRECTAMENTE
-echo %LINE%
-echo.
-echo 🌐 Tu web estará disponible en 1-2 minutos en:
-echo    https://halman149.github.io/cybermap/
-echo.
-echo 📊 Última actualización: %date% %time:~0,5%
-echo 🔗 Commit: %MSG%
-echo.
-
-:: Obtener estadísticas del commit
-for /f "tokens=*" %%a in ('git log -1 --stat --oneline') do (
-    echo %%a
-)
-
-echo.
-echo %LINE%
-echo.
-
-:: Preguntar si abrir en navegador
-set /p "OPEN=¿Abrir la web en el navegador? (S/N): "
-if /i "%OPEN%"=="S" (
-    start https://halman149.github.io/cybermap/mapa_tierra_v2.html
-    echo ✓ Abriendo navegador...
-)
-
+echo WEB ACTUALIZADA CORRECTAMENTE
+echo URL: https://halman149.github.io/cybermap/
+if defined MSG echo Commit: %MSG%
 echo.
 pause
-endlocal
+exit /b 0
+
+:fail
+echo [INFO] Revisa log: %LOG_FILE%
+echo.
+pause
+exit /b 1
