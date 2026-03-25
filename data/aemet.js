@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2026-03-25T17:42:30.180Z
+// Auto-generado por GitHub Actions - 2026-03-25T18:34:47.188Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-03-25T17:42:30.180Z",
+  "generated_at": "2026-03-25T18:34:47.188Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "La Gomera",
+      "fenomeno": "Aviso de lluvias de nivel naranja. La Gomera",
+      "nivel": "Rojo",
+      "text": "La Gomera: Aviso de lluvias de nivel naranja. La Gomera (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "La Gomera",
+      "fenomeno": "Severe rain warning. La Gomera",
+      "nivel": "Rojo",
+      "text": "La Gomera: Severe rain warning. La Gomera (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌊",
       "provincia": "Costa - Norte y nordeste de Mallorca",
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate coastalevent warning. Costa - Litoral sur de Girona",
       "nivel": "Naranja",
       "text": "Costa - Litoral sur de Girona: Moderate coastalevent warning. Costa - Litoral sur de Girona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral sur de Tarragona",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral sur de Tarragona",
-      "nivel": "Naranja",
-      "text": "Costa - Litoral sur de Tarragona: Aviso de costeros de nivel amarillo. Costa - Litoral sur de Tarragona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral sur de Tarragona",
-      "fenomeno": "Moderate coastalevent warning. Costa - Litoral sur de Tarragona",
-      "nivel": "Naranja",
-      "text": "Costa - Litoral sur de Tarragona: Moderate coastalevent warning. Costa - Litoral sur de Tarragona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
