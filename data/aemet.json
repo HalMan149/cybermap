@@ -1,88 +1,8 @@
 {
-  "generated_at": "2026-03-29T08:57:44.637Z",
+  "generated_at": "2026-03-29T09:36:18.416Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
-    {
-      "icon": "💨",
-      "provincia": "Ibérica de Soria",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Ibérica de Soria",
-      "nivel": "Naranja",
-      "text": "Ibérica de Soria: Aviso de vientos de nivel amarillo. Ibérica de Soria (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ibérica de Soria",
-      "fenomeno": "Moderate wind warning. Ibérica de Soria",
-      "nivel": "Naranja",
-      "text": "Ibérica de Soria: Moderate wind warning. Ibérica de Soria (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Metropolitana y Henares",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Metropolitana y Henares",
-      "nivel": "Naranja",
-      "text": "Metropolitana y Henares: Aviso de vientos de nivel amarillo. Metropolitana y Henares (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Metropolitana y Henares",
-      "fenomeno": "Moderate wind warning. Metropolitana y Henares",
-      "nivel": "Naranja",
-      "text": "Metropolitana y Henares: Moderate wind warning. Metropolitana y Henares (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Sierra Tramontana",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Sierra Tramontana",
-      "nivel": "Naranja",
-      "text": "Sierra Tramontana: Aviso de lluvias de nivel amarillo. Sierra Tramontana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sierra Tramontana",
-      "fenomeno": "Moderate rain warning. Sierra Tramontana",
-      "nivel": "Naranja",
-      "text": "Sierra Tramontana: Moderate rain warning. Sierra Tramontana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Pirineo oscense",
-      "fenomeno": "Aviso de vientos de nivel naranja. Pirineo oscense",
-      "nivel": "Rojo",
-      "text": "Pirineo oscense: Aviso de vientos de nivel naranja. Pirineo oscense (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Pirineo oscense",
-      "fenomeno": "Severe wind warning. Pirineo oscense",
-      "nivel": "Rojo",
-      "text": "Pirineo oscense: Severe wind warning. Pirineo oscense (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Sierra Tramontana",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Sierra Tramontana",
-      "nivel": "Rojo",
-      "text": "Costa - Sierra Tramontana: Aviso de costeros de nivel naranja. Costa - Sierra Tramontana (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Sierra Tramontana",
-      "fenomeno": "Severe coastalevent warning. Costa - Sierra Tramontana",
-      "nivel": "Rojo",
-      "text": "Costa - Sierra Tramontana: Severe coastalevent warning. Costa - Sierra Tramontana (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
     {
       "icon": "🌊",
       "provincia": "Costa - Norte y nordeste de Mallorca",
@@ -133,34 +53,114 @@
     },
     {
       "icon": "🌊",
-      "provincia": "Costa - Ampurdán",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Ampurdán",
+      "provincia": "Costa - Sierra Tramontana",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Sierra Tramontana",
       "nivel": "Rojo",
-      "text": "Costa - Ampurdán: Aviso de costeros de nivel naranja. Costa - Ampurdán (Rojo) (AEMET)",
+      "text": "Costa - Sierra Tramontana: Aviso de costeros de nivel naranja. Costa - Sierra Tramontana (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Costa - Ampurdán",
-      "fenomeno": "Severe coastalevent warning. Costa - Ampurdán",
+      "provincia": "Costa - Sierra Tramontana",
+      "fenomeno": "Severe coastalevent warning. Costa - Sierra Tramontana",
       "nivel": "Rojo",
-      "text": "Costa - Ampurdán: Severe coastalevent warning. Costa - Ampurdán (Rojo) (AEMET)",
+      "text": "Costa - Sierra Tramontana: Severe coastalevent warning. Costa - Sierra Tramontana (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "💨",
-      "provincia": "Menorca",
-      "fenomeno": "Aviso de vientos de nivel naranja. Menorca",
+      "provincia": "Sierra Tramontana",
+      "fenomeno": "Aviso de vientos de nivel naranja. Sierra Tramontana",
       "nivel": "Rojo",
-      "text": "Menorca: Aviso de vientos de nivel naranja. Menorca (Rojo) (AEMET)",
+      "text": "Sierra Tramontana: Aviso de vientos de nivel naranja. Sierra Tramontana (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Menorca",
-      "fenomeno": "Severe wind warning. Menorca",
+      "provincia": "Sierra Tramontana",
+      "fenomeno": "Severe wind warning. Sierra Tramontana",
       "nivel": "Rojo",
-      "text": "Menorca: Severe wind warning. Menorca (Rojo) (AEMET)",
+      "text": "Sierra Tramontana: Severe wind warning. Sierra Tramontana (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Norte y nordeste de Mallorca",
+      "fenomeno": "Aviso de vientos de nivel naranja. Norte y nordeste de Mallorca",
+      "nivel": "Rojo",
+      "text": "Norte y nordeste de Mallorca: Aviso de vientos de nivel naranja. Norte y nordeste de Mallorca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Norte y nordeste de Mallorca",
+      "fenomeno": "Severe wind warning. Norte y nordeste de Mallorca",
+      "nivel": "Rojo",
+      "text": "Norte y nordeste de Mallorca: Severe wind warning. Norte y nordeste de Mallorca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Ibiza y Formentera",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Ibiza y Formentera",
+      "nivel": "Rojo",
+      "text": "Costa - Ibiza y Formentera: Aviso de costeros de nivel naranja. Costa - Ibiza y Formentera (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Ibiza y Formentera",
+      "fenomeno": "Severe coastalevent warning. Costa - Ibiza y Formentera",
+      "nivel": "Rojo",
+      "text": "Costa - Ibiza y Formentera: Severe coastalevent warning. Costa - Ibiza y Formentera (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Ibiza y Formentera",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Ibiza y Formentera",
+      "nivel": "Naranja",
+      "text": "Ibiza y Formentera: Aviso de vientos de nivel amarillo. Ibiza y Formentera (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ibiza y Formentera",
+      "fenomeno": "Moderate wind warning. Ibiza y Formentera",
+      "nivel": "Naranja",
+      "text": "Ibiza y Formentera: Moderate wind warning. Ibiza y Formentera (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Sierra Tramontana",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Sierra Tramontana",
+      "nivel": "Naranja",
+      "text": "Sierra Tramontana: Aviso de vientos de nivel amarillo. Sierra Tramontana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sierra Tramontana",
+      "fenomeno": "Moderate wind warning. Sierra Tramontana",
+      "nivel": "Naranja",
+      "text": "Sierra Tramontana: Moderate wind warning. Sierra Tramontana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Norte y nordeste de Mallorca",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Norte y nordeste de Mallorca",
+      "nivel": "Naranja",
+      "text": "Norte y nordeste de Mallorca: Aviso de vientos de nivel amarillo. Norte y nordeste de Mallorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Norte y nordeste de Mallorca",
+      "fenomeno": "Moderate wind warning. Norte y nordeste de Mallorca",
+      "nivel": "Naranja",
+      "text": "Norte y nordeste de Mallorca: Moderate wind warning. Norte y nordeste de Mallorca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
