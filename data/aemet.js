@@ -1,9 +1,41 @@
-// Auto-generado por GitHub Actions - 2026-03-29T08:01:05.805Z
+// Auto-generado por GitHub Actions - 2026-03-29T08:57:44.637Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-03-29T08:01:05.805Z",
+  "generated_at": "2026-03-29T08:57:44.637Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "💨",
+      "provincia": "Ibérica de Soria",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Ibérica de Soria",
+      "nivel": "Naranja",
+      "text": "Ibérica de Soria: Aviso de vientos de nivel amarillo. Ibérica de Soria (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ibérica de Soria",
+      "fenomeno": "Moderate wind warning. Ibérica de Soria",
+      "nivel": "Naranja",
+      "text": "Ibérica de Soria: Moderate wind warning. Ibérica de Soria (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Metropolitana y Henares",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Metropolitana y Henares",
+      "nivel": "Naranja",
+      "text": "Metropolitana y Henares: Aviso de vientos de nivel amarillo. Metropolitana y Henares (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Metropolitana y Henares",
+      "fenomeno": "Moderate wind warning. Metropolitana y Henares",
+      "nivel": "Naranja",
+      "text": "Metropolitana y Henares: Moderate wind warning. Metropolitana y Henares (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Sierra Tramontana",
@@ -130,38 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Severe wind warning. Menorca",
       "nivel": "Rojo",
       "text": "Menorca: Severe wind warning. Menorca (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Prelitoral sur de Tarragona",
-      "fenomeno": "Aviso de vientos de nivel naranja. Prelitoral sur de Tarragona",
-      "nivel": "Rojo",
-      "text": "Prelitoral sur de Tarragona: Aviso de vientos de nivel naranja. Prelitoral sur de Tarragona (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Prelitoral sur de Tarragona",
-      "fenomeno": "Severe wind warning. Prelitoral sur de Tarragona",
-      "nivel": "Rojo",
-      "text": "Prelitoral sur de Tarragona: Severe wind warning. Prelitoral sur de Tarragona (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Pirineo de Girona",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Pirineo de Girona",
-      "nivel": "Naranja",
-      "text": "Pirineo de Girona: Aviso de vientos de nivel amarillo. Pirineo de Girona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Pirineo de Girona",
-      "fenomeno": "Moderate wind warning. Pirineo de Girona",
-      "nivel": "Naranja",
-      "text": "Pirineo de Girona: Moderate wind warning. Pirineo de Girona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
