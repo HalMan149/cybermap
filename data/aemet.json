@@ -1,8 +1,24 @@
 {
-  "generated_at": "2026-03-29T06:01:41.516Z",
+  "generated_at": "2026-03-29T07:17:36.648Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Sierra Tramontana",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Sierra Tramontana",
+      "nivel": "Naranja",
+      "text": "Sierra Tramontana: Aviso de lluvias de nivel amarillo. Sierra Tramontana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sierra Tramontana",
+      "fenomeno": "Moderate rain warning. Sierra Tramontana",
+      "nivel": "Naranja",
+      "text": "Sierra Tramontana: Moderate rain warning. Sierra Tramontana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "💨",
       "provincia": "Pirineo oscense",
@@ -145,22 +161,6 @@
       "fenomeno": "Moderate wind warning. Pirineo de Girona",
       "nivel": "Naranja",
       "text": "Pirineo de Girona: Moderate wind warning. Pirineo de Girona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Ampurdán",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Ampurdán",
-      "nivel": "Naranja",
-      "text": "Ampurdán: Aviso de vientos de nivel amarillo. Ampurdán (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ampurdán",
-      "fenomeno": "Moderate wind warning. Ampurdán",
-      "nivel": "Naranja",
-      "text": "Ampurdán: Moderate wind warning. Ampurdán (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
