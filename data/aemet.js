@@ -1,7 +1,168 @@
-// Auto-generado por GitHub Actions - 2026-03-29T11:21:57.413Z
+// Auto-generado por GitHub Actions - 2026-03-29T11:50:11.283Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-03-29T11:21:57.413Z",
+  "generated_at": "2026-03-29T11:50:11.283Z",
   "source": "AEMET OpenData API",
-  "total_avisos": 0,
-  "avisos": []
+  "total_avisos": 20,
+  "avisos": [
+    {
+      "icon": "💨",
+      "provincia": "Pirineo oscense",
+      "fenomeno": "Aviso de vientos de nivel naranja. Pirineo oscense",
+      "nivel": "Rojo",
+      "text": "Pirineo oscense: Aviso de vientos de nivel naranja. Pirineo oscense (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Pirineo oscense",
+      "fenomeno": "Severe wind warning. Pirineo oscense",
+      "nivel": "Rojo",
+      "text": "Pirineo oscense: Severe wind warning. Pirineo oscense (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Prelitoral sur de Tarragona",
+      "fenomeno": "Aviso de vientos de nivel naranja. Prelitoral sur de Tarragona",
+      "nivel": "Rojo",
+      "text": "Prelitoral sur de Tarragona: Aviso de vientos de nivel naranja. Prelitoral sur de Tarragona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Prelitoral sur de Tarragona",
+      "fenomeno": "Severe wind warning. Prelitoral sur de Tarragona",
+      "nivel": "Rojo",
+      "text": "Prelitoral sur de Tarragona: Severe wind warning. Prelitoral sur de Tarragona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Norte y nordeste de Mallorca",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Norte y nordeste de Mallorca",
+      "nivel": "Rojo",
+      "text": "Costa - Norte y nordeste de Mallorca: Aviso de costeros de nivel naranja. Costa - Norte y nordeste de Mallorca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Norte y nordeste de Mallorca",
+      "fenomeno": "Severe coastalevent warning. Costa - Norte y nordeste de Mallorca",
+      "nivel": "Rojo",
+      "text": "Costa - Norte y nordeste de Mallorca: Severe coastalevent warning. Costa - Norte y nordeste de Mallorca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Levante mallorquín",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Levante mallorquín",
+      "nivel": "Rojo",
+      "text": "Costa - Levante mallorquín: Aviso de costeros de nivel naranja. Costa - Levante mallorquín (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Levante mallorquín",
+      "fenomeno": "Severe coastalevent warning. Costa - Levante mallorquín",
+      "nivel": "Rojo",
+      "text": "Costa - Levante mallorquín: Severe coastalevent warning. Costa - Levante mallorquín (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Menorca",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Menorca",
+      "nivel": "Rojo",
+      "text": "Costa - Menorca: Aviso de costeros de nivel naranja. Costa - Menorca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Menorca",
+      "fenomeno": "Severe coastalevent warning. Costa - Menorca",
+      "nivel": "Rojo",
+      "text": "Costa - Menorca: Severe coastalevent warning. Costa - Menorca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Ampurdán",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Ampurdán",
+      "nivel": "Rojo",
+      "text": "Costa - Ampurdán: Aviso de costeros de nivel naranja. Costa - Ampurdán (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Ampurdán",
+      "fenomeno": "Severe coastalevent warning. Costa - Ampurdán",
+      "nivel": "Rojo",
+      "text": "Costa - Ampurdán: Severe coastalevent warning. Costa - Ampurdán (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Menorca",
+      "fenomeno": "Aviso de vientos de nivel naranja. Menorca",
+      "nivel": "Rojo",
+      "text": "Menorca: Aviso de vientos de nivel naranja. Menorca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Menorca",
+      "fenomeno": "Severe wind warning. Menorca",
+      "nivel": "Rojo",
+      "text": "Menorca: Severe wind warning. Menorca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Pirineo de Girona",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Pirineo de Girona",
+      "nivel": "Naranja",
+      "text": "Pirineo de Girona: Aviso de vientos de nivel amarillo. Pirineo de Girona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Pirineo de Girona",
+      "fenomeno": "Moderate wind warning. Pirineo de Girona",
+      "nivel": "Naranja",
+      "text": "Pirineo de Girona: Moderate wind warning. Pirineo de Girona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Ampurdán",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Ampurdán",
+      "nivel": "Naranja",
+      "text": "Ampurdán: Aviso de vientos de nivel amarillo. Ampurdán (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ampurdán",
+      "fenomeno": "Moderate wind warning. Ampurdán",
+      "nivel": "Naranja",
+      "text": "Ampurdán: Moderate wind warning. Ampurdán (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Pirineo de Lleida",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Pirineo de Lleida",
+      "nivel": "Naranja",
+      "text": "Pirineo de Lleida: Aviso de vientos de nivel amarillo. Pirineo de Lleida (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Pirineo de Lleida",
+      "fenomeno": "Moderate wind warning. Pirineo de Lleida",
+      "nivel": "Naranja",
+      "text": "Pirineo de Lleida: Moderate wind warning. Pirineo de Lleida (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    }
+  ]
 };
