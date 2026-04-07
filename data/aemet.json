@@ -1,166 +1,166 @@
 {
-  "generated_at": "2026-04-07T17:30:43.337Z",
+  "generated_at": "2026-04-07T18:34:36.187Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "🌧️",
-      "provincia": "Antequera",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Antequera",
+      "icon": "⛈️",
+      "provincia": "Sierra y Pedroches",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Sierra y Pedroches",
       "nivel": "Naranja",
-      "text": "Antequera: Aviso de lluvias de nivel amarillo. Antequera (Naranja) (AEMET)",
+      "text": "Sierra y Pedroches: Aviso de tormentas de nivel amarillo. Sierra y Pedroches (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Antequera",
-      "fenomeno": "Moderate rain warning. Antequera",
+      "provincia": "Sierra y Pedroches",
+      "fenomeno": "Moderate thunderstorm warning. Sierra y Pedroches",
       "nivel": "Naranja",
-      "text": "Antequera: Moderate rain warning. Antequera (Naranja) (AEMET)",
+      "text": "Sierra y Pedroches: Moderate thunderstorm warning. Sierra y Pedroches (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Ronda",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Ronda",
+      "provincia": "Metropolitana y Henares",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Metropolitana y Henares",
       "nivel": "Naranja",
-      "text": "Ronda: Aviso de lluvias de nivel amarillo. Ronda (Naranja) (AEMET)",
+      "text": "Metropolitana y Henares: Aviso de lluvias de nivel amarillo. Metropolitana y Henares (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Ronda",
-      "fenomeno": "Moderate rain warning. Ronda",
+      "provincia": "Metropolitana y Henares",
+      "fenomeno": "Moderate rain warning. Metropolitana y Henares",
       "nivel": "Naranja",
-      "text": "Ronda: Moderate rain warning. Ronda (Naranja) (AEMET)",
+      "text": "Metropolitana y Henares: Moderate rain warning. Metropolitana y Henares (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Sol y Guadalhorce",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Sol y Guadalhorce",
+      "provincia": "Sur, Vegas y Oeste",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Sur, Vegas y Oeste",
       "nivel": "Naranja",
-      "text": "Sol y Guadalhorce: Aviso de lluvias de nivel amarillo. Sol y Guadalhorce (Naranja) (AEMET)",
+      "text": "Sur, Vegas y Oeste: Aviso de lluvias de nivel amarillo. Sur, Vegas y Oeste (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sol y Guadalhorce",
-      "fenomeno": "Moderate rain warning. Sol y Guadalhorce",
+      "provincia": "Sur, Vegas y Oeste",
+      "fenomeno": "Moderate rain warning. Sur, Vegas y Oeste",
       "nivel": "Naranja",
-      "text": "Sol y Guadalhorce: Moderate rain warning. Sol y Guadalhorce (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Axarquía",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Axarquía",
-      "nivel": "Naranja",
-      "text": "Axarquía: Aviso de lluvias de nivel amarillo. Axarquía (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Axarquía",
-      "fenomeno": "Moderate rain warning. Axarquía",
-      "nivel": "Naranja",
-      "text": "Axarquía: Moderate rain warning. Axarquía (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Sol y Guadalhorce",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Sol y Guadalhorce",
-      "nivel": "Naranja",
-      "text": "Sol y Guadalhorce: Aviso de lluvias de nivel amarillo. Sol y Guadalhorce (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sol y Guadalhorce",
-      "fenomeno": "Moderate rain warning. Sol y Guadalhorce",
-      "nivel": "Naranja",
-      "text": "Sol y Guadalhorce: Moderate rain warning. Sol y Guadalhorce (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Axarquía",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Axarquía",
-      "nivel": "Naranja",
-      "text": "Axarquía: Aviso de lluvias de nivel amarillo. Axarquía (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Axarquía",
-      "fenomeno": "Moderate rain warning. Axarquía",
-      "nivel": "Naranja",
-      "text": "Axarquía: Moderate rain warning. Axarquía (Naranja) (AEMET)",
+      "text": "Sur, Vegas y Oeste: Moderate rain warning. Sur, Vegas y Oeste (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Antequera",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Antequera",
+      "provincia": "Metropolitana y Henares",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Metropolitana y Henares",
       "nivel": "Naranja",
-      "text": "Antequera: Aviso de tormentas de nivel amarillo. Antequera (Naranja) (AEMET)",
+      "text": "Metropolitana y Henares: Aviso de tormentas de nivel amarillo. Metropolitana y Henares (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Antequera",
-      "fenomeno": "Moderate thunderstorm warning. Antequera",
+      "provincia": "Metropolitana y Henares",
+      "fenomeno": "Moderate thunderstorm warning. Metropolitana y Henares",
       "nivel": "Naranja",
-      "text": "Antequera: Moderate thunderstorm warning. Antequera (Naranja) (AEMET)",
+      "text": "Metropolitana y Henares: Moderate thunderstorm warning. Metropolitana y Henares (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Ronda",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Ronda",
+      "provincia": "Sur, Vegas y Oeste",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Sur, Vegas y Oeste",
       "nivel": "Naranja",
-      "text": "Ronda: Aviso de tormentas de nivel amarillo. Ronda (Naranja) (AEMET)",
+      "text": "Sur, Vegas y Oeste: Aviso de tormentas de nivel amarillo. Sur, Vegas y Oeste (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Ronda",
-      "fenomeno": "Moderate thunderstorm warning. Ronda",
+      "provincia": "Sur, Vegas y Oeste",
+      "fenomeno": "Moderate thunderstorm warning. Sur, Vegas y Oeste",
       "nivel": "Naranja",
-      "text": "Ronda: Moderate thunderstorm warning. Ronda (Naranja) (AEMET)",
+      "text": "Sur, Vegas y Oeste: Moderate thunderstorm warning. Sur, Vegas y Oeste (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Sol y Guadalhorce",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Sol y Guadalhorce",
+      "provincia": "Campiña cordobesa",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Campiña cordobesa",
       "nivel": "Naranja",
-      "text": "Sol y Guadalhorce: Aviso de tormentas de nivel amarillo. Sol y Guadalhorce (Naranja) (AEMET)",
+      "text": "Campiña cordobesa: Aviso de tormentas de nivel amarillo. Campiña cordobesa (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sol y Guadalhorce",
-      "fenomeno": "Moderate thunderstorm warning. Sol y Guadalhorce",
+      "provincia": "Campiña cordobesa",
+      "fenomeno": "Moderate thunderstorm warning. Campiña cordobesa",
       "nivel": "Naranja",
-      "text": "Sol y Guadalhorce: Moderate thunderstorm warning. Sol y Guadalhorce (Naranja) (AEMET)",
+      "text": "Campiña cordobesa: Moderate thunderstorm warning. Campiña cordobesa (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⛈️",
-      "provincia": "Axarquía",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Axarquía",
+      "icon": "🌊",
+      "provincia": "Costa - Norte de Gran Canaria",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Norte de Gran Canaria",
       "nivel": "Naranja",
-      "text": "Axarquía: Aviso de tormentas de nivel amarillo. Axarquía (Naranja) (AEMET)",
+      "text": "Costa - Norte de Gran Canaria: Aviso de costeros de nivel amarillo. Costa - Norte de Gran Canaria (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⚠️",
-      "provincia": "Axarquía",
-      "fenomeno": "Moderate thunderstorm warning. Axarquía",
+      "icon": "🌊",
+      "provincia": "Costa - Norte de Gran Canaria",
+      "fenomeno": "Moderate coastalevent warning. Costa - Norte de Gran Canaria",
       "nivel": "Naranja",
-      "text": "Axarquía: Moderate thunderstorm warning. Axarquía (Naranja) (AEMET)",
+      "text": "Costa - Norte de Gran Canaria: Moderate coastalevent warning. Costa - Norte de Gran Canaria (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Este, sur y oeste de Gran Canaria",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Este, sur y oeste de Gran Canaria",
+      "nivel": "Naranja",
+      "text": "Costa - Este, sur y oeste de Gran Canaria: Aviso de costeros de nivel amarillo. Costa - Este, sur y oeste de Gran Canaria (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Este, sur y oeste de Gran Canaria",
+      "fenomeno": "Moderate coastalevent warning. Costa - Este, sur y oeste de Gran Canaria",
+      "nivel": "Naranja",
+      "text": "Costa - Este, sur y oeste de Gran Canaria: Moderate coastalevent warning. Costa - Este, sur y oeste de Gran Canaria (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Lanzarote",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Lanzarote",
+      "nivel": "Naranja",
+      "text": "Costa - Lanzarote: Aviso de costeros de nivel amarillo. Costa - Lanzarote (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Lanzarote",
+      "fenomeno": "Moderate coastalevent warning. Costa - Lanzarote",
+      "nivel": "Naranja",
+      "text": "Costa - Lanzarote: Moderate coastalevent warning. Costa - Lanzarote (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Norte de Tenerife",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Norte de Tenerife",
+      "nivel": "Naranja",
+      "text": "Costa - Norte de Tenerife: Aviso de costeros de nivel amarillo. Costa - Norte de Tenerife (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Norte de Tenerife",
+      "fenomeno": "Moderate coastalevent warning. Costa - Norte de Tenerife",
+      "nivel": "Naranja",
+      "text": "Costa - Norte de Tenerife: Moderate coastalevent warning. Costa - Norte de Tenerife (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
