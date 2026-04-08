@@ -1,55 +1,87 @@
-// Auto-generado por GitHub Actions - 2026-04-08T08:07:56.127Z
+// Auto-generado por GitHub Actions - 2026-04-08T09:17:32.836Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-04-08T08:07:56.127Z",
+  "generated_at": "2026-04-08T09:17:32.836Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "⛈️",
-      "provincia": "Cordillera Cantábrica de León",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Cordillera Cantábrica de León",
+      "icon": "🌊",
+      "provincia": "Costa - Poniente y Almería Capital",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Poniente y Almería Capital",
       "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de León: Aviso de tormentas de nivel amarillo. Cordillera Cantábrica de León (Naranja) (AEMET)",
+      "text": "Costa - Poniente y Almería Capital: Aviso de costeros de nivel amarillo. Costa - Poniente y Almería Capital (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Poniente y Almería Capital",
+      "fenomeno": "Moderate coastalevent warning. Costa - Poniente y Almería Capital",
+      "nivel": "Naranja",
+      "text": "Costa - Poniente y Almería Capital: Moderate coastalevent warning. Costa - Poniente y Almería Capital (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Costa granadina",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Costa granadina",
+      "nivel": "Naranja",
+      "text": "Costa - Costa granadina: Aviso de costeros de nivel amarillo. Costa - Costa granadina (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Costa granadina",
+      "fenomeno": "Moderate coastalevent warning. Costa - Costa granadina",
+      "nivel": "Naranja",
+      "text": "Costa - Costa granadina: Moderate coastalevent warning. Costa - Costa granadina (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Poniente y Almería Capital",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Poniente y Almería Capital",
+      "nivel": "Naranja",
+      "text": "Poniente y Almería Capital: Aviso de vientos de nivel amarillo. Poniente y Almería Capital (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Cordillera Cantábrica de León",
-      "fenomeno": "Moderate thunderstorm warning. Cordillera Cantábrica de León",
+      "provincia": "Poniente y Almería Capital",
+      "fenomeno": "Moderate wind warning. Poniente y Almería Capital",
       "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de León: Moderate thunderstorm warning. Cordillera Cantábrica de León (Naranja) (AEMET)",
+      "text": "Poniente y Almería Capital: Moderate wind warning. Poniente y Almería Capital (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Bierzo de León",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Bierzo de León",
+      "provincia": "Valdeorras",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Valdeorras",
       "nivel": "Naranja",
-      "text": "Bierzo de León: Aviso de tormentas de nivel amarillo. Bierzo de León (Naranja) (AEMET)",
+      "text": "Valdeorras: Aviso de tormentas de nivel amarillo. Valdeorras (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Bierzo de León",
-      "fenomeno": "Moderate thunderstorm warning. Bierzo de León",
+      "provincia": "Valdeorras",
+      "fenomeno": "Moderate thunderstorm warning. Valdeorras",
       "nivel": "Naranja",
-      "text": "Bierzo de León: Moderate thunderstorm warning. Bierzo de León (Naranja) (AEMET)",
+      "text": "Valdeorras: Moderate thunderstorm warning. Valdeorras (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⛈️",
-      "provincia": "Cordillera Cantábrica de Palencia",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Cordillera Cantábrica de Palencia",
+      "icon": "🌊",
+      "provincia": "Costa - Oeste de A Coruña",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Oeste de A Coruña",
       "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de Palencia: Aviso de tormentas de nivel amarillo. Cordillera Cantábrica de Palencia (Naranja) (AEMET)",
+      "text": "Costa - Oeste de A Coruña: Aviso de costeros de nivel amarillo. Costa - Oeste de A Coruña (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⚠️",
-      "provincia": "Cordillera Cantábrica de Palencia",
-      "fenomeno": "Moderate thunderstorm warning. Cordillera Cantábrica de Palencia",
+      "icon": "🌊",
+      "provincia": "Costa - Oeste de A Coruña",
+      "fenomeno": "Moderate coastalevent warning. Costa - Oeste de A Coruña",
       "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de Palencia: Moderate thunderstorm warning. Cordillera Cantábrica de Palencia (Naranja) (AEMET)",
+      "text": "Costa - Oeste de A Coruña: Moderate coastalevent warning. Costa - Oeste de A Coruña (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -130,38 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate thunderstorm warning. Montaña de Ourense",
       "nivel": "Naranja",
       "text": "Montaña de Ourense: Moderate thunderstorm warning. Montaña de Ourense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Rias Baixas",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Rias Baixas",
-      "nivel": "Naranja",
-      "text": "Rias Baixas: Aviso de tormentas de nivel amarillo. Rias Baixas (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Rias Baixas",
-      "fenomeno": "Moderate thunderstorm warning. Rias Baixas",
-      "nivel": "Naranja",
-      "text": "Rias Baixas: Moderate thunderstorm warning. Rias Baixas (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Interior de Pontevedra",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Interior de Pontevedra",
-      "nivel": "Naranja",
-      "text": "Interior de Pontevedra: Aviso de tormentas de nivel amarillo. Interior de Pontevedra (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior de Pontevedra",
-      "fenomeno": "Moderate thunderstorm warning. Interior de Pontevedra",
-      "nivel": "Naranja",
-      "text": "Interior de Pontevedra: Moderate thunderstorm warning. Interior de Pontevedra (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
