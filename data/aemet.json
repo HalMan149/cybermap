@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-04-08T14:15:07.417Z",
+  "generated_at": "2026-04-08T15:46:39.530Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "🌊",
-      "provincia": "Costa - Lanzarote",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Lanzarote",
+      "provincia": "Costa - Poniente y Almería Capital",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Poniente y Almería Capital",
       "nivel": "Naranja",
-      "text": "Costa - Lanzarote: Aviso de costeros de nivel amarillo. Costa - Lanzarote (Naranja) (AEMET)",
+      "text": "Costa - Poniente y Almería Capital: Aviso de costeros de nivel amarillo. Costa - Poniente y Almería Capital (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Costa - Lanzarote",
-      "fenomeno": "Moderate coastalevent warning. Costa - Lanzarote",
+      "provincia": "Costa - Poniente y Almería Capital",
+      "fenomeno": "Moderate coastalevent warning. Costa - Poniente y Almería Capital",
       "nivel": "Naranja",
-      "text": "Costa - Lanzarote: Moderate coastalevent warning. Costa - Lanzarote (Naranja) (AEMET)",
+      "text": "Costa - Poniente y Almería Capital: Moderate coastalevent warning. Costa - Poniente y Almería Capital (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -148,19 +148,19 @@
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "💨",
-      "provincia": "Norte de Gran Canaria",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Norte de Gran Canaria",
+      "icon": "🌊",
+      "provincia": "Costa - La Gomera",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - La Gomera",
       "nivel": "Naranja",
-      "text": "Norte de Gran Canaria: Aviso de vientos de nivel amarillo. Norte de Gran Canaria (Naranja) (AEMET)",
+      "text": "Costa - La Gomera: Aviso de costeros de nivel amarillo. Costa - La Gomera (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⚠️",
-      "provincia": "Norte de Gran Canaria",
-      "fenomeno": "Moderate wind warning. Norte de Gran Canaria",
+      "icon": "🌊",
+      "provincia": "Costa - La Gomera",
+      "fenomeno": "Moderate coastalevent warning. Costa - La Gomera",
       "nivel": "Naranja",
-      "text": "Norte de Gran Canaria: Moderate wind warning. Norte de Gran Canaria (Naranja) (AEMET)",
+      "text": "Costa - La Gomera: Moderate coastalevent warning. Costa - La Gomera (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
