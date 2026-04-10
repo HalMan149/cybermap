@@ -1,9 +1,41 @@
-// Auto-generado por GitHub Actions - 2026-04-10T21:02:28.875Z
+// Auto-generado por GitHub Actions - 2026-04-10T21:52:41.535Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-04-10T21:02:28.875Z",
+  "generated_at": "2026-04-10T21:52:41.535Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "⛈️",
+      "provincia": "Barros y Serena",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Barros y Serena",
+      "nivel": "Naranja",
+      "text": "Barros y Serena: Aviso de tormentas de nivel amarillo. Barros y Serena (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Barros y Serena",
+      "fenomeno": "Moderate thunderstorm warning. Barros y Serena",
+      "nivel": "Naranja",
+      "text": "Barros y Serena: Moderate thunderstorm warning. Barros y Serena (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Sur de Badajoz",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Sur de Badajoz",
+      "nivel": "Naranja",
+      "text": "Sur de Badajoz: Aviso de tormentas de nivel amarillo. Sur de Badajoz (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sur de Badajoz",
+      "fenomeno": "Moderate thunderstorm warning. Sur de Badajoz",
+      "nivel": "Naranja",
+      "text": "Sur de Badajoz: Moderate thunderstorm warning. Sur de Badajoz (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Cazorla y Segura",
@@ -130,38 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate wind warning. Litoral norte de Castellón",
       "nivel": "Naranja",
       "text": "Litoral norte de Castellón: Moderate wind warning. Litoral norte de Castellón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Antequera",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Antequera",
-      "nivel": "Naranja",
-      "text": "Antequera: Aviso de lluvias de nivel amarillo. Antequera (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Antequera",
-      "fenomeno": "Moderate rain warning. Antequera",
-      "nivel": "Naranja",
-      "text": "Antequera: Moderate rain warning. Antequera (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Antequera",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Antequera",
-      "nivel": "Naranja",
-      "text": "Antequera: Aviso de tormentas de nivel amarillo. Antequera (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Antequera",
-      "fenomeno": "Moderate thunderstorm warning. Antequera",
-      "nivel": "Naranja",
-      "text": "Antequera: Moderate thunderstorm warning. Antequera (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
