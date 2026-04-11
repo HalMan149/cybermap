@@ -1,9 +1,105 @@
-// Auto-generado por GitHub Actions - 2026-04-11T14:05:08.532Z
+// Auto-generado por GitHub Actions - 2026-04-11T14:53:45.927Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-04-11T14:05:08.532Z",
+  "generated_at": "2026-04-11T14:53:45.927Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Ampurdán",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Ampurdán",
+      "nivel": "Rojo",
+      "text": "Costa - Ampurdán: Aviso de costeros de nivel naranja. Costa - Ampurdán (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Ampurdán",
+      "fenomeno": "Severe coastalevent warning. Costa - Ampurdán",
+      "nivel": "Rojo",
+      "text": "Costa - Ampurdán: Severe coastalevent warning. Costa - Ampurdán (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Menorca",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Menorca",
+      "nivel": "Rojo",
+      "text": "Costa - Menorca: Aviso de costeros de nivel naranja. Costa - Menorca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Menorca",
+      "fenomeno": "Severe coastalevent warning. Costa - Menorca",
+      "nivel": "Rojo",
+      "text": "Costa - Menorca: Severe coastalevent warning. Costa - Menorca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Valle de Arán",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Valle de Arán",
+      "nivel": "Naranja",
+      "text": "Valle de Arán: Aviso de nevadas de nivel amarillo. Valle de Arán (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Valle de Arán",
+      "fenomeno": "Moderate snow warning. Valle de Arán",
+      "nivel": "Naranja",
+      "text": "Valle de Arán: Moderate snow warning. Valle de Arán (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Ampurdán",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Ampurdán",
+      "nivel": "Naranja",
+      "text": "Ampurdán: Aviso de vientos de nivel amarillo. Ampurdán (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ampurdán",
+      "fenomeno": "Moderate wind warning. Ampurdán",
+      "nivel": "Naranja",
+      "text": "Ampurdán: Moderate wind warning. Ampurdán (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Litoral sur de Tarragona",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Litoral sur de Tarragona",
+      "nivel": "Naranja",
+      "text": "Litoral sur de Tarragona: Aviso de vientos de nivel amarillo. Litoral sur de Tarragona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral sur de Tarragona",
+      "fenomeno": "Moderate wind warning. Litoral sur de Tarragona",
+      "nivel": "Naranja",
+      "text": "Litoral sur de Tarragona: Moderate wind warning. Litoral sur de Tarragona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Prelitoral sur de Tarragona",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Prelitoral sur de Tarragona",
+      "nivel": "Naranja",
+      "text": "Prelitoral sur de Tarragona: Aviso de vientos de nivel amarillo. Prelitoral sur de Tarragona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Prelitoral sur de Tarragona",
+      "fenomeno": "Moderate wind warning. Prelitoral sur de Tarragona",
+      "nivel": "Naranja",
+      "text": "Prelitoral sur de Tarragona: Moderate wind warning. Prelitoral sur de Tarragona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "💨",
       "provincia": "Interior norte de Castellón",
@@ -38,130 +134,34 @@ window.AEMET_AVISOS = {
     },
     {
       "icon": "💨",
-      "provincia": "Cumbres de Gran Canaria",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Cumbres de Gran Canaria",
+      "provincia": "Interior sur de Castellón",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Interior sur de Castellón",
       "nivel": "Naranja",
-      "text": "Cumbres de Gran Canaria: Aviso de vientos de nivel amarillo. Cumbres de Gran Canaria (Naranja) (AEMET)",
+      "text": "Interior sur de Castellón: Aviso de vientos de nivel amarillo. Interior sur de Castellón (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Cumbres de Gran Canaria",
-      "fenomeno": "Moderate wind warning. Cumbres de Gran Canaria",
+      "provincia": "Interior sur de Castellón",
+      "fenomeno": "Moderate wind warning. Interior sur de Castellón",
       "nivel": "Naranja",
-      "text": "Cumbres de Gran Canaria: Moderate wind warning. Cumbres de Gran Canaria (Naranja) (AEMET)",
+      "text": "Interior sur de Castellón: Moderate wind warning. Interior sur de Castellón (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "💨",
-      "provincia": "Este, sur y oeste de Gran Canaria",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Este, sur y oeste de Gran Canaria",
+      "provincia": "Litoral sur de Castellón",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Litoral sur de Castellón",
       "nivel": "Naranja",
-      "text": "Este, sur y oeste de Gran Canaria: Aviso de vientos de nivel amarillo. Este, sur y oeste de Gran Canaria (Naranja) (AEMET)",
+      "text": "Litoral sur de Castellón: Aviso de vientos de nivel amarillo. Litoral sur de Castellón (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Este, sur y oeste de Gran Canaria",
-      "fenomeno": "Moderate wind warning. Este, sur y oeste de Gran Canaria",
+      "provincia": "Litoral sur de Castellón",
+      "fenomeno": "Moderate wind warning. Litoral sur de Castellón",
       "nivel": "Naranja",
-      "text": "Este, sur y oeste de Gran Canaria: Moderate wind warning. Este, sur y oeste de Gran Canaria (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Cumbres de La Palma",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Cumbres de La Palma",
-      "nivel": "Naranja",
-      "text": "Cumbres de La Palma: Aviso de vientos de nivel amarillo. Cumbres de La Palma (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cumbres de La Palma",
-      "fenomeno": "Moderate wind warning. Cumbres de La Palma",
-      "nivel": "Naranja",
-      "text": "Cumbres de La Palma: Moderate wind warning. Cumbres de La Palma (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Este de La Palma",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Este de La Palma",
-      "nivel": "Naranja",
-      "text": "Este de La Palma: Aviso de vientos de nivel amarillo. Este de La Palma (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Este de La Palma",
-      "fenomeno": "Moderate wind warning. Este de La Palma",
-      "nivel": "Naranja",
-      "text": "Este de La Palma: Moderate wind warning. Este de La Palma (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Oeste de La Palma",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Oeste de La Palma",
-      "nivel": "Naranja",
-      "text": "Oeste de La Palma: Aviso de vientos de nivel amarillo. Oeste de La Palma (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Oeste de La Palma",
-      "fenomeno": "Moderate wind warning. Oeste de La Palma",
-      "nivel": "Naranja",
-      "text": "Oeste de La Palma: Moderate wind warning. Oeste de La Palma (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "La Gomera",
-      "fenomeno": "Aviso de vientos de nivel amarillo. La Gomera",
-      "nivel": "Naranja",
-      "text": "La Gomera: Aviso de vientos de nivel amarillo. La Gomera (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "La Gomera",
-      "fenomeno": "Moderate wind warning. La Gomera",
-      "nivel": "Naranja",
-      "text": "La Gomera: Moderate wind warning. La Gomera (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "El Hierro",
-      "fenomeno": "Aviso de vientos de nivel amarillo. El Hierro",
-      "nivel": "Naranja",
-      "text": "El Hierro: Aviso de vientos de nivel amarillo. El Hierro (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "El Hierro",
-      "fenomeno": "Moderate wind warning. El Hierro",
-      "nivel": "Naranja",
-      "text": "El Hierro: Moderate wind warning. El Hierro (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Norte de Tenerife",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Norte de Tenerife",
-      "nivel": "Naranja",
-      "text": "Norte de Tenerife: Aviso de vientos de nivel amarillo. Norte de Tenerife (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Norte de Tenerife",
-      "fenomeno": "Moderate wind warning. Norte de Tenerife",
-      "nivel": "Naranja",
-      "text": "Norte de Tenerife: Moderate wind warning. Norte de Tenerife (Naranja) (AEMET)",
+      "text": "Litoral sur de Castellón: Moderate wind warning. Litoral sur de Castellón (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
