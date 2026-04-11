@@ -1,166 +1,166 @@
 {
-  "generated_at": "2026-04-11T09:05:23.711Z",
+  "generated_at": "2026-04-11T09:55:25.048Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral cántabro",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Litoral cántabro",
-      "nivel": "Rojo",
-      "text": "Costa - Litoral cántabro: Aviso de costeros de nivel naranja. Costa - Litoral cántabro (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral cántabro",
-      "fenomeno": "Severe coastalevent warning. Costa - Litoral cántabro",
-      "nivel": "Rojo",
-      "text": "Costa - Litoral cántabro: Severe coastalevent warning. Costa - Litoral cántabro (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Bizkaia litoral",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Bizkaia litoral",
-      "nivel": "Rojo",
-      "text": "Costa - Bizkaia litoral: Aviso de costeros de nivel naranja. Costa - Bizkaia litoral (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Bizkaia litoral",
-      "fenomeno": "Severe coastalevent warning. Costa - Bizkaia litoral",
-      "nivel": "Rojo",
-      "text": "Costa - Bizkaia litoral: Severe coastalevent warning. Costa - Bizkaia litoral (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral cántabro",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral cántabro",
+      "icon": "💨",
+      "provincia": "Interior norte de Castellón",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Interior norte de Castellón",
       "nivel": "Naranja",
-      "text": "Costa - Litoral cántabro: Aviso de costeros de nivel amarillo. Costa - Litoral cántabro (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral cántabro",
-      "fenomeno": "Moderate coastalevent warning. Costa - Litoral cántabro",
-      "nivel": "Naranja",
-      "text": "Costa - Litoral cántabro: Moderate coastalevent warning. Costa - Litoral cántabro (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Bizkaia litoral",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Bizkaia litoral",
-      "nivel": "Naranja",
-      "text": "Costa - Bizkaia litoral: Aviso de costeros de nivel amarillo. Costa - Bizkaia litoral (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Bizkaia litoral",
-      "fenomeno": "Moderate coastalevent warning. Costa - Bizkaia litoral",
-      "nivel": "Naranja",
-      "text": "Costa - Bizkaia litoral: Moderate coastalevent warning. Costa - Bizkaia litoral (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Pirineo navarro",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Pirineo navarro",
-      "nivel": "Naranja",
-      "text": "Pirineo navarro: Aviso de nevadas de nivel amarillo. Pirineo navarro (Naranja) (AEMET)",
+      "text": "Interior norte de Castellón: Aviso de vientos de nivel amarillo. Interior norte de Castellón (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Pirineo navarro",
-      "fenomeno": "Moderate snow warning. Pirineo navarro",
+      "provincia": "Interior norte de Castellón",
+      "fenomeno": "Moderate wind warning. Interior norte de Castellón",
       "nivel": "Naranja",
-      "text": "Pirineo navarro: Moderate snow warning. Pirineo navarro (Naranja) (AEMET)",
+      "text": "Interior norte de Castellón: Moderate wind warning. Interior norte de Castellón (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Costa - Gipuzkoa litoral",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Gipuzkoa litoral",
+      "icon": "💨",
+      "provincia": "Litoral norte de Castellón",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Litoral norte de Castellón",
       "nivel": "Naranja",
-      "text": "Costa - Gipuzkoa litoral: Aviso de costeros de nivel amarillo. Costa - Gipuzkoa litoral (Naranja) (AEMET)",
+      "text": "Litoral norte de Castellón: Aviso de vientos de nivel amarillo. Litoral norte de Castellón (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Costa - Gipuzkoa litoral",
-      "fenomeno": "Moderate coastalevent warning. Costa - Gipuzkoa litoral",
+      "icon": "⚠️",
+      "provincia": "Litoral norte de Castellón",
+      "fenomeno": "Moderate wind warning. Litoral norte de Castellón",
       "nivel": "Naranja",
-      "text": "Costa - Gipuzkoa litoral: Moderate coastalevent warning. Costa - Gipuzkoa litoral (Naranja) (AEMET)",
+      "text": "Litoral norte de Castellón: Moderate wind warning. Litoral norte de Castellón (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral cántabro",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral cántabro",
+      "icon": "💨",
+      "provincia": "Cumbres de Gran Canaria",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Cumbres de Gran Canaria",
       "nivel": "Naranja",
-      "text": "Costa - Litoral cántabro: Aviso de costeros de nivel amarillo. Costa - Litoral cántabro (Naranja) (AEMET)",
+      "text": "Cumbres de Gran Canaria: Aviso de vientos de nivel amarillo. Cumbres de Gran Canaria (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral cántabro",
-      "fenomeno": "Moderate coastalevent warning. Costa - Litoral cántabro",
+      "icon": "⚠️",
+      "provincia": "Cumbres de Gran Canaria",
+      "fenomeno": "Moderate wind warning. Cumbres de Gran Canaria",
       "nivel": "Naranja",
-      "text": "Costa - Litoral cántabro: Moderate coastalevent warning. Costa - Litoral cántabro (Naranja) (AEMET)",
+      "text": "Cumbres de Gran Canaria: Moderate wind warning. Cumbres de Gran Canaria (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Costa - Bizkaia litoral",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Bizkaia litoral",
+      "icon": "💨",
+      "provincia": "Este, sur y oeste de Gran Canaria",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Este, sur y oeste de Gran Canaria",
       "nivel": "Naranja",
-      "text": "Costa - Bizkaia litoral: Aviso de costeros de nivel amarillo. Costa - Bizkaia litoral (Naranja) (AEMET)",
+      "text": "Este, sur y oeste de Gran Canaria: Aviso de vientos de nivel amarillo. Este, sur y oeste de Gran Canaria (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Costa - Bizkaia litoral",
-      "fenomeno": "Moderate coastalevent warning. Costa - Bizkaia litoral",
+      "icon": "⚠️",
+      "provincia": "Este, sur y oeste de Gran Canaria",
+      "fenomeno": "Moderate wind warning. Este, sur y oeste de Gran Canaria",
       "nivel": "Naranja",
-      "text": "Costa - Bizkaia litoral: Moderate coastalevent warning. Costa - Bizkaia litoral (Naranja) (AEMET)",
+      "text": "Este, sur y oeste de Gran Canaria: Moderate wind warning. Este, sur y oeste de Gran Canaria (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Costa - Noroeste de A Coruña",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Noroeste de A Coruña",
-      "nivel": "Rojo",
-      "text": "Costa - Noroeste de A Coruña: Aviso de costeros de nivel naranja. Costa - Noroeste de A Coruña (Rojo) (AEMET)",
+      "icon": "💨",
+      "provincia": "Cumbres de La Palma",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Cumbres de La Palma",
+      "nivel": "Naranja",
+      "text": "Cumbres de La Palma: Aviso de vientos de nivel amarillo. Cumbres de La Palma (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Costa - Noroeste de A Coruña",
-      "fenomeno": "Severe coastalevent warning. Costa - Noroeste de A Coruña",
-      "nivel": "Rojo",
-      "text": "Costa - Noroeste de A Coruña: Severe coastalevent warning. Costa - Noroeste de A Coruña (Rojo) (AEMET)",
+      "icon": "⚠️",
+      "provincia": "Cumbres de La Palma",
+      "fenomeno": "Moderate wind warning. Cumbres de La Palma",
+      "nivel": "Naranja",
+      "text": "Cumbres de La Palma: Moderate wind warning. Cumbres de La Palma (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Costa - Oeste de A Coruña",
-      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Oeste de A Coruña",
-      "nivel": "Rojo",
-      "text": "Costa - Oeste de A Coruña: Aviso de costeros de nivel naranja. Costa - Oeste de A Coruña (Rojo) (AEMET)",
+      "icon": "💨",
+      "provincia": "Este de La Palma",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Este de La Palma",
+      "nivel": "Naranja",
+      "text": "Este de La Palma: Aviso de vientos de nivel amarillo. Este de La Palma (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Costa - Oeste de A Coruña",
-      "fenomeno": "Severe coastalevent warning. Costa - Oeste de A Coruña",
-      "nivel": "Rojo",
-      "text": "Costa - Oeste de A Coruña: Severe coastalevent warning. Costa - Oeste de A Coruña (Rojo) (AEMET)",
+      "icon": "⚠️",
+      "provincia": "Este de La Palma",
+      "fenomeno": "Moderate wind warning. Este de La Palma",
+      "nivel": "Naranja",
+      "text": "Este de La Palma: Moderate wind warning. Este de La Palma (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Oeste de La Palma",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Oeste de La Palma",
+      "nivel": "Naranja",
+      "text": "Oeste de La Palma: Aviso de vientos de nivel amarillo. Oeste de La Palma (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Oeste de La Palma",
+      "fenomeno": "Moderate wind warning. Oeste de La Palma",
+      "nivel": "Naranja",
+      "text": "Oeste de La Palma: Moderate wind warning. Oeste de La Palma (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "La Gomera",
+      "fenomeno": "Aviso de vientos de nivel amarillo. La Gomera",
+      "nivel": "Naranja",
+      "text": "La Gomera: Aviso de vientos de nivel amarillo. La Gomera (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "La Gomera",
+      "fenomeno": "Moderate wind warning. La Gomera",
+      "nivel": "Naranja",
+      "text": "La Gomera: Moderate wind warning. La Gomera (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "El Hierro",
+      "fenomeno": "Aviso de vientos de nivel amarillo. El Hierro",
+      "nivel": "Naranja",
+      "text": "El Hierro: Aviso de vientos de nivel amarillo. El Hierro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "El Hierro",
+      "fenomeno": "Moderate wind warning. El Hierro",
+      "nivel": "Naranja",
+      "text": "El Hierro: Moderate wind warning. El Hierro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Norte de Tenerife",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Norte de Tenerife",
+      "nivel": "Naranja",
+      "text": "Norte de Tenerife: Aviso de vientos de nivel amarillo. Norte de Tenerife (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Norte de Tenerife",
+      "fenomeno": "Moderate wind warning. Norte de Tenerife",
+      "nivel": "Naranja",
+      "text": "Norte de Tenerife: Moderate wind warning. Norte de Tenerife (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
