@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2026-04-11T05:38:46.647Z
+// Auto-generado por GitHub Actions - 2026-04-11T06:41:10.483Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-04-11T05:38:46.647Z",
+  "generated_at": "2026-04-11T06:41:10.483Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "⛈️",
+      "provincia": "Sol y Guadalhorce",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Sol y Guadalhorce",
+      "nivel": "Naranja",
+      "text": "Sol y Guadalhorce: Aviso de tormentas de nivel amarillo. Sol y Guadalhorce (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sol y Guadalhorce",
+      "fenomeno": "Moderate thunderstorm warning. Sol y Guadalhorce",
+      "nivel": "Naranja",
+      "text": "Sol y Guadalhorce: Moderate thunderstorm warning. Sol y Guadalhorce (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌊",
       "provincia": "Costa - Ampurdán",
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate coastalevent warning. Costa - Litoral oriental asturiano",
       "nivel": "Naranja",
       "text": "Costa - Litoral oriental asturiano: Moderate coastalevent warning. Costa - Litoral oriental asturiano (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Norte y nordeste de Mallorca",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Norte y nordeste de Mallorca",
-      "nivel": "Naranja",
-      "text": "Costa - Norte y nordeste de Mallorca: Aviso de costeros de nivel amarillo. Costa - Norte y nordeste de Mallorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Norte y nordeste de Mallorca",
-      "fenomeno": "Moderate coastalevent warning. Costa - Norte y nordeste de Mallorca",
-      "nivel": "Naranja",
-      "text": "Costa - Norte y nordeste de Mallorca: Moderate coastalevent warning. Costa - Norte y nordeste de Mallorca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
