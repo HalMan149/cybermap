@@ -1,9 +1,105 @@
-// Auto-generado por GitHub Actions - 2026-04-12T15:57:06.541Z
+// Auto-generado por GitHub Actions - 2026-04-12T16:35:39.890Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-04-12T15:57:06.541Z",
+  "generated_at": "2026-04-12T16:35:39.890Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "💨",
+      "provincia": "Interior norte de Castellón",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Interior norte de Castellón",
+      "nivel": "Naranja",
+      "text": "Interior norte de Castellón: Aviso de vientos de nivel amarillo. Interior norte de Castellón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior norte de Castellón",
+      "fenomeno": "Moderate wind warning. Interior norte de Castellón",
+      "nivel": "Naranja",
+      "text": "Interior norte de Castellón: Moderate wind warning. Interior norte de Castellón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Interior sur de Valencia",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Interior sur de Valencia",
+      "nivel": "Naranja",
+      "text": "Interior sur de Valencia: Aviso de lluvias de nivel amarillo. Interior sur de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior sur de Valencia",
+      "fenomeno": "Moderate rain warning. Interior sur de Valencia",
+      "nivel": "Naranja",
+      "text": "Interior sur de Valencia: Moderate rain warning. Interior sur de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "La Mancha de Ciudad Real",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. La Mancha de Ciudad Real",
+      "nivel": "Naranja",
+      "text": "La Mancha de Ciudad Real: Aviso de lluvias de nivel amarillo. La Mancha de Ciudad Real (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "La Mancha de Ciudad Real",
+      "fenomeno": "Moderate rain warning. La Mancha de Ciudad Real",
+      "nivel": "Naranja",
+      "text": "La Mancha de Ciudad Real: Moderate rain warning. La Mancha de Ciudad Real (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "La Mancha de Ciudad Real",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. La Mancha de Ciudad Real",
+      "nivel": "Naranja",
+      "text": "La Mancha de Ciudad Real: Aviso de tormentas de nivel amarillo. La Mancha de Ciudad Real (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "La Mancha de Ciudad Real",
+      "fenomeno": "Moderate thunderstorm warning. La Mancha de Ciudad Real",
+      "nivel": "Naranja",
+      "text": "La Mancha de Ciudad Real: Moderate thunderstorm warning. La Mancha de Ciudad Real (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "La Mancha albaceteña",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. La Mancha albaceteña",
+      "nivel": "Naranja",
+      "text": "La Mancha albaceteña: Aviso de lluvias de nivel amarillo. La Mancha albaceteña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "La Mancha albaceteña",
+      "fenomeno": "Moderate rain warning. La Mancha albaceteña",
+      "nivel": "Naranja",
+      "text": "La Mancha albaceteña: Moderate rain warning. La Mancha albaceteña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "La Mancha albaceteña",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. La Mancha albaceteña",
+      "nivel": "Naranja",
+      "text": "La Mancha albaceteña: Aviso de tormentas de nivel amarillo. La Mancha albaceteña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "La Mancha albaceteña",
+      "fenomeno": "Moderate thunderstorm warning. La Mancha albaceteña",
+      "nivel": "Naranja",
+      "text": "La Mancha albaceteña: Moderate thunderstorm warning. La Mancha albaceteña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "💨",
       "provincia": "Ampurdán",
@@ -66,102 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate wind warning. Cumbres de Gran Canaria",
       "nivel": "Naranja",
       "text": "Cumbres de Gran Canaria: Moderate wind warning. Cumbres de Gran Canaria (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Lanzarote",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Lanzarote",
-      "nivel": "Naranja",
-      "text": "Lanzarote: Aviso de vientos de nivel amarillo. Lanzarote (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Lanzarote",
-      "fenomeno": "Moderate wind warning. Lanzarote",
-      "nivel": "Naranja",
-      "text": "Lanzarote: Moderate wind warning. Lanzarote (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Cumbres de La Palma",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Cumbres de La Palma",
-      "nivel": "Naranja",
-      "text": "Cumbres de La Palma: Aviso de vientos de nivel amarillo. Cumbres de La Palma (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cumbres de La Palma",
-      "fenomeno": "Moderate wind warning. Cumbres de La Palma",
-      "nivel": "Naranja",
-      "text": "Cumbres de La Palma: Moderate wind warning. Cumbres de La Palma (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "La Gomera",
-      "fenomeno": "Aviso de vientos de nivel amarillo. La Gomera",
-      "nivel": "Naranja",
-      "text": "La Gomera: Aviso de vientos de nivel amarillo. La Gomera (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "La Gomera",
-      "fenomeno": "Moderate wind warning. La Gomera",
-      "nivel": "Naranja",
-      "text": "La Gomera: Moderate wind warning. La Gomera (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "El Hierro",
-      "fenomeno": "Aviso de vientos de nivel amarillo. El Hierro",
-      "nivel": "Naranja",
-      "text": "El Hierro: Aviso de vientos de nivel amarillo. El Hierro (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "El Hierro",
-      "fenomeno": "Moderate wind warning. El Hierro",
-      "nivel": "Naranja",
-      "text": "El Hierro: Moderate wind warning. El Hierro (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Este, sur y oeste de Tenerife",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Este, sur y oeste de Tenerife",
-      "nivel": "Naranja",
-      "text": "Este, sur y oeste de Tenerife: Aviso de vientos de nivel amarillo. Este, sur y oeste de Tenerife (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Este, sur y oeste de Tenerife",
-      "fenomeno": "Moderate wind warning. Este, sur y oeste de Tenerife",
-      "nivel": "Naranja",
-      "text": "Este, sur y oeste de Tenerife: Moderate wind warning. Este, sur y oeste de Tenerife (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Este, sur y oeste de Gran Canaria",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Este, sur y oeste de Gran Canaria",
-      "nivel": "Naranja",
-      "text": "Costa - Este, sur y oeste de Gran Canaria: Aviso de costeros de nivel amarillo. Costa - Este, sur y oeste de Gran Canaria (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Este, sur y oeste de Gran Canaria",
-      "fenomeno": "Moderate coastalevent warning. Costa - Este, sur y oeste de Gran Canaria",
-      "nivel": "Naranja",
-      "text": "Costa - Este, sur y oeste de Gran Canaria: Moderate coastalevent warning. Costa - Este, sur y oeste de Gran Canaria (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
