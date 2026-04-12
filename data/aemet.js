@@ -1,9 +1,41 @@
-// Auto-generado por GitHub Actions - 2026-04-12T05:06:07.536Z
+// Auto-generado por GitHub Actions - 2026-04-12T06:47:12.131Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-04-12T05:06:07.536Z",
+  "generated_at": "2026-04-12T06:47:12.131Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Antequera",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Antequera",
+      "nivel": "Naranja",
+      "text": "Antequera: Aviso de lluvias de nivel amarillo. Antequera (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Antequera",
+      "fenomeno": "Moderate rain warning. Antequera",
+      "nivel": "Naranja",
+      "text": "Antequera: Moderate rain warning. Antequera (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Antequera",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Antequera",
+      "nivel": "Naranja",
+      "text": "Antequera: Aviso de tormentas de nivel amarillo. Antequera (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Antequera",
+      "fenomeno": "Moderate thunderstorm warning. Antequera",
+      "nivel": "Naranja",
+      "text": "Antequera: Moderate thunderstorm warning. Antequera (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌊",
       "provincia": "Costa - Menorca",
@@ -130,38 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate rain warning. Campo de Cartagena y Mazarrón",
       "nivel": "Naranja",
       "text": "Campo de Cartagena y Mazarrón: Moderate rain warning. Campo de Cartagena y Mazarrón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Interior de Alicante",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Interior de Alicante",
-      "nivel": "Naranja",
-      "text": "Interior de Alicante: Aviso de lluvias de nivel amarillo. Interior de Alicante (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior de Alicante",
-      "fenomeno": "Moderate rain warning. Interior de Alicante",
-      "nivel": "Naranja",
-      "text": "Interior de Alicante: Moderate rain warning. Interior de Alicante (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Litoral sur de Alicante",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral sur de Alicante",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Alicante: Aviso de lluvias de nivel amarillo. Litoral sur de Alicante (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral sur de Alicante",
-      "fenomeno": "Moderate rain warning. Litoral sur de Alicante",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Alicante: Moderate rain warning. Litoral sur de Alicante (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
