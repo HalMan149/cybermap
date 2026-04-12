@@ -1,23 +1,55 @@
-// Auto-generado por GitHub Actions - 2026-04-11T23:56:07.418Z
+// Auto-generado por GitHub Actions - 2026-04-12T02:04:21.151Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-04-11T23:56:07.418Z",
+  "generated_at": "2026-04-12T02:04:21.151Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "⛈️",
-      "provincia": "Ronda",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Ronda",
+      "icon": "🌊",
+      "provincia": "Costa - Menorca",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Menorca",
       "nivel": "Naranja",
-      "text": "Ronda: Aviso de tormentas de nivel amarillo. Ronda (Naranja) (AEMET)",
+      "text": "Costa - Menorca: Aviso de costeros de nivel amarillo. Costa - Menorca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⚠️",
-      "provincia": "Ronda",
-      "fenomeno": "Moderate thunderstorm warning. Ronda",
+      "icon": "🌊",
+      "provincia": "Costa - Menorca",
+      "fenomeno": "Moderate coastalevent warning. Costa - Menorca",
       "nivel": "Naranja",
-      "text": "Ronda: Moderate thunderstorm warning. Ronda (Naranja) (AEMET)",
+      "text": "Costa - Menorca: Moderate coastalevent warning. Costa - Menorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Ampurdán",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Ampurdán",
+      "nivel": "Naranja",
+      "text": "Costa - Ampurdán: Aviso de costeros de nivel amarillo. Costa - Ampurdán (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Ampurdán",
+      "fenomeno": "Moderate coastalevent warning. Costa - Ampurdán",
+      "nivel": "Naranja",
+      "text": "Costa - Ampurdán: Moderate coastalevent warning. Costa - Ampurdán (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Lanzarote",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Lanzarote",
+      "nivel": "Naranja",
+      "text": "Costa - Lanzarote: Aviso de costeros de nivel amarillo. Costa - Lanzarote (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Lanzarote",
+      "fenomeno": "Moderate coastalevent warning. Costa - Lanzarote",
+      "nivel": "Naranja",
+      "text": "Costa - Lanzarote: Moderate coastalevent warning. Costa - Lanzarote (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -130,38 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate rain warning. Litoral sur de Alicante",
       "nivel": "Naranja",
       "text": "Litoral sur de Alicante: Moderate rain warning. Litoral sur de Alicante (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Melilla",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Melilla",
-      "nivel": "Naranja",
-      "text": "Melilla: Aviso de vientos de nivel amarillo. Melilla (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Melilla",
-      "fenomeno": "Moderate wind warning. Melilla",
-      "nivel": "Naranja",
-      "text": "Melilla: Moderate wind warning. Melilla (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Hellín y Almansa",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Hellín y Almansa",
-      "nivel": "Naranja",
-      "text": "Hellín y Almansa: Aviso de tormentas de nivel amarillo. Hellín y Almansa (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Hellín y Almansa",
-      "fenomeno": "Moderate thunderstorm warning. Hellín y Almansa",
-      "nivel": "Naranja",
-      "text": "Hellín y Almansa: Moderate thunderstorm warning. Hellín y Almansa (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
