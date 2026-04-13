@@ -1,8 +1,24 @@
 {
-  "generated_at": "2026-04-13T11:58:53.498Z",
+  "generated_at": "2026-04-13T13:43:59.251Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Melilla",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Melilla",
+      "nivel": "Naranja",
+      "text": "Costa - Melilla: Aviso de costeros de nivel amarillo. Costa - Melilla (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Melilla",
+      "fenomeno": "Moderate coastalevent warning. Costa - Melilla",
+      "nivel": "Naranja",
+      "text": "Costa - Melilla: Moderate coastalevent warning. Costa - Melilla (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "💨",
       "provincia": "Cumbres de Gran Canaria",
@@ -145,22 +161,6 @@
       "fenomeno": "Moderate coastalevent warning. Costa - Este, sur y oeste de Gran Canaria",
       "nivel": "Naranja",
       "text": "Costa - Este, sur y oeste de Gran Canaria: Moderate coastalevent warning. Costa - Este, sur y oeste de Gran Canaria (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Lanzarote",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Lanzarote",
-      "nivel": "Naranja",
-      "text": "Costa - Lanzarote: Aviso de costeros de nivel amarillo. Costa - Lanzarote (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Lanzarote",
-      "fenomeno": "Moderate coastalevent warning. Costa - Lanzarote",
-      "nivel": "Naranja",
-      "text": "Costa - Lanzarote: Moderate coastalevent warning. Costa - Lanzarote (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
