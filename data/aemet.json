@@ -1,70 +1,54 @@
 {
-  "generated_at": "2026-04-13T04:54:47.873Z",
+  "generated_at": "2026-04-13T07:10:33.066Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
+      "icon": "🌊",
+      "provincia": "Costa - Ampurdán",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Ampurdán",
+      "nivel": "Rojo",
+      "text": "Costa - Ampurdán: Aviso de costeros de nivel naranja. Costa - Ampurdán (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Ampurdán",
+      "fenomeno": "Severe coastalevent warning. Costa - Ampurdán",
+      "nivel": "Rojo",
+      "text": "Costa - Ampurdán: Severe coastalevent warning. Costa - Ampurdán (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral sur de Tarragona",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral sur de Tarragona",
+      "nivel": "Naranja",
+      "text": "Costa - Litoral sur de Tarragona: Aviso de costeros de nivel amarillo. Costa - Litoral sur de Tarragona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral sur de Tarragona",
+      "fenomeno": "Moderate coastalevent warning. Costa - Litoral sur de Tarragona",
+      "nivel": "Naranja",
+      "text": "Costa - Litoral sur de Tarragona: Moderate coastalevent warning. Costa - Litoral sur de Tarragona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
       "icon": "💨",
-      "provincia": "Alcaraz y Segura",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Alcaraz y Segura",
+      "provincia": "Ampurdán",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Ampurdán",
       "nivel": "Naranja",
-      "text": "Alcaraz y Segura: Aviso de vientos de nivel amarillo. Alcaraz y Segura (Naranja) (AEMET)",
+      "text": "Ampurdán: Aviso de vientos de nivel amarillo. Ampurdán (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Alcaraz y Segura",
-      "fenomeno": "Moderate wind warning. Alcaraz y Segura",
+      "provincia": "Ampurdán",
+      "fenomeno": "Moderate wind warning. Ampurdán",
       "nivel": "Naranja",
-      "text": "Alcaraz y Segura: Moderate wind warning. Alcaraz y Segura (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Valle del Almanzora y Los Vélez",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Valle del Almanzora y Los Vélez",
-      "nivel": "Naranja",
-      "text": "Valle del Almanzora y Los Vélez: Aviso de vientos de nivel amarillo. Valle del Almanzora y Los Vélez (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Valle del Almanzora y Los Vélez",
-      "fenomeno": "Moderate wind warning. Valle del Almanzora y Los Vélez",
-      "nivel": "Naranja",
-      "text": "Valle del Almanzora y Los Vélez: Moderate wind warning. Valle del Almanzora y Los Vélez (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Noroeste de Murcia",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Noroeste de Murcia",
-      "nivel": "Naranja",
-      "text": "Noroeste de Murcia: Aviso de vientos de nivel amarillo. Noroeste de Murcia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Noroeste de Murcia",
-      "fenomeno": "Moderate wind warning. Noroeste de Murcia",
-      "nivel": "Naranja",
-      "text": "Noroeste de Murcia: Moderate wind warning. Noroeste de Murcia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Valle de Arán",
-      "fenomeno": "Aviso de nevadas de nivel amarillo. Valle de Arán",
-      "nivel": "Naranja",
-      "text": "Valle de Arán: Aviso de nevadas de nivel amarillo. Valle de Arán (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Valle de Arán",
-      "fenomeno": "Moderate snow warning. Valle de Arán",
-      "nivel": "Naranja",
-      "text": "Valle de Arán: Moderate snow warning. Valle de Arán (Naranja) (AEMET)",
+      "text": "Ampurdán: Moderate wind warning. Ampurdán (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -84,83 +68,99 @@
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
+      "icon": "🌊",
+      "provincia": "Costa - Menorca",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Menorca",
+      "nivel": "Rojo",
+      "text": "Costa - Menorca: Aviso de costeros de nivel naranja. Costa - Menorca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Menorca",
+      "fenomeno": "Severe coastalevent warning. Costa - Menorca",
+      "nivel": "Rojo",
+      "text": "Costa - Menorca: Severe coastalevent warning. Costa - Menorca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Sierra Tramontana",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Sierra Tramontana",
+      "nivel": "Naranja",
+      "text": "Costa - Sierra Tramontana: Aviso de costeros de nivel amarillo. Costa - Sierra Tramontana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Sierra Tramontana",
+      "fenomeno": "Moderate coastalevent warning. Costa - Sierra Tramontana",
+      "nivel": "Naranja",
+      "text": "Costa - Sierra Tramontana: Moderate coastalevent warning. Costa - Sierra Tramontana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Norte y nordeste de Mallorca",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Norte y nordeste de Mallorca",
+      "nivel": "Naranja",
+      "text": "Costa - Norte y nordeste de Mallorca: Aviso de costeros de nivel amarillo. Costa - Norte y nordeste de Mallorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Norte y nordeste de Mallorca",
+      "fenomeno": "Moderate coastalevent warning. Costa - Norte y nordeste de Mallorca",
+      "nivel": "Naranja",
+      "text": "Costa - Norte y nordeste de Mallorca: Moderate coastalevent warning. Costa - Norte y nordeste de Mallorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Levante mallorquín",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Levante mallorquín",
+      "nivel": "Naranja",
+      "text": "Costa - Levante mallorquín: Aviso de costeros de nivel amarillo. Costa - Levante mallorquín (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Levante mallorquín",
+      "fenomeno": "Moderate coastalevent warning. Costa - Levante mallorquín",
+      "nivel": "Naranja",
+      "text": "Costa - Levante mallorquín: Moderate coastalevent warning. Costa - Levante mallorquín (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
       "icon": "💨",
-      "provincia": "Interior norte de Castellón",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Interior norte de Castellón",
+      "provincia": "Menorca",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Menorca",
       "nivel": "Naranja",
-      "text": "Interior norte de Castellón: Aviso de vientos de nivel amarillo. Interior norte de Castellón (Naranja) (AEMET)",
+      "text": "Menorca: Aviso de vientos de nivel amarillo. Menorca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Interior norte de Castellón",
-      "fenomeno": "Moderate wind warning. Interior norte de Castellón",
+      "provincia": "Menorca",
+      "fenomeno": "Moderate wind warning. Menorca",
       "nivel": "Naranja",
-      "text": "Interior norte de Castellón: Moderate wind warning. Interior norte de Castellón (Naranja) (AEMET)",
+      "text": "Menorca: Moderate wind warning. Menorca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Interior sur de Valencia",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Interior sur de Valencia",
+      "icon": "💨",
+      "provincia": "Alcaraz y Segura",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Alcaraz y Segura",
       "nivel": "Naranja",
-      "text": "Interior sur de Valencia: Aviso de lluvias de nivel amarillo. Interior sur de Valencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior sur de Valencia",
-      "fenomeno": "Moderate rain warning. Interior sur de Valencia",
-      "nivel": "Naranja",
-      "text": "Interior sur de Valencia: Moderate rain warning. Interior sur de Valencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "La Mancha de Ciudad Real",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. La Mancha de Ciudad Real",
-      "nivel": "Naranja",
-      "text": "La Mancha de Ciudad Real: Aviso de lluvias de nivel amarillo. La Mancha de Ciudad Real (Naranja) (AEMET)",
+      "text": "Alcaraz y Segura: Aviso de vientos de nivel amarillo. Alcaraz y Segura (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "La Mancha de Ciudad Real",
-      "fenomeno": "Moderate rain warning. La Mancha de Ciudad Real",
+      "provincia": "Alcaraz y Segura",
+      "fenomeno": "Moderate wind warning. Alcaraz y Segura",
       "nivel": "Naranja",
-      "text": "La Mancha de Ciudad Real: Moderate rain warning. La Mancha de Ciudad Real (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "La Mancha de Ciudad Real",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. La Mancha de Ciudad Real",
-      "nivel": "Naranja",
-      "text": "La Mancha de Ciudad Real: Aviso de tormentas de nivel amarillo. La Mancha de Ciudad Real (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "La Mancha de Ciudad Real",
-      "fenomeno": "Moderate thunderstorm warning. La Mancha de Ciudad Real",
-      "nivel": "Naranja",
-      "text": "La Mancha de Ciudad Real: Moderate thunderstorm warning. La Mancha de Ciudad Real (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "La Mancha albaceteña",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. La Mancha albaceteña",
-      "nivel": "Naranja",
-      "text": "La Mancha albaceteña: Aviso de lluvias de nivel amarillo. La Mancha albaceteña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "La Mancha albaceteña",
-      "fenomeno": "Moderate rain warning. La Mancha albaceteña",
-      "nivel": "Naranja",
-      "text": "La Mancha albaceteña: Moderate rain warning. La Mancha albaceteña (Naranja) (AEMET)",
+      "text": "Alcaraz y Segura: Moderate wind warning. Alcaraz y Segura (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
