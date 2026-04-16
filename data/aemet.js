@@ -1,6 +1,6 @@
-// Auto-generado por GitHub Actions - 2026-04-16T08:54:08.923Z
+// Auto-generado por GitHub Actions - 2026-04-16T10:09:20.437Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-04-16T08:54:08.923Z",
+  "generated_at": "2026-04-16T10:09:20.437Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
@@ -85,6 +85,22 @@ window.AEMET_AVISOS = {
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
+      "icon": "🌊",
+      "provincia": "Cumbres de Gran Canaria",
+      "fenomeno": "Aviso de polvo en suspensión de nivel amarillo. Cumbres de Gran Canaria",
+      "nivel": "Naranja",
+      "text": "Cumbres de Gran Canaria: Aviso de polvo en suspensión de nivel amarillo. Cumbres de Gran Canaria (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cumbres de Gran Canaria",
+      "fenomeno": "Moderate dust warning. Cumbres de Gran Canaria",
+      "nivel": "Naranja",
+      "text": "Cumbres de Gran Canaria: Moderate dust warning. Cumbres de Gran Canaria (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
       "icon": "🌡️",
       "provincia": "Valle del Almanzora y Los Vélez",
       "fenomeno": "Aviso de temperaturas máximas de nivel verde. CCAA",
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Minor snow warning. CCAA",
       "nivel": "Amarillo",
       "text": "Valle del Almanzora y Los Vélez: Minor snow warning. CCAA (Amarillo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌫️",
-      "provincia": "Valle del Almanzora y Los Vélez",
-      "fenomeno": "Aviso de nieblas de nivel verde. CCAA",
-      "nivel": "Amarillo",
-      "text": "Valle del Almanzora y Los Vélez: Aviso de nieblas de nivel verde. CCAA (Amarillo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Valle del Almanzora y Los Vélez",
-      "fenomeno": "Minor fog warning. CCAA",
-      "nivel": "Amarillo",
-      "text": "Valle del Almanzora y Los Vélez: Minor fog warning. CCAA (Amarillo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
