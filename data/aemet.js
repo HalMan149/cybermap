@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2026-04-16T17:05:23.959Z
+// Auto-generado por GitHub Actions - 2026-04-16T18:16:46.353Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-04-16T17:05:23.959Z",
+  "generated_at": "2026-04-16T18:16:46.353Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌊",
+      "provincia": "Cumbres de Gran Canaria",
+      "fenomeno": "Aviso de polvo en suspensión de nivel amarillo. Cumbres de Gran Canaria",
+      "nivel": "Naranja",
+      "text": "Cumbres de Gran Canaria: Aviso de polvo en suspensión de nivel amarillo. Cumbres de Gran Canaria (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cumbres de Gran Canaria",
+      "fenomeno": "Moderate dust warning. Cumbres de Gran Canaria",
+      "nivel": "Naranja",
+      "text": "Cumbres de Gran Canaria: Moderate dust warning. Cumbres de Gran Canaria (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌊",
       "provincia": "Costa - Noroeste de A Coruña",
@@ -86,18 +102,50 @@ window.AEMET_AVISOS = {
     },
     {
       "icon": "🌊",
-      "provincia": "Cumbres de Gran Canaria",
-      "fenomeno": "Aviso de polvo en suspensión de nivel amarillo. Cumbres de Gran Canaria",
+      "provincia": "Este, sur y oeste de Gran Canaria",
+      "fenomeno": "Aviso de polvo en suspensión de nivel amarillo. Este, sur y oeste de Gran Canaria",
       "nivel": "Naranja",
-      "text": "Cumbres de Gran Canaria: Aviso de polvo en suspensión de nivel amarillo. Cumbres de Gran Canaria (Naranja) (AEMET)",
+      "text": "Este, sur y oeste de Gran Canaria: Aviso de polvo en suspensión de nivel amarillo. Este, sur y oeste de Gran Canaria (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Cumbres de Gran Canaria",
-      "fenomeno": "Moderate dust warning. Cumbres de Gran Canaria",
+      "provincia": "Este, sur y oeste de Gran Canaria",
+      "fenomeno": "Moderate dust warning. Este, sur y oeste de Gran Canaria",
       "nivel": "Naranja",
-      "text": "Cumbres de Gran Canaria: Moderate dust warning. Cumbres de Gran Canaria (Naranja) (AEMET)",
+      "text": "Este, sur y oeste de Gran Canaria: Moderate dust warning. Este, sur y oeste de Gran Canaria (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Norte de Tenerife",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Norte de Tenerife",
+      "nivel": "Naranja",
+      "text": "Norte de Tenerife: Aviso de vientos de nivel amarillo. Norte de Tenerife (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Norte de Tenerife",
+      "fenomeno": "Moderate wind warning. Norte de Tenerife",
+      "nivel": "Naranja",
+      "text": "Norte de Tenerife: Moderate wind warning. Norte de Tenerife (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Este, sur y oeste de Tenerife",
+      "fenomeno": "Aviso de polvo en suspensión de nivel amarillo. Este, sur y oeste de Tenerife",
+      "nivel": "Naranja",
+      "text": "Este, sur y oeste de Tenerife: Aviso de polvo en suspensión de nivel amarillo. Este, sur y oeste de Tenerife (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Este, sur y oeste de Tenerife",
+      "fenomeno": "Moderate dust warning. Este, sur y oeste de Tenerife",
+      "nivel": "Naranja",
+      "text": "Este, sur y oeste de Tenerife: Moderate dust warning. Este, sur y oeste de Tenerife (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -114,54 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Minor high-temperature warning. CCAA",
       "nivel": "Amarillo",
       "text": "Valle del Almanzora y Los Vélez: Minor high-temperature warning. CCAA (Amarillo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Valle del Almanzora y Los Vélez",
-      "fenomeno": "Aviso de temperaturas mínimas de nivel verde. CCAA",
-      "nivel": "Amarillo",
-      "text": "Valle del Almanzora y Los Vélez: Aviso de temperaturas mínimas de nivel verde. CCAA (Amarillo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Valle del Almanzora y Los Vélez",
-      "fenomeno": "Minor low-temperature warning. CCAA",
-      "nivel": "Amarillo",
-      "text": "Valle del Almanzora y Los Vélez: Minor low-temperature warning. CCAA (Amarillo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Poniente y Almería Capital",
-      "fenomeno": "Aviso de costeros de nivel verde. CCAA",
-      "nivel": "Amarillo",
-      "text": "Costa - Poniente y Almería Capital: Aviso de costeros de nivel verde. CCAA (Amarillo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Poniente y Almería Capital",
-      "fenomeno": "Minor coastalevent warning. CCAA",
-      "nivel": "Amarillo",
-      "text": "Costa - Poniente y Almería Capital: Minor coastalevent warning. CCAA (Amarillo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Valle del Almanzora y Los Vélez",
-      "fenomeno": "Aviso de nevadas de nivel verde. CCAA",
-      "nivel": "Amarillo",
-      "text": "Valle del Almanzora y Los Vélez: Aviso de nevadas de nivel verde. CCAA (Amarillo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Valle del Almanzora y Los Vélez",
-      "fenomeno": "Minor snow warning. CCAA",
-      "nivel": "Amarillo",
-      "text": "Valle del Almanzora y Los Vélez: Minor snow warning. CCAA (Amarillo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
