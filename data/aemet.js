@@ -1,9 +1,41 @@
-// Auto-generado por GitHub Actions - 2026-04-18T15:57:59.662Z
+// Auto-generado por GitHub Actions - 2026-04-18T16:40:23.611Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-04-18T15:57:59.662Z",
+  "generated_at": "2026-04-18T16:40:23.611Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "⛈️",
+      "provincia": "Ibérica de Soria",
+      "fenomeno": "Aviso de tormentas de nivel naranja. Ibérica de Soria",
+      "nivel": "Rojo",
+      "text": "Ibérica de Soria: Aviso de tormentas de nivel naranja. Ibérica de Soria (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ibérica de Soria",
+      "fenomeno": "Severe thunderstorm warning. Ibérica de Soria",
+      "nivel": "Rojo",
+      "text": "Ibérica de Soria: Severe thunderstorm warning. Ibérica de Soria (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Ibérica de Soria",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Ibérica de Soria",
+      "nivel": "Naranja",
+      "text": "Ibérica de Soria: Aviso de tormentas de nivel amarillo. Ibérica de Soria (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ibérica de Soria",
+      "fenomeno": "Moderate thunderstorm warning. Ibérica de Soria",
+      "nivel": "Naranja",
+      "text": "Ibérica de Soria: Moderate thunderstorm warning. Ibérica de Soria (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌊",
       "provincia": "Lanzarote",
@@ -130,38 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate dust warning. Fuerteventura",
       "nivel": "Naranja",
       "text": "Fuerteventura: Moderate dust warning. Fuerteventura (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "La Gomera",
-      "fenomeno": "Aviso de polvo en suspensión de nivel amarillo. La Gomera",
-      "nivel": "Naranja",
-      "text": "La Gomera: Aviso de polvo en suspensión de nivel amarillo. La Gomera (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "La Gomera",
-      "fenomeno": "Moderate dust warning. La Gomera",
-      "nivel": "Naranja",
-      "text": "La Gomera: Moderate dust warning. La Gomera (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "El Hierro",
-      "fenomeno": "Aviso de polvo en suspensión de nivel amarillo. El Hierro",
-      "nivel": "Naranja",
-      "text": "El Hierro: Aviso de polvo en suspensión de nivel amarillo. El Hierro (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "El Hierro",
-      "fenomeno": "Moderate dust warning. El Hierro",
-      "nivel": "Naranja",
-      "text": "El Hierro: Moderate dust warning. El Hierro (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
