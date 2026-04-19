@@ -1,9 +1,57 @@
-// Auto-generado por GitHub Actions - 2026-04-19T16:41:54.289Z
+// Auto-generado por GitHub Actions - 2026-04-19T17:20:49.779Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-04-19T16:41:54.289Z",
+  "generated_at": "2026-04-19T17:20:49.779Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "💨",
+      "provincia": "Norte de Tenerife",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Norte de Tenerife",
+      "nivel": "Naranja",
+      "text": "Norte de Tenerife: Aviso de vientos de nivel amarillo. Norte de Tenerife (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Norte de Tenerife",
+      "fenomeno": "Moderate wind warning. Norte de Tenerife",
+      "nivel": "Naranja",
+      "text": "Norte de Tenerife: Moderate wind warning. Norte de Tenerife (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Lanzarote",
+      "fenomeno": "Aviso de polvo en suspensión de nivel amarillo. Lanzarote",
+      "nivel": "Naranja",
+      "text": "Lanzarote: Aviso de polvo en suspensión de nivel amarillo. Lanzarote (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Lanzarote",
+      "fenomeno": "Moderate dust warning. Lanzarote",
+      "nivel": "Naranja",
+      "text": "Lanzarote: Moderate dust warning. Lanzarote (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Fuerteventura",
+      "fenomeno": "Aviso de polvo en suspensión de nivel amarillo. Fuerteventura",
+      "nivel": "Naranja",
+      "text": "Fuerteventura: Aviso de polvo en suspensión de nivel amarillo. Fuerteventura (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Fuerteventura",
+      "fenomeno": "Moderate dust warning. Fuerteventura",
+      "nivel": "Naranja",
+      "text": "Fuerteventura: Moderate dust warning. Fuerteventura (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "⛈️",
       "provincia": "Ribera del Ebro de La Rioja",
@@ -114,54 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate thunderstorm warning. Bajo Aragón de Teruel",
       "nivel": "Naranja",
       "text": "Bajo Aragón de Teruel: Moderate thunderstorm warning. Bajo Aragón de Teruel (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Ibérica zaragozana",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Ibérica zaragozana",
-      "nivel": "Naranja",
-      "text": "Ibérica zaragozana: Aviso de tormentas de nivel amarillo. Ibérica zaragozana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ibérica zaragozana",
-      "fenomeno": "Moderate thunderstorm warning. Ibérica zaragozana",
-      "nivel": "Naranja",
-      "text": "Ibérica zaragozana: Moderate thunderstorm warning. Ibérica zaragozana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Ribera del Ebro de Zaragoza",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Ribera del Ebro de Zaragoza",
-      "nivel": "Naranja",
-      "text": "Ribera del Ebro de Zaragoza: Aviso de tormentas de nivel amarillo. Ribera del Ebro de Zaragoza (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ribera del Ebro de Zaragoza",
-      "fenomeno": "Moderate thunderstorm warning. Ribera del Ebro de Zaragoza",
-      "nivel": "Naranja",
-      "text": "Ribera del Ebro de Zaragoza: Moderate thunderstorm warning. Ribera del Ebro de Zaragoza (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Prepirineo de Barcelona",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Prepirineo de Barcelona",
-      "nivel": "Naranja",
-      "text": "Prepirineo de Barcelona: Aviso de tormentas de nivel amarillo. Prepirineo de Barcelona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Prepirineo de Barcelona",
-      "fenomeno": "Moderate thunderstorm warning. Prepirineo de Barcelona",
-      "nivel": "Naranja",
-      "text": "Prepirineo de Barcelona: Moderate thunderstorm warning. Prepirineo de Barcelona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
