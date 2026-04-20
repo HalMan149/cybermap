@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2026-04-20T21:31:15.003Z
+// Auto-generado por GitHub Actions - 2026-04-20T22:27:26.759Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-04-20T21:31:15.003Z",
+  "generated_at": "2026-04-20T22:27:26.759Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "⛈️",
+      "provincia": "Noroeste de Ourense",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Noroeste de Ourense",
+      "nivel": "Naranja",
+      "text": "Noroeste de Ourense: Aviso de tormentas de nivel amarillo. Noroeste de Ourense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Noroeste de Ourense",
+      "fenomeno": "Moderate thunderstorm warning. Noroeste de Ourense",
+      "nivel": "Naranja",
+      "text": "Noroeste de Ourense: Moderate thunderstorm warning. Noroeste de Ourense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "⛈️",
       "provincia": "Vertiente cantábrica de Navarra",
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate thunderstorm warning. Gipuzkoa litoral",
       "nivel": "Naranja",
       "text": "Gipuzkoa litoral: Moderate thunderstorm warning. Gipuzkoa litoral (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Gipuzkoa interior",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Gipuzkoa interior",
-      "nivel": "Naranja",
-      "text": "Gipuzkoa interior: Aviso de tormentas de nivel amarillo. Gipuzkoa interior (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Gipuzkoa interior",
-      "fenomeno": "Moderate thunderstorm warning. Gipuzkoa interior",
-      "nivel": "Naranja",
-      "text": "Gipuzkoa interior: Moderate thunderstorm warning. Gipuzkoa interior (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
