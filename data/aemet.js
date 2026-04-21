@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2026-04-21T16:51:34.407Z
+// Auto-generado por GitHub Actions - 2026-04-21T17:54:25.112Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-04-21T16:51:34.407Z",
+  "generated_at": "2026-04-21T17:54:25.112Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "⛈️",
+      "provincia": "Metropolitana y Henares",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Metropolitana y Henares",
+      "nivel": "Naranja",
+      "text": "Metropolitana y Henares: Aviso de tormentas de nivel amarillo. Metropolitana y Henares (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Metropolitana y Henares",
+      "fenomeno": "Moderate thunderstorm warning. Metropolitana y Henares",
+      "nivel": "Naranja",
+      "text": "Metropolitana y Henares: Moderate thunderstorm warning. Metropolitana y Henares (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "⛈️",
       "provincia": "Ibérica zaragozana",
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate thunderstorm warning. Litoral cántabro",
       "nivel": "Naranja",
       "text": "Litoral cántabro: Moderate thunderstorm warning. Litoral cántabro (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Centro y valle de Villaverde",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Centro y valle de Villaverde",
-      "nivel": "Naranja",
-      "text": "Centro y valle de Villaverde: Aviso de tormentas de nivel amarillo. Centro y valle de Villaverde (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Centro y valle de Villaverde",
-      "fenomeno": "Moderate thunderstorm warning. Centro y valle de Villaverde",
-      "nivel": "Naranja",
-      "text": "Centro y valle de Villaverde: Moderate thunderstorm warning. Centro y valle de Villaverde (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
