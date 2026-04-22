@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-04-22T21:08:56.036Z
+// Auto-generado por GitHub Actions - 2026-04-22T22:02:38.126Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-04-22T21:08:56.036Z",
+  "generated_at": "2026-04-22T22:02:38.126Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "🌧️",
-      "provincia": "Sierra de San Vicente",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Sierra de San Vicente",
+      "provincia": "Sistema Central de Ávila",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Sistema Central de Ávila",
       "nivel": "Naranja",
-      "text": "Sierra de San Vicente: Aviso de lluvias de nivel amarillo. Sierra de San Vicente (Naranja) (AEMET)",
+      "text": "Sistema Central de Ávila: Aviso de lluvias de nivel amarillo. Sistema Central de Ávila (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sierra de San Vicente",
-      "fenomeno": "Moderate rain warning. Sierra de San Vicente",
+      "provincia": "Sistema Central de Ávila",
+      "fenomeno": "Moderate rain warning. Sistema Central de Ávila",
       "nivel": "Naranja",
-      "text": "Sierra de San Vicente: Moderate rain warning. Sierra de San Vicente (Naranja) (AEMET)",
+      "text": "Sistema Central de Ávila: Moderate rain warning. Sistema Central de Ávila (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Valle del Tajo",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Valle del Tajo",
+      "provincia": "Sur de Ávila",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Sur de Ávila",
       "nivel": "Naranja",
-      "text": "Valle del Tajo: Aviso de lluvias de nivel amarillo. Valle del Tajo (Naranja) (AEMET)",
+      "text": "Sur de Ávila: Aviso de lluvias de nivel amarillo. Sur de Ávila (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Valle del Tajo",
-      "fenomeno": "Moderate rain warning. Valle del Tajo",
+      "provincia": "Sur de Ávila",
+      "fenomeno": "Moderate rain warning. Sur de Ávila",
       "nivel": "Naranja",
-      "text": "Valle del Tajo: Moderate rain warning. Valle del Tajo (Naranja) (AEMET)",
+      "text": "Sur de Ávila: Moderate rain warning. Sur de Ávila (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Montes de Toledo",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Montes de Toledo",
+      "provincia": "Sistema Central de Salamanca",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Sistema Central de Salamanca",
       "nivel": "Naranja",
-      "text": "Montes de Toledo: Aviso de lluvias de nivel amarillo. Montes de Toledo (Naranja) (AEMET)",
+      "text": "Sistema Central de Salamanca: Aviso de lluvias de nivel amarillo. Sistema Central de Salamanca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Montes de Toledo",
-      "fenomeno": "Moderate rain warning. Montes de Toledo",
+      "provincia": "Sistema Central de Salamanca",
+      "fenomeno": "Moderate rain warning. Sistema Central de Salamanca",
       "nivel": "Naranja",
-      "text": "Montes de Toledo: Moderate rain warning. Montes de Toledo (Naranja) (AEMET)",
+      "text": "Sistema Central de Salamanca: Moderate rain warning. Sistema Central de Salamanca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Sur de Salamanca",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Sur de Salamanca",
+      "nivel": "Naranja",
+      "text": "Sur de Salamanca: Aviso de lluvias de nivel amarillo. Sur de Salamanca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sur de Salamanca",
+      "fenomeno": "Moderate rain warning. Sur de Salamanca",
+      "nivel": "Naranja",
+      "text": "Sur de Salamanca: Moderate rain warning. Sur de Salamanca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Sistema Central de Segovia",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Sistema Central de Segovia",
+      "nivel": "Naranja",
+      "text": "Sistema Central de Segovia: Aviso de lluvias de nivel amarillo. Sistema Central de Segovia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sistema Central de Segovia",
+      "fenomeno": "Moderate rain warning. Sistema Central de Segovia",
+      "nivel": "Naranja",
+      "text": "Sistema Central de Segovia: Moderate rain warning. Sistema Central de Segovia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Sierra de Madrid",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Sierra de Madrid",
+      "nivel": "Naranja",
+      "text": "Sierra de Madrid: Aviso de lluvias de nivel amarillo. Sierra de Madrid (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sierra de Madrid",
+      "fenomeno": "Moderate rain warning. Sierra de Madrid",
+      "nivel": "Naranja",
+      "text": "Sierra de Madrid: Moderate rain warning. Sierra de Madrid (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Montes del norte y Anchuras",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Montes del norte y Anchuras",
+      "provincia": "Sistema Central de Ávila",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Sistema Central de Ávila",
       "nivel": "Naranja",
-      "text": "Montes del norte y Anchuras: Aviso de tormentas de nivel amarillo. Montes del norte y Anchuras (Naranja) (AEMET)",
+      "text": "Sistema Central de Ávila: Aviso de tormentas de nivel amarillo. Sistema Central de Ávila (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Montes del norte y Anchuras",
-      "fenomeno": "Moderate thunderstorm warning. Montes del norte y Anchuras",
+      "provincia": "Sistema Central de Ávila",
+      "fenomeno": "Moderate thunderstorm warning. Sistema Central de Ávila",
       "nivel": "Naranja",
-      "text": "Montes del norte y Anchuras: Moderate thunderstorm warning. Montes del norte y Anchuras (Naranja) (AEMET)",
+      "text": "Sistema Central de Ávila: Moderate thunderstorm warning. Sistema Central de Ávila (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Sierra de San Vicente",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Sierra de San Vicente",
+      "provincia": "Sur de Ávila",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Sur de Ávila",
       "nivel": "Naranja",
-      "text": "Sierra de San Vicente: Aviso de tormentas de nivel amarillo. Sierra de San Vicente (Naranja) (AEMET)",
+      "text": "Sur de Ávila: Aviso de tormentas de nivel amarillo. Sur de Ávila (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sierra de San Vicente",
-      "fenomeno": "Moderate thunderstorm warning. Sierra de San Vicente",
+      "provincia": "Sur de Ávila",
+      "fenomeno": "Moderate thunderstorm warning. Sur de Ávila",
       "nivel": "Naranja",
-      "text": "Sierra de San Vicente: Moderate thunderstorm warning. Sierra de San Vicente (Naranja) (AEMET)",
+      "text": "Sur de Ávila: Moderate thunderstorm warning. Sur de Ávila (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Valle del Tajo",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Valle del Tajo",
+      "provincia": "Sistema Central de Salamanca",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Sistema Central de Salamanca",
       "nivel": "Naranja",
-      "text": "Valle del Tajo: Aviso de tormentas de nivel amarillo. Valle del Tajo (Naranja) (AEMET)",
+      "text": "Sistema Central de Salamanca: Aviso de tormentas de nivel amarillo. Sistema Central de Salamanca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Valle del Tajo",
-      "fenomeno": "Moderate thunderstorm warning. Valle del Tajo",
+      "provincia": "Sistema Central de Salamanca",
+      "fenomeno": "Moderate thunderstorm warning. Sistema Central de Salamanca",
       "nivel": "Naranja",
-      "text": "Valle del Tajo: Moderate thunderstorm warning. Valle del Tajo (Naranja) (AEMET)",
+      "text": "Sistema Central de Salamanca: Moderate thunderstorm warning. Sistema Central de Salamanca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Montes de Toledo",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Montes de Toledo",
+      "provincia": "Sur de Salamanca",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Sur de Salamanca",
       "nivel": "Naranja",
-      "text": "Montes de Toledo: Aviso de tormentas de nivel amarillo. Montes de Toledo (Naranja) (AEMET)",
+      "text": "Sur de Salamanca: Aviso de tormentas de nivel amarillo. Sur de Salamanca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Montes de Toledo",
-      "fenomeno": "Moderate thunderstorm warning. Montes de Toledo",
+      "provincia": "Sur de Salamanca",
+      "fenomeno": "Moderate thunderstorm warning. Sur de Salamanca",
       "nivel": "Naranja",
-      "text": "Montes de Toledo: Moderate thunderstorm warning. Montes de Toledo (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Norte de Cáceres",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Norte de Cáceres",
-      "nivel": "Naranja",
-      "text": "Norte de Cáceres: Aviso de lluvias de nivel amarillo. Norte de Cáceres (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Norte de Cáceres",
-      "fenomeno": "Moderate rain warning. Norte de Cáceres",
-      "nivel": "Naranja",
-      "text": "Norte de Cáceres: Moderate rain warning. Norte de Cáceres (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Tajo y Alagón",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Tajo y Alagón",
-      "nivel": "Naranja",
-      "text": "Tajo y Alagón: Aviso de lluvias de nivel amarillo. Tajo y Alagón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Tajo y Alagón",
-      "fenomeno": "Moderate rain warning. Tajo y Alagón",
-      "nivel": "Naranja",
-      "text": "Tajo y Alagón: Moderate rain warning. Tajo y Alagón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Villuercas y Montánchez",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Villuercas y Montánchez",
-      "nivel": "Naranja",
-      "text": "Villuercas y Montánchez: Aviso de lluvias de nivel amarillo. Villuercas y Montánchez (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Villuercas y Montánchez",
-      "fenomeno": "Moderate rain warning. Villuercas y Montánchez",
-      "nivel": "Naranja",
-      "text": "Villuercas y Montánchez: Moderate rain warning. Villuercas y Montánchez (Naranja) (AEMET)",
+      "text": "Sur de Salamanca: Moderate thunderstorm warning. Sur de Salamanca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
