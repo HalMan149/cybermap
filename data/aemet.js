@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-04-24T16:37:16.547Z
+// Auto-generado por GitHub Actions - 2026-04-24T17:35:33.739Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-04-24T16:37:16.547Z",
+  "generated_at": "2026-04-24T17:35:33.739Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "⛈️",
-      "provincia": "Meseta de Ávila",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Meseta de Ávila",
+      "icon": "🌧️",
+      "provincia": "Aracena",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Aracena",
       "nivel": "Naranja",
-      "text": "Meseta de Ávila: Aviso de tormentas de nivel amarillo. Meseta de Ávila (Naranja) (AEMET)",
+      "text": "Aracena: Aviso de lluvias de nivel amarillo. Aracena (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Meseta de Ávila",
-      "fenomeno": "Moderate thunderstorm warning. Meseta de Ávila",
+      "provincia": "Aracena",
+      "fenomeno": "Moderate rain warning. Aracena",
       "nivel": "Naranja",
-      "text": "Meseta de Ávila: Moderate thunderstorm warning. Meseta de Ávila (Naranja) (AEMET)",
+      "text": "Aracena: Moderate rain warning. Aracena (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⛈️",
-      "provincia": "Sistema Central de Ávila",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Sistema Central de Ávila",
+      "icon": "🌧️",
+      "provincia": "Sierra norte de Sevilla",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Sierra norte de Sevilla",
       "nivel": "Naranja",
-      "text": "Sistema Central de Ávila: Aviso de tormentas de nivel amarillo. Sistema Central de Ávila (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sistema Central de Ávila",
-      "fenomeno": "Moderate thunderstorm warning. Sistema Central de Ávila",
-      "nivel": "Naranja",
-      "text": "Sistema Central de Ávila: Moderate thunderstorm warning. Sistema Central de Ávila (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Sur de Ávila",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Sur de Ávila",
-      "nivel": "Naranja",
-      "text": "Sur de Ávila: Aviso de tormentas de nivel amarillo. Sur de Ávila (Naranja) (AEMET)",
+      "text": "Sierra norte de Sevilla: Aviso de lluvias de nivel amarillo. Sierra norte de Sevilla (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sur de Ávila",
-      "fenomeno": "Moderate thunderstorm warning. Sur de Ávila",
+      "provincia": "Sierra norte de Sevilla",
+      "fenomeno": "Moderate rain warning. Sierra norte de Sevilla",
       "nivel": "Naranja",
-      "text": "Sur de Ávila: Moderate thunderstorm warning. Sur de Ávila (Naranja) (AEMET)",
+      "text": "Sierra norte de Sevilla: Moderate rain warning. Sierra norte de Sevilla (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Cordillera Cantábrica de Burgos",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Cordillera Cantábrica de Burgos",
+      "provincia": "Aracena",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Aracena",
       "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de Burgos: Aviso de tormentas de nivel amarillo. Cordillera Cantábrica de Burgos (Naranja) (AEMET)",
+      "text": "Aracena: Aviso de tormentas de nivel amarillo. Aracena (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Cordillera Cantábrica de Burgos",
-      "fenomeno": "Moderate thunderstorm warning. Cordillera Cantábrica de Burgos",
+      "provincia": "Aracena",
+      "fenomeno": "Moderate thunderstorm warning. Aracena",
       "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de Burgos: Moderate thunderstorm warning. Cordillera Cantábrica de Burgos (Naranja) (AEMET)",
+      "text": "Aracena: Moderate thunderstorm warning. Aracena (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Norte de Burgos",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Norte de Burgos",
+      "provincia": "Sierra norte de Sevilla",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Sierra norte de Sevilla",
       "nivel": "Naranja",
-      "text": "Norte de Burgos: Aviso de tormentas de nivel amarillo. Norte de Burgos (Naranja) (AEMET)",
+      "text": "Sierra norte de Sevilla: Aviso de tormentas de nivel amarillo. Sierra norte de Sevilla (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Norte de Burgos",
-      "fenomeno": "Moderate thunderstorm warning. Norte de Burgos",
+      "provincia": "Sierra norte de Sevilla",
+      "fenomeno": "Moderate thunderstorm warning. Sierra norte de Sevilla",
       "nivel": "Naranja",
-      "text": "Norte de Burgos: Moderate thunderstorm warning. Norte de Burgos (Naranja) (AEMET)",
+      "text": "Sierra norte de Sevilla: Moderate thunderstorm warning. Sierra norte de Sevilla (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Sur de Badajoz",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Sur de Badajoz",
+      "nivel": "Naranja",
+      "text": "Sur de Badajoz: Aviso de lluvias de nivel amarillo. Sur de Badajoz (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sur de Badajoz",
+      "fenomeno": "Moderate rain warning. Sur de Badajoz",
+      "nivel": "Naranja",
+      "text": "Sur de Badajoz: Moderate rain warning. Sur de Badajoz (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Meseta de Burgos",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Meseta de Burgos",
+      "provincia": "Sur de Badajoz",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Sur de Badajoz",
       "nivel": "Naranja",
-      "text": "Meseta de Burgos: Aviso de tormentas de nivel amarillo. Meseta de Burgos (Naranja) (AEMET)",
+      "text": "Sur de Badajoz: Aviso de tormentas de nivel amarillo. Sur de Badajoz (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Meseta de Burgos",
-      "fenomeno": "Moderate thunderstorm warning. Meseta de Burgos",
+      "provincia": "Sur de Badajoz",
+      "fenomeno": "Moderate thunderstorm warning. Sur de Badajoz",
       "nivel": "Naranja",
-      "text": "Meseta de Burgos: Moderate thunderstorm warning. Meseta de Burgos (Naranja) (AEMET)",
+      "text": "Sur de Badajoz: Moderate thunderstorm warning. Sur de Badajoz (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Serranía de Guadalajara",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Serranía de Guadalajara",
+      "nivel": "Naranja",
+      "text": "Serranía de Guadalajara: Aviso de lluvias de nivel amarillo. Serranía de Guadalajara (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Serranía de Guadalajara",
+      "fenomeno": "Moderate rain warning. Serranía de Guadalajara",
+      "nivel": "Naranja",
+      "text": "Serranía de Guadalajara: Moderate rain warning. Serranía de Guadalajara (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Alcarria de Guadalajara",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Alcarria de Guadalajara",
+      "nivel": "Naranja",
+      "text": "Alcarria de Guadalajara: Aviso de lluvias de nivel amarillo. Alcarria de Guadalajara (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Alcarria de Guadalajara",
+      "fenomeno": "Moderate rain warning. Alcarria de Guadalajara",
+      "nivel": "Naranja",
+      "text": "Alcarria de Guadalajara: Moderate rain warning. Alcarria de Guadalajara (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Sierra de Madrid",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Sierra de Madrid",
+      "nivel": "Naranja",
+      "text": "Sierra de Madrid: Aviso de lluvias de nivel amarillo. Sierra de Madrid (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sierra de Madrid",
+      "fenomeno": "Moderate rain warning. Sierra de Madrid",
+      "nivel": "Naranja",
+      "text": "Sierra de Madrid: Moderate rain warning. Sierra de Madrid (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Ibérica de Burgos",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Ibérica de Burgos",
+      "provincia": "Norte de Cáceres",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Norte de Cáceres",
       "nivel": "Naranja",
-      "text": "Ibérica de Burgos: Aviso de tormentas de nivel amarillo. Ibérica de Burgos (Naranja) (AEMET)",
+      "text": "Norte de Cáceres: Aviso de tormentas de nivel amarillo. Norte de Cáceres (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Ibérica de Burgos",
-      "fenomeno": "Moderate thunderstorm warning. Ibérica de Burgos",
+      "provincia": "Norte de Cáceres",
+      "fenomeno": "Moderate thunderstorm warning. Norte de Cáceres",
       "nivel": "Naranja",
-      "text": "Ibérica de Burgos: Moderate thunderstorm warning. Ibérica de Burgos (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Cordillera Cantábrica de León",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Cordillera Cantábrica de León",
-      "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de León: Aviso de tormentas de nivel amarillo. Cordillera Cantábrica de León (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cordillera Cantábrica de León",
-      "fenomeno": "Moderate thunderstorm warning. Cordillera Cantábrica de León",
-      "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de León: Moderate thunderstorm warning. Cordillera Cantábrica de León (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Bierzo de León",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Bierzo de León",
-      "nivel": "Naranja",
-      "text": "Bierzo de León: Aviso de tormentas de nivel amarillo. Bierzo de León (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Bierzo de León",
-      "fenomeno": "Moderate thunderstorm warning. Bierzo de León",
-      "nivel": "Naranja",
-      "text": "Bierzo de León: Moderate thunderstorm warning. Bierzo de León (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Meseta de León",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Meseta de León",
-      "nivel": "Naranja",
-      "text": "Meseta de León: Aviso de tormentas de nivel amarillo. Meseta de León (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Meseta de León",
-      "fenomeno": "Moderate thunderstorm warning. Meseta de León",
-      "nivel": "Naranja",
-      "text": "Meseta de León: Moderate thunderstorm warning. Meseta de León (Naranja) (AEMET)",
+      "text": "Norte de Cáceres: Moderate thunderstorm warning. Norte de Cáceres (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
