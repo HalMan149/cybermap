@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2026-04-26T21:05:42.414Z
+// Auto-generado por GitHub Actions - 2026-04-26T21:52:54.805Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-04-26T21:05:42.414Z",
+  "generated_at": "2026-04-26T21:52:54.805Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Noroeste de Ourense",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Noroeste de Ourense",
+      "nivel": "Rojo",
+      "text": "Noroeste de Ourense: Aviso de lluvias de nivel naranja. Noroeste de Ourense (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Noroeste de Ourense",
+      "fenomeno": "Severe rain warning. Noroeste de Ourense",
+      "nivel": "Rojo",
+      "text": "Noroeste de Ourense: Severe rain warning. Noroeste de Ourense (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Meseta de Valladolid",
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate rain warning. Condado de Treviño",
       "nivel": "Naranja",
       "text": "Condado de Treviño: Moderate rain warning. Condado de Treviño (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Cordillera Cantábrica de León",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Cordillera Cantábrica de León",
-      "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de León: Aviso de lluvias de nivel amarillo. Cordillera Cantábrica de León (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cordillera Cantábrica de León",
-      "fenomeno": "Moderate rain warning. Cordillera Cantábrica de León",
-      "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de León: Moderate rain warning. Cordillera Cantábrica de León (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
