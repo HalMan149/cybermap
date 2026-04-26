@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-04-26T16:33:48.995Z
+// Auto-generado por GitHub Actions - 2026-04-26T17:23:09.074Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-04-26T16:33:48.995Z",
+  "generated_at": "2026-04-26T17:23:09.074Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "🌧️",
-      "provincia": "Sur de Lugo",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Sur de Lugo",
+      "provincia": "Ibérica de Burgos",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Ibérica de Burgos",
       "nivel": "Naranja",
-      "text": "Sur de Lugo: Aviso de lluvias de nivel amarillo. Sur de Lugo (Naranja) (AEMET)",
+      "text": "Ibérica de Burgos: Aviso de lluvias de nivel amarillo. Ibérica de Burgos (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sur de Lugo",
-      "fenomeno": "Moderate rain warning. Sur de Lugo",
+      "provincia": "Ibérica de Burgos",
+      "fenomeno": "Moderate rain warning. Ibérica de Burgos",
       "nivel": "Naranja",
-      "text": "Sur de Lugo: Moderate rain warning. Sur de Lugo (Naranja) (AEMET)",
+      "text": "Ibérica de Burgos: Moderate rain warning. Ibérica de Burgos (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Ibérica de Burgos",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Ibérica de Burgos",
+      "nivel": "Naranja",
+      "text": "Ibérica de Burgos: Aviso de tormentas de nivel amarillo. Ibérica de Burgos (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ibérica de Burgos",
+      "fenomeno": "Moderate thunderstorm warning. Ibérica de Burgos",
+      "nivel": "Naranja",
+      "text": "Ibérica de Burgos: Moderate thunderstorm warning. Ibérica de Burgos (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Noroeste de Ourense",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Noroeste de Ourense",
+      "provincia": "Ibérica riojana",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Ibérica riojana",
       "nivel": "Naranja",
-      "text": "Noroeste de Ourense: Aviso de lluvias de nivel amarillo. Noroeste de Ourense (Naranja) (AEMET)",
+      "text": "Ibérica riojana: Aviso de lluvias de nivel amarillo. Ibérica riojana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Noroeste de Ourense",
-      "fenomeno": "Moderate rain warning. Noroeste de Ourense",
+      "provincia": "Ibérica riojana",
+      "fenomeno": "Moderate rain warning. Ibérica riojana",
       "nivel": "Naranja",
-      "text": "Noroeste de Ourense: Moderate rain warning. Noroeste de Ourense (Naranja) (AEMET)",
+      "text": "Ibérica riojana: Moderate rain warning. Ibérica riojana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Ibérica riojana",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Ibérica riojana",
+      "nivel": "Naranja",
+      "text": "Ibérica riojana: Aviso de tormentas de nivel amarillo. Ibérica riojana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ibérica riojana",
+      "fenomeno": "Moderate thunderstorm warning. Ibérica riojana",
+      "nivel": "Naranja",
+      "text": "Ibérica riojana: Moderate thunderstorm warning. Ibérica riojana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Miño de Ourense",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Miño de Ourense",
+      "provincia": "Liébana",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Liébana",
       "nivel": "Naranja",
-      "text": "Miño de Ourense: Aviso de lluvias de nivel amarillo. Miño de Ourense (Naranja) (AEMET)",
+      "text": "Liébana: Aviso de lluvias de nivel amarillo. Liébana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Miño de Ourense",
-      "fenomeno": "Moderate rain warning. Miño de Ourense",
+      "provincia": "Liébana",
+      "fenomeno": "Moderate rain warning. Liébana",
       "nivel": "Naranja",
-      "text": "Miño de Ourense: Moderate rain warning. Miño de Ourense (Naranja) (AEMET)",
+      "text": "Liébana: Moderate rain warning. Liébana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Sur de Ourense",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Sur de Ourense",
+      "provincia": "Centro y valle de Villaverde",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Centro y valle de Villaverde",
       "nivel": "Naranja",
-      "text": "Sur de Ourense: Aviso de lluvias de nivel amarillo. Sur de Ourense (Naranja) (AEMET)",
+      "text": "Centro y valle de Villaverde: Aviso de lluvias de nivel amarillo. Centro y valle de Villaverde (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sur de Ourense",
-      "fenomeno": "Moderate rain warning. Sur de Ourense",
+      "provincia": "Centro y valle de Villaverde",
+      "fenomeno": "Moderate rain warning. Centro y valle de Villaverde",
       "nivel": "Naranja",
-      "text": "Sur de Ourense: Moderate rain warning. Sur de Ourense (Naranja) (AEMET)",
+      "text": "Centro y valle de Villaverde: Moderate rain warning. Centro y valle de Villaverde (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Montaña de Ourense",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Montaña de Ourense",
+      "provincia": "Cantabria del Ebro",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Cantabria del Ebro",
       "nivel": "Naranja",
-      "text": "Montaña de Ourense: Aviso de lluvias de nivel amarillo. Montaña de Ourense (Naranja) (AEMET)",
+      "text": "Cantabria del Ebro: Aviso de lluvias de nivel amarillo. Cantabria del Ebro (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Montaña de Ourense",
-      "fenomeno": "Moderate rain warning. Montaña de Ourense",
+      "provincia": "Cantabria del Ebro",
+      "fenomeno": "Moderate rain warning. Cantabria del Ebro",
       "nivel": "Naranja",
-      "text": "Montaña de Ourense: Moderate rain warning. Montaña de Ourense (Naranja) (AEMET)",
+      "text": "Cantabria del Ebro: Moderate rain warning. Cantabria del Ebro (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Sur de Lugo",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Sur de Lugo",
+      "provincia": "Liébana",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Liébana",
       "nivel": "Naranja",
-      "text": "Sur de Lugo: Aviso de tormentas de nivel amarillo. Sur de Lugo (Naranja) (AEMET)",
+      "text": "Liébana: Aviso de tormentas de nivel amarillo. Liébana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sur de Lugo",
-      "fenomeno": "Moderate thunderstorm warning. Sur de Lugo",
+      "provincia": "Liébana",
+      "fenomeno": "Moderate thunderstorm warning. Liébana",
       "nivel": "Naranja",
-      "text": "Sur de Lugo: Moderate thunderstorm warning. Sur de Lugo (Naranja) (AEMET)",
+      "text": "Liébana: Moderate thunderstorm warning. Liébana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Noroeste de Ourense",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Noroeste de Ourense",
+      "provincia": "Centro y valle de Villaverde",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Centro y valle de Villaverde",
       "nivel": "Naranja",
-      "text": "Noroeste de Ourense: Aviso de tormentas de nivel amarillo. Noroeste de Ourense (Naranja) (AEMET)",
+      "text": "Centro y valle de Villaverde: Aviso de tormentas de nivel amarillo. Centro y valle de Villaverde (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Noroeste de Ourense",
-      "fenomeno": "Moderate thunderstorm warning. Noroeste de Ourense",
+      "provincia": "Centro y valle de Villaverde",
+      "fenomeno": "Moderate thunderstorm warning. Centro y valle de Villaverde",
       "nivel": "Naranja",
-      "text": "Noroeste de Ourense: Moderate thunderstorm warning. Noroeste de Ourense (Naranja) (AEMET)",
+      "text": "Centro y valle de Villaverde: Moderate thunderstorm warning. Centro y valle de Villaverde (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Miño de Ourense",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Miño de Ourense",
+      "provincia": "Cantabria del Ebro",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Cantabria del Ebro",
       "nivel": "Naranja",
-      "text": "Miño de Ourense: Aviso de tormentas de nivel amarillo. Miño de Ourense (Naranja) (AEMET)",
+      "text": "Cantabria del Ebro: Aviso de tormentas de nivel amarillo. Cantabria del Ebro (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Miño de Ourense",
-      "fenomeno": "Moderate thunderstorm warning. Miño de Ourense",
+      "provincia": "Cantabria del Ebro",
+      "fenomeno": "Moderate thunderstorm warning. Cantabria del Ebro",
       "nivel": "Naranja",
-      "text": "Miño de Ourense: Moderate thunderstorm warning. Miño de Ourense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Sur de Ourense",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Sur de Ourense",
-      "nivel": "Naranja",
-      "text": "Sur de Ourense: Aviso de tormentas de nivel amarillo. Sur de Ourense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sur de Ourense",
-      "fenomeno": "Moderate thunderstorm warning. Sur de Ourense",
-      "nivel": "Naranja",
-      "text": "Sur de Ourense: Moderate thunderstorm warning. Sur de Ourense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Montaña de Ourense",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Montaña de Ourense",
-      "nivel": "Naranja",
-      "text": "Montaña de Ourense: Aviso de tormentas de nivel amarillo. Montaña de Ourense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Montaña de Ourense",
-      "fenomeno": "Moderate thunderstorm warning. Montaña de Ourense",
-      "nivel": "Naranja",
-      "text": "Montaña de Ourense: Moderate thunderstorm warning. Montaña de Ourense (Naranja) (AEMET)",
+      "text": "Cantabria del Ebro: Moderate thunderstorm warning. Cantabria del Ebro (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
