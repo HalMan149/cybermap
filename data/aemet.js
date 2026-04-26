@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-04-26T17:23:09.074Z
+// Auto-generado por GitHub Actions - 2026-04-26T18:02:30.044Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-04-26T17:23:09.074Z",
+  "generated_at": "2026-04-26T18:02:30.044Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "🌧️",
-      "provincia": "Ibérica de Burgos",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Ibérica de Burgos",
-      "nivel": "Naranja",
-      "text": "Ibérica de Burgos: Aviso de lluvias de nivel amarillo. Ibérica de Burgos (Naranja) (AEMET)",
+      "provincia": "Meseta de Valladolid",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Meseta de Valladolid",
+      "nivel": "Rojo",
+      "text": "Meseta de Valladolid: Aviso de lluvias de nivel naranja. Meseta de Valladolid (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Ibérica de Burgos",
-      "fenomeno": "Moderate rain warning. Ibérica de Burgos",
-      "nivel": "Naranja",
-      "text": "Ibérica de Burgos: Moderate rain warning. Ibérica de Burgos (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Ibérica de Burgos",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Ibérica de Burgos",
-      "nivel": "Naranja",
-      "text": "Ibérica de Burgos: Aviso de tormentas de nivel amarillo. Ibérica de Burgos (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ibérica de Burgos",
-      "fenomeno": "Moderate thunderstorm warning. Ibérica de Burgos",
-      "nivel": "Naranja",
-      "text": "Ibérica de Burgos: Moderate thunderstorm warning. Ibérica de Burgos (Naranja) (AEMET)",
+      "provincia": "Meseta de Valladolid",
+      "fenomeno": "Severe rain warning. Meseta de Valladolid",
+      "nivel": "Rojo",
+      "text": "Meseta de Valladolid: Severe rain warning. Meseta de Valladolid (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Ibérica riojana",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Ibérica riojana",
+      "provincia": "Meseta de Valladolid",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Meseta de Valladolid",
       "nivel": "Naranja",
-      "text": "Ibérica riojana: Aviso de lluvias de nivel amarillo. Ibérica riojana (Naranja) (AEMET)",
+      "text": "Meseta de Valladolid: Aviso de lluvias de nivel amarillo. Meseta de Valladolid (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Ibérica riojana",
-      "fenomeno": "Moderate rain warning. Ibérica riojana",
+      "provincia": "Meseta de Valladolid",
+      "fenomeno": "Moderate rain warning. Meseta de Valladolid",
       "nivel": "Naranja",
-      "text": "Ibérica riojana: Moderate rain warning. Ibérica riojana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Ibérica riojana",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Ibérica riojana",
-      "nivel": "Naranja",
-      "text": "Ibérica riojana: Aviso de tormentas de nivel amarillo. Ibérica riojana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ibérica riojana",
-      "fenomeno": "Moderate thunderstorm warning. Ibérica riojana",
-      "nivel": "Naranja",
-      "text": "Ibérica riojana: Moderate thunderstorm warning. Ibérica riojana (Naranja) (AEMET)",
+      "text": "Meseta de Valladolid: Moderate rain warning. Meseta de Valladolid (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Liébana",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Liébana",
+      "provincia": "Cuenca del Genil",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Cuenca del Genil",
       "nivel": "Naranja",
-      "text": "Liébana: Aviso de lluvias de nivel amarillo. Liébana (Naranja) (AEMET)",
+      "text": "Cuenca del Genil: Aviso de lluvias de nivel amarillo. Cuenca del Genil (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Liébana",
-      "fenomeno": "Moderate rain warning. Liébana",
+      "provincia": "Cuenca del Genil",
+      "fenomeno": "Moderate rain warning. Cuenca del Genil",
       "nivel": "Naranja",
-      "text": "Liébana: Moderate rain warning. Liébana (Naranja) (AEMET)",
+      "text": "Cuenca del Genil: Moderate rain warning. Cuenca del Genil (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Centro y valle de Villaverde",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Centro y valle de Villaverde",
+      "provincia": "Capital y Montes de Jaén",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Capital y Montes de Jaén",
       "nivel": "Naranja",
-      "text": "Centro y valle de Villaverde: Aviso de lluvias de nivel amarillo. Centro y valle de Villaverde (Naranja) (AEMET)",
+      "text": "Capital y Montes de Jaén: Aviso de lluvias de nivel amarillo. Capital y Montes de Jaén (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Centro y valle de Villaverde",
-      "fenomeno": "Moderate rain warning. Centro y valle de Villaverde",
+      "provincia": "Capital y Montes de Jaén",
+      "fenomeno": "Moderate rain warning. Capital y Montes de Jaén",
       "nivel": "Naranja",
-      "text": "Centro y valle de Villaverde: Moderate rain warning. Centro y valle de Villaverde (Naranja) (AEMET)",
+      "text": "Capital y Montes de Jaén: Moderate rain warning. Capital y Montes de Jaén (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Cuenca del Genil",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Cuenca del Genil",
+      "nivel": "Naranja",
+      "text": "Cuenca del Genil: Aviso de tormentas de nivel amarillo. Cuenca del Genil (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cuenca del Genil",
+      "fenomeno": "Moderate thunderstorm warning. Cuenca del Genil",
+      "nivel": "Naranja",
+      "text": "Cuenca del Genil: Moderate thunderstorm warning. Cuenca del Genil (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Capital y Montes de Jaén",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Capital y Montes de Jaén",
+      "nivel": "Naranja",
+      "text": "Capital y Montes de Jaén: Aviso de tormentas de nivel amarillo. Capital y Montes de Jaén (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Capital y Montes de Jaén",
+      "fenomeno": "Moderate thunderstorm warning. Capital y Montes de Jaén",
+      "nivel": "Naranja",
+      "text": "Capital y Montes de Jaén: Moderate thunderstorm warning. Capital y Montes de Jaén (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Cantabria del Ebro",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Cantabria del Ebro",
+      "provincia": "Cordillera Cantábrica de Burgos",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Cordillera Cantábrica de Burgos",
       "nivel": "Naranja",
-      "text": "Cantabria del Ebro: Aviso de lluvias de nivel amarillo. Cantabria del Ebro (Naranja) (AEMET)",
+      "text": "Cordillera Cantábrica de Burgos: Aviso de lluvias de nivel amarillo. Cordillera Cantábrica de Burgos (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Cantabria del Ebro",
-      "fenomeno": "Moderate rain warning. Cantabria del Ebro",
+      "provincia": "Cordillera Cantábrica de Burgos",
+      "fenomeno": "Moderate rain warning. Cordillera Cantábrica de Burgos",
       "nivel": "Naranja",
-      "text": "Cantabria del Ebro: Moderate rain warning. Cantabria del Ebro (Naranja) (AEMET)",
+      "text": "Cordillera Cantábrica de Burgos: Moderate rain warning. Cordillera Cantábrica de Burgos (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⛈️",
-      "provincia": "Liébana",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Liébana",
+      "icon": "🌧️",
+      "provincia": "Norte de Burgos",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Norte de Burgos",
       "nivel": "Naranja",
-      "text": "Liébana: Aviso de tormentas de nivel amarillo. Liébana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Liébana",
-      "fenomeno": "Moderate thunderstorm warning. Liébana",
-      "nivel": "Naranja",
-      "text": "Liébana: Moderate thunderstorm warning. Liébana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Centro y valle de Villaverde",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Centro y valle de Villaverde",
-      "nivel": "Naranja",
-      "text": "Centro y valle de Villaverde: Aviso de tormentas de nivel amarillo. Centro y valle de Villaverde (Naranja) (AEMET)",
+      "text": "Norte de Burgos: Aviso de lluvias de nivel amarillo. Norte de Burgos (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Centro y valle de Villaverde",
-      "fenomeno": "Moderate thunderstorm warning. Centro y valle de Villaverde",
+      "provincia": "Norte de Burgos",
+      "fenomeno": "Moderate rain warning. Norte de Burgos",
       "nivel": "Naranja",
-      "text": "Centro y valle de Villaverde: Moderate thunderstorm warning. Centro y valle de Villaverde (Naranja) (AEMET)",
+      "text": "Norte de Burgos: Moderate rain warning. Norte de Burgos (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⛈️",
-      "provincia": "Cantabria del Ebro",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Cantabria del Ebro",
+      "icon": "🌧️",
+      "provincia": "Condado de Treviño",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Condado de Treviño",
       "nivel": "Naranja",
-      "text": "Cantabria del Ebro: Aviso de tormentas de nivel amarillo. Cantabria del Ebro (Naranja) (AEMET)",
+      "text": "Condado de Treviño: Aviso de lluvias de nivel amarillo. Condado de Treviño (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Cantabria del Ebro",
-      "fenomeno": "Moderate thunderstorm warning. Cantabria del Ebro",
+      "provincia": "Condado de Treviño",
+      "fenomeno": "Moderate rain warning. Condado de Treviño",
       "nivel": "Naranja",
-      "text": "Cantabria del Ebro: Moderate thunderstorm warning. Cantabria del Ebro (Naranja) (AEMET)",
+      "text": "Condado de Treviño: Moderate rain warning. Condado de Treviño (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Cordillera Cantábrica de León",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Cordillera Cantábrica de León",
+      "nivel": "Naranja",
+      "text": "Cordillera Cantábrica de León: Aviso de lluvias de nivel amarillo. Cordillera Cantábrica de León (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cordillera Cantábrica de León",
+      "fenomeno": "Moderate rain warning. Cordillera Cantábrica de León",
+      "nivel": "Naranja",
+      "text": "Cordillera Cantábrica de León: Moderate rain warning. Cordillera Cantábrica de León (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
