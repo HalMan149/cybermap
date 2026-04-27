@@ -1,9 +1,41 @@
-// Auto-generado por GitHub Actions - 2026-04-27T21:01:38.103Z
+// Auto-generado por GitHub Actions - 2026-04-27T22:05:46.298Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-04-27T21:01:38.103Z",
+  "generated_at": "2026-04-27T22:05:46.298Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Meseta de Palencia",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Meseta de Palencia",
+      "nivel": "Naranja",
+      "text": "Meseta de Palencia: Aviso de lluvias de nivel amarillo. Meseta de Palencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Meseta de Palencia",
+      "fenomeno": "Moderate rain warning. Meseta de Palencia",
+      "nivel": "Naranja",
+      "text": "Meseta de Palencia: Moderate rain warning. Meseta de Palencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Meseta de Palencia",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Meseta de Palencia",
+      "nivel": "Naranja",
+      "text": "Meseta de Palencia: Aviso de tormentas de nivel amarillo. Meseta de Palencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Meseta de Palencia",
+      "fenomeno": "Moderate thunderstorm warning. Meseta de Palencia",
+      "nivel": "Naranja",
+      "text": "Meseta de Palencia: Moderate thunderstorm warning. Meseta de Palencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Sur de Lugo",
@@ -130,38 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate thunderstorm warning. Noroeste de Ourense",
       "nivel": "Naranja",
       "text": "Noroeste de Ourense: Moderate thunderstorm warning. Noroeste de Ourense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Miño de Ourense",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Miño de Ourense",
-      "nivel": "Naranja",
-      "text": "Miño de Ourense: Aviso de tormentas de nivel amarillo. Miño de Ourense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Miño de Ourense",
-      "fenomeno": "Moderate thunderstorm warning. Miño de Ourense",
-      "nivel": "Naranja",
-      "text": "Miño de Ourense: Moderate thunderstorm warning. Miño de Ourense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Sur de Ourense",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Sur de Ourense",
-      "nivel": "Naranja",
-      "text": "Sur de Ourense: Aviso de tormentas de nivel amarillo. Sur de Ourense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sur de Ourense",
-      "fenomeno": "Moderate thunderstorm warning. Sur de Ourense",
-      "nivel": "Naranja",
-      "text": "Sur de Ourense: Moderate thunderstorm warning. Sur de Ourense (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
