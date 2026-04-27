@@ -1,6 +1,167 @@
 {
-  "generated_at": "2026-04-27T10:07:46.616Z",
+  "generated_at": "2026-04-27T11:58:36.477Z",
   "source": "AEMET OpenData API",
-  "total_avisos": 0,
-  "avisos": []
+  "total_avisos": 20,
+  "avisos": [
+    {
+      "icon": "⛈️",
+      "provincia": "Cuenca del Nervión",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Cuenca del Nervión",
+      "nivel": "Naranja",
+      "text": "Cuenca del Nervión: Aviso de tormentas de nivel amarillo. Cuenca del Nervión (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cuenca del Nervión",
+      "fenomeno": "Moderate thunderstorm warning. Cuenca del Nervión",
+      "nivel": "Naranja",
+      "text": "Cuenca del Nervión: Moderate thunderstorm warning. Cuenca del Nervión (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Llanada alavesa",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Llanada alavesa",
+      "nivel": "Naranja",
+      "text": "Llanada alavesa: Aviso de tormentas de nivel amarillo. Llanada alavesa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Llanada alavesa",
+      "fenomeno": "Moderate thunderstorm warning. Llanada alavesa",
+      "nivel": "Naranja",
+      "text": "Llanada alavesa: Moderate thunderstorm warning. Llanada alavesa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Rioja alavesa",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Rioja alavesa",
+      "nivel": "Naranja",
+      "text": "Rioja alavesa: Aviso de tormentas de nivel amarillo. Rioja alavesa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Rioja alavesa",
+      "fenomeno": "Moderate thunderstorm warning. Rioja alavesa",
+      "nivel": "Naranja",
+      "text": "Rioja alavesa: Moderate thunderstorm warning. Rioja alavesa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Liébana",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Liébana",
+      "nivel": "Naranja",
+      "text": "Liébana: Aviso de lluvias de nivel amarillo. Liébana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Liébana",
+      "fenomeno": "Moderate rain warning. Liébana",
+      "nivel": "Naranja",
+      "text": "Liébana: Moderate rain warning. Liébana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Centro y valle de Villaverde",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Centro y valle de Villaverde",
+      "nivel": "Naranja",
+      "text": "Centro y valle de Villaverde: Aviso de lluvias de nivel amarillo. Centro y valle de Villaverde (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Centro y valle de Villaverde",
+      "fenomeno": "Moderate rain warning. Centro y valle de Villaverde",
+      "nivel": "Naranja",
+      "text": "Centro y valle de Villaverde: Moderate rain warning. Centro y valle de Villaverde (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Cantabria del Ebro",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Cantabria del Ebro",
+      "nivel": "Naranja",
+      "text": "Cantabria del Ebro: Aviso de lluvias de nivel amarillo. Cantabria del Ebro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cantabria del Ebro",
+      "fenomeno": "Moderate rain warning. Cantabria del Ebro",
+      "nivel": "Naranja",
+      "text": "Cantabria del Ebro: Moderate rain warning. Cantabria del Ebro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Cuenca del Nervión",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Cuenca del Nervión",
+      "nivel": "Naranja",
+      "text": "Cuenca del Nervión: Aviso de lluvias de nivel amarillo. Cuenca del Nervión (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cuenca del Nervión",
+      "fenomeno": "Moderate rain warning. Cuenca del Nervión",
+      "nivel": "Naranja",
+      "text": "Cuenca del Nervión: Moderate rain warning. Cuenca del Nervión (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Llanada alavesa",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Llanada alavesa",
+      "nivel": "Naranja",
+      "text": "Llanada alavesa: Aviso de lluvias de nivel amarillo. Llanada alavesa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Llanada alavesa",
+      "fenomeno": "Moderate rain warning. Llanada alavesa",
+      "nivel": "Naranja",
+      "text": "Llanada alavesa: Moderate rain warning. Llanada alavesa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Rioja alavesa",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Rioja alavesa",
+      "nivel": "Naranja",
+      "text": "Rioja alavesa: Aviso de lluvias de nivel amarillo. Rioja alavesa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Rioja alavesa",
+      "fenomeno": "Moderate rain warning. Rioja alavesa",
+      "nivel": "Naranja",
+      "text": "Rioja alavesa: Moderate rain warning. Rioja alavesa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Liébana",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Liébana",
+      "nivel": "Naranja",
+      "text": "Liébana: Aviso de tormentas de nivel amarillo. Liébana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Liébana",
+      "fenomeno": "Moderate thunderstorm warning. Liébana",
+      "nivel": "Naranja",
+      "text": "Liébana: Moderate thunderstorm warning. Liébana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    }
+  ]
 }
