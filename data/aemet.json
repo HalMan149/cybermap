@@ -1,38 +1,102 @@
 {
-  "generated_at": "2026-04-28T06:42:24.894Z",
+  "generated_at": "2026-04-28T09:07:43.886Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "⛈️",
-      "provincia": "Poniente y Almería Capital",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Poniente y Almería Capital",
+      "provincia": "Guadix y Baza",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Guadix y Baza",
       "nivel": "Naranja",
-      "text": "Poniente y Almería Capital: Aviso de tormentas de nivel amarillo. Poniente y Almería Capital (Naranja) (AEMET)",
+      "text": "Guadix y Baza: Aviso de tormentas de nivel amarillo. Guadix y Baza (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Poniente y Almería Capital",
-      "fenomeno": "Moderate thunderstorm warning. Poniente y Almería Capital",
+      "provincia": "Guadix y Baza",
+      "fenomeno": "Moderate thunderstorm warning. Guadix y Baza",
       "nivel": "Naranja",
-      "text": "Poniente y Almería Capital: Moderate thunderstorm warning. Poniente y Almería Capital (Naranja) (AEMET)",
+      "text": "Guadix y Baza: Moderate thunderstorm warning. Guadix y Baza (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Costa granadina",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Costa granadina",
+      "provincia": "Cazorla y Segura",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Cazorla y Segura",
       "nivel": "Naranja",
-      "text": "Costa granadina: Aviso de tormentas de nivel amarillo. Costa granadina (Naranja) (AEMET)",
+      "text": "Cazorla y Segura: Aviso de tormentas de nivel amarillo. Cazorla y Segura (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Costa granadina",
-      "fenomeno": "Moderate thunderstorm warning. Costa granadina",
+      "icon": "⚠️",
+      "provincia": "Cazorla y Segura",
+      "fenomeno": "Moderate thunderstorm warning. Cazorla y Segura",
       "nivel": "Naranja",
-      "text": "Costa granadina: Moderate thunderstorm warning. Costa granadina (Naranja) (AEMET)",
+      "text": "Cazorla y Segura: Moderate thunderstorm warning. Cazorla y Segura (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Guadix y Baza",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Guadix y Baza",
+      "nivel": "Naranja",
+      "text": "Guadix y Baza: Aviso de lluvias de nivel amarillo. Guadix y Baza (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Guadix y Baza",
+      "fenomeno": "Moderate rain warning. Guadix y Baza",
+      "nivel": "Naranja",
+      "text": "Guadix y Baza: Moderate rain warning. Guadix y Baza (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Cazorla y Segura",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Cazorla y Segura",
+      "nivel": "Naranja",
+      "text": "Cazorla y Segura: Aviso de lluvias de nivel amarillo. Cazorla y Segura (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cazorla y Segura",
+      "fenomeno": "Moderate rain warning. Cazorla y Segura",
+      "nivel": "Naranja",
+      "text": "Cazorla y Segura: Moderate rain warning. Cazorla y Segura (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Guadix y Baza",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Guadix y Baza",
+      "nivel": "Naranja",
+      "text": "Guadix y Baza: Aviso de tormentas de nivel amarillo. Guadix y Baza (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Guadix y Baza",
+      "fenomeno": "Moderate thunderstorm warning. Guadix y Baza",
+      "nivel": "Naranja",
+      "text": "Guadix y Baza: Moderate thunderstorm warning. Guadix y Baza (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Cazorla y Segura",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Cazorla y Segura",
+      "nivel": "Naranja",
+      "text": "Cazorla y Segura: Aviso de tormentas de nivel amarillo. Cazorla y Segura (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cazorla y Segura",
+      "fenomeno": "Moderate thunderstorm warning. Cazorla y Segura",
+      "nivel": "Naranja",
+      "text": "Cazorla y Segura: Moderate thunderstorm warning. Cazorla y Segura (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -97,70 +161,6 @@
       "fenomeno": "Moderate rain warning. Sur de Lugo",
       "nivel": "Naranja",
       "text": "Sur de Lugo: Moderate rain warning. Sur de Lugo (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Noroeste de Ourense",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Noroeste de Ourense",
-      "nivel": "Naranja",
-      "text": "Noroeste de Ourense: Aviso de lluvias de nivel amarillo. Noroeste de Ourense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Noroeste de Ourense",
-      "fenomeno": "Moderate rain warning. Noroeste de Ourense",
-      "nivel": "Naranja",
-      "text": "Noroeste de Ourense: Moderate rain warning. Noroeste de Ourense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Miño de Ourense",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Miño de Ourense",
-      "nivel": "Naranja",
-      "text": "Miño de Ourense: Aviso de lluvias de nivel amarillo. Miño de Ourense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Miño de Ourense",
-      "fenomeno": "Moderate rain warning. Miño de Ourense",
-      "nivel": "Naranja",
-      "text": "Miño de Ourense: Moderate rain warning. Miño de Ourense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Sur de Ourense",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Sur de Ourense",
-      "nivel": "Naranja",
-      "text": "Sur de Ourense: Aviso de lluvias de nivel amarillo. Sur de Ourense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sur de Ourense",
-      "fenomeno": "Moderate rain warning. Sur de Ourense",
-      "nivel": "Naranja",
-      "text": "Sur de Ourense: Moderate rain warning. Sur de Ourense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Montaña de Ourense",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Montaña de Ourense",
-      "nivel": "Naranja",
-      "text": "Montaña de Ourense: Aviso de lluvias de nivel amarillo. Montaña de Ourense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Montaña de Ourense",
-      "fenomeno": "Moderate rain warning. Montaña de Ourense",
-      "nivel": "Naranja",
-      "text": "Montaña de Ourense: Moderate rain warning. Montaña de Ourense (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
