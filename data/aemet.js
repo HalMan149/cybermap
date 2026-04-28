@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-04-28T13:08:02.351Z
+// Auto-generado por GitHub Actions - 2026-04-28T15:37:17.274Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-04-28T13:08:02.351Z",
+  "generated_at": "2026-04-28T15:37:17.274Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "🌧️",
-      "provincia": "Sur de Lugo",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Sur de Lugo",
+      "provincia": "Campiña cordobesa",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Campiña cordobesa",
       "nivel": "Naranja",
-      "text": "Sur de Lugo: Aviso de lluvias de nivel amarillo. Sur de Lugo (Naranja) (AEMET)",
+      "text": "Campiña cordobesa: Aviso de lluvias de nivel amarillo. Campiña cordobesa (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sur de Lugo",
-      "fenomeno": "Moderate rain warning. Sur de Lugo",
+      "provincia": "Campiña cordobesa",
+      "fenomeno": "Moderate rain warning. Campiña cordobesa",
       "nivel": "Naranja",
-      "text": "Sur de Lugo: Moderate rain warning. Sur de Lugo (Naranja) (AEMET)",
+      "text": "Campiña cordobesa: Moderate rain warning. Campiña cordobesa (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Noroeste de Ourense",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Noroeste de Ourense",
+      "provincia": "Subbética cordobesa",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Subbética cordobesa",
       "nivel": "Naranja",
-      "text": "Noroeste de Ourense: Aviso de lluvias de nivel amarillo. Noroeste de Ourense (Naranja) (AEMET)",
+      "text": "Subbética cordobesa: Aviso de lluvias de nivel amarillo. Subbética cordobesa (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Noroeste de Ourense",
-      "fenomeno": "Moderate rain warning. Noroeste de Ourense",
+      "provincia": "Subbética cordobesa",
+      "fenomeno": "Moderate rain warning. Subbética cordobesa",
       "nivel": "Naranja",
-      "text": "Noroeste de Ourense: Moderate rain warning. Noroeste de Ourense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Miño de Ourense",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Miño de Ourense",
-      "nivel": "Naranja",
-      "text": "Miño de Ourense: Aviso de lluvias de nivel amarillo. Miño de Ourense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Miño de Ourense",
-      "fenomeno": "Moderate rain warning. Miño de Ourense",
-      "nivel": "Naranja",
-      "text": "Miño de Ourense: Moderate rain warning. Miño de Ourense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Sur de Ourense",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Sur de Ourense",
-      "nivel": "Naranja",
-      "text": "Sur de Ourense: Aviso de lluvias de nivel amarillo. Sur de Ourense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sur de Ourense",
-      "fenomeno": "Moderate rain warning. Sur de Ourense",
-      "nivel": "Naranja",
-      "text": "Sur de Ourense: Moderate rain warning. Sur de Ourense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Montaña de Ourense",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Montaña de Ourense",
-      "nivel": "Naranja",
-      "text": "Montaña de Ourense: Aviso de lluvias de nivel amarillo. Montaña de Ourense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Montaña de Ourense",
-      "fenomeno": "Moderate rain warning. Montaña de Ourense",
-      "nivel": "Naranja",
-      "text": "Montaña de Ourense: Moderate rain warning. Montaña de Ourense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Valdeorras",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Valdeorras",
-      "nivel": "Naranja",
-      "text": "Valdeorras: Aviso de lluvias de nivel amarillo. Valdeorras (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Valdeorras",
-      "fenomeno": "Moderate rain warning. Valdeorras",
-      "nivel": "Naranja",
-      "text": "Valdeorras: Moderate rain warning. Valdeorras (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Rias Baixas",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Rias Baixas",
-      "nivel": "Naranja",
-      "text": "Rias Baixas: Aviso de lluvias de nivel amarillo. Rias Baixas (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Rias Baixas",
-      "fenomeno": "Moderate rain warning. Rias Baixas",
-      "nivel": "Naranja",
-      "text": "Rias Baixas: Moderate rain warning. Rias Baixas (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Interior de Pontevedra",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Interior de Pontevedra",
-      "nivel": "Naranja",
-      "text": "Interior de Pontevedra: Aviso de lluvias de nivel amarillo. Interior de Pontevedra (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior de Pontevedra",
-      "fenomeno": "Moderate rain warning. Interior de Pontevedra",
-      "nivel": "Naranja",
-      "text": "Interior de Pontevedra: Moderate rain warning. Interior de Pontevedra (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Miño de Pontevedra",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Miño de Pontevedra",
-      "nivel": "Naranja",
-      "text": "Miño de Pontevedra: Aviso de lluvias de nivel amarillo. Miño de Pontevedra (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Miño de Pontevedra",
-      "fenomeno": "Moderate rain warning. Miño de Pontevedra",
-      "nivel": "Naranja",
-      "text": "Miño de Pontevedra: Moderate rain warning. Miño de Pontevedra (Naranja) (AEMET)",
+      "text": "Subbética cordobesa: Moderate rain warning. Subbética cordobesa (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Sur de Lugo",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Sur de Lugo",
+      "provincia": "Campiña cordobesa",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Campiña cordobesa",
       "nivel": "Naranja",
-      "text": "Sur de Lugo: Aviso de tormentas de nivel amarillo. Sur de Lugo (Naranja) (AEMET)",
+      "text": "Campiña cordobesa: Aviso de tormentas de nivel amarillo. Campiña cordobesa (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sur de Lugo",
-      "fenomeno": "Moderate thunderstorm warning. Sur de Lugo",
+      "provincia": "Campiña cordobesa",
+      "fenomeno": "Moderate thunderstorm warning. Campiña cordobesa",
       "nivel": "Naranja",
-      "text": "Sur de Lugo: Moderate thunderstorm warning. Sur de Lugo (Naranja) (AEMET)",
+      "text": "Campiña cordobesa: Moderate thunderstorm warning. Campiña cordobesa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Subbética cordobesa",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Subbética cordobesa",
+      "nivel": "Naranja",
+      "text": "Subbética cordobesa: Aviso de tormentas de nivel amarillo. Subbética cordobesa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Subbética cordobesa",
+      "fenomeno": "Moderate thunderstorm warning. Subbética cordobesa",
+      "nivel": "Naranja",
+      "text": "Subbética cordobesa: Moderate thunderstorm warning. Subbética cordobesa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Morena y Condado",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Morena y Condado",
+      "nivel": "Naranja",
+      "text": "Morena y Condado: Aviso de lluvias de nivel amarillo. Morena y Condado (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Morena y Condado",
+      "fenomeno": "Moderate rain warning. Morena y Condado",
+      "nivel": "Naranja",
+      "text": "Morena y Condado: Moderate rain warning. Morena y Condado (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Cazorla y Segura",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Cazorla y Segura",
+      "nivel": "Naranja",
+      "text": "Cazorla y Segura: Aviso de lluvias de nivel amarillo. Cazorla y Segura (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cazorla y Segura",
+      "fenomeno": "Moderate rain warning. Cazorla y Segura",
+      "nivel": "Naranja",
+      "text": "Cazorla y Segura: Moderate rain warning. Cazorla y Segura (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Valle del Guadalquivir de Jaén",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Valle del Guadalquivir de Jaén",
+      "nivel": "Naranja",
+      "text": "Valle del Guadalquivir de Jaén: Aviso de lluvias de nivel amarillo. Valle del Guadalquivir de Jaén (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Valle del Guadalquivir de Jaén",
+      "fenomeno": "Moderate rain warning. Valle del Guadalquivir de Jaén",
+      "nivel": "Naranja",
+      "text": "Valle del Guadalquivir de Jaén: Moderate rain warning. Valle del Guadalquivir de Jaén (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Capital y Montes de Jaén",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Capital y Montes de Jaén",
+      "nivel": "Naranja",
+      "text": "Capital y Montes de Jaén: Aviso de lluvias de nivel amarillo. Capital y Montes de Jaén (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Capital y Montes de Jaén",
+      "fenomeno": "Moderate rain warning. Capital y Montes de Jaén",
+      "nivel": "Naranja",
+      "text": "Capital y Montes de Jaén: Moderate rain warning. Capital y Montes de Jaén (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Morena y Condado",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Morena y Condado",
+      "nivel": "Naranja",
+      "text": "Morena y Condado: Aviso de tormentas de nivel amarillo. Morena y Condado (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Morena y Condado",
+      "fenomeno": "Moderate thunderstorm warning. Morena y Condado",
+      "nivel": "Naranja",
+      "text": "Morena y Condado: Moderate thunderstorm warning. Morena y Condado (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Cazorla y Segura",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Cazorla y Segura",
+      "nivel": "Naranja",
+      "text": "Cazorla y Segura: Aviso de tormentas de nivel amarillo. Cazorla y Segura (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cazorla y Segura",
+      "fenomeno": "Moderate thunderstorm warning. Cazorla y Segura",
+      "nivel": "Naranja",
+      "text": "Cazorla y Segura: Moderate thunderstorm warning. Cazorla y Segura (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
