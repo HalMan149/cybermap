@@ -1,8 +1,24 @@
 {
-  "generated_at": "2026-04-28T17:18:25.099Z",
+  "generated_at": "2026-04-28T18:59:39.614Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Rias Baixas",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Rias Baixas",
+      "nivel": "Rojo",
+      "text": "Rias Baixas: Aviso de lluvias de nivel naranja. Rias Baixas (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Rias Baixas",
+      "fenomeno": "Severe rain warning. Rias Baixas",
+      "nivel": "Rojo",
+      "text": "Rias Baixas: Severe rain warning. Rias Baixas (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Guadix y Baza",
@@ -145,22 +161,6 @@
       "fenomeno": "Moderate thunderstorm warning. Ribera del Ebro de Zaragoza",
       "nivel": "Naranja",
       "text": "Ribera del Ebro de Zaragoza: Moderate thunderstorm warning. Ribera del Ebro de Zaragoza (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Ibérica riojana",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Ibérica riojana",
-      "nivel": "Rojo",
-      "text": "Ibérica riojana: Aviso de lluvias de nivel naranja. Ibérica riojana (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ibérica riojana",
-      "fenomeno": "Severe rain warning. Ibérica riojana",
-      "nivel": "Rojo",
-      "text": "Ibérica riojana: Severe rain warning. Ibérica riojana (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
