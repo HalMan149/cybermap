@@ -1,73 +1,9 @@
-// Auto-generado por GitHub Actions - 2026-04-30T07:52:30.700Z
+// Auto-generado por GitHub Actions - 2026-04-30T09:59:32.382Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-04-30T07:52:30.700Z",
+  "generated_at": "2026-04-30T09:59:32.382Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
-    {
-      "icon": "🌧️",
-      "provincia": "Serranía de Guadalajara",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Serranía de Guadalajara",
-      "nivel": "Naranja",
-      "text": "Serranía de Guadalajara: Aviso de lluvias de nivel amarillo. Serranía de Guadalajara (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Serranía de Guadalajara",
-      "fenomeno": "Moderate rain warning. Serranía de Guadalajara",
-      "nivel": "Naranja",
-      "text": "Serranía de Guadalajara: Moderate rain warning. Serranía de Guadalajara (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Sierra de Madrid",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Sierra de Madrid",
-      "nivel": "Naranja",
-      "text": "Sierra de Madrid: Aviso de lluvias de nivel amarillo. Sierra de Madrid (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sierra de Madrid",
-      "fenomeno": "Moderate rain warning. Sierra de Madrid",
-      "nivel": "Naranja",
-      "text": "Sierra de Madrid: Moderate rain warning. Sierra de Madrid (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Serranía de Guadalajara",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Serranía de Guadalajara",
-      "nivel": "Naranja",
-      "text": "Serranía de Guadalajara: Aviso de tormentas de nivel amarillo. Serranía de Guadalajara (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Serranía de Guadalajara",
-      "fenomeno": "Moderate thunderstorm warning. Serranía de Guadalajara",
-      "nivel": "Naranja",
-      "text": "Serranía de Guadalajara: Moderate thunderstorm warning. Serranía de Guadalajara (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Sierra de Madrid",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Sierra de Madrid",
-      "nivel": "Naranja",
-      "text": "Sierra de Madrid: Aviso de tormentas de nivel amarillo. Sierra de Madrid (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sierra de Madrid",
-      "fenomeno": "Moderate thunderstorm warning. Sierra de Madrid",
-      "nivel": "Naranja",
-      "text": "Sierra de Madrid: Moderate thunderstorm warning. Sierra de Madrid (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
     {
       "icon": "🌧️",
       "provincia": "Cuenca del Nervión",
@@ -86,70 +22,6 @@ window.AEMET_AVISOS = {
     },
     {
       "icon": "🌧️",
-      "provincia": "Llanada alavesa",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Llanada alavesa",
-      "nivel": "Naranja",
-      "text": "Llanada alavesa: Aviso de lluvias de nivel amarillo. Llanada alavesa (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Llanada alavesa",
-      "fenomeno": "Moderate rain warning. Llanada alavesa",
-      "nivel": "Naranja",
-      "text": "Llanada alavesa: Moderate rain warning. Llanada alavesa (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Rioja alavesa",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Rioja alavesa",
-      "nivel": "Naranja",
-      "text": "Rioja alavesa: Aviso de lluvias de nivel amarillo. Rioja alavesa (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Rioja alavesa",
-      "fenomeno": "Moderate rain warning. Rioja alavesa",
-      "nivel": "Naranja",
-      "text": "Rioja alavesa: Moderate rain warning. Rioja alavesa (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Gipuzkoa litoral",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Gipuzkoa litoral",
-      "nivel": "Naranja",
-      "text": "Gipuzkoa litoral: Aviso de lluvias de nivel amarillo. Gipuzkoa litoral (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Gipuzkoa litoral",
-      "fenomeno": "Moderate rain warning. Gipuzkoa litoral",
-      "nivel": "Naranja",
-      "text": "Gipuzkoa litoral: Moderate rain warning. Gipuzkoa litoral (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Gipuzkoa interior",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Gipuzkoa interior",
-      "nivel": "Naranja",
-      "text": "Gipuzkoa interior: Aviso de lluvias de nivel amarillo. Gipuzkoa interior (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Gipuzkoa interior",
-      "fenomeno": "Moderate rain warning. Gipuzkoa interior",
-      "nivel": "Naranja",
-      "text": "Gipuzkoa interior: Moderate rain warning. Gipuzkoa interior (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
       "provincia": "Bizkaia litoral",
       "fenomeno": "Aviso de lluvias de nivel amarillo. Bizkaia litoral",
       "nivel": "Naranja",
@@ -162,6 +34,134 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate rain warning. Bizkaia litoral",
       "nivel": "Naranja",
       "text": "Bizkaia litoral: Moderate rain warning. Bizkaia litoral (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Bizkaia interior",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Bizkaia interior",
+      "nivel": "Naranja",
+      "text": "Bizkaia interior: Aviso de lluvias de nivel amarillo. Bizkaia interior (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Bizkaia interior",
+      "fenomeno": "Moderate rain warning. Bizkaia interior",
+      "nivel": "Naranja",
+      "text": "Bizkaia interior: Moderate rain warning. Bizkaia interior (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Cuenca del Nervión",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Cuenca del Nervión",
+      "nivel": "Naranja",
+      "text": "Cuenca del Nervión: Aviso de tormentas de nivel amarillo. Cuenca del Nervión (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cuenca del Nervión",
+      "fenomeno": "Moderate thunderstorm warning. Cuenca del Nervión",
+      "nivel": "Naranja",
+      "text": "Cuenca del Nervión: Moderate thunderstorm warning. Cuenca del Nervión (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Bizkaia litoral",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Bizkaia litoral",
+      "nivel": "Naranja",
+      "text": "Bizkaia litoral: Aviso de tormentas de nivel amarillo. Bizkaia litoral (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Bizkaia litoral",
+      "fenomeno": "Moderate thunderstorm warning. Bizkaia litoral",
+      "nivel": "Naranja",
+      "text": "Bizkaia litoral: Moderate thunderstorm warning. Bizkaia litoral (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Bizkaia interior",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Bizkaia interior",
+      "nivel": "Naranja",
+      "text": "Bizkaia interior: Aviso de tormentas de nivel amarillo. Bizkaia interior (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Bizkaia interior",
+      "fenomeno": "Moderate thunderstorm warning. Bizkaia interior",
+      "nivel": "Naranja",
+      "text": "Bizkaia interior: Moderate thunderstorm warning. Bizkaia interior (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Interior norte de Valencia",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Interior norte de Valencia",
+      "nivel": "Naranja",
+      "text": "Interior norte de Valencia: Aviso de lluvias de nivel amarillo. Interior norte de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior norte de Valencia",
+      "fenomeno": "Moderate rain warning. Interior norte de Valencia",
+      "nivel": "Naranja",
+      "text": "Interior norte de Valencia: Moderate rain warning. Interior norte de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Interior sur de Valencia",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Interior sur de Valencia",
+      "nivel": "Naranja",
+      "text": "Interior sur de Valencia: Aviso de lluvias de nivel amarillo. Interior sur de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior sur de Valencia",
+      "fenomeno": "Moderate rain warning. Interior sur de Valencia",
+      "nivel": "Naranja",
+      "text": "Interior sur de Valencia: Moderate rain warning. Interior sur de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Interior norte de Valencia",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Interior norte de Valencia",
+      "nivel": "Naranja",
+      "text": "Interior norte de Valencia: Aviso de tormentas de nivel amarillo. Interior norte de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior norte de Valencia",
+      "fenomeno": "Moderate thunderstorm warning. Interior norte de Valencia",
+      "nivel": "Naranja",
+      "text": "Interior norte de Valencia: Moderate thunderstorm warning. Interior norte de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Interior sur de Valencia",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Interior sur de Valencia",
+      "nivel": "Naranja",
+      "text": "Interior sur de Valencia: Aviso de tormentas de nivel amarillo. Interior sur de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior sur de Valencia",
+      "fenomeno": "Moderate thunderstorm warning. Interior sur de Valencia",
+      "nivel": "Naranja",
+      "text": "Interior sur de Valencia: Moderate thunderstorm warning. Interior sur de Valencia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
