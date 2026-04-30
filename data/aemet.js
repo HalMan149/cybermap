@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2026-04-30T19:47:34.590Z
+// Auto-generado por GitHub Actions - 2026-04-30T20:52:04.335Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-04-30T19:47:34.590Z",
+  "generated_at": "2026-04-30T20:52:04.335Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Cazorla y Segura",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Cazorla y Segura",
+      "nivel": "Rojo",
+      "text": "Cazorla y Segura: Aviso de lluvias de nivel naranja. Cazorla y Segura (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cazorla y Segura",
+      "fenomeno": "Severe rain warning. Cazorla y Segura",
+      "nivel": "Rojo",
+      "text": "Cazorla y Segura: Severe rain warning. Cazorla y Segura (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Guadix y Baza",
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate thunderstorm warning. La Mancha albaceteña",
       "nivel": "Naranja",
       "text": "La Mancha albaceteña: Moderate thunderstorm warning. La Mancha albaceteña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Cuenca del Nervión",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Cuenca del Nervión",
-      "nivel": "Naranja",
-      "text": "Cuenca del Nervión: Aviso de lluvias de nivel amarillo. Cuenca del Nervión (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cuenca del Nervión",
-      "fenomeno": "Moderate rain warning. Cuenca del Nervión",
-      "nivel": "Naranja",
-      "text": "Cuenca del Nervión: Moderate rain warning. Cuenca del Nervión (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
