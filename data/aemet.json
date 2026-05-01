@@ -1,8 +1,72 @@
 {
-  "generated_at": "2026-05-01T15:31:04.369Z",
+  "generated_at": "2026-05-01T16:36:48.141Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "La Mancha albaceteña",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. La Mancha albaceteña",
+      "nivel": "Naranja",
+      "text": "La Mancha albaceteña: Aviso de lluvias de nivel amarillo. La Mancha albaceteña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "La Mancha albaceteña",
+      "fenomeno": "Moderate rain warning. La Mancha albaceteña",
+      "nivel": "Naranja",
+      "text": "La Mancha albaceteña: Moderate rain warning. La Mancha albaceteña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Hellín y Almansa",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Hellín y Almansa",
+      "nivel": "Naranja",
+      "text": "Hellín y Almansa: Aviso de lluvias de nivel amarillo. Hellín y Almansa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Hellín y Almansa",
+      "fenomeno": "Moderate rain warning. Hellín y Almansa",
+      "nivel": "Naranja",
+      "text": "Hellín y Almansa: Moderate rain warning. Hellín y Almansa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "La Mancha albaceteña",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. La Mancha albaceteña",
+      "nivel": "Naranja",
+      "text": "La Mancha albaceteña: Aviso de tormentas de nivel amarillo. La Mancha albaceteña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "La Mancha albaceteña",
+      "fenomeno": "Moderate thunderstorm warning. La Mancha albaceteña",
+      "nivel": "Naranja",
+      "text": "La Mancha albaceteña: Moderate thunderstorm warning. La Mancha albaceteña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Hellín y Almansa",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Hellín y Almansa",
+      "nivel": "Naranja",
+      "text": "Hellín y Almansa: Aviso de tormentas de nivel amarillo. Hellín y Almansa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Hellín y Almansa",
+      "fenomeno": "Moderate thunderstorm warning. Hellín y Almansa",
+      "nivel": "Naranja",
+      "text": "Hellín y Almansa: Moderate thunderstorm warning. Hellín y Almansa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Gúdar y Maestrazgo",
@@ -97,70 +161,6 @@
       "fenomeno": "Moderate rain warning. Sistema Central de Soria",
       "nivel": "Naranja",
       "text": "Sistema Central de Soria: Moderate rain warning. Sistema Central de Soria (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Meseta de Soria",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Meseta de Soria",
-      "nivel": "Naranja",
-      "text": "Meseta de Soria: Aviso de tormentas de nivel amarillo. Meseta de Soria (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Meseta de Soria",
-      "fenomeno": "Moderate thunderstorm warning. Meseta de Soria",
-      "nivel": "Naranja",
-      "text": "Meseta de Soria: Moderate thunderstorm warning. Meseta de Soria (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Sistema Central de Soria",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Sistema Central de Soria",
-      "nivel": "Naranja",
-      "text": "Sistema Central de Soria: Aviso de tormentas de nivel amarillo. Sistema Central de Soria (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sistema Central de Soria",
-      "fenomeno": "Moderate thunderstorm warning. Sistema Central de Soria",
-      "nivel": "Naranja",
-      "text": "Sistema Central de Soria: Moderate thunderstorm warning. Sistema Central de Soria (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Alcarria conquense",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Alcarria conquense",
-      "nivel": "Naranja",
-      "text": "Alcarria conquense: Aviso de lluvias de nivel amarillo. Alcarria conquense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Alcarria conquense",
-      "fenomeno": "Moderate rain warning. Alcarria conquense",
-      "nivel": "Naranja",
-      "text": "Alcarria conquense: Moderate rain warning. Alcarria conquense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Serranía de Cuenca",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Serranía de Cuenca",
-      "nivel": "Naranja",
-      "text": "Serranía de Cuenca: Aviso de lluvias de nivel amarillo. Serranía de Cuenca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Serranía de Cuenca",
-      "fenomeno": "Moderate rain warning. Serranía de Cuenca",
-      "nivel": "Naranja",
-      "text": "Serranía de Cuenca: Moderate rain warning. Serranía de Cuenca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
