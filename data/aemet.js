@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-05-01T16:36:48.141Z
+// Auto-generado por GitHub Actions - 2026-05-01T17:39:32.463Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-05-01T16:36:48.141Z",
+  "generated_at": "2026-05-01T17:39:32.463Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "🌧️",
-      "provincia": "La Mancha albaceteña",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. La Mancha albaceteña",
+      "provincia": "Litoral cántabro",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral cántabro",
       "nivel": "Naranja",
-      "text": "La Mancha albaceteña: Aviso de lluvias de nivel amarillo. La Mancha albaceteña (Naranja) (AEMET)",
+      "text": "Litoral cántabro: Aviso de lluvias de nivel amarillo. Litoral cántabro (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "La Mancha albaceteña",
-      "fenomeno": "Moderate rain warning. La Mancha albaceteña",
+      "provincia": "Litoral cántabro",
+      "fenomeno": "Moderate rain warning. Litoral cántabro",
       "nivel": "Naranja",
-      "text": "La Mancha albaceteña: Moderate rain warning. La Mancha albaceteña (Naranja) (AEMET)",
+      "text": "Litoral cántabro: Moderate rain warning. Litoral cántabro (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Hellín y Almansa",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Hellín y Almansa",
+      "provincia": "Centro y valle de Villaverde",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Centro y valle de Villaverde",
       "nivel": "Naranja",
-      "text": "Hellín y Almansa: Aviso de lluvias de nivel amarillo. Hellín y Almansa (Naranja) (AEMET)",
+      "text": "Centro y valle de Villaverde: Aviso de lluvias de nivel amarillo. Centro y valle de Villaverde (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Hellín y Almansa",
-      "fenomeno": "Moderate rain warning. Hellín y Almansa",
+      "provincia": "Centro y valle de Villaverde",
+      "fenomeno": "Moderate rain warning. Centro y valle de Villaverde",
       "nivel": "Naranja",
-      "text": "Hellín y Almansa: Moderate rain warning. Hellín y Almansa (Naranja) (AEMET)",
+      "text": "Centro y valle de Villaverde: Moderate rain warning. Centro y valle de Villaverde (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Cantabria del Ebro",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Cantabria del Ebro",
+      "nivel": "Naranja",
+      "text": "Cantabria del Ebro: Aviso de lluvias de nivel amarillo. Cantabria del Ebro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cantabria del Ebro",
+      "fenomeno": "Moderate rain warning. Cantabria del Ebro",
+      "nivel": "Naranja",
+      "text": "Cantabria del Ebro: Moderate rain warning. Cantabria del Ebro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Cuenca del Nervión",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Cuenca del Nervión",
+      "nivel": "Naranja",
+      "text": "Cuenca del Nervión: Aviso de lluvias de nivel amarillo. Cuenca del Nervión (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cuenca del Nervión",
+      "fenomeno": "Moderate rain warning. Cuenca del Nervión",
+      "nivel": "Naranja",
+      "text": "Cuenca del Nervión: Moderate rain warning. Cuenca del Nervión (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Llanada alavesa",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Llanada alavesa",
+      "nivel": "Naranja",
+      "text": "Llanada alavesa: Aviso de lluvias de nivel amarillo. Llanada alavesa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Llanada alavesa",
+      "fenomeno": "Moderate rain warning. Llanada alavesa",
+      "nivel": "Naranja",
+      "text": "Llanada alavesa: Moderate rain warning. Llanada alavesa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Rioja alavesa",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Rioja alavesa",
+      "nivel": "Naranja",
+      "text": "Rioja alavesa: Aviso de lluvias de nivel amarillo. Rioja alavesa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Rioja alavesa",
+      "fenomeno": "Moderate rain warning. Rioja alavesa",
+      "nivel": "Naranja",
+      "text": "Rioja alavesa: Moderate rain warning. Rioja alavesa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Bizkaia litoral",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Bizkaia litoral",
+      "nivel": "Naranja",
+      "text": "Bizkaia litoral: Aviso de lluvias de nivel amarillo. Bizkaia litoral (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Bizkaia litoral",
+      "fenomeno": "Moderate rain warning. Bizkaia litoral",
+      "nivel": "Naranja",
+      "text": "Bizkaia litoral: Moderate rain warning. Bizkaia litoral (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Bizkaia interior",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Bizkaia interior",
+      "nivel": "Naranja",
+      "text": "Bizkaia interior: Aviso de lluvias de nivel amarillo. Bizkaia interior (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Bizkaia interior",
+      "fenomeno": "Moderate rain warning. Bizkaia interior",
+      "nivel": "Naranja",
+      "text": "Bizkaia interior: Moderate rain warning. Bizkaia interior (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "La Mancha albaceteña",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. La Mancha albaceteña",
+      "provincia": "Centro y valle de Villaverde",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Centro y valle de Villaverde",
       "nivel": "Naranja",
-      "text": "La Mancha albaceteña: Aviso de tormentas de nivel amarillo. La Mancha albaceteña (Naranja) (AEMET)",
+      "text": "Centro y valle de Villaverde: Aviso de tormentas de nivel amarillo. Centro y valle de Villaverde (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "La Mancha albaceteña",
-      "fenomeno": "Moderate thunderstorm warning. La Mancha albaceteña",
+      "provincia": "Centro y valle de Villaverde",
+      "fenomeno": "Moderate thunderstorm warning. Centro y valle de Villaverde",
       "nivel": "Naranja",
-      "text": "La Mancha albaceteña: Moderate thunderstorm warning. La Mancha albaceteña (Naranja) (AEMET)",
+      "text": "Centro y valle de Villaverde: Moderate thunderstorm warning. Centro y valle de Villaverde (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Hellín y Almansa",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Hellín y Almansa",
+      "provincia": "Cantabria del Ebro",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Cantabria del Ebro",
       "nivel": "Naranja",
-      "text": "Hellín y Almansa: Aviso de tormentas de nivel amarillo. Hellín y Almansa (Naranja) (AEMET)",
+      "text": "Cantabria del Ebro: Aviso de tormentas de nivel amarillo. Cantabria del Ebro (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Hellín y Almansa",
-      "fenomeno": "Moderate thunderstorm warning. Hellín y Almansa",
+      "provincia": "Cantabria del Ebro",
+      "fenomeno": "Moderate thunderstorm warning. Cantabria del Ebro",
       "nivel": "Naranja",
-      "text": "Hellín y Almansa: Moderate thunderstorm warning. Hellín y Almansa (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Gúdar y Maestrazgo",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Gúdar y Maestrazgo",
-      "nivel": "Naranja",
-      "text": "Gúdar y Maestrazgo: Aviso de lluvias de nivel amarillo. Gúdar y Maestrazgo (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Gúdar y Maestrazgo",
-      "fenomeno": "Moderate rain warning. Gúdar y Maestrazgo",
-      "nivel": "Naranja",
-      "text": "Gúdar y Maestrazgo: Moderate rain warning. Gúdar y Maestrazgo (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Gúdar y Maestrazgo",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Gúdar y Maestrazgo",
-      "nivel": "Naranja",
-      "text": "Gúdar y Maestrazgo: Aviso de tormentas de nivel amarillo. Gúdar y Maestrazgo (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Gúdar y Maestrazgo",
-      "fenomeno": "Moderate thunderstorm warning. Gúdar y Maestrazgo",
-      "nivel": "Naranja",
-      "text": "Gúdar y Maestrazgo: Moderate thunderstorm warning. Gúdar y Maestrazgo (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Bajo Aragón de Teruel",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Bajo Aragón de Teruel",
-      "nivel": "Naranja",
-      "text": "Bajo Aragón de Teruel: Aviso de lluvias de nivel amarillo. Bajo Aragón de Teruel (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Bajo Aragón de Teruel",
-      "fenomeno": "Moderate rain warning. Bajo Aragón de Teruel",
-      "nivel": "Naranja",
-      "text": "Bajo Aragón de Teruel: Moderate rain warning. Bajo Aragón de Teruel (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Bajo Aragón de Teruel",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Bajo Aragón de Teruel",
-      "nivel": "Naranja",
-      "text": "Bajo Aragón de Teruel: Aviso de tormentas de nivel amarillo. Bajo Aragón de Teruel (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Bajo Aragón de Teruel",
-      "fenomeno": "Moderate thunderstorm warning. Bajo Aragón de Teruel",
-      "nivel": "Naranja",
-      "text": "Bajo Aragón de Teruel: Moderate thunderstorm warning. Bajo Aragón de Teruel (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Meseta de Soria",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Meseta de Soria",
-      "nivel": "Naranja",
-      "text": "Meseta de Soria: Aviso de lluvias de nivel amarillo. Meseta de Soria (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Meseta de Soria",
-      "fenomeno": "Moderate rain warning. Meseta de Soria",
-      "nivel": "Naranja",
-      "text": "Meseta de Soria: Moderate rain warning. Meseta de Soria (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Sistema Central de Soria",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Sistema Central de Soria",
-      "nivel": "Naranja",
-      "text": "Sistema Central de Soria: Aviso de lluvias de nivel amarillo. Sistema Central de Soria (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sistema Central de Soria",
-      "fenomeno": "Moderate rain warning. Sistema Central de Soria",
-      "nivel": "Naranja",
-      "text": "Sistema Central de Soria: Moderate rain warning. Sistema Central de Soria (Naranja) (AEMET)",
+      "text": "Cantabria del Ebro: Moderate thunderstorm warning. Cantabria del Ebro (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
