@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-05-01T05:03:26.023Z
+// Auto-generado por GitHub Actions - 2026-05-01T07:35:46.230Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-05-01T05:03:26.023Z",
+  "generated_at": "2026-05-01T07:35:46.230Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "🌧️",
-      "provincia": "Interior norte de Valencia",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Interior norte de Valencia",
+      "provincia": "Litoral oriental asturiano",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral oriental asturiano",
       "nivel": "Naranja",
-      "text": "Interior norte de Valencia: Aviso de lluvias de nivel amarillo. Interior norte de Valencia (Naranja) (AEMET)",
+      "text": "Litoral oriental asturiano: Aviso de lluvias de nivel amarillo. Litoral oriental asturiano (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Interior norte de Valencia",
-      "fenomeno": "Moderate rain warning. Interior norte de Valencia",
+      "provincia": "Litoral oriental asturiano",
+      "fenomeno": "Moderate rain warning. Litoral oriental asturiano",
       "nivel": "Naranja",
-      "text": "Interior norte de Valencia: Moderate rain warning. Interior norte de Valencia (Naranja) (AEMET)",
+      "text": "Litoral oriental asturiano: Moderate rain warning. Litoral oriental asturiano (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Interior sur de Valencia",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Interior sur de Valencia",
+      "provincia": "Central y Valles Mineros",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Central y Valles Mineros",
       "nivel": "Naranja",
-      "text": "Interior sur de Valencia: Aviso de lluvias de nivel amarillo. Interior sur de Valencia (Naranja) (AEMET)",
+      "text": "Central y Valles Mineros: Aviso de lluvias de nivel amarillo. Central y Valles Mineros (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Interior sur de Valencia",
-      "fenomeno": "Moderate rain warning. Interior sur de Valencia",
+      "provincia": "Central y Valles Mineros",
+      "fenomeno": "Moderate rain warning. Central y Valles Mineros",
       "nivel": "Naranja",
-      "text": "Interior sur de Valencia: Moderate rain warning. Interior sur de Valencia (Naranja) (AEMET)",
+      "text": "Central y Valles Mineros: Moderate rain warning. Central y Valles Mineros (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Cordillera y Picos de Europa",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Cordillera y Picos de Europa",
+      "nivel": "Naranja",
+      "text": "Cordillera y Picos de Europa: Aviso de lluvias de nivel amarillo. Cordillera y Picos de Europa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cordillera y Picos de Europa",
+      "fenomeno": "Moderate rain warning. Cordillera y Picos de Europa",
+      "nivel": "Naranja",
+      "text": "Cordillera y Picos de Europa: Moderate rain warning. Cordillera y Picos de Europa (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Interior norte de Valencia",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Interior norte de Valencia",
+      "provincia": "Litoral oriental asturiano",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Litoral oriental asturiano",
       "nivel": "Naranja",
-      "text": "Interior norte de Valencia: Aviso de tormentas de nivel amarillo. Interior norte de Valencia (Naranja) (AEMET)",
+      "text": "Litoral oriental asturiano: Aviso de tormentas de nivel amarillo. Litoral oriental asturiano (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Interior norte de Valencia",
-      "fenomeno": "Moderate thunderstorm warning. Interior norte de Valencia",
+      "provincia": "Litoral oriental asturiano",
+      "fenomeno": "Moderate thunderstorm warning. Litoral oriental asturiano",
       "nivel": "Naranja",
-      "text": "Interior norte de Valencia: Moderate thunderstorm warning. Interior norte de Valencia (Naranja) (AEMET)",
+      "text": "Litoral oriental asturiano: Moderate thunderstorm warning. Litoral oriental asturiano (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Interior sur de Valencia",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Interior sur de Valencia",
+      "provincia": "Central y Valles Mineros",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Central y Valles Mineros",
       "nivel": "Naranja",
-      "text": "Interior sur de Valencia: Aviso de tormentas de nivel amarillo. Interior sur de Valencia (Naranja) (AEMET)",
+      "text": "Central y Valles Mineros: Aviso de tormentas de nivel amarillo. Central y Valles Mineros (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Interior sur de Valencia",
-      "fenomeno": "Moderate thunderstorm warning. Interior sur de Valencia",
+      "provincia": "Central y Valles Mineros",
+      "fenomeno": "Moderate thunderstorm warning. Central y Valles Mineros",
       "nivel": "Naranja",
-      "text": "Interior sur de Valencia: Moderate thunderstorm warning. Interior sur de Valencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Cazorla y Segura",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Cazorla y Segura",
-      "nivel": "Rojo",
-      "text": "Cazorla y Segura: Aviso de lluvias de nivel naranja. Cazorla y Segura (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cazorla y Segura",
-      "fenomeno": "Severe rain warning. Cazorla y Segura",
-      "nivel": "Rojo",
-      "text": "Cazorla y Segura: Severe rain warning. Cazorla y Segura (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Guadix y Baza",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Guadix y Baza",
-      "nivel": "Rojo",
-      "text": "Guadix y Baza: Aviso de lluvias de nivel naranja. Guadix y Baza (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Guadix y Baza",
-      "fenomeno": "Severe rain warning. Guadix y Baza",
-      "nivel": "Rojo",
-      "text": "Guadix y Baza: Severe rain warning. Guadix y Baza (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "La Mancha albaceteña",
-      "fenomeno": "Aviso de lluvias de nivel naranja. La Mancha albaceteña",
-      "nivel": "Rojo",
-      "text": "La Mancha albaceteña: Aviso de lluvias de nivel naranja. La Mancha albaceteña (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "La Mancha albaceteña",
-      "fenomeno": "Severe rain warning. La Mancha albaceteña",
-      "nivel": "Rojo",
-      "text": "La Mancha albaceteña: Severe rain warning. La Mancha albaceteña (Rojo) (AEMET)",
+      "text": "Central y Valles Mineros: Moderate thunderstorm warning. Central y Valles Mineros (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "La Mancha albaceteña",
-      "fenomeno": "Aviso de tormentas de nivel naranja. La Mancha albaceteña",
-      "nivel": "Rojo",
-      "text": "La Mancha albaceteña: Aviso de tormentas de nivel naranja. La Mancha albaceteña (Rojo) (AEMET)",
+      "provincia": "Cordillera y Picos de Europa",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Cordillera y Picos de Europa",
+      "nivel": "Naranja",
+      "text": "Cordillera y Picos de Europa: Aviso de tormentas de nivel amarillo. Cordillera y Picos de Europa (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "La Mancha albaceteña",
-      "fenomeno": "Severe thunderstorm warning. La Mancha albaceteña",
-      "nivel": "Rojo",
-      "text": "La Mancha albaceteña: Severe thunderstorm warning. La Mancha albaceteña (Rojo) (AEMET)",
+      "provincia": "Cordillera y Picos de Europa",
+      "fenomeno": "Moderate thunderstorm warning. Cordillera y Picos de Europa",
+      "nivel": "Naranja",
+      "text": "Cordillera y Picos de Europa: Moderate thunderstorm warning. Cordillera y Picos de Europa (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Alcaraz y Segura",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Alcaraz y Segura",
+      "provincia": "Centro y valle de Villaverde",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Centro y valle de Villaverde",
       "nivel": "Naranja",
-      "text": "Alcaraz y Segura: Aviso de lluvias de nivel amarillo. Alcaraz y Segura (Naranja) (AEMET)",
+      "text": "Centro y valle de Villaverde: Aviso de lluvias de nivel amarillo. Centro y valle de Villaverde (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Alcaraz y Segura",
-      "fenomeno": "Moderate rain warning. Alcaraz y Segura",
+      "provincia": "Centro y valle de Villaverde",
+      "fenomeno": "Moderate rain warning. Centro y valle de Villaverde",
       "nivel": "Naranja",
-      "text": "Alcaraz y Segura: Moderate rain warning. Alcaraz y Segura (Naranja) (AEMET)",
+      "text": "Centro y valle de Villaverde: Moderate rain warning. Centro y valle de Villaverde (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⛈️",
-      "provincia": "Alcaraz y Segura",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Alcaraz y Segura",
+      "icon": "🌧️",
+      "provincia": "Cantabria del Ebro",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Cantabria del Ebro",
       "nivel": "Naranja",
-      "text": "Alcaraz y Segura: Aviso de tormentas de nivel amarillo. Alcaraz y Segura (Naranja) (AEMET)",
+      "text": "Cantabria del Ebro: Aviso de lluvias de nivel amarillo. Cantabria del Ebro (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Alcaraz y Segura",
-      "fenomeno": "Moderate thunderstorm warning. Alcaraz y Segura",
+      "provincia": "Cantabria del Ebro",
+      "fenomeno": "Moderate rain warning. Cantabria del Ebro",
       "nivel": "Naranja",
-      "text": "Alcaraz y Segura: Moderate thunderstorm warning. Alcaraz y Segura (Naranja) (AEMET)",
+      "text": "Cantabria del Ebro: Moderate rain warning. Cantabria del Ebro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Cuenca del Nervión",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Cuenca del Nervión",
+      "nivel": "Naranja",
+      "text": "Cuenca del Nervión: Aviso de lluvias de nivel amarillo. Cuenca del Nervión (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cuenca del Nervión",
+      "fenomeno": "Moderate rain warning. Cuenca del Nervión",
+      "nivel": "Naranja",
+      "text": "Cuenca del Nervión: Moderate rain warning. Cuenca del Nervión (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Llanada alavesa",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Llanada alavesa",
+      "nivel": "Naranja",
+      "text": "Llanada alavesa: Aviso de lluvias de nivel amarillo. Llanada alavesa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Llanada alavesa",
+      "fenomeno": "Moderate rain warning. Llanada alavesa",
+      "nivel": "Naranja",
+      "text": "Llanada alavesa: Moderate rain warning. Llanada alavesa (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
