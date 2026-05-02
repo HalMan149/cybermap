@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-05-02T17:39:55.102Z
+// Auto-generado por GitHub Actions - 2026-05-02T18:33:58.643Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-05-02T17:39:55.102Z",
+  "generated_at": "2026-05-02T18:33:58.643Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "⛈️",
-      "provincia": "Litoral oriental asturiano",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Litoral oriental asturiano",
+      "icon": "🌧️",
+      "provincia": "Bajo Aragón de Teruel",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Bajo Aragón de Teruel",
       "nivel": "Naranja",
-      "text": "Litoral oriental asturiano: Aviso de tormentas de nivel amarillo. Litoral oriental asturiano (Naranja) (AEMET)",
+      "text": "Bajo Aragón de Teruel: Aviso de lluvias de nivel amarillo. Bajo Aragón de Teruel (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Litoral oriental asturiano",
-      "fenomeno": "Moderate thunderstorm warning. Litoral oriental asturiano",
+      "provincia": "Bajo Aragón de Teruel",
+      "fenomeno": "Moderate rain warning. Bajo Aragón de Teruel",
       "nivel": "Naranja",
-      "text": "Litoral oriental asturiano: Moderate thunderstorm warning. Litoral oriental asturiano (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Central y Valles Mineros",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Central y Valles Mineros",
-      "nivel": "Naranja",
-      "text": "Central y Valles Mineros: Aviso de tormentas de nivel amarillo. Central y Valles Mineros (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Central y Valles Mineros",
-      "fenomeno": "Moderate thunderstorm warning. Central y Valles Mineros",
-      "nivel": "Naranja",
-      "text": "Central y Valles Mineros: Moderate thunderstorm warning. Central y Valles Mineros (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Cordillera y Picos de Europa",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Cordillera y Picos de Europa",
-      "nivel": "Naranja",
-      "text": "Cordillera y Picos de Europa: Aviso de tormentas de nivel amarillo. Cordillera y Picos de Europa (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cordillera y Picos de Europa",
-      "fenomeno": "Moderate thunderstorm warning. Cordillera y Picos de Europa",
-      "nivel": "Naranja",
-      "text": "Cordillera y Picos de Europa: Moderate thunderstorm warning. Cordillera y Picos de Europa (Naranja) (AEMET)",
+      "text": "Bajo Aragón de Teruel: Moderate rain warning. Bajo Aragón de Teruel (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Cordillera y Picos de Europa",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Cordillera y Picos de Europa",
+      "provincia": "Pirineo de Girona",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Pirineo de Girona",
       "nivel": "Naranja",
-      "text": "Cordillera y Picos de Europa: Aviso de lluvias de nivel amarillo. Cordillera y Picos de Europa (Naranja) (AEMET)",
+      "text": "Pirineo de Girona: Aviso de lluvias de nivel amarillo. Pirineo de Girona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Cordillera y Picos de Europa",
-      "fenomeno": "Moderate rain warning. Cordillera y Picos de Europa",
+      "provincia": "Pirineo de Girona",
+      "fenomeno": "Moderate rain warning. Pirineo de Girona",
       "nivel": "Naranja",
-      "text": "Cordillera y Picos de Europa: Moderate rain warning. Cordillera y Picos de Europa (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Cordillera y Picos de Europa",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Cordillera y Picos de Europa",
-      "nivel": "Naranja",
-      "text": "Cordillera y Picos de Europa: Aviso de tormentas de nivel amarillo. Cordillera y Picos de Europa (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cordillera y Picos de Europa",
-      "fenomeno": "Moderate thunderstorm warning. Cordillera y Picos de Europa",
-      "nivel": "Naranja",
-      "text": "Cordillera y Picos de Europa: Moderate thunderstorm warning. Cordillera y Picos de Europa (Naranja) (AEMET)",
+      "text": "Pirineo de Girona: Moderate rain warning. Pirineo de Girona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Interior norte de Valencia",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Interior norte de Valencia",
+      "provincia": "Depresión central de Tarragona",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Depresión central de Tarragona",
       "nivel": "Naranja",
-      "text": "Interior norte de Valencia: Aviso de lluvias de nivel amarillo. Interior norte de Valencia (Naranja) (AEMET)",
+      "text": "Depresión central de Tarragona: Aviso de lluvias de nivel amarillo. Depresión central de Tarragona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Interior norte de Valencia",
-      "fenomeno": "Moderate rain warning. Interior norte de Valencia",
+      "provincia": "Depresión central de Tarragona",
+      "fenomeno": "Moderate rain warning. Depresión central de Tarragona",
       "nivel": "Naranja",
-      "text": "Interior norte de Valencia: Moderate rain warning. Interior norte de Valencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Interior norte de Valencia",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Interior norte de Valencia",
-      "nivel": "Naranja",
-      "text": "Interior norte de Valencia: Aviso de tormentas de nivel amarillo. Interior norte de Valencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior norte de Valencia",
-      "fenomeno": "Moderate thunderstorm warning. Interior norte de Valencia",
-      "nivel": "Naranja",
-      "text": "Interior norte de Valencia: Moderate thunderstorm warning. Interior norte de Valencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Interior sur de Valencia",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Interior sur de Valencia",
-      "nivel": "Naranja",
-      "text": "Interior sur de Valencia: Aviso de tormentas de nivel amarillo. Interior sur de Valencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior sur de Valencia",
-      "fenomeno": "Moderate thunderstorm warning. Interior sur de Valencia",
-      "nivel": "Naranja",
-      "text": "Interior sur de Valencia: Moderate thunderstorm warning. Interior sur de Valencia (Naranja) (AEMET)",
+      "text": "Depresión central de Tarragona: Moderate rain warning. Depresión central de Tarragona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Centro de Navarra",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Centro de Navarra",
-      "nivel": "Rojo",
-      "text": "Centro de Navarra: Aviso de lluvias de nivel naranja. Centro de Navarra (Rojo) (AEMET)",
+      "provincia": "Prelitoral sur de Tarragona",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Prelitoral sur de Tarragona",
+      "nivel": "Naranja",
+      "text": "Prelitoral sur de Tarragona: Aviso de lluvias de nivel amarillo. Prelitoral sur de Tarragona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Centro de Navarra",
-      "fenomeno": "Severe rain warning. Centro de Navarra",
-      "nivel": "Rojo",
-      "text": "Centro de Navarra: Severe rain warning. Centro de Navarra (Rojo) (AEMET)",
+      "provincia": "Prelitoral sur de Tarragona",
+      "fenomeno": "Moderate rain warning. Prelitoral sur de Tarragona",
+      "nivel": "Naranja",
+      "text": "Prelitoral sur de Tarragona: Moderate rain warning. Prelitoral sur de Tarragona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Centro de Navarra",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Centro de Navarra",
+      "provincia": "Interior norte de Castellón",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Interior norte de Castellón",
       "nivel": "Naranja",
-      "text": "Centro de Navarra: Aviso de lluvias de nivel amarillo. Centro de Navarra (Naranja) (AEMET)",
+      "text": "Interior norte de Castellón: Aviso de lluvias de nivel amarillo. Interior norte de Castellón (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Centro de Navarra",
-      "fenomeno": "Moderate rain warning. Centro de Navarra",
+      "provincia": "Interior norte de Castellón",
+      "fenomeno": "Moderate rain warning. Interior norte de Castellón",
       "nivel": "Naranja",
-      "text": "Centro de Navarra: Moderate rain warning. Centro de Navarra (Naranja) (AEMET)",
+      "text": "Interior norte de Castellón: Moderate rain warning. Interior norte de Castellón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Bajo Aragón de Teruel",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Bajo Aragón de Teruel",
+      "nivel": "Naranja",
+      "text": "Bajo Aragón de Teruel: Aviso de tormentas de nivel amarillo. Bajo Aragón de Teruel (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Bajo Aragón de Teruel",
+      "fenomeno": "Moderate thunderstorm warning. Bajo Aragón de Teruel",
+      "nivel": "Naranja",
+      "text": "Bajo Aragón de Teruel: Moderate thunderstorm warning. Bajo Aragón de Teruel (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Pirineo de Girona",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Pirineo de Girona",
+      "nivel": "Naranja",
+      "text": "Pirineo de Girona: Aviso de tormentas de nivel amarillo. Pirineo de Girona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Pirineo de Girona",
+      "fenomeno": "Moderate thunderstorm warning. Pirineo de Girona",
+      "nivel": "Naranja",
+      "text": "Pirineo de Girona: Moderate thunderstorm warning. Pirineo de Girona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Depresión central de Tarragona",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Depresión central de Tarragona",
+      "nivel": "Naranja",
+      "text": "Depresión central de Tarragona: Aviso de tormentas de nivel amarillo. Depresión central de Tarragona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Depresión central de Tarragona",
+      "fenomeno": "Moderate thunderstorm warning. Depresión central de Tarragona",
+      "nivel": "Naranja",
+      "text": "Depresión central de Tarragona: Moderate thunderstorm warning. Depresión central de Tarragona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Prelitoral sur de Tarragona",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Prelitoral sur de Tarragona",
+      "nivel": "Naranja",
+      "text": "Prelitoral sur de Tarragona: Aviso de tormentas de nivel amarillo. Prelitoral sur de Tarragona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Prelitoral sur de Tarragona",
+      "fenomeno": "Moderate thunderstorm warning. Prelitoral sur de Tarragona",
+      "nivel": "Naranja",
+      "text": "Prelitoral sur de Tarragona: Moderate thunderstorm warning. Prelitoral sur de Tarragona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Interior norte de Castellón",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Interior norte de Castellón",
+      "nivel": "Naranja",
+      "text": "Interior norte de Castellón: Aviso de tormentas de nivel amarillo. Interior norte de Castellón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior norte de Castellón",
+      "fenomeno": "Moderate thunderstorm warning. Interior norte de Castellón",
+      "nivel": "Naranja",
+      "text": "Interior norte de Castellón: Moderate thunderstorm warning. Interior norte de Castellón (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
