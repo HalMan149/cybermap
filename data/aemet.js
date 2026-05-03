@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-05-03T13:47:24.453Z
+// Auto-generado por GitHub Actions - 2026-05-03T14:41:50.527Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-05-03T13:47:24.453Z",
+  "generated_at": "2026-05-03T14:41:50.527Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "🌧️",
-      "provincia": "Ribera del Ebro de La Rioja",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Ribera del Ebro de La Rioja",
+      "provincia": "Prepirineo de Barcelona",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Prepirineo de Barcelona",
       "nivel": "Naranja",
-      "text": "Ribera del Ebro de La Rioja: Aviso de lluvias de nivel amarillo. Ribera del Ebro de La Rioja (Naranja) (AEMET)",
+      "text": "Prepirineo de Barcelona: Aviso de lluvias de nivel amarillo. Prepirineo de Barcelona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Ribera del Ebro de La Rioja",
-      "fenomeno": "Moderate rain warning. Ribera del Ebro de La Rioja",
+      "provincia": "Prepirineo de Barcelona",
+      "fenomeno": "Moderate rain warning. Prepirineo de Barcelona",
       "nivel": "Naranja",
-      "text": "Ribera del Ebro de La Rioja: Moderate rain warning. Ribera del Ebro de La Rioja (Naranja) (AEMET)",
+      "text": "Prepirineo de Barcelona: Moderate rain warning. Prepirineo de Barcelona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Ibérica riojana",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Ibérica riojana",
+      "provincia": "Depresión central de Barcelona",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Depresión central de Barcelona",
       "nivel": "Naranja",
-      "text": "Ibérica riojana: Aviso de lluvias de nivel amarillo. Ibérica riojana (Naranja) (AEMET)",
+      "text": "Depresión central de Barcelona: Aviso de lluvias de nivel amarillo. Depresión central de Barcelona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Ibérica riojana",
-      "fenomeno": "Moderate rain warning. Ibérica riojana",
+      "provincia": "Depresión central de Barcelona",
+      "fenomeno": "Moderate rain warning. Depresión central de Barcelona",
       "nivel": "Naranja",
-      "text": "Ibérica riojana: Moderate rain warning. Ibérica riojana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Ribera del Ebro de La Rioja",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Ribera del Ebro de La Rioja",
-      "nivel": "Naranja",
-      "text": "Ribera del Ebro de La Rioja: Aviso de tormentas de nivel amarillo. Ribera del Ebro de La Rioja (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ribera del Ebro de La Rioja",
-      "fenomeno": "Moderate thunderstorm warning. Ribera del Ebro de La Rioja",
-      "nivel": "Naranja",
-      "text": "Ribera del Ebro de La Rioja: Moderate thunderstorm warning. Ribera del Ebro de La Rioja (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Ibérica riojana",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Ibérica riojana",
-      "nivel": "Naranja",
-      "text": "Ibérica riojana: Aviso de tormentas de nivel amarillo. Ibérica riojana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ibérica riojana",
-      "fenomeno": "Moderate thunderstorm warning. Ibérica riojana",
-      "nivel": "Naranja",
-      "text": "Ibérica riojana: Moderate thunderstorm warning. Ibérica riojana (Naranja) (AEMET)",
+      "text": "Depresión central de Barcelona: Moderate rain warning. Depresión central de Barcelona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Cordillera Cantábrica de Burgos",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Cordillera Cantábrica de Burgos",
+      "provincia": "Prelitoral de Barcelona",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Prelitoral de Barcelona",
       "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de Burgos: Aviso de lluvias de nivel amarillo. Cordillera Cantábrica de Burgos (Naranja) (AEMET)",
+      "text": "Prelitoral de Barcelona: Aviso de lluvias de nivel amarillo. Prelitoral de Barcelona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Cordillera Cantábrica de Burgos",
-      "fenomeno": "Moderate rain warning. Cordillera Cantábrica de Burgos",
+      "provincia": "Prelitoral de Barcelona",
+      "fenomeno": "Moderate rain warning. Prelitoral de Barcelona",
       "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de Burgos: Moderate rain warning. Cordillera Cantábrica de Burgos (Naranja) (AEMET)",
+      "text": "Prelitoral de Barcelona: Moderate rain warning. Prelitoral de Barcelona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Norte de Burgos",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Norte de Burgos",
+      "provincia": "Pirineo de Girona",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Pirineo de Girona",
       "nivel": "Naranja",
-      "text": "Norte de Burgos: Aviso de lluvias de nivel amarillo. Norte de Burgos (Naranja) (AEMET)",
+      "text": "Pirineo de Girona: Aviso de lluvias de nivel amarillo. Pirineo de Girona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Norte de Burgos",
-      "fenomeno": "Moderate rain warning. Norte de Burgos",
+      "provincia": "Pirineo de Girona",
+      "fenomeno": "Moderate rain warning. Pirineo de Girona",
       "nivel": "Naranja",
-      "text": "Norte de Burgos: Moderate rain warning. Norte de Burgos (Naranja) (AEMET)",
+      "text": "Pirineo de Girona: Moderate rain warning. Pirineo de Girona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Condado de Treviño",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Condado de Treviño",
+      "provincia": "Prelitoral de Girona",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Prelitoral de Girona",
       "nivel": "Naranja",
-      "text": "Condado de Treviño: Aviso de lluvias de nivel amarillo. Condado de Treviño (Naranja) (AEMET)",
+      "text": "Prelitoral de Girona: Aviso de lluvias de nivel amarillo. Prelitoral de Girona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Condado de Treviño",
-      "fenomeno": "Moderate rain warning. Condado de Treviño",
+      "provincia": "Prelitoral de Girona",
+      "fenomeno": "Moderate rain warning. Prelitoral de Girona",
       "nivel": "Naranja",
-      "text": "Condado de Treviño: Moderate rain warning. Condado de Treviño (Naranja) (AEMET)",
+      "text": "Prelitoral de Girona: Moderate rain warning. Prelitoral de Girona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Depresión central de Tarragona",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Depresión central de Tarragona",
+      "nivel": "Naranja",
+      "text": "Depresión central de Tarragona: Aviso de lluvias de nivel amarillo. Depresión central de Tarragona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Depresión central de Tarragona",
+      "fenomeno": "Moderate rain warning. Depresión central de Tarragona",
+      "nivel": "Naranja",
+      "text": "Depresión central de Tarragona: Moderate rain warning. Depresión central de Tarragona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Prelitoral norte de Tarragona",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Prelitoral norte de Tarragona",
+      "nivel": "Naranja",
+      "text": "Prelitoral norte de Tarragona: Aviso de lluvias de nivel amarillo. Prelitoral norte de Tarragona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Prelitoral norte de Tarragona",
+      "fenomeno": "Moderate rain warning. Prelitoral norte de Tarragona",
+      "nivel": "Naranja",
+      "text": "Prelitoral norte de Tarragona: Moderate rain warning. Prelitoral norte de Tarragona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Prelitoral sur de Tarragona",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Prelitoral sur de Tarragona",
+      "nivel": "Naranja",
+      "text": "Prelitoral sur de Tarragona: Aviso de lluvias de nivel amarillo. Prelitoral sur de Tarragona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Prelitoral sur de Tarragona",
+      "fenomeno": "Moderate rain warning. Prelitoral sur de Tarragona",
+      "nivel": "Naranja",
+      "text": "Prelitoral sur de Tarragona: Moderate rain warning. Prelitoral sur de Tarragona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Interior norte de Castellón",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Interior norte de Castellón",
+      "nivel": "Naranja",
+      "text": "Interior norte de Castellón: Aviso de lluvias de nivel amarillo. Interior norte de Castellón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior norte de Castellón",
+      "fenomeno": "Moderate rain warning. Interior norte de Castellón",
+      "nivel": "Naranja",
+      "text": "Interior norte de Castellón: Moderate rain warning. Interior norte de Castellón (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Cordillera Cantábrica de Burgos",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Cordillera Cantábrica de Burgos",
+      "provincia": "Prepirineo de Barcelona",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Prepirineo de Barcelona",
       "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de Burgos: Aviso de tormentas de nivel amarillo. Cordillera Cantábrica de Burgos (Naranja) (AEMET)",
+      "text": "Prepirineo de Barcelona: Aviso de tormentas de nivel amarillo. Prepirineo de Barcelona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Cordillera Cantábrica de Burgos",
-      "fenomeno": "Moderate thunderstorm warning. Cordillera Cantábrica de Burgos",
+      "provincia": "Prepirineo de Barcelona",
+      "fenomeno": "Moderate thunderstorm warning. Prepirineo de Barcelona",
       "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de Burgos: Moderate thunderstorm warning. Cordillera Cantábrica de Burgos (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Norte de Burgos",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Norte de Burgos",
-      "nivel": "Naranja",
-      "text": "Norte de Burgos: Aviso de tormentas de nivel amarillo. Norte de Burgos (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Norte de Burgos",
-      "fenomeno": "Moderate thunderstorm warning. Norte de Burgos",
-      "nivel": "Naranja",
-      "text": "Norte de Burgos: Moderate thunderstorm warning. Norte de Burgos (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Condado de Treviño",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Condado de Treviño",
-      "nivel": "Naranja",
-      "text": "Condado de Treviño: Aviso de tormentas de nivel amarillo. Condado de Treviño (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Condado de Treviño",
-      "fenomeno": "Moderate thunderstorm warning. Condado de Treviño",
-      "nivel": "Naranja",
-      "text": "Condado de Treviño: Moderate thunderstorm warning. Condado de Treviño (Naranja) (AEMET)",
+      "text": "Prepirineo de Barcelona: Moderate thunderstorm warning. Prepirineo de Barcelona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
