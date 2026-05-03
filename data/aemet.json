@@ -1,166 +1,166 @@
 {
-  "generated_at": "2026-05-03T06:38:13.169Z",
+  "generated_at": "2026-05-03T08:23:36.492Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "🌧️",
-      "provincia": "Vertiente cantábrica de Navarra",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Vertiente cantábrica de Navarra",
+      "provincia": "Pirineo oscense",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Pirineo oscense",
       "nivel": "Naranja",
-      "text": "Vertiente cantábrica de Navarra: Aviso de lluvias de nivel amarillo. Vertiente cantábrica de Navarra (Naranja) (AEMET)",
+      "text": "Pirineo oscense: Aviso de lluvias de nivel amarillo. Pirineo oscense (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Vertiente cantábrica de Navarra",
-      "fenomeno": "Moderate rain warning. Vertiente cantábrica de Navarra",
+      "provincia": "Pirineo oscense",
+      "fenomeno": "Moderate rain warning. Pirineo oscense",
       "nivel": "Naranja",
-      "text": "Vertiente cantábrica de Navarra: Moderate rain warning. Vertiente cantábrica de Navarra (Naranja) (AEMET)",
+      "text": "Pirineo oscense: Moderate rain warning. Pirineo oscense (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Centro de Navarra",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Centro de Navarra",
+      "provincia": "Centro de Huesca",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Centro de Huesca",
       "nivel": "Naranja",
-      "text": "Centro de Navarra: Aviso de lluvias de nivel amarillo. Centro de Navarra (Naranja) (AEMET)",
+      "text": "Centro de Huesca: Aviso de lluvias de nivel amarillo. Centro de Huesca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Centro de Navarra",
-      "fenomeno": "Moderate rain warning. Centro de Navarra",
+      "provincia": "Centro de Huesca",
+      "fenomeno": "Moderate rain warning. Centro de Huesca",
       "nivel": "Naranja",
-      "text": "Centro de Navarra: Moderate rain warning. Centro de Navarra (Naranja) (AEMET)",
+      "text": "Centro de Huesca: Moderate rain warning. Centro de Huesca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Pirineo navarro",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Pirineo navarro",
+      "provincia": "Sur de Huesca",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Sur de Huesca",
       "nivel": "Naranja",
-      "text": "Pirineo navarro: Aviso de lluvias de nivel amarillo. Pirineo navarro (Naranja) (AEMET)",
+      "text": "Sur de Huesca: Aviso de lluvias de nivel amarillo. Sur de Huesca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Pirineo navarro",
-      "fenomeno": "Moderate rain warning. Pirineo navarro",
+      "provincia": "Sur de Huesca",
+      "fenomeno": "Moderate rain warning. Sur de Huesca",
       "nivel": "Naranja",
-      "text": "Pirineo navarro: Moderate rain warning. Pirineo navarro (Naranja) (AEMET)",
+      "text": "Sur de Huesca: Moderate rain warning. Sur de Huesca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Ribera del Ebro de Navarra",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Ribera del Ebro de Navarra",
+      "provincia": "Cinco Villas de Zaragoza",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Cinco Villas de Zaragoza",
       "nivel": "Naranja",
-      "text": "Ribera del Ebro de Navarra: Aviso de lluvias de nivel amarillo. Ribera del Ebro de Navarra (Naranja) (AEMET)",
+      "text": "Cinco Villas de Zaragoza: Aviso de lluvias de nivel amarillo. Cinco Villas de Zaragoza (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Ribera del Ebro de Navarra",
-      "fenomeno": "Moderate rain warning. Ribera del Ebro de Navarra",
+      "provincia": "Cinco Villas de Zaragoza",
+      "fenomeno": "Moderate rain warning. Cinco Villas de Zaragoza",
       "nivel": "Naranja",
-      "text": "Ribera del Ebro de Navarra: Moderate rain warning. Ribera del Ebro de Navarra (Naranja) (AEMET)",
+      "text": "Cinco Villas de Zaragoza: Moderate rain warning. Cinco Villas de Zaragoza (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Cuenca del Nervión",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Cuenca del Nervión",
+      "provincia": "Ibérica zaragozana",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Ibérica zaragozana",
       "nivel": "Naranja",
-      "text": "Cuenca del Nervión: Aviso de lluvias de nivel amarillo. Cuenca del Nervión (Naranja) (AEMET)",
+      "text": "Ibérica zaragozana: Aviso de lluvias de nivel amarillo. Ibérica zaragozana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Cuenca del Nervión",
-      "fenomeno": "Moderate rain warning. Cuenca del Nervión",
+      "provincia": "Ibérica zaragozana",
+      "fenomeno": "Moderate rain warning. Ibérica zaragozana",
       "nivel": "Naranja",
-      "text": "Cuenca del Nervión: Moderate rain warning. Cuenca del Nervión (Naranja) (AEMET)",
+      "text": "Ibérica zaragozana: Moderate rain warning. Ibérica zaragozana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Llanada alavesa",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Llanada alavesa",
+      "provincia": "Ribera del Ebro de Zaragoza",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Ribera del Ebro de Zaragoza",
       "nivel": "Naranja",
-      "text": "Llanada alavesa: Aviso de lluvias de nivel amarillo. Llanada alavesa (Naranja) (AEMET)",
+      "text": "Ribera del Ebro de Zaragoza: Aviso de lluvias de nivel amarillo. Ribera del Ebro de Zaragoza (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Llanada alavesa",
-      "fenomeno": "Moderate rain warning. Llanada alavesa",
+      "provincia": "Ribera del Ebro de Zaragoza",
+      "fenomeno": "Moderate rain warning. Ribera del Ebro de Zaragoza",
       "nivel": "Naranja",
-      "text": "Llanada alavesa: Moderate rain warning. Llanada alavesa (Naranja) (AEMET)",
+      "text": "Ribera del Ebro de Zaragoza: Moderate rain warning. Ribera del Ebro de Zaragoza (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Rioja alavesa",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Rioja alavesa",
+      "icon": "⛈️",
+      "provincia": "Pirineo oscense",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Pirineo oscense",
       "nivel": "Naranja",
-      "text": "Rioja alavesa: Aviso de lluvias de nivel amarillo. Rioja alavesa (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Rioja alavesa",
-      "fenomeno": "Moderate rain warning. Rioja alavesa",
-      "nivel": "Naranja",
-      "text": "Rioja alavesa: Moderate rain warning. Rioja alavesa (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Gipuzkoa litoral",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Gipuzkoa litoral",
-      "nivel": "Naranja",
-      "text": "Gipuzkoa litoral: Aviso de lluvias de nivel amarillo. Gipuzkoa litoral (Naranja) (AEMET)",
+      "text": "Pirineo oscense: Aviso de tormentas de nivel amarillo. Pirineo oscense (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Gipuzkoa litoral",
-      "fenomeno": "Moderate rain warning. Gipuzkoa litoral",
+      "provincia": "Pirineo oscense",
+      "fenomeno": "Moderate thunderstorm warning. Pirineo oscense",
       "nivel": "Naranja",
-      "text": "Gipuzkoa litoral: Moderate rain warning. Gipuzkoa litoral (Naranja) (AEMET)",
+      "text": "Pirineo oscense: Moderate thunderstorm warning. Pirineo oscense (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Gipuzkoa interior",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Gipuzkoa interior",
+      "icon": "⛈️",
+      "provincia": "Centro de Huesca",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Centro de Huesca",
       "nivel": "Naranja",
-      "text": "Gipuzkoa interior: Aviso de lluvias de nivel amarillo. Gipuzkoa interior (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Gipuzkoa interior",
-      "fenomeno": "Moderate rain warning. Gipuzkoa interior",
-      "nivel": "Naranja",
-      "text": "Gipuzkoa interior: Moderate rain warning. Gipuzkoa interior (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Bizkaia litoral",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Bizkaia litoral",
-      "nivel": "Naranja",
-      "text": "Bizkaia litoral: Aviso de lluvias de nivel amarillo. Bizkaia litoral (Naranja) (AEMET)",
+      "text": "Centro de Huesca: Aviso de tormentas de nivel amarillo. Centro de Huesca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Bizkaia litoral",
-      "fenomeno": "Moderate rain warning. Bizkaia litoral",
+      "provincia": "Centro de Huesca",
+      "fenomeno": "Moderate thunderstorm warning. Centro de Huesca",
       "nivel": "Naranja",
-      "text": "Bizkaia litoral: Moderate rain warning. Bizkaia litoral (Naranja) (AEMET)",
+      "text": "Centro de Huesca: Moderate thunderstorm warning. Centro de Huesca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Sur de Huesca",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Sur de Huesca",
+      "nivel": "Naranja",
+      "text": "Sur de Huesca: Aviso de tormentas de nivel amarillo. Sur de Huesca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sur de Huesca",
+      "fenomeno": "Moderate thunderstorm warning. Sur de Huesca",
+      "nivel": "Naranja",
+      "text": "Sur de Huesca: Moderate thunderstorm warning. Sur de Huesca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Albarracín y Jiloca",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Albarracín y Jiloca",
+      "nivel": "Naranja",
+      "text": "Albarracín y Jiloca: Aviso de tormentas de nivel amarillo. Albarracín y Jiloca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Albarracín y Jiloca",
+      "fenomeno": "Moderate thunderstorm warning. Albarracín y Jiloca",
+      "nivel": "Naranja",
+      "text": "Albarracín y Jiloca: Moderate thunderstorm warning. Albarracín y Jiloca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
