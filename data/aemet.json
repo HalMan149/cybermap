@@ -1,6 +1,167 @@
 {
-  "generated_at": "2026-05-07T12:03:56.539Z",
+  "generated_at": "2026-05-07T14:47:44.611Z",
   "source": "AEMET OpenData API",
-  "total_avisos": 0,
-  "avisos": []
+  "total_avisos": 20,
+  "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Valle del Tajo",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Valle del Tajo",
+      "nivel": "Naranja",
+      "text": "Valle del Tajo: Aviso de lluvias de nivel amarillo. Valle del Tajo (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Valle del Tajo",
+      "fenomeno": "Moderate rain warning. Valle del Tajo",
+      "nivel": "Naranja",
+      "text": "Valle del Tajo: Moderate rain warning. Valle del Tajo (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Valle del Tajo",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Valle del Tajo",
+      "nivel": "Naranja",
+      "text": "Valle del Tajo: Aviso de tormentas de nivel amarillo. Valle del Tajo (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Valle del Tajo",
+      "fenomeno": "Moderate thunderstorm warning. Valle del Tajo",
+      "nivel": "Naranja",
+      "text": "Valle del Tajo: Moderate thunderstorm warning. Valle del Tajo (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Campo de Cartagena y Mazarrón",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Campo de Cartagena y Mazarrón",
+      "nivel": "Rojo",
+      "text": "Campo de Cartagena y Mazarrón: Aviso de lluvias de nivel naranja. Campo de Cartagena y Mazarrón (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Campo de Cartagena y Mazarrón",
+      "fenomeno": "Severe rain warning. Campo de Cartagena y Mazarrón",
+      "nivel": "Rojo",
+      "text": "Campo de Cartagena y Mazarrón: Severe rain warning. Campo de Cartagena y Mazarrón (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "La Mancha toledana",
+      "fenomeno": "Aviso de lluvias de nivel naranja. La Mancha toledana",
+      "nivel": "Rojo",
+      "text": "La Mancha toledana: Aviso de lluvias de nivel naranja. La Mancha toledana (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "La Mancha toledana",
+      "fenomeno": "Severe rain warning. La Mancha toledana",
+      "nivel": "Rojo",
+      "text": "La Mancha toledana: Severe rain warning. La Mancha toledana (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "La Mancha toledana",
+      "fenomeno": "Aviso de tormentas de nivel naranja. La Mancha toledana",
+      "nivel": "Rojo",
+      "text": "La Mancha toledana: Aviso de tormentas de nivel naranja. La Mancha toledana (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "La Mancha toledana",
+      "fenomeno": "Severe thunderstorm warning. La Mancha toledana",
+      "nivel": "Rojo",
+      "text": "La Mancha toledana: Severe thunderstorm warning. La Mancha toledana (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Campo de Cartagena y Mazarrón",
+      "fenomeno": "Aviso de tormentas de nivel naranja. Campo de Cartagena y Mazarrón",
+      "nivel": "Rojo",
+      "text": "Campo de Cartagena y Mazarrón: Aviso de tormentas de nivel naranja. Campo de Cartagena y Mazarrón (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Campo de Cartagena y Mazarrón",
+      "fenomeno": "Severe thunderstorm warning. Campo de Cartagena y Mazarrón",
+      "nivel": "Rojo",
+      "text": "Campo de Cartagena y Mazarrón: Severe thunderstorm warning. Campo de Cartagena y Mazarrón (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Norte de Cáceres",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Norte de Cáceres",
+      "nivel": "Naranja",
+      "text": "Norte de Cáceres: Aviso de lluvias de nivel amarillo. Norte de Cáceres (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Norte de Cáceres",
+      "fenomeno": "Moderate rain warning. Norte de Cáceres",
+      "nivel": "Naranja",
+      "text": "Norte de Cáceres: Moderate rain warning. Norte de Cáceres (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Liébana",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Liébana",
+      "nivel": "Naranja",
+      "text": "Liébana: Aviso de lluvias de nivel amarillo. Liébana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Liébana",
+      "fenomeno": "Moderate rain warning. Liébana",
+      "nivel": "Naranja",
+      "text": "Liébana: Moderate rain warning. Liébana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Centro y valle de Villaverde",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Centro y valle de Villaverde",
+      "nivel": "Naranja",
+      "text": "Centro y valle de Villaverde: Aviso de lluvias de nivel amarillo. Centro y valle de Villaverde (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Centro y valle de Villaverde",
+      "fenomeno": "Moderate rain warning. Centro y valle de Villaverde",
+      "nivel": "Naranja",
+      "text": "Centro y valle de Villaverde: Moderate rain warning. Centro y valle de Villaverde (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Cantabria del Ebro",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Cantabria del Ebro",
+      "nivel": "Naranja",
+      "text": "Cantabria del Ebro: Aviso de lluvias de nivel amarillo. Cantabria del Ebro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cantabria del Ebro",
+      "fenomeno": "Moderate rain warning. Cantabria del Ebro",
+      "nivel": "Naranja",
+      "text": "Cantabria del Ebro: Moderate rain warning. Cantabria del Ebro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    }
+  ]
 }
