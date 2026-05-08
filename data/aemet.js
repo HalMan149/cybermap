@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2026-05-08T13:13:22.565Z
+// Auto-generado por GitHub Actions - 2026-05-08T15:02:28.783Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-05-08T13:13:22.565Z",
+  "generated_at": "2026-05-08T15:02:28.783Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "⛈️",
+      "provincia": "Sur, Vegas y Oeste",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Sur, Vegas y Oeste",
+      "nivel": "Naranja",
+      "text": "Sur, Vegas y Oeste: Aviso de tormentas de nivel amarillo. Sur, Vegas y Oeste (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sur, Vegas y Oeste",
+      "fenomeno": "Moderate thunderstorm warning. Sur, Vegas y Oeste",
+      "nivel": "Naranja",
+      "text": "Sur, Vegas y Oeste: Moderate thunderstorm warning. Sur, Vegas y Oeste (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Aracena",
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate rain warning. Campiña sevillana",
       "nivel": "Naranja",
       "text": "Campiña sevillana: Moderate rain warning. Campiña sevillana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Litoral gaditano",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Litoral gaditano",
-      "nivel": "Naranja",
-      "text": "Litoral gaditano: Aviso de tormentas de nivel amarillo. Litoral gaditano (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral gaditano",
-      "fenomeno": "Moderate thunderstorm warning. Litoral gaditano",
-      "nivel": "Naranja",
-      "text": "Litoral gaditano: Moderate thunderstorm warning. Litoral gaditano (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
