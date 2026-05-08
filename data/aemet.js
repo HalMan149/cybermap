@@ -1,39 +1,71 @@
-// Auto-generado por GitHub Actions - 2026-05-08T08:52:34.419Z
+// Auto-generado por GitHub Actions - 2026-05-08T10:18:10.730Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-05-08T08:52:34.419Z",
+  "generated_at": "2026-05-08T10:18:10.730Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "🌧️",
-      "provincia": "Cordillera y Picos de Europa",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Cordillera y Picos de Europa",
+      "provincia": "Vega del Segura",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Vega del Segura",
       "nivel": "Naranja",
-      "text": "Cordillera y Picos de Europa: Aviso de lluvias de nivel amarillo. Cordillera y Picos de Europa (Naranja) (AEMET)",
+      "text": "Vega del Segura: Aviso de lluvias de nivel amarillo. Vega del Segura (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Cordillera y Picos de Europa",
-      "fenomeno": "Moderate rain warning. Cordillera y Picos de Europa",
+      "provincia": "Vega del Segura",
+      "fenomeno": "Moderate rain warning. Vega del Segura",
       "nivel": "Naranja",
-      "text": "Cordillera y Picos de Europa: Moderate rain warning. Cordillera y Picos de Europa (Naranja) (AEMET)",
+      "text": "Vega del Segura: Moderate rain warning. Vega del Segura (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Noroeste de A Coruña",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Noroeste de A Coruña",
+      "provincia": "Campo de Cartagena y Mazarrón",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Campo de Cartagena y Mazarrón",
       "nivel": "Naranja",
-      "text": "Noroeste de A Coruña: Aviso de lluvias de nivel amarillo. Noroeste de A Coruña (Naranja) (AEMET)",
+      "text": "Campo de Cartagena y Mazarrón: Aviso de lluvias de nivel amarillo. Campo de Cartagena y Mazarrón (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Noroeste de A Coruña",
-      "fenomeno": "Moderate rain warning. Noroeste de A Coruña",
+      "provincia": "Campo de Cartagena y Mazarrón",
+      "fenomeno": "Moderate rain warning. Campo de Cartagena y Mazarrón",
       "nivel": "Naranja",
-      "text": "Noroeste de A Coruña: Moderate rain warning. Noroeste de A Coruña (Naranja) (AEMET)",
+      "text": "Campo de Cartagena y Mazarrón: Moderate rain warning. Campo de Cartagena y Mazarrón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Vega del Segura",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Vega del Segura",
+      "nivel": "Naranja",
+      "text": "Vega del Segura: Aviso de tormentas de nivel amarillo. Vega del Segura (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Vega del Segura",
+      "fenomeno": "Moderate thunderstorm warning. Vega del Segura",
+      "nivel": "Naranja",
+      "text": "Vega del Segura: Moderate thunderstorm warning. Vega del Segura (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Campo de Cartagena y Mazarrón",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Campo de Cartagena y Mazarrón",
+      "nivel": "Naranja",
+      "text": "Campo de Cartagena y Mazarrón: Aviso de tormentas de nivel amarillo. Campo de Cartagena y Mazarrón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Campo de Cartagena y Mazarrón",
+      "fenomeno": "Moderate thunderstorm warning. Campo de Cartagena y Mazarrón",
+      "nivel": "Naranja",
+      "text": "Campo de Cartagena y Mazarrón: Moderate thunderstorm warning. Campo de Cartagena y Mazarrón (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -54,22 +86,6 @@ window.AEMET_AVISOS = {
     },
     {
       "icon": "🌧️",
-      "provincia": "Interior de A Coruña",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Interior de A Coruña",
-      "nivel": "Naranja",
-      "text": "Interior de A Coruña: Aviso de lluvias de nivel amarillo. Interior de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior de A Coruña",
-      "fenomeno": "Moderate rain warning. Interior de A Coruña",
-      "nivel": "Naranja",
-      "text": "Interior de A Coruña: Moderate rain warning. Interior de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
       "provincia": "Suroeste de A Coruña",
       "fenomeno": "Aviso de lluvias de nivel amarillo. Suroeste de A Coruña",
       "nivel": "Naranja",
@@ -86,70 +102,6 @@ window.AEMET_AVISOS = {
     },
     {
       "icon": "🌧️",
-      "provincia": "Noroeste de Ourense",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Noroeste de Ourense",
-      "nivel": "Naranja",
-      "text": "Noroeste de Ourense: Aviso de lluvias de nivel amarillo. Noroeste de Ourense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Noroeste de Ourense",
-      "fenomeno": "Moderate rain warning. Noroeste de Ourense",
-      "nivel": "Naranja",
-      "text": "Noroeste de Ourense: Moderate rain warning. Noroeste de Ourense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Miño de Ourense",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Miño de Ourense",
-      "nivel": "Naranja",
-      "text": "Miño de Ourense: Aviso de lluvias de nivel amarillo. Miño de Ourense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Miño de Ourense",
-      "fenomeno": "Moderate rain warning. Miño de Ourense",
-      "nivel": "Naranja",
-      "text": "Miño de Ourense: Moderate rain warning. Miño de Ourense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Sur de Ourense",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Sur de Ourense",
-      "nivel": "Naranja",
-      "text": "Sur de Ourense: Aviso de lluvias de nivel amarillo. Sur de Ourense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sur de Ourense",
-      "fenomeno": "Moderate rain warning. Sur de Ourense",
-      "nivel": "Naranja",
-      "text": "Sur de Ourense: Moderate rain warning. Sur de Ourense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Montaña de Ourense",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Montaña de Ourense",
-      "nivel": "Naranja",
-      "text": "Montaña de Ourense: Aviso de lluvias de nivel amarillo. Montaña de Ourense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Montaña de Ourense",
-      "fenomeno": "Moderate rain warning. Montaña de Ourense",
-      "nivel": "Naranja",
-      "text": "Montaña de Ourense: Moderate rain warning. Montaña de Ourense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
       "provincia": "Rias Baixas",
       "fenomeno": "Aviso de lluvias de nivel amarillo. Rias Baixas",
       "nivel": "Naranja",
@@ -162,6 +114,54 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate rain warning. Rias Baixas",
       "nivel": "Naranja",
       "text": "Rias Baixas: Moderate rain warning. Rias Baixas (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Miño de Pontevedra",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Miño de Pontevedra",
+      "nivel": "Naranja",
+      "text": "Miño de Pontevedra: Aviso de lluvias de nivel amarillo. Miño de Pontevedra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Miño de Pontevedra",
+      "fenomeno": "Moderate rain warning. Miño de Pontevedra",
+      "nivel": "Naranja",
+      "text": "Miño de Pontevedra: Moderate rain warning. Miño de Pontevedra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Oeste de A Coruña",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Oeste de A Coruña",
+      "nivel": "Naranja",
+      "text": "Oeste de A Coruña: Aviso de tormentas de nivel amarillo. Oeste de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Oeste de A Coruña",
+      "fenomeno": "Moderate thunderstorm warning. Oeste de A Coruña",
+      "nivel": "Naranja",
+      "text": "Oeste de A Coruña: Moderate thunderstorm warning. Oeste de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Suroeste de A Coruña",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Suroeste de A Coruña",
+      "nivel": "Naranja",
+      "text": "Suroeste de A Coruña: Aviso de tormentas de nivel amarillo. Suroeste de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Suroeste de A Coruña",
+      "fenomeno": "Moderate thunderstorm warning. Suroeste de A Coruña",
+      "nivel": "Naranja",
+      "text": "Suroeste de A Coruña: Moderate thunderstorm warning. Suroeste de A Coruña (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
