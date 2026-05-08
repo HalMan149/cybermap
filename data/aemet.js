@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-05-08T11:50:19.000Z
+// Auto-generado por GitHub Actions - 2026-05-08T13:13:22.565Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-05-08T11:50:19.000Z",
+  "generated_at": "2026-05-08T13:13:22.565Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "🌧️",
-      "provincia": "Vega del Segura",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Vega del Segura",
+      "provincia": "Aracena",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Aracena",
       "nivel": "Naranja",
-      "text": "Vega del Segura: Aviso de lluvias de nivel amarillo. Vega del Segura (Naranja) (AEMET)",
+      "text": "Aracena: Aviso de lluvias de nivel amarillo. Aracena (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Vega del Segura",
-      "fenomeno": "Moderate rain warning. Vega del Segura",
+      "provincia": "Aracena",
+      "fenomeno": "Moderate rain warning. Aracena",
       "nivel": "Naranja",
-      "text": "Vega del Segura: Moderate rain warning. Vega del Segura (Naranja) (AEMET)",
+      "text": "Aracena: Moderate rain warning. Aracena (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Campo de Cartagena y Mazarrón",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Campo de Cartagena y Mazarrón",
+      "provincia": "Andévalo y Condado",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Andévalo y Condado",
       "nivel": "Naranja",
-      "text": "Campo de Cartagena y Mazarrón: Aviso de lluvias de nivel amarillo. Campo de Cartagena y Mazarrón (Naranja) (AEMET)",
+      "text": "Andévalo y Condado: Aviso de lluvias de nivel amarillo. Andévalo y Condado (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Campo de Cartagena y Mazarrón",
-      "fenomeno": "Moderate rain warning. Campo de Cartagena y Mazarrón",
+      "provincia": "Andévalo y Condado",
+      "fenomeno": "Moderate rain warning. Andévalo y Condado",
       "nivel": "Naranja",
-      "text": "Campo de Cartagena y Mazarrón: Moderate rain warning. Campo de Cartagena y Mazarrón (Naranja) (AEMET)",
+      "text": "Andévalo y Condado: Moderate rain warning. Andévalo y Condado (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Litoral de Huelva",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral de Huelva",
+      "nivel": "Naranja",
+      "text": "Litoral de Huelva: Aviso de lluvias de nivel amarillo. Litoral de Huelva (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral de Huelva",
+      "fenomeno": "Moderate rain warning. Litoral de Huelva",
+      "nivel": "Naranja",
+      "text": "Litoral de Huelva: Moderate rain warning. Litoral de Huelva (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Vega del Segura",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Vega del Segura",
+      "provincia": "Aracena",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Aracena",
       "nivel": "Naranja",
-      "text": "Vega del Segura: Aviso de tormentas de nivel amarillo. Vega del Segura (Naranja) (AEMET)",
+      "text": "Aracena: Aviso de tormentas de nivel amarillo. Aracena (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Vega del Segura",
-      "fenomeno": "Moderate thunderstorm warning. Vega del Segura",
+      "provincia": "Aracena",
+      "fenomeno": "Moderate thunderstorm warning. Aracena",
       "nivel": "Naranja",
-      "text": "Vega del Segura: Moderate thunderstorm warning. Vega del Segura (Naranja) (AEMET)",
+      "text": "Aracena: Moderate thunderstorm warning. Aracena (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Campo de Cartagena y Mazarrón",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Campo de Cartagena y Mazarrón",
+      "provincia": "Andévalo y Condado",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Andévalo y Condado",
       "nivel": "Naranja",
-      "text": "Campo de Cartagena y Mazarrón: Aviso de tormentas de nivel amarillo. Campo de Cartagena y Mazarrón (Naranja) (AEMET)",
+      "text": "Andévalo y Condado: Aviso de tormentas de nivel amarillo. Andévalo y Condado (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Campo de Cartagena y Mazarrón",
-      "fenomeno": "Moderate thunderstorm warning. Campo de Cartagena y Mazarrón",
+      "provincia": "Andévalo y Condado",
+      "fenomeno": "Moderate thunderstorm warning. Andévalo y Condado",
       "nivel": "Naranja",
-      "text": "Campo de Cartagena y Mazarrón: Moderate thunderstorm warning. Campo de Cartagena y Mazarrón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Oeste de A Coruña",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Oeste de A Coruña",
-      "nivel": "Naranja",
-      "text": "Oeste de A Coruña: Aviso de lluvias de nivel amarillo. Oeste de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Oeste de A Coruña",
-      "fenomeno": "Moderate rain warning. Oeste de A Coruña",
-      "nivel": "Naranja",
-      "text": "Oeste de A Coruña: Moderate rain warning. Oeste de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Suroeste de A Coruña",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Suroeste de A Coruña",
-      "nivel": "Naranja",
-      "text": "Suroeste de A Coruña: Aviso de lluvias de nivel amarillo. Suroeste de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Suroeste de A Coruña",
-      "fenomeno": "Moderate rain warning. Suroeste de A Coruña",
-      "nivel": "Naranja",
-      "text": "Suroeste de A Coruña: Moderate rain warning. Suroeste de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Rias Baixas",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Rias Baixas",
-      "nivel": "Naranja",
-      "text": "Rias Baixas: Aviso de lluvias de nivel amarillo. Rias Baixas (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Rias Baixas",
-      "fenomeno": "Moderate rain warning. Rias Baixas",
-      "nivel": "Naranja",
-      "text": "Rias Baixas: Moderate rain warning. Rias Baixas (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Miño de Pontevedra",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Miño de Pontevedra",
-      "nivel": "Naranja",
-      "text": "Miño de Pontevedra: Aviso de lluvias de nivel amarillo. Miño de Pontevedra (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Miño de Pontevedra",
-      "fenomeno": "Moderate rain warning. Miño de Pontevedra",
-      "nivel": "Naranja",
-      "text": "Miño de Pontevedra: Moderate rain warning. Miño de Pontevedra (Naranja) (AEMET)",
+      "text": "Andévalo y Condado: Moderate thunderstorm warning. Andévalo y Condado (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Oeste de A Coruña",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Oeste de A Coruña",
+      "provincia": "Litoral de Huelva",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Litoral de Huelva",
       "nivel": "Naranja",
-      "text": "Oeste de A Coruña: Aviso de tormentas de nivel amarillo. Oeste de A Coruña (Naranja) (AEMET)",
+      "text": "Litoral de Huelva: Aviso de tormentas de nivel amarillo. Litoral de Huelva (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Oeste de A Coruña",
-      "fenomeno": "Moderate thunderstorm warning. Oeste de A Coruña",
+      "provincia": "Litoral de Huelva",
+      "fenomeno": "Moderate thunderstorm warning. Litoral de Huelva",
       "nivel": "Naranja",
-      "text": "Oeste de A Coruña: Moderate thunderstorm warning. Oeste de A Coruña (Naranja) (AEMET)",
+      "text": "Litoral de Huelva: Moderate thunderstorm warning. Litoral de Huelva (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Litoral gaditano",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral gaditano",
+      "nivel": "Naranja",
+      "text": "Litoral gaditano: Aviso de lluvias de nivel amarillo. Litoral gaditano (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral gaditano",
+      "fenomeno": "Moderate rain warning. Litoral gaditano",
+      "nivel": "Naranja",
+      "text": "Litoral gaditano: Moderate rain warning. Litoral gaditano (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Sierra norte de Sevilla",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Sierra norte de Sevilla",
+      "nivel": "Naranja",
+      "text": "Sierra norte de Sevilla: Aviso de lluvias de nivel amarillo. Sierra norte de Sevilla (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sierra norte de Sevilla",
+      "fenomeno": "Moderate rain warning. Sierra norte de Sevilla",
+      "nivel": "Naranja",
+      "text": "Sierra norte de Sevilla: Moderate rain warning. Sierra norte de Sevilla (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Campiña sevillana",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Campiña sevillana",
+      "nivel": "Naranja",
+      "text": "Campiña sevillana: Aviso de lluvias de nivel amarillo. Campiña sevillana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Campiña sevillana",
+      "fenomeno": "Moderate rain warning. Campiña sevillana",
+      "nivel": "Naranja",
+      "text": "Campiña sevillana: Moderate rain warning. Campiña sevillana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Suroeste de A Coruña",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Suroeste de A Coruña",
+      "provincia": "Litoral gaditano",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Litoral gaditano",
       "nivel": "Naranja",
-      "text": "Suroeste de A Coruña: Aviso de tormentas de nivel amarillo. Suroeste de A Coruña (Naranja) (AEMET)",
+      "text": "Litoral gaditano: Aviso de tormentas de nivel amarillo. Litoral gaditano (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Suroeste de A Coruña",
-      "fenomeno": "Moderate thunderstorm warning. Suroeste de A Coruña",
+      "provincia": "Litoral gaditano",
+      "fenomeno": "Moderate thunderstorm warning. Litoral gaditano",
       "nivel": "Naranja",
-      "text": "Suroeste de A Coruña: Moderate thunderstorm warning. Suroeste de A Coruña (Naranja) (AEMET)",
+      "text": "Litoral gaditano: Moderate thunderstorm warning. Litoral gaditano (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
