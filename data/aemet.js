@@ -1,9 +1,57 @@
-// Auto-generado por GitHub Actions - 2026-05-10T09:11:30.292Z
+// Auto-generado por GitHub Actions - 2026-05-10T10:36:27.392Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-05-10T09:11:30.292Z",
+  "generated_at": "2026-05-10T10:36:27.392Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Noroeste de A Coruña",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Noroeste de A Coruña",
+      "nivel": "Naranja",
+      "text": "Noroeste de A Coruña: Aviso de lluvias de nivel amarillo. Noroeste de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Noroeste de A Coruña",
+      "fenomeno": "Moderate rain warning. Noroeste de A Coruña",
+      "nivel": "Naranja",
+      "text": "Noroeste de A Coruña: Moderate rain warning. Noroeste de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Interior de A Coruña",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Interior de A Coruña",
+      "nivel": "Naranja",
+      "text": "Interior de A Coruña: Aviso de lluvias de nivel amarillo. Interior de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior de A Coruña",
+      "fenomeno": "Moderate rain warning. Interior de A Coruña",
+      "nivel": "Naranja",
+      "text": "Interior de A Coruña: Moderate rain warning. Interior de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Centro de Lugo",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Centro de Lugo",
+      "nivel": "Naranja",
+      "text": "Centro de Lugo: Aviso de lluvias de nivel amarillo. Centro de Lugo (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Centro de Lugo",
+      "fenomeno": "Moderate rain warning. Centro de Lugo",
+      "nivel": "Naranja",
+      "text": "Centro de Lugo: Moderate rain warning. Centro de Lugo (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Ribera del Ebro de La Rioja",
@@ -114,54 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate rain warning. Ribera del Ebro de Navarra",
       "nivel": "Naranja",
       "text": "Ribera del Ebro de Navarra: Moderate rain warning. Ribera del Ebro de Navarra (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Cuenca del Nervión",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Cuenca del Nervión",
-      "nivel": "Naranja",
-      "text": "Cuenca del Nervión: Aviso de lluvias de nivel amarillo. Cuenca del Nervión (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cuenca del Nervión",
-      "fenomeno": "Moderate rain warning. Cuenca del Nervión",
-      "nivel": "Naranja",
-      "text": "Cuenca del Nervión: Moderate rain warning. Cuenca del Nervión (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Ribera del Ebro de Navarra",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Ribera del Ebro de Navarra",
-      "nivel": "Naranja",
-      "text": "Ribera del Ebro de Navarra: Aviso de tormentas de nivel amarillo. Ribera del Ebro de Navarra (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ribera del Ebro de Navarra",
-      "fenomeno": "Moderate thunderstorm warning. Ribera del Ebro de Navarra",
-      "nivel": "Naranja",
-      "text": "Ribera del Ebro de Navarra: Moderate thunderstorm warning. Ribera del Ebro de Navarra (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Cuenca del Nervión",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Cuenca del Nervión",
-      "nivel": "Naranja",
-      "text": "Cuenca del Nervión: Aviso de tormentas de nivel amarillo. Cuenca del Nervión (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cuenca del Nervión",
-      "fenomeno": "Moderate thunderstorm warning. Cuenca del Nervión",
-      "nivel": "Naranja",
-      "text": "Cuenca del Nervión: Moderate thunderstorm warning. Cuenca del Nervión (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
