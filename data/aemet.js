@@ -1,9 +1,41 @@
-// Auto-generado por GitHub Actions - 2026-05-10T07:25:40.683Z
+// Auto-generado por GitHub Actions - 2026-05-10T09:11:30.292Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-05-10T07:25:40.683Z",
+  "generated_at": "2026-05-10T09:11:30.292Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Ribera del Ebro de La Rioja",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Ribera del Ebro de La Rioja",
+      "nivel": "Naranja",
+      "text": "Ribera del Ebro de La Rioja: Aviso de lluvias de nivel amarillo. Ribera del Ebro de La Rioja (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ribera del Ebro de La Rioja",
+      "fenomeno": "Moderate rain warning. Ribera del Ebro de La Rioja",
+      "nivel": "Naranja",
+      "text": "Ribera del Ebro de La Rioja: Moderate rain warning. Ribera del Ebro de La Rioja (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Ribera del Ebro de La Rioja",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Ribera del Ebro de La Rioja",
+      "nivel": "Naranja",
+      "text": "Ribera del Ebro de La Rioja: Aviso de tormentas de nivel amarillo. Ribera del Ebro de La Rioja (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ribera del Ebro de La Rioja",
+      "fenomeno": "Moderate thunderstorm warning. Ribera del Ebro de La Rioja",
+      "nivel": "Naranja",
+      "text": "Ribera del Ebro de La Rioja: Moderate thunderstorm warning. Ribera del Ebro de La Rioja (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Norte de Burgos",
@@ -130,38 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate thunderstorm warning. Cuenca del Nervión",
       "nivel": "Naranja",
       "text": "Cuenca del Nervión: Moderate thunderstorm warning. Cuenca del Nervión (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Bizkaia litoral",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Bizkaia litoral",
-      "nivel": "Naranja",
-      "text": "Bizkaia litoral: Aviso de tormentas de nivel amarillo. Bizkaia litoral (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Bizkaia litoral",
-      "fenomeno": "Moderate thunderstorm warning. Bizkaia litoral",
-      "nivel": "Naranja",
-      "text": "Bizkaia litoral: Moderate thunderstorm warning. Bizkaia litoral (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Bizkaia interior",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Bizkaia interior",
-      "nivel": "Naranja",
-      "text": "Bizkaia interior: Aviso de tormentas de nivel amarillo. Bizkaia interior (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Bizkaia interior",
-      "fenomeno": "Moderate thunderstorm warning. Bizkaia interior",
-      "nivel": "Naranja",
-      "text": "Bizkaia interior: Moderate thunderstorm warning. Bizkaia interior (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
