@@ -1,23 +1,39 @@
-// Auto-generado por GitHub Actions - 2026-05-13T21:10:33.004Z
+// Auto-generado por GitHub Actions - 2026-05-13T22:36:33.205Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-05-13T21:10:33.004Z",
+  "generated_at": "2026-05-13T22:36:33.205Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral oriental asturiano",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral oriental asturiano",
+      "icon": "🌧️",
+      "provincia": "Litoral oriental asturiano",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral oriental asturiano",
       "nivel": "Naranja",
-      "text": "Costa - Litoral oriental asturiano: Aviso de costeros de nivel amarillo. Costa - Litoral oriental asturiano (Naranja) (AEMET)",
+      "text": "Litoral oriental asturiano: Aviso de lluvias de nivel amarillo. Litoral oriental asturiano (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral oriental asturiano",
-      "fenomeno": "Moderate coastalevent warning. Costa - Litoral oriental asturiano",
+      "icon": "⚠️",
+      "provincia": "Litoral oriental asturiano",
+      "fenomeno": "Moderate rain warning. Litoral oriental asturiano",
       "nivel": "Naranja",
-      "text": "Costa - Litoral oriental asturiano: Moderate coastalevent warning. Costa - Litoral oriental asturiano (Naranja) (AEMET)",
+      "text": "Litoral oriental asturiano: Moderate rain warning. Litoral oriental asturiano (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Cordillera y Picos de Europa",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Cordillera y Picos de Europa",
+      "nivel": "Naranja",
+      "text": "Cordillera y Picos de Europa: Aviso de lluvias de nivel amarillo. Cordillera y Picos de Europa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cordillera y Picos de Europa",
+      "fenomeno": "Moderate rain warning. Cordillera y Picos de Europa",
+      "nivel": "Naranja",
+      "text": "Cordillera y Picos de Europa: Moderate rain warning. Cordillera y Picos de Europa (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -101,67 +117,51 @@ window.AEMET_AVISOS = {
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral cántabro",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral cántabro",
+      "icon": "❄️",
+      "provincia": "Cordillera Cantábrica de León",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Cordillera Cantábrica de León",
       "nivel": "Naranja",
-      "text": "Costa - Litoral cántabro: Aviso de costeros de nivel amarillo. Costa - Litoral cántabro (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral cántabro",
-      "fenomeno": "Moderate coastalevent warning. Costa - Litoral cántabro",
-      "nivel": "Naranja",
-      "text": "Costa - Litoral cántabro: Moderate coastalevent warning. Costa - Litoral cántabro (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Ampurdán",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Ampurdán",
-      "nivel": "Naranja",
-      "text": "Ampurdán: Aviso de lluvias de nivel amarillo. Ampurdán (Naranja) (AEMET)",
+      "text": "Cordillera Cantábrica de León: Aviso de nevadas de nivel amarillo. Cordillera Cantábrica de León (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Ampurdán",
-      "fenomeno": "Moderate rain warning. Ampurdán",
+      "provincia": "Cordillera Cantábrica de León",
+      "fenomeno": "Moderate snow warning. Cordillera Cantábrica de León",
       "nivel": "Naranja",
-      "text": "Ampurdán: Moderate rain warning. Ampurdán (Naranja) (AEMET)",
+      "text": "Cordillera Cantábrica de León: Moderate snow warning. Cordillera Cantábrica de León (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Cordillera Cantábrica de Palencia",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Cordillera Cantábrica de Palencia",
+      "nivel": "Naranja",
+      "text": "Cordillera Cantábrica de Palencia: Aviso de nevadas de nivel amarillo. Cordillera Cantábrica de Palencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cordillera Cantábrica de Palencia",
+      "fenomeno": "Moderate snow warning. Cordillera Cantábrica de Palencia",
+      "nivel": "Naranja",
+      "text": "Cordillera Cantábrica de Palencia: Moderate snow warning. Cordillera Cantábrica de Palencia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Costa - Ampurdán",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Ampurdán",
+      "provincia": "Costa - Litoral oriental asturiano",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral oriental asturiano",
       "nivel": "Naranja",
-      "text": "Costa - Ampurdán: Aviso de costeros de nivel amarillo. Costa - Ampurdán (Naranja) (AEMET)",
+      "text": "Costa - Litoral oriental asturiano: Aviso de costeros de nivel amarillo. Costa - Litoral oriental asturiano (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Costa - Ampurdán",
-      "fenomeno": "Moderate coastalevent warning. Costa - Ampurdán",
+      "provincia": "Costa - Litoral oriental asturiano",
+      "fenomeno": "Moderate coastalevent warning. Costa - Litoral oriental asturiano",
       "nivel": "Naranja",
-      "text": "Costa - Ampurdán: Moderate coastalevent warning. Costa - Ampurdán (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Poniente y Almería Capital",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Poniente y Almería Capital",
-      "nivel": "Naranja",
-      "text": "Costa - Poniente y Almería Capital: Aviso de costeros de nivel amarillo. Costa - Poniente y Almería Capital (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Poniente y Almería Capital",
-      "fenomeno": "Moderate coastalevent warning. Costa - Poniente y Almería Capital",
-      "nivel": "Naranja",
-      "text": "Costa - Poniente y Almería Capital: Moderate coastalevent warning. Costa - Poniente y Almería Capital (Naranja) (AEMET)",
+      "text": "Costa - Litoral oriental asturiano: Moderate coastalevent warning. Costa - Litoral oriental asturiano (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
