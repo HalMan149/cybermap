@@ -1,7 +1,168 @@
-// Auto-generado por GitHub Actions - 2026-05-15T02:28:08.118Z
+// Auto-generado por GitHub Actions - 2026-05-15T06:08:13.375Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-05-15T02:28:08.118Z",
+  "generated_at": "2026-05-15T06:08:13.375Z",
   "source": "AEMET OpenData API",
-  "total_avisos": 0,
-  "avisos": []
+  "total_avisos": 20,
+  "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Litoral oriental asturiano",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral oriental asturiano",
+      "nivel": "Naranja",
+      "text": "Litoral oriental asturiano: Aviso de lluvias de nivel amarillo. Litoral oriental asturiano (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral oriental asturiano",
+      "fenomeno": "Moderate rain warning. Litoral oriental asturiano",
+      "nivel": "Naranja",
+      "text": "Litoral oriental asturiano: Moderate rain warning. Litoral oriental asturiano (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Cordillera y Picos de Europa",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Cordillera y Picos de Europa",
+      "nivel": "Naranja",
+      "text": "Cordillera y Picos de Europa: Aviso de lluvias de nivel amarillo. Cordillera y Picos de Europa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cordillera y Picos de Europa",
+      "fenomeno": "Moderate rain warning. Cordillera y Picos de Europa",
+      "nivel": "Naranja",
+      "text": "Cordillera y Picos de Europa: Moderate rain warning. Cordillera y Picos de Europa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Pirineo de Girona",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Pirineo de Girona",
+      "nivel": "Naranja",
+      "text": "Pirineo de Girona: Aviso de lluvias de nivel amarillo. Pirineo de Girona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Pirineo de Girona",
+      "fenomeno": "Moderate rain warning. Pirineo de Girona",
+      "nivel": "Naranja",
+      "text": "Pirineo de Girona: Moderate rain warning. Pirineo de Girona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Prelitoral de Girona",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Prelitoral de Girona",
+      "nivel": "Naranja",
+      "text": "Prelitoral de Girona: Aviso de lluvias de nivel amarillo. Prelitoral de Girona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Prelitoral de Girona",
+      "fenomeno": "Moderate rain warning. Prelitoral de Girona",
+      "nivel": "Naranja",
+      "text": "Prelitoral de Girona: Moderate rain warning. Prelitoral de Girona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Ampurdán",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Ampurdán",
+      "nivel": "Naranja",
+      "text": "Ampurdán: Aviso de lluvias de nivel amarillo. Ampurdán (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ampurdán",
+      "fenomeno": "Moderate rain warning. Ampurdán",
+      "nivel": "Naranja",
+      "text": "Ampurdán: Moderate rain warning. Ampurdán (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Litoral sur de Girona",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral sur de Girona",
+      "nivel": "Naranja",
+      "text": "Litoral sur de Girona: Aviso de lluvias de nivel amarillo. Litoral sur de Girona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral sur de Girona",
+      "fenomeno": "Moderate rain warning. Litoral sur de Girona",
+      "nivel": "Naranja",
+      "text": "Litoral sur de Girona: Moderate rain warning. Litoral sur de Girona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Valle de Arán",
+      "fenomeno": "Aviso de nevadas de nivel amarillo. Valle de Arán",
+      "nivel": "Naranja",
+      "text": "Valle de Arán: Aviso de nevadas de nivel amarillo. Valle de Arán (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Valle de Arán",
+      "fenomeno": "Moderate snow warning. Valle de Arán",
+      "nivel": "Naranja",
+      "text": "Valle de Arán: Moderate snow warning. Valle de Arán (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Ampurdán",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Ampurdán",
+      "nivel": "Naranja",
+      "text": "Costa - Ampurdán: Aviso de costeros de nivel amarillo. Costa - Ampurdán (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Ampurdán",
+      "fenomeno": "Moderate coastalevent warning. Costa - Ampurdán",
+      "nivel": "Naranja",
+      "text": "Costa - Ampurdán: Moderate coastalevent warning. Costa - Ampurdán (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Menorca",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Menorca",
+      "nivel": "Naranja",
+      "text": "Costa - Menorca: Aviso de costeros de nivel amarillo. Costa - Menorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Menorca",
+      "fenomeno": "Moderate coastalevent warning. Costa - Menorca",
+      "nivel": "Naranja",
+      "text": "Costa - Menorca: Moderate coastalevent warning. Costa - Menorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Poniente y Almería Capital",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Poniente y Almería Capital",
+      "nivel": "Naranja",
+      "text": "Costa - Poniente y Almería Capital: Aviso de costeros de nivel amarillo. Costa - Poniente y Almería Capital (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Poniente y Almería Capital",
+      "fenomeno": "Moderate coastalevent warning. Costa - Poniente y Almería Capital",
+      "nivel": "Naranja",
+      "text": "Costa - Poniente y Almería Capital: Moderate coastalevent warning. Costa - Poniente y Almería Capital (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    }
+  ]
 };
