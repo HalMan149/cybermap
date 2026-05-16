@@ -1,7 +1,168 @@
-// Auto-generado por GitHub Actions - 2026-05-16T10:18:56.666Z
+// Auto-generado por GitHub Actions - 2026-05-16T11:29:46.104Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-05-16T10:18:56.666Z",
+  "generated_at": "2026-05-16T11:29:46.104Z",
   "source": "AEMET OpenData API",
-  "total_avisos": 0,
-  "avisos": []
+  "total_avisos": 20,
+  "avisos": [
+    {
+      "icon": "⛈️",
+      "provincia": "Interior norte de Valencia",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Interior norte de Valencia",
+      "nivel": "Naranja",
+      "text": "Interior norte de Valencia: Aviso de tormentas de nivel amarillo. Interior norte de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior norte de Valencia",
+      "fenomeno": "Moderate thunderstorm warning. Interior norte de Valencia",
+      "nivel": "Naranja",
+      "text": "Interior norte de Valencia: Moderate thunderstorm warning. Interior norte de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Menorca",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Menorca",
+      "nivel": "Naranja",
+      "text": "Menorca: Aviso de tormentas de nivel amarillo. Menorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Menorca",
+      "fenomeno": "Moderate thunderstorm warning. Menorca",
+      "nivel": "Naranja",
+      "text": "Menorca: Moderate thunderstorm warning. Menorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Menorca",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Menorca",
+      "nivel": "Naranja",
+      "text": "Costa - Menorca: Aviso de costeros de nivel amarillo. Costa - Menorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Menorca",
+      "fenomeno": "Moderate coastalevent warning. Costa - Menorca",
+      "nivel": "Naranja",
+      "text": "Costa - Menorca: Moderate coastalevent warning. Costa - Menorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Vega del Segura",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Vega del Segura",
+      "nivel": "Naranja",
+      "text": "Vega del Segura: Aviso de vientos de nivel amarillo. Vega del Segura (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Vega del Segura",
+      "fenomeno": "Moderate wind warning. Vega del Segura",
+      "nivel": "Naranja",
+      "text": "Vega del Segura: Moderate wind warning. Vega del Segura (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Valle del Guadalentín, Lorca y Águilas",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Valle del Guadalentín, Lorca y Águilas",
+      "nivel": "Naranja",
+      "text": "Valle del Guadalentín, Lorca y Águilas: Aviso de vientos de nivel amarillo. Valle del Guadalentín, Lorca y Águilas (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Valle del Guadalentín, Lorca y Águilas",
+      "fenomeno": "Moderate wind warning. Valle del Guadalentín, Lorca y Águilas",
+      "nivel": "Naranja",
+      "text": "Valle del Guadalentín, Lorca y Águilas: Moderate wind warning. Valle del Guadalentín, Lorca y Águilas (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Poniente y Almería Capital",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Poniente y Almería Capital",
+      "nivel": "Naranja",
+      "text": "Costa - Poniente y Almería Capital: Aviso de costeros de nivel amarillo. Costa - Poniente y Almería Capital (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Poniente y Almería Capital",
+      "fenomeno": "Moderate coastalevent warning. Costa - Poniente y Almería Capital",
+      "nivel": "Naranja",
+      "text": "Costa - Poniente y Almería Capital: Moderate coastalevent warning. Costa - Poniente y Almería Capital (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Levante almeriense",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Levante almeriense",
+      "nivel": "Naranja",
+      "text": "Costa - Levante almeriense: Aviso de costeros de nivel amarillo. Costa - Levante almeriense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Levante almeriense",
+      "fenomeno": "Moderate coastalevent warning. Costa - Levante almeriense",
+      "nivel": "Naranja",
+      "text": "Costa - Levante almeriense: Moderate coastalevent warning. Costa - Levante almeriense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Costa granadina",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Costa granadina",
+      "nivel": "Naranja",
+      "text": "Costa - Costa granadina: Aviso de costeros de nivel amarillo. Costa - Costa granadina (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Costa granadina",
+      "fenomeno": "Moderate coastalevent warning. Costa - Costa granadina",
+      "nivel": "Naranja",
+      "text": "Costa - Costa granadina: Moderate coastalevent warning. Costa - Costa granadina (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Sol y Guadalhorce",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Sol y Guadalhorce",
+      "nivel": "Naranja",
+      "text": "Costa - Sol y Guadalhorce: Aviso de costeros de nivel amarillo. Costa - Sol y Guadalhorce (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Sol y Guadalhorce",
+      "fenomeno": "Moderate coastalevent warning. Costa - Sol y Guadalhorce",
+      "nivel": "Naranja",
+      "text": "Costa - Sol y Guadalhorce: Moderate coastalevent warning. Costa - Sol y Guadalhorce (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Axarquía",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Axarquía",
+      "nivel": "Naranja",
+      "text": "Costa - Axarquía: Aviso de costeros de nivel amarillo. Costa - Axarquía (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Axarquía",
+      "fenomeno": "Moderate coastalevent warning. Costa - Axarquía",
+      "nivel": "Naranja",
+      "text": "Costa - Axarquía: Moderate coastalevent warning. Costa - Axarquía (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    }
+  ]
 };
