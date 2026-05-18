@@ -1,39 +1,39 @@
-// Auto-generado por GitHub Actions - 2026-05-18T12:56:01.251Z
+// Auto-generado por GitHub Actions - 2026-05-18T16:18:41.759Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-05-18T12:56:01.251Z",
+  "generated_at": "2026-05-18T16:18:41.759Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "🌧️",
-      "provincia": "Litoral de Barcelona",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Litoral de Barcelona",
-      "nivel": "Rojo",
-      "text": "Litoral de Barcelona: Aviso de lluvias de nivel naranja. Litoral de Barcelona (Rojo) (AEMET)",
+      "provincia": "Prelitoral de Barcelona",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Prelitoral de Barcelona",
+      "nivel": "Naranja",
+      "text": "Prelitoral de Barcelona: Aviso de lluvias de nivel amarillo. Prelitoral de Barcelona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Litoral de Barcelona",
-      "fenomeno": "Severe rain warning. Litoral de Barcelona",
-      "nivel": "Rojo",
-      "text": "Litoral de Barcelona: Severe rain warning. Litoral de Barcelona (Rojo) (AEMET)",
+      "provincia": "Prelitoral de Barcelona",
+      "fenomeno": "Moderate rain warning. Prelitoral de Barcelona",
+      "nivel": "Naranja",
+      "text": "Prelitoral de Barcelona: Moderate rain warning. Prelitoral de Barcelona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Prelitoral norte de Tarragona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Prelitoral norte de Tarragona",
+      "provincia": "Litoral de Barcelona",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral de Barcelona",
       "nivel": "Naranja",
-      "text": "Prelitoral norte de Tarragona: Aviso de lluvias de nivel amarillo. Prelitoral norte de Tarragona (Naranja) (AEMET)",
+      "text": "Litoral de Barcelona: Aviso de lluvias de nivel amarillo. Litoral de Barcelona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Prelitoral norte de Tarragona",
-      "fenomeno": "Moderate rain warning. Prelitoral norte de Tarragona",
+      "provincia": "Litoral de Barcelona",
+      "fenomeno": "Moderate rain warning. Litoral de Barcelona",
       "nivel": "Naranja",
-      "text": "Prelitoral norte de Tarragona: Moderate rain warning. Prelitoral norte de Tarragona (Naranja) (AEMET)",
+      "text": "Litoral de Barcelona: Moderate rain warning. Litoral de Barcelona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -149,19 +149,19 @@ window.AEMET_AVISOS = {
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Prelitoral de Barcelona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Prelitoral de Barcelona",
+      "icon": "⛈️",
+      "provincia": "Interior sur de Castellón",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Interior sur de Castellón",
       "nivel": "Naranja",
-      "text": "Prelitoral de Barcelona: Aviso de lluvias de nivel amarillo. Prelitoral de Barcelona (Naranja) (AEMET)",
+      "text": "Interior sur de Castellón: Aviso de tormentas de nivel amarillo. Interior sur de Castellón (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Prelitoral de Barcelona",
-      "fenomeno": "Moderate rain warning. Prelitoral de Barcelona",
+      "provincia": "Interior sur de Castellón",
+      "fenomeno": "Moderate thunderstorm warning. Interior sur de Castellón",
       "nivel": "Naranja",
-      "text": "Prelitoral de Barcelona: Moderate rain warning. Prelitoral de Barcelona (Naranja) (AEMET)",
+      "text": "Interior sur de Castellón: Moderate thunderstorm warning. Interior sur de Castellón (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
