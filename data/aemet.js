@@ -1,41 +1,9 @@
-// Auto-generado por GitHub Actions - 2026-05-18T18:17:08.948Z
+// Auto-generado por GitHub Actions - 2026-05-18T20:09:35.262Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-05-18T18:17:08.948Z",
+  "generated_at": "2026-05-18T20:09:35.262Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
-    {
-      "icon": "🌧️",
-      "provincia": "Prelitoral de Girona",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Prelitoral de Girona",
-      "nivel": "Rojo",
-      "text": "Prelitoral de Girona: Aviso de lluvias de nivel naranja. Prelitoral de Girona (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Prelitoral de Girona",
-      "fenomeno": "Severe rain warning. Prelitoral de Girona",
-      "nivel": "Rojo",
-      "text": "Prelitoral de Girona: Severe rain warning. Prelitoral de Girona (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Litoral sur de Girona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral sur de Girona",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Girona: Aviso de lluvias de nivel amarillo. Litoral sur de Girona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral sur de Girona",
-      "fenomeno": "Moderate rain warning. Litoral sur de Girona",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Girona: Moderate rain warning. Litoral sur de Girona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
     {
       "icon": "🌧️",
       "provincia": "Prepirineo de Barcelona",
@@ -70,18 +38,18 @@ window.AEMET_AVISOS = {
     },
     {
       "icon": "🌧️",
-      "provincia": "Ampurdán",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Ampurdán",
+      "provincia": "Prelitoral de Girona",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Prelitoral de Girona",
       "nivel": "Naranja",
-      "text": "Ampurdán: Aviso de lluvias de nivel amarillo. Ampurdán (Naranja) (AEMET)",
+      "text": "Prelitoral de Girona: Aviso de lluvias de nivel amarillo. Prelitoral de Girona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Ampurdán",
-      "fenomeno": "Moderate rain warning. Ampurdán",
+      "provincia": "Prelitoral de Girona",
+      "fenomeno": "Moderate rain warning. Prelitoral de Girona",
       "nivel": "Naranja",
-      "text": "Ampurdán: Moderate rain warning. Ampurdán (Naranja) (AEMET)",
+      "text": "Prelitoral de Girona: Moderate rain warning. Prelitoral de Girona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -162,6 +130,38 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate thunderstorm warning. Vega del Segura",
       "nivel": "Naranja",
       "text": "Vega del Segura: Moderate thunderstorm warning. Vega del Segura (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Interior de Alicante",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Interior de Alicante",
+      "nivel": "Naranja",
+      "text": "Interior de Alicante: Aviso de tormentas de nivel amarillo. Interior de Alicante (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior de Alicante",
+      "fenomeno": "Moderate thunderstorm warning. Interior de Alicante",
+      "nivel": "Naranja",
+      "text": "Interior de Alicante: Moderate thunderstorm warning. Interior de Alicante (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Interior sur de Valencia",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Interior sur de Valencia",
+      "nivel": "Naranja",
+      "text": "Interior sur de Valencia: Aviso de tormentas de nivel amarillo. Interior sur de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior sur de Valencia",
+      "fenomeno": "Moderate thunderstorm warning. Interior sur de Valencia",
+      "nivel": "Naranja",
+      "text": "Interior sur de Valencia: Moderate thunderstorm warning. Interior sur de Valencia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
