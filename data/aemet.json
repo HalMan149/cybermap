@@ -1,8 +1,24 @@
 {
-  "generated_at": "2026-05-20T20:29:17.498Z",
+  "generated_at": "2026-05-20T22:11:13.129Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌊",
+      "provincia": "Bizkaia litoral",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Bizkaia litoral",
+      "nivel": "Naranja",
+      "text": "Bizkaia litoral: Aviso de temperaturas máximas de nivel amarillo. Bizkaia litoral (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Bizkaia litoral",
+      "fenomeno": "Moderate high-temperature warning. Bizkaia litoral",
+      "nivel": "Naranja",
+      "text": "Bizkaia litoral: Moderate high-temperature warning. Bizkaia litoral (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌊",
       "provincia": "Bizkaia litoral",
@@ -145,22 +161,6 @@
       "fenomeno": "Moderate high-temperature warning. Bizkaia interior",
       "nivel": "Naranja",
       "text": "Bizkaia interior: Moderate high-temperature warning. Bizkaia interior (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Vegas del Guadiana",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Vegas del Guadiana",
-      "nivel": "Naranja",
-      "text": "Vegas del Guadiana: Aviso de temperaturas máximas de nivel amarillo. Vegas del Guadiana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Vegas del Guadiana",
-      "fenomeno": "Moderate high-temperature warning. Vegas del Guadiana",
-      "nivel": "Naranja",
-      "text": "Vegas del Guadiana: Moderate high-temperature warning. Vegas del Guadiana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
