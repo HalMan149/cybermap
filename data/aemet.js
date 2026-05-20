@@ -1,55 +1,71 @@
-// Auto-generado por GitHub Actions - 2026-05-20T05:59:54.819Z
+// Auto-generado por GitHub Actions - 2026-05-20T09:42:46.959Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-05-20T05:59:54.819Z",
+  "generated_at": "2026-05-20T09:42:46.959Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "🌧️",
-      "provincia": "Prepirineo de Barcelona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Prepirineo de Barcelona",
+      "icon": "🌊",
+      "provincia": "Bizkaia interior",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Bizkaia interior",
       "nivel": "Naranja",
-      "text": "Prepirineo de Barcelona: Aviso de lluvias de nivel amarillo. Prepirineo de Barcelona (Naranja) (AEMET)",
+      "text": "Bizkaia interior: Aviso de temperaturas máximas de nivel amarillo. Bizkaia interior (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Prepirineo de Barcelona",
-      "fenomeno": "Moderate rain warning. Prepirineo de Barcelona",
+      "provincia": "Bizkaia interior",
+      "fenomeno": "Moderate high-temperature warning. Bizkaia interior",
       "nivel": "Naranja",
-      "text": "Prepirineo de Barcelona: Moderate rain warning. Prepirineo de Barcelona (Naranja) (AEMET)",
+      "text": "Bizkaia interior: Moderate high-temperature warning. Bizkaia interior (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Pirineo de Girona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Pirineo de Girona",
+      "icon": "🌊",
+      "provincia": "Vegas del Guadiana",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Vegas del Guadiana",
       "nivel": "Naranja",
-      "text": "Pirineo de Girona: Aviso de lluvias de nivel amarillo. Pirineo de Girona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Pirineo de Girona",
-      "fenomeno": "Moderate rain warning. Pirineo de Girona",
-      "nivel": "Naranja",
-      "text": "Pirineo de Girona: Moderate rain warning. Pirineo de Girona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Prelitoral de Girona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Prelitoral de Girona",
-      "nivel": "Naranja",
-      "text": "Prelitoral de Girona: Aviso de lluvias de nivel amarillo. Prelitoral de Girona (Naranja) (AEMET)",
+      "text": "Vegas del Guadiana: Aviso de temperaturas máximas de nivel amarillo. Vegas del Guadiana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Prelitoral de Girona",
-      "fenomeno": "Moderate rain warning. Prelitoral de Girona",
+      "provincia": "Vegas del Guadiana",
+      "fenomeno": "Moderate high-temperature warning. Vegas del Guadiana",
       "nivel": "Naranja",
-      "text": "Prelitoral de Girona: Moderate rain warning. Prelitoral de Girona (Naranja) (AEMET)",
+      "text": "Vegas del Guadiana: Moderate high-temperature warning. Vegas del Guadiana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Campiña gaditana",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Campiña gaditana",
+      "nivel": "Naranja",
+      "text": "Campiña gaditana: Aviso de vientos de nivel amarillo. Campiña gaditana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Campiña gaditana",
+      "fenomeno": "Moderate wind warning. Campiña gaditana",
+      "nivel": "Naranja",
+      "text": "Campiña gaditana: Moderate wind warning. Campiña gaditana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Estrecho",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Estrecho",
+      "nivel": "Naranja",
+      "text": "Estrecho: Aviso de vientos de nivel amarillo. Estrecho (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Estrecho",
+      "fenomeno": "Moderate wind warning. Estrecho",
+      "nivel": "Naranja",
+      "text": "Estrecho: Moderate wind warning. Estrecho (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -85,83 +101,67 @@ window.AEMET_AVISOS = {
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌡️",
-      "provincia": "Valle del Almanzora y Los Vélez",
-      "fenomeno": "Aviso de temperaturas máximas de nivel verde. CCAA",
-      "nivel": "Amarillo",
-      "text": "Valle del Almanzora y Los Vélez: Aviso de temperaturas máximas de nivel verde. CCAA (Amarillo) (AEMET)",
+      "icon": "💨",
+      "provincia": "Campiña gaditana",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Campiña gaditana",
+      "nivel": "Naranja",
+      "text": "Campiña gaditana: Aviso de vientos de nivel amarillo. Campiña gaditana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Valle del Almanzora y Los Vélez",
-      "fenomeno": "Minor high-temperature warning. CCAA",
-      "nivel": "Amarillo",
-      "text": "Valle del Almanzora y Los Vélez: Minor high-temperature warning. CCAA (Amarillo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Valle del Almanzora y Los Vélez",
-      "fenomeno": "Aviso de temperaturas mínimas de nivel verde. CCAA",
-      "nivel": "Amarillo",
-      "text": "Valle del Almanzora y Los Vélez: Aviso de temperaturas mínimas de nivel verde. CCAA (Amarillo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Valle del Almanzora y Los Vélez",
-      "fenomeno": "Minor low-temperature warning. CCAA",
-      "nivel": "Amarillo",
-      "text": "Valle del Almanzora y Los Vélez: Minor low-temperature warning. CCAA (Amarillo) (AEMET)",
+      "provincia": "Campiña gaditana",
+      "fenomeno": "Moderate wind warning. Campiña gaditana",
+      "nivel": "Naranja",
+      "text": "Campiña gaditana: Moderate wind warning. Campiña gaditana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Costa - Poniente y Almería Capital",
-      "fenomeno": "Aviso de costeros de nivel verde. CCAA",
-      "nivel": "Amarillo",
-      "text": "Costa - Poniente y Almería Capital: Aviso de costeros de nivel verde. CCAA (Amarillo) (AEMET)",
+      "provincia": "Costa - Litoral gaditano",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral gaditano",
+      "nivel": "Naranja",
+      "text": "Costa - Litoral gaditano: Aviso de costeros de nivel amarillo. Costa - Litoral gaditano (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Costa - Poniente y Almería Capital",
-      "fenomeno": "Minor coastalevent warning. CCAA",
-      "nivel": "Amarillo",
-      "text": "Costa - Poniente y Almería Capital: Minor coastalevent warning. CCAA (Amarillo) (AEMET)",
+      "provincia": "Costa - Litoral gaditano",
+      "fenomeno": "Moderate coastalevent warning. Costa - Litoral gaditano",
+      "nivel": "Naranja",
+      "text": "Costa - Litoral gaditano: Moderate coastalevent warning. Costa - Litoral gaditano (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "❄️",
-      "provincia": "Valle del Almanzora y Los Vélez",
-      "fenomeno": "Aviso de nevadas de nivel verde. CCAA",
-      "nivel": "Amarillo",
-      "text": "Valle del Almanzora y Los Vélez: Aviso de nevadas de nivel verde. CCAA (Amarillo) (AEMET)",
+      "icon": "🌊",
+      "provincia": "Costa - Estrecho",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Estrecho",
+      "nivel": "Naranja",
+      "text": "Costa - Estrecho: Aviso de costeros de nivel amarillo. Costa - Estrecho (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Estrecho",
+      "fenomeno": "Moderate coastalevent warning. Costa - Estrecho",
+      "nivel": "Naranja",
+      "text": "Costa - Estrecho: Moderate coastalevent warning. Costa - Estrecho (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Estrecho",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Estrecho",
+      "nivel": "Naranja",
+      "text": "Estrecho: Aviso de vientos de nivel amarillo. Estrecho (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Valle del Almanzora y Los Vélez",
-      "fenomeno": "Minor snow warning. CCAA",
-      "nivel": "Amarillo",
-      "text": "Valle del Almanzora y Los Vélez: Minor snow warning. CCAA (Amarillo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌫️",
-      "provincia": "Valle del Almanzora y Los Vélez",
-      "fenomeno": "Aviso de nieblas de nivel verde. CCAA",
-      "nivel": "Amarillo",
-      "text": "Valle del Almanzora y Los Vélez: Aviso de nieblas de nivel verde. CCAA (Amarillo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Valle del Almanzora y Los Vélez",
-      "fenomeno": "Minor fog warning. CCAA",
-      "nivel": "Amarillo",
-      "text": "Valle del Almanzora y Los Vélez: Minor fog warning. CCAA (Amarillo) (AEMET)",
+      "provincia": "Estrecho",
+      "fenomeno": "Moderate wind warning. Estrecho",
+      "nivel": "Naranja",
+      "text": "Estrecho: Moderate wind warning. Estrecho (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
