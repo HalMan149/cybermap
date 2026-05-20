@@ -1,9 +1,121 @@
-// Auto-generado por GitHub Actions - 2026-05-20T12:10:51.008Z
+// Auto-generado por GitHub Actions - 2026-05-20T15:54:04.256Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-05-20T12:10:51.008Z",
+  "generated_at": "2026-05-20T15:54:04.256Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral gaditano",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral gaditano",
+      "nivel": "Naranja",
+      "text": "Costa - Litoral gaditano: Aviso de costeros de nivel amarillo. Costa - Litoral gaditano (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral gaditano",
+      "fenomeno": "Moderate coastalevent warning. Costa - Litoral gaditano",
+      "nivel": "Naranja",
+      "text": "Costa - Litoral gaditano: Moderate coastalevent warning. Costa - Litoral gaditano (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Estrecho",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Estrecho",
+      "nivel": "Naranja",
+      "text": "Costa - Estrecho: Aviso de costeros de nivel amarillo. Costa - Estrecho (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Estrecho",
+      "fenomeno": "Moderate coastalevent warning. Costa - Estrecho",
+      "nivel": "Naranja",
+      "text": "Costa - Estrecho: Moderate coastalevent warning. Costa - Estrecho (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Campiña gaditana",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Campiña gaditana",
+      "nivel": "Naranja",
+      "text": "Campiña gaditana: Aviso de vientos de nivel amarillo. Campiña gaditana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Campiña gaditana",
+      "fenomeno": "Moderate wind warning. Campiña gaditana",
+      "nivel": "Naranja",
+      "text": "Campiña gaditana: Moderate wind warning. Campiña gaditana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Estrecho",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Estrecho",
+      "nivel": "Naranja",
+      "text": "Estrecho: Aviso de vientos de nivel amarillo. Estrecho (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Estrecho",
+      "fenomeno": "Moderate wind warning. Estrecho",
+      "nivel": "Naranja",
+      "text": "Estrecho: Moderate wind warning. Estrecho (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Central y Valles Mineros",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Central y Valles Mineros",
+      "nivel": "Naranja",
+      "text": "Central y Valles Mineros: Aviso de temperaturas máximas de nivel amarillo. Central y Valles Mineros (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Central y Valles Mineros",
+      "fenomeno": "Moderate high-temperature warning. Central y Valles Mineros",
+      "nivel": "Naranja",
+      "text": "Central y Valles Mineros: Moderate high-temperature warning. Central y Valles Mineros (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Vegas del Guadiana",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Vegas del Guadiana",
+      "nivel": "Naranja",
+      "text": "Vegas del Guadiana: Aviso de temperaturas máximas de nivel amarillo. Vegas del Guadiana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Vegas del Guadiana",
+      "fenomeno": "Moderate high-temperature warning. Vegas del Guadiana",
+      "nivel": "Naranja",
+      "text": "Vegas del Guadiana: Moderate high-temperature warning. Vegas del Guadiana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Bizkaia interior",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Bizkaia interior",
+      "nivel": "Naranja",
+      "text": "Bizkaia interior: Aviso de temperaturas máximas de nivel amarillo. Bizkaia interior (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Bizkaia interior",
+      "fenomeno": "Moderate high-temperature warning. Bizkaia interior",
+      "nivel": "Naranja",
+      "text": "Bizkaia interior: Moderate high-temperature warning. Bizkaia interior (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌊",
       "provincia": "Bizkaia interior",
@@ -50,118 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate wind warning. Campiña gaditana",
       "nivel": "Naranja",
       "text": "Campiña gaditana: Moderate wind warning. Campiña gaditana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Estrecho",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Estrecho",
-      "nivel": "Naranja",
-      "text": "Estrecho: Aviso de vientos de nivel amarillo. Estrecho (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Estrecho",
-      "fenomeno": "Moderate wind warning. Estrecho",
-      "nivel": "Naranja",
-      "text": "Estrecho: Moderate wind warning. Estrecho (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral gaditano",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral gaditano",
-      "nivel": "Naranja",
-      "text": "Costa - Litoral gaditano: Aviso de costeros de nivel amarillo. Costa - Litoral gaditano (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral gaditano",
-      "fenomeno": "Moderate coastalevent warning. Costa - Litoral gaditano",
-      "nivel": "Naranja",
-      "text": "Costa - Litoral gaditano: Moderate coastalevent warning. Costa - Litoral gaditano (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Estrecho",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Estrecho",
-      "nivel": "Naranja",
-      "text": "Costa - Estrecho: Aviso de costeros de nivel amarillo. Costa - Estrecho (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Estrecho",
-      "fenomeno": "Moderate coastalevent warning. Costa - Estrecho",
-      "nivel": "Naranja",
-      "text": "Costa - Estrecho: Moderate coastalevent warning. Costa - Estrecho (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Campiña gaditana",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Campiña gaditana",
-      "nivel": "Naranja",
-      "text": "Campiña gaditana: Aviso de vientos de nivel amarillo. Campiña gaditana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Campiña gaditana",
-      "fenomeno": "Moderate wind warning. Campiña gaditana",
-      "nivel": "Naranja",
-      "text": "Campiña gaditana: Moderate wind warning. Campiña gaditana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral gaditano",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral gaditano",
-      "nivel": "Naranja",
-      "text": "Costa - Litoral gaditano: Aviso de costeros de nivel amarillo. Costa - Litoral gaditano (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral gaditano",
-      "fenomeno": "Moderate coastalevent warning. Costa - Litoral gaditano",
-      "nivel": "Naranja",
-      "text": "Costa - Litoral gaditano: Moderate coastalevent warning. Costa - Litoral gaditano (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Estrecho",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Estrecho",
-      "nivel": "Naranja",
-      "text": "Costa - Estrecho: Aviso de costeros de nivel amarillo. Costa - Estrecho (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Estrecho",
-      "fenomeno": "Moderate coastalevent warning. Costa - Estrecho",
-      "nivel": "Naranja",
-      "text": "Costa - Estrecho: Moderate coastalevent warning. Costa - Estrecho (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Estrecho",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Estrecho",
-      "nivel": "Naranja",
-      "text": "Estrecho: Aviso de vientos de nivel amarillo. Estrecho (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Estrecho",
-      "fenomeno": "Moderate wind warning. Estrecho",
-      "nivel": "Naranja",
-      "text": "Estrecho: Moderate wind warning. Estrecho (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
