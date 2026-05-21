@@ -1,9 +1,41 @@
-// Auto-generado por GitHub Actions - 2026-05-21T15:54:06.752Z
+// Auto-generado por GitHub Actions - 2026-05-21T17:51:29.025Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-05-21T15:54:06.752Z",
+  "generated_at": "2026-05-21T17:51:29.025Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Centro de Lugo",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Centro de Lugo",
+      "nivel": "Naranja",
+      "text": "Centro de Lugo: Aviso de lluvias de nivel amarillo. Centro de Lugo (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Centro de Lugo",
+      "fenomeno": "Moderate rain warning. Centro de Lugo",
+      "nivel": "Naranja",
+      "text": "Centro de Lugo: Moderate rain warning. Centro de Lugo (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Centro de Lugo",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Centro de Lugo",
+      "nivel": "Naranja",
+      "text": "Centro de Lugo: Aviso de tormentas de nivel amarillo. Centro de Lugo (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Centro de Lugo",
+      "fenomeno": "Moderate thunderstorm warning. Centro de Lugo",
+      "nivel": "Naranja",
+      "text": "Centro de Lugo: Moderate thunderstorm warning. Centro de Lugo (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌊",
       "provincia": "Costa - Litoral gaditano",
@@ -130,38 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate rain warning. Liébana",
       "nivel": "Naranja",
       "text": "Liébana: Moderate rain warning. Liébana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Cordillera Cantábrica de León",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Cordillera Cantábrica de León",
-      "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de León: Aviso de lluvias de nivel amarillo. Cordillera Cantábrica de León (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cordillera Cantábrica de León",
-      "fenomeno": "Moderate rain warning. Cordillera Cantábrica de León",
-      "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de León: Moderate rain warning. Cordillera Cantábrica de León (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Cordillera Cantábrica de Palencia",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Cordillera Cantábrica de Palencia",
-      "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de Palencia: Aviso de lluvias de nivel amarillo. Cordillera Cantábrica de Palencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cordillera Cantábrica de Palencia",
-      "fenomeno": "Moderate rain warning. Cordillera Cantábrica de Palencia",
-      "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de Palencia: Moderate rain warning. Cordillera Cantábrica de Palencia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
