@@ -1,103 +1,135 @@
-// Auto-generado por GitHub Actions - 2026-05-21T05:52:16.572Z
+// Auto-generado por GitHub Actions - 2026-05-21T08:59:08.124Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-05-21T05:52:16.572Z",
+  "generated_at": "2026-05-21T08:59:08.124Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "🌊",
-      "provincia": "Bizkaia litoral",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Bizkaia litoral",
+      "icon": "🌧️",
+      "provincia": "Litoral occidental asturiano",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral occidental asturiano",
       "nivel": "Naranja",
-      "text": "Bizkaia litoral: Aviso de temperaturas máximas de nivel amarillo. Bizkaia litoral (Naranja) (AEMET)",
+      "text": "Litoral occidental asturiano: Aviso de lluvias de nivel amarillo. Litoral occidental asturiano (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Bizkaia litoral",
-      "fenomeno": "Moderate high-temperature warning. Bizkaia litoral",
+      "provincia": "Litoral occidental asturiano",
+      "fenomeno": "Moderate rain warning. Litoral occidental asturiano",
       "nivel": "Naranja",
-      "text": "Bizkaia litoral: Moderate high-temperature warning. Bizkaia litoral (Naranja) (AEMET)",
+      "text": "Litoral occidental asturiano: Moderate rain warning. Litoral occidental asturiano (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Bizkaia litoral",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Bizkaia litoral",
+      "icon": "🌧️",
+      "provincia": "Suroccidental asturiana",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Suroccidental asturiana",
       "nivel": "Naranja",
-      "text": "Bizkaia litoral: Aviso de temperaturas máximas de nivel amarillo. Bizkaia litoral (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Bizkaia litoral",
-      "fenomeno": "Moderate high-temperature warning. Bizkaia litoral",
-      "nivel": "Naranja",
-      "text": "Bizkaia litoral: Moderate high-temperature warning. Bizkaia litoral (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral gaditano",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral gaditano",
-      "nivel": "Naranja",
-      "text": "Costa - Litoral gaditano: Aviso de costeros de nivel amarillo. Costa - Litoral gaditano (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral gaditano",
-      "fenomeno": "Moderate coastalevent warning. Costa - Litoral gaditano",
-      "nivel": "Naranja",
-      "text": "Costa - Litoral gaditano: Moderate coastalevent warning. Costa - Litoral gaditano (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Estrecho",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Estrecho",
-      "nivel": "Naranja",
-      "text": "Costa - Estrecho: Aviso de costeros de nivel amarillo. Costa - Estrecho (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Estrecho",
-      "fenomeno": "Moderate coastalevent warning. Costa - Estrecho",
-      "nivel": "Naranja",
-      "text": "Costa - Estrecho: Moderate coastalevent warning. Costa - Estrecho (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Campiña gaditana",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Campiña gaditana",
-      "nivel": "Naranja",
-      "text": "Campiña gaditana: Aviso de vientos de nivel amarillo. Campiña gaditana (Naranja) (AEMET)",
+      "text": "Suroccidental asturiana: Aviso de lluvias de nivel amarillo. Suroccidental asturiana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Campiña gaditana",
-      "fenomeno": "Moderate wind warning. Campiña gaditana",
+      "provincia": "Suroccidental asturiana",
+      "fenomeno": "Moderate rain warning. Suroccidental asturiana",
       "nivel": "Naranja",
-      "text": "Campiña gaditana: Moderate wind warning. Campiña gaditana (Naranja) (AEMET)",
+      "text": "Suroccidental asturiana: Moderate rain warning. Suroccidental asturiana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "💨",
-      "provincia": "Estrecho",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Estrecho",
+      "icon": "🌧️",
+      "provincia": "A Mariña",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. A Mariña",
       "nivel": "Naranja",
-      "text": "Estrecho: Aviso de vientos de nivel amarillo. Estrecho (Naranja) (AEMET)",
+      "text": "A Mariña: Aviso de lluvias de nivel amarillo. A Mariña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "A Mariña",
+      "fenomeno": "Moderate rain warning. A Mariña",
+      "nivel": "Naranja",
+      "text": "A Mariña: Moderate rain warning. A Mariña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Montaña de Lugo",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Montaña de Lugo",
+      "nivel": "Naranja",
+      "text": "Montaña de Lugo: Aviso de lluvias de nivel amarillo. Montaña de Lugo (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Estrecho",
-      "fenomeno": "Moderate wind warning. Estrecho",
+      "provincia": "Montaña de Lugo",
+      "fenomeno": "Moderate rain warning. Montaña de Lugo",
       "nivel": "Naranja",
-      "text": "Estrecho: Moderate wind warning. Estrecho (Naranja) (AEMET)",
+      "text": "Montaña de Lugo: Moderate rain warning. Montaña de Lugo (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Litoral occidental asturiano",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Litoral occidental asturiano",
+      "nivel": "Naranja",
+      "text": "Litoral occidental asturiano: Aviso de tormentas de nivel amarillo. Litoral occidental asturiano (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral occidental asturiano",
+      "fenomeno": "Moderate thunderstorm warning. Litoral occidental asturiano",
+      "nivel": "Naranja",
+      "text": "Litoral occidental asturiano: Moderate thunderstorm warning. Litoral occidental asturiano (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Suroccidental asturiana",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Suroccidental asturiana",
+      "nivel": "Naranja",
+      "text": "Suroccidental asturiana: Aviso de tormentas de nivel amarillo. Suroccidental asturiana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Suroccidental asturiana",
+      "fenomeno": "Moderate thunderstorm warning. Suroccidental asturiana",
+      "nivel": "Naranja",
+      "text": "Suroccidental asturiana: Moderate thunderstorm warning. Suroccidental asturiana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "A Mariña",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. A Mariña",
+      "nivel": "Naranja",
+      "text": "A Mariña: Aviso de tormentas de nivel amarillo. A Mariña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "A Mariña",
+      "fenomeno": "Moderate thunderstorm warning. A Mariña",
+      "nivel": "Naranja",
+      "text": "A Mariña: Moderate thunderstorm warning. A Mariña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Montaña de Lugo",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Montaña de Lugo",
+      "nivel": "Naranja",
+      "text": "Montaña de Lugo: Aviso de tormentas de nivel amarillo. Montaña de Lugo (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Montaña de Lugo",
+      "fenomeno": "Moderate thunderstorm warning. Montaña de Lugo",
+      "nivel": "Naranja",
+      "text": "Montaña de Lugo: Moderate thunderstorm warning. Montaña de Lugo (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -118,50 +150,18 @@ window.AEMET_AVISOS = {
     },
     {
       "icon": "🌊",
-      "provincia": "Vegas del Guadiana",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Vegas del Guadiana",
+      "provincia": "Cordillera y Picos de Europa",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Cordillera y Picos de Europa",
       "nivel": "Naranja",
-      "text": "Vegas del Guadiana: Aviso de temperaturas máximas de nivel amarillo. Vegas del Guadiana (Naranja) (AEMET)",
+      "text": "Cordillera y Picos de Europa: Aviso de temperaturas máximas de nivel amarillo. Cordillera y Picos de Europa (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Vegas del Guadiana",
-      "fenomeno": "Moderate high-temperature warning. Vegas del Guadiana",
+      "provincia": "Cordillera y Picos de Europa",
+      "fenomeno": "Moderate high-temperature warning. Cordillera y Picos de Europa",
       "nivel": "Naranja",
-      "text": "Vegas del Guadiana: Moderate high-temperature warning. Vegas del Guadiana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Bizkaia interior",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Bizkaia interior",
-      "nivel": "Naranja",
-      "text": "Bizkaia interior: Aviso de temperaturas máximas de nivel amarillo. Bizkaia interior (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Bizkaia interior",
-      "fenomeno": "Moderate high-temperature warning. Bizkaia interior",
-      "nivel": "Naranja",
-      "text": "Bizkaia interior: Moderate high-temperature warning. Bizkaia interior (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Bizkaia interior",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Bizkaia interior",
-      "nivel": "Naranja",
-      "text": "Bizkaia interior: Aviso de temperaturas máximas de nivel amarillo. Bizkaia interior (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Bizkaia interior",
-      "fenomeno": "Moderate high-temperature warning. Bizkaia interior",
-      "nivel": "Naranja",
-      "text": "Bizkaia interior: Moderate high-temperature warning. Bizkaia interior (Naranja) (AEMET)",
+      "text": "Cordillera y Picos de Europa: Moderate high-temperature warning. Cordillera y Picos de Europa (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
