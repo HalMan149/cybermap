@@ -1,153 +1,9 @@
-// Auto-generado por GitHub Actions - 2026-05-24T07:39:39.424Z
+// Auto-generado por GitHub Actions - 2026-05-24T09:30:40.655Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-05-24T07:39:39.424Z",
+  "generated_at": "2026-05-24T09:30:40.655Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
-    {
-      "icon": "🌧️",
-      "provincia": "Cordillera Cantábrica de Palencia",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Cordillera Cantábrica de Palencia",
-      "nivel": "Rojo",
-      "text": "Cordillera Cantábrica de Palencia: Aviso de lluvias de nivel naranja. Cordillera Cantábrica de Palencia (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cordillera Cantábrica de Palencia",
-      "fenomeno": "Severe rain warning. Cordillera Cantábrica de Palencia",
-      "nivel": "Rojo",
-      "text": "Cordillera Cantábrica de Palencia: Severe rain warning. Cordillera Cantábrica de Palencia (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Cordillera Cantábrica de Palencia",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Cordillera Cantábrica de Palencia",
-      "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de Palencia: Aviso de lluvias de nivel amarillo. Cordillera Cantábrica de Palencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cordillera Cantábrica de Palencia",
-      "fenomeno": "Moderate rain warning. Cordillera Cantábrica de Palencia",
-      "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de Palencia: Moderate rain warning. Cordillera Cantábrica de Palencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Centro y valle de Villaverde",
-      "fenomeno": "Aviso de tormentas de nivel naranja. Centro y valle de Villaverde",
-      "nivel": "Rojo",
-      "text": "Centro y valle de Villaverde: Aviso de tormentas de nivel naranja. Centro y valle de Villaverde (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Centro y valle de Villaverde",
-      "fenomeno": "Severe thunderstorm warning. Centro y valle de Villaverde",
-      "nivel": "Rojo",
-      "text": "Centro y valle de Villaverde: Severe thunderstorm warning. Centro y valle de Villaverde (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Cantabria del Ebro",
-      "fenomeno": "Aviso de tormentas de nivel naranja. Cantabria del Ebro",
-      "nivel": "Rojo",
-      "text": "Cantabria del Ebro: Aviso de tormentas de nivel naranja. Cantabria del Ebro (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cantabria del Ebro",
-      "fenomeno": "Severe thunderstorm warning. Cantabria del Ebro",
-      "nivel": "Rojo",
-      "text": "Cantabria del Ebro: Severe thunderstorm warning. Cantabria del Ebro (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Centro y valle de Villaverde",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Centro y valle de Villaverde",
-      "nivel": "Naranja",
-      "text": "Centro y valle de Villaverde: Aviso de tormentas de nivel amarillo. Centro y valle de Villaverde (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Centro y valle de Villaverde",
-      "fenomeno": "Moderate thunderstorm warning. Centro y valle de Villaverde",
-      "nivel": "Naranja",
-      "text": "Centro y valle de Villaverde: Moderate thunderstorm warning. Centro y valle de Villaverde (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Cantabria del Ebro",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Cantabria del Ebro",
-      "nivel": "Naranja",
-      "text": "Cantabria del Ebro: Aviso de tormentas de nivel amarillo. Cantabria del Ebro (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cantabria del Ebro",
-      "fenomeno": "Moderate thunderstorm warning. Cantabria del Ebro",
-      "nivel": "Naranja",
-      "text": "Cantabria del Ebro: Moderate thunderstorm warning. Cantabria del Ebro (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Campiña gaditana",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Campiña gaditana",
-      "nivel": "Naranja",
-      "text": "Campiña gaditana: Aviso de vientos de nivel amarillo. Campiña gaditana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Campiña gaditana",
-      "fenomeno": "Moderate wind warning. Campiña gaditana",
-      "nivel": "Naranja",
-      "text": "Campiña gaditana: Moderate wind warning. Campiña gaditana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Litoral gaditano",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Litoral gaditano",
-      "nivel": "Naranja",
-      "text": "Litoral gaditano: Aviso de vientos de nivel amarillo. Litoral gaditano (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral gaditano",
-      "fenomeno": "Moderate wind warning. Litoral gaditano",
-      "nivel": "Naranja",
-      "text": "Litoral gaditano: Moderate wind warning. Litoral gaditano (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Estrecho",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Estrecho",
-      "nivel": "Naranja",
-      "text": "Estrecho: Aviso de vientos de nivel amarillo. Estrecho (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Estrecho",
-      "fenomeno": "Moderate wind warning. Estrecho",
-      "nivel": "Naranja",
-      "text": "Estrecho: Moderate wind warning. Estrecho (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
     {
       "icon": "🌊",
       "provincia": "Litoral cántabro",
@@ -162,6 +18,150 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate high-temperature warning. Litoral cántabro",
       "nivel": "Naranja",
       "text": "Litoral cántabro: Moderate high-temperature warning. Litoral cántabro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Liébana",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Liébana",
+      "nivel": "Naranja",
+      "text": "Liébana: Aviso de temperaturas máximas de nivel amarillo. Liébana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Liébana",
+      "fenomeno": "Moderate high-temperature warning. Liébana",
+      "nivel": "Naranja",
+      "text": "Liébana: Moderate high-temperature warning. Liébana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Centro y valle de Villaverde",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Centro y valle de Villaverde",
+      "nivel": "Naranja",
+      "text": "Centro y valle de Villaverde: Aviso de temperaturas máximas de nivel amarillo. Centro y valle de Villaverde (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Centro y valle de Villaverde",
+      "fenomeno": "Moderate high-temperature warning. Centro y valle de Villaverde",
+      "nivel": "Naranja",
+      "text": "Centro y valle de Villaverde: Moderate high-temperature warning. Centro y valle de Villaverde (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Gipuzkoa interior",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Gipuzkoa interior",
+      "nivel": "Naranja",
+      "text": "Gipuzkoa interior: Aviso de temperaturas máximas de nivel amarillo. Gipuzkoa interior (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Gipuzkoa interior",
+      "fenomeno": "Moderate high-temperature warning. Gipuzkoa interior",
+      "nivel": "Naranja",
+      "text": "Gipuzkoa interior: Moderate high-temperature warning. Gipuzkoa interior (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Bizkaia litoral",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Bizkaia litoral",
+      "nivel": "Naranja",
+      "text": "Bizkaia litoral: Aviso de temperaturas máximas de nivel amarillo. Bizkaia litoral (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Bizkaia litoral",
+      "fenomeno": "Moderate high-temperature warning. Bizkaia litoral",
+      "nivel": "Naranja",
+      "text": "Bizkaia litoral: Moderate high-temperature warning. Bizkaia litoral (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Bizkaia interior",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Bizkaia interior",
+      "nivel": "Naranja",
+      "text": "Bizkaia interior: Aviso de temperaturas máximas de nivel amarillo. Bizkaia interior (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Bizkaia interior",
+      "fenomeno": "Moderate high-temperature warning. Bizkaia interior",
+      "nivel": "Naranja",
+      "text": "Bizkaia interior: Moderate high-temperature warning. Bizkaia interior (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Interior de Pontevedra",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Interior de Pontevedra",
+      "nivel": "Naranja",
+      "text": "Interior de Pontevedra: Aviso de lluvias de nivel amarillo. Interior de Pontevedra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior de Pontevedra",
+      "fenomeno": "Moderate rain warning. Interior de Pontevedra",
+      "nivel": "Naranja",
+      "text": "Interior de Pontevedra: Moderate rain warning. Interior de Pontevedra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Interior de Pontevedra",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Interior de Pontevedra",
+      "nivel": "Naranja",
+      "text": "Interior de Pontevedra: Aviso de tormentas de nivel amarillo. Interior de Pontevedra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior de Pontevedra",
+      "fenomeno": "Moderate thunderstorm warning. Interior de Pontevedra",
+      "nivel": "Naranja",
+      "text": "Interior de Pontevedra: Moderate thunderstorm warning. Interior de Pontevedra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Litoral occidental asturiano",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Litoral occidental asturiano",
+      "nivel": "Naranja",
+      "text": "Litoral occidental asturiano: Aviso de tormentas de nivel amarillo. Litoral occidental asturiano (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral occidental asturiano",
+      "fenomeno": "Moderate thunderstorm warning. Litoral occidental asturiano",
+      "nivel": "Naranja",
+      "text": "Litoral occidental asturiano: Moderate thunderstorm warning. Litoral occidental asturiano (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Suroccidental asturiana",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Suroccidental asturiana",
+      "nivel": "Naranja",
+      "text": "Suroccidental asturiana: Aviso de tormentas de nivel amarillo. Suroccidental asturiana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Suroccidental asturiana",
+      "fenomeno": "Moderate thunderstorm warning. Suroccidental asturiana",
+      "nivel": "Naranja",
+      "text": "Suroccidental asturiana: Moderate thunderstorm warning. Suroccidental asturiana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
