@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2026-05-24T18:12:06.594Z
+// Auto-generado por GitHub Actions - 2026-05-24T19:39:27.652Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-05-24T18:12:06.594Z",
+  "generated_at": "2026-05-24T19:39:27.652Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "⛈️",
+      "provincia": "Central y Valles Mineros",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Central y Valles Mineros",
+      "nivel": "Naranja",
+      "text": "Central y Valles Mineros: Aviso de tormentas de nivel amarillo. Central y Valles Mineros (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Central y Valles Mineros",
+      "fenomeno": "Moderate thunderstorm warning. Central y Valles Mineros",
+      "nivel": "Naranja",
+      "text": "Central y Valles Mineros: Moderate thunderstorm warning. Central y Valles Mineros (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌊",
       "provincia": "Cumbres de Gran Canaria",
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate thunderstorm warning. Pirineo navarro",
       "nivel": "Naranja",
       "text": "Pirineo navarro: Moderate thunderstorm warning. Pirineo navarro (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Meseta de Valladolid",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Meseta de Valladolid",
-      "nivel": "Naranja",
-      "text": "Meseta de Valladolid: Aviso de tormentas de nivel amarillo. Meseta de Valladolid (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Meseta de Valladolid",
-      "fenomeno": "Moderate thunderstorm warning. Meseta de Valladolid",
-      "nivel": "Naranja",
-      "text": "Meseta de Valladolid: Moderate thunderstorm warning. Meseta de Valladolid (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
