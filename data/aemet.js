@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2026-05-25T21:02:10.333Z
+// Auto-generado por GitHub Actions - 2026-05-25T22:16:31.117Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-05-25T21:02:10.333Z",
+  "generated_at": "2026-05-25T22:16:31.117Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "⛈️",
+      "provincia": "Meseta de Palencia",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Meseta de Palencia",
+      "nivel": "Naranja",
+      "text": "Meseta de Palencia: Aviso de tormentas de nivel amarillo. Meseta de Palencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Meseta de Palencia",
+      "fenomeno": "Moderate thunderstorm warning. Meseta de Palencia",
+      "nivel": "Naranja",
+      "text": "Meseta de Palencia: Moderate thunderstorm warning. Meseta de Palencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Litoral oriental asturiano",
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate high-temperature warning. Sur de Huesca",
       "nivel": "Naranja",
       "text": "Sur de Huesca: Moderate high-temperature warning. Sur de Huesca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Cinco Villas de Zaragoza",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Cinco Villas de Zaragoza",
-      "nivel": "Naranja",
-      "text": "Cinco Villas de Zaragoza: Aviso de temperaturas máximas de nivel amarillo. Cinco Villas de Zaragoza (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cinco Villas de Zaragoza",
-      "fenomeno": "Moderate high-temperature warning. Cinco Villas de Zaragoza",
-      "nivel": "Naranja",
-      "text": "Cinco Villas de Zaragoza: Moderate high-temperature warning. Cinco Villas de Zaragoza (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
