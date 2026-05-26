@@ -1,9 +1,105 @@
-// Auto-generado por GitHub Actions - 2026-05-26T05:38:48.011Z
+// Auto-generado por GitHub Actions - 2026-05-26T08:53:13.924Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-05-26T05:38:48.011Z",
+  "generated_at": "2026-05-26T08:53:13.924Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌊",
+      "provincia": "Sur de Huesca",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Sur de Huesca",
+      "nivel": "Naranja",
+      "text": "Sur de Huesca: Aviso de temperaturas máximas de nivel amarillo. Sur de Huesca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sur de Huesca",
+      "fenomeno": "Moderate high-temperature warning. Sur de Huesca",
+      "nivel": "Naranja",
+      "text": "Sur de Huesca: Moderate high-temperature warning. Sur de Huesca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Cinco Villas de Zaragoza",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Cinco Villas de Zaragoza",
+      "nivel": "Naranja",
+      "text": "Cinco Villas de Zaragoza: Aviso de temperaturas máximas de nivel amarillo. Cinco Villas de Zaragoza (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cinco Villas de Zaragoza",
+      "fenomeno": "Moderate high-temperature warning. Cinco Villas de Zaragoza",
+      "nivel": "Naranja",
+      "text": "Cinco Villas de Zaragoza: Moderate high-temperature warning. Cinco Villas de Zaragoza (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Ribera del Ebro de Zaragoza",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Ribera del Ebro de Zaragoza",
+      "nivel": "Naranja",
+      "text": "Ribera del Ebro de Zaragoza: Aviso de temperaturas máximas de nivel amarillo. Ribera del Ebro de Zaragoza (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ribera del Ebro de Zaragoza",
+      "fenomeno": "Moderate high-temperature warning. Ribera del Ebro de Zaragoza",
+      "nivel": "Naranja",
+      "text": "Ribera del Ebro de Zaragoza: Moderate high-temperature warning. Ribera del Ebro de Zaragoza (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Depresión central de Lleida",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Depresión central de Lleida",
+      "nivel": "Naranja",
+      "text": "Depresión central de Lleida: Aviso de temperaturas máximas de nivel amarillo. Depresión central de Lleida (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Depresión central de Lleida",
+      "fenomeno": "Moderate high-temperature warning. Depresión central de Lleida",
+      "nivel": "Naranja",
+      "text": "Depresión central de Lleida: Moderate high-temperature warning. Depresión central de Lleida (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Depresión central de Tarragona",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Depresión central de Tarragona",
+      "nivel": "Naranja",
+      "text": "Depresión central de Tarragona: Aviso de temperaturas máximas de nivel amarillo. Depresión central de Tarragona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Depresión central de Tarragona",
+      "fenomeno": "Moderate high-temperature warning. Depresión central de Tarragona",
+      "nivel": "Naranja",
+      "text": "Depresión central de Tarragona: Moderate high-temperature warning. Depresión central de Tarragona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Vegas del Guadiana",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Vegas del Guadiana",
+      "nivel": "Naranja",
+      "text": "Vegas del Guadiana: Aviso de temperaturas máximas de nivel amarillo. Vegas del Guadiana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Vegas del Guadiana",
+      "fenomeno": "Moderate high-temperature warning. Vegas del Guadiana",
+      "nivel": "Naranja",
+      "text": "Vegas del Guadiana: Moderate high-temperature warning. Vegas del Guadiana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "⛈️",
       "provincia": "Meseta de Palencia",
@@ -66,102 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate thunderstorm warning. Litoral oriental asturiano",
       "nivel": "Naranja",
       "text": "Litoral oriental asturiano: Moderate thunderstorm warning. Litoral oriental asturiano (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Cuenca del Nervión",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Cuenca del Nervión",
-      "nivel": "Naranja",
-      "text": "Cuenca del Nervión: Aviso de temperaturas máximas de nivel amarillo. Cuenca del Nervión (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cuenca del Nervión",
-      "fenomeno": "Moderate high-temperature warning. Cuenca del Nervión",
-      "nivel": "Naranja",
-      "text": "Cuenca del Nervión: Moderate high-temperature warning. Cuenca del Nervión (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Ribera del Ebro de La Rioja",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Ribera del Ebro de La Rioja",
-      "nivel": "Naranja",
-      "text": "Ribera del Ebro de La Rioja: Aviso de temperaturas máximas de nivel amarillo. Ribera del Ebro de La Rioja (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ribera del Ebro de La Rioja",
-      "fenomeno": "Moderate high-temperature warning. Ribera del Ebro de La Rioja",
-      "nivel": "Naranja",
-      "text": "Ribera del Ebro de La Rioja: Moderate high-temperature warning. Ribera del Ebro de La Rioja (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Gipuzkoa litoral",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Gipuzkoa litoral",
-      "nivel": "Naranja",
-      "text": "Gipuzkoa litoral: Aviso de temperaturas máximas de nivel amarillo. Gipuzkoa litoral (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Gipuzkoa litoral",
-      "fenomeno": "Moderate high-temperature warning. Gipuzkoa litoral",
-      "nivel": "Naranja",
-      "text": "Gipuzkoa litoral: Moderate high-temperature warning. Gipuzkoa litoral (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral gaditano",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral gaditano",
-      "nivel": "Naranja",
-      "text": "Costa - Litoral gaditano: Aviso de costeros de nivel amarillo. Costa - Litoral gaditano (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral gaditano",
-      "fenomeno": "Moderate coastalevent warning. Costa - Litoral gaditano",
-      "nivel": "Naranja",
-      "text": "Costa - Litoral gaditano: Moderate coastalevent warning. Costa - Litoral gaditano (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Estrecho",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Estrecho",
-      "nivel": "Naranja",
-      "text": "Costa - Estrecho: Aviso de costeros de nivel amarillo. Costa - Estrecho (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Estrecho",
-      "fenomeno": "Moderate coastalevent warning. Costa - Estrecho",
-      "nivel": "Naranja",
-      "text": "Costa - Estrecho: Moderate coastalevent warning. Costa - Estrecho (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Sur de Huesca",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Sur de Huesca",
-      "nivel": "Naranja",
-      "text": "Sur de Huesca: Aviso de temperaturas máximas de nivel amarillo. Sur de Huesca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sur de Huesca",
-      "fenomeno": "Moderate high-temperature warning. Sur de Huesca",
-      "nivel": "Naranja",
-      "text": "Sur de Huesca: Moderate high-temperature warning. Sur de Huesca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
