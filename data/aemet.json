@@ -1,22 +1,38 @@
 {
-  "generated_at": "2026-05-26T14:58:53.490Z",
+  "generated_at": "2026-05-26T17:55:59.918Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "🌊",
-      "provincia": "Ribera del Ebro de La Rioja",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Ribera del Ebro de La Rioja",
+      "provincia": "Depresión central de Barcelona",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Depresión central de Barcelona",
       "nivel": "Naranja",
-      "text": "Ribera del Ebro de La Rioja: Aviso de temperaturas máximas de nivel amarillo. Ribera del Ebro de La Rioja (Naranja) (AEMET)",
+      "text": "Depresión central de Barcelona: Aviso de temperaturas máximas de nivel amarillo. Depresión central de Barcelona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Ribera del Ebro de La Rioja",
-      "fenomeno": "Moderate high-temperature warning. Ribera del Ebro de La Rioja",
+      "provincia": "Depresión central de Barcelona",
+      "fenomeno": "Moderate high-temperature warning. Depresión central de Barcelona",
       "nivel": "Naranja",
-      "text": "Ribera del Ebro de La Rioja: Moderate high-temperature warning. Ribera del Ebro de La Rioja (Naranja) (AEMET)",
+      "text": "Depresión central de Barcelona: Moderate high-temperature warning. Depresión central de Barcelona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Ampurdán",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Ampurdán",
+      "nivel": "Naranja",
+      "text": "Ampurdán: Aviso de temperaturas máximas de nivel amarillo. Ampurdán (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ampurdán",
+      "fenomeno": "Moderate high-temperature warning. Ampurdán",
+      "nivel": "Naranja",
+      "text": "Ampurdán: Moderate high-temperature warning. Ampurdán (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -117,50 +133,34 @@
     },
     {
       "icon": "🌊",
-      "provincia": "Gipuzkoa litoral",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Gipuzkoa litoral",
+      "provincia": "Prelitoral sur de Tarragona",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Prelitoral sur de Tarragona",
       "nivel": "Naranja",
-      "text": "Gipuzkoa litoral: Aviso de temperaturas máximas de nivel amarillo. Gipuzkoa litoral (Naranja) (AEMET)",
+      "text": "Prelitoral sur de Tarragona: Aviso de temperaturas máximas de nivel amarillo. Prelitoral sur de Tarragona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Gipuzkoa litoral",
-      "fenomeno": "Moderate high-temperature warning. Gipuzkoa litoral",
+      "provincia": "Prelitoral sur de Tarragona",
+      "fenomeno": "Moderate high-temperature warning. Prelitoral sur de Tarragona",
       "nivel": "Naranja",
-      "text": "Gipuzkoa litoral: Moderate high-temperature warning. Gipuzkoa litoral (Naranja) (AEMET)",
+      "text": "Prelitoral sur de Tarragona: Moderate high-temperature warning. Prelitoral sur de Tarragona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Gipuzkoa interior",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Gipuzkoa interior",
+      "provincia": "Vegas del Guadiana",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Vegas del Guadiana",
       "nivel": "Naranja",
-      "text": "Gipuzkoa interior: Aviso de temperaturas máximas de nivel amarillo. Gipuzkoa interior (Naranja) (AEMET)",
+      "text": "Vegas del Guadiana: Aviso de temperaturas máximas de nivel amarillo. Vegas del Guadiana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Gipuzkoa interior",
-      "fenomeno": "Moderate high-temperature warning. Gipuzkoa interior",
+      "provincia": "Vegas del Guadiana",
+      "fenomeno": "Moderate high-temperature warning. Vegas del Guadiana",
       "nivel": "Naranja",
-      "text": "Gipuzkoa interior: Moderate high-temperature warning. Gipuzkoa interior (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Bizkaia litoral",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Bizkaia litoral",
-      "nivel": "Naranja",
-      "text": "Bizkaia litoral: Aviso de temperaturas máximas de nivel amarillo. Bizkaia litoral (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Bizkaia litoral",
-      "fenomeno": "Moderate high-temperature warning. Bizkaia litoral",
-      "nivel": "Naranja",
-      "text": "Bizkaia litoral: Moderate high-temperature warning. Bizkaia litoral (Naranja) (AEMET)",
+      "text": "Vegas del Guadiana: Moderate high-temperature warning. Vegas del Guadiana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
