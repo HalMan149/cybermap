@@ -1,8 +1,40 @@
 {
-  "generated_at": "2026-05-26T20:01:07.290Z",
+  "generated_at": "2026-05-26T21:56:49.901Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌡️",
+      "provincia": "Bizkaia interior",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Bizkaia interior",
+      "nivel": "Rojo",
+      "text": "Bizkaia interior: Aviso de temperaturas máximas de nivel naranja. Bizkaia interior (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Bizkaia interior",
+      "fenomeno": "Severe high-temperature warning. Bizkaia interior",
+      "nivel": "Rojo",
+      "text": "Bizkaia interior: Severe high-temperature warning. Bizkaia interior (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Centro y valle de Villaverde",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Centro y valle de Villaverde",
+      "nivel": "Naranja",
+      "text": "Centro y valle de Villaverde: Aviso de temperaturas máximas de nivel amarillo. Centro y valle de Villaverde (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Centro y valle de Villaverde",
+      "fenomeno": "Moderate high-temperature warning. Centro y valle de Villaverde",
+      "nivel": "Naranja",
+      "text": "Centro y valle de Villaverde: Moderate high-temperature warning. Centro y valle de Villaverde (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌊",
       "provincia": "Depresión central de Barcelona",
@@ -129,38 +161,6 @@
       "fenomeno": "Moderate high-temperature warning. Depresión central de Tarragona",
       "nivel": "Naranja",
       "text": "Depresión central de Tarragona: Moderate high-temperature warning. Depresión central de Tarragona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Prelitoral sur de Tarragona",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Prelitoral sur de Tarragona",
-      "nivel": "Naranja",
-      "text": "Prelitoral sur de Tarragona: Aviso de temperaturas máximas de nivel amarillo. Prelitoral sur de Tarragona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Prelitoral sur de Tarragona",
-      "fenomeno": "Moderate high-temperature warning. Prelitoral sur de Tarragona",
-      "nivel": "Naranja",
-      "text": "Prelitoral sur de Tarragona: Moderate high-temperature warning. Prelitoral sur de Tarragona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Vegas del Guadiana",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Vegas del Guadiana",
-      "nivel": "Naranja",
-      "text": "Vegas del Guadiana: Aviso de temperaturas máximas de nivel amarillo. Vegas del Guadiana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Vegas del Guadiana",
-      "fenomeno": "Moderate high-temperature warning. Vegas del Guadiana",
-      "nivel": "Naranja",
-      "text": "Vegas del Guadiana: Moderate high-temperature warning. Vegas del Guadiana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
