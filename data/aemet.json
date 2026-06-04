@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T05:18:28.840Z",
+  "generated_at": "2026-06-04T09:08:18.020Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
@@ -84,83 +84,83 @@
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Depresión central de Barcelona",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Depresión central de Barcelona",
-      "nivel": "Rojo",
-      "text": "Depresión central de Barcelona: Aviso de lluvias de nivel naranja. Depresión central de Barcelona (Rojo) (AEMET)",
+      "icon": "💨",
+      "provincia": "Sur de Huesca",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Sur de Huesca",
+      "nivel": "Naranja",
+      "text": "Sur de Huesca: Aviso de vientos de nivel amarillo. Sur de Huesca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Depresión central de Barcelona",
-      "fenomeno": "Severe rain warning. Depresión central de Barcelona",
-      "nivel": "Rojo",
-      "text": "Depresión central de Barcelona: Severe rain warning. Depresión central de Barcelona (Rojo) (AEMET)",
+      "provincia": "Sur de Huesca",
+      "fenomeno": "Moderate wind warning. Sur de Huesca",
+      "nivel": "Naranja",
+      "text": "Sur de Huesca: Moderate wind warning. Sur de Huesca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Prelitoral de Barcelona",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Prelitoral de Barcelona",
-      "nivel": "Rojo",
-      "text": "Prelitoral de Barcelona: Aviso de lluvias de nivel naranja. Prelitoral de Barcelona (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Prelitoral de Barcelona",
-      "fenomeno": "Severe rain warning. Prelitoral de Barcelona",
-      "nivel": "Rojo",
-      "text": "Prelitoral de Barcelona: Severe rain warning. Prelitoral de Barcelona (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Prelitoral de Girona",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Prelitoral de Girona",
-      "nivel": "Rojo",
-      "text": "Prelitoral de Girona: Aviso de lluvias de nivel naranja. Prelitoral de Girona (Rojo) (AEMET)",
+      "icon": "💨",
+      "provincia": "Bajo Aragón de Teruel",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Bajo Aragón de Teruel",
+      "nivel": "Naranja",
+      "text": "Bajo Aragón de Teruel: Aviso de vientos de nivel amarillo. Bajo Aragón de Teruel (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Prelitoral de Girona",
-      "fenomeno": "Severe rain warning. Prelitoral de Girona",
-      "nivel": "Rojo",
-      "text": "Prelitoral de Girona: Severe rain warning. Prelitoral de Girona (Rojo) (AEMET)",
+      "provincia": "Bajo Aragón de Teruel",
+      "fenomeno": "Moderate wind warning. Bajo Aragón de Teruel",
+      "nivel": "Naranja",
+      "text": "Bajo Aragón de Teruel: Moderate wind warning. Bajo Aragón de Teruel (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Ribera del Ebro de Zaragoza",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Ribera del Ebro de Zaragoza",
+      "nivel": "Naranja",
+      "text": "Ribera del Ebro de Zaragoza: Aviso de vientos de nivel amarillo. Ribera del Ebro de Zaragoza (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ribera del Ebro de Zaragoza",
+      "fenomeno": "Moderate wind warning. Ribera del Ebro de Zaragoza",
+      "nivel": "Naranja",
+      "text": "Ribera del Ebro de Zaragoza: Moderate wind warning. Ribera del Ebro de Zaragoza (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Prepirineo de Barcelona",
-      "fenomeno": "Aviso de tormentas de nivel naranja. Prepirineo de Barcelona",
-      "nivel": "Rojo",
-      "text": "Prepirineo de Barcelona: Aviso de tormentas de nivel naranja. Prepirineo de Barcelona (Rojo) (AEMET)",
+      "provincia": "Pirineo de Lleida",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Pirineo de Lleida",
+      "nivel": "Naranja",
+      "text": "Pirineo de Lleida: Aviso de tormentas de nivel amarillo. Pirineo de Lleida (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Prepirineo de Barcelona",
-      "fenomeno": "Severe thunderstorm warning. Prepirineo de Barcelona",
-      "nivel": "Rojo",
-      "text": "Prepirineo de Barcelona: Severe thunderstorm warning. Prepirineo de Barcelona (Rojo) (AEMET)",
+      "provincia": "Pirineo de Lleida",
+      "fenomeno": "Moderate thunderstorm warning. Pirineo de Lleida",
+      "nivel": "Naranja",
+      "text": "Pirineo de Lleida: Moderate thunderstorm warning. Pirineo de Lleida (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⛈️",
-      "provincia": "Depresión central de Barcelona",
-      "fenomeno": "Aviso de tormentas de nivel naranja. Depresión central de Barcelona",
-      "nivel": "Rojo",
-      "text": "Depresión central de Barcelona: Aviso de tormentas de nivel naranja. Depresión central de Barcelona (Rojo) (AEMET)",
+      "icon": "🌧️",
+      "provincia": "Litoral de Barcelona",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral de Barcelona",
+      "nivel": "Naranja",
+      "text": "Litoral de Barcelona: Aviso de lluvias de nivel amarillo. Litoral de Barcelona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Depresión central de Barcelona",
-      "fenomeno": "Severe thunderstorm warning. Depresión central de Barcelona",
-      "nivel": "Rojo",
-      "text": "Depresión central de Barcelona: Severe thunderstorm warning. Depresión central de Barcelona (Rojo) (AEMET)",
+      "provincia": "Litoral de Barcelona",
+      "fenomeno": "Moderate rain warning. Litoral de Barcelona",
+      "nivel": "Naranja",
+      "text": "Litoral de Barcelona: Moderate rain warning. Litoral de Barcelona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
