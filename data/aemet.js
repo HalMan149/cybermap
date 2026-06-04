@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-06-04T20:22:06.793Z
+// Auto-generado por GitHub Actions - 2026-06-04T21:58:04.393Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-06-04T20:22:06.793Z",
+  "generated_at": "2026-06-04T21:58:04.393Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "🌊",
-      "provincia": "Costa - Este, sur y oeste de Gran Canaria",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Este, sur y oeste de Gran Canaria",
-      "nivel": "Naranja",
-      "text": "Costa - Este, sur y oeste de Gran Canaria: Aviso de costeros de nivel amarillo. Costa - Este, sur y oeste de Gran Canaria (Naranja) (AEMET)",
+      "icon": "🌧️",
+      "provincia": "Prepirineo de Barcelona",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Prepirineo de Barcelona",
+      "nivel": "Rojo",
+      "text": "Prepirineo de Barcelona: Aviso de lluvias de nivel naranja. Prepirineo de Barcelona (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Costa - Este, sur y oeste de Gran Canaria",
-      "fenomeno": "Moderate coastalevent warning. Costa - Este, sur y oeste de Gran Canaria",
-      "nivel": "Naranja",
-      "text": "Costa - Este, sur y oeste de Gran Canaria: Moderate coastalevent warning. Costa - Este, sur y oeste de Gran Canaria (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Este, sur y oeste de Tenerife",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Este, sur y oeste de Tenerife",
-      "nivel": "Naranja",
-      "text": "Costa - Este, sur y oeste de Tenerife: Aviso de costeros de nivel amarillo. Costa - Este, sur y oeste de Tenerife (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Este, sur y oeste de Tenerife",
-      "fenomeno": "Moderate coastalevent warning. Costa - Este, sur y oeste de Tenerife",
-      "nivel": "Naranja",
-      "text": "Costa - Este, sur y oeste de Tenerife: Moderate coastalevent warning. Costa - Este, sur y oeste de Tenerife (Naranja) (AEMET)",
+      "icon": "⚠️",
+      "provincia": "Prepirineo de Barcelona",
+      "fenomeno": "Severe rain warning. Prepirineo de Barcelona",
+      "nivel": "Rojo",
+      "text": "Prepirineo de Barcelona: Severe rain warning. Prepirineo de Barcelona (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Litoral norte de Tarragona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral norte de Tarragona",
-      "nivel": "Naranja",
-      "text": "Litoral norte de Tarragona: Aviso de lluvias de nivel amarillo. Litoral norte de Tarragona (Naranja) (AEMET)",
+      "provincia": "Depresión central de Barcelona",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Depresión central de Barcelona",
+      "nivel": "Rojo",
+      "text": "Depresión central de Barcelona: Aviso de lluvias de nivel naranja. Depresión central de Barcelona (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Litoral norte de Tarragona",
-      "fenomeno": "Moderate rain warning. Litoral norte de Tarragona",
-      "nivel": "Naranja",
-      "text": "Litoral norte de Tarragona: Moderate rain warning. Litoral norte de Tarragona (Naranja) (AEMET)",
+      "provincia": "Depresión central de Barcelona",
+      "fenomeno": "Severe rain warning. Depresión central de Barcelona",
+      "nivel": "Rojo",
+      "text": "Depresión central de Barcelona: Severe rain warning. Depresión central de Barcelona (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "💨",
-      "provincia": "Cumbres de Gran Canaria",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Cumbres de Gran Canaria",
-      "nivel": "Naranja",
-      "text": "Cumbres de Gran Canaria: Aviso de vientos de nivel amarillo. Cumbres de Gran Canaria (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cumbres de Gran Canaria",
-      "fenomeno": "Moderate wind warning. Cumbres de Gran Canaria",
-      "nivel": "Naranja",
-      "text": "Cumbres de Gran Canaria: Moderate wind warning. Cumbres de Gran Canaria (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Este, sur y oeste de Gran Canaria",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Este, sur y oeste de Gran Canaria",
-      "nivel": "Naranja",
-      "text": "Este, sur y oeste de Gran Canaria: Aviso de vientos de nivel amarillo. Este, sur y oeste de Gran Canaria (Naranja) (AEMET)",
+      "icon": "🌧️",
+      "provincia": "Prelitoral de Barcelona",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Prelitoral de Barcelona",
+      "nivel": "Rojo",
+      "text": "Prelitoral de Barcelona: Aviso de lluvias de nivel naranja. Prelitoral de Barcelona (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Este, sur y oeste de Gran Canaria",
-      "fenomeno": "Moderate wind warning. Este, sur y oeste de Gran Canaria",
-      "nivel": "Naranja",
-      "text": "Este, sur y oeste de Gran Canaria: Moderate wind warning. Este, sur y oeste de Gran Canaria (Naranja) (AEMET)",
+      "provincia": "Prelitoral de Barcelona",
+      "fenomeno": "Severe rain warning. Prelitoral de Barcelona",
+      "nivel": "Rojo",
+      "text": "Prelitoral de Barcelona: Severe rain warning. Prelitoral de Barcelona (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "💨",
-      "provincia": "Cumbres de La Palma",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Cumbres de La Palma",
-      "nivel": "Naranja",
-      "text": "Cumbres de La Palma: Aviso de vientos de nivel amarillo. Cumbres de La Palma (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cumbres de La Palma",
-      "fenomeno": "Moderate wind warning. Cumbres de La Palma",
-      "nivel": "Naranja",
-      "text": "Cumbres de La Palma: Moderate wind warning. Cumbres de La Palma (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Oeste de La Palma",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Oeste de La Palma",
-      "nivel": "Naranja",
-      "text": "Oeste de La Palma: Aviso de vientos de nivel amarillo. Oeste de La Palma (Naranja) (AEMET)",
+      "icon": "🌧️",
+      "provincia": "Pirineo de Girona",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Pirineo de Girona",
+      "nivel": "Rojo",
+      "text": "Pirineo de Girona: Aviso de lluvias de nivel naranja. Pirineo de Girona (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Oeste de La Palma",
-      "fenomeno": "Moderate wind warning. Oeste de La Palma",
-      "nivel": "Naranja",
-      "text": "Oeste de La Palma: Moderate wind warning. Oeste de La Palma (Naranja) (AEMET)",
+      "provincia": "Pirineo de Girona",
+      "fenomeno": "Severe rain warning. Pirineo de Girona",
+      "nivel": "Rojo",
+      "text": "Pirineo de Girona: Severe rain warning. Pirineo de Girona (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "💨",
-      "provincia": "La Gomera",
-      "fenomeno": "Aviso de vientos de nivel amarillo. La Gomera",
-      "nivel": "Naranja",
-      "text": "La Gomera: Aviso de vientos de nivel amarillo. La Gomera (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "La Gomera",
-      "fenomeno": "Moderate wind warning. La Gomera",
-      "nivel": "Naranja",
-      "text": "La Gomera: Moderate wind warning. La Gomera (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "El Hierro",
-      "fenomeno": "Aviso de vientos de nivel amarillo. El Hierro",
-      "nivel": "Naranja",
-      "text": "El Hierro: Aviso de vientos de nivel amarillo. El Hierro (Naranja) (AEMET)",
+      "icon": "🌧️",
+      "provincia": "Prelitoral de Girona",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Prelitoral de Girona",
+      "nivel": "Rojo",
+      "text": "Prelitoral de Girona: Aviso de lluvias de nivel naranja. Prelitoral de Girona (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "El Hierro",
-      "fenomeno": "Moderate wind warning. El Hierro",
-      "nivel": "Naranja",
-      "text": "El Hierro: Moderate wind warning. El Hierro (Naranja) (AEMET)",
+      "provincia": "Prelitoral de Girona",
+      "fenomeno": "Severe rain warning. Prelitoral de Girona",
+      "nivel": "Rojo",
+      "text": "Prelitoral de Girona: Severe rain warning. Prelitoral de Girona (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "💨",
-      "provincia": "Este, sur y oeste de Tenerife",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Este, sur y oeste de Tenerife",
-      "nivel": "Naranja",
-      "text": "Este, sur y oeste de Tenerife: Aviso de vientos de nivel amarillo. Este, sur y oeste de Tenerife (Naranja) (AEMET)",
+      "icon": "🌧️",
+      "provincia": "Prepirineo de Barcelona",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Prepirineo de Barcelona",
+      "nivel": "Rojo",
+      "text": "Prepirineo de Barcelona: Aviso de lluvias de nivel naranja. Prepirineo de Barcelona (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Este, sur y oeste de Tenerife",
-      "fenomeno": "Moderate wind warning. Este, sur y oeste de Tenerife",
-      "nivel": "Naranja",
-      "text": "Este, sur y oeste de Tenerife: Moderate wind warning. Este, sur y oeste de Tenerife (Naranja) (AEMET)",
+      "provincia": "Prepirineo de Barcelona",
+      "fenomeno": "Severe rain warning. Prepirineo de Barcelona",
+      "nivel": "Rojo",
+      "text": "Prepirineo de Barcelona: Severe rain warning. Prepirineo de Barcelona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Pirineo de Girona",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Pirineo de Girona",
+      "nivel": "Rojo",
+      "text": "Pirineo de Girona: Aviso de lluvias de nivel naranja. Pirineo de Girona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Pirineo de Girona",
+      "fenomeno": "Severe rain warning. Pirineo de Girona",
+      "nivel": "Rojo",
+      "text": "Pirineo de Girona: Severe rain warning. Pirineo de Girona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Prepirineo de Barcelona",
+      "fenomeno": "Aviso de tormentas de nivel naranja. Prepirineo de Barcelona",
+      "nivel": "Rojo",
+      "text": "Prepirineo de Barcelona: Aviso de tormentas de nivel naranja. Prepirineo de Barcelona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Prepirineo de Barcelona",
+      "fenomeno": "Severe thunderstorm warning. Prepirineo de Barcelona",
+      "nivel": "Rojo",
+      "text": "Prepirineo de Barcelona: Severe thunderstorm warning. Prepirineo de Barcelona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Depresión central de Barcelona",
+      "fenomeno": "Aviso de tormentas de nivel naranja. Depresión central de Barcelona",
+      "nivel": "Rojo",
+      "text": "Depresión central de Barcelona: Aviso de tormentas de nivel naranja. Depresión central de Barcelona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Depresión central de Barcelona",
+      "fenomeno": "Severe thunderstorm warning. Depresión central de Barcelona",
+      "nivel": "Rojo",
+      "text": "Depresión central de Barcelona: Severe thunderstorm warning. Depresión central de Barcelona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Prelitoral de Barcelona",
+      "fenomeno": "Aviso de tormentas de nivel naranja. Prelitoral de Barcelona",
+      "nivel": "Rojo",
+      "text": "Prelitoral de Barcelona: Aviso de tormentas de nivel naranja. Prelitoral de Barcelona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Prelitoral de Barcelona",
+      "fenomeno": "Severe thunderstorm warning. Prelitoral de Barcelona",
+      "nivel": "Rojo",
+      "text": "Prelitoral de Barcelona: Severe thunderstorm warning. Prelitoral de Barcelona (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
