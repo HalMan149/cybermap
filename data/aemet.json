@@ -1,56 +1,8 @@
 {
-  "generated_at": "2026-06-08T07:24:32.518Z",
+  "generated_at": "2026-06-08T12:12:27.462Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
-    {
-      "icon": "🌧️",
-      "provincia": "Pirineo de Lleida",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Pirineo de Lleida",
-      "nivel": "Naranja",
-      "text": "Pirineo de Lleida: Aviso de lluvias de nivel amarillo. Pirineo de Lleida (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Pirineo de Lleida",
-      "fenomeno": "Moderate rain warning. Pirineo de Lleida",
-      "nivel": "Naranja",
-      "text": "Pirineo de Lleida: Moderate rain warning. Pirineo de Lleida (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Ribera del Ebro de Zaragoza",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Ribera del Ebro de Zaragoza",
-      "nivel": "Naranja",
-      "text": "Ribera del Ebro de Zaragoza: Aviso de vientos de nivel amarillo. Ribera del Ebro de Zaragoza (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ribera del Ebro de Zaragoza",
-      "fenomeno": "Moderate wind warning. Ribera del Ebro de Zaragoza",
-      "nivel": "Naranja",
-      "text": "Ribera del Ebro de Zaragoza: Moderate wind warning. Ribera del Ebro de Zaragoza (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Pirineo de Lleida",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Pirineo de Lleida",
-      "nivel": "Naranja",
-      "text": "Pirineo de Lleida: Aviso de tormentas de nivel amarillo. Pirineo de Lleida (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Pirineo de Lleida",
-      "fenomeno": "Moderate thunderstorm warning. Pirineo de Lleida",
-      "nivel": "Naranja",
-      "text": "Pirineo de Lleida: Moderate thunderstorm warning. Pirineo de Lleida (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
     {
       "icon": "💨",
       "provincia": "Ribera del Ebro de Zaragoza",
@@ -148,19 +100,67 @@
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "💨",
-      "provincia": "Área metropolitana de Tenerife",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Área metropolitana de Tenerife",
-      "nivel": "Naranja",
-      "text": "Área metropolitana de Tenerife: Aviso de vientos de nivel amarillo. Área metropolitana de Tenerife (Naranja) (AEMET)",
+      "icon": "🌡️",
+      "provincia": "Valle del Almanzora y Los Vélez",
+      "fenomeno": "Aviso de temperaturas máximas de nivel verde. CCAA",
+      "nivel": "Amarillo",
+      "text": "Valle del Almanzora y Los Vélez: Aviso de temperaturas máximas de nivel verde. CCAA (Amarillo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Área metropolitana de Tenerife",
-      "fenomeno": "Moderate wind warning. Área metropolitana de Tenerife",
-      "nivel": "Naranja",
-      "text": "Área metropolitana de Tenerife: Moderate wind warning. Área metropolitana de Tenerife (Naranja) (AEMET)",
+      "provincia": "Valle del Almanzora y Los Vélez",
+      "fenomeno": "Minor high-temperature warning. CCAA",
+      "nivel": "Amarillo",
+      "text": "Valle del Almanzora y Los Vélez: Minor high-temperature warning. CCAA (Amarillo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Valle del Almanzora y Los Vélez",
+      "fenomeno": "Aviso de temperaturas mínimas de nivel verde. CCAA",
+      "nivel": "Amarillo",
+      "text": "Valle del Almanzora y Los Vélez: Aviso de temperaturas mínimas de nivel verde. CCAA (Amarillo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Valle del Almanzora y Los Vélez",
+      "fenomeno": "Minor low-temperature warning. CCAA",
+      "nivel": "Amarillo",
+      "text": "Valle del Almanzora y Los Vélez: Minor low-temperature warning. CCAA (Amarillo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Poniente y Almería Capital",
+      "fenomeno": "Aviso de costeros de nivel verde. CCAA",
+      "nivel": "Amarillo",
+      "text": "Costa - Poniente y Almería Capital: Aviso de costeros de nivel verde. CCAA (Amarillo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Poniente y Almería Capital",
+      "fenomeno": "Minor coastalevent warning. CCAA",
+      "nivel": "Amarillo",
+      "text": "Costa - Poniente y Almería Capital: Minor coastalevent warning. CCAA (Amarillo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Valle del Almanzora y Los Vélez",
+      "fenomeno": "Aviso de nevadas de nivel verde. CCAA",
+      "nivel": "Amarillo",
+      "text": "Valle del Almanzora y Los Vélez: Aviso de nevadas de nivel verde. CCAA (Amarillo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Valle del Almanzora y Los Vélez",
+      "fenomeno": "Minor snow warning. CCAA",
+      "nivel": "Amarillo",
+      "text": "Valle del Almanzora y Los Vélez: Minor snow warning. CCAA (Amarillo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
