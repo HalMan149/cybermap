@@ -1,8 +1,40 @@
 {
-  "generated_at": "2026-06-10T21:51:14.928Z",
+  "generated_at": "2026-06-10T23:19:16.385Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌊",
+      "provincia": "Rias Baixas",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Rias Baixas",
+      "nivel": "Naranja",
+      "text": "Rias Baixas: Aviso de temperaturas máximas de nivel amarillo. Rias Baixas (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Rias Baixas",
+      "fenomeno": "Moderate high-temperature warning. Rias Baixas",
+      "nivel": "Naranja",
+      "text": "Rias Baixas: Moderate high-temperature warning. Rias Baixas (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Miño de Pontevedra",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Miño de Pontevedra",
+      "nivel": "Naranja",
+      "text": "Miño de Pontevedra: Aviso de temperaturas máximas de nivel amarillo. Miño de Pontevedra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Miño de Pontevedra",
+      "fenomeno": "Moderate high-temperature warning. Miño de Pontevedra",
+      "nivel": "Naranja",
+      "text": "Miño de Pontevedra: Moderate high-temperature warning. Miño de Pontevedra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "💨",
       "provincia": "Campiña gaditana",
@@ -129,38 +161,6 @@
       "fenomeno": "Moderate coastalevent warning. Costa - Costa granadina",
       "nivel": "Naranja",
       "text": "Costa - Costa granadina: Moderate coastalevent warning. Costa - Costa granadina (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Menorca",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Menorca",
-      "nivel": "Naranja",
-      "text": "Costa - Menorca: Aviso de costeros de nivel amarillo. Costa - Menorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Menorca",
-      "fenomeno": "Moderate coastalevent warning. Costa - Menorca",
-      "nivel": "Naranja",
-      "text": "Costa - Menorca: Moderate coastalevent warning. Costa - Menorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Campiña cordobesa",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Campiña cordobesa",
-      "nivel": "Naranja",
-      "text": "Campiña cordobesa: Aviso de temperaturas máximas de nivel amarillo. Campiña cordobesa (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Campiña cordobesa",
-      "fenomeno": "Moderate high-temperature warning. Campiña cordobesa",
-      "nivel": "Naranja",
-      "text": "Campiña cordobesa: Moderate high-temperature warning. Campiña cordobesa (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
