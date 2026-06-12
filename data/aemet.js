@@ -1,121 +1,9 @@
-// Auto-generado por GitHub Actions - 2026-06-12T04:59:46.821Z
+// Auto-generado por GitHub Actions - 2026-06-12T09:01:33.627Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-06-12T04:59:46.821Z",
+  "generated_at": "2026-06-12T09:01:33.627Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
-    {
-      "icon": "💨",
-      "provincia": "Grazalema",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Grazalema",
-      "nivel": "Naranja",
-      "text": "Grazalema: Aviso de vientos de nivel amarillo. Grazalema (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Grazalema",
-      "fenomeno": "Moderate wind warning. Grazalema",
-      "nivel": "Naranja",
-      "text": "Grazalema: Moderate wind warning. Grazalema (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Campiña gaditana",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Campiña gaditana",
-      "nivel": "Naranja",
-      "text": "Campiña gaditana: Aviso de vientos de nivel amarillo. Campiña gaditana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Campiña gaditana",
-      "fenomeno": "Moderate wind warning. Campiña gaditana",
-      "nivel": "Naranja",
-      "text": "Campiña gaditana: Moderate wind warning. Campiña gaditana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Litoral gaditano",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Litoral gaditano",
-      "nivel": "Naranja",
-      "text": "Litoral gaditano: Aviso de vientos de nivel amarillo. Litoral gaditano (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral gaditano",
-      "fenomeno": "Moderate wind warning. Litoral gaditano",
-      "nivel": "Naranja",
-      "text": "Litoral gaditano: Moderate wind warning. Litoral gaditano (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Estrecho",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Estrecho",
-      "nivel": "Naranja",
-      "text": "Estrecho: Aviso de vientos de nivel amarillo. Estrecho (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Estrecho",
-      "fenomeno": "Moderate wind warning. Estrecho",
-      "nivel": "Naranja",
-      "text": "Estrecho: Moderate wind warning. Estrecho (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral gaditano",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral gaditano",
-      "nivel": "Naranja",
-      "text": "Costa - Litoral gaditano: Aviso de costeros de nivel amarillo. Costa - Litoral gaditano (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral gaditano",
-      "fenomeno": "Moderate coastalevent warning. Costa - Litoral gaditano",
-      "nivel": "Naranja",
-      "text": "Costa - Litoral gaditano: Moderate coastalevent warning. Costa - Litoral gaditano (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Estrecho",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Estrecho",
-      "nivel": "Naranja",
-      "text": "Costa - Estrecho: Aviso de costeros de nivel amarillo. Costa - Estrecho (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Estrecho",
-      "fenomeno": "Moderate coastalevent warning. Costa - Estrecho",
-      "nivel": "Naranja",
-      "text": "Costa - Estrecho: Moderate coastalevent warning. Costa - Estrecho (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Ribera del Ebro de Zaragoza",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Ribera del Ebro de Zaragoza",
-      "nivel": "Naranja",
-      "text": "Ribera del Ebro de Zaragoza: Aviso de temperaturas máximas de nivel amarillo. Ribera del Ebro de Zaragoza (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ribera del Ebro de Zaragoza",
-      "fenomeno": "Moderate high-temperature warning. Ribera del Ebro de Zaragoza",
-      "nivel": "Naranja",
-      "text": "Ribera del Ebro de Zaragoza: Moderate high-temperature warning. Ribera del Ebro de Zaragoza (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
     {
       "icon": "🌊",
       "provincia": "Vegas del Guadiana",
@@ -130,6 +18,118 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate high-temperature warning. Vegas del Guadiana",
       "nivel": "Naranja",
       "text": "Vegas del Guadiana: Moderate high-temperature warning. Vegas del Guadiana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Villuercas y Montánchez",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Villuercas y Montánchez",
+      "nivel": "Naranja",
+      "text": "Villuercas y Montánchez: Aviso de temperaturas máximas de nivel amarillo. Villuercas y Montánchez (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Villuercas y Montánchez",
+      "fenomeno": "Moderate high-temperature warning. Villuercas y Montánchez",
+      "nivel": "Naranja",
+      "text": "Villuercas y Montánchez: Moderate high-temperature warning. Villuercas y Montánchez (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Ribera del Ebro de La Rioja",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Ribera del Ebro de La Rioja",
+      "nivel": "Naranja",
+      "text": "Ribera del Ebro de La Rioja: Aviso de temperaturas máximas de nivel amarillo. Ribera del Ebro de La Rioja (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ribera del Ebro de La Rioja",
+      "fenomeno": "Moderate high-temperature warning. Ribera del Ebro de La Rioja",
+      "nivel": "Naranja",
+      "text": "Ribera del Ebro de La Rioja: Moderate high-temperature warning. Ribera del Ebro de La Rioja (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Interior de A Coruña",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Interior de A Coruña",
+      "nivel": "Naranja",
+      "text": "Interior de A Coruña: Aviso de temperaturas máximas de nivel amarillo. Interior de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior de A Coruña",
+      "fenomeno": "Moderate high-temperature warning. Interior de A Coruña",
+      "nivel": "Naranja",
+      "text": "Interior de A Coruña: Moderate high-temperature warning. Interior de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Suroeste de A Coruña",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Suroeste de A Coruña",
+      "nivel": "Naranja",
+      "text": "Suroeste de A Coruña: Aviso de temperaturas máximas de nivel amarillo. Suroeste de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Suroeste de A Coruña",
+      "fenomeno": "Moderate high-temperature warning. Suroeste de A Coruña",
+      "nivel": "Naranja",
+      "text": "Suroeste de A Coruña: Moderate high-temperature warning. Suroeste de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Sur de Lugo",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Sur de Lugo",
+      "nivel": "Naranja",
+      "text": "Sur de Lugo: Aviso de temperaturas máximas de nivel amarillo. Sur de Lugo (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sur de Lugo",
+      "fenomeno": "Moderate high-temperature warning. Sur de Lugo",
+      "nivel": "Naranja",
+      "text": "Sur de Lugo: Moderate high-temperature warning. Sur de Lugo (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Rias Baixas",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Rias Baixas",
+      "nivel": "Naranja",
+      "text": "Rias Baixas: Aviso de temperaturas máximas de nivel amarillo. Rias Baixas (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Rias Baixas",
+      "fenomeno": "Moderate high-temperature warning. Rias Baixas",
+      "nivel": "Naranja",
+      "text": "Rias Baixas: Moderate high-temperature warning. Rias Baixas (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Miño de Pontevedra",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Miño de Pontevedra",
+      "nivel": "Naranja",
+      "text": "Miño de Pontevedra: Aviso de temperaturas máximas de nivel amarillo. Miño de Pontevedra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Miño de Pontevedra",
+      "fenomeno": "Moderate high-temperature warning. Miño de Pontevedra",
+      "nivel": "Naranja",
+      "text": "Miño de Pontevedra: Moderate high-temperature warning. Miño de Pontevedra (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -149,19 +149,19 @@ window.AEMET_AVISOS = {
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Bizkaia interior",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Bizkaia interior",
+      "icon": "💨",
+      "provincia": "Estrecho",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Estrecho",
       "nivel": "Naranja",
-      "text": "Bizkaia interior: Aviso de temperaturas máximas de nivel amarillo. Bizkaia interior (Naranja) (AEMET)",
+      "text": "Estrecho: Aviso de vientos de nivel amarillo. Estrecho (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Bizkaia interior",
-      "fenomeno": "Moderate high-temperature warning. Bizkaia interior",
+      "provincia": "Estrecho",
+      "fenomeno": "Moderate wind warning. Estrecho",
       "nivel": "Naranja",
-      "text": "Bizkaia interior: Moderate high-temperature warning. Bizkaia interior (Naranja) (AEMET)",
+      "text": "Estrecho: Moderate wind warning. Estrecho (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
