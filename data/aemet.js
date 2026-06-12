@@ -1,7 +1,168 @@
-// Auto-generado por GitHub Actions - 2026-06-12T17:59:59.956Z
+// Auto-generado por GitHub Actions - 2026-06-12T20:16:36.346Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-06-12T17:59:59.956Z",
+  "generated_at": "2026-06-12T20:16:36.346Z",
   "source": "AEMET OpenData API",
-  "total_avisos": 0,
-  "avisos": []
+  "total_avisos": 20,
+  "avisos": [
+    {
+      "icon": "🌊",
+      "provincia": "Interior de A Coruña",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Interior de A Coruña",
+      "nivel": "Naranja",
+      "text": "Interior de A Coruña: Aviso de temperaturas máximas de nivel amarillo. Interior de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior de A Coruña",
+      "fenomeno": "Moderate high-temperature warning. Interior de A Coruña",
+      "nivel": "Naranja",
+      "text": "Interior de A Coruña: Moderate high-temperature warning. Interior de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Cordillera Cantábrica de León",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Cordillera Cantábrica de León",
+      "nivel": "Naranja",
+      "text": "Cordillera Cantábrica de León: Aviso de tormentas de nivel amarillo. Cordillera Cantábrica de León (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cordillera Cantábrica de León",
+      "fenomeno": "Moderate thunderstorm warning. Cordillera Cantábrica de León",
+      "nivel": "Naranja",
+      "text": "Cordillera Cantábrica de León: Moderate thunderstorm warning. Cordillera Cantábrica de León (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Bierzo de León",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Bierzo de León",
+      "nivel": "Naranja",
+      "text": "Bierzo de León: Aviso de tormentas de nivel amarillo. Bierzo de León (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Bierzo de León",
+      "fenomeno": "Moderate thunderstorm warning. Bierzo de León",
+      "nivel": "Naranja",
+      "text": "Bierzo de León: Moderate thunderstorm warning. Bierzo de León (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Sanabria",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Sanabria",
+      "nivel": "Naranja",
+      "text": "Sanabria: Aviso de tormentas de nivel amarillo. Sanabria (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sanabria",
+      "fenomeno": "Moderate thunderstorm warning. Sanabria",
+      "nivel": "Naranja",
+      "text": "Sanabria: Moderate thunderstorm warning. Sanabria (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Valdeorras",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Valdeorras",
+      "nivel": "Naranja",
+      "text": "Valdeorras: Aviso de tormentas de nivel amarillo. Valdeorras (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Valdeorras",
+      "fenomeno": "Moderate thunderstorm warning. Valdeorras",
+      "nivel": "Naranja",
+      "text": "Valdeorras: Moderate thunderstorm warning. Valdeorras (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Rioja alavesa",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Rioja alavesa",
+      "nivel": "Naranja",
+      "text": "Rioja alavesa: Aviso de temperaturas máximas de nivel amarillo. Rioja alavesa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Rioja alavesa",
+      "fenomeno": "Moderate high-temperature warning. Rioja alavesa",
+      "nivel": "Naranja",
+      "text": "Rioja alavesa: Moderate high-temperature warning. Rioja alavesa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Noroeste de A Coruña",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Noroeste de A Coruña",
+      "nivel": "Naranja",
+      "text": "Noroeste de A Coruña: Aviso de temperaturas máximas de nivel amarillo. Noroeste de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Noroeste de A Coruña",
+      "fenomeno": "Moderate high-temperature warning. Noroeste de A Coruña",
+      "nivel": "Naranja",
+      "text": "Noroeste de A Coruña: Moderate high-temperature warning. Noroeste de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Montaña de Lugo",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Montaña de Lugo",
+      "nivel": "Naranja",
+      "text": "Montaña de Lugo: Aviso de tormentas de nivel amarillo. Montaña de Lugo (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Montaña de Lugo",
+      "fenomeno": "Moderate thunderstorm warning. Montaña de Lugo",
+      "nivel": "Naranja",
+      "text": "Montaña de Lugo: Moderate thunderstorm warning. Montaña de Lugo (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Sur de Ourense",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Sur de Ourense",
+      "nivel": "Naranja",
+      "text": "Sur de Ourense: Aviso de tormentas de nivel amarillo. Sur de Ourense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sur de Ourense",
+      "fenomeno": "Moderate thunderstorm warning. Sur de Ourense",
+      "nivel": "Naranja",
+      "text": "Sur de Ourense: Moderate thunderstorm warning. Sur de Ourense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Depresión central de Lleida",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Depresión central de Lleida",
+      "nivel": "Naranja",
+      "text": "Depresión central de Lleida: Aviso de temperaturas máximas de nivel amarillo. Depresión central de Lleida (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Depresión central de Lleida",
+      "fenomeno": "Moderate high-temperature warning. Depresión central de Lleida",
+      "nivel": "Naranja",
+      "text": "Depresión central de Lleida: Moderate high-temperature warning. Depresión central de Lleida (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    }
+  ]
 };
