@@ -1,8 +1,104 @@
 {
-  "generated_at": "2026-06-13T19:21:04.556Z",
+  "generated_at": "2026-06-13T20:45:20.876Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Sur de Lugo",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Sur de Lugo",
+      "nivel": "Naranja",
+      "text": "Sur de Lugo: Aviso de lluvias de nivel amarillo. Sur de Lugo (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sur de Lugo",
+      "fenomeno": "Moderate rain warning. Sur de Lugo",
+      "nivel": "Naranja",
+      "text": "Sur de Lugo: Moderate rain warning. Sur de Lugo (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Interior de Pontevedra",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Interior de Pontevedra",
+      "nivel": "Naranja",
+      "text": "Interior de Pontevedra: Aviso de lluvias de nivel amarillo. Interior de Pontevedra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior de Pontevedra",
+      "fenomeno": "Moderate rain warning. Interior de Pontevedra",
+      "nivel": "Naranja",
+      "text": "Interior de Pontevedra: Moderate rain warning. Interior de Pontevedra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Suroccidental asturiana",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Suroccidental asturiana",
+      "nivel": "Naranja",
+      "text": "Suroccidental asturiana: Aviso de tormentas de nivel amarillo. Suroccidental asturiana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Suroccidental asturiana",
+      "fenomeno": "Moderate thunderstorm warning. Suroccidental asturiana",
+      "nivel": "Naranja",
+      "text": "Suroccidental asturiana: Moderate thunderstorm warning. Suroccidental asturiana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Centro de Lugo",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Centro de Lugo",
+      "nivel": "Naranja",
+      "text": "Centro de Lugo: Aviso de tormentas de nivel amarillo. Centro de Lugo (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Centro de Lugo",
+      "fenomeno": "Moderate thunderstorm warning. Centro de Lugo",
+      "nivel": "Naranja",
+      "text": "Centro de Lugo: Moderate thunderstorm warning. Centro de Lugo (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Sur de Lugo",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Sur de Lugo",
+      "nivel": "Naranja",
+      "text": "Sur de Lugo: Aviso de tormentas de nivel amarillo. Sur de Lugo (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sur de Lugo",
+      "fenomeno": "Moderate thunderstorm warning. Sur de Lugo",
+      "nivel": "Naranja",
+      "text": "Sur de Lugo: Moderate thunderstorm warning. Sur de Lugo (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Interior de Pontevedra",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Interior de Pontevedra",
+      "nivel": "Naranja",
+      "text": "Interior de Pontevedra: Aviso de tormentas de nivel amarillo. Interior de Pontevedra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior de Pontevedra",
+      "fenomeno": "Moderate thunderstorm warning. Interior de Pontevedra",
+      "nivel": "Naranja",
+      "text": "Interior de Pontevedra: Moderate thunderstorm warning. Interior de Pontevedra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Prepirineo de Barcelona",
@@ -65,102 +161,6 @@
       "fenomeno": "Moderate thunderstorm warning. Cantabria del Ebro",
       "nivel": "Naranja",
       "text": "Cantabria del Ebro: Moderate thunderstorm warning. Cantabria del Ebro (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Cordillera Cantábrica de Burgos",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Cordillera Cantábrica de Burgos",
-      "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de Burgos: Aviso de tormentas de nivel amarillo. Cordillera Cantábrica de Burgos (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cordillera Cantábrica de Burgos",
-      "fenomeno": "Moderate thunderstorm warning. Cordillera Cantábrica de Burgos",
-      "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de Burgos: Moderate thunderstorm warning. Cordillera Cantábrica de Burgos (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Norte de Burgos",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Norte de Burgos",
-      "nivel": "Naranja",
-      "text": "Norte de Burgos: Aviso de tormentas de nivel amarillo. Norte de Burgos (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Norte de Burgos",
-      "fenomeno": "Moderate thunderstorm warning. Norte de Burgos",
-      "nivel": "Naranja",
-      "text": "Norte de Burgos: Moderate thunderstorm warning. Norte de Burgos (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Ibérica de Burgos",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Ibérica de Burgos",
-      "nivel": "Naranja",
-      "text": "Ibérica de Burgos: Aviso de tormentas de nivel amarillo. Ibérica de Burgos (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ibérica de Burgos",
-      "fenomeno": "Moderate thunderstorm warning. Ibérica de Burgos",
-      "nivel": "Naranja",
-      "text": "Ibérica de Burgos: Moderate thunderstorm warning. Ibérica de Burgos (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Sistema Central de Segovia",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Sistema Central de Segovia",
-      "nivel": "Naranja",
-      "text": "Sistema Central de Segovia: Aviso de tormentas de nivel amarillo. Sistema Central de Segovia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sistema Central de Segovia",
-      "fenomeno": "Moderate thunderstorm warning. Sistema Central de Segovia",
-      "nivel": "Naranja",
-      "text": "Sistema Central de Segovia: Moderate thunderstorm warning. Sistema Central de Segovia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Ibérica de Soria",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Ibérica de Soria",
-      "nivel": "Naranja",
-      "text": "Ibérica de Soria: Aviso de tormentas de nivel amarillo. Ibérica de Soria (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ibérica de Soria",
-      "fenomeno": "Moderate thunderstorm warning. Ibérica de Soria",
-      "nivel": "Naranja",
-      "text": "Ibérica de Soria: Moderate thunderstorm warning. Ibérica de Soria (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Sistema Central de Soria",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Sistema Central de Soria",
-      "nivel": "Naranja",
-      "text": "Sistema Central de Soria: Aviso de tormentas de nivel amarillo. Sistema Central de Soria (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sistema Central de Soria",
-      "fenomeno": "Moderate thunderstorm warning. Sistema Central de Soria",
-      "nivel": "Naranja",
-      "text": "Sistema Central de Soria: Moderate thunderstorm warning. Sistema Central de Soria (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
