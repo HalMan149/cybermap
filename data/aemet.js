@@ -1,25 +1,9 @@
-// Auto-generado por GitHub Actions - 2026-06-13T17:57:05.100Z
+// Auto-generado por GitHub Actions - 2026-06-13T19:21:04.556Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-06-13T17:57:05.100Z",
+  "generated_at": "2026-06-13T19:21:04.556Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
-    {
-      "icon": "⛈️",
-      "provincia": "Suroccidental asturiana",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Suroccidental asturiana",
-      "nivel": "Naranja",
-      "text": "Suroccidental asturiana: Aviso de tormentas de nivel amarillo. Suroccidental asturiana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Suroccidental asturiana",
-      "fenomeno": "Moderate thunderstorm warning. Suroccidental asturiana",
-      "nivel": "Naranja",
-      "text": "Suroccidental asturiana: Moderate thunderstorm warning. Suroccidental asturiana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
     {
       "icon": "🌧️",
       "provincia": "Prepirineo de Barcelona",
@@ -53,115 +37,131 @@ window.AEMET_AVISOS = {
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⛈️",
-      "provincia": "Prepirineo de Barcelona",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Prepirineo de Barcelona",
+      "icon": "🌧️",
+      "provincia": "Pirineo de Lleida",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Pirineo de Lleida",
       "nivel": "Naranja",
-      "text": "Prepirineo de Barcelona: Aviso de tormentas de nivel amarillo. Prepirineo de Barcelona (Naranja) (AEMET)",
+      "text": "Pirineo de Lleida: Aviso de lluvias de nivel amarillo. Pirineo de Lleida (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Prepirineo de Barcelona",
-      "fenomeno": "Moderate thunderstorm warning. Prepirineo de Barcelona",
+      "provincia": "Pirineo de Lleida",
+      "fenomeno": "Moderate rain warning. Pirineo de Lleida",
       "nivel": "Naranja",
-      "text": "Prepirineo de Barcelona: Moderate thunderstorm warning. Prepirineo de Barcelona (Naranja) (AEMET)",
+      "text": "Pirineo de Lleida: Moderate rain warning. Pirineo de Lleida (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Pirineo de Girona",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Pirineo de Girona",
+      "provincia": "Cantabria del Ebro",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Cantabria del Ebro",
       "nivel": "Naranja",
-      "text": "Pirineo de Girona: Aviso de tormentas de nivel amarillo. Pirineo de Girona (Naranja) (AEMET)",
+      "text": "Cantabria del Ebro: Aviso de tormentas de nivel amarillo. Cantabria del Ebro (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Pirineo de Girona",
-      "fenomeno": "Moderate thunderstorm warning. Pirineo de Girona",
+      "provincia": "Cantabria del Ebro",
+      "fenomeno": "Moderate thunderstorm warning. Cantabria del Ebro",
       "nivel": "Naranja",
-      "text": "Pirineo de Girona: Moderate thunderstorm warning. Pirineo de Girona (Naranja) (AEMET)",
+      "text": "Cantabria del Ebro: Moderate thunderstorm warning. Cantabria del Ebro (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Norte de Cáceres",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Norte de Cáceres",
+      "provincia": "Cordillera Cantábrica de Burgos",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Cordillera Cantábrica de Burgos",
       "nivel": "Naranja",
-      "text": "Norte de Cáceres: Aviso de tormentas de nivel amarillo. Norte de Cáceres (Naranja) (AEMET)",
+      "text": "Cordillera Cantábrica de Burgos: Aviso de tormentas de nivel amarillo. Cordillera Cantábrica de Burgos (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Norte de Cáceres",
-      "fenomeno": "Moderate thunderstorm warning. Norte de Cáceres",
+      "provincia": "Cordillera Cantábrica de Burgos",
+      "fenomeno": "Moderate thunderstorm warning. Cordillera Cantábrica de Burgos",
       "nivel": "Naranja",
-      "text": "Norte de Cáceres: Moderate thunderstorm warning. Norte de Cáceres (Naranja) (AEMET)",
+      "text": "Cordillera Cantábrica de Burgos: Moderate thunderstorm warning. Cordillera Cantábrica de Burgos (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Meseta de Salamanca",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Meseta de Salamanca",
+      "provincia": "Norte de Burgos",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Norte de Burgos",
       "nivel": "Naranja",
-      "text": "Meseta de Salamanca: Aviso de tormentas de nivel amarillo. Meseta de Salamanca (Naranja) (AEMET)",
+      "text": "Norte de Burgos: Aviso de tormentas de nivel amarillo. Norte de Burgos (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Meseta de Salamanca",
-      "fenomeno": "Moderate thunderstorm warning. Meseta de Salamanca",
+      "provincia": "Norte de Burgos",
+      "fenomeno": "Moderate thunderstorm warning. Norte de Burgos",
       "nivel": "Naranja",
-      "text": "Meseta de Salamanca: Moderate thunderstorm warning. Meseta de Salamanca (Naranja) (AEMET)",
+      "text": "Norte de Burgos: Moderate thunderstorm warning. Norte de Burgos (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Sistema Central de Salamanca",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Sistema Central de Salamanca",
+      "provincia": "Ibérica de Burgos",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Ibérica de Burgos",
       "nivel": "Naranja",
-      "text": "Sistema Central de Salamanca: Aviso de tormentas de nivel amarillo. Sistema Central de Salamanca (Naranja) (AEMET)",
+      "text": "Ibérica de Burgos: Aviso de tormentas de nivel amarillo. Ibérica de Burgos (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sistema Central de Salamanca",
-      "fenomeno": "Moderate thunderstorm warning. Sistema Central de Salamanca",
+      "provincia": "Ibérica de Burgos",
+      "fenomeno": "Moderate thunderstorm warning. Ibérica de Burgos",
       "nivel": "Naranja",
-      "text": "Sistema Central de Salamanca: Moderate thunderstorm warning. Sistema Central de Salamanca (Naranja) (AEMET)",
+      "text": "Ibérica de Burgos: Moderate thunderstorm warning. Ibérica de Burgos (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Sur de Salamanca",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Sur de Salamanca",
+      "provincia": "Sistema Central de Segovia",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Sistema Central de Segovia",
       "nivel": "Naranja",
-      "text": "Sur de Salamanca: Aviso de tormentas de nivel amarillo. Sur de Salamanca (Naranja) (AEMET)",
+      "text": "Sistema Central de Segovia: Aviso de tormentas de nivel amarillo. Sistema Central de Segovia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sur de Salamanca",
-      "fenomeno": "Moderate thunderstorm warning. Sur de Salamanca",
+      "provincia": "Sistema Central de Segovia",
+      "fenomeno": "Moderate thunderstorm warning. Sistema Central de Segovia",
       "nivel": "Naranja",
-      "text": "Sur de Salamanca: Moderate thunderstorm warning. Sur de Salamanca (Naranja) (AEMET)",
+      "text": "Sistema Central de Segovia: Moderate thunderstorm warning. Sistema Central de Segovia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Sanabria",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Sanabria",
+      "provincia": "Ibérica de Soria",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Ibérica de Soria",
       "nivel": "Naranja",
-      "text": "Sanabria: Aviso de tormentas de nivel amarillo. Sanabria (Naranja) (AEMET)",
+      "text": "Ibérica de Soria: Aviso de tormentas de nivel amarillo. Ibérica de Soria (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sanabria",
-      "fenomeno": "Moderate thunderstorm warning. Sanabria",
+      "provincia": "Ibérica de Soria",
+      "fenomeno": "Moderate thunderstorm warning. Ibérica de Soria",
       "nivel": "Naranja",
-      "text": "Sanabria: Moderate thunderstorm warning. Sanabria (Naranja) (AEMET)",
+      "text": "Ibérica de Soria: Moderate thunderstorm warning. Ibérica de Soria (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Sistema Central de Soria",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Sistema Central de Soria",
+      "nivel": "Naranja",
+      "text": "Sistema Central de Soria: Aviso de tormentas de nivel amarillo. Sistema Central de Soria (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sistema Central de Soria",
+      "fenomeno": "Moderate thunderstorm warning. Sistema Central de Soria",
+      "nivel": "Naranja",
+      "text": "Sistema Central de Soria: Moderate thunderstorm warning. Sistema Central de Soria (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
