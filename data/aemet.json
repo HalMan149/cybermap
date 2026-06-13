@@ -1,8 +1,24 @@
 {
-  "generated_at": "2026-06-13T16:43:36.029Z",
+  "generated_at": "2026-06-13T17:57:05.100Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "⛈️",
+      "provincia": "Suroccidental asturiana",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Suroccidental asturiana",
+      "nivel": "Naranja",
+      "text": "Suroccidental asturiana: Aviso de tormentas de nivel amarillo. Suroccidental asturiana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Suroccidental asturiana",
+      "fenomeno": "Moderate thunderstorm warning. Suroccidental asturiana",
+      "nivel": "Naranja",
+      "text": "Suroccidental asturiana: Moderate thunderstorm warning. Suroccidental asturiana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Prepirineo de Barcelona",
@@ -145,22 +161,6 @@
       "fenomeno": "Moderate thunderstorm warning. Sanabria",
       "nivel": "Naranja",
       "text": "Sanabria: Moderate thunderstorm warning. Sanabria (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Meseta de Zamora",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Meseta de Zamora",
-      "nivel": "Naranja",
-      "text": "Meseta de Zamora: Aviso de tormentas de nivel amarillo. Meseta de Zamora (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Meseta de Zamora",
-      "fenomeno": "Moderate thunderstorm warning. Meseta de Zamora",
-      "nivel": "Naranja",
-      "text": "Meseta de Zamora: Moderate thunderstorm warning. Meseta de Zamora (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
