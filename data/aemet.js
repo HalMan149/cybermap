@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2026-06-15T18:13:36.425Z
+// Auto-generado por GitHub Actions - 2026-06-15T21:21:21.760Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-06-15T18:13:36.425Z",
+  "generated_at": "2026-06-15T21:21:21.760Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "⛈️",
+      "provincia": "Altiplano de Murcia",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Altiplano de Murcia",
+      "nivel": "Naranja",
+      "text": "Altiplano de Murcia: Aviso de tormentas de nivel amarillo. Altiplano de Murcia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Altiplano de Murcia",
+      "fenomeno": "Moderate thunderstorm warning. Altiplano de Murcia",
+      "nivel": "Naranja",
+      "text": "Altiplano de Murcia: Moderate thunderstorm warning. Altiplano de Murcia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "⛈️",
       "provincia": "Norte de Burgos",
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate thunderstorm warning. Bierzo de León",
       "nivel": "Naranja",
       "text": "Bierzo de León: Moderate thunderstorm warning. Bierzo de León (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Cordillera Cantábrica de Palencia",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Cordillera Cantábrica de Palencia",
-      "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de Palencia: Aviso de tormentas de nivel amarillo. Cordillera Cantábrica de Palencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cordillera Cantábrica de Palencia",
-      "fenomeno": "Moderate thunderstorm warning. Cordillera Cantábrica de Palencia",
-      "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de Palencia: Moderate thunderstorm warning. Cordillera Cantábrica de Palencia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
