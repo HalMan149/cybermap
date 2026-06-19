@@ -1,39 +1,39 @@
-// Auto-generado por GitHub Actions - 2026-06-19T16:55:28.986Z
+// Auto-generado por GitHub Actions - 2026-06-19T18:28:36.810Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-06-19T16:55:28.986Z",
+  "generated_at": "2026-06-19T18:28:36.810Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "🌡️",
-      "provincia": "Morena y Condado",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Morena y Condado",
+      "provincia": "Gipuzkoa interior",
+      "fenomeno": "Aviso de temperaturas máximas de nivel rojo. Gipuzkoa interior",
       "nivel": "Rojo",
-      "text": "Morena y Condado: Aviso de temperaturas máximas de nivel naranja. Morena y Condado (Rojo) (AEMET)",
+      "text": "Gipuzkoa interior: Aviso de temperaturas máximas de nivel rojo. Gipuzkoa interior (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Morena y Condado",
-      "fenomeno": "Severe high-temperature warning. Morena y Condado",
+      "provincia": "Gipuzkoa interior",
+      "fenomeno": "Extreme high-temperature warning. Gipuzkoa interior",
       "nivel": "Rojo",
-      "text": "Morena y Condado: Severe high-temperature warning. Morena y Condado (Rojo) (AEMET)",
+      "text": "Gipuzkoa interior: Extreme high-temperature warning. Gipuzkoa interior (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌡️",
-      "provincia": "Valle del Guadalquivir de Jaén",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Valle del Guadalquivir de Jaén",
+      "provincia": "Bizkaia interior",
+      "fenomeno": "Aviso de temperaturas máximas de nivel rojo. Bizkaia interior",
       "nivel": "Rojo",
-      "text": "Valle del Guadalquivir de Jaén: Aviso de temperaturas máximas de nivel naranja. Valle del Guadalquivir de Jaén (Rojo) (AEMET)",
+      "text": "Bizkaia interior: Aviso de temperaturas máximas de nivel rojo. Bizkaia interior (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Valle del Guadalquivir de Jaén",
-      "fenomeno": "Severe high-temperature warning. Valle del Guadalquivir de Jaén",
+      "provincia": "Bizkaia interior",
+      "fenomeno": "Extreme high-temperature warning. Bizkaia interior",
       "nivel": "Rojo",
-      "text": "Valle del Guadalquivir de Jaén: Severe high-temperature warning. Valle del Guadalquivir de Jaén (Rojo) (AEMET)",
+      "text": "Bizkaia interior: Extreme high-temperature warning. Bizkaia interior (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -53,115 +53,115 @@ window.AEMET_AVISOS = {
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Cordillera y Picos de Europa",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Cordillera y Picos de Europa",
-      "nivel": "Naranja",
-      "text": "Cordillera y Picos de Europa: Aviso de lluvias de nivel amarillo. Cordillera y Picos de Europa (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cordillera y Picos de Europa",
-      "fenomeno": "Moderate rain warning. Cordillera y Picos de Europa",
-      "nivel": "Naranja",
-      "text": "Cordillera y Picos de Europa: Moderate rain warning. Cordillera y Picos de Europa (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Cordillera Cantábrica de Burgos",
-      "fenomeno": "Aviso de tormentas de nivel naranja. Cordillera Cantábrica de Burgos",
+      "icon": "🌡️",
+      "provincia": "Valle del Guadiana",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Valle del Guadiana",
       "nivel": "Rojo",
-      "text": "Cordillera Cantábrica de Burgos: Aviso de tormentas de nivel naranja. Cordillera Cantábrica de Burgos (Rojo) (AEMET)",
+      "text": "Valle del Guadiana: Aviso de temperaturas máximas de nivel naranja. Valle del Guadiana (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Cordillera Cantábrica de Burgos",
-      "fenomeno": "Severe thunderstorm warning. Cordillera Cantábrica de Burgos",
+      "provincia": "Valle del Guadiana",
+      "fenomeno": "Severe high-temperature warning. Valle del Guadiana",
       "nivel": "Rojo",
-      "text": "Cordillera Cantábrica de Burgos: Severe thunderstorm warning. Cordillera Cantábrica de Burgos (Rojo) (AEMET)",
+      "text": "Valle del Guadiana: Severe high-temperature warning. Valle del Guadiana (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⛈️",
-      "provincia": "Norte de Burgos",
-      "fenomeno": "Aviso de tormentas de nivel naranja. Norte de Burgos",
+      "icon": "🌡️",
+      "provincia": "La Mancha toledana",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. La Mancha toledana",
       "nivel": "Rojo",
-      "text": "Norte de Burgos: Aviso de tormentas de nivel naranja. Norte de Burgos (Rojo) (AEMET)",
+      "text": "La Mancha toledana: Aviso de temperaturas máximas de nivel naranja. La Mancha toledana (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Norte de Burgos",
-      "fenomeno": "Severe thunderstorm warning. Norte de Burgos",
+      "provincia": "La Mancha toledana",
+      "fenomeno": "Severe high-temperature warning. La Mancha toledana",
       "nivel": "Rojo",
-      "text": "Norte de Burgos: Severe thunderstorm warning. Norte de Burgos (Rojo) (AEMET)",
+      "text": "La Mancha toledana: Severe high-temperature warning. La Mancha toledana (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⛈️",
-      "provincia": "Bajo Aragón de Teruel",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Bajo Aragón de Teruel",
-      "nivel": "Naranja",
-      "text": "Bajo Aragón de Teruel: Aviso de tormentas de nivel amarillo. Bajo Aragón de Teruel (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Bajo Aragón de Teruel",
-      "fenomeno": "Moderate thunderstorm warning. Bajo Aragón de Teruel",
-      "nivel": "Naranja",
-      "text": "Bajo Aragón de Teruel: Moderate thunderstorm warning. Bajo Aragón de Teruel (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Litoral oriental asturiano",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Litoral oriental asturiano",
-      "nivel": "Naranja",
-      "text": "Litoral oriental asturiano: Aviso de tormentas de nivel amarillo. Litoral oriental asturiano (Naranja) (AEMET)",
+      "icon": "🌡️",
+      "provincia": "Metropolitana y Henares",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Metropolitana y Henares",
+      "nivel": "Rojo",
+      "text": "Metropolitana y Henares: Aviso de temperaturas máximas de nivel naranja. Metropolitana y Henares (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Litoral oriental asturiano",
-      "fenomeno": "Moderate thunderstorm warning. Litoral oriental asturiano",
-      "nivel": "Naranja",
-      "text": "Litoral oriental asturiano: Moderate thunderstorm warning. Litoral oriental asturiano (Naranja) (AEMET)",
+      "provincia": "Metropolitana y Henares",
+      "fenomeno": "Severe high-temperature warning. Metropolitana y Henares",
+      "nivel": "Rojo",
+      "text": "Metropolitana y Henares: Severe high-temperature warning. Metropolitana y Henares (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⛈️",
-      "provincia": "Central y Valles Mineros",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Central y Valles Mineros",
-      "nivel": "Naranja",
-      "text": "Central y Valles Mineros: Aviso de tormentas de nivel amarillo. Central y Valles Mineros (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Central y Valles Mineros",
-      "fenomeno": "Moderate thunderstorm warning. Central y Valles Mineros",
-      "nivel": "Naranja",
-      "text": "Central y Valles Mineros: Moderate thunderstorm warning. Central y Valles Mineros (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Cordillera y Picos de Europa",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Cordillera y Picos de Europa",
-      "nivel": "Naranja",
-      "text": "Cordillera y Picos de Europa: Aviso de tormentas de nivel amarillo. Cordillera y Picos de Europa (Naranja) (AEMET)",
+      "icon": "🌡️",
+      "provincia": "Sur, Vegas y Oeste",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Sur, Vegas y Oeste",
+      "nivel": "Rojo",
+      "text": "Sur, Vegas y Oeste: Aviso de temperaturas máximas de nivel naranja. Sur, Vegas y Oeste (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Cordillera y Picos de Europa",
-      "fenomeno": "Moderate thunderstorm warning. Cordillera y Picos de Europa",
-      "nivel": "Naranja",
-      "text": "Cordillera y Picos de Europa: Moderate thunderstorm warning. Cordillera y Picos de Europa (Naranja) (AEMET)",
+      "provincia": "Sur, Vegas y Oeste",
+      "fenomeno": "Severe high-temperature warning. Sur, Vegas y Oeste",
+      "nivel": "Rojo",
+      "text": "Sur, Vegas y Oeste: Severe high-temperature warning. Sur, Vegas y Oeste (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Vertiente cantábrica de Navarra",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Vertiente cantábrica de Navarra",
+      "nivel": "Rojo",
+      "text": "Vertiente cantábrica de Navarra: Aviso de temperaturas máximas de nivel naranja. Vertiente cantábrica de Navarra (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Vertiente cantábrica de Navarra",
+      "fenomeno": "Severe high-temperature warning. Vertiente cantábrica de Navarra",
+      "nivel": "Rojo",
+      "text": "Vertiente cantábrica de Navarra: Severe high-temperature warning. Vertiente cantábrica de Navarra (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Centro de Navarra",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Centro de Navarra",
+      "nivel": "Rojo",
+      "text": "Centro de Navarra: Aviso de temperaturas máximas de nivel naranja. Centro de Navarra (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Centro de Navarra",
+      "fenomeno": "Severe high-temperature warning. Centro de Navarra",
+      "nivel": "Rojo",
+      "text": "Centro de Navarra: Severe high-temperature warning. Centro de Navarra (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Ribera del Ebro de Navarra",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Ribera del Ebro de Navarra",
+      "nivel": "Rojo",
+      "text": "Ribera del Ebro de Navarra: Aviso de temperaturas máximas de nivel naranja. Ribera del Ebro de Navarra (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ribera del Ebro de Navarra",
+      "fenomeno": "Severe high-temperature warning. Ribera del Ebro de Navarra",
+      "nivel": "Rojo",
+      "text": "Ribera del Ebro de Navarra: Severe high-temperature warning. Ribera del Ebro de Navarra (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
