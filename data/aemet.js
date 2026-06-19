@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-06-19T01:51:04.414Z
+// Auto-generado por GitHub Actions - 2026-06-19T06:58:15.317Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-06-19T01:51:04.414Z",
+  "generated_at": "2026-06-19T06:58:15.317Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "🌧️",
-      "provincia": "Cordillera Cantábrica de León",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Cordillera Cantábrica de León",
+      "icon": "⛈️",
+      "provincia": "Ribera del Ebro de La Rioja",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Ribera del Ebro de La Rioja",
       "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de León: Aviso de lluvias de nivel amarillo. Cordillera Cantábrica de León (Naranja) (AEMET)",
+      "text": "Ribera del Ebro de La Rioja: Aviso de tormentas de nivel amarillo. Ribera del Ebro de La Rioja (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Cordillera Cantábrica de León",
-      "fenomeno": "Moderate rain warning. Cordillera Cantábrica de León",
+      "provincia": "Ribera del Ebro de La Rioja",
+      "fenomeno": "Moderate thunderstorm warning. Ribera del Ebro de La Rioja",
       "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de León: Moderate rain warning. Cordillera Cantábrica de León (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Cordillera Cantábrica de Palencia",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Cordillera Cantábrica de Palencia",
-      "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de Palencia: Aviso de lluvias de nivel amarillo. Cordillera Cantábrica de Palencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cordillera Cantábrica de Palencia",
-      "fenomeno": "Moderate rain warning. Cordillera Cantábrica de Palencia",
-      "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de Palencia: Moderate rain warning. Cordillera Cantábrica de Palencia (Naranja) (AEMET)",
+      "text": "Ribera del Ebro de La Rioja: Moderate thunderstorm warning. Ribera del Ebro de La Rioja (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Cordillera Cantábrica de León",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Cordillera Cantábrica de León",
+      "provincia": "Ibérica riojana",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Ibérica riojana",
       "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de León: Aviso de tormentas de nivel amarillo. Cordillera Cantábrica de León (Naranja) (AEMET)",
+      "text": "Ibérica riojana: Aviso de tormentas de nivel amarillo. Ibérica riojana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Cordillera Cantábrica de León",
-      "fenomeno": "Moderate thunderstorm warning. Cordillera Cantábrica de León",
+      "provincia": "Ibérica riojana",
+      "fenomeno": "Moderate thunderstorm warning. Ibérica riojana",
       "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de León: Moderate thunderstorm warning. Cordillera Cantábrica de León (Naranja) (AEMET)",
+      "text": "Ibérica riojana: Moderate thunderstorm warning. Ibérica riojana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Sur de Ávila",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Sur de Ávila",
+      "nivel": "Naranja",
+      "text": "Sur de Ávila: Aviso de temperaturas máximas de nivel amarillo. Sur de Ávila (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sur de Ávila",
+      "fenomeno": "Moderate high-temperature warning. Sur de Ávila",
+      "nivel": "Naranja",
+      "text": "Sur de Ávila: Moderate high-temperature warning. Sur de Ávila (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Cordillera Cantábrica de Palencia",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Cordillera Cantábrica de Palencia",
+      "provincia": "Cordillera Cantábrica de Burgos",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Cordillera Cantábrica de Burgos",
       "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de Palencia: Aviso de tormentas de nivel amarillo. Cordillera Cantábrica de Palencia (Naranja) (AEMET)",
+      "text": "Cordillera Cantábrica de Burgos: Aviso de tormentas de nivel amarillo. Cordillera Cantábrica de Burgos (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Cordillera Cantábrica de Palencia",
-      "fenomeno": "Moderate thunderstorm warning. Cordillera Cantábrica de Palencia",
+      "provincia": "Cordillera Cantábrica de Burgos",
+      "fenomeno": "Moderate thunderstorm warning. Cordillera Cantábrica de Burgos",
       "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de Palencia: Moderate thunderstorm warning. Cordillera Cantábrica de Palencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Suroccidental asturiana",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Suroccidental asturiana",
-      "nivel": "Rojo",
-      "text": "Suroccidental asturiana: Aviso de lluvias de nivel naranja. Suroccidental asturiana (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Suroccidental asturiana",
-      "fenomeno": "Severe rain warning. Suroccidental asturiana",
-      "nivel": "Rojo",
-      "text": "Suroccidental asturiana: Severe rain warning. Suroccidental asturiana (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Central y Valles Mineros",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Central y Valles Mineros",
-      "nivel": "Naranja",
-      "text": "Central y Valles Mineros: Aviso de lluvias de nivel amarillo. Central y Valles Mineros (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Central y Valles Mineros",
-      "fenomeno": "Moderate rain warning. Central y Valles Mineros",
-      "nivel": "Naranja",
-      "text": "Central y Valles Mineros: Moderate rain warning. Central y Valles Mineros (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Cordillera y Picos de Europa",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Cordillera y Picos de Europa",
-      "nivel": "Naranja",
-      "text": "Cordillera y Picos de Europa: Aviso de lluvias de nivel amarillo. Cordillera y Picos de Europa (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cordillera y Picos de Europa",
-      "fenomeno": "Moderate rain warning. Cordillera y Picos de Europa",
-      "nivel": "Naranja",
-      "text": "Cordillera y Picos de Europa: Moderate rain warning. Cordillera y Picos de Europa (Naranja) (AEMET)",
+      "text": "Cordillera Cantábrica de Burgos: Moderate thunderstorm warning. Cordillera Cantábrica de Burgos (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Suroccidental asturiana",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Suroccidental asturiana",
+      "provincia": "Norte de Burgos",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Norte de Burgos",
       "nivel": "Naranja",
-      "text": "Suroccidental asturiana: Aviso de tormentas de nivel amarillo. Suroccidental asturiana (Naranja) (AEMET)",
+      "text": "Norte de Burgos: Aviso de tormentas de nivel amarillo. Norte de Burgos (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Suroccidental asturiana",
-      "fenomeno": "Moderate thunderstorm warning. Suroccidental asturiana",
+      "provincia": "Norte de Burgos",
+      "fenomeno": "Moderate thunderstorm warning. Norte de Burgos",
       "nivel": "Naranja",
-      "text": "Suroccidental asturiana: Moderate thunderstorm warning. Suroccidental asturiana (Naranja) (AEMET)",
+      "text": "Norte de Burgos: Moderate thunderstorm warning. Norte de Burgos (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Central y Valles Mineros",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Central y Valles Mineros",
+      "provincia": "Condado de Treviño",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Condado de Treviño",
       "nivel": "Naranja",
-      "text": "Central y Valles Mineros: Aviso de tormentas de nivel amarillo. Central y Valles Mineros (Naranja) (AEMET)",
+      "text": "Condado de Treviño: Aviso de tormentas de nivel amarillo. Condado de Treviño (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Central y Valles Mineros",
-      "fenomeno": "Moderate thunderstorm warning. Central y Valles Mineros",
+      "provincia": "Condado de Treviño",
+      "fenomeno": "Moderate thunderstorm warning. Condado de Treviño",
       "nivel": "Naranja",
-      "text": "Central y Valles Mineros: Moderate thunderstorm warning. Central y Valles Mineros (Naranja) (AEMET)",
+      "text": "Condado de Treviño: Moderate thunderstorm warning. Condado de Treviño (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Cordillera y Picos de Europa",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Cordillera y Picos de Europa",
+      "provincia": "Meseta de Burgos",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Meseta de Burgos",
       "nivel": "Naranja",
-      "text": "Cordillera y Picos de Europa: Aviso de tormentas de nivel amarillo. Cordillera y Picos de Europa (Naranja) (AEMET)",
+      "text": "Meseta de Burgos: Aviso de tormentas de nivel amarillo. Meseta de Burgos (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Cordillera y Picos de Europa",
-      "fenomeno": "Moderate thunderstorm warning. Cordillera y Picos de Europa",
+      "provincia": "Meseta de Burgos",
+      "fenomeno": "Moderate thunderstorm warning. Meseta de Burgos",
       "nivel": "Naranja",
-      "text": "Cordillera y Picos de Europa: Moderate thunderstorm warning. Cordillera y Picos de Europa (Naranja) (AEMET)",
+      "text": "Meseta de Burgos: Moderate thunderstorm warning. Meseta de Burgos (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Ibérica de Burgos",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Ibérica de Burgos",
+      "nivel": "Naranja",
+      "text": "Ibérica de Burgos: Aviso de tormentas de nivel amarillo. Ibérica de Burgos (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ibérica de Burgos",
+      "fenomeno": "Moderate thunderstorm warning. Ibérica de Burgos",
+      "nivel": "Naranja",
+      "text": "Ibérica de Burgos: Moderate thunderstorm warning. Ibérica de Burgos (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Meseta de Segovia",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Meseta de Segovia",
+      "nivel": "Naranja",
+      "text": "Meseta de Segovia: Aviso de tormentas de nivel amarillo. Meseta de Segovia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Meseta de Segovia",
+      "fenomeno": "Moderate thunderstorm warning. Meseta de Segovia",
+      "nivel": "Naranja",
+      "text": "Meseta de Segovia: Moderate thunderstorm warning. Meseta de Segovia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Sistema Central de Segovia",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Sistema Central de Segovia",
+      "nivel": "Naranja",
+      "text": "Sistema Central de Segovia: Aviso de tormentas de nivel amarillo. Sistema Central de Segovia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sistema Central de Segovia",
+      "fenomeno": "Moderate thunderstorm warning. Sistema Central de Segovia",
+      "nivel": "Naranja",
+      "text": "Sistema Central de Segovia: Moderate thunderstorm warning. Sistema Central de Segovia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
