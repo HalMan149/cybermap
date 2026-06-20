@@ -1,8 +1,88 @@
 {
-  "generated_at": "2026-06-20T21:12:28.429Z",
+  "generated_at": "2026-06-20T22:34:32.309Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌡️",
+      "provincia": "Alcarria conquense",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Alcarria conquense",
+      "nivel": "Rojo",
+      "text": "Alcarria conquense: Aviso de temperaturas máximas de nivel naranja. Alcarria conquense (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Alcarria conquense",
+      "fenomeno": "Severe high-temperature warning. Alcarria conquense",
+      "nivel": "Rojo",
+      "text": "Alcarria conquense: Severe high-temperature warning. Alcarria conquense (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Alcarria de Guadalajara",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Alcarria de Guadalajara",
+      "nivel": "Rojo",
+      "text": "Alcarria de Guadalajara: Aviso de temperaturas máximas de nivel naranja. Alcarria de Guadalajara (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Alcarria de Guadalajara",
+      "fenomeno": "Severe high-temperature warning. Alcarria de Guadalajara",
+      "nivel": "Rojo",
+      "text": "Alcarria de Guadalajara: Severe high-temperature warning. Alcarria de Guadalajara (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Depresión central de Barcelona",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Depresión central de Barcelona",
+      "nivel": "Rojo",
+      "text": "Depresión central de Barcelona: Aviso de temperaturas máximas de nivel naranja. Depresión central de Barcelona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Depresión central de Barcelona",
+      "fenomeno": "Severe high-temperature warning. Depresión central de Barcelona",
+      "nivel": "Rojo",
+      "text": "Depresión central de Barcelona: Severe high-temperature warning. Depresión central de Barcelona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Prelitoral de Barcelona",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Prelitoral de Barcelona",
+      "nivel": "Rojo",
+      "text": "Prelitoral de Barcelona: Aviso de temperaturas máximas de nivel naranja. Prelitoral de Barcelona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Prelitoral de Barcelona",
+      "fenomeno": "Severe high-temperature warning. Prelitoral de Barcelona",
+      "nivel": "Rojo",
+      "text": "Prelitoral de Barcelona: Severe high-temperature warning. Prelitoral de Barcelona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Pirineo de Lleida",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Pirineo de Lleida",
+      "nivel": "Rojo",
+      "text": "Pirineo de Lleida: Aviso de temperaturas máximas de nivel naranja. Pirineo de Lleida (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Pirineo de Lleida",
+      "fenomeno": "Severe high-temperature warning. Pirineo de Lleida",
+      "nivel": "Rojo",
+      "text": "Pirineo de Lleida: Severe high-temperature warning. Pirineo de Lleida (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌊",
       "provincia": "Campiña sevillana",
@@ -20,147 +100,67 @@
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Interior de A Coruña",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Interior de A Coruña",
+      "icon": "⛈️",
+      "provincia": "Suroccidental asturiana",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Suroccidental asturiana",
       "nivel": "Naranja",
-      "text": "Interior de A Coruña: Aviso de temperaturas máximas de nivel amarillo. Interior de A Coruña (Naranja) (AEMET)",
+      "text": "Suroccidental asturiana: Aviso de tormentas de nivel amarillo. Suroccidental asturiana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Interior de A Coruña",
-      "fenomeno": "Moderate high-temperature warning. Interior de A Coruña",
+      "provincia": "Suroccidental asturiana",
+      "fenomeno": "Moderate thunderstorm warning. Suroccidental asturiana",
       "nivel": "Naranja",
-      "text": "Interior de A Coruña: Moderate high-temperature warning. Interior de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Litoral oriental asturiano",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral oriental asturiano",
-      "nivel": "Naranja",
-      "text": "Litoral oriental asturiano: Aviso de lluvias de nivel amarillo. Litoral oriental asturiano (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral oriental asturiano",
-      "fenomeno": "Moderate rain warning. Litoral oriental asturiano",
-      "nivel": "Naranja",
-      "text": "Litoral oriental asturiano: Moderate rain warning. Litoral oriental asturiano (Naranja) (AEMET)",
+      "text": "Suroccidental asturiana: Moderate thunderstorm warning. Suroccidental asturiana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Litoral oriental asturiano",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Litoral oriental asturiano",
+      "provincia": "Central y Valles Mineros",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Central y Valles Mineros",
       "nivel": "Naranja",
-      "text": "Litoral oriental asturiano: Aviso de tormentas de nivel amarillo. Litoral oriental asturiano (Naranja) (AEMET)",
+      "text": "Central y Valles Mineros: Aviso de tormentas de nivel amarillo. Central y Valles Mineros (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Litoral oriental asturiano",
-      "fenomeno": "Moderate thunderstorm warning. Litoral oriental asturiano",
+      "provincia": "Central y Valles Mineros",
+      "fenomeno": "Moderate thunderstorm warning. Central y Valles Mineros",
       "nivel": "Naranja",
-      "text": "Litoral oriental asturiano: Moderate thunderstorm warning. Litoral oriental asturiano (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Sierra y Pedroches",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Sierra y Pedroches",
-      "nivel": "Naranja",
-      "text": "Sierra y Pedroches: Aviso de temperaturas máximas de nivel amarillo. Sierra y Pedroches (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sierra y Pedroches",
-      "fenomeno": "Moderate high-temperature warning. Sierra y Pedroches",
-      "nivel": "Naranja",
-      "text": "Sierra y Pedroches: Moderate high-temperature warning. Sierra y Pedroches (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Subbética cordobesa",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Subbética cordobesa",
-      "nivel": "Naranja",
-      "text": "Subbética cordobesa: Aviso de temperaturas máximas de nivel amarillo. Subbética cordobesa (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Subbética cordobesa",
-      "fenomeno": "Moderate high-temperature warning. Subbética cordobesa",
-      "nivel": "Naranja",
-      "text": "Subbética cordobesa: Moderate high-temperature warning. Subbética cordobesa (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Poniente y Almería Capital",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Poniente y Almería Capital",
-      "nivel": "Rojo",
-      "text": "Poniente y Almería Capital: Aviso de temperaturas máximas de nivel naranja. Poniente y Almería Capital (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Poniente y Almería Capital",
-      "fenomeno": "Severe high-temperature warning. Poniente y Almería Capital",
-      "nivel": "Rojo",
-      "text": "Poniente y Almería Capital: Severe high-temperature warning. Poniente y Almería Capital (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Cuenca del Genil",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Cuenca del Genil",
-      "nivel": "Rojo",
-      "text": "Cuenca del Genil: Aviso de temperaturas máximas de nivel naranja. Cuenca del Genil (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cuenca del Genil",
-      "fenomeno": "Severe high-temperature warning. Cuenca del Genil",
-      "nivel": "Rojo",
-      "text": "Cuenca del Genil: Severe high-temperature warning. Cuenca del Genil (Rojo) (AEMET)",
+      "text": "Central y Valles Mineros: Moderate thunderstorm warning. Central y Valles Mineros (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Cordillera Cantábrica de León",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Cordillera Cantábrica de León",
+      "provincia": "Cordillera y Picos de Europa",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Cordillera y Picos de Europa",
       "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de León: Aviso de tormentas de nivel amarillo. Cordillera Cantábrica de León (Naranja) (AEMET)",
+      "text": "Cordillera y Picos de Europa: Aviso de tormentas de nivel amarillo. Cordillera y Picos de Europa (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Cordillera Cantábrica de León",
-      "fenomeno": "Moderate thunderstorm warning. Cordillera Cantábrica de León",
+      "provincia": "Cordillera y Picos de Europa",
+      "fenomeno": "Moderate thunderstorm warning. Cordillera y Picos de Europa",
       "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de León: Moderate thunderstorm warning. Cordillera Cantábrica de León (Naranja) (AEMET)",
+      "text": "Cordillera y Picos de Europa: Moderate thunderstorm warning. Cordillera y Picos de Europa (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Meseta de Ávila",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Meseta de Ávila",
+      "provincia": "Liébana",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Liébana",
       "nivel": "Naranja",
-      "text": "Meseta de Ávila: Aviso de tormentas de nivel amarillo. Meseta de Ávila (Naranja) (AEMET)",
+      "text": "Liébana: Aviso de tormentas de nivel amarillo. Liébana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Meseta de Ávila",
-      "fenomeno": "Moderate thunderstorm warning. Meseta de Ávila",
+      "provincia": "Liébana",
+      "fenomeno": "Moderate thunderstorm warning. Liébana",
       "nivel": "Naranja",
-      "text": "Meseta de Ávila: Moderate thunderstorm warning. Meseta de Ávila (Naranja) (AEMET)",
+      "text": "Liébana: Moderate thunderstorm warning. Liébana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
