@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-06-20T02:37:23.933Z
+// Auto-generado por GitHub Actions - 2026-06-20T06:47:06.477Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-06-20T02:37:23.933Z",
+  "generated_at": "2026-06-20T06:47:06.477Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "⛈️",
-      "provincia": "Sistema Central de Ávila",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Sistema Central de Ávila",
+      "provincia": "Montes del norte y Anchuras",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Montes del norte y Anchuras",
       "nivel": "Naranja",
-      "text": "Sistema Central de Ávila: Aviso de tormentas de nivel amarillo. Sistema Central de Ávila (Naranja) (AEMET)",
+      "text": "Montes del norte y Anchuras: Aviso de tormentas de nivel amarillo. Montes del norte y Anchuras (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sistema Central de Ávila",
-      "fenomeno": "Moderate thunderstorm warning. Sistema Central de Ávila",
+      "provincia": "Montes del norte y Anchuras",
+      "fenomeno": "Moderate thunderstorm warning. Montes del norte y Anchuras",
       "nivel": "Naranja",
-      "text": "Sistema Central de Ávila: Moderate thunderstorm warning. Sistema Central de Ávila (Naranja) (AEMET)",
+      "text": "Montes del norte y Anchuras: Moderate thunderstorm warning. Montes del norte y Anchuras (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Serranía de Guadalajara",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Serranía de Guadalajara",
+      "provincia": "La Mancha de Ciudad Real",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. La Mancha de Ciudad Real",
       "nivel": "Naranja",
-      "text": "Serranía de Guadalajara: Aviso de tormentas de nivel amarillo. Serranía de Guadalajara (Naranja) (AEMET)",
+      "text": "La Mancha de Ciudad Real: Aviso de tormentas de nivel amarillo. La Mancha de Ciudad Real (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Serranía de Guadalajara",
-      "fenomeno": "Moderate thunderstorm warning. Serranía de Guadalajara",
+      "provincia": "La Mancha de Ciudad Real",
+      "fenomeno": "Moderate thunderstorm warning. La Mancha de Ciudad Real",
       "nivel": "Naranja",
-      "text": "Serranía de Guadalajara: Moderate thunderstorm warning. Serranía de Guadalajara (Naranja) (AEMET)",
+      "text": "La Mancha de Ciudad Real: Moderate thunderstorm warning. La Mancha de Ciudad Real (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Sierra de Madrid",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Sierra de Madrid",
+      "provincia": "Valle del Guadiana",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Valle del Guadiana",
       "nivel": "Naranja",
-      "text": "Sierra de Madrid: Aviso de tormentas de nivel amarillo. Sierra de Madrid (Naranja) (AEMET)",
+      "text": "Valle del Guadiana: Aviso de tormentas de nivel amarillo. Valle del Guadiana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sierra de Madrid",
-      "fenomeno": "Moderate thunderstorm warning. Sierra de Madrid",
+      "provincia": "Valle del Guadiana",
+      "fenomeno": "Moderate thunderstorm warning. Valle del Guadiana",
       "nivel": "Naranja",
-      "text": "Sierra de Madrid: Moderate thunderstorm warning. Sierra de Madrid (Naranja) (AEMET)",
+      "text": "Valle del Guadiana: Moderate thunderstorm warning. Valle del Guadiana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Metropolitana y Henares",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Metropolitana y Henares",
+      "provincia": "Sierra de San Vicente",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Sierra de San Vicente",
       "nivel": "Naranja",
-      "text": "Metropolitana y Henares: Aviso de tormentas de nivel amarillo. Metropolitana y Henares (Naranja) (AEMET)",
+      "text": "Sierra de San Vicente: Aviso de tormentas de nivel amarillo. Sierra de San Vicente (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Metropolitana y Henares",
-      "fenomeno": "Moderate thunderstorm warning. Metropolitana y Henares",
+      "provincia": "Sierra de San Vicente",
+      "fenomeno": "Moderate thunderstorm warning. Sierra de San Vicente",
       "nivel": "Naranja",
-      "text": "Metropolitana y Henares: Moderate thunderstorm warning. Metropolitana y Henares (Naranja) (AEMET)",
+      "text": "Sierra de San Vicente: Moderate thunderstorm warning. Sierra de San Vicente (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌡️",
-      "provincia": "Interior de Mallorca",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Interior de Mallorca",
-      "nivel": "Rojo",
-      "text": "Interior de Mallorca: Aviso de temperaturas máximas de nivel naranja. Interior de Mallorca (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior de Mallorca",
-      "fenomeno": "Severe high-temperature warning. Interior de Mallorca",
-      "nivel": "Rojo",
-      "text": "Interior de Mallorca: Severe high-temperature warning. Interior de Mallorca (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Sur de Mallorca",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Sur de Mallorca",
-      "nivel": "Rojo",
-      "text": "Sur de Mallorca: Aviso de temperaturas máximas de nivel naranja. Sur de Mallorca (Rojo) (AEMET)",
+      "icon": "⛈️",
+      "provincia": "Valle del Tajo",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Valle del Tajo",
+      "nivel": "Naranja",
+      "text": "Valle del Tajo: Aviso de tormentas de nivel amarillo. Valle del Tajo (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sur de Mallorca",
-      "fenomeno": "Severe high-temperature warning. Sur de Mallorca",
-      "nivel": "Rojo",
-      "text": "Sur de Mallorca: Severe high-temperature warning. Sur de Mallorca (Rojo) (AEMET)",
+      "provincia": "Valle del Tajo",
+      "fenomeno": "Moderate thunderstorm warning. Valle del Tajo",
+      "nivel": "Naranja",
+      "text": "Valle del Tajo: Moderate thunderstorm warning. Valle del Tajo (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌡️",
-      "provincia": "Campiña cordobesa",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Campiña cordobesa",
-      "nivel": "Rojo",
-      "text": "Campiña cordobesa: Aviso de temperaturas máximas de nivel naranja. Campiña cordobesa (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Campiña cordobesa",
-      "fenomeno": "Severe high-temperature warning. Campiña cordobesa",
-      "nivel": "Rojo",
-      "text": "Campiña cordobesa: Severe high-temperature warning. Campiña cordobesa (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Morena y Condado",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Morena y Condado",
-      "nivel": "Rojo",
-      "text": "Morena y Condado: Aviso de temperaturas máximas de nivel naranja. Morena y Condado (Rojo) (AEMET)",
+      "icon": "⛈️",
+      "provincia": "Montes de Toledo",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Montes de Toledo",
+      "nivel": "Naranja",
+      "text": "Montes de Toledo: Aviso de tormentas de nivel amarillo. Montes de Toledo (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Morena y Condado",
-      "fenomeno": "Severe high-temperature warning. Morena y Condado",
-      "nivel": "Rojo",
-      "text": "Morena y Condado: Severe high-temperature warning. Morena y Condado (Rojo) (AEMET)",
+      "provincia": "Montes de Toledo",
+      "fenomeno": "Moderate thunderstorm warning. Montes de Toledo",
+      "nivel": "Naranja",
+      "text": "Montes de Toledo: Moderate thunderstorm warning. Montes de Toledo (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌡️",
-      "provincia": "Cazorla y Segura",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Cazorla y Segura",
-      "nivel": "Rojo",
-      "text": "Cazorla y Segura: Aviso de temperaturas máximas de nivel naranja. Cazorla y Segura (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cazorla y Segura",
-      "fenomeno": "Severe high-temperature warning. Cazorla y Segura",
-      "nivel": "Rojo",
-      "text": "Cazorla y Segura: Severe high-temperature warning. Cazorla y Segura (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Valle del Guadalquivir de Jaén",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Valle del Guadalquivir de Jaén",
-      "nivel": "Rojo",
-      "text": "Valle del Guadalquivir de Jaén: Aviso de temperaturas máximas de nivel naranja. Valle del Guadalquivir de Jaén (Rojo) (AEMET)",
+      "icon": "⛈️",
+      "provincia": "La Mancha toledana",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. La Mancha toledana",
+      "nivel": "Naranja",
+      "text": "La Mancha toledana: Aviso de tormentas de nivel amarillo. La Mancha toledana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Valle del Guadalquivir de Jaén",
-      "fenomeno": "Severe high-temperature warning. Valle del Guadalquivir de Jaén",
+      "provincia": "La Mancha toledana",
+      "fenomeno": "Moderate thunderstorm warning. La Mancha toledana",
+      "nivel": "Naranja",
+      "text": "La Mancha toledana: Moderate thunderstorm warning. La Mancha toledana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Cuenca del Nervión",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Cuenca del Nervión",
       "nivel": "Rojo",
-      "text": "Valle del Guadalquivir de Jaén: Severe high-temperature warning. Valle del Guadalquivir de Jaén (Rojo) (AEMET)",
+      "text": "Cuenca del Nervión: Aviso de lluvias de nivel naranja. Cuenca del Nervión (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cuenca del Nervión",
+      "fenomeno": "Severe rain warning. Cuenca del Nervión",
+      "nivel": "Rojo",
+      "text": "Cuenca del Nervión: Severe rain warning. Cuenca del Nervión (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Bizkaia interior",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Bizkaia interior",
+      "nivel": "Rojo",
+      "text": "Bizkaia interior: Aviso de lluvias de nivel naranja. Bizkaia interior (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Bizkaia interior",
+      "fenomeno": "Severe rain warning. Bizkaia interior",
+      "nivel": "Rojo",
+      "text": "Bizkaia interior: Severe rain warning. Bizkaia interior (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Cuenca del Nervión",
+      "fenomeno": "Aviso de tormentas de nivel naranja. Cuenca del Nervión",
+      "nivel": "Rojo",
+      "text": "Cuenca del Nervión: Aviso de tormentas de nivel naranja. Cuenca del Nervión (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cuenca del Nervión",
+      "fenomeno": "Severe thunderstorm warning. Cuenca del Nervión",
+      "nivel": "Rojo",
+      "text": "Cuenca del Nervión: Severe thunderstorm warning. Cuenca del Nervión (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
