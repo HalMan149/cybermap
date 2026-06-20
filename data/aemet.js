@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-06-20T15:24:43.022Z
+// Auto-generado por GitHub Actions - 2026-06-20T16:58:47.847Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-06-20T15:24:43.022Z",
+  "generated_at": "2026-06-20T16:58:47.847Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "🌡️",
-      "provincia": "Valle del Guadiana",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Valle del Guadiana",
+      "provincia": "Poniente y Almería Capital",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Poniente y Almería Capital",
       "nivel": "Rojo",
-      "text": "Valle del Guadiana: Aviso de temperaturas máximas de nivel naranja. Valle del Guadiana (Rojo) (AEMET)",
+      "text": "Poniente y Almería Capital: Aviso de temperaturas máximas de nivel naranja. Poniente y Almería Capital (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Valle del Guadiana",
-      "fenomeno": "Severe high-temperature warning. Valle del Guadiana",
+      "provincia": "Poniente y Almería Capital",
+      "fenomeno": "Severe high-temperature warning. Poniente y Almería Capital",
       "nivel": "Rojo",
-      "text": "Valle del Guadiana: Severe high-temperature warning. Valle del Guadiana (Rojo) (AEMET)",
+      "text": "Poniente y Almería Capital: Severe high-temperature warning. Poniente y Almería Capital (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌡️",
-      "provincia": "Valle del Tajo",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Valle del Tajo",
+      "provincia": "Cuenca del Genil",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Cuenca del Genil",
       "nivel": "Rojo",
-      "text": "Valle del Tajo: Aviso de temperaturas máximas de nivel naranja. Valle del Tajo (Rojo) (AEMET)",
+      "text": "Cuenca del Genil: Aviso de temperaturas máximas de nivel naranja. Cuenca del Genil (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Valle del Tajo",
-      "fenomeno": "Severe high-temperature warning. Valle del Tajo",
+      "provincia": "Cuenca del Genil",
+      "fenomeno": "Severe high-temperature warning. Cuenca del Genil",
       "nivel": "Rojo",
-      "text": "Valle del Tajo: Severe high-temperature warning. Valle del Tajo (Rojo) (AEMET)",
+      "text": "Cuenca del Genil: Severe high-temperature warning. Cuenca del Genil (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌡️",
-      "provincia": "La Mancha toledana",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. La Mancha toledana",
-      "nivel": "Rojo",
-      "text": "La Mancha toledana: Aviso de temperaturas máximas de nivel naranja. La Mancha toledana (Rojo) (AEMET)",
+      "icon": "⛈️",
+      "provincia": "Cordillera Cantábrica de León",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Cordillera Cantábrica de León",
+      "nivel": "Naranja",
+      "text": "Cordillera Cantábrica de León: Aviso de tormentas de nivel amarillo. Cordillera Cantábrica de León (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "La Mancha toledana",
-      "fenomeno": "Severe high-temperature warning. La Mancha toledana",
-      "nivel": "Rojo",
-      "text": "La Mancha toledana: Severe high-temperature warning. La Mancha toledana (Rojo) (AEMET)",
+      "provincia": "Cordillera Cantábrica de León",
+      "fenomeno": "Moderate thunderstorm warning. Cordillera Cantábrica de León",
+      "nivel": "Naranja",
+      "text": "Cordillera Cantábrica de León: Moderate thunderstorm warning. Cordillera Cantábrica de León (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌡️",
-      "provincia": "Metropolitana y Henares",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Metropolitana y Henares",
-      "nivel": "Rojo",
-      "text": "Metropolitana y Henares: Aviso de temperaturas máximas de nivel naranja. Metropolitana y Henares (Rojo) (AEMET)",
+      "icon": "⛈️",
+      "provincia": "Meseta de Ávila",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Meseta de Ávila",
+      "nivel": "Naranja",
+      "text": "Meseta de Ávila: Aviso de tormentas de nivel amarillo. Meseta de Ávila (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Metropolitana y Henares",
-      "fenomeno": "Severe high-temperature warning. Metropolitana y Henares",
-      "nivel": "Rojo",
-      "text": "Metropolitana y Henares: Severe high-temperature warning. Metropolitana y Henares (Rojo) (AEMET)",
+      "provincia": "Meseta de Ávila",
+      "fenomeno": "Moderate thunderstorm warning. Meseta de Ávila",
+      "nivel": "Naranja",
+      "text": "Meseta de Ávila: Moderate thunderstorm warning. Meseta de Ávila (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌡️",
-      "provincia": "Sur, Vegas y Oeste",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Sur, Vegas y Oeste",
-      "nivel": "Rojo",
-      "text": "Sur, Vegas y Oeste: Aviso de temperaturas máximas de nivel naranja. Sur, Vegas y Oeste (Rojo) (AEMET)",
+      "icon": "⛈️",
+      "provincia": "Sistema Central de Ávila",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Sistema Central de Ávila",
+      "nivel": "Naranja",
+      "text": "Sistema Central de Ávila: Aviso de tormentas de nivel amarillo. Sistema Central de Ávila (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sur, Vegas y Oeste",
-      "fenomeno": "Severe high-temperature warning. Sur, Vegas y Oeste",
-      "nivel": "Rojo",
-      "text": "Sur, Vegas y Oeste: Severe high-temperature warning. Sur, Vegas y Oeste (Rojo) (AEMET)",
+      "provincia": "Sistema Central de Ávila",
+      "fenomeno": "Moderate thunderstorm warning. Sistema Central de Ávila",
+      "nivel": "Naranja",
+      "text": "Sistema Central de Ávila: Moderate thunderstorm warning. Sistema Central de Ávila (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "La Mancha albaceteña",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. La Mancha albaceteña",
+      "icon": "⛈️",
+      "provincia": "Sur de Ávila",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Sur de Ávila",
       "nivel": "Naranja",
-      "text": "La Mancha albaceteña: Aviso de temperaturas máximas de nivel amarillo. La Mancha albaceteña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "La Mancha albaceteña",
-      "fenomeno": "Moderate high-temperature warning. La Mancha albaceteña",
-      "nivel": "Naranja",
-      "text": "La Mancha albaceteña: Moderate high-temperature warning. La Mancha albaceteña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Alcaraz y Segura",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Alcaraz y Segura",
-      "nivel": "Naranja",
-      "text": "Alcaraz y Segura: Aviso de temperaturas máximas de nivel amarillo. Alcaraz y Segura (Naranja) (AEMET)",
+      "text": "Sur de Ávila: Aviso de tormentas de nivel amarillo. Sur de Ávila (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Alcaraz y Segura",
-      "fenomeno": "Moderate high-temperature warning. Alcaraz y Segura",
+      "provincia": "Sur de Ávila",
+      "fenomeno": "Moderate thunderstorm warning. Sur de Ávila",
       "nivel": "Naranja",
-      "text": "Alcaraz y Segura: Moderate high-temperature warning. Alcaraz y Segura (Naranja) (AEMET)",
+      "text": "Sur de Ávila: Moderate thunderstorm warning. Sur de Ávila (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Hellín y Almansa",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Hellín y Almansa",
+      "icon": "⛈️",
+      "provincia": "Meseta de León",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Meseta de León",
       "nivel": "Naranja",
-      "text": "Hellín y Almansa: Aviso de temperaturas máximas de nivel amarillo. Hellín y Almansa (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Hellín y Almansa",
-      "fenomeno": "Moderate high-temperature warning. Hellín y Almansa",
-      "nivel": "Naranja",
-      "text": "Hellín y Almansa: Moderate high-temperature warning. Hellín y Almansa (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Montes del norte y Anchuras",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Montes del norte y Anchuras",
-      "nivel": "Naranja",
-      "text": "Montes del norte y Anchuras: Aviso de temperaturas máximas de nivel amarillo. Montes del norte y Anchuras (Naranja) (AEMET)",
+      "text": "Meseta de León: Aviso de tormentas de nivel amarillo. Meseta de León (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Montes del norte y Anchuras",
-      "fenomeno": "Moderate high-temperature warning. Montes del norte y Anchuras",
+      "provincia": "Meseta de León",
+      "fenomeno": "Moderate thunderstorm warning. Meseta de León",
       "nivel": "Naranja",
-      "text": "Montes del norte y Anchuras: Moderate high-temperature warning. Montes del norte y Anchuras (Naranja) (AEMET)",
+      "text": "Meseta de León: Moderate thunderstorm warning. Meseta de León (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "La Mancha de Ciudad Real",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. La Mancha de Ciudad Real",
+      "icon": "⛈️",
+      "provincia": "Meseta de Segovia",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Meseta de Segovia",
       "nivel": "Naranja",
-      "text": "La Mancha de Ciudad Real: Aviso de temperaturas máximas de nivel amarillo. La Mancha de Ciudad Real (Naranja) (AEMET)",
+      "text": "Meseta de Segovia: Aviso de tormentas de nivel amarillo. Meseta de Segovia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "La Mancha de Ciudad Real",
-      "fenomeno": "Moderate high-temperature warning. La Mancha de Ciudad Real",
+      "provincia": "Meseta de Segovia",
+      "fenomeno": "Moderate thunderstorm warning. Meseta de Segovia",
       "nivel": "Naranja",
-      "text": "La Mancha de Ciudad Real: Moderate high-temperature warning. La Mancha de Ciudad Real (Naranja) (AEMET)",
+      "text": "Meseta de Segovia: Moderate thunderstorm warning. Meseta de Segovia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Sistema Central de Segovia",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Sistema Central de Segovia",
+      "nivel": "Naranja",
+      "text": "Sistema Central de Segovia: Aviso de tormentas de nivel amarillo. Sistema Central de Segovia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sistema Central de Segovia",
+      "fenomeno": "Moderate thunderstorm warning. Sistema Central de Segovia",
+      "nivel": "Naranja",
+      "text": "Sistema Central de Segovia: Moderate thunderstorm warning. Sistema Central de Segovia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Meseta de Valladolid",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Meseta de Valladolid",
+      "nivel": "Naranja",
+      "text": "Meseta de Valladolid: Aviso de tormentas de nivel amarillo. Meseta de Valladolid (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Meseta de Valladolid",
+      "fenomeno": "Moderate thunderstorm warning. Meseta de Valladolid",
+      "nivel": "Naranja",
+      "text": "Meseta de Valladolid: Moderate thunderstorm warning. Meseta de Valladolid (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
