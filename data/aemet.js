@@ -1,9 +1,73 @@
-// Auto-generado por GitHub Actions - 2026-06-19T23:45:38.278Z
+// Auto-generado por GitHub Actions - 2026-06-20T02:37:23.933Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-06-19T23:45:38.278Z",
+  "generated_at": "2026-06-20T02:37:23.933Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "⛈️",
+      "provincia": "Sistema Central de Ávila",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Sistema Central de Ávila",
+      "nivel": "Naranja",
+      "text": "Sistema Central de Ávila: Aviso de tormentas de nivel amarillo. Sistema Central de Ávila (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sistema Central de Ávila",
+      "fenomeno": "Moderate thunderstorm warning. Sistema Central de Ávila",
+      "nivel": "Naranja",
+      "text": "Sistema Central de Ávila: Moderate thunderstorm warning. Sistema Central de Ávila (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Serranía de Guadalajara",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Serranía de Guadalajara",
+      "nivel": "Naranja",
+      "text": "Serranía de Guadalajara: Aviso de tormentas de nivel amarillo. Serranía de Guadalajara (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Serranía de Guadalajara",
+      "fenomeno": "Moderate thunderstorm warning. Serranía de Guadalajara",
+      "nivel": "Naranja",
+      "text": "Serranía de Guadalajara: Moderate thunderstorm warning. Serranía de Guadalajara (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Sierra de Madrid",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Sierra de Madrid",
+      "nivel": "Naranja",
+      "text": "Sierra de Madrid: Aviso de tormentas de nivel amarillo. Sierra de Madrid (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sierra de Madrid",
+      "fenomeno": "Moderate thunderstorm warning. Sierra de Madrid",
+      "nivel": "Naranja",
+      "text": "Sierra de Madrid: Moderate thunderstorm warning. Sierra de Madrid (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Metropolitana y Henares",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Metropolitana y Henares",
+      "nivel": "Naranja",
+      "text": "Metropolitana y Henares: Aviso de tormentas de nivel amarillo. Metropolitana y Henares (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Metropolitana y Henares",
+      "fenomeno": "Moderate thunderstorm warning. Metropolitana y Henares",
+      "nivel": "Naranja",
+      "text": "Metropolitana y Henares: Moderate thunderstorm warning. Metropolitana y Henares (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌡️",
       "provincia": "Interior de Mallorca",
@@ -98,70 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Severe high-temperature warning. Valle del Guadalquivir de Jaén",
       "nivel": "Rojo",
       "text": "Valle del Guadalquivir de Jaén: Severe high-temperature warning. Valle del Guadalquivir de Jaén (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Campiña sevillana",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Campiña sevillana",
-      "nivel": "Rojo",
-      "text": "Campiña sevillana: Aviso de temperaturas máximas de nivel naranja. Campiña sevillana (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Campiña sevillana",
-      "fenomeno": "Severe high-temperature warning. Campiña sevillana",
-      "nivel": "Rojo",
-      "text": "Campiña sevillana: Severe high-temperature warning. Campiña sevillana (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Pirineo oscense",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Pirineo oscense",
-      "nivel": "Rojo",
-      "text": "Pirineo oscense: Aviso de temperaturas máximas de nivel naranja. Pirineo oscense (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Pirineo oscense",
-      "fenomeno": "Severe high-temperature warning. Pirineo oscense",
-      "nivel": "Rojo",
-      "text": "Pirineo oscense: Severe high-temperature warning. Pirineo oscense (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Centro de Huesca",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Centro de Huesca",
-      "nivel": "Rojo",
-      "text": "Centro de Huesca: Aviso de temperaturas máximas de nivel naranja. Centro de Huesca (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Centro de Huesca",
-      "fenomeno": "Severe high-temperature warning. Centro de Huesca",
-      "nivel": "Rojo",
-      "text": "Centro de Huesca: Severe high-temperature warning. Centro de Huesca (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Sur de Huesca",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Sur de Huesca",
-      "nivel": "Rojo",
-      "text": "Sur de Huesca: Aviso de temperaturas máximas de nivel naranja. Sur de Huesca (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sur de Huesca",
-      "fenomeno": "Severe high-temperature warning. Sur de Huesca",
-      "nivel": "Rojo",
-      "text": "Sur de Huesca: Severe high-temperature warning. Sur de Huesca (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
