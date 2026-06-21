@@ -1,39 +1,23 @@
-// Auto-generado por GitHub Actions - 2026-06-21T16:59:15.351Z
+// Auto-generado por GitHub Actions - 2026-06-21T18:20:09.020Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-06-21T16:59:15.351Z",
+  "generated_at": "2026-06-21T18:20:09.020Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "🌡️",
-      "provincia": "Gipuzkoa interior",
-      "fenomeno": "Aviso de temperaturas máximas de nivel rojo. Gipuzkoa interior",
+      "provincia": "Campiña cordobesa",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Campiña cordobesa",
       "nivel": "Rojo",
-      "text": "Gipuzkoa interior: Aviso de temperaturas máximas de nivel rojo. Gipuzkoa interior (Rojo) (AEMET)",
+      "text": "Campiña cordobesa: Aviso de temperaturas máximas de nivel naranja. Campiña cordobesa (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Gipuzkoa interior",
-      "fenomeno": "Extreme high-temperature warning. Gipuzkoa interior",
+      "provincia": "Campiña cordobesa",
+      "fenomeno": "Severe high-temperature warning. Campiña cordobesa",
       "nivel": "Rojo",
-      "text": "Gipuzkoa interior: Extreme high-temperature warning. Gipuzkoa interior (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Bizkaia interior",
-      "fenomeno": "Aviso de temperaturas máximas de nivel rojo. Bizkaia interior",
-      "nivel": "Rojo",
-      "text": "Bizkaia interior: Aviso de temperaturas máximas de nivel rojo. Bizkaia interior (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Bizkaia interior",
-      "fenomeno": "Extreme high-temperature warning. Bizkaia interior",
-      "nivel": "Rojo",
-      "text": "Bizkaia interior: Extreme high-temperature warning. Bizkaia interior (Rojo) (AEMET)",
+      "text": "Campiña cordobesa: Severe high-temperature warning. Campiña cordobesa (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -162,6 +146,22 @@ window.AEMET_AVISOS = {
       "fenomeno": "Severe high-temperature warning. Pirineo oscense",
       "nivel": "Rojo",
       "text": "Pirineo oscense: Severe high-temperature warning. Pirineo oscense (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Centro de Huesca",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Centro de Huesca",
+      "nivel": "Rojo",
+      "text": "Centro de Huesca: Aviso de temperaturas máximas de nivel naranja. Centro de Huesca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Centro de Huesca",
+      "fenomeno": "Severe high-temperature warning. Centro de Huesca",
+      "nivel": "Rojo",
+      "text": "Centro de Huesca: Severe high-temperature warning. Centro de Huesca (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
