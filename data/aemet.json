@@ -1,166 +1,166 @@
 {
-  "generated_at": "2026-06-21T02:53:31.141Z",
+  "generated_at": "2026-06-21T07:27:20.419Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "🌡️",
-      "provincia": "Alcarria conquense",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Alcarria conquense",
+      "provincia": "Sierras de Alcudia y Madrona",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Sierras de Alcudia y Madrona",
       "nivel": "Rojo",
-      "text": "Alcarria conquense: Aviso de temperaturas máximas de nivel naranja. Alcarria conquense (Rojo) (AEMET)",
+      "text": "Sierras de Alcudia y Madrona: Aviso de temperaturas máximas de nivel naranja. Sierras de Alcudia y Madrona (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Alcarria conquense",
-      "fenomeno": "Severe high-temperature warning. Alcarria conquense",
+      "provincia": "Sierras de Alcudia y Madrona",
+      "fenomeno": "Severe high-temperature warning. Sierras de Alcudia y Madrona",
       "nivel": "Rojo",
-      "text": "Alcarria conquense: Severe high-temperature warning. Alcarria conquense (Rojo) (AEMET)",
+      "text": "Sierras de Alcudia y Madrona: Severe high-temperature warning. Sierras de Alcudia y Madrona (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌡️",
-      "provincia": "Alcarria de Guadalajara",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Alcarria de Guadalajara",
+      "provincia": "Sierra de San Vicente",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Sierra de San Vicente",
       "nivel": "Rojo",
-      "text": "Alcarria de Guadalajara: Aviso de temperaturas máximas de nivel naranja. Alcarria de Guadalajara (Rojo) (AEMET)",
+      "text": "Sierra de San Vicente: Aviso de temperaturas máximas de nivel naranja. Sierra de San Vicente (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Alcarria de Guadalajara",
-      "fenomeno": "Severe high-temperature warning. Alcarria de Guadalajara",
+      "provincia": "Sierra de San Vicente",
+      "fenomeno": "Severe high-temperature warning. Sierra de San Vicente",
       "nivel": "Rojo",
-      "text": "Alcarria de Guadalajara: Severe high-temperature warning. Alcarria de Guadalajara (Rojo) (AEMET)",
+      "text": "Sierra de San Vicente: Severe high-temperature warning. Sierra de San Vicente (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌡️",
-      "provincia": "Depresión central de Barcelona",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Depresión central de Barcelona",
+      "icon": "🌧️",
+      "provincia": "Suroccidental asturiana",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Suroccidental asturiana",
       "nivel": "Rojo",
-      "text": "Depresión central de Barcelona: Aviso de temperaturas máximas de nivel naranja. Depresión central de Barcelona (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Depresión central de Barcelona",
-      "fenomeno": "Severe high-temperature warning. Depresión central de Barcelona",
-      "nivel": "Rojo",
-      "text": "Depresión central de Barcelona: Severe high-temperature warning. Depresión central de Barcelona (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Prelitoral de Barcelona",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Prelitoral de Barcelona",
-      "nivel": "Rojo",
-      "text": "Prelitoral de Barcelona: Aviso de temperaturas máximas de nivel naranja. Prelitoral de Barcelona (Rojo) (AEMET)",
+      "text": "Suroccidental asturiana: Aviso de lluvias de nivel naranja. Suroccidental asturiana (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Prelitoral de Barcelona",
-      "fenomeno": "Severe high-temperature warning. Prelitoral de Barcelona",
+      "provincia": "Suroccidental asturiana",
+      "fenomeno": "Severe rain warning. Suroccidental asturiana",
       "nivel": "Rojo",
-      "text": "Prelitoral de Barcelona: Severe high-temperature warning. Prelitoral de Barcelona (Rojo) (AEMET)",
+      "text": "Suroccidental asturiana: Severe rain warning. Suroccidental asturiana (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌡️",
-      "provincia": "Pirineo de Lleida",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Pirineo de Lleida",
+      "icon": "🌧️",
+      "provincia": "Montaña de Lugo",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Montaña de Lugo",
       "nivel": "Rojo",
-      "text": "Pirineo de Lleida: Aviso de temperaturas máximas de nivel naranja. Pirineo de Lleida (Rojo) (AEMET)",
+      "text": "Montaña de Lugo: Aviso de lluvias de nivel naranja. Montaña de Lugo (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Pirineo de Lleida",
-      "fenomeno": "Severe high-temperature warning. Pirineo de Lleida",
+      "provincia": "Montaña de Lugo",
+      "fenomeno": "Severe rain warning. Montaña de Lugo",
       "nivel": "Rojo",
-      "text": "Pirineo de Lleida: Severe high-temperature warning. Pirineo de Lleida (Rojo) (AEMET)",
+      "text": "Montaña de Lugo: Severe rain warning. Montaña de Lugo (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Suroccidental asturiana",
+      "fenomeno": "Aviso de tormentas de nivel naranja. Suroccidental asturiana",
+      "nivel": "Rojo",
+      "text": "Suroccidental asturiana: Aviso de tormentas de nivel naranja. Suroccidental asturiana (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Suroccidental asturiana",
+      "fenomeno": "Severe thunderstorm warning. Suroccidental asturiana",
+      "nivel": "Rojo",
+      "text": "Suroccidental asturiana: Severe thunderstorm warning. Suroccidental asturiana (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Montaña de Lugo",
+      "fenomeno": "Aviso de tormentas de nivel naranja. Montaña de Lugo",
+      "nivel": "Rojo",
+      "text": "Montaña de Lugo: Aviso de tormentas de nivel naranja. Montaña de Lugo (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Montaña de Lugo",
+      "fenomeno": "Severe thunderstorm warning. Montaña de Lugo",
+      "nivel": "Rojo",
+      "text": "Montaña de Lugo: Severe thunderstorm warning. Montaña de Lugo (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "A Mariña",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. A Mariña",
+      "nivel": "Naranja",
+      "text": "A Mariña: Aviso de tormentas de nivel amarillo. A Mariña (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Campiña sevillana",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Campiña sevillana",
+      "provincia": "A Mariña",
+      "fenomeno": "Moderate thunderstorm warning. A Mariña",
       "nivel": "Naranja",
-      "text": "Campiña sevillana: Aviso de temperaturas máximas de nivel amarillo. Campiña sevillana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Campiña sevillana",
-      "fenomeno": "Moderate high-temperature warning. Campiña sevillana",
-      "nivel": "Naranja",
-      "text": "Campiña sevillana: Moderate high-temperature warning. Campiña sevillana (Naranja) (AEMET)",
+      "text": "A Mariña: Moderate thunderstorm warning. A Mariña (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Suroccidental asturiana",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Suroccidental asturiana",
+      "provincia": "Centro de Lugo",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Centro de Lugo",
       "nivel": "Naranja",
-      "text": "Suroccidental asturiana: Aviso de tormentas de nivel amarillo. Suroccidental asturiana (Naranja) (AEMET)",
+      "text": "Centro de Lugo: Aviso de tormentas de nivel amarillo. Centro de Lugo (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Suroccidental asturiana",
-      "fenomeno": "Moderate thunderstorm warning. Suroccidental asturiana",
+      "provincia": "Centro de Lugo",
+      "fenomeno": "Moderate thunderstorm warning. Centro de Lugo",
       "nivel": "Naranja",
-      "text": "Suroccidental asturiana: Moderate thunderstorm warning. Suroccidental asturiana (Naranja) (AEMET)",
+      "text": "Centro de Lugo: Moderate thunderstorm warning. Centro de Lugo (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Central y Valles Mineros",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Central y Valles Mineros",
+      "provincia": "Sur de Lugo",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Sur de Lugo",
       "nivel": "Naranja",
-      "text": "Central y Valles Mineros: Aviso de tormentas de nivel amarillo. Central y Valles Mineros (Naranja) (AEMET)",
+      "text": "Sur de Lugo: Aviso de tormentas de nivel amarillo. Sur de Lugo (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Central y Valles Mineros",
-      "fenomeno": "Moderate thunderstorm warning. Central y Valles Mineros",
+      "provincia": "Sur de Lugo",
+      "fenomeno": "Moderate thunderstorm warning. Sur de Lugo",
       "nivel": "Naranja",
-      "text": "Central y Valles Mineros: Moderate thunderstorm warning. Central y Valles Mineros (Naranja) (AEMET)",
+      "text": "Sur de Lugo: Moderate thunderstorm warning. Sur de Lugo (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⛈️",
-      "provincia": "Cordillera y Picos de Europa",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Cordillera y Picos de Europa",
-      "nivel": "Naranja",
-      "text": "Cordillera y Picos de Europa: Aviso de tormentas de nivel amarillo. Cordillera y Picos de Europa (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cordillera y Picos de Europa",
-      "fenomeno": "Moderate thunderstorm warning. Cordillera y Picos de Europa",
-      "nivel": "Naranja",
-      "text": "Cordillera y Picos de Europa: Moderate thunderstorm warning. Cordillera y Picos de Europa (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Liébana",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Liébana",
-      "nivel": "Naranja",
-      "text": "Liébana: Aviso de tormentas de nivel amarillo. Liébana (Naranja) (AEMET)",
+      "icon": "🌡️",
+      "provincia": "Sur de Ávila",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Sur de Ávila",
+      "nivel": "Rojo",
+      "text": "Sur de Ávila: Aviso de temperaturas máximas de nivel naranja. Sur de Ávila (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Liébana",
-      "fenomeno": "Moderate thunderstorm warning. Liébana",
-      "nivel": "Naranja",
-      "text": "Liébana: Moderate thunderstorm warning. Liébana (Naranja) (AEMET)",
+      "provincia": "Sur de Ávila",
+      "fenomeno": "Severe high-temperature warning. Sur de Ávila",
+      "nivel": "Rojo",
+      "text": "Sur de Ávila: Severe high-temperature warning. Sur de Ávila (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
