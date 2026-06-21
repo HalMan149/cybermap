@@ -1,9 +1,41 @@
-// Auto-generado por GitHub Actions - 2026-06-21T07:27:20.419Z
+// Auto-generado por GitHub Actions - 2026-06-21T10:51:21.887Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-06-21T07:27:20.419Z",
+  "generated_at": "2026-06-21T10:51:21.887Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌡️",
+      "provincia": "La Mancha de Ciudad Real",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. La Mancha de Ciudad Real",
+      "nivel": "Rojo",
+      "text": "La Mancha de Ciudad Real: Aviso de temperaturas máximas de nivel naranja. La Mancha de Ciudad Real (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "La Mancha de Ciudad Real",
+      "fenomeno": "Severe high-temperature warning. La Mancha de Ciudad Real",
+      "nivel": "Rojo",
+      "text": "La Mancha de Ciudad Real: Severe high-temperature warning. La Mancha de Ciudad Real (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Valle del Guadiana",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Valle del Guadiana",
+      "nivel": "Rojo",
+      "text": "Valle del Guadiana: Aviso de temperaturas máximas de nivel naranja. Valle del Guadiana (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Valle del Guadiana",
+      "fenomeno": "Severe high-temperature warning. Valle del Guadiana",
+      "nivel": "Rojo",
+      "text": "Valle del Guadiana: Severe high-temperature warning. Valle del Guadiana (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌡️",
       "provincia": "Sierras de Alcudia y Madrona",
@@ -18,6 +50,38 @@ window.AEMET_AVISOS = {
       "fenomeno": "Severe high-temperature warning. Sierras de Alcudia y Madrona",
       "nivel": "Rojo",
       "text": "Sierras de Alcudia y Madrona: Severe high-temperature warning. Sierras de Alcudia y Madrona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Alcarria conquense",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Alcarria conquense",
+      "nivel": "Rojo",
+      "text": "Alcarria conquense: Aviso de temperaturas máximas de nivel naranja. Alcarria conquense (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Alcarria conquense",
+      "fenomeno": "Severe high-temperature warning. Alcarria conquense",
+      "nivel": "Rojo",
+      "text": "Alcarria conquense: Severe high-temperature warning. Alcarria conquense (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Alcarria de Guadalajara",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Alcarria de Guadalajara",
+      "nivel": "Rojo",
+      "text": "Alcarria de Guadalajara: Aviso de temperaturas máximas de nivel naranja. Alcarria de Guadalajara (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Alcarria de Guadalajara",
+      "fenomeno": "Severe high-temperature warning. Alcarria de Guadalajara",
+      "nivel": "Rojo",
+      "text": "Alcarria de Guadalajara: Severe high-temperature warning. Alcarria de Guadalajara (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -37,131 +101,67 @@ window.AEMET_AVISOS = {
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Suroccidental asturiana",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Suroccidental asturiana",
+      "icon": "🌡️",
+      "provincia": "Valle del Tajo",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Valle del Tajo",
       "nivel": "Rojo",
-      "text": "Suroccidental asturiana: Aviso de lluvias de nivel naranja. Suroccidental asturiana (Rojo) (AEMET)",
+      "text": "Valle del Tajo: Aviso de temperaturas máximas de nivel naranja. Valle del Tajo (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Suroccidental asturiana",
-      "fenomeno": "Severe rain warning. Suroccidental asturiana",
+      "provincia": "Valle del Tajo",
+      "fenomeno": "Severe high-temperature warning. Valle del Tajo",
       "nivel": "Rojo",
-      "text": "Suroccidental asturiana: Severe rain warning. Suroccidental asturiana (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Montaña de Lugo",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Montaña de Lugo",
-      "nivel": "Rojo",
-      "text": "Montaña de Lugo: Aviso de lluvias de nivel naranja. Montaña de Lugo (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Montaña de Lugo",
-      "fenomeno": "Severe rain warning. Montaña de Lugo",
-      "nivel": "Rojo",
-      "text": "Montaña de Lugo: Severe rain warning. Montaña de Lugo (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Suroccidental asturiana",
-      "fenomeno": "Aviso de tormentas de nivel naranja. Suroccidental asturiana",
-      "nivel": "Rojo",
-      "text": "Suroccidental asturiana: Aviso de tormentas de nivel naranja. Suroccidental asturiana (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Suroccidental asturiana",
-      "fenomeno": "Severe thunderstorm warning. Suroccidental asturiana",
-      "nivel": "Rojo",
-      "text": "Suroccidental asturiana: Severe thunderstorm warning. Suroccidental asturiana (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Montaña de Lugo",
-      "fenomeno": "Aviso de tormentas de nivel naranja. Montaña de Lugo",
-      "nivel": "Rojo",
-      "text": "Montaña de Lugo: Aviso de tormentas de nivel naranja. Montaña de Lugo (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Montaña de Lugo",
-      "fenomeno": "Severe thunderstorm warning. Montaña de Lugo",
-      "nivel": "Rojo",
-      "text": "Montaña de Lugo: Severe thunderstorm warning. Montaña de Lugo (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "A Mariña",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. A Mariña",
-      "nivel": "Naranja",
-      "text": "A Mariña: Aviso de tormentas de nivel amarillo. A Mariña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "A Mariña",
-      "fenomeno": "Moderate thunderstorm warning. A Mariña",
-      "nivel": "Naranja",
-      "text": "A Mariña: Moderate thunderstorm warning. A Mariña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Centro de Lugo",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Centro de Lugo",
-      "nivel": "Naranja",
-      "text": "Centro de Lugo: Aviso de tormentas de nivel amarillo. Centro de Lugo (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Centro de Lugo",
-      "fenomeno": "Moderate thunderstorm warning. Centro de Lugo",
-      "nivel": "Naranja",
-      "text": "Centro de Lugo: Moderate thunderstorm warning. Centro de Lugo (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Sur de Lugo",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Sur de Lugo",
-      "nivel": "Naranja",
-      "text": "Sur de Lugo: Aviso de tormentas de nivel amarillo. Sur de Lugo (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sur de Lugo",
-      "fenomeno": "Moderate thunderstorm warning. Sur de Lugo",
-      "nivel": "Naranja",
-      "text": "Sur de Lugo: Moderate thunderstorm warning. Sur de Lugo (Naranja) (AEMET)",
+      "text": "Valle del Tajo: Severe high-temperature warning. Valle del Tajo (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌡️",
-      "provincia": "Sur de Ávila",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Sur de Ávila",
+      "provincia": "Montes de Toledo",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Montes de Toledo",
       "nivel": "Rojo",
-      "text": "Sur de Ávila: Aviso de temperaturas máximas de nivel naranja. Sur de Ávila (Rojo) (AEMET)",
+      "text": "Montes de Toledo: Aviso de temperaturas máximas de nivel naranja. Montes de Toledo (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sur de Ávila",
-      "fenomeno": "Severe high-temperature warning. Sur de Ávila",
+      "provincia": "Montes de Toledo",
+      "fenomeno": "Severe high-temperature warning. Montes de Toledo",
       "nivel": "Rojo",
-      "text": "Sur de Ávila: Severe high-temperature warning. Sur de Ávila (Rojo) (AEMET)",
+      "text": "Montes de Toledo: Severe high-temperature warning. Montes de Toledo (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "La Mancha toledana",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. La Mancha toledana",
+      "nivel": "Rojo",
+      "text": "La Mancha toledana: Aviso de temperaturas máximas de nivel naranja. La Mancha toledana (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "La Mancha toledana",
+      "fenomeno": "Severe high-temperature warning. La Mancha toledana",
+      "nivel": "Rojo",
+      "text": "La Mancha toledana: Severe high-temperature warning. La Mancha toledana (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Sierra de Madrid",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Sierra de Madrid",
+      "nivel": "Rojo",
+      "text": "Sierra de Madrid: Aviso de temperaturas máximas de nivel naranja. Sierra de Madrid (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sierra de Madrid",
+      "fenomeno": "Severe high-temperature warning. Sierra de Madrid",
+      "nivel": "Rojo",
+      "text": "Sierra de Madrid: Severe high-temperature warning. Sierra de Madrid (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
