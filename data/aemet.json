@@ -1,8 +1,40 @@
 {
-  "generated_at": "2026-06-22T21:47:30.281Z",
+  "generated_at": "2026-06-22T23:13:10.648Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌡️",
+      "provincia": "Gipuzkoa litoral",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Gipuzkoa litoral",
+      "nivel": "Rojo",
+      "text": "Gipuzkoa litoral: Aviso de temperaturas máximas de nivel naranja. Gipuzkoa litoral (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Gipuzkoa litoral",
+      "fenomeno": "Severe high-temperature warning. Gipuzkoa litoral",
+      "nivel": "Rojo",
+      "text": "Gipuzkoa litoral: Severe high-temperature warning. Gipuzkoa litoral (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Bizkaia litoral",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Bizkaia litoral",
+      "nivel": "Rojo",
+      "text": "Bizkaia litoral: Aviso de temperaturas máximas de nivel naranja. Bizkaia litoral (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Bizkaia litoral",
+      "fenomeno": "Severe high-temperature warning. Bizkaia litoral",
+      "nivel": "Rojo",
+      "text": "Bizkaia litoral: Severe high-temperature warning. Bizkaia litoral (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌊",
       "provincia": "Interior sur de Valencia",
@@ -129,38 +161,6 @@
       "fenomeno": "Moderate high-temperature warning. Sierra Tramontana",
       "nivel": "Naranja",
       "text": "Sierra Tramontana: Moderate high-temperature warning. Sierra Tramontana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Gipuzkoa interior",
-      "fenomeno": "Aviso de temperaturas máximas de nivel rojo. Gipuzkoa interior",
-      "nivel": "Rojo",
-      "text": "Gipuzkoa interior: Aviso de temperaturas máximas de nivel rojo. Gipuzkoa interior (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Gipuzkoa interior",
-      "fenomeno": "Extreme high-temperature warning. Gipuzkoa interior",
-      "nivel": "Rojo",
-      "text": "Gipuzkoa interior: Extreme high-temperature warning. Gipuzkoa interior (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Bizkaia interior",
-      "fenomeno": "Aviso de temperaturas máximas de nivel rojo. Bizkaia interior",
-      "nivel": "Rojo",
-      "text": "Bizkaia interior: Aviso de temperaturas máximas de nivel rojo. Bizkaia interior (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Bizkaia interior",
-      "fenomeno": "Extreme high-temperature warning. Bizkaia interior",
-      "nivel": "Rojo",
-      "text": "Bizkaia interior: Extreme high-temperature warning. Bizkaia interior (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
