@@ -1,9 +1,73 @@
-// Auto-generado por GitHub Actions - 2026-06-23T11:53:14.410Z
+// Auto-generado por GitHub Actions - 2026-06-23T14:31:06.921Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-06-23T11:53:14.410Z",
+  "generated_at": "2026-06-23T14:31:06.921Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌊",
+      "provincia": "Pirineo oscense",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Pirineo oscense",
+      "nivel": "Naranja",
+      "text": "Pirineo oscense: Aviso de temperaturas máximas de nivel amarillo. Pirineo oscense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Pirineo oscense",
+      "fenomeno": "Moderate high-temperature warning. Pirineo oscense",
+      "nivel": "Naranja",
+      "text": "Pirineo oscense: Moderate high-temperature warning. Pirineo oscense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Vertiente cantábrica de Navarra",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Vertiente cantábrica de Navarra",
+      "nivel": "Naranja",
+      "text": "Vertiente cantábrica de Navarra: Aviso de temperaturas máximas de nivel amarillo. Vertiente cantábrica de Navarra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Vertiente cantábrica de Navarra",
+      "fenomeno": "Moderate high-temperature warning. Vertiente cantábrica de Navarra",
+      "nivel": "Naranja",
+      "text": "Vertiente cantábrica de Navarra: Moderate high-temperature warning. Vertiente cantábrica de Navarra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Pirineo navarro",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Pirineo navarro",
+      "nivel": "Naranja",
+      "text": "Pirineo navarro: Aviso de temperaturas máximas de nivel amarillo. Pirineo navarro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Pirineo navarro",
+      "fenomeno": "Moderate high-temperature warning. Pirineo navarro",
+      "nivel": "Naranja",
+      "text": "Pirineo navarro: Moderate high-temperature warning. Pirineo navarro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Gipuzkoa interior",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Gipuzkoa interior",
+      "nivel": "Naranja",
+      "text": "Gipuzkoa interior: Aviso de temperaturas máximas de nivel amarillo. Gipuzkoa interior (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Gipuzkoa interior",
+      "fenomeno": "Moderate high-temperature warning. Gipuzkoa interior",
+      "nivel": "Naranja",
+      "text": "Gipuzkoa interior: Moderate high-temperature warning. Gipuzkoa interior (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌊",
       "provincia": "Interior de Mallorca",
@@ -98,70 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Severe high-temperature warning. Valle del Tajo",
       "nivel": "Rojo",
       "text": "Valle del Tajo: Severe high-temperature warning. Valle del Tajo (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Metropolitana y Henares",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Metropolitana y Henares",
-      "nivel": "Rojo",
-      "text": "Metropolitana y Henares: Aviso de temperaturas máximas de nivel naranja. Metropolitana y Henares (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Metropolitana y Henares",
-      "fenomeno": "Severe high-temperature warning. Metropolitana y Henares",
-      "nivel": "Rojo",
-      "text": "Metropolitana y Henares: Severe high-temperature warning. Metropolitana y Henares (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Sur, Vegas y Oeste",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Sur, Vegas y Oeste",
-      "nivel": "Rojo",
-      "text": "Sur, Vegas y Oeste: Aviso de temperaturas máximas de nivel naranja. Sur, Vegas y Oeste (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sur, Vegas y Oeste",
-      "fenomeno": "Severe high-temperature warning. Sur, Vegas y Oeste",
-      "nivel": "Rojo",
-      "text": "Sur, Vegas y Oeste: Severe high-temperature warning. Sur, Vegas y Oeste (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "La Mancha albaceteña",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. La Mancha albaceteña",
-      "nivel": "Naranja",
-      "text": "La Mancha albaceteña: Aviso de temperaturas máximas de nivel amarillo. La Mancha albaceteña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "La Mancha albaceteña",
-      "fenomeno": "Moderate high-temperature warning. La Mancha albaceteña",
-      "nivel": "Naranja",
-      "text": "La Mancha albaceteña: Moderate high-temperature warning. La Mancha albaceteña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Montes del norte y Anchuras",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Montes del norte y Anchuras",
-      "nivel": "Naranja",
-      "text": "Montes del norte y Anchuras: Aviso de temperaturas máximas de nivel amarillo. Montes del norte y Anchuras (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Montes del norte y Anchuras",
-      "fenomeno": "Moderate high-temperature warning. Montes del norte y Anchuras",
-      "nivel": "Naranja",
-      "text": "Montes del norte y Anchuras: Moderate high-temperature warning. Montes del norte y Anchuras (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
