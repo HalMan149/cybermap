@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-06-23T17:02:32.421Z
+// Auto-generado por GitHub Actions - 2026-06-23T19:17:16.555Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-06-23T17:02:32.421Z",
+  "generated_at": "2026-06-23T19:17:16.555Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "🌡️",
-      "provincia": "Liébana",
-      "fenomeno": "Aviso de temperaturas máximas de nivel rojo. Liébana",
+      "icon": "🌧️",
+      "provincia": "Centro de Lugo",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Centro de Lugo",
       "nivel": "Rojo",
-      "text": "Liébana: Aviso de temperaturas máximas de nivel rojo. Liébana (Rojo) (AEMET)",
+      "text": "Centro de Lugo: Aviso de lluvias de nivel naranja. Centro de Lugo (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Liébana",
-      "fenomeno": "Extreme high-temperature warning. Liébana",
+      "provincia": "Centro de Lugo",
+      "fenomeno": "Severe rain warning. Centro de Lugo",
       "nivel": "Rojo",
-      "text": "Liébana: Extreme high-temperature warning. Liébana (Rojo) (AEMET)",
+      "text": "Centro de Lugo: Severe rain warning. Centro de Lugo (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌡️",
-      "provincia": "Centro y valle de Villaverde",
-      "fenomeno": "Aviso de temperaturas máximas de nivel rojo. Centro y valle de Villaverde",
+      "icon": "🌧️",
+      "provincia": "Sur de Lugo",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Sur de Lugo",
       "nivel": "Rojo",
-      "text": "Centro y valle de Villaverde: Aviso de temperaturas máximas de nivel rojo. Centro y valle de Villaverde (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Centro y valle de Villaverde",
-      "fenomeno": "Extreme high-temperature warning. Centro y valle de Villaverde",
-      "nivel": "Rojo",
-      "text": "Centro y valle de Villaverde: Extreme high-temperature warning. Centro y valle de Villaverde (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Litoral cántabro",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Litoral cántabro",
-      "nivel": "Rojo",
-      "text": "Litoral cántabro: Aviso de temperaturas máximas de nivel naranja. Litoral cántabro (Rojo) (AEMET)",
+      "text": "Sur de Lugo: Aviso de lluvias de nivel naranja. Sur de Lugo (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Litoral cántabro",
-      "fenomeno": "Severe high-temperature warning. Litoral cántabro",
+      "provincia": "Sur de Lugo",
+      "fenomeno": "Severe rain warning. Sur de Lugo",
       "nivel": "Rojo",
-      "text": "Litoral cántabro: Severe high-temperature warning. Litoral cántabro (Rojo) (AEMET)",
+      "text": "Sur de Lugo: Severe rain warning. Sur de Lugo (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌡️",
-      "provincia": "Litoral cántabro",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Litoral cántabro",
+      "icon": "⛈️",
+      "provincia": "Centro de Lugo",
+      "fenomeno": "Aviso de tormentas de nivel naranja. Centro de Lugo",
       "nivel": "Rojo",
-      "text": "Litoral cántabro: Aviso de temperaturas máximas de nivel naranja. Litoral cántabro (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral cántabro",
-      "fenomeno": "Severe high-temperature warning. Litoral cántabro",
-      "nivel": "Rojo",
-      "text": "Litoral cántabro: Severe high-temperature warning. Litoral cántabro (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Valle del Guadalquivir de Jaén",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Valle del Guadalquivir de Jaén",
-      "nivel": "Rojo",
-      "text": "Valle del Guadalquivir de Jaén: Aviso de temperaturas máximas de nivel naranja. Valle del Guadalquivir de Jaén (Rojo) (AEMET)",
+      "text": "Centro de Lugo: Aviso de tormentas de nivel naranja. Centro de Lugo (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Valle del Guadalquivir de Jaén",
-      "fenomeno": "Severe high-temperature warning. Valle del Guadalquivir de Jaén",
+      "provincia": "Centro de Lugo",
+      "fenomeno": "Severe thunderstorm warning. Centro de Lugo",
       "nivel": "Rojo",
-      "text": "Valle del Guadalquivir de Jaén: Severe high-temperature warning. Valle del Guadalquivir de Jaén (Rojo) (AEMET)",
+      "text": "Centro de Lugo: Severe thunderstorm warning. Centro de Lugo (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌡️",
-      "provincia": "Morena y Condado",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Morena y Condado",
+      "icon": "⛈️",
+      "provincia": "Sur de Lugo",
+      "fenomeno": "Aviso de tormentas de nivel naranja. Sur de Lugo",
       "nivel": "Rojo",
-      "text": "Morena y Condado: Aviso de temperaturas máximas de nivel naranja. Morena y Condado (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Morena y Condado",
-      "fenomeno": "Severe high-temperature warning. Morena y Condado",
-      "nivel": "Rojo",
-      "text": "Morena y Condado: Severe high-temperature warning. Morena y Condado (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Cazorla y Segura",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Cazorla y Segura",
-      "nivel": "Rojo",
-      "text": "Cazorla y Segura: Aviso de temperaturas máximas de nivel naranja. Cazorla y Segura (Rojo) (AEMET)",
+      "text": "Sur de Lugo: Aviso de tormentas de nivel naranja. Sur de Lugo (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Cazorla y Segura",
-      "fenomeno": "Severe high-temperature warning. Cazorla y Segura",
+      "provincia": "Sur de Lugo",
+      "fenomeno": "Severe thunderstorm warning. Sur de Lugo",
       "nivel": "Rojo",
-      "text": "Cazorla y Segura: Severe high-temperature warning. Cazorla y Segura (Rojo) (AEMET)",
+      "text": "Sur de Lugo: Severe thunderstorm warning. Sur de Lugo (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Valle del Guadalquivir de Jaén",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Valle del Guadalquivir de Jaén",
+      "provincia": "Litoral oriental asturiano",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Litoral oriental asturiano",
       "nivel": "Naranja",
-      "text": "Valle del Guadalquivir de Jaén: Aviso de temperaturas máximas de nivel amarillo. Valle del Guadalquivir de Jaén (Naranja) (AEMET)",
+      "text": "Litoral oriental asturiano: Aviso de temperaturas máximas de nivel amarillo. Litoral oriental asturiano (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Valle del Guadalquivir de Jaén",
-      "fenomeno": "Moderate high-temperature warning. Valle del Guadalquivir de Jaén",
+      "provincia": "Litoral oriental asturiano",
+      "fenomeno": "Moderate high-temperature warning. Litoral oriental asturiano",
       "nivel": "Naranja",
-      "text": "Valle del Guadalquivir de Jaén: Moderate high-temperature warning. Valle del Guadalquivir de Jaén (Naranja) (AEMET)",
+      "text": "Litoral oriental asturiano: Moderate high-temperature warning. Litoral oriental asturiano (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⛈️",
-      "provincia": "Cordillera Cantábrica de León",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Cordillera Cantábrica de León",
+      "icon": "🌊",
+      "provincia": "A Mariña",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. A Mariña",
       "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de León: Aviso de tormentas de nivel amarillo. Cordillera Cantábrica de León (Naranja) (AEMET)",
+      "text": "A Mariña: Aviso de temperaturas máximas de nivel amarillo. A Mariña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "A Mariña",
+      "fenomeno": "Moderate high-temperature warning. A Mariña",
+      "nivel": "Naranja",
+      "text": "A Mariña: Moderate high-temperature warning. A Mariña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Suroccidental asturiana",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Suroccidental asturiana",
+      "nivel": "Naranja",
+      "text": "Suroccidental asturiana: Aviso de lluvias de nivel amarillo. Suroccidental asturiana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Cordillera Cantábrica de León",
-      "fenomeno": "Moderate thunderstorm warning. Cordillera Cantábrica de León",
+      "provincia": "Suroccidental asturiana",
+      "fenomeno": "Moderate rain warning. Suroccidental asturiana",
       "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de León: Moderate thunderstorm warning. Cordillera Cantábrica de León (Naranja) (AEMET)",
+      "text": "Suroccidental asturiana: Moderate rain warning. Suroccidental asturiana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⛈️",
-      "provincia": "Bierzo de León",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Bierzo de León",
+      "icon": "🌧️",
+      "provincia": "Interior de A Coruña",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Interior de A Coruña",
       "nivel": "Naranja",
-      "text": "Bierzo de León: Aviso de tormentas de nivel amarillo. Bierzo de León (Naranja) (AEMET)",
+      "text": "Interior de A Coruña: Aviso de lluvias de nivel amarillo. Interior de A Coruña (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Bierzo de León",
-      "fenomeno": "Moderate thunderstorm warning. Bierzo de León",
+      "provincia": "Interior de A Coruña",
+      "fenomeno": "Moderate rain warning. Interior de A Coruña",
       "nivel": "Naranja",
-      "text": "Bierzo de León: Moderate thunderstorm warning. Bierzo de León (Naranja) (AEMET)",
+      "text": "Interior de A Coruña: Moderate rain warning. Interior de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "A Mariña",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. A Mariña",
+      "nivel": "Naranja",
+      "text": "A Mariña: Aviso de lluvias de nivel amarillo. A Mariña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "A Mariña",
+      "fenomeno": "Moderate rain warning. A Mariña",
+      "nivel": "Naranja",
+      "text": "A Mariña: Moderate rain warning. A Mariña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Montaña de Lugo",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Montaña de Lugo",
+      "nivel": "Naranja",
+      "text": "Montaña de Lugo: Aviso de lluvias de nivel amarillo. Montaña de Lugo (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Montaña de Lugo",
+      "fenomeno": "Moderate rain warning. Montaña de Lugo",
+      "nivel": "Naranja",
+      "text": "Montaña de Lugo: Moderate rain warning. Montaña de Lugo (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
