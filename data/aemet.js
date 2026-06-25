@@ -1,9 +1,57 @@
-// Auto-generado por GitHub Actions - 2026-06-25T17:28:11.395Z
+// Auto-generado por GitHub Actions - 2026-06-25T19:23:29.507Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-06-25T17:28:11.395Z",
+  "generated_at": "2026-06-25T19:23:29.507Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "⛈️",
+      "provincia": "Ribera del Ebro de Zaragoza",
+      "fenomeno": "Aviso de tormentas de nivel naranja. Ribera del Ebro de Zaragoza",
+      "nivel": "Rojo",
+      "text": "Ribera del Ebro de Zaragoza: Aviso de tormentas de nivel naranja. Ribera del Ebro de Zaragoza (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ribera del Ebro de Zaragoza",
+      "fenomeno": "Severe thunderstorm warning. Ribera del Ebro de Zaragoza",
+      "nivel": "Rojo",
+      "text": "Ribera del Ebro de Zaragoza: Severe thunderstorm warning. Ribera del Ebro de Zaragoza (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Ribera del Ebro de Zaragoza",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Ribera del Ebro de Zaragoza",
+      "nivel": "Rojo",
+      "text": "Ribera del Ebro de Zaragoza: Aviso de lluvias de nivel naranja. Ribera del Ebro de Zaragoza (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ribera del Ebro de Zaragoza",
+      "fenomeno": "Severe rain warning. Ribera del Ebro de Zaragoza",
+      "nivel": "Rojo",
+      "text": "Ribera del Ebro de Zaragoza: Severe rain warning. Ribera del Ebro de Zaragoza (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Ibérica zaragozana",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Ibérica zaragozana",
+      "nivel": "Rojo",
+      "text": "Ibérica zaragozana: Aviso de lluvias de nivel naranja. Ibérica zaragozana (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ibérica zaragozana",
+      "fenomeno": "Severe rain warning. Ibérica zaragozana",
+      "nivel": "Rojo",
+      "text": "Ibérica zaragozana: Severe rain warning. Ibérica zaragozana (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌊",
       "provincia": "Ribera del Ebro de Zaragoza",
@@ -114,54 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate high-temperature warning. Prelitoral de Girona",
       "nivel": "Naranja",
       "text": "Prelitoral de Girona: Moderate high-temperature warning. Prelitoral de Girona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Depresión central de Lleida",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Depresión central de Lleida",
-      "nivel": "Naranja",
-      "text": "Depresión central de Lleida: Aviso de temperaturas máximas de nivel amarillo. Depresión central de Lleida (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Depresión central de Lleida",
-      "fenomeno": "Moderate high-temperature warning. Depresión central de Lleida",
-      "nivel": "Naranja",
-      "text": "Depresión central de Lleida: Moderate high-temperature warning. Depresión central de Lleida (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Depresión central de Tarragona",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Depresión central de Tarragona",
-      "nivel": "Naranja",
-      "text": "Depresión central de Tarragona: Aviso de temperaturas máximas de nivel amarillo. Depresión central de Tarragona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Depresión central de Tarragona",
-      "fenomeno": "Moderate high-temperature warning. Depresión central de Tarragona",
-      "nivel": "Naranja",
-      "text": "Depresión central de Tarragona: Moderate high-temperature warning. Depresión central de Tarragona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Litoral occidental asturiano",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Litoral occidental asturiano",
-      "nivel": "Rojo",
-      "text": "Litoral occidental asturiano: Aviso de lluvias de nivel naranja. Litoral occidental asturiano (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral occidental asturiano",
-      "fenomeno": "Severe rain warning. Litoral occidental asturiano",
-      "nivel": "Rojo",
-      "text": "Litoral occidental asturiano: Severe rain warning. Litoral occidental asturiano (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
