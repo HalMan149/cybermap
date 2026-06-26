@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-06-26T20:53:29.519Z
+// Auto-generado por GitHub Actions - 2026-06-26T22:04:20.021Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-06-26T20:53:29.519Z",
+  "generated_at": "2026-06-26T22:04:20.021Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "🌊",
-      "provincia": "Ampurdán",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Ampurdán",
+      "icon": "⛈️",
+      "provincia": "La Mancha albaceteña",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. La Mancha albaceteña",
       "nivel": "Naranja",
-      "text": "Ampurdán: Aviso de temperaturas máximas de nivel amarillo. Ampurdán (Naranja) (AEMET)",
+      "text": "La Mancha albaceteña: Aviso de tormentas de nivel amarillo. La Mancha albaceteña (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Ampurdán",
-      "fenomeno": "Moderate high-temperature warning. Ampurdán",
+      "provincia": "La Mancha albaceteña",
+      "fenomeno": "Moderate thunderstorm warning. La Mancha albaceteña",
       "nivel": "Naranja",
-      "text": "Ampurdán: Moderate high-temperature warning. Ampurdán (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Prelitoral de Girona",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Prelitoral de Girona",
-      "nivel": "Naranja",
-      "text": "Prelitoral de Girona: Aviso de temperaturas máximas de nivel amarillo. Prelitoral de Girona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Prelitoral de Girona",
-      "fenomeno": "Moderate high-temperature warning. Prelitoral de Girona",
-      "nivel": "Naranja",
-      "text": "Prelitoral de Girona: Moderate high-temperature warning. Prelitoral de Girona (Naranja) (AEMET)",
+      "text": "La Mancha albaceteña: Moderate thunderstorm warning. La Mancha albaceteña (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Cinco Villas de Zaragoza",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Cinco Villas de Zaragoza",
+      "provincia": "Serranía de Cuenca",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Serranía de Cuenca",
       "nivel": "Naranja",
-      "text": "Cinco Villas de Zaragoza: Aviso de tormentas de nivel amarillo. Cinco Villas de Zaragoza (Naranja) (AEMET)",
+      "text": "Serranía de Cuenca: Aviso de tormentas de nivel amarillo. Serranía de Cuenca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Cinco Villas de Zaragoza",
-      "fenomeno": "Moderate thunderstorm warning. Cinco Villas de Zaragoza",
+      "provincia": "Serranía de Cuenca",
+      "fenomeno": "Moderate thunderstorm warning. Serranía de Cuenca",
       "nivel": "Naranja",
-      "text": "Cinco Villas de Zaragoza: Moderate thunderstorm warning. Cinco Villas de Zaragoza (Naranja) (AEMET)",
+      "text": "Serranía de Cuenca: Moderate thunderstorm warning. Serranía de Cuenca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Vertiente cantábrica de Navarra",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Vertiente cantábrica de Navarra",
+      "provincia": "La Mancha conquense",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. La Mancha conquense",
       "nivel": "Naranja",
-      "text": "Vertiente cantábrica de Navarra: Aviso de tormentas de nivel amarillo. Vertiente cantábrica de Navarra (Naranja) (AEMET)",
+      "text": "La Mancha conquense: Aviso de tormentas de nivel amarillo. La Mancha conquense (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Vertiente cantábrica de Navarra",
-      "fenomeno": "Moderate thunderstorm warning. Vertiente cantábrica de Navarra",
+      "provincia": "La Mancha conquense",
+      "fenomeno": "Moderate thunderstorm warning. La Mancha conquense",
       "nivel": "Naranja",
-      "text": "Vertiente cantábrica de Navarra: Moderate thunderstorm warning. Vertiente cantábrica de Navarra (Naranja) (AEMET)",
+      "text": "La Mancha conquense: Moderate thunderstorm warning. La Mancha conquense (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
+      "provincia": "Parameras de Molina",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Parameras de Molina",
+      "nivel": "Naranja",
+      "text": "Parameras de Molina: Aviso de tormentas de nivel amarillo. Parameras de Molina (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Parameras de Molina",
+      "fenomeno": "Moderate thunderstorm warning. Parameras de Molina",
+      "nivel": "Naranja",
+      "text": "Parameras de Molina: Moderate thunderstorm warning. Parameras de Molina (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
       "provincia": "Centro de Navarra",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Centro de Navarra",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Centro de Navarra",
       "nivel": "Naranja",
-      "text": "Centro de Navarra: Aviso de tormentas de nivel amarillo. Centro de Navarra (Naranja) (AEMET)",
+      "text": "Centro de Navarra: Aviso de lluvias de nivel amarillo. Centro de Navarra (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
       "provincia": "Centro de Navarra",
-      "fenomeno": "Moderate thunderstorm warning. Centro de Navarra",
+      "fenomeno": "Moderate rain warning. Centro de Navarra",
       "nivel": "Naranja",
-      "text": "Centro de Navarra: Moderate thunderstorm warning. Centro de Navarra (Naranja) (AEMET)",
+      "text": "Centro de Navarra: Moderate rain warning. Centro de Navarra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Pirineo navarro",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Pirineo navarro",
+      "nivel": "Naranja",
+      "text": "Pirineo navarro: Aviso de lluvias de nivel amarillo. Pirineo navarro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Pirineo navarro",
+      "fenomeno": "Moderate rain warning. Pirineo navarro",
+      "nivel": "Naranja",
+      "text": "Pirineo navarro: Moderate rain warning. Pirineo navarro (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Pirineo navarro",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Pirineo navarro",
+      "provincia": "Centro de Huesca",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Centro de Huesca",
       "nivel": "Naranja",
-      "text": "Pirineo navarro: Aviso de tormentas de nivel amarillo. Pirineo navarro (Naranja) (AEMET)",
+      "text": "Centro de Huesca: Aviso de tormentas de nivel amarillo. Centro de Huesca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Pirineo navarro",
-      "fenomeno": "Moderate thunderstorm warning. Pirineo navarro",
+      "provincia": "Centro de Huesca",
+      "fenomeno": "Moderate thunderstorm warning. Centro de Huesca",
       "nivel": "Naranja",
-      "text": "Pirineo navarro: Moderate thunderstorm warning. Pirineo navarro (Naranja) (AEMET)",
+      "text": "Centro de Huesca: Moderate thunderstorm warning. Centro de Huesca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Interior de Mallorca",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Interior de Mallorca",
+      "icon": "⛈️",
+      "provincia": "Sur de Huesca",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Sur de Huesca",
       "nivel": "Naranja",
-      "text": "Interior de Mallorca: Aviso de temperaturas máximas de nivel amarillo. Interior de Mallorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior de Mallorca",
-      "fenomeno": "Moderate high-temperature warning. Interior de Mallorca",
-      "nivel": "Naranja",
-      "text": "Interior de Mallorca: Moderate high-temperature warning. Interior de Mallorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Sur de Mallorca",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Sur de Mallorca",
-      "nivel": "Naranja",
-      "text": "Sur de Mallorca: Aviso de temperaturas máximas de nivel amarillo. Sur de Mallorca (Naranja) (AEMET)",
+      "text": "Sur de Huesca: Aviso de tormentas de nivel amarillo. Sur de Huesca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sur de Mallorca",
-      "fenomeno": "Moderate high-temperature warning. Sur de Mallorca",
+      "provincia": "Sur de Huesca",
+      "fenomeno": "Moderate thunderstorm warning. Sur de Huesca",
       "nivel": "Naranja",
-      "text": "Sur de Mallorca: Moderate high-temperature warning. Sur de Mallorca (Naranja) (AEMET)",
+      "text": "Sur de Huesca: Moderate thunderstorm warning. Sur de Huesca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Ampurdán",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Ampurdán",
+      "icon": "⛈️",
+      "provincia": "Albarracín y Jiloca",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Albarracín y Jiloca",
       "nivel": "Naranja",
-      "text": "Ampurdán: Aviso de temperaturas máximas de nivel amarillo. Ampurdán (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ampurdán",
-      "fenomeno": "Moderate high-temperature warning. Ampurdán",
-      "nivel": "Naranja",
-      "text": "Ampurdán: Moderate high-temperature warning. Ampurdán (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Campiña cordobesa",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Campiña cordobesa",
-      "nivel": "Naranja",
-      "text": "Campiña cordobesa: Aviso de temperaturas máximas de nivel amarillo. Campiña cordobesa (Naranja) (AEMET)",
+      "text": "Albarracín y Jiloca: Aviso de tormentas de nivel amarillo. Albarracín y Jiloca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Campiña cordobesa",
-      "fenomeno": "Moderate high-temperature warning. Campiña cordobesa",
+      "provincia": "Albarracín y Jiloca",
+      "fenomeno": "Moderate thunderstorm warning. Albarracín y Jiloca",
       "nivel": "Naranja",
-      "text": "Campiña cordobesa: Moderate high-temperature warning. Campiña cordobesa (Naranja) (AEMET)",
+      "text": "Albarracín y Jiloca: Moderate thunderstorm warning. Albarracín y Jiloca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Bajo Aragón de Teruel",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Bajo Aragón de Teruel",
+      "nivel": "Naranja",
+      "text": "Bajo Aragón de Teruel: Aviso de tormentas de nivel amarillo. Bajo Aragón de Teruel (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Bajo Aragón de Teruel",
+      "fenomeno": "Moderate thunderstorm warning. Bajo Aragón de Teruel",
+      "nivel": "Naranja",
+      "text": "Bajo Aragón de Teruel: Moderate thunderstorm warning. Bajo Aragón de Teruel (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
