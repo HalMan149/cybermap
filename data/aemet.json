@@ -1,118 +1,38 @@
 {
-  "generated_at": "2026-06-26T07:43:05.257Z",
+  "generated_at": "2026-06-26T10:38:27.244Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "⛈️",
-      "provincia": "Cinco Villas de Zaragoza",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Cinco Villas de Zaragoza",
+      "icon": "🌊",
+      "provincia": "Ribera del Ebro de La Rioja",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Ribera del Ebro de La Rioja",
       "nivel": "Naranja",
-      "text": "Cinco Villas de Zaragoza: Aviso de tormentas de nivel amarillo. Cinco Villas de Zaragoza (Naranja) (AEMET)",
+      "text": "Ribera del Ebro de La Rioja: Aviso de temperaturas máximas de nivel amarillo. Ribera del Ebro de La Rioja (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Cinco Villas de Zaragoza",
-      "fenomeno": "Moderate thunderstorm warning. Cinco Villas de Zaragoza",
+      "provincia": "Ribera del Ebro de La Rioja",
+      "fenomeno": "Moderate high-temperature warning. Ribera del Ebro de La Rioja",
       "nivel": "Naranja",
-      "text": "Cinco Villas de Zaragoza: Moderate thunderstorm warning. Cinco Villas de Zaragoza (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Ibérica zaragozana",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Ibérica zaragozana",
-      "nivel": "Naranja",
-      "text": "Ibérica zaragozana: Aviso de tormentas de nivel amarillo. Ibérica zaragozana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ibérica zaragozana",
-      "fenomeno": "Moderate thunderstorm warning. Ibérica zaragozana",
-      "nivel": "Naranja",
-      "text": "Ibérica zaragozana: Moderate thunderstorm warning. Ibérica zaragozana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Ribera del Ebro de Zaragoza",
-      "fenomeno": "Aviso de tormentas de nivel naranja. Ribera del Ebro de Zaragoza",
-      "nivel": "Rojo",
-      "text": "Ribera del Ebro de Zaragoza: Aviso de tormentas de nivel naranja. Ribera del Ebro de Zaragoza (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ribera del Ebro de Zaragoza",
-      "fenomeno": "Severe thunderstorm warning. Ribera del Ebro de Zaragoza",
-      "nivel": "Rojo",
-      "text": "Ribera del Ebro de Zaragoza: Severe thunderstorm warning. Ribera del Ebro de Zaragoza (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Ribera del Ebro de Zaragoza",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Ribera del Ebro de Zaragoza",
-      "nivel": "Rojo",
-      "text": "Ribera del Ebro de Zaragoza: Aviso de lluvias de nivel naranja. Ribera del Ebro de Zaragoza (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ribera del Ebro de Zaragoza",
-      "fenomeno": "Severe rain warning. Ribera del Ebro de Zaragoza",
-      "nivel": "Rojo",
-      "text": "Ribera del Ebro de Zaragoza: Severe rain warning. Ribera del Ebro de Zaragoza (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Ibérica zaragozana",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Ibérica zaragozana",
-      "nivel": "Rojo",
-      "text": "Ibérica zaragozana: Aviso de lluvias de nivel naranja. Ibérica zaragozana (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ibérica zaragozana",
-      "fenomeno": "Severe rain warning. Ibérica zaragozana",
-      "nivel": "Rojo",
-      "text": "Ibérica zaragozana: Severe rain warning. Ibérica zaragozana (Rojo) (AEMET)",
+      "text": "Ribera del Ebro de La Rioja: Moderate high-temperature warning. Ribera del Ebro de La Rioja (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Ribera del Ebro de Zaragoza",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Ribera del Ebro de Zaragoza",
+      "provincia": "Centro de Navarra",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Centro de Navarra",
       "nivel": "Naranja",
-      "text": "Ribera del Ebro de Zaragoza: Aviso de temperaturas máximas de nivel amarillo. Ribera del Ebro de Zaragoza (Naranja) (AEMET)",
+      "text": "Centro de Navarra: Aviso de temperaturas máximas de nivel amarillo. Centro de Navarra (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Ribera del Ebro de Zaragoza",
-      "fenomeno": "Moderate high-temperature warning. Ribera del Ebro de Zaragoza",
+      "provincia": "Centro de Navarra",
+      "fenomeno": "Moderate high-temperature warning. Centro de Navarra",
       "nivel": "Naranja",
-      "text": "Ribera del Ebro de Zaragoza: Moderate high-temperature warning. Ribera del Ebro de Zaragoza (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Depresión central de Lleida",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Depresión central de Lleida",
-      "nivel": "Naranja",
-      "text": "Depresión central de Lleida: Aviso de temperaturas máximas de nivel amarillo. Depresión central de Lleida (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Depresión central de Lleida",
-      "fenomeno": "Moderate high-temperature warning. Depresión central de Lleida",
-      "nivel": "Naranja",
-      "text": "Depresión central de Lleida: Moderate high-temperature warning. Depresión central de Lleida (Naranja) (AEMET)",
+      "text": "Centro de Navarra: Moderate high-temperature warning. Centro de Navarra (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -129,6 +49,38 @@
       "fenomeno": "Moderate high-temperature warning. Pirineo navarro",
       "nivel": "Naranja",
       "text": "Pirineo navarro: Moderate high-temperature warning. Pirineo navarro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Ribera del Ebro de Navarra",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Ribera del Ebro de Navarra",
+      "nivel": "Naranja",
+      "text": "Ribera del Ebro de Navarra: Aviso de temperaturas máximas de nivel amarillo. Ribera del Ebro de Navarra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ribera del Ebro de Navarra",
+      "fenomeno": "Moderate high-temperature warning. Ribera del Ebro de Navarra",
+      "nivel": "Naranja",
+      "text": "Ribera del Ebro de Navarra: Moderate high-temperature warning. Ribera del Ebro de Navarra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Vertiente cantábrica de Navarra",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Vertiente cantábrica de Navarra",
+      "nivel": "Naranja",
+      "text": "Vertiente cantábrica de Navarra: Aviso de tormentas de nivel amarillo. Vertiente cantábrica de Navarra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Vertiente cantábrica de Navarra",
+      "fenomeno": "Moderate thunderstorm warning. Vertiente cantábrica de Navarra",
+      "nivel": "Naranja",
+      "text": "Vertiente cantábrica de Navarra: Moderate thunderstorm warning. Vertiente cantábrica de Navarra (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -149,18 +101,66 @@
     },
     {
       "icon": "🌊",
-      "provincia": "Ribera del Ebro de Zaragoza",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Ribera del Ebro de Zaragoza",
+      "provincia": "Serranía de Cuenca",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Serranía de Cuenca",
       "nivel": "Naranja",
-      "text": "Ribera del Ebro de Zaragoza: Aviso de temperaturas máximas de nivel amarillo. Ribera del Ebro de Zaragoza (Naranja) (AEMET)",
+      "text": "Serranía de Cuenca: Aviso de temperaturas máximas de nivel amarillo. Serranía de Cuenca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Ribera del Ebro de Zaragoza",
-      "fenomeno": "Moderate high-temperature warning. Ribera del Ebro de Zaragoza",
+      "provincia": "Serranía de Cuenca",
+      "fenomeno": "Moderate high-temperature warning. Serranía de Cuenca",
       "nivel": "Naranja",
-      "text": "Ribera del Ebro de Zaragoza: Moderate high-temperature warning. Ribera del Ebro de Zaragoza (Naranja) (AEMET)",
+      "text": "Serranía de Cuenca: Moderate high-temperature warning. Serranía de Cuenca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Ampurdán",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Ampurdán",
+      "nivel": "Naranja",
+      "text": "Ampurdán: Aviso de temperaturas máximas de nivel amarillo. Ampurdán (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ampurdán",
+      "fenomeno": "Moderate high-temperature warning. Ampurdán",
+      "nivel": "Naranja",
+      "text": "Ampurdán: Moderate high-temperature warning. Ampurdán (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Pirineo oscense",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Pirineo oscense",
+      "nivel": "Naranja",
+      "text": "Pirineo oscense: Aviso de temperaturas máximas de nivel amarillo. Pirineo oscense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Pirineo oscense",
+      "fenomeno": "Moderate high-temperature warning. Pirineo oscense",
+      "nivel": "Naranja",
+      "text": "Pirineo oscense: Moderate high-temperature warning. Pirineo oscense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Centro de Huesca",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Centro de Huesca",
+      "nivel": "Naranja",
+      "text": "Centro de Huesca: Aviso de temperaturas máximas de nivel amarillo. Centro de Huesca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Centro de Huesca",
+      "fenomeno": "Moderate high-temperature warning. Centro de Huesca",
+      "nivel": "Naranja",
+      "text": "Centro de Huesca: Moderate high-temperature warning. Centro de Huesca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
