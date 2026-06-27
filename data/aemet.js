@@ -1,9 +1,73 @@
-// Auto-generado por GitHub Actions - 2026-06-27T20:57:32.291Z
+// Auto-generado por GitHub Actions - 2026-06-27T22:01:05.412Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-06-27T20:57:32.291Z",
+  "generated_at": "2026-06-27T22:01:05.412Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Bizkaia litoral",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Bizkaia litoral",
+      "nivel": "Naranja",
+      "text": "Bizkaia litoral: Aviso de lluvias de nivel amarillo. Bizkaia litoral (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Bizkaia litoral",
+      "fenomeno": "Moderate rain warning. Bizkaia litoral",
+      "nivel": "Naranja",
+      "text": "Bizkaia litoral: Moderate rain warning. Bizkaia litoral (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Bizkaia interior",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Bizkaia interior",
+      "nivel": "Naranja",
+      "text": "Bizkaia interior: Aviso de lluvias de nivel amarillo. Bizkaia interior (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Bizkaia interior",
+      "fenomeno": "Moderate rain warning. Bizkaia interior",
+      "nivel": "Naranja",
+      "text": "Bizkaia interior: Moderate rain warning. Bizkaia interior (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Bizkaia litoral",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Bizkaia litoral",
+      "nivel": "Naranja",
+      "text": "Bizkaia litoral: Aviso de tormentas de nivel amarillo. Bizkaia litoral (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Bizkaia litoral",
+      "fenomeno": "Moderate thunderstorm warning. Bizkaia litoral",
+      "nivel": "Naranja",
+      "text": "Bizkaia litoral: Moderate thunderstorm warning. Bizkaia litoral (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Bizkaia interior",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Bizkaia interior",
+      "nivel": "Naranja",
+      "text": "Bizkaia interior: Aviso de tormentas de nivel amarillo. Bizkaia interior (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Bizkaia interior",
+      "fenomeno": "Moderate thunderstorm warning. Bizkaia interior",
+      "nivel": "Naranja",
+      "text": "Bizkaia interior: Moderate thunderstorm warning. Bizkaia interior (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "⛈️",
       "provincia": "La Mancha conquense",
@@ -18,38 +82,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate thunderstorm warning. La Mancha conquense",
       "nivel": "Naranja",
       "text": "La Mancha conquense: Moderate thunderstorm warning. La Mancha conquense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Cazorla y Segura",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Cazorla y Segura",
-      "nivel": "Naranja",
-      "text": "Cazorla y Segura: Aviso de tormentas de nivel amarillo. Cazorla y Segura (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cazorla y Segura",
-      "fenomeno": "Moderate thunderstorm warning. Cazorla y Segura",
-      "nivel": "Naranja",
-      "text": "Cazorla y Segura: Moderate thunderstorm warning. Cazorla y Segura (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Alcaraz y Segura",
-      "fenomeno": "Aviso de tormentas de nivel naranja. Alcaraz y Segura",
-      "nivel": "Rojo",
-      "text": "Alcaraz y Segura: Aviso de tormentas de nivel naranja. Alcaraz y Segura (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Alcaraz y Segura",
-      "fenomeno": "Severe thunderstorm warning. Alcaraz y Segura",
-      "nivel": "Rojo",
-      "text": "Alcaraz y Segura: Severe thunderstorm warning. Alcaraz y Segura (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -130,38 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate rain warning. Gipuzkoa interior",
       "nivel": "Naranja",
       "text": "Gipuzkoa interior: Moderate rain warning. Gipuzkoa interior (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Gipuzkoa litoral",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Gipuzkoa litoral",
-      "nivel": "Naranja",
-      "text": "Gipuzkoa litoral: Aviso de tormentas de nivel amarillo. Gipuzkoa litoral (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Gipuzkoa litoral",
-      "fenomeno": "Moderate thunderstorm warning. Gipuzkoa litoral",
-      "nivel": "Naranja",
-      "text": "Gipuzkoa litoral: Moderate thunderstorm warning. Gipuzkoa litoral (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Gipuzkoa interior",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Gipuzkoa interior",
-      "nivel": "Naranja",
-      "text": "Gipuzkoa interior: Aviso de tormentas de nivel amarillo. Gipuzkoa interior (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Gipuzkoa interior",
-      "fenomeno": "Moderate thunderstorm warning. Gipuzkoa interior",
-      "nivel": "Naranja",
-      "text": "Gipuzkoa interior: Moderate thunderstorm warning. Gipuzkoa interior (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
