@@ -1,9 +1,73 @@
-// Auto-generado por GitHub Actions - 2026-06-27T17:16:41.038Z
+// Auto-generado por GitHub Actions - 2026-06-27T18:41:40.000Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-06-27T17:16:41.038Z",
+  "generated_at": "2026-06-27T18:41:40.000Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "⛈️",
+      "provincia": "Alcaraz y Segura",
+      "fenomeno": "Aviso de tormentas de nivel naranja. Alcaraz y Segura",
+      "nivel": "Rojo",
+      "text": "Alcaraz y Segura: Aviso de tormentas de nivel naranja. Alcaraz y Segura (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Alcaraz y Segura",
+      "fenomeno": "Severe thunderstorm warning. Alcaraz y Segura",
+      "nivel": "Rojo",
+      "text": "Alcaraz y Segura: Severe thunderstorm warning. Alcaraz y Segura (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Litoral de Huelva",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Litoral de Huelva",
+      "nivel": "Naranja",
+      "text": "Litoral de Huelva: Aviso de temperaturas máximas de nivel amarillo. Litoral de Huelva (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral de Huelva",
+      "fenomeno": "Moderate high-temperature warning. Litoral de Huelva",
+      "nivel": "Naranja",
+      "text": "Litoral de Huelva: Moderate high-temperature warning. Litoral de Huelva (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Norte de Cáceres",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Norte de Cáceres",
+      "nivel": "Naranja",
+      "text": "Norte de Cáceres: Aviso de temperaturas máximas de nivel amarillo. Norte de Cáceres (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Norte de Cáceres",
+      "fenomeno": "Moderate high-temperature warning. Norte de Cáceres",
+      "nivel": "Naranja",
+      "text": "Norte de Cáceres: Moderate high-temperature warning. Norte de Cáceres (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Tajo y Alagón",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Tajo y Alagón",
+      "nivel": "Naranja",
+      "text": "Tajo y Alagón: Aviso de temperaturas máximas de nivel amarillo. Tajo y Alagón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Tajo y Alagón",
+      "fenomeno": "Moderate high-temperature warning. Tajo y Alagón",
+      "nivel": "Naranja",
+      "text": "Tajo y Alagón: Moderate high-temperature warning. Tajo y Alagón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "⛈️",
       "provincia": "Vertiente cantábrica de Navarra",
@@ -98,70 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate thunderstorm warning. Hellín y Almansa",
       "nivel": "Naranja",
       "text": "Hellín y Almansa: Moderate thunderstorm warning. Hellín y Almansa (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Interior de Alicante",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Interior de Alicante",
-      "nivel": "Naranja",
-      "text": "Interior de Alicante: Aviso de lluvias de nivel amarillo. Interior de Alicante (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior de Alicante",
-      "fenomeno": "Moderate rain warning. Interior de Alicante",
-      "nivel": "Naranja",
-      "text": "Interior de Alicante: Moderate rain warning. Interior de Alicante (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Litoral norte de Alicante",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Litoral norte de Alicante",
-      "nivel": "Naranja",
-      "text": "Litoral norte de Alicante: Aviso de tormentas de nivel amarillo. Litoral norte de Alicante (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral norte de Alicante",
-      "fenomeno": "Moderate thunderstorm warning. Litoral norte de Alicante",
-      "nivel": "Naranja",
-      "text": "Litoral norte de Alicante: Moderate thunderstorm warning. Litoral norte de Alicante (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Interior de Alicante",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Interior de Alicante",
-      "nivel": "Naranja",
-      "text": "Interior de Alicante: Aviso de tormentas de nivel amarillo. Interior de Alicante (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior de Alicante",
-      "fenomeno": "Moderate thunderstorm warning. Interior de Alicante",
-      "nivel": "Naranja",
-      "text": "Interior de Alicante: Moderate thunderstorm warning. Interior de Alicante (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Litoral sur de Valencia",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Litoral sur de Valencia",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Valencia: Aviso de tormentas de nivel amarillo. Litoral sur de Valencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral sur de Valencia",
-      "fenomeno": "Moderate thunderstorm warning. Litoral sur de Valencia",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Valencia: Moderate thunderstorm warning. Litoral sur de Valencia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
