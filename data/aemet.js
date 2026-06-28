@@ -1,9 +1,73 @@
-// Auto-generado por GitHub Actions - 2026-06-28T21:44:39.570Z
+// Auto-generado por GitHub Actions - 2026-06-28T22:44:07.778Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-06-28T21:44:39.570Z",
+  "generated_at": "2026-06-28T22:44:07.778Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Gipuzkoa litoral",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Gipuzkoa litoral",
+      "nivel": "Rojo",
+      "text": "Gipuzkoa litoral: Aviso de lluvias de nivel naranja. Gipuzkoa litoral (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Gipuzkoa litoral",
+      "fenomeno": "Severe rain warning. Gipuzkoa litoral",
+      "nivel": "Rojo",
+      "text": "Gipuzkoa litoral: Severe rain warning. Gipuzkoa litoral (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Gipuzkoa interior",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Gipuzkoa interior",
+      "nivel": "Naranja",
+      "text": "Gipuzkoa interior: Aviso de lluvias de nivel amarillo. Gipuzkoa interior (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Gipuzkoa interior",
+      "fenomeno": "Moderate rain warning. Gipuzkoa interior",
+      "nivel": "Naranja",
+      "text": "Gipuzkoa interior: Moderate rain warning. Gipuzkoa interior (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Gipuzkoa litoral",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Gipuzkoa litoral",
+      "nivel": "Naranja",
+      "text": "Gipuzkoa litoral: Aviso de tormentas de nivel amarillo. Gipuzkoa litoral (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Gipuzkoa litoral",
+      "fenomeno": "Moderate thunderstorm warning. Gipuzkoa litoral",
+      "nivel": "Naranja",
+      "text": "Gipuzkoa litoral: Moderate thunderstorm warning. Gipuzkoa litoral (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Gipuzkoa interior",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Gipuzkoa interior",
+      "nivel": "Naranja",
+      "text": "Gipuzkoa interior: Aviso de tormentas de nivel amarillo. Gipuzkoa interior (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Gipuzkoa interior",
+      "fenomeno": "Moderate thunderstorm warning. Gipuzkoa interior",
+      "nivel": "Naranja",
+      "text": "Gipuzkoa interior: Moderate thunderstorm warning. Gipuzkoa interior (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌊",
       "provincia": "Campiña gaditana",
@@ -98,70 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate high-temperature warning. Sur de Huesca",
       "nivel": "Naranja",
       "text": "Sur de Huesca: Moderate high-temperature warning. Sur de Huesca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Prelitoral de Barcelona",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Prelitoral de Barcelona",
-      "nivel": "Naranja",
-      "text": "Prelitoral de Barcelona: Aviso de temperaturas máximas de nivel amarillo. Prelitoral de Barcelona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Prelitoral de Barcelona",
-      "fenomeno": "Moderate high-temperature warning. Prelitoral de Barcelona",
-      "nivel": "Naranja",
-      "text": "Prelitoral de Barcelona: Moderate high-temperature warning. Prelitoral de Barcelona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Sur de Badajoz",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Sur de Badajoz",
-      "nivel": "Naranja",
-      "text": "Sur de Badajoz: Aviso de temperaturas máximas de nivel amarillo. Sur de Badajoz (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sur de Badajoz",
-      "fenomeno": "Moderate high-temperature warning. Sur de Badajoz",
-      "nivel": "Naranja",
-      "text": "Sur de Badajoz: Moderate high-temperature warning. Sur de Badajoz (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Interior norte de Castellón",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Interior norte de Castellón",
-      "nivel": "Naranja",
-      "text": "Interior norte de Castellón: Aviso de lluvias de nivel amarillo. Interior norte de Castellón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior norte de Castellón",
-      "fenomeno": "Moderate rain warning. Interior norte de Castellón",
-      "nivel": "Naranja",
-      "text": "Interior norte de Castellón: Moderate rain warning. Interior norte de Castellón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Interior norte de Castellón",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Interior norte de Castellón",
-      "nivel": "Naranja",
-      "text": "Interior norte de Castellón: Aviso de tormentas de nivel amarillo. Interior norte de Castellón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior norte de Castellón",
-      "fenomeno": "Moderate thunderstorm warning. Interior norte de Castellón",
-      "nivel": "Naranja",
-      "text": "Interior norte de Castellón: Moderate thunderstorm warning. Interior norte de Castellón (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
