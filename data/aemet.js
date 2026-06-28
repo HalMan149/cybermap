@@ -1,9 +1,105 @@
-// Auto-generado por GitHub Actions - 2026-06-28T14:14:07.509Z
+// Auto-generado por GitHub Actions - 2026-06-28T15:40:17.358Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-06-28T14:14:07.509Z",
+  "generated_at": "2026-06-28T15:40:17.358Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Cordillera Cantábrica de Burgos",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Cordillera Cantábrica de Burgos",
+      "nivel": "Naranja",
+      "text": "Cordillera Cantábrica de Burgos: Aviso de lluvias de nivel amarillo. Cordillera Cantábrica de Burgos (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cordillera Cantábrica de Burgos",
+      "fenomeno": "Moderate rain warning. Cordillera Cantábrica de Burgos",
+      "nivel": "Naranja",
+      "text": "Cordillera Cantábrica de Burgos: Moderate rain warning. Cordillera Cantábrica de Burgos (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Cordillera Cantábrica de Palencia",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Cordillera Cantábrica de Palencia",
+      "nivel": "Naranja",
+      "text": "Cordillera Cantábrica de Palencia: Aviso de lluvias de nivel amarillo. Cordillera Cantábrica de Palencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cordillera Cantábrica de Palencia",
+      "fenomeno": "Moderate rain warning. Cordillera Cantábrica de Palencia",
+      "nivel": "Naranja",
+      "text": "Cordillera Cantábrica de Palencia: Moderate rain warning. Cordillera Cantábrica de Palencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Cordillera Cantábrica de Burgos",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Cordillera Cantábrica de Burgos",
+      "nivel": "Naranja",
+      "text": "Cordillera Cantábrica de Burgos: Aviso de tormentas de nivel amarillo. Cordillera Cantábrica de Burgos (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cordillera Cantábrica de Burgos",
+      "fenomeno": "Moderate thunderstorm warning. Cordillera Cantábrica de Burgos",
+      "nivel": "Naranja",
+      "text": "Cordillera Cantábrica de Burgos: Moderate thunderstorm warning. Cordillera Cantábrica de Burgos (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Cordillera Cantábrica de Palencia",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Cordillera Cantábrica de Palencia",
+      "nivel": "Naranja",
+      "text": "Cordillera Cantábrica de Palencia: Aviso de tormentas de nivel amarillo. Cordillera Cantábrica de Palencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cordillera Cantábrica de Palencia",
+      "fenomeno": "Moderate thunderstorm warning. Cordillera Cantábrica de Palencia",
+      "nivel": "Naranja",
+      "text": "Cordillera Cantábrica de Palencia: Moderate thunderstorm warning. Cordillera Cantábrica de Palencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "La Mancha albaceteña",
+      "fenomeno": "Aviso de tormentas de nivel naranja. La Mancha albaceteña",
+      "nivel": "Rojo",
+      "text": "La Mancha albaceteña: Aviso de tormentas de nivel naranja. La Mancha albaceteña (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "La Mancha albaceteña",
+      "fenomeno": "Severe thunderstorm warning. La Mancha albaceteña",
+      "nivel": "Rojo",
+      "text": "La Mancha albaceteña: Severe thunderstorm warning. La Mancha albaceteña (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "La Mancha albaceteña",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. La Mancha albaceteña",
+      "nivel": "Naranja",
+      "text": "La Mancha albaceteña: Aviso de tormentas de nivel amarillo. La Mancha albaceteña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "La Mancha albaceteña",
+      "fenomeno": "Moderate thunderstorm warning. La Mancha albaceteña",
+      "nivel": "Naranja",
+      "text": "La Mancha albaceteña: Moderate thunderstorm warning. La Mancha albaceteña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "⛈️",
       "provincia": "Albarracín y Jiloca",
@@ -66,102 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate high-temperature warning. La Siberia extremeña",
       "nivel": "Naranja",
       "text": "La Siberia extremeña: Moderate high-temperature warning. La Siberia extremeña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Norte de Cáceres",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Norte de Cáceres",
-      "nivel": "Naranja",
-      "text": "Norte de Cáceres: Aviso de temperaturas máximas de nivel amarillo. Norte de Cáceres (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Norte de Cáceres",
-      "fenomeno": "Moderate high-temperature warning. Norte de Cáceres",
-      "nivel": "Naranja",
-      "text": "Norte de Cáceres: Moderate high-temperature warning. Norte de Cáceres (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Tajo y Alagón",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Tajo y Alagón",
-      "nivel": "Naranja",
-      "text": "Tajo y Alagón: Aviso de temperaturas máximas de nivel amarillo. Tajo y Alagón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Tajo y Alagón",
-      "fenomeno": "Moderate high-temperature warning. Tajo y Alagón",
-      "nivel": "Naranja",
-      "text": "Tajo y Alagón: Moderate high-temperature warning. Tajo y Alagón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Villuercas y Montánchez",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Villuercas y Montánchez",
-      "nivel": "Naranja",
-      "text": "Villuercas y Montánchez: Aviso de temperaturas máximas de nivel amarillo. Villuercas y Montánchez (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Villuercas y Montánchez",
-      "fenomeno": "Moderate high-temperature warning. Villuercas y Montánchez",
-      "nivel": "Naranja",
-      "text": "Villuercas y Montánchez: Moderate high-temperature warning. Villuercas y Montánchez (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Vegas del Guadiana",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Vegas del Guadiana",
-      "nivel": "Rojo",
-      "text": "Vegas del Guadiana: Aviso de temperaturas máximas de nivel naranja. Vegas del Guadiana (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Vegas del Guadiana",
-      "fenomeno": "Severe high-temperature warning. Vegas del Guadiana",
-      "nivel": "Rojo",
-      "text": "Vegas del Guadiana: Severe high-temperature warning. Vegas del Guadiana (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Este, sur y oeste de Gran Canaria",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Este, sur y oeste de Gran Canaria",
-      "nivel": "Naranja",
-      "text": "Este, sur y oeste de Gran Canaria: Aviso de vientos de nivel amarillo. Este, sur y oeste de Gran Canaria (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Este, sur y oeste de Gran Canaria",
-      "fenomeno": "Moderate wind warning. Este, sur y oeste de Gran Canaria",
-      "nivel": "Naranja",
-      "text": "Este, sur y oeste de Gran Canaria: Moderate wind warning. Este, sur y oeste de Gran Canaria (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Lanzarote",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Lanzarote",
-      "nivel": "Naranja",
-      "text": "Lanzarote: Aviso de vientos de nivel amarillo. Lanzarote (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Lanzarote",
-      "fenomeno": "Moderate wind warning. Lanzarote",
-      "nivel": "Naranja",
-      "text": "Lanzarote: Moderate wind warning. Lanzarote (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
