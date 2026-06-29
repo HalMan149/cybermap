@@ -1,119 +1,119 @@
-// Auto-generado por GitHub Actions - 2026-06-29T02:42:37.658Z
+// Auto-generado por GitHub Actions - 2026-06-29T07:15:08.115Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-06-29T02:42:37.658Z",
+  "generated_at": "2026-06-29T07:15:08.115Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "🌧️",
-      "provincia": "Gipuzkoa litoral",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Gipuzkoa litoral",
-      "nivel": "Rojo",
-      "text": "Gipuzkoa litoral: Aviso de lluvias de nivel naranja. Gipuzkoa litoral (Rojo) (AEMET)",
+      "provincia": "Pirineo de Girona",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Pirineo de Girona",
+      "nivel": "Naranja",
+      "text": "Pirineo de Girona: Aviso de lluvias de nivel amarillo. Pirineo de Girona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Gipuzkoa litoral",
-      "fenomeno": "Severe rain warning. Gipuzkoa litoral",
-      "nivel": "Rojo",
-      "text": "Gipuzkoa litoral: Severe rain warning. Gipuzkoa litoral (Rojo) (AEMET)",
+      "provincia": "Pirineo de Girona",
+      "fenomeno": "Moderate rain warning. Pirineo de Girona",
+      "nivel": "Naranja",
+      "text": "Pirineo de Girona: Moderate rain warning. Pirineo de Girona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Gipuzkoa interior",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Gipuzkoa interior",
+      "provincia": "Prelitoral de Girona",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Prelitoral de Girona",
       "nivel": "Naranja",
-      "text": "Gipuzkoa interior: Aviso de lluvias de nivel amarillo. Gipuzkoa interior (Naranja) (AEMET)",
+      "text": "Prelitoral de Girona: Aviso de lluvias de nivel amarillo. Prelitoral de Girona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Gipuzkoa interior",
-      "fenomeno": "Moderate rain warning. Gipuzkoa interior",
+      "provincia": "Prelitoral de Girona",
+      "fenomeno": "Moderate rain warning. Prelitoral de Girona",
       "nivel": "Naranja",
-      "text": "Gipuzkoa interior: Moderate rain warning. Gipuzkoa interior (Naranja) (AEMET)",
+      "text": "Prelitoral de Girona: Moderate rain warning. Prelitoral de Girona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Gipuzkoa litoral",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Gipuzkoa litoral",
+      "provincia": "Pirineo de Girona",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Pirineo de Girona",
       "nivel": "Naranja",
-      "text": "Gipuzkoa litoral: Aviso de tormentas de nivel amarillo. Gipuzkoa litoral (Naranja) (AEMET)",
+      "text": "Pirineo de Girona: Aviso de tormentas de nivel amarillo. Pirineo de Girona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Gipuzkoa litoral",
-      "fenomeno": "Moderate thunderstorm warning. Gipuzkoa litoral",
+      "provincia": "Pirineo de Girona",
+      "fenomeno": "Moderate thunderstorm warning. Pirineo de Girona",
       "nivel": "Naranja",
-      "text": "Gipuzkoa litoral: Moderate thunderstorm warning. Gipuzkoa litoral (Naranja) (AEMET)",
+      "text": "Pirineo de Girona: Moderate thunderstorm warning. Pirineo de Girona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Gipuzkoa interior",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Gipuzkoa interior",
+      "provincia": "Prelitoral de Girona",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Prelitoral de Girona",
       "nivel": "Naranja",
-      "text": "Gipuzkoa interior: Aviso de tormentas de nivel amarillo. Gipuzkoa interior (Naranja) (AEMET)",
+      "text": "Prelitoral de Girona: Aviso de tormentas de nivel amarillo. Prelitoral de Girona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Gipuzkoa interior",
-      "fenomeno": "Moderate thunderstorm warning. Gipuzkoa interior",
+      "provincia": "Prelitoral de Girona",
+      "fenomeno": "Moderate thunderstorm warning. Prelitoral de Girona",
       "nivel": "Naranja",
-      "text": "Gipuzkoa interior: Moderate thunderstorm warning. Gipuzkoa interior (Naranja) (AEMET)",
+      "text": "Prelitoral de Girona: Moderate thunderstorm warning. Prelitoral de Girona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Campiña gaditana",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Campiña gaditana",
+      "provincia": "Costa - Ampurdán",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Ampurdán",
       "nivel": "Naranja",
-      "text": "Campiña gaditana: Aviso de temperaturas máximas de nivel amarillo. Campiña gaditana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Campiña gaditana",
-      "fenomeno": "Moderate high-temperature warning. Campiña gaditana",
-      "nivel": "Naranja",
-      "text": "Campiña gaditana: Moderate high-temperature warning. Campiña gaditana (Naranja) (AEMET)",
+      "text": "Costa - Ampurdán: Aviso de costeros de nivel amarillo. Costa - Ampurdán (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Sierra y Pedroches",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Sierra y Pedroches",
+      "provincia": "Costa - Ampurdán",
+      "fenomeno": "Moderate coastalevent warning. Costa - Ampurdán",
       "nivel": "Naranja",
-      "text": "Sierra y Pedroches: Aviso de temperaturas máximas de nivel amarillo. Sierra y Pedroches (Naranja) (AEMET)",
+      "text": "Costa - Ampurdán: Moderate coastalevent warning. Costa - Ampurdán (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "La Gomera",
+      "fenomeno": "Aviso de vientos de nivel amarillo. La Gomera",
+      "nivel": "Naranja",
+      "text": "La Gomera: Aviso de vientos de nivel amarillo. La Gomera (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sierra y Pedroches",
-      "fenomeno": "Moderate high-temperature warning. Sierra y Pedroches",
+      "provincia": "La Gomera",
+      "fenomeno": "Moderate wind warning. La Gomera",
       "nivel": "Naranja",
-      "text": "Sierra y Pedroches: Moderate high-temperature warning. Sierra y Pedroches (Naranja) (AEMET)",
+      "text": "La Gomera: Moderate wind warning. La Gomera (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Aracena",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Aracena",
+      "provincia": "Campiña cordobesa",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Campiña cordobesa",
       "nivel": "Naranja",
-      "text": "Aracena: Aviso de temperaturas máximas de nivel amarillo. Aracena (Naranja) (AEMET)",
+      "text": "Campiña cordobesa: Aviso de temperaturas máximas de nivel amarillo. Campiña cordobesa (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Aracena",
-      "fenomeno": "Moderate high-temperature warning. Aracena",
+      "provincia": "Campiña cordobesa",
+      "fenomeno": "Moderate high-temperature warning. Campiña cordobesa",
       "nivel": "Naranja",
-      "text": "Aracena: Moderate high-temperature warning. Aracena (Naranja) (AEMET)",
+      "text": "Campiña cordobesa: Moderate high-temperature warning. Campiña cordobesa (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -134,34 +134,34 @@ window.AEMET_AVISOS = {
     },
     {
       "icon": "🌊",
-      "provincia": "Sierra norte de Sevilla",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Sierra norte de Sevilla",
+      "provincia": "Morena y Condado",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Morena y Condado",
       "nivel": "Naranja",
-      "text": "Sierra norte de Sevilla: Aviso de temperaturas máximas de nivel amarillo. Sierra norte de Sevilla (Naranja) (AEMET)",
+      "text": "Morena y Condado: Aviso de temperaturas máximas de nivel amarillo. Morena y Condado (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sierra norte de Sevilla",
-      "fenomeno": "Moderate high-temperature warning. Sierra norte de Sevilla",
+      "provincia": "Morena y Condado",
+      "fenomeno": "Moderate high-temperature warning. Morena y Condado",
       "nivel": "Naranja",
-      "text": "Sierra norte de Sevilla: Moderate high-temperature warning. Sierra norte de Sevilla (Naranja) (AEMET)",
+      "text": "Morena y Condado: Moderate high-temperature warning. Morena y Condado (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Sur de Huesca",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Sur de Huesca",
+      "provincia": "Valle del Guadalquivir de Jaén",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Valle del Guadalquivir de Jaén",
       "nivel": "Naranja",
-      "text": "Sur de Huesca: Aviso de temperaturas máximas de nivel amarillo. Sur de Huesca (Naranja) (AEMET)",
+      "text": "Valle del Guadalquivir de Jaén: Aviso de temperaturas máximas de nivel amarillo. Valle del Guadalquivir de Jaén (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sur de Huesca",
-      "fenomeno": "Moderate high-temperature warning. Sur de Huesca",
+      "provincia": "Valle del Guadalquivir de Jaén",
+      "fenomeno": "Moderate high-temperature warning. Valle del Guadalquivir de Jaén",
       "nivel": "Naranja",
-      "text": "Sur de Huesca: Moderate high-temperature warning. Sur de Huesca (Naranja) (AEMET)",
+      "text": "Valle del Guadalquivir de Jaén: Moderate high-temperature warning. Valle del Guadalquivir de Jaén (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
