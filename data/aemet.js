@@ -1,7 +1,168 @@
-// Auto-generado por GitHub Actions - 2026-07-02T19:58:53.559Z
+// Auto-generado por GitHub Actions - 2026-07-02T21:09:50.604Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-07-02T19:58:53.559Z",
+  "generated_at": "2026-07-02T21:09:50.604Z",
   "source": "AEMET OpenData API",
-  "total_avisos": 0,
-  "avisos": []
+  "total_avisos": 20,
+  "avisos": [
+    {
+      "icon": "🌡️",
+      "provincia": "La Siberia extremeña",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. La Siberia extremeña",
+      "nivel": "Rojo",
+      "text": "La Siberia extremeña: Aviso de temperaturas máximas de nivel naranja. La Siberia extremeña (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "La Siberia extremeña",
+      "fenomeno": "Severe high-temperature warning. La Siberia extremeña",
+      "nivel": "Rojo",
+      "text": "La Siberia extremeña: Severe high-temperature warning. La Siberia extremeña (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Norte de Cáceres",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Norte de Cáceres",
+      "nivel": "Rojo",
+      "text": "Norte de Cáceres: Aviso de temperaturas máximas de nivel naranja. Norte de Cáceres (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Norte de Cáceres",
+      "fenomeno": "Severe high-temperature warning. Norte de Cáceres",
+      "nivel": "Rojo",
+      "text": "Norte de Cáceres: Severe high-temperature warning. Norte de Cáceres (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "La Siberia extremeña",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. La Siberia extremeña",
+      "nivel": "Naranja",
+      "text": "La Siberia extremeña: Aviso de temperaturas máximas de nivel amarillo. La Siberia extremeña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "La Siberia extremeña",
+      "fenomeno": "Moderate high-temperature warning. La Siberia extremeña",
+      "nivel": "Naranja",
+      "text": "La Siberia extremeña: Moderate high-temperature warning. La Siberia extremeña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Norte de Cáceres",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Norte de Cáceres",
+      "nivel": "Naranja",
+      "text": "Norte de Cáceres: Aviso de temperaturas máximas de nivel amarillo. Norte de Cáceres (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Norte de Cáceres",
+      "fenomeno": "Moderate high-temperature warning. Norte de Cáceres",
+      "nivel": "Naranja",
+      "text": "Norte de Cáceres: Moderate high-temperature warning. Norte de Cáceres (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Rias Baixas",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Rias Baixas",
+      "nivel": "Rojo",
+      "text": "Rias Baixas: Aviso de temperaturas máximas de nivel naranja. Rias Baixas (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Rias Baixas",
+      "fenomeno": "Severe high-temperature warning. Rias Baixas",
+      "nivel": "Rojo",
+      "text": "Rias Baixas: Severe high-temperature warning. Rias Baixas (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Suroeste de A Coruña",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Suroeste de A Coruña",
+      "nivel": "Naranja",
+      "text": "Suroeste de A Coruña: Aviso de temperaturas máximas de nivel amarillo. Suroeste de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Suroeste de A Coruña",
+      "fenomeno": "Moderate high-temperature warning. Suroeste de A Coruña",
+      "nivel": "Naranja",
+      "text": "Suroeste de A Coruña: Moderate high-temperature warning. Suroeste de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Valdeorras",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Valdeorras",
+      "nivel": "Naranja",
+      "text": "Valdeorras: Aviso de temperaturas máximas de nivel amarillo. Valdeorras (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Valdeorras",
+      "fenomeno": "Moderate high-temperature warning. Valdeorras",
+      "nivel": "Naranja",
+      "text": "Valdeorras: Moderate high-temperature warning. Valdeorras (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "La Mancha conquense",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. La Mancha conquense",
+      "nivel": "Naranja",
+      "text": "La Mancha conquense: Aviso de temperaturas máximas de nivel amarillo. La Mancha conquense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "La Mancha conquense",
+      "fenomeno": "Moderate high-temperature warning. La Mancha conquense",
+      "nivel": "Naranja",
+      "text": "La Mancha conquense: Moderate high-temperature warning. La Mancha conquense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Parameras de Molina",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Parameras de Molina",
+      "nivel": "Naranja",
+      "text": "Parameras de Molina: Aviso de temperaturas máximas de nivel amarillo. Parameras de Molina (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Parameras de Molina",
+      "fenomeno": "Moderate high-temperature warning. Parameras de Molina",
+      "nivel": "Naranja",
+      "text": "Parameras de Molina: Moderate high-temperature warning. Parameras de Molina (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Montes de Toledo",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Montes de Toledo",
+      "nivel": "Naranja",
+      "text": "Montes de Toledo: Aviso de temperaturas máximas de nivel amarillo. Montes de Toledo (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Montes de Toledo",
+      "fenomeno": "Moderate high-temperature warning. Montes de Toledo",
+      "nivel": "Naranja",
+      "text": "Montes de Toledo: Moderate high-temperature warning. Montes de Toledo (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    }
+  ]
 };
