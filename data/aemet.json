@@ -1,8 +1,72 @@
 {
-  "generated_at": "2026-07-02T16:47:45.818Z",
+  "generated_at": "2026-07-02T18:22:26.653Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌡️",
+      "provincia": "La Siberia extremeña",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. La Siberia extremeña",
+      "nivel": "Rojo",
+      "text": "La Siberia extremeña: Aviso de temperaturas máximas de nivel naranja. La Siberia extremeña (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "La Siberia extremeña",
+      "fenomeno": "Severe high-temperature warning. La Siberia extremeña",
+      "nivel": "Rojo",
+      "text": "La Siberia extremeña: Severe high-temperature warning. La Siberia extremeña (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Norte de Cáceres",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Norte de Cáceres",
+      "nivel": "Rojo",
+      "text": "Norte de Cáceres: Aviso de temperaturas máximas de nivel naranja. Norte de Cáceres (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Norte de Cáceres",
+      "fenomeno": "Severe high-temperature warning. Norte de Cáceres",
+      "nivel": "Rojo",
+      "text": "Norte de Cáceres: Severe high-temperature warning. Norte de Cáceres (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "La Siberia extremeña",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. La Siberia extremeña",
+      "nivel": "Naranja",
+      "text": "La Siberia extremeña: Aviso de temperaturas máximas de nivel amarillo. La Siberia extremeña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "La Siberia extremeña",
+      "fenomeno": "Moderate high-temperature warning. La Siberia extremeña",
+      "nivel": "Naranja",
+      "text": "La Siberia extremeña: Moderate high-temperature warning. La Siberia extremeña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Norte de Cáceres",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Norte de Cáceres",
+      "nivel": "Naranja",
+      "text": "Norte de Cáceres: Aviso de temperaturas máximas de nivel amarillo. Norte de Cáceres (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Norte de Cáceres",
+      "fenomeno": "Moderate high-temperature warning. Norte de Cáceres",
+      "nivel": "Naranja",
+      "text": "Norte de Cáceres: Moderate high-temperature warning. Norte de Cáceres (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌡️",
       "provincia": "Rias Baixas",
@@ -97,70 +161,6 @@
       "fenomeno": "Moderate high-temperature warning. Montes de Toledo",
       "nivel": "Naranja",
       "text": "Montes de Toledo: Moderate high-temperature warning. Montes de Toledo (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Bierzo de León",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Bierzo de León",
-      "nivel": "Naranja",
-      "text": "Bierzo de León: Aviso de temperaturas máximas de nivel amarillo. Bierzo de León (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Bierzo de León",
-      "fenomeno": "Moderate high-temperature warning. Bierzo de León",
-      "nivel": "Naranja",
-      "text": "Bierzo de León: Moderate high-temperature warning. Bierzo de León (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Morena y Condado",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Morena y Condado",
-      "nivel": "Rojo",
-      "text": "Morena y Condado: Aviso de temperaturas máximas de nivel naranja. Morena y Condado (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Morena y Condado",
-      "fenomeno": "Severe high-temperature warning. Morena y Condado",
-      "nivel": "Rojo",
-      "text": "Morena y Condado: Severe high-temperature warning. Morena y Condado (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Cazorla y Segura",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Cazorla y Segura",
-      "nivel": "Naranja",
-      "text": "Cazorla y Segura: Aviso de temperaturas máximas de nivel amarillo. Cazorla y Segura (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cazorla y Segura",
-      "fenomeno": "Moderate high-temperature warning. Cazorla y Segura",
-      "nivel": "Naranja",
-      "text": "Cazorla y Segura: Moderate high-temperature warning. Cazorla y Segura (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Valle del Guadalquivir de Jaén",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Valle del Guadalquivir de Jaén",
-      "nivel": "Naranja",
-      "text": "Valle del Guadalquivir de Jaén: Aviso de temperaturas máximas de nivel amarillo. Valle del Guadalquivir de Jaén (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Valle del Guadalquivir de Jaén",
-      "fenomeno": "Moderate high-temperature warning. Valle del Guadalquivir de Jaén",
-      "nivel": "Naranja",
-      "text": "Valle del Guadalquivir de Jaén: Moderate high-temperature warning. Valle del Guadalquivir de Jaén (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
