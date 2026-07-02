@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-07-02T21:09:50.604Z
+// Auto-generado por GitHub Actions - 2026-07-02T22:17:15.344Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-07-02T21:09:50.604Z",
+  "generated_at": "2026-07-02T22:17:15.344Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "🌡️",
-      "provincia": "La Siberia extremeña",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. La Siberia extremeña",
+      "provincia": "Litoral de Huelva",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Litoral de Huelva",
       "nivel": "Rojo",
-      "text": "La Siberia extremeña: Aviso de temperaturas máximas de nivel naranja. La Siberia extremeña (Rojo) (AEMET)",
+      "text": "Litoral de Huelva: Aviso de temperaturas máximas de nivel naranja. Litoral de Huelva (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "La Siberia extremeña",
-      "fenomeno": "Severe high-temperature warning. La Siberia extremeña",
+      "provincia": "Litoral de Huelva",
+      "fenomeno": "Severe high-temperature warning. Litoral de Huelva",
       "nivel": "Rojo",
-      "text": "La Siberia extremeña: Severe high-temperature warning. La Siberia extremeña (Rojo) (AEMET)",
+      "text": "Litoral de Huelva: Severe high-temperature warning. Litoral de Huelva (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌡️",
-      "provincia": "Norte de Cáceres",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Norte de Cáceres",
+      "provincia": "Morena y Condado",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Morena y Condado",
       "nivel": "Rojo",
-      "text": "Norte de Cáceres: Aviso de temperaturas máximas de nivel naranja. Norte de Cáceres (Rojo) (AEMET)",
+      "text": "Morena y Condado: Aviso de temperaturas máximas de nivel naranja. Morena y Condado (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Norte de Cáceres",
-      "fenomeno": "Severe high-temperature warning. Norte de Cáceres",
+      "provincia": "Morena y Condado",
+      "fenomeno": "Severe high-temperature warning. Morena y Condado",
       "nivel": "Rojo",
-      "text": "Norte de Cáceres: Severe high-temperature warning. Norte de Cáceres (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "La Siberia extremeña",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. La Siberia extremeña",
-      "nivel": "Naranja",
-      "text": "La Siberia extremeña: Aviso de temperaturas máximas de nivel amarillo. La Siberia extremeña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "La Siberia extremeña",
-      "fenomeno": "Moderate high-temperature warning. La Siberia extremeña",
-      "nivel": "Naranja",
-      "text": "La Siberia extremeña: Moderate high-temperature warning. La Siberia extremeña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Norte de Cáceres",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Norte de Cáceres",
-      "nivel": "Naranja",
-      "text": "Norte de Cáceres: Aviso de temperaturas máximas de nivel amarillo. Norte de Cáceres (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Norte de Cáceres",
-      "fenomeno": "Moderate high-temperature warning. Norte de Cáceres",
-      "nivel": "Naranja",
-      "text": "Norte de Cáceres: Moderate high-temperature warning. Norte de Cáceres (Naranja) (AEMET)",
+      "text": "Morena y Condado: Severe high-temperature warning. Morena y Condado (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌡️",
-      "provincia": "Rias Baixas",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Rias Baixas",
+      "provincia": "Valle del Guadalquivir de Jaén",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Valle del Guadalquivir de Jaén",
       "nivel": "Rojo",
-      "text": "Rias Baixas: Aviso de temperaturas máximas de nivel naranja. Rias Baixas (Rojo) (AEMET)",
+      "text": "Valle del Guadalquivir de Jaén: Aviso de temperaturas máximas de nivel naranja. Valle del Guadalquivir de Jaén (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Rias Baixas",
-      "fenomeno": "Severe high-temperature warning. Rias Baixas",
+      "provincia": "Valle del Guadalquivir de Jaén",
+      "fenomeno": "Severe high-temperature warning. Valle del Guadalquivir de Jaén",
       "nivel": "Rojo",
-      "text": "Rias Baixas: Severe high-temperature warning. Rias Baixas (Rojo) (AEMET)",
+      "text": "Valle del Guadalquivir de Jaén: Severe high-temperature warning. Valle del Guadalquivir de Jaén (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Suroeste de A Coruña",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Suroeste de A Coruña",
-      "nivel": "Naranja",
-      "text": "Suroeste de A Coruña: Aviso de temperaturas máximas de nivel amarillo. Suroeste de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Suroeste de A Coruña",
-      "fenomeno": "Moderate high-temperature warning. Suroeste de A Coruña",
-      "nivel": "Naranja",
-      "text": "Suroeste de A Coruña: Moderate high-temperature warning. Suroeste de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Valdeorras",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Valdeorras",
-      "nivel": "Naranja",
-      "text": "Valdeorras: Aviso de temperaturas máximas de nivel amarillo. Valdeorras (Naranja) (AEMET)",
+      "icon": "🌡️",
+      "provincia": "Miño de Pontevedra",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Miño de Pontevedra",
+      "nivel": "Rojo",
+      "text": "Miño de Pontevedra: Aviso de temperaturas máximas de nivel naranja. Miño de Pontevedra (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Valdeorras",
-      "fenomeno": "Moderate high-temperature warning. Valdeorras",
-      "nivel": "Naranja",
-      "text": "Valdeorras: Moderate high-temperature warning. Valdeorras (Naranja) (AEMET)",
+      "provincia": "Miño de Pontevedra",
+      "fenomeno": "Severe high-temperature warning. Miño de Pontevedra",
+      "nivel": "Rojo",
+      "text": "Miño de Pontevedra: Severe high-temperature warning. Miño de Pontevedra (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "La Mancha conquense",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. La Mancha conquense",
+      "provincia": "Cuenca del Genil",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Cuenca del Genil",
       "nivel": "Naranja",
-      "text": "La Mancha conquense: Aviso de temperaturas máximas de nivel amarillo. La Mancha conquense (Naranja) (AEMET)",
+      "text": "Cuenca del Genil: Aviso de temperaturas máximas de nivel amarillo. Cuenca del Genil (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "La Mancha conquense",
-      "fenomeno": "Moderate high-temperature warning. La Mancha conquense",
+      "provincia": "Cuenca del Genil",
+      "fenomeno": "Moderate high-temperature warning. Cuenca del Genil",
       "nivel": "Naranja",
-      "text": "La Mancha conquense: Moderate high-temperature warning. La Mancha conquense (Naranja) (AEMET)",
+      "text": "Cuenca del Genil: Moderate high-temperature warning. Cuenca del Genil (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Parameras de Molina",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Parameras de Molina",
+      "provincia": "Depresión central de Barcelona",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Depresión central de Barcelona",
       "nivel": "Naranja",
-      "text": "Parameras de Molina: Aviso de temperaturas máximas de nivel amarillo. Parameras de Molina (Naranja) (AEMET)",
+      "text": "Depresión central de Barcelona: Aviso de temperaturas máximas de nivel amarillo. Depresión central de Barcelona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Parameras de Molina",
-      "fenomeno": "Moderate high-temperature warning. Parameras de Molina",
+      "provincia": "Depresión central de Barcelona",
+      "fenomeno": "Moderate high-temperature warning. Depresión central de Barcelona",
       "nivel": "Naranja",
-      "text": "Parameras de Molina: Moderate high-temperature warning. Parameras de Molina (Naranja) (AEMET)",
+      "text": "Depresión central de Barcelona: Moderate high-temperature warning. Depresión central de Barcelona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Montes de Toledo",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Montes de Toledo",
+      "provincia": "Prelitoral de Girona",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Prelitoral de Girona",
       "nivel": "Naranja",
-      "text": "Montes de Toledo: Aviso de temperaturas máximas de nivel amarillo. Montes de Toledo (Naranja) (AEMET)",
+      "text": "Prelitoral de Girona: Aviso de temperaturas máximas de nivel amarillo. Prelitoral de Girona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Montes de Toledo",
-      "fenomeno": "Moderate high-temperature warning. Montes de Toledo",
+      "provincia": "Prelitoral de Girona",
+      "fenomeno": "Moderate high-temperature warning. Prelitoral de Girona",
       "nivel": "Naranja",
-      "text": "Montes de Toledo: Moderate high-temperature warning. Montes de Toledo (Naranja) (AEMET)",
+      "text": "Prelitoral de Girona: Moderate high-temperature warning. Prelitoral de Girona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Pirineo de Lleida",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Pirineo de Lleida",
+      "nivel": "Naranja",
+      "text": "Pirineo de Lleida: Aviso de temperaturas máximas de nivel amarillo. Pirineo de Lleida (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Pirineo de Lleida",
+      "fenomeno": "Moderate high-temperature warning. Pirineo de Lleida",
+      "nivel": "Naranja",
+      "text": "Pirineo de Lleida: Moderate high-temperature warning. Pirineo de Lleida (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Depresión central de Lleida",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Depresión central de Lleida",
+      "nivel": "Naranja",
+      "text": "Depresión central de Lleida: Aviso de temperaturas máximas de nivel amarillo. Depresión central de Lleida (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Depresión central de Lleida",
+      "fenomeno": "Moderate high-temperature warning. Depresión central de Lleida",
+      "nivel": "Naranja",
+      "text": "Depresión central de Lleida: Moderate high-temperature warning. Depresión central de Lleida (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Depresión central de Tarragona",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Depresión central de Tarragona",
+      "nivel": "Naranja",
+      "text": "Depresión central de Tarragona: Aviso de temperaturas máximas de nivel amarillo. Depresión central de Tarragona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Depresión central de Tarragona",
+      "fenomeno": "Moderate high-temperature warning. Depresión central de Tarragona",
+      "nivel": "Naranja",
+      "text": "Depresión central de Tarragona: Moderate high-temperature warning. Depresión central de Tarragona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
