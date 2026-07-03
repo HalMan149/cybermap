@@ -1,6 +1,167 @@
 {
-  "generated_at": "2026-07-03T08:25:44.069Z",
+  "generated_at": "2026-07-03T11:06:40.404Z",
   "source": "AEMET OpenData API",
-  "total_avisos": 0,
-  "avisos": []
+  "total_avisos": 20,
+  "avisos": [
+    {
+      "icon": "🌡️",
+      "provincia": "Sierra de Madrid",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Sierra de Madrid",
+      "nivel": "Rojo",
+      "text": "Sierra de Madrid: Aviso de temperaturas máximas de nivel naranja. Sierra de Madrid (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sierra de Madrid",
+      "fenomeno": "Severe high-temperature warning. Sierra de Madrid",
+      "nivel": "Rojo",
+      "text": "Sierra de Madrid: Severe high-temperature warning. Sierra de Madrid (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Metropolitana y Henares",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Metropolitana y Henares",
+      "nivel": "Rojo",
+      "text": "Metropolitana y Henares: Aviso de temperaturas máximas de nivel naranja. Metropolitana y Henares (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Metropolitana y Henares",
+      "fenomeno": "Severe high-temperature warning. Metropolitana y Henares",
+      "nivel": "Rojo",
+      "text": "Metropolitana y Henares: Severe high-temperature warning. Metropolitana y Henares (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Campiña cordobesa",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Campiña cordobesa",
+      "nivel": "Rojo",
+      "text": "Campiña cordobesa: Aviso de temperaturas máximas de nivel naranja. Campiña cordobesa (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Campiña cordobesa",
+      "fenomeno": "Severe high-temperature warning. Campiña cordobesa",
+      "nivel": "Rojo",
+      "text": "Campiña cordobesa: Severe high-temperature warning. Campiña cordobesa (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Andévalo y Condado",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Andévalo y Condado",
+      "nivel": "Rojo",
+      "text": "Andévalo y Condado: Aviso de temperaturas máximas de nivel naranja. Andévalo y Condado (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Andévalo y Condado",
+      "fenomeno": "Severe high-temperature warning. Andévalo y Condado",
+      "nivel": "Rojo",
+      "text": "Andévalo y Condado: Severe high-temperature warning. Andévalo y Condado (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Litoral de Huelva",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Litoral de Huelva",
+      "nivel": "Rojo",
+      "text": "Litoral de Huelva: Aviso de temperaturas máximas de nivel naranja. Litoral de Huelva (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral de Huelva",
+      "fenomeno": "Severe high-temperature warning. Litoral de Huelva",
+      "nivel": "Rojo",
+      "text": "Litoral de Huelva: Severe high-temperature warning. Litoral de Huelva (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Campiña sevillana",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Campiña sevillana",
+      "nivel": "Rojo",
+      "text": "Campiña sevillana: Aviso de temperaturas máximas de nivel naranja. Campiña sevillana (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Campiña sevillana",
+      "fenomeno": "Severe high-temperature warning. Campiña sevillana",
+      "nivel": "Rojo",
+      "text": "Campiña sevillana: Severe high-temperature warning. Campiña sevillana (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Campiña gaditana",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Campiña gaditana",
+      "nivel": "Naranja",
+      "text": "Campiña gaditana: Aviso de vientos de nivel amarillo. Campiña gaditana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Campiña gaditana",
+      "fenomeno": "Moderate wind warning. Campiña gaditana",
+      "nivel": "Naranja",
+      "text": "Campiña gaditana: Moderate wind warning. Campiña gaditana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Litoral gaditano",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Litoral gaditano",
+      "nivel": "Naranja",
+      "text": "Litoral gaditano: Aviso de vientos de nivel amarillo. Litoral gaditano (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral gaditano",
+      "fenomeno": "Moderate wind warning. Litoral gaditano",
+      "nivel": "Naranja",
+      "text": "Litoral gaditano: Moderate wind warning. Litoral gaditano (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Estrecho",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Estrecho",
+      "nivel": "Naranja",
+      "text": "Estrecho: Aviso de vientos de nivel amarillo. Estrecho (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Estrecho",
+      "fenomeno": "Moderate wind warning. Estrecho",
+      "nivel": "Naranja",
+      "text": "Estrecho: Moderate wind warning. Estrecho (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral gaditano",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral gaditano",
+      "nivel": "Naranja",
+      "text": "Costa - Litoral gaditano: Aviso de costeros de nivel amarillo. Costa - Litoral gaditano (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral gaditano",
+      "fenomeno": "Moderate coastalevent warning. Costa - Litoral gaditano",
+      "nivel": "Naranja",
+      "text": "Costa - Litoral gaditano: Moderate coastalevent warning. Costa - Litoral gaditano (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    }
+  ]
 }
