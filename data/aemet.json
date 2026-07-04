@@ -1,8 +1,40 @@
 {
-  "generated_at": "2026-07-04T09:30:20.927Z",
+  "generated_at": "2026-07-04T11:10:29.600Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌊",
+      "provincia": "Interior de Mallorca",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Interior de Mallorca",
+      "nivel": "Naranja",
+      "text": "Interior de Mallorca: Aviso de temperaturas máximas de nivel amarillo. Interior de Mallorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior de Mallorca",
+      "fenomeno": "Moderate high-temperature warning. Interior de Mallorca",
+      "nivel": "Naranja",
+      "text": "Interior de Mallorca: Moderate high-temperature warning. Interior de Mallorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Sur de Mallorca",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Sur de Mallorca",
+      "nivel": "Naranja",
+      "text": "Sur de Mallorca: Aviso de temperaturas máximas de nivel amarillo. Sur de Mallorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sur de Mallorca",
+      "fenomeno": "Moderate high-temperature warning. Sur de Mallorca",
+      "nivel": "Naranja",
+      "text": "Sur de Mallorca: Moderate high-temperature warning. Sur de Mallorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌡️",
       "provincia": "Sur, Vegas y Oeste",
@@ -129,38 +161,6 @@
       "fenomeno": "Moderate high-temperature warning. Pirineo de Girona",
       "nivel": "Naranja",
       "text": "Pirineo de Girona: Moderate high-temperature warning. Pirineo de Girona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Prelitoral de Girona",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Prelitoral de Girona",
-      "nivel": "Naranja",
-      "text": "Prelitoral de Girona: Aviso de temperaturas máximas de nivel amarillo. Prelitoral de Girona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Prelitoral de Girona",
-      "fenomeno": "Moderate high-temperature warning. Prelitoral de Girona",
-      "nivel": "Naranja",
-      "text": "Prelitoral de Girona: Moderate high-temperature warning. Prelitoral de Girona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Pirineo de Lleida",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Pirineo de Lleida",
-      "nivel": "Naranja",
-      "text": "Pirineo de Lleida: Aviso de temperaturas máximas de nivel amarillo. Pirineo de Lleida (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Pirineo de Lleida",
-      "fenomeno": "Moderate high-temperature warning. Pirineo de Lleida",
-      "nivel": "Naranja",
-      "text": "Pirineo de Lleida: Moderate high-temperature warning. Pirineo de Lleida (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
