@@ -1,166 +1,166 @@
 {
-  "generated_at": "2026-07-04T04:08:38.269Z",
+  "generated_at": "2026-07-04T07:12:35.445Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "🌡️",
-      "provincia": "Miño de Ourense",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Miño de Ourense",
+      "provincia": "Campiña cordobesa",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Campiña cordobesa",
       "nivel": "Rojo",
-      "text": "Miño de Ourense: Aviso de temperaturas máximas de nivel naranja. Miño de Ourense (Rojo) (AEMET)",
+      "text": "Campiña cordobesa: Aviso de temperaturas máximas de nivel naranja. Campiña cordobesa (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Miño de Ourense",
-      "fenomeno": "Severe high-temperature warning. Miño de Ourense",
+      "provincia": "Campiña cordobesa",
+      "fenomeno": "Severe high-temperature warning. Campiña cordobesa",
       "nivel": "Rojo",
-      "text": "Miño de Ourense: Severe high-temperature warning. Miño de Ourense (Rojo) (AEMET)",
+      "text": "Campiña cordobesa: Severe high-temperature warning. Campiña cordobesa (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌡️",
-      "provincia": "Miño de Pontevedra",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Miño de Pontevedra",
+      "provincia": "Andévalo y Condado",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Andévalo y Condado",
       "nivel": "Rojo",
-      "text": "Miño de Pontevedra: Aviso de temperaturas máximas de nivel naranja. Miño de Pontevedra (Rojo) (AEMET)",
+      "text": "Andévalo y Condado: Aviso de temperaturas máximas de nivel naranja. Andévalo y Condado (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Miño de Pontevedra",
-      "fenomeno": "Severe high-temperature warning. Miño de Pontevedra",
+      "provincia": "Andévalo y Condado",
+      "fenomeno": "Severe high-temperature warning. Andévalo y Condado",
       "nivel": "Rojo",
-      "text": "Miño de Pontevedra: Severe high-temperature warning. Miño de Pontevedra (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Interior de Mallorca",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Interior de Mallorca",
-      "nivel": "Naranja",
-      "text": "Interior de Mallorca: Aviso de temperaturas máximas de nivel amarillo. Interior de Mallorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior de Mallorca",
-      "fenomeno": "Moderate high-temperature warning. Interior de Mallorca",
-      "nivel": "Naranja",
-      "text": "Interior de Mallorca: Moderate high-temperature warning. Interior de Mallorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Sur de Mallorca",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Sur de Mallorca",
-      "nivel": "Naranja",
-      "text": "Sur de Mallorca: Aviso de temperaturas máximas de nivel amarillo. Sur de Mallorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sur de Mallorca",
-      "fenomeno": "Moderate high-temperature warning. Sur de Mallorca",
-      "nivel": "Naranja",
-      "text": "Sur de Mallorca: Moderate high-temperature warning. Sur de Mallorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Litoral gaditano",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Litoral gaditano",
-      "nivel": "Naranja",
-      "text": "Litoral gaditano: Aviso de temperaturas máximas de nivel amarillo. Litoral gaditano (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral gaditano",
-      "fenomeno": "Moderate high-temperature warning. Litoral gaditano",
-      "nivel": "Naranja",
-      "text": "Litoral gaditano: Moderate high-temperature warning. Litoral gaditano (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Montaña de Lugo",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Montaña de Lugo",
-      "nivel": "Naranja",
-      "text": "Montaña de Lugo: Aviso de temperaturas máximas de nivel amarillo. Montaña de Lugo (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Montaña de Lugo",
-      "fenomeno": "Moderate high-temperature warning. Montaña de Lugo",
-      "nivel": "Naranja",
-      "text": "Montaña de Lugo: Moderate high-temperature warning. Montaña de Lugo (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Montaña de Ourense",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Montaña de Ourense",
-      "nivel": "Naranja",
-      "text": "Montaña de Ourense: Aviso de temperaturas máximas de nivel amarillo. Montaña de Ourense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Montaña de Ourense",
-      "fenomeno": "Moderate high-temperature warning. Montaña de Ourense",
-      "nivel": "Naranja",
-      "text": "Montaña de Ourense: Moderate high-temperature warning. Montaña de Ourense (Naranja) (AEMET)",
+      "text": "Andévalo y Condado: Severe high-temperature warning. Andévalo y Condado (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌡️",
-      "provincia": "Aracena",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Aracena",
+      "provincia": "Morena y Condado",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Morena y Condado",
       "nivel": "Rojo",
-      "text": "Aracena: Aviso de temperaturas máximas de nivel naranja. Aracena (Rojo) (AEMET)",
+      "text": "Morena y Condado: Aviso de temperaturas máximas de nivel naranja. Morena y Condado (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Aracena",
-      "fenomeno": "Severe high-temperature warning. Aracena",
+      "provincia": "Morena y Condado",
+      "fenomeno": "Severe high-temperature warning. Morena y Condado",
       "nivel": "Rojo",
-      "text": "Aracena: Severe high-temperature warning. Aracena (Rojo) (AEMET)",
+      "text": "Morena y Condado: Severe high-temperature warning. Morena y Condado (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Campiña gaditana",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Campiña gaditana",
-      "nivel": "Naranja",
-      "text": "Campiña gaditana: Aviso de temperaturas máximas de nivel amarillo. Campiña gaditana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Campiña gaditana",
-      "fenomeno": "Moderate high-temperature warning. Campiña gaditana",
-      "nivel": "Naranja",
-      "text": "Campiña gaditana: Moderate high-temperature warning. Campiña gaditana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Litoral gaditano",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Litoral gaditano",
-      "nivel": "Naranja",
-      "text": "Litoral gaditano: Aviso de temperaturas máximas de nivel amarillo. Litoral gaditano (Naranja) (AEMET)",
+      "icon": "🌡️",
+      "provincia": "Valle del Guadalquivir de Jaén",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Valle del Guadalquivir de Jaén",
+      "nivel": "Rojo",
+      "text": "Valle del Guadalquivir de Jaén: Aviso de temperaturas máximas de nivel naranja. Valle del Guadalquivir de Jaén (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Litoral gaditano",
-      "fenomeno": "Moderate high-temperature warning. Litoral gaditano",
-      "nivel": "Naranja",
-      "text": "Litoral gaditano: Moderate high-temperature warning. Litoral gaditano (Naranja) (AEMET)",
+      "provincia": "Valle del Guadalquivir de Jaén",
+      "fenomeno": "Severe high-temperature warning. Valle del Guadalquivir de Jaén",
+      "nivel": "Rojo",
+      "text": "Valle del Guadalquivir de Jaén: Severe high-temperature warning. Valle del Guadalquivir de Jaén (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Campiña sevillana",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Campiña sevillana",
+      "nivel": "Rojo",
+      "text": "Campiña sevillana: Aviso de temperaturas máximas de nivel naranja. Campiña sevillana (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Campiña sevillana",
+      "fenomeno": "Severe high-temperature warning. Campiña sevillana",
+      "nivel": "Rojo",
+      "text": "Campiña sevillana: Severe high-temperature warning. Campiña sevillana (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Sur de Huesca",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Sur de Huesca",
+      "nivel": "Rojo",
+      "text": "Sur de Huesca: Aviso de temperaturas máximas de nivel naranja. Sur de Huesca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sur de Huesca",
+      "fenomeno": "Severe high-temperature warning. Sur de Huesca",
+      "nivel": "Rojo",
+      "text": "Sur de Huesca: Severe high-temperature warning. Sur de Huesca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Bajo Aragón de Teruel",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Bajo Aragón de Teruel",
+      "nivel": "Rojo",
+      "text": "Bajo Aragón de Teruel: Aviso de temperaturas máximas de nivel naranja. Bajo Aragón de Teruel (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Bajo Aragón de Teruel",
+      "fenomeno": "Severe high-temperature warning. Bajo Aragón de Teruel",
+      "nivel": "Rojo",
+      "text": "Bajo Aragón de Teruel: Severe high-temperature warning. Bajo Aragón de Teruel (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Cinco Villas de Zaragoza",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Cinco Villas de Zaragoza",
+      "nivel": "Rojo",
+      "text": "Cinco Villas de Zaragoza: Aviso de temperaturas máximas de nivel naranja. Cinco Villas de Zaragoza (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cinco Villas de Zaragoza",
+      "fenomeno": "Severe high-temperature warning. Cinco Villas de Zaragoza",
+      "nivel": "Rojo",
+      "text": "Cinco Villas de Zaragoza: Severe high-temperature warning. Cinco Villas de Zaragoza (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Ribera del Ebro de Zaragoza",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Ribera del Ebro de Zaragoza",
+      "nivel": "Rojo",
+      "text": "Ribera del Ebro de Zaragoza: Aviso de temperaturas máximas de nivel naranja. Ribera del Ebro de Zaragoza (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ribera del Ebro de Zaragoza",
+      "fenomeno": "Severe high-temperature warning. Ribera del Ebro de Zaragoza",
+      "nivel": "Rojo",
+      "text": "Ribera del Ebro de Zaragoza: Severe high-temperature warning. Ribera del Ebro de Zaragoza (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Sur de Ávila",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Sur de Ávila",
+      "nivel": "Rojo",
+      "text": "Sur de Ávila: Aviso de temperaturas máximas de nivel naranja. Sur de Ávila (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sur de Ávila",
+      "fenomeno": "Severe high-temperature warning. Sur de Ávila",
+      "nivel": "Rojo",
+      "text": "Sur de Ávila: Severe high-temperature warning. Sur de Ávila (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
