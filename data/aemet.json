@@ -1,166 +1,166 @@
 {
-  "generated_at": "2026-07-05T08:29:28.630Z",
+  "generated_at": "2026-07-05T10:38:04.689Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "🌡️",
-      "provincia": "Noroeste de A Coruña",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Noroeste de A Coruña",
+      "provincia": "Ampurdán",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Ampurdán",
       "nivel": "Rojo",
-      "text": "Noroeste de A Coruña: Aviso de temperaturas máximas de nivel naranja. Noroeste de A Coruña (Rojo) (AEMET)",
+      "text": "Ampurdán: Aviso de temperaturas máximas de nivel naranja. Ampurdán (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Noroeste de A Coruña",
-      "fenomeno": "Severe high-temperature warning. Noroeste de A Coruña",
+      "provincia": "Ampurdán",
+      "fenomeno": "Severe high-temperature warning. Ampurdán",
       "nivel": "Rojo",
-      "text": "Noroeste de A Coruña: Severe high-temperature warning. Noroeste de A Coruña (Rojo) (AEMET)",
+      "text": "Ampurdán: Severe high-temperature warning. Ampurdán (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌡️",
-      "provincia": "Interior de A Coruña",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Interior de A Coruña",
+      "provincia": "Pirineo oscense",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Pirineo oscense",
       "nivel": "Rojo",
-      "text": "Interior de A Coruña: Aviso de temperaturas máximas de nivel naranja. Interior de A Coruña (Rojo) (AEMET)",
+      "text": "Pirineo oscense: Aviso de temperaturas máximas de nivel naranja. Pirineo oscense (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Interior de A Coruña",
-      "fenomeno": "Severe high-temperature warning. Interior de A Coruña",
+      "provincia": "Pirineo oscense",
+      "fenomeno": "Severe high-temperature warning. Pirineo oscense",
       "nivel": "Rojo",
-      "text": "Interior de A Coruña: Severe high-temperature warning. Interior de A Coruña (Rojo) (AEMET)",
+      "text": "Pirineo oscense: Severe high-temperature warning. Pirineo oscense (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌡️",
-      "provincia": "Suroeste de A Coruña",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Suroeste de A Coruña",
+      "provincia": "Centro de Huesca",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Centro de Huesca",
       "nivel": "Rojo",
-      "text": "Suroeste de A Coruña: Aviso de temperaturas máximas de nivel naranja. Suroeste de A Coruña (Rojo) (AEMET)",
+      "text": "Centro de Huesca: Aviso de temperaturas máximas de nivel naranja. Centro de Huesca (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Suroeste de A Coruña",
-      "fenomeno": "Severe high-temperature warning. Suroeste de A Coruña",
+      "provincia": "Centro de Huesca",
+      "fenomeno": "Severe high-temperature warning. Centro de Huesca",
       "nivel": "Rojo",
-      "text": "Suroeste de A Coruña: Severe high-temperature warning. Suroeste de A Coruña (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Litoral de Barcelona",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Litoral de Barcelona",
-      "nivel": "Naranja",
-      "text": "Litoral de Barcelona: Aviso de temperaturas máximas de nivel amarillo. Litoral de Barcelona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral de Barcelona",
-      "fenomeno": "Moderate high-temperature warning. Litoral de Barcelona",
-      "nivel": "Naranja",
-      "text": "Litoral de Barcelona: Moderate high-temperature warning. Litoral de Barcelona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Litoral sur de Girona",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Litoral sur de Girona",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Girona: Aviso de temperaturas máximas de nivel amarillo. Litoral sur de Girona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral sur de Girona",
-      "fenomeno": "Moderate high-temperature warning. Litoral sur de Girona",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Girona: Moderate high-temperature warning. Litoral sur de Girona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Litoral sur de Tarragona",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Litoral sur de Tarragona",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Tarragona: Aviso de temperaturas máximas de nivel amarillo. Litoral sur de Tarragona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral sur de Tarragona",
-      "fenomeno": "Moderate high-temperature warning. Litoral sur de Tarragona",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Tarragona: Moderate high-temperature warning. Litoral sur de Tarragona (Naranja) (AEMET)",
+      "text": "Centro de Huesca: Severe high-temperature warning. Centro de Huesca (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌡️",
-      "provincia": "Cumbres de Gran Canaria",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Cumbres de Gran Canaria",
+      "provincia": "Sur de Huesca",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Sur de Huesca",
       "nivel": "Rojo",
-      "text": "Cumbres de Gran Canaria: Aviso de temperaturas máximas de nivel naranja. Cumbres de Gran Canaria (Rojo) (AEMET)",
+      "text": "Sur de Huesca: Aviso de temperaturas máximas de nivel naranja. Sur de Huesca (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Cumbres de Gran Canaria",
-      "fenomeno": "Severe high-temperature warning. Cumbres de Gran Canaria",
+      "provincia": "Sur de Huesca",
+      "fenomeno": "Severe high-temperature warning. Sur de Huesca",
       "nivel": "Rojo",
-      "text": "Cumbres de Gran Canaria: Severe high-temperature warning. Cumbres de Gran Canaria (Rojo) (AEMET)",
+      "text": "Sur de Huesca: Severe high-temperature warning. Sur de Huesca (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌡️",
-      "provincia": "Este, sur y oeste de Gran Canaria",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Este, sur y oeste de Gran Canaria",
+      "provincia": "Bajo Aragón de Teruel",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Bajo Aragón de Teruel",
       "nivel": "Rojo",
-      "text": "Este, sur y oeste de Gran Canaria: Aviso de temperaturas máximas de nivel naranja. Este, sur y oeste de Gran Canaria (Rojo) (AEMET)",
+      "text": "Bajo Aragón de Teruel: Aviso de temperaturas máximas de nivel naranja. Bajo Aragón de Teruel (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Este, sur y oeste de Gran Canaria",
-      "fenomeno": "Severe high-temperature warning. Este, sur y oeste de Gran Canaria",
+      "provincia": "Bajo Aragón de Teruel",
+      "fenomeno": "Severe high-temperature warning. Bajo Aragón de Teruel",
       "nivel": "Rojo",
-      "text": "Este, sur y oeste de Gran Canaria: Severe high-temperature warning. Este, sur y oeste de Gran Canaria (Rojo) (AEMET)",
+      "text": "Bajo Aragón de Teruel: Severe high-temperature warning. Bajo Aragón de Teruel (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌡️",
-      "provincia": "Lanzarote",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Lanzarote",
+      "provincia": "Cinco Villas de Zaragoza",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Cinco Villas de Zaragoza",
       "nivel": "Rojo",
-      "text": "Lanzarote: Aviso de temperaturas máximas de nivel naranja. Lanzarote (Rojo) (AEMET)",
+      "text": "Cinco Villas de Zaragoza: Aviso de temperaturas máximas de nivel naranja. Cinco Villas de Zaragoza (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Lanzarote",
-      "fenomeno": "Severe high-temperature warning. Lanzarote",
+      "provincia": "Cinco Villas de Zaragoza",
+      "fenomeno": "Severe high-temperature warning. Cinco Villas de Zaragoza",
       "nivel": "Rojo",
-      "text": "Lanzarote: Severe high-temperature warning. Lanzarote (Rojo) (AEMET)",
+      "text": "Cinco Villas de Zaragoza: Severe high-temperature warning. Cinco Villas de Zaragoza (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌡️",
-      "provincia": "Fuerteventura",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Fuerteventura",
+      "provincia": "Ibérica zaragozana",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Ibérica zaragozana",
       "nivel": "Rojo",
-      "text": "Fuerteventura: Aviso de temperaturas máximas de nivel naranja. Fuerteventura (Rojo) (AEMET)",
+      "text": "Ibérica zaragozana: Aviso de temperaturas máximas de nivel naranja. Ibérica zaragozana (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Fuerteventura",
-      "fenomeno": "Severe high-temperature warning. Fuerteventura",
+      "provincia": "Ibérica zaragozana",
+      "fenomeno": "Severe high-temperature warning. Ibérica zaragozana",
       "nivel": "Rojo",
-      "text": "Fuerteventura: Severe high-temperature warning. Fuerteventura (Rojo) (AEMET)",
+      "text": "Ibérica zaragozana: Severe high-temperature warning. Ibérica zaragozana (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Ribera del Ebro de Zaragoza",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Ribera del Ebro de Zaragoza",
+      "nivel": "Rojo",
+      "text": "Ribera del Ebro de Zaragoza: Aviso de temperaturas máximas de nivel naranja. Ribera del Ebro de Zaragoza (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ribera del Ebro de Zaragoza",
+      "fenomeno": "Severe high-temperature warning. Ribera del Ebro de Zaragoza",
+      "nivel": "Rojo",
+      "text": "Ribera del Ebro de Zaragoza: Severe high-temperature warning. Ribera del Ebro de Zaragoza (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Depresión central de Barcelona",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Depresión central de Barcelona",
+      "nivel": "Rojo",
+      "text": "Depresión central de Barcelona: Aviso de temperaturas máximas de nivel naranja. Depresión central de Barcelona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Depresión central de Barcelona",
+      "fenomeno": "Severe high-temperature warning. Depresión central de Barcelona",
+      "nivel": "Rojo",
+      "text": "Depresión central de Barcelona: Severe high-temperature warning. Depresión central de Barcelona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Pirineo de Girona",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Pirineo de Girona",
+      "nivel": "Rojo",
+      "text": "Pirineo de Girona: Aviso de temperaturas máximas de nivel naranja. Pirineo de Girona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Pirineo de Girona",
+      "fenomeno": "Severe high-temperature warning. Pirineo de Girona",
+      "nivel": "Rojo",
+      "text": "Pirineo de Girona: Severe high-temperature warning. Pirineo de Girona (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
