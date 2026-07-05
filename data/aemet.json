@@ -1,70 +1,86 @@
 {
-  "generated_at": "2026-07-05T21:17:34.117Z",
+  "generated_at": "2026-07-05T22:28:12.843Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "🌡️",
-      "provincia": "Prepirineo de Barcelona",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Prepirineo de Barcelona",
+      "provincia": "Sur de Ávila",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Sur de Ávila",
       "nivel": "Rojo",
-      "text": "Prepirineo de Barcelona: Aviso de temperaturas máximas de nivel naranja. Prepirineo de Barcelona (Rojo) (AEMET)",
+      "text": "Sur de Ávila: Aviso de temperaturas máximas de nivel naranja. Sur de Ávila (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Prepirineo de Barcelona",
-      "fenomeno": "Severe high-temperature warning. Prepirineo de Barcelona",
+      "provincia": "Sur de Ávila",
+      "fenomeno": "Severe high-temperature warning. Sur de Ávila",
       "nivel": "Rojo",
-      "text": "Prepirineo de Barcelona: Severe high-temperature warning. Prepirineo de Barcelona (Rojo) (AEMET)",
+      "text": "Sur de Ávila: Severe high-temperature warning. Sur de Ávila (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌡️",
-      "provincia": "Valle del Guadalquivir de Jaén",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Valle del Guadalquivir de Jaén",
+      "provincia": "Norte de Burgos",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Norte de Burgos",
       "nivel": "Rojo",
-      "text": "Valle del Guadalquivir de Jaén: Aviso de temperaturas máximas de nivel naranja. Valle del Guadalquivir de Jaén (Rojo) (AEMET)",
+      "text": "Norte de Burgos: Aviso de temperaturas máximas de nivel naranja. Norte de Burgos (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Valle del Guadalquivir de Jaén",
-      "fenomeno": "Severe high-temperature warning. Valle del Guadalquivir de Jaén",
+      "provincia": "Norte de Burgos",
+      "fenomeno": "Severe high-temperature warning. Norte de Burgos",
       "nivel": "Rojo",
-      "text": "Valle del Guadalquivir de Jaén: Severe high-temperature warning. Valle del Guadalquivir de Jaén (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Interior norte de Castellón",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Interior norte de Castellón",
-      "nivel": "Naranja",
-      "text": "Interior norte de Castellón: Aviso de temperaturas máximas de nivel amarillo. Interior norte de Castellón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior norte de Castellón",
-      "fenomeno": "Moderate high-temperature warning. Interior norte de Castellón",
-      "nivel": "Naranja",
-      "text": "Interior norte de Castellón: Moderate high-temperature warning. Interior norte de Castellón (Naranja) (AEMET)",
+      "text": "Norte de Burgos: Severe high-temperature warning. Norte de Burgos (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌡️",
-      "provincia": "Campiña gaditana",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Campiña gaditana",
+      "provincia": "Condado de Treviño",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Condado de Treviño",
       "nivel": "Rojo",
-      "text": "Campiña gaditana: Aviso de temperaturas máximas de nivel naranja. Campiña gaditana (Rojo) (AEMET)",
+      "text": "Condado de Treviño: Aviso de temperaturas máximas de nivel naranja. Condado de Treviño (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Campiña gaditana",
-      "fenomeno": "Severe high-temperature warning. Campiña gaditana",
+      "provincia": "Condado de Treviño",
+      "fenomeno": "Severe high-temperature warning. Condado de Treviño",
       "nivel": "Rojo",
-      "text": "Campiña gaditana: Severe high-temperature warning. Campiña gaditana (Rojo) (AEMET)",
+      "text": "Condado de Treviño: Severe high-temperature warning. Condado de Treviño (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Norte de Cáceres",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Norte de Cáceres",
+      "nivel": "Rojo",
+      "text": "Norte de Cáceres: Aviso de temperaturas máximas de nivel naranja. Norte de Cáceres (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Norte de Cáceres",
+      "fenomeno": "Severe high-temperature warning. Norte de Cáceres",
+      "nivel": "Rojo",
+      "text": "Norte de Cáceres: Severe high-temperature warning. Norte de Cáceres (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Villuercas y Montánchez",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Villuercas y Montánchez",
+      "nivel": "Rojo",
+      "text": "Villuercas y Montánchez: Aviso de temperaturas máximas de nivel naranja. Villuercas y Montánchez (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Villuercas y Montánchez",
+      "fenomeno": "Severe high-temperature warning. Villuercas y Montánchez",
+      "nivel": "Rojo",
+      "text": "Villuercas y Montánchez: Severe high-temperature warning. Villuercas y Montánchez (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -85,82 +101,66 @@
     },
     {
       "icon": "🌊",
-      "provincia": "Rioja alavesa",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Rioja alavesa",
+      "provincia": "Cordillera Cantábrica de Burgos",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Cordillera Cantábrica de Burgos",
       "nivel": "Naranja",
-      "text": "Rioja alavesa: Aviso de temperaturas máximas de nivel amarillo. Rioja alavesa (Naranja) (AEMET)",
+      "text": "Cordillera Cantábrica de Burgos: Aviso de temperaturas máximas de nivel amarillo. Cordillera Cantábrica de Burgos (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Rioja alavesa",
-      "fenomeno": "Moderate high-temperature warning. Rioja alavesa",
+      "provincia": "Cordillera Cantábrica de Burgos",
+      "fenomeno": "Moderate high-temperature warning. Cordillera Cantábrica de Burgos",
       "nivel": "Naranja",
-      "text": "Rioja alavesa: Moderate high-temperature warning. Rioja alavesa (Naranja) (AEMET)",
+      "text": "Cordillera Cantábrica de Burgos: Moderate high-temperature warning. Cordillera Cantábrica de Burgos (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌡️",
-      "provincia": "Centro y valle de Villaverde",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Centro y valle de Villaverde",
-      "nivel": "Rojo",
-      "text": "Centro y valle de Villaverde: Aviso de temperaturas máximas de nivel naranja. Centro y valle de Villaverde (Rojo) (AEMET)",
+      "icon": "🌊",
+      "provincia": "Serranía de Guadalajara",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Serranía de Guadalajara",
+      "nivel": "Naranja",
+      "text": "Serranía de Guadalajara: Aviso de temperaturas máximas de nivel amarillo. Serranía de Guadalajara (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Centro y valle de Villaverde",
-      "fenomeno": "Severe high-temperature warning. Centro y valle de Villaverde",
-      "nivel": "Rojo",
-      "text": "Centro y valle de Villaverde: Severe high-temperature warning. Centro y valle de Villaverde (Rojo) (AEMET)",
+      "provincia": "Serranía de Guadalajara",
+      "fenomeno": "Moderate high-temperature warning. Serranía de Guadalajara",
+      "nivel": "Naranja",
+      "text": "Serranía de Guadalajara: Moderate high-temperature warning. Serranía de Guadalajara (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌡️",
+      "icon": "🌊",
+      "provincia": "Parameras de Molina",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Parameras de Molina",
+      "nivel": "Naranja",
+      "text": "Parameras de Molina: Aviso de temperaturas máximas de nivel amarillo. Parameras de Molina (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Parameras de Molina",
+      "fenomeno": "Moderate high-temperature warning. Parameras de Molina",
+      "nivel": "Naranja",
+      "text": "Parameras de Molina: Moderate high-temperature warning. Parameras de Molina (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
       "provincia": "Cantabria del Ebro",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Cantabria del Ebro",
-      "nivel": "Rojo",
-      "text": "Cantabria del Ebro: Aviso de temperaturas máximas de nivel naranja. Cantabria del Ebro (Rojo) (AEMET)",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Cantabria del Ebro",
+      "nivel": "Naranja",
+      "text": "Cantabria del Ebro: Aviso de tormentas de nivel amarillo. Cantabria del Ebro (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
       "provincia": "Cantabria del Ebro",
-      "fenomeno": "Severe high-temperature warning. Cantabria del Ebro",
-      "nivel": "Rojo",
-      "text": "Cantabria del Ebro: Severe high-temperature warning. Cantabria del Ebro (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Suroccidental asturiana",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Suroccidental asturiana",
-      "nivel": "Rojo",
-      "text": "Suroccidental asturiana: Aviso de temperaturas máximas de nivel naranja. Suroccidental asturiana (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Suroccidental asturiana",
-      "fenomeno": "Severe high-temperature warning. Suroccidental asturiana",
-      "nivel": "Rojo",
-      "text": "Suroccidental asturiana: Severe high-temperature warning. Suroccidental asturiana (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Norte de Cáceres",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Norte de Cáceres",
-      "nivel": "Rojo",
-      "text": "Norte de Cáceres: Aviso de temperaturas máximas de nivel naranja. Norte de Cáceres (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Norte de Cáceres",
-      "fenomeno": "Severe high-temperature warning. Norte de Cáceres",
-      "nivel": "Rojo",
-      "text": "Norte de Cáceres: Severe high-temperature warning. Norte de Cáceres (Rojo) (AEMET)",
+      "fenomeno": "Moderate thunderstorm warning. Cantabria del Ebro",
+      "nivel": "Naranja",
+      "text": "Cantabria del Ebro: Moderate thunderstorm warning. Cantabria del Ebro (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
