@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-07-05T05:30:33.386Z
+// Auto-generado por GitHub Actions - 2026-07-05T08:29:28.630Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-07-05T05:30:33.386Z",
+  "generated_at": "2026-07-05T08:29:28.630Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "🌡️",
-      "provincia": "Ampurdán",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Ampurdán",
+      "provincia": "Noroeste de A Coruña",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Noroeste de A Coruña",
       "nivel": "Rojo",
-      "text": "Ampurdán: Aviso de temperaturas máximas de nivel naranja. Ampurdán (Rojo) (AEMET)",
+      "text": "Noroeste de A Coruña: Aviso de temperaturas máximas de nivel naranja. Noroeste de A Coruña (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Ampurdán",
-      "fenomeno": "Severe high-temperature warning. Ampurdán",
+      "provincia": "Noroeste de A Coruña",
+      "fenomeno": "Severe high-temperature warning. Noroeste de A Coruña",
       "nivel": "Rojo",
-      "text": "Ampurdán: Severe high-temperature warning. Ampurdán (Rojo) (AEMET)",
+      "text": "Noroeste de A Coruña: Severe high-temperature warning. Noroeste de A Coruña (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌡️",
-      "provincia": "Sierra de Madrid",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Sierra de Madrid",
+      "provincia": "Interior de A Coruña",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Interior de A Coruña",
       "nivel": "Rojo",
-      "text": "Sierra de Madrid: Aviso de temperaturas máximas de nivel naranja. Sierra de Madrid (Rojo) (AEMET)",
+      "text": "Interior de A Coruña: Aviso de temperaturas máximas de nivel naranja. Interior de A Coruña (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sierra de Madrid",
-      "fenomeno": "Severe high-temperature warning. Sierra de Madrid",
+      "provincia": "Interior de A Coruña",
+      "fenomeno": "Severe high-temperature warning. Interior de A Coruña",
       "nivel": "Rojo",
-      "text": "Sierra de Madrid: Severe high-temperature warning. Sierra de Madrid (Rojo) (AEMET)",
+      "text": "Interior de A Coruña: Severe high-temperature warning. Interior de A Coruña (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Litoral norte de Tarragona",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Litoral norte de Tarragona",
-      "nivel": "Naranja",
-      "text": "Litoral norte de Tarragona: Aviso de temperaturas máximas de nivel amarillo. Litoral norte de Tarragona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral norte de Tarragona",
-      "fenomeno": "Moderate high-temperature warning. Litoral norte de Tarragona",
-      "nivel": "Naranja",
-      "text": "Litoral norte de Tarragona: Moderate high-temperature warning. Litoral norte de Tarragona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Albarracín y Jiloca",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Albarracín y Jiloca",
-      "nivel": "Naranja",
-      "text": "Albarracín y Jiloca: Aviso de temperaturas máximas de nivel amarillo. Albarracín y Jiloca (Naranja) (AEMET)",
+      "icon": "🌡️",
+      "provincia": "Suroeste de A Coruña",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Suroeste de A Coruña",
+      "nivel": "Rojo",
+      "text": "Suroeste de A Coruña: Aviso de temperaturas máximas de nivel naranja. Suroeste de A Coruña (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Albarracín y Jiloca",
-      "fenomeno": "Moderate high-temperature warning. Albarracín y Jiloca",
-      "nivel": "Naranja",
-      "text": "Albarracín y Jiloca: Moderate high-temperature warning. Albarracín y Jiloca (Naranja) (AEMET)",
+      "provincia": "Suroeste de A Coruña",
+      "fenomeno": "Severe high-temperature warning. Suroeste de A Coruña",
+      "nivel": "Rojo",
+      "text": "Suroeste de A Coruña: Severe high-temperature warning. Suroeste de A Coruña (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Gúdar y Maestrazgo",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Gúdar y Maestrazgo",
+      "provincia": "Litoral de Barcelona",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Litoral de Barcelona",
       "nivel": "Naranja",
-      "text": "Gúdar y Maestrazgo: Aviso de temperaturas máximas de nivel amarillo. Gúdar y Maestrazgo (Naranja) (AEMET)",
+      "text": "Litoral de Barcelona: Aviso de temperaturas máximas de nivel amarillo. Litoral de Barcelona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Gúdar y Maestrazgo",
-      "fenomeno": "Moderate high-temperature warning. Gúdar y Maestrazgo",
+      "provincia": "Litoral de Barcelona",
+      "fenomeno": "Moderate high-temperature warning. Litoral de Barcelona",
       "nivel": "Naranja",
-      "text": "Gúdar y Maestrazgo: Moderate high-temperature warning. Gúdar y Maestrazgo (Naranja) (AEMET)",
+      "text": "Litoral de Barcelona: Moderate high-temperature warning. Litoral de Barcelona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Prepirineo de Barcelona",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Prepirineo de Barcelona",
+      "provincia": "Litoral sur de Girona",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Litoral sur de Girona",
       "nivel": "Naranja",
-      "text": "Prepirineo de Barcelona: Aviso de temperaturas máximas de nivel amarillo. Prepirineo de Barcelona (Naranja) (AEMET)",
+      "text": "Litoral sur de Girona: Aviso de temperaturas máximas de nivel amarillo. Litoral sur de Girona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Prepirineo de Barcelona",
-      "fenomeno": "Moderate high-temperature warning. Prepirineo de Barcelona",
+      "provincia": "Litoral sur de Girona",
+      "fenomeno": "Moderate high-temperature warning. Litoral sur de Girona",
       "nivel": "Naranja",
-      "text": "Prepirineo de Barcelona: Moderate high-temperature warning. Prepirineo de Barcelona (Naranja) (AEMET)",
+      "text": "Litoral sur de Girona: Moderate high-temperature warning. Litoral sur de Girona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Noroeste de A Coruña",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Noroeste de A Coruña",
+      "provincia": "Litoral sur de Tarragona",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Litoral sur de Tarragona",
       "nivel": "Naranja",
-      "text": "Noroeste de A Coruña: Aviso de temperaturas máximas de nivel amarillo. Noroeste de A Coruña (Naranja) (AEMET)",
+      "text": "Litoral sur de Tarragona: Aviso de temperaturas máximas de nivel amarillo. Litoral sur de Tarragona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Noroeste de A Coruña",
-      "fenomeno": "Moderate high-temperature warning. Noroeste de A Coruña",
+      "provincia": "Litoral sur de Tarragona",
+      "fenomeno": "Moderate high-temperature warning. Litoral sur de Tarragona",
       "nivel": "Naranja",
-      "text": "Noroeste de A Coruña: Moderate high-temperature warning. Noroeste de A Coruña (Naranja) (AEMET)",
+      "text": "Litoral sur de Tarragona: Moderate high-temperature warning. Litoral sur de Tarragona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Oeste de A Coruña",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Oeste de A Coruña",
-      "nivel": "Naranja",
-      "text": "Oeste de A Coruña: Aviso de temperaturas máximas de nivel amarillo. Oeste de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Oeste de A Coruña",
-      "fenomeno": "Moderate high-temperature warning. Oeste de A Coruña",
-      "nivel": "Naranja",
-      "text": "Oeste de A Coruña: Moderate high-temperature warning. Oeste de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Montaña de Lugo",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Montaña de Lugo",
-      "nivel": "Naranja",
-      "text": "Montaña de Lugo: Aviso de temperaturas máximas de nivel amarillo. Montaña de Lugo (Naranja) (AEMET)",
+      "icon": "🌡️",
+      "provincia": "Cumbres de Gran Canaria",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Cumbres de Gran Canaria",
+      "nivel": "Rojo",
+      "text": "Cumbres de Gran Canaria: Aviso de temperaturas máximas de nivel naranja. Cumbres de Gran Canaria (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Montaña de Lugo",
-      "fenomeno": "Moderate high-temperature warning. Montaña de Lugo",
-      "nivel": "Naranja",
-      "text": "Montaña de Lugo: Moderate high-temperature warning. Montaña de Lugo (Naranja) (AEMET)",
+      "provincia": "Cumbres de Gran Canaria",
+      "fenomeno": "Severe high-temperature warning. Cumbres de Gran Canaria",
+      "nivel": "Rojo",
+      "text": "Cumbres de Gran Canaria: Severe high-temperature warning. Cumbres de Gran Canaria (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Interior norte de Valencia",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Interior norte de Valencia",
-      "nivel": "Naranja",
-      "text": "Interior norte de Valencia: Aviso de temperaturas máximas de nivel amarillo. Interior norte de Valencia (Naranja) (AEMET)",
+      "icon": "🌡️",
+      "provincia": "Este, sur y oeste de Gran Canaria",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Este, sur y oeste de Gran Canaria",
+      "nivel": "Rojo",
+      "text": "Este, sur y oeste de Gran Canaria: Aviso de temperaturas máximas de nivel naranja. Este, sur y oeste de Gran Canaria (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Interior norte de Valencia",
-      "fenomeno": "Moderate high-temperature warning. Interior norte de Valencia",
-      "nivel": "Naranja",
-      "text": "Interior norte de Valencia: Moderate high-temperature warning. Interior norte de Valencia (Naranja) (AEMET)",
+      "provincia": "Este, sur y oeste de Gran Canaria",
+      "fenomeno": "Severe high-temperature warning. Este, sur y oeste de Gran Canaria",
+      "nivel": "Rojo",
+      "text": "Este, sur y oeste de Gran Canaria: Severe high-temperature warning. Este, sur y oeste de Gran Canaria (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Lanzarote",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Lanzarote",
+      "nivel": "Rojo",
+      "text": "Lanzarote: Aviso de temperaturas máximas de nivel naranja. Lanzarote (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Lanzarote",
+      "fenomeno": "Severe high-temperature warning. Lanzarote",
+      "nivel": "Rojo",
+      "text": "Lanzarote: Severe high-temperature warning. Lanzarote (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Fuerteventura",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Fuerteventura",
+      "nivel": "Rojo",
+      "text": "Fuerteventura: Aviso de temperaturas máximas de nivel naranja. Fuerteventura (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Fuerteventura",
+      "fenomeno": "Severe high-temperature warning. Fuerteventura",
+      "nivel": "Rojo",
+      "text": "Fuerteventura: Severe high-temperature warning. Fuerteventura (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
