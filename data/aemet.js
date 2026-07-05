@@ -1,9 +1,105 @@
-// Auto-generado por GitHub Actions - 2026-07-05T16:41:37.524Z
+// Auto-generado por GitHub Actions - 2026-07-05T17:44:01.974Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-07-05T16:41:37.524Z",
+  "generated_at": "2026-07-05T17:44:01.974Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌡️",
+      "provincia": "Prepirineo de Barcelona",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Prepirineo de Barcelona",
+      "nivel": "Rojo",
+      "text": "Prepirineo de Barcelona: Aviso de temperaturas máximas de nivel naranja. Prepirineo de Barcelona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Prepirineo de Barcelona",
+      "fenomeno": "Severe high-temperature warning. Prepirineo de Barcelona",
+      "nivel": "Rojo",
+      "text": "Prepirineo de Barcelona: Severe high-temperature warning. Prepirineo de Barcelona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Valle del Guadalquivir de Jaén",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Valle del Guadalquivir de Jaén",
+      "nivel": "Rojo",
+      "text": "Valle del Guadalquivir de Jaén: Aviso de temperaturas máximas de nivel naranja. Valle del Guadalquivir de Jaén (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Valle del Guadalquivir de Jaén",
+      "fenomeno": "Severe high-temperature warning. Valle del Guadalquivir de Jaén",
+      "nivel": "Rojo",
+      "text": "Valle del Guadalquivir de Jaén: Severe high-temperature warning. Valle del Guadalquivir de Jaén (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Interior norte de Castellón",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Interior norte de Castellón",
+      "nivel": "Naranja",
+      "text": "Interior norte de Castellón: Aviso de temperaturas máximas de nivel amarillo. Interior norte de Castellón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior norte de Castellón",
+      "fenomeno": "Moderate high-temperature warning. Interior norte de Castellón",
+      "nivel": "Naranja",
+      "text": "Interior norte de Castellón: Moderate high-temperature warning. Interior norte de Castellón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Campiña gaditana",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Campiña gaditana",
+      "nivel": "Rojo",
+      "text": "Campiña gaditana: Aviso de temperaturas máximas de nivel naranja. Campiña gaditana (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Campiña gaditana",
+      "fenomeno": "Severe high-temperature warning. Campiña gaditana",
+      "nivel": "Rojo",
+      "text": "Campiña gaditana: Severe high-temperature warning. Campiña gaditana (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Llanada alavesa",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Llanada alavesa",
+      "nivel": "Rojo",
+      "text": "Llanada alavesa: Aviso de temperaturas máximas de nivel naranja. Llanada alavesa (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Llanada alavesa",
+      "fenomeno": "Severe high-temperature warning. Llanada alavesa",
+      "nivel": "Rojo",
+      "text": "Llanada alavesa: Severe high-temperature warning. Llanada alavesa (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Rioja alavesa",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Rioja alavesa",
+      "nivel": "Naranja",
+      "text": "Rioja alavesa: Aviso de temperaturas máximas de nivel amarillo. Rioja alavesa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Rioja alavesa",
+      "fenomeno": "Moderate high-temperature warning. Rioja alavesa",
+      "nivel": "Naranja",
+      "text": "Rioja alavesa: Moderate high-temperature warning. Rioja alavesa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌡️",
       "provincia": "Centro y valle de Villaverde",
@@ -66,102 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Severe high-temperature warning. Norte de Cáceres",
       "nivel": "Rojo",
       "text": "Norte de Cáceres: Severe high-temperature warning. Norte de Cáceres (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Villuercas y Montánchez",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Villuercas y Montánchez",
-      "nivel": "Rojo",
-      "text": "Villuercas y Montánchez: Aviso de temperaturas máximas de nivel naranja. Villuercas y Montánchez (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Villuercas y Montánchez",
-      "fenomeno": "Severe high-temperature warning. Villuercas y Montánchez",
-      "nivel": "Rojo",
-      "text": "Villuercas y Montánchez: Severe high-temperature warning. Villuercas y Montánchez (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Cordillera Cantábrica de Burgos",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Cordillera Cantábrica de Burgos",
-      "nivel": "Rojo",
-      "text": "Cordillera Cantábrica de Burgos: Aviso de temperaturas máximas de nivel naranja. Cordillera Cantábrica de Burgos (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cordillera Cantábrica de Burgos",
-      "fenomeno": "Severe high-temperature warning. Cordillera Cantábrica de Burgos",
-      "nivel": "Rojo",
-      "text": "Cordillera Cantábrica de Burgos: Severe high-temperature warning. Cordillera Cantábrica de Burgos (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Norte de Burgos",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Norte de Burgos",
-      "nivel": "Rojo",
-      "text": "Norte de Burgos: Aviso de temperaturas máximas de nivel naranja. Norte de Burgos (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Norte de Burgos",
-      "fenomeno": "Severe high-temperature warning. Norte de Burgos",
-      "nivel": "Rojo",
-      "text": "Norte de Burgos: Severe high-temperature warning. Norte de Burgos (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Condado de Treviño",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Condado de Treviño",
-      "nivel": "Rojo",
-      "text": "Condado de Treviño: Aviso de temperaturas máximas de nivel naranja. Condado de Treviño (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Condado de Treviño",
-      "fenomeno": "Severe high-temperature warning. Condado de Treviño",
-      "nivel": "Rojo",
-      "text": "Condado de Treviño: Severe high-temperature warning. Condado de Treviño (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Litoral sur de Valencia",
-      "fenomeno": "Aviso de temperaturas máximas de nivel rojo. Litoral sur de Valencia",
-      "nivel": "Rojo",
-      "text": "Litoral sur de Valencia: Aviso de temperaturas máximas de nivel rojo. Litoral sur de Valencia (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral sur de Valencia",
-      "fenomeno": "Extreme high-temperature warning. Litoral sur de Valencia",
-      "nivel": "Rojo",
-      "text": "Litoral sur de Valencia: Extreme high-temperature warning. Litoral sur de Valencia (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Ribera del Ebro de Zaragoza",
-      "fenomeno": "Aviso de temperaturas máximas de nivel rojo. Ribera del Ebro de Zaragoza",
-      "nivel": "Rojo",
-      "text": "Ribera del Ebro de Zaragoza: Aviso de temperaturas máximas de nivel rojo. Ribera del Ebro de Zaragoza (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ribera del Ebro de Zaragoza",
-      "fenomeno": "Extreme high-temperature warning. Ribera del Ebro de Zaragoza",
-      "nivel": "Rojo",
-      "text": "Ribera del Ebro de Zaragoza: Extreme high-temperature warning. Ribera del Ebro de Zaragoza (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
