@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-07-06T05:48:03.518Z
+// Auto-generado por GitHub Actions - 2026-07-06T09:58:36.637Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-07-06T05:48:03.518Z",
+  "generated_at": "2026-07-06T09:58:36.637Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "🌡️",
-      "provincia": "Sur de Ávila",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Sur de Ávila",
+      "provincia": "Ibiza y Formentera",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Ibiza y Formentera",
       "nivel": "Rojo",
-      "text": "Sur de Ávila: Aviso de temperaturas máximas de nivel naranja. Sur de Ávila (Rojo) (AEMET)",
+      "text": "Ibiza y Formentera: Aviso de temperaturas máximas de nivel naranja. Ibiza y Formentera (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sur de Ávila",
-      "fenomeno": "Severe high-temperature warning. Sur de Ávila",
+      "provincia": "Ibiza y Formentera",
+      "fenomeno": "Severe high-temperature warning. Ibiza y Formentera",
       "nivel": "Rojo",
-      "text": "Sur de Ávila: Severe high-temperature warning. Sur de Ávila (Rojo) (AEMET)",
+      "text": "Ibiza y Formentera: Severe high-temperature warning. Ibiza y Formentera (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌡️",
-      "provincia": "Norte de Burgos",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Norte de Burgos",
+      "provincia": "Norte y nordeste de Mallorca",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Norte y nordeste de Mallorca",
       "nivel": "Rojo",
-      "text": "Norte de Burgos: Aviso de temperaturas máximas de nivel naranja. Norte de Burgos (Rojo) (AEMET)",
+      "text": "Norte y nordeste de Mallorca: Aviso de temperaturas máximas de nivel naranja. Norte y nordeste de Mallorca (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Norte de Burgos",
-      "fenomeno": "Severe high-temperature warning. Norte de Burgos",
+      "provincia": "Norte y nordeste de Mallorca",
+      "fenomeno": "Severe high-temperature warning. Norte y nordeste de Mallorca",
       "nivel": "Rojo",
-      "text": "Norte de Burgos: Severe high-temperature warning. Norte de Burgos (Rojo) (AEMET)",
+      "text": "Norte y nordeste de Mallorca: Severe high-temperature warning. Norte y nordeste de Mallorca (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌡️",
-      "provincia": "Condado de Treviño",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Condado de Treviño",
+      "provincia": "Interior de Mallorca",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Interior de Mallorca",
       "nivel": "Rojo",
-      "text": "Condado de Treviño: Aviso de temperaturas máximas de nivel naranja. Condado de Treviño (Rojo) (AEMET)",
+      "text": "Interior de Mallorca: Aviso de temperaturas máximas de nivel naranja. Interior de Mallorca (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Condado de Treviño",
-      "fenomeno": "Severe high-temperature warning. Condado de Treviño",
+      "provincia": "Interior de Mallorca",
+      "fenomeno": "Severe high-temperature warning. Interior de Mallorca",
       "nivel": "Rojo",
-      "text": "Condado de Treviño: Severe high-temperature warning. Condado de Treviño (Rojo) (AEMET)",
+      "text": "Interior de Mallorca: Severe high-temperature warning. Interior de Mallorca (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌡️",
-      "provincia": "Norte de Cáceres",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Norte de Cáceres",
+      "provincia": "Levante mallorquín",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Levante mallorquín",
       "nivel": "Rojo",
-      "text": "Norte de Cáceres: Aviso de temperaturas máximas de nivel naranja. Norte de Cáceres (Rojo) (AEMET)",
+      "text": "Levante mallorquín: Aviso de temperaturas máximas de nivel naranja. Levante mallorquín (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Norte de Cáceres",
-      "fenomeno": "Severe high-temperature warning. Norte de Cáceres",
+      "provincia": "Levante mallorquín",
+      "fenomeno": "Severe high-temperature warning. Levante mallorquín",
       "nivel": "Rojo",
-      "text": "Norte de Cáceres: Severe high-temperature warning. Norte de Cáceres (Rojo) (AEMET)",
+      "text": "Levante mallorquín: Severe high-temperature warning. Levante mallorquín (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌡️",
-      "provincia": "Villuercas y Montánchez",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Villuercas y Montánchez",
+      "provincia": "Cumbres de Gran Canaria",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Cumbres de Gran Canaria",
       "nivel": "Rojo",
-      "text": "Villuercas y Montánchez: Aviso de temperaturas máximas de nivel naranja. Villuercas y Montánchez (Rojo) (AEMET)",
+      "text": "Cumbres de Gran Canaria: Aviso de temperaturas máximas de nivel naranja. Cumbres de Gran Canaria (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Villuercas y Montánchez",
-      "fenomeno": "Severe high-temperature warning. Villuercas y Montánchez",
+      "provincia": "Cumbres de Gran Canaria",
+      "fenomeno": "Severe high-temperature warning. Cumbres de Gran Canaria",
       "nivel": "Rojo",
-      "text": "Villuercas y Montánchez: Severe high-temperature warning. Villuercas y Montánchez (Rojo) (AEMET)",
+      "text": "Cumbres de Gran Canaria: Severe high-temperature warning. Cumbres de Gran Canaria (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌡️",
-      "provincia": "Llanada alavesa",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Llanada alavesa",
+      "provincia": "Este, sur y oeste de Gran Canaria",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Este, sur y oeste de Gran Canaria",
       "nivel": "Rojo",
-      "text": "Llanada alavesa: Aviso de temperaturas máximas de nivel naranja. Llanada alavesa (Rojo) (AEMET)",
+      "text": "Este, sur y oeste de Gran Canaria: Aviso de temperaturas máximas de nivel naranja. Este, sur y oeste de Gran Canaria (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Llanada alavesa",
-      "fenomeno": "Severe high-temperature warning. Llanada alavesa",
+      "provincia": "Este, sur y oeste de Gran Canaria",
+      "fenomeno": "Severe high-temperature warning. Este, sur y oeste de Gran Canaria",
       "nivel": "Rojo",
-      "text": "Llanada alavesa: Severe high-temperature warning. Llanada alavesa (Rojo) (AEMET)",
+      "text": "Este, sur y oeste de Gran Canaria: Severe high-temperature warning. Este, sur y oeste de Gran Canaria (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Cordillera Cantábrica de Burgos",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Cordillera Cantábrica de Burgos",
-      "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de Burgos: Aviso de temperaturas máximas de nivel amarillo. Cordillera Cantábrica de Burgos (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cordillera Cantábrica de Burgos",
-      "fenomeno": "Moderate high-temperature warning. Cordillera Cantábrica de Burgos",
-      "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de Burgos: Moderate high-temperature warning. Cordillera Cantábrica de Burgos (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Serranía de Guadalajara",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Serranía de Guadalajara",
-      "nivel": "Naranja",
-      "text": "Serranía de Guadalajara: Aviso de temperaturas máximas de nivel amarillo. Serranía de Guadalajara (Naranja) (AEMET)",
+      "icon": "🌡️",
+      "provincia": "Lanzarote",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Lanzarote",
+      "nivel": "Rojo",
+      "text": "Lanzarote: Aviso de temperaturas máximas de nivel naranja. Lanzarote (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Serranía de Guadalajara",
-      "fenomeno": "Moderate high-temperature warning. Serranía de Guadalajara",
-      "nivel": "Naranja",
-      "text": "Serranía de Guadalajara: Moderate high-temperature warning. Serranía de Guadalajara (Naranja) (AEMET)",
+      "provincia": "Lanzarote",
+      "fenomeno": "Severe high-temperature warning. Lanzarote",
+      "nivel": "Rojo",
+      "text": "Lanzarote: Severe high-temperature warning. Lanzarote (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Parameras de Molina",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Parameras de Molina",
-      "nivel": "Naranja",
-      "text": "Parameras de Molina: Aviso de temperaturas máximas de nivel amarillo. Parameras de Molina (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Parameras de Molina",
-      "fenomeno": "Moderate high-temperature warning. Parameras de Molina",
-      "nivel": "Naranja",
-      "text": "Parameras de Molina: Moderate high-temperature warning. Parameras de Molina (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Cantabria del Ebro",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Cantabria del Ebro",
-      "nivel": "Naranja",
-      "text": "Cantabria del Ebro: Aviso de tormentas de nivel amarillo. Cantabria del Ebro (Naranja) (AEMET)",
+      "icon": "🌡️",
+      "provincia": "Fuerteventura",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Fuerteventura",
+      "nivel": "Rojo",
+      "text": "Fuerteventura: Aviso de temperaturas máximas de nivel naranja. Fuerteventura (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Cantabria del Ebro",
-      "fenomeno": "Moderate thunderstorm warning. Cantabria del Ebro",
-      "nivel": "Naranja",
-      "text": "Cantabria del Ebro: Moderate thunderstorm warning. Cantabria del Ebro (Naranja) (AEMET)",
+      "provincia": "Fuerteventura",
+      "fenomeno": "Severe high-temperature warning. Fuerteventura",
+      "nivel": "Rojo",
+      "text": "Fuerteventura: Severe high-temperature warning. Fuerteventura (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Ampurdán",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Ampurdán",
+      "nivel": "Rojo",
+      "text": "Ampurdán: Aviso de temperaturas máximas de nivel naranja. Ampurdán (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ampurdán",
+      "fenomeno": "Severe high-temperature warning. Ampurdán",
+      "nivel": "Rojo",
+      "text": "Ampurdán: Severe high-temperature warning. Ampurdán (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Litoral norte de Alicante",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Litoral norte de Alicante",
+      "nivel": "Rojo",
+      "text": "Litoral norte de Alicante: Aviso de temperaturas máximas de nivel naranja. Litoral norte de Alicante (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral norte de Alicante",
+      "fenomeno": "Severe high-temperature warning. Litoral norte de Alicante",
+      "nivel": "Rojo",
+      "text": "Litoral norte de Alicante: Severe high-temperature warning. Litoral norte de Alicante (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
