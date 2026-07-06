@@ -1,9 +1,105 @@
-// Auto-generado por GitHub Actions - 2026-07-06T20:47:30.983Z
+// Auto-generado por GitHub Actions - 2026-07-06T22:07:41.510Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-07-06T20:47:30.983Z",
+  "generated_at": "2026-07-06T22:07:41.510Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌡️",
+      "provincia": "Cuenca del Genil",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Cuenca del Genil",
+      "nivel": "Rojo",
+      "text": "Cuenca del Genil: Aviso de temperaturas máximas de nivel naranja. Cuenca del Genil (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cuenca del Genil",
+      "fenomeno": "Severe high-temperature warning. Cuenca del Genil",
+      "nivel": "Rojo",
+      "text": "Cuenca del Genil: Severe high-temperature warning. Cuenca del Genil (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Sur de Salamanca",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Sur de Salamanca",
+      "nivel": "Rojo",
+      "text": "Sur de Salamanca: Aviso de temperaturas máximas de nivel naranja. Sur de Salamanca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sur de Salamanca",
+      "fenomeno": "Severe high-temperature warning. Sur de Salamanca",
+      "nivel": "Rojo",
+      "text": "Sur de Salamanca: Severe high-temperature warning. Sur de Salamanca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "La Mancha albaceteña",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. La Mancha albaceteña",
+      "nivel": "Rojo",
+      "text": "La Mancha albaceteña: Aviso de temperaturas máximas de nivel naranja. La Mancha albaceteña (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "La Mancha albaceteña",
+      "fenomeno": "Severe high-temperature warning. La Mancha albaceteña",
+      "nivel": "Rojo",
+      "text": "La Mancha albaceteña: Severe high-temperature warning. La Mancha albaceteña (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Hellín y Almansa",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Hellín y Almansa",
+      "nivel": "Rojo",
+      "text": "Hellín y Almansa: Aviso de temperaturas máximas de nivel naranja. Hellín y Almansa (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Hellín y Almansa",
+      "fenomeno": "Severe high-temperature warning. Hellín y Almansa",
+      "nivel": "Rojo",
+      "text": "Hellín y Almansa: Severe high-temperature warning. Hellín y Almansa (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Ribera del Ebro de La Rioja",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Ribera del Ebro de La Rioja",
+      "nivel": "Rojo",
+      "text": "Ribera del Ebro de La Rioja: Aviso de temperaturas máximas de nivel naranja. Ribera del Ebro de La Rioja (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ribera del Ebro de La Rioja",
+      "fenomeno": "Severe high-temperature warning. Ribera del Ebro de La Rioja",
+      "nivel": "Rojo",
+      "text": "Ribera del Ebro de La Rioja: Severe high-temperature warning. Ribera del Ebro de La Rioja (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Bierzo de León",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Bierzo de León",
+      "nivel": "Naranja",
+      "text": "Bierzo de León: Aviso de temperaturas máximas de nivel amarillo. Bierzo de León (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Bierzo de León",
+      "fenomeno": "Moderate high-temperature warning. Bierzo de León",
+      "nivel": "Naranja",
+      "text": "Bierzo de León: Moderate high-temperature warning. Bierzo de León (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌡️",
       "provincia": "La Mancha conquense",
@@ -66,102 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate high-temperature warning. Alcarria conquense",
       "nivel": "Naranja",
       "text": "Alcarria conquense: Moderate high-temperature warning. Alcarria conquense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Alcarria de Guadalajara",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Alcarria de Guadalajara",
-      "nivel": "Naranja",
-      "text": "Alcarria de Guadalajara: Aviso de temperaturas máximas de nivel amarillo. Alcarria de Guadalajara (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Alcarria de Guadalajara",
-      "fenomeno": "Moderate high-temperature warning. Alcarria de Guadalajara",
-      "nivel": "Naranja",
-      "text": "Alcarria de Guadalajara: Moderate high-temperature warning. Alcarria de Guadalajara (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Alcarria conquense",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Alcarria conquense",
-      "nivel": "Naranja",
-      "text": "Alcarria conquense: Aviso de tormentas de nivel amarillo. Alcarria conquense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Alcarria conquense",
-      "fenomeno": "Moderate thunderstorm warning. Alcarria conquense",
-      "nivel": "Naranja",
-      "text": "Alcarria conquense: Moderate thunderstorm warning. Alcarria conquense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Cuenca del Genil",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Cuenca del Genil",
-      "nivel": "Rojo",
-      "text": "Cuenca del Genil: Aviso de temperaturas máximas de nivel naranja. Cuenca del Genil (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cuenca del Genil",
-      "fenomeno": "Severe high-temperature warning. Cuenca del Genil",
-      "nivel": "Rojo",
-      "text": "Cuenca del Genil: Severe high-temperature warning. Cuenca del Genil (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Llanada alavesa",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Llanada alavesa",
-      "nivel": "Naranja",
-      "text": "Llanada alavesa: Aviso de tormentas de nivel amarillo. Llanada alavesa (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Llanada alavesa",
-      "fenomeno": "Moderate thunderstorm warning. Llanada alavesa",
-      "nivel": "Naranja",
-      "text": "Llanada alavesa: Moderate thunderstorm warning. Llanada alavesa (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Rioja alavesa",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Rioja alavesa",
-      "nivel": "Naranja",
-      "text": "Rioja alavesa: Aviso de tormentas de nivel amarillo. Rioja alavesa (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Rioja alavesa",
-      "fenomeno": "Moderate thunderstorm warning. Rioja alavesa",
-      "nivel": "Naranja",
-      "text": "Rioja alavesa: Moderate thunderstorm warning. Rioja alavesa (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Centro de Huesca",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Centro de Huesca",
-      "nivel": "Rojo",
-      "text": "Centro de Huesca: Aviso de temperaturas máximas de nivel naranja. Centro de Huesca (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Centro de Huesca",
-      "fenomeno": "Severe high-temperature warning. Centro de Huesca",
-      "nivel": "Rojo",
-      "text": "Centro de Huesca: Severe high-temperature warning. Centro de Huesca (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
