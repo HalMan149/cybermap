@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2026-07-07T21:50:19.306Z
+// Auto-generado por GitHub Actions - 2026-07-07T22:52:35.301Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-07-07T21:50:19.306Z",
+  "generated_at": "2026-07-07T22:52:35.301Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Bierzo de León",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Bierzo de León",
+      "nivel": "Naranja",
+      "text": "Bierzo de León: Aviso de lluvias de nivel amarillo. Bierzo de León (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Bierzo de León",
+      "fenomeno": "Moderate rain warning. Bierzo de León",
+      "nivel": "Naranja",
+      "text": "Bierzo de León: Moderate rain warning. Bierzo de León (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌡️",
       "provincia": "Ampurdán",
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate high-temperature warning. Norte de Burgos",
       "nivel": "Naranja",
       "text": "Norte de Burgos: Moderate high-temperature warning. Norte de Burgos (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Meseta de Soria",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Meseta de Soria",
-      "nivel": "Naranja",
-      "text": "Meseta de Soria: Aviso de temperaturas máximas de nivel amarillo. Meseta de Soria (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Meseta de Soria",
-      "fenomeno": "Moderate high-temperature warning. Meseta de Soria",
-      "nivel": "Naranja",
-      "text": "Meseta de Soria: Moderate high-temperature warning. Meseta de Soria (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
