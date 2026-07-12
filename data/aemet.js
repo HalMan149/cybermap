@@ -1,9 +1,41 @@
-// Auto-generado por GitHub Actions - 2026-07-12T14:27:34.018Z
+// Auto-generado por GitHub Actions - 2026-07-12T15:32:13.597Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-07-12T14:27:34.018Z",
+  "generated_at": "2026-07-12T15:32:13.597Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Gipuzkoa litoral",
+      "fenomeno": "Aviso de galernas de nivel amarillo. Costa - Gipuzkoa litoral",
+      "nivel": "Naranja",
+      "text": "Costa - Gipuzkoa litoral: Aviso de galernas de nivel amarillo. Costa - Gipuzkoa litoral (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Gipuzkoa litoral",
+      "fenomeno": "Moderate galerna warning. Costa - Gipuzkoa litoral",
+      "nivel": "Naranja",
+      "text": "Costa - Gipuzkoa litoral: Moderate galerna warning. Costa - Gipuzkoa litoral (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Bizkaia litoral",
+      "fenomeno": "Aviso de galernas de nivel amarillo. Costa - Bizkaia litoral",
+      "nivel": "Naranja",
+      "text": "Costa - Bizkaia litoral: Aviso de galernas de nivel amarillo. Costa - Bizkaia litoral (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Bizkaia litoral",
+      "fenomeno": "Moderate galerna warning. Costa - Bizkaia litoral",
+      "nivel": "Naranja",
+      "text": "Costa - Bizkaia litoral: Moderate galerna warning. Costa - Bizkaia litoral (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌡️",
       "provincia": "Interior de Mallorca",
@@ -130,38 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Severe high-temperature warning. Sur de Huesca",
       "nivel": "Rojo",
       "text": "Sur de Huesca: Severe high-temperature warning. Sur de Huesca (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Cinco Villas de Zaragoza",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Cinco Villas de Zaragoza",
-      "nivel": "Rojo",
-      "text": "Cinco Villas de Zaragoza: Aviso de temperaturas máximas de nivel naranja. Cinco Villas de Zaragoza (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cinco Villas de Zaragoza",
-      "fenomeno": "Severe high-temperature warning. Cinco Villas de Zaragoza",
-      "nivel": "Rojo",
-      "text": "Cinco Villas de Zaragoza: Severe high-temperature warning. Cinco Villas de Zaragoza (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Ribera del Ebro de Zaragoza",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Ribera del Ebro de Zaragoza",
-      "nivel": "Rojo",
-      "text": "Ribera del Ebro de Zaragoza: Aviso de temperaturas máximas de nivel naranja. Ribera del Ebro de Zaragoza (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ribera del Ebro de Zaragoza",
-      "fenomeno": "Severe high-temperature warning. Ribera del Ebro de Zaragoza",
-      "nivel": "Rojo",
-      "text": "Ribera del Ebro de Zaragoza: Severe high-temperature warning. Ribera del Ebro de Zaragoza (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
