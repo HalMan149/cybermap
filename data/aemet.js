@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-07-12T09:16:13.615Z
+// Auto-generado por GitHub Actions - 2026-07-12T10:50:30.287Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-07-12T09:16:13.615Z",
+  "generated_at": "2026-07-12T10:50:30.287Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "🌊",
-      "provincia": "Centro de Navarra",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Centro de Navarra",
-      "nivel": "Naranja",
-      "text": "Centro de Navarra: Aviso de temperaturas máximas de nivel amarillo. Centro de Navarra (Naranja) (AEMET)",
+      "icon": "🌡️",
+      "provincia": "Interior de Mallorca",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Interior de Mallorca",
+      "nivel": "Rojo",
+      "text": "Interior de Mallorca: Aviso de temperaturas máximas de nivel naranja. Interior de Mallorca (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Centro de Navarra",
-      "fenomeno": "Moderate high-temperature warning. Centro de Navarra",
-      "nivel": "Naranja",
-      "text": "Centro de Navarra: Moderate high-temperature warning. Centro de Navarra (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Pirineo navarro",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Pirineo navarro",
-      "nivel": "Naranja",
-      "text": "Pirineo navarro: Aviso de temperaturas máximas de nivel amarillo. Pirineo navarro (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Pirineo navarro",
-      "fenomeno": "Moderate high-temperature warning. Pirineo navarro",
-      "nivel": "Naranja",
-      "text": "Pirineo navarro: Moderate high-temperature warning. Pirineo navarro (Naranja) (AEMET)",
+      "provincia": "Interior de Mallorca",
+      "fenomeno": "Severe high-temperature warning. Interior de Mallorca",
+      "nivel": "Rojo",
+      "text": "Interior de Mallorca: Severe high-temperature warning. Interior de Mallorca (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Ribera del Ebro de Navarra",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Ribera del Ebro de Navarra",
+      "provincia": "Ibiza y Formentera",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Ibiza y Formentera",
       "nivel": "Naranja",
-      "text": "Ribera del Ebro de Navarra: Aviso de temperaturas máximas de nivel amarillo. Ribera del Ebro de Navarra (Naranja) (AEMET)",
+      "text": "Ibiza y Formentera: Aviso de temperaturas máximas de nivel amarillo. Ibiza y Formentera (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Ribera del Ebro de Navarra",
-      "fenomeno": "Moderate high-temperature warning. Ribera del Ebro de Navarra",
+      "provincia": "Ibiza y Formentera",
+      "fenomeno": "Moderate high-temperature warning. Ibiza y Formentera",
       "nivel": "Naranja",
-      "text": "Ribera del Ebro de Navarra: Moderate high-temperature warning. Ribera del Ebro de Navarra (Naranja) (AEMET)",
+      "text": "Ibiza y Formentera: Moderate high-temperature warning. Ibiza y Formentera (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⛈️",
-      "provincia": "Liébana",
-      "fenomeno": "Aviso de tormentas de nivel naranja. Liébana",
-      "nivel": "Rojo",
-      "text": "Liébana: Aviso de tormentas de nivel naranja. Liébana (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Liébana",
-      "fenomeno": "Severe thunderstorm warning. Liébana",
-      "nivel": "Rojo",
-      "text": "Liébana: Severe thunderstorm warning. Liébana (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Cantabria del Ebro",
-      "fenomeno": "Aviso de tormentas de nivel naranja. Cantabria del Ebro",
-      "nivel": "Rojo",
-      "text": "Cantabria del Ebro: Aviso de tormentas de nivel naranja. Cantabria del Ebro (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cantabria del Ebro",
-      "fenomeno": "Severe thunderstorm warning. Cantabria del Ebro",
-      "nivel": "Rojo",
-      "text": "Cantabria del Ebro: Severe thunderstorm warning. Cantabria del Ebro (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Cordillera Cantábrica de Burgos",
-      "fenomeno": "Aviso de tormentas de nivel naranja. Cordillera Cantábrica de Burgos",
-      "nivel": "Rojo",
-      "text": "Cordillera Cantábrica de Burgos: Aviso de tormentas de nivel naranja. Cordillera Cantábrica de Burgos (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cordillera Cantábrica de Burgos",
-      "fenomeno": "Severe thunderstorm warning. Cordillera Cantábrica de Burgos",
-      "nivel": "Rojo",
-      "text": "Cordillera Cantábrica de Burgos: Severe thunderstorm warning. Cordillera Cantábrica de Burgos (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Norte de Burgos",
-      "fenomeno": "Aviso de tormentas de nivel naranja. Norte de Burgos",
-      "nivel": "Rojo",
-      "text": "Norte de Burgos: Aviso de tormentas de nivel naranja. Norte de Burgos (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Norte de Burgos",
-      "fenomeno": "Severe thunderstorm warning. Norte de Burgos",
-      "nivel": "Rojo",
-      "text": "Norte de Burgos: Severe thunderstorm warning. Norte de Burgos (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Cordillera Cantábrica de Palencia",
-      "fenomeno": "Aviso de tormentas de nivel naranja. Cordillera Cantábrica de Palencia",
-      "nivel": "Rojo",
-      "text": "Cordillera Cantábrica de Palencia: Aviso de tormentas de nivel naranja. Cordillera Cantábrica de Palencia (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cordillera Cantábrica de Palencia",
-      "fenomeno": "Severe thunderstorm warning. Cordillera Cantábrica de Palencia",
-      "nivel": "Rojo",
-      "text": "Cordillera Cantábrica de Palencia: Severe thunderstorm warning. Cordillera Cantábrica de Palencia (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Cordillera Cantábrica de Burgos",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Cordillera Cantábrica de Burgos",
+      "icon": "🌊",
+      "provincia": "Sierra Tramontana",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Sierra Tramontana",
       "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de Burgos: Aviso de lluvias de nivel amarillo. Cordillera Cantábrica de Burgos (Naranja) (AEMET)",
+      "text": "Sierra Tramontana: Aviso de temperaturas máximas de nivel amarillo. Sierra Tramontana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Cordillera Cantábrica de Burgos",
-      "fenomeno": "Moderate rain warning. Cordillera Cantábrica de Burgos",
+      "provincia": "Sierra Tramontana",
+      "fenomeno": "Moderate high-temperature warning. Sierra Tramontana",
       "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de Burgos: Moderate rain warning. Cordillera Cantábrica de Burgos (Naranja) (AEMET)",
+      "text": "Sierra Tramontana: Moderate high-temperature warning. Sierra Tramontana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Norte de Burgos",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Norte de Burgos",
+      "icon": "🌊",
+      "provincia": "Norte y nordeste de Mallorca",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Norte y nordeste de Mallorca",
       "nivel": "Naranja",
-      "text": "Norte de Burgos: Aviso de lluvias de nivel amarillo. Norte de Burgos (Naranja) (AEMET)",
+      "text": "Norte y nordeste de Mallorca: Aviso de temperaturas máximas de nivel amarillo. Norte y nordeste de Mallorca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Norte de Burgos",
-      "fenomeno": "Moderate rain warning. Norte de Burgos",
+      "provincia": "Norte y nordeste de Mallorca",
+      "fenomeno": "Moderate high-temperature warning. Norte y nordeste de Mallorca",
       "nivel": "Naranja",
-      "text": "Norte de Burgos: Moderate rain warning. Norte de Burgos (Naranja) (AEMET)",
+      "text": "Norte y nordeste de Mallorca: Moderate high-temperature warning. Norte y nordeste de Mallorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Sur de Mallorca",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Sur de Mallorca",
+      "nivel": "Naranja",
+      "text": "Sur de Mallorca: Aviso de temperaturas máximas de nivel amarillo. Sur de Mallorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sur de Mallorca",
+      "fenomeno": "Moderate high-temperature warning. Sur de Mallorca",
+      "nivel": "Naranja",
+      "text": "Sur de Mallorca: Moderate high-temperature warning. Sur de Mallorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Levante mallorquín",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Levante mallorquín",
+      "nivel": "Naranja",
+      "text": "Levante mallorquín: Aviso de temperaturas máximas de nivel amarillo. Levante mallorquín (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Levante mallorquín",
+      "fenomeno": "Moderate high-temperature warning. Levante mallorquín",
+      "nivel": "Naranja",
+      "text": "Levante mallorquín: Moderate high-temperature warning. Levante mallorquín (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Interior de Mallorca",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Interior de Mallorca",
+      "nivel": "Rojo",
+      "text": "Interior de Mallorca: Aviso de temperaturas máximas de nivel naranja. Interior de Mallorca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior de Mallorca",
+      "fenomeno": "Severe high-temperature warning. Interior de Mallorca",
+      "nivel": "Rojo",
+      "text": "Interior de Mallorca: Severe high-temperature warning. Interior de Mallorca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Sur de Huesca",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Sur de Huesca",
+      "nivel": "Rojo",
+      "text": "Sur de Huesca: Aviso de temperaturas máximas de nivel naranja. Sur de Huesca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sur de Huesca",
+      "fenomeno": "Severe high-temperature warning. Sur de Huesca",
+      "nivel": "Rojo",
+      "text": "Sur de Huesca: Severe high-temperature warning. Sur de Huesca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Cinco Villas de Zaragoza",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Cinco Villas de Zaragoza",
+      "nivel": "Rojo",
+      "text": "Cinco Villas de Zaragoza: Aviso de temperaturas máximas de nivel naranja. Cinco Villas de Zaragoza (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cinco Villas de Zaragoza",
+      "fenomeno": "Severe high-temperature warning. Cinco Villas de Zaragoza",
+      "nivel": "Rojo",
+      "text": "Cinco Villas de Zaragoza: Severe high-temperature warning. Cinco Villas de Zaragoza (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Ribera del Ebro de Zaragoza",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Ribera del Ebro de Zaragoza",
+      "nivel": "Rojo",
+      "text": "Ribera del Ebro de Zaragoza: Aviso de temperaturas máximas de nivel naranja. Ribera del Ebro de Zaragoza (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ribera del Ebro de Zaragoza",
+      "fenomeno": "Severe high-temperature warning. Ribera del Ebro de Zaragoza",
+      "nivel": "Rojo",
+      "text": "Ribera del Ebro de Zaragoza: Severe high-temperature warning. Ribera del Ebro de Zaragoza (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
