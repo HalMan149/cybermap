@@ -1,9 +1,137 @@
-// Auto-generado por GitHub Actions - 2026-07-14T16:50:21.127Z
+// Auto-generado por GitHub Actions - 2026-07-14T17:56:41.518Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-07-14T16:50:21.127Z",
+  "generated_at": "2026-07-14T17:56:41.518Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "⛈️",
+      "provincia": "Interior norte de Valencia",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Interior norte de Valencia",
+      "nivel": "Naranja",
+      "text": "Interior norte de Valencia: Aviso de tormentas de nivel amarillo. Interior norte de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior norte de Valencia",
+      "fenomeno": "Moderate thunderstorm warning. Interior norte de Valencia",
+      "nivel": "Naranja",
+      "text": "Interior norte de Valencia: Moderate thunderstorm warning. Interior norte de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Interior sur de Valencia",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Interior sur de Valencia",
+      "nivel": "Naranja",
+      "text": "Interior sur de Valencia: Aviso de tormentas de nivel amarillo. Interior sur de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior sur de Valencia",
+      "fenomeno": "Moderate thunderstorm warning. Interior sur de Valencia",
+      "nivel": "Naranja",
+      "text": "Interior sur de Valencia: Moderate thunderstorm warning. Interior sur de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Litoral norte de Valencia",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Litoral norte de Valencia",
+      "nivel": "Naranja",
+      "text": "Litoral norte de Valencia: Aviso de tormentas de nivel amarillo. Litoral norte de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral norte de Valencia",
+      "fenomeno": "Moderate thunderstorm warning. Litoral norte de Valencia",
+      "nivel": "Naranja",
+      "text": "Litoral norte de Valencia: Moderate thunderstorm warning. Litoral norte de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Litoral sur de Valencia",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Litoral sur de Valencia",
+      "nivel": "Naranja",
+      "text": "Litoral sur de Valencia: Aviso de tormentas de nivel amarillo. Litoral sur de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral sur de Valencia",
+      "fenomeno": "Moderate thunderstorm warning. Litoral sur de Valencia",
+      "nivel": "Naranja",
+      "text": "Litoral sur de Valencia: Moderate thunderstorm warning. Litoral sur de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Centro de Huesca",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Centro de Huesca",
+      "nivel": "Rojo",
+      "text": "Centro de Huesca: Aviso de temperaturas máximas de nivel naranja. Centro de Huesca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Centro de Huesca",
+      "fenomeno": "Severe high-temperature warning. Centro de Huesca",
+      "nivel": "Rojo",
+      "text": "Centro de Huesca: Severe high-temperature warning. Centro de Huesca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Albarracín y Jiloca",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Albarracín y Jiloca",
+      "nivel": "Naranja",
+      "text": "Albarracín y Jiloca: Aviso de temperaturas máximas de nivel amarillo. Albarracín y Jiloca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Albarracín y Jiloca",
+      "fenomeno": "Moderate high-temperature warning. Albarracín y Jiloca",
+      "nivel": "Naranja",
+      "text": "Albarracín y Jiloca: Moderate high-temperature warning. Albarracín y Jiloca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Gúdar y Maestrazgo",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Gúdar y Maestrazgo",
+      "nivel": "Naranja",
+      "text": "Gúdar y Maestrazgo: Aviso de temperaturas máximas de nivel amarillo. Gúdar y Maestrazgo (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Gúdar y Maestrazgo",
+      "fenomeno": "Moderate high-temperature warning. Gúdar y Maestrazgo",
+      "nivel": "Naranja",
+      "text": "Gúdar y Maestrazgo: Moderate high-temperature warning. Gúdar y Maestrazgo (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "La Mancha albaceteña",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. La Mancha albaceteña",
+      "nivel": "Rojo",
+      "text": "La Mancha albaceteña: Aviso de temperaturas máximas de nivel naranja. La Mancha albaceteña (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "La Mancha albaceteña",
+      "fenomeno": "Severe high-temperature warning. La Mancha albaceteña",
+      "nivel": "Rojo",
+      "text": "La Mancha albaceteña: Severe high-temperature warning. La Mancha albaceteña (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "⛈️",
       "provincia": "Altiplano de Murcia",
@@ -34,134 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate thunderstorm warning. Noroeste de Murcia",
       "nivel": "Naranja",
       "text": "Noroeste de Murcia: Moderate thunderstorm warning. Noroeste de Murcia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Norte y nordeste de Mallorca",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Norte y nordeste de Mallorca",
-      "nivel": "Rojo",
-      "text": "Norte y nordeste de Mallorca: Aviso de temperaturas máximas de nivel naranja. Norte y nordeste de Mallorca (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Norte y nordeste de Mallorca",
-      "fenomeno": "Severe high-temperature warning. Norte y nordeste de Mallorca",
-      "nivel": "Rojo",
-      "text": "Norte y nordeste de Mallorca: Severe high-temperature warning. Norte y nordeste de Mallorca (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Interior de Mallorca",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Interior de Mallorca",
-      "nivel": "Rojo",
-      "text": "Interior de Mallorca: Aviso de temperaturas máximas de nivel naranja. Interior de Mallorca (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior de Mallorca",
-      "fenomeno": "Severe high-temperature warning. Interior de Mallorca",
-      "nivel": "Rojo",
-      "text": "Interior de Mallorca: Severe high-temperature warning. Interior de Mallorca (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Vega del Segura",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Vega del Segura",
-      "nivel": "Rojo",
-      "text": "Vega del Segura: Aviso de temperaturas máximas de nivel naranja. Vega del Segura (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Vega del Segura",
-      "fenomeno": "Severe high-temperature warning. Vega del Segura",
-      "nivel": "Rojo",
-      "text": "Vega del Segura: Severe high-temperature warning. Vega del Segura (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Ibiza y Formentera",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Ibiza y Formentera",
-      "nivel": "Naranja",
-      "text": "Ibiza y Formentera: Aviso de temperaturas máximas de nivel amarillo. Ibiza y Formentera (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ibiza y Formentera",
-      "fenomeno": "Moderate high-temperature warning. Ibiza y Formentera",
-      "nivel": "Naranja",
-      "text": "Ibiza y Formentera: Moderate high-temperature warning. Ibiza y Formentera (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Sierra Tramontana",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Sierra Tramontana",
-      "nivel": "Naranja",
-      "text": "Sierra Tramontana: Aviso de temperaturas máximas de nivel amarillo. Sierra Tramontana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sierra Tramontana",
-      "fenomeno": "Moderate high-temperature warning. Sierra Tramontana",
-      "nivel": "Naranja",
-      "text": "Sierra Tramontana: Moderate high-temperature warning. Sierra Tramontana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Sur de Mallorca",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Sur de Mallorca",
-      "nivel": "Naranja",
-      "text": "Sur de Mallorca: Aviso de temperaturas máximas de nivel amarillo. Sur de Mallorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sur de Mallorca",
-      "fenomeno": "Moderate high-temperature warning. Sur de Mallorca",
-      "nivel": "Naranja",
-      "text": "Sur de Mallorca: Moderate high-temperature warning. Sur de Mallorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Levante mallorquín",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Levante mallorquín",
-      "nivel": "Naranja",
-      "text": "Levante mallorquín: Aviso de temperaturas máximas de nivel amarillo. Levante mallorquín (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Levante mallorquín",
-      "fenomeno": "Moderate high-temperature warning. Levante mallorquín",
-      "nivel": "Naranja",
-      "text": "Levante mallorquín: Moderate high-temperature warning. Levante mallorquín (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Menorca",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Menorca",
-      "nivel": "Naranja",
-      "text": "Menorca: Aviso de temperaturas máximas de nivel amarillo. Menorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Menorca",
-      "fenomeno": "Moderate high-temperature warning. Menorca",
-      "nivel": "Naranja",
-      "text": "Menorca: Moderate high-temperature warning. Menorca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
