@@ -1,88 +1,8 @@
 {
-  "generated_at": "2026-07-14T15:42:22.574Z",
+  "generated_at": "2026-07-14T16:50:21.127Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
-    {
-      "icon": "🌡️",
-      "provincia": "Altiplano de Murcia",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Altiplano de Murcia",
-      "nivel": "Rojo",
-      "text": "Altiplano de Murcia: Aviso de temperaturas máximas de nivel naranja. Altiplano de Murcia (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Altiplano de Murcia",
-      "fenomeno": "Severe high-temperature warning. Altiplano de Murcia",
-      "nivel": "Rojo",
-      "text": "Altiplano de Murcia: Severe high-temperature warning. Altiplano de Murcia (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Noroeste de Murcia",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Noroeste de Murcia",
-      "nivel": "Rojo",
-      "text": "Noroeste de Murcia: Aviso de temperaturas máximas de nivel naranja. Noroeste de Murcia (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Noroeste de Murcia",
-      "fenomeno": "Severe high-temperature warning. Noroeste de Murcia",
-      "nivel": "Rojo",
-      "text": "Noroeste de Murcia: Severe high-temperature warning. Noroeste de Murcia (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Vega del Segura",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Vega del Segura",
-      "nivel": "Rojo",
-      "text": "Vega del Segura: Aviso de temperaturas máximas de nivel naranja. Vega del Segura (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Vega del Segura",
-      "fenomeno": "Severe high-temperature warning. Vega del Segura",
-      "nivel": "Rojo",
-      "text": "Vega del Segura: Severe high-temperature warning. Vega del Segura (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Valle del Guadalentín, Lorca y Águilas",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Valle del Guadalentín, Lorca y Águilas",
-      "nivel": "Rojo",
-      "text": "Valle del Guadalentín, Lorca y Águilas: Aviso de temperaturas máximas de nivel naranja. Valle del Guadalentín, Lorca y Águilas (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Valle del Guadalentín, Lorca y Águilas",
-      "fenomeno": "Severe high-temperature warning. Valle del Guadalentín, Lorca y Águilas",
-      "nivel": "Rojo",
-      "text": "Valle del Guadalentín, Lorca y Águilas: Severe high-temperature warning. Valle del Guadalentín, Lorca y Águilas (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Campo de Cartagena y Mazarrón",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Campo de Cartagena y Mazarrón",
-      "nivel": "Naranja",
-      "text": "Campo de Cartagena y Mazarrón: Aviso de temperaturas máximas de nivel amarillo. Campo de Cartagena y Mazarrón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Campo de Cartagena y Mazarrón",
-      "fenomeno": "Moderate high-temperature warning. Campo de Cartagena y Mazarrón",
-      "nivel": "Naranja",
-      "text": "Campo de Cartagena y Mazarrón: Moderate high-temperature warning. Campo de Cartagena y Mazarrón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
     {
       "icon": "⛈️",
       "provincia": "Altiplano de Murcia",
@@ -148,19 +68,99 @@
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Interior de Mallorca",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Interior de Mallorca",
-      "nivel": "Naranja",
-      "text": "Interior de Mallorca: Aviso de temperaturas máximas de nivel amarillo. Interior de Mallorca (Naranja) (AEMET)",
+      "icon": "🌡️",
+      "provincia": "Vega del Segura",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Vega del Segura",
+      "nivel": "Rojo",
+      "text": "Vega del Segura: Aviso de temperaturas máximas de nivel naranja. Vega del Segura (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Interior de Mallorca",
-      "fenomeno": "Moderate high-temperature warning. Interior de Mallorca",
+      "provincia": "Vega del Segura",
+      "fenomeno": "Severe high-temperature warning. Vega del Segura",
+      "nivel": "Rojo",
+      "text": "Vega del Segura: Severe high-temperature warning. Vega del Segura (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Ibiza y Formentera",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Ibiza y Formentera",
       "nivel": "Naranja",
-      "text": "Interior de Mallorca: Moderate high-temperature warning. Interior de Mallorca (Naranja) (AEMET)",
+      "text": "Ibiza y Formentera: Aviso de temperaturas máximas de nivel amarillo. Ibiza y Formentera (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ibiza y Formentera",
+      "fenomeno": "Moderate high-temperature warning. Ibiza y Formentera",
+      "nivel": "Naranja",
+      "text": "Ibiza y Formentera: Moderate high-temperature warning. Ibiza y Formentera (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Sierra Tramontana",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Sierra Tramontana",
+      "nivel": "Naranja",
+      "text": "Sierra Tramontana: Aviso de temperaturas máximas de nivel amarillo. Sierra Tramontana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sierra Tramontana",
+      "fenomeno": "Moderate high-temperature warning. Sierra Tramontana",
+      "nivel": "Naranja",
+      "text": "Sierra Tramontana: Moderate high-temperature warning. Sierra Tramontana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Sur de Mallorca",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Sur de Mallorca",
+      "nivel": "Naranja",
+      "text": "Sur de Mallorca: Aviso de temperaturas máximas de nivel amarillo. Sur de Mallorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sur de Mallorca",
+      "fenomeno": "Moderate high-temperature warning. Sur de Mallorca",
+      "nivel": "Naranja",
+      "text": "Sur de Mallorca: Moderate high-temperature warning. Sur de Mallorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Levante mallorquín",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Levante mallorquín",
+      "nivel": "Naranja",
+      "text": "Levante mallorquín: Aviso de temperaturas máximas de nivel amarillo. Levante mallorquín (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Levante mallorquín",
+      "fenomeno": "Moderate high-temperature warning. Levante mallorquín",
+      "nivel": "Naranja",
+      "text": "Levante mallorquín: Moderate high-temperature warning. Levante mallorquín (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Menorca",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Menorca",
+      "nivel": "Naranja",
+      "text": "Menorca: Aviso de temperaturas máximas de nivel amarillo. Menorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Menorca",
+      "fenomeno": "Moderate high-temperature warning. Menorca",
+      "nivel": "Naranja",
+      "text": "Menorca: Moderate high-temperature warning. Menorca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
