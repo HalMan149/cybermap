@@ -1,8 +1,88 @@
 {
-  "generated_at": "2026-07-16T15:52:53.812Z",
+  "generated_at": "2026-07-16T17:05:41.794Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌊",
+      "provincia": "Grazalema",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Grazalema",
+      "nivel": "Naranja",
+      "text": "Grazalema: Aviso de temperaturas máximas de nivel amarillo. Grazalema (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Grazalema",
+      "fenomeno": "Moderate high-temperature warning. Grazalema",
+      "nivel": "Naranja",
+      "text": "Grazalema: Moderate high-temperature warning. Grazalema (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Sierra sur de Sevilla",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Sierra sur de Sevilla",
+      "nivel": "Naranja",
+      "text": "Sierra sur de Sevilla: Aviso de temperaturas máximas de nivel amarillo. Sierra sur de Sevilla (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sierra sur de Sevilla",
+      "fenomeno": "Moderate high-temperature warning. Sierra sur de Sevilla",
+      "nivel": "Naranja",
+      "text": "Sierra sur de Sevilla: Moderate high-temperature warning. Sierra sur de Sevilla (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Ceuta",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Ceuta",
+      "nivel": "Naranja",
+      "text": "Ceuta: Aviso de temperaturas máximas de nivel amarillo. Ceuta (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ceuta",
+      "fenomeno": "Moderate high-temperature warning. Ceuta",
+      "nivel": "Naranja",
+      "text": "Ceuta: Moderate high-temperature warning. Ceuta (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Litoral sur de Alicante",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Litoral sur de Alicante",
+      "nivel": "Naranja",
+      "text": "Litoral sur de Alicante: Aviso de temperaturas máximas de nivel amarillo. Litoral sur de Alicante (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral sur de Alicante",
+      "fenomeno": "Moderate high-temperature warning. Litoral sur de Alicante",
+      "nivel": "Naranja",
+      "text": "Litoral sur de Alicante: Moderate high-temperature warning. Litoral sur de Alicante (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Valle del Guadalentín, Lorca y Águilas",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Valle del Guadalentín, Lorca y Águilas",
+      "nivel": "Rojo",
+      "text": "Valle del Guadalentín, Lorca y Águilas: Aviso de temperaturas máximas de nivel naranja. Valle del Guadalentín, Lorca y Águilas (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Valle del Guadalentín, Lorca y Águilas",
+      "fenomeno": "Severe high-temperature warning. Valle del Guadalentín, Lorca y Águilas",
+      "nivel": "Rojo",
+      "text": "Valle del Guadalentín, Lorca y Águilas: Severe high-temperature warning. Valle del Guadalentín, Lorca y Águilas (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌡️",
       "provincia": "Campiña cordobesa",
@@ -81,86 +161,6 @@
       "fenomeno": "Moderate high-temperature warning. Interior de Mallorca",
       "nivel": "Naranja",
       "text": "Interior de Mallorca: Moderate high-temperature warning. Interior de Mallorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Sur de Mallorca",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Sur de Mallorca",
-      "nivel": "Naranja",
-      "text": "Sur de Mallorca: Aviso de temperaturas máximas de nivel amarillo. Sur de Mallorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sur de Mallorca",
-      "fenomeno": "Moderate high-temperature warning. Sur de Mallorca",
-      "nivel": "Naranja",
-      "text": "Sur de Mallorca: Moderate high-temperature warning. Sur de Mallorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Sierra y Pedroches",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Sierra y Pedroches",
-      "nivel": "Naranja",
-      "text": "Sierra y Pedroches: Aviso de temperaturas máximas de nivel amarillo. Sierra y Pedroches (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sierra y Pedroches",
-      "fenomeno": "Moderate high-temperature warning. Sierra y Pedroches",
-      "nivel": "Naranja",
-      "text": "Sierra y Pedroches: Moderate high-temperature warning. Sierra y Pedroches (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Subbética cordobesa",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Subbética cordobesa",
-      "nivel": "Naranja",
-      "text": "Subbética cordobesa: Aviso de temperaturas máximas de nivel amarillo. Subbética cordobesa (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Subbética cordobesa",
-      "fenomeno": "Moderate high-temperature warning. Subbética cordobesa",
-      "nivel": "Naranja",
-      "text": "Subbética cordobesa: Moderate high-temperature warning. Subbética cordobesa (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Guadix y Baza",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Guadix y Baza",
-      "nivel": "Naranja",
-      "text": "Guadix y Baza: Aviso de temperaturas máximas de nivel amarillo. Guadix y Baza (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Guadix y Baza",
-      "fenomeno": "Moderate high-temperature warning. Guadix y Baza",
-      "nivel": "Naranja",
-      "text": "Guadix y Baza: Moderate high-temperature warning. Guadix y Baza (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Cazorla y Segura",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Cazorla y Segura",
-      "nivel": "Naranja",
-      "text": "Cazorla y Segura: Aviso de temperaturas máximas de nivel amarillo. Cazorla y Segura (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cazorla y Segura",
-      "fenomeno": "Moderate high-temperature warning. Cazorla y Segura",
-      "nivel": "Naranja",
-      "text": "Cazorla y Segura: Moderate high-temperature warning. Cazorla y Segura (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
