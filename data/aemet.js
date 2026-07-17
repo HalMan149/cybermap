@@ -1,55 +1,103 @@
-// Auto-generado por GitHub Actions - 2026-07-17T16:08:08.168Z
+// Auto-generado por GitHub Actions - 2026-07-17T17:22:41.144Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-07-17T16:08:08.168Z",
+  "generated_at": "2026-07-17T17:22:41.144Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "🌡️",
-      "provincia": "Cuenca del Genil",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Cuenca del Genil",
-      "nivel": "Rojo",
-      "text": "Cuenca del Genil: Aviso de temperaturas máximas de nivel naranja. Cuenca del Genil (Rojo) (AEMET)",
+      "icon": "🌊",
+      "provincia": "Axarquía",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Axarquía",
+      "nivel": "Naranja",
+      "text": "Axarquía: Aviso de temperaturas máximas de nivel amarillo. Axarquía (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Cuenca del Genil",
-      "fenomeno": "Severe high-temperature warning. Cuenca del Genil",
-      "nivel": "Rojo",
-      "text": "Cuenca del Genil: Severe high-temperature warning. Cuenca del Genil (Rojo) (AEMET)",
+      "provincia": "Axarquía",
+      "fenomeno": "Moderate high-temperature warning. Axarquía",
+      "nivel": "Naranja",
+      "text": "Axarquía: Moderate high-temperature warning. Axarquía (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌡️",
-      "provincia": "Morena y Condado",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Morena y Condado",
-      "nivel": "Rojo",
-      "text": "Morena y Condado: Aviso de temperaturas máximas de nivel naranja. Morena y Condado (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Morena y Condado",
-      "fenomeno": "Severe high-temperature warning. Morena y Condado",
-      "nivel": "Rojo",
-      "text": "Morena y Condado: Severe high-temperature warning. Morena y Condado (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Valle del Guadalquivir de Jaén",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Valle del Guadalquivir de Jaén",
-      "nivel": "Rojo",
-      "text": "Valle del Guadalquivir de Jaén: Aviso de temperaturas máximas de nivel naranja. Valle del Guadalquivir de Jaén (Rojo) (AEMET)",
+      "icon": "🌊",
+      "provincia": "Ronda",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Ronda",
+      "nivel": "Naranja",
+      "text": "Ronda: Aviso de temperaturas máximas de nivel amarillo. Ronda (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Valle del Guadalquivir de Jaén",
-      "fenomeno": "Severe high-temperature warning. Valle del Guadalquivir de Jaén",
-      "nivel": "Rojo",
-      "text": "Valle del Guadalquivir de Jaén: Severe high-temperature warning. Valle del Guadalquivir de Jaén (Rojo) (AEMET)",
+      "provincia": "Ronda",
+      "fenomeno": "Moderate high-temperature warning. Ronda",
+      "nivel": "Naranja",
+      "text": "Ronda: Moderate high-temperature warning. Ronda (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Axarquía",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Axarquía",
+      "nivel": "Naranja",
+      "text": "Axarquía: Aviso de temperaturas máximas de nivel amarillo. Axarquía (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Axarquía",
+      "fenomeno": "Moderate high-temperature warning. Axarquía",
+      "nivel": "Naranja",
+      "text": "Axarquía: Moderate high-temperature warning. Axarquía (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Melilla",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Melilla",
+      "nivel": "Naranja",
+      "text": "Melilla: Aviso de temperaturas máximas de nivel amarillo. Melilla (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Melilla",
+      "fenomeno": "Moderate high-temperature warning. Melilla",
+      "nivel": "Naranja",
+      "text": "Melilla: Moderate high-temperature warning. Melilla (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Grazalema",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Grazalema",
+      "nivel": "Naranja",
+      "text": "Grazalema: Aviso de temperaturas máximas de nivel amarillo. Grazalema (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Grazalema",
+      "fenomeno": "Moderate high-temperature warning. Grazalema",
+      "nivel": "Naranja",
+      "text": "Grazalema: Moderate high-temperature warning. Grazalema (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Ceuta",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Ceuta",
+      "nivel": "Naranja",
+      "text": "Ceuta: Aviso de temperaturas máximas de nivel amarillo. Ceuta (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ceuta",
+      "fenomeno": "Moderate high-temperature warning. Ceuta",
+      "nivel": "Naranja",
+      "text": "Ceuta: Moderate high-temperature warning. Ceuta (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -86,82 +134,34 @@ window.AEMET_AVISOS = {
     },
     {
       "icon": "🌊",
-      "provincia": "Guadix y Baza",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Guadix y Baza",
+      "provincia": "Grazalema",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Grazalema",
       "nivel": "Naranja",
-      "text": "Guadix y Baza: Aviso de temperaturas máximas de nivel amarillo. Guadix y Baza (Naranja) (AEMET)",
+      "text": "Grazalema: Aviso de temperaturas máximas de nivel amarillo. Grazalema (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Guadix y Baza",
-      "fenomeno": "Moderate high-temperature warning. Guadix y Baza",
+      "provincia": "Grazalema",
+      "fenomeno": "Moderate high-temperature warning. Grazalema",
       "nivel": "Naranja",
-      "text": "Guadix y Baza: Moderate high-temperature warning. Guadix y Baza (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Nevada y Alpujarras",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Nevada y Alpujarras",
-      "nivel": "Naranja",
-      "text": "Nevada y Alpujarras: Aviso de temperaturas máximas de nivel amarillo. Nevada y Alpujarras (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Nevada y Alpujarras",
-      "fenomeno": "Moderate high-temperature warning. Nevada y Alpujarras",
-      "nivel": "Naranja",
-      "text": "Nevada y Alpujarras: Moderate high-temperature warning. Nevada y Alpujarras (Naranja) (AEMET)",
+      "text": "Grazalema: Moderate high-temperature warning. Grazalema (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Cazorla y Segura",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Cazorla y Segura",
+      "provincia": "Sierra y Pedroches",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Sierra y Pedroches",
       "nivel": "Naranja",
-      "text": "Cazorla y Segura: Aviso de temperaturas máximas de nivel amarillo. Cazorla y Segura (Naranja) (AEMET)",
+      "text": "Sierra y Pedroches: Aviso de temperaturas máximas de nivel amarillo. Sierra y Pedroches (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Cazorla y Segura",
-      "fenomeno": "Moderate high-temperature warning. Cazorla y Segura",
+      "provincia": "Sierra y Pedroches",
+      "fenomeno": "Moderate high-temperature warning. Sierra y Pedroches",
       "nivel": "Naranja",
-      "text": "Cazorla y Segura: Moderate high-temperature warning. Cazorla y Segura (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Capital y Montes de Jaén",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Capital y Montes de Jaén",
-      "nivel": "Naranja",
-      "text": "Capital y Montes de Jaén: Aviso de temperaturas máximas de nivel amarillo. Capital y Montes de Jaén (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Capital y Montes de Jaén",
-      "fenomeno": "Moderate high-temperature warning. Capital y Montes de Jaén",
-      "nivel": "Naranja",
-      "text": "Capital y Montes de Jaén: Moderate high-temperature warning. Capital y Montes de Jaén (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Antequera",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Antequera",
-      "nivel": "Naranja",
-      "text": "Antequera: Aviso de temperaturas máximas de nivel amarillo. Antequera (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Antequera",
-      "fenomeno": "Moderate high-temperature warning. Antequera",
-      "nivel": "Naranja",
-      "text": "Antequera: Moderate high-temperature warning. Antequera (Naranja) (AEMET)",
+      "text": "Sierra y Pedroches: Moderate high-temperature warning. Sierra y Pedroches (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
