@@ -1,7 +1,168 @@
-// Auto-generado por GitHub Actions - 2026-07-18T07:46:53.541Z
+// Auto-generado por GitHub Actions - 2026-07-18T09:16:08.061Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-07-18T07:46:53.541Z",
+  "generated_at": "2026-07-18T09:16:08.061Z",
   "source": "AEMET OpenData API",
-  "total_avisos": 0,
-  "avisos": []
+  "total_avisos": 20,
+  "avisos": [
+    {
+      "icon": "🌊",
+      "provincia": "La Mancha albaceteña",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. La Mancha albaceteña",
+      "nivel": "Naranja",
+      "text": "La Mancha albaceteña: Aviso de temperaturas máximas de nivel amarillo. La Mancha albaceteña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "La Mancha albaceteña",
+      "fenomeno": "Moderate high-temperature warning. La Mancha albaceteña",
+      "nivel": "Naranja",
+      "text": "La Mancha albaceteña: Moderate high-temperature warning. La Mancha albaceteña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Alcaraz y Segura",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Alcaraz y Segura",
+      "nivel": "Naranja",
+      "text": "Alcaraz y Segura: Aviso de temperaturas máximas de nivel amarillo. Alcaraz y Segura (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Alcaraz y Segura",
+      "fenomeno": "Moderate high-temperature warning. Alcaraz y Segura",
+      "nivel": "Naranja",
+      "text": "Alcaraz y Segura: Moderate high-temperature warning. Alcaraz y Segura (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Hellín y Almansa",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Hellín y Almansa",
+      "nivel": "Naranja",
+      "text": "Hellín y Almansa: Aviso de temperaturas máximas de nivel amarillo. Hellín y Almansa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Hellín y Almansa",
+      "fenomeno": "Moderate high-temperature warning. Hellín y Almansa",
+      "nivel": "Naranja",
+      "text": "Hellín y Almansa: Moderate high-temperature warning. Hellín y Almansa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "La Mancha de Ciudad Real",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. La Mancha de Ciudad Real",
+      "nivel": "Naranja",
+      "text": "La Mancha de Ciudad Real: Aviso de temperaturas máximas de nivel amarillo. La Mancha de Ciudad Real (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "La Mancha de Ciudad Real",
+      "fenomeno": "Moderate high-temperature warning. La Mancha de Ciudad Real",
+      "nivel": "Naranja",
+      "text": "La Mancha de Ciudad Real: Moderate high-temperature warning. La Mancha de Ciudad Real (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Sierras de Alcudia y Madrona",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Sierras de Alcudia y Madrona",
+      "nivel": "Naranja",
+      "text": "Sierras de Alcudia y Madrona: Aviso de temperaturas máximas de nivel amarillo. Sierras de Alcudia y Madrona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sierras de Alcudia y Madrona",
+      "fenomeno": "Moderate high-temperature warning. Sierras de Alcudia y Madrona",
+      "nivel": "Naranja",
+      "text": "Sierras de Alcudia y Madrona: Moderate high-temperature warning. Sierras de Alcudia y Madrona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Alcarria conquense",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Alcarria conquense",
+      "nivel": "Naranja",
+      "text": "Alcarria conquense: Aviso de temperaturas máximas de nivel amarillo. Alcarria conquense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Alcarria conquense",
+      "fenomeno": "Moderate high-temperature warning. Alcarria conquense",
+      "nivel": "Naranja",
+      "text": "Alcarria conquense: Moderate high-temperature warning. Alcarria conquense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Serranía de Cuenca",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Serranía de Cuenca",
+      "nivel": "Naranja",
+      "text": "Serranía de Cuenca: Aviso de temperaturas máximas de nivel amarillo. Serranía de Cuenca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Serranía de Cuenca",
+      "fenomeno": "Moderate high-temperature warning. Serranía de Cuenca",
+      "nivel": "Naranja",
+      "text": "Serranía de Cuenca: Moderate high-temperature warning. Serranía de Cuenca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "La Mancha conquense",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. La Mancha conquense",
+      "nivel": "Naranja",
+      "text": "La Mancha conquense: Aviso de temperaturas máximas de nivel amarillo. La Mancha conquense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "La Mancha conquense",
+      "fenomeno": "Moderate high-temperature warning. La Mancha conquense",
+      "nivel": "Naranja",
+      "text": "La Mancha conquense: Moderate high-temperature warning. La Mancha conquense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Alcarria de Guadalajara",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Alcarria de Guadalajara",
+      "nivel": "Naranja",
+      "text": "Alcarria de Guadalajara: Aviso de temperaturas máximas de nivel amarillo. Alcarria de Guadalajara (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Alcarria de Guadalajara",
+      "fenomeno": "Moderate high-temperature warning. Alcarria de Guadalajara",
+      "nivel": "Naranja",
+      "text": "Alcarria de Guadalajara: Moderate high-temperature warning. Alcarria de Guadalajara (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Sierra de Madrid",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Sierra de Madrid",
+      "nivel": "Naranja",
+      "text": "Sierra de Madrid: Aviso de temperaturas máximas de nivel amarillo. Sierra de Madrid (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sierra de Madrid",
+      "fenomeno": "Moderate high-temperature warning. Sierra de Madrid",
+      "nivel": "Naranja",
+      "text": "Sierra de Madrid: Moderate high-temperature warning. Sierra de Madrid (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    }
+  ]
 };
