@@ -1,6 +1,6 @@
-// Auto-generado por GitHub Actions - 2026-07-20T07:25:56.213Z
+// Auto-generado por GitHub Actions - 2026-07-20T10:23:21.137Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-07-20T07:25:56.213Z",
+  "generated_at": "2026-07-20T10:23:21.137Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
@@ -150,18 +150,18 @@ window.AEMET_AVISOS = {
     },
     {
       "icon": "🌡️",
-      "provincia": "Sur de Huesca",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Sur de Huesca",
+      "provincia": "Bajo Aragón de Teruel",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Bajo Aragón de Teruel",
       "nivel": "Rojo",
-      "text": "Sur de Huesca: Aviso de temperaturas máximas de nivel naranja. Sur de Huesca (Rojo) (AEMET)",
+      "text": "Bajo Aragón de Teruel: Aviso de temperaturas máximas de nivel naranja. Bajo Aragón de Teruel (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sur de Huesca",
-      "fenomeno": "Severe high-temperature warning. Sur de Huesca",
+      "provincia": "Bajo Aragón de Teruel",
+      "fenomeno": "Severe high-temperature warning. Bajo Aragón de Teruel",
       "nivel": "Rojo",
-      "text": "Sur de Huesca: Severe high-temperature warning. Sur de Huesca (Rojo) (AEMET)",
+      "text": "Bajo Aragón de Teruel: Severe high-temperature warning. Bajo Aragón de Teruel (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
