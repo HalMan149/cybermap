@@ -1,8 +1,72 @@
 {
-  "generated_at": "2026-07-20T21:29:27.771Z",
+  "generated_at": "2026-07-20T22:30:39.665Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌡️",
+      "provincia": "Sierra y Pedroches",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Sierra y Pedroches",
+      "nivel": "Rojo",
+      "text": "Sierra y Pedroches: Aviso de temperaturas máximas de nivel naranja. Sierra y Pedroches (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sierra y Pedroches",
+      "fenomeno": "Severe high-temperature warning. Sierra y Pedroches",
+      "nivel": "Rojo",
+      "text": "Sierra y Pedroches: Severe high-temperature warning. Sierra y Pedroches (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Valle del Guadiana",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Valle del Guadiana",
+      "nivel": "Rojo",
+      "text": "Valle del Guadiana: Aviso de temperaturas máximas de nivel naranja. Valle del Guadiana (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Valle del Guadiana",
+      "fenomeno": "Severe high-temperature warning. Valle del Guadiana",
+      "nivel": "Rojo",
+      "text": "Valle del Guadiana: Severe high-temperature warning. Valle del Guadiana (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Grazalema",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Grazalema",
+      "nivel": "Naranja",
+      "text": "Grazalema: Aviso de temperaturas máximas de nivel amarillo. Grazalema (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Grazalema",
+      "fenomeno": "Moderate high-temperature warning. Grazalema",
+      "nivel": "Naranja",
+      "text": "Grazalema: Moderate high-temperature warning. Grazalema (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Andévalo y Condado",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Andévalo y Condado",
+      "nivel": "Naranja",
+      "text": "Andévalo y Condado: Aviso de temperaturas máximas de nivel amarillo. Andévalo y Condado (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Andévalo y Condado",
+      "fenomeno": "Moderate high-temperature warning. Andévalo y Condado",
+      "nivel": "Naranja",
+      "text": "Andévalo y Condado: Moderate high-temperature warning. Andévalo y Condado (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌡️",
       "provincia": "La Mancha de Ciudad Real",
@@ -97,70 +161,6 @@
       "fenomeno": "Moderate high-temperature warning. La Mancha conquense",
       "nivel": "Naranja",
       "text": "La Mancha conquense: Moderate high-temperature warning. La Mancha conquense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Alcarria de Guadalajara",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Alcarria de Guadalajara",
-      "nivel": "Naranja",
-      "text": "Alcarria de Guadalajara: Aviso de temperaturas máximas de nivel amarillo. Alcarria de Guadalajara (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Alcarria de Guadalajara",
-      "fenomeno": "Moderate high-temperature warning. Alcarria de Guadalajara",
-      "nivel": "Naranja",
-      "text": "Alcarria de Guadalajara: Moderate high-temperature warning. Alcarria de Guadalajara (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Sierra de San Vicente",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Sierra de San Vicente",
-      "nivel": "Naranja",
-      "text": "Sierra de San Vicente: Aviso de temperaturas máximas de nivel amarillo. Sierra de San Vicente (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sierra de San Vicente",
-      "fenomeno": "Moderate high-temperature warning. Sierra de San Vicente",
-      "nivel": "Naranja",
-      "text": "Sierra de San Vicente: Moderate high-temperature warning. Sierra de San Vicente (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Valle del Tajo",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Valle del Tajo",
-      "nivel": "Naranja",
-      "text": "Valle del Tajo: Aviso de temperaturas máximas de nivel amarillo. Valle del Tajo (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Valle del Tajo",
-      "fenomeno": "Moderate high-temperature warning. Valle del Tajo",
-      "nivel": "Naranja",
-      "text": "Valle del Tajo: Moderate high-temperature warning. Valle del Tajo (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Montes de Toledo",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Montes de Toledo",
-      "nivel": "Naranja",
-      "text": "Montes de Toledo: Aviso de temperaturas máximas de nivel amarillo. Montes de Toledo (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Montes de Toledo",
-      "fenomeno": "Moderate high-temperature warning. Montes de Toledo",
-      "nivel": "Naranja",
-      "text": "Montes de Toledo: Moderate high-temperature warning. Montes de Toledo (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
