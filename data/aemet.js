@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-07-21T16:20:33.211Z
+// Auto-generado por GitHub Actions - 2026-07-21T17:50:14.460Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-07-21T16:20:33.211Z",
+  "generated_at": "2026-07-21T17:50:14.460Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "🌡️",
-      "provincia": "Litoral norte de Alicante",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Litoral norte de Alicante",
-      "nivel": "Rojo",
-      "text": "Litoral norte de Alicante: Aviso de temperaturas máximas de nivel naranja. Litoral norte de Alicante (Rojo) (AEMET)",
+      "icon": "⛈️",
+      "provincia": "Gúdar y Maestrazgo",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Gúdar y Maestrazgo",
+      "nivel": "Naranja",
+      "text": "Gúdar y Maestrazgo: Aviso de tormentas de nivel amarillo. Gúdar y Maestrazgo (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Litoral norte de Alicante",
-      "fenomeno": "Severe high-temperature warning. Litoral norte de Alicante",
-      "nivel": "Rojo",
-      "text": "Litoral norte de Alicante: Severe high-temperature warning. Litoral norte de Alicante (Rojo) (AEMET)",
+      "provincia": "Gúdar y Maestrazgo",
+      "fenomeno": "Moderate thunderstorm warning. Gúdar y Maestrazgo",
+      "nivel": "Naranja",
+      "text": "Gúdar y Maestrazgo: Moderate thunderstorm warning. Gúdar y Maestrazgo (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌡️",
-      "provincia": "Litoral sur de Alicante",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Litoral sur de Alicante",
-      "nivel": "Rojo",
-      "text": "Litoral sur de Alicante: Aviso de temperaturas máximas de nivel naranja. Litoral sur de Alicante (Rojo) (AEMET)",
+      "icon": "⛈️",
+      "provincia": "Bajo Aragón de Teruel",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Bajo Aragón de Teruel",
+      "nivel": "Naranja",
+      "text": "Bajo Aragón de Teruel: Aviso de tormentas de nivel amarillo. Bajo Aragón de Teruel (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Litoral sur de Alicante",
-      "fenomeno": "Severe high-temperature warning. Litoral sur de Alicante",
-      "nivel": "Rojo",
-      "text": "Litoral sur de Alicante: Severe high-temperature warning. Litoral sur de Alicante (Rojo) (AEMET)",
+      "provincia": "Bajo Aragón de Teruel",
+      "fenomeno": "Moderate thunderstorm warning. Bajo Aragón de Teruel",
+      "nivel": "Naranja",
+      "text": "Bajo Aragón de Teruel: Moderate thunderstorm warning. Bajo Aragón de Teruel (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌡️",
+      "icon": "⛈️",
+      "provincia": "Prelitoral sur de Tarragona",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Prelitoral sur de Tarragona",
+      "nivel": "Naranja",
+      "text": "Prelitoral sur de Tarragona: Aviso de tormentas de nivel amarillo. Prelitoral sur de Tarragona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Prelitoral sur de Tarragona",
+      "fenomeno": "Moderate thunderstorm warning. Prelitoral sur de Tarragona",
+      "nivel": "Naranja",
+      "text": "Prelitoral sur de Tarragona: Moderate thunderstorm warning. Prelitoral sur de Tarragona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Interior norte de Castellón",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Interior norte de Castellón",
+      "nivel": "Naranja",
+      "text": "Interior norte de Castellón: Aviso de tormentas de nivel amarillo. Interior norte de Castellón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior norte de Castellón",
+      "fenomeno": "Moderate thunderstorm warning. Interior norte de Castellón",
+      "nivel": "Naranja",
+      "text": "Interior norte de Castellón: Moderate thunderstorm warning. Interior norte de Castellón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Interior norte de Valencia",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Interior norte de Valencia",
+      "nivel": "Naranja",
+      "text": "Interior norte de Valencia: Aviso de tormentas de nivel amarillo. Interior norte de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior norte de Valencia",
+      "fenomeno": "Moderate thunderstorm warning. Interior norte de Valencia",
+      "nivel": "Naranja",
+      "text": "Interior norte de Valencia: Moderate thunderstorm warning. Interior norte de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
       "provincia": "Litoral norte de Valencia",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Litoral norte de Valencia",
-      "nivel": "Rojo",
-      "text": "Litoral norte de Valencia: Aviso de temperaturas máximas de nivel naranja. Litoral norte de Valencia (Rojo) (AEMET)",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Litoral norte de Valencia",
+      "nivel": "Naranja",
+      "text": "Litoral norte de Valencia: Aviso de tormentas de nivel amarillo. Litoral norte de Valencia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
       "provincia": "Litoral norte de Valencia",
-      "fenomeno": "Severe high-temperature warning. Litoral norte de Valencia",
-      "nivel": "Rojo",
-      "text": "Litoral norte de Valencia: Severe high-temperature warning. Litoral norte de Valencia (Rojo) (AEMET)",
+      "fenomeno": "Moderate thunderstorm warning. Litoral norte de Valencia",
+      "nivel": "Naranja",
+      "text": "Litoral norte de Valencia: Moderate thunderstorm warning. Litoral norte de Valencia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌡️",
+      "icon": "⛈️",
+      "provincia": "Interior sur de Valencia",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Interior sur de Valencia",
+      "nivel": "Naranja",
+      "text": "Interior sur de Valencia: Aviso de tormentas de nivel amarillo. Interior sur de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior sur de Valencia",
+      "fenomeno": "Moderate thunderstorm warning. Interior sur de Valencia",
+      "nivel": "Naranja",
+      "text": "Interior sur de Valencia: Moderate thunderstorm warning. Interior sur de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
       "provincia": "Litoral sur de Valencia",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Litoral sur de Valencia",
-      "nivel": "Rojo",
-      "text": "Litoral sur de Valencia: Aviso de temperaturas máximas de nivel naranja. Litoral sur de Valencia (Rojo) (AEMET)",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Litoral sur de Valencia",
+      "nivel": "Naranja",
+      "text": "Litoral sur de Valencia: Aviso de tormentas de nivel amarillo. Litoral sur de Valencia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
       "provincia": "Litoral sur de Valencia",
-      "fenomeno": "Severe high-temperature warning. Litoral sur de Valencia",
-      "nivel": "Rojo",
-      "text": "Litoral sur de Valencia: Severe high-temperature warning. Litoral sur de Valencia (Rojo) (AEMET)",
+      "fenomeno": "Moderate thunderstorm warning. Litoral sur de Valencia",
+      "nivel": "Naranja",
+      "text": "Litoral sur de Valencia: Moderate thunderstorm warning. Litoral sur de Valencia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌡️",
-      "provincia": "Valle del Almanzora y Los Vélez",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Valle del Almanzora y Los Vélez",
-      "nivel": "Rojo",
-      "text": "Valle del Almanzora y Los Vélez: Aviso de temperaturas máximas de nivel naranja. Valle del Almanzora y Los Vélez (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Valle del Almanzora y Los Vélez",
-      "fenomeno": "Severe high-temperature warning. Valle del Almanzora y Los Vélez",
-      "nivel": "Rojo",
-      "text": "Valle del Almanzora y Los Vélez: Severe high-temperature warning. Valle del Almanzora y Los Vélez (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Nacimiento y Campo de Tabernas",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Nacimiento y Campo de Tabernas",
-      "nivel": "Rojo",
-      "text": "Nacimiento y Campo de Tabernas: Aviso de temperaturas máximas de nivel naranja. Nacimiento y Campo de Tabernas (Rojo) (AEMET)",
+      "icon": "⛈️",
+      "provincia": "Altiplano de Murcia",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Altiplano de Murcia",
+      "nivel": "Naranja",
+      "text": "Altiplano de Murcia: Aviso de tormentas de nivel amarillo. Altiplano de Murcia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Nacimiento y Campo de Tabernas",
-      "fenomeno": "Severe high-temperature warning. Nacimiento y Campo de Tabernas",
-      "nivel": "Rojo",
-      "text": "Nacimiento y Campo de Tabernas: Severe high-temperature warning. Nacimiento y Campo de Tabernas (Rojo) (AEMET)",
+      "provincia": "Altiplano de Murcia",
+      "fenomeno": "Moderate thunderstorm warning. Altiplano de Murcia",
+      "nivel": "Naranja",
+      "text": "Altiplano de Murcia: Moderate thunderstorm warning. Altiplano de Murcia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌡️",
-      "provincia": "Campiña cordobesa",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Campiña cordobesa",
-      "nivel": "Rojo",
-      "text": "Campiña cordobesa: Aviso de temperaturas máximas de nivel naranja. Campiña cordobesa (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Campiña cordobesa",
-      "fenomeno": "Severe high-temperature warning. Campiña cordobesa",
-      "nivel": "Rojo",
-      "text": "Campiña cordobesa: Severe high-temperature warning. Campiña cordobesa (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Cuenca del Genil",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Cuenca del Genil",
-      "nivel": "Rojo",
-      "text": "Cuenca del Genil: Aviso de temperaturas máximas de nivel naranja. Cuenca del Genil (Rojo) (AEMET)",
+      "icon": "🌊",
+      "provincia": "Sol y Guadalhorce",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Sol y Guadalhorce",
+      "nivel": "Naranja",
+      "text": "Sol y Guadalhorce: Aviso de temperaturas máximas de nivel amarillo. Sol y Guadalhorce (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Cuenca del Genil",
-      "fenomeno": "Severe high-temperature warning. Cuenca del Genil",
-      "nivel": "Rojo",
-      "text": "Cuenca del Genil: Severe high-temperature warning. Cuenca del Genil (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Guadix y Baza",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Guadix y Baza",
-      "nivel": "Rojo",
-      "text": "Guadix y Baza: Aviso de temperaturas máximas de nivel naranja. Guadix y Baza (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Guadix y Baza",
-      "fenomeno": "Severe high-temperature warning. Guadix y Baza",
-      "nivel": "Rojo",
-      "text": "Guadix y Baza: Severe high-temperature warning. Guadix y Baza (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Morena y Condado",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Morena y Condado",
-      "nivel": "Rojo",
-      "text": "Morena y Condado: Aviso de temperaturas máximas de nivel naranja. Morena y Condado (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Morena y Condado",
-      "fenomeno": "Severe high-temperature warning. Morena y Condado",
-      "nivel": "Rojo",
-      "text": "Morena y Condado: Severe high-temperature warning. Morena y Condado (Rojo) (AEMET)",
+      "provincia": "Sol y Guadalhorce",
+      "fenomeno": "Moderate high-temperature warning. Sol y Guadalhorce",
+      "nivel": "Naranja",
+      "text": "Sol y Guadalhorce: Moderate high-temperature warning. Sol y Guadalhorce (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
