@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2026-07-21T21:43:59.357Z
+// Auto-generado por GitHub Actions - 2026-07-21T22:36:39.558Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-07-21T21:43:59.357Z",
+  "generated_at": "2026-07-21T22:36:39.558Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌡️",
+      "provincia": "Grazalema",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Grazalema",
+      "nivel": "Rojo",
+      "text": "Grazalema: Aviso de temperaturas máximas de nivel naranja. Grazalema (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Grazalema",
+      "fenomeno": "Severe high-temperature warning. Grazalema",
+      "nivel": "Rojo",
+      "text": "Grazalema: Severe high-temperature warning. Grazalema (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "⛈️",
       "provincia": "Gúdar y Maestrazgo",
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate thunderstorm warning. Altiplano de Murcia",
       "nivel": "Naranja",
       "text": "Altiplano de Murcia: Moderate thunderstorm warning. Altiplano de Murcia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Sol y Guadalhorce",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Sol y Guadalhorce",
-      "nivel": "Naranja",
-      "text": "Sol y Guadalhorce: Aviso de temperaturas máximas de nivel amarillo. Sol y Guadalhorce (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sol y Guadalhorce",
-      "fenomeno": "Moderate high-temperature warning. Sol y Guadalhorce",
-      "nivel": "Naranja",
-      "text": "Sol y Guadalhorce: Moderate high-temperature warning. Sol y Guadalhorce (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
