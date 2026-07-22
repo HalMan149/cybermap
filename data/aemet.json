@@ -1,8 +1,72 @@
 {
-  "generated_at": "2026-07-22T21:44:08.579Z",
+  "generated_at": "2026-07-22T22:41:13.550Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌡️",
+      "provincia": "Valle del Almanzora y Los Vélez",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Valle del Almanzora y Los Vélez",
+      "nivel": "Rojo",
+      "text": "Valle del Almanzora y Los Vélez: Aviso de temperaturas máximas de nivel naranja. Valle del Almanzora y Los Vélez (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Valle del Almanzora y Los Vélez",
+      "fenomeno": "Severe high-temperature warning. Valle del Almanzora y Los Vélez",
+      "nivel": "Rojo",
+      "text": "Valle del Almanzora y Los Vélez: Severe high-temperature warning. Valle del Almanzora y Los Vélez (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Nacimiento y Campo de Tabernas",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Nacimiento y Campo de Tabernas",
+      "nivel": "Rojo",
+      "text": "Nacimiento y Campo de Tabernas: Aviso de temperaturas máximas de nivel naranja. Nacimiento y Campo de Tabernas (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Nacimiento y Campo de Tabernas",
+      "fenomeno": "Severe high-temperature warning. Nacimiento y Campo de Tabernas",
+      "nivel": "Rojo",
+      "text": "Nacimiento y Campo de Tabernas: Severe high-temperature warning. Nacimiento y Campo de Tabernas (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Nevada y Alpujarras",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Nevada y Alpujarras",
+      "nivel": "Rojo",
+      "text": "Nevada y Alpujarras: Aviso de temperaturas máximas de nivel naranja. Nevada y Alpujarras (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Nevada y Alpujarras",
+      "fenomeno": "Severe high-temperature warning. Nevada y Alpujarras",
+      "nivel": "Rojo",
+      "text": "Nevada y Alpujarras: Severe high-temperature warning. Nevada y Alpujarras (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Sol y Guadalhorce",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Sol y Guadalhorce",
+      "nivel": "Rojo",
+      "text": "Sol y Guadalhorce: Aviso de temperaturas máximas de nivel naranja. Sol y Guadalhorce (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sol y Guadalhorce",
+      "fenomeno": "Severe high-temperature warning. Sol y Guadalhorce",
+      "nivel": "Rojo",
+      "text": "Sol y Guadalhorce: Severe high-temperature warning. Sol y Guadalhorce (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌡️",
       "provincia": "Grazalema",
@@ -97,70 +161,6 @@
       "fenomeno": "Moderate high-temperature warning. Litoral de Huelva",
       "nivel": "Naranja",
       "text": "Litoral de Huelva: Moderate high-temperature warning. Litoral de Huelva (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Sierra norte de Sevilla",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Sierra norte de Sevilla",
-      "nivel": "Naranja",
-      "text": "Sierra norte de Sevilla: Aviso de temperaturas máximas de nivel amarillo. Sierra norte de Sevilla (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sierra norte de Sevilla",
-      "fenomeno": "Moderate high-temperature warning. Sierra norte de Sevilla",
-      "nivel": "Naranja",
-      "text": "Sierra norte de Sevilla: Moderate high-temperature warning. Sierra norte de Sevilla (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Campiña sevillana",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Campiña sevillana",
-      "nivel": "Naranja",
-      "text": "Campiña sevillana: Aviso de temperaturas máximas de nivel amarillo. Campiña sevillana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Campiña sevillana",
-      "fenomeno": "Moderate high-temperature warning. Campiña sevillana",
-      "nivel": "Naranja",
-      "text": "Campiña sevillana: Moderate high-temperature warning. Campiña sevillana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Sierra sur de Sevilla",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Sierra sur de Sevilla",
-      "nivel": "Naranja",
-      "text": "Sierra sur de Sevilla: Aviso de temperaturas máximas de nivel amarillo. Sierra sur de Sevilla (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sierra sur de Sevilla",
-      "fenomeno": "Moderate high-temperature warning. Sierra sur de Sevilla",
-      "nivel": "Naranja",
-      "text": "Sierra sur de Sevilla: Moderate high-temperature warning. Sierra sur de Sevilla (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Ceuta",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Ceuta",
-      "nivel": "Naranja",
-      "text": "Ceuta: Aviso de temperaturas máximas de nivel amarillo. Ceuta (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ceuta",
-      "fenomeno": "Moderate high-temperature warning. Ceuta",
-      "nivel": "Naranja",
-      "text": "Ceuta: Moderate high-temperature warning. Ceuta (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
