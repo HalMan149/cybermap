@@ -1,41 +1,9 @@
-// Auto-generado por GitHub Actions - 2026-07-22T07:19:14.132Z
+// Auto-generado por GitHub Actions - 2026-07-22T09:54:20.530Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-07-22T07:19:14.132Z",
+  "generated_at": "2026-07-22T09:54:20.530Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
-    {
-      "icon": "⛈️",
-      "provincia": "Litoral sur de Tarragona",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Litoral sur de Tarragona",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Tarragona: Aviso de tormentas de nivel amarillo. Litoral sur de Tarragona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral sur de Tarragona",
-      "fenomeno": "Moderate thunderstorm warning. Litoral sur de Tarragona",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Tarragona: Moderate thunderstorm warning. Litoral sur de Tarragona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Litoral norte de Castellón",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Litoral norte de Castellón",
-      "nivel": "Naranja",
-      "text": "Litoral norte de Castellón: Aviso de tormentas de nivel amarillo. Litoral norte de Castellón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral norte de Castellón",
-      "fenomeno": "Moderate thunderstorm warning. Litoral norte de Castellón",
-      "nivel": "Naranja",
-      "text": "Litoral norte de Castellón: Moderate thunderstorm warning. Litoral norte de Castellón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
     {
       "icon": "🌊",
       "provincia": "Ibiza y Formentera",
@@ -86,82 +54,114 @@ window.AEMET_AVISOS = {
     },
     {
       "icon": "🌊",
+      "provincia": "Levante mallorquín",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Levante mallorquín",
+      "nivel": "Naranja",
+      "text": "Levante mallorquín: Aviso de temperaturas máximas de nivel amarillo. Levante mallorquín (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Levante mallorquín",
+      "fenomeno": "Moderate high-temperature warning. Levante mallorquín",
+      "nivel": "Naranja",
+      "text": "Levante mallorquín: Moderate high-temperature warning. Levante mallorquín (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Ibiza y Formentera",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Ibiza y Formentera",
+      "nivel": "Naranja",
+      "text": "Ibiza y Formentera: Aviso de vientos de nivel amarillo. Ibiza y Formentera (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ibiza y Formentera",
+      "fenomeno": "Moderate wind warning. Ibiza y Formentera",
+      "nivel": "Naranja",
+      "text": "Ibiza y Formentera: Moderate wind warning. Ibiza y Formentera (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Ibiza y Formentera",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Ibiza y Formentera",
+      "nivel": "Naranja",
+      "text": "Costa - Ibiza y Formentera: Aviso de costeros de nivel amarillo. Costa - Ibiza y Formentera (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Ibiza y Formentera",
+      "fenomeno": "Moderate coastalevent warning. Costa - Ibiza y Formentera",
+      "nivel": "Naranja",
+      "text": "Costa - Ibiza y Formentera: Moderate coastalevent warning. Costa - Ibiza y Formentera (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
       "provincia": "Valle del Almanzora y Los Vélez",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Valle del Almanzora y Los Vélez",
-      "nivel": "Naranja",
-      "text": "Valle del Almanzora y Los Vélez: Aviso de temperaturas máximas de nivel amarillo. Valle del Almanzora y Los Vélez (Naranja) (AEMET)",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Valle del Almanzora y Los Vélez",
+      "nivel": "Rojo",
+      "text": "Valle del Almanzora y Los Vélez: Aviso de temperaturas máximas de nivel naranja. Valle del Almanzora y Los Vélez (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
       "provincia": "Valle del Almanzora y Los Vélez",
-      "fenomeno": "Moderate high-temperature warning. Valle del Almanzora y Los Vélez",
-      "nivel": "Naranja",
-      "text": "Valle del Almanzora y Los Vélez: Moderate high-temperature warning. Valle del Almanzora y Los Vélez (Naranja) (AEMET)",
+      "fenomeno": "Severe high-temperature warning. Valle del Almanzora y Los Vélez",
+      "nivel": "Rojo",
+      "text": "Valle del Almanzora y Los Vélez: Severe high-temperature warning. Valle del Almanzora y Los Vélez (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Nacimiento y Campo de Tabernas",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Nacimiento y Campo de Tabernas",
-      "nivel": "Naranja",
-      "text": "Nacimiento y Campo de Tabernas: Aviso de temperaturas máximas de nivel amarillo. Nacimiento y Campo de Tabernas (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Nacimiento y Campo de Tabernas",
-      "fenomeno": "Moderate high-temperature warning. Nacimiento y Campo de Tabernas",
-      "nivel": "Naranja",
-      "text": "Nacimiento y Campo de Tabernas: Moderate high-temperature warning. Nacimiento y Campo de Tabernas (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
+      "icon": "🌡️",
       "provincia": "Sol y Guadalhorce",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Sol y Guadalhorce",
-      "nivel": "Naranja",
-      "text": "Sol y Guadalhorce: Aviso de temperaturas máximas de nivel amarillo. Sol y Guadalhorce (Naranja) (AEMET)",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Sol y Guadalhorce",
+      "nivel": "Rojo",
+      "text": "Sol y Guadalhorce: Aviso de temperaturas máximas de nivel naranja. Sol y Guadalhorce (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
       "provincia": "Sol y Guadalhorce",
-      "fenomeno": "Moderate high-temperature warning. Sol y Guadalhorce",
-      "nivel": "Naranja",
-      "text": "Sol y Guadalhorce: Moderate high-temperature warning. Sol y Guadalhorce (Naranja) (AEMET)",
+      "fenomeno": "Severe high-temperature warning. Sol y Guadalhorce",
+      "nivel": "Rojo",
+      "text": "Sol y Guadalhorce: Severe high-temperature warning. Sol y Guadalhorce (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Axarquía",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Axarquía",
-      "nivel": "Naranja",
-      "text": "Axarquía: Aviso de temperaturas máximas de nivel amarillo. Axarquía (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Axarquía",
-      "fenomeno": "Moderate high-temperature warning. Axarquía",
-      "nivel": "Naranja",
-      "text": "Axarquía: Moderate high-temperature warning. Axarquía (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Pirineo oscense",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Pirineo oscense",
-      "nivel": "Naranja",
-      "text": "Pirineo oscense: Aviso de temperaturas máximas de nivel amarillo. Pirineo oscense (Naranja) (AEMET)",
+      "icon": "🌡️",
+      "provincia": "Cinco Villas de Zaragoza",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Cinco Villas de Zaragoza",
+      "nivel": "Rojo",
+      "text": "Cinco Villas de Zaragoza: Aviso de temperaturas máximas de nivel naranja. Cinco Villas de Zaragoza (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Pirineo oscense",
-      "fenomeno": "Moderate high-temperature warning. Pirineo oscense",
-      "nivel": "Naranja",
-      "text": "Pirineo oscense: Moderate high-temperature warning. Pirineo oscense (Naranja) (AEMET)",
+      "provincia": "Cinco Villas de Zaragoza",
+      "fenomeno": "Severe high-temperature warning. Cinco Villas de Zaragoza",
+      "nivel": "Rojo",
+      "text": "Cinco Villas de Zaragoza: Severe high-temperature warning. Cinco Villas de Zaragoza (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Ibérica zaragozana",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Ibérica zaragozana",
+      "nivel": "Rojo",
+      "text": "Ibérica zaragozana: Aviso de temperaturas máximas de nivel naranja. Ibérica zaragozana (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ibérica zaragozana",
+      "fenomeno": "Severe high-temperature warning. Ibérica zaragozana",
+      "nivel": "Rojo",
+      "text": "Ibérica zaragozana: Severe high-temperature warning. Ibérica zaragozana (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
