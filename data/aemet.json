@@ -1,8 +1,120 @@
 {
-  "generated_at": "2026-07-23T04:30:46.955Z",
+  "generated_at": "2026-07-23T07:15:52.985Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "⛈️",
+      "provincia": "Litoral norte de Alicante",
+      "fenomeno": "Aviso de tormentas de nivel naranja. Litoral norte de Alicante",
+      "nivel": "Rojo",
+      "text": "Litoral norte de Alicante: Aviso de tormentas de nivel naranja. Litoral norte de Alicante (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral norte de Alicante",
+      "fenomeno": "Severe thunderstorm warning. Litoral norte de Alicante",
+      "nivel": "Rojo",
+      "text": "Litoral norte de Alicante: Severe thunderstorm warning. Litoral norte de Alicante (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Litoral sur de Alicante",
+      "fenomeno": "Aviso de tormentas de nivel naranja. Litoral sur de Alicante",
+      "nivel": "Rojo",
+      "text": "Litoral sur de Alicante: Aviso de tormentas de nivel naranja. Litoral sur de Alicante (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral sur de Alicante",
+      "fenomeno": "Severe thunderstorm warning. Litoral sur de Alicante",
+      "nivel": "Rojo",
+      "text": "Litoral sur de Alicante: Severe thunderstorm warning. Litoral sur de Alicante (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Ibiza y Formentera",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Ibiza y Formentera",
+      "nivel": "Naranja",
+      "text": "Ibiza y Formentera: Aviso de vientos de nivel amarillo. Ibiza y Formentera (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ibiza y Formentera",
+      "fenomeno": "Moderate wind warning. Ibiza y Formentera",
+      "nivel": "Naranja",
+      "text": "Ibiza y Formentera: Moderate wind warning. Ibiza y Formentera (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Ibiza y Formentera",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Ibiza y Formentera",
+      "nivel": "Naranja",
+      "text": "Costa - Ibiza y Formentera: Aviso de costeros de nivel amarillo. Costa - Ibiza y Formentera (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Ibiza y Formentera",
+      "fenomeno": "Moderate coastalevent warning. Costa - Ibiza y Formentera",
+      "nivel": "Naranja",
+      "text": "Costa - Ibiza y Formentera: Moderate coastalevent warning. Costa - Ibiza y Formentera (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral norte de Alicante",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral norte de Alicante",
+      "nivel": "Naranja",
+      "text": "Costa - Litoral norte de Alicante: Aviso de costeros de nivel amarillo. Costa - Litoral norte de Alicante (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral norte de Alicante",
+      "fenomeno": "Moderate coastalevent warning. Costa - Litoral norte de Alicante",
+      "nivel": "Naranja",
+      "text": "Costa - Litoral norte de Alicante: Moderate coastalevent warning. Costa - Litoral norte de Alicante (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral sur de Alicante",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral sur de Alicante",
+      "nivel": "Naranja",
+      "text": "Costa - Litoral sur de Alicante: Aviso de costeros de nivel amarillo. Costa - Litoral sur de Alicante (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral sur de Alicante",
+      "fenomeno": "Moderate coastalevent warning. Costa - Litoral sur de Alicante",
+      "nivel": "Naranja",
+      "text": "Costa - Litoral sur de Alicante: Moderate coastalevent warning. Costa - Litoral sur de Alicante (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral sur de Valencia",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral sur de Valencia",
+      "nivel": "Naranja",
+      "text": "Costa - Litoral sur de Valencia: Aviso de costeros de nivel amarillo. Costa - Litoral sur de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral sur de Valencia",
+      "fenomeno": "Moderate coastalevent warning. Costa - Litoral sur de Valencia",
+      "nivel": "Naranja",
+      "text": "Costa - Litoral sur de Valencia: Moderate coastalevent warning. Costa - Litoral sur de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌡️",
       "provincia": "Valle del Almanzora y Los Vélez",
@@ -49,118 +161,6 @@
       "fenomeno": "Severe high-temperature warning. Nevada y Alpujarras",
       "nivel": "Rojo",
       "text": "Nevada y Alpujarras: Severe high-temperature warning. Nevada y Alpujarras (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Sol y Guadalhorce",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Sol y Guadalhorce",
-      "nivel": "Rojo",
-      "text": "Sol y Guadalhorce: Aviso de temperaturas máximas de nivel naranja. Sol y Guadalhorce (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sol y Guadalhorce",
-      "fenomeno": "Severe high-temperature warning. Sol y Guadalhorce",
-      "nivel": "Rojo",
-      "text": "Sol y Guadalhorce: Severe high-temperature warning. Sol y Guadalhorce (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Grazalema",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Grazalema",
-      "nivel": "Rojo",
-      "text": "Grazalema: Aviso de temperaturas máximas de nivel naranja. Grazalema (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Grazalema",
-      "fenomeno": "Severe high-temperature warning. Grazalema",
-      "nivel": "Rojo",
-      "text": "Grazalema: Severe high-temperature warning. Grazalema (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Campiña cordobesa",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Campiña cordobesa",
-      "nivel": "Rojo",
-      "text": "Campiña cordobesa: Aviso de temperaturas máximas de nivel naranja. Campiña cordobesa (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Campiña cordobesa",
-      "fenomeno": "Severe high-temperature warning. Campiña cordobesa",
-      "nivel": "Rojo",
-      "text": "Campiña cordobesa: Severe high-temperature warning. Campiña cordobesa (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Sierra y Pedroches",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Sierra y Pedroches",
-      "nivel": "Naranja",
-      "text": "Sierra y Pedroches: Aviso de temperaturas máximas de nivel amarillo. Sierra y Pedroches (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sierra y Pedroches",
-      "fenomeno": "Moderate high-temperature warning. Sierra y Pedroches",
-      "nivel": "Naranja",
-      "text": "Sierra y Pedroches: Moderate high-temperature warning. Sierra y Pedroches (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Subbética cordobesa",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Subbética cordobesa",
-      "nivel": "Naranja",
-      "text": "Subbética cordobesa: Aviso de temperaturas máximas de nivel amarillo. Subbética cordobesa (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Subbética cordobesa",
-      "fenomeno": "Moderate high-temperature warning. Subbética cordobesa",
-      "nivel": "Naranja",
-      "text": "Subbética cordobesa: Moderate high-temperature warning. Subbética cordobesa (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Andévalo y Condado",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Andévalo y Condado",
-      "nivel": "Naranja",
-      "text": "Andévalo y Condado: Aviso de temperaturas máximas de nivel amarillo. Andévalo y Condado (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Andévalo y Condado",
-      "fenomeno": "Moderate high-temperature warning. Andévalo y Condado",
-      "nivel": "Naranja",
-      "text": "Andévalo y Condado: Moderate high-temperature warning. Andévalo y Condado (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Litoral de Huelva",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Litoral de Huelva",
-      "nivel": "Naranja",
-      "text": "Litoral de Huelva: Aviso de temperaturas máximas de nivel amarillo. Litoral de Huelva (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral de Huelva",
-      "fenomeno": "Moderate high-temperature warning. Litoral de Huelva",
-      "nivel": "Naranja",
-      "text": "Litoral de Huelva: Moderate high-temperature warning. Litoral de Huelva (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
