@@ -1,39 +1,71 @@
-// Auto-generado por GitHub Actions - 2026-07-23T15:23:07.079Z
+// Auto-generado por GitHub Actions - 2026-07-23T16:53:41.921Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-07-23T15:23:07.079Z",
+  "generated_at": "2026-07-23T16:53:41.921Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "🌡️",
-      "provincia": "La Mancha albaceteña",
-      "fenomeno": "Aviso de temperaturas máximas de nivel rojo. La Mancha albaceteña",
-      "nivel": "Rojo",
-      "text": "La Mancha albaceteña: Aviso de temperaturas máximas de nivel rojo. La Mancha albaceteña (Rojo) (AEMET)",
+      "icon": "🌊",
+      "provincia": "Cumbres de Gran Canaria",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Cumbres de Gran Canaria",
+      "nivel": "Naranja",
+      "text": "Cumbres de Gran Canaria: Aviso de temperaturas máximas de nivel amarillo. Cumbres de Gran Canaria (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "La Mancha albaceteña",
-      "fenomeno": "Extreme high-temperature warning. La Mancha albaceteña",
-      "nivel": "Rojo",
-      "text": "La Mancha albaceteña: Extreme high-temperature warning. La Mancha albaceteña (Rojo) (AEMET)",
+      "provincia": "Cumbres de Gran Canaria",
+      "fenomeno": "Moderate high-temperature warning. Cumbres de Gran Canaria",
+      "nivel": "Naranja",
+      "text": "Cumbres de Gran Canaria: Moderate high-temperature warning. Cumbres de Gran Canaria (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌡️",
-      "provincia": "Hellín y Almansa",
-      "fenomeno": "Aviso de temperaturas máximas de nivel rojo. Hellín y Almansa",
-      "nivel": "Rojo",
-      "text": "Hellín y Almansa: Aviso de temperaturas máximas de nivel rojo. Hellín y Almansa (Rojo) (AEMET)",
+      "icon": "🌊",
+      "provincia": "Este, sur y oeste de Gran Canaria",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Este, sur y oeste de Gran Canaria",
+      "nivel": "Naranja",
+      "text": "Este, sur y oeste de Gran Canaria: Aviso de temperaturas máximas de nivel amarillo. Este, sur y oeste de Gran Canaria (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Hellín y Almansa",
-      "fenomeno": "Extreme high-temperature warning. Hellín y Almansa",
-      "nivel": "Rojo",
-      "text": "Hellín y Almansa: Extreme high-temperature warning. Hellín y Almansa (Rojo) (AEMET)",
+      "provincia": "Este, sur y oeste de Gran Canaria",
+      "fenomeno": "Moderate high-temperature warning. Este, sur y oeste de Gran Canaria",
+      "nivel": "Naranja",
+      "text": "Este, sur y oeste de Gran Canaria: Moderate high-temperature warning. Este, sur y oeste de Gran Canaria (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Este, sur y oeste de Gran Canaria",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Este, sur y oeste de Gran Canaria",
+      "nivel": "Naranja",
+      "text": "Costa - Este, sur y oeste de Gran Canaria: Aviso de costeros de nivel amarillo. Costa - Este, sur y oeste de Gran Canaria (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Este, sur y oeste de Gran Canaria",
+      "fenomeno": "Moderate coastalevent warning. Costa - Este, sur y oeste de Gran Canaria",
+      "nivel": "Naranja",
+      "text": "Costa - Este, sur y oeste de Gran Canaria: Moderate coastalevent warning. Costa - Este, sur y oeste de Gran Canaria (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Este, sur y oeste de Tenerife",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Este, sur y oeste de Tenerife",
+      "nivel": "Naranja",
+      "text": "Costa - Este, sur y oeste de Tenerife: Aviso de costeros de nivel amarillo. Costa - Este, sur y oeste de Tenerife (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Este, sur y oeste de Tenerife",
+      "fenomeno": "Moderate coastalevent warning. Costa - Este, sur y oeste de Tenerife",
+      "nivel": "Naranja",
+      "text": "Costa - Este, sur y oeste de Tenerife: Moderate coastalevent warning. Costa - Este, sur y oeste de Tenerife (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -118,22 +150,6 @@ window.AEMET_AVISOS = {
     },
     {
       "icon": "🌊",
-      "provincia": "Costa - Este, sur y oeste de Gran Canaria",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Este, sur y oeste de Gran Canaria",
-      "nivel": "Naranja",
-      "text": "Costa - Este, sur y oeste de Gran Canaria: Aviso de costeros de nivel amarillo. Costa - Este, sur y oeste de Gran Canaria (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Este, sur y oeste de Gran Canaria",
-      "fenomeno": "Moderate coastalevent warning. Costa - Este, sur y oeste de Gran Canaria",
-      "nivel": "Naranja",
-      "text": "Costa - Este, sur y oeste de Gran Canaria: Moderate coastalevent warning. Costa - Este, sur y oeste de Gran Canaria (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
       "provincia": "Costa - Oeste de La Palma",
       "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Oeste de La Palma",
       "nivel": "Naranja",
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate coastalevent warning. Costa - Oeste de La Palma",
       "nivel": "Naranja",
       "text": "Costa - Oeste de La Palma: Moderate coastalevent warning. Costa - Oeste de La Palma (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - La Gomera",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - La Gomera",
-      "nivel": "Naranja",
-      "text": "Costa - La Gomera: Aviso de costeros de nivel amarillo. Costa - La Gomera (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - La Gomera",
-      "fenomeno": "Moderate coastalevent warning. Costa - La Gomera",
-      "nivel": "Naranja",
-      "text": "Costa - La Gomera: Moderate coastalevent warning. Costa - La Gomera (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
