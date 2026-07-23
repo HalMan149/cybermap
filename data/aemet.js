@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2026-07-23T21:41:48.106Z
+// Auto-generado por GitHub Actions - 2026-07-23T22:37:13.720Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-07-23T21:41:48.106Z",
+  "generated_at": "2026-07-23T22:37:13.720Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌊",
+      "provincia": "Ceuta",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Ceuta",
+      "nivel": "Naranja",
+      "text": "Ceuta: Aviso de temperaturas máximas de nivel amarillo. Ceuta (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ceuta",
+      "fenomeno": "Moderate high-temperature warning. Ceuta",
+      "nivel": "Naranja",
+      "text": "Ceuta: Moderate high-temperature warning. Ceuta (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌡️",
       "provincia": "Sol y Guadalhorce",
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate rain warning. Litoral cántabro",
       "nivel": "Naranja",
       "text": "Litoral cántabro: Moderate rain warning. Litoral cántabro (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Centro y valle de Villaverde",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Centro y valle de Villaverde",
-      "nivel": "Naranja",
-      "text": "Centro y valle de Villaverde: Aviso de lluvias de nivel amarillo. Centro y valle de Villaverde (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Centro y valle de Villaverde",
-      "fenomeno": "Moderate rain warning. Centro y valle de Villaverde",
-      "nivel": "Naranja",
-      "text": "Centro y valle de Villaverde: Moderate rain warning. Centro y valle de Villaverde (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
