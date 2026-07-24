@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-07-24T14:46:21.702Z
+// Auto-generado por GitHub Actions - 2026-07-24T17:57:11.718Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-07-24T14:46:21.702Z",
+  "generated_at": "2026-07-24T17:57:11.718Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "🌊",
-      "provincia": "Vega del Segura",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Vega del Segura",
+      "icon": "⛈️",
+      "provincia": "Litoral oriental asturiano",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Litoral oriental asturiano",
       "nivel": "Naranja",
-      "text": "Vega del Segura: Aviso de temperaturas máximas de nivel amarillo. Vega del Segura (Naranja) (AEMET)",
+      "text": "Litoral oriental asturiano: Aviso de tormentas de nivel amarillo. Litoral oriental asturiano (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Vega del Segura",
-      "fenomeno": "Moderate high-temperature warning. Vega del Segura",
+      "provincia": "Litoral oriental asturiano",
+      "fenomeno": "Moderate thunderstorm warning. Litoral oriental asturiano",
       "nivel": "Naranja",
-      "text": "Vega del Segura: Moderate high-temperature warning. Vega del Segura (Naranja) (AEMET)",
+      "text": "Litoral oriental asturiano: Moderate thunderstorm warning. Litoral oriental asturiano (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Sol y Guadalhorce",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Sol y Guadalhorce",
-      "nivel": "Naranja",
-      "text": "Sol y Guadalhorce: Aviso de temperaturas máximas de nivel amarillo. Sol y Guadalhorce (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sol y Guadalhorce",
-      "fenomeno": "Moderate high-temperature warning. Sol y Guadalhorce",
-      "nivel": "Naranja",
-      "text": "Sol y Guadalhorce: Moderate high-temperature warning. Sol y Guadalhorce (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Axarquía",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Axarquía",
-      "nivel": "Naranja",
-      "text": "Axarquía: Aviso de temperaturas máximas de nivel amarillo. Axarquía (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Axarquía",
-      "fenomeno": "Moderate high-temperature warning. Axarquía",
-      "nivel": "Naranja",
-      "text": "Axarquía: Moderate high-temperature warning. Axarquía (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Poniente y Almería Capital",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Poniente y Almería Capital",
-      "nivel": "Naranja",
-      "text": "Costa - Poniente y Almería Capital: Aviso de costeros de nivel amarillo. Costa - Poniente y Almería Capital (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Poniente y Almería Capital",
-      "fenomeno": "Moderate coastalevent warning. Costa - Poniente y Almería Capital",
-      "nivel": "Naranja",
-      "text": "Costa - Poniente y Almería Capital: Moderate coastalevent warning. Costa - Poniente y Almería Capital (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Costa granadina",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Costa granadina",
-      "nivel": "Naranja",
-      "text": "Costa - Costa granadina: Aviso de costeros de nivel amarillo. Costa - Costa granadina (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Costa granadina",
-      "fenomeno": "Moderate coastalevent warning. Costa - Costa granadina",
-      "nivel": "Naranja",
-      "text": "Costa - Costa granadina: Moderate coastalevent warning. Costa - Costa granadina (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Menorca",
-      "fenomeno": "Aviso de rissagas de nivel naranja. Costa - Menorca",
+      "icon": "🌡️",
+      "provincia": "Ribera del Ebro de La Rioja",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Ribera del Ebro de La Rioja",
       "nivel": "Rojo",
-      "text": "Costa - Menorca: Aviso de rissagas de nivel naranja. Costa - Menorca (Rojo) (AEMET)",
+      "text": "Ribera del Ebro de La Rioja: Aviso de temperaturas máximas de nivel naranja. Ribera del Ebro de La Rioja (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Costa - Menorca",
-      "fenomeno": "Severe rissagas warning. Costa - Menorca",
+      "icon": "⚠️",
+      "provincia": "Ribera del Ebro de La Rioja",
+      "fenomeno": "Severe high-temperature warning. Ribera del Ebro de La Rioja",
       "nivel": "Rojo",
-      "text": "Costa - Menorca: Severe rissagas warning. Costa - Menorca (Rojo) (AEMET)",
+      "text": "Ribera del Ebro de La Rioja: Severe high-temperature warning. Ribera del Ebro de La Rioja (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Ibiza y Formentera",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Ibiza y Formentera",
+      "icon": "🌧️",
+      "provincia": "Ibérica riojana",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Ibérica riojana",
       "nivel": "Naranja",
-      "text": "Ibiza y Formentera: Aviso de temperaturas máximas de nivel amarillo. Ibiza y Formentera (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ibiza y Formentera",
-      "fenomeno": "Moderate high-temperature warning. Ibiza y Formentera",
-      "nivel": "Naranja",
-      "text": "Ibiza y Formentera: Moderate high-temperature warning. Ibiza y Formentera (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Interior de Mallorca",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Interior de Mallorca",
-      "nivel": "Naranja",
-      "text": "Interior de Mallorca: Aviso de temperaturas máximas de nivel amarillo. Interior de Mallorca (Naranja) (AEMET)",
+      "text": "Ibérica riojana: Aviso de lluvias de nivel amarillo. Ibérica riojana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Interior de Mallorca",
-      "fenomeno": "Moderate high-temperature warning. Interior de Mallorca",
+      "provincia": "Ibérica riojana",
+      "fenomeno": "Moderate rain warning. Ibérica riojana",
       "nivel": "Naranja",
-      "text": "Interior de Mallorca: Moderate high-temperature warning. Interior de Mallorca (Naranja) (AEMET)",
+      "text": "Ibérica riojana: Moderate rain warning. Ibérica riojana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Levante mallorquín",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Levante mallorquín",
+      "icon": "⛈️",
+      "provincia": "Ibérica riojana",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Ibérica riojana",
       "nivel": "Naranja",
-      "text": "Levante mallorquín: Aviso de temperaturas máximas de nivel amarillo. Levante mallorquín (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Levante mallorquín",
-      "fenomeno": "Moderate high-temperature warning. Levante mallorquín",
-      "nivel": "Naranja",
-      "text": "Levante mallorquín: Moderate high-temperature warning. Levante mallorquín (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Este, sur y oeste de Gran Canaria",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Este, sur y oeste de Gran Canaria",
-      "nivel": "Naranja",
-      "text": "Este, sur y oeste de Gran Canaria: Aviso de vientos de nivel amarillo. Este, sur y oeste de Gran Canaria (Naranja) (AEMET)",
+      "text": "Ibérica riojana: Aviso de tormentas de nivel amarillo. Ibérica riojana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Este, sur y oeste de Gran Canaria",
-      "fenomeno": "Moderate wind warning. Este, sur y oeste de Gran Canaria",
+      "provincia": "Ibérica riojana",
+      "fenomeno": "Moderate thunderstorm warning. Ibérica riojana",
       "nivel": "Naranja",
-      "text": "Este, sur y oeste de Gran Canaria: Moderate wind warning. Este, sur y oeste de Gran Canaria (Naranja) (AEMET)",
+      "text": "Ibérica riojana: Moderate thunderstorm warning. Ibérica riojana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Cordillera Cantábrica de Burgos",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Cordillera Cantábrica de Burgos",
+      "nivel": "Naranja",
+      "text": "Cordillera Cantábrica de Burgos: Aviso de lluvias de nivel amarillo. Cordillera Cantábrica de Burgos (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cordillera Cantábrica de Burgos",
+      "fenomeno": "Moderate rain warning. Cordillera Cantábrica de Burgos",
+      "nivel": "Naranja",
+      "text": "Cordillera Cantábrica de Burgos: Moderate rain warning. Cordillera Cantábrica de Burgos (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Norte de Burgos",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Norte de Burgos",
+      "nivel": "Naranja",
+      "text": "Norte de Burgos: Aviso de lluvias de nivel amarillo. Norte de Burgos (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Norte de Burgos",
+      "fenomeno": "Moderate rain warning. Norte de Burgos",
+      "nivel": "Naranja",
+      "text": "Norte de Burgos: Moderate rain warning. Norte de Burgos (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Ibérica de Burgos",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Ibérica de Burgos",
+      "nivel": "Naranja",
+      "text": "Ibérica de Burgos: Aviso de lluvias de nivel amarillo. Ibérica de Burgos (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ibérica de Burgos",
+      "fenomeno": "Moderate rain warning. Ibérica de Burgos",
+      "nivel": "Naranja",
+      "text": "Ibérica de Burgos: Moderate rain warning. Ibérica de Burgos (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Ibérica de Burgos",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Ibérica de Burgos",
+      "nivel": "Naranja",
+      "text": "Ibérica de Burgos: Aviso de tormentas de nivel amarillo. Ibérica de Burgos (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ibérica de Burgos",
+      "fenomeno": "Moderate thunderstorm warning. Ibérica de Burgos",
+      "nivel": "Naranja",
+      "text": "Ibérica de Burgos: Moderate thunderstorm warning. Ibérica de Burgos (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Litoral de Barcelona",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral de Barcelona",
+      "nivel": "Naranja",
+      "text": "Litoral de Barcelona: Aviso de lluvias de nivel amarillo. Litoral de Barcelona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral de Barcelona",
+      "fenomeno": "Moderate rain warning. Litoral de Barcelona",
+      "nivel": "Naranja",
+      "text": "Litoral de Barcelona: Moderate rain warning. Litoral de Barcelona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Litoral de Barcelona",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Litoral de Barcelona",
+      "nivel": "Naranja",
+      "text": "Litoral de Barcelona: Aviso de tormentas de nivel amarillo. Litoral de Barcelona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral de Barcelona",
+      "fenomeno": "Moderate thunderstorm warning. Litoral de Barcelona",
+      "nivel": "Naranja",
+      "text": "Litoral de Barcelona: Moderate thunderstorm warning. Litoral de Barcelona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
