@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2026-07-25T10:50:17.940Z
+// Auto-generado por GitHub Actions - 2026-07-25T11:57:32.029Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-07-25T10:50:17.940Z",
+  "generated_at": "2026-07-25T11:57:32.029Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Menorca",
+      "fenomeno": "Aviso de rissagas de nivel naranja. Costa - Menorca",
+      "nivel": "Rojo",
+      "text": "Costa - Menorca: Aviso de rissagas de nivel naranja. Costa - Menorca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Menorca",
+      "fenomeno": "Severe rissagas warning. Costa - Menorca",
+      "nivel": "Rojo",
+      "text": "Costa - Menorca: Severe rissagas warning. Costa - Menorca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "💨",
       "provincia": "Campiña gaditana",
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate high-temperature warning. Villuercas y Montánchez",
       "nivel": "Naranja",
       "text": "Villuercas y Montánchez: Moderate high-temperature warning. Villuercas y Montánchez (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Suroeste de A Coruña",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Suroeste de A Coruña",
-      "nivel": "Naranja",
-      "text": "Suroeste de A Coruña: Aviso de temperaturas máximas de nivel amarillo. Suroeste de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Suroeste de A Coruña",
-      "fenomeno": "Moderate high-temperature warning. Suroeste de A Coruña",
-      "nivel": "Naranja",
-      "text": "Suroeste de A Coruña: Moderate high-temperature warning. Suroeste de A Coruña (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
