@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-07-25T07:30:55.859Z
+// Auto-generado por GitHub Actions - 2026-07-25T09:20:25.503Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-07-25T07:30:55.859Z",
+  "generated_at": "2026-07-25T09:20:25.503Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "🌧️",
-      "provincia": "Centro de Navarra",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Centro de Navarra",
+      "icon": "🌊",
+      "provincia": "Vega del Segura",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Vega del Segura",
       "nivel": "Naranja",
-      "text": "Centro de Navarra: Aviso de lluvias de nivel amarillo. Centro de Navarra (Naranja) (AEMET)",
+      "text": "Vega del Segura: Aviso de temperaturas máximas de nivel amarillo. Vega del Segura (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Centro de Navarra",
-      "fenomeno": "Moderate rain warning. Centro de Navarra",
+      "provincia": "Vega del Segura",
+      "fenomeno": "Moderate high-temperature warning. Vega del Segura",
       "nivel": "Naranja",
-      "text": "Centro de Navarra: Moderate rain warning. Centro de Navarra (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Pirineo navarro",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Pirineo navarro",
-      "nivel": "Naranja",
-      "text": "Pirineo navarro: Aviso de lluvias de nivel amarillo. Pirineo navarro (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Pirineo navarro",
-      "fenomeno": "Moderate rain warning. Pirineo navarro",
-      "nivel": "Naranja",
-      "text": "Pirineo navarro: Moderate rain warning. Pirineo navarro (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Pirineo navarro",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Pirineo navarro",
-      "nivel": "Naranja",
-      "text": "Pirineo navarro: Aviso de lluvias de nivel amarillo. Pirineo navarro (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Pirineo navarro",
-      "fenomeno": "Moderate rain warning. Pirineo navarro",
-      "nivel": "Naranja",
-      "text": "Pirineo navarro: Moderate rain warning. Pirineo navarro (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Litoral oriental asturiano",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral oriental asturiano",
-      "nivel": "Naranja",
-      "text": "Litoral oriental asturiano: Aviso de lluvias de nivel amarillo. Litoral oriental asturiano (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral oriental asturiano",
-      "fenomeno": "Moderate rain warning. Litoral oriental asturiano",
-      "nivel": "Naranja",
-      "text": "Litoral oriental asturiano: Moderate rain warning. Litoral oriental asturiano (Naranja) (AEMET)",
+      "text": "Vega del Segura: Moderate high-temperature warning. Vega del Segura (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Litoral oriental asturiano",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Litoral oriental asturiano",
+      "provincia": "Noroeste de Murcia",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Noroeste de Murcia",
       "nivel": "Naranja",
-      "text": "Litoral oriental asturiano: Aviso de tormentas de nivel amarillo. Litoral oriental asturiano (Naranja) (AEMET)",
+      "text": "Noroeste de Murcia: Aviso de tormentas de nivel amarillo. Noroeste de Murcia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Litoral oriental asturiano",
-      "fenomeno": "Moderate thunderstorm warning. Litoral oriental asturiano",
+      "provincia": "Noroeste de Murcia",
+      "fenomeno": "Moderate thunderstorm warning. Noroeste de Murcia",
       "nivel": "Naranja",
-      "text": "Litoral oriental asturiano: Moderate thunderstorm warning. Litoral oriental asturiano (Naranja) (AEMET)",
+      "text": "Noroeste de Murcia: Moderate thunderstorm warning. Noroeste de Murcia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Vegas del Guadiana",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Vegas del Guadiana",
+      "provincia": "Costa - Ampurdán",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Ampurdán",
       "nivel": "Naranja",
-      "text": "Vegas del Guadiana: Aviso de temperaturas máximas de nivel amarillo. Vegas del Guadiana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Vegas del Guadiana",
-      "fenomeno": "Moderate high-temperature warning. Vegas del Guadiana",
-      "nivel": "Naranja",
-      "text": "Vegas del Guadiana: Moderate high-temperature warning. Vegas del Guadiana (Naranja) (AEMET)",
+      "text": "Costa - Ampurdán: Aviso de costeros de nivel amarillo. Costa - Ampurdán (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Miño de Ourense",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Miño de Ourense",
+      "provincia": "Costa - Ampurdán",
+      "fenomeno": "Moderate coastalevent warning. Costa - Ampurdán",
       "nivel": "Naranja",
-      "text": "Miño de Ourense: Aviso de temperaturas máximas de nivel amarillo. Miño de Ourense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Miño de Ourense",
-      "fenomeno": "Moderate high-temperature warning. Miño de Ourense",
-      "nivel": "Naranja",
-      "text": "Miño de Ourense: Moderate high-temperature warning. Miño de Ourense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Prepirineo de Barcelona",
-      "fenomeno": "Aviso de tormentas de nivel naranja. Prepirineo de Barcelona",
-      "nivel": "Rojo",
-      "text": "Prepirineo de Barcelona: Aviso de tormentas de nivel naranja. Prepirineo de Barcelona (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Prepirineo de Barcelona",
-      "fenomeno": "Severe thunderstorm warning. Prepirineo de Barcelona",
-      "nivel": "Rojo",
-      "text": "Prepirineo de Barcelona: Severe thunderstorm warning. Prepirineo de Barcelona (Rojo) (AEMET)",
+      "text": "Costa - Ampurdán: Moderate coastalevent warning. Costa - Ampurdán (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Pirineo de Lleida",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Pirineo de Lleida",
+      "provincia": "Litoral de Barcelona",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral de Barcelona",
       "nivel": "Naranja",
-      "text": "Pirineo de Lleida: Aviso de lluvias de nivel amarillo. Pirineo de Lleida (Naranja) (AEMET)",
+      "text": "Litoral de Barcelona: Aviso de lluvias de nivel amarillo. Litoral de Barcelona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Pirineo de Lleida",
-      "fenomeno": "Moderate rain warning. Pirineo de Lleida",
+      "provincia": "Litoral de Barcelona",
+      "fenomeno": "Moderate rain warning. Litoral de Barcelona",
       "nivel": "Naranja",
-      "text": "Pirineo de Lleida: Moderate rain warning. Pirineo de Lleida (Naranja) (AEMET)",
+      "text": "Litoral de Barcelona: Moderate rain warning. Litoral de Barcelona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Litoral norte de Tarragona",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral norte de Tarragona",
+      "nivel": "Naranja",
+      "text": "Litoral norte de Tarragona: Aviso de lluvias de nivel amarillo. Litoral norte de Tarragona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral norte de Tarragona",
+      "fenomeno": "Moderate rain warning. Litoral norte de Tarragona",
+      "nivel": "Naranja",
+      "text": "Litoral norte de Tarragona: Moderate rain warning. Litoral norte de Tarragona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Pirineo de Lleida",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Pirineo de Lleida",
+      "provincia": "Litoral de Barcelona",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Litoral de Barcelona",
       "nivel": "Naranja",
-      "text": "Pirineo de Lleida: Aviso de tormentas de nivel amarillo. Pirineo de Lleida (Naranja) (AEMET)",
+      "text": "Litoral de Barcelona: Aviso de tormentas de nivel amarillo. Litoral de Barcelona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Pirineo de Lleida",
-      "fenomeno": "Moderate thunderstorm warning. Pirineo de Lleida",
+      "provincia": "Litoral de Barcelona",
+      "fenomeno": "Moderate thunderstorm warning. Litoral de Barcelona",
       "nivel": "Naranja",
-      "text": "Pirineo de Lleida: Moderate thunderstorm warning. Pirineo de Lleida (Naranja) (AEMET)",
+      "text": "Litoral de Barcelona: Moderate thunderstorm warning. Litoral de Barcelona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Litoral norte de Tarragona",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Litoral norte de Tarragona",
+      "nivel": "Naranja",
+      "text": "Litoral norte de Tarragona: Aviso de tormentas de nivel amarillo. Litoral norte de Tarragona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral norte de Tarragona",
+      "fenomeno": "Moderate thunderstorm warning. Litoral norte de Tarragona",
+      "nivel": "Naranja",
+      "text": "Litoral norte de Tarragona: Moderate thunderstorm warning. Litoral norte de Tarragona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral sur de Tarragona",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral sur de Tarragona",
+      "nivel": "Naranja",
+      "text": "Costa - Litoral sur de Tarragona: Aviso de costeros de nivel amarillo. Costa - Litoral sur de Tarragona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral sur de Tarragona",
+      "fenomeno": "Moderate coastalevent warning. Costa - Litoral sur de Tarragona",
+      "nivel": "Naranja",
+      "text": "Costa - Litoral sur de Tarragona: Moderate coastalevent warning. Costa - Litoral sur de Tarragona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Este, sur y oeste de Gran Canaria",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Este, sur y oeste de Gran Canaria",
+      "nivel": "Naranja",
+      "text": "Este, sur y oeste de Gran Canaria: Aviso de vientos de nivel amarillo. Este, sur y oeste de Gran Canaria (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Este, sur y oeste de Gran Canaria",
+      "fenomeno": "Moderate wind warning. Este, sur y oeste de Gran Canaria",
+      "nivel": "Naranja",
+      "text": "Este, sur y oeste de Gran Canaria: Moderate wind warning. Este, sur y oeste de Gran Canaria (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Lanzarote",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Lanzarote",
+      "nivel": "Naranja",
+      "text": "Lanzarote: Aviso de vientos de nivel amarillo. Lanzarote (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Lanzarote",
+      "fenomeno": "Moderate wind warning. Lanzarote",
+      "nivel": "Naranja",
+      "text": "Lanzarote: Moderate wind warning. Lanzarote (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
