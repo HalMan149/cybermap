@@ -1,9 +1,41 @@
-// Auto-generado por GitHub Actions - 2026-07-25T21:07:05.149Z
+// Auto-generado por GitHub Actions - 2026-07-25T22:07:48.374Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-07-25T21:07:05.149Z",
+  "generated_at": "2026-07-25T22:07:48.374Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Ibiza y Formentera",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Ibiza y Formentera",
+      "nivel": "Naranja",
+      "text": "Costa - Ibiza y Formentera: Aviso de costeros de nivel amarillo. Costa - Ibiza y Formentera (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Ibiza y Formentera",
+      "fenomeno": "Moderate coastalevent warning. Costa - Ibiza y Formentera",
+      "nivel": "Naranja",
+      "text": "Costa - Ibiza y Formentera: Moderate coastalevent warning. Costa - Ibiza y Formentera (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Menorca",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Menorca",
+      "nivel": "Naranja",
+      "text": "Costa - Menorca: Aviso de costeros de nivel amarillo. Costa - Menorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Menorca",
+      "fenomeno": "Moderate coastalevent warning. Costa - Menorca",
+      "nivel": "Naranja",
+      "text": "Costa - Menorca: Moderate coastalevent warning. Costa - Menorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌊",
       "provincia": "Costa - Menorca",
@@ -130,38 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate rain warning. Litoral de Barcelona",
       "nivel": "Naranja",
       "text": "Litoral de Barcelona: Moderate rain warning. Litoral de Barcelona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Litoral norte de Tarragona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral norte de Tarragona",
-      "nivel": "Naranja",
-      "text": "Litoral norte de Tarragona: Aviso de lluvias de nivel amarillo. Litoral norte de Tarragona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral norte de Tarragona",
-      "fenomeno": "Moderate rain warning. Litoral norte de Tarragona",
-      "nivel": "Naranja",
-      "text": "Litoral norte de Tarragona: Moderate rain warning. Litoral norte de Tarragona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Ribera del Ebro de La Rioja",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Ribera del Ebro de La Rioja",
-      "nivel": "Naranja",
-      "text": "Ribera del Ebro de La Rioja: Aviso de lluvias de nivel amarillo. Ribera del Ebro de La Rioja (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ribera del Ebro de La Rioja",
-      "fenomeno": "Moderate rain warning. Ribera del Ebro de La Rioja",
-      "nivel": "Naranja",
-      "text": "Ribera del Ebro de La Rioja: Moderate rain warning. Ribera del Ebro de La Rioja (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
