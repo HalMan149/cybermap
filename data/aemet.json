@@ -1,72 +1,8 @@
 {
-  "generated_at": "2026-07-27T21:30:30.062Z",
+  "generated_at": "2026-07-27T22:39:44.593Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
-    {
-      "icon": "🌡️",
-      "provincia": "Cuenca del Genil",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Cuenca del Genil",
-      "nivel": "Rojo",
-      "text": "Cuenca del Genil: Aviso de temperaturas máximas de nivel naranja. Cuenca del Genil (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cuenca del Genil",
-      "fenomeno": "Severe high-temperature warning. Cuenca del Genil",
-      "nivel": "Rojo",
-      "text": "Cuenca del Genil: Severe high-temperature warning. Cuenca del Genil (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Campiña gaditana",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Campiña gaditana",
-      "nivel": "Naranja",
-      "text": "Campiña gaditana: Aviso de temperaturas máximas de nivel amarillo. Campiña gaditana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Campiña gaditana",
-      "fenomeno": "Moderate high-temperature warning. Campiña gaditana",
-      "nivel": "Naranja",
-      "text": "Campiña gaditana: Moderate high-temperature warning. Campiña gaditana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Litoral gaditano",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Litoral gaditano",
-      "nivel": "Naranja",
-      "text": "Litoral gaditano: Aviso de temperaturas máximas de nivel amarillo. Litoral gaditano (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral gaditano",
-      "fenomeno": "Moderate high-temperature warning. Litoral gaditano",
-      "nivel": "Naranja",
-      "text": "Litoral gaditano: Moderate high-temperature warning. Litoral gaditano (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Andévalo y Condado",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Andévalo y Condado",
-      "nivel": "Naranja",
-      "text": "Andévalo y Condado: Aviso de temperaturas máximas de nivel amarillo. Andévalo y Condado (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Andévalo y Condado",
-      "fenomeno": "Moderate high-temperature warning. Andévalo y Condado",
-      "nivel": "Naranja",
-      "text": "Andévalo y Condado: Moderate high-temperature warning. Andévalo y Condado (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
     {
       "icon": "🌡️",
       "provincia": "Valle del Guadiana",
@@ -100,35 +36,67 @@
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Hellín y Almansa",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Hellín y Almansa",
-      "nivel": "Naranja",
-      "text": "Hellín y Almansa: Aviso de temperaturas máximas de nivel amarillo. Hellín y Almansa (Naranja) (AEMET)",
+      "icon": "🌡️",
+      "provincia": "Valle del Tajo",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Valle del Tajo",
+      "nivel": "Rojo",
+      "text": "Valle del Tajo: Aviso de temperaturas máximas de nivel naranja. Valle del Tajo (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Hellín y Almansa",
-      "fenomeno": "Moderate high-temperature warning. Hellín y Almansa",
-      "nivel": "Naranja",
-      "text": "Hellín y Almansa: Moderate high-temperature warning. Hellín y Almansa (Naranja) (AEMET)",
+      "provincia": "Valle del Tajo",
+      "fenomeno": "Severe high-temperature warning. Valle del Tajo",
+      "nivel": "Rojo",
+      "text": "Valle del Tajo: Severe high-temperature warning. Valle del Tajo (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Meseta de Palencia",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Meseta de Palencia",
-      "nivel": "Naranja",
-      "text": "Meseta de Palencia: Aviso de temperaturas máximas de nivel amarillo. Meseta de Palencia (Naranja) (AEMET)",
+      "icon": "🌡️",
+      "provincia": "Sierra de Madrid",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Sierra de Madrid",
+      "nivel": "Rojo",
+      "text": "Sierra de Madrid: Aviso de temperaturas máximas de nivel naranja. Sierra de Madrid (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Meseta de Palencia",
-      "fenomeno": "Moderate high-temperature warning. Meseta de Palencia",
-      "nivel": "Naranja",
-      "text": "Meseta de Palencia: Moderate high-temperature warning. Meseta de Palencia (Naranja) (AEMET)",
+      "provincia": "Sierra de Madrid",
+      "fenomeno": "Severe high-temperature warning. Sierra de Madrid",
+      "nivel": "Rojo",
+      "text": "Sierra de Madrid: Severe high-temperature warning. Sierra de Madrid (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Metropolitana y Henares",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Metropolitana y Henares",
+      "nivel": "Rojo",
+      "text": "Metropolitana y Henares: Aviso de temperaturas máximas de nivel naranja. Metropolitana y Henares (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Metropolitana y Henares",
+      "fenomeno": "Severe high-temperature warning. Metropolitana y Henares",
+      "nivel": "Rojo",
+      "text": "Metropolitana y Henares: Severe high-temperature warning. Metropolitana y Henares (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Sur, Vegas y Oeste",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Sur, Vegas y Oeste",
+      "nivel": "Rojo",
+      "text": "Sur, Vegas y Oeste: Aviso de temperaturas máximas de nivel naranja. Sur, Vegas y Oeste (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sur, Vegas y Oeste",
+      "fenomeno": "Severe high-temperature warning. Sur, Vegas y Oeste",
+      "nivel": "Rojo",
+      "text": "Sur, Vegas y Oeste: Severe high-temperature warning. Sur, Vegas y Oeste (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -149,18 +117,50 @@
     },
     {
       "icon": "🌊",
-      "provincia": "Centro y valle de Villaverde",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Centro y valle de Villaverde",
+      "provincia": "La Mancha albaceteña",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. La Mancha albaceteña",
       "nivel": "Naranja",
-      "text": "Centro y valle de Villaverde: Aviso de temperaturas máximas de nivel amarillo. Centro y valle de Villaverde (Naranja) (AEMET)",
+      "text": "La Mancha albaceteña: Aviso de temperaturas máximas de nivel amarillo. La Mancha albaceteña (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Centro y valle de Villaverde",
-      "fenomeno": "Moderate high-temperature warning. Centro y valle de Villaverde",
+      "provincia": "La Mancha albaceteña",
+      "fenomeno": "Moderate high-temperature warning. La Mancha albaceteña",
       "nivel": "Naranja",
-      "text": "Centro y valle de Villaverde: Moderate high-temperature warning. Centro y valle de Villaverde (Naranja) (AEMET)",
+      "text": "La Mancha albaceteña: Moderate high-temperature warning. La Mancha albaceteña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "La Mancha de Ciudad Real",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. La Mancha de Ciudad Real",
+      "nivel": "Naranja",
+      "text": "La Mancha de Ciudad Real: Aviso de temperaturas máximas de nivel amarillo. La Mancha de Ciudad Real (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "La Mancha de Ciudad Real",
+      "fenomeno": "Moderate high-temperature warning. La Mancha de Ciudad Real",
+      "nivel": "Naranja",
+      "text": "La Mancha de Ciudad Real: Moderate high-temperature warning. La Mancha de Ciudad Real (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Serranía de Cuenca",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Serranía de Cuenca",
+      "nivel": "Naranja",
+      "text": "Serranía de Cuenca: Aviso de temperaturas máximas de nivel amarillo. Serranía de Cuenca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Serranía de Cuenca",
+      "fenomeno": "Moderate high-temperature warning. Serranía de Cuenca",
+      "nivel": "Naranja",
+      "text": "Serranía de Cuenca: Moderate high-temperature warning. Serranía de Cuenca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
