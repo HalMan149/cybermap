@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-07-28T07:07:44.138Z
+// Auto-generado por GitHub Actions - 2026-07-28T09:45:08.739Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-07-28T07:07:44.138Z",
+  "generated_at": "2026-07-28T09:45:08.739Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "🌡️",
-      "provincia": "Valle del Guadiana",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Valle del Guadiana",
+      "provincia": "Ribera del Ebro de La Rioja",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Ribera del Ebro de La Rioja",
       "nivel": "Rojo",
-      "text": "Valle del Guadiana: Aviso de temperaturas máximas de nivel naranja. Valle del Guadiana (Rojo) (AEMET)",
+      "text": "Ribera del Ebro de La Rioja: Aviso de temperaturas máximas de nivel naranja. Ribera del Ebro de La Rioja (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Valle del Guadiana",
-      "fenomeno": "Severe high-temperature warning. Valle del Guadiana",
+      "provincia": "Ribera del Ebro de La Rioja",
+      "fenomeno": "Severe high-temperature warning. Ribera del Ebro de La Rioja",
       "nivel": "Rojo",
-      "text": "Valle del Guadiana: Severe high-temperature warning. Valle del Guadiana (Rojo) (AEMET)",
+      "text": "Ribera del Ebro de La Rioja: Severe high-temperature warning. Ribera del Ebro de La Rioja (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌡️",
-      "provincia": "Sierras de Alcudia y Madrona",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Sierras de Alcudia y Madrona",
+      "provincia": "Ibérica riojana",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Ibérica riojana",
       "nivel": "Rojo",
-      "text": "Sierras de Alcudia y Madrona: Aviso de temperaturas máximas de nivel naranja. Sierras de Alcudia y Madrona (Rojo) (AEMET)",
+      "text": "Ibérica riojana: Aviso de temperaturas máximas de nivel naranja. Ibérica riojana (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sierras de Alcudia y Madrona",
-      "fenomeno": "Severe high-temperature warning. Sierras de Alcudia y Madrona",
+      "provincia": "Ibérica riojana",
+      "fenomeno": "Severe high-temperature warning. Ibérica riojana",
       "nivel": "Rojo",
-      "text": "Sierras de Alcudia y Madrona: Severe high-temperature warning. Sierras de Alcudia y Madrona (Rojo) (AEMET)",
+      "text": "Ibérica riojana: Severe high-temperature warning. Ibérica riojana (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌡️",
-      "provincia": "Valle del Tajo",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Valle del Tajo",
+      "provincia": "Cordillera Cantábrica de Burgos",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Cordillera Cantábrica de Burgos",
       "nivel": "Rojo",
-      "text": "Valle del Tajo: Aviso de temperaturas máximas de nivel naranja. Valle del Tajo (Rojo) (AEMET)",
+      "text": "Cordillera Cantábrica de Burgos: Aviso de temperaturas máximas de nivel naranja. Cordillera Cantábrica de Burgos (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Valle del Tajo",
-      "fenomeno": "Severe high-temperature warning. Valle del Tajo",
+      "provincia": "Cordillera Cantábrica de Burgos",
+      "fenomeno": "Severe high-temperature warning. Cordillera Cantábrica de Burgos",
       "nivel": "Rojo",
-      "text": "Valle del Tajo: Severe high-temperature warning. Valle del Tajo (Rojo) (AEMET)",
+      "text": "Cordillera Cantábrica de Burgos: Severe high-temperature warning. Cordillera Cantábrica de Burgos (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌡️",
-      "provincia": "Sierra de Madrid",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Sierra de Madrid",
+      "provincia": "Norte de Burgos",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Norte de Burgos",
       "nivel": "Rojo",
-      "text": "Sierra de Madrid: Aviso de temperaturas máximas de nivel naranja. Sierra de Madrid (Rojo) (AEMET)",
+      "text": "Norte de Burgos: Aviso de temperaturas máximas de nivel naranja. Norte de Burgos (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sierra de Madrid",
-      "fenomeno": "Severe high-temperature warning. Sierra de Madrid",
+      "provincia": "Norte de Burgos",
+      "fenomeno": "Severe high-temperature warning. Norte de Burgos",
       "nivel": "Rojo",
-      "text": "Sierra de Madrid: Severe high-temperature warning. Sierra de Madrid (Rojo) (AEMET)",
+      "text": "Norte de Burgos: Severe high-temperature warning. Norte de Burgos (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌡️",
-      "provincia": "Metropolitana y Henares",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Metropolitana y Henares",
+      "provincia": "Condado de Treviño",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Condado de Treviño",
       "nivel": "Rojo",
-      "text": "Metropolitana y Henares: Aviso de temperaturas máximas de nivel naranja. Metropolitana y Henares (Rojo) (AEMET)",
+      "text": "Condado de Treviño: Aviso de temperaturas máximas de nivel naranja. Condado de Treviño (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Metropolitana y Henares",
-      "fenomeno": "Severe high-temperature warning. Metropolitana y Henares",
+      "provincia": "Condado de Treviño",
+      "fenomeno": "Severe high-temperature warning. Condado de Treviño",
       "nivel": "Rojo",
-      "text": "Metropolitana y Henares: Severe high-temperature warning. Metropolitana y Henares (Rojo) (AEMET)",
+      "text": "Condado de Treviño: Severe high-temperature warning. Condado de Treviño (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌡️",
-      "provincia": "Sur, Vegas y Oeste",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Sur, Vegas y Oeste",
+      "provincia": "Ibérica de Soria",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Ibérica de Soria",
       "nivel": "Rojo",
-      "text": "Sur, Vegas y Oeste: Aviso de temperaturas máximas de nivel naranja. Sur, Vegas y Oeste (Rojo) (AEMET)",
+      "text": "Ibérica de Soria: Aviso de temperaturas máximas de nivel naranja. Ibérica de Soria (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sur, Vegas y Oeste",
-      "fenomeno": "Severe high-temperature warning. Sur, Vegas y Oeste",
+      "provincia": "Ibérica de Soria",
+      "fenomeno": "Severe high-temperature warning. Ibérica de Soria",
       "nivel": "Rojo",
-      "text": "Sur, Vegas y Oeste: Severe high-temperature warning. Sur, Vegas y Oeste (Rojo) (AEMET)",
+      "text": "Ibérica de Soria: Severe high-temperature warning. Ibérica de Soria (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌡️",
-      "provincia": "Gipuzkoa interior",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Gipuzkoa interior",
+      "provincia": "Meseta de Valladolid",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Meseta de Valladolid",
       "nivel": "Rojo",
-      "text": "Gipuzkoa interior: Aviso de temperaturas máximas de nivel naranja. Gipuzkoa interior (Rojo) (AEMET)",
+      "text": "Meseta de Valladolid: Aviso de temperaturas máximas de nivel naranja. Meseta de Valladolid (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Gipuzkoa interior",
-      "fenomeno": "Severe high-temperature warning. Gipuzkoa interior",
+      "provincia": "Meseta de Valladolid",
+      "fenomeno": "Severe high-temperature warning. Meseta de Valladolid",
       "nivel": "Rojo",
-      "text": "Gipuzkoa interior: Severe high-temperature warning. Gipuzkoa interior (Rojo) (AEMET)",
+      "text": "Meseta de Valladolid: Severe high-temperature warning. Meseta de Valladolid (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "La Mancha albaceteña",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. La Mancha albaceteña",
+      "provincia": "Meseta de Ávila",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Meseta de Ávila",
       "nivel": "Naranja",
-      "text": "La Mancha albaceteña: Aviso de temperaturas máximas de nivel amarillo. La Mancha albaceteña (Naranja) (AEMET)",
+      "text": "Meseta de Ávila: Aviso de temperaturas máximas de nivel amarillo. Meseta de Ávila (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "La Mancha albaceteña",
-      "fenomeno": "Moderate high-temperature warning. La Mancha albaceteña",
+      "provincia": "Meseta de Ávila",
+      "fenomeno": "Moderate high-temperature warning. Meseta de Ávila",
       "nivel": "Naranja",
-      "text": "La Mancha albaceteña: Moderate high-temperature warning. La Mancha albaceteña (Naranja) (AEMET)",
+      "text": "Meseta de Ávila: Moderate high-temperature warning. Meseta de Ávila (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "La Mancha de Ciudad Real",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. La Mancha de Ciudad Real",
+      "provincia": "Sistema Central de Ávila",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Sistema Central de Ávila",
       "nivel": "Naranja",
-      "text": "La Mancha de Ciudad Real: Aviso de temperaturas máximas de nivel amarillo. La Mancha de Ciudad Real (Naranja) (AEMET)",
+      "text": "Sistema Central de Ávila: Aviso de temperaturas máximas de nivel amarillo. Sistema Central de Ávila (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "La Mancha de Ciudad Real",
-      "fenomeno": "Moderate high-temperature warning. La Mancha de Ciudad Real",
+      "provincia": "Sistema Central de Ávila",
+      "fenomeno": "Moderate high-temperature warning. Sistema Central de Ávila",
       "nivel": "Naranja",
-      "text": "La Mancha de Ciudad Real: Moderate high-temperature warning. La Mancha de Ciudad Real (Naranja) (AEMET)",
+      "text": "Sistema Central de Ávila: Moderate high-temperature warning. Sistema Central de Ávila (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Serranía de Cuenca",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Serranía de Cuenca",
+      "provincia": "Sur de Ávila",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Sur de Ávila",
       "nivel": "Naranja",
-      "text": "Serranía de Cuenca: Aviso de temperaturas máximas de nivel amarillo. Serranía de Cuenca (Naranja) (AEMET)",
+      "text": "Sur de Ávila: Aviso de temperaturas máximas de nivel amarillo. Sur de Ávila (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Serranía de Cuenca",
-      "fenomeno": "Moderate high-temperature warning. Serranía de Cuenca",
+      "provincia": "Sur de Ávila",
+      "fenomeno": "Moderate high-temperature warning. Sur de Ávila",
       "nivel": "Naranja",
-      "text": "Serranía de Cuenca: Moderate high-temperature warning. Serranía de Cuenca (Naranja) (AEMET)",
+      "text": "Sur de Ávila: Moderate high-temperature warning. Sur de Ávila (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
