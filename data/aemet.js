@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-07-29T07:18:14.199Z
+// Auto-generado por GitHub Actions - 2026-07-29T10:03:28.295Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-07-29T07:18:14.199Z",
+  "generated_at": "2026-07-29T10:03:28.295Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "🌊",
-      "provincia": "Capital y Montes de Jaén",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Capital y Montes de Jaén",
-      "nivel": "Naranja",
-      "text": "Capital y Montes de Jaén: Aviso de temperaturas máximas de nivel amarillo. Capital y Montes de Jaén (Naranja) (AEMET)",
+      "icon": "🌡️",
+      "provincia": "La Mancha albaceteña",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. La Mancha albaceteña",
+      "nivel": "Rojo",
+      "text": "La Mancha albaceteña: Aviso de temperaturas máximas de nivel naranja. La Mancha albaceteña (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Capital y Montes de Jaén",
-      "fenomeno": "Moderate high-temperature warning. Capital y Montes de Jaén",
-      "nivel": "Naranja",
-      "text": "Capital y Montes de Jaén: Moderate high-temperature warning. Capital y Montes de Jaén (Naranja) (AEMET)",
+      "provincia": "La Mancha albaceteña",
+      "fenomeno": "Severe high-temperature warning. La Mancha albaceteña",
+      "nivel": "Rojo",
+      "text": "La Mancha albaceteña: Severe high-temperature warning. La Mancha albaceteña (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌡️",
-      "provincia": "Campiña cordobesa",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Campiña cordobesa",
+      "provincia": "Valle del Guadiana",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Valle del Guadiana",
       "nivel": "Rojo",
-      "text": "Campiña cordobesa: Aviso de temperaturas máximas de nivel naranja. Campiña cordobesa (Rojo) (AEMET)",
+      "text": "Valle del Guadiana: Aviso de temperaturas máximas de nivel naranja. Valle del Guadiana (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Campiña cordobesa",
-      "fenomeno": "Severe high-temperature warning. Campiña cordobesa",
+      "provincia": "Valle del Guadiana",
+      "fenomeno": "Severe high-temperature warning. Valle del Guadiana",
       "nivel": "Rojo",
-      "text": "Campiña cordobesa: Severe high-temperature warning. Campiña cordobesa (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Campiña sevillana",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Campiña sevillana",
-      "nivel": "Naranja",
-      "text": "Campiña sevillana: Aviso de temperaturas máximas de nivel amarillo. Campiña sevillana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Campiña sevillana",
-      "fenomeno": "Moderate high-temperature warning. Campiña sevillana",
-      "nivel": "Naranja",
-      "text": "Campiña sevillana: Moderate high-temperature warning. Campiña sevillana (Naranja) (AEMET)",
+      "text": "Valle del Guadiana: Severe high-temperature warning. Valle del Guadiana (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌡️",
-      "provincia": "Este, sur y oeste de Gran Canaria",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Este, sur y oeste de Gran Canaria",
+      "provincia": "Sierras de Alcudia y Madrona",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Sierras de Alcudia y Madrona",
       "nivel": "Rojo",
-      "text": "Este, sur y oeste de Gran Canaria: Aviso de temperaturas máximas de nivel naranja. Este, sur y oeste de Gran Canaria (Rojo) (AEMET)",
+      "text": "Sierras de Alcudia y Madrona: Aviso de temperaturas máximas de nivel naranja. Sierras de Alcudia y Madrona (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Este, sur y oeste de Gran Canaria",
-      "fenomeno": "Severe high-temperature warning. Este, sur y oeste de Gran Canaria",
+      "provincia": "Sierras de Alcudia y Madrona",
+      "fenomeno": "Severe high-temperature warning. Sierras de Alcudia y Madrona",
       "nivel": "Rojo",
-      "text": "Este, sur y oeste de Gran Canaria: Severe high-temperature warning. Este, sur y oeste de Gran Canaria (Rojo) (AEMET)",
+      "text": "Sierras de Alcudia y Madrona: Severe high-temperature warning. Sierras de Alcudia y Madrona (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌡️",
-      "provincia": "Campiña cordobesa",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Campiña cordobesa",
+      "provincia": "Serranía de Cuenca",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Serranía de Cuenca",
       "nivel": "Rojo",
-      "text": "Campiña cordobesa: Aviso de temperaturas máximas de nivel naranja. Campiña cordobesa (Rojo) (AEMET)",
+      "text": "Serranía de Cuenca: Aviso de temperaturas máximas de nivel naranja. Serranía de Cuenca (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Campiña cordobesa",
-      "fenomeno": "Severe high-temperature warning. Campiña cordobesa",
+      "provincia": "Serranía de Cuenca",
+      "fenomeno": "Severe high-temperature warning. Serranía de Cuenca",
       "nivel": "Rojo",
-      "text": "Campiña cordobesa: Severe high-temperature warning. Campiña cordobesa (Rojo) (AEMET)",
+      "text": "Serranía de Cuenca: Severe high-temperature warning. Serranía de Cuenca (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌡️",
-      "provincia": "Morena y Condado",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Morena y Condado",
+      "provincia": "Valle del Tajo",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Valle del Tajo",
       "nivel": "Rojo",
-      "text": "Morena y Condado: Aviso de temperaturas máximas de nivel naranja. Morena y Condado (Rojo) (AEMET)",
+      "text": "Valle del Tajo: Aviso de temperaturas máximas de nivel naranja. Valle del Tajo (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Morena y Condado",
-      "fenomeno": "Severe high-temperature warning. Morena y Condado",
+      "provincia": "Valle del Tajo",
+      "fenomeno": "Severe high-temperature warning. Valle del Tajo",
       "nivel": "Rojo",
-      "text": "Morena y Condado: Severe high-temperature warning. Morena y Condado (Rojo) (AEMET)",
+      "text": "Valle del Tajo: Severe high-temperature warning. Valle del Tajo (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌡️",
-      "provincia": "Valle del Guadalquivir de Jaén",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Valle del Guadalquivir de Jaén",
+      "provincia": "Metropolitana y Henares",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Metropolitana y Henares",
       "nivel": "Rojo",
-      "text": "Valle del Guadalquivir de Jaén: Aviso de temperaturas máximas de nivel naranja. Valle del Guadalquivir de Jaén (Rojo) (AEMET)",
+      "text": "Metropolitana y Henares: Aviso de temperaturas máximas de nivel naranja. Metropolitana y Henares (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Valle del Guadalquivir de Jaén",
-      "fenomeno": "Severe high-temperature warning. Valle del Guadalquivir de Jaén",
+      "provincia": "Metropolitana y Henares",
+      "fenomeno": "Severe high-temperature warning. Metropolitana y Henares",
       "nivel": "Rojo",
-      "text": "Valle del Guadalquivir de Jaén: Severe high-temperature warning. Valle del Guadalquivir de Jaén (Rojo) (AEMET)",
+      "text": "Metropolitana y Henares: Severe high-temperature warning. Metropolitana y Henares (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Norte y nordeste de Mallorca",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Norte y nordeste de Mallorca",
-      "nivel": "Naranja",
-      "text": "Norte y nordeste de Mallorca: Aviso de temperaturas máximas de nivel amarillo. Norte y nordeste de Mallorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Norte y nordeste de Mallorca",
-      "fenomeno": "Moderate high-temperature warning. Norte y nordeste de Mallorca",
-      "nivel": "Naranja",
-      "text": "Norte y nordeste de Mallorca: Moderate high-temperature warning. Norte y nordeste de Mallorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Interior de Mallorca",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Interior de Mallorca",
-      "nivel": "Naranja",
-      "text": "Interior de Mallorca: Aviso de temperaturas máximas de nivel amarillo. Interior de Mallorca (Naranja) (AEMET)",
+      "icon": "🌡️",
+      "provincia": "Sur, Vegas y Oeste",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Sur, Vegas y Oeste",
+      "nivel": "Rojo",
+      "text": "Sur, Vegas y Oeste: Aviso de temperaturas máximas de nivel naranja. Sur, Vegas y Oeste (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Interior de Mallorca",
-      "fenomeno": "Moderate high-temperature warning. Interior de Mallorca",
-      "nivel": "Naranja",
-      "text": "Interior de Mallorca: Moderate high-temperature warning. Interior de Mallorca (Naranja) (AEMET)",
+      "provincia": "Sur, Vegas y Oeste",
+      "fenomeno": "Severe high-temperature warning. Sur, Vegas y Oeste",
+      "nivel": "Rojo",
+      "text": "Sur, Vegas y Oeste: Severe high-temperature warning. Sur, Vegas y Oeste (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Cumbres de Gran Canaria",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Cumbres de Gran Canaria",
+      "provincia": "Alcaraz y Segura",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Alcaraz y Segura",
       "nivel": "Naranja",
-      "text": "Cumbres de Gran Canaria: Aviso de temperaturas máximas de nivel amarillo. Cumbres de Gran Canaria (Naranja) (AEMET)",
+      "text": "Alcaraz y Segura: Aviso de temperaturas máximas de nivel amarillo. Alcaraz y Segura (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Cumbres de Gran Canaria",
-      "fenomeno": "Moderate high-temperature warning. Cumbres de Gran Canaria",
+      "provincia": "Alcaraz y Segura",
+      "fenomeno": "Moderate high-temperature warning. Alcaraz y Segura",
       "nivel": "Naranja",
-      "text": "Cumbres de Gran Canaria: Moderate high-temperature warning. Cumbres de Gran Canaria (Naranja) (AEMET)",
+      "text": "Alcaraz y Segura: Moderate high-temperature warning. Alcaraz y Segura (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Hellín y Almansa",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Hellín y Almansa",
+      "nivel": "Naranja",
+      "text": "Hellín y Almansa: Aviso de temperaturas máximas de nivel amarillo. Hellín y Almansa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Hellín y Almansa",
+      "fenomeno": "Moderate high-temperature warning. Hellín y Almansa",
+      "nivel": "Naranja",
+      "text": "Hellín y Almansa: Moderate high-temperature warning. Hellín y Almansa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Montes del norte y Anchuras",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Montes del norte y Anchuras",
+      "nivel": "Naranja",
+      "text": "Montes del norte y Anchuras: Aviso de temperaturas máximas de nivel amarillo. Montes del norte y Anchuras (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Montes del norte y Anchuras",
+      "fenomeno": "Moderate high-temperature warning. Montes del norte y Anchuras",
+      "nivel": "Naranja",
+      "text": "Montes del norte y Anchuras: Moderate high-temperature warning. Montes del norte y Anchuras (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
