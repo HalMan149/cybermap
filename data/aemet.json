@@ -1,8 +1,120 @@
 {
-  "generated_at": "2026-07-29T21:52:20.932Z",
+  "generated_at": "2026-07-29T22:53:01.940Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌡️",
+      "provincia": "La Mancha albaceteña",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. La Mancha albaceteña",
+      "nivel": "Rojo",
+      "text": "La Mancha albaceteña: Aviso de temperaturas máximas de nivel naranja. La Mancha albaceteña (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "La Mancha albaceteña",
+      "fenomeno": "Severe high-temperature warning. La Mancha albaceteña",
+      "nivel": "Rojo",
+      "text": "La Mancha albaceteña: Severe high-temperature warning. La Mancha albaceteña (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Serranía de Cuenca",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Serranía de Cuenca",
+      "nivel": "Rojo",
+      "text": "Serranía de Cuenca: Aviso de temperaturas máximas de nivel naranja. Serranía de Cuenca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Serranía de Cuenca",
+      "fenomeno": "Severe high-temperature warning. Serranía de Cuenca",
+      "nivel": "Rojo",
+      "text": "Serranía de Cuenca: Severe high-temperature warning. Serranía de Cuenca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Interior norte de Valencia",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Interior norte de Valencia",
+      "nivel": "Rojo",
+      "text": "Interior norte de Valencia: Aviso de temperaturas máximas de nivel naranja. Interior norte de Valencia (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior norte de Valencia",
+      "fenomeno": "Severe high-temperature warning. Interior norte de Valencia",
+      "nivel": "Rojo",
+      "text": "Interior norte de Valencia: Severe high-temperature warning. Interior norte de Valencia (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Metropolitana y Henares",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Metropolitana y Henares",
+      "nivel": "Naranja",
+      "text": "Metropolitana y Henares: Aviso de temperaturas máximas de nivel amarillo. Metropolitana y Henares (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Metropolitana y Henares",
+      "fenomeno": "Moderate high-temperature warning. Metropolitana y Henares",
+      "nivel": "Naranja",
+      "text": "Metropolitana y Henares: Moderate high-temperature warning. Metropolitana y Henares (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Sur, Vegas y Oeste",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Sur, Vegas y Oeste",
+      "nivel": "Naranja",
+      "text": "Sur, Vegas y Oeste: Aviso de temperaturas máximas de nivel amarillo. Sur, Vegas y Oeste (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sur, Vegas y Oeste",
+      "fenomeno": "Moderate high-temperature warning. Sur, Vegas y Oeste",
+      "nivel": "Naranja",
+      "text": "Sur, Vegas y Oeste: Moderate high-temperature warning. Sur, Vegas y Oeste (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Altiplano de Murcia",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Altiplano de Murcia",
+      "nivel": "Naranja",
+      "text": "Altiplano de Murcia: Aviso de temperaturas máximas de nivel amarillo. Altiplano de Murcia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Altiplano de Murcia",
+      "fenomeno": "Moderate high-temperature warning. Altiplano de Murcia",
+      "nivel": "Naranja",
+      "text": "Altiplano de Murcia: Moderate high-temperature warning. Altiplano de Murcia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Noroeste de Murcia",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Noroeste de Murcia",
+      "nivel": "Naranja",
+      "text": "Noroeste de Murcia: Aviso de temperaturas máximas de nivel amarillo. Noroeste de Murcia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Noroeste de Murcia",
+      "fenomeno": "Moderate high-temperature warning. Noroeste de Murcia",
+      "nivel": "Naranja",
+      "text": "Noroeste de Murcia: Moderate high-temperature warning. Noroeste de Murcia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌊",
       "provincia": "Altiplano de Murcia",
@@ -49,118 +161,6 @@
       "fenomeno": "Severe high-temperature warning. Valle de Arán",
       "nivel": "Rojo",
       "text": "Valle de Arán: Severe high-temperature warning. Valle de Arán (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Cuenca del Genil",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Cuenca del Genil",
-      "nivel": "Rojo",
-      "text": "Cuenca del Genil: Aviso de temperaturas máximas de nivel naranja. Cuenca del Genil (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cuenca del Genil",
-      "fenomeno": "Severe high-temperature warning. Cuenca del Genil",
-      "nivel": "Rojo",
-      "text": "Cuenca del Genil: Severe high-temperature warning. Cuenca del Genil (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Guadix y Baza",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Guadix y Baza",
-      "nivel": "Naranja",
-      "text": "Guadix y Baza: Aviso de temperaturas máximas de nivel amarillo. Guadix y Baza (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Guadix y Baza",
-      "fenomeno": "Moderate high-temperature warning. Guadix y Baza",
-      "nivel": "Naranja",
-      "text": "Guadix y Baza: Moderate high-temperature warning. Guadix y Baza (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Sierra y Pedroches",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Sierra y Pedroches",
-      "nivel": "Rojo",
-      "text": "Sierra y Pedroches: Aviso de temperaturas máximas de nivel naranja. Sierra y Pedroches (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sierra y Pedroches",
-      "fenomeno": "Severe high-temperature warning. Sierra y Pedroches",
-      "nivel": "Rojo",
-      "text": "Sierra y Pedroches: Severe high-temperature warning. Sierra y Pedroches (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Campiña cordobesa",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Campiña cordobesa",
-      "nivel": "Rojo",
-      "text": "Campiña cordobesa: Aviso de temperaturas máximas de nivel naranja. Campiña cordobesa (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Campiña cordobesa",
-      "fenomeno": "Severe high-temperature warning. Campiña cordobesa",
-      "nivel": "Rojo",
-      "text": "Campiña cordobesa: Severe high-temperature warning. Campiña cordobesa (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Campiña sevillana",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Campiña sevillana",
-      "nivel": "Naranja",
-      "text": "Campiña sevillana: Aviso de temperaturas máximas de nivel amarillo. Campiña sevillana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Campiña sevillana",
-      "fenomeno": "Moderate high-temperature warning. Campiña sevillana",
-      "nivel": "Naranja",
-      "text": "Campiña sevillana: Moderate high-temperature warning. Campiña sevillana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Ribera del Ebro de La Rioja",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Ribera del Ebro de La Rioja",
-      "nivel": "Rojo",
-      "text": "Ribera del Ebro de La Rioja: Aviso de temperaturas máximas de nivel naranja. Ribera del Ebro de La Rioja (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ribera del Ebro de La Rioja",
-      "fenomeno": "Severe high-temperature warning. Ribera del Ebro de La Rioja",
-      "nivel": "Rojo",
-      "text": "Ribera del Ebro de La Rioja: Severe high-temperature warning. Ribera del Ebro de La Rioja (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Ribera del Ebro de La Rioja",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Ribera del Ebro de La Rioja",
-      "nivel": "Naranja",
-      "text": "Ribera del Ebro de La Rioja: Aviso de temperaturas máximas de nivel amarillo. Ribera del Ebro de La Rioja (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ribera del Ebro de La Rioja",
-      "fenomeno": "Moderate high-temperature warning. Ribera del Ebro de La Rioja",
-      "nivel": "Naranja",
-      "text": "Ribera del Ebro de La Rioja: Moderate high-temperature warning. Ribera del Ebro de La Rioja (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
