@@ -1,9 +1,41 @@
-// Auto-generado por GitHub Actions - 2026-07-30T21:20:41.101Z
+// Auto-generado por GitHub Actions - 2026-07-30T22:33:44.091Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-07-30T21:20:41.101Z",
+  "generated_at": "2026-07-30T22:33:44.091Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "⛈️",
+      "provincia": "Centro de Navarra",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Centro de Navarra",
+      "nivel": "Naranja",
+      "text": "Centro de Navarra: Aviso de tormentas de nivel amarillo. Centro de Navarra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Centro de Navarra",
+      "fenomeno": "Moderate thunderstorm warning. Centro de Navarra",
+      "nivel": "Naranja",
+      "text": "Centro de Navarra: Moderate thunderstorm warning. Centro de Navarra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Pirineo navarro",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Pirineo navarro",
+      "nivel": "Naranja",
+      "text": "Pirineo navarro: Aviso de tormentas de nivel amarillo. Pirineo navarro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Pirineo navarro",
+      "fenomeno": "Moderate thunderstorm warning. Pirineo navarro",
+      "nivel": "Naranja",
+      "text": "Pirineo navarro: Moderate thunderstorm warning. Pirineo navarro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌡️",
       "provincia": "Interior norte de Valencia",
@@ -130,38 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Severe high-temperature warning. Pirineo de Girona",
       "nivel": "Rojo",
       "text": "Pirineo de Girona: Severe high-temperature warning. Pirineo de Girona (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Pirineo de Lleida",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Pirineo de Lleida",
-      "nivel": "Rojo",
-      "text": "Pirineo de Lleida: Aviso de temperaturas máximas de nivel naranja. Pirineo de Lleida (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Pirineo de Lleida",
-      "fenomeno": "Severe high-temperature warning. Pirineo de Lleida",
-      "nivel": "Rojo",
-      "text": "Pirineo de Lleida: Severe high-temperature warning. Pirineo de Lleida (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Gúdar y Maestrazgo",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Gúdar y Maestrazgo",
-      "nivel": "Naranja",
-      "text": "Gúdar y Maestrazgo: Aviso de temperaturas máximas de nivel amarillo. Gúdar y Maestrazgo (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Gúdar y Maestrazgo",
-      "fenomeno": "Moderate high-temperature warning. Gúdar y Maestrazgo",
-      "nivel": "Naranja",
-      "text": "Gúdar y Maestrazgo: Moderate high-temperature warning. Gúdar y Maestrazgo (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
