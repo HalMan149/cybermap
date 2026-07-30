@@ -1,103 +1,55 @@
-// Auto-generado por GitHub Actions - 2026-07-30T07:18:46.818Z
+// Auto-generado por GitHub Actions - 2026-07-30T09:56:48.263Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-07-30T07:18:46.818Z",
+  "generated_at": "2026-07-30T09:56:48.263Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "🌡️",
-      "provincia": "Interior norte de Valencia",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Interior norte de Valencia",
-      "nivel": "Rojo",
-      "text": "Interior norte de Valencia: Aviso de temperaturas máximas de nivel naranja. Interior norte de Valencia (Rojo) (AEMET)",
+      "icon": "🌊",
+      "provincia": "Altiplano de Murcia",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Altiplano de Murcia",
+      "nivel": "Naranja",
+      "text": "Altiplano de Murcia: Aviso de temperaturas máximas de nivel amarillo. Altiplano de Murcia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Interior norte de Valencia",
-      "fenomeno": "Severe high-temperature warning. Interior norte de Valencia",
-      "nivel": "Rojo",
-      "text": "Interior norte de Valencia: Severe high-temperature warning. Interior norte de Valencia (Rojo) (AEMET)",
+      "provincia": "Altiplano de Murcia",
+      "fenomeno": "Moderate high-temperature warning. Altiplano de Murcia",
+      "nivel": "Naranja",
+      "text": "Altiplano de Murcia: Moderate high-temperature warning. Altiplano de Murcia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌡️",
-      "provincia": "Interior sur de Valencia",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Interior sur de Valencia",
-      "nivel": "Rojo",
-      "text": "Interior sur de Valencia: Aviso de temperaturas máximas de nivel naranja. Interior sur de Valencia (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior sur de Valencia",
-      "fenomeno": "Severe high-temperature warning. Interior sur de Valencia",
-      "nivel": "Rojo",
-      "text": "Interior sur de Valencia: Severe high-temperature warning. Interior sur de Valencia (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Este, sur y oeste de Gran Canaria",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Este, sur y oeste de Gran Canaria",
-      "nivel": "Rojo",
-      "text": "Este, sur y oeste de Gran Canaria: Aviso de temperaturas máximas de nivel naranja. Este, sur y oeste de Gran Canaria (Rojo) (AEMET)",
+      "icon": "🌊",
+      "provincia": "Noroeste de Murcia",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Noroeste de Murcia",
+      "nivel": "Naranja",
+      "text": "Noroeste de Murcia: Aviso de temperaturas máximas de nivel amarillo. Noroeste de Murcia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Este, sur y oeste de Gran Canaria",
-      "fenomeno": "Severe high-temperature warning. Este, sur y oeste de Gran Canaria",
-      "nivel": "Rojo",
-      "text": "Este, sur y oeste de Gran Canaria: Severe high-temperature warning. Este, sur y oeste de Gran Canaria (Rojo) (AEMET)",
+      "provincia": "Noroeste de Murcia",
+      "fenomeno": "Moderate high-temperature warning. Noroeste de Murcia",
+      "nivel": "Naranja",
+      "text": "Noroeste de Murcia: Moderate high-temperature warning. Noroeste de Murcia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌡️",
-      "provincia": "Campiña cordobesa",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Campiña cordobesa",
-      "nivel": "Rojo",
-      "text": "Campiña cordobesa: Aviso de temperaturas máximas de nivel naranja. Campiña cordobesa (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Campiña cordobesa",
-      "fenomeno": "Severe high-temperature warning. Campiña cordobesa",
-      "nivel": "Rojo",
-      "text": "Campiña cordobesa: Severe high-temperature warning. Campiña cordobesa (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Morena y Condado",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Morena y Condado",
-      "nivel": "Rojo",
-      "text": "Morena y Condado: Aviso de temperaturas máximas de nivel naranja. Morena y Condado (Rojo) (AEMET)",
+      "icon": "🌊",
+      "provincia": "Vega del Segura",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Vega del Segura",
+      "nivel": "Naranja",
+      "text": "Vega del Segura: Aviso de temperaturas máximas de nivel amarillo. Vega del Segura (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Morena y Condado",
-      "fenomeno": "Severe high-temperature warning. Morena y Condado",
-      "nivel": "Rojo",
-      "text": "Morena y Condado: Severe high-temperature warning. Morena y Condado (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Valle del Guadalquivir de Jaén",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Valle del Guadalquivir de Jaén",
-      "nivel": "Rojo",
-      "text": "Valle del Guadalquivir de Jaén: Aviso de temperaturas máximas de nivel naranja. Valle del Guadalquivir de Jaén (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Valle del Guadalquivir de Jaén",
-      "fenomeno": "Severe high-temperature warning. Valle del Guadalquivir de Jaén",
-      "nivel": "Rojo",
-      "text": "Valle del Guadalquivir de Jaén: Severe high-temperature warning. Valle del Guadalquivir de Jaén (Rojo) (AEMET)",
+      "provincia": "Vega del Segura",
+      "fenomeno": "Moderate high-temperature warning. Vega del Segura",
+      "nivel": "Naranja",
+      "text": "Vega del Segura: Moderate high-temperature warning. Vega del Segura (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -149,19 +101,67 @@ window.AEMET_AVISOS = {
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
+      "icon": "🌡️",
+      "provincia": "Este, sur y oeste de Gran Canaria",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Este, sur y oeste de Gran Canaria",
+      "nivel": "Rojo",
+      "text": "Este, sur y oeste de Gran Canaria: Aviso de temperaturas máximas de nivel naranja. Este, sur y oeste de Gran Canaria (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Este, sur y oeste de Gran Canaria",
+      "fenomeno": "Severe high-temperature warning. Este, sur y oeste de Gran Canaria",
+      "nivel": "Rojo",
+      "text": "Este, sur y oeste de Gran Canaria: Severe high-temperature warning. Este, sur y oeste de Gran Canaria (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
       "provincia": "Cumbres de Gran Canaria",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Cumbres de Gran Canaria",
-      "nivel": "Naranja",
-      "text": "Cumbres de Gran Canaria: Aviso de temperaturas máximas de nivel amarillo. Cumbres de Gran Canaria (Naranja) (AEMET)",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Cumbres de Gran Canaria",
+      "nivel": "Rojo",
+      "text": "Cumbres de Gran Canaria: Aviso de temperaturas máximas de nivel naranja. Cumbres de Gran Canaria (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
       "provincia": "Cumbres de Gran Canaria",
-      "fenomeno": "Moderate high-temperature warning. Cumbres de Gran Canaria",
+      "fenomeno": "Severe high-temperature warning. Cumbres de Gran Canaria",
+      "nivel": "Rojo",
+      "text": "Cumbres de Gran Canaria: Severe high-temperature warning. Cumbres de Gran Canaria (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Este, sur y oeste de Gran Canaria",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Este, sur y oeste de Gran Canaria",
+      "nivel": "Rojo",
+      "text": "Este, sur y oeste de Gran Canaria: Aviso de temperaturas máximas de nivel naranja. Este, sur y oeste de Gran Canaria (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Este, sur y oeste de Gran Canaria",
+      "fenomeno": "Severe high-temperature warning. Este, sur y oeste de Gran Canaria",
+      "nivel": "Rojo",
+      "text": "Este, sur y oeste de Gran Canaria: Severe high-temperature warning. Este, sur y oeste de Gran Canaria (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "La Gomera",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. La Gomera",
       "nivel": "Naranja",
-      "text": "Cumbres de Gran Canaria: Moderate high-temperature warning. Cumbres de Gran Canaria (Naranja) (AEMET)",
+      "text": "La Gomera: Aviso de temperaturas máximas de nivel amarillo. La Gomera (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "La Gomera",
+      "fenomeno": "Moderate high-temperature warning. La Gomera",
+      "nivel": "Naranja",
+      "text": "La Gomera: Moderate high-temperature warning. La Gomera (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
