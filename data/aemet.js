@@ -1,57 +1,9 @@
-// Auto-generado por GitHub Actions - 2026-07-31T07:32:47.679Z
+// Auto-generado por GitHub Actions - 2026-07-31T10:13:45.268Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-07-31T07:32:47.679Z",
+  "generated_at": "2026-07-31T10:13:45.268Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
-    {
-      "icon": "🌊",
-      "provincia": "Valle de Arán",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Valle de Arán",
-      "nivel": "Naranja",
-      "text": "Valle de Arán: Aviso de temperaturas máximas de nivel amarillo. Valle de Arán (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Valle de Arán",
-      "fenomeno": "Moderate high-temperature warning. Valle de Arán",
-      "nivel": "Naranja",
-      "text": "Valle de Arán: Moderate high-temperature warning. Valle de Arán (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Norte de Cáceres",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Norte de Cáceres",
-      "nivel": "Naranja",
-      "text": "Norte de Cáceres: Aviso de temperaturas máximas de nivel amarillo. Norte de Cáceres (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Norte de Cáceres",
-      "fenomeno": "Moderate high-temperature warning. Norte de Cáceres",
-      "nivel": "Naranja",
-      "text": "Norte de Cáceres: Moderate high-temperature warning. Norte de Cáceres (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Tajo y Alagón",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Tajo y Alagón",
-      "nivel": "Naranja",
-      "text": "Tajo y Alagón: Aviso de temperaturas máximas de nivel amarillo. Tajo y Alagón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Tajo y Alagón",
-      "fenomeno": "Moderate high-temperature warning. Tajo y Alagón",
-      "nivel": "Naranja",
-      "text": "Tajo y Alagón: Moderate high-temperature warning. Tajo y Alagón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
     {
       "icon": "🌡️",
       "provincia": "Cumbres de Gran Canaria",
@@ -82,22 +34,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Severe high-temperature warning. Este, sur y oeste de Gran Canaria",
       "nivel": "Rojo",
       "text": "Este, sur y oeste de Gran Canaria: Severe high-temperature warning. Este, sur y oeste de Gran Canaria (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Interior de Mallorca",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Interior de Mallorca",
-      "nivel": "Naranja",
-      "text": "Interior de Mallorca: Aviso de temperaturas máximas de nivel amarillo. Interior de Mallorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior de Mallorca",
-      "fenomeno": "Moderate high-temperature warning. Interior de Mallorca",
-      "nivel": "Naranja",
-      "text": "Interior de Mallorca: Moderate high-temperature warning. Interior de Mallorca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -162,6 +98,70 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate high-temperature warning. El Hierro",
       "nivel": "Naranja",
       "text": "El Hierro: Moderate high-temperature warning. El Hierro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Área metropolitana de Tenerife",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Área metropolitana de Tenerife",
+      "nivel": "Naranja",
+      "text": "Área metropolitana de Tenerife: Aviso de temperaturas máximas de nivel amarillo. Área metropolitana de Tenerife (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Área metropolitana de Tenerife",
+      "fenomeno": "Moderate high-temperature warning. Área metropolitana de Tenerife",
+      "nivel": "Naranja",
+      "text": "Área metropolitana de Tenerife: Moderate high-temperature warning. Área metropolitana de Tenerife (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Este, sur y oeste de Tenerife",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Este, sur y oeste de Tenerife",
+      "nivel": "Naranja",
+      "text": "Este, sur y oeste de Tenerife: Aviso de temperaturas máximas de nivel amarillo. Este, sur y oeste de Tenerife (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Este, sur y oeste de Tenerife",
+      "fenomeno": "Moderate high-temperature warning. Este, sur y oeste de Tenerife",
+      "nivel": "Naranja",
+      "text": "Este, sur y oeste de Tenerife: Moderate high-temperature warning. Este, sur y oeste de Tenerife (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Lanzarote",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Lanzarote",
+      "nivel": "Naranja",
+      "text": "Lanzarote: Aviso de temperaturas máximas de nivel amarillo. Lanzarote (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Lanzarote",
+      "fenomeno": "Moderate high-temperature warning. Lanzarote",
+      "nivel": "Naranja",
+      "text": "Lanzarote: Moderate high-temperature warning. Lanzarote (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Fuerteventura",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Fuerteventura",
+      "nivel": "Naranja",
+      "text": "Fuerteventura: Aviso de temperaturas máximas de nivel amarillo. Fuerteventura (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Fuerteventura",
+      "fenomeno": "Moderate high-temperature warning. Fuerteventura",
+      "nivel": "Naranja",
+      "text": "Fuerteventura: Moderate high-temperature warning. Fuerteventura (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
