@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2026-07-31T16:39:38.189Z
+// Auto-generado por GitHub Actions - 2026-07-31T18:08:19.902Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-07-31T16:39:38.189Z",
+  "generated_at": "2026-07-31T18:08:19.902Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌊",
+      "provincia": "Ribera del Ebro de Navarra",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Ribera del Ebro de Navarra",
+      "nivel": "Naranja",
+      "text": "Ribera del Ebro de Navarra: Aviso de temperaturas máximas de nivel amarillo. Ribera del Ebro de Navarra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ribera del Ebro de Navarra",
+      "fenomeno": "Moderate high-temperature warning. Ribera del Ebro de Navarra",
+      "nivel": "Naranja",
+      "text": "Ribera del Ebro de Navarra: Moderate high-temperature warning. Ribera del Ebro de Navarra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌡️",
       "provincia": "Cumbres de Gran Canaria",
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate high-temperature warning. Lanzarote",
       "nivel": "Naranja",
       "text": "Lanzarote: Moderate high-temperature warning. Lanzarote (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Fuerteventura",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Fuerteventura",
-      "nivel": "Naranja",
-      "text": "Fuerteventura: Aviso de temperaturas máximas de nivel amarillo. Fuerteventura (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Fuerteventura",
-      "fenomeno": "Moderate high-temperature warning. Fuerteventura",
-      "nivel": "Naranja",
-      "text": "Fuerteventura: Moderate high-temperature warning. Fuerteventura (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
