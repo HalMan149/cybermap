@@ -1,118 +1,86 @@
 {
-  "generated_at": "2026-08-02T16:50:36.285Z",
+  "generated_at": "2026-08-02T17:54:56.845Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "🌊",
-      "provincia": "Interior de Mallorca",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Interior de Mallorca",
-      "nivel": "Naranja",
-      "text": "Interior de Mallorca: Aviso de temperaturas máximas de nivel amarillo. Interior de Mallorca (Naranja) (AEMET)",
+      "icon": "⛈️",
+      "provincia": "Sur de Huesca",
+      "fenomeno": "Aviso de tormentas de nivel naranja. Sur de Huesca",
+      "nivel": "Rojo",
+      "text": "Sur de Huesca: Aviso de tormentas de nivel naranja. Sur de Huesca (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Interior de Mallorca",
-      "fenomeno": "Moderate high-temperature warning. Interior de Mallorca",
-      "nivel": "Naranja",
-      "text": "Interior de Mallorca: Moderate high-temperature warning. Interior de Mallorca (Naranja) (AEMET)",
+      "provincia": "Sur de Huesca",
+      "fenomeno": "Severe thunderstorm warning. Sur de Huesca",
+      "nivel": "Rojo",
+      "text": "Sur de Huesca: Severe thunderstorm warning. Sur de Huesca (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Litoral norte de Valencia",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Litoral norte de Valencia",
-      "nivel": "Naranja",
-      "text": "Litoral norte de Valencia: Aviso de temperaturas máximas de nivel amarillo. Litoral norte de Valencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral norte de Valencia",
-      "fenomeno": "Moderate high-temperature warning. Litoral norte de Valencia",
-      "nivel": "Naranja",
-      "text": "Litoral norte de Valencia: Moderate high-temperature warning. Litoral norte de Valencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Litoral sur de Valencia",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Litoral sur de Valencia",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Valencia: Aviso de temperaturas máximas de nivel amarillo. Litoral sur de Valencia (Naranja) (AEMET)",
+      "icon": "⛈️",
+      "provincia": "Bajo Aragón de Teruel",
+      "fenomeno": "Aviso de tormentas de nivel naranja. Bajo Aragón de Teruel",
+      "nivel": "Rojo",
+      "text": "Bajo Aragón de Teruel: Aviso de tormentas de nivel naranja. Bajo Aragón de Teruel (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Litoral sur de Valencia",
-      "fenomeno": "Moderate high-temperature warning. Litoral sur de Valencia",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Valencia: Moderate high-temperature warning. Litoral sur de Valencia (Naranja) (AEMET)",
+      "provincia": "Bajo Aragón de Teruel",
+      "fenomeno": "Severe thunderstorm warning. Bajo Aragón de Teruel",
+      "nivel": "Rojo",
+      "text": "Bajo Aragón de Teruel: Severe thunderstorm warning. Bajo Aragón de Teruel (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Valle del Almanzora y Los Vélez",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Valle del Almanzora y Los Vélez",
-      "nivel": "Naranja",
-      "text": "Valle del Almanzora y Los Vélez: Aviso de temperaturas máximas de nivel amarillo. Valle del Almanzora y Los Vélez (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Valle del Almanzora y Los Vélez",
-      "fenomeno": "Moderate high-temperature warning. Valle del Almanzora y Los Vélez",
-      "nivel": "Naranja",
-      "text": "Valle del Almanzora y Los Vélez: Moderate high-temperature warning. Valle del Almanzora y Los Vélez (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Levante almeriense",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Levante almeriense",
-      "nivel": "Naranja",
-      "text": "Levante almeriense: Aviso de temperaturas máximas de nivel amarillo. Levante almeriense (Naranja) (AEMET)",
+      "icon": "⛈️",
+      "provincia": "Ribera del Ebro de Zaragoza",
+      "fenomeno": "Aviso de tormentas de nivel naranja. Ribera del Ebro de Zaragoza",
+      "nivel": "Rojo",
+      "text": "Ribera del Ebro de Zaragoza: Aviso de tormentas de nivel naranja. Ribera del Ebro de Zaragoza (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Levante almeriense",
-      "fenomeno": "Moderate high-temperature warning. Levante almeriense",
-      "nivel": "Naranja",
-      "text": "Levante almeriense: Moderate high-temperature warning. Levante almeriense (Naranja) (AEMET)",
+      "provincia": "Ribera del Ebro de Zaragoza",
+      "fenomeno": "Severe thunderstorm warning. Ribera del Ebro de Zaragoza",
+      "nivel": "Rojo",
+      "text": "Ribera del Ebro de Zaragoza: Severe thunderstorm warning. Ribera del Ebro de Zaragoza (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Sol y Guadalhorce",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Sol y Guadalhorce",
-      "nivel": "Naranja",
-      "text": "Sol y Guadalhorce: Aviso de temperaturas máximas de nivel amarillo. Sol y Guadalhorce (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sol y Guadalhorce",
-      "fenomeno": "Moderate high-temperature warning. Sol y Guadalhorce",
-      "nivel": "Naranja",
-      "text": "Sol y Guadalhorce: Moderate high-temperature warning. Sol y Guadalhorce (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Axarquía",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Axarquía",
-      "nivel": "Naranja",
-      "text": "Axarquía: Aviso de temperaturas máximas de nivel amarillo. Axarquía (Naranja) (AEMET)",
+      "icon": "⛈️",
+      "provincia": "Depresión central de Lleida",
+      "fenomeno": "Aviso de tormentas de nivel naranja. Depresión central de Lleida",
+      "nivel": "Rojo",
+      "text": "Depresión central de Lleida: Aviso de tormentas de nivel naranja. Depresión central de Lleida (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Axarquía",
-      "fenomeno": "Moderate high-temperature warning. Axarquía",
-      "nivel": "Naranja",
-      "text": "Axarquía: Moderate high-temperature warning. Axarquía (Naranja) (AEMET)",
+      "provincia": "Depresión central de Lleida",
+      "fenomeno": "Severe thunderstorm warning. Depresión central de Lleida",
+      "nivel": "Rojo",
+      "text": "Depresión central de Lleida: Severe thunderstorm warning. Depresión central de Lleida (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Depresión central de Tarragona",
+      "fenomeno": "Aviso de tormentas de nivel naranja. Depresión central de Tarragona",
+      "nivel": "Rojo",
+      "text": "Depresión central de Tarragona: Aviso de tormentas de nivel naranja. Depresión central de Tarragona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Depresión central de Tarragona",
+      "fenomeno": "Severe thunderstorm warning. Depresión central de Tarragona",
+      "nivel": "Rojo",
+      "text": "Depresión central de Tarragona: Severe thunderstorm warning. Depresión central de Tarragona (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -129,6 +97,22 @@
       "fenomeno": "Moderate high-temperature warning. Sur de Huesca",
       "nivel": "Naranja",
       "text": "Sur de Huesca: Moderate high-temperature warning. Sur de Huesca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Albarracín y Jiloca",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Albarracín y Jiloca",
+      "nivel": "Naranja",
+      "text": "Albarracín y Jiloca: Aviso de temperaturas máximas de nivel amarillo. Albarracín y Jiloca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Albarracín y Jiloca",
+      "fenomeno": "Moderate high-temperature warning. Albarracín y Jiloca",
+      "nivel": "Naranja",
+      "text": "Albarracín y Jiloca: Moderate high-temperature warning. Albarracín y Jiloca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -161,6 +145,22 @@
       "fenomeno": "Moderate high-temperature warning. Cinco Villas de Zaragoza",
       "nivel": "Naranja",
       "text": "Cinco Villas de Zaragoza: Moderate high-temperature warning. Cinco Villas de Zaragoza (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Ibérica zaragozana",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Ibérica zaragozana",
+      "nivel": "Naranja",
+      "text": "Ibérica zaragozana: Aviso de temperaturas máximas de nivel amarillo. Ibérica zaragozana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ibérica zaragozana",
+      "fenomeno": "Moderate high-temperature warning. Ibérica zaragozana",
+      "nivel": "Naranja",
+      "text": "Ibérica zaragozana: Moderate high-temperature warning. Ibérica zaragozana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
