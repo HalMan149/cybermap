@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2026-08-05T20:46:39.811Z
+// Auto-generado por GitHub Actions - 2026-08-05T22:06:07.280Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-08-05T20:46:39.811Z",
+  "generated_at": "2026-08-05T22:06:07.280Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "⛈️",
+      "provincia": "Albarracín y Jiloca",
+      "fenomeno": "Aviso de tormentas de nivel naranja. Albarracín y Jiloca",
+      "nivel": "Rojo",
+      "text": "Albarracín y Jiloca: Aviso de tormentas de nivel naranja. Albarracín y Jiloca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Albarracín y Jiloca",
+      "fenomeno": "Severe thunderstorm warning. Albarracín y Jiloca",
+      "nivel": "Rojo",
+      "text": "Albarracín y Jiloca: Severe thunderstorm warning. Albarracín y Jiloca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "💨",
       "provincia": "Cumbres de Gran Canaria",
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate high-temperature warning. Serranía de Guadalajara",
       "nivel": "Naranja",
       "text": "Serranía de Guadalajara: Moderate high-temperature warning. Serranía de Guadalajara (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Valle del Tajo",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Valle del Tajo",
-      "nivel": "Naranja",
-      "text": "Valle del Tajo: Aviso de temperaturas máximas de nivel amarillo. Valle del Tajo (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Valle del Tajo",
-      "fenomeno": "Moderate high-temperature warning. Valle del Tajo",
-      "nivel": "Naranja",
-      "text": "Valle del Tajo: Moderate high-temperature warning. Valle del Tajo (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
