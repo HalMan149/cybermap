@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-06T03:58:49.522Z",
+  "generated_at": "2026-08-06T06:31:19.614Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "⛈️",
-      "provincia": "Albarracín y Jiloca",
-      "fenomeno": "Aviso de tormentas de nivel naranja. Albarracín y Jiloca",
+      "icon": "🌡️",
+      "provincia": "Campiña cordobesa",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Campiña cordobesa",
       "nivel": "Rojo",
-      "text": "Albarracín y Jiloca: Aviso de tormentas de nivel naranja. Albarracín y Jiloca (Rojo) (AEMET)",
+      "text": "Campiña cordobesa: Aviso de temperaturas máximas de nivel naranja. Campiña cordobesa (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Albarracín y Jiloca",
-      "fenomeno": "Severe thunderstorm warning. Albarracín y Jiloca",
+      "provincia": "Campiña cordobesa",
+      "fenomeno": "Severe high-temperature warning. Campiña cordobesa",
       "nivel": "Rojo",
-      "text": "Albarracín y Jiloca: Severe thunderstorm warning. Albarracín y Jiloca (Rojo) (AEMET)",
+      "text": "Campiña cordobesa: Severe high-temperature warning. Campiña cordobesa (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -53,6 +53,22 @@
     },
     {
       "icon": "🌊",
+      "provincia": "Interior de Mallorca",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Interior de Mallorca",
+      "nivel": "Naranja",
+      "text": "Interior de Mallorca: Aviso de temperaturas máximas de nivel amarillo. Interior de Mallorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior de Mallorca",
+      "fenomeno": "Moderate high-temperature warning. Interior de Mallorca",
+      "nivel": "Naranja",
+      "text": "Interior de Mallorca: Moderate high-temperature warning. Interior de Mallorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
       "provincia": "Este, sur y oeste de Gran Canaria",
       "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Este, sur y oeste de Gran Canaria",
       "nivel": "Naranja",
@@ -69,98 +85,82 @@
     },
     {
       "icon": "🌊",
-      "provincia": "Bajo Aragón de Teruel",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Bajo Aragón de Teruel",
+      "provincia": "Ampurdán",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Ampurdán",
       "nivel": "Naranja",
-      "text": "Bajo Aragón de Teruel: Aviso de temperaturas máximas de nivel amarillo. Bajo Aragón de Teruel (Naranja) (AEMET)",
+      "text": "Ampurdán: Aviso de temperaturas máximas de nivel amarillo. Ampurdán (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Bajo Aragón de Teruel",
-      "fenomeno": "Moderate high-temperature warning. Bajo Aragón de Teruel",
+      "provincia": "Ampurdán",
+      "fenomeno": "Moderate high-temperature warning. Ampurdán",
       "nivel": "Naranja",
-      "text": "Bajo Aragón de Teruel: Moderate high-temperature warning. Bajo Aragón de Teruel (Naranja) (AEMET)",
+      "text": "Ampurdán: Moderate high-temperature warning. Ampurdán (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Sistema Central de Ávila",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Sistema Central de Ávila",
+      "provincia": "Morena y Condado",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Morena y Condado",
       "nivel": "Naranja",
-      "text": "Sistema Central de Ávila: Aviso de temperaturas máximas de nivel amarillo. Sistema Central de Ávila (Naranja) (AEMET)",
+      "text": "Morena y Condado: Aviso de temperaturas máximas de nivel amarillo. Morena y Condado (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sistema Central de Ávila",
-      "fenomeno": "Moderate high-temperature warning. Sistema Central de Ávila",
+      "provincia": "Morena y Condado",
+      "fenomeno": "Moderate high-temperature warning. Morena y Condado",
       "nivel": "Naranja",
-      "text": "Sistema Central de Ávila: Moderate high-temperature warning. Sistema Central de Ávila (Naranja) (AEMET)",
+      "text": "Morena y Condado: Moderate high-temperature warning. Morena y Condado (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "La Mancha albaceteña",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. La Mancha albaceteña",
+      "provincia": "Valle del Guadalquivir de Jaén",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Valle del Guadalquivir de Jaén",
       "nivel": "Naranja",
-      "text": "La Mancha albaceteña: Aviso de temperaturas máximas de nivel amarillo. La Mancha albaceteña (Naranja) (AEMET)",
+      "text": "Valle del Guadalquivir de Jaén: Aviso de temperaturas máximas de nivel amarillo. Valle del Guadalquivir de Jaén (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "La Mancha albaceteña",
-      "fenomeno": "Moderate high-temperature warning. La Mancha albaceteña",
+      "provincia": "Valle del Guadalquivir de Jaén",
+      "fenomeno": "Moderate high-temperature warning. Valle del Guadalquivir de Jaén",
       "nivel": "Naranja",
-      "text": "La Mancha albaceteña: Moderate high-temperature warning. La Mancha albaceteña (Naranja) (AEMET)",
+      "text": "Valle del Guadalquivir de Jaén: Moderate high-temperature warning. Valle del Guadalquivir de Jaén (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Serranía de Cuenca",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Serranía de Cuenca",
+      "provincia": "Campiña sevillana",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Campiña sevillana",
       "nivel": "Naranja",
-      "text": "Serranía de Cuenca: Aviso de temperaturas máximas de nivel amarillo. Serranía de Cuenca (Naranja) (AEMET)",
+      "text": "Campiña sevillana: Aviso de temperaturas máximas de nivel amarillo. Campiña sevillana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Serranía de Cuenca",
-      "fenomeno": "Moderate high-temperature warning. Serranía de Cuenca",
+      "provincia": "Campiña sevillana",
+      "fenomeno": "Moderate high-temperature warning. Campiña sevillana",
       "nivel": "Naranja",
-      "text": "Serranía de Cuenca: Moderate high-temperature warning. Serranía de Cuenca (Naranja) (AEMET)",
+      "text": "Campiña sevillana: Moderate high-temperature warning. Campiña sevillana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "La Mancha conquense",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. La Mancha conquense",
+      "provincia": "Cinco Villas de Zaragoza",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Cinco Villas de Zaragoza",
       "nivel": "Naranja",
-      "text": "La Mancha conquense: Aviso de temperaturas máximas de nivel amarillo. La Mancha conquense (Naranja) (AEMET)",
+      "text": "Cinco Villas de Zaragoza: Aviso de temperaturas máximas de nivel amarillo. Cinco Villas de Zaragoza (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "La Mancha conquense",
-      "fenomeno": "Moderate high-temperature warning. La Mancha conquense",
+      "provincia": "Cinco Villas de Zaragoza",
+      "fenomeno": "Moderate high-temperature warning. Cinco Villas de Zaragoza",
       "nivel": "Naranja",
-      "text": "La Mancha conquense: Moderate high-temperature warning. La Mancha conquense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Serranía de Guadalajara",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Serranía de Guadalajara",
-      "nivel": "Naranja",
-      "text": "Serranía de Guadalajara: Aviso de temperaturas máximas de nivel amarillo. Serranía de Guadalajara (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Serranía de Guadalajara",
-      "fenomeno": "Moderate high-temperature warning. Serranía de Guadalajara",
-      "nivel": "Naranja",
-      "text": "Serranía de Guadalajara: Moderate high-temperature warning. Serranía de Guadalajara (Naranja) (AEMET)",
+      "text": "Cinco Villas de Zaragoza: Moderate high-temperature warning. Cinco Villas de Zaragoza (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
