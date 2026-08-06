@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-08-06T09:28:42.135Z
+// Auto-generado por GitHub Actions - 2026-08-06T11:40:13.191Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-08-06T09:28:42.135Z",
+  "generated_at": "2026-08-06T11:40:13.191Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "🌊",
-      "provincia": "Parameras de Molina",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Parameras de Molina",
-      "nivel": "Naranja",
-      "text": "Parameras de Molina: Aviso de temperaturas máximas de nivel amarillo. Parameras de Molina (Naranja) (AEMET)",
+      "icon": "🌡️",
+      "provincia": "Campiña cordobesa",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Campiña cordobesa",
+      "nivel": "Rojo",
+      "text": "Campiña cordobesa: Aviso de temperaturas máximas de nivel naranja. Campiña cordobesa (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Parameras de Molina",
-      "fenomeno": "Moderate high-temperature warning. Parameras de Molina",
-      "nivel": "Naranja",
-      "text": "Parameras de Molina: Moderate high-temperature warning. Parameras de Molina (Naranja) (AEMET)",
+      "provincia": "Campiña cordobesa",
+      "fenomeno": "Severe high-temperature warning. Campiña cordobesa",
+      "nivel": "Rojo",
+      "text": "Campiña cordobesa: Severe high-temperature warning. Campiña cordobesa (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Litoral sur de Valencia",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Litoral sur de Valencia",
+      "icon": "💨",
+      "provincia": "Cumbres de Gran Canaria",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Cumbres de Gran Canaria",
       "nivel": "Naranja",
-      "text": "Litoral sur de Valencia: Aviso de temperaturas máximas de nivel amarillo. Litoral sur de Valencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral sur de Valencia",
-      "fenomeno": "Moderate high-temperature warning. Litoral sur de Valencia",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Valencia: Moderate high-temperature warning. Litoral sur de Valencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Interior norte de Castellón",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Interior norte de Castellón",
-      "nivel": "Naranja",
-      "text": "Interior norte de Castellón: Aviso de lluvias de nivel amarillo. Interior norte de Castellón (Naranja) (AEMET)",
+      "text": "Cumbres de Gran Canaria: Aviso de vientos de nivel amarillo. Cumbres de Gran Canaria (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Interior norte de Castellón",
-      "fenomeno": "Moderate rain warning. Interior norte de Castellón",
+      "provincia": "Cumbres de Gran Canaria",
+      "fenomeno": "Moderate wind warning. Cumbres de Gran Canaria",
       "nivel": "Naranja",
-      "text": "Interior norte de Castellón: Moderate rain warning. Interior norte de Castellón (Naranja) (AEMET)",
+      "text": "Cumbres de Gran Canaria: Moderate wind warning. Cumbres de Gran Canaria (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Interior sur de Castellón",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Interior sur de Castellón",
+      "icon": "💨",
+      "provincia": "La Gomera",
+      "fenomeno": "Aviso de vientos de nivel amarillo. La Gomera",
       "nivel": "Naranja",
-      "text": "Interior sur de Castellón: Aviso de lluvias de nivel amarillo. Interior sur de Castellón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior sur de Castellón",
-      "fenomeno": "Moderate rain warning. Interior sur de Castellón",
-      "nivel": "Naranja",
-      "text": "Interior sur de Castellón: Moderate rain warning. Interior sur de Castellón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Interior norte de Valencia",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Interior norte de Valencia",
-      "nivel": "Naranja",
-      "text": "Interior norte de Valencia: Aviso de lluvias de nivel amarillo. Interior norte de Valencia (Naranja) (AEMET)",
+      "text": "La Gomera: Aviso de vientos de nivel amarillo. La Gomera (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Interior norte de Valencia",
-      "fenomeno": "Moderate rain warning. Interior norte de Valencia",
+      "provincia": "La Gomera",
+      "fenomeno": "Moderate wind warning. La Gomera",
       "nivel": "Naranja",
-      "text": "Interior norte de Valencia: Moderate rain warning. Interior norte de Valencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Interior norte de Castellón",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Interior norte de Castellón",
-      "nivel": "Naranja",
-      "text": "Interior norte de Castellón: Aviso de tormentas de nivel amarillo. Interior norte de Castellón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior norte de Castellón",
-      "fenomeno": "Moderate thunderstorm warning. Interior norte de Castellón",
-      "nivel": "Naranja",
-      "text": "Interior norte de Castellón: Moderate thunderstorm warning. Interior norte de Castellón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Interior sur de Castellón",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Interior sur de Castellón",
-      "nivel": "Naranja",
-      "text": "Interior sur de Castellón: Aviso de tormentas de nivel amarillo. Interior sur de Castellón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior sur de Castellón",
-      "fenomeno": "Moderate thunderstorm warning. Interior sur de Castellón",
-      "nivel": "Naranja",
-      "text": "Interior sur de Castellón: Moderate thunderstorm warning. Interior sur de Castellón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Interior norte de Valencia",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Interior norte de Valencia",
-      "nivel": "Naranja",
-      "text": "Interior norte de Valencia: Aviso de tormentas de nivel amarillo. Interior norte de Valencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior norte de Valencia",
-      "fenomeno": "Moderate thunderstorm warning. Interior norte de Valencia",
-      "nivel": "Naranja",
-      "text": "Interior norte de Valencia: Moderate thunderstorm warning. Interior norte de Valencia (Naranja) (AEMET)",
+      "text": "La Gomera: Moderate wind warning. La Gomera (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Pirineo oscense",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Pirineo oscense",
+      "provincia": "Ibiza y Formentera",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Ibiza y Formentera",
       "nivel": "Naranja",
-      "text": "Pirineo oscense: Aviso de temperaturas máximas de nivel amarillo. Pirineo oscense (Naranja) (AEMET)",
+      "text": "Ibiza y Formentera: Aviso de temperaturas máximas de nivel amarillo. Ibiza y Formentera (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Pirineo oscense",
-      "fenomeno": "Moderate high-temperature warning. Pirineo oscense",
+      "provincia": "Ibiza y Formentera",
+      "fenomeno": "Moderate high-temperature warning. Ibiza y Formentera",
       "nivel": "Naranja",
-      "text": "Pirineo oscense: Moderate high-temperature warning. Pirineo oscense (Naranja) (AEMET)",
+      "text": "Ibiza y Formentera: Moderate high-temperature warning. Ibiza y Formentera (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Centro de Huesca",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Centro de Huesca",
+      "provincia": "Interior de Mallorca",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Interior de Mallorca",
       "nivel": "Naranja",
-      "text": "Centro de Huesca: Aviso de temperaturas máximas de nivel amarillo. Centro de Huesca (Naranja) (AEMET)",
+      "text": "Interior de Mallorca: Aviso de temperaturas máximas de nivel amarillo. Interior de Mallorca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Centro de Huesca",
-      "fenomeno": "Moderate high-temperature warning. Centro de Huesca",
+      "provincia": "Interior de Mallorca",
+      "fenomeno": "Moderate high-temperature warning. Interior de Mallorca",
       "nivel": "Naranja",
-      "text": "Centro de Huesca: Moderate high-temperature warning. Centro de Huesca (Naranja) (AEMET)",
+      "text": "Interior de Mallorca: Moderate high-temperature warning. Interior de Mallorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Este, sur y oeste de Gran Canaria",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Este, sur y oeste de Gran Canaria",
+      "nivel": "Naranja",
+      "text": "Este, sur y oeste de Gran Canaria: Aviso de temperaturas máximas de nivel amarillo. Este, sur y oeste de Gran Canaria (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Este, sur y oeste de Gran Canaria",
+      "fenomeno": "Moderate high-temperature warning. Este, sur y oeste de Gran Canaria",
+      "nivel": "Naranja",
+      "text": "Este, sur y oeste de Gran Canaria: Moderate high-temperature warning. Este, sur y oeste de Gran Canaria (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Área metropolitana de Tenerife",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Área metropolitana de Tenerife",
+      "nivel": "Naranja",
+      "text": "Área metropolitana de Tenerife: Aviso de temperaturas máximas de nivel amarillo. Área metropolitana de Tenerife (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Área metropolitana de Tenerife",
+      "fenomeno": "Moderate high-temperature warning. Área metropolitana de Tenerife",
+      "nivel": "Naranja",
+      "text": "Área metropolitana de Tenerife: Moderate high-temperature warning. Área metropolitana de Tenerife (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Ampurdán",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Ampurdán",
+      "nivel": "Naranja",
+      "text": "Ampurdán: Aviso de temperaturas máximas de nivel amarillo. Ampurdán (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ampurdán",
+      "fenomeno": "Moderate high-temperature warning. Ampurdán",
+      "nivel": "Naranja",
+      "text": "Ampurdán: Moderate high-temperature warning. Ampurdán (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Litoral norte de Alicante",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Litoral norte de Alicante",
+      "nivel": "Naranja",
+      "text": "Litoral norte de Alicante: Aviso de temperaturas máximas de nivel amarillo. Litoral norte de Alicante (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral norte de Alicante",
+      "fenomeno": "Moderate high-temperature warning. Litoral norte de Alicante",
+      "nivel": "Naranja",
+      "text": "Litoral norte de Alicante: Moderate high-temperature warning. Litoral norte de Alicante (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Litoral sur de Alicante",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Litoral sur de Alicante",
+      "nivel": "Naranja",
+      "text": "Litoral sur de Alicante: Aviso de temperaturas máximas de nivel amarillo. Litoral sur de Alicante (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral sur de Alicante",
+      "fenomeno": "Moderate high-temperature warning. Litoral sur de Alicante",
+      "nivel": "Naranja",
+      "text": "Litoral sur de Alicante: Moderate high-temperature warning. Litoral sur de Alicante (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
