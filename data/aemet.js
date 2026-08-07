@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-08-06T15:37:49.076Z
+// Auto-generado por GitHub Actions - 2026-08-07T00:35:53.895Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-08-06T15:37:49.076Z",
+  "generated_at": "2026-08-07T00:35:53.895Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "🌧️",
-      "provincia": "Albarracín y Jiloca",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Albarracín y Jiloca",
-      "nivel": "Rojo",
-      "text": "Albarracín y Jiloca: Aviso de lluvias de nivel naranja. Albarracín y Jiloca (Rojo) (AEMET)",
+      "icon": "⛈️",
+      "provincia": "Sur de Huesca",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Sur de Huesca",
+      "nivel": "Naranja",
+      "text": "Sur de Huesca: Aviso de tormentas de nivel amarillo. Sur de Huesca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Albarracín y Jiloca",
-      "fenomeno": "Severe rain warning. Albarracín y Jiloca",
-      "nivel": "Rojo",
-      "text": "Albarracín y Jiloca: Severe rain warning. Albarracín y Jiloca (Rojo) (AEMET)",
+      "provincia": "Sur de Huesca",
+      "fenomeno": "Moderate thunderstorm warning. Sur de Huesca",
+      "nivel": "Naranja",
+      "text": "Sur de Huesca: Moderate thunderstorm warning. Sur de Huesca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Albarracín y Jiloca",
-      "fenomeno": "Aviso de tormentas de nivel naranja. Albarracín y Jiloca",
-      "nivel": "Rojo",
-      "text": "Albarracín y Jiloca: Aviso de tormentas de nivel naranja. Albarracín y Jiloca (Rojo) (AEMET)",
+      "provincia": "Centro de Huesca",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Centro de Huesca",
+      "nivel": "Naranja",
+      "text": "Centro de Huesca: Aviso de tormentas de nivel amarillo. Centro de Huesca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Albarracín y Jiloca",
-      "fenomeno": "Severe thunderstorm warning. Albarracín y Jiloca",
-      "nivel": "Rojo",
-      "text": "Albarracín y Jiloca: Severe thunderstorm warning. Albarracín y Jiloca (Rojo) (AEMET)",
+      "provincia": "Centro de Huesca",
+      "fenomeno": "Moderate thunderstorm warning. Centro de Huesca",
+      "nivel": "Naranja",
+      "text": "Centro de Huesca: Moderate thunderstorm warning. Centro de Huesca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Albarracín y Jiloca",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Albarracín y Jiloca",
+      "provincia": "Ribera del Ebro de Zaragoza",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Ribera del Ebro de Zaragoza",
       "nivel": "Naranja",
-      "text": "Albarracín y Jiloca: Aviso de lluvias de nivel amarillo. Albarracín y Jiloca (Naranja) (AEMET)",
+      "text": "Ribera del Ebro de Zaragoza: Aviso de lluvias de nivel amarillo. Ribera del Ebro de Zaragoza (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Albarracín y Jiloca",
-      "fenomeno": "Moderate rain warning. Albarracín y Jiloca",
+      "provincia": "Ribera del Ebro de Zaragoza",
+      "fenomeno": "Moderate rain warning. Ribera del Ebro de Zaragoza",
       "nivel": "Naranja",
-      "text": "Albarracín y Jiloca: Moderate rain warning. Albarracín y Jiloca (Naranja) (AEMET)",
+      "text": "Ribera del Ebro de Zaragoza: Moderate rain warning. Ribera del Ebro de Zaragoza (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Albarracín y Jiloca",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Albarracín y Jiloca",
+      "provincia": "Ribera del Ebro de Zaragoza",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Ribera del Ebro de Zaragoza",
       "nivel": "Naranja",
-      "text": "Albarracín y Jiloca: Aviso de tormentas de nivel amarillo. Albarracín y Jiloca (Naranja) (AEMET)",
+      "text": "Ribera del Ebro de Zaragoza: Aviso de tormentas de nivel amarillo. Ribera del Ebro de Zaragoza (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Albarracín y Jiloca",
-      "fenomeno": "Moderate thunderstorm warning. Albarracín y Jiloca",
+      "provincia": "Ribera del Ebro de Zaragoza",
+      "fenomeno": "Moderate thunderstorm warning. Ribera del Ebro de Zaragoza",
       "nivel": "Naranja",
-      "text": "Albarracín y Jiloca: Moderate thunderstorm warning. Albarracín y Jiloca (Naranja) (AEMET)",
+      "text": "Ribera del Ebro de Zaragoza: Moderate thunderstorm warning. Ribera del Ebro de Zaragoza (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Interior de Mallorca",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Interior de Mallorca",
+      "provincia": "Centro de Huesca",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Centro de Huesca",
       "nivel": "Naranja",
-      "text": "Interior de Mallorca: Aviso de lluvias de nivel amarillo. Interior de Mallorca (Naranja) (AEMET)",
+      "text": "Centro de Huesca: Aviso de lluvias de nivel amarillo. Centro de Huesca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Interior de Mallorca",
-      "fenomeno": "Moderate rain warning. Interior de Mallorca",
+      "provincia": "Centro de Huesca",
+      "fenomeno": "Moderate rain warning. Centro de Huesca",
       "nivel": "Naranja",
-      "text": "Interior de Mallorca: Moderate rain warning. Interior de Mallorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Interior de Mallorca",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Interior de Mallorca",
-      "nivel": "Naranja",
-      "text": "Interior de Mallorca: Aviso de tormentas de nivel amarillo. Interior de Mallorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior de Mallorca",
-      "fenomeno": "Moderate thunderstorm warning. Interior de Mallorca",
-      "nivel": "Naranja",
-      "text": "Interior de Mallorca: Moderate thunderstorm warning. Interior de Mallorca (Naranja) (AEMET)",
+      "text": "Centro de Huesca: Moderate rain warning. Centro de Huesca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Pirineo oscense",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Pirineo oscense",
-      "nivel": "Rojo",
-      "text": "Pirineo oscense: Aviso de lluvias de nivel naranja. Pirineo oscense (Rojo) (AEMET)",
+      "provincia": "Sur de Huesca",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Sur de Huesca",
+      "nivel": "Naranja",
+      "text": "Sur de Huesca: Aviso de lluvias de nivel amarillo. Sur de Huesca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Pirineo oscense",
-      "fenomeno": "Severe rain warning. Pirineo oscense",
-      "nivel": "Rojo",
-      "text": "Pirineo oscense: Severe rain warning. Pirineo oscense (Rojo) (AEMET)",
+      "provincia": "Sur de Huesca",
+      "fenomeno": "Moderate rain warning. Sur de Huesca",
+      "nivel": "Naranja",
+      "text": "Sur de Huesca: Moderate rain warning. Sur de Huesca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Pirineo oscense",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Pirineo oscense",
+      "provincia": "Litoral cántabro",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral cántabro",
       "nivel": "Naranja",
-      "text": "Pirineo oscense: Aviso de lluvias de nivel amarillo. Pirineo oscense (Naranja) (AEMET)",
+      "text": "Litoral cántabro: Aviso de lluvias de nivel amarillo. Litoral cántabro (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Pirineo oscense",
-      "fenomeno": "Moderate rain warning. Pirineo oscense",
+      "provincia": "Litoral cántabro",
+      "fenomeno": "Moderate rain warning. Litoral cántabro",
       "nivel": "Naranja",
-      "text": "Pirineo oscense: Moderate rain warning. Pirineo oscense (Naranja) (AEMET)",
+      "text": "Litoral cántabro: Moderate rain warning. Litoral cántabro (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Bajo Aragón de Teruel",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Bajo Aragón de Teruel",
+      "provincia": "Centro y valle de Villaverde",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Centro y valle de Villaverde",
       "nivel": "Naranja",
-      "text": "Bajo Aragón de Teruel: Aviso de lluvias de nivel amarillo. Bajo Aragón de Teruel (Naranja) (AEMET)",
+      "text": "Centro y valle de Villaverde: Aviso de lluvias de nivel amarillo. Centro y valle de Villaverde (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Bajo Aragón de Teruel",
-      "fenomeno": "Moderate rain warning. Bajo Aragón de Teruel",
+      "provincia": "Centro y valle de Villaverde",
+      "fenomeno": "Moderate rain warning. Centro y valle de Villaverde",
       "nivel": "Naranja",
-      "text": "Bajo Aragón de Teruel: Moderate rain warning. Bajo Aragón de Teruel (Naranja) (AEMET)",
+      "text": "Centro y valle de Villaverde: Moderate rain warning. Centro y valle de Villaverde (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Depresión central de Tarragona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Depresión central de Tarragona",
+      "provincia": "Cordillera Cantábrica de Burgos",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Cordillera Cantábrica de Burgos",
       "nivel": "Naranja",
-      "text": "Depresión central de Tarragona: Aviso de lluvias de nivel amarillo. Depresión central de Tarragona (Naranja) (AEMET)",
+      "text": "Cordillera Cantábrica de Burgos: Aviso de lluvias de nivel amarillo. Cordillera Cantábrica de Burgos (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Depresión central de Tarragona",
-      "fenomeno": "Moderate rain warning. Depresión central de Tarragona",
+      "provincia": "Cordillera Cantábrica de Burgos",
+      "fenomeno": "Moderate rain warning. Cordillera Cantábrica de Burgos",
       "nivel": "Naranja",
-      "text": "Depresión central de Tarragona: Moderate rain warning. Depresión central de Tarragona (Naranja) (AEMET)",
+      "text": "Cordillera Cantábrica de Burgos: Moderate rain warning. Cordillera Cantábrica de Burgos (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Norte de Burgos",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Norte de Burgos",
+      "nivel": "Naranja",
+      "text": "Norte de Burgos: Aviso de lluvias de nivel amarillo. Norte de Burgos (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Norte de Burgos",
+      "fenomeno": "Moderate rain warning. Norte de Burgos",
+      "nivel": "Naranja",
+      "text": "Norte de Burgos: Moderate rain warning. Norte de Burgos (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
