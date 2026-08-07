@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-08-07T17:32:50.235Z
+// Auto-generado por GitHub Actions - 2026-08-07T18:28:27.975Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-08-07T17:32:50.235Z",
+  "generated_at": "2026-08-07T18:28:27.975Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "⛈️",
-      "provincia": "Cuenca del Nervión",
-      "fenomeno": "Aviso de tormentas de nivel naranja. Cuenca del Nervión",
-      "nivel": "Rojo",
-      "text": "Cuenca del Nervión: Aviso de tormentas de nivel naranja. Cuenca del Nervión (Rojo) (AEMET)",
+      "icon": "🌊",
+      "provincia": "Cazorla y Segura",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Cazorla y Segura",
+      "nivel": "Naranja",
+      "text": "Cazorla y Segura: Aviso de temperaturas máximas de nivel amarillo. Cazorla y Segura (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Cuenca del Nervión",
-      "fenomeno": "Severe thunderstorm warning. Cuenca del Nervión",
-      "nivel": "Rojo",
-      "text": "Cuenca del Nervión: Severe thunderstorm warning. Cuenca del Nervión (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Gipuzkoa litoral",
-      "fenomeno": "Aviso de tormentas de nivel naranja. Gipuzkoa litoral",
-      "nivel": "Rojo",
-      "text": "Gipuzkoa litoral: Aviso de tormentas de nivel naranja. Gipuzkoa litoral (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Gipuzkoa litoral",
-      "fenomeno": "Severe thunderstorm warning. Gipuzkoa litoral",
-      "nivel": "Rojo",
-      "text": "Gipuzkoa litoral: Severe thunderstorm warning. Gipuzkoa litoral (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Gipuzkoa interior",
-      "fenomeno": "Aviso de tormentas de nivel naranja. Gipuzkoa interior",
-      "nivel": "Rojo",
-      "text": "Gipuzkoa interior: Aviso de tormentas de nivel naranja. Gipuzkoa interior (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Gipuzkoa interior",
-      "fenomeno": "Severe thunderstorm warning. Gipuzkoa interior",
-      "nivel": "Rojo",
-      "text": "Gipuzkoa interior: Severe thunderstorm warning. Gipuzkoa interior (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Bizkaia litoral",
-      "fenomeno": "Aviso de tormentas de nivel naranja. Bizkaia litoral",
-      "nivel": "Rojo",
-      "text": "Bizkaia litoral: Aviso de tormentas de nivel naranja. Bizkaia litoral (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Bizkaia litoral",
-      "fenomeno": "Severe thunderstorm warning. Bizkaia litoral",
-      "nivel": "Rojo",
-      "text": "Bizkaia litoral: Severe thunderstorm warning. Bizkaia litoral (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Bizkaia interior",
-      "fenomeno": "Aviso de tormentas de nivel naranja. Bizkaia interior",
-      "nivel": "Rojo",
-      "text": "Bizkaia interior: Aviso de tormentas de nivel naranja. Bizkaia interior (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Bizkaia interior",
-      "fenomeno": "Severe thunderstorm warning. Bizkaia interior",
-      "nivel": "Rojo",
-      "text": "Bizkaia interior: Severe thunderstorm warning. Bizkaia interior (Rojo) (AEMET)",
+      "provincia": "Cazorla y Segura",
+      "fenomeno": "Moderate high-temperature warning. Cazorla y Segura",
+      "nivel": "Naranja",
+      "text": "Cazorla y Segura: Moderate high-temperature warning. Cazorla y Segura (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Cantabria del Ebro",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Cantabria del Ebro",
+      "provincia": "Alcaraz y Segura",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Alcaraz y Segura",
       "nivel": "Naranja",
-      "text": "Cantabria del Ebro: Aviso de temperaturas máximas de nivel amarillo. Cantabria del Ebro (Naranja) (AEMET)",
+      "text": "Alcaraz y Segura: Aviso de temperaturas máximas de nivel amarillo. Alcaraz y Segura (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Cantabria del Ebro",
-      "fenomeno": "Moderate high-temperature warning. Cantabria del Ebro",
+      "provincia": "Alcaraz y Segura",
+      "fenomeno": "Moderate high-temperature warning. Alcaraz y Segura",
       "nivel": "Naranja",
-      "text": "Cantabria del Ebro: Moderate high-temperature warning. Cantabria del Ebro (Naranja) (AEMET)",
+      "text": "Alcaraz y Segura: Moderate high-temperature warning. Alcaraz y Segura (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Llanada alavesa",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Llanada alavesa",
+      "provincia": "Hellín y Almansa",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Hellín y Almansa",
       "nivel": "Naranja",
-      "text": "Llanada alavesa: Aviso de temperaturas máximas de nivel amarillo. Llanada alavesa (Naranja) (AEMET)",
+      "text": "Hellín y Almansa: Aviso de temperaturas máximas de nivel amarillo. Hellín y Almansa (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Llanada alavesa",
-      "fenomeno": "Moderate high-temperature warning. Llanada alavesa",
+      "provincia": "Hellín y Almansa",
+      "fenomeno": "Moderate high-temperature warning. Hellín y Almansa",
       "nivel": "Naranja",
-      "text": "Llanada alavesa: Moderate high-temperature warning. Llanada alavesa (Naranja) (AEMET)",
+      "text": "Hellín y Almansa: Moderate high-temperature warning. Hellín y Almansa (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Rioja alavesa",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Rioja alavesa",
+      "provincia": "Valle del Guadiana",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Valle del Guadiana",
       "nivel": "Naranja",
-      "text": "Rioja alavesa: Aviso de temperaturas máximas de nivel amarillo. Rioja alavesa (Naranja) (AEMET)",
+      "text": "Valle del Guadiana: Aviso de temperaturas máximas de nivel amarillo. Valle del Guadiana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Rioja alavesa",
-      "fenomeno": "Moderate high-temperature warning. Rioja alavesa",
+      "provincia": "Valle del Guadiana",
+      "fenomeno": "Moderate high-temperature warning. Valle del Guadiana",
       "nivel": "Naranja",
-      "text": "Rioja alavesa: Moderate high-temperature warning. Rioja alavesa (Naranja) (AEMET)",
+      "text": "Valle del Guadiana: Moderate high-temperature warning. Valle del Guadiana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Cordillera Cantábrica de Burgos",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Cordillera Cantábrica de Burgos",
+      "provincia": "Sierras de Alcudia y Madrona",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Sierras de Alcudia y Madrona",
       "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de Burgos: Aviso de temperaturas máximas de nivel amarillo. Cordillera Cantábrica de Burgos (Naranja) (AEMET)",
+      "text": "Sierras de Alcudia y Madrona: Aviso de temperaturas máximas de nivel amarillo. Sierras de Alcudia y Madrona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Cordillera Cantábrica de Burgos",
-      "fenomeno": "Moderate high-temperature warning. Cordillera Cantábrica de Burgos",
+      "provincia": "Sierras de Alcudia y Madrona",
+      "fenomeno": "Moderate high-temperature warning. Sierras de Alcudia y Madrona",
       "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de Burgos: Moderate high-temperature warning. Cordillera Cantábrica de Burgos (Naranja) (AEMET)",
+      "text": "Sierras de Alcudia y Madrona: Moderate high-temperature warning. Sierras de Alcudia y Madrona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Condado de Treviño",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Condado de Treviño",
+      "provincia": "Metropolitana y Henares",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Metropolitana y Henares",
       "nivel": "Naranja",
-      "text": "Condado de Treviño: Aviso de temperaturas máximas de nivel amarillo. Condado de Treviño (Naranja) (AEMET)",
+      "text": "Metropolitana y Henares: Aviso de temperaturas máximas de nivel amarillo. Metropolitana y Henares (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Condado de Treviño",
-      "fenomeno": "Moderate high-temperature warning. Condado de Treviño",
+      "provincia": "Metropolitana y Henares",
+      "fenomeno": "Moderate high-temperature warning. Metropolitana y Henares",
       "nivel": "Naranja",
-      "text": "Condado de Treviño: Moderate high-temperature warning. Condado de Treviño (Naranja) (AEMET)",
+      "text": "Metropolitana y Henares: Moderate high-temperature warning. Metropolitana y Henares (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Sur, Vegas y Oeste",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Sur, Vegas y Oeste",
+      "nivel": "Naranja",
+      "text": "Sur, Vegas y Oeste: Aviso de temperaturas máximas de nivel amarillo. Sur, Vegas y Oeste (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sur, Vegas y Oeste",
+      "fenomeno": "Moderate high-temperature warning. Sur, Vegas y Oeste",
+      "nivel": "Naranja",
+      "text": "Sur, Vegas y Oeste: Moderate high-temperature warning. Sur, Vegas y Oeste (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Vertiente cantábrica de Navarra",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Vertiente cantábrica de Navarra",
+      "nivel": "Naranja",
+      "text": "Vertiente cantábrica de Navarra: Aviso de lluvias de nivel amarillo. Vertiente cantábrica de Navarra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Vertiente cantábrica de Navarra",
+      "fenomeno": "Moderate rain warning. Vertiente cantábrica de Navarra",
+      "nivel": "Naranja",
+      "text": "Vertiente cantábrica de Navarra: Moderate rain warning. Vertiente cantábrica de Navarra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Noroeste de Murcia",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Noroeste de Murcia",
+      "nivel": "Naranja",
+      "text": "Noroeste de Murcia: Aviso de tormentas de nivel amarillo. Noroeste de Murcia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Noroeste de Murcia",
+      "fenomeno": "Moderate thunderstorm warning. Noroeste de Murcia",
+      "nivel": "Naranja",
+      "text": "Noroeste de Murcia: Moderate thunderstorm warning. Noroeste de Murcia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Vertiente cantábrica de Navarra",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Vertiente cantábrica de Navarra",
+      "nivel": "Naranja",
+      "text": "Vertiente cantábrica de Navarra: Aviso de tormentas de nivel amarillo. Vertiente cantábrica de Navarra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Vertiente cantábrica de Navarra",
+      "fenomeno": "Moderate thunderstorm warning. Vertiente cantábrica de Navarra",
+      "nivel": "Naranja",
+      "text": "Vertiente cantábrica de Navarra: Moderate thunderstorm warning. Vertiente cantábrica de Navarra (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
