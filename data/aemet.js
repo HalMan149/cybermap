@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-08-07T15:45:47.204Z
+// Auto-generado por GitHub Actions - 2026-08-07T16:42:48.428Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-08-07T15:45:47.204Z",
+  "generated_at": "2026-08-07T16:42:48.428Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "⛈️",
-      "provincia": "Litoral cántabro",
-      "fenomeno": "Aviso de tormentas de nivel naranja. Litoral cántabro",
+      "icon": "🌧️",
+      "provincia": "Guadix y Baza",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Guadix y Baza",
       "nivel": "Rojo",
-      "text": "Litoral cántabro: Aviso de tormentas de nivel naranja. Litoral cántabro (Rojo) (AEMET)",
+      "text": "Guadix y Baza: Aviso de lluvias de nivel naranja. Guadix y Baza (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Litoral cántabro",
-      "fenomeno": "Severe thunderstorm warning. Litoral cántabro",
+      "provincia": "Guadix y Baza",
+      "fenomeno": "Severe rain warning. Guadix y Baza",
       "nivel": "Rojo",
-      "text": "Litoral cántabro: Severe thunderstorm warning. Litoral cántabro (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Centro y valle de Villaverde",
-      "fenomeno": "Aviso de tormentas de nivel naranja. Centro y valle de Villaverde",
-      "nivel": "Rojo",
-      "text": "Centro y valle de Villaverde: Aviso de tormentas de nivel naranja. Centro y valle de Villaverde (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Centro y valle de Villaverde",
-      "fenomeno": "Severe thunderstorm warning. Centro y valle de Villaverde",
-      "nivel": "Rojo",
-      "text": "Centro y valle de Villaverde: Severe thunderstorm warning. Centro y valle de Villaverde (Rojo) (AEMET)",
+      "text": "Guadix y Baza: Severe rain warning. Guadix y Baza (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Vertiente cantábrica de Navarra",
-      "fenomeno": "Aviso de tormentas de nivel naranja. Vertiente cantábrica de Navarra",
+      "provincia": "Guadix y Baza",
+      "fenomeno": "Aviso de tormentas de nivel naranja. Guadix y Baza",
       "nivel": "Rojo",
-      "text": "Vertiente cantábrica de Navarra: Aviso de tormentas de nivel naranja. Vertiente cantábrica de Navarra (Rojo) (AEMET)",
+      "text": "Guadix y Baza: Aviso de tormentas de nivel naranja. Guadix y Baza (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Vertiente cantábrica de Navarra",
-      "fenomeno": "Severe thunderstorm warning. Vertiente cantábrica de Navarra",
+      "provincia": "Guadix y Baza",
+      "fenomeno": "Severe thunderstorm warning. Guadix y Baza",
       "nivel": "Rojo",
-      "text": "Vertiente cantábrica de Navarra: Severe thunderstorm warning. Vertiente cantábrica de Navarra (Rojo) (AEMET)",
+      "text": "Guadix y Baza: Severe thunderstorm warning. Guadix y Baza (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Pirineo navarro",
-      "fenomeno": "Aviso de tormentas de nivel naranja. Pirineo navarro",
+      "provincia": "Gúdar y Maestrazgo",
+      "fenomeno": "Aviso de tormentas de nivel naranja. Gúdar y Maestrazgo",
       "nivel": "Rojo",
-      "text": "Pirineo navarro: Aviso de tormentas de nivel naranja. Pirineo navarro (Rojo) (AEMET)",
+      "text": "Gúdar y Maestrazgo: Aviso de tormentas de nivel naranja. Gúdar y Maestrazgo (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Pirineo navarro",
-      "fenomeno": "Severe thunderstorm warning. Pirineo navarro",
+      "provincia": "Gúdar y Maestrazgo",
+      "fenomeno": "Severe thunderstorm warning. Gúdar y Maestrazgo",
       "nivel": "Rojo",
-      "text": "Pirineo navarro: Severe thunderstorm warning. Pirineo navarro (Rojo) (AEMET)",
+      "text": "Gúdar y Maestrazgo: Severe thunderstorm warning. Gúdar y Maestrazgo (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Centro de Navarra",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Centro de Navarra",
-      "nivel": "Naranja",
-      "text": "Centro de Navarra: Aviso de temperaturas máximas de nivel amarillo. Centro de Navarra (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Centro de Navarra",
-      "fenomeno": "Moderate high-temperature warning. Centro de Navarra",
-      "nivel": "Naranja",
-      "text": "Centro de Navarra: Moderate high-temperature warning. Centro de Navarra (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Pirineo navarro",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Pirineo navarro",
-      "nivel": "Naranja",
-      "text": "Pirineo navarro: Aviso de temperaturas máximas de nivel amarillo. Pirineo navarro (Naranja) (AEMET)",
+      "icon": "⛈️",
+      "provincia": "Bajo Aragón de Teruel",
+      "fenomeno": "Aviso de tormentas de nivel naranja. Bajo Aragón de Teruel",
+      "nivel": "Rojo",
+      "text": "Bajo Aragón de Teruel: Aviso de tormentas de nivel naranja. Bajo Aragón de Teruel (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Pirineo navarro",
-      "fenomeno": "Moderate high-temperature warning. Pirineo navarro",
-      "nivel": "Naranja",
-      "text": "Pirineo navarro: Moderate high-temperature warning. Pirineo navarro (Naranja) (AEMET)",
+      "provincia": "Bajo Aragón de Teruel",
+      "fenomeno": "Severe thunderstorm warning. Bajo Aragón de Teruel",
+      "nivel": "Rojo",
+      "text": "Bajo Aragón de Teruel: Severe thunderstorm warning. Bajo Aragón de Teruel (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Ribera del Ebro de Navarra",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Ribera del Ebro de Navarra",
+      "icon": "⛈️",
+      "provincia": "Gúdar y Maestrazgo",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Gúdar y Maestrazgo",
       "nivel": "Naranja",
-      "text": "Ribera del Ebro de Navarra: Aviso de temperaturas máximas de nivel amarillo. Ribera del Ebro de Navarra (Naranja) (AEMET)",
+      "text": "Gúdar y Maestrazgo: Aviso de tormentas de nivel amarillo. Gúdar y Maestrazgo (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Ribera del Ebro de Navarra",
-      "fenomeno": "Moderate high-temperature warning. Ribera del Ebro de Navarra",
+      "provincia": "Gúdar y Maestrazgo",
+      "fenomeno": "Moderate thunderstorm warning. Gúdar y Maestrazgo",
       "nivel": "Naranja",
-      "text": "Ribera del Ebro de Navarra: Moderate high-temperature warning. Ribera del Ebro de Navarra (Naranja) (AEMET)",
+      "text": "Gúdar y Maestrazgo: Moderate thunderstorm warning. Gúdar y Maestrazgo (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Bajo Aragón de Teruel",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Bajo Aragón de Teruel",
+      "nivel": "Naranja",
+      "text": "Bajo Aragón de Teruel: Aviso de tormentas de nivel amarillo. Bajo Aragón de Teruel (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Bajo Aragón de Teruel",
+      "fenomeno": "Moderate thunderstorm warning. Bajo Aragón de Teruel",
+      "nivel": "Naranja",
+      "text": "Bajo Aragón de Teruel: Moderate thunderstorm warning. Bajo Aragón de Teruel (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Litoral cántabro",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral cántabro",
-      "nivel": "Naranja",
-      "text": "Litoral cántabro: Aviso de lluvias de nivel amarillo. Litoral cántabro (Naranja) (AEMET)",
+      "provincia": "Noroeste de Murcia",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Noroeste de Murcia",
+      "nivel": "Rojo",
+      "text": "Noroeste de Murcia: Aviso de lluvias de nivel naranja. Noroeste de Murcia (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Litoral cántabro",
-      "fenomeno": "Moderate rain warning. Litoral cántabro",
-      "nivel": "Naranja",
-      "text": "Litoral cántabro: Moderate rain warning. Litoral cántabro (Naranja) (AEMET)",
+      "provincia": "Noroeste de Murcia",
+      "fenomeno": "Severe rain warning. Noroeste de Murcia",
+      "nivel": "Rojo",
+      "text": "Noroeste de Murcia: Severe rain warning. Noroeste de Murcia (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Centro y valle de Villaverde",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Centro y valle de Villaverde",
-      "nivel": "Naranja",
-      "text": "Centro y valle de Villaverde: Aviso de lluvias de nivel amarillo. Centro y valle de Villaverde (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Centro y valle de Villaverde",
-      "fenomeno": "Moderate rain warning. Centro y valle de Villaverde",
-      "nivel": "Naranja",
-      "text": "Centro y valle de Villaverde: Moderate rain warning. Centro y valle de Villaverde (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Cantabria del Ebro",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Cantabria del Ebro",
-      "nivel": "Naranja",
-      "text": "Cantabria del Ebro: Aviso de lluvias de nivel amarillo. Cantabria del Ebro (Naranja) (AEMET)",
+      "icon": "⛈️",
+      "provincia": "Noroeste de Murcia",
+      "fenomeno": "Aviso de tormentas de nivel naranja. Noroeste de Murcia",
+      "nivel": "Rojo",
+      "text": "Noroeste de Murcia: Aviso de tormentas de nivel naranja. Noroeste de Murcia (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Cantabria del Ebro",
-      "fenomeno": "Moderate rain warning. Cantabria del Ebro",
+      "provincia": "Noroeste de Murcia",
+      "fenomeno": "Severe thunderstorm warning. Noroeste de Murcia",
+      "nivel": "Rojo",
+      "text": "Noroeste de Murcia: Severe thunderstorm warning. Noroeste de Murcia (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Pirineo de Girona",
+      "fenomeno": "Aviso de tormentas de nivel naranja. Pirineo de Girona",
+      "nivel": "Rojo",
+      "text": "Pirineo de Girona: Aviso de tormentas de nivel naranja. Pirineo de Girona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Pirineo de Girona",
+      "fenomeno": "Severe thunderstorm warning. Pirineo de Girona",
+      "nivel": "Rojo",
+      "text": "Pirineo de Girona: Severe thunderstorm warning. Pirineo de Girona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Litoral norte de Alicante",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Litoral norte de Alicante",
       "nivel": "Naranja",
-      "text": "Cantabria del Ebro: Moderate rain warning. Cantabria del Ebro (Naranja) (AEMET)",
+      "text": "Litoral norte de Alicante: Aviso de temperaturas máximas de nivel amarillo. Litoral norte de Alicante (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral norte de Alicante",
+      "fenomeno": "Moderate high-temperature warning. Litoral norte de Alicante",
+      "nivel": "Naranja",
+      "text": "Litoral norte de Alicante: Moderate high-temperature warning. Litoral norte de Alicante (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
