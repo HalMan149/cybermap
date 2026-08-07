@@ -1,41 +1,9 @@
-// Auto-generado por GitHub Actions - 2026-08-07T21:32:37.331Z
+// Auto-generado por GitHub Actions - 2026-08-07T22:16:46.208Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-08-07T21:32:37.331Z",
+  "generated_at": "2026-08-07T22:16:46.208Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
-    {
-      "icon": "🌧️",
-      "provincia": "Guadix y Baza",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Guadix y Baza",
-      "nivel": "Naranja",
-      "text": "Guadix y Baza: Aviso de lluvias de nivel amarillo. Guadix y Baza (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Guadix y Baza",
-      "fenomeno": "Moderate rain warning. Guadix y Baza",
-      "nivel": "Naranja",
-      "text": "Guadix y Baza: Moderate rain warning. Guadix y Baza (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Guadix y Baza",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Guadix y Baza",
-      "nivel": "Naranja",
-      "text": "Guadix y Baza: Aviso de tormentas de nivel amarillo. Guadix y Baza (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Guadix y Baza",
-      "fenomeno": "Moderate thunderstorm warning. Guadix y Baza",
-      "nivel": "Naranja",
-      "text": "Guadix y Baza: Moderate thunderstorm warning. Guadix y Baza (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
     {
       "icon": "🌧️",
       "provincia": "Prepirineo de Barcelona",
@@ -162,6 +130,38 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate high-temperature warning. Valle del Guadiana",
       "nivel": "Naranja",
       "text": "Valle del Guadiana: Moderate high-temperature warning. Valle del Guadiana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Sierras de Alcudia y Madrona",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Sierras de Alcudia y Madrona",
+      "nivel": "Naranja",
+      "text": "Sierras de Alcudia y Madrona: Aviso de temperaturas máximas de nivel amarillo. Sierras de Alcudia y Madrona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sierras de Alcudia y Madrona",
+      "fenomeno": "Moderate high-temperature warning. Sierras de Alcudia y Madrona",
+      "nivel": "Naranja",
+      "text": "Sierras de Alcudia y Madrona: Moderate high-temperature warning. Sierras de Alcudia y Madrona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Metropolitana y Henares",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Metropolitana y Henares",
+      "nivel": "Naranja",
+      "text": "Metropolitana y Henares: Aviso de temperaturas máximas de nivel amarillo. Metropolitana y Henares (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Metropolitana y Henares",
+      "fenomeno": "Moderate high-temperature warning. Metropolitana y Henares",
+      "nivel": "Naranja",
+      "text": "Metropolitana y Henares: Moderate high-temperature warning. Metropolitana y Henares (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
