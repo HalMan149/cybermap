@@ -1,8 +1,40 @@
 {
-  "generated_at": "2026-08-08T18:01:54.277Z",
+  "generated_at": "2026-08-08T18:56:05.306Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Vertiente cantábrica de Navarra",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Vertiente cantábrica de Navarra",
+      "nivel": "Rojo",
+      "text": "Vertiente cantábrica de Navarra: Aviso de lluvias de nivel naranja. Vertiente cantábrica de Navarra (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Vertiente cantábrica de Navarra",
+      "fenomeno": "Severe rain warning. Vertiente cantábrica de Navarra",
+      "nivel": "Rojo",
+      "text": "Vertiente cantábrica de Navarra: Severe rain warning. Vertiente cantábrica de Navarra (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Pirineo navarro",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Pirineo navarro",
+      "nivel": "Rojo",
+      "text": "Pirineo navarro: Aviso de lluvias de nivel naranja. Pirineo navarro (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Pirineo navarro",
+      "fenomeno": "Severe rain warning. Pirineo navarro",
+      "nivel": "Rojo",
+      "text": "Pirineo navarro: Severe rain warning. Pirineo navarro (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌊",
       "provincia": "Altiplano de Murcia",
@@ -129,38 +161,6 @@
       "fenomeno": "Moderate high-temperature warning. Hellín y Almansa",
       "nivel": "Naranja",
       "text": "Hellín y Almansa: Moderate high-temperature warning. Hellín y Almansa (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Montes del norte y Anchuras",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Montes del norte y Anchuras",
-      "nivel": "Naranja",
-      "text": "Montes del norte y Anchuras: Aviso de temperaturas máximas de nivel amarillo. Montes del norte y Anchuras (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Montes del norte y Anchuras",
-      "fenomeno": "Moderate high-temperature warning. Montes del norte y Anchuras",
-      "nivel": "Naranja",
-      "text": "Montes del norte y Anchuras: Moderate high-temperature warning. Montes del norte y Anchuras (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "La Mancha de Ciudad Real",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. La Mancha de Ciudad Real",
-      "nivel": "Naranja",
-      "text": "La Mancha de Ciudad Real: Aviso de temperaturas máximas de nivel amarillo. La Mancha de Ciudad Real (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "La Mancha de Ciudad Real",
-      "fenomeno": "Moderate high-temperature warning. La Mancha de Ciudad Real",
-      "nivel": "Naranja",
-      "text": "La Mancha de Ciudad Real: Moderate high-temperature warning. La Mancha de Ciudad Real (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
