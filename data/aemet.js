@@ -1,9 +1,41 @@
-// Auto-generado por GitHub Actions - 2026-08-08T21:22:01.192Z
+// Auto-generado por GitHub Actions - 2026-08-08T21:53:38.340Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-08-08T21:22:01.192Z",
+  "generated_at": "2026-08-08T21:53:38.340Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "⛈️",
+      "provincia": "Prepirineo de Barcelona",
+      "fenomeno": "Aviso de tormentas de nivel naranja. Prepirineo de Barcelona",
+      "nivel": "Rojo",
+      "text": "Prepirineo de Barcelona: Aviso de tormentas de nivel naranja. Prepirineo de Barcelona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Prepirineo de Barcelona",
+      "fenomeno": "Severe thunderstorm warning. Prepirineo de Barcelona",
+      "nivel": "Rojo",
+      "text": "Prepirineo de Barcelona: Severe thunderstorm warning. Prepirineo de Barcelona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Prepirineo de Barcelona",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Prepirineo de Barcelona",
+      "nivel": "Naranja",
+      "text": "Prepirineo de Barcelona: Aviso de tormentas de nivel amarillo. Prepirineo de Barcelona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Prepirineo de Barcelona",
+      "fenomeno": "Moderate thunderstorm warning. Prepirineo de Barcelona",
+      "nivel": "Naranja",
+      "text": "Prepirineo de Barcelona: Moderate thunderstorm warning. Prepirineo de Barcelona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Vertiente cantábrica de Navarra",
@@ -130,38 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate high-temperature warning. La Mancha albaceteña",
       "nivel": "Naranja",
       "text": "La Mancha albaceteña: Moderate high-temperature warning. La Mancha albaceteña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Alcaraz y Segura",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Alcaraz y Segura",
-      "nivel": "Naranja",
-      "text": "Alcaraz y Segura: Aviso de temperaturas máximas de nivel amarillo. Alcaraz y Segura (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Alcaraz y Segura",
-      "fenomeno": "Moderate high-temperature warning. Alcaraz y Segura",
-      "nivel": "Naranja",
-      "text": "Alcaraz y Segura: Moderate high-temperature warning. Alcaraz y Segura (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Hellín y Almansa",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Hellín y Almansa",
-      "nivel": "Naranja",
-      "text": "Hellín y Almansa: Aviso de temperaturas máximas de nivel amarillo. Hellín y Almansa (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Hellín y Almansa",
-      "fenomeno": "Moderate high-temperature warning. Hellín y Almansa",
-      "nivel": "Naranja",
-      "text": "Hellín y Almansa: Moderate high-temperature warning. Hellín y Almansa (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
