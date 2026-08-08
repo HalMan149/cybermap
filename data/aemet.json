@@ -1,166 +1,166 @@
 {
-  "generated_at": "2026-08-08T09:08:07.707Z",
+  "generated_at": "2026-08-08T09:51:51.634Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
+      "icon": "🌡️",
+      "provincia": "Interior de Mallorca",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Interior de Mallorca",
+      "nivel": "Rojo",
+      "text": "Interior de Mallorca: Aviso de temperaturas máximas de nivel naranja. Interior de Mallorca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior de Mallorca",
+      "fenomeno": "Severe high-temperature warning. Interior de Mallorca",
+      "nivel": "Rojo",
+      "text": "Interior de Mallorca: Severe high-temperature warning. Interior de Mallorca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Sur de Mallorca",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Sur de Mallorca",
+      "nivel": "Rojo",
+      "text": "Sur de Mallorca: Aviso de temperaturas máximas de nivel naranja. Sur de Mallorca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sur de Mallorca",
+      "fenomeno": "Severe high-temperature warning. Sur de Mallorca",
+      "nivel": "Rojo",
+      "text": "Sur de Mallorca: Severe high-temperature warning. Sur de Mallorca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
       "icon": "🌊",
-      "provincia": "Ribera del Ebro de Navarra",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Ribera del Ebro de Navarra",
+      "provincia": "Ibiza y Formentera",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Ibiza y Formentera",
       "nivel": "Naranja",
-      "text": "Ribera del Ebro de Navarra: Aviso de temperaturas máximas de nivel amarillo. Ribera del Ebro de Navarra (Naranja) (AEMET)",
+      "text": "Ibiza y Formentera: Aviso de temperaturas máximas de nivel amarillo. Ibiza y Formentera (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Ribera del Ebro de Navarra",
-      "fenomeno": "Moderate high-temperature warning. Ribera del Ebro de Navarra",
+      "provincia": "Ibiza y Formentera",
+      "fenomeno": "Moderate high-temperature warning. Ibiza y Formentera",
       "nivel": "Naranja",
-      "text": "Ribera del Ebro de Navarra: Moderate high-temperature warning. Ribera del Ebro de Navarra (Naranja) (AEMET)",
+      "text": "Ibiza y Formentera: Moderate high-temperature warning. Ibiza y Formentera (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Vertiente cantábrica de Navarra",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Vertiente cantábrica de Navarra",
+      "icon": "🌊",
+      "provincia": "Sierra Tramontana",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Sierra Tramontana",
       "nivel": "Naranja",
-      "text": "Vertiente cantábrica de Navarra: Aviso de lluvias de nivel amarillo. Vertiente cantábrica de Navarra (Naranja) (AEMET)",
+      "text": "Sierra Tramontana: Aviso de temperaturas máximas de nivel amarillo. Sierra Tramontana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Vertiente cantábrica de Navarra",
-      "fenomeno": "Moderate rain warning. Vertiente cantábrica de Navarra",
+      "provincia": "Sierra Tramontana",
+      "fenomeno": "Moderate high-temperature warning. Sierra Tramontana",
       "nivel": "Naranja",
-      "text": "Vertiente cantábrica de Navarra: Moderate rain warning. Vertiente cantábrica de Navarra (Naranja) (AEMET)",
+      "text": "Sierra Tramontana: Moderate high-temperature warning. Sierra Tramontana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Centro de Navarra",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Centro de Navarra",
+      "icon": "🌊",
+      "provincia": "Norte y nordeste de Mallorca",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Norte y nordeste de Mallorca",
       "nivel": "Naranja",
-      "text": "Centro de Navarra: Aviso de lluvias de nivel amarillo. Centro de Navarra (Naranja) (AEMET)",
+      "text": "Norte y nordeste de Mallorca: Aviso de temperaturas máximas de nivel amarillo. Norte y nordeste de Mallorca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Centro de Navarra",
-      "fenomeno": "Moderate rain warning. Centro de Navarra",
+      "provincia": "Norte y nordeste de Mallorca",
+      "fenomeno": "Moderate high-temperature warning. Norte y nordeste de Mallorca",
       "nivel": "Naranja",
-      "text": "Centro de Navarra: Moderate rain warning. Centro de Navarra (Naranja) (AEMET)",
+      "text": "Norte y nordeste de Mallorca: Moderate high-temperature warning. Norte y nordeste de Mallorca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Pirineo navarro",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Pirineo navarro",
+      "icon": "🌊",
+      "provincia": "Menorca",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Menorca",
       "nivel": "Naranja",
-      "text": "Pirineo navarro: Aviso de lluvias de nivel amarillo. Pirineo navarro (Naranja) (AEMET)",
+      "text": "Menorca: Aviso de temperaturas máximas de nivel amarillo. Menorca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Pirineo navarro",
-      "fenomeno": "Moderate rain warning. Pirineo navarro",
+      "provincia": "Menorca",
+      "fenomeno": "Moderate high-temperature warning. Menorca",
       "nivel": "Naranja",
-      "text": "Pirineo navarro: Moderate rain warning. Pirineo navarro (Naranja) (AEMET)",
+      "text": "Menorca: Moderate high-temperature warning. Menorca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⛈️",
-      "provincia": "Vertiente cantábrica de Navarra",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Vertiente cantábrica de Navarra",
+      "icon": "🌊",
+      "provincia": "Campiña cordobesa",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Campiña cordobesa",
       "nivel": "Naranja",
-      "text": "Vertiente cantábrica de Navarra: Aviso de tormentas de nivel amarillo. Vertiente cantábrica de Navarra (Naranja) (AEMET)",
+      "text": "Campiña cordobesa: Aviso de temperaturas máximas de nivel amarillo. Campiña cordobesa (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Vertiente cantábrica de Navarra",
-      "fenomeno": "Moderate thunderstorm warning. Vertiente cantábrica de Navarra",
+      "provincia": "Campiña cordobesa",
+      "fenomeno": "Moderate high-temperature warning. Campiña cordobesa",
       "nivel": "Naranja",
-      "text": "Vertiente cantábrica de Navarra: Moderate thunderstorm warning. Vertiente cantábrica de Navarra (Naranja) (AEMET)",
+      "text": "Campiña cordobesa: Moderate high-temperature warning. Campiña cordobesa (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⛈️",
-      "provincia": "Centro de Navarra",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Centro de Navarra",
+      "icon": "🌊",
+      "provincia": "Cuenca del Genil",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Cuenca del Genil",
       "nivel": "Naranja",
-      "text": "Centro de Navarra: Aviso de tormentas de nivel amarillo. Centro de Navarra (Naranja) (AEMET)",
+      "text": "Cuenca del Genil: Aviso de temperaturas máximas de nivel amarillo. Cuenca del Genil (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Centro de Navarra",
-      "fenomeno": "Moderate thunderstorm warning. Centro de Navarra",
+      "provincia": "Cuenca del Genil",
+      "fenomeno": "Moderate high-temperature warning. Cuenca del Genil",
       "nivel": "Naranja",
-      "text": "Centro de Navarra: Moderate thunderstorm warning. Centro de Navarra (Naranja) (AEMET)",
+      "text": "Cuenca del Genil: Moderate high-temperature warning. Cuenca del Genil (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⛈️",
-      "provincia": "Pirineo navarro",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Pirineo navarro",
+      "icon": "🌊",
+      "provincia": "Morena y Condado",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Morena y Condado",
       "nivel": "Naranja",
-      "text": "Pirineo navarro: Aviso de tormentas de nivel amarillo. Pirineo navarro (Naranja) (AEMET)",
+      "text": "Morena y Condado: Aviso de temperaturas máximas de nivel amarillo. Morena y Condado (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Pirineo navarro",
-      "fenomeno": "Moderate thunderstorm warning. Pirineo navarro",
+      "provincia": "Morena y Condado",
+      "fenomeno": "Moderate high-temperature warning. Morena y Condado",
       "nivel": "Naranja",
-      "text": "Pirineo navarro: Moderate thunderstorm warning. Pirineo navarro (Naranja) (AEMET)",
+      "text": "Morena y Condado: Moderate high-temperature warning. Morena y Condado (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⛈️",
-      "provincia": "Centro de Navarra",
-      "fenomeno": "Aviso de tormentas de nivel naranja. Centro de Navarra",
-      "nivel": "Rojo",
-      "text": "Centro de Navarra: Aviso de tormentas de nivel naranja. Centro de Navarra (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Centro de Navarra",
-      "fenomeno": "Severe thunderstorm warning. Centro de Navarra",
-      "nivel": "Rojo",
-      "text": "Centro de Navarra: Severe thunderstorm warning. Centro de Navarra (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Bajo Aragón de Teruel",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Bajo Aragón de Teruel",
-      "nivel": "Rojo",
-      "text": "Bajo Aragón de Teruel: Aviso de lluvias de nivel naranja. Bajo Aragón de Teruel (Rojo) (AEMET)",
+      "icon": "🌊",
+      "provincia": "Valle del Guadalquivir de Jaén",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Valle del Guadalquivir de Jaén",
+      "nivel": "Naranja",
+      "text": "Valle del Guadalquivir de Jaén: Aviso de temperaturas máximas de nivel amarillo. Valle del Guadalquivir de Jaén (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Bajo Aragón de Teruel",
-      "fenomeno": "Severe rain warning. Bajo Aragón de Teruel",
-      "nivel": "Rojo",
-      "text": "Bajo Aragón de Teruel: Severe rain warning. Bajo Aragón de Teruel (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Ribera del Ebro de Zaragoza",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Ribera del Ebro de Zaragoza",
-      "nivel": "Rojo",
-      "text": "Ribera del Ebro de Zaragoza: Aviso de lluvias de nivel naranja. Ribera del Ebro de Zaragoza (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ribera del Ebro de Zaragoza",
-      "fenomeno": "Severe rain warning. Ribera del Ebro de Zaragoza",
-      "nivel": "Rojo",
-      "text": "Ribera del Ebro de Zaragoza: Severe rain warning. Ribera del Ebro de Zaragoza (Rojo) (AEMET)",
+      "provincia": "Valle del Guadalquivir de Jaén",
+      "fenomeno": "Moderate high-temperature warning. Valle del Guadalquivir de Jaén",
+      "nivel": "Naranja",
+      "text": "Valle del Guadalquivir de Jaén: Moderate high-temperature warning. Valle del Guadalquivir de Jaén (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
