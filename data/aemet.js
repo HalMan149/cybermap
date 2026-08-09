@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-08-09T09:08:46.501Z
+// Auto-generado por GitHub Actions - 2026-08-09T09:53:39.065Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-08-09T09:08:46.501Z",
+  "generated_at": "2026-08-09T09:53:39.065Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "🌊",
-      "provincia": "Guadix y Baza",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Guadix y Baza",
+      "provincia": "Costa - Litoral norte de Alicante",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral norte de Alicante",
       "nivel": "Naranja",
-      "text": "Guadix y Baza: Aviso de temperaturas máximas de nivel amarillo. Guadix y Baza (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Guadix y Baza",
-      "fenomeno": "Moderate high-temperature warning. Guadix y Baza",
-      "nivel": "Naranja",
-      "text": "Guadix y Baza: Moderate high-temperature warning. Guadix y Baza (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Ribera del Ebro de La Rioja",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Ribera del Ebro de La Rioja",
-      "nivel": "Naranja",
-      "text": "Ribera del Ebro de La Rioja: Aviso de lluvias de nivel amarillo. Ribera del Ebro de La Rioja (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ribera del Ebro de La Rioja",
-      "fenomeno": "Moderate rain warning. Ribera del Ebro de La Rioja",
-      "nivel": "Naranja",
-      "text": "Ribera del Ebro de La Rioja: Moderate rain warning. Ribera del Ebro de La Rioja (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Ribera del Ebro de La Rioja",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Ribera del Ebro de La Rioja",
-      "nivel": "Naranja",
-      "text": "Ribera del Ebro de La Rioja: Aviso de tormentas de nivel amarillo. Ribera del Ebro de La Rioja (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ribera del Ebro de La Rioja",
-      "fenomeno": "Moderate thunderstorm warning. Ribera del Ebro de La Rioja",
-      "nivel": "Naranja",
-      "text": "Ribera del Ebro de La Rioja: Moderate thunderstorm warning. Ribera del Ebro de La Rioja (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Condado de Treviño",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Condado de Treviño",
-      "nivel": "Naranja",
-      "text": "Condado de Treviño: Aviso de lluvias de nivel amarillo. Condado de Treviño (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Condado de Treviño",
-      "fenomeno": "Moderate rain warning. Condado de Treviño",
-      "nivel": "Naranja",
-      "text": "Condado de Treviño: Moderate rain warning. Condado de Treviño (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Condado de Treviño",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Condado de Treviño",
-      "nivel": "Naranja",
-      "text": "Condado de Treviño: Aviso de tormentas de nivel amarillo. Condado de Treviño (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Condado de Treviño",
-      "fenomeno": "Moderate thunderstorm warning. Condado de Treviño",
-      "nivel": "Naranja",
-      "text": "Condado de Treviño: Moderate thunderstorm warning. Condado de Treviño (Naranja) (AEMET)",
+      "text": "Costa - Litoral norte de Alicante: Aviso de costeros de nivel amarillo. Costa - Litoral norte de Alicante (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Serranía de Guadalajara",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Serranía de Guadalajara",
+      "provincia": "Costa - Litoral norte de Alicante",
+      "fenomeno": "Moderate coastalevent warning. Costa - Litoral norte de Alicante",
       "nivel": "Naranja",
-      "text": "Serranía de Guadalajara: Aviso de temperaturas máximas de nivel amarillo. Serranía de Guadalajara (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Serranía de Guadalajara",
-      "fenomeno": "Moderate high-temperature warning. Serranía de Guadalajara",
-      "nivel": "Naranja",
-      "text": "Serranía de Guadalajara: Moderate high-temperature warning. Serranía de Guadalajara (Naranja) (AEMET)",
+      "text": "Costa - Litoral norte de Alicante: Moderate coastalevent warning. Costa - Litoral norte de Alicante (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Parameras de Molina",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Parameras de Molina",
+      "provincia": "Costa - Litoral norte de Valencia",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral norte de Valencia",
       "nivel": "Naranja",
-      "text": "Parameras de Molina: Aviso de temperaturas máximas de nivel amarillo. Parameras de Molina (Naranja) (AEMET)",
+      "text": "Costa - Litoral norte de Valencia: Aviso de costeros de nivel amarillo. Costa - Litoral norte de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral norte de Valencia",
+      "fenomeno": "Moderate coastalevent warning. Costa - Litoral norte de Valencia",
+      "nivel": "Naranja",
+      "text": "Costa - Litoral norte de Valencia: Moderate coastalevent warning. Costa - Litoral norte de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral sur de Valencia",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral sur de Valencia",
+      "nivel": "Naranja",
+      "text": "Costa - Litoral sur de Valencia: Aviso de costeros de nivel amarillo. Costa - Litoral sur de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral sur de Valencia",
+      "fenomeno": "Moderate coastalevent warning. Costa - Litoral sur de Valencia",
+      "nivel": "Naranja",
+      "text": "Costa - Litoral sur de Valencia: Moderate coastalevent warning. Costa - Litoral sur de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Interior norte de Castellón",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Interior norte de Castellón",
+      "nivel": "Rojo",
+      "text": "Interior norte de Castellón: Aviso de lluvias de nivel naranja. Interior norte de Castellón (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Parameras de Molina",
-      "fenomeno": "Moderate high-temperature warning. Parameras de Molina",
-      "nivel": "Naranja",
-      "text": "Parameras de Molina: Moderate high-temperature warning. Parameras de Molina (Naranja) (AEMET)",
+      "provincia": "Interior norte de Castellón",
+      "fenomeno": "Severe rain warning. Interior norte de Castellón",
+      "nivel": "Rojo",
+      "text": "Interior norte de Castellón: Severe rain warning. Interior norte de Castellón (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Interior sur de Castellón",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Interior sur de Castellón",
+      "nivel": "Rojo",
+      "text": "Interior sur de Castellón: Aviso de lluvias de nivel naranja. Interior sur de Castellón (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior sur de Castellón",
+      "fenomeno": "Severe rain warning. Interior sur de Castellón",
+      "nivel": "Rojo",
+      "text": "Interior sur de Castellón: Severe rain warning. Interior sur de Castellón (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Interior norte de Valencia",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Interior norte de Valencia",
+      "nivel": "Rojo",
+      "text": "Interior norte de Valencia: Aviso de lluvias de nivel naranja. Interior norte de Valencia (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior norte de Valencia",
+      "fenomeno": "Severe rain warning. Interior norte de Valencia",
+      "nivel": "Rojo",
+      "text": "Interior norte de Valencia: Severe rain warning. Interior norte de Valencia (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Interior sur de Valencia",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Interior sur de Valencia",
+      "nivel": "Rojo",
+      "text": "Interior sur de Valencia: Aviso de lluvias de nivel naranja. Interior sur de Valencia (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior sur de Valencia",
+      "fenomeno": "Severe rain warning. Interior sur de Valencia",
+      "nivel": "Rojo",
+      "text": "Interior sur de Valencia: Severe rain warning. Interior sur de Valencia (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Litoral sur de Valencia",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Litoral sur de Valencia",
+      "nivel": "Rojo",
+      "text": "Litoral sur de Valencia: Aviso de lluvias de nivel naranja. Litoral sur de Valencia (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral sur de Valencia",
+      "fenomeno": "Severe rain warning. Litoral sur de Valencia",
+      "nivel": "Rojo",
+      "text": "Litoral sur de Valencia: Severe rain warning. Litoral sur de Valencia (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Alcaraz y Segura",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Alcaraz y Segura",
-      "nivel": "Naranja",
-      "text": "Alcaraz y Segura: Aviso de tormentas de nivel amarillo. Alcaraz y Segura (Naranja) (AEMET)",
+      "provincia": "Interior norte de Castellón",
+      "fenomeno": "Aviso de tormentas de nivel naranja. Interior norte de Castellón",
+      "nivel": "Rojo",
+      "text": "Interior norte de Castellón: Aviso de tormentas de nivel naranja. Interior norte de Castellón (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Alcaraz y Segura",
-      "fenomeno": "Moderate thunderstorm warning. Alcaraz y Segura",
-      "nivel": "Naranja",
-      "text": "Alcaraz y Segura: Moderate thunderstorm warning. Alcaraz y Segura (Naranja) (AEMET)",
+      "provincia": "Interior norte de Castellón",
+      "fenomeno": "Severe thunderstorm warning. Interior norte de Castellón",
+      "nivel": "Rojo",
+      "text": "Interior norte de Castellón: Severe thunderstorm warning. Interior norte de Castellón (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Ribera del Ebro de Navarra",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Ribera del Ebro de Navarra",
-      "nivel": "Naranja",
-      "text": "Ribera del Ebro de Navarra: Aviso de lluvias de nivel amarillo. Ribera del Ebro de Navarra (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ribera del Ebro de Navarra",
-      "fenomeno": "Moderate rain warning. Ribera del Ebro de Navarra",
-      "nivel": "Naranja",
-      "text": "Ribera del Ebro de Navarra: Moderate rain warning. Ribera del Ebro de Navarra (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Llanada alavesa",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Llanada alavesa",
-      "nivel": "Naranja",
-      "text": "Llanada alavesa: Aviso de lluvias de nivel amarillo. Llanada alavesa (Naranja) (AEMET)",
+      "icon": "⛈️",
+      "provincia": "Interior sur de Castellón",
+      "fenomeno": "Aviso de tormentas de nivel naranja. Interior sur de Castellón",
+      "nivel": "Rojo",
+      "text": "Interior sur de Castellón: Aviso de tormentas de nivel naranja. Interior sur de Castellón (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Llanada alavesa",
-      "fenomeno": "Moderate rain warning. Llanada alavesa",
-      "nivel": "Naranja",
-      "text": "Llanada alavesa: Moderate rain warning. Llanada alavesa (Naranja) (AEMET)",
+      "provincia": "Interior sur de Castellón",
+      "fenomeno": "Severe thunderstorm warning. Interior sur de Castellón",
+      "nivel": "Rojo",
+      "text": "Interior sur de Castellón: Severe thunderstorm warning. Interior sur de Castellón (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
