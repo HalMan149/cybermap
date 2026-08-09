@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2026-08-09T21:36:16.853Z
+// Auto-generado por GitHub Actions - 2026-08-09T22:02:26.072Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-08-09T21:36:16.853Z",
+  "generated_at": "2026-08-09T22:02:26.072Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Gipuzkoa litoral",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Gipuzkoa litoral",
+      "nivel": "Rojo",
+      "text": "Gipuzkoa litoral: Aviso de lluvias de nivel naranja. Gipuzkoa litoral (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Gipuzkoa litoral",
+      "fenomeno": "Severe rain warning. Gipuzkoa litoral",
+      "nivel": "Rojo",
+      "text": "Gipuzkoa litoral: Severe rain warning. Gipuzkoa litoral (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "⛈️",
       "provincia": "Serranía de Cuenca",
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Severe thunderstorm warning. Hellín y Almansa",
       "nivel": "Rojo",
       "text": "Hellín y Almansa: Severe thunderstorm warning. Hellín y Almansa (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "La Mancha albaceteña",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. La Mancha albaceteña",
-      "nivel": "Naranja",
-      "text": "La Mancha albaceteña: Aviso de tormentas de nivel amarillo. La Mancha albaceteña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "La Mancha albaceteña",
-      "fenomeno": "Moderate thunderstorm warning. La Mancha albaceteña",
-      "nivel": "Naranja",
-      "text": "La Mancha albaceteña: Moderate thunderstorm warning. La Mancha albaceteña (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
