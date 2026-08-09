@@ -1,55 +1,23 @@
-// Auto-generado por GitHub Actions - 2026-08-09T15:44:04.284Z
+// Auto-generado por GitHub Actions - 2026-08-09T16:04:21.123Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-08-09T15:44:04.284Z",
+  "generated_at": "2026-08-09T16:04:21.123Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "⛈️",
-      "provincia": "Ibérica zaragozana",
-      "fenomeno": "Aviso de tormentas de nivel naranja. Ibérica zaragozana",
-      "nivel": "Rojo",
-      "text": "Ibérica zaragozana: Aviso de tormentas de nivel naranja. Ibérica zaragozana (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ibérica zaragozana",
-      "fenomeno": "Severe thunderstorm warning. Ibérica zaragozana",
-      "nivel": "Rojo",
-      "text": "Ibérica zaragozana: Severe thunderstorm warning. Ibérica zaragozana (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Ribera del Ebro de Zaragoza",
-      "fenomeno": "Aviso de tormentas de nivel naranja. Ribera del Ebro de Zaragoza",
-      "nivel": "Rojo",
-      "text": "Ribera del Ebro de Zaragoza: Aviso de tormentas de nivel naranja. Ribera del Ebro de Zaragoza (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ribera del Ebro de Zaragoza",
-      "fenomeno": "Severe thunderstorm warning. Ribera del Ebro de Zaragoza",
-      "nivel": "Rojo",
-      "text": "Ribera del Ebro de Zaragoza: Severe thunderstorm warning. Ribera del Ebro de Zaragoza (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Ribera del Ebro de Zaragoza",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Ribera del Ebro de Zaragoza",
+      "provincia": "Bajo Aragón de Teruel",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Bajo Aragón de Teruel",
       "nivel": "Naranja",
-      "text": "Ribera del Ebro de Zaragoza: Aviso de tormentas de nivel amarillo. Ribera del Ebro de Zaragoza (Naranja) (AEMET)",
+      "text": "Bajo Aragón de Teruel: Aviso de tormentas de nivel amarillo. Bajo Aragón de Teruel (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Ribera del Ebro de Zaragoza",
-      "fenomeno": "Moderate thunderstorm warning. Ribera del Ebro de Zaragoza",
+      "provincia": "Bajo Aragón de Teruel",
+      "fenomeno": "Moderate thunderstorm warning. Bajo Aragón de Teruel",
       "nivel": "Naranja",
-      "text": "Ribera del Ebro de Zaragoza: Moderate thunderstorm warning. Ribera del Ebro de Zaragoza (Naranja) (AEMET)",
+      "text": "Bajo Aragón de Teruel: Moderate thunderstorm warning. Bajo Aragón de Teruel (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -162,6 +130,38 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate high-temperature warning. Interior de Mallorca",
       "nivel": "Naranja",
       "text": "Interior de Mallorca: Moderate high-temperature warning. Interior de Mallorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Sur de Mallorca",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Sur de Mallorca",
+      "nivel": "Naranja",
+      "text": "Sur de Mallorca: Aviso de temperaturas máximas de nivel amarillo. Sur de Mallorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sur de Mallorca",
+      "fenomeno": "Moderate high-temperature warning. Sur de Mallorca",
+      "nivel": "Naranja",
+      "text": "Sur de Mallorca: Moderate high-temperature warning. Sur de Mallorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Menorca",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Menorca",
+      "nivel": "Naranja",
+      "text": "Menorca: Aviso de temperaturas máximas de nivel amarillo. Menorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Menorca",
+      "fenomeno": "Moderate high-temperature warning. Menorca",
+      "nivel": "Naranja",
+      "text": "Menorca: Moderate high-temperature warning. Menorca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
