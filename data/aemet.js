@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2026-08-09T19:47:01.482Z
+// Auto-generado por GitHub Actions - 2026-08-09T20:21:27.320Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-08-09T19:47:01.482Z",
+  "generated_at": "2026-08-09T20:21:27.320Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "⛈️",
+      "provincia": "Serranía de Cuenca",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Serranía de Cuenca",
+      "nivel": "Naranja",
+      "text": "Serranía de Cuenca: Aviso de tormentas de nivel amarillo. Serranía de Cuenca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Serranía de Cuenca",
+      "fenomeno": "Moderate thunderstorm warning. Serranía de Cuenca",
+      "nivel": "Naranja",
+      "text": "Serranía de Cuenca: Moderate thunderstorm warning. Serranía de Cuenca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌊",
       "provincia": "Sierra de San Vicente",
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate thunderstorm warning. La Mancha albaceteña",
       "nivel": "Naranja",
       "text": "La Mancha albaceteña: Moderate thunderstorm warning. La Mancha albaceteña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Alcaraz y Segura",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Alcaraz y Segura",
-      "nivel": "Naranja",
-      "text": "Alcaraz y Segura: Aviso de tormentas de nivel amarillo. Alcaraz y Segura (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Alcaraz y Segura",
-      "fenomeno": "Moderate thunderstorm warning. Alcaraz y Segura",
-      "nivel": "Naranja",
-      "text": "Alcaraz y Segura: Moderate thunderstorm warning. Alcaraz y Segura (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
