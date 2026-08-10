@@ -1,22 +1,54 @@
 {
-  "generated_at": "2026-08-10T14:14:40.461Z",
+  "generated_at": "2026-08-10T15:16:49.977Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "⛈️",
+      "icon": "🌧️",
       "provincia": "Vega del Segura",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Vega del Segura",
-      "nivel": "Naranja",
-      "text": "Vega del Segura: Aviso de tormentas de nivel amarillo. Vega del Segura (Naranja) (AEMET)",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Vega del Segura",
+      "nivel": "Rojo",
+      "text": "Vega del Segura: Aviso de lluvias de nivel naranja. Vega del Segura (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
       "provincia": "Vega del Segura",
-      "fenomeno": "Moderate thunderstorm warning. Vega del Segura",
+      "fenomeno": "Severe rain warning. Vega del Segura",
+      "nivel": "Rojo",
+      "text": "Vega del Segura: Severe rain warning. Vega del Segura (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Vega del Segura",
+      "fenomeno": "Aviso de tormentas de nivel naranja. Vega del Segura",
+      "nivel": "Rojo",
+      "text": "Vega del Segura: Aviso de tormentas de nivel naranja. Vega del Segura (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Vega del Segura",
+      "fenomeno": "Severe thunderstorm warning. Vega del Segura",
+      "nivel": "Rojo",
+      "text": "Vega del Segura: Severe thunderstorm warning. Vega del Segura (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Alcaraz y Segura",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Alcaraz y Segura",
       "nivel": "Naranja",
-      "text": "Vega del Segura: Moderate thunderstorm warning. Vega del Segura (Naranja) (AEMET)",
+      "text": "Alcaraz y Segura: Aviso de lluvias de nivel amarillo. Alcaraz y Segura (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Alcaraz y Segura",
+      "fenomeno": "Moderate rain warning. Alcaraz y Segura",
+      "nivel": "Naranja",
+      "text": "Alcaraz y Segura: Moderate rain warning. Alcaraz y Segura (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -33,22 +65,6 @@
       "fenomeno": "Moderate thunderstorm warning. Valle del Guadalentín, Lorca y Águilas",
       "nivel": "Naranja",
       "text": "Valle del Guadalentín, Lorca y Águilas: Moderate thunderstorm warning. Valle del Guadalentín, Lorca y Águilas (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Vega del Segura",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Vega del Segura",
-      "nivel": "Naranja",
-      "text": "Vega del Segura: Aviso de lluvias de nivel amarillo. Vega del Segura (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Vega del Segura",
-      "fenomeno": "Moderate rain warning. Vega del Segura",
-      "nivel": "Naranja",
-      "text": "Vega del Segura: Moderate rain warning. Vega del Segura (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -145,22 +161,6 @@
       "fenomeno": "Severe high-temperature warning. Cinco Villas de Zaragoza",
       "nivel": "Rojo",
       "text": "Cinco Villas de Zaragoza: Severe high-temperature warning. Cinco Villas de Zaragoza (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Ribera del Ebro de Zaragoza",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Ribera del Ebro de Zaragoza",
-      "nivel": "Rojo",
-      "text": "Ribera del Ebro de Zaragoza: Aviso de temperaturas máximas de nivel naranja. Ribera del Ebro de Zaragoza (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ribera del Ebro de Zaragoza",
-      "fenomeno": "Severe high-temperature warning. Ribera del Ebro de Zaragoza",
-      "nivel": "Rojo",
-      "text": "Ribera del Ebro de Zaragoza: Severe high-temperature warning. Ribera del Ebro de Zaragoza (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
