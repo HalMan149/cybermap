@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2026-08-10T19:14:00.469Z
+// Auto-generado por GitHub Actions - 2026-08-10T20:01:52.047Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-08-10T19:14:00.469Z",
+  "generated_at": "2026-08-10T20:01:52.047Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "⛈️",
+      "provincia": "Ibiza y Formentera",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Ibiza y Formentera",
+      "nivel": "Naranja",
+      "text": "Ibiza y Formentera: Aviso de tormentas de nivel amarillo. Ibiza y Formentera (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ibiza y Formentera",
+      "fenomeno": "Moderate thunderstorm warning. Ibiza y Formentera",
+      "nivel": "Naranja",
+      "text": "Ibiza y Formentera: Moderate thunderstorm warning. Ibiza y Formentera (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌊",
       "provincia": "Antequera",
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate rain warning. Guadix y Baza",
       "nivel": "Naranja",
       "text": "Guadix y Baza: Moderate rain warning. Guadix y Baza (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Noroeste de Murcia",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Noroeste de Murcia",
-      "nivel": "Naranja",
-      "text": "Noroeste de Murcia: Aviso de lluvias de nivel amarillo. Noroeste de Murcia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Noroeste de Murcia",
-      "fenomeno": "Moderate rain warning. Noroeste de Murcia",
-      "nivel": "Naranja",
-      "text": "Noroeste de Murcia: Moderate rain warning. Noroeste de Murcia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
