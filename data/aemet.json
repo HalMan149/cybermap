@@ -1,104 +1,8 @@
 {
-  "generated_at": "2026-08-11T06:33:04.561Z",
+  "generated_at": "2026-08-11T07:51:45.294Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
-    {
-      "icon": "🌧️",
-      "provincia": "Ribera del Ebro de Navarra",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Ribera del Ebro de Navarra",
-      "nivel": "Rojo",
-      "text": "Ribera del Ebro de Navarra: Aviso de lluvias de nivel naranja. Ribera del Ebro de Navarra (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ribera del Ebro de Navarra",
-      "fenomeno": "Severe rain warning. Ribera del Ebro de Navarra",
-      "nivel": "Rojo",
-      "text": "Ribera del Ebro de Navarra: Severe rain warning. Ribera del Ebro de Navarra (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Centro de Navarra",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Centro de Navarra",
-      "nivel": "Naranja",
-      "text": "Centro de Navarra: Aviso de lluvias de nivel amarillo. Centro de Navarra (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Centro de Navarra",
-      "fenomeno": "Moderate rain warning. Centro de Navarra",
-      "nivel": "Naranja",
-      "text": "Centro de Navarra: Moderate rain warning. Centro de Navarra (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Centro de Navarra",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Centro de Navarra",
-      "nivel": "Naranja",
-      "text": "Centro de Navarra: Aviso de tormentas de nivel amarillo. Centro de Navarra (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Centro de Navarra",
-      "fenomeno": "Moderate thunderstorm warning. Centro de Navarra",
-      "nivel": "Naranja",
-      "text": "Centro de Navarra: Moderate thunderstorm warning. Centro de Navarra (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Ribera del Ebro de Navarra",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Ribera del Ebro de Navarra",
-      "nivel": "Naranja",
-      "text": "Ribera del Ebro de Navarra: Aviso de tormentas de nivel amarillo. Ribera del Ebro de Navarra (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ribera del Ebro de Navarra",
-      "fenomeno": "Moderate thunderstorm warning. Ribera del Ebro de Navarra",
-      "nivel": "Naranja",
-      "text": "Ribera del Ebro de Navarra: Moderate thunderstorm warning. Ribera del Ebro de Navarra (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Ibiza y Formentera",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Ibiza y Formentera",
-      "nivel": "Naranja",
-      "text": "Ibiza y Formentera: Aviso de tormentas de nivel amarillo. Ibiza y Formentera (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ibiza y Formentera",
-      "fenomeno": "Moderate thunderstorm warning. Ibiza y Formentera",
-      "nivel": "Naranja",
-      "text": "Ibiza y Formentera: Moderate thunderstorm warning. Ibiza y Formentera (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Antequera",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Antequera",
-      "nivel": "Naranja",
-      "text": "Antequera: Aviso de temperaturas máximas de nivel amarillo. Antequera (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Antequera",
-      "fenomeno": "Moderate high-temperature warning. Antequera",
-      "nivel": "Naranja",
-      "text": "Antequera: Moderate high-temperature warning. Antequera (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
     {
       "icon": "🌡️",
       "provincia": "Sur de Huesca",
@@ -117,50 +21,146 @@
     },
     {
       "icon": "🌡️",
-      "provincia": "Depresión central de Lleida",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Depresión central de Lleida",
+      "provincia": "Cinco Villas de Zaragoza",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Cinco Villas de Zaragoza",
       "nivel": "Rojo",
-      "text": "Depresión central de Lleida: Aviso de temperaturas máximas de nivel naranja. Depresión central de Lleida (Rojo) (AEMET)",
+      "text": "Cinco Villas de Zaragoza: Aviso de temperaturas máximas de nivel naranja. Cinco Villas de Zaragoza (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Depresión central de Lleida",
-      "fenomeno": "Severe high-temperature warning. Depresión central de Lleida",
+      "provincia": "Cinco Villas de Zaragoza",
+      "fenomeno": "Severe high-temperature warning. Cinco Villas de Zaragoza",
       "nivel": "Rojo",
-      "text": "Depresión central de Lleida: Severe high-temperature warning. Depresión central de Lleida (Rojo) (AEMET)",
+      "text": "Cinco Villas de Zaragoza: Severe high-temperature warning. Cinco Villas de Zaragoza (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌡️",
-      "provincia": "Miño de Ourense",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Miño de Ourense",
+      "provincia": "Ribera del Ebro de Zaragoza",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Ribera del Ebro de Zaragoza",
       "nivel": "Rojo",
-      "text": "Miño de Ourense: Aviso de temperaturas máximas de nivel naranja. Miño de Ourense (Rojo) (AEMET)",
+      "text": "Ribera del Ebro de Zaragoza: Aviso de temperaturas máximas de nivel naranja. Ribera del Ebro de Zaragoza (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Miño de Ourense",
-      "fenomeno": "Severe high-temperature warning. Miño de Ourense",
+      "provincia": "Ribera del Ebro de Zaragoza",
+      "fenomeno": "Severe high-temperature warning. Ribera del Ebro de Zaragoza",
       "nivel": "Rojo",
-      "text": "Miño de Ourense: Severe high-temperature warning. Miño de Ourense (Rojo) (AEMET)",
+      "text": "Ribera del Ebro de Zaragoza: Severe high-temperature warning. Ribera del Ebro de Zaragoza (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌡️",
-      "provincia": "Centro de Navarra",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Centro de Navarra",
-      "nivel": "Rojo",
-      "text": "Centro de Navarra: Aviso de temperaturas máximas de nivel naranja. Centro de Navarra (Rojo) (AEMET)",
+      "icon": "🌊",
+      "provincia": "Centro de Huesca",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Centro de Huesca",
+      "nivel": "Naranja",
+      "text": "Centro de Huesca: Aviso de temperaturas máximas de nivel amarillo. Centro de Huesca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Centro de Navarra",
-      "fenomeno": "Severe high-temperature warning. Centro de Navarra",
-      "nivel": "Rojo",
-      "text": "Centro de Navarra: Severe high-temperature warning. Centro de Navarra (Rojo) (AEMET)",
+      "provincia": "Centro de Huesca",
+      "fenomeno": "Moderate high-temperature warning. Centro de Huesca",
+      "nivel": "Naranja",
+      "text": "Centro de Huesca: Moderate high-temperature warning. Centro de Huesca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Sur de Huesca",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Sur de Huesca",
+      "nivel": "Naranja",
+      "text": "Sur de Huesca: Aviso de temperaturas máximas de nivel amarillo. Sur de Huesca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sur de Huesca",
+      "fenomeno": "Moderate high-temperature warning. Sur de Huesca",
+      "nivel": "Naranja",
+      "text": "Sur de Huesca: Moderate high-temperature warning. Sur de Huesca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Bajo Aragón de Teruel",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Bajo Aragón de Teruel",
+      "nivel": "Naranja",
+      "text": "Bajo Aragón de Teruel: Aviso de temperaturas máximas de nivel amarillo. Bajo Aragón de Teruel (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Bajo Aragón de Teruel",
+      "fenomeno": "Moderate high-temperature warning. Bajo Aragón de Teruel",
+      "nivel": "Naranja",
+      "text": "Bajo Aragón de Teruel: Moderate high-temperature warning. Bajo Aragón de Teruel (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Cinco Villas de Zaragoza",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Cinco Villas de Zaragoza",
+      "nivel": "Naranja",
+      "text": "Cinco Villas de Zaragoza: Aviso de temperaturas máximas de nivel amarillo. Cinco Villas de Zaragoza (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cinco Villas de Zaragoza",
+      "fenomeno": "Moderate high-temperature warning. Cinco Villas de Zaragoza",
+      "nivel": "Naranja",
+      "text": "Cinco Villas de Zaragoza: Moderate high-temperature warning. Cinco Villas de Zaragoza (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Ibérica zaragozana",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Ibérica zaragozana",
+      "nivel": "Naranja",
+      "text": "Ibérica zaragozana: Aviso de temperaturas máximas de nivel amarillo. Ibérica zaragozana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ibérica zaragozana",
+      "fenomeno": "Moderate high-temperature warning. Ibérica zaragozana",
+      "nivel": "Naranja",
+      "text": "Ibérica zaragozana: Moderate high-temperature warning. Ibérica zaragozana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Depresión central de Barcelona",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Depresión central de Barcelona",
+      "nivel": "Naranja",
+      "text": "Depresión central de Barcelona: Aviso de temperaturas máximas de nivel amarillo. Depresión central de Barcelona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Depresión central de Barcelona",
+      "fenomeno": "Moderate high-temperature warning. Depresión central de Barcelona",
+      "nivel": "Naranja",
+      "text": "Depresión central de Barcelona: Moderate high-temperature warning. Depresión central de Barcelona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Prelitoral de Barcelona",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Prelitoral de Barcelona",
+      "nivel": "Naranja",
+      "text": "Prelitoral de Barcelona: Aviso de temperaturas máximas de nivel amarillo. Prelitoral de Barcelona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Prelitoral de Barcelona",
+      "fenomeno": "Moderate high-temperature warning. Prelitoral de Barcelona",
+      "nivel": "Naranja",
+      "text": "Prelitoral de Barcelona: Moderate high-temperature warning. Prelitoral de Barcelona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
