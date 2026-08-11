@@ -1,166 +1,166 @@
 {
-  "generated_at": "2026-08-11T16:33:13.296Z",
+  "generated_at": "2026-08-11T17:38:10.359Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
+      "icon": "🌊",
+      "provincia": "Montaña de Ourense",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Montaña de Ourense",
+      "nivel": "Naranja",
+      "text": "Montaña de Ourense: Aviso de temperaturas máximas de nivel amarillo. Montaña de Ourense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Montaña de Ourense",
+      "fenomeno": "Moderate high-temperature warning. Montaña de Ourense",
+      "nivel": "Naranja",
+      "text": "Montaña de Ourense: Moderate high-temperature warning. Montaña de Ourense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Llanada alavesa",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Llanada alavesa",
+      "nivel": "Rojo",
+      "text": "Llanada alavesa: Aviso de temperaturas máximas de nivel naranja. Llanada alavesa (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Llanada alavesa",
+      "fenomeno": "Severe high-temperature warning. Llanada alavesa",
+      "nivel": "Rojo",
+      "text": "Llanada alavesa: Severe high-temperature warning. Llanada alavesa (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Rioja alavesa",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Rioja alavesa",
+      "nivel": "Rojo",
+      "text": "Rioja alavesa: Aviso de temperaturas máximas de nivel naranja. Rioja alavesa (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Rioja alavesa",
+      "fenomeno": "Severe high-temperature warning. Rioja alavesa",
+      "nivel": "Rojo",
+      "text": "Rioja alavesa: Severe high-temperature warning. Rioja alavesa (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Norte de Burgos",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Norte de Burgos",
+      "nivel": "Rojo",
+      "text": "Norte de Burgos: Aviso de temperaturas máximas de nivel naranja. Norte de Burgos (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Norte de Burgos",
+      "fenomeno": "Severe high-temperature warning. Norte de Burgos",
+      "nivel": "Rojo",
+      "text": "Norte de Burgos: Severe high-temperature warning. Norte de Burgos (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Condado de Treviño",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Condado de Treviño",
+      "nivel": "Rojo",
+      "text": "Condado de Treviño: Aviso de temperaturas máximas de nivel naranja. Condado de Treviño (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Condado de Treviño",
+      "fenomeno": "Severe high-temperature warning. Condado de Treviño",
+      "nivel": "Rojo",
+      "text": "Condado de Treviño: Severe high-temperature warning. Condado de Treviño (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Sanabria",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Sanabria",
+      "nivel": "Naranja",
+      "text": "Sanabria: Aviso de temperaturas máximas de nivel amarillo. Sanabria (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sanabria",
+      "fenomeno": "Moderate high-temperature warning. Sanabria",
+      "nivel": "Naranja",
+      "text": "Sanabria: Moderate high-temperature warning. Sanabria (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Vega del Segura",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Vega del Segura",
+      "nivel": "Naranja",
+      "text": "Vega del Segura: Aviso de temperaturas máximas de nivel amarillo. Vega del Segura (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Vega del Segura",
+      "fenomeno": "Moderate high-temperature warning. Vega del Segura",
+      "nivel": "Naranja",
+      "text": "Vega del Segura: Moderate high-temperature warning. Vega del Segura (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Noroeste de Murcia",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Noroeste de Murcia",
+      "nivel": "Naranja",
+      "text": "Noroeste de Murcia: Aviso de lluvias de nivel amarillo. Noroeste de Murcia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Noroeste de Murcia",
+      "fenomeno": "Moderate rain warning. Noroeste de Murcia",
+      "nivel": "Naranja",
+      "text": "Noroeste de Murcia: Moderate rain warning. Noroeste de Murcia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Valle del Guadalentín, Lorca y Águilas",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Valle del Guadalentín, Lorca y Águilas",
+      "nivel": "Naranja",
+      "text": "Valle del Guadalentín, Lorca y Águilas: Aviso de lluvias de nivel amarillo. Valle del Guadalentín, Lorca y Águilas (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Valle del Guadalentín, Lorca y Águilas",
+      "fenomeno": "Moderate rain warning. Valle del Guadalentín, Lorca y Águilas",
+      "nivel": "Naranja",
+      "text": "Valle del Guadalentín, Lorca y Águilas: Moderate rain warning. Valle del Guadalentín, Lorca y Águilas (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
       "icon": "⛈️",
-      "provincia": "Gúdar y Maestrazgo",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Gúdar y Maestrazgo",
+      "provincia": "Noroeste de Murcia",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Noroeste de Murcia",
       "nivel": "Naranja",
-      "text": "Gúdar y Maestrazgo: Aviso de tormentas de nivel amarillo. Gúdar y Maestrazgo (Naranja) (AEMET)",
+      "text": "Noroeste de Murcia: Aviso de tormentas de nivel amarillo. Noroeste de Murcia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Gúdar y Maestrazgo",
-      "fenomeno": "Moderate thunderstorm warning. Gúdar y Maestrazgo",
+      "provincia": "Noroeste de Murcia",
+      "fenomeno": "Moderate thunderstorm warning. Noroeste de Murcia",
       "nivel": "Naranja",
-      "text": "Gúdar y Maestrazgo: Moderate thunderstorm warning. Gúdar y Maestrazgo (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Bajo Aragón de Teruel",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Bajo Aragón de Teruel",
-      "nivel": "Naranja",
-      "text": "Bajo Aragón de Teruel: Aviso de tormentas de nivel amarillo. Bajo Aragón de Teruel (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Bajo Aragón de Teruel",
-      "fenomeno": "Moderate thunderstorm warning. Bajo Aragón de Teruel",
-      "nivel": "Naranja",
-      "text": "Bajo Aragón de Teruel: Moderate thunderstorm warning. Bajo Aragón de Teruel (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Pirineo de Lleida",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Pirineo de Lleida",
-      "nivel": "Rojo",
-      "text": "Pirineo de Lleida: Aviso de temperaturas máximas de nivel naranja. Pirineo de Lleida (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Pirineo de Lleida",
-      "fenomeno": "Severe high-temperature warning. Pirineo de Lleida",
-      "nivel": "Rojo",
-      "text": "Pirineo de Lleida: Severe high-temperature warning. Pirineo de Lleida (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Depresión central de Lleida",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Depresión central de Lleida",
-      "nivel": "Rojo",
-      "text": "Depresión central de Lleida: Aviso de temperaturas máximas de nivel naranja. Depresión central de Lleida (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Depresión central de Lleida",
-      "fenomeno": "Severe high-temperature warning. Depresión central de Lleida",
-      "nivel": "Rojo",
-      "text": "Depresión central de Lleida: Severe high-temperature warning. Depresión central de Lleida (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Depresión central de Tarragona",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Depresión central de Tarragona",
-      "nivel": "Rojo",
-      "text": "Depresión central de Tarragona: Aviso de temperaturas máximas de nivel naranja. Depresión central de Tarragona (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Depresión central de Tarragona",
-      "fenomeno": "Severe high-temperature warning. Depresión central de Tarragona",
-      "nivel": "Rojo",
-      "text": "Depresión central de Tarragona: Severe high-temperature warning. Depresión central de Tarragona (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Pirineo oscense",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Pirineo oscense",
-      "nivel": "Naranja",
-      "text": "Pirineo oscense: Aviso de temperaturas máximas de nivel amarillo. Pirineo oscense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Pirineo oscense",
-      "fenomeno": "Moderate high-temperature warning. Pirineo oscense",
-      "nivel": "Naranja",
-      "text": "Pirineo oscense: Moderate high-temperature warning. Pirineo oscense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Albarracín y Jiloca",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Albarracín y Jiloca",
-      "nivel": "Naranja",
-      "text": "Albarracín y Jiloca: Aviso de temperaturas máximas de nivel amarillo. Albarracín y Jiloca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Albarracín y Jiloca",
-      "fenomeno": "Moderate high-temperature warning. Albarracín y Jiloca",
-      "nivel": "Naranja",
-      "text": "Albarracín y Jiloca: Moderate high-temperature warning. Albarracín y Jiloca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Prepirineo de Barcelona",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Prepirineo de Barcelona",
-      "nivel": "Naranja",
-      "text": "Prepirineo de Barcelona: Aviso de temperaturas máximas de nivel amarillo. Prepirineo de Barcelona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Prepirineo de Barcelona",
-      "fenomeno": "Moderate high-temperature warning. Prepirineo de Barcelona",
-      "nivel": "Naranja",
-      "text": "Prepirineo de Barcelona: Moderate high-temperature warning. Prepirineo de Barcelona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Depresión central de Barcelona",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Depresión central de Barcelona",
-      "nivel": "Naranja",
-      "text": "Depresión central de Barcelona: Aviso de temperaturas máximas de nivel amarillo. Depresión central de Barcelona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Depresión central de Barcelona",
-      "fenomeno": "Moderate high-temperature warning. Depresión central de Barcelona",
-      "nivel": "Naranja",
-      "text": "Depresión central de Barcelona: Moderate high-temperature warning. Depresión central de Barcelona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Prelitoral de Barcelona",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Prelitoral de Barcelona",
-      "nivel": "Naranja",
-      "text": "Prelitoral de Barcelona: Aviso de temperaturas máximas de nivel amarillo. Prelitoral de Barcelona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Prelitoral de Barcelona",
-      "fenomeno": "Moderate high-temperature warning. Prelitoral de Barcelona",
-      "nivel": "Naranja",
-      "text": "Prelitoral de Barcelona: Moderate high-temperature warning. Prelitoral de Barcelona (Naranja) (AEMET)",
+      "text": "Noroeste de Murcia: Moderate thunderstorm warning. Noroeste de Murcia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
