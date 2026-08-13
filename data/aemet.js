@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2026-08-13T21:11:11.642Z
+// Auto-generado por GitHub Actions - 2026-08-13T22:00:45.888Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-08-13T21:11:11.642Z",
+  "generated_at": "2026-08-13T22:00:45.888Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "⛈️",
+      "provincia": "Condado de Treviño",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Condado de Treviño",
+      "nivel": "Naranja",
+      "text": "Condado de Treviño: Aviso de tormentas de nivel amarillo. Condado de Treviño (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Condado de Treviño",
+      "fenomeno": "Moderate thunderstorm warning. Condado de Treviño",
+      "nivel": "Naranja",
+      "text": "Condado de Treviño: Moderate thunderstorm warning. Condado de Treviño (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌊",
       "provincia": "Litoral norte de Alicante",
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate rain warning. Valle del Guadalquivir de Jaén",
       "nivel": "Naranja",
       "text": "Valle del Guadalquivir de Jaén: Moderate rain warning. Valle del Guadalquivir de Jaén (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Capital y Montes de Jaén",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Capital y Montes de Jaén",
-      "nivel": "Naranja",
-      "text": "Capital y Montes de Jaén: Aviso de lluvias de nivel amarillo. Capital y Montes de Jaén (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Capital y Montes de Jaén",
-      "fenomeno": "Moderate rain warning. Capital y Montes de Jaén",
-      "nivel": "Naranja",
-      "text": "Capital y Montes de Jaén: Moderate rain warning. Capital y Montes de Jaén (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
