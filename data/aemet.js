@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-08-13T14:43:56.502Z
+// Auto-generado por GitHub Actions - 2026-08-13T15:38:33.898Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-08-13T14:43:56.502Z",
+  "generated_at": "2026-08-13T15:38:33.898Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "🌊",
-      "provincia": "Vegas del Guadiana",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Vegas del Guadiana",
+      "provincia": "A Mariña",
+      "fenomeno": "Aviso de nieblas de nivel amarillo. A Mariña",
       "nivel": "Naranja",
-      "text": "Vegas del Guadiana: Aviso de temperaturas máximas de nivel amarillo. Vegas del Guadiana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Vegas del Guadiana",
-      "fenomeno": "Moderate high-temperature warning. Vegas del Guadiana",
-      "nivel": "Naranja",
-      "text": "Vegas del Guadiana: Moderate high-temperature warning. Vegas del Guadiana (Naranja) (AEMET)",
+      "text": "A Mariña: Aviso de nieblas de nivel amarillo. A Mariña (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "La Siberia extremeña",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. La Siberia extremeña",
+      "provincia": "A Mariña",
+      "fenomeno": "Moderate fog warning. A Mariña",
       "nivel": "Naranja",
-      "text": "La Siberia extremeña: Aviso de temperaturas máximas de nivel amarillo. La Siberia extremeña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "La Siberia extremeña",
-      "fenomeno": "Moderate high-temperature warning. La Siberia extremeña",
-      "nivel": "Naranja",
-      "text": "La Siberia extremeña: Moderate high-temperature warning. La Siberia extremeña (Naranja) (AEMET)",
+      "text": "A Mariña: Moderate fog warning. A Mariña (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Barros y Serena",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Barros y Serena",
+      "provincia": "Interior de Mallorca",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Interior de Mallorca",
       "nivel": "Naranja",
-      "text": "Barros y Serena: Aviso de temperaturas máximas de nivel amarillo. Barros y Serena (Naranja) (AEMET)",
+      "text": "Interior de Mallorca: Aviso de temperaturas máximas de nivel amarillo. Interior de Mallorca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Barros y Serena",
-      "fenomeno": "Moderate high-temperature warning. Barros y Serena",
+      "provincia": "Interior de Mallorca",
+      "fenomeno": "Moderate high-temperature warning. Interior de Mallorca",
       "nivel": "Naranja",
-      "text": "Barros y Serena: Moderate high-temperature warning. Barros y Serena (Naranja) (AEMET)",
+      "text": "Interior de Mallorca: Moderate high-temperature warning. Interior de Mallorca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Norte de Cáceres",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Norte de Cáceres",
+      "provincia": "Ampurdán",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Ampurdán",
       "nivel": "Naranja",
-      "text": "Norte de Cáceres: Aviso de temperaturas máximas de nivel amarillo. Norte de Cáceres (Naranja) (AEMET)",
+      "text": "Ampurdán: Aviso de temperaturas máximas de nivel amarillo. Ampurdán (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Norte de Cáceres",
-      "fenomeno": "Moderate high-temperature warning. Norte de Cáceres",
+      "provincia": "Ampurdán",
+      "fenomeno": "Moderate high-temperature warning. Ampurdán",
       "nivel": "Naranja",
-      "text": "Norte de Cáceres: Moderate high-temperature warning. Norte de Cáceres (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Tajo y Alagón",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Tajo y Alagón",
-      "nivel": "Naranja",
-      "text": "Tajo y Alagón: Aviso de temperaturas máximas de nivel amarillo. Tajo y Alagón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Tajo y Alagón",
-      "fenomeno": "Moderate high-temperature warning. Tajo y Alagón",
-      "nivel": "Naranja",
-      "text": "Tajo y Alagón: Moderate high-temperature warning. Tajo y Alagón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Meseta cacereña",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Meseta cacereña",
-      "nivel": "Naranja",
-      "text": "Meseta cacereña: Aviso de temperaturas máximas de nivel amarillo. Meseta cacereña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Meseta cacereña",
-      "fenomeno": "Moderate high-temperature warning. Meseta cacereña",
-      "nivel": "Naranja",
-      "text": "Meseta cacereña: Moderate high-temperature warning. Meseta cacereña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Villuercas y Montánchez",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Villuercas y Montánchez",
-      "nivel": "Naranja",
-      "text": "Villuercas y Montánchez: Aviso de temperaturas máximas de nivel amarillo. Villuercas y Montánchez (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Villuercas y Montánchez",
-      "fenomeno": "Moderate high-temperature warning. Villuercas y Montánchez",
-      "nivel": "Naranja",
-      "text": "Villuercas y Montánchez: Moderate high-temperature warning. Villuercas y Montánchez (Naranja) (AEMET)",
+      "text": "Ampurdán: Moderate high-temperature warning. Ampurdán (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Ribera del Ebro de Navarra",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Ribera del Ebro de Navarra",
+      "provincia": "Interior de Mallorca",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Interior de Mallorca",
       "nivel": "Naranja",
-      "text": "Ribera del Ebro de Navarra: Aviso de lluvias de nivel amarillo. Ribera del Ebro de Navarra (Naranja) (AEMET)",
+      "text": "Interior de Mallorca: Aviso de lluvias de nivel amarillo. Interior de Mallorca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Ribera del Ebro de Navarra",
-      "fenomeno": "Moderate rain warning. Ribera del Ebro de Navarra",
+      "provincia": "Interior de Mallorca",
+      "fenomeno": "Moderate rain warning. Interior de Mallorca",
       "nivel": "Naranja",
-      "text": "Ribera del Ebro de Navarra: Moderate rain warning. Ribera del Ebro de Navarra (Naranja) (AEMET)",
+      "text": "Interior de Mallorca: Moderate rain warning. Interior de Mallorca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Centro de Navarra",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Centro de Navarra",
+      "provincia": "Interior de Mallorca",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Interior de Mallorca",
       "nivel": "Naranja",
-      "text": "Centro de Navarra: Aviso de tormentas de nivel amarillo. Centro de Navarra (Naranja) (AEMET)",
+      "text": "Interior de Mallorca: Aviso de tormentas de nivel amarillo. Interior de Mallorca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Centro de Navarra",
-      "fenomeno": "Moderate thunderstorm warning. Centro de Navarra",
+      "provincia": "Interior de Mallorca",
+      "fenomeno": "Moderate thunderstorm warning. Interior de Mallorca",
       "nivel": "Naranja",
-      "text": "Centro de Navarra: Moderate thunderstorm warning. Centro de Navarra (Naranja) (AEMET)",
+      "text": "Interior de Mallorca: Moderate thunderstorm warning. Interior de Mallorca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⛈️",
-      "provincia": "Ribera del Ebro de Navarra",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Ribera del Ebro de Navarra",
+      "icon": "🌊",
+      "provincia": "Prelitoral de Girona",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Prelitoral de Girona",
       "nivel": "Naranja",
-      "text": "Ribera del Ebro de Navarra: Aviso de tormentas de nivel amarillo. Ribera del Ebro de Navarra (Naranja) (AEMET)",
+      "text": "Prelitoral de Girona: Aviso de temperaturas máximas de nivel amarillo. Prelitoral de Girona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Ribera del Ebro de Navarra",
-      "fenomeno": "Moderate thunderstorm warning. Ribera del Ebro de Navarra",
+      "provincia": "Prelitoral de Girona",
+      "fenomeno": "Moderate high-temperature warning. Prelitoral de Girona",
       "nivel": "Naranja",
-      "text": "Ribera del Ebro de Navarra: Moderate thunderstorm warning. Ribera del Ebro de Navarra (Naranja) (AEMET)",
+      "text": "Prelitoral de Girona: Moderate high-temperature warning. Prelitoral de Girona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Rias Baixas",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Rias Baixas",
+      "nivel": "Naranja",
+      "text": "Rias Baixas: Aviso de temperaturas máximas de nivel amarillo. Rias Baixas (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Rias Baixas",
+      "fenomeno": "Moderate high-temperature warning. Rias Baixas",
+      "nivel": "Naranja",
+      "text": "Rias Baixas: Moderate high-temperature warning. Rias Baixas (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Miño de Pontevedra",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Miño de Pontevedra",
+      "nivel": "Naranja",
+      "text": "Miño de Pontevedra: Aviso de temperaturas máximas de nivel amarillo. Miño de Pontevedra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Miño de Pontevedra",
+      "fenomeno": "Moderate high-temperature warning. Miño de Pontevedra",
+      "nivel": "Naranja",
+      "text": "Miño de Pontevedra: Moderate high-temperature warning. Miño de Pontevedra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Valle del Almanzora y Los Vélez",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Valle del Almanzora y Los Vélez",
+      "nivel": "Naranja",
+      "text": "Valle del Almanzora y Los Vélez: Aviso de lluvias de nivel amarillo. Valle del Almanzora y Los Vélez (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Valle del Almanzora y Los Vélez",
+      "fenomeno": "Moderate rain warning. Valle del Almanzora y Los Vélez",
+      "nivel": "Naranja",
+      "text": "Valle del Almanzora y Los Vélez: Moderate rain warning. Valle del Almanzora y Los Vélez (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Guadix y Baza",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Guadix y Baza",
+      "nivel": "Naranja",
+      "text": "Guadix y Baza: Aviso de lluvias de nivel amarillo. Guadix y Baza (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Guadix y Baza",
+      "fenomeno": "Moderate rain warning. Guadix y Baza",
+      "nivel": "Naranja",
+      "text": "Guadix y Baza: Moderate rain warning. Guadix y Baza (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
