@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-08-14T06:40:07.090Z
+// Auto-generado por GitHub Actions - 2026-08-14T09:11:52.316Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-08-14T06:40:07.090Z",
+  "generated_at": "2026-08-14T09:11:52.316Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
+      "icon": "🌧️",
+      "provincia": "Cordillera Cantábrica de León",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Cordillera Cantábrica de León",
+      "nivel": "Rojo",
+      "text": "Cordillera Cantábrica de León: Aviso de lluvias de nivel naranja. Cordillera Cantábrica de León (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cordillera Cantábrica de León",
+      "fenomeno": "Severe rain warning. Cordillera Cantábrica de León",
+      "nivel": "Rojo",
+      "text": "Cordillera Cantábrica de León: Severe rain warning. Cordillera Cantábrica de León (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Cordillera Cantábrica de Palencia",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Cordillera Cantábrica de Palencia",
+      "nivel": "Rojo",
+      "text": "Cordillera Cantábrica de Palencia: Aviso de lluvias de nivel naranja. Cordillera Cantábrica de Palencia (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cordillera Cantábrica de Palencia",
+      "fenomeno": "Severe rain warning. Cordillera Cantábrica de Palencia",
+      "nivel": "Rojo",
+      "text": "Cordillera Cantábrica de Palencia: Severe rain warning. Cordillera Cantábrica de Palencia (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
       "icon": "⛈️",
+      "provincia": "Cordillera Cantábrica de León",
+      "fenomeno": "Aviso de tormentas de nivel naranja. Cordillera Cantábrica de León",
+      "nivel": "Rojo",
+      "text": "Cordillera Cantábrica de León: Aviso de tormentas de nivel naranja. Cordillera Cantábrica de León (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cordillera Cantábrica de León",
+      "fenomeno": "Severe thunderstorm warning. Cordillera Cantábrica de León",
+      "nivel": "Rojo",
+      "text": "Cordillera Cantábrica de León: Severe thunderstorm warning. Cordillera Cantábrica de León (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Cordillera Cantábrica de Palencia",
+      "fenomeno": "Aviso de tormentas de nivel naranja. Cordillera Cantábrica de Palencia",
+      "nivel": "Rojo",
+      "text": "Cordillera Cantábrica de Palencia: Aviso de tormentas de nivel naranja. Cordillera Cantábrica de Palencia (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cordillera Cantábrica de Palencia",
+      "fenomeno": "Severe thunderstorm warning. Cordillera Cantábrica de Palencia",
+      "nivel": "Rojo",
+      "text": "Cordillera Cantábrica de Palencia: Severe thunderstorm warning. Cordillera Cantábrica de Palencia (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Norte de Burgos",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Norte de Burgos",
+      "nivel": "Naranja",
+      "text": "Norte de Burgos: Aviso de lluvias de nivel amarillo. Norte de Burgos (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Norte de Burgos",
+      "fenomeno": "Moderate rain warning. Norte de Burgos",
+      "nivel": "Naranja",
+      "text": "Norte de Burgos: Moderate rain warning. Norte de Burgos (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
       "provincia": "Condado de Treviño",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Condado de Treviño",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Condado de Treviño",
       "nivel": "Naranja",
-      "text": "Condado de Treviño: Aviso de tormentas de nivel amarillo. Condado de Treviño (Naranja) (AEMET)",
+      "text": "Condado de Treviño: Aviso de lluvias de nivel amarillo. Condado de Treviño (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
       "provincia": "Condado de Treviño",
-      "fenomeno": "Moderate thunderstorm warning. Condado de Treviño",
+      "fenomeno": "Moderate rain warning. Condado de Treviño",
       "nivel": "Naranja",
-      "text": "Condado de Treviño: Moderate thunderstorm warning. Condado de Treviño (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Litoral norte de Alicante",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Litoral norte de Alicante",
-      "nivel": "Naranja",
-      "text": "Litoral norte de Alicante: Aviso de temperaturas máximas de nivel amarillo. Litoral norte de Alicante (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral norte de Alicante",
-      "fenomeno": "Moderate high-temperature warning. Litoral norte de Alicante",
-      "nivel": "Naranja",
-      "text": "Litoral norte de Alicante: Moderate high-temperature warning. Litoral norte de Alicante (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Litoral norte de Valencia",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Litoral norte de Valencia",
-      "nivel": "Naranja",
-      "text": "Litoral norte de Valencia: Aviso de temperaturas máximas de nivel amarillo. Litoral norte de Valencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral norte de Valencia",
-      "fenomeno": "Moderate high-temperature warning. Litoral norte de Valencia",
-      "nivel": "Naranja",
-      "text": "Litoral norte de Valencia: Moderate high-temperature warning. Litoral norte de Valencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Litoral sur de Valencia",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Litoral sur de Valencia",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Valencia: Aviso de temperaturas máximas de nivel amarillo. Litoral sur de Valencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral sur de Valencia",
-      "fenomeno": "Moderate high-temperature warning. Litoral sur de Valencia",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Valencia: Moderate high-temperature warning. Litoral sur de Valencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Interior norte de Valencia",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Interior norte de Valencia",
-      "nivel": "Naranja",
-      "text": "Interior norte de Valencia: Aviso de temperaturas máximas de nivel amarillo. Interior norte de Valencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior norte de Valencia",
-      "fenomeno": "Moderate high-temperature warning. Interior norte de Valencia",
-      "nivel": "Naranja",
-      "text": "Interior norte de Valencia: Moderate high-temperature warning. Interior norte de Valencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Interior sur de Valencia",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Interior sur de Valencia",
-      "nivel": "Naranja",
-      "text": "Interior sur de Valencia: Aviso de temperaturas máximas de nivel amarillo. Interior sur de Valencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior sur de Valencia",
-      "fenomeno": "Moderate high-temperature warning. Interior sur de Valencia",
-      "nivel": "Naranja",
-      "text": "Interior sur de Valencia: Moderate high-temperature warning. Interior sur de Valencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Prelitoral de Girona",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Prelitoral de Girona",
-      "nivel": "Naranja",
-      "text": "Prelitoral de Girona: Aviso de temperaturas máximas de nivel amarillo. Prelitoral de Girona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Prelitoral de Girona",
-      "fenomeno": "Moderate high-temperature warning. Prelitoral de Girona",
-      "nivel": "Naranja",
-      "text": "Prelitoral de Girona: Moderate high-temperature warning. Prelitoral de Girona (Naranja) (AEMET)",
+      "text": "Condado de Treviño: Moderate rain warning. Condado de Treviño (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Cuenca del Genil",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Cuenca del Genil",
+      "provincia": "Meseta de Burgos",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Meseta de Burgos",
       "nivel": "Naranja",
-      "text": "Cuenca del Genil: Aviso de lluvias de nivel amarillo. Cuenca del Genil (Naranja) (AEMET)",
+      "text": "Meseta de Burgos: Aviso de lluvias de nivel amarillo. Meseta de Burgos (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Cuenca del Genil",
-      "fenomeno": "Moderate rain warning. Cuenca del Genil",
+      "provincia": "Meseta de Burgos",
+      "fenomeno": "Moderate rain warning. Meseta de Burgos",
       "nivel": "Naranja",
-      "text": "Cuenca del Genil: Moderate rain warning. Cuenca del Genil (Naranja) (AEMET)",
+      "text": "Meseta de Burgos: Moderate rain warning. Meseta de Burgos (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Morena y Condado",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Morena y Condado",
+      "provincia": "Bierzo de León",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Bierzo de León",
       "nivel": "Naranja",
-      "text": "Morena y Condado: Aviso de lluvias de nivel amarillo. Morena y Condado (Naranja) (AEMET)",
+      "text": "Bierzo de León: Aviso de lluvias de nivel amarillo. Bierzo de León (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Morena y Condado",
-      "fenomeno": "Moderate rain warning. Morena y Condado",
+      "provincia": "Bierzo de León",
+      "fenomeno": "Moderate rain warning. Bierzo de León",
       "nivel": "Naranja",
-      "text": "Morena y Condado: Moderate rain warning. Morena y Condado (Naranja) (AEMET)",
+      "text": "Bierzo de León: Moderate rain warning. Bierzo de León (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Valle del Guadalquivir de Jaén",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Valle del Guadalquivir de Jaén",
+      "provincia": "Meseta de León",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Meseta de León",
       "nivel": "Naranja",
-      "text": "Valle del Guadalquivir de Jaén: Aviso de lluvias de nivel amarillo. Valle del Guadalquivir de Jaén (Naranja) (AEMET)",
+      "text": "Meseta de León: Aviso de lluvias de nivel amarillo. Meseta de León (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Valle del Guadalquivir de Jaén",
-      "fenomeno": "Moderate rain warning. Valle del Guadalquivir de Jaén",
+      "provincia": "Meseta de León",
+      "fenomeno": "Moderate rain warning. Meseta de León",
       "nivel": "Naranja",
-      "text": "Valle del Guadalquivir de Jaén: Moderate rain warning. Valle del Guadalquivir de Jaén (Naranja) (AEMET)",
+      "text": "Meseta de León: Moderate rain warning. Meseta de León (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Meseta de Palencia",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Meseta de Palencia",
+      "nivel": "Naranja",
+      "text": "Meseta de Palencia: Aviso de lluvias de nivel amarillo. Meseta de Palencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Meseta de Palencia",
+      "fenomeno": "Moderate rain warning. Meseta de Palencia",
+      "nivel": "Naranja",
+      "text": "Meseta de Palencia: Moderate rain warning. Meseta de Palencia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
