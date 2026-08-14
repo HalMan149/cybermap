@@ -1,8 +1,88 @@
 {
-  "generated_at": "2026-08-14T19:11:06.654Z",
+  "generated_at": "2026-08-14T19:54:29.241Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "La Mancha albaceteña",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. La Mancha albaceteña",
+      "nivel": "Naranja",
+      "text": "La Mancha albaceteña: Aviso de lluvias de nivel amarillo. La Mancha albaceteña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "La Mancha albaceteña",
+      "fenomeno": "Moderate rain warning. La Mancha albaceteña",
+      "nivel": "Naranja",
+      "text": "La Mancha albaceteña: Moderate rain warning. La Mancha albaceteña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Serranía de Cuenca",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Serranía de Cuenca",
+      "nivel": "Naranja",
+      "text": "Serranía de Cuenca: Aviso de lluvias de nivel amarillo. Serranía de Cuenca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Serranía de Cuenca",
+      "fenomeno": "Moderate rain warning. Serranía de Cuenca",
+      "nivel": "Naranja",
+      "text": "Serranía de Cuenca: Moderate rain warning. Serranía de Cuenca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "La Mancha conquense",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. La Mancha conquense",
+      "nivel": "Naranja",
+      "text": "La Mancha conquense: Aviso de lluvias de nivel amarillo. La Mancha conquense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "La Mancha conquense",
+      "fenomeno": "Moderate rain warning. La Mancha conquense",
+      "nivel": "Naranja",
+      "text": "La Mancha conquense: Moderate rain warning. La Mancha conquense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "La Mancha albaceteña",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. La Mancha albaceteña",
+      "nivel": "Naranja",
+      "text": "La Mancha albaceteña: Aviso de tormentas de nivel amarillo. La Mancha albaceteña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "La Mancha albaceteña",
+      "fenomeno": "Moderate thunderstorm warning. La Mancha albaceteña",
+      "nivel": "Naranja",
+      "text": "La Mancha albaceteña: Moderate thunderstorm warning. La Mancha albaceteña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "La Mancha conquense",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. La Mancha conquense",
+      "nivel": "Naranja",
+      "text": "La Mancha conquense: Aviso de tormentas de nivel amarillo. La Mancha conquense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "La Mancha conquense",
+      "fenomeno": "Moderate thunderstorm warning. La Mancha conquense",
+      "nivel": "Naranja",
+      "text": "La Mancha conquense: Moderate thunderstorm warning. La Mancha conquense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Depresión central de Lleida",
@@ -81,86 +161,6 @@
       "fenomeno": "Moderate thunderstorm warning. Pirineo de Lleida",
       "nivel": "Naranja",
       "text": "Pirineo de Lleida: Moderate thunderstorm warning. Pirineo de Lleida (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Metropolitana y Henares",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Metropolitana y Henares",
-      "nivel": "Naranja",
-      "text": "Metropolitana y Henares: Aviso de lluvias de nivel amarillo. Metropolitana y Henares (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Metropolitana y Henares",
-      "fenomeno": "Moderate rain warning. Metropolitana y Henares",
-      "nivel": "Naranja",
-      "text": "Metropolitana y Henares: Moderate rain warning. Metropolitana y Henares (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Sur, Vegas y Oeste",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Sur, Vegas y Oeste",
-      "nivel": "Naranja",
-      "text": "Sur, Vegas y Oeste: Aviso de lluvias de nivel amarillo. Sur, Vegas y Oeste (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sur, Vegas y Oeste",
-      "fenomeno": "Moderate rain warning. Sur, Vegas y Oeste",
-      "nivel": "Naranja",
-      "text": "Sur, Vegas y Oeste: Moderate rain warning. Sur, Vegas y Oeste (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Metropolitana y Henares",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Metropolitana y Henares",
-      "nivel": "Naranja",
-      "text": "Metropolitana y Henares: Aviso de tormentas de nivel amarillo. Metropolitana y Henares (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Metropolitana y Henares",
-      "fenomeno": "Moderate thunderstorm warning. Metropolitana y Henares",
-      "nivel": "Naranja",
-      "text": "Metropolitana y Henares: Moderate thunderstorm warning. Metropolitana y Henares (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Sur, Vegas y Oeste",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Sur, Vegas y Oeste",
-      "nivel": "Naranja",
-      "text": "Sur, Vegas y Oeste: Aviso de tormentas de nivel amarillo. Sur, Vegas y Oeste (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sur, Vegas y Oeste",
-      "fenomeno": "Moderate thunderstorm warning. Sur, Vegas y Oeste",
-      "nivel": "Naranja",
-      "text": "Sur, Vegas y Oeste: Moderate thunderstorm warning. Sur, Vegas y Oeste (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Poniente y Almería Capital",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Poniente y Almería Capital",
-      "nivel": "Naranja",
-      "text": "Poniente y Almería Capital: Aviso de temperaturas máximas de nivel amarillo. Poniente y Almería Capital (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Poniente y Almería Capital",
-      "fenomeno": "Moderate high-temperature warning. Poniente y Almería Capital",
-      "nivel": "Naranja",
-      "text": "Poniente y Almería Capital: Moderate high-temperature warning. Poniente y Almería Capital (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
