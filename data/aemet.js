@@ -1,9 +1,57 @@
-// Auto-generado por GitHub Actions - 2026-08-14T12:51:05.796Z
+// Auto-generado por GitHub Actions - 2026-08-14T14:09:44.133Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-08-14T12:51:05.796Z",
+  "generated_at": "2026-08-14T14:09:44.133Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "⛈️",
+      "provincia": "Meseta de Ávila",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Meseta de Ávila",
+      "nivel": "Naranja",
+      "text": "Meseta de Ávila: Aviso de tormentas de nivel amarillo. Meseta de Ávila (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Meseta de Ávila",
+      "fenomeno": "Moderate thunderstorm warning. Meseta de Ávila",
+      "nivel": "Naranja",
+      "text": "Meseta de Ávila: Moderate thunderstorm warning. Meseta de Ávila (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Meseta de Segovia",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Meseta de Segovia",
+      "nivel": "Naranja",
+      "text": "Meseta de Segovia: Aviso de tormentas de nivel amarillo. Meseta de Segovia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Meseta de Segovia",
+      "fenomeno": "Moderate thunderstorm warning. Meseta de Segovia",
+      "nivel": "Naranja",
+      "text": "Meseta de Segovia: Moderate thunderstorm warning. Meseta de Segovia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Meseta de Valladolid",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Meseta de Valladolid",
+      "nivel": "Naranja",
+      "text": "Meseta de Valladolid: Aviso de tormentas de nivel amarillo. Meseta de Valladolid (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Meseta de Valladolid",
+      "fenomeno": "Moderate thunderstorm warning. Meseta de Valladolid",
+      "nivel": "Naranja",
+      "text": "Meseta de Valladolid: Moderate thunderstorm warning. Meseta de Valladolid (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌊",
       "provincia": "Sur de Mallorca",
@@ -114,54 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate high-temperature warning. Rias Baixas",
       "nivel": "Naranja",
       "text": "Rias Baixas: Moderate high-temperature warning. Rias Baixas (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Miño de Pontevedra",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Miño de Pontevedra",
-      "nivel": "Naranja",
-      "text": "Miño de Pontevedra: Aviso de temperaturas máximas de nivel amarillo. Miño de Pontevedra (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Miño de Pontevedra",
-      "fenomeno": "Moderate high-temperature warning. Miño de Pontevedra",
-      "nivel": "Naranja",
-      "text": "Miño de Pontevedra: Moderate high-temperature warning. Miño de Pontevedra (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Gúdar y Maestrazgo",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Gúdar y Maestrazgo",
-      "nivel": "Naranja",
-      "text": "Gúdar y Maestrazgo: Aviso de lluvias de nivel amarillo. Gúdar y Maestrazgo (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Gúdar y Maestrazgo",
-      "fenomeno": "Moderate rain warning. Gúdar y Maestrazgo",
-      "nivel": "Naranja",
-      "text": "Gúdar y Maestrazgo: Moderate rain warning. Gúdar y Maestrazgo (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Bajo Aragón de Teruel",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Bajo Aragón de Teruel",
-      "nivel": "Naranja",
-      "text": "Bajo Aragón de Teruel: Aviso de lluvias de nivel amarillo. Bajo Aragón de Teruel (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Bajo Aragón de Teruel",
-      "fenomeno": "Moderate rain warning. Bajo Aragón de Teruel",
-      "nivel": "Naranja",
-      "text": "Bajo Aragón de Teruel: Moderate rain warning. Bajo Aragón de Teruel (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
