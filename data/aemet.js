@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2026-08-16T08:34:43.874Z
+// Auto-generado por GitHub Actions - 2026-08-16T09:01:13.445Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-08-16T08:34:43.874Z",
+  "generated_at": "2026-08-16T09:01:13.445Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌊",
+      "provincia": "A Mariña",
+      "fenomeno": "Aviso de nieblas de nivel amarillo. A Mariña",
+      "nivel": "Naranja",
+      "text": "A Mariña: Aviso de nieblas de nivel amarillo. A Mariña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "A Mariña",
+      "fenomeno": "Moderate fog warning. A Mariña",
+      "nivel": "Naranja",
+      "text": "A Mariña: Moderate fog warning. A Mariña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Prepirineo de Barcelona",
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate thunderstorm warning. Valle de Arán",
       "nivel": "Naranja",
       "text": "Valle de Arán: Moderate thunderstorm warning. Valle de Arán (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Prelitoral norte de Tarragona",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Prelitoral norte de Tarragona",
-      "nivel": "Naranja",
-      "text": "Prelitoral norte de Tarragona: Aviso de tormentas de nivel amarillo. Prelitoral norte de Tarragona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Prelitoral norte de Tarragona",
-      "fenomeno": "Moderate thunderstorm warning. Prelitoral norte de Tarragona",
-      "nivel": "Naranja",
-      "text": "Prelitoral norte de Tarragona: Moderate thunderstorm warning. Prelitoral norte de Tarragona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
