@@ -1,9 +1,73 @@
-// Auto-generado por GitHub Actions - 2026-08-16T16:14:09.669Z
+// Auto-generado por GitHub Actions - 2026-08-16T16:42:25.047Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-08-16T16:14:09.669Z",
+  "generated_at": "2026-08-16T16:42:25.047Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Vegas del Guadiana",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Vegas del Guadiana",
+      "nivel": "Naranja",
+      "text": "Vegas del Guadiana: Aviso de lluvias de nivel amarillo. Vegas del Guadiana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Vegas del Guadiana",
+      "fenomeno": "Moderate rain warning. Vegas del Guadiana",
+      "nivel": "Naranja",
+      "text": "Vegas del Guadiana: Moderate rain warning. Vegas del Guadiana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Vegas del Guadiana",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Vegas del Guadiana",
+      "nivel": "Naranja",
+      "text": "Vegas del Guadiana: Aviso de tormentas de nivel amarillo. Vegas del Guadiana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Vegas del Guadiana",
+      "fenomeno": "Moderate thunderstorm warning. Vegas del Guadiana",
+      "nivel": "Naranja",
+      "text": "Vegas del Guadiana: Moderate thunderstorm warning. Vegas del Guadiana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Pirineo navarro",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Pirineo navarro",
+      "nivel": "Naranja",
+      "text": "Pirineo navarro: Aviso de lluvias de nivel amarillo. Pirineo navarro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Pirineo navarro",
+      "fenomeno": "Moderate rain warning. Pirineo navarro",
+      "nivel": "Naranja",
+      "text": "Pirineo navarro: Moderate rain warning. Pirineo navarro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Pirineo navarro",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Pirineo navarro",
+      "nivel": "Naranja",
+      "text": "Pirineo navarro: Aviso de tormentas de nivel amarillo. Pirineo navarro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Pirineo navarro",
+      "fenomeno": "Moderate thunderstorm warning. Pirineo navarro",
+      "nivel": "Naranja",
+      "text": "Pirineo navarro: Moderate thunderstorm warning. Pirineo navarro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Pirineo oscense",
@@ -98,70 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate high-temperature warning. Campiña cordobesa",
       "nivel": "Naranja",
       "text": "Campiña cordobesa: Moderate high-temperature warning. Campiña cordobesa (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Subbética cordobesa",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Subbética cordobesa",
-      "nivel": "Naranja",
-      "text": "Subbética cordobesa: Aviso de temperaturas máximas de nivel amarillo. Subbética cordobesa (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Subbética cordobesa",
-      "fenomeno": "Moderate high-temperature warning. Subbética cordobesa",
-      "nivel": "Naranja",
-      "text": "Subbética cordobesa: Moderate high-temperature warning. Subbética cordobesa (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Cuenca del Genil",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Cuenca del Genil",
-      "nivel": "Naranja",
-      "text": "Cuenca del Genil: Aviso de temperaturas máximas de nivel amarillo. Cuenca del Genil (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cuenca del Genil",
-      "fenomeno": "Moderate high-temperature warning. Cuenca del Genil",
-      "nivel": "Naranja",
-      "text": "Cuenca del Genil: Moderate high-temperature warning. Cuenca del Genil (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Morena y Condado",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Morena y Condado",
-      "nivel": "Naranja",
-      "text": "Morena y Condado: Aviso de temperaturas máximas de nivel amarillo. Morena y Condado (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Morena y Condado",
-      "fenomeno": "Moderate high-temperature warning. Morena y Condado",
-      "nivel": "Naranja",
-      "text": "Morena y Condado: Moderate high-temperature warning. Morena y Condado (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Cazorla y Segura",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Cazorla y Segura",
-      "nivel": "Naranja",
-      "text": "Cazorla y Segura: Aviso de temperaturas máximas de nivel amarillo. Cazorla y Segura (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cazorla y Segura",
-      "fenomeno": "Moderate high-temperature warning. Cazorla y Segura",
-      "nivel": "Naranja",
-      "text": "Cazorla y Segura: Moderate high-temperature warning. Cazorla y Segura (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
