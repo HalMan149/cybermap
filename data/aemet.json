@@ -1,8 +1,152 @@
 {
-  "generated_at": "2026-08-17T08:32:59.707Z",
+  "generated_at": "2026-08-17T09:22:26.192Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌊",
+      "provincia": "Ribera del Ebro de La Rioja",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Ribera del Ebro de La Rioja",
+      "nivel": "Naranja",
+      "text": "Ribera del Ebro de La Rioja: Aviso de temperaturas máximas de nivel amarillo. Ribera del Ebro de La Rioja (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ribera del Ebro de La Rioja",
+      "fenomeno": "Moderate high-temperature warning. Ribera del Ebro de La Rioja",
+      "nivel": "Naranja",
+      "text": "Ribera del Ebro de La Rioja: Moderate high-temperature warning. Ribera del Ebro de La Rioja (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Norte de Cáceres",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Norte de Cáceres",
+      "nivel": "Rojo",
+      "text": "Norte de Cáceres: Aviso de temperaturas máximas de nivel naranja. Norte de Cáceres (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Norte de Cáceres",
+      "fenomeno": "Severe high-temperature warning. Norte de Cáceres",
+      "nivel": "Rojo",
+      "text": "Norte de Cáceres: Severe high-temperature warning. Norte de Cáceres (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Tajo y Alagón",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Tajo y Alagón",
+      "nivel": "Rojo",
+      "text": "Tajo y Alagón: Aviso de temperaturas máximas de nivel naranja. Tajo y Alagón (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Tajo y Alagón",
+      "fenomeno": "Severe high-temperature warning. Tajo y Alagón",
+      "nivel": "Rojo",
+      "text": "Tajo y Alagón: Severe high-temperature warning. Tajo y Alagón (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Vegas del Guadiana",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Vegas del Guadiana",
+      "nivel": "Naranja",
+      "text": "Vegas del Guadiana: Aviso de temperaturas máximas de nivel amarillo. Vegas del Guadiana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Vegas del Guadiana",
+      "fenomeno": "Moderate high-temperature warning. Vegas del Guadiana",
+      "nivel": "Naranja",
+      "text": "Vegas del Guadiana: Moderate high-temperature warning. Vegas del Guadiana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "La Siberia extremeña",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. La Siberia extremeña",
+      "nivel": "Naranja",
+      "text": "La Siberia extremeña: Aviso de temperaturas máximas de nivel amarillo. La Siberia extremeña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "La Siberia extremeña",
+      "fenomeno": "Moderate high-temperature warning. La Siberia extremeña",
+      "nivel": "Naranja",
+      "text": "La Siberia extremeña: Moderate high-temperature warning. La Siberia extremeña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Barros y Serena",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Barros y Serena",
+      "nivel": "Naranja",
+      "text": "Barros y Serena: Aviso de temperaturas máximas de nivel amarillo. Barros y Serena (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Barros y Serena",
+      "fenomeno": "Moderate high-temperature warning. Barros y Serena",
+      "nivel": "Naranja",
+      "text": "Barros y Serena: Moderate high-temperature warning. Barros y Serena (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Meseta cacereña",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Meseta cacereña",
+      "nivel": "Naranja",
+      "text": "Meseta cacereña: Aviso de temperaturas máximas de nivel amarillo. Meseta cacereña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Meseta cacereña",
+      "fenomeno": "Moderate high-temperature warning. Meseta cacereña",
+      "nivel": "Naranja",
+      "text": "Meseta cacereña: Moderate high-temperature warning. Meseta cacereña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Villuercas y Montánchez",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Villuercas y Montánchez",
+      "nivel": "Naranja",
+      "text": "Villuercas y Montánchez: Aviso de temperaturas máximas de nivel amarillo. Villuercas y Montánchez (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Villuercas y Montánchez",
+      "fenomeno": "Moderate high-temperature warning. Villuercas y Montánchez",
+      "nivel": "Naranja",
+      "text": "Villuercas y Montánchez: Moderate high-temperature warning. Villuercas y Montánchez (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Valdeorras",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Valdeorras",
+      "nivel": "Naranja",
+      "text": "Valdeorras: Aviso de temperaturas máximas de nivel amarillo. Valdeorras (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Valdeorras",
+      "fenomeno": "Moderate high-temperature warning. Valdeorras",
+      "nivel": "Naranja",
+      "text": "Valdeorras: Moderate high-temperature warning. Valdeorras (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌊",
       "provincia": "Alcarria conquense",
@@ -17,150 +161,6 @@
       "fenomeno": "Moderate high-temperature warning. Alcarria conquense",
       "nivel": "Naranja",
       "text": "Alcarria conquense: Moderate high-temperature warning. Alcarria conquense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Alcarria de Guadalajara",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Alcarria de Guadalajara",
-      "nivel": "Naranja",
-      "text": "Alcarria de Guadalajara: Aviso de temperaturas máximas de nivel amarillo. Alcarria de Guadalajara (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Alcarria de Guadalajara",
-      "fenomeno": "Moderate high-temperature warning. Alcarria de Guadalajara",
-      "nivel": "Naranja",
-      "text": "Alcarria de Guadalajara: Moderate high-temperature warning. Alcarria de Guadalajara (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Morena y Condado",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Morena y Condado",
-      "nivel": "Naranja",
-      "text": "Morena y Condado: Aviso de tormentas de nivel amarillo. Morena y Condado (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Morena y Condado",
-      "fenomeno": "Moderate thunderstorm warning. Morena y Condado",
-      "nivel": "Naranja",
-      "text": "Morena y Condado: Moderate thunderstorm warning. Morena y Condado (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Cazorla y Segura",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Cazorla y Segura",
-      "nivel": "Naranja",
-      "text": "Cazorla y Segura: Aviso de tormentas de nivel amarillo. Cazorla y Segura (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cazorla y Segura",
-      "fenomeno": "Moderate thunderstorm warning. Cazorla y Segura",
-      "nivel": "Naranja",
-      "text": "Cazorla y Segura: Moderate thunderstorm warning. Cazorla y Segura (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Valle del Guadalquivir de Jaén",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Valle del Guadalquivir de Jaén",
-      "nivel": "Naranja",
-      "text": "Valle del Guadalquivir de Jaén: Aviso de tormentas de nivel amarillo. Valle del Guadalquivir de Jaén (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Valle del Guadalquivir de Jaén",
-      "fenomeno": "Moderate thunderstorm warning. Valle del Guadalquivir de Jaén",
-      "nivel": "Naranja",
-      "text": "Valle del Guadalquivir de Jaén: Moderate thunderstorm warning. Valle del Guadalquivir de Jaén (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Capital y Montes de Jaén",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Capital y Montes de Jaén",
-      "nivel": "Naranja",
-      "text": "Capital y Montes de Jaén: Aviso de tormentas de nivel amarillo. Capital y Montes de Jaén (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Capital y Montes de Jaén",
-      "fenomeno": "Moderate thunderstorm warning. Capital y Montes de Jaén",
-      "nivel": "Naranja",
-      "text": "Capital y Montes de Jaén: Moderate thunderstorm warning. Capital y Montes de Jaén (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Sierra y Pedroches",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Sierra y Pedroches",
-      "nivel": "Naranja",
-      "text": "Sierra y Pedroches: Aviso de tormentas de nivel amarillo. Sierra y Pedroches (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sierra y Pedroches",
-      "fenomeno": "Moderate thunderstorm warning. Sierra y Pedroches",
-      "nivel": "Naranja",
-      "text": "Sierra y Pedroches: Moderate thunderstorm warning. Sierra y Pedroches (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Vegas del Guadiana",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Vegas del Guadiana",
-      "nivel": "Naranja",
-      "text": "Vegas del Guadiana: Aviso de tormentas de nivel amarillo. Vegas del Guadiana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Vegas del Guadiana",
-      "fenomeno": "Moderate thunderstorm warning. Vegas del Guadiana",
-      "nivel": "Naranja",
-      "text": "Vegas del Guadiana: Moderate thunderstorm warning. Vegas del Guadiana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "La Siberia extremeña",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. La Siberia extremeña",
-      "nivel": "Naranja",
-      "text": "La Siberia extremeña: Aviso de tormentas de nivel amarillo. La Siberia extremeña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "La Siberia extremeña",
-      "fenomeno": "Moderate thunderstorm warning. La Siberia extremeña",
-      "nivel": "Naranja",
-      "text": "La Siberia extremeña: Moderate thunderstorm warning. La Siberia extremeña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Barros y Serena",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Barros y Serena",
-      "nivel": "Naranja",
-      "text": "Barros y Serena: Aviso de tormentas de nivel amarillo. Barros y Serena (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Barros y Serena",
-      "fenomeno": "Moderate thunderstorm warning. Barros y Serena",
-      "nivel": "Naranja",
-      "text": "Barros y Serena: Moderate thunderstorm warning. Barros y Serena (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
