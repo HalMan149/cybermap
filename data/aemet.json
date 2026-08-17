@@ -1,8 +1,104 @@
 {
-  "generated_at": "2026-08-17T06:58:32.782Z",
+  "generated_at": "2026-08-17T07:53:10.334Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌊",
+      "provincia": "Alcarria conquense",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Alcarria conquense",
+      "nivel": "Naranja",
+      "text": "Alcarria conquense: Aviso de temperaturas máximas de nivel amarillo. Alcarria conquense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Alcarria conquense",
+      "fenomeno": "Moderate high-temperature warning. Alcarria conquense",
+      "nivel": "Naranja",
+      "text": "Alcarria conquense: Moderate high-temperature warning. Alcarria conquense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Alcarria de Guadalajara",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Alcarria de Guadalajara",
+      "nivel": "Naranja",
+      "text": "Alcarria de Guadalajara: Aviso de temperaturas máximas de nivel amarillo. Alcarria de Guadalajara (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Alcarria de Guadalajara",
+      "fenomeno": "Moderate high-temperature warning. Alcarria de Guadalajara",
+      "nivel": "Naranja",
+      "text": "Alcarria de Guadalajara: Moderate high-temperature warning. Alcarria de Guadalajara (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Morena y Condado",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Morena y Condado",
+      "nivel": "Naranja",
+      "text": "Morena y Condado: Aviso de tormentas de nivel amarillo. Morena y Condado (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Morena y Condado",
+      "fenomeno": "Moderate thunderstorm warning. Morena y Condado",
+      "nivel": "Naranja",
+      "text": "Morena y Condado: Moderate thunderstorm warning. Morena y Condado (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Cazorla y Segura",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Cazorla y Segura",
+      "nivel": "Naranja",
+      "text": "Cazorla y Segura: Aviso de tormentas de nivel amarillo. Cazorla y Segura (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cazorla y Segura",
+      "fenomeno": "Moderate thunderstorm warning. Cazorla y Segura",
+      "nivel": "Naranja",
+      "text": "Cazorla y Segura: Moderate thunderstorm warning. Cazorla y Segura (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Valle del Guadalquivir de Jaén",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Valle del Guadalquivir de Jaén",
+      "nivel": "Naranja",
+      "text": "Valle del Guadalquivir de Jaén: Aviso de tormentas de nivel amarillo. Valle del Guadalquivir de Jaén (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Valle del Guadalquivir de Jaén",
+      "fenomeno": "Moderate thunderstorm warning. Valle del Guadalquivir de Jaén",
+      "nivel": "Naranja",
+      "text": "Valle del Guadalquivir de Jaén: Moderate thunderstorm warning. Valle del Guadalquivir de Jaén (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Capital y Montes de Jaén",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Capital y Montes de Jaén",
+      "nivel": "Naranja",
+      "text": "Capital y Montes de Jaén: Aviso de tormentas de nivel amarillo. Capital y Montes de Jaén (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Capital y Montes de Jaén",
+      "fenomeno": "Moderate thunderstorm warning. Capital y Montes de Jaén",
+      "nivel": "Naranja",
+      "text": "Capital y Montes de Jaén: Moderate thunderstorm warning. Capital y Montes de Jaén (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "⛈️",
       "provincia": "Sierra y Pedroches",
@@ -65,102 +161,6 @@
       "fenomeno": "Moderate thunderstorm warning. Barros y Serena",
       "nivel": "Naranja",
       "text": "Barros y Serena: Moderate thunderstorm warning. Barros y Serena (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Sur de Badajoz",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Sur de Badajoz",
-      "nivel": "Naranja",
-      "text": "Sur de Badajoz: Aviso de tormentas de nivel amarillo. Sur de Badajoz (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sur de Badajoz",
-      "fenomeno": "Moderate thunderstorm warning. Sur de Badajoz",
-      "nivel": "Naranja",
-      "text": "Sur de Badajoz: Moderate thunderstorm warning. Sur de Badajoz (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Meseta cacereña",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Meseta cacereña",
-      "nivel": "Naranja",
-      "text": "Meseta cacereña: Aviso de tormentas de nivel amarillo. Meseta cacereña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Meseta cacereña",
-      "fenomeno": "Moderate thunderstorm warning. Meseta cacereña",
-      "nivel": "Naranja",
-      "text": "Meseta cacereña: Moderate thunderstorm warning. Meseta cacereña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Villuercas y Montánchez",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Villuercas y Montánchez",
-      "nivel": "Naranja",
-      "text": "Villuercas y Montánchez: Aviso de tormentas de nivel amarillo. Villuercas y Montánchez (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Villuercas y Montánchez",
-      "fenomeno": "Moderate thunderstorm warning. Villuercas y Montánchez",
-      "nivel": "Naranja",
-      "text": "Villuercas y Montánchez: Moderate thunderstorm warning. Villuercas y Montánchez (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Bierzo de León",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Bierzo de León",
-      "nivel": "Naranja",
-      "text": "Bierzo de León: Aviso de temperaturas máximas de nivel amarillo. Bierzo de León (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Bierzo de León",
-      "fenomeno": "Moderate high-temperature warning. Bierzo de León",
-      "nivel": "Naranja",
-      "text": "Bierzo de León: Moderate high-temperature warning. Bierzo de León (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Ibiza y Formentera",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Ibiza y Formentera",
-      "nivel": "Naranja",
-      "text": "Ibiza y Formentera: Aviso de temperaturas máximas de nivel amarillo. Ibiza y Formentera (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ibiza y Formentera",
-      "fenomeno": "Moderate high-temperature warning. Ibiza y Formentera",
-      "nivel": "Naranja",
-      "text": "Ibiza y Formentera: Moderate high-temperature warning. Ibiza y Formentera (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Sur de Mallorca",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Sur de Mallorca",
-      "nivel": "Naranja",
-      "text": "Sur de Mallorca: Aviso de temperaturas máximas de nivel amarillo. Sur de Mallorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sur de Mallorca",
-      "fenomeno": "Moderate high-temperature warning. Sur de Mallorca",
-      "nivel": "Naranja",
-      "text": "Sur de Mallorca: Moderate high-temperature warning. Sur de Mallorca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
