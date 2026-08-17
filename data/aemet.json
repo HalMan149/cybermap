@@ -1,166 +1,166 @@
 {
-  "generated_at": "2026-08-17T09:22:26.192Z",
+  "generated_at": "2026-08-17T10:03:11.682Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "🌊",
-      "provincia": "Ribera del Ebro de La Rioja",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Ribera del Ebro de La Rioja",
+      "provincia": "Ribera del Ebro de Navarra",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Ribera del Ebro de Navarra",
       "nivel": "Naranja",
-      "text": "Ribera del Ebro de La Rioja: Aviso de temperaturas máximas de nivel amarillo. Ribera del Ebro de La Rioja (Naranja) (AEMET)",
+      "text": "Ribera del Ebro de Navarra: Aviso de temperaturas máximas de nivel amarillo. Ribera del Ebro de Navarra (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Ribera del Ebro de La Rioja",
-      "fenomeno": "Moderate high-temperature warning. Ribera del Ebro de La Rioja",
+      "provincia": "Ribera del Ebro de Navarra",
+      "fenomeno": "Moderate high-temperature warning. Ribera del Ebro de Navarra",
       "nivel": "Naranja",
-      "text": "Ribera del Ebro de La Rioja: Moderate high-temperature warning. Ribera del Ebro de La Rioja (Naranja) (AEMET)",
+      "text": "Ribera del Ebro de Navarra: Moderate high-temperature warning. Ribera del Ebro de Navarra (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌡️",
-      "provincia": "Norte de Cáceres",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Norte de Cáceres",
+      "provincia": "Serranía de Cuenca",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Serranía de Cuenca",
       "nivel": "Rojo",
-      "text": "Norte de Cáceres: Aviso de temperaturas máximas de nivel naranja. Norte de Cáceres (Rojo) (AEMET)",
+      "text": "Serranía de Cuenca: Aviso de temperaturas máximas de nivel naranja. Serranía de Cuenca (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Norte de Cáceres",
-      "fenomeno": "Severe high-temperature warning. Norte de Cáceres",
+      "provincia": "Serranía de Cuenca",
+      "fenomeno": "Severe high-temperature warning. Serranía de Cuenca",
       "nivel": "Rojo",
-      "text": "Norte de Cáceres: Severe high-temperature warning. Norte de Cáceres (Rojo) (AEMET)",
+      "text": "Serranía de Cuenca: Severe high-temperature warning. Serranía de Cuenca (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌡️",
-      "provincia": "Tajo y Alagón",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Tajo y Alagón",
+      "provincia": "Sierra de San Vicente",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Sierra de San Vicente",
       "nivel": "Rojo",
-      "text": "Tajo y Alagón: Aviso de temperaturas máximas de nivel naranja. Tajo y Alagón (Rojo) (AEMET)",
+      "text": "Sierra de San Vicente: Aviso de temperaturas máximas de nivel naranja. Sierra de San Vicente (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Tajo y Alagón",
-      "fenomeno": "Severe high-temperature warning. Tajo y Alagón",
+      "provincia": "Sierra de San Vicente",
+      "fenomeno": "Severe high-temperature warning. Sierra de San Vicente",
       "nivel": "Rojo",
-      "text": "Tajo y Alagón: Severe high-temperature warning. Tajo y Alagón (Rojo) (AEMET)",
+      "text": "Sierra de San Vicente: Severe high-temperature warning. Sierra de San Vicente (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Vegas del Guadiana",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Vegas del Guadiana",
-      "nivel": "Naranja",
-      "text": "Vegas del Guadiana: Aviso de temperaturas máximas de nivel amarillo. Vegas del Guadiana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Vegas del Guadiana",
-      "fenomeno": "Moderate high-temperature warning. Vegas del Guadiana",
-      "nivel": "Naranja",
-      "text": "Vegas del Guadiana: Moderate high-temperature warning. Vegas del Guadiana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "La Siberia extremeña",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. La Siberia extremeña",
-      "nivel": "Naranja",
-      "text": "La Siberia extremeña: Aviso de temperaturas máximas de nivel amarillo. La Siberia extremeña (Naranja) (AEMET)",
+      "icon": "🌡️",
+      "provincia": "Valle del Tajo",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Valle del Tajo",
+      "nivel": "Rojo",
+      "text": "Valle del Tajo: Aviso de temperaturas máximas de nivel naranja. Valle del Tajo (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "La Siberia extremeña",
-      "fenomeno": "Moderate high-temperature warning. La Siberia extremeña",
-      "nivel": "Naranja",
-      "text": "La Siberia extremeña: Moderate high-temperature warning. La Siberia extremeña (Naranja) (AEMET)",
+      "provincia": "Valle del Tajo",
+      "fenomeno": "Severe high-temperature warning. Valle del Tajo",
+      "nivel": "Rojo",
+      "text": "Valle del Tajo: Severe high-temperature warning. Valle del Tajo (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Barros y Serena",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Barros y Serena",
+      "provincia": "Sierra de San Vicente",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Sierra de San Vicente",
       "nivel": "Naranja",
-      "text": "Barros y Serena: Aviso de temperaturas máximas de nivel amarillo. Barros y Serena (Naranja) (AEMET)",
+      "text": "Sierra de San Vicente: Aviso de temperaturas máximas de nivel amarillo. Sierra de San Vicente (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Barros y Serena",
-      "fenomeno": "Moderate high-temperature warning. Barros y Serena",
+      "provincia": "Sierra de San Vicente",
+      "fenomeno": "Moderate high-temperature warning. Sierra de San Vicente",
       "nivel": "Naranja",
-      "text": "Barros y Serena: Moderate high-temperature warning. Barros y Serena (Naranja) (AEMET)",
+      "text": "Sierra de San Vicente: Moderate high-temperature warning. Sierra de San Vicente (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Meseta cacereña",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Meseta cacereña",
+      "provincia": "Valle del Tajo",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Valle del Tajo",
       "nivel": "Naranja",
-      "text": "Meseta cacereña: Aviso de temperaturas máximas de nivel amarillo. Meseta cacereña (Naranja) (AEMET)",
+      "text": "Valle del Tajo: Aviso de temperaturas máximas de nivel amarillo. Valle del Tajo (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Meseta cacereña",
-      "fenomeno": "Moderate high-temperature warning. Meseta cacereña",
+      "provincia": "Valle del Tajo",
+      "fenomeno": "Moderate high-temperature warning. Valle del Tajo",
       "nivel": "Naranja",
-      "text": "Meseta cacereña: Moderate high-temperature warning. Meseta cacereña (Naranja) (AEMET)",
+      "text": "Valle del Tajo: Moderate high-temperature warning. Valle del Tajo (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Villuercas y Montánchez",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Villuercas y Montánchez",
+      "provincia": "La Mancha albaceteña",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. La Mancha albaceteña",
       "nivel": "Naranja",
-      "text": "Villuercas y Montánchez: Aviso de temperaturas máximas de nivel amarillo. Villuercas y Montánchez (Naranja) (AEMET)",
+      "text": "La Mancha albaceteña: Aviso de temperaturas máximas de nivel amarillo. La Mancha albaceteña (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Villuercas y Montánchez",
-      "fenomeno": "Moderate high-temperature warning. Villuercas y Montánchez",
+      "provincia": "La Mancha albaceteña",
+      "fenomeno": "Moderate high-temperature warning. La Mancha albaceteña",
       "nivel": "Naranja",
-      "text": "Villuercas y Montánchez: Moderate high-temperature warning. Villuercas y Montánchez (Naranja) (AEMET)",
+      "text": "La Mancha albaceteña: Moderate high-temperature warning. La Mancha albaceteña (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Valdeorras",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Valdeorras",
+      "provincia": "Alcaraz y Segura",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Alcaraz y Segura",
       "nivel": "Naranja",
-      "text": "Valdeorras: Aviso de temperaturas máximas de nivel amarillo. Valdeorras (Naranja) (AEMET)",
+      "text": "Alcaraz y Segura: Aviso de temperaturas máximas de nivel amarillo. Alcaraz y Segura (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Valdeorras",
-      "fenomeno": "Moderate high-temperature warning. Valdeorras",
+      "provincia": "Alcaraz y Segura",
+      "fenomeno": "Moderate high-temperature warning. Alcaraz y Segura",
       "nivel": "Naranja",
-      "text": "Valdeorras: Moderate high-temperature warning. Valdeorras (Naranja) (AEMET)",
+      "text": "Alcaraz y Segura: Moderate high-temperature warning. Alcaraz y Segura (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Alcarria conquense",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Alcarria conquense",
+      "provincia": "Hellín y Almansa",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Hellín y Almansa",
       "nivel": "Naranja",
-      "text": "Alcarria conquense: Aviso de temperaturas máximas de nivel amarillo. Alcarria conquense (Naranja) (AEMET)",
+      "text": "Hellín y Almansa: Aviso de temperaturas máximas de nivel amarillo. Hellín y Almansa (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Alcarria conquense",
-      "fenomeno": "Moderate high-temperature warning. Alcarria conquense",
+      "provincia": "Hellín y Almansa",
+      "fenomeno": "Moderate high-temperature warning. Hellín y Almansa",
       "nivel": "Naranja",
-      "text": "Alcarria conquense: Moderate high-temperature warning. Alcarria conquense (Naranja) (AEMET)",
+      "text": "Hellín y Almansa: Moderate high-temperature warning. Hellín y Almansa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Valle del Guadiana",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Valle del Guadiana",
+      "nivel": "Naranja",
+      "text": "Valle del Guadiana: Aviso de temperaturas máximas de nivel amarillo. Valle del Guadiana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Valle del Guadiana",
+      "fenomeno": "Moderate high-temperature warning. Valle del Guadiana",
+      "nivel": "Naranja",
+      "text": "Valle del Guadiana: Moderate high-temperature warning. Valle del Guadiana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
