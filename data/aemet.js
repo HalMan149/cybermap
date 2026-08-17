@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-08-17T16:52:05.777Z
+// Auto-generado por GitHub Actions - 2026-08-17T17:18:48.170Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-08-17T16:52:05.777Z",
+  "generated_at": "2026-08-17T17:18:48.170Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "🌡️",
-      "provincia": "Sur de Huesca",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Sur de Huesca",
-      "nivel": "Rojo",
-      "text": "Sur de Huesca: Aviso de temperaturas máximas de nivel naranja. Sur de Huesca (Rojo) (AEMET)",
+      "icon": "🌊",
+      "provincia": "Guadix y Baza",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Guadix y Baza",
+      "nivel": "Naranja",
+      "text": "Guadix y Baza: Aviso de temperaturas máximas de nivel amarillo. Guadix y Baza (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sur de Huesca",
-      "fenomeno": "Severe high-temperature warning. Sur de Huesca",
-      "nivel": "Rojo",
-      "text": "Sur de Huesca: Severe high-temperature warning. Sur de Huesca (Rojo) (AEMET)",
+      "provincia": "Guadix y Baza",
+      "fenomeno": "Moderate high-temperature warning. Guadix y Baza",
+      "nivel": "Naranja",
+      "text": "Guadix y Baza: Moderate high-temperature warning. Guadix y Baza (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌡️",
-      "provincia": "Ribera del Ebro de Zaragoza",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Ribera del Ebro de Zaragoza",
+      "provincia": "Campiña cordobesa",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Campiña cordobesa",
       "nivel": "Rojo",
-      "text": "Ribera del Ebro de Zaragoza: Aviso de temperaturas máximas de nivel naranja. Ribera del Ebro de Zaragoza (Rojo) (AEMET)",
+      "text": "Campiña cordobesa: Aviso de temperaturas máximas de nivel naranja. Campiña cordobesa (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Ribera del Ebro de Zaragoza",
-      "fenomeno": "Severe high-temperature warning. Ribera del Ebro de Zaragoza",
+      "provincia": "Campiña cordobesa",
+      "fenomeno": "Severe high-temperature warning. Campiña cordobesa",
       "nivel": "Rojo",
-      "text": "Ribera del Ebro de Zaragoza: Severe high-temperature warning. Ribera del Ebro de Zaragoza (Rojo) (AEMET)",
+      "text": "Campiña cordobesa: Severe high-temperature warning. Campiña cordobesa (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌡️",
-      "provincia": "Pirineo de Lleida",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Pirineo de Lleida",
+      "provincia": "Sur de Ávila",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Sur de Ávila",
       "nivel": "Rojo",
-      "text": "Pirineo de Lleida: Aviso de temperaturas máximas de nivel naranja. Pirineo de Lleida (Rojo) (AEMET)",
+      "text": "Sur de Ávila: Aviso de temperaturas máximas de nivel naranja. Sur de Ávila (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Pirineo de Lleida",
-      "fenomeno": "Severe high-temperature warning. Pirineo de Lleida",
+      "provincia": "Sur de Ávila",
+      "fenomeno": "Severe high-temperature warning. Sur de Ávila",
       "nivel": "Rojo",
-      "text": "Pirineo de Lleida: Severe high-temperature warning. Pirineo de Lleida (Rojo) (AEMET)",
+      "text": "Sur de Ávila: Severe high-temperature warning. Sur de Ávila (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌡️",
-      "provincia": "Depresión central de Lleida",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Depresión central de Lleida",
+      "provincia": "Vegas del Guadiana",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Vegas del Guadiana",
       "nivel": "Rojo",
-      "text": "Depresión central de Lleida: Aviso de temperaturas máximas de nivel naranja. Depresión central de Lleida (Rojo) (AEMET)",
+      "text": "Vegas del Guadiana: Aviso de temperaturas máximas de nivel naranja. Vegas del Guadiana (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Depresión central de Lleida",
-      "fenomeno": "Severe high-temperature warning. Depresión central de Lleida",
+      "provincia": "Vegas del Guadiana",
+      "fenomeno": "Severe high-temperature warning. Vegas del Guadiana",
       "nivel": "Rojo",
-      "text": "Depresión central de Lleida: Severe high-temperature warning. Depresión central de Lleida (Rojo) (AEMET)",
+      "text": "Vegas del Guadiana: Severe high-temperature warning. Vegas del Guadiana (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌡️",
-      "provincia": "Depresión central de Tarragona",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Depresión central de Tarragona",
+      "provincia": "La Siberia extremeña",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. La Siberia extremeña",
       "nivel": "Rojo",
-      "text": "Depresión central de Tarragona: Aviso de temperaturas máximas de nivel naranja. Depresión central de Tarragona (Rojo) (AEMET)",
+      "text": "La Siberia extremeña: Aviso de temperaturas máximas de nivel naranja. La Siberia extremeña (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Depresión central de Tarragona",
-      "fenomeno": "Severe high-temperature warning. Depresión central de Tarragona",
+      "provincia": "La Siberia extremeña",
+      "fenomeno": "Severe high-temperature warning. La Siberia extremeña",
       "nivel": "Rojo",
-      "text": "Depresión central de Tarragona: Severe high-temperature warning. Depresión central de Tarragona (Rojo) (AEMET)",
+      "text": "La Siberia extremeña: Severe high-temperature warning. La Siberia extremeña (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌡️",
-      "provincia": "Vega del Segura",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Vega del Segura",
+      "provincia": "Meseta cacereña",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Meseta cacereña",
       "nivel": "Rojo",
-      "text": "Vega del Segura: Aviso de temperaturas máximas de nivel naranja. Vega del Segura (Rojo) (AEMET)",
+      "text": "Meseta cacereña: Aviso de temperaturas máximas de nivel naranja. Meseta cacereña (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Vega del Segura",
-      "fenomeno": "Severe high-temperature warning. Vega del Segura",
+      "provincia": "Meseta cacereña",
+      "fenomeno": "Severe high-temperature warning. Meseta cacereña",
       "nivel": "Rojo",
-      "text": "Vega del Segura: Severe high-temperature warning. Vega del Segura (Rojo) (AEMET)",
+      "text": "Meseta cacereña: Severe high-temperature warning. Meseta cacereña (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌡️",
-      "provincia": "Litoral norte de Alicante",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Litoral norte de Alicante",
+      "provincia": "Villuercas y Montánchez",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Villuercas y Montánchez",
       "nivel": "Rojo",
-      "text": "Litoral norte de Alicante: Aviso de temperaturas máximas de nivel naranja. Litoral norte de Alicante (Rojo) (AEMET)",
+      "text": "Villuercas y Montánchez: Aviso de temperaturas máximas de nivel naranja. Villuercas y Montánchez (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Litoral norte de Alicante",
-      "fenomeno": "Severe high-temperature warning. Litoral norte de Alicante",
+      "provincia": "Villuercas y Montánchez",
+      "fenomeno": "Severe high-temperature warning. Villuercas y Montánchez",
       "nivel": "Rojo",
-      "text": "Litoral norte de Alicante: Severe high-temperature warning. Litoral norte de Alicante (Rojo) (AEMET)",
+      "text": "Villuercas y Montánchez: Severe high-temperature warning. Villuercas y Montánchez (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Sur de Badajoz",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Sur de Badajoz",
+      "nivel": "Naranja",
+      "text": "Sur de Badajoz: Aviso de temperaturas máximas de nivel amarillo. Sur de Badajoz (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sur de Badajoz",
+      "fenomeno": "Moderate high-temperature warning. Sur de Badajoz",
+      "nivel": "Naranja",
+      "text": "Sur de Badajoz: Moderate high-temperature warning. Sur de Badajoz (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌡️",
-      "provincia": "Interior de Alicante",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Interior de Alicante",
+      "provincia": "Valdeorras",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Valdeorras",
       "nivel": "Rojo",
-      "text": "Interior de Alicante: Aviso de temperaturas máximas de nivel naranja. Interior de Alicante (Rojo) (AEMET)",
+      "text": "Valdeorras: Aviso de temperaturas máximas de nivel naranja. Valdeorras (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Interior de Alicante",
-      "fenomeno": "Severe high-temperature warning. Interior de Alicante",
+      "provincia": "Valdeorras",
+      "fenomeno": "Severe high-temperature warning. Valdeorras",
       "nivel": "Rojo",
-      "text": "Interior de Alicante: Severe high-temperature warning. Interior de Alicante (Rojo) (AEMET)",
+      "text": "Valdeorras: Severe high-temperature warning. Valdeorras (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌡️",
-      "provincia": "Litoral sur de Alicante",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Litoral sur de Alicante",
+      "provincia": "Rias Baixas",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Rias Baixas",
       "nivel": "Rojo",
-      "text": "Litoral sur de Alicante: Aviso de temperaturas máximas de nivel naranja. Litoral sur de Alicante (Rojo) (AEMET)",
+      "text": "Rias Baixas: Aviso de temperaturas máximas de nivel naranja. Rias Baixas (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Litoral sur de Alicante",
-      "fenomeno": "Severe high-temperature warning. Litoral sur de Alicante",
+      "provincia": "Rias Baixas",
+      "fenomeno": "Severe high-temperature warning. Rias Baixas",
       "nivel": "Rojo",
-      "text": "Litoral sur de Alicante: Severe high-temperature warning. Litoral sur de Alicante (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Litoral norte de Valencia",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Litoral norte de Valencia",
-      "nivel": "Rojo",
-      "text": "Litoral norte de Valencia: Aviso de temperaturas máximas de nivel naranja. Litoral norte de Valencia (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral norte de Valencia",
-      "fenomeno": "Severe high-temperature warning. Litoral norte de Valencia",
-      "nivel": "Rojo",
-      "text": "Litoral norte de Valencia: Severe high-temperature warning. Litoral norte de Valencia (Rojo) (AEMET)",
+      "text": "Rias Baixas: Severe high-temperature warning. Rias Baixas (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
