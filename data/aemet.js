@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-08-18T15:54:13.540Z
+// Auto-generado por GitHub Actions - 2026-08-18T16:20:43.286Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-08-18T15:54:13.540Z",
+  "generated_at": "2026-08-18T16:20:43.286Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "🌡️",
-      "provincia": "Vega del Segura",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Vega del Segura",
-      "nivel": "Rojo",
-      "text": "Vega del Segura: Aviso de temperaturas máximas de nivel naranja. Vega del Segura (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Vega del Segura",
-      "fenomeno": "Severe high-temperature warning. Vega del Segura",
-      "nivel": "Rojo",
-      "text": "Vega del Segura: Severe high-temperature warning. Vega del Segura (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Valle del Guadalentín, Lorca y Águilas",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Valle del Guadalentín, Lorca y Águilas",
-      "nivel": "Rojo",
-      "text": "Valle del Guadalentín, Lorca y Águilas: Aviso de temperaturas máximas de nivel naranja. Valle del Guadalentín, Lorca y Águilas (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Valle del Guadalentín, Lorca y Águilas",
-      "fenomeno": "Severe high-temperature warning. Valle del Guadalentín, Lorca y Águilas",
-      "nivel": "Rojo",
-      "text": "Valle del Guadalentín, Lorca y Águilas: Severe high-temperature warning. Valle del Guadalentín, Lorca y Águilas (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Altiplano de Murcia",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Altiplano de Murcia",
-      "nivel": "Naranja",
-      "text": "Altiplano de Murcia: Aviso de temperaturas máximas de nivel amarillo. Altiplano de Murcia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Altiplano de Murcia",
-      "fenomeno": "Moderate high-temperature warning. Altiplano de Murcia",
-      "nivel": "Naranja",
-      "text": "Altiplano de Murcia: Moderate high-temperature warning. Altiplano de Murcia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Noroeste de Murcia",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Noroeste de Murcia",
-      "nivel": "Naranja",
-      "text": "Noroeste de Murcia: Aviso de temperaturas máximas de nivel amarillo. Noroeste de Murcia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Noroeste de Murcia",
-      "fenomeno": "Moderate high-temperature warning. Noroeste de Murcia",
-      "nivel": "Naranja",
-      "text": "Noroeste de Murcia: Moderate high-temperature warning. Noroeste de Murcia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
       "provincia": "Norte y nordeste de Mallorca",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Norte y nordeste de Mallorca",
-      "nivel": "Naranja",
-      "text": "Norte y nordeste de Mallorca: Aviso de temperaturas máximas de nivel amarillo. Norte y nordeste de Mallorca (Naranja) (AEMET)",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Norte y nordeste de Mallorca",
+      "nivel": "Rojo",
+      "text": "Norte y nordeste de Mallorca: Aviso de temperaturas máximas de nivel naranja. Norte y nordeste de Mallorca (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
       "provincia": "Norte y nordeste de Mallorca",
-      "fenomeno": "Moderate high-temperature warning. Norte y nordeste de Mallorca",
-      "nivel": "Naranja",
-      "text": "Norte y nordeste de Mallorca: Moderate high-temperature warning. Norte y nordeste de Mallorca (Naranja) (AEMET)",
+      "fenomeno": "Severe high-temperature warning. Norte y nordeste de Mallorca",
+      "nivel": "Rojo",
+      "text": "Norte y nordeste de Mallorca: Severe high-temperature warning. Norte y nordeste de Mallorca (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Interior de Mallorca",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Interior de Mallorca",
+      "icon": "🌧️",
+      "provincia": "Cordillera Cantábrica de León",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Cordillera Cantábrica de León",
       "nivel": "Naranja",
-      "text": "Interior de Mallorca: Aviso de temperaturas máximas de nivel amarillo. Interior de Mallorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior de Mallorca",
-      "fenomeno": "Moderate high-temperature warning. Interior de Mallorca",
-      "nivel": "Naranja",
-      "text": "Interior de Mallorca: Moderate high-temperature warning. Interior de Mallorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Ibiza y Formentera",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Ibiza y Formentera",
-      "nivel": "Naranja",
-      "text": "Ibiza y Formentera: Aviso de temperaturas máximas de nivel amarillo. Ibiza y Formentera (Naranja) (AEMET)",
+      "text": "Cordillera Cantábrica de León: Aviso de lluvias de nivel amarillo. Cordillera Cantábrica de León (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Ibiza y Formentera",
-      "fenomeno": "Moderate high-temperature warning. Ibiza y Formentera",
+      "provincia": "Cordillera Cantábrica de León",
+      "fenomeno": "Moderate rain warning. Cordillera Cantábrica de León",
       "nivel": "Naranja",
-      "text": "Ibiza y Formentera: Moderate high-temperature warning. Ibiza y Formentera (Naranja) (AEMET)",
+      "text": "Cordillera Cantábrica de León: Moderate rain warning. Cordillera Cantábrica de León (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Sierra Tramontana",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Sierra Tramontana",
+      "icon": "🌧️",
+      "provincia": "Meseta de León",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Meseta de León",
       "nivel": "Naranja",
-      "text": "Sierra Tramontana: Aviso de temperaturas máximas de nivel amarillo. Sierra Tramontana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sierra Tramontana",
-      "fenomeno": "Moderate high-temperature warning. Sierra Tramontana",
-      "nivel": "Naranja",
-      "text": "Sierra Tramontana: Moderate high-temperature warning. Sierra Tramontana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Norte y nordeste de Mallorca",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Norte y nordeste de Mallorca",
-      "nivel": "Naranja",
-      "text": "Norte y nordeste de Mallorca: Aviso de temperaturas máximas de nivel amarillo. Norte y nordeste de Mallorca (Naranja) (AEMET)",
+      "text": "Meseta de León: Aviso de lluvias de nivel amarillo. Meseta de León (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Norte y nordeste de Mallorca",
-      "fenomeno": "Moderate high-temperature warning. Norte y nordeste de Mallorca",
+      "provincia": "Meseta de León",
+      "fenomeno": "Moderate rain warning. Meseta de León",
       "nivel": "Naranja",
-      "text": "Norte y nordeste de Mallorca: Moderate high-temperature warning. Norte y nordeste de Mallorca (Naranja) (AEMET)",
+      "text": "Meseta de León: Moderate rain warning. Meseta de León (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Interior de Mallorca",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Interior de Mallorca",
+      "icon": "🌧️",
+      "provincia": "Cordillera Cantábrica de Palencia",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Cordillera Cantábrica de Palencia",
       "nivel": "Naranja",
-      "text": "Interior de Mallorca: Aviso de temperaturas máximas de nivel amarillo. Interior de Mallorca (Naranja) (AEMET)",
+      "text": "Cordillera Cantábrica de Palencia: Aviso de lluvias de nivel amarillo. Cordillera Cantábrica de Palencia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Interior de Mallorca",
-      "fenomeno": "Moderate high-temperature warning. Interior de Mallorca",
+      "provincia": "Cordillera Cantábrica de Palencia",
+      "fenomeno": "Moderate rain warning. Cordillera Cantábrica de Palencia",
       "nivel": "Naranja",
-      "text": "Interior de Mallorca: Moderate high-temperature warning. Interior de Mallorca (Naranja) (AEMET)",
+      "text": "Cordillera Cantábrica de Palencia: Moderate rain warning. Cordillera Cantábrica de Palencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Cordillera Cantábrica de León",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Cordillera Cantábrica de León",
+      "nivel": "Naranja",
+      "text": "Cordillera Cantábrica de León: Aviso de tormentas de nivel amarillo. Cordillera Cantábrica de León (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cordillera Cantábrica de León",
+      "fenomeno": "Moderate thunderstorm warning. Cordillera Cantábrica de León",
+      "nivel": "Naranja",
+      "text": "Cordillera Cantábrica de León: Moderate thunderstorm warning. Cordillera Cantábrica de León (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Meseta de León",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Meseta de León",
+      "nivel": "Naranja",
+      "text": "Meseta de León: Aviso de tormentas de nivel amarillo. Meseta de León (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Meseta de León",
+      "fenomeno": "Moderate thunderstorm warning. Meseta de León",
+      "nivel": "Naranja",
+      "text": "Meseta de León: Moderate thunderstorm warning. Meseta de León (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Cordillera Cantábrica de Palencia",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Cordillera Cantábrica de Palencia",
+      "nivel": "Naranja",
+      "text": "Cordillera Cantábrica de Palencia: Aviso de tormentas de nivel amarillo. Cordillera Cantábrica de Palencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cordillera Cantábrica de Palencia",
+      "fenomeno": "Moderate thunderstorm warning. Cordillera Cantábrica de Palencia",
+      "nivel": "Naranja",
+      "text": "Cordillera Cantábrica de Palencia: Moderate thunderstorm warning. Cordillera Cantábrica de Palencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Valle del Almanzora y Los Vélez",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Valle del Almanzora y Los Vélez",
+      "nivel": "Naranja",
+      "text": "Valle del Almanzora y Los Vélez: Aviso de tormentas de nivel amarillo. Valle del Almanzora y Los Vélez (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Valle del Almanzora y Los Vélez",
+      "fenomeno": "Moderate thunderstorm warning. Valle del Almanzora y Los Vélez",
+      "nivel": "Naranja",
+      "text": "Valle del Almanzora y Los Vélez: Moderate thunderstorm warning. Valle del Almanzora y Los Vélez (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Guadix y Baza",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Guadix y Baza",
+      "nivel": "Naranja",
+      "text": "Guadix y Baza: Aviso de tormentas de nivel amarillo. Guadix y Baza (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Guadix y Baza",
+      "fenomeno": "Moderate thunderstorm warning. Guadix y Baza",
+      "nivel": "Naranja",
+      "text": "Guadix y Baza: Moderate thunderstorm warning. Guadix y Baza (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Hellín y Almansa",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Hellín y Almansa",
+      "nivel": "Naranja",
+      "text": "Hellín y Almansa: Aviso de tormentas de nivel amarillo. Hellín y Almansa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Hellín y Almansa",
+      "fenomeno": "Moderate thunderstorm warning. Hellín y Almansa",
+      "nivel": "Naranja",
+      "text": "Hellín y Almansa: Moderate thunderstorm warning. Hellín y Almansa (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
