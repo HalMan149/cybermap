@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2026-08-18T16:20:43.286Z
+// Auto-generado por GitHub Actions - 2026-08-18T16:55:17.923Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-08-18T16:20:43.286Z",
+  "generated_at": "2026-08-18T16:55:17.923Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌡️",
+      "provincia": "Miño de Ourense",
+      "fenomeno": "Aviso de temperaturas máximas de nivel rojo. Miño de Ourense",
+      "nivel": "Rojo",
+      "text": "Miño de Ourense: Aviso de temperaturas máximas de nivel rojo. Miño de Ourense (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Miño de Ourense",
+      "fenomeno": "Extreme high-temperature warning. Miño de Ourense",
+      "nivel": "Rojo",
+      "text": "Miño de Ourense: Extreme high-temperature warning. Miño de Ourense (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌡️",
       "provincia": "Norte y nordeste de Mallorca",
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate thunderstorm warning. Guadix y Baza",
       "nivel": "Naranja",
       "text": "Guadix y Baza: Moderate thunderstorm warning. Guadix y Baza (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Hellín y Almansa",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Hellín y Almansa",
-      "nivel": "Naranja",
-      "text": "Hellín y Almansa: Aviso de tormentas de nivel amarillo. Hellín y Almansa (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Hellín y Almansa",
-      "fenomeno": "Moderate thunderstorm warning. Hellín y Almansa",
-      "nivel": "Naranja",
-      "text": "Hellín y Almansa: Moderate thunderstorm warning. Hellín y Almansa (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
