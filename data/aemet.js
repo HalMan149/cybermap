@@ -1,9 +1,105 @@
-// Auto-generado por GitHub Actions - 2026-08-18T08:41:50.968Z
+// Auto-generado por GitHub Actions - 2026-08-18T09:13:48.432Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-08-18T08:41:50.968Z",
+  "generated_at": "2026-08-18T09:13:48.432Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌊",
+      "provincia": "Miño de Ourense",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Miño de Ourense",
+      "nivel": "Naranja",
+      "text": "Miño de Ourense: Aviso de temperaturas máximas de nivel amarillo. Miño de Ourense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Miño de Ourense",
+      "fenomeno": "Moderate high-temperature warning. Miño de Ourense",
+      "nivel": "Naranja",
+      "text": "Miño de Ourense: Moderate high-temperature warning. Miño de Ourense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Morena y Condado",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Morena y Condado",
+      "nivel": "Rojo",
+      "text": "Morena y Condado: Aviso de temperaturas máximas de nivel naranja. Morena y Condado (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Morena y Condado",
+      "fenomeno": "Severe high-temperature warning. Morena y Condado",
+      "nivel": "Rojo",
+      "text": "Morena y Condado: Severe high-temperature warning. Morena y Condado (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Valle del Guadalquivir de Jaén",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Valle del Guadalquivir de Jaén",
+      "nivel": "Rojo",
+      "text": "Valle del Guadalquivir de Jaén: Aviso de temperaturas máximas de nivel naranja. Valle del Guadalquivir de Jaén (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Valle del Guadalquivir de Jaén",
+      "fenomeno": "Severe high-temperature warning. Valle del Guadalquivir de Jaén",
+      "nivel": "Rojo",
+      "text": "Valle del Guadalquivir de Jaén: Severe high-temperature warning. Valle del Guadalquivir de Jaén (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Valle del Almanzora y Los Vélez",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Valle del Almanzora y Los Vélez",
+      "nivel": "Naranja",
+      "text": "Valle del Almanzora y Los Vélez: Aviso de temperaturas máximas de nivel amarillo. Valle del Almanzora y Los Vélez (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Valle del Almanzora y Los Vélez",
+      "fenomeno": "Moderate high-temperature warning. Valle del Almanzora y Los Vélez",
+      "nivel": "Naranja",
+      "text": "Valle del Almanzora y Los Vélez: Moderate high-temperature warning. Valle del Almanzora y Los Vélez (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Levante almeriense",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Levante almeriense",
+      "nivel": "Naranja",
+      "text": "Levante almeriense: Aviso de temperaturas máximas de nivel amarillo. Levante almeriense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Levante almeriense",
+      "fenomeno": "Moderate high-temperature warning. Levante almeriense",
+      "nivel": "Naranja",
+      "text": "Levante almeriense: Moderate high-temperature warning. Levante almeriense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Sol y Guadalhorce",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Sol y Guadalhorce",
+      "nivel": "Naranja",
+      "text": "Sol y Guadalhorce: Aviso de temperaturas máximas de nivel amarillo. Sol y Guadalhorce (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sol y Guadalhorce",
+      "fenomeno": "Moderate high-temperature warning. Sol y Guadalhorce",
+      "nivel": "Naranja",
+      "text": "Sol y Guadalhorce: Moderate high-temperature warning. Sol y Guadalhorce (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌊",
       "provincia": "Cordillera Cantábrica de León",
@@ -66,102 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate high-temperature warning. Valle del Guadalentín, Lorca y Águilas",
       "nivel": "Naranja",
       "text": "Valle del Guadalentín, Lorca y Águilas: Moderate high-temperature warning. Valle del Guadalentín, Lorca y Águilas (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Altiplano de Murcia",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Altiplano de Murcia",
-      "nivel": "Naranja",
-      "text": "Altiplano de Murcia: Aviso de temperaturas máximas de nivel amarillo. Altiplano de Murcia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Altiplano de Murcia",
-      "fenomeno": "Moderate high-temperature warning. Altiplano de Murcia",
-      "nivel": "Naranja",
-      "text": "Altiplano de Murcia: Moderate high-temperature warning. Altiplano de Murcia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Noroeste de Murcia",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Noroeste de Murcia",
-      "nivel": "Naranja",
-      "text": "Noroeste de Murcia: Aviso de temperaturas máximas de nivel amarillo. Noroeste de Murcia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Noroeste de Murcia",
-      "fenomeno": "Moderate high-temperature warning. Noroeste de Murcia",
-      "nivel": "Naranja",
-      "text": "Noroeste de Murcia: Moderate high-temperature warning. Noroeste de Murcia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Valle del Guadalentín, Lorca y Águilas",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Valle del Guadalentín, Lorca y Águilas",
-      "nivel": "Naranja",
-      "text": "Valle del Guadalentín, Lorca y Águilas: Aviso de temperaturas máximas de nivel amarillo. Valle del Guadalentín, Lorca y Águilas (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Valle del Guadalentín, Lorca y Águilas",
-      "fenomeno": "Moderate high-temperature warning. Valle del Guadalentín, Lorca y Águilas",
-      "nivel": "Naranja",
-      "text": "Valle del Guadalentín, Lorca y Águilas: Moderate high-temperature warning. Valle del Guadalentín, Lorca y Águilas (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Campo de Cartagena y Mazarrón",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Campo de Cartagena y Mazarrón",
-      "nivel": "Naranja",
-      "text": "Campo de Cartagena y Mazarrón: Aviso de temperaturas máximas de nivel amarillo. Campo de Cartagena y Mazarrón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Campo de Cartagena y Mazarrón",
-      "fenomeno": "Moderate high-temperature warning. Campo de Cartagena y Mazarrón",
-      "nivel": "Naranja",
-      "text": "Campo de Cartagena y Mazarrón: Moderate high-temperature warning. Campo de Cartagena y Mazarrón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Campiña cordobesa",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Campiña cordobesa",
-      "nivel": "Rojo",
-      "text": "Campiña cordobesa: Aviso de temperaturas máximas de nivel naranja. Campiña cordobesa (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Campiña cordobesa",
-      "fenomeno": "Severe high-temperature warning. Campiña cordobesa",
-      "nivel": "Rojo",
-      "text": "Campiña cordobesa: Severe high-temperature warning. Campiña cordobesa (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Campiña sevillana",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Campiña sevillana",
-      "nivel": "Naranja",
-      "text": "Campiña sevillana: Aviso de temperaturas máximas de nivel amarillo. Campiña sevillana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Campiña sevillana",
-      "fenomeno": "Moderate high-temperature warning. Campiña sevillana",
-      "nivel": "Naranja",
-      "text": "Campiña sevillana: Moderate high-temperature warning. Campiña sevillana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
