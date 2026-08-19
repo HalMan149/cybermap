@@ -1,9 +1,41 @@
-// Auto-generado por GitHub Actions - 2026-08-19T20:21:32.635Z
+// Auto-generado por GitHub Actions - 2026-08-19T20:51:19.895Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-08-19T20:21:32.635Z",
+  "generated_at": "2026-08-19T20:51:19.895Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Ibérica riojana",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Ibérica riojana",
+      "nivel": "Naranja",
+      "text": "Ibérica riojana: Aviso de lluvias de nivel amarillo. Ibérica riojana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ibérica riojana",
+      "fenomeno": "Moderate rain warning. Ibérica riojana",
+      "nivel": "Naranja",
+      "text": "Ibérica riojana: Moderate rain warning. Ibérica riojana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Ibérica riojana",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Ibérica riojana",
+      "nivel": "Naranja",
+      "text": "Ibérica riojana: Aviso de tormentas de nivel amarillo. Ibérica riojana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ibérica riojana",
+      "fenomeno": "Moderate thunderstorm warning. Ibérica riojana",
+      "nivel": "Naranja",
+      "text": "Ibérica riojana: Moderate thunderstorm warning. Ibérica riojana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Ibérica de Soria",
@@ -130,38 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate thunderstorm warning. Interior de Mallorca",
       "nivel": "Naranja",
       "text": "Interior de Mallorca: Moderate thunderstorm warning. Interior de Mallorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Sur de Mallorca",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Sur de Mallorca",
-      "nivel": "Naranja",
-      "text": "Sur de Mallorca: Aviso de tormentas de nivel amarillo. Sur de Mallorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sur de Mallorca",
-      "fenomeno": "Moderate thunderstorm warning. Sur de Mallorca",
-      "nivel": "Naranja",
-      "text": "Sur de Mallorca: Moderate thunderstorm warning. Sur de Mallorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Levante mallorquín",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Levante mallorquín",
-      "nivel": "Naranja",
-      "text": "Levante mallorquín: Aviso de tormentas de nivel amarillo. Levante mallorquín (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Levante mallorquín",
-      "fenomeno": "Moderate thunderstorm warning. Levante mallorquín",
-      "nivel": "Naranja",
-      "text": "Levante mallorquín: Moderate thunderstorm warning. Levante mallorquín (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
