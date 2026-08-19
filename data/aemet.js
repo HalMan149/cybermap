@@ -1,6 +1,6 @@
-// Auto-generado por GitHub Actions - 2026-08-19T19:35:34.823Z
+// Auto-generado por GitHub Actions - 2026-08-19T19:56:53.439Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-08-19T19:35:34.823Z",
+  "generated_at": "2026-08-19T19:56:53.439Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
@@ -18,6 +18,22 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate rain warning. Ibérica de Soria",
       "nivel": "Naranja",
       "text": "Ibérica de Soria: Moderate rain warning. Ibérica de Soria (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Ibérica de Soria",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Ibérica de Soria",
+      "nivel": "Naranja",
+      "text": "Ibérica de Soria: Aviso de tormentas de nivel amarillo. Ibérica de Soria (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ibérica de Soria",
+      "fenomeno": "Moderate thunderstorm warning. Ibérica de Soria",
+      "nivel": "Naranja",
+      "text": "Ibérica de Soria: Moderate thunderstorm warning. Ibérica de Soria (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate thunderstorm warning. Levante mallorquín",
       "nivel": "Naranja",
       "text": "Levante mallorquín: Moderate thunderstorm warning. Levante mallorquín (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Menorca",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Menorca",
-      "nivel": "Naranja",
-      "text": "Menorca: Aviso de tormentas de nivel amarillo. Menorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Menorca",
-      "fenomeno": "Moderate thunderstorm warning. Menorca",
-      "nivel": "Naranja",
-      "text": "Menorca: Moderate thunderstorm warning. Menorca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
