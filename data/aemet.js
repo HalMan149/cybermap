@@ -1,135 +1,151 @@
-// Auto-generado por GitHub Actions - 2026-08-19T16:53:41.099Z
+// Auto-generado por GitHub Actions - 2026-08-19T17:18:51.508Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-08-19T16:53:41.099Z",
+  "generated_at": "2026-08-19T17:18:51.508Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "🌧️",
-      "provincia": "Ibérica de Burgos",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Ibérica de Burgos",
-      "nivel": "Rojo",
-      "text": "Ibérica de Burgos: Aviso de lluvias de nivel naranja. Ibérica de Burgos (Rojo) (AEMET)",
+      "provincia": "Litoral sur de Tarragona",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral sur de Tarragona",
+      "nivel": "Naranja",
+      "text": "Litoral sur de Tarragona: Aviso de lluvias de nivel amarillo. Litoral sur de Tarragona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Ibérica de Burgos",
-      "fenomeno": "Severe rain warning. Ibérica de Burgos",
-      "nivel": "Rojo",
-      "text": "Ibérica de Burgos: Severe rain warning. Ibérica de Burgos (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Ibérica de Soria",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Ibérica de Soria",
+      "provincia": "Litoral sur de Tarragona",
+      "fenomeno": "Moderate rain warning. Litoral sur de Tarragona",
       "nivel": "Naranja",
-      "text": "Ibérica de Soria: Aviso de tormentas de nivel amarillo. Ibérica de Soria (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ibérica de Soria",
-      "fenomeno": "Moderate thunderstorm warning. Ibérica de Soria",
-      "nivel": "Naranja",
-      "text": "Ibérica de Soria: Moderate thunderstorm warning. Ibérica de Soria (Naranja) (AEMET)",
+      "text": "Litoral sur de Tarragona: Moderate rain warning. Litoral sur de Tarragona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Meseta de Soria",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Meseta de Soria",
+      "provincia": "Prelitoral sur de Tarragona",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Prelitoral sur de Tarragona",
       "nivel": "Naranja",
-      "text": "Meseta de Soria: Aviso de lluvias de nivel amarillo. Meseta de Soria (Naranja) (AEMET)",
+      "text": "Prelitoral sur de Tarragona: Aviso de lluvias de nivel amarillo. Prelitoral sur de Tarragona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Meseta de Soria",
-      "fenomeno": "Moderate rain warning. Meseta de Soria",
+      "provincia": "Prelitoral sur de Tarragona",
+      "fenomeno": "Moderate rain warning. Prelitoral sur de Tarragona",
       "nivel": "Naranja",
-      "text": "Meseta de Soria: Moderate rain warning. Meseta de Soria (Naranja) (AEMET)",
+      "text": "Prelitoral sur de Tarragona: Moderate rain warning. Prelitoral sur de Tarragona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Litoral sur de Tarragona",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Litoral sur de Tarragona",
+      "nivel": "Naranja",
+      "text": "Litoral sur de Tarragona: Aviso de tormentas de nivel amarillo. Litoral sur de Tarragona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral sur de Tarragona",
+      "fenomeno": "Moderate thunderstorm warning. Litoral sur de Tarragona",
+      "nivel": "Naranja",
+      "text": "Litoral sur de Tarragona: Moderate thunderstorm warning. Litoral sur de Tarragona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Prelitoral sur de Tarragona",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Prelitoral sur de Tarragona",
+      "nivel": "Naranja",
+      "text": "Prelitoral sur de Tarragona: Aviso de tormentas de nivel amarillo. Prelitoral sur de Tarragona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Prelitoral sur de Tarragona",
+      "fenomeno": "Moderate thunderstorm warning. Prelitoral sur de Tarragona",
+      "nivel": "Naranja",
+      "text": "Prelitoral sur de Tarragona: Moderate thunderstorm warning. Prelitoral sur de Tarragona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Meseta de Zamora",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Meseta de Zamora",
-      "nivel": "Naranja",
-      "text": "Meseta de Zamora: Aviso de lluvias de nivel amarillo. Meseta de Zamora (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Meseta de Zamora",
-      "fenomeno": "Moderate rain warning. Meseta de Zamora",
-      "nivel": "Naranja",
-      "text": "Meseta de Zamora: Moderate rain warning. Meseta de Zamora (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Meseta de Soria",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Meseta de Soria",
-      "nivel": "Naranja",
-      "text": "Meseta de Soria: Aviso de tormentas de nivel amarillo. Meseta de Soria (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Meseta de Soria",
-      "fenomeno": "Moderate thunderstorm warning. Meseta de Soria",
-      "nivel": "Naranja",
-      "text": "Meseta de Soria: Moderate thunderstorm warning. Meseta de Soria (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Meseta de Zamora",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Meseta de Zamora",
-      "nivel": "Naranja",
-      "text": "Meseta de Zamora: Aviso de tormentas de nivel amarillo. Meseta de Zamora (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Meseta de Zamora",
-      "fenomeno": "Moderate thunderstorm warning. Meseta de Zamora",
-      "nivel": "Naranja",
-      "text": "Meseta de Zamora: Moderate thunderstorm warning. Meseta de Zamora (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Ribera del Ebro de Zaragoza",
-      "fenomeno": "Aviso de temperaturas máximas de nivel rojo. Ribera del Ebro de Zaragoza",
+      "provincia": "Hellín y Almansa",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Hellín y Almansa",
       "nivel": "Rojo",
-      "text": "Ribera del Ebro de Zaragoza: Aviso de temperaturas máximas de nivel rojo. Ribera del Ebro de Zaragoza (Rojo) (AEMET)",
+      "text": "Hellín y Almansa: Aviso de lluvias de nivel naranja. Hellín y Almansa (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Ribera del Ebro de Zaragoza",
-      "fenomeno": "Extreme high-temperature warning. Ribera del Ebro de Zaragoza",
+      "provincia": "Hellín y Almansa",
+      "fenomeno": "Severe rain warning. Hellín y Almansa",
       "nivel": "Rojo",
-      "text": "Ribera del Ebro de Zaragoza: Extreme high-temperature warning. Ribera del Ebro de Zaragoza (Rojo) (AEMET)",
+      "text": "Hellín y Almansa: Severe rain warning. Hellín y Almansa (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Valle del Almanzora y Los Vélez",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Valle del Almanzora y Los Vélez",
+      "provincia": "Serranía de Cuenca",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Serranía de Cuenca",
       "nivel": "Naranja",
-      "text": "Valle del Almanzora y Los Vélez: Aviso de tormentas de nivel amarillo. Valle del Almanzora y Los Vélez (Naranja) (AEMET)",
+      "text": "Serranía de Cuenca: Aviso de tormentas de nivel amarillo. Serranía de Cuenca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Valle del Almanzora y Los Vélez",
-      "fenomeno": "Moderate thunderstorm warning. Valle del Almanzora y Los Vélez",
+      "provincia": "Serranía de Cuenca",
+      "fenomeno": "Moderate thunderstorm warning. Serranía de Cuenca",
       "nivel": "Naranja",
-      "text": "Valle del Almanzora y Los Vélez: Moderate thunderstorm warning. Valle del Almanzora y Los Vélez (Naranja) (AEMET)",
+      "text": "Serranía de Cuenca: Moderate thunderstorm warning. Serranía de Cuenca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Parameras de Molina",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Parameras de Molina",
+      "nivel": "Naranja",
+      "text": "Parameras de Molina: Aviso de tormentas de nivel amarillo. Parameras de Molina (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Parameras de Molina",
+      "fenomeno": "Moderate thunderstorm warning. Parameras de Molina",
+      "nivel": "Naranja",
+      "text": "Parameras de Molina: Moderate thunderstorm warning. Parameras de Molina (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Vega del Segura",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Vega del Segura",
+      "nivel": "Naranja",
+      "text": "Vega del Segura: Aviso de lluvias de nivel amarillo. Vega del Segura (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Vega del Segura",
+      "fenomeno": "Moderate rain warning. Vega del Segura",
+      "nivel": "Naranja",
+      "text": "Vega del Segura: Moderate rain warning. Vega del Segura (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Valle del Guadalentín, Lorca y Águilas",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Valle del Guadalentín, Lorca y Águilas",
+      "nivel": "Naranja",
+      "text": "Valle del Guadalentín, Lorca y Águilas: Aviso de lluvias de nivel amarillo. Valle del Guadalentín, Lorca y Águilas (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Valle del Guadalentín, Lorca y Águilas",
+      "fenomeno": "Moderate rain warning. Valle del Guadalentín, Lorca y Águilas",
+      "nivel": "Naranja",
+      "text": "Valle del Guadalentín, Lorca y Águilas: Moderate rain warning. Valle del Guadalentín, Lorca y Águilas (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate thunderstorm warning. Guadix y Baza",
       "nivel": "Naranja",
       "text": "Guadix y Baza: Moderate thunderstorm warning. Guadix y Baza (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Pirineo de Girona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Pirineo de Girona",
-      "nivel": "Naranja",
-      "text": "Pirineo de Girona: Aviso de lluvias de nivel amarillo. Pirineo de Girona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Pirineo de Girona",
-      "fenomeno": "Moderate rain warning. Pirineo de Girona",
-      "nivel": "Naranja",
-      "text": "Pirineo de Girona: Moderate rain warning. Pirineo de Girona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
