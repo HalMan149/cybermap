@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-08-20T09:25:04.087Z
+// Auto-generado por GitHub Actions - 2026-08-20T09:57:20.551Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-08-20T09:25:04.087Z",
+  "generated_at": "2026-08-20T09:57:20.551Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "🌧️",
-      "provincia": "Ibérica de Burgos",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Ibérica de Burgos",
+      "icon": "⛈️",
+      "provincia": "Ibiza y Formentera",
+      "fenomeno": "Aviso de tormentas de nivel naranja. Ibiza y Formentera",
       "nivel": "Rojo",
-      "text": "Ibérica de Burgos: Aviso de lluvias de nivel naranja. Ibérica de Burgos (Rojo) (AEMET)",
+      "text": "Ibiza y Formentera: Aviso de tormentas de nivel naranja. Ibiza y Formentera (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Ibérica de Burgos",
-      "fenomeno": "Severe rain warning. Ibérica de Burgos",
+      "provincia": "Ibiza y Formentera",
+      "fenomeno": "Severe thunderstorm warning. Ibiza y Formentera",
       "nivel": "Rojo",
-      "text": "Ibérica de Burgos: Severe rain warning. Ibérica de Burgos (Rojo) (AEMET)",
+      "text": "Ibiza y Formentera: Severe thunderstorm warning. Ibiza y Formentera (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Cordillera Cantábrica de León",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Cordillera Cantábrica de León",
+      "provincia": "Sierra Tramontana",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Sierra Tramontana",
       "nivel": "Rojo",
-      "text": "Cordillera Cantábrica de León: Aviso de lluvias de nivel naranja. Cordillera Cantábrica de León (Rojo) (AEMET)",
+      "text": "Sierra Tramontana: Aviso de lluvias de nivel naranja. Sierra Tramontana (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Cordillera Cantábrica de León",
-      "fenomeno": "Severe rain warning. Cordillera Cantábrica de León",
+      "provincia": "Sierra Tramontana",
+      "fenomeno": "Severe rain warning. Sierra Tramontana",
       "nivel": "Rojo",
-      "text": "Cordillera Cantábrica de León: Severe rain warning. Cordillera Cantábrica de León (Rojo) (AEMET)",
+      "text": "Sierra Tramontana: Severe rain warning. Sierra Tramontana (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Meseta de León",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Meseta de León",
+      "provincia": "Norte y nordeste de Mallorca",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Norte y nordeste de Mallorca",
       "nivel": "Rojo",
-      "text": "Meseta de León: Aviso de lluvias de nivel naranja. Meseta de León (Rojo) (AEMET)",
+      "text": "Norte y nordeste de Mallorca: Aviso de lluvias de nivel naranja. Norte y nordeste de Mallorca (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Meseta de León",
-      "fenomeno": "Severe rain warning. Meseta de León",
+      "provincia": "Norte y nordeste de Mallorca",
+      "fenomeno": "Severe rain warning. Norte y nordeste de Mallorca",
       "nivel": "Rojo",
-      "text": "Meseta de León: Severe rain warning. Meseta de León (Rojo) (AEMET)",
+      "text": "Norte y nordeste de Mallorca: Severe rain warning. Norte y nordeste de Mallorca (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Ibérica de Soria",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Ibérica de Soria",
+      "provincia": "Interior de Mallorca",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Interior de Mallorca",
       "nivel": "Rojo",
-      "text": "Ibérica de Soria: Aviso de lluvias de nivel naranja. Ibérica de Soria (Rojo) (AEMET)",
+      "text": "Interior de Mallorca: Aviso de lluvias de nivel naranja. Interior de Mallorca (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Ibérica de Soria",
-      "fenomeno": "Severe rain warning. Ibérica de Soria",
+      "provincia": "Interior de Mallorca",
+      "fenomeno": "Severe rain warning. Interior de Mallorca",
       "nivel": "Rojo",
-      "text": "Ibérica de Soria: Severe rain warning. Ibérica de Soria (Rojo) (AEMET)",
+      "text": "Interior de Mallorca: Severe rain warning. Interior de Mallorca (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Meseta de Ávila",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Meseta de Ávila",
-      "nivel": "Naranja",
-      "text": "Meseta de Ávila: Aviso de lluvias de nivel amarillo. Meseta de Ávila (Naranja) (AEMET)",
+      "provincia": "Sur de Mallorca",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Sur de Mallorca",
+      "nivel": "Rojo",
+      "text": "Sur de Mallorca: Aviso de lluvias de nivel naranja. Sur de Mallorca (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Meseta de Ávila",
-      "fenomeno": "Moderate rain warning. Meseta de Ávila",
-      "nivel": "Naranja",
-      "text": "Meseta de Ávila: Moderate rain warning. Meseta de Ávila (Naranja) (AEMET)",
+      "provincia": "Sur de Mallorca",
+      "fenomeno": "Severe rain warning. Sur de Mallorca",
+      "nivel": "Rojo",
+      "text": "Sur de Mallorca: Severe rain warning. Sur de Mallorca (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Sistema Central de Ávila",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Sistema Central de Ávila",
-      "nivel": "Naranja",
-      "text": "Sistema Central de Ávila: Aviso de lluvias de nivel amarillo. Sistema Central de Ávila (Naranja) (AEMET)",
+      "provincia": "Levante mallorquín",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Levante mallorquín",
+      "nivel": "Rojo",
+      "text": "Levante mallorquín: Aviso de lluvias de nivel naranja. Levante mallorquín (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sistema Central de Ávila",
-      "fenomeno": "Moderate rain warning. Sistema Central de Ávila",
-      "nivel": "Naranja",
-      "text": "Sistema Central de Ávila: Moderate rain warning. Sistema Central de Ávila (Naranja) (AEMET)",
+      "provincia": "Levante mallorquín",
+      "fenomeno": "Severe rain warning. Levante mallorquín",
+      "nivel": "Rojo",
+      "text": "Levante mallorquín: Severe rain warning. Levante mallorquín (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Meseta de Burgos",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Meseta de Burgos",
-      "nivel": "Naranja",
-      "text": "Meseta de Burgos: Aviso de lluvias de nivel amarillo. Meseta de Burgos (Naranja) (AEMET)",
+      "provincia": "Menorca",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Menorca",
+      "nivel": "Rojo",
+      "text": "Menorca: Aviso de lluvias de nivel naranja. Menorca (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Meseta de Burgos",
-      "fenomeno": "Moderate rain warning. Meseta de Burgos",
-      "nivel": "Naranja",
-      "text": "Meseta de Burgos: Moderate rain warning. Meseta de Burgos (Naranja) (AEMET)",
+      "provincia": "Menorca",
+      "fenomeno": "Severe rain warning. Menorca",
+      "nivel": "Rojo",
+      "text": "Menorca: Severe rain warning. Menorca (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Cordillera Cantábrica de Palencia",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Cordillera Cantábrica de Palencia",
-      "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de Palencia: Aviso de lluvias de nivel amarillo. Cordillera Cantábrica de Palencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cordillera Cantábrica de Palencia",
-      "fenomeno": "Moderate rain warning. Cordillera Cantábrica de Palencia",
-      "nivel": "Naranja",
-      "text": "Cordillera Cantábrica de Palencia: Moderate rain warning. Cordillera Cantábrica de Palencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Meseta de Palencia",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Meseta de Palencia",
-      "nivel": "Naranja",
-      "text": "Meseta de Palencia: Aviso de lluvias de nivel amarillo. Meseta de Palencia (Naranja) (AEMET)",
+      "icon": "⛈️",
+      "provincia": "Sierra Tramontana",
+      "fenomeno": "Aviso de tormentas de nivel naranja. Sierra Tramontana",
+      "nivel": "Rojo",
+      "text": "Sierra Tramontana: Aviso de tormentas de nivel naranja. Sierra Tramontana (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Meseta de Palencia",
-      "fenomeno": "Moderate rain warning. Meseta de Palencia",
-      "nivel": "Naranja",
-      "text": "Meseta de Palencia: Moderate rain warning. Meseta de Palencia (Naranja) (AEMET)",
+      "provincia": "Sierra Tramontana",
+      "fenomeno": "Severe thunderstorm warning. Sierra Tramontana",
+      "nivel": "Rojo",
+      "text": "Sierra Tramontana: Severe thunderstorm warning. Sierra Tramontana (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Meseta de Segovia",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Meseta de Segovia",
-      "nivel": "Naranja",
-      "text": "Meseta de Segovia: Aviso de lluvias de nivel amarillo. Meseta de Segovia (Naranja) (AEMET)",
+      "icon": "⛈️",
+      "provincia": "Norte y nordeste de Mallorca",
+      "fenomeno": "Aviso de tormentas de nivel naranja. Norte y nordeste de Mallorca",
+      "nivel": "Rojo",
+      "text": "Norte y nordeste de Mallorca: Aviso de tormentas de nivel naranja. Norte y nordeste de Mallorca (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Meseta de Segovia",
-      "fenomeno": "Moderate rain warning. Meseta de Segovia",
-      "nivel": "Naranja",
-      "text": "Meseta de Segovia: Moderate rain warning. Meseta de Segovia (Naranja) (AEMET)",
+      "provincia": "Norte y nordeste de Mallorca",
+      "fenomeno": "Severe thunderstorm warning. Norte y nordeste de Mallorca",
+      "nivel": "Rojo",
+      "text": "Norte y nordeste de Mallorca: Severe thunderstorm warning. Norte y nordeste de Mallorca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Interior de Mallorca",
+      "fenomeno": "Aviso de tormentas de nivel naranja. Interior de Mallorca",
+      "nivel": "Rojo",
+      "text": "Interior de Mallorca: Aviso de tormentas de nivel naranja. Interior de Mallorca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior de Mallorca",
+      "fenomeno": "Severe thunderstorm warning. Interior de Mallorca",
+      "nivel": "Rojo",
+      "text": "Interior de Mallorca: Severe thunderstorm warning. Interior de Mallorca (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
