@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-08-20T09:57:20.551Z
+// Auto-generado por GitHub Actions - 2026-08-20T10:26:31.200Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-08-20T09:57:20.551Z",
+  "generated_at": "2026-08-20T10:26:31.200Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
+      "icon": "🌧️",
+      "provincia": "Litoral norte de Tarragona",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Litoral norte de Tarragona",
+      "nivel": "Rojo",
+      "text": "Litoral norte de Tarragona: Aviso de lluvias de nivel naranja. Litoral norte de Tarragona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral norte de Tarragona",
+      "fenomeno": "Severe rain warning. Litoral norte de Tarragona",
+      "nivel": "Rojo",
+      "text": "Litoral norte de Tarragona: Severe rain warning. Litoral norte de Tarragona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Litoral sur de Tarragona",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Litoral sur de Tarragona",
+      "nivel": "Rojo",
+      "text": "Litoral sur de Tarragona: Aviso de lluvias de nivel naranja. Litoral sur de Tarragona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral sur de Tarragona",
+      "fenomeno": "Severe rain warning. Litoral sur de Tarragona",
+      "nivel": "Rojo",
+      "text": "Litoral sur de Tarragona: Severe rain warning. Litoral sur de Tarragona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Litoral norte de Tarragona",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Litoral norte de Tarragona",
+      "nivel": "Rojo",
+      "text": "Litoral norte de Tarragona: Aviso de lluvias de nivel naranja. Litoral norte de Tarragona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral norte de Tarragona",
+      "fenomeno": "Severe rain warning. Litoral norte de Tarragona",
+      "nivel": "Rojo",
+      "text": "Litoral norte de Tarragona: Severe rain warning. Litoral norte de Tarragona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Litoral sur de Tarragona",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Litoral sur de Tarragona",
+      "nivel": "Rojo",
+      "text": "Litoral sur de Tarragona: Aviso de lluvias de nivel naranja. Litoral sur de Tarragona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral sur de Tarragona",
+      "fenomeno": "Severe rain warning. Litoral sur de Tarragona",
+      "nivel": "Rojo",
+      "text": "Litoral sur de Tarragona: Severe rain warning. Litoral sur de Tarragona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Litoral de Barcelona",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral de Barcelona",
+      "nivel": "Naranja",
+      "text": "Litoral de Barcelona: Aviso de lluvias de nivel amarillo. Litoral de Barcelona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral de Barcelona",
+      "fenomeno": "Moderate rain warning. Litoral de Barcelona",
+      "nivel": "Naranja",
+      "text": "Litoral de Barcelona: Moderate rain warning. Litoral de Barcelona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Prelitoral norte de Tarragona",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Prelitoral norte de Tarragona",
+      "nivel": "Naranja",
+      "text": "Prelitoral norte de Tarragona: Aviso de lluvias de nivel amarillo. Prelitoral norte de Tarragona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Prelitoral norte de Tarragona",
+      "fenomeno": "Moderate rain warning. Prelitoral norte de Tarragona",
+      "nivel": "Naranja",
+      "text": "Prelitoral norte de Tarragona: Moderate rain warning. Prelitoral norte de Tarragona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Prelitoral sur de Tarragona",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Prelitoral sur de Tarragona",
+      "nivel": "Naranja",
+      "text": "Prelitoral sur de Tarragona: Aviso de lluvias de nivel amarillo. Prelitoral sur de Tarragona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Prelitoral sur de Tarragona",
+      "fenomeno": "Moderate rain warning. Prelitoral sur de Tarragona",
+      "nivel": "Naranja",
+      "text": "Prelitoral sur de Tarragona: Moderate rain warning. Prelitoral sur de Tarragona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Litoral norte de Castellón",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral norte de Castellón",
+      "nivel": "Naranja",
+      "text": "Litoral norte de Castellón: Aviso de lluvias de nivel amarillo. Litoral norte de Castellón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral norte de Castellón",
+      "fenomeno": "Moderate rain warning. Litoral norte de Castellón",
+      "nivel": "Naranja",
+      "text": "Litoral norte de Castellón: Moderate rain warning. Litoral norte de Castellón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Litoral norte de Castellón",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral norte de Castellón",
+      "nivel": "Naranja",
+      "text": "Litoral norte de Castellón: Aviso de lluvias de nivel amarillo. Litoral norte de Castellón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral norte de Castellón",
+      "fenomeno": "Moderate rain warning. Litoral norte de Castellón",
+      "nivel": "Naranja",
+      "text": "Litoral norte de Castellón: Moderate rain warning. Litoral norte de Castellón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
       "icon": "⛈️",
-      "provincia": "Ibiza y Formentera",
-      "fenomeno": "Aviso de tormentas de nivel naranja. Ibiza y Formentera",
-      "nivel": "Rojo",
-      "text": "Ibiza y Formentera: Aviso de tormentas de nivel naranja. Ibiza y Formentera (Rojo) (AEMET)",
+      "provincia": "Litoral de Barcelona",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Litoral de Barcelona",
+      "nivel": "Naranja",
+      "text": "Litoral de Barcelona: Aviso de tormentas de nivel amarillo. Litoral de Barcelona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Ibiza y Formentera",
-      "fenomeno": "Severe thunderstorm warning. Ibiza y Formentera",
-      "nivel": "Rojo",
-      "text": "Ibiza y Formentera: Severe thunderstorm warning. Ibiza y Formentera (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Sierra Tramontana",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Sierra Tramontana",
-      "nivel": "Rojo",
-      "text": "Sierra Tramontana: Aviso de lluvias de nivel naranja. Sierra Tramontana (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sierra Tramontana",
-      "fenomeno": "Severe rain warning. Sierra Tramontana",
-      "nivel": "Rojo",
-      "text": "Sierra Tramontana: Severe rain warning. Sierra Tramontana (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Norte y nordeste de Mallorca",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Norte y nordeste de Mallorca",
-      "nivel": "Rojo",
-      "text": "Norte y nordeste de Mallorca: Aviso de lluvias de nivel naranja. Norte y nordeste de Mallorca (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Norte y nordeste de Mallorca",
-      "fenomeno": "Severe rain warning. Norte y nordeste de Mallorca",
-      "nivel": "Rojo",
-      "text": "Norte y nordeste de Mallorca: Severe rain warning. Norte y nordeste de Mallorca (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Interior de Mallorca",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Interior de Mallorca",
-      "nivel": "Rojo",
-      "text": "Interior de Mallorca: Aviso de lluvias de nivel naranja. Interior de Mallorca (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior de Mallorca",
-      "fenomeno": "Severe rain warning. Interior de Mallorca",
-      "nivel": "Rojo",
-      "text": "Interior de Mallorca: Severe rain warning. Interior de Mallorca (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Sur de Mallorca",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Sur de Mallorca",
-      "nivel": "Rojo",
-      "text": "Sur de Mallorca: Aviso de lluvias de nivel naranja. Sur de Mallorca (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sur de Mallorca",
-      "fenomeno": "Severe rain warning. Sur de Mallorca",
-      "nivel": "Rojo",
-      "text": "Sur de Mallorca: Severe rain warning. Sur de Mallorca (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Levante mallorquín",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Levante mallorquín",
-      "nivel": "Rojo",
-      "text": "Levante mallorquín: Aviso de lluvias de nivel naranja. Levante mallorquín (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Levante mallorquín",
-      "fenomeno": "Severe rain warning. Levante mallorquín",
-      "nivel": "Rojo",
-      "text": "Levante mallorquín: Severe rain warning. Levante mallorquín (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Menorca",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Menorca",
-      "nivel": "Rojo",
-      "text": "Menorca: Aviso de lluvias de nivel naranja. Menorca (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Menorca",
-      "fenomeno": "Severe rain warning. Menorca",
-      "nivel": "Rojo",
-      "text": "Menorca: Severe rain warning. Menorca (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Sierra Tramontana",
-      "fenomeno": "Aviso de tormentas de nivel naranja. Sierra Tramontana",
-      "nivel": "Rojo",
-      "text": "Sierra Tramontana: Aviso de tormentas de nivel naranja. Sierra Tramontana (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sierra Tramontana",
-      "fenomeno": "Severe thunderstorm warning. Sierra Tramontana",
-      "nivel": "Rojo",
-      "text": "Sierra Tramontana: Severe thunderstorm warning. Sierra Tramontana (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Norte y nordeste de Mallorca",
-      "fenomeno": "Aviso de tormentas de nivel naranja. Norte y nordeste de Mallorca",
-      "nivel": "Rojo",
-      "text": "Norte y nordeste de Mallorca: Aviso de tormentas de nivel naranja. Norte y nordeste de Mallorca (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Norte y nordeste de Mallorca",
-      "fenomeno": "Severe thunderstorm warning. Norte y nordeste de Mallorca",
-      "nivel": "Rojo",
-      "text": "Norte y nordeste de Mallorca: Severe thunderstorm warning. Norte y nordeste de Mallorca (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Interior de Mallorca",
-      "fenomeno": "Aviso de tormentas de nivel naranja. Interior de Mallorca",
-      "nivel": "Rojo",
-      "text": "Interior de Mallorca: Aviso de tormentas de nivel naranja. Interior de Mallorca (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior de Mallorca",
-      "fenomeno": "Severe thunderstorm warning. Interior de Mallorca",
-      "nivel": "Rojo",
-      "text": "Interior de Mallorca: Severe thunderstorm warning. Interior de Mallorca (Rojo) (AEMET)",
+      "provincia": "Litoral de Barcelona",
+      "fenomeno": "Moderate thunderstorm warning. Litoral de Barcelona",
+      "nivel": "Naranja",
+      "text": "Litoral de Barcelona: Moderate thunderstorm warning. Litoral de Barcelona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
