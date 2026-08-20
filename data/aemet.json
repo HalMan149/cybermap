@@ -1,8 +1,56 @@
 {
-  "generated_at": "2026-08-20T16:28:15.738Z",
+  "generated_at": "2026-08-20T17:00:34.620Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "⛈️",
+      "provincia": "Altiplano de Murcia",
+      "fenomeno": "Aviso de tormentas de nivel naranja. Altiplano de Murcia",
+      "nivel": "Rojo",
+      "text": "Altiplano de Murcia: Aviso de tormentas de nivel naranja. Altiplano de Murcia (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Altiplano de Murcia",
+      "fenomeno": "Severe thunderstorm warning. Altiplano de Murcia",
+      "nivel": "Rojo",
+      "text": "Altiplano de Murcia: Severe thunderstorm warning. Altiplano de Murcia (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Noroeste de Murcia",
+      "fenomeno": "Aviso de tormentas de nivel naranja. Noroeste de Murcia",
+      "nivel": "Rojo",
+      "text": "Noroeste de Murcia: Aviso de tormentas de nivel naranja. Noroeste de Murcia (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Noroeste de Murcia",
+      "fenomeno": "Severe thunderstorm warning. Noroeste de Murcia",
+      "nivel": "Rojo",
+      "text": "Noroeste de Murcia: Severe thunderstorm warning. Noroeste de Murcia (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Vega del Segura",
+      "fenomeno": "Aviso de tormentas de nivel naranja. Vega del Segura",
+      "nivel": "Rojo",
+      "text": "Vega del Segura: Aviso de tormentas de nivel naranja. Vega del Segura (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Vega del Segura",
+      "fenomeno": "Severe thunderstorm warning. Vega del Segura",
+      "nivel": "Rojo",
+      "text": "Vega del Segura: Severe thunderstorm warning. Vega del Segura (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "⛈️",
       "provincia": "La Mancha albaceteña",
@@ -113,54 +161,6 @@
       "fenomeno": "Severe rain warning. Levante mallorquín",
       "nivel": "Rojo",
       "text": "Levante mallorquín: Severe rain warning. Levante mallorquín (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Menorca",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Menorca",
-      "nivel": "Rojo",
-      "text": "Menorca: Aviso de lluvias de nivel naranja. Menorca (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Menorca",
-      "fenomeno": "Severe rain warning. Menorca",
-      "nivel": "Rojo",
-      "text": "Menorca: Severe rain warning. Menorca (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Litoral norte de Tarragona",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Litoral norte de Tarragona",
-      "nivel": "Rojo",
-      "text": "Litoral norte de Tarragona: Aviso de lluvias de nivel naranja. Litoral norte de Tarragona (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral norte de Tarragona",
-      "fenomeno": "Severe rain warning. Litoral norte de Tarragona",
-      "nivel": "Rojo",
-      "text": "Litoral norte de Tarragona: Severe rain warning. Litoral norte de Tarragona (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Litoral sur de Tarragona",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Litoral sur de Tarragona",
-      "nivel": "Rojo",
-      "text": "Litoral sur de Tarragona: Aviso de lluvias de nivel naranja. Litoral sur de Tarragona (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral sur de Tarragona",
-      "fenomeno": "Severe rain warning. Litoral sur de Tarragona",
-      "nivel": "Rojo",
-      "text": "Litoral sur de Tarragona: Severe rain warning. Litoral sur de Tarragona (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
