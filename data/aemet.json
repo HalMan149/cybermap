@@ -1,8 +1,40 @@
 {
-  "generated_at": "2026-08-20T15:25:19.158Z",
+  "generated_at": "2026-08-20T15:56:30.794Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "⛈️",
+      "provincia": "La Mancha albaceteña",
+      "fenomeno": "Aviso de tormentas de nivel naranja. La Mancha albaceteña",
+      "nivel": "Rojo",
+      "text": "La Mancha albaceteña: Aviso de tormentas de nivel naranja. La Mancha albaceteña (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "La Mancha albaceteña",
+      "fenomeno": "Severe thunderstorm warning. La Mancha albaceteña",
+      "nivel": "Rojo",
+      "text": "La Mancha albaceteña: Severe thunderstorm warning. La Mancha albaceteña (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Alcaraz y Segura",
+      "fenomeno": "Aviso de tormentas de nivel naranja. Alcaraz y Segura",
+      "nivel": "Rojo",
+      "text": "Alcaraz y Segura: Aviso de tormentas de nivel naranja. Alcaraz y Segura (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Alcaraz y Segura",
+      "fenomeno": "Severe thunderstorm warning. Alcaraz y Segura",
+      "nivel": "Rojo",
+      "text": "Alcaraz y Segura: Severe thunderstorm warning. Alcaraz y Segura (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Sierra Tramontana",
@@ -97,38 +129,6 @@
       "fenomeno": "Severe rain warning. Menorca",
       "nivel": "Rojo",
       "text": "Menorca: Severe rain warning. Menorca (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Litoral norte de Tarragona",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Litoral norte de Tarragona",
-      "nivel": "Rojo",
-      "text": "Litoral norte de Tarragona: Aviso de lluvias de nivel naranja. Litoral norte de Tarragona (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral norte de Tarragona",
-      "fenomeno": "Severe rain warning. Litoral norte de Tarragona",
-      "nivel": "Rojo",
-      "text": "Litoral norte de Tarragona: Severe rain warning. Litoral norte de Tarragona (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Litoral sur de Tarragona",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Litoral sur de Tarragona",
-      "nivel": "Rojo",
-      "text": "Litoral sur de Tarragona: Aviso de lluvias de nivel naranja. Litoral sur de Tarragona (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral sur de Tarragona",
-      "fenomeno": "Severe rain warning. Litoral sur de Tarragona",
-      "nivel": "Rojo",
-      "text": "Litoral sur de Tarragona: Severe rain warning. Litoral sur de Tarragona (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
