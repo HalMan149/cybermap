@@ -1,9 +1,41 @@
-// Auto-generado por GitHub Actions - 2026-08-21T16:58:50.676Z
+// Auto-generado por GitHub Actions - 2026-08-21T17:29:28.899Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-08-21T16:58:50.676Z",
+  "generated_at": "2026-08-21T17:29:28.899Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Ribera del Ebro de Navarra",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Ribera del Ebro de Navarra",
+      "nivel": "Naranja",
+      "text": "Ribera del Ebro de Navarra: Aviso de lluvias de nivel amarillo. Ribera del Ebro de Navarra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ribera del Ebro de Navarra",
+      "fenomeno": "Moderate rain warning. Ribera del Ebro de Navarra",
+      "nivel": "Naranja",
+      "text": "Ribera del Ebro de Navarra: Moderate rain warning. Ribera del Ebro de Navarra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Ribera del Ebro de Navarra",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Ribera del Ebro de Navarra",
+      "nivel": "Naranja",
+      "text": "Ribera del Ebro de Navarra: Aviso de tormentas de nivel amarillo. Ribera del Ebro de Navarra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ribera del Ebro de Navarra",
+      "fenomeno": "Moderate thunderstorm warning. Ribera del Ebro de Navarra",
+      "nivel": "Naranja",
+      "text": "Ribera del Ebro de Navarra: Moderate thunderstorm warning. Ribera del Ebro de Navarra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "⛈️",
       "provincia": "Ribera del Ebro de Zaragoza",
@@ -130,38 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate thunderstorm warning. Cinco Villas de Zaragoza",
       "nivel": "Naranja",
       "text": "Cinco Villas de Zaragoza: Moderate thunderstorm warning. Cinco Villas de Zaragoza (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Pirineo de Lleida",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Pirineo de Lleida",
-      "nivel": "Naranja",
-      "text": "Pirineo de Lleida: Aviso de tormentas de nivel amarillo. Pirineo de Lleida (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Pirineo de Lleida",
-      "fenomeno": "Moderate thunderstorm warning. Pirineo de Lleida",
-      "nivel": "Naranja",
-      "text": "Pirineo de Lleida: Moderate thunderstorm warning. Pirineo de Lleida (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Levante mallorquín",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Levante mallorquín",
-      "nivel": "Naranja",
-      "text": "Levante mallorquín: Aviso de lluvias de nivel amarillo. Levante mallorquín (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Levante mallorquín",
-      "fenomeno": "Moderate rain warning. Levante mallorquín",
-      "nivel": "Naranja",
-      "text": "Levante mallorquín: Moderate rain warning. Levante mallorquín (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
