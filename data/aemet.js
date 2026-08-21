@@ -1,9 +1,105 @@
-// Auto-generado por GitHub Actions - 2026-08-21T15:46:02.908Z
+// Auto-generado por GitHub Actions - 2026-08-21T16:21:37.700Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-08-21T15:46:02.908Z",
+  "generated_at": "2026-08-21T16:21:37.700Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Bajo Aragón de Teruel",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Bajo Aragón de Teruel",
+      "nivel": "Naranja",
+      "text": "Bajo Aragón de Teruel: Aviso de lluvias de nivel amarillo. Bajo Aragón de Teruel (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Bajo Aragón de Teruel",
+      "fenomeno": "Moderate rain warning. Bajo Aragón de Teruel",
+      "nivel": "Naranja",
+      "text": "Bajo Aragón de Teruel: Moderate rain warning. Bajo Aragón de Teruel (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Ibérica zaragozana",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Ibérica zaragozana",
+      "nivel": "Naranja",
+      "text": "Ibérica zaragozana: Aviso de lluvias de nivel amarillo. Ibérica zaragozana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ibérica zaragozana",
+      "fenomeno": "Moderate rain warning. Ibérica zaragozana",
+      "nivel": "Naranja",
+      "text": "Ibérica zaragozana: Moderate rain warning. Ibérica zaragozana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Ribera del Ebro de Zaragoza",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Ribera del Ebro de Zaragoza",
+      "nivel": "Naranja",
+      "text": "Ribera del Ebro de Zaragoza: Aviso de lluvias de nivel amarillo. Ribera del Ebro de Zaragoza (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ribera del Ebro de Zaragoza",
+      "fenomeno": "Moderate rain warning. Ribera del Ebro de Zaragoza",
+      "nivel": "Naranja",
+      "text": "Ribera del Ebro de Zaragoza: Moderate rain warning. Ribera del Ebro de Zaragoza (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Bajo Aragón de Teruel",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Bajo Aragón de Teruel",
+      "nivel": "Naranja",
+      "text": "Bajo Aragón de Teruel: Aviso de tormentas de nivel amarillo. Bajo Aragón de Teruel (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Bajo Aragón de Teruel",
+      "fenomeno": "Moderate thunderstorm warning. Bajo Aragón de Teruel",
+      "nivel": "Naranja",
+      "text": "Bajo Aragón de Teruel: Moderate thunderstorm warning. Bajo Aragón de Teruel (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Ibérica zaragozana",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Ibérica zaragozana",
+      "nivel": "Naranja",
+      "text": "Ibérica zaragozana: Aviso de tormentas de nivel amarillo. Ibérica zaragozana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ibérica zaragozana",
+      "fenomeno": "Moderate thunderstorm warning. Ibérica zaragozana",
+      "nivel": "Naranja",
+      "text": "Ibérica zaragozana: Moderate thunderstorm warning. Ibérica zaragozana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Ribera del Ebro de Zaragoza",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Ribera del Ebro de Zaragoza",
+      "nivel": "Naranja",
+      "text": "Ribera del Ebro de Zaragoza: Aviso de tormentas de nivel amarillo. Ribera del Ebro de Zaragoza (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ribera del Ebro de Zaragoza",
+      "fenomeno": "Moderate thunderstorm warning. Ribera del Ebro de Zaragoza",
+      "nivel": "Naranja",
+      "text": "Ribera del Ebro de Zaragoza: Moderate thunderstorm warning. Ribera del Ebro de Zaragoza (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Litoral norte de Castellón",
@@ -66,102 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate thunderstorm warning. Litoral norte de Castellón",
       "nivel": "Naranja",
       "text": "Litoral norte de Castellón: Moderate thunderstorm warning. Litoral norte de Castellón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Litoral sur de Castellón",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Litoral sur de Castellón",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Castellón: Aviso de tormentas de nivel amarillo. Litoral sur de Castellón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral sur de Castellón",
-      "fenomeno": "Moderate thunderstorm warning. Litoral sur de Castellón",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Castellón: Moderate thunderstorm warning. Litoral sur de Castellón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Litoral norte de Tarragona",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Litoral norte de Tarragona",
-      "nivel": "Rojo",
-      "text": "Litoral norte de Tarragona: Aviso de lluvias de nivel naranja. Litoral norte de Tarragona (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral norte de Tarragona",
-      "fenomeno": "Severe rain warning. Litoral norte de Tarragona",
-      "nivel": "Rojo",
-      "text": "Litoral norte de Tarragona: Severe rain warning. Litoral norte de Tarragona (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Litoral sur de Tarragona",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Litoral sur de Tarragona",
-      "nivel": "Rojo",
-      "text": "Litoral sur de Tarragona: Aviso de lluvias de nivel naranja. Litoral sur de Tarragona (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral sur de Tarragona",
-      "fenomeno": "Severe rain warning. Litoral sur de Tarragona",
-      "nivel": "Rojo",
-      "text": "Litoral sur de Tarragona: Severe rain warning. Litoral sur de Tarragona (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Litoral norte de Tarragona",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Litoral norte de Tarragona",
-      "nivel": "Rojo",
-      "text": "Litoral norte de Tarragona: Aviso de lluvias de nivel naranja. Litoral norte de Tarragona (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral norte de Tarragona",
-      "fenomeno": "Severe rain warning. Litoral norte de Tarragona",
-      "nivel": "Rojo",
-      "text": "Litoral norte de Tarragona: Severe rain warning. Litoral norte de Tarragona (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Litoral sur de Tarragona",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Litoral sur de Tarragona",
-      "nivel": "Rojo",
-      "text": "Litoral sur de Tarragona: Aviso de lluvias de nivel naranja. Litoral sur de Tarragona (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral sur de Tarragona",
-      "fenomeno": "Severe rain warning. Litoral sur de Tarragona",
-      "nivel": "Rojo",
-      "text": "Litoral sur de Tarragona: Severe rain warning. Litoral sur de Tarragona (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Litoral de Barcelona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral de Barcelona",
-      "nivel": "Naranja",
-      "text": "Litoral de Barcelona: Aviso de lluvias de nivel amarillo. Litoral de Barcelona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral de Barcelona",
-      "fenomeno": "Moderate rain warning. Litoral de Barcelona",
-      "nivel": "Naranja",
-      "text": "Litoral de Barcelona: Moderate rain warning. Litoral de Barcelona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
