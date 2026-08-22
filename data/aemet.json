@@ -1,8 +1,56 @@
 {
-  "generated_at": "2026-08-22T21:43:11.874Z",
+  "generated_at": "2026-08-22T21:57:26.911Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌊",
+      "provincia": "Norte y nordeste de Mallorca",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Norte y nordeste de Mallorca",
+      "nivel": "Naranja",
+      "text": "Norte y nordeste de Mallorca: Aviso de temperaturas máximas de nivel amarillo. Norte y nordeste de Mallorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Norte y nordeste de Mallorca",
+      "fenomeno": "Moderate high-temperature warning. Norte y nordeste de Mallorca",
+      "nivel": "Naranja",
+      "text": "Norte y nordeste de Mallorca: Moderate high-temperature warning. Norte y nordeste de Mallorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Interior de Mallorca",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Interior de Mallorca",
+      "nivel": "Naranja",
+      "text": "Interior de Mallorca: Aviso de temperaturas máximas de nivel amarillo. Interior de Mallorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior de Mallorca",
+      "fenomeno": "Moderate high-temperature warning. Interior de Mallorca",
+      "nivel": "Naranja",
+      "text": "Interior de Mallorca: Moderate high-temperature warning. Interior de Mallorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Cinco Villas de Zaragoza",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Cinco Villas de Zaragoza",
+      "nivel": "Rojo",
+      "text": "Cinco Villas de Zaragoza: Aviso de lluvias de nivel naranja. Cinco Villas de Zaragoza (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cinco Villas de Zaragoza",
+      "fenomeno": "Severe rain warning. Cinco Villas de Zaragoza",
+      "nivel": "Rojo",
+      "text": "Cinco Villas de Zaragoza: Severe rain warning. Cinco Villas de Zaragoza (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Ribera del Ebro de Navarra",
@@ -113,54 +161,6 @@
       "fenomeno": "Severe thunderstorm warning. Sur de Huesca",
       "nivel": "Rojo",
       "text": "Sur de Huesca: Severe thunderstorm warning. Sur de Huesca (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Cinco Villas de Zaragoza",
-      "fenomeno": "Aviso de tormentas de nivel naranja. Cinco Villas de Zaragoza",
-      "nivel": "Rojo",
-      "text": "Cinco Villas de Zaragoza: Aviso de tormentas de nivel naranja. Cinco Villas de Zaragoza (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cinco Villas de Zaragoza",
-      "fenomeno": "Severe thunderstorm warning. Cinco Villas de Zaragoza",
-      "nivel": "Rojo",
-      "text": "Cinco Villas de Zaragoza: Severe thunderstorm warning. Cinco Villas de Zaragoza (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Ribera del Ebro de Zaragoza",
-      "fenomeno": "Aviso de tormentas de nivel naranja. Ribera del Ebro de Zaragoza",
-      "nivel": "Rojo",
-      "text": "Ribera del Ebro de Zaragoza: Aviso de tormentas de nivel naranja. Ribera del Ebro de Zaragoza (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ribera del Ebro de Zaragoza",
-      "fenomeno": "Severe thunderstorm warning. Ribera del Ebro de Zaragoza",
-      "nivel": "Rojo",
-      "text": "Ribera del Ebro de Zaragoza: Severe thunderstorm warning. Ribera del Ebro de Zaragoza (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Centro de Navarra",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Centro de Navarra",
-      "nivel": "Naranja",
-      "text": "Centro de Navarra: Aviso de lluvias de nivel amarillo. Centro de Navarra (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Centro de Navarra",
-      "fenomeno": "Moderate rain warning. Centro de Navarra",
-      "nivel": "Naranja",
-      "text": "Centro de Navarra: Moderate rain warning. Centro de Navarra (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
