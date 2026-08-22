@@ -1,9 +1,41 @@
-// Auto-generado por GitHub Actions - 2026-08-22T16:46:41.998Z
+// Auto-generado por GitHub Actions - 2026-08-22T17:12:49.765Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-08-22T16:46:41.998Z",
+  "generated_at": "2026-08-22T17:12:49.765Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Rias Baixas",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Rias Baixas",
+      "nivel": "Naranja",
+      "text": "Rias Baixas: Aviso de lluvias de nivel amarillo. Rias Baixas (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Rias Baixas",
+      "fenomeno": "Moderate rain warning. Rias Baixas",
+      "nivel": "Naranja",
+      "text": "Rias Baixas: Moderate rain warning. Rias Baixas (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Miño de Pontevedra",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Miño de Pontevedra",
+      "nivel": "Naranja",
+      "text": "Miño de Pontevedra: Aviso de lluvias de nivel amarillo. Miño de Pontevedra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Miño de Pontevedra",
+      "fenomeno": "Moderate rain warning. Miño de Pontevedra",
+      "nivel": "Naranja",
+      "text": "Miño de Pontevedra: Moderate rain warning. Miño de Pontevedra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Suroeste de A Coruña",
@@ -130,38 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate rain warning. Pirineo oscense",
       "nivel": "Naranja",
       "text": "Pirineo oscense: Moderate rain warning. Pirineo oscense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Centro de Huesca",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Centro de Huesca",
-      "nivel": "Naranja",
-      "text": "Centro de Huesca: Aviso de lluvias de nivel amarillo. Centro de Huesca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Centro de Huesca",
-      "fenomeno": "Moderate rain warning. Centro de Huesca",
-      "nivel": "Naranja",
-      "text": "Centro de Huesca: Moderate rain warning. Centro de Huesca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Sur de Huesca",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Sur de Huesca",
-      "nivel": "Naranja",
-      "text": "Sur de Huesca: Aviso de lluvias de nivel amarillo. Sur de Huesca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sur de Huesca",
-      "fenomeno": "Moderate rain warning. Sur de Huesca",
-      "nivel": "Naranja",
-      "text": "Sur de Huesca: Moderate rain warning. Sur de Huesca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
