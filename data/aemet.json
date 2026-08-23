@@ -1,118 +1,38 @@
 {
-  "generated_at": "2026-08-23T05:59:49.884Z",
+  "generated_at": "2026-08-23T06:47:46.729Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "🌊",
-      "provincia": "Norte y nordeste de Mallorca",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Norte y nordeste de Mallorca",
-      "nivel": "Naranja",
-      "text": "Norte y nordeste de Mallorca: Aviso de temperaturas máximas de nivel amarillo. Norte y nordeste de Mallorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Norte y nordeste de Mallorca",
-      "fenomeno": "Moderate high-temperature warning. Norte y nordeste de Mallorca",
-      "nivel": "Naranja",
-      "text": "Norte y nordeste de Mallorca: Moderate high-temperature warning. Norte y nordeste de Mallorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Interior de Mallorca",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Interior de Mallorca",
-      "nivel": "Naranja",
-      "text": "Interior de Mallorca: Aviso de temperaturas máximas de nivel amarillo. Interior de Mallorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior de Mallorca",
-      "fenomeno": "Moderate high-temperature warning. Interior de Mallorca",
-      "nivel": "Naranja",
-      "text": "Interior de Mallorca: Moderate high-temperature warning. Interior de Mallorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
       "icon": "🌧️",
-      "provincia": "Cinco Villas de Zaragoza",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Cinco Villas de Zaragoza",
-      "nivel": "Rojo",
-      "text": "Cinco Villas de Zaragoza: Aviso de lluvias de nivel naranja. Cinco Villas de Zaragoza (Rojo) (AEMET)",
+      "provincia": "Interior norte de Valencia",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Interior norte de Valencia",
+      "nivel": "Naranja",
+      "text": "Interior norte de Valencia: Aviso de lluvias de nivel amarillo. Interior norte de Valencia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Cinco Villas de Zaragoza",
-      "fenomeno": "Severe rain warning. Cinco Villas de Zaragoza",
-      "nivel": "Rojo",
-      "text": "Cinco Villas de Zaragoza: Severe rain warning. Cinco Villas de Zaragoza (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Ribera del Ebro de Navarra",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Ribera del Ebro de Navarra",
-      "nivel": "Rojo",
-      "text": "Ribera del Ebro de Navarra: Aviso de lluvias de nivel naranja. Ribera del Ebro de Navarra (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ribera del Ebro de Navarra",
-      "fenomeno": "Severe rain warning. Ribera del Ebro de Navarra",
-      "nivel": "Rojo",
-      "text": "Ribera del Ebro de Navarra: Severe rain warning. Ribera del Ebro de Navarra (Rojo) (AEMET)",
+      "provincia": "Interior norte de Valencia",
+      "fenomeno": "Moderate rain warning. Interior norte de Valencia",
+      "nivel": "Naranja",
+      "text": "Interior norte de Valencia: Moderate rain warning. Interior norte de Valencia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Ribera del Ebro de Navarra",
-      "fenomeno": "Aviso de tormentas de nivel naranja. Ribera del Ebro de Navarra",
-      "nivel": "Rojo",
-      "text": "Ribera del Ebro de Navarra: Aviso de tormentas de nivel naranja. Ribera del Ebro de Navarra (Rojo) (AEMET)",
+      "provincia": "Interior norte de Valencia",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Interior norte de Valencia",
+      "nivel": "Naranja",
+      "text": "Interior norte de Valencia: Aviso de tormentas de nivel amarillo. Interior norte de Valencia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Ribera del Ebro de Navarra",
-      "fenomeno": "Severe thunderstorm warning. Ribera del Ebro de Navarra",
-      "nivel": "Rojo",
-      "text": "Ribera del Ebro de Navarra: Severe thunderstorm warning. Ribera del Ebro de Navarra (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Centro de Navarra",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Centro de Navarra",
+      "provincia": "Interior norte de Valencia",
+      "fenomeno": "Moderate thunderstorm warning. Interior norte de Valencia",
       "nivel": "Naranja",
-      "text": "Centro de Navarra: Aviso de tormentas de nivel amarillo. Centro de Navarra (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Centro de Navarra",
-      "fenomeno": "Moderate thunderstorm warning. Centro de Navarra",
-      "nivel": "Naranja",
-      "text": "Centro de Navarra: Moderate thunderstorm warning. Centro de Navarra (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Pirineo navarro",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Pirineo navarro",
-      "nivel": "Naranja",
-      "text": "Pirineo navarro: Aviso de tormentas de nivel amarillo. Pirineo navarro (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Pirineo navarro",
-      "fenomeno": "Moderate thunderstorm warning. Pirineo navarro",
-      "nivel": "Naranja",
-      "text": "Pirineo navarro: Moderate thunderstorm warning. Pirineo navarro (Naranja) (AEMET)",
+      "text": "Interior norte de Valencia: Moderate thunderstorm warning. Interior norte de Valencia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -132,35 +52,115 @@
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Ribera del Ebro de Zaragoza",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Ribera del Ebro de Zaragoza",
+      "icon": "⛈️",
+      "provincia": "Bajo Aragón de Teruel",
+      "fenomeno": "Aviso de tormentas de nivel naranja. Bajo Aragón de Teruel",
       "nivel": "Rojo",
-      "text": "Ribera del Ebro de Zaragoza: Aviso de lluvias de nivel naranja. Ribera del Ebro de Zaragoza (Rojo) (AEMET)",
+      "text": "Bajo Aragón de Teruel: Aviso de tormentas de nivel naranja. Bajo Aragón de Teruel (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Ribera del Ebro de Zaragoza",
-      "fenomeno": "Severe rain warning. Ribera del Ebro de Zaragoza",
+      "provincia": "Bajo Aragón de Teruel",
+      "fenomeno": "Severe thunderstorm warning. Bajo Aragón de Teruel",
       "nivel": "Rojo",
-      "text": "Ribera del Ebro de Zaragoza: Severe rain warning. Ribera del Ebro de Zaragoza (Rojo) (AEMET)",
+      "text": "Bajo Aragón de Teruel: Severe thunderstorm warning. Bajo Aragón de Teruel (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Pirineo oscense",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Pirineo oscense",
+      "nivel": "Rojo",
+      "text": "Pirineo oscense: Aviso de lluvias de nivel naranja. Pirineo oscense (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Pirineo oscense",
+      "fenomeno": "Severe rain warning. Pirineo oscense",
+      "nivel": "Rojo",
+      "text": "Pirineo oscense: Severe rain warning. Pirineo oscense (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Centro de Huesca",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Centro de Huesca",
+      "nivel": "Rojo",
+      "text": "Centro de Huesca: Aviso de lluvias de nivel naranja. Centro de Huesca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Centro de Huesca",
+      "fenomeno": "Severe rain warning. Centro de Huesca",
+      "nivel": "Rojo",
+      "text": "Centro de Huesca: Severe rain warning. Centro de Huesca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Gúdar y Maestrazgo",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Gúdar y Maestrazgo",
+      "nivel": "Naranja",
+      "text": "Gúdar y Maestrazgo: Aviso de lluvias de nivel amarillo. Gúdar y Maestrazgo (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Gúdar y Maestrazgo",
+      "fenomeno": "Moderate rain warning. Gúdar y Maestrazgo",
+      "nivel": "Naranja",
+      "text": "Gúdar y Maestrazgo: Moderate rain warning. Gúdar y Maestrazgo (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Sur de Huesca",
-      "fenomeno": "Aviso de tormentas de nivel naranja. Sur de Huesca",
-      "nivel": "Rojo",
-      "text": "Sur de Huesca: Aviso de tormentas de nivel naranja. Sur de Huesca (Rojo) (AEMET)",
+      "provincia": "Gúdar y Maestrazgo",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Gúdar y Maestrazgo",
+      "nivel": "Naranja",
+      "text": "Gúdar y Maestrazgo: Aviso de tormentas de nivel amarillo. Gúdar y Maestrazgo (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sur de Huesca",
-      "fenomeno": "Severe thunderstorm warning. Sur de Huesca",
-      "nivel": "Rojo",
-      "text": "Sur de Huesca: Severe thunderstorm warning. Sur de Huesca (Rojo) (AEMET)",
+      "provincia": "Gúdar y Maestrazgo",
+      "fenomeno": "Moderate thunderstorm warning. Gúdar y Maestrazgo",
+      "nivel": "Naranja",
+      "text": "Gúdar y Maestrazgo: Moderate thunderstorm warning. Gúdar y Maestrazgo (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Depresión central de Lleida",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Depresión central de Lleida",
+      "nivel": "Naranja",
+      "text": "Depresión central de Lleida: Aviso de lluvias de nivel amarillo. Depresión central de Lleida (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Depresión central de Lleida",
+      "fenomeno": "Moderate rain warning. Depresión central de Lleida",
+      "nivel": "Naranja",
+      "text": "Depresión central de Lleida: Moderate rain warning. Depresión central de Lleida (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Depresión central de Tarragona",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Depresión central de Tarragona",
+      "nivel": "Naranja",
+      "text": "Depresión central de Tarragona: Aviso de lluvias de nivel amarillo. Depresión central de Tarragona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Depresión central de Tarragona",
+      "fenomeno": "Moderate rain warning. Depresión central de Tarragona",
+      "nivel": "Naranja",
+      "text": "Depresión central de Tarragona: Moderate rain warning. Depresión central de Tarragona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
