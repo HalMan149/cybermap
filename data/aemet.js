@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-08-23T16:23:44.390Z
+// Auto-generado por GitHub Actions - 2026-08-23T16:48:12.409Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-08-23T16:23:44.390Z",
+  "generated_at": "2026-08-23T16:48:12.409Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "⛈️",
-      "provincia": "Bizkaia litoral",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Bizkaia litoral",
+      "icon": "🌧️",
+      "provincia": "Aracena",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Aracena",
       "nivel": "Naranja",
-      "text": "Bizkaia litoral: Aviso de tormentas de nivel amarillo. Bizkaia litoral (Naranja) (AEMET)",
+      "text": "Aracena: Aviso de lluvias de nivel amarillo. Aracena (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Bizkaia litoral",
-      "fenomeno": "Moderate thunderstorm warning. Bizkaia litoral",
+      "provincia": "Aracena",
+      "fenomeno": "Moderate rain warning. Aracena",
       "nivel": "Naranja",
-      "text": "Bizkaia litoral: Moderate thunderstorm warning. Bizkaia litoral (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Bizkaia interior",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Bizkaia interior",
-      "nivel": "Naranja",
-      "text": "Bizkaia interior: Aviso de tormentas de nivel amarillo. Bizkaia interior (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Bizkaia interior",
-      "fenomeno": "Moderate thunderstorm warning. Bizkaia interior",
-      "nivel": "Naranja",
-      "text": "Bizkaia interior: Moderate thunderstorm warning. Bizkaia interior (Naranja) (AEMET)",
+      "text": "Aracena: Moderate rain warning. Aracena (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Pirineo navarro",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Pirineo navarro",
+      "provincia": "Andévalo y Condado",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Andévalo y Condado",
       "nivel": "Naranja",
-      "text": "Pirineo navarro: Aviso de lluvias de nivel amarillo. Pirineo navarro (Naranja) (AEMET)",
+      "text": "Andévalo y Condado: Aviso de lluvias de nivel amarillo. Andévalo y Condado (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Pirineo navarro",
-      "fenomeno": "Moderate rain warning. Pirineo navarro",
+      "provincia": "Andévalo y Condado",
+      "fenomeno": "Moderate rain warning. Andévalo y Condado",
       "nivel": "Naranja",
-      "text": "Pirineo navarro: Moderate rain warning. Pirineo navarro (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Pirineo navarro",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Pirineo navarro",
-      "nivel": "Naranja",
-      "text": "Pirineo navarro: Aviso de tormentas de nivel amarillo. Pirineo navarro (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Pirineo navarro",
-      "fenomeno": "Moderate thunderstorm warning. Pirineo navarro",
-      "nivel": "Naranja",
-      "text": "Pirineo navarro: Moderate thunderstorm warning. Pirineo navarro (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Norte y nordeste de Mallorca",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Norte y nordeste de Mallorca",
-      "nivel": "Naranja",
-      "text": "Norte y nordeste de Mallorca: Aviso de temperaturas máximas de nivel amarillo. Norte y nordeste de Mallorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Norte y nordeste de Mallorca",
-      "fenomeno": "Moderate high-temperature warning. Norte y nordeste de Mallorca",
-      "nivel": "Naranja",
-      "text": "Norte y nordeste de Mallorca: Moderate high-temperature warning. Norte y nordeste de Mallorca (Naranja) (AEMET)",
+      "text": "Andévalo y Condado: Moderate rain warning. Andévalo y Condado (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Interior sur de Castellón",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Interior sur de Castellón",
+      "provincia": "Litoral de Huelva",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral de Huelva",
       "nivel": "Naranja",
-      "text": "Interior sur de Castellón: Aviso de lluvias de nivel amarillo. Interior sur de Castellón (Naranja) (AEMET)",
+      "text": "Litoral de Huelva: Aviso de lluvias de nivel amarillo. Litoral de Huelva (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Interior sur de Castellón",
-      "fenomeno": "Moderate rain warning. Interior sur de Castellón",
+      "provincia": "Litoral de Huelva",
+      "fenomeno": "Moderate rain warning. Litoral de Huelva",
       "nivel": "Naranja",
-      "text": "Interior sur de Castellón: Moderate rain warning. Interior sur de Castellón (Naranja) (AEMET)",
+      "text": "Litoral de Huelva: Moderate rain warning. Litoral de Huelva (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Litoral sur de Castellón",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral sur de Castellón",
+      "provincia": "Sierra norte de Sevilla",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Sierra norte de Sevilla",
       "nivel": "Naranja",
-      "text": "Litoral sur de Castellón: Aviso de lluvias de nivel amarillo. Litoral sur de Castellón (Naranja) (AEMET)",
+      "text": "Sierra norte de Sevilla: Aviso de lluvias de nivel amarillo. Sierra norte de Sevilla (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Litoral sur de Castellón",
-      "fenomeno": "Moderate rain warning. Litoral sur de Castellón",
+      "provincia": "Sierra norte de Sevilla",
+      "fenomeno": "Moderate rain warning. Sierra norte de Sevilla",
       "nivel": "Naranja",
-      "text": "Litoral sur de Castellón: Moderate rain warning. Litoral sur de Castellón (Naranja) (AEMET)",
+      "text": "Sierra norte de Sevilla: Moderate rain warning. Sierra norte de Sevilla (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Litoral norte de Valencia",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral norte de Valencia",
+      "provincia": "Campiña sevillana",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Campiña sevillana",
       "nivel": "Naranja",
-      "text": "Litoral norte de Valencia: Aviso de lluvias de nivel amarillo. Litoral norte de Valencia (Naranja) (AEMET)",
+      "text": "Campiña sevillana: Aviso de lluvias de nivel amarillo. Campiña sevillana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Litoral norte de Valencia",
-      "fenomeno": "Moderate rain warning. Litoral norte de Valencia",
+      "provincia": "Campiña sevillana",
+      "fenomeno": "Moderate rain warning. Campiña sevillana",
       "nivel": "Naranja",
-      "text": "Litoral norte de Valencia: Moderate rain warning. Litoral norte de Valencia (Naranja) (AEMET)",
+      "text": "Campiña sevillana: Moderate rain warning. Campiña sevillana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Litoral sur de Valencia",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral sur de Valencia",
+      "provincia": "Sierra de San Vicente",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Sierra de San Vicente",
       "nivel": "Naranja",
-      "text": "Litoral sur de Valencia: Aviso de lluvias de nivel amarillo. Litoral sur de Valencia (Naranja) (AEMET)",
+      "text": "Sierra de San Vicente: Aviso de lluvias de nivel amarillo. Sierra de San Vicente (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Litoral sur de Valencia",
-      "fenomeno": "Moderate rain warning. Litoral sur de Valencia",
+      "provincia": "Sierra de San Vicente",
+      "fenomeno": "Moderate rain warning. Sierra de San Vicente",
       "nivel": "Naranja",
-      "text": "Litoral sur de Valencia: Moderate rain warning. Litoral sur de Valencia (Naranja) (AEMET)",
+      "text": "Sierra de San Vicente: Moderate rain warning. Sierra de San Vicente (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Cordillera Cantábrica de Palencia",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Cordillera Cantábrica de Palencia",
+      "nivel": "Naranja",
+      "text": "Cordillera Cantábrica de Palencia: Aviso de lluvias de nivel amarillo. Cordillera Cantábrica de Palencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cordillera Cantábrica de Palencia",
+      "fenomeno": "Moderate rain warning. Cordillera Cantábrica de Palencia",
+      "nivel": "Naranja",
+      "text": "Cordillera Cantábrica de Palencia: Moderate rain warning. Cordillera Cantábrica de Palencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Sistema Central de Ávila",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Sistema Central de Ávila",
+      "nivel": "Naranja",
+      "text": "Sistema Central de Ávila: Aviso de lluvias de nivel amarillo. Sistema Central de Ávila (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sistema Central de Ávila",
+      "fenomeno": "Moderate rain warning. Sistema Central de Ávila",
+      "nivel": "Naranja",
+      "text": "Sistema Central de Ávila: Moderate rain warning. Sistema Central de Ávila (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Interior sur de Castellón",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Interior sur de Castellón",
+      "provincia": "Cordillera Cantábrica de Palencia",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Cordillera Cantábrica de Palencia",
       "nivel": "Naranja",
-      "text": "Interior sur de Castellón: Aviso de tormentas de nivel amarillo. Interior sur de Castellón (Naranja) (AEMET)",
+      "text": "Cordillera Cantábrica de Palencia: Aviso de tormentas de nivel amarillo. Cordillera Cantábrica de Palencia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Interior sur de Castellón",
-      "fenomeno": "Moderate thunderstorm warning. Interior sur de Castellón",
+      "provincia": "Cordillera Cantábrica de Palencia",
+      "fenomeno": "Moderate thunderstorm warning. Cordillera Cantábrica de Palencia",
       "nivel": "Naranja",
-      "text": "Interior sur de Castellón: Moderate thunderstorm warning. Interior sur de Castellón (Naranja) (AEMET)",
+      "text": "Cordillera Cantábrica de Palencia: Moderate thunderstorm warning. Cordillera Cantábrica de Palencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Vegas del Guadiana",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Vegas del Guadiana",
+      "nivel": "Naranja",
+      "text": "Vegas del Guadiana: Aviso de lluvias de nivel amarillo. Vegas del Guadiana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Vegas del Guadiana",
+      "fenomeno": "Moderate rain warning. Vegas del Guadiana",
+      "nivel": "Naranja",
+      "text": "Vegas del Guadiana: Moderate rain warning. Vegas del Guadiana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
