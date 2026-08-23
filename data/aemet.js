@@ -1,6 +1,6 @@
-// Auto-generado por GitHub Actions - 2026-08-23T17:33:56.152Z
+// Auto-generado por GitHub Actions - 2026-08-23T17:54:52.916Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-08-23T17:33:56.152Z",
+  "generated_at": "2026-08-23T17:54:52.916Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
