@@ -1,166 +1,166 @@
 {
-  "generated_at": "2026-08-23T17:13:12.322Z",
+  "generated_at": "2026-08-23T17:33:56.152Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "🌧️",
-      "provincia": "Vegas del Guadiana",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Vegas del Guadiana",
+      "provincia": "Noroeste de Ourense",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Noroeste de Ourense",
       "nivel": "Naranja",
-      "text": "Vegas del Guadiana: Aviso de lluvias de nivel amarillo. Vegas del Guadiana (Naranja) (AEMET)",
+      "text": "Noroeste de Ourense: Aviso de lluvias de nivel amarillo. Noroeste de Ourense (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Vegas del Guadiana",
-      "fenomeno": "Moderate rain warning. Vegas del Guadiana",
+      "provincia": "Noroeste de Ourense",
+      "fenomeno": "Moderate rain warning. Noroeste de Ourense",
       "nivel": "Naranja",
-      "text": "Vegas del Guadiana: Moderate rain warning. Vegas del Guadiana (Naranja) (AEMET)",
+      "text": "Noroeste de Ourense: Moderate rain warning. Noroeste de Ourense (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "La Siberia extremeña",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. La Siberia extremeña",
+      "provincia": "Miño de Ourense",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Miño de Ourense",
       "nivel": "Naranja",
-      "text": "La Siberia extremeña: Aviso de lluvias de nivel amarillo. La Siberia extremeña (Naranja) (AEMET)",
+      "text": "Miño de Ourense: Aviso de lluvias de nivel amarillo. Miño de Ourense (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "La Siberia extremeña",
-      "fenomeno": "Moderate rain warning. La Siberia extremeña",
+      "provincia": "Miño de Ourense",
+      "fenomeno": "Moderate rain warning. Miño de Ourense",
       "nivel": "Naranja",
-      "text": "La Siberia extremeña: Moderate rain warning. La Siberia extremeña (Naranja) (AEMET)",
+      "text": "Miño de Ourense: Moderate rain warning. Miño de Ourense (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Barros y Serena",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Barros y Serena",
+      "provincia": "Sur de Ourense",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Sur de Ourense",
       "nivel": "Naranja",
-      "text": "Barros y Serena: Aviso de lluvias de nivel amarillo. Barros y Serena (Naranja) (AEMET)",
+      "text": "Sur de Ourense: Aviso de lluvias de nivel amarillo. Sur de Ourense (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Barros y Serena",
-      "fenomeno": "Moderate rain warning. Barros y Serena",
+      "provincia": "Sur de Ourense",
+      "fenomeno": "Moderate rain warning. Sur de Ourense",
       "nivel": "Naranja",
-      "text": "Barros y Serena: Moderate rain warning. Barros y Serena (Naranja) (AEMET)",
+      "text": "Sur de Ourense: Moderate rain warning. Sur de Ourense (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Sur de Badajoz",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Sur de Badajoz",
+      "provincia": "Montaña de Ourense",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Montaña de Ourense",
       "nivel": "Naranja",
-      "text": "Sur de Badajoz: Aviso de lluvias de nivel amarillo. Sur de Badajoz (Naranja) (AEMET)",
+      "text": "Montaña de Ourense: Aviso de lluvias de nivel amarillo. Montaña de Ourense (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sur de Badajoz",
-      "fenomeno": "Moderate rain warning. Sur de Badajoz",
+      "provincia": "Montaña de Ourense",
+      "fenomeno": "Moderate rain warning. Montaña de Ourense",
       "nivel": "Naranja",
-      "text": "Sur de Badajoz: Moderate rain warning. Sur de Badajoz (Naranja) (AEMET)",
+      "text": "Montaña de Ourense: Moderate rain warning. Montaña de Ourense (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Tajo y Alagón",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Tajo y Alagón",
+      "provincia": "Valdeorras",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Valdeorras",
       "nivel": "Naranja",
-      "text": "Tajo y Alagón: Aviso de lluvias de nivel amarillo. Tajo y Alagón (Naranja) (AEMET)",
+      "text": "Valdeorras: Aviso de lluvias de nivel amarillo. Valdeorras (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Tajo y Alagón",
-      "fenomeno": "Moderate rain warning. Tajo y Alagón",
+      "provincia": "Valdeorras",
+      "fenomeno": "Moderate rain warning. Valdeorras",
       "nivel": "Naranja",
-      "text": "Tajo y Alagón: Moderate rain warning. Tajo y Alagón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Meseta cacereña",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Meseta cacereña",
-      "nivel": "Naranja",
-      "text": "Meseta cacereña: Aviso de lluvias de nivel amarillo. Meseta cacereña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Meseta cacereña",
-      "fenomeno": "Moderate rain warning. Meseta cacereña",
-      "nivel": "Naranja",
-      "text": "Meseta cacereña: Moderate rain warning. Meseta cacereña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Villuercas y Montánchez",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Villuercas y Montánchez",
-      "nivel": "Naranja",
-      "text": "Villuercas y Montánchez: Aviso de lluvias de nivel amarillo. Villuercas y Montánchez (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Villuercas y Montánchez",
-      "fenomeno": "Moderate rain warning. Villuercas y Montánchez",
-      "nivel": "Naranja",
-      "text": "Villuercas y Montánchez: Moderate rain warning. Villuercas y Montánchez (Naranja) (AEMET)",
+      "text": "Valdeorras: Moderate rain warning. Valdeorras (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Vegas del Guadiana",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Vegas del Guadiana",
+      "provincia": "Noroeste de Ourense",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Noroeste de Ourense",
       "nivel": "Naranja",
-      "text": "Vegas del Guadiana: Aviso de tormentas de nivel amarillo. Vegas del Guadiana (Naranja) (AEMET)",
+      "text": "Noroeste de Ourense: Aviso de tormentas de nivel amarillo. Noroeste de Ourense (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Vegas del Guadiana",
-      "fenomeno": "Moderate thunderstorm warning. Vegas del Guadiana",
+      "provincia": "Noroeste de Ourense",
+      "fenomeno": "Moderate thunderstorm warning. Noroeste de Ourense",
       "nivel": "Naranja",
-      "text": "Vegas del Guadiana: Moderate thunderstorm warning. Vegas del Guadiana (Naranja) (AEMET)",
+      "text": "Noroeste de Ourense: Moderate thunderstorm warning. Noroeste de Ourense (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "La Siberia extremeña",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. La Siberia extremeña",
+      "provincia": "Miño de Ourense",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Miño de Ourense",
       "nivel": "Naranja",
-      "text": "La Siberia extremeña: Aviso de tormentas de nivel amarillo. La Siberia extremeña (Naranja) (AEMET)",
+      "text": "Miño de Ourense: Aviso de tormentas de nivel amarillo. Miño de Ourense (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "La Siberia extremeña",
-      "fenomeno": "Moderate thunderstorm warning. La Siberia extremeña",
+      "provincia": "Miño de Ourense",
+      "fenomeno": "Moderate thunderstorm warning. Miño de Ourense",
       "nivel": "Naranja",
-      "text": "La Siberia extremeña: Moderate thunderstorm warning. La Siberia extremeña (Naranja) (AEMET)",
+      "text": "Miño de Ourense: Moderate thunderstorm warning. Miño de Ourense (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Barros y Serena",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Barros y Serena",
+      "provincia": "Sur de Ourense",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Sur de Ourense",
       "nivel": "Naranja",
-      "text": "Barros y Serena: Aviso de tormentas de nivel amarillo. Barros y Serena (Naranja) (AEMET)",
+      "text": "Sur de Ourense: Aviso de tormentas de nivel amarillo. Sur de Ourense (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Barros y Serena",
-      "fenomeno": "Moderate thunderstorm warning. Barros y Serena",
+      "provincia": "Sur de Ourense",
+      "fenomeno": "Moderate thunderstorm warning. Sur de Ourense",
       "nivel": "Naranja",
-      "text": "Barros y Serena: Moderate thunderstorm warning. Barros y Serena (Naranja) (AEMET)",
+      "text": "Sur de Ourense: Moderate thunderstorm warning. Sur de Ourense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Montaña de Ourense",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Montaña de Ourense",
+      "nivel": "Naranja",
+      "text": "Montaña de Ourense: Aviso de tormentas de nivel amarillo. Montaña de Ourense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Montaña de Ourense",
+      "fenomeno": "Moderate thunderstorm warning. Montaña de Ourense",
+      "nivel": "Naranja",
+      "text": "Montaña de Ourense: Moderate thunderstorm warning. Montaña de Ourense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Valdeorras",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Valdeorras",
+      "nivel": "Naranja",
+      "text": "Valdeorras: Aviso de tormentas de nivel amarillo. Valdeorras (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Valdeorras",
+      "fenomeno": "Moderate thunderstorm warning. Valdeorras",
+      "nivel": "Naranja",
+      "text": "Valdeorras: Moderate thunderstorm warning. Valdeorras (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
