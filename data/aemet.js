@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2026-08-23T22:59:03.292Z
+// Auto-generado por GitHub Actions - 2026-08-23T23:22:24.770Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-08-23T22:59:03.292Z",
+  "generated_at": "2026-08-23T23:22:24.770Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "⛈️",
+      "provincia": "Parameras de Molina",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Parameras de Molina",
+      "nivel": "Naranja",
+      "text": "Parameras de Molina: Aviso de tormentas de nivel amarillo. Parameras de Molina (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Parameras de Molina",
+      "fenomeno": "Moderate thunderstorm warning. Parameras de Molina",
+      "nivel": "Naranja",
+      "text": "Parameras de Molina: Moderate thunderstorm warning. Parameras de Molina (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Centro de Lugo",
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Severe thunderstorm warning. Valle de Arán",
       "nivel": "Rojo",
       "text": "Valle de Arán: Severe thunderstorm warning. Valle de Arán (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Pirineo de Lleida",
-      "fenomeno": "Aviso de tormentas de nivel naranja. Pirineo de Lleida",
-      "nivel": "Rojo",
-      "text": "Pirineo de Lleida: Aviso de tormentas de nivel naranja. Pirineo de Lleida (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Pirineo de Lleida",
-      "fenomeno": "Severe thunderstorm warning. Pirineo de Lleida",
-      "nivel": "Rojo",
-      "text": "Pirineo de Lleida: Severe thunderstorm warning. Pirineo de Lleida (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
