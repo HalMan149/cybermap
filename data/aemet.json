@@ -1,8 +1,40 @@
 {
-  "generated_at": "2026-08-24T15:07:39.187Z",
+  "generated_at": "2026-08-24T15:52:58.645Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌊",
+      "provincia": "Norte y nordeste de Mallorca",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Norte y nordeste de Mallorca",
+      "nivel": "Naranja",
+      "text": "Norte y nordeste de Mallorca: Aviso de temperaturas máximas de nivel amarillo. Norte y nordeste de Mallorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Norte y nordeste de Mallorca",
+      "fenomeno": "Moderate high-temperature warning. Norte y nordeste de Mallorca",
+      "nivel": "Naranja",
+      "text": "Norte y nordeste de Mallorca: Moderate high-temperature warning. Norte y nordeste de Mallorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Levante mallorquín",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Levante mallorquín",
+      "nivel": "Naranja",
+      "text": "Levante mallorquín: Aviso de temperaturas máximas de nivel amarillo. Levante mallorquín (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Levante mallorquín",
+      "fenomeno": "Moderate high-temperature warning. Levante mallorquín",
+      "nivel": "Naranja",
+      "text": "Levante mallorquín: Moderate high-temperature warning. Levante mallorquín (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Suroeste de A Coruña",
@@ -129,38 +161,6 @@
       "fenomeno": "Moderate high-temperature warning. Ribera del Ebro de Zaragoza",
       "nivel": "Naranja",
       "text": "Ribera del Ebro de Zaragoza: Moderate high-temperature warning. Ribera del Ebro de Zaragoza (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Litoral norte de Valencia",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Litoral norte de Valencia",
-      "nivel": "Naranja",
-      "text": "Litoral norte de Valencia: Aviso de temperaturas máximas de nivel amarillo. Litoral norte de Valencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral norte de Valencia",
-      "fenomeno": "Moderate high-temperature warning. Litoral norte de Valencia",
-      "nivel": "Naranja",
-      "text": "Litoral norte de Valencia: Moderate high-temperature warning. Litoral norte de Valencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Litoral sur de Valencia",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Litoral sur de Valencia",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Valencia: Aviso de temperaturas máximas de nivel amarillo. Litoral sur de Valencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral sur de Valencia",
-      "fenomeno": "Moderate high-temperature warning. Litoral sur de Valencia",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Valencia: Moderate high-temperature warning. Litoral sur de Valencia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
