@@ -1,86 +1,134 @@
 {
-  "generated_at": "2026-08-24T06:38:52.997Z",
+  "generated_at": "2026-08-24T07:42:55.431Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "🌧️",
-      "provincia": "A Mariña",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. A Mariña",
-      "nivel": "Naranja",
-      "text": "A Mariña: Aviso de lluvias de nivel amarillo. A Mariña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
       "icon": "🌊",
-      "provincia": "A Mariña",
-      "fenomeno": "Moderate rain warning. A Mariña",
+      "provincia": "Valle del Almanzora y Los Vélez",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Valle del Almanzora y Los Vélez",
       "nivel": "Naranja",
-      "text": "A Mariña: Moderate rain warning. A Mariña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "A Mariña",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. A Mariña",
-      "nivel": "Naranja",
-      "text": "A Mariña: Aviso de tormentas de nivel amarillo. A Mariña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "A Mariña",
-      "fenomeno": "Moderate thunderstorm warning. A Mariña",
-      "nivel": "Naranja",
-      "text": "A Mariña: Moderate thunderstorm warning. A Mariña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Parameras de Molina",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Parameras de Molina",
-      "nivel": "Naranja",
-      "text": "Parameras de Molina: Aviso de tormentas de nivel amarillo. Parameras de Molina (Naranja) (AEMET)",
+      "text": "Valle del Almanzora y Los Vélez: Aviso de temperaturas máximas de nivel amarillo. Valle del Almanzora y Los Vélez (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Parameras de Molina",
-      "fenomeno": "Moderate thunderstorm warning. Parameras de Molina",
+      "provincia": "Valle del Almanzora y Los Vélez",
+      "fenomeno": "Moderate high-temperature warning. Valle del Almanzora y Los Vélez",
       "nivel": "Naranja",
-      "text": "Parameras de Molina: Moderate thunderstorm warning. Parameras de Molina (Naranja) (AEMET)",
+      "text": "Valle del Almanzora y Los Vélez: Moderate high-temperature warning. Valle del Almanzora y Los Vélez (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Centro de Lugo",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Centro de Lugo",
+      "provincia": "Montes del norte y Anchuras",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Montes del norte y Anchuras",
       "nivel": "Naranja",
-      "text": "Centro de Lugo: Aviso de lluvias de nivel amarillo. Centro de Lugo (Naranja) (AEMET)",
+      "text": "Montes del norte y Anchuras: Aviso de lluvias de nivel amarillo. Montes del norte y Anchuras (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Centro de Lugo",
-      "fenomeno": "Moderate rain warning. Centro de Lugo",
+      "provincia": "Montes del norte y Anchuras",
+      "fenomeno": "Moderate rain warning. Montes del norte y Anchuras",
       "nivel": "Naranja",
-      "text": "Centro de Lugo: Moderate rain warning. Centro de Lugo (Naranja) (AEMET)",
+      "text": "Montes del norte y Anchuras: Moderate rain warning. Montes del norte y Anchuras (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Montes de Toledo",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Montes de Toledo",
+      "nivel": "Naranja",
+      "text": "Montes de Toledo: Aviso de lluvias de nivel amarillo. Montes de Toledo (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Montes de Toledo",
+      "fenomeno": "Moderate rain warning. Montes de Toledo",
+      "nivel": "Naranja",
+      "text": "Montes de Toledo: Moderate rain warning. Montes de Toledo (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Centro de Lugo",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Centro de Lugo",
+      "provincia": "Montes del norte y Anchuras",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Montes del norte y Anchuras",
       "nivel": "Naranja",
-      "text": "Centro de Lugo: Aviso de tormentas de nivel amarillo. Centro de Lugo (Naranja) (AEMET)",
+      "text": "Montes del norte y Anchuras: Aviso de tormentas de nivel amarillo. Montes del norte y Anchuras (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Centro de Lugo",
-      "fenomeno": "Moderate thunderstorm warning. Centro de Lugo",
+      "provincia": "Montes del norte y Anchuras",
+      "fenomeno": "Moderate thunderstorm warning. Montes del norte y Anchuras",
       "nivel": "Naranja",
-      "text": "Centro de Lugo: Moderate thunderstorm warning. Centro de Lugo (Naranja) (AEMET)",
+      "text": "Montes del norte y Anchuras: Moderate thunderstorm warning. Montes del norte y Anchuras (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Montes de Toledo",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Montes de Toledo",
+      "nivel": "Naranja",
+      "text": "Montes de Toledo: Aviso de tormentas de nivel amarillo. Montes de Toledo (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Montes de Toledo",
+      "fenomeno": "Moderate thunderstorm warning. Montes de Toledo",
+      "nivel": "Naranja",
+      "text": "Montes de Toledo: Moderate thunderstorm warning. Montes de Toledo (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Sur de Ourense",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Sur de Ourense",
+      "nivel": "Naranja",
+      "text": "Sur de Ourense: Aviso de lluvias de nivel amarillo. Sur de Ourense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sur de Ourense",
+      "fenomeno": "Moderate rain warning. Sur de Ourense",
+      "nivel": "Naranja",
+      "text": "Sur de Ourense: Moderate rain warning. Sur de Ourense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Sur de Ourense",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Sur de Ourense",
+      "nivel": "Naranja",
+      "text": "Sur de Ourense: Aviso de tormentas de nivel amarillo. Sur de Ourense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sur de Ourense",
+      "fenomeno": "Moderate thunderstorm warning. Sur de Ourense",
+      "nivel": "Naranja",
+      "text": "Sur de Ourense: Moderate thunderstorm warning. Sur de Ourense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Menorca",
+      "fenomeno": "Aviso de rissagas de nivel naranja. Costa - Menorca",
+      "nivel": "Rojo",
+      "text": "Costa - Menorca: Aviso de rissagas de nivel naranja. Costa - Menorca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Menorca",
+      "fenomeno": "Severe rissagas warning. Costa - Menorca",
+      "nivel": "Rojo",
+      "text": "Costa - Menorca: Severe rissagas warning. Costa - Menorca (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -113,54 +161,6 @@
       "fenomeno": "Severe rain warning. Centro de Huesca",
       "nivel": "Rojo",
       "text": "Centro de Huesca: Severe rain warning. Centro de Huesca (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Valle de Arán",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Valle de Arán",
-      "nivel": "Rojo",
-      "text": "Valle de Arán: Aviso de lluvias de nivel naranja. Valle de Arán (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Valle de Arán",
-      "fenomeno": "Severe rain warning. Valle de Arán",
-      "nivel": "Rojo",
-      "text": "Valle de Arán: Severe rain warning. Valle de Arán (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Pirineo de Lleida",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Pirineo de Lleida",
-      "nivel": "Rojo",
-      "text": "Pirineo de Lleida: Aviso de lluvias de nivel naranja. Pirineo de Lleida (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Pirineo de Lleida",
-      "fenomeno": "Severe rain warning. Pirineo de Lleida",
-      "nivel": "Rojo",
-      "text": "Pirineo de Lleida: Severe rain warning. Pirineo de Lleida (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Pirineo oscense",
-      "fenomeno": "Aviso de tormentas de nivel naranja. Pirineo oscense",
-      "nivel": "Rojo",
-      "text": "Pirineo oscense: Aviso de tormentas de nivel naranja. Pirineo oscense (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Pirineo oscense",
-      "fenomeno": "Severe thunderstorm warning. Pirineo oscense",
-      "nivel": "Rojo",
-      "text": "Pirineo oscense: Severe thunderstorm warning. Pirineo oscense (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
