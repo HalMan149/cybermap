@@ -1,8 +1,40 @@
 {
-  "generated_at": "2026-08-24T05:50:50.716Z",
+  "generated_at": "2026-08-24T06:38:52.997Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "A Mariña",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. A Mariña",
+      "nivel": "Naranja",
+      "text": "A Mariña: Aviso de lluvias de nivel amarillo. A Mariña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "A Mariña",
+      "fenomeno": "Moderate rain warning. A Mariña",
+      "nivel": "Naranja",
+      "text": "A Mariña: Moderate rain warning. A Mariña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "A Mariña",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. A Mariña",
+      "nivel": "Naranja",
+      "text": "A Mariña: Aviso de tormentas de nivel amarillo. A Mariña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "A Mariña",
+      "fenomeno": "Moderate thunderstorm warning. A Mariña",
+      "nivel": "Naranja",
+      "text": "A Mariña: Moderate thunderstorm warning. A Mariña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "⛈️",
       "provincia": "Parameras de Molina",
@@ -129,38 +161,6 @@
       "fenomeno": "Severe thunderstorm warning. Pirineo oscense",
       "nivel": "Rojo",
       "text": "Pirineo oscense: Severe thunderstorm warning. Pirineo oscense (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Centro de Huesca",
-      "fenomeno": "Aviso de tormentas de nivel naranja. Centro de Huesca",
-      "nivel": "Rojo",
-      "text": "Centro de Huesca: Aviso de tormentas de nivel naranja. Centro de Huesca (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Centro de Huesca",
-      "fenomeno": "Severe thunderstorm warning. Centro de Huesca",
-      "nivel": "Rojo",
-      "text": "Centro de Huesca: Severe thunderstorm warning. Centro de Huesca (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Valle de Arán",
-      "fenomeno": "Aviso de tormentas de nivel naranja. Valle de Arán",
-      "nivel": "Rojo",
-      "text": "Valle de Arán: Aviso de tormentas de nivel naranja. Valle de Arán (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Valle de Arán",
-      "fenomeno": "Severe thunderstorm warning. Valle de Arán",
-      "nivel": "Rojo",
-      "text": "Valle de Arán: Severe thunderstorm warning. Valle de Arán (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
