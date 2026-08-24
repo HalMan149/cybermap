@@ -1,9 +1,73 @@
-// Auto-generado por GitHub Actions - 2026-08-24T18:04:10.384Z
+// Auto-generado por GitHub Actions - 2026-08-24T18:56:50.554Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-08-24T18:04:10.384Z",
+  "generated_at": "2026-08-24T18:56:50.554Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Prelitoral de Barcelona",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Prelitoral de Barcelona",
+      "nivel": "Naranja",
+      "text": "Prelitoral de Barcelona: Aviso de lluvias de nivel amarillo. Prelitoral de Barcelona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Prelitoral de Barcelona",
+      "fenomeno": "Moderate rain warning. Prelitoral de Barcelona",
+      "nivel": "Naranja",
+      "text": "Prelitoral de Barcelona: Moderate rain warning. Prelitoral de Barcelona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Litoral de Barcelona",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral de Barcelona",
+      "nivel": "Naranja",
+      "text": "Litoral de Barcelona: Aviso de lluvias de nivel amarillo. Litoral de Barcelona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral de Barcelona",
+      "fenomeno": "Moderate rain warning. Litoral de Barcelona",
+      "nivel": "Naranja",
+      "text": "Litoral de Barcelona: Moderate rain warning. Litoral de Barcelona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Prelitoral de Barcelona",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Prelitoral de Barcelona",
+      "nivel": "Naranja",
+      "text": "Prelitoral de Barcelona: Aviso de tormentas de nivel amarillo. Prelitoral de Barcelona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Prelitoral de Barcelona",
+      "fenomeno": "Moderate thunderstorm warning. Prelitoral de Barcelona",
+      "nivel": "Naranja",
+      "text": "Prelitoral de Barcelona: Moderate thunderstorm warning. Prelitoral de Barcelona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Litoral de Barcelona",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Litoral de Barcelona",
+      "nivel": "Naranja",
+      "text": "Litoral de Barcelona: Aviso de tormentas de nivel amarillo. Litoral de Barcelona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral de Barcelona",
+      "fenomeno": "Moderate thunderstorm warning. Litoral de Barcelona",
+      "nivel": "Naranja",
+      "text": "Litoral de Barcelona: Moderate thunderstorm warning. Litoral de Barcelona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "⛈️",
       "provincia": "Pirineo de Girona",
@@ -98,70 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate rain warning. Litoral norte de Tarragona",
       "nivel": "Naranja",
       "text": "Litoral norte de Tarragona: Moderate rain warning. Litoral norte de Tarragona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Litoral sur de Tarragona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral sur de Tarragona",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Tarragona: Aviso de lluvias de nivel amarillo. Litoral sur de Tarragona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral sur de Tarragona",
-      "fenomeno": "Moderate rain warning. Litoral sur de Tarragona",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Tarragona: Moderate rain warning. Litoral sur de Tarragona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Prelitoral sur de Tarragona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Prelitoral sur de Tarragona",
-      "nivel": "Naranja",
-      "text": "Prelitoral sur de Tarragona: Aviso de lluvias de nivel amarillo. Prelitoral sur de Tarragona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Prelitoral sur de Tarragona",
-      "fenomeno": "Moderate rain warning. Prelitoral sur de Tarragona",
-      "nivel": "Naranja",
-      "text": "Prelitoral sur de Tarragona: Moderate rain warning. Prelitoral sur de Tarragona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Litoral sur de Tarragona",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Litoral sur de Tarragona",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Tarragona: Aviso de tormentas de nivel amarillo. Litoral sur de Tarragona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral sur de Tarragona",
-      "fenomeno": "Moderate thunderstorm warning. Litoral sur de Tarragona",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Tarragona: Moderate thunderstorm warning. Litoral sur de Tarragona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Oeste de A Coruña",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Oeste de A Coruña",
-      "nivel": "Naranja",
-      "text": "Oeste de A Coruña: Aviso de lluvias de nivel amarillo. Oeste de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Oeste de A Coruña",
-      "fenomeno": "Moderate rain warning. Oeste de A Coruña",
-      "nivel": "Naranja",
-      "text": "Oeste de A Coruña: Moderate rain warning. Oeste de A Coruña (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
