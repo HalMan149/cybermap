@@ -1,151 +1,55 @@
-// Auto-generado por GitHub Actions - 2026-08-25T08:06:42.324Z
+// Auto-generado por GitHub Actions - 2026-08-25T09:31:43.726Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-08-25T08:06:42.324Z",
+  "generated_at": "2026-08-25T09:31:43.726Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "🌧️",
-      "provincia": "Litoral de Barcelona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral de Barcelona",
+      "icon": "🌊",
+      "provincia": "Bajo Aragón de Teruel",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Bajo Aragón de Teruel",
       "nivel": "Naranja",
-      "text": "Litoral de Barcelona: Aviso de lluvias de nivel amarillo. Litoral de Barcelona (Naranja) (AEMET)",
+      "text": "Bajo Aragón de Teruel: Aviso de temperaturas máximas de nivel amarillo. Bajo Aragón de Teruel (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Litoral de Barcelona",
-      "fenomeno": "Moderate rain warning. Litoral de Barcelona",
+      "provincia": "Bajo Aragón de Teruel",
+      "fenomeno": "Moderate high-temperature warning. Bajo Aragón de Teruel",
       "nivel": "Naranja",
-      "text": "Litoral de Barcelona: Moderate rain warning. Litoral de Barcelona (Naranja) (AEMET)",
+      "text": "Bajo Aragón de Teruel: Moderate high-temperature warning. Bajo Aragón de Teruel (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⛈️",
-      "provincia": "Litoral de Barcelona",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Litoral de Barcelona",
+      "icon": "🌊",
+      "provincia": "Cinco Villas de Zaragoza",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Cinco Villas de Zaragoza",
       "nivel": "Naranja",
-      "text": "Litoral de Barcelona: Aviso de tormentas de nivel amarillo. Litoral de Barcelona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral de Barcelona",
-      "fenomeno": "Moderate thunderstorm warning. Litoral de Barcelona",
-      "nivel": "Naranja",
-      "text": "Litoral de Barcelona: Moderate thunderstorm warning. Litoral de Barcelona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Oeste de A Coruña",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Oeste de A Coruña",
-      "nivel": "Naranja",
-      "text": "Oeste de A Coruña: Aviso de lluvias de nivel amarillo. Oeste de A Coruña (Naranja) (AEMET)",
+      "text": "Cinco Villas de Zaragoza: Aviso de temperaturas máximas de nivel amarillo. Cinco Villas de Zaragoza (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Oeste de A Coruña",
-      "fenomeno": "Moderate rain warning. Oeste de A Coruña",
+      "provincia": "Cinco Villas de Zaragoza",
+      "fenomeno": "Moderate high-temperature warning. Cinco Villas de Zaragoza",
       "nivel": "Naranja",
-      "text": "Oeste de A Coruña: Moderate rain warning. Oeste de A Coruña (Naranja) (AEMET)",
+      "text": "Cinco Villas de Zaragoza: Moderate high-temperature warning. Cinco Villas de Zaragoza (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Interior de A Coruña",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Interior de A Coruña",
+      "icon": "🌊",
+      "provincia": "Ribera del Ebro de Zaragoza",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Ribera del Ebro de Zaragoza",
       "nivel": "Naranja",
-      "text": "Interior de A Coruña: Aviso de lluvias de nivel amarillo. Interior de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior de A Coruña",
-      "fenomeno": "Moderate rain warning. Interior de A Coruña",
-      "nivel": "Naranja",
-      "text": "Interior de A Coruña: Moderate rain warning. Interior de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Noroeste de Ourense",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Noroeste de Ourense",
-      "nivel": "Naranja",
-      "text": "Noroeste de Ourense: Aviso de lluvias de nivel amarillo. Noroeste de Ourense (Naranja) (AEMET)",
+      "text": "Ribera del Ebro de Zaragoza: Aviso de temperaturas máximas de nivel amarillo. Ribera del Ebro de Zaragoza (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Noroeste de Ourense",
-      "fenomeno": "Moderate rain warning. Noroeste de Ourense",
+      "provincia": "Ribera del Ebro de Zaragoza",
+      "fenomeno": "Moderate high-temperature warning. Ribera del Ebro de Zaragoza",
       "nivel": "Naranja",
-      "text": "Noroeste de Ourense: Moderate rain warning. Noroeste de Ourense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Interior de Pontevedra",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Interior de Pontevedra",
-      "nivel": "Naranja",
-      "text": "Interior de Pontevedra: Aviso de lluvias de nivel amarillo. Interior de Pontevedra (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior de Pontevedra",
-      "fenomeno": "Moderate rain warning. Interior de Pontevedra",
-      "nivel": "Naranja",
-      "text": "Interior de Pontevedra: Moderate rain warning. Interior de Pontevedra (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Miño de Pontevedra",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Miño de Pontevedra",
-      "nivel": "Naranja",
-      "text": "Miño de Pontevedra: Aviso de lluvias de nivel amarillo. Miño de Pontevedra (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Miño de Pontevedra",
-      "fenomeno": "Moderate rain warning. Miño de Pontevedra",
-      "nivel": "Naranja",
-      "text": "Miño de Pontevedra: Moderate rain warning. Miño de Pontevedra (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Interior de A Coruña",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Interior de A Coruña",
-      "nivel": "Naranja",
-      "text": "Interior de A Coruña: Aviso de tormentas de nivel amarillo. Interior de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior de A Coruña",
-      "fenomeno": "Moderate thunderstorm warning. Interior de A Coruña",
-      "nivel": "Naranja",
-      "text": "Interior de A Coruña: Moderate thunderstorm warning. Interior de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Noroeste de Ourense",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Noroeste de Ourense",
-      "nivel": "Naranja",
-      "text": "Noroeste de Ourense: Aviso de tormentas de nivel amarillo. Noroeste de Ourense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Noroeste de Ourense",
-      "fenomeno": "Moderate thunderstorm warning. Noroeste de Ourense",
-      "nivel": "Naranja",
-      "text": "Noroeste de Ourense: Moderate thunderstorm warning. Noroeste de Ourense (Naranja) (AEMET)",
+      "text": "Ribera del Ebro de Zaragoza: Moderate high-temperature warning. Ribera del Ebro de Zaragoza (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -162,6 +66,102 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate rissagas warning. Costa - Menorca",
       "nivel": "Naranja",
       "text": "Costa - Menorca: Moderate rissagas warning. Costa - Menorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Ribera del Ebro de La Rioja",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Ribera del Ebro de La Rioja",
+      "nivel": "Naranja",
+      "text": "Ribera del Ebro de La Rioja: Aviso de temperaturas máximas de nivel amarillo. Ribera del Ebro de La Rioja (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ribera del Ebro de La Rioja",
+      "fenomeno": "Moderate high-temperature warning. Ribera del Ebro de La Rioja",
+      "nivel": "Naranja",
+      "text": "Ribera del Ebro de La Rioja: Moderate high-temperature warning. Ribera del Ebro de La Rioja (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Vertiente cantábrica de Navarra",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Vertiente cantábrica de Navarra",
+      "nivel": "Naranja",
+      "text": "Vertiente cantábrica de Navarra: Aviso de temperaturas máximas de nivel amarillo. Vertiente cantábrica de Navarra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Vertiente cantábrica de Navarra",
+      "fenomeno": "Moderate high-temperature warning. Vertiente cantábrica de Navarra",
+      "nivel": "Naranja",
+      "text": "Vertiente cantábrica de Navarra: Moderate high-temperature warning. Vertiente cantábrica de Navarra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Ribera del Ebro de Navarra",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Ribera del Ebro de Navarra",
+      "nivel": "Naranja",
+      "text": "Ribera del Ebro de Navarra: Aviso de temperaturas máximas de nivel amarillo. Ribera del Ebro de Navarra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ribera del Ebro de Navarra",
+      "fenomeno": "Moderate high-temperature warning. Ribera del Ebro de Navarra",
+      "nivel": "Naranja",
+      "text": "Ribera del Ebro de Navarra: Moderate high-temperature warning. Ribera del Ebro de Navarra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Gipuzkoa interior",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Gipuzkoa interior",
+      "nivel": "Naranja",
+      "text": "Gipuzkoa interior: Aviso de temperaturas máximas de nivel amarillo. Gipuzkoa interior (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Gipuzkoa interior",
+      "fenomeno": "Moderate high-temperature warning. Gipuzkoa interior",
+      "nivel": "Naranja",
+      "text": "Gipuzkoa interior: Moderate high-temperature warning. Gipuzkoa interior (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Litoral occidental asturiano",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral occidental asturiano",
+      "nivel": "Naranja",
+      "text": "Litoral occidental asturiano: Aviso de lluvias de nivel amarillo. Litoral occidental asturiano (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral occidental asturiano",
+      "fenomeno": "Moderate rain warning. Litoral occidental asturiano",
+      "nivel": "Naranja",
+      "text": "Litoral occidental asturiano: Moderate rain warning. Litoral occidental asturiano (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Litoral oriental asturiano",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral oriental asturiano",
+      "nivel": "Naranja",
+      "text": "Litoral oriental asturiano: Aviso de lluvias de nivel amarillo. Litoral oriental asturiano (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral oriental asturiano",
+      "fenomeno": "Moderate rain warning. Litoral oriental asturiano",
+      "nivel": "Naranja",
+      "text": "Litoral oriental asturiano: Moderate rain warning. Litoral oriental asturiano (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
