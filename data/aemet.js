@@ -1,25 +1,9 @@
-// Auto-generado por GitHub Actions - 2026-08-29T21:25:25.476Z
+// Auto-generado por GitHub Actions - 2026-08-29T23:28:18.611Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-08-29T21:25:25.476Z",
+  "generated_at": "2026-08-29T23:28:18.611Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Menorca",
-      "fenomeno": "Aviso de rissagas de nivel naranja. Costa - Menorca",
-      "nivel": "Rojo",
-      "text": "Costa - Menorca: Aviso de rissagas de nivel naranja. Costa - Menorca (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Menorca",
-      "fenomeno": "Severe rissagas warning. Costa - Menorca",
-      "nivel": "Rojo",
-      "text": "Costa - Menorca: Severe rissagas warning. Costa - Menorca (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
     {
       "icon": "🌡️",
       "provincia": "Valle del Almanzora y Los Vélez",
@@ -162,6 +146,22 @@ window.AEMET_AVISOS = {
       "fenomeno": "Minor dust warning. CCAA",
       "nivel": "Amarillo",
       "text": "Valle del Almanzora y Los Vélez: Minor dust warning. CCAA (Amarillo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Pirineo oscense",
+      "fenomeno": "Aviso de aludes de nivel verde. CCAA",
+      "nivel": "Amarillo",
+      "text": "Pirineo oscense: Aviso de aludes de nivel verde. CCAA (Amarillo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Pirineo oscense",
+      "fenomeno": "Minor avalanches warning. CCAA",
+      "nivel": "Amarillo",
+      "text": "Pirineo oscense: Minor avalanches warning. CCAA (Amarillo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
