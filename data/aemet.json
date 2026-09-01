@@ -1,8 +1,72 @@
 {
-  "generated_at": "2026-09-01T16:54:33.302Z",
+  "generated_at": "2026-09-01T19:42:02.933Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌊",
+      "provincia": "Valle del Guadiana",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Valle del Guadiana",
+      "nivel": "Naranja",
+      "text": "Valle del Guadiana: Aviso de temperaturas máximas de nivel amarillo. Valle del Guadiana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Valle del Guadiana",
+      "fenomeno": "Moderate high-temperature warning. Valle del Guadiana",
+      "nivel": "Naranja",
+      "text": "Valle del Guadiana: Moderate high-temperature warning. Valle del Guadiana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Sierras de Alcudia y Madrona",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Sierras de Alcudia y Madrona",
+      "nivel": "Naranja",
+      "text": "Sierras de Alcudia y Madrona: Aviso de temperaturas máximas de nivel amarillo. Sierras de Alcudia y Madrona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sierras de Alcudia y Madrona",
+      "fenomeno": "Moderate high-temperature warning. Sierras de Alcudia y Madrona",
+      "nivel": "Naranja",
+      "text": "Sierras de Alcudia y Madrona: Moderate high-temperature warning. Sierras de Alcudia y Madrona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Valle del Tajo",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Valle del Tajo",
+      "nivel": "Naranja",
+      "text": "Valle del Tajo: Aviso de temperaturas máximas de nivel amarillo. Valle del Tajo (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Valle del Tajo",
+      "fenomeno": "Moderate high-temperature warning. Valle del Tajo",
+      "nivel": "Naranja",
+      "text": "Valle del Tajo: Moderate high-temperature warning. Valle del Tajo (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Capital y Montes de Jaén",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Capital y Montes de Jaén",
+      "nivel": "Naranja",
+      "text": "Capital y Montes de Jaén: Aviso de temperaturas máximas de nivel amarillo. Capital y Montes de Jaén (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Capital y Montes de Jaén",
+      "fenomeno": "Moderate high-temperature warning. Capital y Montes de Jaén",
+      "nivel": "Naranja",
+      "text": "Capital y Montes de Jaén: Moderate high-temperature warning. Capital y Montes de Jaén (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌊",
       "provincia": "Aracena",
@@ -97,70 +161,6 @@
       "fenomeno": "Severe high-temperature warning. Aracena",
       "nivel": "Rojo",
       "text": "Aracena: Severe high-temperature warning. Aracena (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Andévalo y Condado",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Andévalo y Condado",
-      "nivel": "Rojo",
-      "text": "Andévalo y Condado: Aviso de temperaturas máximas de nivel naranja. Andévalo y Condado (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Andévalo y Condado",
-      "fenomeno": "Severe high-temperature warning. Andévalo y Condado",
-      "nivel": "Rojo",
-      "text": "Andévalo y Condado: Severe high-temperature warning. Andévalo y Condado (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Morena y Condado",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Morena y Condado",
-      "nivel": "Rojo",
-      "text": "Morena y Condado: Aviso de temperaturas máximas de nivel naranja. Morena y Condado (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Morena y Condado",
-      "fenomeno": "Severe high-temperature warning. Morena y Condado",
-      "nivel": "Rojo",
-      "text": "Morena y Condado: Severe high-temperature warning. Morena y Condado (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Valle del Guadalquivir de Jaén",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Valle del Guadalquivir de Jaén",
-      "nivel": "Rojo",
-      "text": "Valle del Guadalquivir de Jaén: Aviso de temperaturas máximas de nivel naranja. Valle del Guadalquivir de Jaén (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Valle del Guadalquivir de Jaén",
-      "fenomeno": "Severe high-temperature warning. Valle del Guadalquivir de Jaén",
-      "nivel": "Rojo",
-      "text": "Valle del Guadalquivir de Jaén: Severe high-temperature warning. Valle del Guadalquivir de Jaén (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Campiña sevillana",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Campiña sevillana",
-      "nivel": "Rojo",
-      "text": "Campiña sevillana: Aviso de temperaturas máximas de nivel naranja. Campiña sevillana (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Campiña sevillana",
-      "fenomeno": "Severe high-temperature warning. Campiña sevillana",
-      "nivel": "Rojo",
-      "text": "Campiña sevillana: Severe high-temperature warning. Campiña sevillana (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
