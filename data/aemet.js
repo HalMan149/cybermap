@@ -1,9 +1,89 @@
-// Auto-generado por GitHub Actions - 2026-09-01T19:42:02.933Z
+// Auto-generado por GitHub Actions - 2026-09-01T22:02:51.949Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-09-01T19:42:02.933Z",
+  "generated_at": "2026-09-01T22:02:51.949Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌡️",
+      "provincia": "Sierras de Alcudia y Madrona",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Sierras de Alcudia y Madrona",
+      "nivel": "Rojo",
+      "text": "Sierras de Alcudia y Madrona: Aviso de temperaturas máximas de nivel naranja. Sierras de Alcudia y Madrona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sierras de Alcudia y Madrona",
+      "fenomeno": "Severe high-temperature warning. Sierras de Alcudia y Madrona",
+      "nivel": "Rojo",
+      "text": "Sierras de Alcudia y Madrona: Severe high-temperature warning. Sierras de Alcudia y Madrona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Valle del Tajo",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Valle del Tajo",
+      "nivel": "Rojo",
+      "text": "Valle del Tajo: Aviso de temperaturas máximas de nivel naranja. Valle del Tajo (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Valle del Tajo",
+      "fenomeno": "Severe high-temperature warning. Valle del Tajo",
+      "nivel": "Rojo",
+      "text": "Valle del Tajo: Severe high-temperature warning. Valle del Tajo (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Guadix y Baza",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Guadix y Baza",
+      "nivel": "Naranja",
+      "text": "Guadix y Baza: Aviso de temperaturas máximas de nivel amarillo. Guadix y Baza (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Guadix y Baza",
+      "fenomeno": "Moderate high-temperature warning. Guadix y Baza",
+      "nivel": "Naranja",
+      "text": "Guadix y Baza: Moderate high-temperature warning. Guadix y Baza (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Meseta de Valladolid",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Meseta de Valladolid",
+      "nivel": "Naranja",
+      "text": "Meseta de Valladolid: Aviso de temperaturas máximas de nivel amarillo. Meseta de Valladolid (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Meseta de Valladolid",
+      "fenomeno": "Moderate high-temperature warning. Meseta de Valladolid",
+      "nivel": "Naranja",
+      "text": "Meseta de Valladolid: Moderate high-temperature warning. Meseta de Valladolid (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Meseta de Zamora",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Meseta de Zamora",
+      "nivel": "Naranja",
+      "text": "Meseta de Zamora: Aviso de temperaturas máximas de nivel amarillo. Meseta de Zamora (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Meseta de Zamora",
+      "fenomeno": "Moderate high-temperature warning. Meseta de Zamora",
+      "nivel": "Naranja",
+      "text": "Meseta de Zamora: Moderate high-temperature warning. Meseta de Zamora (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌊",
       "provincia": "Valle del Guadiana",
@@ -82,86 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate high-temperature warning. Aracena",
       "nivel": "Naranja",
       "text": "Aracena: Moderate high-temperature warning. Aracena (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Gúdar y Maestrazgo",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Gúdar y Maestrazgo",
-      "nivel": "Naranja",
-      "text": "Gúdar y Maestrazgo: Aviso de tormentas de nivel amarillo. Gúdar y Maestrazgo (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Gúdar y Maestrazgo",
-      "fenomeno": "Moderate thunderstorm warning. Gúdar y Maestrazgo",
-      "nivel": "Naranja",
-      "text": "Gúdar y Maestrazgo: Moderate thunderstorm warning. Gúdar y Maestrazgo (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Interior norte de Castellón",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Interior norte de Castellón",
-      "nivel": "Naranja",
-      "text": "Interior norte de Castellón: Aviso de tormentas de nivel amarillo. Interior norte de Castellón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior norte de Castellón",
-      "fenomeno": "Moderate thunderstorm warning. Interior norte de Castellón",
-      "nivel": "Naranja",
-      "text": "Interior norte de Castellón: Moderate thunderstorm warning. Interior norte de Castellón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Sierra y Pedroches",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Sierra y Pedroches",
-      "nivel": "Rojo",
-      "text": "Sierra y Pedroches: Aviso de temperaturas máximas de nivel naranja. Sierra y Pedroches (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sierra y Pedroches",
-      "fenomeno": "Severe high-temperature warning. Sierra y Pedroches",
-      "nivel": "Rojo",
-      "text": "Sierra y Pedroches: Severe high-temperature warning. Sierra y Pedroches (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Campiña cordobesa",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Campiña cordobesa",
-      "nivel": "Rojo",
-      "text": "Campiña cordobesa: Aviso de temperaturas máximas de nivel naranja. Campiña cordobesa (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Campiña cordobesa",
-      "fenomeno": "Severe high-temperature warning. Campiña cordobesa",
-      "nivel": "Rojo",
-      "text": "Campiña cordobesa: Severe high-temperature warning. Campiña cordobesa (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌡️",
-      "provincia": "Aracena",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Aracena",
-      "nivel": "Rojo",
-      "text": "Aracena: Aviso de temperaturas máximas de nivel naranja. Aracena (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Aracena",
-      "fenomeno": "Severe high-temperature warning. Aracena",
-      "nivel": "Rojo",
-      "text": "Aracena: Severe high-temperature warning. Aracena (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
