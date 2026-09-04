@@ -1,9 +1,57 @@
-// Auto-generado por GitHub Actions - 2026-09-04T21:29:36.554Z
+// Auto-generado por GitHub Actions - 2026-09-04T23:11:59.723Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-09-04T21:29:36.554Z",
+  "generated_at": "2026-09-04T23:11:59.723Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌊",
+      "provincia": "Meseta de Ávila",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Meseta de Ávila",
+      "nivel": "Naranja",
+      "text": "Meseta de Ávila: Aviso de temperaturas máximas de nivel amarillo. Meseta de Ávila (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Meseta de Ávila",
+      "fenomeno": "Moderate high-temperature warning. Meseta de Ávila",
+      "nivel": "Naranja",
+      "text": "Meseta de Ávila: Moderate high-temperature warning. Meseta de Ávila (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Sistema Central de Ávila",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Sistema Central de Ávila",
+      "nivel": "Naranja",
+      "text": "Sistema Central de Ávila: Aviso de temperaturas máximas de nivel amarillo. Sistema Central de Ávila (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sistema Central de Ávila",
+      "fenomeno": "Moderate high-temperature warning. Sistema Central de Ávila",
+      "nivel": "Naranja",
+      "text": "Sistema Central de Ávila: Moderate high-temperature warning. Sistema Central de Ávila (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Norte de Burgos",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Norte de Burgos",
+      "nivel": "Naranja",
+      "text": "Norte de Burgos: Aviso de temperaturas máximas de nivel amarillo. Norte de Burgos (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Norte de Burgos",
+      "fenomeno": "Moderate high-temperature warning. Norte de Burgos",
+      "nivel": "Naranja",
+      "text": "Norte de Burgos: Moderate high-temperature warning. Norte de Burgos (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌊",
       "provincia": "Poniente y Almería Capital",
@@ -114,54 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate high-temperature warning. Bajo Aragón de Teruel",
       "nivel": "Naranja",
       "text": "Bajo Aragón de Teruel: Moderate high-temperature warning. Bajo Aragón de Teruel (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Cinco Villas de Zaragoza",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Cinco Villas de Zaragoza",
-      "nivel": "Naranja",
-      "text": "Cinco Villas de Zaragoza: Aviso de temperaturas máximas de nivel amarillo. Cinco Villas de Zaragoza (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cinco Villas de Zaragoza",
-      "fenomeno": "Moderate high-temperature warning. Cinco Villas de Zaragoza",
-      "nivel": "Naranja",
-      "text": "Cinco Villas de Zaragoza: Moderate high-temperature warning. Cinco Villas de Zaragoza (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Ibérica zaragozana",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Ibérica zaragozana",
-      "nivel": "Naranja",
-      "text": "Ibérica zaragozana: Aviso de temperaturas máximas de nivel amarillo. Ibérica zaragozana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ibérica zaragozana",
-      "fenomeno": "Moderate high-temperature warning. Ibérica zaragozana",
-      "nivel": "Naranja",
-      "text": "Ibérica zaragozana: Moderate high-temperature warning. Ibérica zaragozana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Prepirineo de Barcelona",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Prepirineo de Barcelona",
-      "nivel": "Naranja",
-      "text": "Prepirineo de Barcelona: Aviso de temperaturas máximas de nivel amarillo. Prepirineo de Barcelona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Prepirineo de Barcelona",
-      "fenomeno": "Moderate high-temperature warning. Prepirineo de Barcelona",
-      "nivel": "Naranja",
-      "text": "Prepirineo de Barcelona: Moderate high-temperature warning. Prepirineo de Barcelona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
