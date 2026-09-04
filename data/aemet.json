@@ -1,166 +1,166 @@
 {
-  "generated_at": "2026-09-04T04:33:35.450Z",
+  "generated_at": "2026-09-04T09:01:16.071Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "🌧️",
-      "provincia": "Litoral occidental asturiano",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral occidental asturiano",
-      "nivel": "Naranja",
-      "text": "Litoral occidental asturiano: Aviso de lluvias de nivel amarillo. Litoral occidental asturiano (Naranja) (AEMET)",
+      "icon": "🌡️",
+      "provincia": "Pirineo oscense",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Pirineo oscense",
+      "nivel": "Rojo",
+      "text": "Pirineo oscense: Aviso de temperaturas máximas de nivel naranja. Pirineo oscense (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Litoral occidental asturiano",
-      "fenomeno": "Moderate rain warning. Litoral occidental asturiano",
-      "nivel": "Naranja",
-      "text": "Litoral occidental asturiano: Moderate rain warning. Litoral occidental asturiano (Naranja) (AEMET)",
+      "provincia": "Pirineo oscense",
+      "fenomeno": "Severe high-temperature warning. Pirineo oscense",
+      "nivel": "Rojo",
+      "text": "Pirineo oscense: Severe high-temperature warning. Pirineo oscense (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Suroccidental asturiana",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Suroccidental asturiana",
-      "nivel": "Naranja",
-      "text": "Suroccidental asturiana: Aviso de lluvias de nivel amarillo. Suroccidental asturiana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Suroccidental asturiana",
-      "fenomeno": "Moderate rain warning. Suroccidental asturiana",
-      "nivel": "Naranja",
-      "text": "Suroccidental asturiana: Moderate rain warning. Suroccidental asturiana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "A Mariña",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. A Mariña",
-      "nivel": "Naranja",
-      "text": "A Mariña: Aviso de lluvias de nivel amarillo. A Mariña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "A Mariña",
-      "fenomeno": "Moderate rain warning. A Mariña",
-      "nivel": "Naranja",
-      "text": "A Mariña: Moderate rain warning. A Mariña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Centro de Lugo",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Centro de Lugo",
-      "nivel": "Naranja",
-      "text": "Centro de Lugo: Aviso de lluvias de nivel amarillo. Centro de Lugo (Naranja) (AEMET)",
+      "icon": "🌡️",
+      "provincia": "Ampurdán",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Ampurdán",
+      "nivel": "Rojo",
+      "text": "Ampurdán: Aviso de temperaturas máximas de nivel naranja. Ampurdán (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Centro de Lugo",
-      "fenomeno": "Moderate rain warning. Centro de Lugo",
-      "nivel": "Naranja",
-      "text": "Centro de Lugo: Moderate rain warning. Centro de Lugo (Naranja) (AEMET)",
+      "provincia": "Ampurdán",
+      "fenomeno": "Severe high-temperature warning. Ampurdán",
+      "nivel": "Rojo",
+      "text": "Ampurdán: Severe high-temperature warning. Ampurdán (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Montaña de Lugo",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Montaña de Lugo",
-      "nivel": "Naranja",
-      "text": "Montaña de Lugo: Aviso de lluvias de nivel amarillo. Montaña de Lugo (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Montaña de Lugo",
-      "fenomeno": "Moderate rain warning. Montaña de Lugo",
-      "nivel": "Naranja",
-      "text": "Montaña de Lugo: Moderate rain warning. Montaña de Lugo (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Sur de Lugo",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Sur de Lugo",
-      "nivel": "Naranja",
-      "text": "Sur de Lugo: Aviso de lluvias de nivel amarillo. Sur de Lugo (Naranja) (AEMET)",
+      "icon": "🌡️",
+      "provincia": "Pirineo oscense",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Pirineo oscense",
+      "nivel": "Rojo",
+      "text": "Pirineo oscense: Aviso de temperaturas máximas de nivel naranja. Pirineo oscense (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sur de Lugo",
-      "fenomeno": "Moderate rain warning. Sur de Lugo",
-      "nivel": "Naranja",
-      "text": "Sur de Lugo: Moderate rain warning. Sur de Lugo (Naranja) (AEMET)",
+      "provincia": "Pirineo oscense",
+      "fenomeno": "Severe high-temperature warning. Pirineo oscense",
+      "nivel": "Rojo",
+      "text": "Pirineo oscense: Severe high-temperature warning. Pirineo oscense (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Montaña de Ourense",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Montaña de Ourense",
-      "nivel": "Naranja",
-      "text": "Montaña de Ourense: Aviso de lluvias de nivel amarillo. Montaña de Ourense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Montaña de Ourense",
-      "fenomeno": "Moderate rain warning. Montaña de Ourense",
-      "nivel": "Naranja",
-      "text": "Montaña de Ourense: Moderate rain warning. Montaña de Ourense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Valdeorras",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Valdeorras",
-      "nivel": "Naranja",
-      "text": "Valdeorras: Aviso de lluvias de nivel amarillo. Valdeorras (Naranja) (AEMET)",
+      "icon": "🌡️",
+      "provincia": "Sur de Huesca",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Sur de Huesca",
+      "nivel": "Rojo",
+      "text": "Sur de Huesca: Aviso de temperaturas máximas de nivel naranja. Sur de Huesca (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Valdeorras",
-      "fenomeno": "Moderate rain warning. Valdeorras",
-      "nivel": "Naranja",
-      "text": "Valdeorras: Moderate rain warning. Valdeorras (Naranja) (AEMET)",
+      "provincia": "Sur de Huesca",
+      "fenomeno": "Severe high-temperature warning. Sur de Huesca",
+      "nivel": "Rojo",
+      "text": "Sur de Huesca: Severe high-temperature warning. Sur de Huesca (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⛈️",
-      "provincia": "Litoral occidental asturiano",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Litoral occidental asturiano",
-      "nivel": "Naranja",
-      "text": "Litoral occidental asturiano: Aviso de tormentas de nivel amarillo. Litoral occidental asturiano (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral occidental asturiano",
-      "fenomeno": "Moderate thunderstorm warning. Litoral occidental asturiano",
-      "nivel": "Naranja",
-      "text": "Litoral occidental asturiano: Moderate thunderstorm warning. Litoral occidental asturiano (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Suroccidental asturiana",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Suroccidental asturiana",
-      "nivel": "Naranja",
-      "text": "Suroccidental asturiana: Aviso de tormentas de nivel amarillo. Suroccidental asturiana (Naranja) (AEMET)",
+      "icon": "🌡️",
+      "provincia": "Ribera del Ebro de Zaragoza",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Ribera del Ebro de Zaragoza",
+      "nivel": "Rojo",
+      "text": "Ribera del Ebro de Zaragoza: Aviso de temperaturas máximas de nivel naranja. Ribera del Ebro de Zaragoza (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Suroccidental asturiana",
-      "fenomeno": "Moderate thunderstorm warning. Suroccidental asturiana",
-      "nivel": "Naranja",
-      "text": "Suroccidental asturiana: Moderate thunderstorm warning. Suroccidental asturiana (Naranja) (AEMET)",
+      "provincia": "Ribera del Ebro de Zaragoza",
+      "fenomeno": "Severe high-temperature warning. Ribera del Ebro de Zaragoza",
+      "nivel": "Rojo",
+      "text": "Ribera del Ebro de Zaragoza: Severe high-temperature warning. Ribera del Ebro de Zaragoza (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Depresión central de Barcelona",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Depresión central de Barcelona",
+      "nivel": "Rojo",
+      "text": "Depresión central de Barcelona: Aviso de temperaturas máximas de nivel naranja. Depresión central de Barcelona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Depresión central de Barcelona",
+      "fenomeno": "Severe high-temperature warning. Depresión central de Barcelona",
+      "nivel": "Rojo",
+      "text": "Depresión central de Barcelona: Severe high-temperature warning. Depresión central de Barcelona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Prelitoral de Barcelona",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Prelitoral de Barcelona",
+      "nivel": "Rojo",
+      "text": "Prelitoral de Barcelona: Aviso de temperaturas máximas de nivel naranja. Prelitoral de Barcelona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Prelitoral de Barcelona",
+      "fenomeno": "Severe high-temperature warning. Prelitoral de Barcelona",
+      "nivel": "Rojo",
+      "text": "Prelitoral de Barcelona: Severe high-temperature warning. Prelitoral de Barcelona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Pirineo de Girona",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Pirineo de Girona",
+      "nivel": "Rojo",
+      "text": "Pirineo de Girona: Aviso de temperaturas máximas de nivel naranja. Pirineo de Girona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Pirineo de Girona",
+      "fenomeno": "Severe high-temperature warning. Pirineo de Girona",
+      "nivel": "Rojo",
+      "text": "Pirineo de Girona: Severe high-temperature warning. Pirineo de Girona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Pirineo de Lleida",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Pirineo de Lleida",
+      "nivel": "Rojo",
+      "text": "Pirineo de Lleida: Aviso de temperaturas máximas de nivel naranja. Pirineo de Lleida (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Pirineo de Lleida",
+      "fenomeno": "Severe high-temperature warning. Pirineo de Lleida",
+      "nivel": "Rojo",
+      "text": "Pirineo de Lleida: Severe high-temperature warning. Pirineo de Lleida (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Depresión central de Lleida",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Depresión central de Lleida",
+      "nivel": "Rojo",
+      "text": "Depresión central de Lleida: Aviso de temperaturas máximas de nivel naranja. Depresión central de Lleida (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Depresión central de Lleida",
+      "fenomeno": "Severe high-temperature warning. Depresión central de Lleida",
+      "nivel": "Rojo",
+      "text": "Depresión central de Lleida: Severe high-temperature warning. Depresión central de Lleida (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
