@@ -1,9 +1,41 @@
-// Auto-generado por GitHub Actions - 2026-09-06T20:38:11.583Z
+// Auto-generado por GitHub Actions - 2026-09-06T22:20:39.359Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-09-06T20:38:11.583Z",
+  "generated_at": "2026-09-06T22:20:39.359Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Valle del Guadiana",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Valle del Guadiana",
+      "nivel": "Naranja",
+      "text": "Valle del Guadiana: Aviso de lluvias de nivel amarillo. Valle del Guadiana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Valle del Guadiana",
+      "fenomeno": "Moderate rain warning. Valle del Guadiana",
+      "nivel": "Naranja",
+      "text": "Valle del Guadiana: Moderate rain warning. Valle del Guadiana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Valle del Guadiana",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Valle del Guadiana",
+      "nivel": "Naranja",
+      "text": "Valle del Guadiana: Aviso de tormentas de nivel amarillo. Valle del Guadiana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Valle del Guadiana",
+      "fenomeno": "Moderate thunderstorm warning. Valle del Guadiana",
+      "nivel": "Naranja",
+      "text": "Valle del Guadiana: Moderate thunderstorm warning. Valle del Guadiana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌊",
       "provincia": "Pirineo navarro",
@@ -130,38 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate high-temperature warning. Litoral gaditano",
       "nivel": "Naranja",
       "text": "Litoral gaditano: Moderate high-temperature warning. Litoral gaditano (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Sistema Central de Ávila",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Sistema Central de Ávila",
-      "nivel": "Naranja",
-      "text": "Sistema Central de Ávila: Aviso de temperaturas máximas de nivel amarillo. Sistema Central de Ávila (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sistema Central de Ávila",
-      "fenomeno": "Moderate high-temperature warning. Sistema Central de Ávila",
-      "nivel": "Naranja",
-      "text": "Sistema Central de Ávila: Moderate high-temperature warning. Sistema Central de Ávila (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Sistema Central de Segovia",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Sistema Central de Segovia",
-      "nivel": "Naranja",
-      "text": "Sistema Central de Segovia: Aviso de temperaturas máximas de nivel amarillo. Sistema Central de Segovia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sistema Central de Segovia",
-      "fenomeno": "Moderate high-temperature warning. Sistema Central de Segovia",
-      "nivel": "Naranja",
-      "text": "Sistema Central de Segovia: Moderate high-temperature warning. Sistema Central de Segovia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
