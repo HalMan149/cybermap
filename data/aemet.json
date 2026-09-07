@@ -1,166 +1,166 @@
 {
-  "generated_at": "2026-09-07T15:16:11.995Z",
+  "generated_at": "2026-09-07T19:18:23.628Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "🌧️",
-      "provincia": "Prepirineo de Barcelona",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Prepirineo de Barcelona",
-      "nivel": "Rojo",
-      "text": "Prepirineo de Barcelona: Aviso de lluvias de nivel naranja. Prepirineo de Barcelona (Rojo) (AEMET)",
+      "provincia": "Liébana",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Liébana",
+      "nivel": "Naranja",
+      "text": "Liébana: Aviso de lluvias de nivel amarillo. Liébana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Prepirineo de Barcelona",
-      "fenomeno": "Severe rain warning. Prepirineo de Barcelona",
-      "nivel": "Rojo",
-      "text": "Prepirineo de Barcelona: Severe rain warning. Prepirineo de Barcelona (Rojo) (AEMET)",
+      "provincia": "Liébana",
+      "fenomeno": "Moderate rain warning. Liébana",
+      "nivel": "Naranja",
+      "text": "Liébana: Moderate rain warning. Liébana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Pirineo de Girona",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Pirineo de Girona",
-      "nivel": "Rojo",
-      "text": "Pirineo de Girona: Aviso de lluvias de nivel naranja. Pirineo de Girona (Rojo) (AEMET)",
+      "provincia": "Centro y valle de Villaverde",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Centro y valle de Villaverde",
+      "nivel": "Naranja",
+      "text": "Centro y valle de Villaverde: Aviso de lluvias de nivel amarillo. Centro y valle de Villaverde (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Pirineo de Girona",
-      "fenomeno": "Severe rain warning. Pirineo de Girona",
-      "nivel": "Rojo",
-      "text": "Pirineo de Girona: Severe rain warning. Pirineo de Girona (Rojo) (AEMET)",
+      "provincia": "Centro y valle de Villaverde",
+      "fenomeno": "Moderate rain warning. Centro y valle de Villaverde",
+      "nivel": "Naranja",
+      "text": "Centro y valle de Villaverde: Moderate rain warning. Centro y valle de Villaverde (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Litoral norte de Alicante",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Litoral norte de Alicante",
-      "nivel": "Rojo",
-      "text": "Litoral norte de Alicante: Aviso de lluvias de nivel naranja. Litoral norte de Alicante (Rojo) (AEMET)",
+      "provincia": "Altiplano de Murcia",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Altiplano de Murcia",
+      "nivel": "Naranja",
+      "text": "Altiplano de Murcia: Aviso de lluvias de nivel amarillo. Altiplano de Murcia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Litoral norte de Alicante",
-      "fenomeno": "Severe rain warning. Litoral norte de Alicante",
-      "nivel": "Rojo",
-      "text": "Litoral norte de Alicante: Severe rain warning. Litoral norte de Alicante (Rojo) (AEMET)",
+      "provincia": "Altiplano de Murcia",
+      "fenomeno": "Moderate rain warning. Altiplano de Murcia",
+      "nivel": "Naranja",
+      "text": "Altiplano de Murcia: Moderate rain warning. Altiplano de Murcia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Vega del Segura",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Vega del Segura",
+      "nivel": "Naranja",
+      "text": "Vega del Segura: Aviso de lluvias de nivel amarillo. Vega del Segura (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Vega del Segura",
+      "fenomeno": "Moderate rain warning. Vega del Segura",
+      "nivel": "Naranja",
+      "text": "Vega del Segura: Moderate rain warning. Vega del Segura (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Valle del Guadalentín, Lorca y Águilas",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Valle del Guadalentín, Lorca y Águilas",
+      "nivel": "Naranja",
+      "text": "Valle del Guadalentín, Lorca y Águilas: Aviso de lluvias de nivel amarillo. Valle del Guadalentín, Lorca y Águilas (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Valle del Guadalentín, Lorca y Águilas",
+      "fenomeno": "Moderate rain warning. Valle del Guadalentín, Lorca y Águilas",
+      "nivel": "Naranja",
+      "text": "Valle del Guadalentín, Lorca y Águilas: Moderate rain warning. Valle del Guadalentín, Lorca y Águilas (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Campo de Cartagena y Mazarrón",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Campo de Cartagena y Mazarrón",
+      "nivel": "Naranja",
+      "text": "Campo de Cartagena y Mazarrón: Aviso de lluvias de nivel amarillo. Campo de Cartagena y Mazarrón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Campo de Cartagena y Mazarrón",
+      "fenomeno": "Moderate rain warning. Campo de Cartagena y Mazarrón",
+      "nivel": "Naranja",
+      "text": "Campo de Cartagena y Mazarrón: Moderate rain warning. Campo de Cartagena y Mazarrón (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Litoral norte de Alicante",
-      "fenomeno": "Aviso de tormentas de nivel naranja. Litoral norte de Alicante",
-      "nivel": "Rojo",
-      "text": "Litoral norte de Alicante: Aviso de tormentas de nivel naranja. Litoral norte de Alicante (Rojo) (AEMET)",
+      "provincia": "Altiplano de Murcia",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Altiplano de Murcia",
+      "nivel": "Naranja",
+      "text": "Altiplano de Murcia: Aviso de tormentas de nivel amarillo. Altiplano de Murcia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Litoral norte de Alicante",
-      "fenomeno": "Severe thunderstorm warning. Litoral norte de Alicante",
-      "nivel": "Rojo",
-      "text": "Litoral norte de Alicante: Severe thunderstorm warning. Litoral norte de Alicante (Rojo) (AEMET)",
+      "provincia": "Altiplano de Murcia",
+      "fenomeno": "Moderate thunderstorm warning. Altiplano de Murcia",
+      "nivel": "Naranja",
+      "text": "Altiplano de Murcia: Moderate thunderstorm warning. Altiplano de Murcia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "💨",
-      "provincia": "Ribera del Ebro de Zaragoza",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Ribera del Ebro de Zaragoza",
+      "icon": "⛈️",
+      "provincia": "Vega del Segura",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Vega del Segura",
       "nivel": "Naranja",
-      "text": "Ribera del Ebro de Zaragoza: Aviso de vientos de nivel amarillo. Ribera del Ebro de Zaragoza (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ribera del Ebro de Zaragoza",
-      "fenomeno": "Moderate wind warning. Ribera del Ebro de Zaragoza",
-      "nivel": "Naranja",
-      "text": "Ribera del Ebro de Zaragoza: Moderate wind warning. Ribera del Ebro de Zaragoza (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Ampurdán",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Ampurdán",
-      "nivel": "Naranja",
-      "text": "Ampurdán: Aviso de vientos de nivel amarillo. Ampurdán (Naranja) (AEMET)",
+      "text": "Vega del Segura: Aviso de tormentas de nivel amarillo. Vega del Segura (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Ampurdán",
-      "fenomeno": "Moderate wind warning. Ampurdán",
+      "provincia": "Vega del Segura",
+      "fenomeno": "Moderate thunderstorm warning. Vega del Segura",
       "nivel": "Naranja",
-      "text": "Ampurdán: Moderate wind warning. Ampurdán (Naranja) (AEMET)",
+      "text": "Vega del Segura: Moderate thunderstorm warning. Vega del Segura (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "💨",
-      "provincia": "Prelitoral sur de Tarragona",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Prelitoral sur de Tarragona",
+      "icon": "⛈️",
+      "provincia": "Valle del Guadalentín, Lorca y Águilas",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Valle del Guadalentín, Lorca y Águilas",
       "nivel": "Naranja",
-      "text": "Prelitoral sur de Tarragona: Aviso de vientos de nivel amarillo. Prelitoral sur de Tarragona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Prelitoral sur de Tarragona",
-      "fenomeno": "Moderate wind warning. Prelitoral sur de Tarragona",
-      "nivel": "Naranja",
-      "text": "Prelitoral sur de Tarragona: Moderate wind warning. Prelitoral sur de Tarragona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Ampurdán",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Ampurdán",
-      "nivel": "Naranja",
-      "text": "Costa - Ampurdán: Aviso de costeros de nivel amarillo. Costa - Ampurdán (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Ampurdán",
-      "fenomeno": "Moderate coastalevent warning. Costa - Ampurdán",
-      "nivel": "Naranja",
-      "text": "Costa - Ampurdán: Moderate coastalevent warning. Costa - Ampurdán (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Sierra Tramontana",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Sierra Tramontana",
-      "nivel": "Naranja",
-      "text": "Sierra Tramontana: Aviso de lluvias de nivel amarillo. Sierra Tramontana (Naranja) (AEMET)",
+      "text": "Valle del Guadalentín, Lorca y Águilas: Aviso de tormentas de nivel amarillo. Valle del Guadalentín, Lorca y Águilas (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sierra Tramontana",
-      "fenomeno": "Moderate rain warning. Sierra Tramontana",
+      "provincia": "Valle del Guadalentín, Lorca y Águilas",
+      "fenomeno": "Moderate thunderstorm warning. Valle del Guadalentín, Lorca y Águilas",
       "nivel": "Naranja",
-      "text": "Sierra Tramontana: Moderate rain warning. Sierra Tramontana (Naranja) (AEMET)",
+      "text": "Valle del Guadalentín, Lorca y Águilas: Moderate thunderstorm warning. Valle del Guadalentín, Lorca y Águilas (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Norte y nordeste de Mallorca",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Norte y nordeste de Mallorca",
+      "icon": "⛈️",
+      "provincia": "Campo de Cartagena y Mazarrón",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Campo de Cartagena y Mazarrón",
       "nivel": "Naranja",
-      "text": "Norte y nordeste de Mallorca: Aviso de lluvias de nivel amarillo. Norte y nordeste de Mallorca (Naranja) (AEMET)",
+      "text": "Campo de Cartagena y Mazarrón: Aviso de tormentas de nivel amarillo. Campo de Cartagena y Mazarrón (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Norte y nordeste de Mallorca",
-      "fenomeno": "Moderate rain warning. Norte y nordeste de Mallorca",
+      "provincia": "Campo de Cartagena y Mazarrón",
+      "fenomeno": "Moderate thunderstorm warning. Campo de Cartagena y Mazarrón",
       "nivel": "Naranja",
-      "text": "Norte y nordeste de Mallorca: Moderate rain warning. Norte y nordeste de Mallorca (Naranja) (AEMET)",
+      "text": "Campo de Cartagena y Mazarrón: Moderate thunderstorm warning. Campo de Cartagena y Mazarrón (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
