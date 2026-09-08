@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-09-08T04:56:17.517Z
+// Auto-generado por GitHub Actions - 2026-09-08T09:18:20.749Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-09-08T04:56:17.517Z",
+  "generated_at": "2026-09-08T09:18:20.749Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "🌧️",
-      "provincia": "Prepirineo de Barcelona",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Prepirineo de Barcelona",
+      "icon": "🌊",
+      "provincia": "Metropolitana y Henares",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Metropolitana y Henares",
+      "nivel": "Naranja",
+      "text": "Metropolitana y Henares: Aviso de temperaturas máximas de nivel amarillo. Metropolitana y Henares (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Metropolitana y Henares",
+      "fenomeno": "Moderate high-temperature warning. Metropolitana y Henares",
+      "nivel": "Naranja",
+      "text": "Metropolitana y Henares: Moderate high-temperature warning. Metropolitana y Henares (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Sur, Vegas y Oeste",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Sur, Vegas y Oeste",
+      "nivel": "Naranja",
+      "text": "Sur, Vegas y Oeste: Aviso de temperaturas máximas de nivel amarillo. Sur, Vegas y Oeste (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sur, Vegas y Oeste",
+      "fenomeno": "Moderate high-temperature warning. Sur, Vegas y Oeste",
+      "nivel": "Naranja",
+      "text": "Sur, Vegas y Oeste: Moderate high-temperature warning. Sur, Vegas y Oeste (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌡️",
+      "provincia": "Litoral norte de Valencia",
+      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Litoral norte de Valencia",
       "nivel": "Rojo",
-      "text": "Prepirineo de Barcelona: Aviso de lluvias de nivel naranja. Prepirineo de Barcelona (Rojo) (AEMET)",
+      "text": "Litoral norte de Valencia: Aviso de temperaturas máximas de nivel naranja. Litoral norte de Valencia (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Prepirineo de Barcelona",
-      "fenomeno": "Severe rain warning. Prepirineo de Barcelona",
+      "provincia": "Litoral norte de Valencia",
+      "fenomeno": "Severe high-temperature warning. Litoral norte de Valencia",
       "nivel": "Rojo",
-      "text": "Prepirineo de Barcelona: Severe rain warning. Prepirineo de Barcelona (Rojo) (AEMET)",
+      "text": "Litoral norte de Valencia: Severe high-temperature warning. Litoral norte de Valencia (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Pirineo de Girona",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Pirineo de Girona",
-      "nivel": "Rojo",
-      "text": "Pirineo de Girona: Aviso de lluvias de nivel naranja. Pirineo de Girona (Rojo) (AEMET)",
+      "icon": "🌊",
+      "provincia": "Litoral norte de Alicante",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Litoral norte de Alicante",
+      "nivel": "Naranja",
+      "text": "Litoral norte de Alicante: Aviso de temperaturas máximas de nivel amarillo. Litoral norte de Alicante (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Pirineo de Girona",
-      "fenomeno": "Severe rain warning. Pirineo de Girona",
-      "nivel": "Rojo",
-      "text": "Pirineo de Girona: Severe rain warning. Pirineo de Girona (Rojo) (AEMET)",
+      "provincia": "Litoral norte de Alicante",
+      "fenomeno": "Moderate high-temperature warning. Litoral norte de Alicante",
+      "nivel": "Naranja",
+      "text": "Litoral norte de Alicante: Moderate high-temperature warning. Litoral norte de Alicante (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Depresión central de Barcelona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Depresión central de Barcelona",
+      "icon": "🌊",
+      "provincia": "Litoral sur de Alicante",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Litoral sur de Alicante",
       "nivel": "Naranja",
-      "text": "Depresión central de Barcelona: Aviso de lluvias de nivel amarillo. Depresión central de Barcelona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Depresión central de Barcelona",
-      "fenomeno": "Moderate rain warning. Depresión central de Barcelona",
-      "nivel": "Naranja",
-      "text": "Depresión central de Barcelona: Moderate rain warning. Depresión central de Barcelona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Prelitoral de Barcelona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Prelitoral de Barcelona",
-      "nivel": "Naranja",
-      "text": "Prelitoral de Barcelona: Aviso de lluvias de nivel amarillo. Prelitoral de Barcelona (Naranja) (AEMET)",
+      "text": "Litoral sur de Alicante: Aviso de temperaturas máximas de nivel amarillo. Litoral sur de Alicante (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Prelitoral de Barcelona",
-      "fenomeno": "Moderate rain warning. Prelitoral de Barcelona",
+      "provincia": "Litoral sur de Alicante",
+      "fenomeno": "Moderate high-temperature warning. Litoral sur de Alicante",
       "nivel": "Naranja",
-      "text": "Prelitoral de Barcelona: Moderate rain warning. Prelitoral de Barcelona (Naranja) (AEMET)",
+      "text": "Litoral sur de Alicante: Moderate high-temperature warning. Litoral sur de Alicante (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Litoral de Barcelona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral de Barcelona",
+      "icon": "🌊",
+      "provincia": "Interior sur de Castellón",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Interior sur de Castellón",
       "nivel": "Naranja",
-      "text": "Litoral de Barcelona: Aviso de lluvias de nivel amarillo. Litoral de Barcelona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral de Barcelona",
-      "fenomeno": "Moderate rain warning. Litoral de Barcelona",
-      "nivel": "Naranja",
-      "text": "Litoral de Barcelona: Moderate rain warning. Litoral de Barcelona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Prelitoral de Girona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Prelitoral de Girona",
-      "nivel": "Naranja",
-      "text": "Prelitoral de Girona: Aviso de lluvias de nivel amarillo. Prelitoral de Girona (Naranja) (AEMET)",
+      "text": "Interior sur de Castellón: Aviso de temperaturas máximas de nivel amarillo. Interior sur de Castellón (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Prelitoral de Girona",
-      "fenomeno": "Moderate rain warning. Prelitoral de Girona",
+      "provincia": "Interior sur de Castellón",
+      "fenomeno": "Moderate high-temperature warning. Interior sur de Castellón",
       "nivel": "Naranja",
-      "text": "Prelitoral de Girona: Moderate rain warning. Prelitoral de Girona (Naranja) (AEMET)",
+      "text": "Interior sur de Castellón: Moderate high-temperature warning. Interior sur de Castellón (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Pirineo de Lleida",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Pirineo de Lleida",
+      "icon": "🌊",
+      "provincia": "Interior norte de Valencia",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Interior norte de Valencia",
       "nivel": "Naranja",
-      "text": "Pirineo de Lleida: Aviso de lluvias de nivel amarillo. Pirineo de Lleida (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Pirineo de Lleida",
-      "fenomeno": "Moderate rain warning. Pirineo de Lleida",
-      "nivel": "Naranja",
-      "text": "Pirineo de Lleida: Moderate rain warning. Pirineo de Lleida (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Prelitoral norte de Tarragona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Prelitoral norte de Tarragona",
-      "nivel": "Naranja",
-      "text": "Prelitoral norte de Tarragona: Aviso de lluvias de nivel amarillo. Prelitoral norte de Tarragona (Naranja) (AEMET)",
+      "text": "Interior norte de Valencia: Aviso de temperaturas máximas de nivel amarillo. Interior norte de Valencia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Prelitoral norte de Tarragona",
-      "fenomeno": "Moderate rain warning. Prelitoral norte de Tarragona",
+      "provincia": "Interior norte de Valencia",
+      "fenomeno": "Moderate high-temperature warning. Interior norte de Valencia",
       "nivel": "Naranja",
-      "text": "Prelitoral norte de Tarragona: Moderate rain warning. Prelitoral norte de Tarragona (Naranja) (AEMET)",
+      "text": "Interior norte de Valencia: Moderate high-temperature warning. Interior norte de Valencia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Litoral norte de Tarragona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral norte de Tarragona",
+      "icon": "🌊",
+      "provincia": "Costa - Sierra Tramontana",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Sierra Tramontana",
       "nivel": "Naranja",
-      "text": "Litoral norte de Tarragona: Aviso de lluvias de nivel amarillo. Litoral norte de Tarragona (Naranja) (AEMET)",
+      "text": "Costa - Sierra Tramontana: Aviso de costeros de nivel amarillo. Costa - Sierra Tramontana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⚠️",
-      "provincia": "Litoral norte de Tarragona",
-      "fenomeno": "Moderate rain warning. Litoral norte de Tarragona",
+      "icon": "🌊",
+      "provincia": "Costa - Sierra Tramontana",
+      "fenomeno": "Moderate coastalevent warning. Costa - Sierra Tramontana",
       "nivel": "Naranja",
-      "text": "Litoral norte de Tarragona: Moderate rain warning. Litoral norte de Tarragona (Naranja) (AEMET)",
+      "text": "Costa - Sierra Tramontana: Moderate coastalevent warning. Costa - Sierra Tramontana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Prepirineo de Barcelona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Prepirineo de Barcelona",
+      "icon": "🌊",
+      "provincia": "Costa - Norte y nordeste de Mallorca",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Norte y nordeste de Mallorca",
       "nivel": "Naranja",
-      "text": "Prepirineo de Barcelona: Aviso de lluvias de nivel amarillo. Prepirineo de Barcelona (Naranja) (AEMET)",
+      "text": "Costa - Norte y nordeste de Mallorca: Aviso de costeros de nivel amarillo. Costa - Norte y nordeste de Mallorca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⚠️",
-      "provincia": "Prepirineo de Barcelona",
-      "fenomeno": "Moderate rain warning. Prepirineo de Barcelona",
+      "icon": "🌊",
+      "provincia": "Costa - Norte y nordeste de Mallorca",
+      "fenomeno": "Moderate coastalevent warning. Costa - Norte y nordeste de Mallorca",
       "nivel": "Naranja",
-      "text": "Prepirineo de Barcelona: Moderate rain warning. Prepirineo de Barcelona (Naranja) (AEMET)",
+      "text": "Costa - Norte y nordeste de Mallorca: Moderate coastalevent warning. Costa - Norte y nordeste de Mallorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Levante mallorquín",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Levante mallorquín",
+      "nivel": "Naranja",
+      "text": "Costa - Levante mallorquín: Aviso de costeros de nivel amarillo. Costa - Levante mallorquín (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Levante mallorquín",
+      "fenomeno": "Moderate coastalevent warning. Costa - Levante mallorquín",
+      "nivel": "Naranja",
+      "text": "Costa - Levante mallorquín: Moderate coastalevent warning. Costa - Levante mallorquín (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
