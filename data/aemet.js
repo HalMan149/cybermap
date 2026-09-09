@@ -1,6 +1,6 @@
-// Auto-generado por GitHub Actions - 2026-09-09T00:54:42.546Z
+// Auto-generado por GitHub Actions - 2026-09-09T05:36:30.471Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-09-09T00:54:42.546Z",
+  "generated_at": "2026-09-09T05:36:30.471Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
@@ -21,22 +21,6 @@ window.AEMET_AVISOS = {
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Ampurdán",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Ampurdán",
-      "nivel": "Naranja",
-      "text": "Ampurdán: Aviso de lluvias de nivel amarillo. Ampurdán (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ampurdán",
-      "fenomeno": "Moderate rain warning. Ampurdán",
-      "nivel": "Naranja",
-      "text": "Ampurdán: Moderate rain warning. Ampurdán (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
       "icon": "⛈️",
       "provincia": "Prelitoral de Girona",
       "fenomeno": "Aviso de tormentas de nivel amarillo. Prelitoral de Girona",
@@ -50,22 +34,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate thunderstorm warning. Prelitoral de Girona",
       "nivel": "Naranja",
       "text": "Prelitoral de Girona: Moderate thunderstorm warning. Prelitoral de Girona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Ampurdán",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Ampurdán",
-      "nivel": "Naranja",
-      "text": "Ampurdán: Aviso de tormentas de nivel amarillo. Ampurdán (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ampurdán",
-      "fenomeno": "Moderate thunderstorm warning. Ampurdán",
-      "nivel": "Naranja",
-      "text": "Ampurdán: Moderate thunderstorm warning. Ampurdán (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -162,6 +130,38 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate thunderstorm warning. Litoral norte de Valencia",
       "nivel": "Naranja",
       "text": "Litoral norte de Valencia: Moderate thunderstorm warning. Litoral norte de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Prepirineo de Barcelona",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Prepirineo de Barcelona",
+      "nivel": "Rojo",
+      "text": "Prepirineo de Barcelona: Aviso de lluvias de nivel naranja. Prepirineo de Barcelona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Prepirineo de Barcelona",
+      "fenomeno": "Severe rain warning. Prepirineo de Barcelona",
+      "nivel": "Rojo",
+      "text": "Prepirineo de Barcelona: Severe rain warning. Prepirineo de Barcelona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Prelitoral de Barcelona",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Prelitoral de Barcelona",
+      "nivel": "Rojo",
+      "text": "Prelitoral de Barcelona: Aviso de lluvias de nivel naranja. Prelitoral de Barcelona (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Prelitoral de Barcelona",
+      "fenomeno": "Severe rain warning. Prelitoral de Barcelona",
+      "nivel": "Rojo",
+      "text": "Prelitoral de Barcelona: Severe rain warning. Prelitoral de Barcelona (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
