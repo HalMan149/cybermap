@@ -1,9 +1,41 @@
-// Auto-generado por GitHub Actions - 2026-09-10T13:58:25.897Z
+// Auto-generado por GitHub Actions - 2026-09-10T17:30:10.467Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-09-10T13:58:25.897Z",
+  "generated_at": "2026-09-10T17:30:10.467Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral gaditano",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral gaditano",
+      "nivel": "Naranja",
+      "text": "Costa - Litoral gaditano: Aviso de costeros de nivel amarillo. Costa - Litoral gaditano (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral gaditano",
+      "fenomeno": "Moderate coastalevent warning. Costa - Litoral gaditano",
+      "nivel": "Naranja",
+      "text": "Costa - Litoral gaditano: Moderate coastalevent warning. Costa - Litoral gaditano (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Estrecho",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Estrecho",
+      "nivel": "Naranja",
+      "text": "Costa - Estrecho: Aviso de costeros de nivel amarillo. Costa - Estrecho (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Estrecho",
+      "fenomeno": "Moderate coastalevent warning. Costa - Estrecho",
+      "nivel": "Naranja",
+      "text": "Costa - Estrecho: Moderate coastalevent warning. Costa - Estrecho (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Litoral norte de Alicante",
@@ -130,38 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate coastalevent warning. Costa - Sierra Tramontana",
       "nivel": "Naranja",
       "text": "Costa - Sierra Tramontana: Moderate coastalevent warning. Costa - Sierra Tramontana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Norte y nordeste de Mallorca",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Norte y nordeste de Mallorca",
-      "nivel": "Naranja",
-      "text": "Costa - Norte y nordeste de Mallorca: Aviso de costeros de nivel amarillo. Costa - Norte y nordeste de Mallorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Norte y nordeste de Mallorca",
-      "fenomeno": "Moderate coastalevent warning. Costa - Norte y nordeste de Mallorca",
-      "nivel": "Naranja",
-      "text": "Costa - Norte y nordeste de Mallorca: Moderate coastalevent warning. Costa - Norte y nordeste de Mallorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Menorca",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Menorca",
-      "nivel": "Naranja",
-      "text": "Costa - Menorca: Aviso de costeros de nivel amarillo. Costa - Menorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Menorca",
-      "fenomeno": "Moderate coastalevent warning. Costa - Menorca",
-      "nivel": "Naranja",
-      "text": "Costa - Menorca: Moderate coastalevent warning. Costa - Menorca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
