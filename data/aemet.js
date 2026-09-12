@@ -1,23 +1,23 @@
-// Auto-generado por GitHub Actions - 2026-09-12T14:21:45.331Z
+// Auto-generado por GitHub Actions - 2026-09-12T17:19:34.284Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-09-12T14:21:45.331Z",
+  "generated_at": "2026-09-12T17:19:34.284Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "🌊",
-      "provincia": "Miño de Ourense",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Miño de Ourense",
+      "provincia": "Miño de Pontevedra",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Miño de Pontevedra",
       "nivel": "Naranja",
-      "text": "Miño de Ourense: Aviso de temperaturas máximas de nivel amarillo. Miño de Ourense (Naranja) (AEMET)",
+      "text": "Miño de Pontevedra: Aviso de temperaturas máximas de nivel amarillo. Miño de Pontevedra (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Miño de Ourense",
-      "fenomeno": "Moderate high-temperature warning. Miño de Ourense",
+      "provincia": "Miño de Pontevedra",
+      "fenomeno": "Moderate high-temperature warning. Miño de Pontevedra",
       "nivel": "Naranja",
-      "text": "Miño de Ourense: Moderate high-temperature warning. Miño de Ourense (Naranja) (AEMET)",
+      "text": "Miño de Pontevedra: Moderate high-temperature warning. Miño de Pontevedra (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -34,22 +34,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate wind warning. Campiña gaditana",
       "nivel": "Naranja",
       "text": "Campiña gaditana: Moderate wind warning. Campiña gaditana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Litoral gaditano",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Litoral gaditano",
-      "nivel": "Naranja",
-      "text": "Litoral gaditano: Aviso de vientos de nivel amarillo. Litoral gaditano (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral gaditano",
-      "fenomeno": "Moderate wind warning. Litoral gaditano",
-      "nivel": "Naranja",
-      "text": "Litoral gaditano: Moderate wind warning. Litoral gaditano (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -102,34 +86,66 @@ window.AEMET_AVISOS = {
     },
     {
       "icon": "🌊",
-      "provincia": "Litoral de Huelva",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Litoral de Huelva",
+      "provincia": "Lanzarote",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Lanzarote",
       "nivel": "Naranja",
-      "text": "Litoral de Huelva: Aviso de temperaturas máximas de nivel amarillo. Litoral de Huelva (Naranja) (AEMET)",
+      "text": "Lanzarote: Aviso de temperaturas máximas de nivel amarillo. Lanzarote (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Litoral de Huelva",
-      "fenomeno": "Moderate high-temperature warning. Litoral de Huelva",
+      "provincia": "Lanzarote",
+      "fenomeno": "Moderate high-temperature warning. Lanzarote",
       "nivel": "Naranja",
-      "text": "Litoral de Huelva: Moderate high-temperature warning. Litoral de Huelva (Naranja) (AEMET)",
+      "text": "Lanzarote: Moderate high-temperature warning. Lanzarote (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Litoral de Huelva",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Litoral de Huelva",
+      "provincia": "Fuerteventura",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Fuerteventura",
       "nivel": "Naranja",
-      "text": "Litoral de Huelva: Aviso de temperaturas máximas de nivel amarillo. Litoral de Huelva (Naranja) (AEMET)",
+      "text": "Fuerteventura: Aviso de temperaturas máximas de nivel amarillo. Fuerteventura (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Litoral de Huelva",
-      "fenomeno": "Moderate high-temperature warning. Litoral de Huelva",
+      "provincia": "Fuerteventura",
+      "fenomeno": "Moderate high-temperature warning. Fuerteventura",
       "nivel": "Naranja",
-      "text": "Litoral de Huelva: Moderate high-temperature warning. Litoral de Huelva (Naranja) (AEMET)",
+      "text": "Fuerteventura: Moderate high-temperature warning. Fuerteventura (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Miño de Ourense",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Miño de Ourense",
+      "nivel": "Naranja",
+      "text": "Miño de Ourense: Aviso de temperaturas máximas de nivel amarillo. Miño de Ourense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Miño de Ourense",
+      "fenomeno": "Moderate high-temperature warning. Miño de Ourense",
+      "nivel": "Naranja",
+      "text": "Miño de Ourense: Moderate high-temperature warning. Miño de Ourense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Miño de Ourense",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Miño de Ourense",
+      "nivel": "Naranja",
+      "text": "Miño de Ourense: Aviso de temperaturas máximas de nivel amarillo. Miño de Ourense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Miño de Ourense",
+      "fenomeno": "Moderate high-temperature warning. Miño de Ourense",
+      "nivel": "Naranja",
+      "text": "Miño de Ourense: Moderate high-temperature warning. Miño de Ourense (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate wind warning. Campiña gaditana",
       "nivel": "Naranja",
       "text": "Campiña gaditana: Moderate wind warning. Campiña gaditana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral gaditano",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral gaditano",
-      "nivel": "Naranja",
-      "text": "Costa - Litoral gaditano: Aviso de costeros de nivel amarillo. Costa - Litoral gaditano (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral gaditano",
-      "fenomeno": "Moderate coastalevent warning. Costa - Litoral gaditano",
-      "nivel": "Naranja",
-      "text": "Costa - Litoral gaditano: Moderate coastalevent warning. Costa - Litoral gaditano (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
