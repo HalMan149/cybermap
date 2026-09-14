@@ -1,39 +1,39 @@
-// Auto-generado por GitHub Actions - 2026-09-14T20:41:33.824Z
+// Auto-generado por GitHub Actions - 2026-09-14T23:28:47.425Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-09-14T20:41:33.824Z",
+  "generated_at": "2026-09-14T23:28:47.425Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "🌡️",
-      "provincia": "Este, sur y oeste de Gran Canaria",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Este, sur y oeste de Gran Canaria",
+      "icon": "🌧️",
+      "provincia": "Pirineo de Girona",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Pirineo de Girona",
       "nivel": "Rojo",
-      "text": "Este, sur y oeste de Gran Canaria: Aviso de temperaturas máximas de nivel naranja. Este, sur y oeste de Gran Canaria (Rojo) (AEMET)",
+      "text": "Pirineo de Girona: Aviso de lluvias de nivel naranja. Pirineo de Girona (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Este, sur y oeste de Gran Canaria",
-      "fenomeno": "Severe high-temperature warning. Este, sur y oeste de Gran Canaria",
+      "provincia": "Pirineo de Girona",
+      "fenomeno": "Severe rain warning. Pirineo de Girona",
       "nivel": "Rojo",
-      "text": "Este, sur y oeste de Gran Canaria: Severe high-temperature warning. Este, sur y oeste de Gran Canaria (Rojo) (AEMET)",
+      "text": "Pirineo de Girona: Severe rain warning. Pirineo de Girona (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌡️",
-      "provincia": "Fuerteventura",
-      "fenomeno": "Aviso de temperaturas máximas de nivel naranja. Fuerteventura",
-      "nivel": "Rojo",
-      "text": "Fuerteventura: Aviso de temperaturas máximas de nivel naranja. Fuerteventura (Rojo) (AEMET)",
+      "icon": "💨",
+      "provincia": "Ribera del Ebro de Zaragoza",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Ribera del Ebro de Zaragoza",
+      "nivel": "Naranja",
+      "text": "Ribera del Ebro de Zaragoza: Aviso de vientos de nivel amarillo. Ribera del Ebro de Zaragoza (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Fuerteventura",
-      "fenomeno": "Severe high-temperature warning. Fuerteventura",
-      "nivel": "Rojo",
-      "text": "Fuerteventura: Severe high-temperature warning. Fuerteventura (Rojo) (AEMET)",
+      "provincia": "Ribera del Ebro de Zaragoza",
+      "fenomeno": "Moderate wind warning. Ribera del Ebro de Zaragoza",
+      "nivel": "Naranja",
+      "text": "Ribera del Ebro de Zaragoza: Moderate wind warning. Ribera del Ebro de Zaragoza (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -54,70 +54,6 @@ window.AEMET_AVISOS = {
     },
     {
       "icon": "🌊",
-      "provincia": "Este, sur y oeste de Tenerife",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Este, sur y oeste de Tenerife",
-      "nivel": "Naranja",
-      "text": "Este, sur y oeste de Tenerife: Aviso de temperaturas máximas de nivel amarillo. Este, sur y oeste de Tenerife (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Este, sur y oeste de Tenerife",
-      "fenomeno": "Moderate high-temperature warning. Este, sur y oeste de Tenerife",
-      "nivel": "Naranja",
-      "text": "Este, sur y oeste de Tenerife: Moderate high-temperature warning. Este, sur y oeste de Tenerife (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Cumbres de Gran Canaria",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Cumbres de Gran Canaria",
-      "nivel": "Naranja",
-      "text": "Cumbres de Gran Canaria: Aviso de temperaturas máximas de nivel amarillo. Cumbres de Gran Canaria (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cumbres de Gran Canaria",
-      "fenomeno": "Moderate high-temperature warning. Cumbres de Gran Canaria",
-      "nivel": "Naranja",
-      "text": "Cumbres de Gran Canaria: Moderate high-temperature warning. Cumbres de Gran Canaria (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Lanzarote",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Lanzarote",
-      "nivel": "Naranja",
-      "text": "Lanzarote: Aviso de temperaturas máximas de nivel amarillo. Lanzarote (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Lanzarote",
-      "fenomeno": "Moderate high-temperature warning. Lanzarote",
-      "nivel": "Naranja",
-      "text": "Lanzarote: Moderate high-temperature warning. Lanzarote (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Cumbres de La Palma",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Cumbres de La Palma",
-      "nivel": "Naranja",
-      "text": "Cumbres de La Palma: Aviso de temperaturas máximas de nivel amarillo. Cumbres de La Palma (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cumbres de La Palma",
-      "fenomeno": "Moderate high-temperature warning. Cumbres de La Palma",
-      "nivel": "Naranja",
-      "text": "Cumbres de La Palma: Moderate high-temperature warning. Cumbres de La Palma (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
       "provincia": "La Gomera",
       "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. La Gomera",
       "nivel": "Naranja",
@@ -134,34 +70,98 @@ window.AEMET_AVISOS = {
     },
     {
       "icon": "🌊",
-      "provincia": "El Hierro",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. El Hierro",
+      "provincia": "Este, sur y oeste de Tenerife",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Este, sur y oeste de Tenerife",
       "nivel": "Naranja",
-      "text": "El Hierro: Aviso de temperaturas máximas de nivel amarillo. El Hierro (Naranja) (AEMET)",
+      "text": "Este, sur y oeste de Tenerife: Aviso de temperaturas máximas de nivel amarillo. Este, sur y oeste de Tenerife (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "El Hierro",
-      "fenomeno": "Moderate high-temperature warning. El Hierro",
+      "provincia": "Este, sur y oeste de Tenerife",
+      "fenomeno": "Moderate high-temperature warning. Este, sur y oeste de Tenerife",
       "nivel": "Naranja",
-      "text": "El Hierro: Moderate high-temperature warning. El Hierro (Naranja) (AEMET)",
+      "text": "Este, sur y oeste de Tenerife: Moderate high-temperature warning. Este, sur y oeste de Tenerife (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Área metropolitana de Tenerife",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Área metropolitana de Tenerife",
+      "icon": "🌧️",
+      "provincia": "Interior de Mallorca",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Interior de Mallorca",
       "nivel": "Naranja",
-      "text": "Área metropolitana de Tenerife: Aviso de temperaturas máximas de nivel amarillo. Área metropolitana de Tenerife (Naranja) (AEMET)",
+      "text": "Interior de Mallorca: Aviso de lluvias de nivel amarillo. Interior de Mallorca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Área metropolitana de Tenerife",
-      "fenomeno": "Moderate high-temperature warning. Área metropolitana de Tenerife",
+      "provincia": "Interior de Mallorca",
+      "fenomeno": "Moderate rain warning. Interior de Mallorca",
       "nivel": "Naranja",
-      "text": "Área metropolitana de Tenerife: Moderate high-temperature warning. Área metropolitana de Tenerife (Naranja) (AEMET)",
+      "text": "Interior de Mallorca: Moderate rain warning. Interior de Mallorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Sur de Mallorca",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Sur de Mallorca",
+      "nivel": "Naranja",
+      "text": "Sur de Mallorca: Aviso de lluvias de nivel amarillo. Sur de Mallorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sur de Mallorca",
+      "fenomeno": "Moderate rain warning. Sur de Mallorca",
+      "nivel": "Naranja",
+      "text": "Sur de Mallorca: Moderate rain warning. Sur de Mallorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Interior de Mallorca",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Interior de Mallorca",
+      "nivel": "Naranja",
+      "text": "Interior de Mallorca: Aviso de tormentas de nivel amarillo. Interior de Mallorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior de Mallorca",
+      "fenomeno": "Moderate thunderstorm warning. Interior de Mallorca",
+      "nivel": "Naranja",
+      "text": "Interior de Mallorca: Moderate thunderstorm warning. Interior de Mallorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Sur de Mallorca",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Sur de Mallorca",
+      "nivel": "Naranja",
+      "text": "Sur de Mallorca: Aviso de tormentas de nivel amarillo. Sur de Mallorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sur de Mallorca",
+      "fenomeno": "Moderate thunderstorm warning. Sur de Mallorca",
+      "nivel": "Naranja",
+      "text": "Sur de Mallorca: Moderate thunderstorm warning. Sur de Mallorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Ampurdán",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Ampurdán",
+      "nivel": "Naranja",
+      "text": "Ampurdán: Aviso de lluvias de nivel amarillo. Ampurdán (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ampurdán",
+      "fenomeno": "Moderate rain warning. Ampurdán",
+      "nivel": "Naranja",
+      "text": "Ampurdán: Moderate rain warning. Ampurdán (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
