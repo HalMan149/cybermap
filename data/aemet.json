@@ -1,8 +1,24 @@
 {
-  "generated_at": "2026-09-15T19:56:37.455Z",
+  "generated_at": "2026-09-15T22:40:09.224Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Litoral sur de Castellón",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral sur de Castellón",
+      "nivel": "Naranja",
+      "text": "Litoral sur de Castellón: Aviso de lluvias de nivel amarillo. Litoral sur de Castellón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral sur de Castellón",
+      "fenomeno": "Moderate rain warning. Litoral sur de Castellón",
+      "nivel": "Naranja",
+      "text": "Litoral sur de Castellón: Moderate rain warning. Litoral sur de Castellón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Interior sur de Castellón",
@@ -145,22 +161,6 @@
       "fenomeno": "Moderate rain warning. Litoral norte de Castellón",
       "nivel": "Naranja",
       "text": "Litoral norte de Castellón: Moderate rain warning. Litoral norte de Castellón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Litoral norte de Valencia",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral norte de Valencia",
-      "nivel": "Naranja",
-      "text": "Litoral norte de Valencia: Aviso de lluvias de nivel amarillo. Litoral norte de Valencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral norte de Valencia",
-      "fenomeno": "Moderate rain warning. Litoral norte de Valencia",
-      "nivel": "Naranja",
-      "text": "Litoral norte de Valencia: Moderate rain warning. Litoral norte de Valencia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
