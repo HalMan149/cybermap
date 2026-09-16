@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2026-09-16T21:48:54.289Z
+// Auto-generado por GitHub Actions - 2026-09-16T23:59:42.655Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-09-16T21:48:54.289Z",
+  "generated_at": "2026-09-16T23:59:42.655Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Litoral sur de Valencia",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral sur de Valencia",
+      "nivel": "Naranja",
+      "text": "Litoral sur de Valencia: Aviso de lluvias de nivel amarillo. Litoral sur de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral sur de Valencia",
+      "fenomeno": "Moderate rain warning. Litoral sur de Valencia",
+      "nivel": "Naranja",
+      "text": "Litoral sur de Valencia: Moderate rain warning. Litoral sur de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Litoral de Barcelona",
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Severe rain warning. Valle del Guadalentín, Lorca y Águilas",
       "nivel": "Rojo",
       "text": "Valle del Guadalentín, Lorca y Águilas: Severe rain warning. Valle del Guadalentín, Lorca y Águilas (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Campo de Cartagena y Mazarrón",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Campo de Cartagena y Mazarrón",
-      "nivel": "Rojo",
-      "text": "Campo de Cartagena y Mazarrón: Aviso de lluvias de nivel naranja. Campo de Cartagena y Mazarrón (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Campo de Cartagena y Mazarrón",
-      "fenomeno": "Severe rain warning. Campo de Cartagena y Mazarrón",
-      "nivel": "Rojo",
-      "text": "Campo de Cartagena y Mazarrón: Severe rain warning. Campo de Cartagena y Mazarrón (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
