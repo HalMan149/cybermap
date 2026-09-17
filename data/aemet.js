@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-09-17T14:21:48.792Z
+// Auto-generado por GitHub Actions - 2026-09-17T18:23:46.374Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-09-17T14:21:48.792Z",
+  "generated_at": "2026-09-17T18:23:46.374Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "⛈️",
-      "provincia": "Litoral norte de Alicante",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Litoral norte de Alicante",
-      "nivel": "Naranja",
-      "text": "Litoral norte de Alicante: Aviso de tormentas de nivel amarillo. Litoral norte de Alicante (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral norte de Alicante",
-      "fenomeno": "Moderate thunderstorm warning. Litoral norte de Alicante",
-      "nivel": "Naranja",
-      "text": "Litoral norte de Alicante: Moderate thunderstorm warning. Litoral norte de Alicante (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Interior de Alicante",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Interior de Alicante",
-      "nivel": "Naranja",
-      "text": "Interior de Alicante: Aviso de tormentas de nivel amarillo. Interior de Alicante (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior de Alicante",
-      "fenomeno": "Moderate thunderstorm warning. Interior de Alicante",
-      "nivel": "Naranja",
-      "text": "Interior de Alicante: Moderate thunderstorm warning. Interior de Alicante (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
+      "icon": "🌧️",
       "provincia": "Litoral sur de Alicante",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Litoral sur de Alicante",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral sur de Alicante",
       "nivel": "Naranja",
-      "text": "Litoral sur de Alicante: Aviso de tormentas de nivel amarillo. Litoral sur de Alicante (Naranja) (AEMET)",
+      "text": "Litoral sur de Alicante: Aviso de lluvias de nivel amarillo. Litoral sur de Alicante (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
       "provincia": "Litoral sur de Alicante",
-      "fenomeno": "Moderate thunderstorm warning. Litoral sur de Alicante",
+      "fenomeno": "Moderate rain warning. Litoral sur de Alicante",
       "nivel": "Naranja",
-      "text": "Litoral sur de Alicante: Moderate thunderstorm warning. Litoral sur de Alicante (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Litoral norte de Valencia",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Litoral norte de Valencia",
-      "nivel": "Naranja",
-      "text": "Litoral norte de Valencia: Aviso de tormentas de nivel amarillo. Litoral norte de Valencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral norte de Valencia",
-      "fenomeno": "Moderate thunderstorm warning. Litoral norte de Valencia",
-      "nivel": "Naranja",
-      "text": "Litoral norte de Valencia: Moderate thunderstorm warning. Litoral norte de Valencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Interior sur de Valencia",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Interior sur de Valencia",
-      "nivel": "Naranja",
-      "text": "Interior sur de Valencia: Aviso de tormentas de nivel amarillo. Interior sur de Valencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior sur de Valencia",
-      "fenomeno": "Moderate thunderstorm warning. Interior sur de Valencia",
-      "nivel": "Naranja",
-      "text": "Interior sur de Valencia: Moderate thunderstorm warning. Interior sur de Valencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Litoral sur de Valencia",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Litoral sur de Valencia",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Valencia: Aviso de tormentas de nivel amarillo. Litoral sur de Valencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral sur de Valencia",
-      "fenomeno": "Moderate thunderstorm warning. Litoral sur de Valencia",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Valencia: Moderate thunderstorm warning. Litoral sur de Valencia (Naranja) (AEMET)",
+      "text": "Litoral sur de Alicante: Moderate rain warning. Litoral sur de Alicante (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Alcaraz y Segura",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Alcaraz y Segura",
+      "provincia": "Antequera",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Antequera",
       "nivel": "Rojo",
-      "text": "Alcaraz y Segura: Aviso de lluvias de nivel naranja. Alcaraz y Segura (Rojo) (AEMET)",
+      "text": "Antequera: Aviso de lluvias de nivel naranja. Antequera (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Alcaraz y Segura",
-      "fenomeno": "Severe rain warning. Alcaraz y Segura",
+      "provincia": "Antequera",
+      "fenomeno": "Severe rain warning. Antequera",
       "nivel": "Rojo",
-      "text": "Alcaraz y Segura: Severe rain warning. Alcaraz y Segura (Rojo) (AEMET)",
+      "text": "Antequera: Severe rain warning. Antequera (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Alcaraz y Segura",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Alcaraz y Segura",
+      "provincia": "Altiplano de Murcia",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Altiplano de Murcia",
       "nivel": "Naranja",
-      "text": "Alcaraz y Segura: Aviso de lluvias de nivel amarillo. Alcaraz y Segura (Naranja) (AEMET)",
+      "text": "Altiplano de Murcia: Aviso de lluvias de nivel amarillo. Altiplano de Murcia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Alcaraz y Segura",
-      "fenomeno": "Moderate rain warning. Alcaraz y Segura",
+      "provincia": "Altiplano de Murcia",
+      "fenomeno": "Moderate rain warning. Altiplano de Murcia",
       "nivel": "Naranja",
-      "text": "Alcaraz y Segura: Moderate rain warning. Alcaraz y Segura (Naranja) (AEMET)",
+      "text": "Altiplano de Murcia: Moderate rain warning. Altiplano de Murcia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Litoral norte de Alicante",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral norte de Alicante",
+      "provincia": "Noroeste de Murcia",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Noroeste de Murcia",
       "nivel": "Naranja",
-      "text": "Litoral norte de Alicante: Aviso de lluvias de nivel amarillo. Litoral norte de Alicante (Naranja) (AEMET)",
+      "text": "Noroeste de Murcia: Aviso de lluvias de nivel amarillo. Noroeste de Murcia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Litoral norte de Alicante",
-      "fenomeno": "Moderate rain warning. Litoral norte de Alicante",
+      "provincia": "Noroeste de Murcia",
+      "fenomeno": "Moderate rain warning. Noroeste de Murcia",
       "nivel": "Naranja",
-      "text": "Litoral norte de Alicante: Moderate rain warning. Litoral norte de Alicante (Naranja) (AEMET)",
+      "text": "Noroeste de Murcia: Moderate rain warning. Noroeste de Murcia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Litoral sur de Valencia",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral sur de Valencia",
+      "provincia": "Vega del Segura",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Vega del Segura",
       "nivel": "Naranja",
-      "text": "Litoral sur de Valencia: Aviso de lluvias de nivel amarillo. Litoral sur de Valencia (Naranja) (AEMET)",
+      "text": "Vega del Segura: Aviso de lluvias de nivel amarillo. Vega del Segura (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Litoral sur de Valencia",
-      "fenomeno": "Moderate rain warning. Litoral sur de Valencia",
+      "provincia": "Vega del Segura",
+      "fenomeno": "Moderate rain warning. Vega del Segura",
       "nivel": "Naranja",
-      "text": "Litoral sur de Valencia: Moderate rain warning. Litoral sur de Valencia (Naranja) (AEMET)",
+      "text": "Vega del Segura: Moderate rain warning. Vega del Segura (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Valle del Guadalentín, Lorca y Águilas",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Valle del Guadalentín, Lorca y Águilas",
+      "nivel": "Naranja",
+      "text": "Valle del Guadalentín, Lorca y Águilas: Aviso de tormentas de nivel amarillo. Valle del Guadalentín, Lorca y Águilas (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Valle del Guadalentín, Lorca y Águilas",
+      "fenomeno": "Moderate thunderstorm warning. Valle del Guadalentín, Lorca y Águilas",
+      "nivel": "Naranja",
+      "text": "Valle del Guadalentín, Lorca y Águilas: Moderate thunderstorm warning. Valle del Guadalentín, Lorca y Águilas (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Campo de Cartagena y Mazarrón",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Campo de Cartagena y Mazarrón",
+      "nivel": "Naranja",
+      "text": "Campo de Cartagena y Mazarrón: Aviso de tormentas de nivel amarillo. Campo de Cartagena y Mazarrón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Campo de Cartagena y Mazarrón",
+      "fenomeno": "Moderate thunderstorm warning. Campo de Cartagena y Mazarrón",
+      "nivel": "Naranja",
+      "text": "Campo de Cartagena y Mazarrón: Moderate thunderstorm warning. Campo de Cartagena y Mazarrón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Vega del Segura",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Vega del Segura",
+      "nivel": "Naranja",
+      "text": "Vega del Segura: Aviso de lluvias de nivel amarillo. Vega del Segura (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Vega del Segura",
+      "fenomeno": "Moderate rain warning. Vega del Segura",
+      "nivel": "Naranja",
+      "text": "Vega del Segura: Moderate rain warning. Vega del Segura (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Vega del Segura",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Vega del Segura",
+      "nivel": "Naranja",
+      "text": "Vega del Segura: Aviso de tormentas de nivel amarillo. Vega del Segura (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Vega del Segura",
+      "fenomeno": "Moderate thunderstorm warning. Vega del Segura",
+      "nivel": "Naranja",
+      "text": "Vega del Segura: Moderate thunderstorm warning. Vega del Segura (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Vega del Segura",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Vega del Segura",
+      "nivel": "Naranja",
+      "text": "Vega del Segura: Aviso de lluvias de nivel amarillo. Vega del Segura (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Vega del Segura",
+      "fenomeno": "Moderate rain warning. Vega del Segura",
+      "nivel": "Naranja",
+      "text": "Vega del Segura: Moderate rain warning. Vega del Segura (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
