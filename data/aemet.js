@@ -1,9 +1,41 @@
-// Auto-generado por GitHub Actions - 2026-09-19T01:20:31.498Z
+// Auto-generado por GitHub Actions - 2026-09-19T06:09:11.060Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-09-19T01:20:31.498Z",
+  "generated_at": "2026-09-19T06:09:11.060Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral gaditano",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral gaditano",
+      "nivel": "Naranja",
+      "text": "Costa - Litoral gaditano: Aviso de costeros de nivel amarillo. Costa - Litoral gaditano (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral gaditano",
+      "fenomeno": "Moderate coastalevent warning. Costa - Litoral gaditano",
+      "nivel": "Naranja",
+      "text": "Costa - Litoral gaditano: Moderate coastalevent warning. Costa - Litoral gaditano (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Estrecho",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Estrecho",
+      "nivel": "Naranja",
+      "text": "Costa - Estrecho: Aviso de costeros de nivel amarillo. Costa - Estrecho (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Estrecho",
+      "fenomeno": "Moderate coastalevent warning. Costa - Estrecho",
+      "nivel": "Naranja",
+      "text": "Costa - Estrecho: Moderate coastalevent warning. Costa - Estrecho (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Valle del Guadalentín, Lorca y Águilas",
@@ -130,38 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate coastalevent warning. Costa - Litoral gaditano",
       "nivel": "Naranja",
       "text": "Costa - Litoral gaditano: Moderate coastalevent warning. Costa - Litoral gaditano (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Estrecho",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Estrecho",
-      "nivel": "Naranja",
-      "text": "Costa - Estrecho: Aviso de costeros de nivel amarillo. Costa - Estrecho (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Estrecho",
-      "fenomeno": "Moderate coastalevent warning. Costa - Estrecho",
-      "nivel": "Naranja",
-      "text": "Costa - Estrecho: Moderate coastalevent warning. Costa - Estrecho (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Litoral norte de Alicante",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral norte de Alicante",
-      "nivel": "Naranja",
-      "text": "Litoral norte de Alicante: Aviso de lluvias de nivel amarillo. Litoral norte de Alicante (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral norte de Alicante",
-      "fenomeno": "Moderate rain warning. Litoral norte de Alicante",
-      "nivel": "Naranja",
-      "text": "Litoral norte de Alicante: Moderate rain warning. Litoral norte de Alicante (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
