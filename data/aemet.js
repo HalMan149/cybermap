@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2026-09-20T16:01:30.154Z
+// Auto-generado por GitHub Actions - 2026-09-20T18:45:00.726Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-09-20T16:01:30.154Z",
+  "generated_at": "2026-09-20T18:45:00.726Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌊",
+      "provincia": "Miño de Ourense",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Miño de Ourense",
+      "nivel": "Naranja",
+      "text": "Miño de Ourense: Aviso de temperaturas máximas de nivel amarillo. Miño de Ourense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Miño de Ourense",
+      "fenomeno": "Moderate high-temperature warning. Miño de Ourense",
+      "nivel": "Naranja",
+      "text": "Miño de Ourense: Moderate high-temperature warning. Miño de Ourense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌊",
       "provincia": "Suroeste de A Coruña",
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate coastalevent warning. Costa - Estrecho",
       "nivel": "Naranja",
       "text": "Costa - Estrecho: Moderate coastalevent warning. Costa - Estrecho (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Rias Baixas",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Rias Baixas",
-      "nivel": "Naranja",
-      "text": "Rias Baixas: Aviso de temperaturas máximas de nivel amarillo. Rias Baixas (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Rias Baixas",
-      "fenomeno": "Moderate high-temperature warning. Rias Baixas",
-      "nivel": "Naranja",
-      "text": "Rias Baixas: Moderate high-temperature warning. Rias Baixas (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
