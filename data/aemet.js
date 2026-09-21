@@ -1,23 +1,55 @@
-// Auto-generado por GitHub Actions - 2026-09-21T06:17:32.634Z
+// Auto-generado por GitHub Actions - 2026-09-21T13:05:18.800Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-09-21T06:17:32.634Z",
+  "generated_at": "2026-09-21T13:05:18.800Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "🌊",
-      "provincia": "Ampurdán",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Ampurdán",
+      "provincia": "Suroeste de A Coruña",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Suroeste de A Coruña",
       "nivel": "Naranja",
-      "text": "Ampurdán: Aviso de temperaturas máximas de nivel amarillo. Ampurdán (Naranja) (AEMET)",
+      "text": "Suroeste de A Coruña: Aviso de temperaturas máximas de nivel amarillo. Suroeste de A Coruña (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Ampurdán",
-      "fenomeno": "Moderate high-temperature warning. Ampurdán",
+      "provincia": "Suroeste de A Coruña",
+      "fenomeno": "Moderate high-temperature warning. Suroeste de A Coruña",
       "nivel": "Naranja",
-      "text": "Ampurdán: Moderate high-temperature warning. Ampurdán (Naranja) (AEMET)",
+      "text": "Suroeste de A Coruña: Moderate high-temperature warning. Suroeste de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Noroeste de Ourense",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Noroeste de Ourense",
+      "nivel": "Naranja",
+      "text": "Noroeste de Ourense: Aviso de temperaturas máximas de nivel amarillo. Noroeste de Ourense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Noroeste de Ourense",
+      "fenomeno": "Moderate high-temperature warning. Noroeste de Ourense",
+      "nivel": "Naranja",
+      "text": "Noroeste de Ourense: Moderate high-temperature warning. Noroeste de Ourense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Miño de Ourense",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Miño de Ourense",
+      "nivel": "Naranja",
+      "text": "Miño de Ourense: Aviso de temperaturas máximas de nivel amarillo. Miño de Ourense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Miño de Ourense",
+      "fenomeno": "Moderate high-temperature warning. Miño de Ourense",
+      "nivel": "Naranja",
+      "text": "Miño de Ourense: Moderate high-temperature warning. Miño de Ourense (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -38,34 +70,34 @@ window.AEMET_AVISOS = {
     },
     {
       "icon": "🌊",
-      "provincia": "Suroeste de A Coruña",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Suroeste de A Coruña",
+      "provincia": "Fuerteventura",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Fuerteventura",
       "nivel": "Naranja",
-      "text": "Suroeste de A Coruña: Aviso de temperaturas máximas de nivel amarillo. Suroeste de A Coruña (Naranja) (AEMET)",
+      "text": "Fuerteventura: Aviso de temperaturas máximas de nivel amarillo. Fuerteventura (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Suroeste de A Coruña",
-      "fenomeno": "Moderate high-temperature warning. Suroeste de A Coruña",
+      "provincia": "Fuerteventura",
+      "fenomeno": "Moderate high-temperature warning. Fuerteventura",
       "nivel": "Naranja",
-      "text": "Suroeste de A Coruña: Moderate high-temperature warning. Suroeste de A Coruña (Naranja) (AEMET)",
+      "text": "Fuerteventura: Moderate high-temperature warning. Fuerteventura (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Miño de Ourense",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Miño de Ourense",
+      "provincia": "Ampurdán",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Ampurdán",
       "nivel": "Naranja",
-      "text": "Miño de Ourense: Aviso de temperaturas máximas de nivel amarillo. Miño de Ourense (Naranja) (AEMET)",
+      "text": "Ampurdán: Aviso de temperaturas máximas de nivel amarillo. Ampurdán (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Miño de Ourense",
-      "fenomeno": "Moderate high-temperature warning. Miño de Ourense",
+      "provincia": "Ampurdán",
+      "fenomeno": "Moderate high-temperature warning. Ampurdán",
       "nivel": "Naranja",
-      "text": "Miño de Ourense: Moderate high-temperature warning. Miño de Ourense (Naranja) (AEMET)",
+      "text": "Ampurdán: Moderate high-temperature warning. Ampurdán (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -130,38 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate high-temperature warning. Miño de Pontevedra",
       "nivel": "Naranja",
       "text": "Miño de Pontevedra: Moderate high-temperature warning. Miño de Pontevedra (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Campiña gaditana",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Campiña gaditana",
-      "nivel": "Naranja",
-      "text": "Campiña gaditana: Aviso de vientos de nivel amarillo. Campiña gaditana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Campiña gaditana",
-      "fenomeno": "Moderate wind warning. Campiña gaditana",
-      "nivel": "Naranja",
-      "text": "Campiña gaditana: Moderate wind warning. Campiña gaditana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Litoral gaditano",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Litoral gaditano",
-      "nivel": "Naranja",
-      "text": "Litoral gaditano: Aviso de vientos de nivel amarillo. Litoral gaditano (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral gaditano",
-      "fenomeno": "Moderate wind warning. Litoral gaditano",
-      "nivel": "Naranja",
-      "text": "Litoral gaditano: Moderate wind warning. Litoral gaditano (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
