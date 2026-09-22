@@ -1,87 +1,23 @@
-// Auto-generado por GitHub Actions - 2026-09-22T05:40:10.200Z
+// Auto-generado por GitHub Actions - 2026-09-22T10:19:24.238Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-09-22T05:40:10.200Z",
+  "generated_at": "2026-09-22T10:19:24.238Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "🌊",
-      "provincia": "Interior de A Coruña",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Interior de A Coruña",
+      "provincia": "Norte de Gran Canaria",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Norte de Gran Canaria",
       "nivel": "Naranja",
-      "text": "Interior de A Coruña: Aviso de temperaturas máximas de nivel amarillo. Interior de A Coruña (Naranja) (AEMET)",
+      "text": "Norte de Gran Canaria: Aviso de temperaturas máximas de nivel amarillo. Norte de Gran Canaria (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Interior de A Coruña",
-      "fenomeno": "Moderate high-temperature warning. Interior de A Coruña",
+      "provincia": "Norte de Gran Canaria",
+      "fenomeno": "Moderate high-temperature warning. Norte de Gran Canaria",
       "nivel": "Naranja",
-      "text": "Interior de A Coruña: Moderate high-temperature warning. Interior de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Suroeste de A Coruña",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Suroeste de A Coruña",
-      "nivel": "Naranja",
-      "text": "Suroeste de A Coruña: Aviso de temperaturas máximas de nivel amarillo. Suroeste de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Suroeste de A Coruña",
-      "fenomeno": "Moderate high-temperature warning. Suroeste de A Coruña",
-      "nivel": "Naranja",
-      "text": "Suroeste de A Coruña: Moderate high-temperature warning. Suroeste de A Coruña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Miño de Ourense",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Miño de Ourense",
-      "nivel": "Naranja",
-      "text": "Miño de Ourense: Aviso de temperaturas máximas de nivel amarillo. Miño de Ourense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Miño de Ourense",
-      "fenomeno": "Moderate high-temperature warning. Miño de Ourense",
-      "nivel": "Naranja",
-      "text": "Miño de Ourense: Moderate high-temperature warning. Miño de Ourense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Rias Baixas",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Rias Baixas",
-      "nivel": "Naranja",
-      "text": "Rias Baixas: Aviso de temperaturas máximas de nivel amarillo. Rias Baixas (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Rias Baixas",
-      "fenomeno": "Moderate high-temperature warning. Rias Baixas",
-      "nivel": "Naranja",
-      "text": "Rias Baixas: Moderate high-temperature warning. Rias Baixas (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Miño de Pontevedra",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Miño de Pontevedra",
-      "nivel": "Naranja",
-      "text": "Miño de Pontevedra: Aviso de temperaturas máximas de nivel amarillo. Miño de Pontevedra (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Miño de Pontevedra",
-      "fenomeno": "Moderate high-temperature warning. Miño de Pontevedra",
-      "nivel": "Naranja",
-      "text": "Miño de Pontevedra: Moderate high-temperature warning. Miño de Pontevedra (Naranja) (AEMET)",
+      "text": "Norte de Gran Canaria: Moderate high-temperature warning. Norte de Gran Canaria (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -134,34 +70,98 @@ window.AEMET_AVISOS = {
     },
     {
       "icon": "🌊",
-      "provincia": "Miño de Ourense",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Miño de Ourense",
+      "provincia": "La Gomera",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. La Gomera",
       "nivel": "Naranja",
-      "text": "Miño de Ourense: Aviso de temperaturas máximas de nivel amarillo. Miño de Ourense (Naranja) (AEMET)",
+      "text": "La Gomera: Aviso de temperaturas máximas de nivel amarillo. La Gomera (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Miño de Ourense",
-      "fenomeno": "Moderate high-temperature warning. Miño de Ourense",
+      "provincia": "La Gomera",
+      "fenomeno": "Moderate high-temperature warning. La Gomera",
       "nivel": "Naranja",
-      "text": "Miño de Ourense: Moderate high-temperature warning. Miño de Ourense (Naranja) (AEMET)",
+      "text": "La Gomera: Moderate high-temperature warning. La Gomera (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌊",
-      "provincia": "Noroeste de Ourense",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Noroeste de Ourense",
+      "provincia": "El Hierro",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. El Hierro",
       "nivel": "Naranja",
-      "text": "Noroeste de Ourense: Aviso de temperaturas máximas de nivel amarillo. Noroeste de Ourense (Naranja) (AEMET)",
+      "text": "El Hierro: Aviso de temperaturas máximas de nivel amarillo. El Hierro (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Noroeste de Ourense",
-      "fenomeno": "Moderate high-temperature warning. Noroeste de Ourense",
+      "provincia": "El Hierro",
+      "fenomeno": "Moderate high-temperature warning. El Hierro",
       "nivel": "Naranja",
-      "text": "Noroeste de Ourense: Moderate high-temperature warning. Noroeste de Ourense (Naranja) (AEMET)",
+      "text": "El Hierro: Moderate high-temperature warning. El Hierro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Norte de Tenerife",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Norte de Tenerife",
+      "nivel": "Naranja",
+      "text": "Norte de Tenerife: Aviso de temperaturas máximas de nivel amarillo. Norte de Tenerife (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Norte de Tenerife",
+      "fenomeno": "Moderate high-temperature warning. Norte de Tenerife",
+      "nivel": "Naranja",
+      "text": "Norte de Tenerife: Moderate high-temperature warning. Norte de Tenerife (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Área metropolitana de Tenerife",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Área metropolitana de Tenerife",
+      "nivel": "Naranja",
+      "text": "Área metropolitana de Tenerife: Aviso de temperaturas máximas de nivel amarillo. Área metropolitana de Tenerife (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Área metropolitana de Tenerife",
+      "fenomeno": "Moderate high-temperature warning. Área metropolitana de Tenerife",
+      "nivel": "Naranja",
+      "text": "Área metropolitana de Tenerife: Moderate high-temperature warning. Área metropolitana de Tenerife (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Este, sur y oeste de Tenerife",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Este, sur y oeste de Tenerife",
+      "nivel": "Naranja",
+      "text": "Este, sur y oeste de Tenerife: Aviso de temperaturas máximas de nivel amarillo. Este, sur y oeste de Tenerife (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Este, sur y oeste de Tenerife",
+      "fenomeno": "Moderate high-temperature warning. Este, sur y oeste de Tenerife",
+      "nivel": "Naranja",
+      "text": "Este, sur y oeste de Tenerife: Moderate high-temperature warning. Este, sur y oeste de Tenerife (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Gipuzkoa interior",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Gipuzkoa interior",
+      "nivel": "Naranja",
+      "text": "Gipuzkoa interior: Aviso de temperaturas máximas de nivel amarillo. Gipuzkoa interior (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Gipuzkoa interior",
+      "fenomeno": "Moderate high-temperature warning. Gipuzkoa interior",
+      "nivel": "Naranja",
+      "text": "Gipuzkoa interior: Moderate high-temperature warning. Gipuzkoa interior (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
