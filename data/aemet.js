@@ -1,9 +1,41 @@
-// Auto-generado por GitHub Actions - 2026-09-24T20:29:54.341Z
+// Auto-generado por GitHub Actions - 2026-09-24T23:19:27.515Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-09-24T20:29:54.341Z",
+  "generated_at": "2026-09-24T23:19:27.515Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌊",
+      "provincia": "Morena y Condado",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Morena y Condado",
+      "nivel": "Naranja",
+      "text": "Morena y Condado: Aviso de temperaturas máximas de nivel amarillo. Morena y Condado (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Morena y Condado",
+      "fenomeno": "Moderate high-temperature warning. Morena y Condado",
+      "nivel": "Naranja",
+      "text": "Morena y Condado: Moderate high-temperature warning. Morena y Condado (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Valle del Guadalquivir de Jaén",
+      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Valle del Guadalquivir de Jaén",
+      "nivel": "Naranja",
+      "text": "Valle del Guadalquivir de Jaén: Aviso de temperaturas máximas de nivel amarillo. Valle del Guadalquivir de Jaén (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Valle del Guadalquivir de Jaén",
+      "fenomeno": "Moderate high-temperature warning. Valle del Guadalquivir de Jaén",
+      "nivel": "Naranja",
+      "text": "Valle del Guadalquivir de Jaén: Moderate high-temperature warning. Valle del Guadalquivir de Jaén (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌊",
       "provincia": "Morena y Condado",
@@ -130,38 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate high-temperature warning. Cumbres de Gran Canaria",
       "nivel": "Naranja",
       "text": "Cumbres de Gran Canaria: Moderate high-temperature warning. Cumbres de Gran Canaria (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Este, sur y oeste de Gran Canaria",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Este, sur y oeste de Gran Canaria",
-      "nivel": "Naranja",
-      "text": "Este, sur y oeste de Gran Canaria: Aviso de temperaturas máximas de nivel amarillo. Este, sur y oeste de Gran Canaria (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Este, sur y oeste de Gran Canaria",
-      "fenomeno": "Moderate high-temperature warning. Este, sur y oeste de Gran Canaria",
-      "nivel": "Naranja",
-      "text": "Este, sur y oeste de Gran Canaria: Moderate high-temperature warning. Este, sur y oeste de Gran Canaria (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Lanzarote",
-      "fenomeno": "Aviso de temperaturas máximas de nivel amarillo. Lanzarote",
-      "nivel": "Naranja",
-      "text": "Lanzarote: Aviso de temperaturas máximas de nivel amarillo. Lanzarote (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Lanzarote",
-      "fenomeno": "Moderate high-temperature warning. Lanzarote",
-      "nivel": "Naranja",
-      "text": "Lanzarote: Moderate high-temperature warning. Lanzarote (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
