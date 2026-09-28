@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-09-28T05:52:58.431Z
+// Auto-generado por GitHub Actions - 2026-09-28T12:28:53.162Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-09-28T05:52:58.431Z",
+  "generated_at": "2026-09-28T12:28:53.162Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "🌧️",
-      "provincia": "Prelitoral de Barcelona",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Prelitoral de Barcelona",
+      "provincia": "Interior sur de Castellón",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Interior sur de Castellón",
       "nivel": "Rojo",
-      "text": "Prelitoral de Barcelona: Aviso de lluvias de nivel naranja. Prelitoral de Barcelona (Rojo) (AEMET)",
+      "text": "Interior sur de Castellón: Aviso de lluvias de nivel naranja. Interior sur de Castellón (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Prelitoral de Barcelona",
-      "fenomeno": "Severe rain warning. Prelitoral de Barcelona",
+      "provincia": "Interior sur de Castellón",
+      "fenomeno": "Severe rain warning. Interior sur de Castellón",
       "nivel": "Rojo",
-      "text": "Prelitoral de Barcelona: Severe rain warning. Prelitoral de Barcelona (Rojo) (AEMET)",
+      "text": "Interior sur de Castellón: Severe rain warning. Interior sur de Castellón (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Litoral de Barcelona",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Litoral de Barcelona",
+      "provincia": "Interior norte de Valencia",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Interior norte de Valencia",
       "nivel": "Rojo",
-      "text": "Litoral de Barcelona: Aviso de lluvias de nivel naranja. Litoral de Barcelona (Rojo) (AEMET)",
+      "text": "Interior norte de Valencia: Aviso de lluvias de nivel naranja. Interior norte de Valencia (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Litoral de Barcelona",
-      "fenomeno": "Severe rain warning. Litoral de Barcelona",
+      "provincia": "Interior norte de Valencia",
+      "fenomeno": "Severe rain warning. Interior norte de Valencia",
       "nivel": "Rojo",
-      "text": "Litoral de Barcelona: Severe rain warning. Litoral de Barcelona (Rojo) (AEMET)",
+      "text": "Interior norte de Valencia: Severe rain warning. Interior norte de Valencia (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Prelitoral de Girona",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Prelitoral de Girona",
-      "nivel": "Rojo",
-      "text": "Prelitoral de Girona: Aviso de lluvias de nivel naranja. Prelitoral de Girona (Rojo) (AEMET)",
+      "provincia": "Interior sur de Castellón",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Interior sur de Castellón",
+      "nivel": "Naranja",
+      "text": "Interior sur de Castellón: Aviso de lluvias de nivel amarillo. Interior sur de Castellón (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Prelitoral de Girona",
-      "fenomeno": "Severe rain warning. Prelitoral de Girona",
-      "nivel": "Rojo",
-      "text": "Prelitoral de Girona: Severe rain warning. Prelitoral de Girona (Rojo) (AEMET)",
+      "provincia": "Interior sur de Castellón",
+      "fenomeno": "Moderate rain warning. Interior sur de Castellón",
+      "nivel": "Naranja",
+      "text": "Interior sur de Castellón: Moderate rain warning. Interior sur de Castellón (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Ampurdán",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Ampurdán",
-      "nivel": "Rojo",
-      "text": "Ampurdán: Aviso de lluvias de nivel naranja. Ampurdán (Rojo) (AEMET)",
+      "provincia": "Interior norte de Valencia",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Interior norte de Valencia",
+      "nivel": "Naranja",
+      "text": "Interior norte de Valencia: Aviso de lluvias de nivel amarillo. Interior norte de Valencia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Ampurdán",
-      "fenomeno": "Severe rain warning. Ampurdán",
-      "nivel": "Rojo",
-      "text": "Ampurdán: Severe rain warning. Ampurdán (Rojo) (AEMET)",
+      "provincia": "Interior norte de Valencia",
+      "fenomeno": "Moderate rain warning. Interior norte de Valencia",
+      "nivel": "Naranja",
+      "text": "Interior norte de Valencia: Moderate rain warning. Interior norte de Valencia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Litoral sur de Girona",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Litoral sur de Girona",
-      "nivel": "Rojo",
-      "text": "Litoral sur de Girona: Aviso de lluvias de nivel naranja. Litoral sur de Girona (Rojo) (AEMET)",
+      "provincia": "Interior sur de Valencia",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Interior sur de Valencia",
+      "nivel": "Naranja",
+      "text": "Interior sur de Valencia: Aviso de lluvias de nivel amarillo. Interior sur de Valencia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Litoral sur de Girona",
-      "fenomeno": "Severe rain warning. Litoral sur de Girona",
-      "nivel": "Rojo",
-      "text": "Litoral sur de Girona: Severe rain warning. Litoral sur de Girona (Rojo) (AEMET)",
+      "provincia": "Interior sur de Valencia",
+      "fenomeno": "Moderate rain warning. Interior sur de Valencia",
+      "nivel": "Naranja",
+      "text": "Interior sur de Valencia: Moderate rain warning. Interior sur de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Interior sur de Castellón",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Interior sur de Castellón",
+      "nivel": "Naranja",
+      "text": "Interior sur de Castellón: Aviso de tormentas de nivel amarillo. Interior sur de Castellón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior sur de Castellón",
+      "fenomeno": "Moderate thunderstorm warning. Interior sur de Castellón",
+      "nivel": "Naranja",
+      "text": "Interior sur de Castellón: Moderate thunderstorm warning. Interior sur de Castellón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Interior norte de Valencia",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Interior norte de Valencia",
+      "nivel": "Naranja",
+      "text": "Interior norte de Valencia: Aviso de tormentas de nivel amarillo. Interior norte de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior norte de Valencia",
+      "fenomeno": "Moderate thunderstorm warning. Interior norte de Valencia",
+      "nivel": "Naranja",
+      "text": "Interior norte de Valencia: Moderate thunderstorm warning. Interior norte de Valencia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Prelitoral norte de Tarragona",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Prelitoral norte de Tarragona",
-      "nivel": "Rojo",
-      "text": "Prelitoral norte de Tarragona: Aviso de lluvias de nivel naranja. Prelitoral norte de Tarragona (Rojo) (AEMET)",
+      "provincia": "Interior sur de Castellón",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Interior sur de Castellón",
+      "nivel": "Naranja",
+      "text": "Interior sur de Castellón: Aviso de lluvias de nivel amarillo. Interior sur de Castellón (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Prelitoral norte de Tarragona",
-      "fenomeno": "Severe rain warning. Prelitoral norte de Tarragona",
-      "nivel": "Rojo",
-      "text": "Prelitoral norte de Tarragona: Severe rain warning. Prelitoral norte de Tarragona (Rojo) (AEMET)",
+      "provincia": "Interior sur de Castellón",
+      "fenomeno": "Moderate rain warning. Interior sur de Castellón",
+      "nivel": "Naranja",
+      "text": "Interior sur de Castellón: Moderate rain warning. Interior sur de Castellón (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Litoral norte de Tarragona",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Litoral norte de Tarragona",
-      "nivel": "Rojo",
-      "text": "Litoral norte de Tarragona: Aviso de lluvias de nivel naranja. Litoral norte de Tarragona (Rojo) (AEMET)",
+      "provincia": "Interior norte de Valencia",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Interior norte de Valencia",
+      "nivel": "Naranja",
+      "text": "Interior norte de Valencia: Aviso de lluvias de nivel amarillo. Interior norte de Valencia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Litoral norte de Tarragona",
-      "fenomeno": "Severe rain warning. Litoral norte de Tarragona",
-      "nivel": "Rojo",
-      "text": "Litoral norte de Tarragona: Severe rain warning. Litoral norte de Tarragona (Rojo) (AEMET)",
+      "provincia": "Interior norte de Valencia",
+      "fenomeno": "Moderate rain warning. Interior norte de Valencia",
+      "nivel": "Naranja",
+      "text": "Interior norte de Valencia: Moderate rain warning. Interior norte de Valencia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Litoral sur de Tarragona",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Litoral sur de Tarragona",
-      "nivel": "Rojo",
-      "text": "Litoral sur de Tarragona: Aviso de lluvias de nivel naranja. Litoral sur de Tarragona (Rojo) (AEMET)",
+      "provincia": "Centro de Navarra",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Centro de Navarra",
+      "nivel": "Naranja",
+      "text": "Centro de Navarra: Aviso de lluvias de nivel amarillo. Centro de Navarra (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Litoral sur de Tarragona",
-      "fenomeno": "Severe rain warning. Litoral sur de Tarragona",
-      "nivel": "Rojo",
-      "text": "Litoral sur de Tarragona: Severe rain warning. Litoral sur de Tarragona (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Prelitoral sur de Tarragona",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Prelitoral sur de Tarragona",
-      "nivel": "Rojo",
-      "text": "Prelitoral sur de Tarragona: Aviso de lluvias de nivel naranja. Prelitoral sur de Tarragona (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Prelitoral sur de Tarragona",
-      "fenomeno": "Severe rain warning. Prelitoral sur de Tarragona",
-      "nivel": "Rojo",
-      "text": "Prelitoral sur de Tarragona: Severe rain warning. Prelitoral sur de Tarragona (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Prelitoral de Barcelona",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Prelitoral de Barcelona",
-      "nivel": "Rojo",
-      "text": "Prelitoral de Barcelona: Aviso de lluvias de nivel naranja. Prelitoral de Barcelona (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Prelitoral de Barcelona",
-      "fenomeno": "Severe rain warning. Prelitoral de Barcelona",
-      "nivel": "Rojo",
-      "text": "Prelitoral de Barcelona: Severe rain warning. Prelitoral de Barcelona (Rojo) (AEMET)",
+      "provincia": "Centro de Navarra",
+      "fenomeno": "Moderate rain warning. Centro de Navarra",
+      "nivel": "Naranja",
+      "text": "Centro de Navarra: Moderate rain warning. Centro de Navarra (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
