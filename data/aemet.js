@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-09-29T05:39:26.505Z
+// Auto-generado por GitHub Actions - 2026-09-29T11:33:50.872Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-09-29T05:39:26.505Z",
+  "generated_at": "2026-09-29T11:33:50.872Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
+      "icon": "💨",
+      "provincia": "Liébana",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Liébana",
+      "nivel": "Naranja",
+      "text": "Liébana: Aviso de vientos de nivel amarillo. Liébana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Liébana",
+      "fenomeno": "Moderate wind warning. Liébana",
+      "nivel": "Naranja",
+      "text": "Liébana: Moderate wind warning. Liébana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
       "icon": "🌧️",
-      "provincia": "Litoral norte de Valencia",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Litoral norte de Valencia",
+      "provincia": "Vertiente cantábrica de Navarra",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Vertiente cantábrica de Navarra",
+      "nivel": "Naranja",
+      "text": "Vertiente cantábrica de Navarra: Aviso de lluvias de nivel amarillo. Vertiente cantábrica de Navarra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Vertiente cantábrica de Navarra",
+      "fenomeno": "Moderate rain warning. Vertiente cantábrica de Navarra",
+      "nivel": "Naranja",
+      "text": "Vertiente cantábrica de Navarra: Moderate rain warning. Vertiente cantábrica de Navarra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Pirineo navarro",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Pirineo navarro",
+      "nivel": "Naranja",
+      "text": "Pirineo navarro: Aviso de lluvias de nivel amarillo. Pirineo navarro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Pirineo navarro",
+      "fenomeno": "Moderate rain warning. Pirineo navarro",
+      "nivel": "Naranja",
+      "text": "Pirineo navarro: Moderate rain warning. Pirineo navarro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Vertiente cantábrica de Navarra",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Vertiente cantábrica de Navarra",
+      "nivel": "Naranja",
+      "text": "Vertiente cantábrica de Navarra: Aviso de lluvias de nivel amarillo. Vertiente cantábrica de Navarra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Vertiente cantábrica de Navarra",
+      "fenomeno": "Moderate rain warning. Vertiente cantábrica de Navarra",
+      "nivel": "Naranja",
+      "text": "Vertiente cantábrica de Navarra: Moderate rain warning. Vertiente cantábrica de Navarra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Pirineo navarro",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Pirineo navarro",
+      "nivel": "Naranja",
+      "text": "Pirineo navarro: Aviso de lluvias de nivel amarillo. Pirineo navarro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Pirineo navarro",
+      "fenomeno": "Moderate rain warning. Pirineo navarro",
+      "nivel": "Naranja",
+      "text": "Pirineo navarro: Moderate rain warning. Pirineo navarro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Oeste de A Coruña",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Oeste de A Coruña",
       "nivel": "Rojo",
-      "text": "Litoral norte de Valencia: Aviso de lluvias de nivel naranja. Litoral norte de Valencia (Rojo) (AEMET)",
+      "text": "Costa - Oeste de A Coruña: Aviso de costeros de nivel naranja. Costa - Oeste de A Coruña (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⚠️",
-      "provincia": "Litoral norte de Valencia",
-      "fenomeno": "Severe rain warning. Litoral norte de Valencia",
+      "icon": "🌊",
+      "provincia": "Costa - Oeste de A Coruña",
+      "fenomeno": "Severe coastalevent warning. Costa - Oeste de A Coruña",
       "nivel": "Rojo",
-      "text": "Litoral norte de Valencia: Severe rain warning. Litoral norte de Valencia (Rojo) (AEMET)",
+      "text": "Costa - Oeste de A Coruña: Severe coastalevent warning. Costa - Oeste de A Coruña (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Litoral norte de Valencia",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral norte de Valencia",
-      "nivel": "Naranja",
-      "text": "Litoral norte de Valencia: Aviso de lluvias de nivel amarillo. Litoral norte de Valencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral norte de Valencia",
-      "fenomeno": "Moderate rain warning. Litoral norte de Valencia",
-      "nivel": "Naranja",
-      "text": "Litoral norte de Valencia: Moderate rain warning. Litoral norte de Valencia (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Norte de Cáceres",
-      "fenomeno": "Aviso de lluvias de nivel rojo. Norte de Cáceres",
+      "icon": "🌊",
+      "provincia": "Costa - Suroeste de A Coruña",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Suroeste de A Coruña",
       "nivel": "Rojo",
-      "text": "Norte de Cáceres: Aviso de lluvias de nivel rojo. Norte de Cáceres (Rojo) (AEMET)",
+      "text": "Costa - Suroeste de A Coruña: Aviso de costeros de nivel naranja. Costa - Suroeste de A Coruña (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⚠️",
-      "provincia": "Norte de Cáceres",
-      "fenomeno": "Extreme rain warning. Norte de Cáceres",
+      "icon": "🌊",
+      "provincia": "Costa - Suroeste de A Coruña",
+      "fenomeno": "Severe coastalevent warning. Costa - Suroeste de A Coruña",
       "nivel": "Rojo",
-      "text": "Norte de Cáceres: Extreme rain warning. Norte de Cáceres (Rojo) (AEMET)",
+      "text": "Costa - Suroeste de A Coruña: Severe coastalevent warning. Costa - Suroeste de A Coruña (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Tajo y Alagón",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Tajo y Alagón",
+      "icon": "🌊",
+      "provincia": "Costa - Rias Baixas",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Rias Baixas",
       "nivel": "Rojo",
-      "text": "Tajo y Alagón: Aviso de lluvias de nivel naranja. Tajo y Alagón (Rojo) (AEMET)",
+      "text": "Costa - Rias Baixas: Aviso de costeros de nivel naranja. Costa - Rias Baixas (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⚠️",
-      "provincia": "Tajo y Alagón",
-      "fenomeno": "Severe rain warning. Tajo y Alagón",
+      "icon": "🌊",
+      "provincia": "Costa - Rias Baixas",
+      "fenomeno": "Severe coastalevent warning. Costa - Rias Baixas",
       "nivel": "Rojo",
-      "text": "Tajo y Alagón: Severe rain warning. Tajo y Alagón (Rojo) (AEMET)",
+      "text": "Costa - Rias Baixas: Severe coastalevent warning. Costa - Rias Baixas (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Vegas del Guadiana",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Vegas del Guadiana",
-      "nivel": "Naranja",
-      "text": "Vegas del Guadiana: Aviso de lluvias de nivel amarillo. Vegas del Guadiana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Vegas del Guadiana",
-      "fenomeno": "Moderate rain warning. Vegas del Guadiana",
-      "nivel": "Naranja",
-      "text": "Vegas del Guadiana: Moderate rain warning. Vegas del Guadiana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Barros y Serena",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Barros y Serena",
-      "nivel": "Naranja",
-      "text": "Barros y Serena: Aviso de lluvias de nivel amarillo. Barros y Serena (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Barros y Serena",
-      "fenomeno": "Moderate rain warning. Barros y Serena",
-      "nivel": "Naranja",
-      "text": "Barros y Serena: Moderate rain warning. Barros y Serena (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Norte de Cáceres",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Norte de Cáceres",
-      "nivel": "Naranja",
-      "text": "Norte de Cáceres: Aviso de lluvias de nivel amarillo. Norte de Cáceres (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Norte de Cáceres",
-      "fenomeno": "Moderate rain warning. Norte de Cáceres",
-      "nivel": "Naranja",
-      "text": "Norte de Cáceres: Moderate rain warning. Norte de Cáceres (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Tajo y Alagón",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Tajo y Alagón",
-      "nivel": "Naranja",
-      "text": "Tajo y Alagón: Aviso de lluvias de nivel amarillo. Tajo y Alagón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Tajo y Alagón",
-      "fenomeno": "Moderate rain warning. Tajo y Alagón",
-      "nivel": "Naranja",
-      "text": "Tajo y Alagón: Moderate rain warning. Tajo y Alagón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Meseta cacereña",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Meseta cacereña",
-      "nivel": "Naranja",
-      "text": "Meseta cacereña: Aviso de lluvias de nivel amarillo. Meseta cacereña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Meseta cacereña",
-      "fenomeno": "Moderate rain warning. Meseta cacereña",
-      "nivel": "Naranja",
-      "text": "Meseta cacereña: Moderate rain warning. Meseta cacereña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Prelitoral norte de Tarragona",
-      "fenomeno": "Aviso de lluvias de nivel rojo. Prelitoral norte de Tarragona",
+      "icon": "🌊",
+      "provincia": "Costa - Miño de Pontevedra",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Miño de Pontevedra",
       "nivel": "Rojo",
-      "text": "Prelitoral norte de Tarragona: Aviso de lluvias de nivel rojo. Prelitoral norte de Tarragona (Rojo) (AEMET)",
+      "text": "Costa - Miño de Pontevedra: Aviso de costeros de nivel naranja. Costa - Miño de Pontevedra (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⚠️",
-      "provincia": "Prelitoral norte de Tarragona",
-      "fenomeno": "Extreme rain warning. Prelitoral norte de Tarragona",
+      "icon": "🌊",
+      "provincia": "Costa - Miño de Pontevedra",
+      "fenomeno": "Severe coastalevent warning. Costa - Miño de Pontevedra",
       "nivel": "Rojo",
-      "text": "Prelitoral norte de Tarragona: Extreme rain warning. Prelitoral norte de Tarragona (Rojo) (AEMET)",
+      "text": "Costa - Miño de Pontevedra: Severe coastalevent warning. Costa - Miño de Pontevedra (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Noroeste de A Coruña",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Noroeste de A Coruña",
+      "nivel": "Naranja",
+      "text": "Costa - Noroeste de A Coruña: Aviso de costeros de nivel amarillo. Costa - Noroeste de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Noroeste de A Coruña",
+      "fenomeno": "Moderate coastalevent warning. Costa - Noroeste de A Coruña",
+      "nivel": "Naranja",
+      "text": "Costa - Noroeste de A Coruña: Moderate coastalevent warning. Costa - Noroeste de A Coruña (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
