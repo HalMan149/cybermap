@@ -1,9 +1,57 @@
-// Auto-generado por GitHub Actions - 2026-09-29T21:23:02.147Z
+// Auto-generado por GitHub Actions - 2026-09-30T00:37:18.586Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-09-29T21:23:02.147Z",
+  "generated_at": "2026-09-30T00:37:18.586Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Ampurdán",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Ampurdán",
+      "nivel": "Rojo",
+      "text": "Ampurdán: Aviso de lluvias de nivel naranja. Ampurdán (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ampurdán",
+      "fenomeno": "Severe rain warning. Ampurdán",
+      "nivel": "Rojo",
+      "text": "Ampurdán: Severe rain warning. Ampurdán (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Ampurdán",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Ampurdán",
+      "nivel": "Rojo",
+      "text": "Ampurdán: Aviso de lluvias de nivel naranja. Ampurdán (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ampurdán",
+      "fenomeno": "Severe rain warning. Ampurdán",
+      "nivel": "Rojo",
+      "text": "Ampurdán: Severe rain warning. Ampurdán (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Ampurdán",
+      "fenomeno": "Aviso de tormentas de nivel naranja. Ampurdán",
+      "nivel": "Rojo",
+      "text": "Ampurdán: Aviso de tormentas de nivel naranja. Ampurdán (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ampurdán",
+      "fenomeno": "Severe thunderstorm warning. Ampurdán",
+      "nivel": "Rojo",
+      "text": "Ampurdán: Severe thunderstorm warning. Ampurdán (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Interior de Pontevedra",
@@ -114,54 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Severe rain warning. Prelitoral sur de Tarragona",
       "nivel": "Rojo",
       "text": "Prelitoral sur de Tarragona: Severe rain warning. Prelitoral sur de Tarragona (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Interior norte de Castellón",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Interior norte de Castellón",
-      "nivel": "Rojo",
-      "text": "Interior norte de Castellón: Aviso de lluvias de nivel naranja. Interior norte de Castellón (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Interior norte de Castellón",
-      "fenomeno": "Severe rain warning. Interior norte de Castellón",
-      "nivel": "Rojo",
-      "text": "Interior norte de Castellón: Severe rain warning. Interior norte de Castellón (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Litoral norte de Castellón",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Litoral norte de Castellón",
-      "nivel": "Rojo",
-      "text": "Litoral norte de Castellón: Aviso de lluvias de nivel naranja. Litoral norte de Castellón (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral norte de Castellón",
-      "fenomeno": "Severe rain warning. Litoral norte de Castellón",
-      "nivel": "Rojo",
-      "text": "Litoral norte de Castellón: Severe rain warning. Litoral norte de Castellón (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Pirineo oscense",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Pirineo oscense",
-      "nivel": "Naranja",
-      "text": "Pirineo oscense: Aviso de lluvias de nivel amarillo. Pirineo oscense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Pirineo oscense",
-      "fenomeno": "Moderate rain warning. Pirineo oscense",
-      "nivel": "Naranja",
-      "text": "Pirineo oscense: Moderate rain warning. Pirineo oscense (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
