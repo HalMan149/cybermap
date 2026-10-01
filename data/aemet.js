@@ -1,9 +1,41 @@
-// Auto-generado por GitHub Actions - 2026-10-01T19:10:12.814Z
+// Auto-generado por GitHub Actions - 2026-10-01T23:09:41.868Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-10-01T19:10:12.814Z",
+  "generated_at": "2026-10-01T23:09:41.868Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Interior de Alicante",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Interior de Alicante",
+      "nivel": "Naranja",
+      "text": "Interior de Alicante: Aviso de lluvias de nivel amarillo. Interior de Alicante (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior de Alicante",
+      "fenomeno": "Moderate rain warning. Interior de Alicante",
+      "nivel": "Naranja",
+      "text": "Interior de Alicante: Moderate rain warning. Interior de Alicante (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Interior de Alicante",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Interior de Alicante",
+      "nivel": "Naranja",
+      "text": "Interior de Alicante: Aviso de tormentas de nivel amarillo. Interior de Alicante (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior de Alicante",
+      "fenomeno": "Moderate thunderstorm warning. Interior de Alicante",
+      "nivel": "Naranja",
+      "text": "Interior de Alicante: Moderate thunderstorm warning. Interior de Alicante (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "⛈️",
       "provincia": "Nacimiento y Campo de Tabernas",
@@ -130,38 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate thunderstorm warning. Vegas del Guadiana",
       "nivel": "Naranja",
       "text": "Vegas del Guadiana: Moderate thunderstorm warning. Vegas del Guadiana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "La Siberia extremeña",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. La Siberia extremeña",
-      "nivel": "Naranja",
-      "text": "La Siberia extremeña: Aviso de tormentas de nivel amarillo. La Siberia extremeña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "La Siberia extremeña",
-      "fenomeno": "Moderate thunderstorm warning. La Siberia extremeña",
-      "nivel": "Naranja",
-      "text": "La Siberia extremeña: Moderate thunderstorm warning. La Siberia extremeña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Barros y Serena",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Barros y Serena",
-      "nivel": "Naranja",
-      "text": "Barros y Serena: Aviso de tormentas de nivel amarillo. Barros y Serena (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Barros y Serena",
-      "fenomeno": "Moderate thunderstorm warning. Barros y Serena",
-      "nivel": "Naranja",
-      "text": "Barros y Serena: Moderate thunderstorm warning. Barros y Serena (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
