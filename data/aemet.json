@@ -1,166 +1,166 @@
 {
-  "generated_at": "2026-10-01T13:54:36.665Z",
+  "generated_at": "2026-10-01T19:10:12.814Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "🌧️",
-      "provincia": "Litoral norte de Tarragona",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Litoral norte de Tarragona",
+      "icon": "⛈️",
+      "provincia": "Nacimiento y Campo de Tabernas",
+      "fenomeno": "Aviso de tormentas de nivel naranja. Nacimiento y Campo de Tabernas",
       "nivel": "Rojo",
-      "text": "Litoral norte de Tarragona: Aviso de lluvias de nivel naranja. Litoral norte de Tarragona (Rojo) (AEMET)",
+      "text": "Nacimiento y Campo de Tabernas: Aviso de tormentas de nivel naranja. Nacimiento y Campo de Tabernas (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Litoral norte de Tarragona",
-      "fenomeno": "Severe rain warning. Litoral norte de Tarragona",
+      "provincia": "Nacimiento y Campo de Tabernas",
+      "fenomeno": "Severe thunderstorm warning. Nacimiento y Campo de Tabernas",
       "nivel": "Rojo",
-      "text": "Litoral norte de Tarragona: Severe rain warning. Litoral norte de Tarragona (Rojo) (AEMET)",
+      "text": "Nacimiento y Campo de Tabernas: Severe thunderstorm warning. Nacimiento y Campo de Tabernas (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Nacimiento y Campo de Tabernas",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Nacimiento y Campo de Tabernas",
+      "nivel": "Naranja",
+      "text": "Nacimiento y Campo de Tabernas: Aviso de tormentas de nivel amarillo. Nacimiento y Campo de Tabernas (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Nacimiento y Campo de Tabernas",
+      "fenomeno": "Moderate thunderstorm warning. Nacimiento y Campo de Tabernas",
+      "nivel": "Naranja",
+      "text": "Nacimiento y Campo de Tabernas: Moderate thunderstorm warning. Nacimiento y Campo de Tabernas (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Prelitoral norte de Tarragona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Prelitoral norte de Tarragona",
+      "provincia": "Nacimiento y Campo de Tabernas",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Nacimiento y Campo de Tabernas",
       "nivel": "Naranja",
-      "text": "Prelitoral norte de Tarragona: Aviso de lluvias de nivel amarillo. Prelitoral norte de Tarragona (Naranja) (AEMET)",
+      "text": "Nacimiento y Campo de Tabernas: Aviso de lluvias de nivel amarillo. Nacimiento y Campo de Tabernas (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Prelitoral norte de Tarragona",
-      "fenomeno": "Moderate rain warning. Prelitoral norte de Tarragona",
+      "provincia": "Nacimiento y Campo de Tabernas",
+      "fenomeno": "Moderate rain warning. Nacimiento y Campo de Tabernas",
       "nivel": "Naranja",
-      "text": "Prelitoral norte de Tarragona: Moderate rain warning. Prelitoral norte de Tarragona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Prelitoral norte de Tarragona",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Prelitoral norte de Tarragona",
-      "nivel": "Naranja",
-      "text": "Prelitoral norte de Tarragona: Aviso de tormentas de nivel amarillo. Prelitoral norte de Tarragona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Prelitoral norte de Tarragona",
-      "fenomeno": "Moderate thunderstorm warning. Prelitoral norte de Tarragona",
-      "nivel": "Naranja",
-      "text": "Prelitoral norte de Tarragona: Moderate thunderstorm warning. Prelitoral norte de Tarragona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Litoral norte de Tarragona",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Litoral norte de Tarragona",
-      "nivel": "Naranja",
-      "text": "Litoral norte de Tarragona: Aviso de tormentas de nivel amarillo. Litoral norte de Tarragona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral norte de Tarragona",
-      "fenomeno": "Moderate thunderstorm warning. Litoral norte de Tarragona",
-      "nivel": "Naranja",
-      "text": "Litoral norte de Tarragona: Moderate thunderstorm warning. Litoral norte de Tarragona (Naranja) (AEMET)",
+      "text": "Nacimiento y Campo de Tabernas: Moderate rain warning. Nacimiento y Campo de Tabernas (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Depresión central de Barcelona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Depresión central de Barcelona",
+      "provincia": "Interior norte de Castellón",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Interior norte de Castellón",
       "nivel": "Naranja",
-      "text": "Depresión central de Barcelona: Aviso de lluvias de nivel amarillo. Depresión central de Barcelona (Naranja) (AEMET)",
+      "text": "Interior norte de Castellón: Aviso de lluvias de nivel amarillo. Interior norte de Castellón (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Depresión central de Barcelona",
-      "fenomeno": "Moderate rain warning. Depresión central de Barcelona",
+      "provincia": "Interior norte de Castellón",
+      "fenomeno": "Moderate rain warning. Interior norte de Castellón",
       "nivel": "Naranja",
-      "text": "Depresión central de Barcelona: Moderate rain warning. Depresión central de Barcelona (Naranja) (AEMET)",
+      "text": "Interior norte de Castellón: Moderate rain warning. Interior norte de Castellón (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Prelitoral de Barcelona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Prelitoral de Barcelona",
+      "provincia": "Interior sur de Castellón",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Interior sur de Castellón",
       "nivel": "Naranja",
-      "text": "Prelitoral de Barcelona: Aviso de lluvias de nivel amarillo. Prelitoral de Barcelona (Naranja) (AEMET)",
+      "text": "Interior sur de Castellón: Aviso de lluvias de nivel amarillo. Interior sur de Castellón (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Prelitoral de Barcelona",
-      "fenomeno": "Moderate rain warning. Prelitoral de Barcelona",
+      "provincia": "Interior sur de Castellón",
+      "fenomeno": "Moderate rain warning. Interior sur de Castellón",
       "nivel": "Naranja",
-      "text": "Prelitoral de Barcelona: Moderate rain warning. Prelitoral de Barcelona (Naranja) (AEMET)",
+      "text": "Interior sur de Castellón: Moderate rain warning. Interior sur de Castellón (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Litoral de Barcelona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral de Barcelona",
+      "provincia": "Litoral sur de Castellón",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral sur de Castellón",
       "nivel": "Naranja",
-      "text": "Litoral de Barcelona: Aviso de lluvias de nivel amarillo. Litoral de Barcelona (Naranja) (AEMET)",
+      "text": "Litoral sur de Castellón: Aviso de lluvias de nivel amarillo. Litoral sur de Castellón (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Litoral de Barcelona",
-      "fenomeno": "Moderate rain warning. Litoral de Barcelona",
+      "provincia": "Litoral sur de Castellón",
+      "fenomeno": "Moderate rain warning. Litoral sur de Castellón",
       "nivel": "Naranja",
-      "text": "Litoral de Barcelona: Moderate rain warning. Litoral de Barcelona (Naranja) (AEMET)",
+      "text": "Litoral sur de Castellón: Moderate rain warning. Litoral sur de Castellón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Litoral norte de Valencia",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral norte de Valencia",
+      "nivel": "Naranja",
+      "text": "Litoral norte de Valencia: Aviso de lluvias de nivel amarillo. Litoral norte de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral norte de Valencia",
+      "fenomeno": "Moderate rain warning. Litoral norte de Valencia",
+      "nivel": "Naranja",
+      "text": "Litoral norte de Valencia: Moderate rain warning. Litoral norte de Valencia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Depresión central de Barcelona",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Depresión central de Barcelona",
+      "provincia": "Vegas del Guadiana",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Vegas del Guadiana",
       "nivel": "Naranja",
-      "text": "Depresión central de Barcelona: Aviso de tormentas de nivel amarillo. Depresión central de Barcelona (Naranja) (AEMET)",
+      "text": "Vegas del Guadiana: Aviso de tormentas de nivel amarillo. Vegas del Guadiana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Depresión central de Barcelona",
-      "fenomeno": "Moderate thunderstorm warning. Depresión central de Barcelona",
+      "provincia": "Vegas del Guadiana",
+      "fenomeno": "Moderate thunderstorm warning. Vegas del Guadiana",
       "nivel": "Naranja",
-      "text": "Depresión central de Barcelona: Moderate thunderstorm warning. Depresión central de Barcelona (Naranja) (AEMET)",
+      "text": "Vegas del Guadiana: Moderate thunderstorm warning. Vegas del Guadiana (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Prelitoral de Barcelona",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Prelitoral de Barcelona",
+      "provincia": "La Siberia extremeña",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. La Siberia extremeña",
       "nivel": "Naranja",
-      "text": "Prelitoral de Barcelona: Aviso de tormentas de nivel amarillo. Prelitoral de Barcelona (Naranja) (AEMET)",
+      "text": "La Siberia extremeña: Aviso de tormentas de nivel amarillo. La Siberia extremeña (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Prelitoral de Barcelona",
-      "fenomeno": "Moderate thunderstorm warning. Prelitoral de Barcelona",
+      "provincia": "La Siberia extremeña",
+      "fenomeno": "Moderate thunderstorm warning. La Siberia extremeña",
       "nivel": "Naranja",
-      "text": "Prelitoral de Barcelona: Moderate thunderstorm warning. Prelitoral de Barcelona (Naranja) (AEMET)",
+      "text": "La Siberia extremeña: Moderate thunderstorm warning. La Siberia extremeña (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Litoral de Barcelona",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Litoral de Barcelona",
+      "provincia": "Barros y Serena",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Barros y Serena",
       "nivel": "Naranja",
-      "text": "Litoral de Barcelona: Aviso de tormentas de nivel amarillo. Litoral de Barcelona (Naranja) (AEMET)",
+      "text": "Barros y Serena: Aviso de tormentas de nivel amarillo. Barros y Serena (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Litoral de Barcelona",
-      "fenomeno": "Moderate thunderstorm warning. Litoral de Barcelona",
+      "provincia": "Barros y Serena",
+      "fenomeno": "Moderate thunderstorm warning. Barros y Serena",
       "nivel": "Naranja",
-      "text": "Litoral de Barcelona: Moderate thunderstorm warning. Litoral de Barcelona (Naranja) (AEMET)",
+      "text": "Barros y Serena: Moderate thunderstorm warning. Barros y Serena (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
