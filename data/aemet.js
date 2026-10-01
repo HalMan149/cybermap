@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2026-10-01T00:49:28.178Z
+// Auto-generado por GitHub Actions - 2026-10-01T06:42:37.526Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-10-01T00:49:28.178Z",
+  "generated_at": "2026-10-01T06:42:37.526Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Este de La Palma",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Este de La Palma",
+      "nivel": "Naranja",
+      "text": "Este de La Palma: Aviso de lluvias de nivel amarillo. Este de La Palma (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Este de La Palma",
+      "fenomeno": "Moderate rain warning. Este de La Palma",
+      "nivel": "Naranja",
+      "text": "Este de La Palma: Moderate rain warning. Este de La Palma (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Interior sur de Castellón",
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Severe thunderstorm warning. Interior norte de Castellón",
       "nivel": "Rojo",
       "text": "Interior norte de Castellón: Severe thunderstorm warning. Interior norte de Castellón (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Litoral norte de Castellón",
-      "fenomeno": "Aviso de tormentas de nivel naranja. Litoral norte de Castellón",
-      "nivel": "Rojo",
-      "text": "Litoral norte de Castellón: Aviso de tormentas de nivel naranja. Litoral norte de Castellón (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral norte de Castellón",
-      "fenomeno": "Severe thunderstorm warning. Litoral norte de Castellón",
-      "nivel": "Rojo",
-      "text": "Litoral norte de Castellón: Severe thunderstorm warning. Litoral norte de Castellón (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
