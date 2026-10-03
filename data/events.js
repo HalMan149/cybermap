@@ -1,10 +1,10 @@
-// Auto-generado por GitHub Actions - 2026-10-03T13:17:54.323Z
+// Auto-generado por GitHub Actions - 2026-10-03T17:26:00.922Z
 window.CYBER_EVENTS = {
-  "generated_at": "2026-10-03T13:17:54.323Z",
-  "total_events": 218,
+  "generated_at": "2026-10-03T17:26:00.922Z",
+  "total_events": 221,
   "sources": {
     "firehol": 46,
-    "ransomware": 81,
+    "ransomware": 84,
     "feodo": 1,
     "ipsum": 30,
     "blocklist": 30,
@@ -12,8 +12,178 @@ window.CYBER_EVENTS = {
   },
   "events": [
     {
+      "id": "sans-184.105.247.238",
+      "ts": "2026-10-03T17:26:00.149Z",
+      "feed": "sans-isc",
+      "type": "honeypot-attack",
+      "indicator": "184.105.247.238",
+      "src_geo": {
+        "lat": 39.0452,
+        "lon": -94.7189,
+        "cc": "United States"
+      },
+      "actor": {
+        "name": "Scanner",
+        "confidence": "low"
+      },
+      "attacks": 2135
+    },
+    {
+      "id": "sans-193.163.125.254",
+      "ts": "2026-10-03T17:26:00.149Z",
+      "feed": "sans-isc",
+      "type": "honeypot-attack",
+      "indicator": "193.163.125.254",
+      "src_geo": {
+        "lat": 51.4964,
+        "lon": -0.1224,
+        "cc": "United Kingdom"
+      },
+      "actor": {
+        "name": "Scanner",
+        "confidence": "low"
+      },
+      "attacks": 610
+    },
+    {
+      "id": "sans-199.45.154.183",
+      "ts": "2026-10-03T17:26:00.149Z",
+      "feed": "sans-isc",
+      "type": "honeypot-attack",
+      "indicator": "199.45.154.183",
+      "src_geo": {
+        "lat": 37.751,
+        "lon": -97.822,
+        "cc": "United States"
+      },
+      "actor": {
+        "name": "Scanner",
+        "confidence": "low"
+      },
+      "attacks": 528
+    },
+    {
+      "id": "sans-199.45.154.176",
+      "ts": "2026-10-03T17:26:00.149Z",
+      "feed": "sans-isc",
+      "type": "honeypot-attack",
+      "indicator": "199.45.154.176",
+      "src_geo": {
+        "lat": 37.751,
+        "lon": -97.822,
+        "cc": "United States"
+      },
+      "actor": {
+        "name": "Scanner",
+        "confidence": "low"
+      },
+      "attacks": 526
+    },
+    {
+      "id": "sans-199.45.154.185",
+      "ts": "2026-10-03T17:26:00.149Z",
+      "feed": "sans-isc",
+      "type": "honeypot-attack",
+      "indicator": "199.45.154.185",
+      "src_geo": {
+        "lat": 37.751,
+        "lon": -97.822,
+        "cc": "United States"
+      },
+      "actor": {
+        "name": "Scanner",
+        "confidence": "low"
+      },
+      "attacks": 524
+    },
+    {
+      "id": "sans-51.158.205.203",
+      "ts": "2026-10-03T17:26:00.149Z",
+      "feed": "sans-isc",
+      "type": "honeypot-attack",
+      "indicator": "51.158.205.203",
+      "src_geo": {
+        "lat": 52.3803,
+        "lon": 4.6422,
+        "cc": "The Netherlands"
+      },
+      "actor": {
+        "name": "Scanner",
+        "confidence": "low"
+      },
+      "attacks": 523
+    },
+    {
+      "id": "sans-199.45.154.180",
+      "ts": "2026-10-03T17:26:00.149Z",
+      "feed": "sans-isc",
+      "type": "honeypot-attack",
+      "indicator": "199.45.154.180",
+      "src_geo": {
+        "lat": 37.751,
+        "lon": -97.822,
+        "cc": "United States"
+      },
+      "actor": {
+        "name": "Scanner",
+        "confidence": "low"
+      },
+      "attacks": 520
+    },
+    {
+      "id": "sans-199.45.154.178",
+      "ts": "2026-10-03T17:26:00.149Z",
+      "feed": "sans-isc",
+      "type": "honeypot-attack",
+      "indicator": "199.45.154.178",
+      "src_geo": {
+        "lat": 37.751,
+        "lon": -97.822,
+        "cc": "United States"
+      },
+      "actor": {
+        "name": "Scanner",
+        "confidence": "low"
+      },
+      "attacks": 517
+    },
+    {
+      "id": "sans-199.45.154.177",
+      "ts": "2026-10-03T17:26:00.149Z",
+      "feed": "sans-isc",
+      "type": "honeypot-attack",
+      "indicator": "199.45.154.177",
+      "src_geo": {
+        "lat": 37.751,
+        "lon": -97.822,
+        "cc": "United States"
+      },
+      "actor": {
+        "name": "Scanner",
+        "confidence": "low"
+      },
+      "attacks": 516
+    },
+    {
+      "id": "sans-199.45.154.182",
+      "ts": "2026-10-03T17:26:00.149Z",
+      "feed": "sans-isc",
+      "type": "honeypot-attack",
+      "indicator": "199.45.154.182",
+      "src_geo": {
+        "lat": 37.751,
+        "lon": -97.822,
+        "cc": "United States"
+      },
+      "actor": {
+        "name": "Scanner",
+        "confidence": "low"
+      },
+      "attacks": 515
+    },
+    {
       "id": "sans-185.94.111.1",
-      "ts": "2026-10-03T13:17:53.479Z",
+      "ts": "2026-10-03T17:26:00.148Z",
       "feed": "sans-isc",
       "type": "honeypot-attack",
       "indicator": "185.94.111.1",
@@ -29,8 +199,25 @@ window.CYBER_EVENTS = {
       "attacks": 7310
     },
     {
+      "id": "sans-74.50.61.103",
+      "ts": "2026-10-03T17:26:00.148Z",
+      "feed": "sans-isc",
+      "type": "honeypot-attack",
+      "indicator": "74.50.61.103",
+      "src_geo": {
+        "lat": 37.751,
+        "lon": -97.822,
+        "cc": "United States"
+      },
+      "actor": {
+        "name": "Scanner",
+        "confidence": "low"
+      },
+      "attacks": 5888
+    },
+    {
       "id": "sans-66.240.205.34",
-      "ts": "2026-10-03T13:17:53.479Z",
+      "ts": "2026-10-03T17:26:00.148Z",
       "feed": "sans-isc",
       "type": "honeypot-attack",
       "indicator": "66.240.205.34",
@@ -46,59 +233,8 @@ window.CYBER_EVENTS = {
       "attacks": 4671
     },
     {
-      "id": "sans-207.90.244.6",
-      "ts": "2026-10-03T13:17:53.479Z",
-      "feed": "sans-isc",
-      "type": "honeypot-attack",
-      "indicator": "207.90.244.6",
-      "src_geo": {
-        "lat": 37.751,
-        "lon": -97.822,
-        "cc": "United States"
-      },
-      "actor": {
-        "name": "Scanner",
-        "confidence": "low"
-      },
-      "attacks": 4525
-    },
-    {
-      "id": "sans-80.82.77.33",
-      "ts": "2026-10-03T13:17:53.479Z",
-      "feed": "sans-isc",
-      "type": "honeypot-attack",
-      "indicator": "80.82.77.33",
-      "src_geo": {
-        "lat": 52.3716,
-        "lon": 4.8883,
-        "cc": "The Netherlands"
-      },
-      "actor": {
-        "name": "Scanner",
-        "confidence": "low"
-      },
-      "attacks": 4497
-    },
-    {
-      "id": "sans-80.82.77.139",
-      "ts": "2026-10-03T13:17:53.479Z",
-      "feed": "sans-isc",
-      "type": "honeypot-attack",
-      "indicator": "80.82.77.139",
-      "src_geo": {
-        "lat": 52.3716,
-        "lon": 4.8883,
-        "cc": "The Netherlands"
-      },
-      "actor": {
-        "name": "Scanner",
-        "confidence": "low"
-      },
-      "attacks": 4488
-    },
-    {
       "id": "sans-207.90.244.3",
-      "ts": "2026-10-03T13:17:53.479Z",
+      "ts": "2026-10-03T17:26:00.148Z",
       "feed": "sans-isc",
       "type": "honeypot-attack",
       "indicator": "207.90.244.3",
@@ -115,7 +251,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "sans-207.90.244.5",
-      "ts": "2026-10-03T13:17:53.479Z",
+      "ts": "2026-10-03T17:26:00.148Z",
       "feed": "sans-isc",
       "type": "honeypot-attack",
       "indicator": "207.90.244.5",
@@ -132,7 +268,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "sans-71.6.199.23",
-      "ts": "2026-10-03T13:17:53.479Z",
+      "ts": "2026-10-03T17:26:00.148Z",
       "feed": "sans-isc",
       "type": "honeypot-attack",
       "indicator": "71.6.199.23",
@@ -149,7 +285,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "sans-167.94.145.27",
-      "ts": "2026-10-03T13:17:53.479Z",
+      "ts": "2026-10-03T17:26:00.148Z",
       "feed": "sans-isc",
       "type": "honeypot-attack",
       "indicator": "167.94.145.27",
@@ -165,25 +301,8 @@ window.CYBER_EVENTS = {
       "attacks": 4112
     },
     {
-      "id": "sans-167.94.145.29",
-      "ts": "2026-10-03T13:17:53.479Z",
-      "feed": "sans-isc",
-      "type": "honeypot-attack",
-      "indicator": "167.94.145.29",
-      "src_geo": {
-        "lat": 37.751,
-        "lon": -97.822,
-        "cc": "United States"
-      },
-      "actor": {
-        "name": "Scanner",
-        "confidence": "low"
-      },
-      "attacks": 4105
-    },
-    {
       "id": "sans-167.94.145.25",
-      "ts": "2026-10-03T13:17:53.479Z",
+      "ts": "2026-10-03T17:26:00.148Z",
       "feed": "sans-isc",
       "type": "honeypot-attack",
       "indicator": "167.94.145.25",
@@ -200,7 +319,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "sans-167.94.145.16",
-      "ts": "2026-10-03T13:17:53.479Z",
+      "ts": "2026-10-03T17:26:00.148Z",
       "feed": "sans-isc",
       "type": "honeypot-attack",
       "indicator": "167.94.145.16",
@@ -216,42 +335,8 @@ window.CYBER_EVENTS = {
       "attacks": 4078
     },
     {
-      "id": "sans-167.94.145.28",
-      "ts": "2026-10-03T13:17:53.479Z",
-      "feed": "sans-isc",
-      "type": "honeypot-attack",
-      "indicator": "167.94.145.28",
-      "src_geo": {
-        "lat": 37.751,
-        "lon": -97.822,
-        "cc": "United States"
-      },
-      "actor": {
-        "name": "Scanner",
-        "confidence": "low"
-      },
-      "attacks": 4074
-    },
-    {
-      "id": "sans-167.94.145.24",
-      "ts": "2026-10-03T13:17:53.479Z",
-      "feed": "sans-isc",
-      "type": "honeypot-attack",
-      "indicator": "167.94.145.24",
-      "src_geo": {
-        "lat": 37.751,
-        "lon": -97.822,
-        "cc": "United States"
-      },
-      "actor": {
-        "name": "Scanner",
-        "confidence": "low"
-      },
-      "attacks": 4062
-    },
-    {
       "id": "sans-167.94.145.30",
-      "ts": "2026-10-03T13:17:53.479Z",
+      "ts": "2026-10-03T17:26:00.148Z",
       "feed": "sans-isc",
       "type": "honeypot-attack",
       "indicator": "167.94.145.30",
@@ -267,25 +352,8 @@ window.CYBER_EVENTS = {
       "attacks": 4055
     },
     {
-      "id": "sans-167.94.145.31",
-      "ts": "2026-10-03T13:17:53.479Z",
-      "feed": "sans-isc",
-      "type": "honeypot-attack",
-      "indicator": "167.94.145.31",
-      "src_geo": {
-        "lat": 37.751,
-        "lon": -97.822,
-        "cc": "United States"
-      },
-      "actor": {
-        "name": "Scanner",
-        "confidence": "low"
-      },
-      "attacks": 4046
-    },
-    {
       "id": "sans-93.174.95.106",
-      "ts": "2026-10-03T13:17:53.479Z",
+      "ts": "2026-10-03T17:26:00.148Z",
       "feed": "sans-isc",
       "type": "honeypot-attack",
       "indicator": "93.174.95.106",
@@ -302,7 +370,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "sans-167.94.145.20",
-      "ts": "2026-10-03T13:17:53.479Z",
+      "ts": "2026-10-03T17:26:00.148Z",
       "feed": "sans-isc",
       "type": "honeypot-attack",
       "indicator": "167.94.145.20",
@@ -319,7 +387,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "sans-167.94.145.22",
-      "ts": "2026-10-03T13:17:53.479Z",
+      "ts": "2026-10-03T17:26:00.148Z",
       "feed": "sans-isc",
       "type": "honeypot-attack",
       "indicator": "167.94.145.22",
@@ -336,7 +404,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "sans-167.94.145.23",
-      "ts": "2026-10-03T13:17:53.479Z",
+      "ts": "2026-10-03T17:26:00.148Z",
       "feed": "sans-isc",
       "type": "honeypot-attack",
       "indicator": "167.94.145.23",
@@ -353,7 +421,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "sans-167.94.145.21",
-      "ts": "2026-10-03T13:17:53.479Z",
+      "ts": "2026-10-03T17:26:00.148Z",
       "feed": "sans-isc",
       "type": "honeypot-attack",
       "indicator": "167.94.145.21",
@@ -370,7 +438,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "sans-167.94.145.26",
-      "ts": "2026-10-03T13:17:53.479Z",
+      "ts": "2026-10-03T17:26:00.148Z",
       "feed": "sans-isc",
       "type": "honeypot-attack",
       "indicator": "167.94.145.26",
@@ -387,7 +455,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "sans-167.94.145.17",
-      "ts": "2026-10-03T13:17:53.479Z",
+      "ts": "2026-10-03T17:26:00.148Z",
       "feed": "sans-isc",
       "type": "honeypot-attack",
       "indicator": "167.94.145.17",
@@ -404,7 +472,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "sans-167.94.145.18",
-      "ts": "2026-10-03T13:17:53.479Z",
+      "ts": "2026-10-03T17:26:00.148Z",
       "feed": "sans-isc",
       "type": "honeypot-attack",
       "indicator": "167.94.145.18",
@@ -421,7 +489,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "sans-167.94.145.19",
-      "ts": "2026-10-03T13:17:53.479Z",
+      "ts": "2026-10-03T17:26:00.148Z",
       "feed": "sans-isc",
       "type": "honeypot-attack",
       "indicator": "167.94.145.19",
@@ -437,42 +505,8 @@ window.CYBER_EVENTS = {
       "attacks": 3963
     },
     {
-      "id": "sans-71.6.135.131",
-      "ts": "2026-10-03T13:17:53.479Z",
-      "feed": "sans-isc",
-      "type": "honeypot-attack",
-      "indicator": "71.6.135.131",
-      "src_geo": {
-        "lat": 37.751,
-        "lon": -97.822,
-        "cc": "United States"
-      },
-      "actor": {
-        "name": "Scanner",
-        "confidence": "low"
-      },
-      "attacks": 3902
-    },
-    {
-      "id": "sans-71.6.147.254",
-      "ts": "2026-10-03T13:17:53.479Z",
-      "feed": "sans-isc",
-      "type": "honeypot-attack",
-      "indicator": "71.6.147.254",
-      "src_geo": {
-        "lat": 37.751,
-        "lon": -97.822,
-        "cc": "United States"
-      },
-      "actor": {
-        "name": "Scanner",
-        "confidence": "low"
-      },
-      "attacks": 2883
-    },
-    {
       "id": "sans-184.105.247.247",
-      "ts": "2026-10-03T13:17:53.479Z",
+      "ts": "2026-10-03T17:26:00.148Z",
       "feed": "sans-isc",
       "type": "honeypot-attack",
       "indicator": "184.105.247.247",
@@ -488,42 +522,488 @@ window.CYBER_EVENTS = {
       "attacks": 2153
     },
     {
-      "id": "sans-184.105.247.238",
-      "ts": "2026-10-03T13:17:53.479Z",
-      "feed": "sans-isc",
-      "type": "honeypot-attack",
-      "indicator": "184.105.247.238",
+      "id": "blocklist-192.251.226.16",
+      "ts": "2026-10-03T17:26:00.122Z",
+      "feed": "blocklist.de",
+      "type": "ssh-ftp-attack",
+      "indicator": "192.251.226.16",
       "src_geo": {
-        "lat": 39.0452,
-        "lon": -94.7189,
-        "cc": "United States"
+        "lat": 51.9012,
+        "lon": 8.3872,
+        "cc": "Germany"
       },
       "actor": {
-        "name": "Scanner",
+        "name": "Attacker",
         "confidence": "low"
-      },
-      "attacks": 2135
+      }
     },
     {
-      "id": "sans-184.105.247.251",
-      "ts": "2026-10-03T13:17:53.479Z",
-      "feed": "sans-isc",
-      "type": "honeypot-attack",
-      "indicator": "184.105.247.251",
+      "id": "blocklist-192.251.226.17",
+      "ts": "2026-10-03T17:26:00.122Z",
+      "feed": "blocklist.de",
+      "type": "ssh-ftp-attack",
+      "indicator": "192.251.226.17",
       "src_geo": {
-        "lat": 39.0452,
-        "lon": -94.7189,
-        "cc": "United States"
+        "lat": 51.9012,
+        "lon": 8.3872,
+        "cc": "Germany"
       },
       "actor": {
-        "name": "Scanner",
+        "name": "Attacker",
         "confidence": "low"
+      }
+    },
+    {
+      "id": "blocklist-192.251.226.18",
+      "ts": "2026-10-03T17:26:00.122Z",
+      "feed": "blocklist.de",
+      "type": "ssh-ftp-attack",
+      "indicator": "192.251.226.18",
+      "src_geo": {
+        "lat": 51.9012,
+        "lon": 8.3872,
+        "cc": "Germany"
       },
-      "attacks": 1884
+      "actor": {
+        "name": "Attacker",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "blocklist-192.251.226.19",
+      "ts": "2026-10-03T17:26:00.122Z",
+      "feed": "blocklist.de",
+      "type": "ssh-ftp-attack",
+      "indicator": "192.251.226.19",
+      "src_geo": {
+        "lat": 51.9012,
+        "lon": 8.3872,
+        "cc": "Germany"
+      },
+      "actor": {
+        "name": "Attacker",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "blocklist-192.251.226.20",
+      "ts": "2026-10-03T17:26:00.122Z",
+      "feed": "blocklist.de",
+      "type": "ssh-ftp-attack",
+      "indicator": "192.251.226.20",
+      "src_geo": {
+        "lat": 51.9012,
+        "lon": 8.3872,
+        "cc": "Germany"
+      },
+      "actor": {
+        "name": "Attacker",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "blocklist-192.251.226.21",
+      "ts": "2026-10-03T17:26:00.122Z",
+      "feed": "blocklist.de",
+      "type": "ssh-ftp-attack",
+      "indicator": "192.251.226.21",
+      "src_geo": {
+        "lat": 51.9012,
+        "lon": 8.3872,
+        "cc": "Germany"
+      },
+      "actor": {
+        "name": "Attacker",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "blocklist-192.251.226.22",
+      "ts": "2026-10-03T17:26:00.122Z",
+      "feed": "blocklist.de",
+      "type": "ssh-ftp-attack",
+      "indicator": "192.251.226.22",
+      "src_geo": {
+        "lat": 51.9012,
+        "lon": 8.3872,
+        "cc": "Germany"
+      },
+      "actor": {
+        "name": "Attacker",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "blocklist-192.251.226.23",
+      "ts": "2026-10-03T17:26:00.122Z",
+      "feed": "blocklist.de",
+      "type": "ssh-ftp-attack",
+      "indicator": "192.251.226.23",
+      "src_geo": {
+        "lat": 51.9012,
+        "lon": 8.3872,
+        "cc": "Germany"
+      },
+      "actor": {
+        "name": "Attacker",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "blocklist-192.251.226.24",
+      "ts": "2026-10-03T17:26:00.122Z",
+      "feed": "blocklist.de",
+      "type": "ssh-ftp-attack",
+      "indicator": "192.251.226.24",
+      "src_geo": {
+        "lat": 51.9012,
+        "lon": 8.3872,
+        "cc": "Germany"
+      },
+      "actor": {
+        "name": "Attacker",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "blocklist-192.251.226.25",
+      "ts": "2026-10-03T17:26:00.122Z",
+      "feed": "blocklist.de",
+      "type": "ssh-ftp-attack",
+      "indicator": "192.251.226.25",
+      "src_geo": {
+        "lat": 51.9012,
+        "lon": 8.3872,
+        "cc": "Germany"
+      },
+      "actor": {
+        "name": "Attacker",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "blocklist-192.251.226.26",
+      "ts": "2026-10-03T17:26:00.122Z",
+      "feed": "blocklist.de",
+      "type": "ssh-ftp-attack",
+      "indicator": "192.251.226.26",
+      "src_geo": {
+        "lat": 51.9012,
+        "lon": 8.3872,
+        "cc": "Germany"
+      },
+      "actor": {
+        "name": "Attacker",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "blocklist-192.251.226.27",
+      "ts": "2026-10-03T17:26:00.122Z",
+      "feed": "blocklist.de",
+      "type": "ssh-ftp-attack",
+      "indicator": "192.251.226.27",
+      "src_geo": {
+        "lat": 51.9012,
+        "lon": 8.3872,
+        "cc": "Germany"
+      },
+      "actor": {
+        "name": "Attacker",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "blocklist-192.251.226.28",
+      "ts": "2026-10-03T17:26:00.122Z",
+      "feed": "blocklist.de",
+      "type": "ssh-ftp-attack",
+      "indicator": "192.251.226.28",
+      "src_geo": {
+        "lat": 51.9012,
+        "lon": 8.3872,
+        "cc": "Germany"
+      },
+      "actor": {
+        "name": "Attacker",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "blocklist-77.109.139.87",
+      "ts": "2026-10-03T17:26:00.121Z",
+      "feed": "blocklist.de",
+      "type": "ssh-ftp-attack",
+      "indicator": "77.109.139.87",
+      "src_geo": {
+        "lat": 47.4752,
+        "lon": 8.461,
+        "cc": "Switzerland"
+      },
+      "actor": {
+        "name": "Attacker",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "blocklist-192.251.226.0",
+      "ts": "2026-10-03T17:26:00.121Z",
+      "feed": "blocklist.de",
+      "type": "ssh-ftp-attack",
+      "indicator": "192.251.226.0",
+      "src_geo": {
+        "lat": 51.9012,
+        "lon": 8.3872,
+        "cc": "Germany"
+      },
+      "actor": {
+        "name": "Attacker",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "blocklist-192.251.226.1",
+      "ts": "2026-10-03T17:26:00.121Z",
+      "feed": "blocklist.de",
+      "type": "ssh-ftp-attack",
+      "indicator": "192.251.226.1",
+      "src_geo": {
+        "lat": 51.9012,
+        "lon": 8.3872,
+        "cc": "Germany"
+      },
+      "actor": {
+        "name": "Attacker",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "blocklist-192.251.226.2",
+      "ts": "2026-10-03T17:26:00.121Z",
+      "feed": "blocklist.de",
+      "type": "ssh-ftp-attack",
+      "indicator": "192.251.226.2",
+      "src_geo": {
+        "lat": 51.9012,
+        "lon": 8.3872,
+        "cc": "Germany"
+      },
+      "actor": {
+        "name": "Attacker",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "blocklist-192.251.226.3",
+      "ts": "2026-10-03T17:26:00.121Z",
+      "feed": "blocklist.de",
+      "type": "ssh-ftp-attack",
+      "indicator": "192.251.226.3",
+      "src_geo": {
+        "lat": 51.9012,
+        "lon": 8.3872,
+        "cc": "Germany"
+      },
+      "actor": {
+        "name": "Attacker",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "blocklist-192.251.226.4",
+      "ts": "2026-10-03T17:26:00.121Z",
+      "feed": "blocklist.de",
+      "type": "ssh-ftp-attack",
+      "indicator": "192.251.226.4",
+      "src_geo": {
+        "lat": 51.9012,
+        "lon": 8.3872,
+        "cc": "Germany"
+      },
+      "actor": {
+        "name": "Attacker",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "blocklist-192.251.226.5",
+      "ts": "2026-10-03T17:26:00.121Z",
+      "feed": "blocklist.de",
+      "type": "ssh-ftp-attack",
+      "indicator": "192.251.226.5",
+      "src_geo": {
+        "lat": 51.9012,
+        "lon": 8.3872,
+        "cc": "Germany"
+      },
+      "actor": {
+        "name": "Attacker",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "blocklist-192.251.226.6",
+      "ts": "2026-10-03T17:26:00.121Z",
+      "feed": "blocklist.de",
+      "type": "ssh-ftp-attack",
+      "indicator": "192.251.226.6",
+      "src_geo": {
+        "lat": 51.9012,
+        "lon": 8.3872,
+        "cc": "Germany"
+      },
+      "actor": {
+        "name": "Attacker",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "blocklist-192.251.226.7",
+      "ts": "2026-10-03T17:26:00.121Z",
+      "feed": "blocklist.de",
+      "type": "ssh-ftp-attack",
+      "indicator": "192.251.226.7",
+      "src_geo": {
+        "lat": 51.9012,
+        "lon": 8.3872,
+        "cc": "Germany"
+      },
+      "actor": {
+        "name": "Attacker",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "blocklist-192.251.226.8",
+      "ts": "2026-10-03T17:26:00.121Z",
+      "feed": "blocklist.de",
+      "type": "ssh-ftp-attack",
+      "indicator": "192.251.226.8",
+      "src_geo": {
+        "lat": 51.9012,
+        "lon": 8.3872,
+        "cc": "Germany"
+      },
+      "actor": {
+        "name": "Attacker",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "blocklist-192.251.226.9",
+      "ts": "2026-10-03T17:26:00.121Z",
+      "feed": "blocklist.de",
+      "type": "ssh-ftp-attack",
+      "indicator": "192.251.226.9",
+      "src_geo": {
+        "lat": 51.9012,
+        "lon": 8.3872,
+        "cc": "Germany"
+      },
+      "actor": {
+        "name": "Attacker",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "blocklist-192.251.226.10",
+      "ts": "2026-10-03T17:26:00.121Z",
+      "feed": "blocklist.de",
+      "type": "ssh-ftp-attack",
+      "indicator": "192.251.226.10",
+      "src_geo": {
+        "lat": 51.9012,
+        "lon": 8.3872,
+        "cc": "Germany"
+      },
+      "actor": {
+        "name": "Attacker",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "blocklist-192.251.226.11",
+      "ts": "2026-10-03T17:26:00.121Z",
+      "feed": "blocklist.de",
+      "type": "ssh-ftp-attack",
+      "indicator": "192.251.226.11",
+      "src_geo": {
+        "lat": 51.9012,
+        "lon": 8.3872,
+        "cc": "Germany"
+      },
+      "actor": {
+        "name": "Attacker",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "blocklist-192.251.226.12",
+      "ts": "2026-10-03T17:26:00.121Z",
+      "feed": "blocklist.de",
+      "type": "ssh-ftp-attack",
+      "indicator": "192.251.226.12",
+      "src_geo": {
+        "lat": 51.9012,
+        "lon": 8.3872,
+        "cc": "Germany"
+      },
+      "actor": {
+        "name": "Attacker",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "blocklist-192.251.226.13",
+      "ts": "2026-10-03T17:26:00.121Z",
+      "feed": "blocklist.de",
+      "type": "ssh-ftp-attack",
+      "indicator": "192.251.226.13",
+      "src_geo": {
+        "lat": 51.9012,
+        "lon": 8.3872,
+        "cc": "Germany"
+      },
+      "actor": {
+        "name": "Attacker",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "blocklist-192.251.226.14",
+      "ts": "2026-10-03T17:26:00.121Z",
+      "feed": "blocklist.de",
+      "type": "ssh-ftp-attack",
+      "indicator": "192.251.226.14",
+      "src_geo": {
+        "lat": 51.9012,
+        "lon": 8.3872,
+        "cc": "Germany"
+      },
+      "actor": {
+        "name": "Attacker",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "blocklist-192.251.226.15",
+      "ts": "2026-10-03T17:26:00.121Z",
+      "feed": "blocklist.de",
+      "type": "ssh-ftp-attack",
+      "indicator": "192.251.226.15",
+      "src_geo": {
+        "lat": 51.9012,
+        "lon": 8.3872,
+        "cc": "Germany"
+      },
+      "actor": {
+        "name": "Attacker",
+        "confidence": "low"
+      }
     },
     {
       "id": "ipsum-20.115.88.250",
-      "ts": "2026-10-03T13:17:53.469Z",
+      "ts": "2026-10-03T17:26:00.048Z",
       "feed": "ipsum",
       "type": "malware-ip",
       "indicator": "20.115.88.250",
@@ -540,7 +1020,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "ipsum-39.109.116.214",
-      "ts": "2026-10-03T13:17:53.469Z",
+      "ts": "2026-10-03T17:26:00.048Z",
       "feed": "ipsum",
       "type": "malware-ip",
       "indicator": "39.109.116.214",
@@ -557,7 +1037,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "ipsum-40.119.27.225",
-      "ts": "2026-10-03T13:17:53.469Z",
+      "ts": "2026-10-03T17:26:00.048Z",
       "feed": "ipsum",
       "type": "malware-ip",
       "indicator": "40.119.27.225",
@@ -574,7 +1054,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "ipsum-45.78.224.198",
-      "ts": "2026-10-03T13:17:53.469Z",
+      "ts": "2026-10-03T17:26:00.048Z",
       "feed": "ipsum",
       "type": "malware-ip",
       "indicator": "45.78.224.198",
@@ -591,7 +1071,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "ipsum-45.91.64.7",
-      "ts": "2026-10-03T13:17:53.469Z",
+      "ts": "2026-10-03T17:26:00.048Z",
       "feed": "ipsum",
       "type": "malware-ip",
       "indicator": "45.91.64.7",
@@ -608,7 +1088,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "ipsum-45.120.216.232",
-      "ts": "2026-10-03T13:17:53.469Z",
+      "ts": "2026-10-03T17:26:00.048Z",
       "feed": "ipsum",
       "type": "malware-ip",
       "indicator": "45.120.216.232",
@@ -625,7 +1105,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "ipsum-45.148.10.61",
-      "ts": "2026-10-03T13:17:53.469Z",
+      "ts": "2026-10-03T17:26:00.048Z",
       "feed": "ipsum",
       "type": "malware-ip",
       "indicator": "45.148.10.61",
@@ -642,7 +1122,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "ipsum-45.148.10.152",
-      "ts": "2026-10-03T13:17:53.469Z",
+      "ts": "2026-10-03T17:26:00.048Z",
       "feed": "ipsum",
       "type": "malware-ip",
       "indicator": "45.148.10.152",
@@ -659,7 +1139,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "ipsum-45.148.10.157",
-      "ts": "2026-10-03T13:17:53.469Z",
+      "ts": "2026-10-03T17:26:00.048Z",
       "feed": "ipsum",
       "type": "malware-ip",
       "indicator": "45.148.10.157",
@@ -676,7 +1156,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "ipsum-45.43.60.98",
-      "ts": "2026-10-03T13:17:53.468Z",
+      "ts": "2026-10-03T17:26:00.047Z",
       "feed": "ipsum",
       "type": "malware-ip",
       "indicator": "45.43.60.98",
@@ -693,7 +1173,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "ipsum-2.57.122.53",
-      "ts": "2026-10-03T13:17:53.468Z",
+      "ts": "2026-10-03T17:26:00.047Z",
       "feed": "ipsum",
       "type": "malware-ip",
       "indicator": "2.57.122.53",
@@ -710,7 +1190,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "ipsum-2.57.122.238",
-      "ts": "2026-10-03T13:17:53.468Z",
+      "ts": "2026-10-03T17:26:00.047Z",
       "feed": "ipsum",
       "type": "malware-ip",
       "indicator": "2.57.122.238",
@@ -727,7 +1207,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "ipsum-3.129.187.38",
-      "ts": "2026-10-03T13:17:53.468Z",
+      "ts": "2026-10-03T17:26:00.047Z",
       "feed": "ipsum",
       "type": "malware-ip",
       "indicator": "3.129.187.38",
@@ -744,7 +1224,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "ipsum-37.120.213.13",
-      "ts": "2026-10-03T13:17:53.468Z",
+      "ts": "2026-10-03T17:26:00.047Z",
       "feed": "ipsum",
       "type": "malware-ip",
       "indicator": "37.120.213.13",
@@ -761,7 +1241,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "ipsum-65.49.1.202",
-      "ts": "2026-10-03T13:17:53.468Z",
+      "ts": "2026-10-03T17:26:00.047Z",
       "feed": "ipsum",
       "type": "malware-ip",
       "indicator": "65.49.1.202",
@@ -778,7 +1258,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "ipsum-65.49.1.222",
-      "ts": "2026-10-03T13:17:53.468Z",
+      "ts": "2026-10-03T17:26:00.047Z",
       "feed": "ipsum",
       "type": "malware-ip",
       "indicator": "65.49.1.222",
@@ -795,7 +1275,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "ipsum-66.132.172.208",
-      "ts": "2026-10-03T13:17:53.468Z",
+      "ts": "2026-10-03T17:26:00.047Z",
       "feed": "ipsum",
       "type": "malware-ip",
       "indicator": "66.132.172.208",
@@ -812,7 +1292,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "ipsum-66.132.186.167",
-      "ts": "2026-10-03T13:17:53.468Z",
+      "ts": "2026-10-03T17:26:00.047Z",
       "feed": "ipsum",
       "type": "malware-ip",
       "indicator": "66.132.186.167",
@@ -829,7 +1309,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "ipsum-66.132.186.172",
-      "ts": "2026-10-03T13:17:53.468Z",
+      "ts": "2026-10-03T17:26:00.047Z",
       "feed": "ipsum",
       "type": "malware-ip",
       "indicator": "66.132.186.172",
@@ -846,7 +1326,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "ipsum-77.90.185.20",
-      "ts": "2026-10-03T13:17:53.468Z",
+      "ts": "2026-10-03T17:26:00.047Z",
       "feed": "ipsum",
       "type": "malware-ip",
       "indicator": "77.90.185.20",
@@ -863,7 +1343,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "ipsum-85.217.149.34",
-      "ts": "2026-10-03T13:17:53.468Z",
+      "ts": "2026-10-03T17:26:00.047Z",
       "feed": "ipsum",
       "type": "malware-ip",
       "indicator": "85.217.149.34",
@@ -880,7 +1360,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "ipsum-85.217.149.40",
-      "ts": "2026-10-03T13:17:53.468Z",
+      "ts": "2026-10-03T17:26:00.047Z",
       "feed": "ipsum",
       "type": "malware-ip",
       "indicator": "85.217.149.40",
@@ -897,7 +1377,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "ipsum-85.217.149.43",
-      "ts": "2026-10-03T13:17:53.468Z",
+      "ts": "2026-10-03T17:26:00.047Z",
       "feed": "ipsum",
       "type": "malware-ip",
       "indicator": "85.217.149.43",
@@ -914,7 +1394,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "ipsum-85.217.149.55",
-      "ts": "2026-10-03T13:17:53.468Z",
+      "ts": "2026-10-03T17:26:00.047Z",
       "feed": "ipsum",
       "type": "malware-ip",
       "indicator": "85.217.149.55",
@@ -931,7 +1411,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "ipsum-85.217.149.57",
-      "ts": "2026-10-03T13:17:53.468Z",
+      "ts": "2026-10-03T17:26:00.047Z",
       "feed": "ipsum",
       "type": "malware-ip",
       "indicator": "85.217.149.57",
@@ -948,7 +1428,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "ipsum-94.154.43.69",
-      "ts": "2026-10-03T13:17:53.468Z",
+      "ts": "2026-10-03T17:26:00.047Z",
       "feed": "ipsum",
       "type": "malware-ip",
       "indicator": "94.154.43.69",
@@ -965,7 +1445,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "ipsum-94.154.43.223",
-      "ts": "2026-10-03T13:17:53.468Z",
+      "ts": "2026-10-03T17:26:00.047Z",
       "feed": "ipsum",
       "type": "malware-ip",
       "indicator": "94.154.43.223",
@@ -982,7 +1462,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "ipsum-103.146.23.23",
-      "ts": "2026-10-03T13:17:53.468Z",
+      "ts": "2026-10-03T17:26:00.047Z",
       "feed": "ipsum",
       "type": "malware-ip",
       "indicator": "103.146.23.23",
@@ -999,7 +1479,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "ipsum-199.45.154.120",
-      "ts": "2026-10-03T13:17:53.468Z",
+      "ts": "2026-10-03T17:26:00.047Z",
       "feed": "ipsum",
       "type": "malware-ip",
       "indicator": "199.45.154.120",
@@ -1016,7 +1496,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "ipsum-2.26.64.195",
-      "ts": "2026-10-03T13:17:53.468Z",
+      "ts": "2026-10-03T17:26:00.047Z",
       "feed": "ipsum",
       "type": "malware-ip",
       "indicator": "2.26.64.195",
@@ -1032,744 +1512,8 @@ window.CYBER_EVENTS = {
       "score": 7
     },
     {
-      "id": "blocklist-192.251.226.0",
-      "ts": "2026-10-03T13:17:53.299Z",
-      "feed": "blocklist.de",
-      "type": "ssh-ftp-attack",
-      "indicator": "192.251.226.0",
-      "src_geo": {
-        "lat": 51.9012,
-        "lon": 8.3872,
-        "cc": "Germany"
-      },
-      "actor": {
-        "name": "Attacker",
-        "confidence": "low"
-      }
-    },
-    {
-      "id": "blocklist-192.251.226.1",
-      "ts": "2026-10-03T13:17:53.299Z",
-      "feed": "blocklist.de",
-      "type": "ssh-ftp-attack",
-      "indicator": "192.251.226.1",
-      "src_geo": {
-        "lat": 51.9012,
-        "lon": 8.3872,
-        "cc": "Germany"
-      },
-      "actor": {
-        "name": "Attacker",
-        "confidence": "low"
-      }
-    },
-    {
-      "id": "blocklist-192.251.226.2",
-      "ts": "2026-10-03T13:17:53.299Z",
-      "feed": "blocklist.de",
-      "type": "ssh-ftp-attack",
-      "indicator": "192.251.226.2",
-      "src_geo": {
-        "lat": 51.9012,
-        "lon": 8.3872,
-        "cc": "Germany"
-      },
-      "actor": {
-        "name": "Attacker",
-        "confidence": "low"
-      }
-    },
-    {
-      "id": "blocklist-192.251.226.3",
-      "ts": "2026-10-03T13:17:53.299Z",
-      "feed": "blocklist.de",
-      "type": "ssh-ftp-attack",
-      "indicator": "192.251.226.3",
-      "src_geo": {
-        "lat": 51.9012,
-        "lon": 8.3872,
-        "cc": "Germany"
-      },
-      "actor": {
-        "name": "Attacker",
-        "confidence": "low"
-      }
-    },
-    {
-      "id": "blocklist-192.251.226.4",
-      "ts": "2026-10-03T13:17:53.299Z",
-      "feed": "blocklist.de",
-      "type": "ssh-ftp-attack",
-      "indicator": "192.251.226.4",
-      "src_geo": {
-        "lat": 51.9012,
-        "lon": 8.3872,
-        "cc": "Germany"
-      },
-      "actor": {
-        "name": "Attacker",
-        "confidence": "low"
-      }
-    },
-    {
-      "id": "blocklist-192.251.226.5",
-      "ts": "2026-10-03T13:17:53.299Z",
-      "feed": "blocklist.de",
-      "type": "ssh-ftp-attack",
-      "indicator": "192.251.226.5",
-      "src_geo": {
-        "lat": 51.9012,
-        "lon": 8.3872,
-        "cc": "Germany"
-      },
-      "actor": {
-        "name": "Attacker",
-        "confidence": "low"
-      }
-    },
-    {
-      "id": "blocklist-192.251.226.6",
-      "ts": "2026-10-03T13:17:53.299Z",
-      "feed": "blocklist.de",
-      "type": "ssh-ftp-attack",
-      "indicator": "192.251.226.6",
-      "src_geo": {
-        "lat": 51.9012,
-        "lon": 8.3872,
-        "cc": "Germany"
-      },
-      "actor": {
-        "name": "Attacker",
-        "confidence": "low"
-      }
-    },
-    {
-      "id": "blocklist-192.251.226.7",
-      "ts": "2026-10-03T13:17:53.299Z",
-      "feed": "blocklist.de",
-      "type": "ssh-ftp-attack",
-      "indicator": "192.251.226.7",
-      "src_geo": {
-        "lat": 51.9012,
-        "lon": 8.3872,
-        "cc": "Germany"
-      },
-      "actor": {
-        "name": "Attacker",
-        "confidence": "low"
-      }
-    },
-    {
-      "id": "blocklist-192.251.226.8",
-      "ts": "2026-10-03T13:17:53.299Z",
-      "feed": "blocklist.de",
-      "type": "ssh-ftp-attack",
-      "indicator": "192.251.226.8",
-      "src_geo": {
-        "lat": 51.9012,
-        "lon": 8.3872,
-        "cc": "Germany"
-      },
-      "actor": {
-        "name": "Attacker",
-        "confidence": "low"
-      }
-    },
-    {
-      "id": "blocklist-192.251.226.9",
-      "ts": "2026-10-03T13:17:53.299Z",
-      "feed": "blocklist.de",
-      "type": "ssh-ftp-attack",
-      "indicator": "192.251.226.9",
-      "src_geo": {
-        "lat": 51.9012,
-        "lon": 8.3872,
-        "cc": "Germany"
-      },
-      "actor": {
-        "name": "Attacker",
-        "confidence": "low"
-      }
-    },
-    {
-      "id": "blocklist-192.251.226.10",
-      "ts": "2026-10-03T13:17:53.299Z",
-      "feed": "blocklist.de",
-      "type": "ssh-ftp-attack",
-      "indicator": "192.251.226.10",
-      "src_geo": {
-        "lat": 51.9012,
-        "lon": 8.3872,
-        "cc": "Germany"
-      },
-      "actor": {
-        "name": "Attacker",
-        "confidence": "low"
-      }
-    },
-    {
-      "id": "blocklist-192.251.226.11",
-      "ts": "2026-10-03T13:17:53.299Z",
-      "feed": "blocklist.de",
-      "type": "ssh-ftp-attack",
-      "indicator": "192.251.226.11",
-      "src_geo": {
-        "lat": 51.9012,
-        "lon": 8.3872,
-        "cc": "Germany"
-      },
-      "actor": {
-        "name": "Attacker",
-        "confidence": "low"
-      }
-    },
-    {
-      "id": "blocklist-192.251.226.12",
-      "ts": "2026-10-03T13:17:53.299Z",
-      "feed": "blocklist.de",
-      "type": "ssh-ftp-attack",
-      "indicator": "192.251.226.12",
-      "src_geo": {
-        "lat": 51.9012,
-        "lon": 8.3872,
-        "cc": "Germany"
-      },
-      "actor": {
-        "name": "Attacker",
-        "confidence": "low"
-      }
-    },
-    {
-      "id": "blocklist-192.251.226.13",
-      "ts": "2026-10-03T13:17:53.299Z",
-      "feed": "blocklist.de",
-      "type": "ssh-ftp-attack",
-      "indicator": "192.251.226.13",
-      "src_geo": {
-        "lat": 51.9012,
-        "lon": 8.3872,
-        "cc": "Germany"
-      },
-      "actor": {
-        "name": "Attacker",
-        "confidence": "low"
-      }
-    },
-    {
-      "id": "blocklist-192.251.226.14",
-      "ts": "2026-10-03T13:17:53.299Z",
-      "feed": "blocklist.de",
-      "type": "ssh-ftp-attack",
-      "indicator": "192.251.226.14",
-      "src_geo": {
-        "lat": 51.9012,
-        "lon": 8.3872,
-        "cc": "Germany"
-      },
-      "actor": {
-        "name": "Attacker",
-        "confidence": "low"
-      }
-    },
-    {
-      "id": "blocklist-192.251.226.15",
-      "ts": "2026-10-03T13:17:53.299Z",
-      "feed": "blocklist.de",
-      "type": "ssh-ftp-attack",
-      "indicator": "192.251.226.15",
-      "src_geo": {
-        "lat": 51.9012,
-        "lon": 8.3872,
-        "cc": "Germany"
-      },
-      "actor": {
-        "name": "Attacker",
-        "confidence": "low"
-      }
-    },
-    {
-      "id": "blocklist-192.251.226.16",
-      "ts": "2026-10-03T13:17:53.299Z",
-      "feed": "blocklist.de",
-      "type": "ssh-ftp-attack",
-      "indicator": "192.251.226.16",
-      "src_geo": {
-        "lat": 51.9012,
-        "lon": 8.3872,
-        "cc": "Germany"
-      },
-      "actor": {
-        "name": "Attacker",
-        "confidence": "low"
-      }
-    },
-    {
-      "id": "blocklist-192.251.226.17",
-      "ts": "2026-10-03T13:17:53.299Z",
-      "feed": "blocklist.de",
-      "type": "ssh-ftp-attack",
-      "indicator": "192.251.226.17",
-      "src_geo": {
-        "lat": 51.9012,
-        "lon": 8.3872,
-        "cc": "Germany"
-      },
-      "actor": {
-        "name": "Attacker",
-        "confidence": "low"
-      }
-    },
-    {
-      "id": "blocklist-192.251.226.18",
-      "ts": "2026-10-03T13:17:53.299Z",
-      "feed": "blocklist.de",
-      "type": "ssh-ftp-attack",
-      "indicator": "192.251.226.18",
-      "src_geo": {
-        "lat": 51.9012,
-        "lon": 8.3872,
-        "cc": "Germany"
-      },
-      "actor": {
-        "name": "Attacker",
-        "confidence": "low"
-      }
-    },
-    {
-      "id": "blocklist-192.251.226.19",
-      "ts": "2026-10-03T13:17:53.299Z",
-      "feed": "blocklist.de",
-      "type": "ssh-ftp-attack",
-      "indicator": "192.251.226.19",
-      "src_geo": {
-        "lat": 51.9012,
-        "lon": 8.3872,
-        "cc": "Germany"
-      },
-      "actor": {
-        "name": "Attacker",
-        "confidence": "low"
-      }
-    },
-    {
-      "id": "blocklist-192.251.226.20",
-      "ts": "2026-10-03T13:17:53.299Z",
-      "feed": "blocklist.de",
-      "type": "ssh-ftp-attack",
-      "indicator": "192.251.226.20",
-      "src_geo": {
-        "lat": 51.9012,
-        "lon": 8.3872,
-        "cc": "Germany"
-      },
-      "actor": {
-        "name": "Attacker",
-        "confidence": "low"
-      }
-    },
-    {
-      "id": "blocklist-192.251.226.21",
-      "ts": "2026-10-03T13:17:53.299Z",
-      "feed": "blocklist.de",
-      "type": "ssh-ftp-attack",
-      "indicator": "192.251.226.21",
-      "src_geo": {
-        "lat": 51.9012,
-        "lon": 8.3872,
-        "cc": "Germany"
-      },
-      "actor": {
-        "name": "Attacker",
-        "confidence": "low"
-      }
-    },
-    {
-      "id": "blocklist-192.251.226.22",
-      "ts": "2026-10-03T13:17:53.299Z",
-      "feed": "blocklist.de",
-      "type": "ssh-ftp-attack",
-      "indicator": "192.251.226.22",
-      "src_geo": {
-        "lat": 51.9012,
-        "lon": 8.3872,
-        "cc": "Germany"
-      },
-      "actor": {
-        "name": "Attacker",
-        "confidence": "low"
-      }
-    },
-    {
-      "id": "blocklist-192.251.226.23",
-      "ts": "2026-10-03T13:17:53.299Z",
-      "feed": "blocklist.de",
-      "type": "ssh-ftp-attack",
-      "indicator": "192.251.226.23",
-      "src_geo": {
-        "lat": 51.9012,
-        "lon": 8.3872,
-        "cc": "Germany"
-      },
-      "actor": {
-        "name": "Attacker",
-        "confidence": "low"
-      }
-    },
-    {
-      "id": "blocklist-192.251.226.24",
-      "ts": "2026-10-03T13:17:53.299Z",
-      "feed": "blocklist.de",
-      "type": "ssh-ftp-attack",
-      "indicator": "192.251.226.24",
-      "src_geo": {
-        "lat": 51.9012,
-        "lon": 8.3872,
-        "cc": "Germany"
-      },
-      "actor": {
-        "name": "Attacker",
-        "confidence": "low"
-      }
-    },
-    {
-      "id": "blocklist-192.251.226.25",
-      "ts": "2026-10-03T13:17:53.299Z",
-      "feed": "blocklist.de",
-      "type": "ssh-ftp-attack",
-      "indicator": "192.251.226.25",
-      "src_geo": {
-        "lat": 51.9012,
-        "lon": 8.3872,
-        "cc": "Germany"
-      },
-      "actor": {
-        "name": "Attacker",
-        "confidence": "low"
-      }
-    },
-    {
-      "id": "blocklist-192.251.226.26",
-      "ts": "2026-10-03T13:17:53.299Z",
-      "feed": "blocklist.de",
-      "type": "ssh-ftp-attack",
-      "indicator": "192.251.226.26",
-      "src_geo": {
-        "lat": 51.9012,
-        "lon": 8.3872,
-        "cc": "Germany"
-      },
-      "actor": {
-        "name": "Attacker",
-        "confidence": "low"
-      }
-    },
-    {
-      "id": "blocklist-192.251.226.27",
-      "ts": "2026-10-03T13:17:53.299Z",
-      "feed": "blocklist.de",
-      "type": "ssh-ftp-attack",
-      "indicator": "192.251.226.27",
-      "src_geo": {
-        "lat": 51.9012,
-        "lon": 8.3872,
-        "cc": "Germany"
-      },
-      "actor": {
-        "name": "Attacker",
-        "confidence": "low"
-      }
-    },
-    {
-      "id": "blocklist-192.251.226.28",
-      "ts": "2026-10-03T13:17:53.299Z",
-      "feed": "blocklist.de",
-      "type": "ssh-ftp-attack",
-      "indicator": "192.251.226.28",
-      "src_geo": {
-        "lat": 51.9012,
-        "lon": 8.3872,
-        "cc": "Germany"
-      },
-      "actor": {
-        "name": "Attacker",
-        "confidence": "low"
-      }
-    },
-    {
-      "id": "blocklist-77.109.139.87",
-      "ts": "2026-10-03T13:17:53.298Z",
-      "feed": "blocklist.de",
-      "type": "ssh-ftp-attack",
-      "indicator": "77.109.139.87",
-      "src_geo": {
-        "lat": 47.4752,
-        "lon": 8.461,
-        "cc": "Switzerland"
-      },
-      "actor": {
-        "name": "Attacker",
-        "confidence": "low"
-      }
-    },
-    {
-      "id": "firehol-19.200.0.0",
-      "ts": "2026-10-03T13:17:53.033Z",
-      "feed": "firehol",
-      "type": "malicious-ip",
-      "indicator": "19.200.0.0",
-      "src_geo": {
-        "lat": 37.751,
-        "lon": -97.822,
-        "cc": "United States"
-      },
-      "actor": {
-        "name": "Unknown",
-        "confidence": "low"
-      }
-    },
-    {
-      "id": "firehol-23.94.252.0",
-      "ts": "2026-10-03T13:17:53.033Z",
-      "feed": "firehol",
-      "type": "malicious-ip",
-      "indicator": "23.94.252.0",
-      "src_geo": {
-        "lat": 42.8864,
-        "lon": -78.8784,
-        "cc": "United States"
-      },
-      "actor": {
-        "name": "Unknown",
-        "confidence": "low"
-      }
-    },
-    {
-      "id": "firehol-23.128.48.0",
-      "ts": "2026-10-03T13:17:53.033Z",
-      "feed": "firehol",
-      "type": "malicious-ip",
-      "indicator": "23.128.48.0",
-      "src_geo": {
-        "lat": 37.751,
-        "lon": -97.822,
-        "cc": "United States"
-      },
-      "actor": {
-        "name": "Unknown",
-        "confidence": "low"
-      }
-    },
-    {
-      "id": "firehol-23.129.252.0",
-      "ts": "2026-10-03T13:17:53.033Z",
-      "feed": "firehol",
-      "type": "malicious-ip",
-      "indicator": "23.129.252.0",
-      "src_geo": {
-        "lat": -23.5475,
-        "lon": -46.6361,
-        "cc": "Brazil"
-      },
-      "actor": {
-        "name": "Unknown",
-        "confidence": "low"
-      }
-    },
-    {
-      "id": "firehol-23.132.164.0",
-      "ts": "2026-10-03T13:17:53.033Z",
-      "feed": "firehol",
-      "type": "malicious-ip",
-      "indicator": "23.132.164.0",
-      "src_geo": {
-        "lat": 37.751,
-        "lon": -97.822,
-        "cc": "United States"
-      },
-      "actor": {
-        "name": "Unknown",
-        "confidence": "low"
-      }
-    },
-    {
-      "id": "firehol-23.142.16.0",
-      "ts": "2026-10-03T13:17:53.033Z",
-      "feed": "firehol",
-      "type": "malicious-ip",
-      "indicator": "23.142.16.0",
-      "src_geo": {
-        "lat": 37.751,
-        "lon": -97.822,
-        "cc": "United States"
-      },
-      "actor": {
-        "name": "Unknown",
-        "confidence": "low"
-      }
-    },
-    {
-      "id": "firehol-23.143.16.0",
-      "ts": "2026-10-03T13:17:53.033Z",
-      "feed": "firehol",
-      "type": "malicious-ip",
-      "indicator": "23.143.16.0",
-      "src_geo": {
-        "lat": 37.751,
-        "lon": -97.822,
-        "cc": "United States"
-      },
-      "actor": {
-        "name": "Unknown",
-        "confidence": "low"
-      }
-    },
-    {
-      "id": "firehol-23.146.240.0",
-      "ts": "2026-10-03T13:17:53.033Z",
-      "feed": "firehol",
-      "type": "malicious-ip",
-      "indicator": "23.146.240.0",
-      "src_geo": {
-        "lat": 41.2459,
-        "lon": -75.8818,
-        "cc": "United States"
-      },
-      "actor": {
-        "name": "Unknown",
-        "confidence": "low"
-      }
-    },
-    {
-      "id": "firehol-23.146.242.0",
-      "ts": "2026-10-03T13:17:53.033Z",
-      "feed": "firehol",
-      "type": "malicious-ip",
-      "indicator": "23.146.242.0",
-      "src_geo": {
-        "lat": 37.751,
-        "lon": -97.822,
-        "cc": "United States"
-      },
-      "actor": {
-        "name": "Unknown",
-        "confidence": "low"
-      }
-    },
-    {
-      "id": "firehol-23.147.52.0",
-      "ts": "2026-10-03T13:17:53.033Z",
-      "feed": "firehol",
-      "type": "malicious-ip",
-      "indicator": "23.147.52.0",
-      "src_geo": {
-        "lat": 37.751,
-        "lon": -97.822,
-        "cc": "United States"
-      },
-      "actor": {
-        "name": "Unknown",
-        "confidence": "low"
-      }
-    },
-    {
-      "id": "firehol-23.147.148.0",
-      "ts": "2026-10-03T13:17:53.033Z",
-      "feed": "firehol",
-      "type": "malicious-ip",
-      "indicator": "23.147.148.0",
-      "src_geo": {
-        "lat": 37.751,
-        "lon": -97.822,
-        "cc": "United States"
-      },
-      "actor": {
-        "name": "Unknown",
-        "confidence": "low"
-      }
-    },
-    {
-      "id": "firehol-23.147.156.0",
-      "ts": "2026-10-03T13:17:53.033Z",
-      "feed": "firehol",
-      "type": "malicious-ip",
-      "indicator": "23.147.156.0",
-      "src_geo": {
-        "lat": 37.751,
-        "lon": -97.822,
-        "cc": "United States"
-      },
-      "actor": {
-        "name": "Unknown",
-        "confidence": "low"
-      }
-    },
-    {
-      "id": "firehol-23.147.164.0",
-      "ts": "2026-10-03T13:17:53.033Z",
-      "feed": "firehol",
-      "type": "malicious-ip",
-      "indicator": "23.147.164.0",
-      "src_geo": {
-        "lat": 37.751,
-        "lon": -97.822,
-        "cc": "United States"
-      },
-      "actor": {
-        "name": "Unknown",
-        "confidence": "low"
-      }
-    },
-    {
-      "id": "firehol-23.148.144.0",
-      "ts": "2026-10-03T13:17:53.033Z",
-      "feed": "firehol",
-      "type": "malicious-ip",
-      "indicator": "23.148.144.0",
-      "src_geo": {
-        "lat": 41.2459,
-        "lon": -75.8818,
-        "cc": "United States"
-      },
-      "actor": {
-        "name": "Unknown",
-        "confidence": "low"
-      }
-    },
-    {
-      "id": "firehol-23.164.152.0",
-      "ts": "2026-10-03T13:17:53.033Z",
-      "feed": "firehol",
-      "type": "malicious-ip",
-      "indicator": "23.164.152.0",
-      "src_geo": {
-        "lat": 37.751,
-        "lon": -97.822,
-        "cc": "United States"
-      },
-      "actor": {
-        "name": "Unknown",
-        "confidence": "low"
-      }
-    },
-    {
-      "id": "firehol-23.172.112.0",
-      "ts": "2026-10-03T13:17:53.033Z",
-      "feed": "firehol",
-      "type": "malicious-ip",
-      "indicator": "23.172.112.0",
-      "src_geo": {
-        "lat": 37.751,
-        "lon": -97.822,
-        "cc": "United States"
-      },
-      "actor": {
-        "name": "Unknown",
-        "confidence": "low"
-      }
-    },
-    {
       "id": "firehol-23.176.184.0",
-      "ts": "2026-10-03T13:17:53.033Z",
+      "ts": "2026-10-03T17:25:59.704Z",
       "feed": "firehol",
       "type": "malicious-ip",
       "indicator": "23.176.184.0",
@@ -1785,7 +1529,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "firehol-23.235.128.0",
-      "ts": "2026-10-03T13:17:53.033Z",
+      "ts": "2026-10-03T17:25:59.704Z",
       "feed": "firehol",
       "type": "malicious-ip",
       "indicator": "23.235.128.0",
@@ -1801,7 +1545,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "firehol-23.247.176.0",
-      "ts": "2026-10-03T13:17:53.033Z",
+      "ts": "2026-10-03T17:25:59.704Z",
       "feed": "firehol",
       "type": "malicious-ip",
       "indicator": "23.247.176.0",
@@ -1817,7 +1561,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "firehol-24.137.16.0",
-      "ts": "2026-10-03T13:17:53.033Z",
+      "ts": "2026-10-03T17:25:59.704Z",
       "feed": "firehol",
       "type": "malicious-ip",
       "indicator": "24.137.16.0",
@@ -1833,7 +1577,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "firehol-24.170.208.0",
-      "ts": "2026-10-03T13:17:53.033Z",
+      "ts": "2026-10-03T17:25:59.704Z",
       "feed": "firehol",
       "type": "malicious-ip",
       "indicator": "24.170.208.0",
@@ -1849,7 +1593,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "firehol-24.233.0.0",
-      "ts": "2026-10-03T13:17:53.033Z",
+      "ts": "2026-10-03T17:25:59.704Z",
       "feed": "firehol",
       "type": "malicious-ip",
       "indicator": "24.233.0.0",
@@ -1864,88 +1608,8 @@ window.CYBER_EVENTS = {
       }
     },
     {
-      "id": "firehol-2.57.232.0",
-      "ts": "2026-10-03T13:17:53.032Z",
-      "feed": "firehol",
-      "type": "malicious-ip",
-      "indicator": "2.57.232.0",
-      "src_geo": {
-        "lat": 43.6107,
-        "lon": 3.8809,
-        "cc": "France"
-      },
-      "actor": {
-        "name": "Unknown",
-        "confidence": "low"
-      }
-    },
-    {
-      "id": "firehol-2.58.56.0",
-      "ts": "2026-10-03T13:17:53.032Z",
-      "feed": "firehol",
-      "type": "malicious-ip",
-      "indicator": "2.58.56.0",
-      "src_geo": {
-        "lat": 52.515,
-        "lon": 5.4847,
-        "cc": "The Netherlands"
-      },
-      "actor": {
-        "name": "Unknown",
-        "confidence": "low"
-      }
-    },
-    {
-      "id": "firehol-2.59.152.0",
-      "ts": "2026-10-03T13:17:53.032Z",
-      "feed": "firehol",
-      "type": "malicious-ip",
-      "indicator": "2.59.152.0",
-      "src_geo": {
-        "lat": 37.751,
-        "lon": -97.822,
-        "cc": "United States"
-      },
-      "actor": {
-        "name": "Unknown",
-        "confidence": "low"
-      }
-    },
-    {
-      "id": "firehol-5.42.92.0",
-      "ts": "2026-10-03T13:17:53.032Z",
-      "feed": "firehol",
-      "type": "malicious-ip",
-      "indicator": "5.42.92.0",
-      "src_geo": {
-        "lat": 55.7386,
-        "lon": 37.6068,
-        "cc": "Russia"
-      },
-      "actor": {
-        "name": "Unknown",
-        "confidence": "low"
-      }
-    },
-    {
-      "id": "firehol-5.101.86.0",
-      "ts": "2026-10-03T13:17:53.032Z",
-      "feed": "firehol",
-      "type": "malicious-ip",
-      "indicator": "5.101.86.0",
-      "src_geo": {
-        "lat": 45.5041,
-        "lon": -73.5522,
-        "cc": "Canada"
-      },
-      "actor": {
-        "name": "Unknown",
-        "confidence": "low"
-      }
-    },
-    {
       "id": "firehol-5.105.220.0",
-      "ts": "2026-10-03T13:17:53.032Z",
+      "ts": "2026-10-03T17:25:59.703Z",
       "feed": "firehol",
       "type": "malicious-ip",
       "indicator": "5.105.220.0",
@@ -1961,7 +1625,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "firehol-5.175.169.0",
-      "ts": "2026-10-03T13:17:53.032Z",
+      "ts": "2026-10-03T17:25:59.703Z",
       "feed": "firehol",
       "type": "malicious-ip",
       "indicator": "5.175.169.0",
@@ -1977,7 +1641,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "firehol-5.175.189.0",
-      "ts": "2026-10-03T13:17:53.032Z",
+      "ts": "2026-10-03T17:25:59.703Z",
       "feed": "firehol",
       "type": "malicious-ip",
       "indicator": "5.175.189.0",
@@ -1993,7 +1657,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "firehol-5.183.60.0",
-      "ts": "2026-10-03T13:17:53.032Z",
+      "ts": "2026-10-03T17:25:59.703Z",
       "feed": "firehol",
       "type": "malicious-ip",
       "indicator": "5.183.60.0",
@@ -2009,7 +1673,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "firehol-5.188.236.0",
-      "ts": "2026-10-03T13:17:53.032Z",
+      "ts": "2026-10-03T17:25:59.703Z",
       "feed": "firehol",
       "type": "malicious-ip",
       "indicator": "5.188.236.0",
@@ -2025,7 +1689,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "firehol-5.230.201.0",
-      "ts": "2026-10-03T13:17:53.032Z",
+      "ts": "2026-10-03T17:25:59.703Z",
       "feed": "firehol",
       "type": "malicious-ip",
       "indicator": "5.230.201.0",
@@ -2041,7 +1705,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "firehol-5.231.63.0",
-      "ts": "2026-10-03T13:17:53.032Z",
+      "ts": "2026-10-03T17:25:59.703Z",
       "feed": "firehol",
       "type": "malicious-ip",
       "indicator": "5.231.63.0",
@@ -2057,7 +1721,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "firehol-5.252.153.0",
-      "ts": "2026-10-03T13:17:53.032Z",
+      "ts": "2026-10-03T17:25:59.703Z",
       "feed": "firehol",
       "type": "malicious-ip",
       "indicator": "5.252.153.0",
@@ -2073,7 +1737,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "firehol-14.128.32.0",
-      "ts": "2026-10-03T13:17:53.032Z",
+      "ts": "2026-10-03T17:25:59.703Z",
       "feed": "firehol",
       "type": "malicious-ip",
       "indicator": "14.128.32.0",
@@ -2089,7 +1753,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "firehol-14.128.48.0",
-      "ts": "2026-10-03T13:17:53.032Z",
+      "ts": "2026-10-03T17:25:59.703Z",
       "feed": "firehol",
       "type": "malicious-ip",
       "indicator": "14.128.48.0",
@@ -2105,7 +1769,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "firehol-14.152.94.0",
-      "ts": "2026-10-03T13:17:53.032Z",
+      "ts": "2026-10-03T17:25:59.703Z",
       "feed": "firehol",
       "type": "malicious-ip",
       "indicator": "14.152.94.0",
@@ -2120,15 +1784,15 @@ window.CYBER_EVENTS = {
       }
     },
     {
-      "id": "firehol-1.10.16.0",
-      "ts": "2026-10-03T13:17:53.031Z",
+      "id": "firehol-19.200.0.0",
+      "ts": "2026-10-03T17:25:59.703Z",
       "feed": "firehol",
       "type": "malicious-ip",
-      "indicator": "1.10.16.0",
+      "indicator": "19.200.0.0",
       "src_geo": {
-        "lat": 34.7732,
-        "lon": 113.722,
-        "cc": "China"
+        "lat": 37.751,
+        "lon": -97.822,
+        "cc": "United States"
       },
       "actor": {
         "name": "Unknown",
@@ -2136,15 +1800,15 @@ window.CYBER_EVENTS = {
       }
     },
     {
-      "id": "firehol-1.19.0.0",
-      "ts": "2026-10-03T13:17:53.031Z",
+      "id": "firehol-23.94.252.0",
+      "ts": "2026-10-03T17:25:59.703Z",
       "feed": "firehol",
       "type": "malicious-ip",
-      "indicator": "1.19.0.0",
+      "indicator": "23.94.252.0",
       "src_geo": {
-        "lat": 37.5112,
-        "lon": 126.9741,
-        "cc": "South Korea"
+        "lat": 42.8864,
+        "lon": -78.8784,
+        "cc": "United States"
       },
       "actor": {
         "name": "Unknown",
@@ -2152,15 +1816,223 @@ window.CYBER_EVENTS = {
       }
     },
     {
-      "id": "firehol-1.32.128.0",
-      "ts": "2026-10-03T13:17:53.031Z",
+      "id": "firehol-23.128.48.0",
+      "ts": "2026-10-03T17:25:59.703Z",
       "feed": "firehol",
       "type": "malicious-ip",
-      "indicator": "1.32.128.0",
+      "indicator": "23.128.48.0",
       "src_geo": {
-        "lat": 1.3667,
-        "lon": 103.8,
-        "cc": "Singapore"
+        "lat": 37.751,
+        "lon": -97.822,
+        "cc": "United States"
+      },
+      "actor": {
+        "name": "Unknown",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "firehol-23.129.252.0",
+      "ts": "2026-10-03T17:25:59.703Z",
+      "feed": "firehol",
+      "type": "malicious-ip",
+      "indicator": "23.129.252.0",
+      "src_geo": {
+        "lat": -23.5475,
+        "lon": -46.6361,
+        "cc": "Brazil"
+      },
+      "actor": {
+        "name": "Unknown",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "firehol-23.132.164.0",
+      "ts": "2026-10-03T17:25:59.703Z",
+      "feed": "firehol",
+      "type": "malicious-ip",
+      "indicator": "23.132.164.0",
+      "src_geo": {
+        "lat": 37.751,
+        "lon": -97.822,
+        "cc": "United States"
+      },
+      "actor": {
+        "name": "Unknown",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "firehol-23.142.16.0",
+      "ts": "2026-10-03T17:25:59.703Z",
+      "feed": "firehol",
+      "type": "malicious-ip",
+      "indicator": "23.142.16.0",
+      "src_geo": {
+        "lat": 37.751,
+        "lon": -97.822,
+        "cc": "United States"
+      },
+      "actor": {
+        "name": "Unknown",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "firehol-23.143.16.0",
+      "ts": "2026-10-03T17:25:59.703Z",
+      "feed": "firehol",
+      "type": "malicious-ip",
+      "indicator": "23.143.16.0",
+      "src_geo": {
+        "lat": 37.751,
+        "lon": -97.822,
+        "cc": "United States"
+      },
+      "actor": {
+        "name": "Unknown",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "firehol-23.146.240.0",
+      "ts": "2026-10-03T17:25:59.703Z",
+      "feed": "firehol",
+      "type": "malicious-ip",
+      "indicator": "23.146.240.0",
+      "src_geo": {
+        "lat": 41.2459,
+        "lon": -75.8818,
+        "cc": "United States"
+      },
+      "actor": {
+        "name": "Unknown",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "firehol-23.146.242.0",
+      "ts": "2026-10-03T17:25:59.703Z",
+      "feed": "firehol",
+      "type": "malicious-ip",
+      "indicator": "23.146.242.0",
+      "src_geo": {
+        "lat": 37.751,
+        "lon": -97.822,
+        "cc": "United States"
+      },
+      "actor": {
+        "name": "Unknown",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "firehol-23.147.52.0",
+      "ts": "2026-10-03T17:25:59.703Z",
+      "feed": "firehol",
+      "type": "malicious-ip",
+      "indicator": "23.147.52.0",
+      "src_geo": {
+        "lat": 37.751,
+        "lon": -97.822,
+        "cc": "United States"
+      },
+      "actor": {
+        "name": "Unknown",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "firehol-23.147.148.0",
+      "ts": "2026-10-03T17:25:59.703Z",
+      "feed": "firehol",
+      "type": "malicious-ip",
+      "indicator": "23.147.148.0",
+      "src_geo": {
+        "lat": 37.751,
+        "lon": -97.822,
+        "cc": "United States"
+      },
+      "actor": {
+        "name": "Unknown",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "firehol-23.147.156.0",
+      "ts": "2026-10-03T17:25:59.703Z",
+      "feed": "firehol",
+      "type": "malicious-ip",
+      "indicator": "23.147.156.0",
+      "src_geo": {
+        "lat": 37.751,
+        "lon": -97.822,
+        "cc": "United States"
+      },
+      "actor": {
+        "name": "Unknown",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "firehol-23.147.164.0",
+      "ts": "2026-10-03T17:25:59.703Z",
+      "feed": "firehol",
+      "type": "malicious-ip",
+      "indicator": "23.147.164.0",
+      "src_geo": {
+        "lat": 37.751,
+        "lon": -97.822,
+        "cc": "United States"
+      },
+      "actor": {
+        "name": "Unknown",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "firehol-23.148.144.0",
+      "ts": "2026-10-03T17:25:59.703Z",
+      "feed": "firehol",
+      "type": "malicious-ip",
+      "indicator": "23.148.144.0",
+      "src_geo": {
+        "lat": 41.2459,
+        "lon": -75.8818,
+        "cc": "United States"
+      },
+      "actor": {
+        "name": "Unknown",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "firehol-23.164.152.0",
+      "ts": "2026-10-03T17:25:59.703Z",
+      "feed": "firehol",
+      "type": "malicious-ip",
+      "indicator": "23.164.152.0",
+      "src_geo": {
+        "lat": 37.751,
+        "lon": -97.822,
+        "cc": "United States"
+      },
+      "actor": {
+        "name": "Unknown",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "firehol-23.172.112.0",
+      "ts": "2026-10-03T17:25:59.703Z",
+      "feed": "firehol",
+      "type": "malicious-ip",
+      "indicator": "23.172.112.0",
+      "src_geo": {
+        "lat": 37.751,
+        "lon": -97.822,
+        "cc": "United States"
       },
       "actor": {
         "name": "Unknown",
@@ -2169,7 +2041,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "firehol-2.26.75.0",
-      "ts": "2026-10-03T13:17:53.031Z",
+      "ts": "2026-10-03T17:25:59.702Z",
       "feed": "firehol",
       "type": "malicious-ip",
       "indicator": "2.26.75.0",
@@ -2185,7 +2057,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "firehol-2.27.5.0",
-      "ts": "2026-10-03T13:17:53.031Z",
+      "ts": "2026-10-03T17:25:59.702Z",
       "feed": "firehol",
       "type": "malicious-ip",
       "indicator": "2.27.5.0",
@@ -2201,7 +2073,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "firehol-2.27.62.0",
-      "ts": "2026-10-03T13:17:53.031Z",
+      "ts": "2026-10-03T17:25:59.702Z",
       "feed": "firehol",
       "type": "malicious-ip",
       "indicator": "2.27.62.0",
@@ -2217,7 +2089,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "firehol-2.56.192.0",
-      "ts": "2026-10-03T13:17:53.031Z",
+      "ts": "2026-10-03T17:25:59.702Z",
       "feed": "firehol",
       "type": "malicious-ip",
       "indicator": "2.56.192.0",
@@ -2233,7 +2105,7 @@ window.CYBER_EVENTS = {
     },
     {
       "id": "firehol-2.57.122.0",
-      "ts": "2026-10-03T13:17:53.031Z",
+      "ts": "2026-10-03T17:25:59.702Z",
       "feed": "firehol",
       "type": "malicious-ip",
       "indicator": "2.57.122.0",
@@ -2248,14 +2120,362 @@ window.CYBER_EVENTS = {
       }
     },
     {
+      "id": "firehol-2.57.232.0",
+      "ts": "2026-10-03T17:25:59.702Z",
+      "feed": "firehol",
+      "type": "malicious-ip",
+      "indicator": "2.57.232.0",
+      "src_geo": {
+        "lat": 43.6107,
+        "lon": 3.8809,
+        "cc": "France"
+      },
+      "actor": {
+        "name": "Unknown",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "firehol-2.58.56.0",
+      "ts": "2026-10-03T17:25:59.702Z",
+      "feed": "firehol",
+      "type": "malicious-ip",
+      "indicator": "2.58.56.0",
+      "src_geo": {
+        "lat": 52.515,
+        "lon": 5.4847,
+        "cc": "The Netherlands"
+      },
+      "actor": {
+        "name": "Unknown",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "firehol-2.59.152.0",
+      "ts": "2026-10-03T17:25:59.702Z",
+      "feed": "firehol",
+      "type": "malicious-ip",
+      "indicator": "2.59.152.0",
+      "src_geo": {
+        "lat": 37.751,
+        "lon": -97.822,
+        "cc": "United States"
+      },
+      "actor": {
+        "name": "Unknown",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "firehol-5.42.92.0",
+      "ts": "2026-10-03T17:25:59.702Z",
+      "feed": "firehol",
+      "type": "malicious-ip",
+      "indicator": "5.42.92.0",
+      "src_geo": {
+        "lat": 55.7386,
+        "lon": 37.6068,
+        "cc": "Russia"
+      },
+      "actor": {
+        "name": "Unknown",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "firehol-5.101.86.0",
+      "ts": "2026-10-03T17:25:59.702Z",
+      "feed": "firehol",
+      "type": "malicious-ip",
+      "indicator": "5.101.86.0",
+      "src_geo": {
+        "lat": 45.5041,
+        "lon": -73.5522,
+        "cc": "Canada"
+      },
+      "actor": {
+        "name": "Unknown",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "firehol-1.10.16.0",
+      "ts": "2026-10-03T17:25:59.701Z",
+      "feed": "firehol",
+      "type": "malicious-ip",
+      "indicator": "1.10.16.0",
+      "src_geo": {
+        "lat": 34.7732,
+        "lon": 113.722,
+        "cc": "China"
+      },
+      "actor": {
+        "name": "Unknown",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "firehol-1.19.0.0",
+      "ts": "2026-10-03T17:25:59.701Z",
+      "feed": "firehol",
+      "type": "malicious-ip",
+      "indicator": "1.19.0.0",
+      "src_geo": {
+        "lat": 37.5112,
+        "lon": 126.9741,
+        "cc": "South Korea"
+      },
+      "actor": {
+        "name": "Unknown",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "firehol-1.32.128.0",
+      "ts": "2026-10-03T17:25:59.701Z",
+      "feed": "firehol",
+      "type": "malicious-ip",
+      "indicator": "1.32.128.0",
+      "src_geo": {
+        "lat": 1.3667,
+        "lon": 103.8,
+        "cc": "Singapore"
+      },
+      "actor": {
+        "name": "Unknown",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "ransomware-http://yqhecvqtdvq6p7duqcgw2qca77spbgakxcoibtx6zpvfshltsbbbhfqd.onion/company/6abf5a4b017ad22f3de0f1e3",
+      "ts": "2026-10-03T06:27:57.199Z",
+      "feed": "ransomware.live",
+      "type": "ransomware-victim",
+      "indicator": "States Industries",
+      "src_geo": {
+        "lat": 37.50513934172062,
+        "lon": -96.47686658797568,
+        "cc": "US"
+      },
+      "actor": {
+        "name": "Storm",
+        "confidence": "high"
+      },
+      "victim": {
+        "name": "States Industries",
+        "country": "US"
+      }
+    },
+    {
+      "id": "ransomware-Aware",
+      "ts": "2026-10-03T06:27:35.311Z",
+      "feed": "ransomware.live",
+      "type": "ransomware-victim",
+      "indicator": "Aware",
+      "src_geo": {
+        "lat": 39.08389248634265,
+        "lon": -96.07834666197961,
+        "cc": "US"
+      },
+      "actor": {
+        "name": "thegentlemen",
+        "confidence": "high"
+      },
+      "victim": {
+        "name": "Aware",
+        "country": "US"
+      }
+    },
+    {
+      "id": "ransomware-http://yqhecvqtdvq6p7duqcgw2qca77spbgakxcoibtx6zpvfshltsbbbhfqd.onion/company/6abf1ca2017ad22f3de0f1e1",
+      "ts": "2026-10-03T06:27:26.357Z",
+      "feed": "ransomware.live",
+      "type": "ransomware-victim",
+      "indicator": "Allied Machine & Engineering",
+      "src_geo": {
+        "lat": 38.44468820369868,
+        "lon": -98.37973171413844,
+        "cc": "US"
+      },
+      "actor": {
+        "name": "Storm",
+        "confidence": "high"
+      },
+      "victim": {
+        "name": "Allied Machine & Engineering",
+        "country": "US"
+      }
+    },
+    {
+      "id": "ransomware-WOOSHIN SAFETY SYSTEMS CO LTD",
+      "ts": "2026-10-03T06:27:14.662Z",
+      "feed": "ransomware.live",
+      "type": "ransomware-victim",
+      "indicator": "WOOSHIN SAFETY SYSTEMS CO LTD",
+      "src_geo": {
+        "lat": 37.52043239530194,
+        "lon": 127.89443732327629,
+        "cc": "KR"
+      },
+      "actor": {
+        "name": "thegentlemen",
+        "confidence": "high"
+      },
+      "victim": {
+        "name": "WOOSHIN SAFETY SYSTEMS CO LTD",
+        "country": "KR"
+      }
+    },
+    {
+      "id": "ransomware-http://yqhecvqtdvq6p7duqcgw2qca77spbgakxcoibtx6zpvfshltsbbbhfqd.onion/company/6abf1c39017ad22f3de0f1e0",
+      "ts": "2026-10-03T06:26:55.380Z",
+      "feed": "ransomware.live",
+      "type": "ransomware-victim",
+      "indicator": "Step By Step",
+      "src_geo": {
+        "lat": 35.91287117103876,
+        "lon": -95.03248498218336,
+        "cc": "US"
+      },
+      "actor": {
+        "name": "Storm",
+        "confidence": "high"
+      },
+      "victim": {
+        "name": "Step By Step",
+        "country": "US"
+      }
+    },
+    {
+      "id": "ransomware-Hospital de la Santa Creu i Sant Pau",
+      "ts": "2026-10-03T06:26:33.138Z",
+      "feed": "ransomware.live",
+      "type": "ransomware-victim",
+      "indicator": "Hospital de la Santa Creu i Sant Pau",
+      "src_geo": {
+        "lat": 41.9403211791687,
+        "lon": -6.533138865108132,
+        "cc": "ES"
+      },
+      "actor": {
+        "name": "thegentlemen",
+        "confidence": "high"
+      },
+      "victim": {
+        "name": "Hospital de la Santa Creu i Sant Pau",
+        "country": "ES"
+      }
+    },
+    {
+      "id": "ransomware-Rotamac",
+      "ts": "2026-10-03T06:26:12.222Z",
+      "feed": "ransomware.live",
+      "type": "ransomware-victim",
+      "indicator": "Rotamac",
+      "src_geo": {
+        "lat": 55.52510054796149,
+        "lon": -109.28218112690901,
+        "cc": "CA"
+      },
+      "actor": {
+        "name": "thegentlemen",
+        "confidence": "high"
+      },
+      "victim": {
+        "name": "Rotamac",
+        "country": "CA"
+      }
+    },
+    {
+      "id": "ransomware-Mandurah State Emergency Service",
+      "ts": "2026-10-03T06:25:51.608Z",
+      "feed": "ransomware.live",
+      "type": "ransomware-victim",
+      "indicator": "Mandurah State Emergency Service",
+      "src_geo": {
+        "lat": -25.220191640771233,
+        "lon": 135.9440250493144,
+        "cc": "AU"
+      },
+      "actor": {
+        "name": "thegentlemen",
+        "confidence": "high"
+      },
+      "victim": {
+        "name": "Mandurah State Emergency Service",
+        "country": "AU"
+      }
+    },
+    {
+      "id": "ransomware-Westrop Primary & Nursery School",
+      "ts": "2026-10-03T06:25:30.930Z",
+      "feed": "ransomware.live",
+      "type": "ransomware-victim",
+      "indicator": "Westrop Primary & Nursery School",
+      "src_geo": {
+        "lat": 54.33935465097349,
+        "lon": -6.101193981715491,
+        "cc": "GB"
+      },
+      "actor": {
+        "name": "thegentlemen",
+        "confidence": "high"
+      },
+      "victim": {
+        "name": "Westrop Primary & Nursery School",
+        "country": "GB"
+      }
+    },
+    {
+      "id": "ransomware-Gerrity Stone",
+      "ts": "2026-10-03T06:25:10.139Z",
+      "feed": "ransomware.live",
+      "type": "ransomware-victim",
+      "indicator": "Gerrity Stone",
+      "src_geo": {
+        "lat": 38.19897643216599,
+        "lon": -97.02978487679643,
+        "cc": "US"
+      },
+      "actor": {
+        "name": "thegentlemen",
+        "confidence": "high"
+      },
+      "victim": {
+        "name": "Gerrity Stone",
+        "country": "US"
+      }
+    },
+    {
+      "id": "ransomware-The Official Collegeof Architects of León (COAL)",
+      "ts": "2026-10-03T05:54:28.277Z",
+      "feed": "ransomware.live",
+      "type": "ransomware-victim",
+      "indicator": "The Official Collegeof Architects of León (COAL)",
+      "src_geo": {
+        "lat": 23.961614792101788,
+        "lon": -102.4098591349773,
+        "cc": "MX"
+      },
+      "actor": {
+        "name": "akira",
+        "confidence": "high"
+      },
+      "victim": {
+        "name": "The Official Collegeof Architects of León (COAL)",
+        "country": "MX"
+      }
+    },
+    {
       "id": "ransomware-seven seas group",
       "ts": "2026-10-03T00:53:20.745Z",
       "feed": "ransomware.live",
       "type": "ransomware-victim",
       "indicator": "seven seas group",
       "src_geo": {
-        "lat": 22.995097904687317,
-        "lon": 55.0958712508425,
+        "lat": 23.503195011251577,
+        "lon": 52.027378307814764,
         "cc": "AE"
       },
       "actor": {
@@ -2274,8 +2494,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "Paessolucoes",
       "src_geo": {
-        "lat": -15.081221809202141,
-        "lon": -51.91719292181108,
+        "lat": -14.694927643868159,
+        "lon": -51.91398870387775,
         "cc": "BR"
       },
       "actor": {
@@ -2294,8 +2514,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "Electro Heat Sweden AB",
       "src_geo": {
-        "lat": 59.84748506037453,
-        "lon": 17.84167412305597,
+        "lat": 61.76278667950901,
+        "lon": 18.752742451774164,
         "cc": "SE"
       },
       "actor": {
@@ -2314,8 +2534,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "Sports Events365",
       "src_geo": {
-        "lat": 55.00092415053022,
-        "lon": -1.3506502560533882,
+        "lat": 57.11750246031129,
+        "lon": -2.803513284544301,
         "cc": "GB"
       },
       "actor": {
@@ -2334,8 +2554,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "Ad***ng",
       "src_geo": {
-        "lat": 22.00537749515061,
-        "lon": 53.73042391241152,
+        "lat": 24.290332604028997,
+        "lon": 51.781571250031035,
         "cc": "AE"
       },
       "actor": {
@@ -2354,8 +2574,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "The Official College of Architects of León (COAL)",
       "src_geo": {
-        "lat": 24.457345808668865,
-        "lon": -99.9473673861349,
+        "lat": 22.139990094666963,
+        "lon": -100.3907539147366,
         "cc": "MX"
       },
       "actor": {
@@ -2374,8 +2594,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "Jampac Alimentos",
       "src_geo": {
-        "lat": -12.875374511757574,
-        "lon": -52.99495039438962,
+        "lat": -12.873470685332121,
+        "lon": -52.28959876084656,
         "cc": "BR"
       },
       "actor": {
@@ -2394,8 +2614,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "Pacific Tank Lines",
       "src_geo": {
-        "lat": 38.05974717546687,
-        "lon": -97.97573709193408,
+        "lat": 38.81816671513662,
+        "lon": -93.93847008740232,
         "cc": "US"
       },
       "actor": {
@@ -2414,8 +2634,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "Inova Semiconductors GmbH",
       "src_geo": {
-        "lat": 50.0630093854653,
-        "lon": 9.048869794673838,
+        "lat": 52.705011706011284,
+        "lon": 8.989899035035386,
         "cc": "DE"
       },
       "actor": {
@@ -2434,8 +2654,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "Raleigh Family Medicine",
       "src_geo": {
-        "lat": 36.98365367037572,
-        "lon": -95.43964585597207,
+        "lat": 38.32680410748343,
+        "lon": -92.9451805775814,
         "cc": "US"
       },
       "actor": {
@@ -2454,8 +2674,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "EdgeEndo® USA",
       "src_geo": {
-        "lat": 36.647648966126624,
-        "lon": -95.34601282664809,
+        "lat": 36.97064946665342,
+        "lon": -95.65457840605005,
         "cc": "US"
       },
       "actor": {
@@ -2474,8 +2694,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "Soni Medical Centre",
       "src_geo": {
-        "lat": 57.52537881368978,
-        "lon": -108.59071685813073,
+        "lat": 55.27342514990245,
+        "lon": -103.45410212261943,
         "cc": "CA"
       },
       "actor": {
@@ -2494,8 +2714,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "University of Illinois Chicago",
       "src_geo": {
-        "lat": 37.68043638446404,
-        "lon": -98.5973437200016,
+        "lat": 35.210946714534174,
+        "lon": -98.11011760707972,
         "cc": "US"
       },
       "actor": {
@@ -2514,8 +2734,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "Tronex A/S",
       "src_geo": {
-        "lat": 57.49886739823867,
-        "lon": 6.5990309146391,
+        "lat": 55.3261737898832,
+        "lon": 10.159804234079663,
         "cc": "DK"
       },
       "actor": {
@@ -2534,8 +2754,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "www.raajratna.com",
       "src_geo": {
-        "lat": 21.203654815055714,
-        "lon": 80.33127263655659,
+        "lat": 22.497557550933312,
+        "lon": 81.09643079179781,
         "cc": "IN"
       },
       "actor": {
@@ -2554,8 +2774,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "www.pierrefeu.fr",
       "src_geo": {
-        "lat": 46.81858929279054,
-        "lon": -0.12192825230535886,
+        "lat": 47.39875858071961,
+        "lon": 4.073422065523211,
         "cc": "FR"
       },
       "actor": {
@@ -2574,8 +2794,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "sai.org.in",
       "src_geo": {
-        "lat": 20.249174831364897,
-        "lon": 78.61724732673107,
+        "lat": 19.159475234508115,
+        "lon": 76.38175839669348,
         "cc": "IN"
       },
       "actor": {
@@ -2594,8 +2814,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "Far West Contractors",
       "src_geo": {
-        "lat": 37.69774504703726,
-        "lon": -98.17999782018165,
+        "lat": 36.10878744132291,
+        "lon": -92.71010629912759,
         "cc": "US"
       },
       "actor": {
@@ -2614,8 +2834,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "Sangre de Cristo Electric Association",
       "src_geo": {
-        "lat": 37.346008650255264,
-        "lon": -93.75065333146303,
+        "lat": 35.59678343958413,
+        "lon": -97.64253946053769,
         "cc": "US"
       },
       "actor": {
@@ -2634,8 +2854,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "EURODITEL/RESOTELECOM",
       "src_geo": {
-        "lat": 44.437381322156554,
-        "lon": -0.10877251059637638,
+        "lat": 46.773649675810034,
+        "lon": -0.473513357813387,
         "cc": "FR"
       },
       "actor": {
@@ -2654,8 +2874,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "Slate Valley Unified School District",
       "src_geo": {
-        "lat": 37.44744223813864,
-        "lon": -95.95579334297462,
+        "lat": 38.75144938709883,
+        "lon": -97.71832658195396,
         "cc": "US"
       },
       "actor": {
@@ -2674,8 +2894,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "DISK PRECISION GROUP - diskprecision.com",
       "src_geo": {
-        "lat": 38.50815223214715,
-        "lon": -93.69164052756585,
+        "lat": 38.72131488586982,
+        "lon": -95.50428928402505,
         "cc": "US"
       },
       "actor": {
@@ -2694,8 +2914,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "FUNAP - Fundação \"Prof. Dr. Manoel Pedro Pimentel\"",
       "src_geo": {
-        "lat": -12.416684512262613,
-        "lon": -52.73270380558422,
+        "lat": -14.549997828128548,
+        "lon": -54.69132371210216,
         "cc": "BR"
       },
       "actor": {
@@ -2714,8 +2934,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "ASSOCIATED GASTROENTEROLOGISTS OF CENTRAL NEW YORK, P.C",
       "src_geo": {
-        "lat": 38.4528386778757,
-        "lon": -98.3217526990075,
+        "lat": 37.03633679872931,
+        "lon": -92.77508395420013,
         "cc": "US"
       },
       "actor": {
@@ -2734,8 +2954,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "Wesmar",
       "src_geo": {
-        "lat": 35.772157890486305,
-        "lon": -98.5369586452696,
+        "lat": 36.54573311520466,
+        "lon": -95.70427297145598,
         "cc": "US"
       },
       "actor": {
@@ -2754,8 +2974,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "Graybar Electric Company, Inc.",
       "src_geo": {
-        "lat": 38.75665232918232,
-        "lon": -97.39412788249427,
+        "lat": 37.45180875708692,
+        "lon": -97.47351618909518,
         "cc": "US"
       },
       "actor": {
@@ -2774,8 +2994,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "Rimrock Foundation",
       "src_geo": {
-        "lat": 37.409814868265855,
-        "lon": -93.94499236164818,
+        "lat": 36.71879346462769,
+        "lon": -93.52610827806765,
         "cc": "US"
       },
       "actor": {
@@ -2794,8 +3014,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "parkdental.com",
       "src_geo": {
-        "lat": 56.60135238187868,
-        "lon": -2.0279097116185287,
+        "lat": 57.29110007684068,
+        "lon": -4.64541383589466,
         "cc": "GB"
       },
       "actor": {
@@ -2814,8 +3034,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "TLC Perinatal",
       "src_geo": {
-        "lat": 36.087237033143026,
-        "lon": -98.43975948439964,
+        "lat": 36.484671907220424,
+        "lon": -94.41119442058667,
         "cc": "US"
       },
       "actor": {
@@ -2834,8 +3054,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "Vera Science",
       "src_geo": {
-        "lat": 36.21814068123711,
-        "lon": -95.23160560377077,
+        "lat": 36.439639758992854,
+        "lon": -98.42311884405552,
         "cc": "US"
       },
       "actor": {
@@ -2854,8 +3074,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "Owens Distributors",
       "src_geo": {
-        "lat": 38.80368224368901,
-        "lon": -95.97404284636491,
+        "lat": 37.65346368476882,
+        "lon": -98.443776351214,
         "cc": "US"
       },
       "actor": {
@@ -2874,8 +3094,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "Guardian Pharmacy LLC",
       "src_geo": {
-        "lat": 35.9836878669701,
-        "lon": -96.30878929171051,
+        "lat": 36.30785735180474,
+        "lon": -96.1311830352728,
         "cc": "US"
       },
       "actor": {
@@ -2894,8 +3114,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "Den Hartog Industries",
       "src_geo": {
-        "lat": 35.603825389773725,
-        "lon": -93.66122192223966,
+        "lat": 36.22048190830642,
+        "lon": -96.63069704951864,
         "cc": "US"
       },
       "actor": {
@@ -2914,8 +3134,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "Northern Counties Health Care",
       "src_geo": {
-        "lat": 36.607784711162736,
-        "lon": -95.39229544938853,
+        "lat": 38.47866540379568,
+        "lon": -95.9840470569483,
         "cc": "US"
       },
       "actor": {
@@ -2934,8 +3154,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "Post Metal Recycling",
       "src_geo": {
-        "lat": 38.81660112786685,
-        "lon": -96.00514236635806,
+        "lat": 38.246922054667024,
+        "lon": -98.40520828704675,
         "cc": "US"
       },
       "actor": {
@@ -2954,8 +3174,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "LA PONDEROSA",
       "src_geo": {
-        "lat": 24.71339147659603,
-        "lon": -99.72894600106686,
+        "lat": 25.54696827364909,
+        "lon": -104.0441321623306,
         "cc": "MX"
       },
       "actor": {
@@ -2974,8 +3194,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "Dynamic Office Solutions",
       "src_geo": {
-        "lat": 55.280973681648945,
-        "lon": -2.4175782771042282,
+        "lat": 53.48820208560169,
+        "lon": -5.42603813228868,
         "cc": "GB"
       },
       "actor": {
@@ -2994,8 +3214,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "Laboratorios Roemmers SAICF",
       "src_geo": {
-        "lat": -36.71270588320824,
-        "lon": -64.14250037919051,
+        "lat": -39.84764114582178,
+        "lon": -63.94259190046802,
         "cc": "AR"
       },
       "actor": {
@@ -3014,8 +3234,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "Houston Thyroid & Endocrine Specialists",
       "src_geo": {
-        "lat": 37.073246317206795,
-        "lon": -95.11271099241524,
+        "lat": 38.41307125371518,
+        "lon": -97.9590390388102,
         "cc": "US"
       },
       "actor": {
@@ -3034,8 +3254,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "The Japan Times",
       "src_geo": {
-        "lat": 37.989852342769986,
-        "lon": 139.22274793603998,
+        "lat": 34.56843286594486,
+        "lon": 137.99990468921882,
         "cc": "JP"
       },
       "actor": {
@@ -3054,8 +3274,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "Summit Electric Supply",
       "src_geo": {
-        "lat": 35.42759592303463,
-        "lon": -95.3421062015955,
+        "lat": 36.78298726073129,
+        "lon": -95.36433044755591,
         "cc": "US"
       },
       "actor": {
@@ -3074,8 +3294,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "wolfusofsky.de",
       "src_geo": {
-        "lat": 52.03142625511835,
-        "lon": 9.448814690759653,
+        "lat": 49.65961992236022,
+        "lon": 13.005791013870382,
         "cc": "DE"
       },
       "actor": {
@@ -3094,8 +3314,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "Le Centre National de l'Expertise Hospitalière (CNEH)",
       "src_geo": {
-        "lat": 46.28709378822866,
-        "lon": 5.148194619274263,
+        "lat": 44.957424995647536,
+        "lon": 0.3558871956172469,
         "cc": "FR"
       },
       "actor": {
@@ -3114,8 +3334,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "Titus",
       "src_geo": {
-        "lat": 52.41928320492038,
-        "lon": 9.186952840945313,
+        "lat": 51.68653563643227,
+        "lon": 7.660238091529424,
         "cc": "DE"
       },
       "actor": {
@@ -3134,8 +3354,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "Airtech Mechanical Services",
       "src_geo": {
-        "lat": 37.840969489189625,
-        "lon": -94.31975008850931,
+        "lat": 36.586294003980825,
+        "lon": -96.78313965339636,
         "cc": "US"
       },
       "actor": {
@@ -3154,8 +3374,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "Blaise C. Bender, PC",
       "src_geo": {
-        "lat": 37.53297723291239,
-        "lon": -93.63380857575588,
+        "lat": 36.00863642493097,
+        "lon": -96.66222479205837,
         "cc": "US"
       },
       "actor": {
@@ -3174,8 +3394,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "Buford-Thompson Company, LTD",
       "src_geo": {
-        "lat": 39.06511364426349,
-        "lon": -96.32463541832047,
+        "lat": 36.855404431452726,
+        "lon": -96.40061436532409,
         "cc": "US"
       },
       "actor": {
@@ -3194,8 +3414,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "econ-tec.com",
       "src_geo": {
-        "lat": 50.60801192055589,
-        "lon": 12.71569656815086,
+        "lat": 52.786687298632806,
+        "lon": 12.141716050964089,
         "cc": "DE"
       },
       "actor": {
@@ -3214,8 +3434,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "assist2enjoy.be",
       "src_geo": {
-        "lat": 50.113305977134175,
-        "lon": 7.1797831642023695,
+        "lat": 49.63162966137426,
+        "lon": 3.131107618217137,
         "cc": "BE"
       },
       "actor": {
@@ -3234,8 +3454,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "Astidental di Sabbione",
       "src_geo": {
-        "lat": 43.013266852868114,
-        "lon": 13.842842312109955,
+        "lat": 41.488720727348735,
+        "lon": 10.474402979248504,
         "cc": "IT"
       },
       "actor": {
@@ -3254,8 +3474,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "Vinco Energy",
       "src_geo": {
-        "lat": 38.51667181203385,
-        "lon": -98.59003129253622,
+        "lat": 36.3647741063313,
+        "lon": -97.28682040469194,
         "cc": "US"
       },
       "actor": {
@@ -3274,8 +3494,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "Becker Logistik",
       "src_geo": {
-        "lat": 49.25569399116483,
-        "lon": 9.244864400054015,
+        "lat": 51.21275055449948,
+        "lon": 9.133006026092218,
         "cc": "DE"
       },
       "actor": {
@@ -3294,8 +3514,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "Wilhelm Kühne",
       "src_geo": {
-        "lat": 51.757079718003595,
-        "lon": 8.028737696841123,
+        "lat": 50.8009705535871,
+        "lon": 12.738650138567317,
         "cc": "DE"
       },
       "actor": {
@@ -3314,8 +3534,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "FIDUCIAL",
       "src_geo": {
-        "lat": 46.58716802785052,
-        "lon": 2.2689063539283816,
+        "lat": 46.12914676068272,
+        "lon": 3.2530232632083593,
         "cc": "FR"
       },
       "actor": {
@@ -3334,8 +3554,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "Virtual Ideas",
       "src_geo": {
-        "lat": -24.640500211214906,
-        "lon": 135.17023796666984,
+        "lat": -24.926673305969253,
+        "lon": 136.57279169675905,
         "cc": "AU"
       },
       "actor": {
@@ -3354,8 +3574,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "PROJAHN",
       "src_geo": {
-        "lat": 50.723638910456955,
-        "lon": 8.439808768759356,
+        "lat": 52.696382914002754,
+        "lon": 9.720699828324666,
         "cc": "DE"
       },
       "actor": {
@@ -3374,8 +3594,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "Altmannshofer Sicherheits-Videotechnik",
       "src_geo": {
-        "lat": 52.29741995186623,
-        "lon": 7.568509940782773,
+        "lat": 51.70407364203038,
+        "lon": 12.168159469293888,
         "cc": "DE"
       },
       "actor": {
@@ -3394,8 +3614,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "MCAP — MortgageHub commercial lending platform",
       "src_geo": {
-        "lat": 55.161899243242416,
-        "lon": -108.35225154904937,
+        "lat": 55.83902253498519,
+        "lon": -107.45587408472687,
         "cc": "CA"
       },
       "actor": {
@@ -3414,8 +3634,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "GERLON",
       "src_geo": {
-        "lat": 50.485516337492825,
-        "lon": 9.907147421743678,
+        "lat": 50.811789346171246,
+        "lon": 10.424839647916718,
         "cc": "DE"
       },
       "actor": {
@@ -3434,8 +3654,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "clicks digital GmbH Information",
       "src_geo": {
-        "lat": 50.50183998757687,
-        "lon": 12.189155744224585,
+        "lat": 52.88659395980953,
+        "lon": 11.419091575239403,
         "cc": "DE"
       },
       "actor": {
@@ -3454,8 +3674,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "Law Offices of R. David Williams, P.A.",
       "src_geo": {
-        "lat": 37.96014921082513,
-        "lon": -98.47864376936786,
+        "lat": 36.018908103455196,
+        "lon": -97.54797862079987,
         "cc": "US"
       },
       "actor": {
@@ -3474,8 +3694,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "www.newyjh.com",
       "src_geo": {
-        "lat": 34.60311716676226,
-        "lon": 125.81966999406505,
+        "lat": 35.55227837568025,
+        "lon": 130.63135831487122,
         "cc": "KR"
       },
       "actor": {
@@ -3494,8 +3714,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "West County Health Centers",
       "src_geo": {
-        "lat": 37.241561514435254,
-        "lon": -97.85857423071107,
+        "lat": 38.47653340098021,
+        "lon": -95.36998625173374,
         "cc": "US"
       },
       "actor": {
@@ -3514,8 +3734,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "Gardeners' Guild",
       "src_geo": {
-        "lat": 39.0811929714661,
-        "lon": -97.761248347544,
+        "lat": 39.08581511602746,
+        "lon": -95.43037579073338,
         "cc": "US"
       },
       "actor": {
@@ -3528,94 +3748,14 @@ window.CYBER_EVENTS = {
       }
     },
     {
-      "id": "ransomware-Williamson Dacar Associates",
-      "ts": "2026-09-30T03:37:36.288Z",
-      "feed": "ransomware.live",
-      "type": "ransomware-victim",
-      "indicator": "Williamson Dacar Associates",
-      "src_geo": {
-        "lat": 53.48533449581368,
-        "lon": -4.274112637744766,
-        "cc": "GB"
-      },
-      "actor": {
-        "name": "thegentlemen",
-        "confidence": "high"
-      },
-      "victim": {
-        "name": "Williamson Dacar Associates",
-        "country": "GB"
-      }
-    },
-    {
-      "id": "ransomware-DBU Construction",
-      "ts": "2026-09-30T03:36:53.705Z",
-      "feed": "ransomware.live",
-      "type": "ransomware-victim",
-      "indicator": "DBU Construction",
-      "src_geo": {
-        "lat": 36.38557959674255,
-        "lon": -94.90206724121268,
-        "cc": "US"
-      },
-      "actor": {
-        "name": "thegentlemen",
-        "confidence": "high"
-      },
-      "victim": {
-        "name": "DBU Construction",
-        "country": "US"
-      }
-    },
-    {
-      "id": "ransomware-Northern NJ Eye Institute",
-      "ts": "2026-09-30T03:36:33.004Z",
-      "feed": "ransomware.live",
-      "type": "ransomware-victim",
-      "indicator": "Northern NJ Eye Institute",
-      "src_geo": {
-        "lat": 36.872499918610444,
-        "lon": -94.63557825939442,
-        "cc": "US"
-      },
-      "actor": {
-        "name": "thegentlemen",
-        "confidence": "high"
-      },
-      "victim": {
-        "name": "Northern NJ Eye Institute",
-        "country": "US"
-      }
-    },
-    {
-      "id": "ransomware-Tommy Garner Air Conditioning Heating",
-      "ts": "2026-09-30T03:36:12.351Z",
-      "feed": "ransomware.live",
-      "type": "ransomware-victim",
-      "indicator": "Tommy Garner Air Conditioning Heating",
-      "src_geo": {
-        "lat": 37.573634069299786,
-        "lon": -94.7704844335343,
-        "cc": "US"
-      },
-      "actor": {
-        "name": "thegentlemen",
-        "confidence": "high"
-      },
-      "victim": {
-        "name": "Tommy Garner Air Conditioning Heating",
-        "country": "US"
-      }
-    },
-    {
       "id": "ransomware-http://yqhecvqtdvq6p7duqcgw2qca77spbgakxcoibtx6zpvfshltsbbbhfqd.onion/company/6abc6af8017ad22f3de0f1db",
       "ts": "2026-09-30T03:35:42.576Z",
       "feed": "ransomware.live",
       "type": "ransomware-victim",
       "indicator": "North Hills Facility Services",
       "src_geo": {
-        "lat": 36.55102311197586,
-        "lon": -97.5396225553046,
+        "lat": 36.58451359352284,
+        "lon": -97.31103635498525,
         "cc": "US"
       },
       "actor": {
@@ -3634,8 +3774,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "Olnick Rentals",
       "src_geo": {
-        "lat": 37.40832359767294,
-        "lon": -97.3515565416104,
+        "lat": 38.58343859312811,
+        "lon": -94.67881200413323,
         "cc": "US"
       },
       "actor": {
@@ -3648,34 +3788,14 @@ window.CYBER_EVENTS = {
       }
     },
     {
-      "id": "ransomware-Don Hierro",
-      "ts": "2026-09-30T03:34:49.525Z",
-      "feed": "ransomware.live",
-      "type": "ransomware-victim",
-      "indicator": "Don Hierro",
-      "src_geo": {
-        "lat": 23.514517848164495,
-        "lon": -101.01012623192558,
-        "cc": "MX"
-      },
-      "actor": {
-        "name": "thegentlemen",
-        "confidence": "high"
-      },
-      "victim": {
-        "name": "Don Hierro",
-        "country": "MX"
-      }
-    },
-    {
       "id": "ransomware-http://yqhecvqtdvq6p7duqcgw2qca77spbgakxcoibtx6zpvfshltsbbbhfqd.onion/company/6abc6953017ad22f3de0f1d7",
       "ts": "2026-09-30T03:34:40.453Z",
       "feed": "ransomware.live",
       "type": "ransomware-victim",
       "indicator": "Century Management Services",
       "src_geo": {
-        "lat": 35.23031658095528,
-        "lon": -95.23257951101553,
+        "lat": 37.12681605465425,
+        "lon": -97.9164202960319,
         "cc": "US"
       },
       "actor": {
@@ -3694,8 +3814,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "Corswarem Group",
       "src_geo": {
-        "lat": 52.14976448892921,
-        "lon": 4.135464138368187,
+        "lat": 50.02556099551989,
+        "lon": 6.726076321265549,
         "cc": "BE"
       },
       "actor": {
@@ -3714,8 +3834,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "Silvercup Studios",
       "src_geo": {
-        "lat": 37.56589168674263,
-        "lon": -94.85977907079983,
+        "lat": 35.75510361242471,
+        "lon": -95.98862146464764,
         "cc": "US"
       },
       "actor": {
@@ -3734,8 +3854,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "intense.pl",
       "src_geo": {
-        "lat": 52.50278165990436,
-        "lon": 16.638359322900392,
+        "lat": 50.03794642572804,
+        "lon": 19.47875577002747,
         "cc": "PL"
       },
       "actor": {
@@ -3754,8 +3874,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "Tekko Enterprises, Inc",
       "src_geo": {
-        "lat": 35.381479889452855,
-        "lon": -93.87464892309764,
+        "lat": 35.107022861771696,
+        "lon": -98.46838838560907,
         "cc": "US"
       },
       "actor": {
@@ -3774,8 +3894,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "Gibson Area Hospital & Health Services",
       "src_geo": {
-        "lat": 36.641205992116085,
-        "lon": -96.10669888623717,
+        "lat": 39.00675851114094,
+        "lon": -93.78894888218636,
         "cc": "US"
       },
       "actor": {
@@ -3794,8 +3914,8 @@ window.CYBER_EVENTS = {
       "type": "ransomware-victim",
       "indicator": "Polikem",
       "src_geo": {
-        "lat": 37.19611192254239,
-        "lon": 33.18524717780416,
+        "lat": 40.298003315504815,
+        "lon": 34.11834911172502,
         "cc": "TR"
       },
       "actor": {
@@ -3805,66 +3925,6 @@ window.CYBER_EVENTS = {
       "victim": {
         "name": "Polikem",
         "country": "TR"
-      }
-    },
-    {
-      "id": "ransomware-http://gammax6w3dkfdjfrjthtmqzsioue52vzy6lz54qy6jcvmogfpubutjyd.onion/post/FRzrzxYKc3ukS2t8tNJHUikAKFHQqzdJ",
-      "ts": "2026-09-29T16:22:45.183Z",
-      "feed": "ransomware.live",
-      "type": "ransomware-victim",
-      "indicator": "AHeadStart Tutoring",
-      "src_geo": {
-        "lat": -39.3666771649866,
-        "lon": 176.61090010429876,
-        "cc": "NZ"
-      },
-      "actor": {
-        "name": "Gammax",
-        "confidence": "high"
-      },
-      "victim": {
-        "name": "AHeadStart Tutoring",
-        "country": "NZ"
-      }
-    },
-    {
-      "id": "ransomware-http://gammax6w3dkfdjfrjthtmqzsioue52vzy6lz54qy6jcvmogfpubutjyd.onion/post/Vb5ZDvrc6Y8tkE1wUt3gWpWv5JFyEitK",
-      "ts": "2026-09-29T16:22:06.036Z",
-      "feed": "ransomware.live",
-      "type": "ransomware-victim",
-      "indicator": "Crowder Industries, Inc",
-      "src_geo": {
-        "lat": 37.01840249830232,
-        "lon": -95.20375721888537,
-        "cc": "US"
-      },
-      "actor": {
-        "name": "Gammax",
-        "confidence": "high"
-      },
-      "victim": {
-        "name": "Crowder Industries, Inc",
-        "country": "US"
-      }
-    },
-    {
-      "id": "ransomware-http://vkvsgl7lhipjirmz6j5ubp3w3bwvxgcdbpi3fsbqngfynetqtw4w5hyd.onion/n/latitudesubro",
-      "ts": "2026-09-29T15:51:06.957Z",
-      "feed": "ransomware.live",
-      "type": "ransomware-victim",
-      "indicator": "latitudesubro.com",
-      "src_geo": {
-        "lat": -15.545145991573552,
-        "lon": -53.82817881210805,
-        "cc": "BR"
-      },
-      "actor": {
-        "name": "BrainCipher",
-        "confidence": "high"
-      },
-      "victim": {
-        "name": "latitudesubro.com",
-        "country": "BR"
       }
     },
     {
