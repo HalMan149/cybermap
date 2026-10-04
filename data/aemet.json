@@ -1,166 +1,166 @@
 {
-  "generated_at": "2026-10-04T14:21:32.197Z",
+  "generated_at": "2026-10-04T18:15:27.767Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "🌧️",
-      "provincia": "Sierra y Pedroches",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Sierra y Pedroches",
+      "provincia": "Levante almeriense",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Levante almeriense",
       "nivel": "Naranja",
-      "text": "Sierra y Pedroches: Aviso de lluvias de nivel amarillo. Sierra y Pedroches (Naranja) (AEMET)",
+      "text": "Levante almeriense: Aviso de lluvias de nivel amarillo. Levante almeriense (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sierra y Pedroches",
-      "fenomeno": "Moderate rain warning. Sierra y Pedroches",
+      "provincia": "Levante almeriense",
+      "fenomeno": "Moderate rain warning. Levante almeriense",
       "nivel": "Naranja",
-      "text": "Sierra y Pedroches: Moderate rain warning. Sierra y Pedroches (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Campiña cordobesa",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Campiña cordobesa",
-      "nivel": "Naranja",
-      "text": "Campiña cordobesa: Aviso de lluvias de nivel amarillo. Campiña cordobesa (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Campiña cordobesa",
-      "fenomeno": "Moderate rain warning. Campiña cordobesa",
-      "nivel": "Naranja",
-      "text": "Campiña cordobesa: Moderate rain warning. Campiña cordobesa (Naranja) (AEMET)",
+      "text": "Levante almeriense: Moderate rain warning. Levante almeriense (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Sierra y Pedroches",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Sierra y Pedroches",
+      "provincia": "Levante almeriense",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Levante almeriense",
       "nivel": "Naranja",
-      "text": "Sierra y Pedroches: Aviso de tormentas de nivel amarillo. Sierra y Pedroches (Naranja) (AEMET)",
+      "text": "Levante almeriense: Aviso de tormentas de nivel amarillo. Levante almeriense (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sierra y Pedroches",
-      "fenomeno": "Moderate thunderstorm warning. Sierra y Pedroches",
+      "provincia": "Levante almeriense",
+      "fenomeno": "Moderate thunderstorm warning. Levante almeriense",
       "nivel": "Naranja",
-      "text": "Sierra y Pedroches: Moderate thunderstorm warning. Sierra y Pedroches (Naranja) (AEMET)",
+      "text": "Levante almeriense: Moderate thunderstorm warning. Levante almeriense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "La Mancha albaceteña",
+      "fenomeno": "Aviso de lluvias de nivel naranja. La Mancha albaceteña",
+      "nivel": "Rojo",
+      "text": "La Mancha albaceteña: Aviso de lluvias de nivel naranja. La Mancha albaceteña (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "La Mancha albaceteña",
+      "fenomeno": "Severe rain warning. La Mancha albaceteña",
+      "nivel": "Rojo",
+      "text": "La Mancha albaceteña: Severe rain warning. La Mancha albaceteña (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "La Mancha de Ciudad Real",
+      "fenomeno": "Aviso de lluvias de nivel naranja. La Mancha de Ciudad Real",
+      "nivel": "Rojo",
+      "text": "La Mancha de Ciudad Real: Aviso de lluvias de nivel naranja. La Mancha de Ciudad Real (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "La Mancha de Ciudad Real",
+      "fenomeno": "Severe rain warning. La Mancha de Ciudad Real",
+      "nivel": "Rojo",
+      "text": "La Mancha de Ciudad Real: Severe rain warning. La Mancha de Ciudad Real (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Campiña cordobesa",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Campiña cordobesa",
+      "provincia": "La Mancha de Ciudad Real",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. La Mancha de Ciudad Real",
       "nivel": "Naranja",
-      "text": "Campiña cordobesa: Aviso de tormentas de nivel amarillo. Campiña cordobesa (Naranja) (AEMET)",
+      "text": "La Mancha de Ciudad Real: Aviso de tormentas de nivel amarillo. La Mancha de Ciudad Real (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Campiña cordobesa",
-      "fenomeno": "Moderate thunderstorm warning. Campiña cordobesa",
+      "provincia": "La Mancha de Ciudad Real",
+      "fenomeno": "Moderate thunderstorm warning. La Mancha de Ciudad Real",
       "nivel": "Naranja",
-      "text": "Campiña cordobesa: Moderate thunderstorm warning. Campiña cordobesa (Naranja) (AEMET)",
+      "text": "La Mancha de Ciudad Real: Moderate thunderstorm warning. La Mancha de Ciudad Real (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "La Siberia extremeña",
-      "fenomeno": "Aviso de lluvias de nivel naranja. La Siberia extremeña",
-      "nivel": "Rojo",
-      "text": "La Siberia extremeña: Aviso de lluvias de nivel naranja. La Siberia extremeña (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "La Siberia extremeña",
-      "fenomeno": "Severe rain warning. La Siberia extremeña",
-      "nivel": "Rojo",
-      "text": "La Siberia extremeña: Severe rain warning. La Siberia extremeña (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Ibiza y Formentera",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Ibiza y Formentera",
+      "provincia": "Central y Valles Mineros",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Central y Valles Mineros",
       "nivel": "Naranja",
-      "text": "Ibiza y Formentera: Aviso de lluvias de nivel amarillo. Ibiza y Formentera (Naranja) (AEMET)",
+      "text": "Central y Valles Mineros: Aviso de lluvias de nivel amarillo. Central y Valles Mineros (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Ibiza y Formentera",
-      "fenomeno": "Moderate rain warning. Ibiza y Formentera",
+      "provincia": "Central y Valles Mineros",
+      "fenomeno": "Moderate rain warning. Central y Valles Mineros",
       "nivel": "Naranja",
-      "text": "Ibiza y Formentera: Moderate rain warning. Ibiza y Formentera (Naranja) (AEMET)",
+      "text": "Central y Valles Mineros: Moderate rain warning. Central y Valles Mineros (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "La Mancha conquense",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. La Mancha conquense",
+      "provincia": "Centro de Lugo",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Centro de Lugo",
       "nivel": "Naranja",
-      "text": "La Mancha conquense: Aviso de lluvias de nivel amarillo. La Mancha conquense (Naranja) (AEMET)",
+      "text": "Centro de Lugo: Aviso de lluvias de nivel amarillo. Centro de Lugo (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "La Mancha conquense",
-      "fenomeno": "Moderate rain warning. La Mancha conquense",
+      "provincia": "Centro de Lugo",
+      "fenomeno": "Moderate rain warning. Centro de Lugo",
       "nivel": "Naranja",
-      "text": "La Mancha conquense: Moderate rain warning. La Mancha conquense (Naranja) (AEMET)",
+      "text": "Centro de Lugo: Moderate rain warning. Centro de Lugo (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Barros y Serena",
-      "fenomeno": "Aviso de lluvias de nivel rojo. Barros y Serena",
-      "nivel": "Rojo",
-      "text": "Barros y Serena: Aviso de lluvias de nivel rojo. Barros y Serena (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Barros y Serena",
-      "fenomeno": "Extreme rain warning. Barros y Serena",
-      "nivel": "Rojo",
-      "text": "Barros y Serena: Extreme rain warning. Barros y Serena (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Sur de Badajoz",
-      "fenomeno": "Aviso de lluvias de nivel rojo. Sur de Badajoz",
-      "nivel": "Rojo",
-      "text": "Sur de Badajoz: Aviso de lluvias de nivel rojo. Sur de Badajoz (Rojo) (AEMET)",
+      "icon": "⛈️",
+      "provincia": "Central y Valles Mineros",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Central y Valles Mineros",
+      "nivel": "Naranja",
+      "text": "Central y Valles Mineros: Aviso de tormentas de nivel amarillo. Central y Valles Mineros (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sur de Badajoz",
-      "fenomeno": "Extreme rain warning. Sur de Badajoz",
-      "nivel": "Rojo",
-      "text": "Sur de Badajoz: Extreme rain warning. Sur de Badajoz (Rojo) (AEMET)",
+      "provincia": "Central y Valles Mineros",
+      "fenomeno": "Moderate thunderstorm warning. Central y Valles Mineros",
+      "nivel": "Naranja",
+      "text": "Central y Valles Mineros: Moderate thunderstorm warning. Central y Valles Mineros (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Barros y Serena",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Barros y Serena",
-      "nivel": "Rojo",
-      "text": "Barros y Serena: Aviso de lluvias de nivel naranja. Barros y Serena (Rojo) (AEMET)",
+      "icon": "⛈️",
+      "provincia": "Centro de Lugo",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Centro de Lugo",
+      "nivel": "Naranja",
+      "text": "Centro de Lugo: Aviso de tormentas de nivel amarillo. Centro de Lugo (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Barros y Serena",
-      "fenomeno": "Severe rain warning. Barros y Serena",
-      "nivel": "Rojo",
-      "text": "Barros y Serena: Severe rain warning. Barros y Serena (Rojo) (AEMET)",
+      "provincia": "Centro de Lugo",
+      "fenomeno": "Moderate thunderstorm warning. Centro de Lugo",
+      "nivel": "Naranja",
+      "text": "Centro de Lugo: Moderate thunderstorm warning. Centro de Lugo (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Sistema Central de Ávila",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Sistema Central de Ávila",
+      "nivel": "Naranja",
+      "text": "Sistema Central de Ávila: Aviso de lluvias de nivel amarillo. Sistema Central de Ávila (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sistema Central de Ávila",
+      "fenomeno": "Moderate rain warning. Sistema Central de Ávila",
+      "nivel": "Naranja",
+      "text": "Sistema Central de Ávila: Moderate rain warning. Sistema Central de Ávila (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
