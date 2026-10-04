@@ -1,7 +1,168 @@
-// Auto-generado por GitHub Actions - 2026-10-04T08:39:12.746Z
+// Auto-generado por GitHub Actions - 2026-10-04T14:21:32.197Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-10-04T08:39:12.746Z",
+  "generated_at": "2026-10-04T14:21:32.197Z",
   "source": "AEMET OpenData API",
-  "total_avisos": 0,
-  "avisos": []
+  "total_avisos": 20,
+  "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Sierra y Pedroches",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Sierra y Pedroches",
+      "nivel": "Naranja",
+      "text": "Sierra y Pedroches: Aviso de lluvias de nivel amarillo. Sierra y Pedroches (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sierra y Pedroches",
+      "fenomeno": "Moderate rain warning. Sierra y Pedroches",
+      "nivel": "Naranja",
+      "text": "Sierra y Pedroches: Moderate rain warning. Sierra y Pedroches (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Campiña cordobesa",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Campiña cordobesa",
+      "nivel": "Naranja",
+      "text": "Campiña cordobesa: Aviso de lluvias de nivel amarillo. Campiña cordobesa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Campiña cordobesa",
+      "fenomeno": "Moderate rain warning. Campiña cordobesa",
+      "nivel": "Naranja",
+      "text": "Campiña cordobesa: Moderate rain warning. Campiña cordobesa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Sierra y Pedroches",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Sierra y Pedroches",
+      "nivel": "Naranja",
+      "text": "Sierra y Pedroches: Aviso de tormentas de nivel amarillo. Sierra y Pedroches (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sierra y Pedroches",
+      "fenomeno": "Moderate thunderstorm warning. Sierra y Pedroches",
+      "nivel": "Naranja",
+      "text": "Sierra y Pedroches: Moderate thunderstorm warning. Sierra y Pedroches (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Campiña cordobesa",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Campiña cordobesa",
+      "nivel": "Naranja",
+      "text": "Campiña cordobesa: Aviso de tormentas de nivel amarillo. Campiña cordobesa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Campiña cordobesa",
+      "fenomeno": "Moderate thunderstorm warning. Campiña cordobesa",
+      "nivel": "Naranja",
+      "text": "Campiña cordobesa: Moderate thunderstorm warning. Campiña cordobesa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "La Siberia extremeña",
+      "fenomeno": "Aviso de lluvias de nivel naranja. La Siberia extremeña",
+      "nivel": "Rojo",
+      "text": "La Siberia extremeña: Aviso de lluvias de nivel naranja. La Siberia extremeña (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "La Siberia extremeña",
+      "fenomeno": "Severe rain warning. La Siberia extremeña",
+      "nivel": "Rojo",
+      "text": "La Siberia extremeña: Severe rain warning. La Siberia extremeña (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Ibiza y Formentera",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Ibiza y Formentera",
+      "nivel": "Naranja",
+      "text": "Ibiza y Formentera: Aviso de lluvias de nivel amarillo. Ibiza y Formentera (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ibiza y Formentera",
+      "fenomeno": "Moderate rain warning. Ibiza y Formentera",
+      "nivel": "Naranja",
+      "text": "Ibiza y Formentera: Moderate rain warning. Ibiza y Formentera (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "La Mancha conquense",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. La Mancha conquense",
+      "nivel": "Naranja",
+      "text": "La Mancha conquense: Aviso de lluvias de nivel amarillo. La Mancha conquense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "La Mancha conquense",
+      "fenomeno": "Moderate rain warning. La Mancha conquense",
+      "nivel": "Naranja",
+      "text": "La Mancha conquense: Moderate rain warning. La Mancha conquense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Barros y Serena",
+      "fenomeno": "Aviso de lluvias de nivel rojo. Barros y Serena",
+      "nivel": "Rojo",
+      "text": "Barros y Serena: Aviso de lluvias de nivel rojo. Barros y Serena (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Barros y Serena",
+      "fenomeno": "Extreme rain warning. Barros y Serena",
+      "nivel": "Rojo",
+      "text": "Barros y Serena: Extreme rain warning. Barros y Serena (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Sur de Badajoz",
+      "fenomeno": "Aviso de lluvias de nivel rojo. Sur de Badajoz",
+      "nivel": "Rojo",
+      "text": "Sur de Badajoz: Aviso de lluvias de nivel rojo. Sur de Badajoz (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sur de Badajoz",
+      "fenomeno": "Extreme rain warning. Sur de Badajoz",
+      "nivel": "Rojo",
+      "text": "Sur de Badajoz: Extreme rain warning. Sur de Badajoz (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Barros y Serena",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Barros y Serena",
+      "nivel": "Rojo",
+      "text": "Barros y Serena: Aviso de lluvias de nivel naranja. Barros y Serena (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Barros y Serena",
+      "fenomeno": "Severe rain warning. Barros y Serena",
+      "nivel": "Rojo",
+      "text": "Barros y Serena: Severe rain warning. Barros y Serena (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    }
+  ]
 };
