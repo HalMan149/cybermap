@@ -1,9 +1,25 @@
-// Auto-generado por GitHub Actions - 2026-10-03T22:59:55.981Z
+// Auto-generado por GitHub Actions - 2026-10-04T02:27:56.215Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-10-03T22:59:55.981Z",
+  "generated_at": "2026-10-04T02:27:56.215Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Centro y valle de Villaverde",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Centro y valle de Villaverde",
+      "nivel": "Rojo",
+      "text": "Centro y valle de Villaverde: Aviso de lluvias de nivel naranja. Centro y valle de Villaverde (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Centro y valle de Villaverde",
+      "fenomeno": "Severe rain warning. Centro y valle de Villaverde",
+      "nivel": "Rojo",
+      "text": "Centro y valle de Villaverde: Severe rain warning. Centro y valle de Villaverde (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Noroeste de Murcia",
@@ -146,22 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate rain warning. Ibérica riojana",
       "nivel": "Naranja",
       "text": "Ibérica riojana: Moderate rain warning. Ibérica riojana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Ribera del Ebro de La Rioja",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Ribera del Ebro de La Rioja",
-      "nivel": "Naranja",
-      "text": "Ribera del Ebro de La Rioja: Aviso de tormentas de nivel amarillo. Ribera del Ebro de La Rioja (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ribera del Ebro de La Rioja",
-      "fenomeno": "Moderate thunderstorm warning. Ribera del Ebro de La Rioja",
-      "nivel": "Naranja",
-      "text": "Ribera del Ebro de La Rioja: Moderate thunderstorm warning. Ribera del Ebro de La Rioja (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
