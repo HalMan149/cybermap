@@ -1,9 +1,121 @@
-// Auto-generado por GitHub Actions - 2026-10-06T01:29:58.755Z
+// Auto-generado por GitHub Actions - 2026-10-06T07:58:51.044Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-10-06T01:29:58.755Z",
+  "generated_at": "2026-10-06T07:58:51.044Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Central y Valles Mineros",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Central y Valles Mineros",
+      "nivel": "Rojo",
+      "text": "Central y Valles Mineros: Aviso de lluvias de nivel naranja. Central y Valles Mineros (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Central y Valles Mineros",
+      "fenomeno": "Severe rain warning. Central y Valles Mineros",
+      "nivel": "Rojo",
+      "text": "Central y Valles Mineros: Severe rain warning. Central y Valles Mineros (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Interior de A Coruña",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Interior de A Coruña",
+      "nivel": "Rojo",
+      "text": "Interior de A Coruña: Aviso de lluvias de nivel naranja. Interior de A Coruña (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior de A Coruña",
+      "fenomeno": "Severe rain warning. Interior de A Coruña",
+      "nivel": "Rojo",
+      "text": "Interior de A Coruña: Severe rain warning. Interior de A Coruña (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Central y Valles Mineros",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Central y Valles Mineros",
+      "nivel": "Naranja",
+      "text": "Central y Valles Mineros: Aviso de lluvias de nivel amarillo. Central y Valles Mineros (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Central y Valles Mineros",
+      "fenomeno": "Moderate rain warning. Central y Valles Mineros",
+      "nivel": "Naranja",
+      "text": "Central y Valles Mineros: Moderate rain warning. Central y Valles Mineros (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Suroccidental asturiana",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Suroccidental asturiana",
+      "nivel": "Naranja",
+      "text": "Suroccidental asturiana: Aviso de lluvias de nivel amarillo. Suroccidental asturiana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Suroccidental asturiana",
+      "fenomeno": "Moderate rain warning. Suroccidental asturiana",
+      "nivel": "Naranja",
+      "text": "Suroccidental asturiana: Moderate rain warning. Suroccidental asturiana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Central y Valles Mineros",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Central y Valles Mineros",
+      "nivel": "Naranja",
+      "text": "Central y Valles Mineros: Aviso de lluvias de nivel amarillo. Central y Valles Mineros (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Central y Valles Mineros",
+      "fenomeno": "Moderate rain warning. Central y Valles Mineros",
+      "nivel": "Naranja",
+      "text": "Central y Valles Mineros: Moderate rain warning. Central y Valles Mineros (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Interior de A Coruña",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Interior de A Coruña",
+      "nivel": "Naranja",
+      "text": "Interior de A Coruña: Aviso de lluvias de nivel amarillo. Interior de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Interior de A Coruña",
+      "fenomeno": "Moderate rain warning. Interior de A Coruña",
+      "nivel": "Naranja",
+      "text": "Interior de A Coruña: Moderate rain warning. Interior de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Centro de Lugo",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Centro de Lugo",
+      "nivel": "Naranja",
+      "text": "Centro de Lugo: Aviso de lluvias de nivel amarillo. Centro de Lugo (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Centro de Lugo",
+      "fenomeno": "Moderate rain warning. Centro de Lugo",
+      "nivel": "Naranja",
+      "text": "Centro de Lugo: Moderate rain warning. Centro de Lugo (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Litoral de Barcelona",
@@ -38,130 +150,18 @@ window.AEMET_AVISOS = {
     },
     {
       "icon": "🌧️",
-      "provincia": "Valle del Almanzora y Los Vélez",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Valle del Almanzora y Los Vélez",
-      "nivel": "Naranja",
-      "text": "Valle del Almanzora y Los Vélez: Aviso de lluvias de nivel amarillo. Valle del Almanzora y Los Vélez (Naranja) (AEMET)",
+      "provincia": "Litoral norte de Tarragona",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Litoral norte de Tarragona",
+      "nivel": "Rojo",
+      "text": "Litoral norte de Tarragona: Aviso de lluvias de nivel naranja. Litoral norte de Tarragona (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Valle del Almanzora y Los Vélez",
-      "fenomeno": "Moderate rain warning. Valle del Almanzora y Los Vélez",
-      "nivel": "Naranja",
-      "text": "Valle del Almanzora y Los Vélez: Moderate rain warning. Valle del Almanzora y Los Vélez (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Nacimiento y Campo de Tabernas",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Nacimiento y Campo de Tabernas",
-      "nivel": "Naranja",
-      "text": "Nacimiento y Campo de Tabernas: Aviso de lluvias de nivel amarillo. Nacimiento y Campo de Tabernas (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Nacimiento y Campo de Tabernas",
-      "fenomeno": "Moderate rain warning. Nacimiento y Campo de Tabernas",
-      "nivel": "Naranja",
-      "text": "Nacimiento y Campo de Tabernas: Moderate rain warning. Nacimiento y Campo de Tabernas (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Poniente y Almería Capital",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Poniente y Almería Capital",
-      "nivel": "Naranja",
-      "text": "Poniente y Almería Capital: Aviso de lluvias de nivel amarillo. Poniente y Almería Capital (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Poniente y Almería Capital",
-      "fenomeno": "Moderate rain warning. Poniente y Almería Capital",
-      "nivel": "Naranja",
-      "text": "Poniente y Almería Capital: Moderate rain warning. Poniente y Almería Capital (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Levante almeriense",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Levante almeriense",
-      "nivel": "Naranja",
-      "text": "Levante almeriense: Aviso de lluvias de nivel amarillo. Levante almeriense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Levante almeriense",
-      "fenomeno": "Moderate rain warning. Levante almeriense",
-      "nivel": "Naranja",
-      "text": "Levante almeriense: Moderate rain warning. Levante almeriense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Nevada y Alpujarras",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Nevada y Alpujarras",
-      "nivel": "Naranja",
-      "text": "Nevada y Alpujarras: Aviso de lluvias de nivel amarillo. Nevada y Alpujarras (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Nevada y Alpujarras",
-      "fenomeno": "Moderate rain warning. Nevada y Alpujarras",
-      "nivel": "Naranja",
-      "text": "Nevada y Alpujarras: Moderate rain warning. Nevada y Alpujarras (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Litoral oriental asturiano",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral oriental asturiano",
-      "nivel": "Naranja",
-      "text": "Litoral oriental asturiano: Aviso de lluvias de nivel amarillo. Litoral oriental asturiano (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral oriental asturiano",
-      "fenomeno": "Moderate rain warning. Litoral oriental asturiano",
-      "nivel": "Naranja",
-      "text": "Litoral oriental asturiano: Moderate rain warning. Litoral oriental asturiano (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Prelitoral de Girona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Prelitoral de Girona",
-      "nivel": "Naranja",
-      "text": "Prelitoral de Girona: Aviso de lluvias de nivel amarillo. Prelitoral de Girona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Prelitoral de Girona",
-      "fenomeno": "Moderate rain warning. Prelitoral de Girona",
-      "nivel": "Naranja",
-      "text": "Prelitoral de Girona: Moderate rain warning. Prelitoral de Girona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Ampurdán",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Ampurdán",
-      "nivel": "Naranja",
-      "text": "Ampurdán: Aviso de lluvias de nivel amarillo. Ampurdán (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ampurdán",
-      "fenomeno": "Moderate rain warning. Ampurdán",
-      "nivel": "Naranja",
-      "text": "Ampurdán: Moderate rain warning. Ampurdán (Naranja) (AEMET)",
+      "provincia": "Litoral norte de Tarragona",
+      "fenomeno": "Severe rain warning. Litoral norte de Tarragona",
+      "nivel": "Rojo",
+      "text": "Litoral norte de Tarragona: Severe rain warning. Litoral norte de Tarragona (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
