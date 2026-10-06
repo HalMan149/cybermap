@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-10-05T12:38:03.843Z
+// Auto-generado por GitHub Actions - 2026-10-06T01:29:58.755Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-10-05T12:38:03.843Z",
+  "generated_at": "2026-10-06T01:29:58.755Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "🌧️",
-      "provincia": "Montes del norte y Anchuras",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Montes del norte y Anchuras",
-      "nivel": "Naranja",
-      "text": "Montes del norte y Anchuras: Aviso de lluvias de nivel amarillo. Montes del norte y Anchuras (Naranja) (AEMET)",
+      "provincia": "Litoral de Barcelona",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Litoral de Barcelona",
+      "nivel": "Rojo",
+      "text": "Litoral de Barcelona: Aviso de lluvias de nivel naranja. Litoral de Barcelona (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Montes del norte y Anchuras",
-      "fenomeno": "Moderate rain warning. Montes del norte y Anchuras",
-      "nivel": "Naranja",
-      "text": "Montes del norte y Anchuras: Moderate rain warning. Montes del norte y Anchuras (Naranja) (AEMET)",
+      "provincia": "Litoral de Barcelona",
+      "fenomeno": "Severe rain warning. Litoral de Barcelona",
+      "nivel": "Rojo",
+      "text": "Litoral de Barcelona: Severe rain warning. Litoral de Barcelona (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Sierra de Madrid",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Sierra de Madrid",
-      "nivel": "Naranja",
-      "text": "Sierra de Madrid: Aviso de lluvias de nivel amarillo. Sierra de Madrid (Naranja) (AEMET)",
+      "provincia": "Litoral sur de Girona",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Litoral sur de Girona",
+      "nivel": "Rojo",
+      "text": "Litoral sur de Girona: Aviso de lluvias de nivel naranja. Litoral sur de Girona (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sierra de Madrid",
-      "fenomeno": "Moderate rain warning. Sierra de Madrid",
-      "nivel": "Naranja",
-      "text": "Sierra de Madrid: Moderate rain warning. Sierra de Madrid (Naranja) (AEMET)",
+      "provincia": "Litoral sur de Girona",
+      "fenomeno": "Severe rain warning. Litoral sur de Girona",
+      "nivel": "Rojo",
+      "text": "Litoral sur de Girona: Severe rain warning. Litoral sur de Girona (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Sur, Vegas y Oeste",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Sur, Vegas y Oeste",
+      "provincia": "Valle del Almanzora y Los Vélez",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Valle del Almanzora y Los Vélez",
       "nivel": "Naranja",
-      "text": "Sur, Vegas y Oeste: Aviso de lluvias de nivel amarillo. Sur, Vegas y Oeste (Naranja) (AEMET)",
+      "text": "Valle del Almanzora y Los Vélez: Aviso de lluvias de nivel amarillo. Valle del Almanzora y Los Vélez (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sur, Vegas y Oeste",
-      "fenomeno": "Moderate rain warning. Sur, Vegas y Oeste",
+      "provincia": "Valle del Almanzora y Los Vélez",
+      "fenomeno": "Moderate rain warning. Valle del Almanzora y Los Vélez",
       "nivel": "Naranja",
-      "text": "Sur, Vegas y Oeste: Moderate rain warning. Sur, Vegas y Oeste (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Montes del norte y Anchuras",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Montes del norte y Anchuras",
-      "nivel": "Naranja",
-      "text": "Montes del norte y Anchuras: Aviso de tormentas de nivel amarillo. Montes del norte y Anchuras (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Montes del norte y Anchuras",
-      "fenomeno": "Moderate thunderstorm warning. Montes del norte y Anchuras",
-      "nivel": "Naranja",
-      "text": "Montes del norte y Anchuras: Moderate thunderstorm warning. Montes del norte y Anchuras (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Sierra de Madrid",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Sierra de Madrid",
-      "nivel": "Naranja",
-      "text": "Sierra de Madrid: Aviso de tormentas de nivel amarillo. Sierra de Madrid (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sierra de Madrid",
-      "fenomeno": "Moderate thunderstorm warning. Sierra de Madrid",
-      "nivel": "Naranja",
-      "text": "Sierra de Madrid: Moderate thunderstorm warning. Sierra de Madrid (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Sur, Vegas y Oeste",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Sur, Vegas y Oeste",
-      "nivel": "Naranja",
-      "text": "Sur, Vegas y Oeste: Aviso de tormentas de nivel amarillo. Sur, Vegas y Oeste (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sur, Vegas y Oeste",
-      "fenomeno": "Moderate thunderstorm warning. Sur, Vegas y Oeste",
-      "nivel": "Naranja",
-      "text": "Sur, Vegas y Oeste: Moderate thunderstorm warning. Sur, Vegas y Oeste (Naranja) (AEMET)",
+      "text": "Valle del Almanzora y Los Vélez: Moderate rain warning. Valle del Almanzora y Los Vélez (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Montes del norte y Anchuras",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Montes del norte y Anchuras",
+      "provincia": "Nacimiento y Campo de Tabernas",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Nacimiento y Campo de Tabernas",
       "nivel": "Naranja",
-      "text": "Montes del norte y Anchuras: Aviso de lluvias de nivel amarillo. Montes del norte y Anchuras (Naranja) (AEMET)",
+      "text": "Nacimiento y Campo de Tabernas: Aviso de lluvias de nivel amarillo. Nacimiento y Campo de Tabernas (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Montes del norte y Anchuras",
-      "fenomeno": "Moderate rain warning. Montes del norte y Anchuras",
+      "provincia": "Nacimiento y Campo de Tabernas",
+      "fenomeno": "Moderate rain warning. Nacimiento y Campo de Tabernas",
       "nivel": "Naranja",
-      "text": "Montes del norte y Anchuras: Moderate rain warning. Montes del norte y Anchuras (Naranja) (AEMET)",
+      "text": "Nacimiento y Campo de Tabernas: Moderate rain warning. Nacimiento y Campo de Tabernas (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Valle del Guadiana",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Valle del Guadiana",
+      "provincia": "Poniente y Almería Capital",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Poniente y Almería Capital",
       "nivel": "Naranja",
-      "text": "Valle del Guadiana: Aviso de lluvias de nivel amarillo. Valle del Guadiana (Naranja) (AEMET)",
+      "text": "Poniente y Almería Capital: Aviso de lluvias de nivel amarillo. Poniente y Almería Capital (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Valle del Guadiana",
-      "fenomeno": "Moderate rain warning. Valle del Guadiana",
+      "provincia": "Poniente y Almería Capital",
+      "fenomeno": "Moderate rain warning. Poniente y Almería Capital",
       "nivel": "Naranja",
-      "text": "Valle del Guadiana: Moderate rain warning. Valle del Guadiana (Naranja) (AEMET)",
+      "text": "Poniente y Almería Capital: Moderate rain warning. Poniente y Almería Capital (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Sierras de Alcudia y Madrona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Sierras de Alcudia y Madrona",
+      "provincia": "Levante almeriense",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Levante almeriense",
       "nivel": "Naranja",
-      "text": "Sierras de Alcudia y Madrona: Aviso de lluvias de nivel amarillo. Sierras de Alcudia y Madrona (Naranja) (AEMET)",
+      "text": "Levante almeriense: Aviso de lluvias de nivel amarillo. Levante almeriense (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sierras de Alcudia y Madrona",
-      "fenomeno": "Moderate rain warning. Sierras de Alcudia y Madrona",
+      "provincia": "Levante almeriense",
+      "fenomeno": "Moderate rain warning. Levante almeriense",
       "nivel": "Naranja",
-      "text": "Sierras de Alcudia y Madrona: Moderate rain warning. Sierras de Alcudia y Madrona (Naranja) (AEMET)",
+      "text": "Levante almeriense: Moderate rain warning. Levante almeriense (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Nevada y Alpujarras",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Nevada y Alpujarras",
+      "nivel": "Naranja",
+      "text": "Nevada y Alpujarras: Aviso de lluvias de nivel amarillo. Nevada y Alpujarras (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "❄️",
+      "provincia": "Nevada y Alpujarras",
+      "fenomeno": "Moderate rain warning. Nevada y Alpujarras",
+      "nivel": "Naranja",
+      "text": "Nevada y Alpujarras: Moderate rain warning. Nevada y Alpujarras (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Sierra de San Vicente",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Sierra de San Vicente",
+      "provincia": "Litoral oriental asturiano",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral oriental asturiano",
       "nivel": "Naranja",
-      "text": "Sierra de San Vicente: Aviso de lluvias de nivel amarillo. Sierra de San Vicente (Naranja) (AEMET)",
+      "text": "Litoral oriental asturiano: Aviso de lluvias de nivel amarillo. Litoral oriental asturiano (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sierra de San Vicente",
-      "fenomeno": "Moderate rain warning. Sierra de San Vicente",
+      "provincia": "Litoral oriental asturiano",
+      "fenomeno": "Moderate rain warning. Litoral oriental asturiano",
       "nivel": "Naranja",
-      "text": "Sierra de San Vicente: Moderate rain warning. Sierra de San Vicente (Naranja) (AEMET)",
+      "text": "Litoral oriental asturiano: Moderate rain warning. Litoral oriental asturiano (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Prelitoral de Girona",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Prelitoral de Girona",
+      "nivel": "Naranja",
+      "text": "Prelitoral de Girona: Aviso de lluvias de nivel amarillo. Prelitoral de Girona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Prelitoral de Girona",
+      "fenomeno": "Moderate rain warning. Prelitoral de Girona",
+      "nivel": "Naranja",
+      "text": "Prelitoral de Girona: Moderate rain warning. Prelitoral de Girona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Ampurdán",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Ampurdán",
+      "nivel": "Naranja",
+      "text": "Ampurdán: Aviso de lluvias de nivel amarillo. Ampurdán (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ampurdán",
+      "fenomeno": "Moderate rain warning. Ampurdán",
+      "nivel": "Naranja",
+      "text": "Ampurdán: Moderate rain warning. Ampurdán (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
