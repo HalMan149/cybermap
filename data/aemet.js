@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-10-08T07:41:16.261Z
+// Auto-generado por GitHub Actions - 2026-10-08T14:56:34.446Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-10-08T07:41:16.261Z",
+  "generated_at": "2026-10-08T14:56:34.446Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "🌧️",
-      "provincia": "Centro y valle de Villaverde",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Centro y valle de Villaverde",
+      "provincia": "Lanzarote",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Lanzarote",
+      "nivel": "Naranja",
+      "text": "Lanzarote: Aviso de lluvias de nivel amarillo. Lanzarote (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Lanzarote",
+      "fenomeno": "Moderate rain warning. Lanzarote",
+      "nivel": "Naranja",
+      "text": "Lanzarote: Moderate rain warning. Lanzarote (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Ampurdán",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Ampurdán",
+      "nivel": "Naranja",
+      "text": "Costa - Ampurdán: Aviso de costeros de nivel amarillo. Costa - Ampurdán (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Ampurdán",
+      "fenomeno": "Moderate coastalevent warning. Costa - Ampurdán",
+      "nivel": "Naranja",
+      "text": "Costa - Ampurdán: Moderate coastalevent warning. Costa - Ampurdán (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Lanzarote",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Lanzarote",
+      "nivel": "Naranja",
+      "text": "Lanzarote: Aviso de lluvias de nivel amarillo. Lanzarote (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Lanzarote",
+      "fenomeno": "Moderate rain warning. Lanzarote",
+      "nivel": "Naranja",
+      "text": "Lanzarote: Moderate rain warning. Lanzarote (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Menorca",
+      "fenomeno": "Aviso de costeros de nivel naranja. Costa - Menorca",
       "nivel": "Rojo",
-      "text": "Centro y valle de Villaverde: Aviso de lluvias de nivel naranja. Centro y valle de Villaverde (Rojo) (AEMET)",
+      "text": "Costa - Menorca: Aviso de costeros de nivel naranja. Costa - Menorca (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⚠️",
-      "provincia": "Centro y valle de Villaverde",
-      "fenomeno": "Severe rain warning. Centro y valle de Villaverde",
+      "icon": "🌊",
+      "provincia": "Costa - Menorca",
+      "fenomeno": "Severe coastalevent warning. Costa - Menorca",
       "nivel": "Rojo",
-      "text": "Centro y valle de Villaverde: Severe rain warning. Centro y valle de Villaverde (Rojo) (AEMET)",
+      "text": "Costa - Menorca: Severe coastalevent warning. Costa - Menorca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Norte y nordeste de Mallorca",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Norte y nordeste de Mallorca",
+      "nivel": "Naranja",
+      "text": "Costa - Norte y nordeste de Mallorca: Aviso de costeros de nivel amarillo. Costa - Norte y nordeste de Mallorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Norte y nordeste de Mallorca",
+      "fenomeno": "Moderate coastalevent warning. Costa - Norte y nordeste de Mallorca",
+      "nivel": "Naranja",
+      "text": "Costa - Norte y nordeste de Mallorca: Moderate coastalevent warning. Costa - Norte y nordeste de Mallorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Menorca",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Menorca",
+      "nivel": "Naranja",
+      "text": "Costa - Menorca: Aviso de costeros de nivel amarillo. Costa - Menorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Menorca",
+      "fenomeno": "Moderate coastalevent warning. Costa - Menorca",
+      "nivel": "Naranja",
+      "text": "Costa - Menorca: Moderate coastalevent warning. Costa - Menorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Sierra Tramontana",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Sierra Tramontana",
+      "nivel": "Naranja",
+      "text": "Costa - Sierra Tramontana: Aviso de costeros de nivel amarillo. Costa - Sierra Tramontana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Sierra Tramontana",
+      "fenomeno": "Moderate coastalevent warning. Costa - Sierra Tramontana",
+      "nivel": "Naranja",
+      "text": "Costa - Sierra Tramontana: Moderate coastalevent warning. Costa - Sierra Tramontana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Menorca",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Menorca",
+      "nivel": "Naranja",
+      "text": "Costa - Menorca: Aviso de costeros de nivel amarillo. Costa - Menorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Menorca",
+      "fenomeno": "Moderate coastalevent warning. Costa - Menorca",
+      "nivel": "Naranja",
+      "text": "Costa - Menorca: Moderate coastalevent warning. Costa - Menorca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Litoral cántabro",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral cántabro",
+      "provincia": "Ceuta",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Ceuta",
       "nivel": "Naranja",
-      "text": "Litoral cántabro: Aviso de lluvias de nivel amarillo. Litoral cántabro (Naranja) (AEMET)",
+      "text": "Ceuta: Aviso de lluvias de nivel amarillo. Ceuta (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Litoral cántabro",
-      "fenomeno": "Moderate rain warning. Litoral cántabro",
+      "provincia": "Ceuta",
+      "fenomeno": "Moderate rain warning. Ceuta",
       "nivel": "Naranja",
-      "text": "Litoral cántabro: Moderate rain warning. Litoral cántabro (Naranja) (AEMET)",
+      "text": "Ceuta: Moderate rain warning. Ceuta (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Liébana",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Liébana",
+      "icon": "⛈️",
+      "provincia": "Ceuta",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Ceuta",
       "nivel": "Naranja",
-      "text": "Liébana: Aviso de lluvias de nivel amarillo. Liébana (Naranja) (AEMET)",
+      "text": "Ceuta: Aviso de tormentas de nivel amarillo. Ceuta (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Liébana",
-      "fenomeno": "Moderate rain warning. Liébana",
+      "provincia": "Ceuta",
+      "fenomeno": "Moderate thunderstorm warning. Ceuta",
       "nivel": "Naranja",
-      "text": "Liébana: Moderate rain warning. Liébana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Cantabria del Ebro",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Cantabria del Ebro",
-      "nivel": "Naranja",
-      "text": "Cantabria del Ebro: Aviso de lluvias de nivel amarillo. Cantabria del Ebro (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cantabria del Ebro",
-      "fenomeno": "Moderate rain warning. Cantabria del Ebro",
-      "nivel": "Naranja",
-      "text": "Cantabria del Ebro: Moderate rain warning. Cantabria del Ebro (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Centro y valle de Villaverde",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Centro y valle de Villaverde",
-      "nivel": "Naranja",
-      "text": "Centro y valle de Villaverde: Aviso de lluvias de nivel amarillo. Centro y valle de Villaverde (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Centro y valle de Villaverde",
-      "fenomeno": "Moderate rain warning. Centro y valle de Villaverde",
-      "nivel": "Naranja",
-      "text": "Centro y valle de Villaverde: Moderate rain warning. Centro y valle de Villaverde (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Cordillera y Picos de Europa",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Cordillera y Picos de Europa",
-      "nivel": "Rojo",
-      "text": "Cordillera y Picos de Europa: Aviso de lluvias de nivel naranja. Cordillera y Picos de Europa (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Cordillera y Picos de Europa",
-      "fenomeno": "Severe rain warning. Cordillera y Picos de Europa",
-      "nivel": "Rojo",
-      "text": "Cordillera y Picos de Europa: Severe rain warning. Cordillera y Picos de Europa (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Litoral occidental asturiano",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral occidental asturiano",
-      "nivel": "Naranja",
-      "text": "Litoral occidental asturiano: Aviso de lluvias de nivel amarillo. Litoral occidental asturiano (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral occidental asturiano",
-      "fenomeno": "Moderate rain warning. Litoral occidental asturiano",
-      "nivel": "Naranja",
-      "text": "Litoral occidental asturiano: Moderate rain warning. Litoral occidental asturiano (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Litoral oriental asturiano",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral oriental asturiano",
-      "nivel": "Naranja",
-      "text": "Litoral oriental asturiano: Aviso de lluvias de nivel amarillo. Litoral oriental asturiano (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral oriental asturiano",
-      "fenomeno": "Moderate rain warning. Litoral oriental asturiano",
-      "nivel": "Naranja",
-      "text": "Litoral oriental asturiano: Moderate rain warning. Litoral oriental asturiano (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Suroccidental asturiana",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Suroccidental asturiana",
-      "nivel": "Naranja",
-      "text": "Suroccidental asturiana: Aviso de lluvias de nivel amarillo. Suroccidental asturiana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Suroccidental asturiana",
-      "fenomeno": "Moderate rain warning. Suroccidental asturiana",
-      "nivel": "Naranja",
-      "text": "Suroccidental asturiana: Moderate rain warning. Suroccidental asturiana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Central y Valles Mineros",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Central y Valles Mineros",
-      "nivel": "Naranja",
-      "text": "Central y Valles Mineros: Aviso de lluvias de nivel amarillo. Central y Valles Mineros (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Central y Valles Mineros",
-      "fenomeno": "Moderate rain warning. Central y Valles Mineros",
-      "nivel": "Naranja",
-      "text": "Central y Valles Mineros: Moderate rain warning. Central y Valles Mineros (Naranja) (AEMET)",
+      "text": "Ceuta: Moderate thunderstorm warning. Ceuta (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
