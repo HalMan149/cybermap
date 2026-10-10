@@ -1,25 +1,9 @@
-// Auto-generado por GitHub Actions - 2026-10-10T19:04:16.638Z
+// Auto-generado por GitHub Actions - 2026-10-10T22:28:22.900Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-10-10T19:04:16.638Z",
+  "generated_at": "2026-10-10T22:28:22.900Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
-    {
-      "icon": "🌧️",
-      "provincia": "Lanzarote",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Lanzarote",
-      "nivel": "Naranja",
-      "text": "Lanzarote: Aviso de lluvias de nivel amarillo. Lanzarote (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Lanzarote",
-      "fenomeno": "Moderate rain warning. Lanzarote",
-      "nivel": "Naranja",
-      "text": "Lanzarote: Moderate rain warning. Lanzarote (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
     {
       "icon": "🌧️",
       "provincia": "Norte y nordeste de Mallorca",
@@ -50,6 +34,22 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate rain warning. Menorca",
       "nivel": "Naranja",
       "text": "Menorca: Moderate rain warning. Menorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Lanzarote",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Lanzarote",
+      "nivel": "Naranja",
+      "text": "Lanzarote: Aviso de lluvias de nivel amarillo. Lanzarote (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Lanzarote",
+      "fenomeno": "Moderate rain warning. Lanzarote",
+      "nivel": "Naranja",
+      "text": "Lanzarote: Moderate rain warning. Lanzarote (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
