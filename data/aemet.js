@@ -1,25 +1,9 @@
-// Auto-generado por GitHub Actions - 2026-10-11T18:42:55.523Z
+// Auto-generado por GitHub Actions - 2026-10-11T22:28:45.459Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-10-11T18:42:55.523Z",
+  "generated_at": "2026-10-11T22:28:45.459Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
-    {
-      "icon": "🌧️",
-      "provincia": "Lanzarote",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Lanzarote",
-      "nivel": "Naranja",
-      "text": "Lanzarote: Aviso de lluvias de nivel amarillo. Lanzarote (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Lanzarote",
-      "fenomeno": "Moderate rain warning. Lanzarote",
-      "nivel": "Naranja",
-      "text": "Lanzarote: Moderate rain warning. Lanzarote (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
     {
       "icon": "🌧️",
       "provincia": "Norte y nordeste de Mallorca",
@@ -34,6 +18,22 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate rain warning. Norte y nordeste de Mallorca",
       "nivel": "Naranja",
       "text": "Norte y nordeste de Mallorca: Moderate rain warning. Norte y nordeste de Mallorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Menorca",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Menorca",
+      "nivel": "Naranja",
+      "text": "Menorca: Aviso de lluvias de nivel amarillo. Menorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Menorca",
+      "fenomeno": "Moderate rain warning. Menorca",
+      "nivel": "Naranja",
+      "text": "Menorca: Moderate rain warning. Menorca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -66,22 +66,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate rain warning. Sur de Mallorca",
       "nivel": "Naranja",
       "text": "Sur de Mallorca: Moderate rain warning. Sur de Mallorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Menorca",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Menorca",
-      "nivel": "Naranja",
-      "text": "Menorca: Aviso de lluvias de nivel amarillo. Menorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Menorca",
-      "fenomeno": "Moderate rain warning. Menorca",
-      "nivel": "Naranja",
-      "text": "Menorca: Moderate rain warning. Menorca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -162,6 +146,22 @@ window.AEMET_AVISOS = {
       "fenomeno": "Minor fog warning. CCAA",
       "nivel": "Amarillo",
       "text": "Valle del Almanzora y Los Vélez: Minor fog warning. CCAA (Amarillo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Valle del Almanzora y Los Vélez",
+      "fenomeno": "Aviso de lluvias de nivel verde. CCAA",
+      "nivel": "Amarillo",
+      "text": "Valle del Almanzora y Los Vélez: Aviso de lluvias de nivel verde. CCAA (Amarillo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Valle del Almanzora y Los Vélez",
+      "fenomeno": "Minor rain warning. CCAA",
+      "nivel": "Amarillo",
+      "text": "Valle del Almanzora y Los Vélez: Minor rain warning. CCAA (Amarillo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
