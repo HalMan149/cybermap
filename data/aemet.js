@@ -1,41 +1,9 @@
-// Auto-generado por GitHub Actions - 2026-10-12T07:57:55.314Z
+// Auto-generado por GitHub Actions - 2026-10-12T17:24:41.138Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-10-12T07:57:55.314Z",
+  "generated_at": "2026-10-12T17:24:41.138Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
-    {
-      "icon": "🌧️",
-      "provincia": "Norte y nordeste de Mallorca",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Norte y nordeste de Mallorca",
-      "nivel": "Naranja",
-      "text": "Norte y nordeste de Mallorca: Aviso de lluvias de nivel amarillo. Norte y nordeste de Mallorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Norte y nordeste de Mallorca",
-      "fenomeno": "Moderate rain warning. Norte y nordeste de Mallorca",
-      "nivel": "Naranja",
-      "text": "Norte y nordeste de Mallorca: Moderate rain warning. Norte y nordeste de Mallorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Menorca",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Menorca",
-      "nivel": "Naranja",
-      "text": "Menorca: Aviso de lluvias de nivel amarillo. Menorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Menorca",
-      "fenomeno": "Moderate rain warning. Menorca",
-      "nivel": "Naranja",
-      "text": "Menorca: Moderate rain warning. Menorca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
     {
       "icon": "🌧️",
       "provincia": "Interior de Mallorca",
@@ -162,6 +130,38 @@ window.AEMET_AVISOS = {
       "fenomeno": "Minor rain warning. CCAA",
       "nivel": "Amarillo",
       "text": "Valle del Almanzora y Los Vélez: Minor rain warning. CCAA (Amarillo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Valle del Almanzora y Los Vélez",
+      "fenomeno": "Aviso de tormentas de nivel verde. CCAA",
+      "nivel": "Amarillo",
+      "text": "Valle del Almanzora y Los Vélez: Aviso de tormentas de nivel verde. CCAA (Amarillo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Valle del Almanzora y Los Vélez",
+      "fenomeno": "Minor thunderstorm warning. CCAA",
+      "nivel": "Amarillo",
+      "text": "Valle del Almanzora y Los Vélez: Minor thunderstorm warning. CCAA (Amarillo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Valle del Almanzora y Los Vélez",
+      "fenomeno": "Aviso de vientos de nivel verde. CCAA",
+      "nivel": "Amarillo",
+      "text": "Valle del Almanzora y Los Vélez: Aviso de vientos de nivel verde. CCAA (Amarillo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Valle del Almanzora y Los Vélez",
+      "fenomeno": "Minor wind warning. CCAA",
+      "nivel": "Amarillo",
+      "text": "Valle del Almanzora y Los Vélez: Minor wind warning. CCAA (Amarillo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
