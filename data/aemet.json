@@ -1,38 +1,38 @@
 {
-  "generated_at": "2026-10-13T03:52:43.737Z",
+  "generated_at": "2026-10-13T11:18:17.991Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
-      "icon": "🌧️",
-      "provincia": "Interior de Mallorca",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Interior de Mallorca",
+      "icon": "🌊",
+      "provincia": "Costa - Litoral gaditano",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral gaditano",
       "nivel": "Naranja",
-      "text": "Interior de Mallorca: Aviso de lluvias de nivel amarillo. Interior de Mallorca (Naranja) (AEMET)",
+      "text": "Costa - Litoral gaditano: Aviso de costeros de nivel amarillo. Costa - Litoral gaditano (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⚠️",
-      "provincia": "Interior de Mallorca",
-      "fenomeno": "Moderate rain warning. Interior de Mallorca",
+      "icon": "🌊",
+      "provincia": "Costa - Litoral gaditano",
+      "fenomeno": "Moderate coastalevent warning. Costa - Litoral gaditano",
       "nivel": "Naranja",
-      "text": "Interior de Mallorca: Moderate rain warning. Interior de Mallorca (Naranja) (AEMET)",
+      "text": "Costa - Litoral gaditano: Moderate coastalevent warning. Costa - Litoral gaditano (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Sur de Mallorca",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Sur de Mallorca",
+      "icon": "🌊",
+      "provincia": "Costa - Estrecho",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Estrecho",
       "nivel": "Naranja",
-      "text": "Sur de Mallorca: Aviso de lluvias de nivel amarillo. Sur de Mallorca (Naranja) (AEMET)",
+      "text": "Costa - Estrecho: Aviso de costeros de nivel amarillo. Costa - Estrecho (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⚠️",
-      "provincia": "Sur de Mallorca",
-      "fenomeno": "Moderate rain warning. Sur de Mallorca",
+      "icon": "🌊",
+      "provincia": "Costa - Estrecho",
+      "fenomeno": "Moderate coastalevent warning. Costa - Estrecho",
       "nivel": "Naranja",
-      "text": "Sur de Mallorca: Moderate rain warning. Sur de Mallorca (Naranja) (AEMET)",
+      "text": "Costa - Estrecho: Moderate coastalevent warning. Costa - Estrecho (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
