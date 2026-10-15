@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-10-15T12:20:13.760Z
+// Auto-generado por GitHub Actions - 2026-10-15T17:13:12.812Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-10-15T12:20:13.760Z",
+  "generated_at": "2026-10-15T17:13:12.812Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "🌧️",
-      "provincia": "Nacimiento y Campo de Tabernas",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Nacimiento y Campo de Tabernas",
+      "provincia": "Sistema Central de Ávila",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Sistema Central de Ávila",
       "nivel": "Naranja",
-      "text": "Nacimiento y Campo de Tabernas: Aviso de lluvias de nivel amarillo. Nacimiento y Campo de Tabernas (Naranja) (AEMET)",
+      "text": "Sistema Central de Ávila: Aviso de lluvias de nivel amarillo. Sistema Central de Ávila (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Nacimiento y Campo de Tabernas",
-      "fenomeno": "Moderate rain warning. Nacimiento y Campo de Tabernas",
+      "provincia": "Sistema Central de Ávila",
+      "fenomeno": "Moderate rain warning. Sistema Central de Ávila",
       "nivel": "Naranja",
-      "text": "Nacimiento y Campo de Tabernas: Moderate rain warning. Nacimiento y Campo de Tabernas (Naranja) (AEMET)",
+      "text": "Sistema Central de Ávila: Moderate rain warning. Sistema Central de Ávila (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Poniente y Almería Capital",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Poniente y Almería Capital",
+      "provincia": "Ibérica de Burgos",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Ibérica de Burgos",
       "nivel": "Naranja",
-      "text": "Poniente y Almería Capital: Aviso de lluvias de nivel amarillo. Poniente y Almería Capital (Naranja) (AEMET)",
+      "text": "Ibérica de Burgos: Aviso de lluvias de nivel amarillo. Ibérica de Burgos (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Poniente y Almería Capital",
-      "fenomeno": "Moderate rain warning. Poniente y Almería Capital",
+      "provincia": "Ibérica de Burgos",
+      "fenomeno": "Moderate rain warning. Ibérica de Burgos",
       "nivel": "Naranja",
-      "text": "Poniente y Almería Capital: Moderate rain warning. Poniente y Almería Capital (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Nevada y Alpujarras",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Nevada y Alpujarras",
-      "nivel": "Naranja",
-      "text": "Nevada y Alpujarras: Aviso de lluvias de nivel amarillo. Nevada y Alpujarras (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "❄️",
-      "provincia": "Nevada y Alpujarras",
-      "fenomeno": "Moderate rain warning. Nevada y Alpujarras",
-      "nivel": "Naranja",
-      "text": "Nevada y Alpujarras: Moderate rain warning. Nevada y Alpujarras (Naranja) (AEMET)",
+      "text": "Ibérica de Burgos: Moderate rain warning. Ibérica de Burgos (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Costa granadina",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Costa granadina",
+      "provincia": "Meseta de Palencia",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Meseta de Palencia",
       "nivel": "Naranja",
-      "text": "Costa granadina: Aviso de lluvias de nivel amarillo. Costa granadina (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa granadina",
-      "fenomeno": "Moderate rain warning. Costa granadina",
-      "nivel": "Naranja",
-      "text": "Costa granadina: Moderate rain warning. Costa granadina (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Nacimiento y Campo de Tabernas",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Nacimiento y Campo de Tabernas",
-      "nivel": "Naranja",
-      "text": "Nacimiento y Campo de Tabernas: Aviso de tormentas de nivel amarillo. Nacimiento y Campo de Tabernas (Naranja) (AEMET)",
+      "text": "Meseta de Palencia: Aviso de lluvias de nivel amarillo. Meseta de Palencia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Nacimiento y Campo de Tabernas",
-      "fenomeno": "Moderate thunderstorm warning. Nacimiento y Campo de Tabernas",
+      "provincia": "Meseta de Palencia",
+      "fenomeno": "Moderate rain warning. Meseta de Palencia",
       "nivel": "Naranja",
-      "text": "Nacimiento y Campo de Tabernas: Moderate thunderstorm warning. Nacimiento y Campo de Tabernas (Naranja) (AEMET)",
+      "text": "Meseta de Palencia: Moderate rain warning. Meseta de Palencia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⛈️",
-      "provincia": "Poniente y Almería Capital",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Poniente y Almería Capital",
+      "icon": "🌧️",
+      "provincia": "Sistema Central de Salamanca",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Sistema Central de Salamanca",
       "nivel": "Naranja",
-      "text": "Poniente y Almería Capital: Aviso de tormentas de nivel amarillo. Poniente y Almería Capital (Naranja) (AEMET)",
+      "text": "Sistema Central de Salamanca: Aviso de lluvias de nivel amarillo. Sistema Central de Salamanca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Poniente y Almería Capital",
-      "fenomeno": "Moderate thunderstorm warning. Poniente y Almería Capital",
+      "provincia": "Sistema Central de Salamanca",
+      "fenomeno": "Moderate rain warning. Sistema Central de Salamanca",
       "nivel": "Naranja",
-      "text": "Poniente y Almería Capital: Moderate thunderstorm warning. Poniente y Almería Capital (Naranja) (AEMET)",
+      "text": "Sistema Central de Salamanca: Moderate rain warning. Sistema Central de Salamanca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "❄️",
-      "provincia": "Nevada y Alpujarras",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Nevada y Alpujarras",
+      "icon": "🌧️",
+      "provincia": "Sur de Salamanca",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Sur de Salamanca",
       "nivel": "Naranja",
-      "text": "Nevada y Alpujarras: Aviso de tormentas de nivel amarillo. Nevada y Alpujarras (Naranja) (AEMET)",
+      "text": "Sur de Salamanca: Aviso de lluvias de nivel amarillo. Sur de Salamanca (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "❄️",
-      "provincia": "Nevada y Alpujarras",
-      "fenomeno": "Moderate thunderstorm warning. Nevada y Alpujarras",
+      "icon": "⚠️",
+      "provincia": "Sur de Salamanca",
+      "fenomeno": "Moderate rain warning. Sur de Salamanca",
       "nivel": "Naranja",
-      "text": "Nevada y Alpujarras: Moderate thunderstorm warning. Nevada y Alpujarras (Naranja) (AEMET)",
+      "text": "Sur de Salamanca: Moderate rain warning. Sur de Salamanca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Sistema Central de Segovia",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Sistema Central de Segovia",
+      "nivel": "Naranja",
+      "text": "Sistema Central de Segovia: Aviso de lluvias de nivel amarillo. Sistema Central de Segovia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sistema Central de Segovia",
+      "fenomeno": "Moderate rain warning. Sistema Central de Segovia",
+      "nivel": "Naranja",
+      "text": "Sistema Central de Segovia: Moderate rain warning. Sistema Central de Segovia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Ibérica de Soria",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Ibérica de Soria",
+      "nivel": "Naranja",
+      "text": "Ibérica de Soria: Aviso de lluvias de nivel amarillo. Ibérica de Soria (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ibérica de Soria",
+      "fenomeno": "Moderate rain warning. Ibérica de Soria",
+      "nivel": "Naranja",
+      "text": "Ibérica de Soria: Moderate rain warning. Ibérica de Soria (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Costa granadina",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Costa granadina",
+      "provincia": "Sistema Central de Ávila",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Sistema Central de Ávila",
       "nivel": "Naranja",
-      "text": "Costa granadina: Aviso de tormentas de nivel amarillo. Costa granadina (Naranja) (AEMET)",
+      "text": "Sistema Central de Ávila: Aviso de tormentas de nivel amarillo. Sistema Central de Ávila (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Costa granadina",
-      "fenomeno": "Moderate thunderstorm warning. Costa granadina",
+      "icon": "⚠️",
+      "provincia": "Sistema Central de Ávila",
+      "fenomeno": "Moderate thunderstorm warning. Sistema Central de Ávila",
       "nivel": "Naranja",
-      "text": "Costa granadina: Moderate thunderstorm warning. Costa granadina (Naranja) (AEMET)",
+      "text": "Sistema Central de Ávila: Moderate thunderstorm warning. Sistema Central de Ávila (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral gaditano",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral gaditano",
+      "icon": "⛈️",
+      "provincia": "Ibérica de Burgos",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Ibérica de Burgos",
       "nivel": "Naranja",
-      "text": "Costa - Litoral gaditano: Aviso de costeros de nivel amarillo. Costa - Litoral gaditano (Naranja) (AEMET)",
+      "text": "Ibérica de Burgos: Aviso de tormentas de nivel amarillo. Ibérica de Burgos (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral gaditano",
-      "fenomeno": "Moderate coastalevent warning. Costa - Litoral gaditano",
+      "icon": "⚠️",
+      "provincia": "Ibérica de Burgos",
+      "fenomeno": "Moderate thunderstorm warning. Ibérica de Burgos",
       "nivel": "Naranja",
-      "text": "Costa - Litoral gaditano: Moderate coastalevent warning. Costa - Litoral gaditano (Naranja) (AEMET)",
+      "text": "Ibérica de Burgos: Moderate thunderstorm warning. Ibérica de Burgos (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Costa - Estrecho",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Estrecho",
+      "icon": "⛈️",
+      "provincia": "Cordillera Cantábrica de Palencia",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Cordillera Cantábrica de Palencia",
       "nivel": "Naranja",
-      "text": "Costa - Estrecho: Aviso de costeros de nivel amarillo. Costa - Estrecho (Naranja) (AEMET)",
+      "text": "Cordillera Cantábrica de Palencia: Aviso de tormentas de nivel amarillo. Cordillera Cantábrica de Palencia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Costa - Estrecho",
-      "fenomeno": "Moderate coastalevent warning. Costa - Estrecho",
+      "icon": "⚠️",
+      "provincia": "Cordillera Cantábrica de Palencia",
+      "fenomeno": "Moderate thunderstorm warning. Cordillera Cantábrica de Palencia",
       "nivel": "Naranja",
-      "text": "Costa - Estrecho: Moderate coastalevent warning. Costa - Estrecho (Naranja) (AEMET)",
+      "text": "Cordillera Cantábrica de Palencia: Moderate thunderstorm warning. Cordillera Cantábrica de Palencia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
