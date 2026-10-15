@@ -1,9 +1,41 @@
-// Auto-generado por GitHub Actions - 2026-10-15T06:46:52.900Z
+// Auto-generado por GitHub Actions - 2026-10-15T12:20:13.760Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-10-15T06:46:52.900Z",
+  "generated_at": "2026-10-15T12:20:13.760Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Nacimiento y Campo de Tabernas",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Nacimiento y Campo de Tabernas",
+      "nivel": "Naranja",
+      "text": "Nacimiento y Campo de Tabernas: Aviso de lluvias de nivel amarillo. Nacimiento y Campo de Tabernas (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Nacimiento y Campo de Tabernas",
+      "fenomeno": "Moderate rain warning. Nacimiento y Campo de Tabernas",
+      "nivel": "Naranja",
+      "text": "Nacimiento y Campo de Tabernas: Moderate rain warning. Nacimiento y Campo de Tabernas (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Poniente y Almería Capital",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Poniente y Almería Capital",
+      "nivel": "Naranja",
+      "text": "Poniente y Almería Capital: Aviso de lluvias de nivel amarillo. Poniente y Almería Capital (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Poniente y Almería Capital",
+      "fenomeno": "Moderate rain warning. Poniente y Almería Capital",
+      "nivel": "Naranja",
+      "text": "Poniente y Almería Capital: Moderate rain warning. Poniente y Almería Capital (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "❄️",
       "provincia": "Nevada y Alpujarras",
@@ -21,6 +53,54 @@ window.AEMET_AVISOS = {
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
+      "icon": "🌧️",
+      "provincia": "Costa granadina",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Costa granadina",
+      "nivel": "Naranja",
+      "text": "Costa granadina: Aviso de lluvias de nivel amarillo. Costa granadina (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa granadina",
+      "fenomeno": "Moderate rain warning. Costa granadina",
+      "nivel": "Naranja",
+      "text": "Costa granadina: Moderate rain warning. Costa granadina (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Nacimiento y Campo de Tabernas",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Nacimiento y Campo de Tabernas",
+      "nivel": "Naranja",
+      "text": "Nacimiento y Campo de Tabernas: Aviso de tormentas de nivel amarillo. Nacimiento y Campo de Tabernas (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Nacimiento y Campo de Tabernas",
+      "fenomeno": "Moderate thunderstorm warning. Nacimiento y Campo de Tabernas",
+      "nivel": "Naranja",
+      "text": "Nacimiento y Campo de Tabernas: Moderate thunderstorm warning. Nacimiento y Campo de Tabernas (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Poniente y Almería Capital",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Poniente y Almería Capital",
+      "nivel": "Naranja",
+      "text": "Poniente y Almería Capital: Aviso de tormentas de nivel amarillo. Poniente y Almería Capital (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Poniente y Almería Capital",
+      "fenomeno": "Moderate thunderstorm warning. Poniente y Almería Capital",
+      "nivel": "Naranja",
+      "text": "Poniente y Almería Capital: Moderate thunderstorm warning. Poniente y Almería Capital (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
       "icon": "❄️",
       "provincia": "Nevada y Alpujarras",
       "fenomeno": "Aviso de tormentas de nivel amarillo. Nevada y Alpujarras",
@@ -34,6 +114,22 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate thunderstorm warning. Nevada y Alpujarras",
       "nivel": "Naranja",
       "text": "Nevada y Alpujarras: Moderate thunderstorm warning. Nevada y Alpujarras (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Costa granadina",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Costa granadina",
+      "nivel": "Naranja",
+      "text": "Costa granadina: Aviso de tormentas de nivel amarillo. Costa granadina (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa granadina",
+      "fenomeno": "Moderate thunderstorm warning. Costa granadina",
+      "nivel": "Naranja",
+      "text": "Costa granadina: Moderate thunderstorm warning. Costa granadina (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -66,102 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate coastalevent warning. Costa - Estrecho",
       "nivel": "Naranja",
       "text": "Costa - Estrecho: Moderate coastalevent warning. Costa - Estrecho (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Depresión central de Barcelona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Depresión central de Barcelona",
-      "nivel": "Naranja",
-      "text": "Depresión central de Barcelona: Aviso de lluvias de nivel amarillo. Depresión central de Barcelona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Depresión central de Barcelona",
-      "fenomeno": "Moderate rain warning. Depresión central de Barcelona",
-      "nivel": "Naranja",
-      "text": "Depresión central de Barcelona: Moderate rain warning. Depresión central de Barcelona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Depresión central de Barcelona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Depresión central de Barcelona",
-      "nivel": "Naranja",
-      "text": "Depresión central de Barcelona: Aviso de lluvias de nivel amarillo. Depresión central de Barcelona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Depresión central de Barcelona",
-      "fenomeno": "Moderate rain warning. Depresión central de Barcelona",
-      "nivel": "Naranja",
-      "text": "Depresión central de Barcelona: Moderate rain warning. Depresión central de Barcelona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Depresión central de Barcelona",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Depresión central de Barcelona",
-      "nivel": "Naranja",
-      "text": "Depresión central de Barcelona: Aviso de tormentas de nivel amarillo. Depresión central de Barcelona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Depresión central de Barcelona",
-      "fenomeno": "Moderate thunderstorm warning. Depresión central de Barcelona",
-      "nivel": "Naranja",
-      "text": "Depresión central de Barcelona: Moderate thunderstorm warning. Depresión central de Barcelona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Prelitoral de Barcelona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Prelitoral de Barcelona",
-      "nivel": "Naranja",
-      "text": "Prelitoral de Barcelona: Aviso de lluvias de nivel amarillo. Prelitoral de Barcelona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Prelitoral de Barcelona",
-      "fenomeno": "Moderate rain warning. Prelitoral de Barcelona",
-      "nivel": "Naranja",
-      "text": "Prelitoral de Barcelona: Moderate rain warning. Prelitoral de Barcelona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Prelitoral de Barcelona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Prelitoral de Barcelona",
-      "nivel": "Naranja",
-      "text": "Prelitoral de Barcelona: Aviso de lluvias de nivel amarillo. Prelitoral de Barcelona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Prelitoral de Barcelona",
-      "fenomeno": "Moderate rain warning. Prelitoral de Barcelona",
-      "nivel": "Naranja",
-      "text": "Prelitoral de Barcelona: Moderate rain warning. Prelitoral de Barcelona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Prelitoral de Barcelona",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Prelitoral de Barcelona",
-      "nivel": "Naranja",
-      "text": "Prelitoral de Barcelona: Aviso de tormentas de nivel amarillo. Prelitoral de Barcelona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Prelitoral de Barcelona",
-      "fenomeno": "Moderate thunderstorm warning. Prelitoral de Barcelona",
-      "nivel": "Naranja",
-      "text": "Prelitoral de Barcelona: Moderate thunderstorm warning. Prelitoral de Barcelona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
