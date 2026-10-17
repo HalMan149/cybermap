@@ -1,87 +1,151 @@
-// Auto-generado por GitHub Actions - 2026-10-17T04:19:48.320Z
+// Auto-generado por GitHub Actions - 2026-10-17T08:41:43.836Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-10-17T04:19:48.320Z",
+  "generated_at": "2026-10-17T08:41:43.836Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "🌧️",
-      "provincia": "Meseta de Segovia",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Meseta de Segovia",
-      "nivel": "Naranja",
-      "text": "Meseta de Segovia: Aviso de lluvias de nivel amarillo. Meseta de Segovia (Naranja) (AEMET)",
+      "provincia": "Poniente y Almería Capital",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Poniente y Almería Capital",
+      "nivel": "Rojo",
+      "text": "Poniente y Almería Capital: Aviso de lluvias de nivel naranja. Poniente y Almería Capital (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Meseta de Segovia",
-      "fenomeno": "Moderate rain warning. Meseta de Segovia",
+      "provincia": "Poniente y Almería Capital",
+      "fenomeno": "Severe rain warning. Poniente y Almería Capital",
+      "nivel": "Rojo",
+      "text": "Poniente y Almería Capital: Severe rain warning. Poniente y Almería Capital (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Levante almeriense",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Levante almeriense",
+      "nivel": "Rojo",
+      "text": "Levante almeriense: Aviso de lluvias de nivel naranja. Levante almeriense (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Levante almeriense",
+      "fenomeno": "Severe rain warning. Levante almeriense",
+      "nivel": "Rojo",
+      "text": "Levante almeriense: Severe rain warning. Levante almeriense (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Poniente y Almería Capital",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Poniente y Almería Capital",
+      "nivel": "Rojo",
+      "text": "Poniente y Almería Capital: Aviso de lluvias de nivel naranja. Poniente y Almería Capital (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Poniente y Almería Capital",
+      "fenomeno": "Severe rain warning. Poniente y Almería Capital",
+      "nivel": "Rojo",
+      "text": "Poniente y Almería Capital: Severe rain warning. Poniente y Almería Capital (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Levante almeriense",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Levante almeriense",
+      "nivel": "Rojo",
+      "text": "Levante almeriense: Aviso de lluvias de nivel naranja. Levante almeriense (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Levante almeriense",
+      "fenomeno": "Severe rain warning. Levante almeriense",
+      "nivel": "Rojo",
+      "text": "Levante almeriense: Severe rain warning. Levante almeriense (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Sol y Guadalhorce",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Sol y Guadalhorce",
       "nivel": "Naranja",
-      "text": "Meseta de Segovia: Moderate rain warning. Meseta de Segovia (Naranja) (AEMET)",
+      "text": "Sol y Guadalhorce: Aviso de lluvias de nivel amarillo. Sol y Guadalhorce (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sol y Guadalhorce",
+      "fenomeno": "Moderate rain warning. Sol y Guadalhorce",
+      "nivel": "Naranja",
+      "text": "Sol y Guadalhorce: Moderate rain warning. Sol y Guadalhorce (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Axarquía",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Axarquía",
+      "nivel": "Naranja",
+      "text": "Axarquía: Aviso de lluvias de nivel amarillo. Axarquía (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Axarquía",
+      "fenomeno": "Moderate rain warning. Axarquía",
+      "nivel": "Naranja",
+      "text": "Axarquía: Moderate rain warning. Axarquía (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Meseta de Segovia",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Meseta de Segovia",
+      "provincia": "Sol y Guadalhorce",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Sol y Guadalhorce",
       "nivel": "Naranja",
-      "text": "Meseta de Segovia: Aviso de tormentas de nivel amarillo. Meseta de Segovia (Naranja) (AEMET)",
+      "text": "Sol y Guadalhorce: Aviso de tormentas de nivel amarillo. Sol y Guadalhorce (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Meseta de Segovia",
-      "fenomeno": "Moderate thunderstorm warning. Meseta de Segovia",
+      "provincia": "Sol y Guadalhorce",
+      "fenomeno": "Moderate thunderstorm warning. Sol y Guadalhorce",
       "nivel": "Naranja",
-      "text": "Meseta de Segovia: Moderate thunderstorm warning. Meseta de Segovia (Naranja) (AEMET)",
+      "text": "Sol y Guadalhorce: Moderate thunderstorm warning. Sol y Guadalhorce (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌧️",
-      "provincia": "Campo de Cartagena y Mazarrón",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Campo de Cartagena y Mazarrón",
-      "nivel": "Rojo",
-      "text": "Campo de Cartagena y Mazarrón: Aviso de lluvias de nivel naranja. Campo de Cartagena y Mazarrón (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Campo de Cartagena y Mazarrón",
-      "fenomeno": "Severe rain warning. Campo de Cartagena y Mazarrón",
-      "nivel": "Rojo",
-      "text": "Campo de Cartagena y Mazarrón: Severe rain warning. Campo de Cartagena y Mazarrón (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Litoral norte de Valencia",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Litoral norte de Valencia",
-      "nivel": "Rojo",
-      "text": "Litoral norte de Valencia: Aviso de lluvias de nivel naranja. Litoral norte de Valencia (Rojo) (AEMET)",
+      "icon": "⛈️",
+      "provincia": "Axarquía",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Axarquía",
+      "nivel": "Naranja",
+      "text": "Axarquía: Aviso de tormentas de nivel amarillo. Axarquía (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Litoral norte de Valencia",
-      "fenomeno": "Severe rain warning. Litoral norte de Valencia",
-      "nivel": "Rojo",
-      "text": "Litoral norte de Valencia: Severe rain warning. Litoral norte de Valencia (Rojo) (AEMET)",
+      "provincia": "Axarquía",
+      "fenomeno": "Moderate thunderstorm warning. Axarquía",
+      "nivel": "Naranja",
+      "text": "Axarquía: Moderate thunderstorm warning. Axarquía (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Campo de Cartagena y Mazarrón",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Campo de Cartagena y Mazarrón",
+      "provincia": "Litoral norte de Tarragona",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Litoral norte de Tarragona",
       "nivel": "Rojo",
-      "text": "Campo de Cartagena y Mazarrón: Aviso de lluvias de nivel naranja. Campo de Cartagena y Mazarrón (Rojo) (AEMET)",
+      "text": "Litoral norte de Tarragona: Aviso de lluvias de nivel naranja. Litoral norte de Tarragona (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Campo de Cartagena y Mazarrón",
-      "fenomeno": "Severe rain warning. Campo de Cartagena y Mazarrón",
+      "provincia": "Litoral norte de Tarragona",
+      "fenomeno": "Severe rain warning. Litoral norte de Tarragona",
       "nivel": "Rojo",
-      "text": "Campo de Cartagena y Mazarrón: Severe rain warning. Campo de Cartagena y Mazarrón (Rojo) (AEMET)",
+      "text": "Litoral norte de Tarragona: Severe rain warning. Litoral norte de Tarragona (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -98,70 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate rain warning. Litoral norte de Tarragona",
       "nivel": "Naranja",
       "text": "Litoral norte de Tarragona: Moderate rain warning. Litoral norte de Tarragona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Litoral sur de Tarragona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral sur de Tarragona",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Tarragona: Aviso de lluvias de nivel amarillo. Litoral sur de Tarragona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral sur de Tarragona",
-      "fenomeno": "Moderate rain warning. Litoral sur de Tarragona",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Tarragona: Moderate rain warning. Litoral sur de Tarragona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Litoral norte de Castellón",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral norte de Castellón",
-      "nivel": "Naranja",
-      "text": "Litoral norte de Castellón: Aviso de lluvias de nivel amarillo. Litoral norte de Castellón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral norte de Castellón",
-      "fenomeno": "Moderate rain warning. Litoral norte de Castellón",
-      "nivel": "Naranja",
-      "text": "Litoral norte de Castellón: Moderate rain warning. Litoral norte de Castellón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Litoral norte de Tarragona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral norte de Tarragona",
-      "nivel": "Naranja",
-      "text": "Litoral norte de Tarragona: Aviso de lluvias de nivel amarillo. Litoral norte de Tarragona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral norte de Tarragona",
-      "fenomeno": "Moderate rain warning. Litoral norte de Tarragona",
-      "nivel": "Naranja",
-      "text": "Litoral norte de Tarragona: Moderate rain warning. Litoral norte de Tarragona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Litoral norte de Tarragona",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Litoral norte de Tarragona",
-      "nivel": "Naranja",
-      "text": "Litoral norte de Tarragona: Aviso de tormentas de nivel amarillo. Litoral norte de Tarragona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral norte de Tarragona",
-      "fenomeno": "Moderate thunderstorm warning. Litoral norte de Tarragona",
-      "nivel": "Naranja",
-      "text": "Litoral norte de Tarragona: Moderate thunderstorm warning. Litoral norte de Tarragona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
