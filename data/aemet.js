@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-10-17T20:32:31.749Z
+// Auto-generado por GitHub Actions - 2026-10-17T22:39:23.577Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-10-17T20:32:31.749Z",
+  "generated_at": "2026-10-17T22:39:23.577Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "🌧️",
-      "provincia": "La Mancha albaceteña",
-      "fenomeno": "Aviso de lluvias de nivel naranja. La Mancha albaceteña",
-      "nivel": "Rojo",
-      "text": "La Mancha albaceteña: Aviso de lluvias de nivel naranja. La Mancha albaceteña (Rojo) (AEMET)",
+      "provincia": "Valle del Almanzora y Los Vélez",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Valle del Almanzora y Los Vélez",
+      "nivel": "Naranja",
+      "text": "Valle del Almanzora y Los Vélez: Aviso de lluvias de nivel amarillo. Valle del Almanzora y Los Vélez (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "La Mancha albaceteña",
-      "fenomeno": "Severe rain warning. La Mancha albaceteña",
-      "nivel": "Rojo",
-      "text": "La Mancha albaceteña: Severe rain warning. La Mancha albaceteña (Rojo) (AEMET)",
+      "provincia": "Valle del Almanzora y Los Vélez",
+      "fenomeno": "Moderate rain warning. Valle del Almanzora y Los Vélez",
+      "nivel": "Naranja",
+      "text": "Valle del Almanzora y Los Vélez: Moderate rain warning. Valle del Almanzora y Los Vélez (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Hellín y Almansa",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Hellín y Almansa",
-      "nivel": "Rojo",
-      "text": "Hellín y Almansa: Aviso de lluvias de nivel naranja. Hellín y Almansa (Rojo) (AEMET)",
+      "provincia": "Cuenca del Genil",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Cuenca del Genil",
+      "nivel": "Naranja",
+      "text": "Cuenca del Genil: Aviso de lluvias de nivel amarillo. Cuenca del Genil (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Hellín y Almansa",
-      "fenomeno": "Severe rain warning. Hellín y Almansa",
-      "nivel": "Rojo",
-      "text": "Hellín y Almansa: Severe rain warning. Hellín y Almansa (Rojo) (AEMET)",
+      "provincia": "Cuenca del Genil",
+      "fenomeno": "Moderate rain warning. Cuenca del Genil",
+      "nivel": "Naranja",
+      "text": "Cuenca del Genil: Moderate rain warning. Cuenca del Genil (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Serranía de Cuenca",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Serranía de Cuenca",
+      "provincia": "Sol y Guadalhorce",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Sol y Guadalhorce",
       "nivel": "Naranja",
-      "text": "Serranía de Cuenca: Aviso de lluvias de nivel amarillo. Serranía de Cuenca (Naranja) (AEMET)",
+      "text": "Sol y Guadalhorce: Aviso de lluvias de nivel amarillo. Sol y Guadalhorce (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Serranía de Cuenca",
-      "fenomeno": "Moderate rain warning. Serranía de Cuenca",
+      "provincia": "Sol y Guadalhorce",
+      "fenomeno": "Moderate rain warning. Sol y Guadalhorce",
       "nivel": "Naranja",
-      "text": "Serranía de Cuenca: Moderate rain warning. Serranía de Cuenca (Naranja) (AEMET)",
+      "text": "Sol y Guadalhorce: Moderate rain warning. Sol y Guadalhorce (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "La Mancha conquense",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. La Mancha conquense",
+      "provincia": "Axarquía",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Axarquía",
       "nivel": "Naranja",
-      "text": "La Mancha conquense: Aviso de lluvias de nivel amarillo. La Mancha conquense (Naranja) (AEMET)",
+      "text": "Axarquía: Aviso de lluvias de nivel amarillo. Axarquía (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "La Mancha conquense",
-      "fenomeno": "Moderate rain warning. La Mancha conquense",
+      "provincia": "Axarquía",
+      "fenomeno": "Moderate rain warning. Axarquía",
       "nivel": "Naranja",
-      "text": "La Mancha conquense: Moderate rain warning. La Mancha conquense (Naranja) (AEMET)",
+      "text": "Axarquía: Moderate rain warning. Axarquía (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "La Mancha albaceteña",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. La Mancha albaceteña",
+      "provincia": "Valle del Almanzora y Los Vélez",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Valle del Almanzora y Los Vélez",
       "nivel": "Naranja",
-      "text": "La Mancha albaceteña: Aviso de tormentas de nivel amarillo. La Mancha albaceteña (Naranja) (AEMET)",
+      "text": "Valle del Almanzora y Los Vélez: Aviso de tormentas de nivel amarillo. Valle del Almanzora y Los Vélez (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "La Mancha albaceteña",
-      "fenomeno": "Moderate thunderstorm warning. La Mancha albaceteña",
+      "provincia": "Valle del Almanzora y Los Vélez",
+      "fenomeno": "Moderate thunderstorm warning. Valle del Almanzora y Los Vélez",
       "nivel": "Naranja",
-      "text": "La Mancha albaceteña: Moderate thunderstorm warning. La Mancha albaceteña (Naranja) (AEMET)",
+      "text": "Valle del Almanzora y Los Vélez: Moderate thunderstorm warning. Valle del Almanzora y Los Vélez (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Hellín y Almansa",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Hellín y Almansa",
+      "provincia": "Cuenca del Genil",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Cuenca del Genil",
       "nivel": "Naranja",
-      "text": "Hellín y Almansa: Aviso de tormentas de nivel amarillo. Hellín y Almansa (Naranja) (AEMET)",
+      "text": "Cuenca del Genil: Aviso de tormentas de nivel amarillo. Cuenca del Genil (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Hellín y Almansa",
-      "fenomeno": "Moderate thunderstorm warning. Hellín y Almansa",
+      "provincia": "Cuenca del Genil",
+      "fenomeno": "Moderate thunderstorm warning. Cuenca del Genil",
       "nivel": "Naranja",
-      "text": "Hellín y Almansa: Moderate thunderstorm warning. Hellín y Almansa (Naranja) (AEMET)",
+      "text": "Cuenca del Genil: Moderate thunderstorm warning. Cuenca del Genil (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Serranía de Cuenca",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Serranía de Cuenca",
+      "provincia": "Sol y Guadalhorce",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Sol y Guadalhorce",
       "nivel": "Naranja",
-      "text": "Serranía de Cuenca: Aviso de tormentas de nivel amarillo. Serranía de Cuenca (Naranja) (AEMET)",
+      "text": "Sol y Guadalhorce: Aviso de tormentas de nivel amarillo. Sol y Guadalhorce (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Serranía de Cuenca",
-      "fenomeno": "Moderate thunderstorm warning. Serranía de Cuenca",
+      "provincia": "Sol y Guadalhorce",
+      "fenomeno": "Moderate thunderstorm warning. Sol y Guadalhorce",
       "nivel": "Naranja",
-      "text": "Serranía de Cuenca: Moderate thunderstorm warning. Serranía de Cuenca (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "La Mancha conquense",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. La Mancha conquense",
-      "nivel": "Naranja",
-      "text": "La Mancha conquense: Aviso de tormentas de nivel amarillo. La Mancha conquense (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "La Mancha conquense",
-      "fenomeno": "Moderate thunderstorm warning. La Mancha conquense",
-      "nivel": "Naranja",
-      "text": "La Mancha conquense: Moderate thunderstorm warning. La Mancha conquense (Naranja) (AEMET)",
+      "text": "Sol y Guadalhorce: Moderate thunderstorm warning. Sol y Guadalhorce (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Sur de Badajoz",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Sur de Badajoz",
+      "provincia": "Barros y Serena",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Barros y Serena",
       "nivel": "Naranja",
-      "text": "Sur de Badajoz: Aviso de lluvias de nivel amarillo. Sur de Badajoz (Naranja) (AEMET)",
+      "text": "Barros y Serena: Aviso de lluvias de nivel amarillo. Barros y Serena (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sur de Badajoz",
-      "fenomeno": "Moderate rain warning. Sur de Badajoz",
+      "provincia": "Barros y Serena",
+      "fenomeno": "Moderate rain warning. Barros y Serena",
       "nivel": "Naranja",
-      "text": "Sur de Badajoz: Moderate rain warning. Sur de Badajoz (Naranja) (AEMET)",
+      "text": "Barros y Serena: Moderate rain warning. Barros y Serena (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⛈️",
-      "provincia": "Sur de Badajoz",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Sur de Badajoz",
+      "provincia": "Barros y Serena",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Barros y Serena",
       "nivel": "Naranja",
-      "text": "Sur de Badajoz: Aviso de tormentas de nivel amarillo. Sur de Badajoz (Naranja) (AEMET)",
+      "text": "Barros y Serena: Aviso de tormentas de nivel amarillo. Barros y Serena (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Sur de Badajoz",
-      "fenomeno": "Moderate thunderstorm warning. Sur de Badajoz",
+      "provincia": "Barros y Serena",
+      "fenomeno": "Moderate thunderstorm warning. Barros y Serena",
       "nivel": "Naranja",
-      "text": "Sur de Badajoz: Moderate thunderstorm warning. Sur de Badajoz (Naranja) (AEMET)",
+      "text": "Barros y Serena: Moderate thunderstorm warning. Barros y Serena (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Subbética cordobesa",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Subbética cordobesa",
+      "nivel": "Naranja",
+      "text": "Subbética cordobesa: Aviso de lluvias de nivel amarillo. Subbética cordobesa (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Subbética cordobesa",
+      "fenomeno": "Moderate rain warning. Subbética cordobesa",
+      "nivel": "Naranja",
+      "text": "Subbética cordobesa: Moderate rain warning. Subbética cordobesa (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
