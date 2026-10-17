@@ -1,166 +1,166 @@
 {
-  "generated_at": "2026-10-17T12:24:46.989Z",
+  "generated_at": "2026-10-17T15:46:40.909Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "🌧️",
-      "provincia": "Grazalema",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Grazalema",
-      "nivel": "Naranja",
-      "text": "Grazalema: Aviso de lluvias de nivel amarillo. Grazalema (Naranja) (AEMET)",
+      "provincia": "Ronda",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Ronda",
+      "nivel": "Rojo",
+      "text": "Ronda: Aviso de lluvias de nivel naranja. Ronda (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Grazalema",
-      "fenomeno": "Moderate rain warning. Grazalema",
-      "nivel": "Naranja",
-      "text": "Grazalema: Moderate rain warning. Grazalema (Naranja) (AEMET)",
+      "provincia": "Ronda",
+      "fenomeno": "Severe rain warning. Ronda",
+      "nivel": "Rojo",
+      "text": "Ronda: Severe rain warning. Ronda (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Campiña gaditana",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Campiña gaditana",
-      "nivel": "Naranja",
-      "text": "Campiña gaditana: Aviso de lluvias de nivel amarillo. Campiña gaditana (Naranja) (AEMET)",
+      "provincia": "Poniente y Almería Capital",
+      "fenomeno": "Aviso de lluvias de nivel rojo. Poniente y Almería Capital",
+      "nivel": "Rojo",
+      "text": "Poniente y Almería Capital: Aviso de lluvias de nivel rojo. Poniente y Almería Capital (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Campiña gaditana",
-      "fenomeno": "Moderate rain warning. Campiña gaditana",
-      "nivel": "Naranja",
-      "text": "Campiña gaditana: Moderate rain warning. Campiña gaditana (Naranja) (AEMET)",
+      "provincia": "Poniente y Almería Capital",
+      "fenomeno": "Extreme rain warning. Poniente y Almería Capital",
+      "nivel": "Rojo",
+      "text": "Poniente y Almería Capital: Extreme rain warning. Poniente y Almería Capital (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Litoral gaditano",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral gaditano",
-      "nivel": "Naranja",
-      "text": "Litoral gaditano: Aviso de lluvias de nivel amarillo. Litoral gaditano (Naranja) (AEMET)",
+      "provincia": "Poniente y Almería Capital",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Poniente y Almería Capital",
+      "nivel": "Rojo",
+      "text": "Poniente y Almería Capital: Aviso de lluvias de nivel naranja. Poniente y Almería Capital (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Litoral gaditano",
-      "fenomeno": "Moderate rain warning. Litoral gaditano",
-      "nivel": "Naranja",
-      "text": "Litoral gaditano: Moderate rain warning. Litoral gaditano (Naranja) (AEMET)",
+      "provincia": "Poniente y Almería Capital",
+      "fenomeno": "Severe rain warning. Poniente y Almería Capital",
+      "nivel": "Rojo",
+      "text": "Poniente y Almería Capital: Severe rain warning. Poniente y Almería Capital (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Estrecho",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Estrecho",
-      "nivel": "Naranja",
-      "text": "Estrecho: Aviso de lluvias de nivel amarillo. Estrecho (Naranja) (AEMET)",
+      "provincia": "Litoral norte de Alicante",
+      "fenomeno": "Aviso de lluvias de nivel rojo. Litoral norte de Alicante",
+      "nivel": "Rojo",
+      "text": "Litoral norte de Alicante: Aviso de lluvias de nivel rojo. Litoral norte de Alicante (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Estrecho",
-      "fenomeno": "Moderate rain warning. Estrecho",
-      "nivel": "Naranja",
-      "text": "Estrecho: Moderate rain warning. Estrecho (Naranja) (AEMET)",
+      "provincia": "Litoral norte de Alicante",
+      "fenomeno": "Extreme rain warning. Litoral norte de Alicante",
+      "nivel": "Rojo",
+      "text": "Litoral norte de Alicante: Extreme rain warning. Litoral norte de Alicante (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Ceuta",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Ceuta",
-      "nivel": "Naranja",
-      "text": "Ceuta: Aviso de lluvias de nivel amarillo. Ceuta (Naranja) (AEMET)",
+      "provincia": "Litoral sur de Valencia",
+      "fenomeno": "Aviso de lluvias de nivel rojo. Litoral sur de Valencia",
+      "nivel": "Rojo",
+      "text": "Litoral sur de Valencia: Aviso de lluvias de nivel rojo. Litoral sur de Valencia (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Ceuta",
-      "fenomeno": "Moderate rain warning. Ceuta",
-      "nivel": "Naranja",
-      "text": "Ceuta: Moderate rain warning. Ceuta (Naranja) (AEMET)",
+      "provincia": "Litoral sur de Valencia",
+      "fenomeno": "Extreme rain warning. Litoral sur de Valencia",
+      "nivel": "Rojo",
+      "text": "Litoral sur de Valencia: Extreme rain warning. Litoral sur de Valencia (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⛈️",
-      "provincia": "Grazalema",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Grazalema",
-      "nivel": "Naranja",
-      "text": "Grazalema: Aviso de tormentas de nivel amarillo. Grazalema (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Grazalema",
-      "fenomeno": "Moderate thunderstorm warning. Grazalema",
-      "nivel": "Naranja",
-      "text": "Grazalema: Moderate thunderstorm warning. Grazalema (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Campiña gaditana",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Campiña gaditana",
-      "nivel": "Naranja",
-      "text": "Campiña gaditana: Aviso de tormentas de nivel amarillo. Campiña gaditana (Naranja) (AEMET)",
+      "icon": "🌧️",
+      "provincia": "Poniente y Almería Capital",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Poniente y Almería Capital",
+      "nivel": "Rojo",
+      "text": "Poniente y Almería Capital: Aviso de lluvias de nivel naranja. Poniente y Almería Capital (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Campiña gaditana",
-      "fenomeno": "Moderate thunderstorm warning. Campiña gaditana",
-      "nivel": "Naranja",
-      "text": "Campiña gaditana: Moderate thunderstorm warning. Campiña gaditana (Naranja) (AEMET)",
+      "provincia": "Poniente y Almería Capital",
+      "fenomeno": "Severe rain warning. Poniente y Almería Capital",
+      "nivel": "Rojo",
+      "text": "Poniente y Almería Capital: Severe rain warning. Poniente y Almería Capital (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⛈️",
-      "provincia": "Litoral gaditano",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Litoral gaditano",
-      "nivel": "Naranja",
-      "text": "Litoral gaditano: Aviso de tormentas de nivel amarillo. Litoral gaditano (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral gaditano",
-      "fenomeno": "Moderate thunderstorm warning. Litoral gaditano",
-      "nivel": "Naranja",
-      "text": "Litoral gaditano: Moderate thunderstorm warning. Litoral gaditano (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Estrecho",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Estrecho",
-      "nivel": "Naranja",
-      "text": "Estrecho: Aviso de tormentas de nivel amarillo. Estrecho (Naranja) (AEMET)",
+      "icon": "🌧️",
+      "provincia": "Levante almeriense",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Levante almeriense",
+      "nivel": "Rojo",
+      "text": "Levante almeriense: Aviso de lluvias de nivel naranja. Levante almeriense (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Estrecho",
-      "fenomeno": "Moderate thunderstorm warning. Estrecho",
-      "nivel": "Naranja",
-      "text": "Estrecho: Moderate thunderstorm warning. Estrecho (Naranja) (AEMET)",
+      "provincia": "Levante almeriense",
+      "fenomeno": "Severe rain warning. Levante almeriense",
+      "nivel": "Rojo",
+      "text": "Levante almeriense: Severe rain warning. Levante almeriense (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "⛈️",
-      "provincia": "Ceuta",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Ceuta",
-      "nivel": "Naranja",
-      "text": "Ceuta: Aviso de tormentas de nivel amarillo. Ceuta (Naranja) (AEMET)",
+      "icon": "🌧️",
+      "provincia": "Valle del Guadalentín, Lorca y Águilas",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Valle del Guadalentín, Lorca y Águilas",
+      "nivel": "Rojo",
+      "text": "Valle del Guadalentín, Lorca y Águilas: Aviso de lluvias de nivel naranja. Valle del Guadalentín, Lorca y Águilas (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Ceuta",
-      "fenomeno": "Moderate thunderstorm warning. Ceuta",
-      "nivel": "Naranja",
-      "text": "Ceuta: Moderate thunderstorm warning. Ceuta (Naranja) (AEMET)",
+      "provincia": "Valle del Guadalentín, Lorca y Águilas",
+      "fenomeno": "Severe rain warning. Valle del Guadalentín, Lorca y Águilas",
+      "nivel": "Rojo",
+      "text": "Valle del Guadalentín, Lorca y Águilas: Severe rain warning. Valle del Guadalentín, Lorca y Águilas (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Campo de Cartagena y Mazarrón",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Campo de Cartagena y Mazarrón",
+      "nivel": "Rojo",
+      "text": "Campo de Cartagena y Mazarrón: Aviso de lluvias de nivel naranja. Campo de Cartagena y Mazarrón (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Campo de Cartagena y Mazarrón",
+      "fenomeno": "Severe rain warning. Campo de Cartagena y Mazarrón",
+      "nivel": "Rojo",
+      "text": "Campo de Cartagena y Mazarrón: Severe rain warning. Campo de Cartagena y Mazarrón (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Litoral norte de Alicante",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Litoral norte de Alicante",
+      "nivel": "Rojo",
+      "text": "Litoral norte de Alicante: Aviso de lluvias de nivel naranja. Litoral norte de Alicante (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral norte de Alicante",
+      "fenomeno": "Severe rain warning. Litoral norte de Alicante",
+      "nivel": "Rojo",
+      "text": "Litoral norte de Alicante: Severe rain warning. Litoral norte de Alicante (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
