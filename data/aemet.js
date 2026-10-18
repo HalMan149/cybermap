@@ -1,167 +1,167 @@
-// Auto-generado por GitHub Actions - 2026-10-18T16:39:11.191Z
+// Auto-generado por GitHub Actions - 2026-10-18T18:56:06.811Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-10-18T16:39:11.191Z",
+  "generated_at": "2026-10-18T18:56:06.811Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
     {
       "icon": "🌧️",
-      "provincia": "Campiña sevillana",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Campiña sevillana",
+      "provincia": "Litoral norte de Valencia",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Litoral norte de Valencia",
       "nivel": "Rojo",
-      "text": "Campiña sevillana: Aviso de lluvias de nivel naranja. Campiña sevillana (Rojo) (AEMET)",
+      "text": "Litoral norte de Valencia: Aviso de lluvias de nivel naranja. Litoral norte de Valencia (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Campiña sevillana",
-      "fenomeno": "Severe rain warning. Campiña sevillana",
+      "provincia": "Litoral norte de Valencia",
+      "fenomeno": "Severe rain warning. Litoral norte de Valencia",
       "nivel": "Rojo",
-      "text": "Campiña sevillana: Severe rain warning. Campiña sevillana (Rojo) (AEMET)",
+      "text": "Litoral norte de Valencia: Severe rain warning. Litoral norte de Valencia (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Campiña gaditana",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Campiña gaditana",
-      "nivel": "Naranja",
-      "text": "Campiña gaditana: Aviso de lluvias de nivel amarillo. Campiña gaditana (Naranja) (AEMET)",
+      "provincia": "Litoral norte de Valencia",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Litoral norte de Valencia",
+      "nivel": "Rojo",
+      "text": "Litoral norte de Valencia: Aviso de lluvias de nivel naranja. Litoral norte de Valencia (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Campiña gaditana",
-      "fenomeno": "Moderate rain warning. Campiña gaditana",
-      "nivel": "Naranja",
-      "text": "Campiña gaditana: Moderate rain warning. Campiña gaditana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Campiña cordobesa",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Campiña cordobesa",
-      "nivel": "Naranja",
-      "text": "Campiña cordobesa: Aviso de tormentas de nivel amarillo. Campiña cordobesa (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Campiña cordobesa",
-      "fenomeno": "Moderate thunderstorm warning. Campiña cordobesa",
-      "nivel": "Naranja",
-      "text": "Campiña cordobesa: Moderate thunderstorm warning. Campiña cordobesa (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Subbética cordobesa",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Subbética cordobesa",
-      "nivel": "Naranja",
-      "text": "Subbética cordobesa: Aviso de tormentas de nivel amarillo. Subbética cordobesa (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Subbética cordobesa",
-      "fenomeno": "Moderate thunderstorm warning. Subbética cordobesa",
-      "nivel": "Naranja",
-      "text": "Subbética cordobesa: Moderate thunderstorm warning. Subbética cordobesa (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Sierra norte de Sevilla",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Sierra norte de Sevilla",
-      "nivel": "Naranja",
-      "text": "Sierra norte de Sevilla: Aviso de tormentas de nivel amarillo. Sierra norte de Sevilla (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sierra norte de Sevilla",
-      "fenomeno": "Moderate thunderstorm warning. Sierra norte de Sevilla",
-      "nivel": "Naranja",
-      "text": "Sierra norte de Sevilla: Moderate thunderstorm warning. Sierra norte de Sevilla (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Campiña sevillana",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Campiña sevillana",
-      "nivel": "Naranja",
-      "text": "Campiña sevillana: Aviso de tormentas de nivel amarillo. Campiña sevillana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Campiña sevillana",
-      "fenomeno": "Moderate thunderstorm warning. Campiña sevillana",
-      "nivel": "Naranja",
-      "text": "Campiña sevillana: Moderate thunderstorm warning. Campiña sevillana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Sierra sur de Sevilla",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Sierra sur de Sevilla",
-      "nivel": "Naranja",
-      "text": "Sierra sur de Sevilla: Aviso de tormentas de nivel amarillo. Sierra sur de Sevilla (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sierra sur de Sevilla",
-      "fenomeno": "Moderate thunderstorm warning. Sierra sur de Sevilla",
-      "nivel": "Naranja",
-      "text": "Sierra sur de Sevilla: Moderate thunderstorm warning. Sierra sur de Sevilla (Naranja) (AEMET)",
+      "provincia": "Litoral norte de Valencia",
+      "fenomeno": "Severe rain warning. Litoral norte de Valencia",
+      "nivel": "Rojo",
+      "text": "Litoral norte de Valencia: Severe rain warning. Litoral norte de Valencia (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Campiña sevillana",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Campiña sevillana",
+      "provincia": "Litoral norte de Valencia",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral norte de Valencia",
       "nivel": "Naranja",
-      "text": "Campiña sevillana: Aviso de lluvias de nivel amarillo. Campiña sevillana (Naranja) (AEMET)",
+      "text": "Litoral norte de Valencia: Aviso de lluvias de nivel amarillo. Litoral norte de Valencia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Campiña sevillana",
-      "fenomeno": "Moderate rain warning. Campiña sevillana",
+      "provincia": "Litoral norte de Valencia",
+      "fenomeno": "Moderate rain warning. Litoral norte de Valencia",
       "nivel": "Naranja",
-      "text": "Campiña sevillana: Moderate rain warning. Campiña sevillana (Naranja) (AEMET)",
+      "text": "Litoral norte de Valencia: Moderate rain warning. Litoral norte de Valencia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Litoral norte de Alicante",
-      "fenomeno": "Aviso de lluvias de nivel rojo. Litoral norte de Alicante",
-      "nivel": "Rojo",
-      "text": "Litoral norte de Alicante: Aviso de lluvias de nivel rojo. Litoral norte de Alicante (Rojo) (AEMET)",
+      "provincia": "Litoral norte de Valencia",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral norte de Valencia",
+      "nivel": "Naranja",
+      "text": "Litoral norte de Valencia: Aviso de lluvias de nivel amarillo. Litoral norte de Valencia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Litoral norte de Alicante",
-      "fenomeno": "Extreme rain warning. Litoral norte de Alicante",
-      "nivel": "Rojo",
-      "text": "Litoral norte de Alicante: Extreme rain warning. Litoral norte de Alicante (Rojo) (AEMET)",
+      "provincia": "Litoral norte de Valencia",
+      "fenomeno": "Moderate rain warning. Litoral norte de Valencia",
+      "nivel": "Naranja",
+      "text": "Litoral norte de Valencia: Moderate rain warning. Litoral norte de Valencia (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "🌧️",
-      "provincia": "Litoral sur de Valencia",
-      "fenomeno": "Aviso de lluvias de nivel rojo. Litoral sur de Valencia",
+      "provincia": "Interior de Mallorca",
+      "fenomeno": "Aviso de lluvias de nivel rojo. Interior de Mallorca",
       "nivel": "Rojo",
-      "text": "Litoral sur de Valencia: Aviso de lluvias de nivel rojo. Litoral sur de Valencia (Rojo) (AEMET)",
+      "text": "Interior de Mallorca: Aviso de lluvias de nivel rojo. Interior de Mallorca (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
       "icon": "⚠️",
-      "provincia": "Litoral sur de Valencia",
-      "fenomeno": "Extreme rain warning. Litoral sur de Valencia",
+      "provincia": "Interior de Mallorca",
+      "fenomeno": "Extreme rain warning. Interior de Mallorca",
       "nivel": "Rojo",
-      "text": "Litoral sur de Valencia: Extreme rain warning. Litoral sur de Valencia (Rojo) (AEMET)",
+      "text": "Interior de Mallorca: Extreme rain warning. Interior de Mallorca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Sur de Mallorca",
+      "fenomeno": "Aviso de lluvias de nivel rojo. Sur de Mallorca",
+      "nivel": "Rojo",
+      "text": "Sur de Mallorca: Aviso de lluvias de nivel rojo. Sur de Mallorca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sur de Mallorca",
+      "fenomeno": "Extreme rain warning. Sur de Mallorca",
+      "nivel": "Rojo",
+      "text": "Sur de Mallorca: Extreme rain warning. Sur de Mallorca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Levante mallorquín",
+      "fenomeno": "Aviso de lluvias de nivel rojo. Levante mallorquín",
+      "nivel": "Rojo",
+      "text": "Levante mallorquín: Aviso de lluvias de nivel rojo. Levante mallorquín (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Levante mallorquín",
+      "fenomeno": "Extreme rain warning. Levante mallorquín",
+      "nivel": "Rojo",
+      "text": "Levante mallorquín: Extreme rain warning. Levante mallorquín (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Sur de Mallorca",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Sur de Mallorca",
+      "nivel": "Rojo",
+      "text": "Sur de Mallorca: Aviso de lluvias de nivel naranja. Sur de Mallorca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sur de Mallorca",
+      "fenomeno": "Severe rain warning. Sur de Mallorca",
+      "nivel": "Rojo",
+      "text": "Sur de Mallorca: Severe rain warning. Sur de Mallorca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Levante mallorquín",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Levante mallorquín",
+      "nivel": "Rojo",
+      "text": "Levante mallorquín: Aviso de lluvias de nivel naranja. Levante mallorquín (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Levante mallorquín",
+      "fenomeno": "Severe rain warning. Levante mallorquín",
+      "nivel": "Rojo",
+      "text": "Levante mallorquín: Severe rain warning. Levante mallorquín (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Sur de Mallorca",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Sur de Mallorca",
+      "nivel": "Rojo",
+      "text": "Sur de Mallorca: Aviso de lluvias de nivel naranja. Sur de Mallorca (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sur de Mallorca",
+      "fenomeno": "Severe rain warning. Sur de Mallorca",
+      "nivel": "Rojo",
+      "text": "Sur de Mallorca: Severe rain warning. Sur de Mallorca (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
