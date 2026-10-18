@@ -1,9 +1,41 @@
-// Auto-generado por GitHub Actions - 2026-10-17T22:39:23.577Z
+// Auto-generado por GitHub Actions - 2026-10-18T00:17:58.337Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-10-17T22:39:23.577Z",
+  "generated_at": "2026-10-18T00:17:58.337Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Sierra y Pedroches",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Sierra y Pedroches",
+      "nivel": "Naranja",
+      "text": "Sierra y Pedroches: Aviso de lluvias de nivel amarillo. Sierra y Pedroches (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sierra y Pedroches",
+      "fenomeno": "Moderate rain warning. Sierra y Pedroches",
+      "nivel": "Naranja",
+      "text": "Sierra y Pedroches: Moderate rain warning. Sierra y Pedroches (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Sierra y Pedroches",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Sierra y Pedroches",
+      "nivel": "Naranja",
+      "text": "Sierra y Pedroches: Aviso de tormentas de nivel amarillo. Sierra y Pedroches (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sierra y Pedroches",
+      "fenomeno": "Moderate thunderstorm warning. Sierra y Pedroches",
+      "nivel": "Naranja",
+      "text": "Sierra y Pedroches: Moderate thunderstorm warning. Sierra y Pedroches (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Valle del Almanzora y Los Vélez",
@@ -34,38 +66,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate rain warning. Cuenca del Genil",
       "nivel": "Naranja",
       "text": "Cuenca del Genil: Moderate rain warning. Cuenca del Genil (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Sol y Guadalhorce",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Sol y Guadalhorce",
-      "nivel": "Naranja",
-      "text": "Sol y Guadalhorce: Aviso de lluvias de nivel amarillo. Sol y Guadalhorce (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Sol y Guadalhorce",
-      "fenomeno": "Moderate rain warning. Sol y Guadalhorce",
-      "nivel": "Naranja",
-      "text": "Sol y Guadalhorce: Moderate rain warning. Sol y Guadalhorce (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Axarquía",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Axarquía",
-      "nivel": "Naranja",
-      "text": "Axarquía: Aviso de lluvias de nivel amarillo. Axarquía (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Axarquía",
-      "fenomeno": "Moderate rain warning. Axarquía",
-      "nivel": "Naranja",
-      "text": "Axarquía: Moderate rain warning. Axarquía (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
