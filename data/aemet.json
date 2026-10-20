@@ -1,8 +1,40 @@
 {
-  "generated_at": "2026-10-20T01:36:28.769Z",
+  "generated_at": "2026-10-20T06:35:50.042Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Ibiza y Formentera",
+      "fenomeno": "Aviso de lluvias de nivel naranja. Ibiza y Formentera",
+      "nivel": "Rojo",
+      "text": "Ibiza y Formentera: Aviso de lluvias de nivel naranja. Ibiza y Formentera (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ibiza y Formentera",
+      "fenomeno": "Severe rain warning. Ibiza y Formentera",
+      "nivel": "Rojo",
+      "text": "Ibiza y Formentera: Severe rain warning. Ibiza y Formentera (Rojo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Ibiza y Formentera",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Ibiza y Formentera",
+      "nivel": "Naranja",
+      "text": "Ibiza y Formentera: Aviso de lluvias de nivel amarillo. Ibiza y Formentera (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ibiza y Formentera",
+      "fenomeno": "Moderate rain warning. Ibiza y Formentera",
+      "nivel": "Naranja",
+      "text": "Ibiza y Formentera: Moderate rain warning. Ibiza y Formentera (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌧️",
       "provincia": "Menorca",
@@ -129,38 +161,6 @@
       "fenomeno": "Moderate rain warning. Valle del Guadalentín, Lorca y Águilas",
       "nivel": "Naranja",
       "text": "Valle del Guadalentín, Lorca y Águilas: Moderate rain warning. Valle del Guadalentín, Lorca y Águilas (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⛈️",
-      "provincia": "Valle del Guadalentín, Lorca y Águilas",
-      "fenomeno": "Aviso de tormentas de nivel amarillo. Valle del Guadalentín, Lorca y Águilas",
-      "nivel": "Naranja",
-      "text": "Valle del Guadalentín, Lorca y Águilas: Aviso de tormentas de nivel amarillo. Valle del Guadalentín, Lorca y Águilas (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Valle del Guadalentín, Lorca y Águilas",
-      "fenomeno": "Moderate thunderstorm warning. Valle del Guadalentín, Lorca y Águilas",
-      "nivel": "Naranja",
-      "text": "Valle del Guadalentín, Lorca y Águilas: Moderate thunderstorm warning. Valle del Guadalentín, Lorca y Águilas (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Prepirineo de Barcelona",
-      "fenomeno": "Aviso de lluvias de nivel naranja. Prepirineo de Barcelona",
-      "nivel": "Rojo",
-      "text": "Prepirineo de Barcelona: Aviso de lluvias de nivel naranja. Prepirineo de Barcelona (Rojo) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Prepirineo de Barcelona",
-      "fenomeno": "Severe rain warning. Prepirineo de Barcelona",
-      "nivel": "Rojo",
-      "text": "Prepirineo de Barcelona: Severe rain warning. Prepirineo de Barcelona (Rojo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
