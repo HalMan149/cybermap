@@ -1,9 +1,73 @@
-// Auto-generado por GitHub Actions - 2026-10-24T13:00:36.819Z
+// Auto-generado por GitHub Actions - 2026-10-24T16:33:41.061Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-10-24T13:00:36.819Z",
+  "generated_at": "2026-10-24T16:33:41.061Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral occidental asturiano",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral occidental asturiano",
+      "nivel": "Naranja",
+      "text": "Costa - Litoral occidental asturiano: Aviso de costeros de nivel amarillo. Costa - Litoral occidental asturiano (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral occidental asturiano",
+      "fenomeno": "Moderate coastalevent warning. Costa - Litoral occidental asturiano",
+      "nivel": "Naranja",
+      "text": "Costa - Litoral occidental asturiano: Moderate coastalevent warning. Costa - Litoral occidental asturiano (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral oriental asturiano",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral oriental asturiano",
+      "nivel": "Naranja",
+      "text": "Costa - Litoral oriental asturiano: Aviso de costeros de nivel amarillo. Costa - Litoral oriental asturiano (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral oriental asturiano",
+      "fenomeno": "Moderate coastalevent warning. Costa - Litoral oriental asturiano",
+      "nivel": "Naranja",
+      "text": "Costa - Litoral oriental asturiano: Moderate coastalevent warning. Costa - Litoral oriental asturiano (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral cántabro",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral cántabro",
+      "nivel": "Naranja",
+      "text": "Costa - Litoral cántabro: Aviso de costeros de nivel amarillo. Costa - Litoral cántabro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Litoral cántabro",
+      "fenomeno": "Moderate coastalevent warning. Costa - Litoral cántabro",
+      "nivel": "Naranja",
+      "text": "Costa - Litoral cántabro: Moderate coastalevent warning. Costa - Litoral cántabro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Bizkaia litoral",
+      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Bizkaia litoral",
+      "nivel": "Naranja",
+      "text": "Costa - Bizkaia litoral: Aviso de costeros de nivel amarillo. Costa - Bizkaia litoral (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Costa - Bizkaia litoral",
+      "fenomeno": "Moderate coastalevent warning. Costa - Bizkaia litoral",
+      "nivel": "Naranja",
+      "text": "Costa - Bizkaia litoral: Moderate coastalevent warning. Costa - Bizkaia litoral (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌊",
       "provincia": "Costa - Noroeste de A Coruña",
@@ -53,38 +117,6 @@ window.AEMET_AVISOS = {
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral occidental asturiano",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral occidental asturiano",
-      "nivel": "Naranja",
-      "text": "Costa - Litoral occidental asturiano: Aviso de costeros de nivel amarillo. Costa - Litoral occidental asturiano (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral occidental asturiano",
-      "fenomeno": "Moderate coastalevent warning. Costa - Litoral occidental asturiano",
-      "nivel": "Naranja",
-      "text": "Costa - Litoral occidental asturiano: Moderate coastalevent warning. Costa - Litoral occidental asturiano (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral oriental asturiano",
-      "fenomeno": "Aviso de costeros de nivel amarillo. Costa - Litoral oriental asturiano",
-      "nivel": "Naranja",
-      "text": "Costa - Litoral oriental asturiano: Aviso de costeros de nivel amarillo. Costa - Litoral oriental asturiano (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Costa - Litoral oriental asturiano",
-      "fenomeno": "Moderate coastalevent warning. Costa - Litoral oriental asturiano",
-      "nivel": "Naranja",
-      "text": "Costa - Litoral oriental asturiano: Moderate coastalevent warning. Costa - Litoral oriental asturiano (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
       "icon": "🌧️",
       "provincia": "Litoral de Barcelona",
       "fenomeno": "Aviso de lluvias de nivel naranja. Litoral de Barcelona",
@@ -130,38 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate rain warning. Prelitoral de Barcelona",
       "nivel": "Naranja",
       "text": "Prelitoral de Barcelona: Moderate rain warning. Prelitoral de Barcelona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Litoral sur de Girona",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral sur de Girona",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Girona: Aviso de lluvias de nivel amarillo. Litoral sur de Girona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral sur de Girona",
-      "fenomeno": "Moderate rain warning. Litoral sur de Girona",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Girona: Moderate rain warning. Litoral sur de Girona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "💨",
-      "provincia": "Litoral sur de Tarragona",
-      "fenomeno": "Aviso de vientos de nivel amarillo. Litoral sur de Tarragona",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Tarragona: Aviso de vientos de nivel amarillo. Litoral sur de Tarragona (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Litoral sur de Tarragona",
-      "fenomeno": "Moderate wind warning. Litoral sur de Tarragona",
-      "nivel": "Naranja",
-      "text": "Litoral sur de Tarragona: Moderate wind warning. Litoral sur de Tarragona (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
