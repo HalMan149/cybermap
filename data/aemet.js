@@ -1,6 +1,6 @@
-// Auto-generado por GitHub Actions - 2026-10-27T19:07:25.209Z
+// Auto-generado por GitHub Actions - 2026-10-27T22:55:59.545Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-10-27T19:07:25.209Z",
+  "generated_at": "2026-10-27T22:55:59.545Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
@@ -18,22 +18,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate rain warning. Campo de Cartagena y Mazarrón",
       "nivel": "Naranja",
       "text": "Campo de Cartagena y Mazarrón: Moderate rain warning. Campo de Cartagena y Mazarrón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Vega del Segura",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Vega del Segura",
-      "nivel": "Naranja",
-      "text": "Vega del Segura: Aviso de lluvias de nivel amarillo. Vega del Segura (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Vega del Segura",
-      "fenomeno": "Moderate rain warning. Vega del Segura",
-      "nivel": "Naranja",
-      "text": "Vega del Segura: Moderate rain warning. Vega del Segura (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
@@ -162,6 +146,22 @@ window.AEMET_AVISOS = {
       "fenomeno": "Minor wind warning. CCAA",
       "nivel": "Amarillo",
       "text": "Valle del Almanzora y Los Vélez: Minor wind warning. CCAA (Amarillo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Valle del Almanzora y Los Vélez",
+      "fenomeno": "Aviso de polvo en suspensión de nivel verde. CCAA",
+      "nivel": "Amarillo",
+      "text": "Valle del Almanzora y Los Vélez: Aviso de polvo en suspensión de nivel verde. CCAA (Amarillo) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Valle del Almanzora y Los Vélez",
+      "fenomeno": "Minor dust warning. CCAA",
+      "nivel": "Amarillo",
+      "text": "Valle del Almanzora y Los Vélez: Minor dust warning. CCAA (Amarillo) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
