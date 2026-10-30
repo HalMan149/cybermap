@@ -1,25 +1,9 @@
-// Auto-generado por GitHub Actions - 2026-10-29T21:46:29.210Z
+// Auto-generado por GitHub Actions - 2026-10-30T01:27:44.779Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-10-29T21:46:29.210Z",
+  "generated_at": "2026-10-30T01:27:44.779Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
-    {
-      "icon": "🌧️",
-      "provincia": "Ibiza y Formentera",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Ibiza y Formentera",
-      "nivel": "Naranja",
-      "text": "Ibiza y Formentera: Aviso de lluvias de nivel amarillo. Ibiza y Formentera (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Ibiza y Formentera",
-      "fenomeno": "Moderate rain warning. Ibiza y Formentera",
-      "nivel": "Naranja",
-      "text": "Ibiza y Formentera: Moderate rain warning. Ibiza y Formentera (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
     {
       "icon": "🌧️",
       "provincia": "Norte y nordeste de Mallorca",
@@ -34,6 +18,22 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate rain warning. Norte y nordeste de Mallorca",
       "nivel": "Naranja",
       "text": "Norte y nordeste de Mallorca: Moderate rain warning. Norte y nordeste de Mallorca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Ibiza y Formentera",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Ibiza y Formentera",
+      "nivel": "Naranja",
+      "text": "Ibiza y Formentera: Aviso de lluvias de nivel amarillo. Ibiza y Formentera (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Ibiza y Formentera",
+      "fenomeno": "Moderate rain warning. Ibiza y Formentera",
+      "nivel": "Naranja",
+      "text": "Ibiza y Formentera: Moderate rain warning. Ibiza y Formentera (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     },
     {
