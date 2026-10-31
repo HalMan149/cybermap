@@ -1,7 +1,168 @@
-// Auto-generado por GitHub Actions - 2026-10-30T23:14:02.229Z
+// Auto-generado por GitHub Actions - 2026-10-31T02:23:23.014Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-10-30T23:14:02.229Z",
+  "generated_at": "2026-10-31T02:23:23.014Z",
   "source": "AEMET OpenData API",
-  "total_avisos": 0,
-  "avisos": []
+  "total_avisos": 20,
+  "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Litoral norte de Valencia",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral norte de Valencia",
+      "nivel": "Naranja",
+      "text": "Litoral norte de Valencia: Aviso de lluvias de nivel amarillo. Litoral norte de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral norte de Valencia",
+      "fenomeno": "Moderate rain warning. Litoral norte de Valencia",
+      "nivel": "Naranja",
+      "text": "Litoral norte de Valencia: Moderate rain warning. Litoral norte de Valencia (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Cumbres de La Palma",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Cumbres de La Palma",
+      "nivel": "Naranja",
+      "text": "Cumbres de La Palma: Aviso de tormentas de nivel amarillo. Cumbres de La Palma (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cumbres de La Palma",
+      "fenomeno": "Moderate thunderstorm warning. Cumbres de La Palma",
+      "nivel": "Naranja",
+      "text": "Cumbres de La Palma: Moderate thunderstorm warning. Cumbres de La Palma (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Este de La Palma",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Este de La Palma",
+      "nivel": "Naranja",
+      "text": "Este de La Palma: Aviso de tormentas de nivel amarillo. Este de La Palma (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Este de La Palma",
+      "fenomeno": "Moderate thunderstorm warning. Este de La Palma",
+      "nivel": "Naranja",
+      "text": "Este de La Palma: Moderate thunderstorm warning. Este de La Palma (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Oeste de La Palma",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Oeste de La Palma",
+      "nivel": "Naranja",
+      "text": "Oeste de La Palma: Aviso de tormentas de nivel amarillo. Oeste de La Palma (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Oeste de La Palma",
+      "fenomeno": "Moderate thunderstorm warning. Oeste de La Palma",
+      "nivel": "Naranja",
+      "text": "Oeste de La Palma: Moderate thunderstorm warning. Oeste de La Palma (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "El Hierro",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. El Hierro",
+      "nivel": "Naranja",
+      "text": "El Hierro: Aviso de lluvias de nivel amarillo. El Hierro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "El Hierro",
+      "fenomeno": "Moderate rain warning. El Hierro",
+      "nivel": "Naranja",
+      "text": "El Hierro: Moderate rain warning. El Hierro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "El Hierro",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. El Hierro",
+      "nivel": "Naranja",
+      "text": "El Hierro: Aviso de tormentas de nivel amarillo. El Hierro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "El Hierro",
+      "fenomeno": "Moderate thunderstorm warning. El Hierro",
+      "nivel": "Naranja",
+      "text": "El Hierro: Moderate thunderstorm warning. El Hierro (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "La Gomera",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. La Gomera",
+      "nivel": "Naranja",
+      "text": "La Gomera: Aviso de lluvias de nivel amarillo. La Gomera (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "La Gomera",
+      "fenomeno": "Moderate rain warning. La Gomera",
+      "nivel": "Naranja",
+      "text": "La Gomera: Moderate rain warning. La Gomera (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Área metropolitana de Tenerife",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Área metropolitana de Tenerife",
+      "nivel": "Naranja",
+      "text": "Área metropolitana de Tenerife: Aviso de lluvias de nivel amarillo. Área metropolitana de Tenerife (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Área metropolitana de Tenerife",
+      "fenomeno": "Moderate rain warning. Área metropolitana de Tenerife",
+      "nivel": "Naranja",
+      "text": "Área metropolitana de Tenerife: Moderate rain warning. Área metropolitana de Tenerife (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "La Gomera",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. La Gomera",
+      "nivel": "Naranja",
+      "text": "La Gomera: Aviso de tormentas de nivel amarillo. La Gomera (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "La Gomera",
+      "fenomeno": "Moderate thunderstorm warning. La Gomera",
+      "nivel": "Naranja",
+      "text": "La Gomera: Moderate thunderstorm warning. La Gomera (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⛈️",
+      "provincia": "Área metropolitana de Tenerife",
+      "fenomeno": "Aviso de tormentas de nivel amarillo. Área metropolitana de Tenerife",
+      "nivel": "Naranja",
+      "text": "Área metropolitana de Tenerife: Aviso de tormentas de nivel amarillo. Área metropolitana de Tenerife (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Área metropolitana de Tenerife",
+      "fenomeno": "Moderate thunderstorm warning. Área metropolitana de Tenerife",
+      "nivel": "Naranja",
+      "text": "Área metropolitana de Tenerife: Moderate thunderstorm warning. Área metropolitana de Tenerife (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    }
+  ]
 };
