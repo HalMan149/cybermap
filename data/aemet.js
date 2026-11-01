@@ -1,9 +1,73 @@
-// Auto-generado por GitHub Actions - 2026-11-01T07:29:06.994Z
+// Auto-generado por GitHub Actions - 2026-11-01T14:25:39.358Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-11-01T07:29:06.994Z",
+  "generated_at": "2026-11-01T14:25:39.358Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌧️",
+      "provincia": "Litoral de Barcelona",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral de Barcelona",
+      "nivel": "Naranja",
+      "text": "Litoral de Barcelona: Aviso de lluvias de nivel amarillo. Litoral de Barcelona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral de Barcelona",
+      "fenomeno": "Moderate rain warning. Litoral de Barcelona",
+      "nivel": "Naranja",
+      "text": "Litoral de Barcelona: Moderate rain warning. Litoral de Barcelona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Litoral norte de Tarragona",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral norte de Tarragona",
+      "nivel": "Naranja",
+      "text": "Litoral norte de Tarragona: Aviso de lluvias de nivel amarillo. Litoral norte de Tarragona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral norte de Tarragona",
+      "fenomeno": "Moderate rain warning. Litoral norte de Tarragona",
+      "nivel": "Naranja",
+      "text": "Litoral norte de Tarragona: Moderate rain warning. Litoral norte de Tarragona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Litoral de Barcelona",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral de Barcelona",
+      "nivel": "Naranja",
+      "text": "Litoral de Barcelona: Aviso de lluvias de nivel amarillo. Litoral de Barcelona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral de Barcelona",
+      "fenomeno": "Moderate rain warning. Litoral de Barcelona",
+      "nivel": "Naranja",
+      "text": "Litoral de Barcelona: Moderate rain warning. Litoral de Barcelona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Litoral norte de Tarragona",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Litoral norte de Tarragona",
+      "nivel": "Naranja",
+      "text": "Litoral norte de Tarragona: Aviso de lluvias de nivel amarillo. Litoral norte de Tarragona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Litoral norte de Tarragona",
+      "fenomeno": "Moderate rain warning. Litoral norte de Tarragona",
+      "nivel": "Naranja",
+      "text": "Litoral norte de Tarragona: Moderate rain warning. Litoral norte de Tarragona (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌊",
       "provincia": "Costa - Noroeste de A Coruña",
@@ -38,6 +102,54 @@ window.AEMET_AVISOS = {
     },
     {
       "icon": "🌧️",
+      "provincia": "Norte de Gran Canaria",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Norte de Gran Canaria",
+      "nivel": "Naranja",
+      "text": "Norte de Gran Canaria: Aviso de lluvias de nivel amarillo. Norte de Gran Canaria (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Norte de Gran Canaria",
+      "fenomeno": "Moderate rain warning. Norte de Gran Canaria",
+      "nivel": "Naranja",
+      "text": "Norte de Gran Canaria: Moderate rain warning. Norte de Gran Canaria (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Cumbres de Gran Canaria",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Cumbres de Gran Canaria",
+      "nivel": "Naranja",
+      "text": "Cumbres de Gran Canaria: Aviso de lluvias de nivel amarillo. Cumbres de Gran Canaria (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Cumbres de Gran Canaria",
+      "fenomeno": "Moderate rain warning. Cumbres de Gran Canaria",
+      "nivel": "Naranja",
+      "text": "Cumbres de Gran Canaria: Moderate rain warning. Cumbres de Gran Canaria (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Este, sur y oeste de Gran Canaria",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Este, sur y oeste de Gran Canaria",
+      "nivel": "Naranja",
+      "text": "Este, sur y oeste de Gran Canaria: Aviso de lluvias de nivel amarillo. Este, sur y oeste de Gran Canaria (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Este, sur y oeste de Gran Canaria",
+      "fenomeno": "Moderate rain warning. Este, sur y oeste de Gran Canaria",
+      "nivel": "Naranja",
+      "text": "Este, sur y oeste de Gran Canaria: Moderate rain warning. Este, sur y oeste de Gran Canaria (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
       "provincia": "Cumbres de La Palma",
       "fenomeno": "Aviso de lluvias de nivel amarillo. Cumbres de La Palma",
       "nivel": "Naranja",
@@ -50,118 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate rain warning. Cumbres de La Palma",
       "nivel": "Naranja",
       "text": "Cumbres de La Palma: Moderate rain warning. Cumbres de La Palma (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Este de La Palma",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Este de La Palma",
-      "nivel": "Naranja",
-      "text": "Este de La Palma: Aviso de lluvias de nivel amarillo. Este de La Palma (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Este de La Palma",
-      "fenomeno": "Moderate rain warning. Este de La Palma",
-      "nivel": "Naranja",
-      "text": "Este de La Palma: Moderate rain warning. Este de La Palma (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Oeste de La Palma",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Oeste de La Palma",
-      "nivel": "Naranja",
-      "text": "Oeste de La Palma: Aviso de lluvias de nivel amarillo. Oeste de La Palma (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Oeste de La Palma",
-      "fenomeno": "Moderate rain warning. Oeste de La Palma",
-      "nivel": "Naranja",
-      "text": "Oeste de La Palma: Moderate rain warning. Oeste de La Palma (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "La Gomera",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. La Gomera",
-      "nivel": "Naranja",
-      "text": "La Gomera: Aviso de lluvias de nivel amarillo. La Gomera (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "La Gomera",
-      "fenomeno": "Moderate rain warning. La Gomera",
-      "nivel": "Naranja",
-      "text": "La Gomera: Moderate rain warning. La Gomera (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "El Hierro",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. El Hierro",
-      "nivel": "Naranja",
-      "text": "El Hierro: Aviso de lluvias de nivel amarillo. El Hierro (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "El Hierro",
-      "fenomeno": "Moderate rain warning. El Hierro",
-      "nivel": "Naranja",
-      "text": "El Hierro: Moderate rain warning. El Hierro (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Norte de Tenerife",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Norte de Tenerife",
-      "nivel": "Naranja",
-      "text": "Norte de Tenerife: Aviso de lluvias de nivel amarillo. Norte de Tenerife (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Norte de Tenerife",
-      "fenomeno": "Moderate rain warning. Norte de Tenerife",
-      "nivel": "Naranja",
-      "text": "Norte de Tenerife: Moderate rain warning. Norte de Tenerife (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Área metropolitana de Tenerife",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Área metropolitana de Tenerife",
-      "nivel": "Naranja",
-      "text": "Área metropolitana de Tenerife: Aviso de lluvias de nivel amarillo. Área metropolitana de Tenerife (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Área metropolitana de Tenerife",
-      "fenomeno": "Moderate rain warning. Área metropolitana de Tenerife",
-      "nivel": "Naranja",
-      "text": "Área metropolitana de Tenerife: Moderate rain warning. Área metropolitana de Tenerife (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌧️",
-      "provincia": "Este, sur y oeste de Tenerife",
-      "fenomeno": "Aviso de lluvias de nivel amarillo. Este, sur y oeste de Tenerife",
-      "nivel": "Naranja",
-      "text": "Este, sur y oeste de Tenerife: Aviso de lluvias de nivel amarillo. Este, sur y oeste de Tenerife (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Este, sur y oeste de Tenerife",
-      "fenomeno": "Moderate rain warning. Este, sur y oeste de Tenerife",
-      "nivel": "Naranja",
-      "text": "Este, sur y oeste de Tenerife: Moderate rain warning. Este, sur y oeste de Tenerife (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
