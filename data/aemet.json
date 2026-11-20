@@ -1,6 +1,167 @@
 {
-  "generated_at": "2026-11-20T09:40:54.974Z",
+  "generated_at": "2026-11-20T18:00:06.567Z",
   "source": "AEMET OpenData API",
-  "total_avisos": 0,
-  "avisos": []
+  "total_avisos": 20,
+  "avisos": [
+    {
+      "icon": "💨",
+      "provincia": "Oeste de A Coruña",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Oeste de A Coruña",
+      "nivel": "Naranja",
+      "text": "Oeste de A Coruña: Aviso de vientos de nivel amarillo. Oeste de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Oeste de A Coruña",
+      "fenomeno": "Moderate wind warning. Oeste de A Coruña",
+      "nivel": "Naranja",
+      "text": "Oeste de A Coruña: Moderate wind warning. Oeste de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Suroeste de A Coruña",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Suroeste de A Coruña",
+      "nivel": "Naranja",
+      "text": "Suroeste de A Coruña: Aviso de vientos de nivel amarillo. Suroeste de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Suroeste de A Coruña",
+      "fenomeno": "Moderate wind warning. Suroeste de A Coruña",
+      "nivel": "Naranja",
+      "text": "Suroeste de A Coruña: Moderate wind warning. Suroeste de A Coruña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Rias Baixas",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Rias Baixas",
+      "nivel": "Naranja",
+      "text": "Rias Baixas: Aviso de vientos de nivel amarillo. Rias Baixas (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Rias Baixas",
+      "fenomeno": "Moderate wind warning. Rias Baixas",
+      "nivel": "Naranja",
+      "text": "Rias Baixas: Moderate wind warning. Rias Baixas (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "💨",
+      "provincia": "Miño de Pontevedra",
+      "fenomeno": "Aviso de vientos de nivel amarillo. Miño de Pontevedra",
+      "nivel": "Naranja",
+      "text": "Miño de Pontevedra: Aviso de vientos de nivel amarillo. Miño de Pontevedra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Miño de Pontevedra",
+      "fenomeno": "Moderate wind warning. Miño de Pontevedra",
+      "nivel": "Naranja",
+      "text": "Miño de Pontevedra: Moderate wind warning. Miño de Pontevedra (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Norte de Cáceres",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Norte de Cáceres",
+      "nivel": "Naranja",
+      "text": "Norte de Cáceres: Aviso de lluvias de nivel amarillo. Norte de Cáceres (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Norte de Cáceres",
+      "fenomeno": "Moderate rain warning. Norte de Cáceres",
+      "nivel": "Naranja",
+      "text": "Norte de Cáceres: Moderate rain warning. Norte de Cáceres (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Bierzo de León",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Bierzo de León",
+      "nivel": "Naranja",
+      "text": "Bierzo de León: Aviso de lluvias de nivel amarillo. Bierzo de León (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Bierzo de León",
+      "fenomeno": "Moderate rain warning. Bierzo de León",
+      "nivel": "Naranja",
+      "text": "Bierzo de León: Moderate rain warning. Bierzo de León (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Sanabria",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Sanabria",
+      "nivel": "Naranja",
+      "text": "Sanabria: Aviso de lluvias de nivel amarillo. Sanabria (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sanabria",
+      "fenomeno": "Moderate rain warning. Sanabria",
+      "nivel": "Naranja",
+      "text": "Sanabria: Moderate rain warning. Sanabria (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Meseta de Zamora",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Meseta de Zamora",
+      "nivel": "Naranja",
+      "text": "Meseta de Zamora: Aviso de lluvias de nivel amarillo. Meseta de Zamora (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Meseta de Zamora",
+      "fenomeno": "Moderate rain warning. Meseta de Zamora",
+      "nivel": "Naranja",
+      "text": "Meseta de Zamora: Moderate rain warning. Meseta de Zamora (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Meseta de Salamanca",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Meseta de Salamanca",
+      "nivel": "Naranja",
+      "text": "Meseta de Salamanca: Aviso de lluvias de nivel amarillo. Meseta de Salamanca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Meseta de Salamanca",
+      "fenomeno": "Moderate rain warning. Meseta de Salamanca",
+      "nivel": "Naranja",
+      "text": "Meseta de Salamanca: Moderate rain warning. Meseta de Salamanca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌧️",
+      "provincia": "Sistema Central de Salamanca",
+      "fenomeno": "Aviso de lluvias de nivel amarillo. Sistema Central de Salamanca",
+      "nivel": "Naranja",
+      "text": "Sistema Central de Salamanca: Aviso de lluvias de nivel amarillo. Sistema Central de Salamanca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Sistema Central de Salamanca",
+      "fenomeno": "Moderate rain warning. Sistema Central de Salamanca",
+      "nivel": "Naranja",
+      "text": "Sistema Central de Salamanca: Moderate rain warning. Sistema Central de Salamanca (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    }
+  ]
 }
