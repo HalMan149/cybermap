@@ -1,9 +1,73 @@
-// Auto-generado por GitHub Actions - 2026-11-27T20:18:03.033Z
+// Auto-generado por GitHub Actions - 2026-11-28T02:51:11.011Z
 window.AEMET_AVISOS = {
-  "generated_at": "2026-11-27T20:18:03.033Z",
+  "generated_at": "2026-11-28T02:51:11.011Z",
   "source": "AEMET OpenData API",
   "total_avisos": 20,
   "avisos": [
+    {
+      "icon": "🌊",
+      "provincia": "Vegas del Guadiana",
+      "fenomeno": "Aviso de nieblas de nivel amarillo. Vegas del Guadiana",
+      "nivel": "Naranja",
+      "text": "Vegas del Guadiana: Aviso de nieblas de nivel amarillo. Vegas del Guadiana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Vegas del Guadiana",
+      "fenomeno": "Moderate fog warning. Vegas del Guadiana",
+      "nivel": "Naranja",
+      "text": "Vegas del Guadiana: Moderate fog warning. Vegas del Guadiana (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "La Siberia extremeña",
+      "fenomeno": "Aviso de nieblas de nivel amarillo. La Siberia extremeña",
+      "nivel": "Naranja",
+      "text": "La Siberia extremeña: Aviso de nieblas de nivel amarillo. La Siberia extremeña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "La Siberia extremeña",
+      "fenomeno": "Moderate fog warning. La Siberia extremeña",
+      "nivel": "Naranja",
+      "text": "La Siberia extremeña: Moderate fog warning. La Siberia extremeña (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Barros y Serena",
+      "fenomeno": "Aviso de nieblas de nivel amarillo. Barros y Serena",
+      "nivel": "Naranja",
+      "text": "Barros y Serena: Aviso de nieblas de nivel amarillo. Barros y Serena (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Barros y Serena",
+      "fenomeno": "Moderate fog warning. Barros y Serena",
+      "nivel": "Naranja",
+      "text": "Barros y Serena: Moderate fog warning. Barros y Serena (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "🌊",
+      "provincia": "Tajo y Alagón",
+      "fenomeno": "Aviso de nieblas de nivel amarillo. Tajo y Alagón",
+      "nivel": "Naranja",
+      "text": "Tajo y Alagón: Aviso de nieblas de nivel amarillo. Tajo y Alagón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
+    {
+      "icon": "⚠️",
+      "provincia": "Tajo y Alagón",
+      "fenomeno": "Moderate fog warning. Tajo y Alagón",
+      "nivel": "Naranja",
+      "text": "Tajo y Alagón: Moderate fog warning. Tajo y Alagón (Naranja) (AEMET)",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
+    },
     {
       "icon": "🌊",
       "provincia": "Valle del Tajo",
@@ -98,70 +162,6 @@ window.AEMET_AVISOS = {
       "fenomeno": "Moderate fog warning. Vegas del Guadiana",
       "nivel": "Naranja",
       "text": "Vegas del Guadiana: Moderate fog warning. Vegas del Guadiana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Tajo y Alagón",
-      "fenomeno": "Aviso de nieblas de nivel amarillo. Tajo y Alagón",
-      "nivel": "Naranja",
-      "text": "Tajo y Alagón: Aviso de nieblas de nivel amarillo. Tajo y Alagón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Tajo y Alagón",
-      "fenomeno": "Moderate fog warning. Tajo y Alagón",
-      "nivel": "Naranja",
-      "text": "Tajo y Alagón: Moderate fog warning. Tajo y Alagón (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Vegas del Guadiana",
-      "fenomeno": "Aviso de nieblas de nivel amarillo. Vegas del Guadiana",
-      "nivel": "Naranja",
-      "text": "Vegas del Guadiana: Aviso de nieblas de nivel amarillo. Vegas del Guadiana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Vegas del Guadiana",
-      "fenomeno": "Moderate fog warning. Vegas del Guadiana",
-      "nivel": "Naranja",
-      "text": "Vegas del Guadiana: Moderate fog warning. Vegas del Guadiana (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "La Siberia extremeña",
-      "fenomeno": "Aviso de nieblas de nivel amarillo. La Siberia extremeña",
-      "nivel": "Naranja",
-      "text": "La Siberia extremeña: Aviso de nieblas de nivel amarillo. La Siberia extremeña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "La Siberia extremeña",
-      "fenomeno": "Moderate fog warning. La Siberia extremeña",
-      "nivel": "Naranja",
-      "text": "La Siberia extremeña: Moderate fog warning. La Siberia extremeña (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "🌊",
-      "provincia": "Barros y Serena",
-      "fenomeno": "Aviso de nieblas de nivel amarillo. Barros y Serena",
-      "nivel": "Naranja",
-      "text": "Barros y Serena: Aviso de nieblas de nivel amarillo. Barros y Serena (Naranja) (AEMET)",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
-    },
-    {
-      "icon": "⚠️",
-      "provincia": "Barros y Serena",
-      "fenomeno": "Moderate fog warning. Barros y Serena",
-      "nivel": "Naranja",
-      "text": "Barros y Serena: Moderate fog warning. Barros y Serena (Naranja) (AEMET)",
       "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos"
     }
   ]
